@@ -18,9 +18,9 @@ for foldername in foldernames:
                         is_header = False
                     if is_header == False:
                         if "<p " in line:
-                            line = line.replace("<p ", "<p uuid=\"{}\" ".format(uuid.uuid4()))
+                            line = line.replace("<p ", "<p id=\"{}\" ".format(uuid.uuid4()))
                         elif "<p>" in line:
-                            line = line.replace("<p>", "<p uuid=\"{}\">".format(uuid.uuid4()))
+                            line = line.replace("<p>", "<p id=\"{}\">".format(uuid.uuid4()))
                     else:
                         line = line.replace(old_names, new_names)
                     result += line
