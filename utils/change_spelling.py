@@ -1,3 +1,4 @@
+from prereform2modern import Processor
 def change_spelling(orig_text):
     text_res, changes, s_json = Processor.process_text(
     text=orig_text,
