@@ -1,3 +1,13 @@
+import unittest
+import urllib
+import urllib.request
+import re
+from lxml import etree
+import re
+import os
+import requests
+from io import StringIO
+
 class Tolstoy_fiction_and_essays_test(unittest.TestCase):
     def setUp(self):
         self.tests_dir = os.getcwd()
