@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+             <titleStmt>                
+                <title xml:id="{id}">
+                    Дневники и записные книжки. Tolstoy Digital
+                </title>
+                <title type="main">{title_N}</title>
+                <title type="sub">{title_T}</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML
+                    </resp>
+                    <name>
+                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+                    </name>                                 
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p>
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date>2015-2022</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                           {title_M}
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                          Полное собрание сочинений. Том {volume}
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date>{date_L}</date>
+                        </imprint>
+                        <biblScope unit="volume">{volume}</biblScope>
+                        <biblScope unit="page">{start_page_E}-{end_page_F}</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л.Н. Толстой. Полное собрание сочинений.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category ana="diaries">
+                        <catDesc>дневники</catDesc>
+                    </category>                                  
+                </taxonomy>
+            </classDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <creation>
+                {date_H}
+         </creation>          
+            <textClass> 
+                <catReF target="type" ana="diaries"/>
+           </textClass>
+        </profileDesc>
+    </teiHeader>
+    {text}
+</TEI>
+   
+    
