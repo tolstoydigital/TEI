@@ -97,9 +97,33 @@ def markup_choices_for_prereform_spelling(text):
     return ''.join(tokens)
 
   
-  
+def q_mark_correction(text:str):
+    '''функция для разметки редакторских сокращений со знаком вопроса такого вида:
+        ко[торого?]'''
+    pattern = re.compile(r'(<head.*?>[*, ]*)?(\s*(\w+?(\[[^<\[]+?\?\])\w*)\s*)(?!\">)(</head>)?')
+    choice_result = re.findall(pattern, text)
+    for result in choice_result:
+        sub_1 = re.escape(result[2])
+        sub_2 =  re.sub('\[.*?\]', '', result[2])
+        sub_3 = re.sub(r'\[|\]|\?', r'', result[2])
+
+        replacement = (f'<choice original_editorial_correction="{result[2]}">'
+                           f'<sic>{sub_2}</sic><corr cert="low">{sub_3}</corr></choice>')
+        reg_for_repl = f'(?<!="){sub_1}(?!">)'
+        #print(reg_for_repl)
+        #print(replacement)
+        
+        text = re.sub(reg_for_repl, replacement, text)
+
+    return text      
   
 def editor_changes(text:str):
+    # паттерн для примечаний, где слово Зачеркнуто выделено тегом hi
+    # Здесь есть вопрос: ([^>]+?) - мне нужно, чтобы в середине выражения матчилась и слова и теги <choice>,
+    # но не никакой другой открывающийся тег
+    pattern_hi = re.compile("(<note[^<]*?><div[^<]*?><head><ref[^<]*?>[^<]+?</ref></head><p[^<]*?>)<hi[^<]*?>(Зач\.[:;]|Зач[её]ркнуто[:;])</hi>([^>]+?)(</p></div></note>)")
+    text = pattern_hi.sub("\g<1><del>\g<3></del>\g<4>", text)
+
     #убрать все пропуски между тегами
     text = re.sub("\s{2,}|\n", "", text) 
     # [?] перед квадратными скобками
@@ -110,6 +134,7 @@ def editor_changes(text:str):
     text = re.sub("(<choice><reg>[^<>]+?</reg><orig>[^<>]+?</orig></choice>)\s+\[\?\]", "<unclear>\g<1></unclear>", text)
     # для [1 неразбор.]
     text = re.sub("\[([0-9])\s*не\s*разобр\.\]", "<gap reason='illegible' quantity='\g<1>' unit='word' />", text)
+    text = q_mark_correction(text)
     return text
 def change_editor_notes(file:str):
     tree = etree.parse(file)
