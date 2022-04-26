@@ -123,7 +123,8 @@ def editor_changes(text:str):
     # паттерн для примечаний, где слово Зачеркнуто выделено тегом hi
     # Здесь есть вопрос: ([^>]+?) - мне нужно, чтобы в середине выражения матчилась и слова и теги <choice>,
     # но не никакой другой открывающийся тег
-    pattern_hi = re.compile("(<note[^<]*?><div[^<]*?><head><ref[^<]*?>[^<]+?</ref></head><p[^<]*?>)<hi[^<]*?>(Зач\.[:;]|Зач[её]ркнуто[:;])</hi>([^>]+?)(</p>.*?</div></note>)")
+    pattern_hi = re.compile("(<note[^>]*?><div[^>]*?><head><ref[^>]*?>[^<]+?</ref></head><p[^>]*?>)<hi[^>]*?>(Зач\.[:;]|Зач[её]ркнуто[:;])</hi>(.*?(?=</p>))(</p>.*?</div></note>)")
+
     text = pattern_hi.sub("\g<1><del>\g<3></del>\g<4>", text)
 
    
@@ -142,7 +143,7 @@ def change_editor_notes(file:str):
     root = tree.getroot()
     text = etree.tostring(root, pretty_print=True, encoding="unicode")
     text = editor_changes(text)
-    new_root = etree.fromstring(text)
+    root = etree.fromstring(text)
     for note in root.findall(".//{http://www.tei-c.org/ns/1.0}note"):
         # для примечаний в самом теге note
 
@@ -164,7 +165,7 @@ def change_editor_notes(file:str):
                         p.text = re.sub("([Зз]ач\.[:;]|Зач[ёе]ркнуто[:;])\s*(.+)", "<del>\g<2></del>", p.text)
                         p.text = re.sub("&lt;(.+?)&gt;", "<del>\g<1></del>", p.text)
                     
-    Element_tree = etree.ElementTree(new_root)
+    Element_tree = etree.ElementTree(root)
     Element_tree.write(file, encoding = "utf-8", xml_declaration=True, pretty_print=True)
 def pipline():
     path = "/content/TEI/files_with_updated_headers"
