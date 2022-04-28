@@ -1,190 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v58_018_018_1910_02_17_2">
-                    Дневники и записные книжки. Tolstoy Digital
-                </title>
-                <title type="main">Дневник</title>
-                <title type="sub">Дневник 17 февраля 1910 г.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p>
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date>2015-2022</date>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           [Дневник 1910 г.]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 58
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date>1934</date>
-                        </imprint>
-                        <biblScope unit="volume">58</biblScope>
-                        <biblScope unit="page">18-18</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy>
-                    <category ana="diaries">
-                        <catDesc>дневники</catDesc>
-                    </category>                                  
-                </taxonomy>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date when="1910-02-17"/>
-         </creation>          
-            <textClass> 
-                <catReF target="type" ana="diaries"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0">
-        <body>
-          <p id="809c7a8f-8a04-433c-9476-d4b67090e8b7">
-            <pb n="18"/>
-          </p>
-          <div n="v58_n44" type="entry">
-            <opener>
-              <dateline>
-                <date resp="editor" when="1910-02-17">
-                  <hi>[17 февраля.]</hi>
-                </date>
-              </dateline>
-            </opener>
-            <p id="b70ba1cd-a09e-4cef-9e85-7644f45a1b7f" rend="left">
-              <choice original_editorial_correction="Ж[ивъ]">
-                <sic>Ж</sic>
-                <corr>
-                  <choice>
-                    <reg>Жив</reg>
-                    <orig>Живъ</orig>
-                  </choice>
-                </corr>
-              </choice>. <choice>
-                <reg>Получил</reg>
-                <orig>Получилъ</orig>
-              </choice> трогательное письмо <choice>
-                <reg>от</reg>
-                <orig>отъ</orig>
-              </choice>
-              <choice original_editorial_correction="кiевск[аго]">
-                <sic>
-                  <choice>
-                    <reg>киевск</reg>
-                    <orig>кiевск</orig>
-                  </choice>
-                </sic>
-                <corr>
-                  <choice>
-                    <reg>киевского</reg>
-                    <orig>кiевскаго</orig>
-                  </choice>
-                </corr>
-              </choice> студента, уговаривающее меня уйти <choice>
-                <reg>из</reg>
-                <orig>изъ</orig>
-              </choice> дома <choice>
-                <reg>в</reg>
-                <orig>въ</orig>
-              </choice>
-              <choice>
-                <reg>бедность</reg>
-                <orig>бѣдность</orig>
-              </choice>. Здоровье лучше. Все утро <choice>
-                <reg>поправлял</reg>
-                <orig>поправлялъ</orig>
-              </choice> письмо о <choice>
-                <reg>Будде</reg>
-                <orig>Буддѣ</orig>
-              </choice> и <choice>
-                <reg>отвечал</reg>
-                <orig>отвѣчалъ</orig>
-              </choice> письма. <choice>
-                <reg>Саше</reg>
-                <orig>Сашѣ</orig>
-              </choice> не лучше. <choice>
-                <reg>Креплюсь</reg>
-                <orig>Крѣплюсь</orig>
-              </choice>. <choice>
-                <reg>Сейчас</reg>
-                <orig>Сейчасъ</orig>
-              </choice> 6-й <choice>
-                <reg>час</reg>
-                <orig>часъ</orig>
-              </choice>. Немного <choice>
-                <reg>походил</reg>
-                <orig>походилъ</orig>
-              </choice> и <choice>
-                <reg>поспал</reg>
-                <orig>поспалъ</orig>
-              </choice>. <choice>
-                <reg>Вечером</reg>
-                <orig>Вечеромъ</orig>
-              </choice> тоже занимался. И все неясно <hi style="opdelimiter">
-                <choice>
-                  <reg>распределение</reg>
-                  <orig>распредѣленiе</orig>
-                </choice>.</hi>
-            </p>
-          </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v58_018_018_1910_02_17_2">Дневники и записные книжки. Tolstoy Digital</title>
+        <title type="main">Дневник</title>
+        <title type="sub">Дневник 17 февраля 1910 г.</title>
+        <author>Толстой Лев Николаевич</author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство</resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp>Подготовка TEI/XML</resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
+        </respStmt>
+        <funder>Проект «Слово Толстого»</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
+        </publisher>
+        <availability>
+          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
+        </availability>
+        <date>2015-2022</date>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич</author>
+            <title level="a">[Дневник 1910 г.]</title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 58</title>
+            <imprint>
+              <pubPlace>Москва</pubPlace>
+              <publisher>Государственное издательство «Художественная литература»</publisher>
+              <date>1934</date>
+            </imprint>
+            <biblScope unit="volume">58</biblScope>
+            <biblScope unit="page">18-18</biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category ana="diaries">
+            <catDesc>дневники</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1910-02-17"/>
+      </creation>
+      <textClass>
+        <catReF target="type" ana="diaries"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0">
+    <body>
+      <p id="809c7a8f-8a04-433c-9476-d4b67090e8b7">
+        <pb n="18"/>
+      </p>
+      <div n="v58_n44" type="entry">
+        <opener>
+          <dateline>
+            <date resp="editor" when="1910-02-17">
+              <hi>[17 февраля.]</hi>
+            </date>
+          </dateline>
+        </opener>
+        <p id="b70ba1cd-a09e-4cef-9e85-7644f45a1b7f" rend="left"><choice original_editorial_correction="Ж[ивъ]"><sic>Ж</sic><corr><choice><reg>Жив</reg><orig>Живъ</orig></choice></corr></choice>. <choice><reg>Получил</reg><orig>Получилъ</orig></choice> трогательное письмо <choice><reg>от</reg><orig>отъ</orig></choice><choice original_editorial_correction="кiевск[аго]"><sic><choice><reg>киевск</reg><orig>кiевск</orig></choice></sic><corr><choice><reg>киевского</reg><orig>кiевскаго</orig></choice></corr></choice> студента, уговаривающее меня уйти <choice><reg>из</reg><orig>изъ</orig></choice> дома <choice><reg>в</reg><orig>въ</orig></choice><choice><reg>бедность</reg><orig>бѣдность</orig></choice>. Здоровье лучше. Все утро <choice><reg>поправлял</reg><orig>поправлялъ</orig></choice> письмо о <choice><reg>Будде</reg><orig>Буддѣ</orig></choice> и <choice><reg>отвечал</reg><orig>отвѣчалъ</orig></choice> письма. <choice><reg>Саше</reg><orig>Сашѣ</orig></choice> не лучше. <choice><reg>Креплюсь</reg><orig>Крѣплюсь</orig></choice>. <choice><reg>Сейчас</reg><orig>Сейчасъ</orig></choice> 6-й <choice><reg>час</reg><orig>часъ</orig></choice>. Немного <choice><reg>походил</reg><orig>походилъ</orig></choice> и <choice><reg>поспал</reg><orig>поспалъ</orig></choice>. <choice><reg>Вечером</reg><orig>Вечеромъ</orig></choice> тоже занимался. И все неясно <hi style="opdelimiter"><choice><reg>распределение</reg><orig>распредѣленiе</orig></choice>.</hi></p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,116 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v48_016_016_1858_07_19">
-                    Дневники и записные книжки. Tolstoy Digital
-                </title>
-                <title type="main">Дневник</title>
-                <title type="sub">Дневник 19 июля 1858 г.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p>
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date>2015-2022</date>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           [Дневник 1858 г.]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 48
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date>1952</date>
-                        </imprint>
-                        <biblScope unit="volume">48</biblScope>
-                        <biblScope unit="page">16-16</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy>
-                    <category ana="diaries">
-                        <catDesc>дневники</catDesc>
-                    </category>                                  
-                </taxonomy>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date when="1858-07-19"/>
-         </creation>          
-            <textClass> 
-                <catReF target="type" ana="diaries"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0">
-        <body>
-          <p id="9ab9e46c-0562-447c-a2f5-9e60065a8753">
-            <pb n="16"/>
-          </p>
-          <div n="v48_n103" type="entry">
-            <opener>
-              <dateline>
-                <date resp="editor" when="1858-07-19">
-                  <hi>[19 июля.] С 16 Июня по 19 Июля.</hi>
-                </date>
-              </dateline>
-            </opener>
-            <p id="736e5d28-64c1-4fe5-a015-7c2b5e952869" rend="left"> Не пишу, не читаю, не думаю. Весь в хозяйстве. Сражение в полном разгаре. Мужики пробуют, упираются. Груманские пасмурны, но молчат. Я боюсь самого себя. Прежде незнакомое мне чувство мести начинает говорить во мне; и месть к миру. Боюсь несправедливости.... Талант мой — <hi>зависть.</hi> Получил письмо от Фета с статьей Continental Revue и письмо Чичерина. Нынче еду в Тулу! —</p>
-          </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v48_016_016_1858_07_19">Дневники и записные книжки. Tolstoy Digital</title>
+        <title type="main">Дневник</title>
+        <title type="sub">Дневник 19 июля 1858 г.</title>
+        <author>Толстой Лев Николаевич</author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство</resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp>Подготовка TEI/XML</resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
+        </respStmt>
+        <funder>Проект «Слово Толстого»</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
+        </publisher>
+        <availability>
+          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
+        </availability>
+        <date>2015-2022</date>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич</author>
+            <title level="a">[Дневник 1858 г.]</title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 48</title>
+            <imprint>
+              <pubPlace>Москва</pubPlace>
+              <publisher>Государственное издательство «Художественная литература»</publisher>
+              <date>1952</date>
+            </imprint>
+            <biblScope unit="volume">48</biblScope>
+            <biblScope unit="page">16-16</biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category ana="diaries">
+            <catDesc>дневники</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1858-07-19"/>
+      </creation>
+      <textClass>
+        <catReF target="type" ana="diaries"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0">
+    <body>
+      <p id="9ab9e46c-0562-447c-a2f5-9e60065a8753">
+        <pb n="16"/>
+      </p>
+      <div n="v48_n103" type="entry">
+        <opener>
+          <dateline>
+            <date resp="editor" when="1858-07-19">
+              <hi>[19 июля.] С 16 Июня по 19 Июля.</hi>
+            </date>
+          </dateline>
+        </opener>
+        <p id="736e5d28-64c1-4fe5-a015-7c2b5e952869" rend="left"> Не пишу, не читаю, не думаю. Весь в хозяйстве. Сражение в полном разгаре. Мужики пробуют, упираются. Груманские пасмурны, но молчат. Я боюсь самого себя. Прежде незнакомое мне чувство мести начинает говорить во мне; и месть к миру. Боюсь несправедливости.... Талант мой — <hi>зависть.</hi> Получил письмо от Фета с статьей Continental Revue и письмо Чичерина. Нынче еду в Тулу! —</p>
+      </div>
+    </body>
+  </text>
 </TEI>
