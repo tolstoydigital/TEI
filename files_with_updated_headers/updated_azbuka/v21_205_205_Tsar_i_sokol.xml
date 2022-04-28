@@ -1,153 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v21_205_205_Tsar_i_sokol">
-                    Азбука. Tolstoy Digital
-                </title>
-                <title type="main">Царь и сокол</title>
-                <title type="sub">Рассказ из  "Третьей русской книги для чтения"</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p>
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date>2015-2022</date>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Царь и сокол
-                        </title>
-                        <title level="s">
-                            Третья русская книга для чтения
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений.
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date>1957</date>     	 
-                        </imprint>
-                        <biblScope unit="volume">21</biblScope>
-                        <biblScope unit="page">205-205</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy>
-                    <category ana="works">
-                        <catDesc>произведения</catDesc>
-                    </category> 
-                    <category ana="fiction">
-                        <catDesc>художественные произведения</catDesc>
-                    </category> 
-                    <category ana="kids">
-                        <catDesc>произведения для детей</catDesc>
-                    </category>
-                    <category ana="publ">
-                        <catDesc>опубликованное при жизни</catDesc>
-                    </category>
-                    <category ana="finished">
-                        <catDesc>законченные произведения</catDesc>
-                    </category>
-                    <category ana="included">
-                       <catDesc>включено в одну из Азбук или Книг для чтения</catDesc>
-                    </category>
-                    </taxonomy>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date>
-                    1872
-                </date>
-         </creation>          
-            <textClass> 
-                <catRef target="type" ana="works"/>
-                <catRef target="sphere" ana="fiction"/>
-                <catRef target="genre" ana="kids"/>
-                <catRef target="finished" ana="finished"/>
-                <catRef target="published" ana="publ"/>
-                <catRef target="included" ana="included"/>
-                </textClass>
-        </profileDesc>
-    </teiHeader>
-   <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-        <body>
-          <div type="section" xml:id="h000013002">
-            <p id="c567a8a7-d191-4913-80d9-60b3eecd0148">
-              <pb n="205"/>
-            </p>
-            <head rend="center">
-         ЦАРЬ И СОКОЛ
-        </head>
-            <p rend="center" id="41b3774c-e39e-4879-ac17-4b997223c946">
-              <hi rend="italic">
-          (Басня)
-         </hi>
-            </p>
-            <p rend="left" id="5050ae43-6532-4f53-a4d2-22b8c75187c9">
-         Один царь на охоте пустил за зайцем любимого сокола и поскакал.
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v21_205_205_Tsar_i_sokol">Азбука. Tolstoy Digital</title>
+        <title type="main">Царь и сокол</title>
+        <title type="sub">Рассказ из"Третьей русской книги для чтения"</title>
+        <author>Толстой Лев Николаевич</author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство</resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp>Подготовка TEI/XML</resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
+        </respStmt>
+        <funder>Проект «Слово Толстого»</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
+        </publisher>
+        <availability>
+          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
+        </availability>
+        <date>2015-2022</date>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич</author>
+            <title level="a">Царь и сокол</title>
+            <title level="s">Третья русская книга для чтения</title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений.</title>
+            <imprint>
+              <pubPlace>Москва</pubPlace>
+              <publisher>Государственное издательство «Художественная литература»</publisher>
+              <date>1957</date>
+            </imprint>
+            <biblScope unit="volume">21</biblScope>
+            <biblScope unit="page">205-205</biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category ana="works">
+            <catDesc>произведения</catDesc>
+          </category>
+          <category ana="fiction">
+            <catDesc>художественные произведения</catDesc>
+          </category>
+          <category ana="kids">
+            <catDesc>произведения для детей</catDesc>
+          </category>
+          <category ana="publ">
+            <catDesc>опубликованное при жизни</catDesc>
+          </category>
+          <category ana="finished">
+            <catDesc>законченные произведения</catDesc>
+          </category>
+          <category ana="included">
+            <catDesc>включено в одну из Азбук или Книг для чтения</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>1872</date>
+      </creation>
+      <textClass>
+        <catRef target="type" ana="works"/>
+        <catRef target="sphere" ana="fiction"/>
+        <catRef target="genre" ana="kids"/>
+        <catRef target="finished" ana="finished"/>
+        <catRef target="published" ana="publ"/>
+        <catRef target="included" ana="included"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <body>
+      <div type="section" xml:id="h000013002">
+        <p id="c567a8a7-d191-4913-80d9-60b3eecd0148">
+          <pb n="205"/>
         </p>
-            <p rend="left" id="af0af9e9-1f33-41a1-942d-4aac4faca1e4">
-         Сокол поймал зайца. Царь отнял зайца и стал искать воды, где бы напиться. В бугре царь нашел воду. Только она по капле капала. Вот царь достал чашу с седла и подставил под воду. Вода текла по капле, и когда чаша набралась полная, царь поднял ее ко рту и хотел пить. Вдруг сокол встрепенулся на руке у царя, забил крыльями и выплеснул воду. Царь опять подставил чашу. Он долго ждал, пока она наберется вровень с краями, и опять, когда он стал подносить ее ко рту, сокол затрепыхался и разлил воду.
+        <head rend="center">ЦАРЬ И СОКОЛ</head>
+        <p rend="center" id="41b3774c-e39e-4879-ac17-4b997223c946">
+          <hi rend="italic">(Басня)</hi>
         </p>
-            <p rend="left" id="03e123f9-23e9-47a1-a76d-57ae14012823">
-         Когда в третий раз царь набрал полную чашу и стал подносить ее к губам, сокол опять разлил ее. Царь рассердился и, со всего размаха ударив сокола об камень, убил его. Тут подъехали царские слуги, и один из них побежал вверх к роднику, чтобы найти побольше воды и скорее набрать полную чашу. Только и слуга не принес воды; он вернулся с пустой чашкой и сказал: «Ту воду нельзя пить: в роднике змея, и она выпустила свой яд в воду. Хорошо, что сокол разлил воду. Если бы ты выпил этой воды, ты бы умер».
-        </p>
-            <p rend="left" id="5e14044f-a22f-49b5-8eaf-db3e16a7b9d6">
-         Царь сказал: «Дурно же я отплатил соколу: он спас мне жизнь, а я убил его».
-        </p>
-          </div>
-        </body>
-    </text>
+        <p rend="left" id="5050ae43-6532-4f53-a4d2-22b8c75187c9">Один царь на охоте пустил за зайцем любимого сокола и поскакал.</p>
+        <p rend="left" id="af0af9e9-1f33-41a1-942d-4aac4faca1e4">Сокол поймал зайца. Царь отнял зайца и стал искать воды, где бы напиться. В бугре царь нашел воду. Только она по капле капала. Вот царь достал чашу с седла и подставил под воду. Вода текла по капле, и когда чаша набралась полная, царь поднял ее ко рту и хотел пить. Вдруг сокол встрепенулся на руке у царя, забил крыльями и выплеснул воду. Царь опять подставил чашу. Он долго ждал, пока она наберется вровень с краями, и опять, когда он стал подносить ее ко рту, сокол затрепыхался и разлил воду.</p>
+        <p rend="left" id="03e123f9-23e9-47a1-a76d-57ae14012823">Когда в третий раз царь набрал полную чашу и стал подносить ее к губам, сокол опять разлил ее. Царь рассердился и, со всего размаха ударив сокола об камень, убил его. Тут подъехали царские слуги, и один из них побежал вверх к роднику, чтобы найти побольше воды и скорее набрать полную чашу. Только и слуга не принес воды; он вернулся с пустой чашкой и сказал: «Ту воду нельзя пить: в роднике змея, и она выпустила свой яд в воду. Хорошо, что сокол разлил воду. Если бы ты выпил этой воды, ты бы умер».</p>
+        <p rend="left" id="5e14044f-a22f-49b5-8eaf-db3e16a7b9d6">Царь сказал: «Дурно же я отплатил соколу: он спас мне жизнь, а я убил его».</p>
+      </div>
+    </body>
+  </text>
 </TEI>

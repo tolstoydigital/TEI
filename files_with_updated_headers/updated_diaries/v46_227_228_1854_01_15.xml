@@ -1,223 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v46_227_228_1854_01_15">
-                    Дневники и записные книжки. Tolstoy Digital
-                </title>
-                <title type="main">Тетрадь Г. Дневник  </title>
-                <title type="sub">Дневник 15 января 1854 г.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p>
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date>2015-2022</date>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           [Тетрадь Г. Дневник 1851—1854]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 46
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date>1937</date>
-                        </imprint>
-                        <biblScope unit="volume">46</biblScope>
-                        <biblScope unit="page">227-228</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy>
-                    <category ana="diaries">
-                        <catDesc>дневники</catDesc>
-                    </category>                                  
-                </taxonomy>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date when="1854-01-15"/>
-         </creation>          
-            <textClass> 
-                <catReF target="type" ana="diaries"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0">
-        <body>
-          <p id="90a3fd8a-6ed0-4ebc-a0e0-23e55d5c4867">
-            <pb n="227"/>
-          </p>
-          <div n="v46_n572" type="entry">
-            <opener>
-              <dateline>
-                <date resp="LNT" when="1854-01-15">
-                  <hi>15 Генваря. Отрочество утро и <choice>
-                      <reg>вечер</reg>
-                      <orig>вечеръ</orig>
-                    </choice>
-                  </hi>
-                </date>
-              </dateline>
-            </opener>
-            <p id="32956991-b0e3-4281-a567-ad84d4936fdc" rend="left">. <choice>
-                <reg>Утром</reg>
-                <orig>Утромъ</orig>
-              </choice>
-              <hi style="opdelimiter">
-                <choice>
-                  <reg>окончил</reg>
-                  <orig>окончилъ</orig>
-                </choice>
-              </hi>
-              <pb n="228"/>
-              <hi style="npdelimiter">
-                <choice original_editorial_correction="П[ѣснь]">
-                  <sic>П</sic>
-                  <corr>
-                    <choice>
-                      <reg>Песнь</reg>
-                      <orig>Пѣснь</orig>
-                    </choice>
-                  </corr>
-                </choice>
-              </hi>
-              <choice original_editorial_correction="Л[ебедя]">
-                <sic>Л</sic>
-                <corr>Лебедя</corr>
-              </choice>. Офицеры много <choice>
-                <reg>мешали</reg>
-                <orig>мѣшали</orig>
-              </choice>. <choice>
-                <reg>Алексеев</reg>
-                <orig>Алексѣевъ</orig>
-              </choice>
-              <choice>
-                <reg>предложил</reg>
-                <orig>предложилъ</orig>
-              </choice>
-              <choice>
-                <reg>мне</reg>
-                <orig>мнѣ</orig>
-              </choice>
-              <choice>
-                <reg>денег</reg>
-                <orig>денегъ</orig>
-              </choice>. <choice>
-                <reg>Штигельман</reg>
-                <orig>Штигельманъ</orig>
-              </choice>
-              <choice>
-                <reg>приехал</reg>
-                <orig>прiѣхалъ</orig>
-              </choice> и <choice>
-                <reg>мешает</reg>
-                <orig>мѣшаетъ</orig>
-              </choice>
-              <choice>
-                <reg>мне</reg>
-                <orig>мнѣ</orig>
-              </choice>. 1) Тщеславился. 2)<note exclude="true" resp="volume_editor" xml:id="note1022">
-                <hi>Зачеркнуто:</hi>
-                <choice>
-                  <reg>лен</reg>
-                  <orig>лѣн</orig>
-                </choice>
-              </note>
-              <choice original_editorial_correction="Б[ылъ]">
-                <sic>Б</sic>
-                <corr>
-                  <choice>
-                    <reg>Был</reg>
-                    <orig>Былъ</orig>
-                  </choice>
-                </corr>
-              </choice>
-              <choice>
-                <reg>нерешителен</reg>
-                <orig>нерѣшителенъ</orig>
-              </choice>. Больше не помню, но было.</p>
-            <p id="9ab0c745-f12d-471d-90d1-44ac1439346d" rend="left">
-              <hi>Чихирю 2 осьм</hi>[<hi>ушки</hi>]<hi> 15 к</hi>., <hi>
-                <choice>
-                  <reg>хлеба</reg>
-                  <orig>хлѣба</orig>
-                </choice> 2 фунта 6 к</hi>. <hi>Итого 21 к</hi>. <hi>Остат</hi>[<hi>
-                <choice>
-                  <reg>ок</reg>
-                  <orig>окъ</orig>
-                </choice>
-              </hi>] 8—90. — Долгу 103—57 к.</p>
-            <p id="2e0b9e8e-ffdb-4f6c-b2f8-17606bd6d080" rend="left">
-              <hi>Соб</hi>[<hi>
-                <choice>
-                  <reg>ытия</reg>
-                  <orig>ытiя</orig>
-                </choice>
-              </hi>] <hi>и происш</hi>[<hi>
-                <choice>
-                  <reg>ествия</reg>
-                  <orig>ествiя</orig>
-                </choice>
-              </hi>]<hi>. <choice>
-                  <reg>Отступления</reg>
-                  <orig>Отступленiя</orig>
-                </choice>
-              </hi>]<hi>. Счеты</hi>.</p>
-          </div>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v46_227_228_1854_01_15">Дневники и записные книжки. Tolstoy Digital</title>
+        <title type="main">Тетрадь Г. Дневник</title>
+        <title type="sub">Дневник 15 января 1854 г.</title>
+        <author>Толстой Лев Николаевич</author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство</resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp>Подготовка TEI/XML</resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
+        </respStmt>
+        <funder>Проект «Слово Толстого»</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
+        </publisher>
+        <availability>
+          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
+        </availability>
+        <date>2015-2022</date>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич</author>
+            <title level="a">[Тетрадь Г. Дневник 1851—1854]</title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 46</title>
+            <imprint>
+              <pubPlace>Москва</pubPlace>
+              <publisher>Государственное издательство «Художественная литература»</publisher>
+              <date>1937</date>
+            </imprint>
+            <biblScope unit="volume">46</biblScope>
+            <biblScope unit="page">227-228</biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category ana="diaries">
+            <catDesc>дневники</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1854-01-15"/>
+      </creation>
+      <textClass>
+        <catReF target="type" ana="diaries"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0">
+    <body>
+      <p id="90a3fd8a-6ed0-4ebc-a0e0-23e55d5c4867">
+        <pb n="227"/>
+      </p>
+      <div n="v46_n572" type="entry">
+        <opener>
+          <dateline>
+            <date resp="LNT" when="1854-01-15">
+              <hi>15 Генваря. Отрочество утро и <choice><reg>вечер</reg><orig>вечеръ</orig></choice></hi>
+            </date>
+          </dateline>
+        </opener>
+        <p id="32956991-b0e3-4281-a567-ad84d4936fdc" rend="left">. <choice><reg>Утром</reg><orig>Утромъ</orig></choice><hi style="opdelimiter"><choice><reg>окончил</reg><orig>окончилъ</orig></choice></hi><pb n="228"/><hi style="npdelimiter"><choice original_editorial_correction="П[ѣснь]"><sic>П</sic><corr><choice><reg>Песнь</reg><orig>Пѣснь</orig></choice></corr></choice></hi><choice original_editorial_correction="Л[ебедя]"><sic>Л</sic><corr>Лебедя</corr></choice>. Офицеры много <choice><reg>мешали</reg><orig>мѣшали</orig></choice>. <choice><reg>Алексеев</reg><orig>Алексѣевъ</orig></choice><choice><reg>предложил</reg><orig>предложилъ</orig></choice><choice><reg>мне</reg><orig>мнѣ</orig></choice><choice><reg>денег</reg><orig>денегъ</orig></choice>. <choice><reg>Штигельман</reg><orig>Штигельманъ</orig></choice><choice><reg>приехал</reg><orig>прiѣхалъ</orig></choice> и <choice><reg>мешает</reg><orig>мѣшаетъ</orig></choice><choice><reg>мне</reg><orig>мнѣ</orig></choice>. 1) Тщеславился. 2)<note exclude="true" resp="volume_editor" xml:id="note1022"><hi>Зачеркнуто:</hi><choice><reg>лен</reg><orig>лѣн</orig></choice></note><choice original_editorial_correction="Б[ылъ]"><sic>Б</sic><corr><choice><reg>Был</reg><orig>Былъ</orig></choice></corr></choice><choice><reg>нерешителен</reg><orig>нерѣшителенъ</orig></choice>. Больше не помню, но было.</p>
+        <p id="9ab0c745-f12d-471d-90d1-44ac1439346d" rend="left"><hi>Чихирю 2 осьм</hi>[<hi>ушки</hi>]<hi> 15 к</hi>., <hi><choice><reg>хлеба</reg><orig>хлѣба</orig></choice> 2 фунта 6 к</hi>. <hi>Итого 21 к</hi>. <hi>Остат</hi>[<hi><choice><reg>ок</reg><orig>окъ</orig></choice></hi>] 8—90. — Долгу 103—57 к.</p>
+        <p id="2e0b9e8e-ffdb-4f6c-b2f8-17606bd6d080" rend="left"><hi>Соб</hi>[<hi><choice><reg>ытия</reg><orig>ытiя</orig></choice></hi>] <hi>и происш</hi>[<hi><choice><reg>ествия</reg><orig>ествiя</orig></choice></hi>]<hi>. <choice><reg>Отступления</reg><orig>Отступленiя</orig></choice></hi>]<hi>. Счеты</hi>.</p>
+      </div>
+    </body>
+  </text>
 </TEI>
