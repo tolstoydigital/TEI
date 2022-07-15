@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -6,7 +5,7 @@
                 <title xml:id="v27_691_692_Predislovie_k_knige_d_ra_meditsiny_Alisy">
                     Комментарии. Tolstoy Digital
                 </title>
-                <title type="main">nan</title>
+                <title type="main">«Предисловие к книге д-ра медицины Алисы Стокгэм “Токология или наука о рождении детей”». Комментарий</title>
                 <author>H. Н. Гусев и В. Д. Пестова</author>
                 <respStmt>
                     <resp>Идея, постановка задач, руководство</resp>
@@ -81,19 +80,25 @@
         <encodingDesc>
             <classDecl>
                 <taxonomy>
-                    <category ana="сomments">
+                    <category ana="comments">
                         <catDesc>комментарии</catDesc>
-                    </category>                                  
-                </taxonomy>
+                    </category>
+                    <category ana="comments_works">
+                        <catDesc>комментарии к произведениям</catDesc>
+                    </category> 
+                    </taxonomy>
             </classDecl>
         </encodingDesc> 
         <profileDesc>                 
             <textClass> 
-                <catReF target="type" ana="comments"/>
+                <catRef target="type" ana="comments"/>
+           </textClass>
+            <textClass>
+                <catRef target="comments_type" ana="comments_works"/>
            </textClass>
         </profileDesc>
     </teiHeader>
-    <text>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <body>
       <div type="section" id="h000016008">
        <pb n="691"/>
@@ -168,5 +173,3 @@
     </body>
   </text>
 </TEI>
-   
-    
