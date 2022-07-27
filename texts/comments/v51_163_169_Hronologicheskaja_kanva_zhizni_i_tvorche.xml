@@ -1,2493 +1,1648 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v51_163_169_Hronologicheskaja_kanva_zhizni_i_tvorche">
-                    Комментарии. Tolstoy Digital
-                </title>
-                <title type="main">Хронологическая канва жизни и творчества Л. Н. Толстого за 1890 г.</title>
-                <author>К. С. Шохор и Н. С. Родионов</author>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                         Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p>
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Хронологическая канва жизни и творчества Л. Н. Толстого за 1890 г.
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 51
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1952"/>
-                        </imprint>
-                        <biblScope unit="volume">51</biblScope>
-                        <biblScope unit="page">163-169</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy>
-                    <category ana="comments">
-                        <catDesc>комментарии</catDesc>
-                    </category>
-                    <category ana="chrono">
-                        <catDesc>хронологические комментарии</catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>                 
-            <textClass> 
-                <catRef target="type" ana="comments"/>
-           </textClass>
-            <textClass>
-                <catRef target="comments_type" ana="chrono"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v51_163_169_Hronologicheskaja_kanva_zhizni_i_tvorche">Комментарии. Tolstoy Digital</title>
+        <title type="main">Хронологическая канва жизни и творчества Л. Н. Толстого за 1890 г.</title>
+        <author>К. С. Шохор и Н. С. Родионов</author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство</resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp>Подготовка TEI/XML</resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
+        </respStmt>
+        <funder>Проект «Слово Толстого»</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
+        </publisher>
+        <availability>
+          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
+        </availability>
+        <date from="2015" to="2022"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич</author>
+            <title level="a">Хронологическая канва жизни и творчества Л. Н. Толстого за 1890 г.</title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 51</title>
+            <imprint>
+              <pubPlace>Москва</pubPlace>
+              <publisher>Государственное издательство «Художественная литература»</publisher>
+              <date when="1952"/>
+            </imprint>
+            <biblScope unit="volume">51</biblScope>
+            <biblScope unit="page">163-169</biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category ana="comments">
+            <catDesc>комментарии</catDesc>
+          </category>
+          <category ana="chrono">
+            <catDesc>хронологические комментарии</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="type" ana="comments"/>
+      </textClass>
+      <textClass>
+        <catRef target="comments_type" ana="chrono"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <body>
       <div type="section" id="ref6">
-       <pb n="163"/>
-       <h2 class="center">
-        КРАТКАЯ ХРОНОЛОГИЧЕСКАЯ КАНВА ЖИЗНИ И ТВОРЧЕСТВА Л. Н. ТОЛСТОГО за 1890 г.
-       </h2>
-       <p rend="subtitle centerline" id="8e61fba0-8593-4e7c-92f4-234e18adef0b">
-        <hi rend="italic">
-         Даты, источником которых является содержание данного тома, не документируются.
-        </hi>
-       </p>
-       <lb/>
-       <table>
-        <tbody>
-         <tr>
-          <td class="w20">
-           <p rend="notindent" id="4dd5e682-4abb-459f-b5fa-f7fd49fc399d">
-            Январь
-           </p>
-          </td>
-          <td class="w20">
-           <p rend="notindent" id="6d6c5f78-4723-46bd-85a5-2e877dcc9a30">
-            2
-           </p>
-          </td>
-          <td class="w60">
-           <p rend="notindent" id="82d26e45-0dec-4eac-9a63-f02098459958">
-            Чтение книги Минского «При свете совести».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="a09531aa-2b94-4ecc-a788-826354bfbd52">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="5e0c36cc-77e8-405e-8c55-a6c7070c03e9">
-            3
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="80d4f7a9-f8ea-46cf-906c-10d897d672c6">
-            Исправление составленного В. Г. Чертковым изложения «О жизни».
-           </p>
-           <p rend="notindent" id="ec3d09c4-e491-4788-b156-586f26a7893d">
-            Толстой «начал было Коневскую повесть».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td rowspan="3">
-           <p rend="notindent" id="4f0b1c54-2fd8-47ae-8673-39a1e39f11ae">
-            »
-           </p>
-          </td>
-          <td rowspan="3">
-           <p rend="notindent" id="0452d4f4-25b7-4248-b018-5a0211205df1">
-            4
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="7745c231-95d8-44cd-b73b-cecdcd619f60">
-            Толстой выразил желание написать для «Газеты А. Гатцука» заметку к 12 января по поводу традиционного праздника Московского университета (письмо И. И. Родзевича от 7 января).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="0d8febd9-d3ad-4c76-be72-3a5b4aae7c8b">
-            «Придумывал подробности» к комедии «Плоды просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="0cc0958b-c186-4e98-a72c-67cb0edcedc5">
-            Толстой рассказал молодежи «про зеленую палочку и муравейных братьев».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="dd061814-c28a-4eb7-a1bc-f9332f38ff50">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8059be09-a8d1-4c66-9f32-7ff90360394a">
-            9
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="148e661f-1dc2-40d5-b302-a5992347d4b1">
-            Получено письмо об избиении политических заключенных на Каре.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td rowspan="2">
-           <p rend="notindent" id="dfab02d4-f741-4ffc-9575-b8f8b06979ce">
-            »
-           </p>
-          </td>
-          <td rowspan="2">
-           <p rend="notindent" id="f0445178-1423-458e-a7ac-230a2e64255c">
-            10
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="2966f24f-b4b0-4a9e-a2dd-9329a79d7ba8">
-            Запись в Дневнике: «Два дня возился с комедией — всё вписывал то, что приходило в голову. Странно <choice original_editorial_correction="художеств[енным]"><sic>художеств</sic><corr>художественным</corr></choice> увлечен».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="3de83d1d-8837-47a1-ad92-ddc63355225e">
-            Первое представление на русской сцене драмы «Власть тьмы»: любительский спектакль в доме А. В. и В. И. Приселковых в Петербурге («Новое время», 1890, № 4983 от 12 января).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="b95682ef-6ed2-4bab-96c9-eb088459e108">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="d168475a-8b34-4b35-8138-66450b73c6dc">
-            11, 12, 16, 17,
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="677ee8e7-b6cb-4f2e-96e1-c83a3e45cafa">
-            Толстой в школе для крестьянских детей.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="eaffd714-70df-4c23-b76d-0507476c4092">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="7a8654e3-50ff-4edf-bf95-c99e3ad831c5">
-            22, 25
-           </p>
-          </td>
-          <td>
-           <lb/>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="21ed0b86-dd7b-4e59-9758-591bb3861797">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="88e51e03-93d5-48ad-8370-32f29a3f03bd">
-            11, 13, 17, 18
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b21f7fa4-2597-4bd9-93a3-606dabdba38a">
-            Работа над «Плодами просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td rowspan="2">
-           <p rend="notindent" id="56016721-4fe7-4bd3-ba75-e1e4428e9964">
-            »
-           </p>
-          </td>
-          <td rowspan="2">
-           <p rend="notindent" id="d9fde7af-3b22-4489-a52c-e894196e0870">
-            14
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="da382e4c-fc52-4d5d-bbae-4a10f19c521f">
-            Чтение Толстым вслух комедии «Плоды просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="ffcce19a-f9ce-4da1-bb28-9c84b57685bc">
-            Передача Толстым рукописи «Крейцеровой сонаты» Н. И. Стороженко для напечатания в сборнике
-           </p>
-          </td>
-         </tr>
-        </tbody>
-       </table>
-       <p rend="left tblbtw" id="f8b87d85-8df0-4e98-9a8f-fed14a0a6d83">
-        <hi rend="opnumber">
-         163
-        </hi>
-        <pb n="164"/>
-       </p>
-       <table>
-        <tbody>
-         <tr>
-          <td class="w20" rowspan="2">
-           <p rend="notindent" id="76e338b9-184f-4eca-8626-b88d3239ae09">
-            Январь
-           </p>
-          </td>
-          <td class="w20" rowspan="2">
-           <p rend="notindent" id="3eb6437f-9667-48a6-9da2-f0283f9522a6">
-            18—22, 24, 25
-           </p>
-          </td>
-          <td class="w60">
-           <p rend="notindent" id="6fb1b578-efb7-403c-be95-4cb228b084f8">
-            «В память С. А. Юрьева» (письмо к А. И. Эртелю от 15 января).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="0547afcf-e768-4830-b154-5713cae6e7bc">
-            Исправление комедии «Плоды просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="2d16d6d2-6491-45f7-9581-af84dffebefa">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="175dc8e8-0489-4505-9692-7b5bb2ee69e1">
-            около 22
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c1ba7604-5d79-4be4-8faa-33d255110451">
-            Посещение Н. Н. Страховым Победоносцева в связи с вопросом о печатании «Крейцеровой сонаты» (письмо Страхова к С. А. Толстой от 22 января 1890 г.).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="689eacf3-cfa0-47dd-9aa7-c3ec8e79e284">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b009f7bc-2bfe-49a2-a874-192fc9e82b68">
-            23(?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="3a727aa7-7aca-4a9e-8814-820fd349c10e">
-            Попытка писать «Коневскую повесть».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="46fc50dd-d174-4ac3-b054-c0d4e6cd4f01">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="49192be9-bf21-4d74-978d-ac8785eb2398">
-            24
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="3e32c214-425a-4dfc-acda-cef2408f5d0a">
-            Толстой ездил в Тулу встретить Н. С. Лескова и В. Г. Черткова.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="d716c655-5532-4fad-b091-6b6454287958">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="843f741d-1544-4c5e-aaac-ccbb5be15c75">
-            25
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b1fbd63d-2344-4968-abf6-84175ca89a53">
-            Чтение Толстым вслух Лескову и Черткову комедии «Плоды просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="8dbb527c-608f-4ddc-a9e8-0f9774b884b1">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="153e304a-be42-4c7a-9c26-ea86d2e67fc5">
-            26
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="9bfa1ce4-c0dd-4b93-bb87-5bd337b512c8">
-            Толстой до Тулы провожал Лескова.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="8e114fb9-ba05-48a1-8c73-6af3b15139f3">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ea69af2f-ba43-4b3a-8a9b-c3e49851ab88">
-            27
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="30b347a5-6210-477b-ad4e-7945afa47f57">
-            Разговор с В. Г. Чертковым «об искусстве и смерти»; записи об этом в Дневнике.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="216b770c-1d14-4be3-9990-0cf8f91ff5c9">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8c2a7551-3dd5-4438-b304-1e9eb71e4049">
-            27—30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="786b9fef-143d-44eb-b102-5026b90113a0">
-            Работа над второй редакцией «Послесловия к «Крейцеровой сонате».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="46289387-bb59-47ea-8caf-2a49ca8c266d">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="fcf22a39-6e93-47fb-bc03-414dfa97d744">
-            28—30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="15631e8e-90d7-440c-a811-b03f9538c88d">
-            Пребывание у Толстого Н. Н. Ге, привезшего рисунок картины «Что есть истина?».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="6b96b3f1-56fd-47d9-9cf7-1ab98299ac50">
-            Февраль
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="1381e3fe-71cc-4d52-af49-bc2cc65c948a">
-            2
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="e42b507a-c0e2-4651-93fa-ae9d77e70de1">
-            Написано предисловие к переводу книги А. Стокгэм «Токология».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="70337d04-a640-4334-a05c-4d169fa8fe86">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="a68536ed-759c-4d6e-9dff-5f6048eed024">
-            2—4
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="0eb11f18-f208-4194-aa15-bdd7eff5212e">
-            Толстой с дочерью Татьяной Львовной в Пирогове.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="e29f111c-0043-45a3-9945-240eae5be556">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="0f85994f-5140-4d53-92c0-01c5a26e7091">
-            3, 4, 5, 23 (?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8b37b9dc-3ac6-4f51-b574-2cfcde7806a9">
-            Работа над «Послесловием к «Крейцеровой сонате».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="7cb2ee4f-f6d8-499f-94c6-0978faaedd62">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="796b8bc3-ced1-4ff4-b909-76f1c2c16d79">
-            3
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="854eaaf2-a13a-4c2d-bc09-d00acea63df1">
-            Первая запись в Дневнике к повести «Отец Сергий».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <lb/>
-          </td>
-          <td>
-           <lb/>
-          </td>
-          <td>
-           <p rend="notindent" id="d2d47079-eabc-48f2-9e25-28e34b27542c">
-            Поездка из Пирогова с молодежью в село Царево на ярмарку.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="d99e405b-459c-43c6-a242-46201af007d0">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="86a52f69-a2c4-4b6d-8af8-a03e98699f12">
-            5
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="2b7995ef-0216-41e3-b706-83ec4b3541be">
-            «Был в школе».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <lb/>
-          </td>
-          <td>
-           <lb/>
-          </td>
-          <td>
-           <p rend="notindent" id="a444cae1-af00-4483-b446-fbb68b15d897">
-            Записи в Дневнике к «драме о жизни» («И свет во тьме светит»).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="f1e94d6c-af4e-40d6-9ded-b7023f8bc947">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c19b5bd9-0810-486c-9adb-147ef52b6b5d">
-            7—9 (?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="87197376-e030-44cc-9022-f115bdad2b9f">
-            Работа над «Плодами просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="388da2cd-a5b1-4433-91e5-480242e4c772">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="984db201-fc5b-4b7d-a61c-3f7aaffde217">
-            11, 16, 21
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ed8f29fc-6097-46a5-8301-1c72518b27be">
-            Ряд записей в Дневнике и Записной книжке о работе над «Коневскою повестью».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="bddd3575-d48d-4bf3-a026-1629a9a76dfe">
-            <hi rend="italic">
-             »
-            </hi>
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="fcbc2162-44f6-4591-a7cf-939a9c993afa">
-            17
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="bcc64700-aade-4b27-88a2-487415cbef8a">
-            Толстой начал статью по поводу дела Скублинской: «обвинительный акт правительству, церкви и общественному мнению».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="eb6fbbf8-1e60-4a0a-8b8d-c523b62da356">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="64cc68f3-91ad-46be-adca-45054c394390">
-            19
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b8d1f6a1-822a-4e6e-818d-b0c1232d3931">
-            Чтение писем декабриста E. П. Оболенского в «Историческом вестнике», 1890, 1.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="aa13757d-6117-44bd-b70f-5d897c2a5ad2">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="7d3d6da4-8180-4db2-91ca-b5bef468ef8a">
-            21—24
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="f58e6352-2cef-42bd-9dc3-59eb98d0abde">
-            Написано и отправлено письмо к Адину Баллу.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td rowspan="2">
-           <p rend="notindent" id="28812390-f050-4b34-93c8-88d0bfe3e26d">
-            »
-           </p>
-          </td>
-          <td rowspan="2">
-           <p rend="notindent" id="b16a0f71-1594-4a8b-a0a2-69b0dd178402">
-            25
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="7a0df909-3f85-4ee7-a359-80c830526fee">
-            Толстой выехал на лошадях в Белев к М. Н. Толстой и в Оптину пустынь.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="c472d958-bdd1-4cb6-91cc-797fe16000e8">
-            Ночлег в Одоеве на постоялом дворе.
-           </p>
-          </td>
-         </tr>
-        </tbody>
-       </table>
-       <p rend="left tblbtw" id="668b794c-9c0c-4342-bc9e-6990c53912c5">
-        <hi rend="opnumber">
-         164
-        </hi>
-        <pb n="165"/>
-       </p>
-       <table>
-        <tbody>
-         <tr>
-          <td class="w20">
-           <p rend="notindent" id="5ebb8278-1752-4112-8391-9b009be432ec">
-            Февраль
-           </p>
-          </td>
-          <td class="w20">
-           <p rend="notindent" id="5fadaeba-698d-4be7-9a7b-e899970d6a4b">
-            26
-           </p>
-          </td>
-          <td class="w60">
-           <p rend="notindent" id="cd29be66-8317-4657-9a03-8b5719e55410">
-            Ночлег в Белеве, в монастырской гостинице.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td rowspan="4">
-           <p rend="notindent" id="1b1b21d4-61c8-4356-819b-2b8929ab9a19">
-            »
-           </p>
-          </td>
-          <td rowspan="4">
-           <p rend="notindent" id="daa0d935-1601-47dc-8c95-c634490aff92">
-            27—28
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b994839d-de5c-48cc-9d39-ced5810d3188">
-            Пребывание в Оптиной пустыни.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="c235fe0c-cba3-49eb-9e04-b9e506df7c55">
-            Отъезд из Оптиной пустыни (на лошадях).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="a71cf962-7d11-4106-9e75-a289ce945317">
-            Остановка на ночлег в селе Мишневе.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="62b531d6-f014-4e39-ba65-5da944addca9">
-            Первый набросок повести «Отец Сергий» в письме к В. Г. Черткову (т. 87, № 251).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td colspan="2">
-           <p rend="notindent" id="f0e9667f-12be-495b-a7f6-34c5fea4217a">
-            Март, начало
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="a7835298-438f-4026-a229-a9787ab03698">
-            Чтение сочинений Н. С. Лескова.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="db7a6f88-03fd-4c3a-b8ae-a5e6a87743ed">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="aa16cd86-db1f-4d4c-a7db-18481223e15e">
-            1
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8d1d69fe-67eb-46de-ad61-8bd9bf64ada7">
-            Возвращение в ночь на 2 марта в Ясную Поляну.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="7092e6d6-2c90-48ab-8c8e-947e221b0a93">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="dc6ab471-6c1d-4793-9e13-e6353fd47ab4">
-            10
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="f750c62c-d690-4569-83bf-74e707407bf3">
-            Запрещение министром внутренних дел Дурново печатания в XIII части «Сочинений» Л. Н. Толстого «Крейцеровой сонаты» (письмо Е. М. Феоктистова к С. А. Толстой от 10 марта).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="ed407989-1781-4783-ad13-f5cf1d1da703">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="3c1c1835-39a4-48cb-b893-798f153e0d4a">
-            11—16
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="828fa9f5-b377-4e25-a0bc-dffa4cd7aee3">
-            Работа над третьей редакцией «Послесловия к «Крейцеровой сонате» в форме ответа на письмо В. П. Прохорова.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="9294c6f1-1bcb-4fc3-8f09-a911e70475df">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="4647e79e-7011-4736-bc3b-803112d44ccd">
-            11
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ee0e6905-a7b7-4c26-af15-d3597a3a3927">
-            Разрешение петербургской цензурой к представлению на сцене в Туле комедии «Плоды просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="eb6c89a6-04bd-4ba1-b6b7-a1f5b79ad6e5">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="5acb880b-c207-4e4f-a371-d6c2720ed77e">
-            18, 20, июнь 23
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ac3b7d90-6dbb-4c1c-9983-e805c7a01a65">
-            Чтение романа Сенкевича «Без догмата».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="2975a70b-8ddc-4f1d-97fa-67a82539d723">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="d0e77d2b-3dac-49bd-8436-3af872a9ec44">
-            19
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="6b63e109-ec98-4efc-9fd6-de7ea24f10db">
-            Приезд в Ясную Поляну инспектора народных училищ Тульской губ. по поводу устроенной дочерьми Толстого без разрешения администрации школы для крестьянских детей.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="a8a9b473-2cf7-4618-a651-127f9c76d60d">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="7e838290-ad25-42a3-98ed-5320c0c2a55a">
-            21—28
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b2e6b770-7de6-49c9-99b6-134396a63ff5">
-            Четвертая редакция «Послесловия к «Крейцеровой сонате».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="2953186d-44f3-4ba3-ac63-858227a66236">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="43a44186-266f-40ca-b542-84df5aff53ef">
-            23
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="a02c092f-f6b9-49d4-ba4e-902e69eda1eb">
-            Чтение романа Н. С. Лескова «Некуда».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="63fe0d4b-867f-463b-9251-db5c78b09664">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="3894204e-68e0-4a20-8562-8f2a235fb2ec">
-            25
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="32b2abdb-72e4-47c0-8862-c5fde7ca06c5">
-            Письмо к спириту проф. Н. П. Вагнеру.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="b2a1bbbe-f86b-455a-afaa-e8e9254435db">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="cca371aa-1724-4312-b402-0c8687f2f1bb">
-            26
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="972d8ed8-8bdb-4af4-86bb-b0ef40735b25">
-            Получение письма Л. Е. Оболенского с резкой критикой «Крейцеровой сонаты» и писание ответа ему.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="57c911d5-2380-4e16-b74b-401ac9f56a91">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="e4cd9bd0-4387-4aeb-9e06-c11654640398">
-            31
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="dc3eb073-e419-4f3d-b3f7-c090fc7dff99">
-            Дата на рукописи (№ 9) «Послесловия к «Крейцеровой сонате».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="11d03532-41cf-40f8-8b5f-340642e017d8">
-            Апрель
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="bda24476-1684-44a3-bb5a-17d35d8e3d32">
-            1
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="d0846264-14c4-4b07-953d-c4a1dbe1774f">
-            Чтение статей и афоризмов Киркегора в переводе Ганзена (рукопись) (П. Г. Ганзен, «Пять дней в Ясной Поляне» — «Исторический вестник», 1917, 1).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="042714e7-fc25-4f1f-8eb4-980b9e8d09df">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ce88f8ce-d01a-4466-bb72-0bd853152540">
-            1—6
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b50c78e6-792d-4bbb-a562-daa16c91bc0b">
-            Пребывание в Ясной Поляне датского переводчика П. Г. Ганзена.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="ad2cf6e8-4390-4cd2-b998-691854664b3c">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="26440452-da28-45d6-82c6-2f82b8f12b5e">
-            6
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="bad9968e-8af7-4261-bf99-433f30247954">
-            Дописана, исправлена, датирована и передана П. Г. Ганзену для перевода четвертая редакция «Послесловия к «Крейцеровой сонате» (получила распространение в литографированных и гектографированных изданиях).
-           </p>
-          </td>
-         </tr>
-        </tbody>
-       </table>
-       <p rend="left tblbtw" id="1b9f22e5-d61d-456d-acd2-e7422a24d273">
-        <hi rend="opnumber">
-         165
-        </hi>
-        <pb n="166"/>
-       </p>
-       <table>
-        <tbody>
-         <tr>
-          <td class="w20">
-           <p rend="notindent" id="261908bc-43a0-424d-b0f6-fb02849172b1">
-            Апрель
-           </p>
-          </td>
-          <td class="w20">
-           <p rend="notindent" id="647542e6-a8d4-4e3b-a894-5c63bcf7b27c">
-            7
-           </p>
-          </td>
-          <td class="w60">
-           <p rend="notindent" id="eca0b111-2e01-437e-b3a3-41c25abc5bcf">
-            Работа над «Послесловием к «Крейцеровой сонате» (пятая редакция).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="a8c4304e-b5b6-4d9d-a0a5-b0449d46bcb8">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ecce0ca2-b1e2-4093-9723-e4c5b56700d5">
-            10—11
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="f6f9541d-44c9-48cf-9a71-4e7e96895e2c">
-            В Ясной Поляне М. А. Стахович. Толстой в разговоре с ним «ругал царя за то, что возобновилась смертная казнь».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="1fe80def-a8b6-46bd-9318-bf0b16b85471">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="f89133f2-d3b3-4916-bc0a-47b3435c01e5">
-            11, мая 2, 3, 18—25, 28, 31
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="243f0031-023a-4c36-991d-af2b984eeddf">
-            Работа над предисловием к книге доктора П. С. Алексеева «О пьянстве» («Для чего люди одурманиваются?»).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="e6bfef11-49f2-4774-aac8-ffad9c4a6349">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="486ea80f-7b22-4cd6-9fed-9b4422edc23a">
-            12
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ab21fb06-b8f6-44a5-a0c1-d06ccc1cede5">
-            Толстой ходил в Тулу на репетицию «Плодов просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="f64c641f-49a0-4306-920d-8ce2e4467027">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="6bf98574-606a-498d-9c88-d1ba7c9b3048">
-            15
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ded727f4-7383-48a1-9eee-8279272cc398">
-            Первое публичное представление комедии «Плоды просвещения» в Туле силами любителей.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="f2109d66-1733-4830-992a-8bbd698fb977">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="61789163-eae0-4044-ae10-bcb5deed1e07">
-            19
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="35a4d8e3-b242-4c5f-9aa4-a6decc0b539f">
-            Представление комедии «Плоды просвещения» в придворном Китайском театре в Царском Селе.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="1b9d3e3d-718b-432a-8db4-077a9e24e397">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="be493ad5-9a79-48df-9d3a-bfb4e8f0120e">
-            20—23, 26, 30, май 1, 2
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8ba9d654-6cb8-48f1-9bb4-1969472771fb">
-            Полевые работы — пахота, сев.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="af23f62d-289e-4b43-917e-1848e5e015e5">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="647666a5-c8f9-4a03-b24e-97a322f587ac">
-            24
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="092aee12-412b-4a37-9d60-6fd46814cf0b">
-            Окончание работы над «Послесловием к «Крейцеровой сонате».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="e59d4cb4-22da-4a30-a024-1651a246896b">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="6a959250-e103-4781-af3b-74e86a024386">
-            24(?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="0e3913d3-9ea7-4ffd-8ee7-066bff9cf625">
-            Отправка рукописи комедии «Плоды просвещения» Н. И. Стороженко для сборника «В память С. А. Юрьева» (письмо Н. И. Стороженко к Толстому от 26 апреля).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="124498a0-7739-4ef6-b515-edb319f18503">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8f5dae6b-6768-46a2-a45b-bf118ee8c21b">
-            26
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="be8357fb-11af-4fbe-be5c-41c5a48009eb">
-            Получение разрешения на постановку «Плодов просвещения» только «на любительских театрах».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="55c0447e-de7b-472a-9067-988b8941ccf6">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="83c3d8a1-ab80-4bb7-9f1a-69ff7acd66b7">
-            27
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="35716d35-368d-448a-b74e-ab21c17bb3b1">
-            Посещение Толстого редактором газеты «Неделя» П. А. Гайдебуровым.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="b51b16fc-3830-48f4-807e-28d2562efeed">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8034dfd0-a9d2-4cba-9b48-9a11323bbef7">
-            конец
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8719f10b-40e7-4f93-be53-1e063ee22f4a">
-            Записи в Дневнике и Записных книжках «к повести Фридрихса» («Дьявол»).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="e5e54faf-8536-4281-85b5-b43f723ef62d">
-            Май
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="1ec82a19-be6c-41ba-bfd5-62ef84f5c857">
-            2—25
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c320467e-8914-472d-b47a-0f4996ad22e5">
-            Болезнь: воспаление двенадцатиперстной кишки.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="476d37d4-1213-4134-a128-e0ffddffc654">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="0be5397b-754f-481c-8841-0cef4e83879b">
-            3
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="5dba91de-ee48-404b-8502-5ad73a6e76c1">
-            Отъезд из Ясной Поляны в Пирогово к С. Н. Толстому.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="da1feaa1-4761-47e9-9531-4e35b9bea9a8">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="9a6bb842-4616-4782-81b7-392af1f3e7de">
-            12(?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="5f9b380f-2f7d-4492-b8cb-2dcc00659c0a">
-            Возвращение из Пирогова в Ясную Поляну.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="4155fbd7-b8f2-4291-bd1c-f1d1c35dd57a">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8b2dd5ce-cdd9-4af6-bbe2-9d7af13a2062">
-            15(?)—18, 24, 25
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="bea3dc63-0c3f-4b4b-97e6-5d1ae0236881">
-            Работа над корректурами «Плодов просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="f180bea7-1aca-40b1-a6b1-8d91e2f60d12">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="6147a038-7ac3-495f-8287-082c52f5e263">
-            18, 21
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="2013368f-0783-4124-9de6-09ca888a8c8a">
-            Чтение романа Теккерея «Ньюкомы».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="551d5c08-3311-46a0-9a36-a308b8dfb43b">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8f8edf12-e3ad-4d1a-9089-7d6bf2bf1cf0">
-            26—28
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="5db30df6-e3de-4c60-9043-610e33415263">
-            Пребывание в Ясной Поляне Н. Н. Ге.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="e144cd3a-cef5-45cf-8987-bd7b87b80a03">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="46f7057e-6715-44d1-acd0-cb4c2affbe5f">
-            29, 30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="3e84c13d-7512-4b80-a457-f79333770a96">
-            В Ясной Поляне Б. Н. Чичерин.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="5560706a-fec4-4e29-ac88-80b91a42cff9">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="9a6dc4c6-ef60-433a-9b8a-da1ccdf9ccf9">
-            30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ba401cc9-9c23-426d-a3bf-5cfaac56322f">
-            Получение от Ф. Б. Геца составленного В. С. Соловьевым протеста против гонений на евреев. Толстой присоединил к протесту свою подпись.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="084b1ec4-fe24-45a2-8620-c22c6c081005">
-            Июнь
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="4efd6097-65e9-4bcc-894e-809c183c574c">
-            1
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="de7ea2a4-5fbd-4c18-b6de-3dfe0bfaf386">
-            Чтение книги Мэтью Арнольда «Literature and dogma».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="65e0c324-1a5d-4de5-b3ce-7e8f687c343d">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="98e1a84f-fe30-4c4e-acc4-69338b8418a1">
-            3, 8, 10, 11
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="335715a9-950b-46fa-bb60-2dafc097f260">
-            Работа над статьей «Для чего люди одурманиваются?».
-           </p>
-          </td>
-         </tr>
-        </tbody>
-       </table>
-       <p rend="left tblbtw" id="09cef191-4fe1-460b-a631-26ace71b53b0">
-        <hi rend="opnumber">
-         166
-        </hi>
-        <pb n="167"/>
-       </p>
-       <table>
-        <tbody>
-         <tr>
-          <td class="w20">
-           <p rend="notindent" id="7d7b3c9b-2057-4576-832e-ab9227a31969">
-            Июнь
-           </p>
-          </td>
-          <td class="w20">
-           <p rend="notindent" id="f610c073-cd30-4e3f-9f60-f9c231ebbb48">
-            6
-           </p>
-          </td>
-          <td class="w60">
-           <p rend="notindent" id="c597ef05-4cd6-4350-8912-140e2017caa4">
-            Работа над повестью «Отец Сергий».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="d3c8e970-cc9b-4e0b-94d2-4ae422a60b11">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="651a39b0-7d86-4d78-8381-97e283710432">
-            8
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="97073e94-ace0-47f9-a4d9-6b7016f4e219">
-            В Ясной Поляне Н. Н. Ге.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="9fcb4f35-87d7-4a6b-82b6-f0888e8b51c6">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="4e3f9c1c-a5dc-423a-9fd3-b6770338ad9f">
-            11, 30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="137a9ba8-3069-43e0-9ac8-7b5a3807e5b9">
-            Толстой писал П. М. Третьякову, убеждая его приобрести для своей галлереи картину Ге «Что есть истина?».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="87ce2427-6333-4039-99d3-38956e677db8">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8e0d9372-beed-463a-bb54-471c261cc289">
-            12—14, 17—22
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="45ce51c5-6d45-4940-805a-3e3a69c33cf8">
-            Попытки писать «Коневскую повесть».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="3ecb80cd-01d9-41aa-8f57-b685cf42269e">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="98cda273-09a4-4315-bbdb-f3e4dace5d69">
-            14
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="62816770-813f-4b77-ab7d-e2cf9721384a">
-            Исправление корректур «Плодов просвещения».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="34a3f03f-e8c9-4ba4-b032-b8a333d2ff9e">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="dc7208f1-4b38-46b4-906c-686396068a14">
-            19, 20
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="6ae698c5-39c1-41ad-9d48-c2505b87c813">
-            Толстого посетил И. А. Сикорский, киевский профессор-психиатр.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="7b6ef27e-96ef-4d79-90e9-d36c4b24f6fc">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ba4e734c-880d-4558-a708-f8cdb2b582b3">
-            22, 23
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b8e26238-e44e-4351-ad45-3b111a447211">
-            Был американский путешественник Стивенс.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="3020f40a-c8bb-4a49-af82-001fce603cfb">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="9528b109-4a62-47a3-833a-8258a3af3dd5">
-            24
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ab354176-01c5-486e-9463-003e52150454">
-            Запись в Дневнике о сюжете «романа любви целомудренной, влюбленной, как <choice original_editorial_correction="[к]"><sic/><corr>к</corr></choice> <choice original_editorial_correction="С[оничке]"><sic>С</sic><corr>Соничке</corr></choice> <choice original_editorial_correction="Калош[иной]"><sic>Калош</sic><corr>Калошиной</corr></choice>».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="55f82931-c86d-4ed8-9904-6d78c00c3010">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="5b235d98-1c04-490f-bbf0-03c2b3d85b6e">
-            25
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="1ce57db3-afd9-4b3d-865e-0fb881f1f9f8">
-            Замысел «написать книгу «Жранье».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="458af00c-58c8-4460-9af6-932d1e467b38">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="bde01d7b-75f8-4115-94b7-dd027417dbdb">
-            27, 28, июль 8
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="72ef61ba-1ede-4f18-9b08-2e83dc5be0b3">
-            Исправление перевода статьи Адина Баллу о непротивлении и писание предисловия к ней.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="5265dca4-ba16-4960-934e-da9c4b28f3c2">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="5da97d6a-956b-4b50-a38b-0c98f673bd30">
-            28
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c600798b-5bd0-44ae-bbad-40205504c9d8">
-            Получение книги Т. М. Бондарева «Трудолюбие и тунеядство, или торжество земледельца» во французском переводе.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="96d5bd12-3e6c-4465-ba0d-877f817e8951">
-            Июль
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="af5452ea-f607-46f9-8b2f-d1d766d8aa78">
-            2—4, 9, 30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="fb89d168-8362-40db-8275-05eae043d0c2">
-            Записи в Дневнике о тяжести жизни в среде праздных людей.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="7caa20bb-055e-42e7-a93a-c47da46a5301">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="459ddaf1-17fb-4335-933e-260264430626">
-            2—8, 17—19, 21—23, 25, 26
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="be042c1b-3490-4640-816a-dbee54acf671">
-            Полевые работы — косьба, уборка ржи, сена, овса.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="560cf469-ef34-46d6-8b37-77740ebb15a6">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="2216cc30-ecf2-4d09-9db4-09621b08212e">
-            12—15
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="74b23ca2-9965-4870-aab4-f00968ab8ad5">
-            Толстой шил сапоги.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="19c6c64e-f59a-4b54-ac80-dcf9611ea0b2">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="7afd1c58-dfaa-484a-98b7-04ab5031936f">
-            13
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="9e8ca989-56f4-4a27-b997-786c850aa076">
-            Запись в Дневнике в связи с работой над повестью «Отец Сергий».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="bbaba53a-0b09-4cb5-9ddc-d520df783cb0">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="95260d7a-ab44-40a1-a385-3f6f8726cf92">
-            13, 14, 19, август 6
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="54bd81c6-f8df-4dc2-92eb-5ffd8b12857d">
-            Работа над корректурами статьи «Для чего люди одурманиваются?».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="5ea86fb5-d250-449d-912c-f9dedacc02d6">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="1abe2056-a640-4b56-931b-282982dc0560">
-            18, 20, 25, 28—30, август 2
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="82991a6e-4cbe-4777-8c57-3cd9c659d81a">
-            Работа над статьей о непротивлении (впоследствии «Царство божие внутри вас»).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="8f75e605-9694-4910-bd1f-5fb8d51c9c81">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="84e0f8bd-0610-4d2e-9377-50d737748a3a">
-            24—26
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="18d5a599-c431-4fdf-873b-36169d3d701d">
-            Пребывание в Ясной Поляне Р. Лёвенфельда, немецкого переводчика сочинений Толстого и его биографа.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="0d4fab9d-1dc6-4be9-8155-98f879d79314">
-            Август
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="efe05a27-23b4-4f9e-8f68-e4b660ce07b7">
-            3, 4, 10, 12, 13, 14, 18
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="e516b87c-e56e-4d47-8fa7-875cb3301ca3">
-            Работа над «Отцом Сергием» и записи о повести в Дневнике.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="b233d7c0-3427-4c75-9421-d68a65a19657">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8b2da5e0-dbcb-4094-904d-6e7b13ccb021">
-            4
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="7f58a181-bb4f-4c9f-a696-391f5b4d5f54">
-            Чтение рукописной статьи С. С. Урусова «Неизвестные произведения гр. Л. Н. Толстого».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td rowspan="2">
-           <p rend="notindent" id="ef2906ff-d04f-4d70-8179-59d0d4286abc">
-            »
-           </p>
-          </td>
-          <td rowspan="2">
-           <p rend="notindent" id="cfb48d66-9529-4090-ba6b-23a8d9843739">
-            5
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="616c6b25-72f2-401a-ae52-580ab25f1e4a">
-            Пожар в деревне Ясная Поляна.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="68fecb5b-55f9-4812-a30e-91c2d821b2ac">
-            Приезд А. М. Калмыковой.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="ee6a4396-5146-4d31-9128-7c9165d21bea">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="43fe649f-d4a0-47d2-a344-ac66a7975871">
-            8
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="450a8a7d-9afa-4cf6-bf92-9e43fcc0328a">
-            Письмо к Джорджу Кеннану с выражением благодарности за его статьи о сибирской ссылке и с оценкой картины Ге «Что есть истина?».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="c7e5acd6-c446-4474-8ca1-aabbce8f6b49">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="efef4a98-2176-4078-a519-fe3a53a5d265">
-            8—10
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="38695407-dbbc-416e-a49e-34b36379c559">
-            В Ясной Поляне Н. Н. Страхов.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="2393b203-7d9f-40a1-811a-6a612ab11229">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="e4142149-a597-4f4b-bb0f-7bc2dac6b396">
-            9
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b2189349-d16d-4363-becc-74962646ad42">
-            Получение от Алисы Стокгэм сообщения о запрещении
-           </p>
-          </td>
-         </tr>
-        </tbody>
-       </table>
-       <p rend="left tblbtw" id="10505b80-f0c5-4ab8-a902-a9b5debf065a">
-        <hi rend="opnumber">
-         167
-        </hi>
-        <pb n="168"/>
-       </p>
-       <table>
-        <tbody>
-         <tr>
-          <td class="w20" rowspan="3">
-           <p rend="notindent" id="92e85549-256c-4000-8a78-87c4f95e1181">
-            Август
-           </p>
-          </td>
-          <td class="w20" rowspan="3">
-           <p rend="notindent" id="bc680282-077d-4c3b-8410-6b9a6f2104c8">
-            12, 28
-           </p>
-          </td>
-          <td class="w60">
-           <p rend="notindent" id="00f14292-8a13-40e9-b0d3-60535f485488">
-            в Америке почт-директором пересылки по почте «Крейцеровой сонаты».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="6c166db2-7bbd-4576-8d08-87cd49bcd6a3">
-            Чтение пьесы Бьернсона «Перчатка».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="1d0b060f-eab9-4ada-99e6-05593b9c4fac">
-            Получение статей о «Крейцеровой сонате»: «скандал в Америке и ругательства Никанора» (архиепископа херсонского).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="d90d1c39-50ea-4ccb-9f83-b003607b8bfd">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="30553c80-b322-4bda-8d24-5e26747c8b88">
-            19—20
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b14620b2-6a56-4df4-b620-45191baa09f0">
-            Поездка в Пирогово к С. Н. Толстому.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="592b7e99-8f87-44e6-bcb3-328f68cc379c">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="a58cdfb2-c74b-4477-9c0a-c324241ecb32">
-            20, 21
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c47fb113-d83c-4cdc-a359-5ed57634c6e8">
-            Чтение пьес Ибсена «Дикая утка» и «Росмерсгольм».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="cd0bce8d-290a-4d78-9ab7-88e31395f606">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="24aaabf6-2fb2-4ffe-a411-f84f2ac002b9">
-            21
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="4f4c26e2-f295-4687-9528-8746b5dc7aaf">
-            А. М. Новиков «рассказал» Толстому «таблицу Менделеева».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="3f1b5727-2a70-4026-a2b3-f587d019dc0e">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="1a39b3c3-ba15-44cb-93fd-6d0f80b56fde">
-            27
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="3f61df06-34f8-4d6f-b627-fad3b9d02095">
-            Посещение Толстого крестьянами с. Кутьмы, просившими заступничества за двух женщин, осужденных «в острог за подол травы».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="bd802d9f-2738-459d-aa1e-63a855b43bf4">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="d0b7699f-c74b-4338-b50e-a13680a3e028">
-            30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="d6152e84-34b4-4865-8dcb-d413c7060ebb">
-            Чтение рассказов В. А. Слепцова.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="b4c5408a-e651-4205-a2ca-2692006dbe24">
-            Сентябрь
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="a788fd31-bcdc-441a-a657-9fa2f6732b71">
-            5
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c4c79ef6-c0e6-4665-8af7-fc599a2b12f9">
-            Чтение «Эмиля» Руссо.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="b16c0552-3702-4a8a-8c79-9047d5d1c13b">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="cf8f9ac5-1d38-4b76-af4e-d2d4566c7535">
-            12—14
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="741eddc3-15c0-4313-8a3f-53eb8cc5f56f">
-            Чтение книги Кольриджа «Aids to reflection».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="0dd732d2-65b2-4b66-9d70-b46fafb51814">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b9dac518-2d7f-4aab-9d1d-62c7507909da">
-            16, 17
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="96c4bdff-d342-41c1-b971-7cb84bc6a0d8">
-            Чтение книги Гаусрата «Neutestamentische Zeitgeschichte».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="1eb8e89e-fe69-4695-8fc5-90e4f15088e5">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="0b19bd44-c0c2-4700-ace1-a0a89644355a">
-            19
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="1f186495-e48c-4284-8c98-902bb34324b5">
-            Чтение книги Прессансе «Histoire des trois premiers siècles de l'Eglise Chrétienne».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="4d80e253-5dc8-4683-9df1-6a06f9daf21f">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="188494dc-c6f8-421f-87c8-45e1c4c87c6f">
-            20
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="88551c31-f0a3-4145-b347-10f0fbaa7879">
-            Толстой ходил в Тулу «узнать о высеченном человеке».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="e43ec420-761b-4f53-8529-325227b419b5">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="f2ff0ad2-8c8a-4860-a94d-6a86a24e7233">
-            22—октябрь 28
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="1fa1d227-f8ae-4ef6-a1be-2891bde67eb3">
-            В Ясной Поляне H. Н. Ге, который вылепил бюст Толстого и написал портрет М. Л. Толстой.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="adec466f-ecb4-449c-a3e3-95124c1d7764">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="2763bad4-4a04-4678-90c7-62b18288f80b">
-            24—октяб. 4
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="2ba6f75d-561f-4162-bcbd-f4772f4de96e">
-            Тяжелое заболевание Толстого.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="17551506-2c7d-4aed-9bc0-2bb3235711d4">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="cd8e392a-09f8-40dd-b866-296e28e4425d">
-            конец
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="27deb0b5-3547-4b7d-8862-aa3ca4292598">
-            Чтение статьи Э. А. Дмитриева-Мамонова «Славянофилы».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="7279382c-61a4-4cb8-b4a1-dd48fdbefdd4">
-            Октябрь
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="cca6ccc1-1c9c-45bb-a6ad-e2e8c73ceaa9">
-            7—8, 13—14, 28—30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="90c5c456-4ff4-441b-a458-1d0cda6689dd">
-            Работа над заключением к статье о непротивлении.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="2a7b8cd2-6057-42ea-a7b9-b847266616e0">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="3c7db9c8-6b2d-45ac-a8d8-df9db58b6180">
-            12
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c8472c87-9f14-43c8-bc2a-f109329da048">
-            К Толстому приезжал А. М. Богомолец за содействием в получении разрешения поехать к умиравшей на карийской каторге жене.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="6270c0b5-3196-4063-bcb5-fd0d9c4c7173">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="3223fc79-f6a7-4f5a-b43e-dc2f45bf7f31">
-            12—17(?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="6d227063-87e7-4934-90e2-0cbd5cc9b098">
-            Перевод и изложение статьи Элизы Бёрнс («Об отношениях между полами»).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="2e723481-1a7f-4ddd-a77f-9ea3cce3dc20">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="9f6971fd-d87e-4599-b1eb-e2a905e0ec60">
-            15—18(?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ad193eee-476b-4a71-8072-68054e4ac8d0">
-            Работа над предисловием к статье В. Г. Черткова «Злая забава» и над исправлением статьи.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="9048a248-9b2f-4a3e-a935-ca5fdc6139cb">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="2632b74f-443b-440d-b774-61f22a0545e6">
-            15—21(?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="309343be-6b34-432f-af2d-cdf0735a8a02">
-            Толстой поправлял перевод А. М. Новикова рассказа Гюи де Мопассана «Le port».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td rowspan="2">
-           <p rend="notindent" id="f1e2e071-1586-430a-b56c-86ddcd5352ff">
-            »
-           </p>
-          </td>
-          <td rowspan="2">
-           <p rend="notindent" id="8cd33bfd-cb14-444b-9a65-f7cc77d0a466">
-            22
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c6019ff2-0ef0-4725-8dc0-09aa20afbd00">
-            Возобновление работы над «Отцом Сергием».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="679095b7-52fd-4104-bc1d-ecf72c2c0446">
-            Получение «жестокого письма» от А. М. Кузминского в ответ на просьбу о содействии А. М. Богомольцу.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="4cc1c770-5525-46e1-870a-69d77a5aca63">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="31f26ffb-7dc0-4919-bb9a-aa8d9fc4c5b5">
-            24—26
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ef948c9d-ba88-4d68-9442-3b56065a9028">
-            Изложение рассказов Гюи де Мопассана: «Франсуаза»
-           </p>
-          </td>
-         </tr>
-        </tbody>
-       </table>
-       <p rend="left tblbtw" id="eec4a787-be0f-41bf-ab91-a6210a42efd5">
-        <hi rend="opnumber">
-         168
-        </hi>
-        <pb n="169"/>
-       </p>
-       <table>
-        <tbody>
-         <tr>
-          <td colspan="2">
-           <lb/>
-          </td>
-          <td>
-           <p rend="notindent" id="3d68d0f1-5513-42af-8658-12f05b55d475">
-            («Le port») и «Дорого стоит» (из «Sur l’eau»).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td class="w20">
-           <p rend="notindent" id="5620aa44-d2d8-41cf-8afc-71d80c54b2b7">
-            Октябрь
-           </p>
-          </td>
-          <td class="w20">
-           <p rend="notindent" id="4378e0b3-fc70-46b8-949d-8a7dda325ad6">
-            26
-           </p>
-          </td>
-          <td class="w60">
-           <p rend="notindent" id="b7dc3481-1a92-4528-bdf1-be4af45bf088">
-            Чтение драмы А. Ф. Писемского «Горькая судьбина».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="75461846-7bb4-474a-8c55-1212eacba98c">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="e7bb4307-865d-49bc-b62c-5757cd4e686e">
-            29
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="8f57396b-b233-4ada-b39e-2ae6b318c6f3">
-            Перевод отрывков о войне из сочинений Мопассана («Sur l'еаu»), Рода («Le sens de la vie») и Вогюэ («A travers l’exposition, VII. La guerre. La paix sociale»).
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="49399e0d-aa5f-494d-8bc4-9e4d7682fb33">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="ac20e8a8-dd45-4e4c-9c66-72dcba220a06">
-            30
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="f7529141-a32d-4f40-ab6c-2d85a73ab4f6">
-            Поездка в Тулу в окружной суд. (Посещение суда было связано с работой над «Коневской повестью».)
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="d3deebf5-0c9f-4ce8-ba81-a5f793520c8b">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="22851a70-8024-4547-b5af-d2e62afae84b">
-            31
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="88705936-ab88-48a1-b8b6-fb1df70dee74">
-            Толстой «стал писать Сергия сначала».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="868e7738-be5a-4d55-ac0a-2139bfbbe1ee">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="7f5a0693-f558-47a1-84fe-d01a255038af">
-            31(?)
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="dff2452b-e7be-4379-ac84-804b1c47b4bb">
-            Чтение книги Эмиля Лавеле «Le lux».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="7f09b2bc-3972-4781-a1ba-3f5bb56cf52c">
-            Ноябрь
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="849446c5-b6f3-450c-a016-69958ff66ba2">
-            2
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c5d9a80f-fadd-477b-bde9-55331289e0ff">
-            Был Сергей Николаевич Толстой с дочерью Верой.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="d9e93944-00ea-4c72-9440-f81faf3bbf38">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="dd7ed6ed-047d-4740-bc59-1434c4282c65">
-            17, 21
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="511fdd39-0d28-49e4-a6cb-0b5fbad9b1ce">
-            Чтение вслух дочери Марии Львовне и племяннице В. А. Кузминской «Одиссеи» Гомера.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="dddcaa3b-f2b6-4918-a502-f8abec449263">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="df18ecff-d781-41a4-9c37-a609395ddfad">
-            26—27
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="44a36c56-515b-4d4c-b59c-c5fd7c54e091">
-            Поездка в г. Крапивну на суд над крестьянами, убившими односельчанина-конокрада.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="390e7946-c755-4737-9c62-88cb3e04ff4b">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="b12fae6c-0730-4222-b73e-877e7edfc6c5">
-            27—28
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="0642583b-9d47-4ef8-9321-8f201400488b">
-            Приезд H. Н. Ге.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="563a6b5b-2951-4db7-b209-fafd23090fd1">
-            Декабрь
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="58d424ba-d71c-472d-9214-ebc7dc072dde">
-            13—15
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="325adc3f-201b-49c6-b0d3-e79021cf40b7">
-            В Ясной Поляне английский журналист, переводчик сочинений Толстого Э. М. Диллон.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="1cb33114-c090-442f-9586-da33cbf3eda4">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="6d5e1009-0500-4db5-8aa0-5721df94da23">
-            14
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="e92cdac4-8244-4442-977c-765065922088">
-            Работа над «Коневской повестью». Повесть впервые озаглавлена «Воскресение».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="39508169-e356-4fb3-91a6-53ef8138a2c1">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="722aaf3d-d47d-4c8a-bfd6-16df8e1d5e56">
-            15
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="4b3bc2ac-7d3b-4268-a1ef-d00f2026663d">
-            Был Илья Болхин, один из яснополянских крестьян, приговоренных к шестинедельному тюремному заключению за порубку в помещичьем лесу. Запись в Дневнике: «Очень стало тяжело и целый день сжимается сердце... Надо уйти».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="f436d166-9aee-4501-85f4-e2d6441ad89a">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="32ba343d-5077-4fc1-9ca2-5e3d99a0765e">
-            16
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="978f8c08-fa14-4394-b32f-35b5d52c17ea">
-            Чтение Дюма.
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="9a70b4f0-bc91-4be5-a921-06ca83b84995">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="c52895a3-3623-4023-a0a8-4f0a2d970028">
-            20 (?)—25
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="58d92e47-20e6-40b4-abe4-077ee0e86813">
-            Чтение книги Ренана «L’avenir de la science».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td>
-           <p rend="notindent" id="f752dd1e-5e97-4735-9860-f89399168a60">
-            »
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="142fbada-c37b-4e35-9049-c62f0f5337b2">
-            26
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="1a53d59a-6159-48d6-bed9-183fb04bc37f">
-            Запись в Дневнике: «Хочется писать художественное».
-           </p>
-          </td>
-         </tr>
-         <tr>
-          <td colspan="2">
-           <p rend="notindent" id="c12a1e18-2c12-47f8-af4b-18b7cea8e19b">
-            Ноябрь — декабрь
-           </p>
-          </td>
-          <td>
-           <p rend="notindent" id="da34e823-5f66-432f-8d0c-57c015570115">
-            Работа над статьей о непротивлении.
-           </p>
-          </td>
-         </tr>
-        </tbody>
-       </table>
+        <pb n="163"/>
+        <h2 class="center">КРАТКАЯ ХРОНОЛОГИЧЕСКАЯ КАНВА ЖИЗНИ И ТВОРЧЕСТВА Л. Н. ТОЛСТОГО за 1890 г.</h2>
+        <p rend="subtitle centerline" id="8e61fba0-8593-4e7c-92f4-234e18adef0b">
+          <hi rend="italic">Даты, источником которых является содержание данного тома, не документируются.</hi>
+        </p>
+        <lb/>
+        <table>
+          <tbody>
+            <tr>
+              <td class="w20">
+                <p rend="notindent" id="4dd5e682-4abb-459f-b5fa-f7fd49fc399d">Январь</p>
+              </td>
+              <td class="w20">
+                <p rend="notindent" id="6d6c5f78-4723-46bd-85a5-2e877dcc9a30">2</p>
+              </td>
+              <td class="w60">
+                <p rend="notindent" id="82d26e45-0dec-4eac-9a63-f02098459958">Чтение книги Минского «При свете совести».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="a09531aa-2b94-4ecc-a788-826354bfbd52">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="5e0c36cc-77e8-405e-8c55-a6c7070c03e9">3</p>
+              </td>
+              <td>
+                <p rend="notindent" id="80d4f7a9-f8ea-46cf-906c-10d897d672c6">Исправление составленного В. Г. Чертковым изложения «О жизни».</p>
+                <p rend="notindent" id="ec3d09c4-e491-4788-b156-586f26a7893d">Толстой «начал было Коневскую повесть».</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="3">
+                <p rend="notindent" id="4f0b1c54-2fd8-47ae-8673-39a1e39f11ae">»</p>
+              </td>
+              <td rowspan="3">
+                <p rend="notindent" id="0452d4f4-25b7-4248-b018-5a0211205df1">4</p>
+              </td>
+              <td>
+                <p rend="notindent" id="7745c231-95d8-44cd-b73b-cecdcd619f60">Толстой выразил желание написать для «Газеты А. Гатцука» заметку к 12 января по поводу традиционного праздника Московского университета (письмо И. И. Родзевича от 7 января).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="0d8febd9-d3ad-4c76-be72-3a5b4aae7c8b">«Придумывал подробности» к комедии «Плоды просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="0cc0958b-c186-4e98-a72c-67cb0edcedc5">Толстой рассказал молодежи «про зеленую палочку и муравейных братьев».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="dd061814-c28a-4eb7-a1bc-f9332f38ff50">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8059be09-a8d1-4c66-9f32-7ff90360394a">9</p>
+              </td>
+              <td>
+                <p rend="notindent" id="148e661f-1dc2-40d5-b302-a5992347d4b1">Получено письмо об избиении политических заключенных на Каре.</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <p rend="notindent" id="dfab02d4-f741-4ffc-9575-b8f8b06979ce">»</p>
+              </td>
+              <td rowspan="2">
+                <p rend="notindent" id="f0445178-1423-458e-a7ac-230a2e64255c">10</p>
+              </td>
+              <td>
+                <p rend="notindent" id="2966f24f-b4b0-4a9e-a2dd-9329a79d7ba8">Запись в Дневнике: «Два дня возился с комедией — всё вписывал то, что приходило в голову. Странно <choice original_editorial_correction="художеств[енным]"><sic>художеств</sic><corr>художественным</corr></choice> увлечен».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="3de83d1d-8837-47a1-ad92-ddc63355225e">Первое представление на русской сцене драмы «Власть тьмы»: любительский спектакль в доме А. В. и В. И. Приселковых в Петербурге («Новое время», 1890, № 4983 от 12 января).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="b95682ef-6ed2-4bab-96c9-eb088459e108">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="d168475a-8b34-4b35-8138-66450b73c6dc">11, 12, 16, 17,</p>
+              </td>
+              <td>
+                <p rend="notindent" id="677ee8e7-b6cb-4f2e-96e1-c83a3e45cafa">Толстой в школе для крестьянских детей.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="eaffd714-70df-4c23-b76d-0507476c4092">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="7a8654e3-50ff-4edf-bf95-c99e3ad831c5">22, 25</p>
+              </td>
+              <td>
+                <lb/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="21ed0b86-dd7b-4e59-9758-591bb3861797">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="88e51e03-93d5-48ad-8370-32f29a3f03bd">11, 13, 17, 18</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b21f7fa4-2597-4bd9-93a3-606dabdba38a">Работа над «Плодами просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <p rend="notindent" id="56016721-4fe7-4bd3-ba75-e1e4428e9964">»</p>
+              </td>
+              <td rowspan="2">
+                <p rend="notindent" id="d9fde7af-3b22-4489-a52c-e894196e0870">14</p>
+              </td>
+              <td>
+                <p rend="notindent" id="da382e4c-fc52-4d5d-bbae-4a10f19c521f">Чтение Толстым вслух комедии «Плоды просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="ffcce19a-f9ce-4da1-bb28-9c84b57685bc">Передача Толстым рукописи «Крейцеровой сонаты» Н. И. Стороженко для напечатания в сборнике</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p rend="left tblbtw" id="f8b87d85-8df0-4e98-9a8f-fed14a0a6d83">
+          <hi rend="opnumber">163</hi>
+          <pb n="164"/>
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td class="w20" rowspan="2">
+                <p rend="notindent" id="76e338b9-184f-4eca-8626-b88d3239ae09">Январь</p>
+              </td>
+              <td class="w20" rowspan="2">
+                <p rend="notindent" id="3eb6437f-9667-48a6-9da2-f0283f9522a6">18—22, 24, 25</p>
+              </td>
+              <td class="w60">
+                <p rend="notindent" id="6fb1b578-efb7-403c-be95-4cb228b084f8">«В память С. А. Юрьева» (письмо к А. И. Эртелю от 15 января).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="0547afcf-e768-4830-b154-5713cae6e7bc">Исправление комедии «Плоды просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="2d16d6d2-6491-45f7-9581-af84dffebefa">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="175dc8e8-0489-4505-9692-7b5bb2ee69e1">около 22</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c1ba7604-5d79-4be4-8faa-33d255110451">Посещение Н. Н. Страховым Победоносцева в связи с вопросом о печатании «Крейцеровой сонаты» (письмо Страхова к С. А. Толстой от 22 января 1890 г.).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="689eacf3-cfa0-47dd-9aa7-c3ec8e79e284">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b009f7bc-2bfe-49a2-a874-192fc9e82b68">23(?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="3a727aa7-7aca-4a9e-8814-820fd349c10e">Попытка писать «Коневскую повесть».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="46fc50dd-d174-4ac3-b054-c0d4e6cd4f01">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="49192be9-bf21-4d74-978d-ac8785eb2398">24</p>
+              </td>
+              <td>
+                <p rend="notindent" id="3e32c214-425a-4dfc-acda-cef2408f5d0a">Толстой ездил в Тулу встретить Н. С. Лескова и В. Г. Черткова.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="d716c655-5532-4fad-b091-6b6454287958">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="843f741d-1544-4c5e-aaac-ccbb5be15c75">25</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b1fbd63d-2344-4968-abf6-84175ca89a53">Чтение Толстым вслух Лескову и Черткову комедии «Плоды просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="8dbb527c-608f-4ddc-a9e8-0f9774b884b1">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="153e304a-be42-4c7a-9c26-ea86d2e67fc5">26</p>
+              </td>
+              <td>
+                <p rend="notindent" id="9bfa1ce4-c0dd-4b93-bb87-5bd337b512c8">Толстой до Тулы провожал Лескова.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="8e114fb9-ba05-48a1-8c73-6af3b15139f3">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ea69af2f-ba43-4b3a-8a9b-c3e49851ab88">27</p>
+              </td>
+              <td>
+                <p rend="notindent" id="30b347a5-6210-477b-ad4e-7945afa47f57">Разговор с В. Г. Чертковым «об искусстве и смерти»; записи об этом в Дневнике.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="216b770c-1d14-4be3-9990-0cf8f91ff5c9">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8c2a7551-3dd5-4438-b304-1e9eb71e4049">27—30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="786b9fef-143d-44eb-b102-5026b90113a0">Работа над второй редакцией «Послесловия к «Крейцеровой сонате».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="46289387-bb59-47ea-8caf-2a49ca8c266d">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="fcf22a39-6e93-47fb-bc03-414dfa97d744">28—30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="15631e8e-90d7-440c-a811-b03f9538c88d">Пребывание у Толстого Н. Н. Ге, привезшего рисунок картины «Что есть истина?».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="6b96b3f1-56fd-47d9-9cf7-1ab98299ac50">Февраль</p>
+              </td>
+              <td>
+                <p rend="notindent" id="1381e3fe-71cc-4d52-af49-bc2cc65c948a">2</p>
+              </td>
+              <td>
+                <p rend="notindent" id="e42b507a-c0e2-4651-93fa-ae9d77e70de1">Написано предисловие к переводу книги А. Стокгэм «Токология».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="70337d04-a640-4334-a05c-4d169fa8fe86">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="a68536ed-759c-4d6e-9dff-5f6048eed024">2—4</p>
+              </td>
+              <td>
+                <p rend="notindent" id="0eb11f18-f208-4194-aa15-bdd7eff5212e">Толстой с дочерью Татьяной Львовной в Пирогове.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="e29f111c-0043-45a3-9945-240eae5be556">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="0f85994f-5140-4d53-92c0-01c5a26e7091">3, 4, 5, 23 (?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8b37b9dc-3ac6-4f51-b574-2cfcde7806a9">Работа над «Послесловием к «Крейцеровой сонате».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="7cb2ee4f-f6d8-499f-94c6-0978faaedd62">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="796b8bc3-ced1-4ff4-b909-76f1c2c16d79">3</p>
+              </td>
+              <td>
+                <p rend="notindent" id="854eaaf2-a13a-4c2d-bc09-d00acea63df1">Первая запись в Дневнике к повести «Отец Сергий».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <lb/>
+              </td>
+              <td>
+                <lb/>
+              </td>
+              <td>
+                <p rend="notindent" id="d2d47079-eabc-48f2-9e25-28e34b27542c">Поездка из Пирогова с молодежью в село Царево на ярмарку.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="d99e405b-459c-43c6-a242-46201af007d0">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="86a52f69-a2c4-4b6d-8af8-a03e98699f12">5</p>
+              </td>
+              <td>
+                <p rend="notindent" id="2b7995ef-0216-41e3-b706-83ec4b3541be">«Был в школе».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <lb/>
+              </td>
+              <td>
+                <lb/>
+              </td>
+              <td>
+                <p rend="notindent" id="a444cae1-af00-4483-b446-fbb68b15d897">Записи в Дневнике к «драме о жизни» («И свет во тьме светит»).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="f1e94d6c-af4e-40d6-9ded-b7023f8bc947">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c19b5bd9-0810-486c-9adb-147ef52b6b5d">7—9 (?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="87197376-e030-44cc-9022-f115bdad2b9f">Работа над «Плодами просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="388da2cd-a5b1-4433-91e5-480242e4c772">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="984db201-fc5b-4b7d-a61c-3f7aaffde217">11, 16, 21</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ed8f29fc-6097-46a5-8301-1c72518b27be">Ряд записей в Дневнике и Записной книжке о работе над «Коневскою повестью».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="bddd3575-d48d-4bf3-a026-1629a9a76dfe">
+                  <hi rend="italic">»</hi>
+                </p>
+              </td>
+              <td>
+                <p rend="notindent" id="fcbc2162-44f6-4591-a7cf-939a9c993afa">17</p>
+              </td>
+              <td>
+                <p rend="notindent" id="bcc64700-aade-4b27-88a2-487415cbef8a">Толстой начал статью по поводу дела Скублинской: «обвинительный акт правительству, церкви и общественному мнению».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="eb6fbbf8-1e60-4a0a-8b8d-c523b62da356">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="64cc68f3-91ad-46be-adca-45054c394390">19</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b8d1f6a1-822a-4e6e-818d-b0c1232d3931">Чтение писем декабриста E. П. Оболенского в «Историческом вестнике», 1890, 1.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="aa13757d-6117-44bd-b70f-5d897c2a5ad2">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="7d3d6da4-8180-4db2-91ca-b5bef468ef8a">21—24</p>
+              </td>
+              <td>
+                <p rend="notindent" id="f58e6352-2cef-42bd-9dc3-59eb98d0abde">Написано и отправлено письмо к Адину Баллу.</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <p rend="notindent" id="28812390-f050-4b34-93c8-88d0bfe3e26d">»</p>
+              </td>
+              <td rowspan="2">
+                <p rend="notindent" id="b16a0f71-1594-4a8b-a0a2-69b0dd178402">25</p>
+              </td>
+              <td>
+                <p rend="notindent" id="7a0df909-3f85-4ee7-a359-80c830526fee">Толстой выехал на лошадях в Белев к М. Н. Толстой и в Оптину пустынь.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="c472d958-bdd1-4cb6-91cc-797fe16000e8">Ночлег в Одоеве на постоялом дворе.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p rend="left tblbtw" id="668b794c-9c0c-4342-bc9e-6990c53912c5">
+          <hi rend="opnumber">164</hi>
+          <pb n="165"/>
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td class="w20">
+                <p rend="notindent" id="5ebb8278-1752-4112-8391-9b009be432ec">Февраль</p>
+              </td>
+              <td class="w20">
+                <p rend="notindent" id="5fadaeba-698d-4be7-9a7b-e899970d6a4b">26</p>
+              </td>
+              <td class="w60">
+                <p rend="notindent" id="cd29be66-8317-4657-9a03-8b5719e55410">Ночлег в Белеве, в монастырской гостинице.</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="4">
+                <p rend="notindent" id="1b1b21d4-61c8-4356-819b-2b8929ab9a19">»</p>
+              </td>
+              <td rowspan="4">
+                <p rend="notindent" id="daa0d935-1601-47dc-8c95-c634490aff92">27—28</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b994839d-de5c-48cc-9d39-ced5810d3188">Пребывание в Оптиной пустыни.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="c235fe0c-cba3-49eb-9e04-b9e506df7c55">Отъезд из Оптиной пустыни (на лошадях).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="a71cf962-7d11-4106-9e75-a289ce945317">Остановка на ночлег в селе Мишневе.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="62b531d6-f014-4e39-ba65-5da944addca9">Первый набросок повести «Отец Сергий» в письме к В. Г. Черткову (т. 87, № 251).</p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <p rend="notindent" id="f0e9667f-12be-495b-a7f6-34c5fea4217a">Март, начало</p>
+              </td>
+              <td>
+                <p rend="notindent" id="a7835298-438f-4026-a229-a9787ab03698">Чтение сочинений Н. С. Лескова.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="db7a6f88-03fd-4c3a-b8ae-a5e6a87743ed">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="aa16cd86-db1f-4d4c-a7db-18481223e15e">1</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8d1d69fe-67eb-46de-ad61-8bd9bf64ada7">Возвращение в ночь на 2 марта в Ясную Поляну.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="7092e6d6-2c90-48ab-8c8e-947e221b0a93">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="dc6ab471-6c1d-4793-9e13-e6353fd47ab4">10</p>
+              </td>
+              <td>
+                <p rend="notindent" id="f750c62c-d690-4569-83bf-74e707407bf3">Запрещение министром внутренних дел Дурново печатания в XIII части «Сочинений» Л. Н. Толстого «Крейцеровой сонаты» (письмо Е. М. Феоктистова к С. А. Толстой от 10 марта).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="ed407989-1781-4783-ad13-f5cf1d1da703">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="3c1c1835-39a4-48cb-b893-798f153e0d4a">11—16</p>
+              </td>
+              <td>
+                <p rend="notindent" id="828fa9f5-b377-4e25-a0bc-dffa4cd7aee3">Работа над третьей редакцией «Послесловия к «Крейцеровой сонате» в форме ответа на письмо В. П. Прохорова.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="9294c6f1-1bcb-4fc3-8f09-a911e70475df">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="4647e79e-7011-4736-bc3b-803112d44ccd">11</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ee0e6905-a7b7-4c26-af15-d3597a3a3927">Разрешение петербургской цензурой к представлению на сцене в Туле комедии «Плоды просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="eb6c89a6-04bd-4ba1-b6b7-a1f5b79ad6e5">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="5acb880b-c207-4e4f-a371-d6c2720ed77e">18, 20, июнь 23</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ac3b7d90-6dbb-4c1c-9983-e805c7a01a65">Чтение романа Сенкевича «Без догмата».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="2975a70b-8ddc-4f1d-97fa-67a82539d723">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="d0e77d2b-3dac-49bd-8436-3af872a9ec44">19</p>
+              </td>
+              <td>
+                <p rend="notindent" id="6b63e109-ec98-4efc-9fd6-de7ea24f10db">Приезд в Ясную Поляну инспектора народных училищ Тульской губ. по поводу устроенной дочерьми Толстого без разрешения администрации школы для крестьянских детей.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="a8a9b473-2cf7-4618-a651-127f9c76d60d">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="7e838290-ad25-42a3-98ed-5320c0c2a55a">21—28</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b2e6b770-7de6-49c9-99b6-134396a63ff5">Четвертая редакция «Послесловия к «Крейцеровой сонате».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="2953186d-44f3-4ba3-ac63-858227a66236">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="43a44186-266f-40ca-b542-84df5aff53ef">23</p>
+              </td>
+              <td>
+                <p rend="notindent" id="a02c092f-f6b9-49d4-ba4e-902e69eda1eb">Чтение романа Н. С. Лескова «Некуда».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="63fe0d4b-867f-463b-9251-db5c78b09664">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="3894204e-68e0-4a20-8562-8f2a235fb2ec">25</p>
+              </td>
+              <td>
+                <p rend="notindent" id="32b2abdb-72e4-47c0-8862-c5fde7ca06c5">Письмо к спириту проф. Н. П. Вагнеру.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="b2a1bbbe-f86b-455a-afaa-e8e9254435db">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="cca371aa-1724-4312-b402-0c8687f2f1bb">26</p>
+              </td>
+              <td>
+                <p rend="notindent" id="972d8ed8-8bdb-4af4-86bb-b0ef40735b25">Получение письма Л. Е. Оболенского с резкой критикой «Крейцеровой сонаты» и писание ответа ему.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="57c911d5-2380-4e16-b74b-401ac9f56a91">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="e4cd9bd0-4387-4aeb-9e06-c11654640398">31</p>
+              </td>
+              <td>
+                <p rend="notindent" id="dc3eb073-e419-4f3d-b3f7-c090fc7dff99">Дата на рукописи (№ 9) «Послесловия к «Крейцеровой сонате».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="11d03532-41cf-40f8-8b5f-340642e017d8">Апрель</p>
+              </td>
+              <td>
+                <p rend="notindent" id="bda24476-1684-44a3-bb5a-17d35d8e3d32">1</p>
+              </td>
+              <td>
+                <p rend="notindent" id="d0846264-14c4-4b07-953d-c4a1dbe1774f">Чтение статей и афоризмов Киркегора в переводе Ганзена (рукопись) (П. Г. Ганзен, «Пять дней в Ясной Поляне» — «Исторический вестник», 1917, 1).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="042714e7-fc25-4f1f-8eb4-980b9e8d09df">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ce88f8ce-d01a-4466-bb72-0bd853152540">1—6</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b50c78e6-792d-4bbb-a562-daa16c91bc0b">Пребывание в Ясной Поляне датского переводчика П. Г. Ганзена.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="ad2cf6e8-4390-4cd2-b998-691854664b3c">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="26440452-da28-45d6-82c6-2f82b8f12b5e">6</p>
+              </td>
+              <td>
+                <p rend="notindent" id="bad9968e-8af7-4261-bf99-433f30247954">Дописана, исправлена, датирована и передана П. Г. Ганзену для перевода четвертая редакция «Послесловия к «Крейцеровой сонате» (получила распространение в литографированных и гектографированных изданиях).</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p rend="left tblbtw" id="1b9f22e5-d61d-456d-acd2-e7422a24d273">
+          <hi rend="opnumber">165</hi>
+          <pb n="166"/>
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td class="w20">
+                <p rend="notindent" id="261908bc-43a0-424d-b0f6-fb02849172b1">Апрель</p>
+              </td>
+              <td class="w20">
+                <p rend="notindent" id="647542e6-a8d4-4e3b-a894-5c63bcf7b27c">7</p>
+              </td>
+              <td class="w60">
+                <p rend="notindent" id="eca0b111-2e01-437e-b3a3-41c25abc5bcf">Работа над «Послесловием к «Крейцеровой сонате» (пятая редакция).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="a8c4304e-b5b6-4d9d-a0a5-b0449d46bcb8">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ecce0ca2-b1e2-4093-9723-e4c5b56700d5">10—11</p>
+              </td>
+              <td>
+                <p rend="notindent" id="f6f9541d-44c9-48cf-9a71-4e7e96895e2c">В Ясной Поляне М. А. Стахович. Толстой в разговоре с ним «ругал царя за то, что возобновилась смертная казнь».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="1fe80def-a8b6-46bd-9318-bf0b16b85471">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="f89133f2-d3b3-4916-bc0a-47b3435c01e5">11, мая 2, 3, 18—25, 28, 31</p>
+              </td>
+              <td>
+                <p rend="notindent" id="243f0031-023a-4c36-991d-af2b984eeddf">Работа над предисловием к книге доктора П. С. Алексеева «О пьянстве» («Для чего люди одурманиваются?»).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="e6bfef11-49f2-4774-aac8-ffad9c4a6349">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="486ea80f-7b22-4cd6-9fed-9b4422edc23a">12</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ab21fb06-b8f6-44a5-a0c1-d06ccc1cede5">Толстой ходил в Тулу на репетицию «Плодов просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="f64c641f-49a0-4306-920d-8ce2e4467027">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="6bf98574-606a-498d-9c88-d1ba7c9b3048">15</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ded727f4-7383-48a1-9eee-8279272cc398">Первое публичное представление комедии «Плоды просвещения» в Туле силами любителей.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="f2109d66-1733-4830-992a-8bbd698fb977">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="61789163-eae0-4044-ae10-bcb5deed1e07">19</p>
+              </td>
+              <td>
+                <p rend="notindent" id="35a4d8e3-b242-4c5f-9aa4-a6decc0b539f">Представление комедии «Плоды просвещения» в придворном Китайском театре в Царском Селе.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="1b9d3e3d-718b-432a-8db4-077a9e24e397">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="be493ad5-9a79-48df-9d3a-bfb4e8f0120e">20—23, 26, 30, май 1, 2</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8ba9d654-6cb8-48f1-9bb4-1969472771fb">Полевые работы — пахота, сев.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="af23f62d-289e-4b43-917e-1848e5e015e5">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="647666a5-c8f9-4a03-b24e-97a322f587ac">24</p>
+              </td>
+              <td>
+                <p rend="notindent" id="092aee12-412b-4a37-9d60-6fd46814cf0b">Окончание работы над «Послесловием к «Крейцеровой сонате».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="e59d4cb4-22da-4a30-a024-1651a246896b">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="6a959250-e103-4781-af3b-74e86a024386">24(?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="0e3913d3-9ea7-4ffd-8ee7-066bff9cf625">Отправка рукописи комедии «Плоды просвещения» Н. И. Стороженко для сборника «В память С. А. Юрьева» (письмо Н. И. Стороженко к Толстому от 26 апреля).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="124498a0-7739-4ef6-b515-edb319f18503">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8f5dae6b-6768-46a2-a45b-bf118ee8c21b">26</p>
+              </td>
+              <td>
+                <p rend="notindent" id="be8357fb-11af-4fbe-be5c-41c5a48009eb">Получение разрешения на постановку «Плодов просвещения» только «на любительских театрах».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="55c0447e-de7b-472a-9067-988b8941ccf6">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="83c3d8a1-ab80-4bb7-9f1a-69ff7acd66b7">27</p>
+              </td>
+              <td>
+                <p rend="notindent" id="35716d35-368d-448a-b74e-ab21c17bb3b1">Посещение Толстого редактором газеты «Неделя» П. А. Гайдебуровым.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="b51b16fc-3830-48f4-807e-28d2562efeed">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8034dfd0-a9d2-4cba-9b48-9a11323bbef7">конец</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8719f10b-40e7-4f93-be53-1e063ee22f4a">Записи в Дневнике и Записных книжках «к повести Фридрихса» («Дьявол»).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="e5e54faf-8536-4281-85b5-b43f723ef62d">Май</p>
+              </td>
+              <td>
+                <p rend="notindent" id="1ec82a19-be6c-41ba-bfd5-62ef84f5c857">2—25</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c320467e-8914-472d-b47a-0f4996ad22e5">Болезнь: воспаление двенадцатиперстной кишки.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="476d37d4-1213-4134-a128-e0ffddffc654">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="0be5397b-754f-481c-8841-0cef4e83879b">3</p>
+              </td>
+              <td>
+                <p rend="notindent" id="5dba91de-ee48-404b-8502-5ad73a6e76c1">Отъезд из Ясной Поляны в Пирогово к С. Н. Толстому.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="da1feaa1-4761-47e9-9531-4e35b9bea9a8">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="9a6bb842-4616-4782-81b7-392af1f3e7de">12(?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="5f9b380f-2f7d-4492-b8cb-2dcc00659c0a">Возвращение из Пирогова в Ясную Поляну.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="4155fbd7-b8f2-4291-bd1c-f1d1c35dd57a">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8b2dd5ce-cdd9-4af6-bbe2-9d7af13a2062">15(?)—18, 24, 25</p>
+              </td>
+              <td>
+                <p rend="notindent" id="bea3dc63-0c3f-4b4b-97e6-5d1ae0236881">Работа над корректурами «Плодов просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="f180bea7-1aca-40b1-a6b1-8d91e2f60d12">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="6147a038-7ac3-495f-8287-082c52f5e263">18, 21</p>
+              </td>
+              <td>
+                <p rend="notindent" id="2013368f-0783-4124-9de6-09ca888a8c8a">Чтение романа Теккерея «Ньюкомы».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="551d5c08-3311-46a0-9a36-a308b8dfb43b">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8f8edf12-e3ad-4d1a-9089-7d6bf2bf1cf0">26—28</p>
+              </td>
+              <td>
+                <p rend="notindent" id="5db30df6-e3de-4c60-9043-610e33415263">Пребывание в Ясной Поляне Н. Н. Ге.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="e144cd3a-cef5-45cf-8987-bd7b87b80a03">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="46f7057e-6715-44d1-acd0-cb4c2affbe5f">29, 30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="3e84c13d-7512-4b80-a457-f79333770a96">В Ясной Поляне Б. Н. Чичерин.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="5560706a-fec4-4e29-ac88-80b91a42cff9">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="9a6dc4c6-ef60-433a-9b8a-da1ccdf9ccf9">30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ba401cc9-9c23-426d-a3bf-5cfaac56322f">Получение от Ф. Б. Геца составленного В. С. Соловьевым протеста против гонений на евреев. Толстой присоединил к протесту свою подпись.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="084b1ec4-fe24-45a2-8620-c22c6c081005">Июнь</p>
+              </td>
+              <td>
+                <p rend="notindent" id="4efd6097-65e9-4bcc-894e-809c183c574c">1</p>
+              </td>
+              <td>
+                <p rend="notindent" id="de7ea2a4-5fbd-4c18-b6de-3dfe0bfaf386">Чтение книги Мэтью Арнольда «Literature and dogma».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="65e0c324-1a5d-4de5-b3ce-7e8f687c343d">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="98e1a84f-fe30-4c4e-acc4-69338b8418a1">3, 8, 10, 11</p>
+              </td>
+              <td>
+                <p rend="notindent" id="335715a9-950b-46fa-bb60-2dafc097f260">Работа над статьей «Для чего люди одурманиваются?».</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p rend="left tblbtw" id="09cef191-4fe1-460b-a631-26ace71b53b0">
+          <hi rend="opnumber">166</hi>
+          <pb n="167"/>
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td class="w20">
+                <p rend="notindent" id="7d7b3c9b-2057-4576-832e-ab9227a31969">Июнь</p>
+              </td>
+              <td class="w20">
+                <p rend="notindent" id="f610c073-cd30-4e3f-9f60-f9c231ebbb48">6</p>
+              </td>
+              <td class="w60">
+                <p rend="notindent" id="c597ef05-4cd6-4350-8912-140e2017caa4">Работа над повестью «Отец Сергий».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="d3c8e970-cc9b-4e0b-94d2-4ae422a60b11">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="651a39b0-7d86-4d78-8381-97e283710432">8</p>
+              </td>
+              <td>
+                <p rend="notindent" id="97073e94-ace0-47f9-a4d9-6b7016f4e219">В Ясной Поляне Н. Н. Ге.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="9fcb4f35-87d7-4a6b-82b6-f0888e8b51c6">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="4e3f9c1c-a5dc-423a-9fd3-b6770338ad9f">11, 30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="137a9ba8-3069-43e0-9ac8-7b5a3807e5b9">Толстой писал П. М. Третьякову, убеждая его приобрести для своей галлереи картину Ге «Что есть истина?».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="87ce2427-6333-4039-99d3-38956e677db8">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8e0d9372-beed-463a-bb54-471c261cc289">12—14, 17—22</p>
+              </td>
+              <td>
+                <p rend="notindent" id="45ce51c5-6d45-4940-805a-3e3a69c33cf8">Попытки писать «Коневскую повесть».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="3ecb80cd-01d9-41aa-8f57-b685cf42269e">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="98cda273-09a4-4315-bbdb-f3e4dace5d69">14</p>
+              </td>
+              <td>
+                <p rend="notindent" id="62816770-813f-4b77-ab7d-e2cf9721384a">Исправление корректур «Плодов просвещения».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="34a3f03f-e8c9-4ba4-b032-b8a333d2ff9e">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="dc7208f1-4b38-46b4-906c-686396068a14">19, 20</p>
+              </td>
+              <td>
+                <p rend="notindent" id="6ae698c5-39c1-41ad-9d48-c2505b87c813">Толстого посетил И. А. Сикорский, киевский профессор-психиатр.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="7b6ef27e-96ef-4d79-90e9-d36c4b24f6fc">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ba4e734c-880d-4558-a708-f8cdb2b582b3">22, 23</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b8e26238-e44e-4351-ad45-3b111a447211">Был американский путешественник Стивенс.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="3020f40a-c8bb-4a49-af82-001fce603cfb">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="9528b109-4a62-47a3-833a-8258a3af3dd5">24</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ab354176-01c5-486e-9463-003e52150454">Запись в Дневнике о сюжете «романа любви целомудренной, влюбленной, как <choice original_editorial_correction="[к]"><sic/><corr>к</corr></choice> <choice original_editorial_correction="С[оничке]"><sic>С</sic><corr>Соничке</corr></choice> <choice original_editorial_correction="Калош[иной]"><sic>Калош</sic><corr>Калошиной</corr></choice>».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="55f82931-c86d-4ed8-9904-6d78c00c3010">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="5b235d98-1c04-490f-bbf0-03c2b3d85b6e">25</p>
+              </td>
+              <td>
+                <p rend="notindent" id="1ce57db3-afd9-4b3d-865e-0fb881f1f9f8">Замысел «написать книгу «Жранье».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="458af00c-58c8-4460-9af6-932d1e467b38">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="bde01d7b-75f8-4115-94b7-dd027417dbdb">27, 28, июль 8</p>
+              </td>
+              <td>
+                <p rend="notindent" id="72ef61ba-1ede-4f18-9b08-2e83dc5be0b3">Исправление перевода статьи Адина Баллу о непротивлении и писание предисловия к ней.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="5265dca4-ba16-4960-934e-da9c4b28f3c2">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="5da97d6a-956b-4b50-a38b-0c98f673bd30">28</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c600798b-5bd0-44ae-bbad-40205504c9d8">Получение книги Т. М. Бондарева «Трудолюбие и тунеядство, или торжество земледельца» во французском переводе.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="96d5bd12-3e6c-4465-ba0d-877f817e8951">Июль</p>
+              </td>
+              <td>
+                <p rend="notindent" id="af5452ea-f607-46f9-8b2f-d1d766d8aa78">2—4, 9, 30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="fb89d168-8362-40db-8275-05eae043d0c2">Записи в Дневнике о тяжести жизни в среде праздных людей.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="7caa20bb-055e-42e7-a93a-c47da46a5301">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="459ddaf1-17fb-4335-933e-260264430626">2—8, 17—19, 21—23, 25, 26</p>
+              </td>
+              <td>
+                <p rend="notindent" id="be042c1b-3490-4640-816a-dbee54acf671">Полевые работы — косьба, уборка ржи, сена, овса.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="560cf469-ef34-46d6-8b37-77740ebb15a6">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="2216cc30-ecf2-4d09-9db4-09621b08212e">12—15</p>
+              </td>
+              <td>
+                <p rend="notindent" id="74b23ca2-9965-4870-aab4-f00968ab8ad5">Толстой шил сапоги.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="19c6c64e-f59a-4b54-ac80-dcf9611ea0b2">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="7afd1c58-dfaa-484a-98b7-04ab5031936f">13</p>
+              </td>
+              <td>
+                <p rend="notindent" id="9e8ca989-56f4-4a27-b997-786c850aa076">Запись в Дневнике в связи с работой над повестью «Отец Сергий».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="bbaba53a-0b09-4cb5-9ddc-d520df783cb0">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="95260d7a-ab44-40a1-a385-3f6f8726cf92">13, 14, 19, август 6</p>
+              </td>
+              <td>
+                <p rend="notindent" id="54bd81c6-f8df-4dc2-92eb-5ffd8b12857d">Работа над корректурами статьи «Для чего люди одурманиваются?».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="5ea86fb5-d250-449d-912c-f9dedacc02d6">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="1abe2056-a640-4b56-931b-282982dc0560">18, 20, 25, 28—30, август 2</p>
+              </td>
+              <td>
+                <p rend="notindent" id="82991a6e-4cbe-4777-8c57-3cd9c659d81a">Работа над статьей о непротивлении (впоследствии «Царство божие внутри вас»).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="8f75e605-9694-4910-bd1f-5fb8d51c9c81">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="84e0f8bd-0610-4d2e-9377-50d737748a3a">24—26</p>
+              </td>
+              <td>
+                <p rend="notindent" id="18d5a599-c431-4fdf-873b-36169d3d701d">Пребывание в Ясной Поляне Р. Лёвенфельда, немецкого переводчика сочинений Толстого и его биографа.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="0d4fab9d-1dc6-4be9-8155-98f879d79314">Август</p>
+              </td>
+              <td>
+                <p rend="notindent" id="efe05a27-23b4-4f9e-8f68-e4b660ce07b7">3, 4, 10, 12, 13, 14, 18</p>
+              </td>
+              <td>
+                <p rend="notindent" id="e516b87c-e56e-4d47-8fa7-875cb3301ca3">Работа над «Отцом Сергием» и записи о повести в Дневнике.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="b233d7c0-3427-4c75-9421-d68a65a19657">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8b2da5e0-dbcb-4094-904d-6e7b13ccb021">4</p>
+              </td>
+              <td>
+                <p rend="notindent" id="7f58a181-bb4f-4c9f-a696-391f5b4d5f54">Чтение рукописной статьи С. С. Урусова «Неизвестные произведения гр. Л. Н. Толстого».</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <p rend="notindent" id="ef2906ff-d04f-4d70-8179-59d0d4286abc">»</p>
+              </td>
+              <td rowspan="2">
+                <p rend="notindent" id="cfb48d66-9529-4090-ba6b-23a8d9843739">5</p>
+              </td>
+              <td>
+                <p rend="notindent" id="616c6b25-72f2-401a-ae52-580ab25f1e4a">Пожар в деревне Ясная Поляна.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="68fecb5b-55f9-4812-a30e-91c2d821b2ac">Приезд А. М. Калмыковой.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="ee6a4396-5146-4d31-9128-7c9165d21bea">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="43fe649f-d4a0-47d2-a344-ac66a7975871">8</p>
+              </td>
+              <td>
+                <p rend="notindent" id="450a8a7d-9afa-4cf6-bf92-9e43fcc0328a">Письмо к Джорджу Кеннану с выражением благодарности за его статьи о сибирской ссылке и с оценкой картины Ге «Что есть истина?».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="c7e5acd6-c446-4474-8ca1-aabbce8f6b49">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="efef4a98-2176-4078-a519-fe3a53a5d265">8—10</p>
+              </td>
+              <td>
+                <p rend="notindent" id="38695407-dbbc-416e-a49e-34b36379c559">В Ясной Поляне Н. Н. Страхов.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="2393b203-7d9f-40a1-811a-6a612ab11229">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="e4142149-a597-4f4b-bb0f-7bc2dac6b396">9</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b2189349-d16d-4363-becc-74962646ad42">Получение от Алисы Стокгэм сообщения о запрещении</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p rend="left tblbtw" id="10505b80-f0c5-4ab8-a902-a9b5debf065a">
+          <hi rend="opnumber">167</hi>
+          <pb n="168"/>
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td class="w20" rowspan="3">
+                <p rend="notindent" id="92e85549-256c-4000-8a78-87c4f95e1181">Август</p>
+              </td>
+              <td class="w20" rowspan="3">
+                <p rend="notindent" id="bc680282-077d-4c3b-8410-6b9a6f2104c8">12, 28</p>
+              </td>
+              <td class="w60">
+                <p rend="notindent" id="00f14292-8a13-40e9-b0d3-60535f485488">в Америке почт-директором пересылки по почте «Крейцеровой сонаты».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="6c166db2-7bbd-4576-8d08-87cd49bcd6a3">Чтение пьесы Бьернсона «Перчатка».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="1d0b060f-eab9-4ada-99e6-05593b9c4fac">Получение статей о «Крейцеровой сонате»: «скандал в Америке и ругательства Никанора» (архиепископа херсонского).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="d90d1c39-50ea-4ccb-9f83-b003607b8bfd">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="30553c80-b322-4bda-8d24-5e26747c8b88">19—20</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b14620b2-6a56-4df4-b620-45191baa09f0">Поездка в Пирогово к С. Н. Толстому.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="592b7e99-8f87-44e6-bcb3-328f68cc379c">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="a58cdfb2-c74b-4477-9c0a-c324241ecb32">20, 21</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c47fb113-d83c-4cdc-a359-5ed57634c6e8">Чтение пьес Ибсена «Дикая утка» и «Росмерсгольм».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="cd0bce8d-290a-4d78-9ab7-88e31395f606">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="24aaabf6-2fb2-4ffe-a411-f84f2ac002b9">21</p>
+              </td>
+              <td>
+                <p rend="notindent" id="4f4c26e2-f295-4687-9528-8746b5dc7aaf">А. М. Новиков «рассказал» Толстому «таблицу Менделеева».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="3f1b5727-2a70-4026-a2b3-f587d019dc0e">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="1a39b3c3-ba15-44cb-93fd-6d0f80b56fde">27</p>
+              </td>
+              <td>
+                <p rend="notindent" id="3f61df06-34f8-4d6f-b627-fad3b9d02095">Посещение Толстого крестьянами с. Кутьмы, просившими заступничества за двух женщин, осужденных «в острог за подол травы».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="bd802d9f-2738-459d-aa1e-63a855b43bf4">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="d0b7699f-c74b-4338-b50e-a13680a3e028">30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="d6152e84-34b4-4865-8dcb-d413c7060ebb">Чтение рассказов В. А. Слепцова.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="b4c5408a-e651-4205-a2ca-2692006dbe24">Сентябрь</p>
+              </td>
+              <td>
+                <p rend="notindent" id="a788fd31-bcdc-441a-a657-9fa2f6732b71">5</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c4c79ef6-c0e6-4665-8af7-fc599a2b12f9">Чтение «Эмиля» Руссо.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="b16c0552-3702-4a8a-8c79-9047d5d1c13b">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="cf8f9ac5-1d38-4b76-af4e-d2d4566c7535">12—14</p>
+              </td>
+              <td>
+                <p rend="notindent" id="741eddc3-15c0-4313-8a3f-53eb8cc5f56f">Чтение книги Кольриджа «Aids to reflection».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="0dd732d2-65b2-4b66-9d70-b46fafb51814">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b9dac518-2d7f-4aab-9d1d-62c7507909da">16, 17</p>
+              </td>
+              <td>
+                <p rend="notindent" id="96c4bdff-d342-41c1-b971-7cb84bc6a0d8">Чтение книги Гаусрата «Neutestamentische Zeitgeschichte».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="1eb8e89e-fe69-4695-8fc5-90e4f15088e5">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="0b19bd44-c0c2-4700-ace1-a0a89644355a">19</p>
+              </td>
+              <td>
+                <p rend="notindent" id="1f186495-e48c-4284-8c98-902bb34324b5">Чтение книги Прессансе «Histoire des trois premiers siècles de l'Eglise Chrétienne».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="4d80e253-5dc8-4683-9df1-6a06f9daf21f">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="188494dc-c6f8-421f-87c8-45e1c4c87c6f">20</p>
+              </td>
+              <td>
+                <p rend="notindent" id="88551c31-f0a3-4145-b347-10f0fbaa7879">Толстой ходил в Тулу «узнать о высеченном человеке».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="e43ec420-761b-4f53-8529-325227b419b5">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="f2ff0ad2-8c8a-4860-a94d-6a86a24e7233">22—октябрь 28</p>
+              </td>
+              <td>
+                <p rend="notindent" id="1fa1d227-f8ae-4ef6-a1be-2891bde67eb3">В Ясной Поляне H. Н. Ге, который вылепил бюст Толстого и написал портрет М. Л. Толстой.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="adec466f-ecb4-449c-a3e3-95124c1d7764">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="2763bad4-4a04-4678-90c7-62b18288f80b">24—октяб. 4</p>
+              </td>
+              <td>
+                <p rend="notindent" id="2ba6f75d-561f-4162-bcbd-f4772f4de96e">Тяжелое заболевание Толстого.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="17551506-2c7d-4aed-9bc0-2bb3235711d4">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="cd8e392a-09f8-40dd-b866-296e28e4425d">конец</p>
+              </td>
+              <td>
+                <p rend="notindent" id="27deb0b5-3547-4b7d-8862-aa3ca4292598">Чтение статьи Э. А. Дмитриева-Мамонова «Славянофилы».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="7279382c-61a4-4cb8-b4a1-dd48fdbefdd4">Октябрь</p>
+              </td>
+              <td>
+                <p rend="notindent" id="cca6ccc1-1c9c-45bb-a6ad-e2e8c73ceaa9">7—8, 13—14, 28—30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="90c5c456-4ff4-441b-a458-1d0cda6689dd">Работа над заключением к статье о непротивлении.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="2a7b8cd2-6057-42ea-a7b9-b847266616e0">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="3c7db9c8-6b2d-45ac-a8d8-df9db58b6180">12</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c8472c87-9f14-43c8-bc2a-f109329da048">К Толстому приезжал А. М. Богомолец за содействием в получении разрешения поехать к умиравшей на карийской каторге жене.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="6270c0b5-3196-4063-bcb5-fd0d9c4c7173">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="3223fc79-f6a7-4f5a-b43e-dc2f45bf7f31">12—17(?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="6d227063-87e7-4934-90e2-0cbd5cc9b098">Перевод и изложение статьи Элизы Бёрнс («Об отношениях между полами»).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="2e723481-1a7f-4ddd-a77f-9ea3cce3dc20">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="9f6971fd-d87e-4599-b1eb-e2a905e0ec60">15—18(?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ad193eee-476b-4a71-8072-68054e4ac8d0">Работа над предисловием к статье В. Г. Черткова «Злая забава» и над исправлением статьи.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="9048a248-9b2f-4a3e-a935-ca5fdc6139cb">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="2632b74f-443b-440d-b774-61f22a0545e6">15—21(?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="309343be-6b34-432f-af2d-cdf0735a8a02">Толстой поправлял перевод А. М. Новикова рассказа Гюи де Мопассана «Le port».</p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <p rend="notindent" id="f1e2e071-1586-430a-b56c-86ddcd5352ff">»</p>
+              </td>
+              <td rowspan="2">
+                <p rend="notindent" id="8cd33bfd-cb14-444b-9a65-f7cc77d0a466">22</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c6019ff2-0ef0-4725-8dc0-09aa20afbd00">Возобновление работы над «Отцом Сергием».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="679095b7-52fd-4104-bc1d-ecf72c2c0446">Получение «жестокого письма» от А. М. Кузминского в ответ на просьбу о содействии А. М. Богомольцу.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="4cc1c770-5525-46e1-870a-69d77a5aca63">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="31f26ffb-7dc0-4919-bb9a-aa8d9fc4c5b5">24—26</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ef948c9d-ba88-4d68-9442-3b56065a9028">Изложение рассказов Гюи де Мопассана: «Франсуаза»</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p rend="left tblbtw" id="eec4a787-be0f-41bf-ab91-a6210a42efd5">
+          <hi rend="opnumber">168</hi>
+          <pb n="169"/>
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="2">
+                <lb/>
+              </td>
+              <td>
+                <p rend="notindent" id="3d68d0f1-5513-42af-8658-12f05b55d475">(«Le port») и «Дорого стоит» (из «Sur l’eau»).</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="w20">
+                <p rend="notindent" id="5620aa44-d2d8-41cf-8afc-71d80c54b2b7">Октябрь</p>
+              </td>
+              <td class="w20">
+                <p rend="notindent" id="4378e0b3-fc70-46b8-949d-8a7dda325ad6">26</p>
+              </td>
+              <td class="w60">
+                <p rend="notindent" id="b7dc3481-1a92-4528-bdf1-be4af45bf088">Чтение драмы А. Ф. Писемского «Горькая судьбина».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="75461846-7bb4-474a-8c55-1212eacba98c">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="e7bb4307-865d-49bc-b62c-5757cd4e686e">29</p>
+              </td>
+              <td>
+                <p rend="notindent" id="8f57396b-b233-4ada-b39e-2ae6b318c6f3">Перевод отрывков о войне из сочинений Мопассана («Sur l'еаu»), Рода («Le sens de la vie») и Вогюэ («A travers l’exposition, VII. La guerre. La paix sociale»).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="49399e0d-aa5f-494d-8bc4-9e4d7682fb33">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="ac20e8a8-dd45-4e4c-9c66-72dcba220a06">30</p>
+              </td>
+              <td>
+                <p rend="notindent" id="f7529141-a32d-4f40-ab6c-2d85a73ab4f6">Поездка в Тулу в окружной суд. (Посещение суда было связано с работой над «Коневской повестью».)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="d3deebf5-0c9f-4ce8-ba81-a5f793520c8b">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="22851a70-8024-4547-b5af-d2e62afae84b">31</p>
+              </td>
+              <td>
+                <p rend="notindent" id="88705936-ab88-48a1-b8b6-fb1df70dee74">Толстой «стал писать Сергия сначала».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="868e7738-be5a-4d55-ac0a-2139bfbbe1ee">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="7f5a0693-f558-47a1-84fe-d01a255038af">31(?)</p>
+              </td>
+              <td>
+                <p rend="notindent" id="dff2452b-e7be-4379-ac84-804b1c47b4bb">Чтение книги Эмиля Лавеле «Le lux».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="7f09b2bc-3972-4781-a1ba-3f5bb56cf52c">Ноябрь</p>
+              </td>
+              <td>
+                <p rend="notindent" id="849446c5-b6f3-450c-a016-69958ff66ba2">2</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c5d9a80f-fadd-477b-bde9-55331289e0ff">Был Сергей Николаевич Толстой с дочерью Верой.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="d9e93944-00ea-4c72-9440-f81faf3bbf38">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="dd7ed6ed-047d-4740-bc59-1434c4282c65">17, 21</p>
+              </td>
+              <td>
+                <p rend="notindent" id="511fdd39-0d28-49e4-a6cb-0b5fbad9b1ce">Чтение вслух дочери Марии Львовне и племяннице В. А. Кузминской «Одиссеи» Гомера.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="dddcaa3b-f2b6-4918-a502-f8abec449263">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="df18ecff-d781-41a4-9c37-a609395ddfad">26—27</p>
+              </td>
+              <td>
+                <p rend="notindent" id="44a36c56-515b-4d4c-b59c-c5fd7c54e091">Поездка в г. Крапивну на суд над крестьянами, убившими односельчанина-конокрада.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="390e7946-c755-4737-9c62-88cb3e04ff4b">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="b12fae6c-0730-4222-b73e-877e7edfc6c5">27—28</p>
+              </td>
+              <td>
+                <p rend="notindent" id="0642583b-9d47-4ef8-9321-8f201400488b">Приезд H. Н. Ге.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="563a6b5b-2951-4db7-b209-fafd23090fd1">Декабрь</p>
+              </td>
+              <td>
+                <p rend="notindent" id="58d424ba-d71c-472d-9214-ebc7dc072dde">13—15</p>
+              </td>
+              <td>
+                <p rend="notindent" id="325adc3f-201b-49c6-b0d3-e79021cf40b7">В Ясной Поляне английский журналист, переводчик сочинений Толстого Э. М. Диллон.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="1cb33114-c090-442f-9586-da33cbf3eda4">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="6d5e1009-0500-4db5-8aa0-5721df94da23">14</p>
+              </td>
+              <td>
+                <p rend="notindent" id="e92cdac4-8244-4442-977c-765065922088">Работа над «Коневской повестью». Повесть впервые озаглавлена «Воскресение».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="39508169-e356-4fb3-91a6-53ef8138a2c1">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="722aaf3d-d47d-4c8a-bfd6-16df8e1d5e56">15</p>
+              </td>
+              <td>
+                <p rend="notindent" id="4b3bc2ac-7d3b-4268-a1ef-d00f2026663d">Был Илья Болхин, один из яснополянских крестьян, приговоренных к шестинедельному тюремному заключению за порубку в помещичьем лесу. Запись в Дневнике: «Очень стало тяжело и целый день сжимается сердце... Надо уйти».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="f436d166-9aee-4501-85f4-e2d6441ad89a">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="32ba343d-5077-4fc1-9ca2-5e3d99a0765e">16</p>
+              </td>
+              <td>
+                <p rend="notindent" id="978f8c08-fa14-4394-b32f-35b5d52c17ea">Чтение Дюма.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="9a70b4f0-bc91-4be5-a921-06ca83b84995">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="c52895a3-3623-4023-a0a8-4f0a2d970028">20 (?)—25</p>
+              </td>
+              <td>
+                <p rend="notindent" id="58d92e47-20e6-40b4-abe4-077ee0e86813">Чтение книги Ренана «L’avenir de la science».</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p rend="notindent" id="f752dd1e-5e97-4735-9860-f89399168a60">»</p>
+              </td>
+              <td>
+                <p rend="notindent" id="142fbada-c37b-4e35-9049-c62f0f5337b2">26</p>
+              </td>
+              <td>
+                <p rend="notindent" id="1a53d59a-6159-48d6-bed9-183fb04bc37f">Запись в Дневнике: «Хочется писать художественное».</p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <p rend="notindent" id="c12a1e18-2c12-47f8-af4b-18b7cea8e19b">Ноябрь — декабрь</p>
+              </td>
+              <td>
+                <p rend="notindent" id="da34e823-5f66-432f-8d0c-57c015570115">Работа над статьей о непротивлении.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </body>
   </text>

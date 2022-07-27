@@ -1,515 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v90_383_384_Redaktoru_zhurnala_Zhizn_dlja_vseh_V_A_P">
-                    Комментарии. Tolstoy Digital
-                </title>
-                <title type="main">«Редактору журнала “Жизнь для всех” В. А. Поссе». Описание рукописей</title>
-                <author>В. С. Мишин</author>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                         Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p>
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            «Редактору журнала «Жизнь для всех» В. А. Поссе». Описание рукописей
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 90
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1958"/>
-                        </imprint>
-                        <biblScope unit="volume">90</biblScope>
-                        <biblScope unit="page">383-384</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy>
-                    <category ana="comments">
-                        <catDesc>комментарии</catDesc>
-                    </category>
-                    <category ana="comments_works">
-                        <catDesc>комментарии к произведениям</catDesc>
-                    </category> 
-                    </taxonomy>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>                 
-            <textClass> 
-                <catRef target="type" ana="comments"/>
-           </textClass>
-            <textClass>
-                <catRef target="comments_type" ana="comments_works"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v90_383_384_Redaktoru_zhurnala_Zhizn_dlja_vseh_V_A_P">Комментарии. Tolstoy Digital</title>
+        <title type="main">«Редактору журнала “Жизнь для всех” В. А. Поссе». Описание рукописей</title>
+        <author>В. С. Мишин</author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство</resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp>Подготовка TEI/XML</resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
+        </respStmt>
+        <funder>Проект «Слово Толстого»</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
+        </publisher>
+        <availability>
+          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
+        </availability>
+        <date from="2015" to="2022"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич</author>
+            <title level="a">«Редактору журнала «Жизнь для всех» В. А. Поссе». Описание рукописей</title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 90</title>
+            <imprint>
+              <pubPlace>Москва</pubPlace>
+              <publisher>Государственное издательство «Художественная литература»</publisher>
+              <date when="1958"/>
+            </imprint>
+            <biblScope unit="volume">90</biblScope>
+            <biblScope unit="page">383-384</biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category ana="comments">
+            <catDesc>комментарии</catDesc>
+          </category>
+          <category ana="comments_works">
+            <catDesc>комментарии к произведениям</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="type" ana="comments"/>
+      </textClass>
+      <textClass>
+        <catRef target="comments_type" ana="comments_works"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <body>
       <div type="section" id="h000021014002">
-       <pb n="383"/>
-       <h3 class="center">
-        ОПИСАНИЕ РУКОПИСЕЙ
-       </h3>
-       <p rend="left" id="9e5d37e7-6f43-462a-912d-7b5819a5a071">
-        1. Рукопись. 4 лл. 4°, исписанных рукой В. Ф. Булгакова с обеих сторон, и 1 л. почтового формата (автограф-вставка), с большими исправлениями Толстого и несколькими поправками Булгакова.
-        <hi rend="italic">
-         Начало:
-        </hi>
-        «NN! (Предлагаю вам)».
-        <hi rend="italic">
-         Конец:
-        </hi>
-        «данными науки». На обложке рукой В. Ф. Булгакова помечено: «Письмо редактору журнала “Жизнь для всех”. Листок, написанный мною под диктовку Л. Н. и потом им исправленный. Первоначальная версия».
-       </p>
-       <p rend="left" id="5e21a7e9-fe15-432d-b095-19772f16ce15">
-        2. Машинописная копия рук. № 1 с исправлениями Толстого. 4 лл. тонкой бумаги стандартного размера и 2лл. почтового формата (автографы-вставки; одна из них была исключена).
-        <hi rend="italic">
-         Начало
-        </hi>
-        : «Владимир Александрович, я уже давно».
-        <hi rend="italic">
-         Конец:
-        </hi>
-        «другие сделают лучше». В начале письма машинописная дата; «15 февраля 1910 г. Ясная Поляна».
-       </p>
-       <p rend="left" id="60fdace3-7302-40dc-a224-64ec3566492b">
-        3. Машинописная копия рук. № 2 с исправлениями Толстого. 3 лл. F° и 1 отрезок.
-        <hi rend="italic">
-         Начало:
-        </hi>
-        «Владимир Александрович, я уже давно».
-        <hi rend="italic">
-         Конец:
-        </hi>
-        «другие сделают лучше».
-       </p>
-       <p rend="left" id="99b9782e-5e70-48bc-bf66-3fd31ba8840b">
-        4. Машинописная копия части рук. № 3 с исправлениями Толстого.
-       </p>
-       <p rend="left" id="2d5409cd-2eec-4d3f-8162-da21b5d71cc9">
-        1 л. большого формата.
-        <hi rend="italic">
-         Начало:
-        </hi>
-        «Вредные последствия».
-        <hi rend="italic">
-         Конец:
-        </hi>
-        «главных религий мира».
-       </p>
-       <p rend="left" id="0cb89ea0-0ad2-4e00-b846-65bc8f49b91f">
-        5. Машинописная копия рук. 3 и 4 с исправлениями Толстого.
-       </p>
-       <p rend="left" id="9d0cb082-11bd-4f5a-87b1-56693b6c5389">
-        4 лл. F° и 4 лл. почтового формата (автографы-вставки; одна вставка в 1 л. исключена Толстым и заменена новой, написанной на двух листах).
-        <hi rend="italic">
-         Начало:
-        </hi>
-        «Владимир Александрович, я уже давно».
-        <hi rend="italic">
-         Конец:
-        </hi>
-        «другие сделают лучше».
-       </p>
-       <p rend="left" id="48c8afde-6a6b-4ecb-a4a8-243eb8e30b80">
-        6. Машинописная копия рук. № 5 с исправлениями Толстого. 4 лл. F°.
-        <hi rend="italic">
-         Начало:
-        </hi>
-        «Владимир Александрович, я уже давно».
-        <hi rend="italic">
-         Конец
-        </hi>
-        : «другие сделают лучше».
-       </p>
-       <p rend="left" id="6c05b75c-0063-463b-9fee-12e277cfb708">
-        7. Машинописная копия части рук. № 6 с большими исправлениями Толстого. 2 отрезка.
-        <hi rend="italic">
-         Начало:
-        </hi>
-        «отношении — одной из главных причин».
-        <hi rend="italic">
-         Конец:
-        </hi>
-        «в сердце каждого
-        <hi rend="opdelimiter">
-         человека».
-        </hi>
-        <hi rend="opnumber">
-         383
-        </hi>
-       </p>
-       <p rend="left" id="c185075b-8e12-43ac-9941-94c4319103b9">
-        <pb n="384"/>
-        <hi rend="npdelimiter">
-         8.
-        </hi>
-        Машинописная копия рук. № 7 с исправлениями Толстого. 2 отрезка.
-        <hi rend="italic">
-         Начало:
-        </hi>
-        «отношении — одной из главных причин».
-        <hi rend="italic">
-         Конец:
-        </hi>
-        «и радостные истины».
-       </p>
-       <p rend="left" id="9d0ff582-617c-40b7-850c-db8ba8be235e">
-        9. Машинописная копия рукописи несохранившейся и рук. № 8. 5 лл. тонкой бумаги стандартного формата.
-        <hi rend="italic">
-         Начало:
-        </hi>
-        «Владимир Александрович, я уже давно».
-        <hi rend="italic">
-         Конец:
-        </hi>
-        «другие сделают лучше». В конце письма подпись Толстого. Перед текстом — машинописная дата: «24 февраля 1910 г. Ясная Поляна». Последняя редакция письма, посланная В. А. Поссе для печати. Все листы имеют следы сгиба вчетверо (под конверт). В тексте поправок Толстого нет; между тем имеются поправки неизвестной рукой карандашом, сделанные, очевидно, после подписания письма Толстым, в большинстве своем стилистического характера. С этими исправлениями письмо и было опубликовано.
-       </p>
-       <p rend="left" id="2b71cca6-715b-4900-bf3a-710cce64de86">
-        В настоящем издании письмо к В. А. Поссе печатается по рук. № 9. Поправки, как не принадлежащие Толстому, не принимаются во внимание.
-       </p>
-       <lb/>
-       <table>
-        <tr>
-         <td class="w10">
-          <p rend="notindentleft" id="3a5dba37-4640-4a72-862a-80df18c0bae4">
-           <hi rend="italic">
-            Стр.
-           </hi>
-           <lb/>
-           <hi rend="italic">
-            строка
-           </hi>
-          </p>
-         </td>
-         <td class="w40">
-          <p rend="notindentleft" id="4b2abc7a-e71b-4292-acdd-6239945c97c3">
-           <hi rend="italic">
-            Печатается в настоящем издании
-           </hi>
-          </p>
-         </td>
-         <td class="w50">
-          <p rend="notindentleft" id="da83761b-eab0-41c3-a1a4-fdae2540523e">
-           <hi rend="italic">
-            Напечатано в «Жизни для всех»
-           </hi>
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="1c57383e-57ce-4b4a-b483-9012fdff279f">
-           86,27
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="a053a8d6-ad5c-45c8-b979-8aa7334a6025">
-           великих религий
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="dfc67b13-3f3f-415d-a4d8-3ef9081ed152">
-           религий
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="deac1ef1-d197-422e-a757-3eca15943adf">
-           87,6
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="55fbb517-e6dc-439f-bcfa-c2c1bfeedb66">
-           как большинства
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="ee7e36b4-6d72-4ca1-8f4d-1d6bf5ca1e9d">
-           как среди большинства
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="ba27322f-c2cc-4948-86c8-a2f2e5a95db7">
-           87,6
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="78458466-c6fd-4310-bcfc-0f63bfe789f8">
-           так называемого
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="f4215af9-e9bc-44d3-8c78-fc530d2459e3">
-           среди так называемого
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="2ddeefd3-9048-450b-8742-aa37ff2e719f">
-           87,7
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="046c6f81-5cd6-41e2-ab9a-4892f9ffdf7a">
-           так и так называемой
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="70ea29ed-4c13-4082-9479-4ad60f8cd451">
-           так и среди так называемой
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="00769813-9e91-4186-a09a-b28cf2d146f1">
-           87,7
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="14e7664d-8657-4a29-9f92-0eb22b7fce44">
-           Ослабление это
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="c7ad1a52-3de7-4e0f-909f-95c7551f4d72">
-           Ослабление же религиозного сознания
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="ab3a8f2c-5037-431f-9ff5-1c9eb90a5fd3">
-           87,9
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="ecc05e11-4793-4b48-829d-fb5523964131">
-           люди из народа
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="88d3e019-e905-4e9d-bdf5-b4efd4c3b61b">
-           эти люди
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="88632369-ece4-4a11-9bd0-7ec1c5fc0f85">
-           87,14
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="9fa0d0a0-2cda-40f3-8153-ec127bf1ef32">
-           религиозных положениях такие,
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="f4216c22-b740-44b1-92d7-2c9ea9d488b6">
-           религиозных утверждениях такие из них,
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="2ae04640-17d7-4aa8-b669-4b173ad61d96">
-           87,18
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="19971d27-95a8-44da-a844-be10302223dd">
-           выделить наиболее
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="94fce50a-9c26-4f94-852a-5ef5ae832f13">
-           отделить наиболее
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="02e5352d-d6cf-4331-a875-ce75d2e9fe15">
-           87,19
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="05882636-2765-43dd-9ade-452c54e2537e">
-           они перестают
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="f164b2f9-ae72-4b78-8344-34e63fedf38f">
-           люди перестают
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="11ec5a02-b4de-4418-b0fe-d4afabcfab4f">
-           87,22
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="1f2346c8-c0de-4698-9a9a-55f964f72041">
-           внешними формами
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="704a1b89-b43d-4aa3-959d-f24dbaf1cac2">
-           внешними обрядами
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="eb5947d2-8a63-4453-b038-9f5b47074f40">
-           87,29
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="8b296add-e7af-4817-8203-b174d3445187">
-           что вызывающие их сомнения религиозные положения,
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="d0369eef-2192-48c0-860b-047df838d7b2">
-           что те религиозные положения, которые вызывают их сомнения,
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="3083cddb-fa61-4041-9219-10f36cd52f04">
-           87,36
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="622e9369-ff91-4503-940d-1e88a88258b6">
-           этим, общим всем религиям, положениям
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="ed67b990-cee4-4d23-ac2b-69bf8c5c7113">
-           в эти, общие всем религиям, положения
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="56cb94cf-71c6-4673-bca2-40bd05ac01ee">
-           89,5
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="a9deb021-f94e-4a79-ac04-16adddc9787c">
-           выделения
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="afd6d801-4cc2-4e2a-abbe-ce248351c217">
-           отделения
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="57113881-9f97-4279-8cda-6b5a0ae3d9d3">
-           89,9
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="219c61ec-c579-4dcc-b5ac-075f8e48e7e6">
-           выделить
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="cf5875ea-9f93-4cb7-b91d-c43beca24b11">
-           отделить
-          </p>
-         </td>
-        </tr>
-        <tr>
-         <td>
-          <p rend="right" id="bef6f786-1181-42b2-9f54-239ff8294374">
-           89,12
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="69bebe30-decd-48be-9f7f-f7526a11c41b">
-           выделить из несущественного
-          </p>
-         </td>
-         <td>
-          <p rend="notindentleft" id="6154ef33-a59b-4423-ac0e-1dd762466f6a">
-           отделить от несущественного.
-          </p>
-         </td>
-        </tr>
-       </table>
-       <p>
-       </p>
+        <pb n="383"/>
+        <h3 class="center">ОПИСАНИЕ РУКОПИСЕЙ</h3>
+        <p rend="left" id="9e5d37e7-6f43-462a-912d-7b5819a5a071">1. Рукопись. 4 лл. 4°, исписанных рукой В. Ф. Булгакова с обеих сторон, и 1 л. почтового формата (автограф-вставка), с большими исправлениями Толстого и несколькими поправками Булгакова.<hi rend="italic">Начало:</hi>«NN! (Предлагаю вам)».<hi rend="italic">Конец:</hi>«данными науки». На обложке рукой В. Ф. Булгакова помечено: «Письмо редактору журнала “Жизнь для всех”. Листок, написанный мною под диктовку Л. Н. и потом им исправленный. Первоначальная версия».</p>
+        <p rend="left" id="5e21a7e9-fe15-432d-b095-19772f16ce15">2. Машинописная копия рук. № 1 с исправлениями Толстого. 4 лл. тонкой бумаги стандартного размера и 2лл. почтового формата (автографы-вставки; одна из них была исключена).<hi rend="italic">Начало</hi>: «Владимир Александрович, я уже давно».<hi rend="italic">Конец:</hi>«другие сделают лучше». В начале письма машинописная дата; «15 февраля 1910 г. Ясная Поляна».</p>
+        <p rend="left" id="60fdace3-7302-40dc-a224-64ec3566492b">3. Машинописная копия рук. № 2 с исправлениями Толстого. 3 лл. F° и 1 отрезок.<hi rend="italic">Начало:</hi>«Владимир Александрович, я уже давно».<hi rend="italic">Конец:</hi>«другие сделают лучше».</p>
+        <p rend="left" id="99b9782e-5e70-48bc-bf66-3fd31ba8840b">4. Машинописная копия части рук. № 3 с исправлениями Толстого.</p>
+        <p rend="left" id="2d5409cd-2eec-4d3f-8162-da21b5d71cc9">1 л. большого формата.<hi rend="italic">Начало:</hi>«Вредные последствия».<hi rend="italic">Конец:</hi>«главных религий мира».</p>
+        <p rend="left" id="0cb89ea0-0ad2-4e00-b846-65bc8f49b91f">5. Машинописная копия рук. 3 и 4 с исправлениями Толстого.</p>
+        <p rend="left" id="9d0cb082-11bd-4f5a-87b1-56693b6c5389">4 лл. F° и 4 лл. почтового формата (автографы-вставки; одна вставка в 1 л. исключена Толстым и заменена новой, написанной на двух листах).<hi rend="italic">Начало:</hi>«Владимир Александрович, я уже давно».<hi rend="italic">Конец:</hi>«другие сделают лучше».</p>
+        <p rend="left" id="48c8afde-6a6b-4ecb-a4a8-243eb8e30b80">6. Машинописная копия рук. № 5 с исправлениями Толстого. 4 лл. F°.<hi rend="italic">Начало:</hi>«Владимир Александрович, я уже давно».<hi rend="italic">Конец</hi>: «другие сделают лучше».</p>
+        <p rend="left" id="6c05b75c-0063-463b-9fee-12e277cfb708">7. Машинописная копия части рук. № 6 с большими исправлениями Толстого. 2 отрезка.<hi rend="italic">Начало:</hi>«отношении — одной из главных причин».<hi rend="italic">Конец:</hi>«в сердце каждого<hi rend="opdelimiter">человека».</hi><hi rend="opnumber">383</hi></p>
+        <p rend="left" id="c185075b-8e12-43ac-9941-94c4319103b9"><pb n="384"/><hi rend="npdelimiter">8.</hi>Машинописная копия рук. № 7 с исправлениями Толстого. 2 отрезка.<hi rend="italic">Начало:</hi>«отношении — одной из главных причин».<hi rend="italic">Конец:</hi>«и радостные истины».</p>
+        <p rend="left" id="9d0ff582-617c-40b7-850c-db8ba8be235e">9. Машинописная копия рукописи несохранившейся и рук. № 8. 5 лл. тонкой бумаги стандартного формата.<hi rend="italic">Начало:</hi>«Владимир Александрович, я уже давно».<hi rend="italic">Конец:</hi>«другие сделают лучше». В конце письма подпись Толстого. Перед текстом — машинописная дата: «24 февраля 1910 г. Ясная Поляна». Последняя редакция письма, посланная В. А. Поссе для печати. Все листы имеют следы сгиба вчетверо (под конверт). В тексте поправок Толстого нет; между тем имеются поправки неизвестной рукой карандашом, сделанные, очевидно, после подписания письма Толстым, в большинстве своем стилистического характера. С этими исправлениями письмо и было опубликовано.</p>
+        <p rend="left" id="2b71cca6-715b-4900-bf3a-710cce64de86">В настоящем издании письмо к В. А. Поссе печатается по рук. № 9. Поправки, как не принадлежащие Толстому, не принимаются во внимание.</p>
+        <lb/>
+        <table>
+          <tr>
+            <td class="w10">
+              <p rend="notindentleft" id="3a5dba37-4640-4a72-862a-80df18c0bae4">
+                <hi rend="italic">Стр.</hi>
+                <lb/>
+                <hi rend="italic">строка</hi>
+              </p>
+            </td>
+            <td class="w40">
+              <p rend="notindentleft" id="4b2abc7a-e71b-4292-acdd-6239945c97c3">
+                <hi rend="italic">Печатается в настоящем издании</hi>
+              </p>
+            </td>
+            <td class="w50">
+              <p rend="notindentleft" id="da83761b-eab0-41c3-a1a4-fdae2540523e">
+                <hi rend="italic">Напечатано в «Жизни для всех»</hi>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="1c57383e-57ce-4b4a-b483-9012fdff279f">86,27</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="a053a8d6-ad5c-45c8-b979-8aa7334a6025">великих религий</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="dfc67b13-3f3f-415d-a4d8-3ef9081ed152">религий</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="deac1ef1-d197-422e-a757-3eca15943adf">87,6</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="55fbb517-e6dc-439f-bcfa-c2c1bfeedb66">как большинства</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="ee7e36b4-6d72-4ca1-8f4d-1d6bf5ca1e9d">как среди большинства</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="ba27322f-c2cc-4948-86c8-a2f2e5a95db7">87,6</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="78458466-c6fd-4310-bcfc-0f63bfe789f8">так называемого</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="f4215af9-e9bc-44d3-8c78-fc530d2459e3">среди так называемого</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="2ddeefd3-9048-450b-8742-aa37ff2e719f">87,7</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="046c6f81-5cd6-41e2-ab9a-4892f9ffdf7a">так и так называемой</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="70ea29ed-4c13-4082-9479-4ad60f8cd451">так и среди так называемой</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="00769813-9e91-4186-a09a-b28cf2d146f1">87,7</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="14e7664d-8657-4a29-9f92-0eb22b7fce44">Ослабление это</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="c7ad1a52-3de7-4e0f-909f-95c7551f4d72">Ослабление же религиозного сознания</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="ab3a8f2c-5037-431f-9ff5-1c9eb90a5fd3">87,9</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="ecc05e11-4793-4b48-829d-fb5523964131">люди из народа</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="88d3e019-e905-4e9d-bdf5-b4efd4c3b61b">эти люди</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="88632369-ece4-4a11-9bd0-7ec1c5fc0f85">87,14</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="9fa0d0a0-2cda-40f3-8153-ec127bf1ef32">религиозных положениях такие,</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="f4216c22-b740-44b1-92d7-2c9ea9d488b6">религиозных утверждениях такие из них,</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="2ae04640-17d7-4aa8-b669-4b173ad61d96">87,18</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="19971d27-95a8-44da-a844-be10302223dd">выделить наиболее</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="94fce50a-9c26-4f94-852a-5ef5ae832f13">отделить наиболее</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="02e5352d-d6cf-4331-a875-ce75d2e9fe15">87,19</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="05882636-2765-43dd-9ade-452c54e2537e">они перестают</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="f164b2f9-ae72-4b78-8344-34e63fedf38f">люди перестают</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="11ec5a02-b4de-4418-b0fe-d4afabcfab4f">87,22</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="1f2346c8-c0de-4698-9a9a-55f964f72041">внешними формами</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="704a1b89-b43d-4aa3-959d-f24dbaf1cac2">внешними обрядами</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="eb5947d2-8a63-4453-b038-9f5b47074f40">87,29</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="8b296add-e7af-4817-8203-b174d3445187">что вызывающие их сомнения религиозные положения,</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="d0369eef-2192-48c0-860b-047df838d7b2">что те религиозные положения, которые вызывают их сомнения,</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="3083cddb-fa61-4041-9219-10f36cd52f04">87,36</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="622e9369-ff91-4503-940d-1e88a88258b6">этим, общим всем религиям, положениям</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="ed67b990-cee4-4d23-ac2b-69bf8c5c7113">в эти, общие всем религиям, положения</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="56cb94cf-71c6-4673-bca2-40bd05ac01ee">89,5</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="a9deb021-f94e-4a79-ac04-16adddc9787c">выделения</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="afd6d801-4cc2-4e2a-abbe-ce248351c217">отделения</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="57113881-9f97-4279-8cda-6b5a0ae3d9d3">89,9</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="219c61ec-c579-4dcc-b5ac-075f8e48e7e6">выделить</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="cf5875ea-9f93-4cb7-b91d-c43beca24b11">отделить</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p rend="right" id="bef6f786-1181-42b2-9f54-239ff8294374">89,12</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="69bebe30-decd-48be-9f7f-f7526a11c41b">выделить из несущественного</p>
+            </td>
+            <td>
+              <p rend="notindentleft" id="6154ef33-a59b-4423-ac0e-1dd762466f6a">отделить от несущественного.</p>
+            </td>
+          </tr>
+        </table>
+        <p/>
       </div>
     </body>
   </text>
