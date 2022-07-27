@@ -1,865 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v02_358_369_Sravnitelnyj_obzor_sostava_glav_treh_red">
-                    Комментарии. Tolstoy Digital
-                </title>
-                <title type="main">«Отрочество». Сравнительный обзор состава глав трех редакций</title>
-                <author>М. А. Цявловский</author>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                         Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p>
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Сравнительный обзор состава глав трех редакций «Отрочества»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 2
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1953"/>
-                        </imprint>
-                        <biblScope unit="volume">2</biblScope>
-                        <biblScope unit="page">358-369</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy>
-                    <category ana="comments">
-                        <catDesc>комментарии</catDesc>
-                    </category>
-                    <category ana="comments_works">
-                        <catDesc>комментарии к произведениям</catDesc>
-                    </category> 
-                    </taxonomy>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>                 
-            <textClass> 
-                <catRef target="type" ana="comments"/>
-           </textClass>
-            <textClass>
-                <catRef target="comments_type" ana="comments_works"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="v02_358_369_Sravnitelnyj_obzor_sostava_glav_treh_red">Комментарии. Tolstoy Digital</title>
+        <title type="main">«Отрочество». Сравнительный обзор состава глав трех редакций</title>
+        <author>М. А. Цявловский</author>
+        <respStmt>
+          <resp>Идея, постановка задач, руководство</resp>
+          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
+        </respStmt>
+        <respStmt>
+          <resp>Подготовка TEI/XML</resp>
+          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
+        </respStmt>
+        <funder>Проект «Слово Толстого»</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
+        </publisher>
+        <availability>
+          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
+        </availability>
+        <date from="2015" to="2022"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>Толстой Лев Николаевич</author>
+            <title level="a">Сравнительный обзор состава глав трех редакций «Отрочества»</title>
+          </analytic>
+          <monogr>
+            <title level="m">Полное собрание сочинений. Том 2</title>
+            <imprint>
+              <pubPlace>Москва</pubPlace>
+              <publisher>Государственное издательство «Художественная литература»</publisher>
+              <date when="1953"/>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+            <biblScope unit="page">358-369</biblScope>
+          </monogr>
+          <series>
+            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
+          </series>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category ana="comments">
+            <catDesc>комментарии</catDesc>
+          </category>
+          <category ana="comments_works">
+            <catDesc>комментарии к произведениям</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="type" ana="comments"/>
+      </textClass>
+      <textClass>
+        <catRef target="comments_type" ana="comments_works"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <body>
       <div type="section" id="h000013003002003">
-       <pb n="358"/>
-       <h4 class="center">
-        <strong>
-         Сравнительный обзор состава глав трех редакций «Отрочества».
-        </strong>
-       </h4>
-       <p rend="left" id="3e7ba030-289b-4eab-b41d-63bb8ac80db5">
-        Не считая возможным в настоящем издании опубликовать полностью текст I и II редакций «Отрочества», мы печатаем из них лишь отрывки. Для указания местонахождения их в рукописях дается настоящий обзор, позволяющий вместе с тем следить за тем, как шла работа автора. За основание сравнения взята окончательная (III) редакция, с текстом которой и сравниваются тексты первых двух редакций.
-       </p>
-       <p rend="left" id="b70bdca1-06bb-4dfc-b611-df63996493f3">
-        <strong>
-         Глава I. «Поездка на долгих».
-        </strong>
-        В I ред. глава носит название «<choice><reg>Путешествие</reg><orig>Путешествiе</orig></choice>» и начинается абзацем: «Со смертью матери», по тексту очень близким к соответствующему абзацу II редакции (вар. № 2). Затем
-        <hi rend="opdelimiter">
-         идет
-        </hi>
-        <hi rend="opnumber">
-         358
-        </hi>
-        <pb n="359"/>
-        <hi rend="npdelimiter">
-         абзац,
-        </hi>
-        помещаемый нами в вариантах
-        <hi rend="italic">
-         (см. вариант №
-        </hi>
-        1), после чего идет текст, близкий к тексту III редакции до (исключительно) последнего абзаца: «Но вот и деревня». Текст I ред. кратче текста III ред. Из мелких отличий отметим, что лакей назван здесь не Василием, а Михеем.
-       </p>
-       <p rend="left" id="7ee21197-c180-49e8-abb2-da52e938b3ab">
-        Затем в I редакции, вместо последнего абзаца III редакции, идет такой текст:
-       </p>
-       <p rend="big left" id="35d191b0-e48e-4751-af73-e61ec025adb0">
-        Иногда <choice><reg>чепец</reg><orig>чепецъ</orig></choice> <choice><reg>с</reg><orig>съ</orig></choice> черными лентами Мими высовывается <choice><reg>из</reg><orig>изъ</orig></choice> окна кареты, и она <choice><reg>грозит</reg><orig>грозитъ</orig></choice> <choice><reg>нам</reg><orig>намъ</orig></choice> головой. Но вообще все время <choice><reg>путешествия</reg><orig>путешествiя</orig></choice> Мими необыкновенно добра. <choice><reg>Мне</reg><orig>Мнѣ</orig></choice> почему то <choice><reg>неприятна</reg><orig>непрiятна</orig></choice> <choice><reg>её</reg><orig>ея</orig></choice> снисходительность: она <choice><reg>напоминает</reg><orig>напоминаетъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice>, что мы сироты. —
-       </p>
-       <p rend="left" id="1979a178-c6b1-45d7-bdaf-20b09d365dc9">
-        Во II редакции этой главе соответствует: «<choice><reg>Поездка</reg><orig>Поѣздка</orig></choice> на <choice><reg>долгих</reg><orig>долгихъ</orig></choice>. Глава I», начинающаяся с зачеркнутого абзаца, отсутствующего в III редакции и помещаемого нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 2).
-        </hi>
-        Затем идет текст, весьма близкий к тексту III редакции.
-       </p>
-       <p rend="left" id="e44af9b2-54b8-4074-b03b-f40ddb45783e">
-        Кроме этого, на двух отдельных листках в 4°, перенумерованных: 15, 16 и 17 стр., имеется текст части главы, начиная со слов «На крутом спуске (второй от конца абзац III редакции) до конца главы. Текст этот весьма близок к тексту III редакции.
-       </p>
-       <p rend="left" id="1e188cf8-4308-40c0-9d3b-ca7663ce0de5">
-        <strong>
-         Глава II. «Гроза».
-        </strong>
-        В I редакции после первой главы начата была глава: «<choice><reg>Наблюдения</reg><orig>Наблюденiя</orig></choice>» (сделанная потом третьей), но несколько написанных строк зачеркнуты, и вслед за ними идет глава: «Гроза. II». Текст ее близок к тексту III редакции, но кратче и не отделан.
-       </p>
-       <p rend="left" id="e9abd67e-e543-4a14-b86e-cbfbdc9d2cb5">
-        Во II редакции эта глава, названная: «Гроза 2»
-        <note id="note160" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n160">
-            <p rend="left" id="67f7db23-bafa-4d8e-bbfb-6267d1973c0e"> Цифра «2» переделана из «3».</p>
-          </div>
-        </note>
-        первоначально была третьей. Текст ее сохранился не полностью и обрывается на слове «под <choice><reg>седом</reg><orig>сѣдомъ</orig></choice>» (в абзаце III редакции: «Но вот дождь становится...»). Сохранившаяся часть близка к тексту III редакции.
-       </p>
-       <p rend="left" id="ddc02a55-c876-4316-96df-38d10f89b85e">
-        Кроме этого, на шести отдельных листках в 4° имеется три куска этой главы: 1) начиная со слов: «минуты на минуту ожидаю» (в абзаце III редакции: «Колеса вертятся скорее и скорее...»), кончая: «третья, четвертая» (в абзаце III редакции: «Василий, в дороге подающий»). Текст этого места весьма близок к тексту III редакции, отличаясь от последнего лишь тем, что в нем есть отдельные слова, исключенные в III редакции; 2) начиная со слов: «покачивается <choice><reg>перед</reg><orig>передъ</orig></choice> нами» (в абзаце III редакции: «Но вот дождь...») до конца главы. Текст этого места близок к тексту III редакции и 3) начиная со слов: «усиливало мое <choice><reg>нетерпение</reg><orig>нетерпѣнiе</orig></choice> (в первом абзаце III редакции), кончая словами: «сквозь <choice><reg>серовато</reg><orig>сѣровато</orig></choice>» (в абзаце III редакции: «Но вот дождь...»). Это место написано старательным почерком не рукой Толстого и вероятно или Акршевским или Янушкевичем (см. „История писания «Отрочества»“). Текст этого места весьма близок к тексту III редакции, но не тождествен с последним.
-       </p>
-       <p rend="left" id="5f6a19fa-2d1e-44a7-8523-9da38b7fa895">
-        <strong>
-         Глава III. «Новый взгляд».
-        </strong>
-        В I редакции, мы уже сказали, первоначально была второй и называлась «<choice><reg>Наблюдения</reg><orig>Наблюденiя</orig></choice>», но начало ее зачеркнуто. После же второй главы «Гроза» идет глава, первоначально названная «Разговоры». Под этим позднее (другими чернилами)
-        <hi rend="opdelimiter">
-         написано:
-        </hi>
-        <hi rend="opnumber">
-         359
-        </hi>
-        <pb n="360"/>
-        <hi rend="npdelimiter">
-         «Новый
-        </hi>
-        <choice><reg>взгляд</reg><orig>взглядъ</orig></choice>. III» и еще: «<choice original_editorial_correction="К[атенька]"><sic>К</sic><corr>Катенька</corr></choice> <choice><reg>хочет</reg><orig>хочетъ</orig></choice> итти <choice><reg>в</reg><orig>въ</orig></choice> монастырь». Все три варианта названия не зачеркнуты. Текст ее значительно отличается от текста III редакции. Помещаем его полностью в вариантах
-        <hi rend="italic">
-         (см. вариант № 3).
-        </hi>
-       </p>
-       <p rend="left" id="ff81ed86-b303-4d5f-8362-b1b3a50d3bf0">
-        Во II редакции эта глава идет после первой и носит два варианта названия:
-        <hi rend="italic">
-         «Новый <choice><reg>взгляд</reg><orig>взглядъ</orig></choice>. Глава 2»
-        </hi>
-        и «Богатство и <choice><reg>бедность</reg><orig>бѣдность</orig></choice>». Текст ее весьма близок к тексту III редакции, кроме двух мест, исключенных в III редакции: 1) в абзаце: «Случалось ли вам, читатель....» после слов «неизвестною еще страной» идет зачеркнутое:
-       </p>
-       <p rend="big left" id="7a856c13-b367-41a7-aa18-2197d3731512">
-        &lt;Со мной это случалось <choice><reg>несколько</reg><orig>нѣсколько</orig></choice> <choice><reg>раз</reg><orig>разъ</orig></choice>, и я <choice><reg>убежден</reg><orig>убѣжденъ</orig></choice>, что ежели Богу угодно <choice><reg>будет</reg><orig>будетъ</orig></choice>, чтобы я <choice><reg>прожил</reg><orig>прожилъ</orig></choice> до <choice><reg>последнего</reg><orig>послѣдняго</orig></choice> <choice><reg>предела</reg><orig>предѣла</orig></choice> <choice><reg>человеческой</reg><orig>человѣческой</orig></choice> жизни, то еще <choice><reg>несколько</reg><orig>нѣсколько</orig></choice> <choice><reg>раз</reg><orig>разъ</orig></choice> <choice><reg>должен</reg><orig>долженъ</orig></choice> буду испытать эту моральную <choice><reg>перемену</reg><orig>перемѣну</orig></choice>. —&gt;
-       </p>
-       <p rend="left" id="d4244f0c-69a8-4e8a-abb1-1712ac8e5857">
-        2) в абзаце: «Мне в первый раз пришла...» после последних слов: «чувствовал этого» идет зачеркнутое:
-       </p>
-       <p rend="big left" id="52338576-b58f-4061-b031-23f499c4e214">
-        &lt;Кто не <choice><reg>испытывал</reg><orig>испытывалъ</orig></choice> почти <choice><reg>того же</reg><orig>того-же</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>изучении</reg><orig>изученiи</orig></choice> <choice><reg>истории</reg><orig>исторiи</orig></choice>? <choice><reg>Ребенок</reg><orig>Ребенокъ</orig></choice> не <choice><reg>сомневается</reg><orig>сомнѣвается</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>достоверности</reg><orig>достовѣрности</orig></choice> <choice><reg>её</reg><orig>ея</orig></choice>; но не <choice><reg>может</reg><orig>можетъ</orig></choice> <choice><reg>верить</reg><orig>вѣрить</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> нее до <choice><reg>тех</reg><orig>тѣхъ</orig></choice> <choice><reg>пор</reg><orig>поръ</orig></choice>, пока <choice><reg>наблюдения</reg><orig>наблюденiя</orig></choice> <choice><reg>над</reg><orig>надъ</orig></choice> <choice><reg>действительностью</reg><orig>дѣйствительностью</orig></choice> и опытность чувства не <choice><reg>покажут</reg><orig>покажутъ</orig></choice> ему возможности <choice><reg>прошедшего</reg><orig>прошедшаго</orig></choice>. Я только тогда <choice><reg>стал</reg><orig>сталъ</orig></choice> <choice><reg>сомневаться</reg><orig>сомнѣваться</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>истине</reg><orig>истинѣ</orig></choice> <choice><reg>Истории</reg><orig>Исторiи</orig></choice>, когда <choice><reg>стал</reg><orig>сталъ</orig></choice> <choice><reg>верить</reg><orig>вѣрить</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> нее. —&gt;
-       </p>
-       <p rend="left" id="2ca666cb-6962-4679-a9e3-0c015df64ea4">
-        Остальные отличия текста II редакции от текста III редакции чисто стилистического характера.
-       </p>
-       <p rend="left" id="069ad392-4474-4f81-b32f-e72273284be0">
-        Кроме этого, на отдельном листке в 4° имеется очень близкое к тексту III редакции начало этой главы (кончая словом: «встречал» в первом абзаце), носящей здесь название: «Богатство и <choice><reg>Бедность</reg><orig>Бѣдность</orig></choice>. Глава 3».
-       </p>
-       <p rend="left" id="a0d8982a-cc08-4e15-98c0-903305df1b11">
-        <strong>
-         Глава IV. «В Москве».
-        </strong>
-        Ранний (вероятно, до I редакции «Отрочества») вариант этой главы имеется на двух листах (см. „Описание рукописей, относящихся к «Отрочеству»“, № 4). Это — вероятно, один из первых набросков начала «Отрочества»; он имеет заглавие
-        <hi rend="italic">
-         Отрочество
-        </hi>
-        и по тексту значительно отличается от текста IV главы III редакции. Начинается:
-       </p>
-       <p rend="big left" id="2ee62793-a342-456a-9048-3b1a70d50af4">
-        Мы <choice><reg>все</reg><orig>всѣ</orig></choice> опять <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>Москве</reg><orig>Москвѣ</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>том</reg><orig>томъ</orig></choice> же <choice><reg>памятном</reg><orig>памятномъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice> <choice><reg>бабушкином</reg><orig>бабушкиномъ</orig></choice> <choice><reg>доме</reg><orig>домѣ</orig></choice>. Семейство наше <choice><reg>составляют</reg><orig>составляютъ</orig></choice> <choice><reg>теже</reg><orig>тѣже</orig></choice> лица; даже Мими, <choice><reg>Любочка</reg><orig>Любочька</orig></choice> и хорошенькая Катенька <choice><reg>живут</reg><orig>живутъ</orig></choice> <choice><reg>с</reg><orig>съ</orig></choice> нами <choice><reg>наверху</reg><orig>навѣрху</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> недавно для <choice><reg>них</reg><orig>нихъ</orig></choice> <choice><reg>отделанном</reg><orig>отдѣланномъ</orig></choice> <choice><reg>веселеньком</reg><orig>веселенькомъ</orig></choice>, <choice><reg>чистеньком</reg><orig>чистенькомъ</orig></choice> <choice><reg>мезонине</reg><orig>мезонинѣ</orig></choice>. Но <choice><reg>какие</reg><orig>какiя</orig></choice> <choice><reg>огромные</reg><orig>огромныя</orig></choice> <choice><reg>перемены</reg><orig>перемѣны</orig></choice> произошли за два года, <choice><reg>которые</reg><orig>которыя</orig></choice> я пропускаю, во <choice><reg>всех</reg><orig>всѣхъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice> <choice><reg>знакомых</reg><orig>знакомыхъ</orig></choice> <choice><reg>предметах</reg><orig>предметахъ</orig></choice> и <choice><reg>лицах</reg><orig>лицахъ</orig></choice>!
-       </p>
-       <p rend="big left" id="6eccf5f6-90bd-40d3-8a23-042a9accc7de">
-        Бабушка уже не <choice><reg>внушает</reg><orig>внушаетъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice> столько страха и <choice><reg>уважения</reg><orig>уваженiя</orig></choice>, <choice><reg>как</reg><orig>какъ</orig></choice> прежде; а чувства эти <choice><reg>заменились</reg><orig>замѣнились</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>отношении</reg><orig>отношенiи</orig></choice> <choice><reg>её</reg><orig>ея</orig></choice> <choice><reg>сожалением</reg><orig>сожалѣнiемъ</orig></choice> и любовью, <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>которым</reg><orig>которымъ</orig></choice> <choice><reg>так</reg><orig>такъ</orig></choice> способна моя <choice><reg>детская</reg><orig>дѣтская</orig></choice> душа.
-       </p>
-       <p rend="left" id="19e802a6-f403-4214-bb00-f6f68df5d4bc">
-        Затем идет характеристика бабушки, довольно близкая к той, которая дана в I редакции (вар. № 5), но кратче последней. Затем идет текст, помещаемый нами в вариантах
-        <hi rend="italic">
-         (см. вариант №
-         <hi rend="opdelimiter">
-          4).
-         </hi>
-        </hi>
-        <hi rend="opnumber">
-         360
-        </hi>
-       </p>
-       <p rend="left" id="70bf48bc-e456-4978-a6e7-4a0e42509032">
-        <pb n="361"/>
-        <hi rend="npdelimiter">
-         В
-        </hi>
-        I редакции этой главе соответствует глава: «Дробь. IV».
-        <note id="note161" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n161">
-            <p rend="left" id="aa92d7f4-8999-40b7-875c-678fbedfcc00"> Цыфра приписана позднее, другими чернилами.</p>
-          </div>
-        </note>
-        Текст ее значительно отличается от текста IV главы III редакции. Помещаем начало его в вариантах
-        <hi rend="italic">
-         (см. вариант № 5).
-        </hi>
-        В напечатанном в вариантах всё написанное с начала главы до слов: «Бабушка много, очень много...» перечеркнуто крест-на-крест, в нескольких местах, и поперек текста позднейшая помета: «<choice><reg>От</reg><orig>Отъ</orig></choice> себя <choice><reg>описание</reg><orig>описанiе</orig></choice> <choice><reg>отношений</reg><orig>отношенiй</orig></choice> <choice><reg>наших</reg><orig>нашихъ</orig></choice> <choice><reg>к</reg><orig>къ</orig></choice> папа и <choice><reg>бабушке</reg><orig>бабушкѣ</orig></choice>».
-       </p>
-       <p rend="left" id="5033046d-3805-4250-a962-7c0b9dfbb9e4">
-        Во II редакции этой главе соответствует глава, стоящая после главы «Гроза» и названная:
-        <hi rend="italic">
-         «Новый <choice><reg>взгляд</reg><orig>взглядъ</orig></choice>. Глава 4».
-        </hi>
-        Эта глава имеется здесь в двух вариантах. В первом дана лишь характеристика бабушки (т. е. то, что в III редакции второй абзац IV главы), по тексту занимающая среднее положение между текстом I редакции (вар. № 5), будучи кратче последнего, и текстом второго варианта, будучи несколько пространнее его. Во втором варианте текст уже весьма близок к тексту III редакции. По этому тексту идет помета: «Они не <choice><reg>переменились</reg><orig>перемѣнились</orig></choice> <choice><reg>вдруг</reg><orig>вдругъ</orig></choice>; но постепенная <choice><reg>их</reg><orig>ихъ</orig></choice> <choice><reg>перемена</reg><orig>перемѣна</orig></choice> <choice><reg>вдруг</reg><orig>вдругъ</orig></choice> поразила меня».
-       </p>
-       <p rend="left" id="ad4cae78-610d-4f14-a4cd-815c747f7025">
-        <strong>
-         Глава V. «Старший брат».
-        </strong>
-        В I редакции место, соответствующее этой главе, находится после места, соответствующего XVII главе III редакции. Здесь (в I редакции) текст близок к тексту V главы III редакции с начала ее и кончая словами: «по целым дням и ночам» (в абзаце: «То вдруг на него...»). Затем идет текст, помещаемый нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 6).
-        </hi>
-        Поперек помещенного в вариантах текста позднейшая помета: «Мои страсти то <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>силе</reg><orig>силѣ</orig></choice>  то <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>цветам</reg><orig>цвѣтамъ</orig></choice>». Затем идет текст, соответствующий тексту III редакции, начиная с абзаца: «Однажды во время...» до конца главы. В I редакции текст этого места (в конце его стоит черта-концовка) близок к тексту III редакции, будучи несколько пространнее последнего. Обозначаем это место I редакции
-        <hi rend="italic">
-         А.
-        </hi>
-       </p>
-       <p rend="left" id="9add772d-3f5b-4311-a849-08d98600f815">
-        Во II редакции этой главе соответствует глава, названная:
-        <hi rend="italic">
-         «<choice><reg>Старший</reg><orig>Старшiй</orig></choice> <choice><reg>брат</reg><orig>братъ</orig></choice>. 5»
-        </hi>
-        <note id="note162" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n162">
-            <p rend="left" id="bb99eabe-7815-47c2-a34d-f40e2d440db1"> Цыфра «5» переправлена из «9».</p>
-          </div>
-        </note>
-        и стоящая после главы 8-й (вар. № 15). Текст ее весьма близок к тексту III редакции.
-       </p>
-       <p rend="left" id="0574828f-5d5a-4cd5-a961-53c8371fca02">
-        <strong>
-         Глава VI. «Маша».
-        </strong>
-        Этой главе в I ред. соответствует текст, идущий после текста
-        <hi rend="italic">
-         А
-        </hi>
-        и близкий к двум последним абзацам VI главы III редакции, после чего идет текст, соответствующий тексту III редакции, начиная со слов: «Иногда, притаившись...» (в абзаце: «Я по целым часам проводил...») до конца этого абзаца. Текст I редакции близок к тексту III редакции. Затем в I редакции идет:
-       </p>
-       <p rend="big left" id="e6827238-bd09-4a02-bf34-8765b7b64396">
-        Когда были гости, и мы играли <choice><reg>с</reg><orig>съ</orig></choice> <choice><reg>девочками</reg><orig>дѣвочками</orig></choice> или танцовали? Опять то же самое скрытое чувство зависти и <choice><reg>страдания</reg><orig>страданiя</orig></choice>. — Я <choice><reg>напрягал</reg><orig>напрягалъ</orig></choice>, сколько <choice><reg>мог</reg><orig>могъ</orig></choice>, свои <choice><reg>умственные</reg><orig>умственныя</orig></choice> способности, чтобы <choice><reg>найти</reg><orig>найдти</orig></choice> дурное <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>этих</reg><orig>этихъ</orig></choice> <choice><reg>удовольствиях</reg><orig>удовольствiяхъ</orig></choice> и находить <choice><reg>наслаждение</reg><orig>наслажденiе</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>гордом</reg><orig>гордомъ</orig></choice> <choice><reg>одиночестве</reg><orig>одиночествѣ</orig></choice>. —
-       </p>
-       <p rend="left" id="6bb7094c-3de5-40cd-99d9-f37bf32a633a">
-        Обозначаем эти строки
-        <hi rend="italic">
-         Б.
-        </hi>
-       </p>
-       <p rend="left" id="e4802969-d568-4d12-a355-7c1a3b5fefbb">
-        Во II редакции этой главе соответствует: «Глава 10-я. ‹<choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>› Маша», стоящая после главы 5-й (первоначально бывшей 9-й)
-        <hi rend="opdelimiter">
-         «<choice><reg>Старший</reg><orig>Старшiй</orig></choice>
-        </hi>
-        <hi rend="opnumber">
-         361
-        </hi>
-        <pb n="362"/>
-        <hi rend="npdelimiter">
-         <choice><reg>брат</reg><orig>братъ</orig></choice>».
-        </hi>
-        Здесь (во II редакции) глава начинается зачеркнутым местом, помещаемым нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 7).
-        </hi>
-        Затем идет текст, близкий к тексту VI главы III редакции, начиная со второго абзаца до конца главы, с тем лишь отличием, что во II редакции после абзаца: «Не могу выразить....» идет зачеркнутый абзац, помещаемый нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 8).
-        </hi>
-       </p>
-       <p rend="left" id="677ccf46-e3e7-40b7-87ca-550ec4404cc2">
-        Кроме этого, на отдельном листке в 4° (вне нумерации) имеется текст начала этой главы, названной здесь: «Глава 6. Маша». Он начинается местом, близким к тексту вар. № 7 со слов: «Отчего мне не признаться...», после чего идет еще абзац, очень близкий к тексту первого абзаца VI главы III редакции.
-       </p>
-       <p rend="left" id="5ab6597f-2a39-4e73-b8bd-a3c1b60f1eea">
-        <strong>
-         Глава VII. «Дробь».
-        </strong>
-        В I редакции этой главе соответствует вторая половина 4-й главы «Дробь» (см. выше о главе IV). Помещаем начало второй половины главы в вариантах
-        <hi rend="italic">
-         (см. вариант № 9).
-        </hi>
-        Среди строк текста, напечатанного нами в качестве варианта, имеется помета: «спокойный, рассудительный <choice><reg>характер</reg><orig>характеръ</orig></choice> Л. ». Затем идет текст весьма близкий к тексту III редакции, начиная с абзаца: «Когда папа пришел» до конца главы.
-       </p>
-       <p rend="left" id="abbead24-0c50-4400-a21d-512e3666b8b6">
-        Во II редакции этой главе соответствует: «Дробь. Глава 7».
-        <note id="note163" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n163">
-            <p rend="left" id="b4c4c8fe-760c-4300-a297-318f6644a171"> Цифра «7» переправлена из «5».</p>
-          </div>
-        </note>
-        Здесь текст весьма близок к III редакции, и места, соответствующего вар. № 9, нет.
-       </p>
-       <p rend="left" id="c289fc26-c3fb-4fa8-b728-86d17878a2c9">
-        <strong>
-         Глава VIII. «История Карла Ивановича».
-        </strong>
-        В I редакции перед главой, соответствующей этой (VIII главе III редакции), имеется еще глава: «Странная <choice><reg>перемена</reg><orig>перемѣна</orig></choice>. V».
-        <note id="note164" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n164">
-            <p rend="left" id="22c5faa0-bbcd-4e65-ad79-8f375212d495"> Цыфра «V« написана позднее, другими чернилами.</p>
-          </div>
-        </note>
-        Помещаем начало ее в вариантах
-        <hi rend="italic">
-         (см. вариант № 10).
-        </hi>
-       </p>
-       <p rend="left" id="debb207b-4e31-4529-bc62-37f3a170841b">
-        Затем идет сцена появления пьяного Карла Ивановича, написанная первоначально для главы XXIV «Детства», но оттуда исключенная. Текст ее здесь в общем довольно близок к тексту вар. № 27 «Детства».
-        <note id="note165" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n165">
-            <p rend="left" id="c412eb96-246c-4569-aafc-2d20c06ef950"> См. 1 том, стр. 203.</p>
-          </div>
-        </note>
-        Затем идет место, помещаемое нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 11),
-        </hi>
-        после чего идет текст, довольно близкий к тексту начала VIII гл. III редакции, кончая абзацем: «Карл Иванович облокотился...». Затем идет глава: «<choice><reg>История</reg><orig>Исторiя</orig></choice> Карла Ивановича. VI» (заглавие и цыфра написаны позднее, другими чернилами). Начало ее близко к тексту III редакции, начиная с абзаца: «Я был несчастлив» до слов: «Тогда маменька сказала» (в абзаце: «В жилах моих»). Из мелких отличий I редакции отметим, что здесь есть такое место: «Часто мой добрый маменька <choice><reg>говорил</reg><orig>говорилъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice> ‹Farldjen› <choice><reg>Фриц</reg><orig>Фрицъ</orig></choice> (
-        <hi rend="italic">
-         я
-        </hi>
-        на <choice><reg>родине</reg><orig>родинѣ</orig></choice> <choice><reg>имел</reg><orig>имѣлъ</orig></choice> имя Феодора)», а местом его родины названо «<choice><reg>местечко</reg><orig>мѣстечко</orig></choice> Ruhleben <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>Саксонии</reg><orig>Саксонiи</orig></choice>». Затем в I редакции идет место, помещаемое нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 12),
-        </hi>
-        после чего идет текст, весьма близкий к тексту III редакции, начиная с абзаца: «Я взял его за руку» до конца главы.
-       </p>
-       <p rend="left" id="3e67538e-2b93-4324-9d22-2da3f9ffc57c">
-        Во II редакции главы I редакции «Странная перемена» нет, и VIII главе III редакции соответствует глава: «&lt;<choice><reg>История</reg><orig>Исторiя</orig></choice> Карла Ивановича&gt; <choice><reg>Песнь</reg><orig>Пѣснь</orig></choice> Лебедя. Глава 6». От нее сохранилось лишь начало,
-        <hi rend="opdelimiter">
-         соответствующее
-        </hi>
-        <hi rend="opnumber">
-         362
-        </hi>
-        <pb n="363"/>
-        <hi rend="npdelimiter">
-         началу
-        </hi>
-        VIII главы III редакции, кончая абзацем: «Вы не дитя...». Текст II редакции близок к тексту III редакции, будучи несколько пространнее последнего.
-       </p>
-       <p rend="left" id="8b53ddc9-7386-481d-9e66-515c892b47f1">
-        <strong>
-         Глава IX. «Продолжение предыдущей».
-        </strong>
-        В I редакции этой главе соответствует место, помещаемое нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 13),
-        </hi>
-        после чего идет текст, близкий к тексту III редакции, начиная с абзаца: «На четвертые сутки...» до конца главы.
-       </p>
-       <p rend="left" id="bc71c603-17db-489a-8a23-dfea831551e2">
-        В сохранившихся листках II редакции этой главы нет.
-       </p>
-       <p rend="left" id="cb805f06-900e-485d-83d9-5cb460dfb815">
-        <strong>
-         Глава X. «Продолжение».
-        </strong>
-        В I редакции после эпизода с баронессой идет эпизод с шпионом, т.е. место, соответствующее тексту III редакции, начиная со слов: «В одно воскресенье...» (в абзаце: «Но Богу не угодно....») и кончая словами (в этом же абзаце): «zum Fenster hinaus
-        <hi rend="italic">
-         ».
-        </hi>
-        Затем в I редакции идет эпизод появления в родном доме, т.е. то, что в III редакции имеется в первых трех абзацах этой главы. Текст I редакции близок к тексту III редакции. Затем в I редакции идет такой (незачеркнутый) текст:
-       </p>
-       <p rend="big left" id="74f9cc3c-0d4c-442c-a486-f5dc34d1954c">
-        <choice><reg>Как</reg><orig>Какъ</orig></choice> я уже <choice><reg>сказал</reg><orig>сказалъ</orig></choice>, я не знаю, <choice><reg>был ли</reg><orig>былъ-ли</orig></choice> <choice><reg>справедлив</reg><orig>справедливъ</orig></choice> <choice><reg>рассказ</reg><orig>разсказъ</orig></choice> Карла Ивановича, но положительно, то, что <choice><reg>в</reg><orig>въ</orig></choice> то время, <choice><reg>как</reg><orig>какъ</orig></choice> <choice><reg>он</reg><orig>онъ</orig></choice> <choice><reg>передавал</reg><orig>передавалъ</orig></choice> его, <choice><reg>в</reg><orig>въ</orig></choice> его <choice><reg>словах</reg><orig>словахъ</orig></choice> была такая ясная <choice><reg>последовательность</reg><orig>послѣдовательность</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>жестах</reg><orig>жестахъ</orig></choice>, <choice><reg>так</reg><orig>такъ</orig></choice> много истины и чувства, что трудно было <choice><reg>сомневаться</reg><orig>сомнѣваться</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>словах</reg><orig>словахъ</orig></choice> несмотря на то, что <choice><reg>рассказ</reg><orig>разсказъ</orig></choice> <choice><reg>этот</reg><orig>этотъ</orig></choice> по своему <choice><reg>слишком</reg><orig>слишкомъ</orig></choice> классическому <choice><reg>расположению</reg><orig>расположенiю</orig></choice> <choice><reg>внушал</reg><orig>внушалъ</orig></choice> <choice><reg>недоверие</reg><orig>недовѣрiе</orig></choice>.
-       </p>
-       <p rend="left" id="693fd6c9-366e-49fd-a0aa-f44520149965">
-        Между строками этого текста написано:
-       </p>
-       <p rend="big left" id="a76979cb-b37e-4314-a3b7-914ca4b3d74d">
-        Не ручаюсь за <choice><reg>достоверность</reg><orig>достовѣрность</orig></choice> <choice><reg>обстоятельств</reg><orig>обстоятельствъ</orig></choice> рассказа, но ручаюсь за <choice><reg>достоверность</reg><orig>достовѣрность</orig></choice> самого рассказа. <choice><reg>Описание</reg><orig>Описанiе</orig></choice> <choice><reg>войн</reg><orig>войнъ</orig></choice>, <choice><reg>беспрестанных</reg><orig>безпрестанныхъ</orig></choice> <choice><reg>бегств</reg><orig>бѣгствъ</orig></choice>, <choice><reg>самопожертвований</reg><orig>самопожертвованiй</orig></choice>, <choice><reg>свидания</reg><orig>свиданiя</orig></choice> <choice><reg>с</reg><orig>съ</orig></choice> родителями, <choice><reg>имеющее</reg><orig>имѣющее</orig></choice>
-        <note id="note166" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n166">
-            <p rend="left" id="509b272d-918f-4448-ae75-0fc06cd0afeb"> В подлиннике: <choice><reg>имеющему</reg><orig>имѣющему</orig></choice></p>
-          </div>
-        </note>
-        сходство <choice><reg>с</reg><orig>съ</orig></choice> <choice><reg>свиданием</reg><orig>свиданiемъ</orig></choice>
-        <note id="note167" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n167">
-            <p rend="left" id="e856c440-3f56-4c11-b5d1-f8ffb69c6f99"> В подлиннике: <choice><reg>свидания</reg><orig>свиданiя</orig></choice></p>
-          </div>
-        </note>
-        Іосифа <choice><reg>Прекрасного</reg><orig>Прекраснаго</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>движениях</reg><orig>движенiяхъ</orig></choice> лица и <choice><reg>слезах</reg><orig>слезахъ</orig></choice>, <choice><reg>которые</reg><orig>которыя</orig></choice> <choice><reg>проливал</reg><orig>проливалъ</orig></choice> <choice><reg>он</reg><orig>онъ</orig></choice> <choice original_editorial_correction="[съ]"><sic/><corr><choice><reg>с</reg><orig>съ</orig></choice></corr></choice> своими братьями, <choice><reg>вселяют</reg><orig>всѣляютъ</orig></choice> <choice><reg>недоверие</reg><orig>недовѣрiе</orig></choice> во <choice><reg>мне</reg><orig>мнѣ</orig></choice> теперь, но тогда <choice><reg>такие</reg><orig>такiя</orig></choice> <choice><reg>похождения</reg><orig>похожденiя</orig></choice> <choice><reg>так</reg><orig>такъ</orig></choice> хорошо гармонировали <choice><reg>с</reg><orig>съ</orig></choice> моими идеально-благородными, неопытными <choice><reg>детскими</reg><orig>дѣтскими</orig></choice> <choice><reg>понятиями</reg><orig>понятiями</orig></choice>, что
-        <hi rend="italic">
-         эти-то
-        </hi>
-        <choice><reg>самые</reg><orig>самыя</orig></choice> несообразности внушали <choice><reg>мне</reg><orig>мнѣ</orig></choice> <choice><reg>более</reg><orig>болѣе</orig></choice> всего <choice><reg>доверия</reg><orig>довѣрiя</orig></choice>.
-       </p>
-       <p rend="left" id="7470ebd6-bb63-4a8e-bf63-63510d830cac">
-        Затем идет текст, помещаемый нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 14).
-        </hi>
-       </p>
-       <p rend="left" id="fa29c688-296d-4770-8e52-4866ec374021">
-        В сохранившихся листках II редакции этой главы нет.
-       </p>
-       <p rend="left" id="d61ca196-b996-4384-9f22-95a3b03eeebd">
-        После «Истории Карла Ивановича» в I редакции следовала глава, не вошедшая в III редакцию и названная: «Новый ‹<choice><reg>Гувернер</reg><orig>Гувернеръ</orig></choice>› <choice><reg>порядок</reg><orig>порядокъ</orig></choice> вещей. VII». Текст ее с начала, будучи несколько пространнее, близок к тексту VII главы II редакции, до абзаца (исключительно): «На крыльце Карл Иванович...» (вар.
-        <hi rend="italic">
-         №
-        </hi>
-        15). Затем идет текст, помещаемый нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 16),
-        </hi>
-        после чего идет текст, в общем довольно близкий к тексту II редакции, начиная с абзаца: «Растроганный
-        <hi rend="opdelimiter">
-         сценой»
-        </hi>
-        <hi rend="opnumber">
-         363
-        </hi>
-        <pb n="364"/>
-        <hi rend="npdelimiter">
-         и
-        </hi>
-        кончая словами: «часто подвергался этому наказанию» в абзаце VIII гл.: «Никто не ездил....» (вар. № 15)
-        <note id="note168" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n168">
-            <p rend="left" id="15a1f0fc-d8c2-499e-bab5-93715363474e"> Текст главы «Новый порядок вещей» I редакции (с начала ее и кончая местом, соответствующим месту II редакции, кончающемуся словами: «часто подвергался этому наказанию») впервые напечатан по копии П. И. Бирюковым в «Полном собрании сочинений Л. Н. Толстого», изд. Сытина, 1913, т. I, стр. 393—397.</p>
-          </div>
-        </note>
-       </p>
-       <p rend="left" id="79c4afa4-a43e-48ee-a433-8e45b3e71105">
-        Во II редакции глава I редакции «Новый порядок вещей. VII» разбита на две, помещаемые нами (полностью) в вариантах
-        <hi rend="italic">
-         (см. вариант № 15).
-        </hi>
-       </p>
-       <p rend="left" id="96229698-f43d-4249-97e9-0d9086d4c093">
-        <strong>
-         Глава XI. «Единица».
-        </strong>
-        В I редакции этой главе соответствует место, идущее после строк
-        <hi rend="italic">
-         Б
-        </hi>
-        (см. выше о гл. VI). Оно начинается таким текстом:
-       </p>
-       <p rend="big left" id="9fb131a0-0a5f-4036-97f5-d61a0b853d81">
-        Но <choice><reg>вот</reg><orig>вотъ</orig></choice> обстоятельство, окончательно удалившее меня <choice><reg>от</reg><orig>отъ</orig></choice> <choice><reg>забав</reg><orig>забавъ</orig></choice> и <choice><reg>удовольствий</reg><orig>удовольствiй</orig></choice> моего возраста и внушившее <choice><reg>мне</reg><orig>мнѣ</orig></choice> страсть <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>уединению</reg><orig>уединенiю</orig></choice>, <choice><reg>мечтам</reg><orig>мечтамъ</orig></choice> и <choice><reg>размышлению</reg><orig>размышленiю</orig></choice>.
-       </p>
-       <p rend="left" id="5ef134af-a0e2-4d06-b348-865037e0483b">
-        Затем в I редакции идет текст, неразработанный и неотделанный, но близкий к тексту XI главы III редакции. Он заключается чертой, концовкой.
-       </p>
-       <p rend="left" id="0b14dc96-2a1b-4cde-abb8-a8c2ddd3078c">
-        Во II редакции этой главе соответствует: «Глава 9
-        <note id="note169" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n169">
-            <p rend="left" id="913aac12-e8b9-4f28-a199-5bfdbbf92946"> Цифра «9» переделана из «10».</p>
-          </div>
-        </note>
-        &lt;<choice><reg>Класс</reg><orig>Классъ</orig></choice> <choice><reg>Истории</reg><orig>Исторiи</orig></choice>&gt; Единица». Текст ее весьма близок к тексту III редакции.
-       </p>
-       <p rend="left" id="64652e01-5634-4cf4-8674-a87cccfd8e27">
-        <strong>
-         Глава XII. «Ключик».
-        </strong>
-        В I редакции этой главе соответствует текст, который идет после текста, соответствующего тексту XI главы III редакции. Здесь (в I редакции) начало (до многоточия) близко к тексту III редакции. Затем идет место, близкое по тексту к тому, что имеется во II редакции (вар. № 17). Из отличий текста I редакции отметим, что имена корреспонденток здесь: Sophie, Esther и Настя, и на колоде надпись: «понтерки, на <choice><reg>которые</reg><orig>которыя</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> 1814 году я <choice><reg>в</reg><orig>въ</orig></choice> ночь 17 Генваря <choice><reg>отыграл</reg><orig>отъигралъ</orig></choice> все проигранное свое <choice><reg>состояние</reg><orig>состоянiе</orig></choice>».
-        <note id="note170" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n170">
-            <p rend="left" id="5f8f12ad-bf0c-4ce1-9220-a2afa87804cf"> Текст этого места (I ред.) впервые напечатан по копии П. И. Бирюковым в назв. собр. соч. Толстого, т. I, стр. 400.</p>
-          </div>
-        </note>
-        Затем в I редакции идет текст, близкий к тексту III редакции, но значительно более краткий, заключающийся чертой-концовкой.
-       </p>
-       <p rend="left" id="7b6e2e29-2a28-4ccb-815f-19fd5a5ef36e">
-        Во II редакции этой главе соответствует: «Глава 10
-        <note id="note171" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n171">
-            <p rend="left" id="827ba39f-674c-4eda-9137-549567c47bb1"> Цифра «10» переделана из «11».</p>
-          </div>
-        </note>
-        &lt;Становлюсь все <choice><reg>более</reg><orig>болѣе</orig></choice> и <choice><reg>более</reg><orig>болѣе</orig></choice> <choice><reg>виноватым</reg><orig>виноватымъ</orig></choice>&gt; <choice><reg>Ключик</reg><orig>Ключикъ</orig></choice>». Текст начала этой главы весьма близок к тексту III редакции (до многоточия), вместо которого во II редакции идет место, помещаемое нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 17),
-        </hi>
-        после чего идет текст, весьма близкий к тексту III редакции.
-       </p>
-       <p rend="left" id="89253341-19f1-4171-8736-176d478b5f0e">
-        Кроме этого, на отдельном листке в 4° (страницы листка перенумерованы: 133, 134) имеется текст, близкий к тексту III редакции, начиная с абзаца: «Детское чувство...», до конца главы.
-       </p>
-       <p rend="left" id="157358de-8e66-4449-8f8a-5ebb5fb8d33c">
-        <strong>
-         Глава XIII. «Изменница».
-        </strong>
-        В I редакции этой главе соответствует место, идущее за текстом, соответствующим тексту XII главы III редакции. В I редакции текст близок к тексту III редакции, но не разработан.
-       </p>
-       <p rend="left" id="a13e0bfb-ba1c-4eb3-80f0-b6ef2cf44b09">
-        Во II редакции от этой главы, названной:
-        <hi rend="italic">
-         «Глава 14. <choice><reg>Изменница</reg><orig>Измѣнница</orig></choice>»,
-        </hi>
-        сохранилось лишь начало, соответствующее первым трем абзацам
-        <hi rend="opdelimiter">
-         XIII
-        </hi>
-        <hi rend="opnumber">
-         364
-        </hi>
-        <pb n="365"/>
-        <hi rend="npdelimiter">
-         главы
-        </hi>
-        III редакции. Текст II редакции весьма близок к тексту III редакции.
-       </p>
-       <p rend="left" id="40b22f93-a1d5-4427-af46-4e4cf5ed461f">
-        <strong>
-         Глава XIV. «Затмение».
-        </strong>
-        В I редакции этой главе соответствует место, идущее после места, соответствующего XIII главе III редакции. Начинается оно иначе, чем в III редакции. Помещаем его в вариантах
-        <hi rend="italic">
-         (см. вариант № 18
-        </hi>
-        ).
-        <note id="note172" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n172">
-            <p rend="left" id="316f884f-46dd-4344-bcd3-f176e9c37e97"> Из этого места, со слов «St.-Jérôme вышел...» кончая словами: «выговаривая это последнее слово» впервые напечатано по копии П. И. Бирюковым в назв. собр. соч. Толстого, т. I, стр. 400—401.</p>
-          </div>
-        </note>
-        Затем
-        <note id="note173" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n173">
-            <p rend="left" id="cfef0c59-8446-4050-a584-40256bb92859"> Это место впервые напечатано по копии П. И. Бирюковым в назван. собр. соч Толстого, т. I, стр. 403—405. <hi rend="italic">Редактор электронного издания</hi><choice original_editorial_correction="[ВНИМАНИЕ! В тексте оригинала отсутствует знак сноски, отмечающий место, к которому относится данное примечание. — ]"><sic/><corr>ВНИМАНИЕ! В тексте оригинала отсутствует знак сноски, отмечающий место, к которому относится данное примечание. — </corr></choice></p>
-          </div>
-        </note>
-        идет место, соответствующее тексту III редакции, начиная со слов: «Я должен был быть....» (в абзаце: «Он сказал это...») до конца главы. Текст этого места I редакции близок к тексту III редакции и так же, как и последний, кончается многоточием, после которого — черта-концовка.
-       </p>
-       <p rend="left" id="e44f467f-17ca-4f50-85f0-9ffbcf93e271">
-        В сохранившихся листках II редакции этой главы нет.
-       </p>
-       <p rend="left" id="897cc280-01ef-438b-af46-5b923997fb57">
-        <strong>
-         Глава XV. «Мечты».
-        </strong>
-        В I редакции этой главе соответствует место, идущее после места, соответствующего XIV главе III редакции. Текст I редакции довольно близок к тексту III редакции, но не разработан и не отделан.
-       </p>
-       <p rend="left" id="b601937d-eaf3-42ba-86c2-b4c292087ae7">
-        В сохранившихся листках II редакции этой главы нет.
-       </p>
-       <p rend="left" id="788571ed-ea50-4ff1-88e1-a7afba54aeaa">
-        <strong>
-         Глава XVI. «Перемелется — мука будет».
-        </strong>
-        В I редакции этой главе соответствует место, идущее после места, соответствующего XV гл. III редакции. Текст I редакции довольно близок к тексту III редакции с начала главы, кончая абзацем: «Хотел ли я убежать...», после чего в І редакции идет место, помещаемое нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 19).
-        </hi>
-        Затем в I редакции идет текст (кончается чертой-концовкой), близкий к тексту последнего абзаца XVI главы III редакции.
-       </p>
-       <p rend="left" id="f8a4c7dd-9b8f-4f5d-bd21-139f8c47322c">
-        <strong>
-         Глава <choice><reg>ХVИИ</reg><orig>ХVII</orig></choice>. «Ненависть».
-        </strong>
-        В I редакции этой главе соответствует глава, названная «&lt;Ненависть&gt; <choice><reg>Унижение</reg><orig>Униженiе</orig></choice>», стоящая после места, кончающегося во II редакции словами: «часто подвергался этому наказанию» (см. вар. № 15, абзац 8-й главы: «Никто не ездил...»). Она начинается абзацем:
-       </p>
-       <p rend="big left" id="c70fa0ed-dbcd-48af-83f3-176855c7dbd2">
-        Исключая Илиньки <choice><reg>Грап</reg><orig>Грапъ</orig></choice>, который <choice><reg>приходил</reg><orig>приходилъ</orig></choice> учиться <choice><reg>с</reg><orig>съ</orig></choice> нами, мы не видали никого <choice><reg>сверстников</reg><orig>сверстниковъ</orig></choice>. <choice><reg>С</reg><orig>Съ</orig></choice> Ивиными мы <choice><reg>встречались</reg><orig>встрѣчались</orig></choice> <choice><reg>изредко</reg><orig>изрѣдко</orig></choice> на <choice original_editorial_correction="Т[верскомъ]"><sic>Т</sic><corr><choice><reg>Тверском</reg><orig>Тверскомъ</orig></choice></corr></choice> <choice><reg>бульваре</reg><orig>бульварѣ</orig></choice> и <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>манеже</reg><orig>манежѣ</orig></choice>, <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>нам</reg><orig>намъ</orig></choice> же никто не <choice><reg>ездил</reg><orig>ѣздилъ</orig></choice> почти <choice><reg>целый</reg><orig>цѣлый</orig></choice> <choice><reg>год</reg><orig>годъ</orig></choice> траура <choice><reg>под</reg><orig>подъ</orig></choice> <choice><reg>предлогом</reg><orig>предлогомъ</orig></choice> траура и <choice><reg>беспокойства</reg><orig>безпокойства</orig></choice>, которое могло причинить <choice><reg>бабушке</reg><orig>бабушкѣ</orig></choice>, и еще <choice><reg>более</reg><orig>болѣе</orig></choice> потому, чтобы мы не развлекались <choice><reg>от</reg><orig>отъ</orig></choice> <choice><reg>классов</reg><orig>классовъ</orig></choice>, особенно Володя, <choice><reg>поступавший</reg><orig>поступавшiй</orig></choice> будущей весной <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>Университет</reg><orig>Университетъ</orig></choice>.
-        <note id="note174" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n174">
-            <p rend="left" id="68634889-86a6-4435-a888-c8af6d7fd999"> Этот абзац впервые напечатан по копии П. И. Бирюковым в назван. собр. соч. Толстого,т. I, стр. 397—398.</p>
-          </div>
-        </note>
-       </p>
-       <p rend="left" id="12c728da-4ba2-4704-8e35-7e9a279cfa20">
-        После этого идет текст, близкий к тексту III редакции, начиная с абзаца: «St.-Jérôme жил у нас...» и кончая абзацем: «Карл Иванович ставил нас...». Затем идет место, помещаемое нами в вариантах
-        <hi rend="italic">
-         <hi rend="opdelimiter">
-          (см.
-         </hi>
-        </hi>
-        <hi rend="opnumber">
-         365
-        </hi>
-        <pb n="366"/>
-        <hi rend="italic">
-         <hi rend="npdelimiter">
-          вариант
-         </hi>
-         № 20).
-        </hi>
-        <note id="note175" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n175">
-            <p rend="left" id="661fc24e-9a9c-4b1a-bc50-b5f047052269"> Часть этого варианта (с начала и кончая словами: «ударить нашего русского человека!») впервые напечатана по копии П. И. Бирюковым в назв. собр. соч. Толстого, т. I, стр. 398—399.</p>
-          </div>
-        </note>
-        В напечатанном в вариантах тексте перед словами: «Я понимал, что чувство, возбуждаемое во мне...» имеется помета: («<choice><reg>Отношения</reg><orig>Отношенiя</orig></choice> мои <choice><reg>с</reg><orig>съ</orig></choice> St.-Jérôm’<choice><reg>ом</reg><orig>омъ</orig></choice> <choice><reg>из</reg><orig>изъ</orig></choice> 3-й тетради последнего листа)». Текст последнего листа 3-й тетради, это — место со слов: «в классной, как будто занимаясь», кончая: «Как он, француз, смел ударить нашего русского человека». Очевидно Толстой хотел, выбросив эпизод с Василием, оставить лишь описание чувства, которое ему внушал St.-Jérôme.
-       </p>
-       <p rend="left" id="b16f4fe2-5f1b-4426-9984-da4d5dcc7c9b">
-        После напечатанного в вар. № 20 идет близкое к тексту III редакции место, соответствующее первому абзацу XVII главы III редакции.
-       </p>
-       <p rend="left" id="e2969e21-c906-42c5-b260-b085c455acda">
-        Во II редакции от этой главы сохранилось лишь несколько строк, соответствующих концу вар. № 20.
-       </p>
-       <p rend="left" id="b28a7be6-ffa3-4e88-92a7-a79f25495212">
-        <strong>
-         Глава XVIII. «Девичья».
-        </strong>
-        В I редакции этой главе соответствует глава: «&lt;Маша&gt; <choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>», стоящая после текста, помещенного нами в качестве вар. № 22. Помещаем ее в вариантах
-        <hi rend="italic">
-         (см. вариант № 21).
-        </hi>
-        Поперек текста, кончающегося словами: «заплакала и вышла на лестницу», написано: «<choice><reg>конец</reg><orig>конецъ</orig></choice>».
-       </p>
-       <p rend="left" id="c6855442-206c-451c-b4b6-65576c01f167">
-        Во II редакции этой главе соответствует: «Глава 19. &lt;<choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>&gt; (<choice><reg>Василий</reg><orig>Василiй</orig></choice> и Маша) <choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>», стоящая после места, соответствующего тексту XIX главы III редакции. Здесь (во II редакции) сначала идет зачеркнутый крест-накрест текст, повторенный сейчас же за ним в таком виде:
-       </p>
-       <lb/>
-       <p rend="center" id="1d11cb6d-061e-4950-8008-67e5bebfe069">
-        Глава 29.
-        <hi rend="Razradka">
-         <choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>
-        </hi>
-        .
-       </p>
-       <div rend="epigraph">
-        <p>
-         If nature has so wowe her web of kindness that some threads of lowe and desire are entangled with the piece; must the all piece be rent in drawing them aut. —
-        </p>
-       </div>
-       <p rend="right" id="ec84ad24-9fd4-41eb-8709-e3db0e5a0dcc">
-        Sterne.
-        <note id="note176" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n176">
-            <p rend="left" id="7dd6f7b5-6990-44f8-a865-4823ba1ca373"> <choice original_editorial_correction="[Если природа соткала ткань нежных ощущений так, что нити любви и желаний тесно переплетены в ней, то не пострадает ли сама ткань, если вырывать из нее эти нити. Стерн.]"><sic/><corr>Если природа соткала ткань нежных ощущений так, что нити любви и желаний тесно переплетены в ней, то не пострадает ли сама ткань, если вырывать из нее эти нити. Стерн.</corr></choice> Сохранена орфография Толстого в английском тексте. Цитата взята из гл. «Победа» «Сентиментального путешествия».</p>
-          </div>
-        </note>
-       </p>
-       <p rend="big left" id="a85e900b-0494-4292-8095-f381c8f121a9">
-        &lt;<choice><reg>Как</reg><orig>Какъ</orig></choice> только я, задумавшись о чем-нибудь, забывался на минуту, я <choice><reg>бессознательно</reg><orig>безсознательно</orig></choice> <choice><reg>вставал</reg><orig>вставалъ</orig></choice> <choice><reg>с</reg><orig>съ</orig></choice> <choice><reg>места</reg><orig>мѣста</orig></choice>, <choice><reg>выходил</reg><orig>выходилъ</orig></choice> на <choice><reg>лестницу</reg><orig>лѣстницу</orig></choice>, осторожно <choice><reg>ступал</reg><orig>ступалъ</orig></choice> по <choice><reg>скрипящим</reg><orig>скрипящимъ</orig></choice> <choice><reg>ступеням</reg><orig>ступенямъ</orig></choice> и <choice><reg>вдруг</reg><orig>вдругъ</orig></choice>, совершенно неожиданно для самого себя, <choice><reg>находил</reg><orig>находилъ</orig></choice> себя <choice><reg>сидящим</reg><orig>сидящимъ</orig></choice> за дверью <choice><reg>девичьей</reg><orig>дѣвичьей</orig></choice>, <choice><reg>без</reg><orig>безъ</orig></choice> всякой мысли <choice><reg>устремив</reg><orig>устремивъ</orig></choice> взоры на давно изученные мною до <choice><reg>малейших</reg><orig>малѣйшихъ</orig></choice> подробностей предметы&gt;.
-       </p>
-       <p rend="left" id="2b54f3cb-906f-4c87-a8f0-0d9b706e2270">
-        Затем идет описание девичьей, довольно близкое к описанию, имеющемуся в I редакции, начиная со слов: «В дверь, в которую я смотрел...» и кончая: «пристально шьет (см. вар. № 21, в абзаце «Однажды в праздник...»), после чего в рукописи пропуск, а затем небольшой отрывок, соответствующий в общем абзацу: «Несмотря на то, что...» III редакции. На этом отрывке кончается рукопись III
-        <hi rend="opdelimiter">
-         редакции.
-        </hi>
-        <hi rend="opnumber">
-         366
-        </hi>
-       </p>
-       <p rend="left" id="c6c609cc-32c1-4c25-a8dd-ad80d0aa5511">
-        <pb n="367"/>
-        <strong>
-         <hi rend="npdelimiter">
-          Глава XIX. «Отрочество».
-         </hi>
-        </strong>
-        В I редакции этой главе соответствует место, стоящее после места, соответствующего последнему абзацу XVI главы III редакции. Текст этого места I редакции отличен от текста III редакции, и мы помещаем его полностью в вариантах
-        <hi rend="italic">
-         (см. вариант № 22
-        </hi>
-        ).
-        <note id="note177" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n177">
-            <p rend="left" id="54edf5f5-6b9f-41cf-816a-403d64fcf7cc"> Часть этого текста, со слов: «После обеда я не вмешивался...» кончая: «для моих отроческих мечтаний» впервые напечатана по копии П. И. Бирюковым в назван. собр. соч. Толстого, т. I, стр. 401—403.</p>
-          </div>
-        </note>
-       </p>
-       <p rend="left" id="81812040-b5e8-4c26-9c53-69851c9a5643">
-        Во II редакции эта глава сохранилась не полностью: здесь имеется текст, соответствующий тексту III редакции, начиная с абзаца: «Мысли эти представлялись...» и кончая абзацем: «Другой раз, вспомнив...». Текст II редакции отличен от текста III редакции, и мы помещаем его в вариантах
-        <hi rend="italic">
-         (см. вариант № 23).
-        </hi>
-        Затем идет пять строк, весьма близких к началу абзаца III редакции: «Но ни одним...», после чего в рукописи пропуск (страниц в пять). Затем идет текст, соответствующий абзацам III редакции: «То раз, стоя....» и следующему. Даем его в вариантах
-        <hi rend="italic">
-         (см. вариант № 24).
-        </hi>
-        Затем идет текст, близкий к трем абзацам III редакции: «Слабый ум...», «Из всего этого...» и «Однако философские открытия...».
-       </p>
-       <p rend="left" id="42f42b67-c699-48a0-9bfc-5cce02c05b78">
-        <strong>
-         Глава XX. «Володя».
-        </strong>
-        В I редакции этой главе соответствует место, стоящее после вар. № 21. Здесь (в I редакции) текст близок к тексту XX главы III редакции с начала ее и кончая словами: «le fond de la bouteille»
-        <note id="note178" resp="volume_editor" index="false">
-          <div type="section footnote" xml:id="n178">
-            <p rend="left" id="7cd9f71f-2a65-4764-930e-6c3871b8cb9b"> <choice original_editorial_correction="[дно бутылки]"><sic/><corr>дно бутылки</corr></choice></p>
-          </div>
-        </note>
-        (в абзаце: «Володя с сияющим лицом....»). Затем идет текст, помещаемый нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 25).
-        </hi>
-       </p>
-       <p rend="left" id="241bc22f-5a73-4b4e-aa70-69806a6becaf">
-        Затем в I редакции идет место, близкое к тексту III редакции со слов: «Он обедает однако регулярно...» (в предпоследнем абзаце) до конца главы.
-       </p>
-       <p rend="left" id="75ee4ab6-dc4d-4bfa-9c83-6a414454acdb">
-        В сохранившихся листках II редакции этой главы нет.
-       </p>
-       <p rend="left" id="9ea596ec-3504-43c4-adfa-fd28df96fe2d">
-        <strong>
-         Глава XXI. «Катенька и Любочка».
-        </strong>
-        В I редакции этой главе соответствует место, стоящее после места, соответствующего концу XX главы III редакции. Здесь (в I редакции) сначала идет текст, близкий к первому абзацу XXI главы III редакции, после чего имеется фраза:
-       </p>
-       <p rend="big left" id="bd02a23d-f70c-489a-a78b-d4b3c3025d3d">
-        Одно было жалко это то, что у <choice><reg>неё</reg><orig>нея</orig></choice>, <choice><reg>Бог</reg><orig>Богъ</orig></choice> <choice><reg>знает</reg><orig>знаетъ</orig></choice>, откуда, привились <choice><reg>дурные</reg><orig>дурныя</orig></choice> манеры. <choice><reg>Как</reg><orig>Какъ</orig></choice> не <choice><reg>верить</reg><orig>вѣрить</orig></choice> <choice><reg>после</reg><orig>послѣ</orig></choice> <choice><reg>этого</reg><orig>этаго</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> породу.
-       </p>
-       <p rend="left" id="c0b0bb86-6e1b-4019-966a-65901df375e1">
-        Затем идет текст, соответствующий тексту III редакции, начиная с абзаца: «Несмотря на то, что Любочка...» и до конца главы. В I редакции текст близок к тексту III редакции, но местами кратче последнего.
-       </p>
-       <p rend="left" id="9df4a37e-b74b-40bf-b436-6f6aec282317">
-        В сохранившихся листках II редакции этой главы нет.
-       </p>
-       <p rend="left" id="ec0fcf36-344a-424f-b1d1-3d03f230e102">
-        <strong>
-         Глава XXII. «Папа».
-        </strong>
-        В I редакции этой главе соответствует место, стоящее после места, соответствующего XXI главе III редакции. В I редакции текст близок к тексту первых трех абзацев XXII главы III редакции, но кратче последнего. Затем идет текст:
-       </p>
-       <p rend="left" id="1c18f6f6-3451-4851-958f-e0070dfe0b98">
-        <choice><reg>Верно</reg><orig>Вѣрно</orig></choice> <choice><reg>всякий</reg><orig>всякiй</orig></choice> <choice><reg>замечал</reg><orig>замѣчалъ</orig></choice>, что даже <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>одном</reg><orig>одномъ</orig></choice> <choice><reg>роде</reg><orig>родѣ</orig></choice> игры у <choice><reg>каждого</reg><orig>каждаго</orig></choice> есть <choice><reg>непременно</reg><orig>непремѣнно</orig></choice> своя неуловимая особенность, <choice><reg>как</reg><orig>какъ</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>голосе</reg><orig>голосѣ</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>походке</reg><orig>походкѣ</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>руке</reg><orig>рукѣ</orig></choice> <choice><reg>каждого</reg><orig>каждаго</orig></choice> <choice><reg>человека</reg><orig>человѣка</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>листке</reg><orig>листкѣ</orig></choice> <choice><reg>каждого</reg><orig>каждаго</orig></choice> дерева: но эта то особенность игры <choice><reg>так</reg><orig>такъ</orig></choice> отразилась до <choice><reg>тончайших</reg><orig>тончайшихъ</orig></choice> <choice><reg>оттенков</reg><orig>оттѣнковъ</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>игре</reg><orig>игрѣ</orig></choice> Любочки, <choice><reg>так</reg><orig>такъ</orig></choice> что,
-        <hi rend="opdelimiter">
-         слушая
-        </hi>
-        <hi rend="opnumber">
-         367
-        </hi>
-        <pb n="368"/>
-        <hi rend="npdelimiter">
-         ее
-        </hi>
-        часто, <choice><reg>мне</reg><orig>мнѣ</orig></choice> случалось закрывать глаза и думать: <choice><reg>вот</reg><orig>вотъ</orig></choice> открою глаза и увижу ее.
-       </p>
-       <p rend="left" id="fc37168b-f7cc-4b93-a0e1-1dda04e6603e">
-        Затем в I редакции идет место, соответствующее тексту III редакции, начиная с абзаца: «Папа вошел в комнату....» и кончая словами: «останавливаясь посреди коридора (в абзаце:«— Вольдемар! скоро ли ты?»). Затем идет место, помещаемое нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 26).
-        </hi>
-        Поперек этого текста идет помета: «Вас. <choice><reg>сидит</reg><orig>сидитъ</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> части».
-       </p>
-       <p rend="left" id="6033aa8c-07b1-4bbc-b661-b7b109500d2a">
-        В сохранившихся листках II редакции этой главы нет.
-       </p>
-       <p rend="left" id="d598a8f6-6aea-4ad6-8f1f-96c11647d548">
-        Текст рукописи, описанной выше под № 7 (см. „Описание рукописей, относящихся к «Отрочеству»“), представляет собою без начала главу, названную: «Странная новость» и намеченную 23-й в напечатанном выше перечне глав, написанном в конце рукописи I редакции (см. „История писания «Отрочества»“, стр. 352).
-       </p>
-       <p rend="left" id="80407b70-01e3-4003-bb21-72173c845a5c">
-        Текст страниц 120—129 рукописи № 7 помещаем в вариантах
-        <hi rend="italic">
-         (см. вариант № 27).
-        </hi>
-        Кроме этого, шестой листок, страницы которого нумерованы 126, 127, дает более ранний, менее разработанный вариант конца напечатанного (вар. № 27) текста (со слов: «Пришло конец тому делу, что и платить надо...» до конца напечатанного), после чего идет:
-       </p>
-       <lb/>
-       <p rend="center" id="106da372-44a1-4893-a5c9-29d40f07a8cd">
-        Глава 24.
-        <hi rend="Razradka">
-         <choice><reg>Концерт</reg><orig>Концертъ</orig></choice>
-        </hi>
-        .
-       </p>
-       <p rend="big left" id="c7c44677-f892-4cb8-9c7d-e63e09491521">
-        <choice><reg>Бабушке</reg><orig>Бабушкѣ</orig></choice> становилось <choice><reg>слабее</reg><orig>слабѣе</orig></choice> и <choice><reg>слабее</reg><orig>слабѣе</orig></choice>. <choice><reg>Из</reg><orig>Изъ</orig></choice> <choice><reg>кресел</reg><orig>креселъ</orig></choice> она перешла уже <choice><reg>в</reg><orig>въ</orig></choice> высокую кровать <choice><reg>с</reg><orig>съ</orig></choice> подушками, обшитыми кружевами. <choice><reg>Колокольчик</reg><orig>Колокольчикъ</orig></choice> и ворчливый <choice><reg>голос</reg><orig>голосъ</orig></choice> Гаши еще чаще были слышны на <choice><reg>её</reg><orig>ея</orig></choice> <choice><reg>половине</reg><orig>половинѣ</orig></choice>. 28 <choice><reg>Апреля</reg><orig>Апрѣля</orig></choice>, когда мы пришли здороваться <choice><reg>с</reg><orig>съ</orig></choice> ней, и она дала <choice><reg>мне</reg><orig>мнѣ</orig></choice> <choice><reg>целовать</reg><orig>цѣловать</orig></choice> свою руку, я <choice><reg>с</reg><orig>съ</orig></choice> <choice><reg>тем</reg><orig>тѣмъ</orig></choice> <choice><reg>болезненным</reg><orig>болѣзненнымъ</orig></choice> <choice><reg>чувством</reg><orig>чувствомъ</orig></choice>, которое испытываешь, находя что нибудь отвратительное <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>людях</reg><orig>людяхъ</orig></choice>, <choice><reg>которых</reg><orig>которыхъ</orig></choice> любишь, <choice><reg>заметил</reg><orig>замѣтилъ</orig></choice>, что рука
-       </p>
-       <p rend="left" id="be6d4729-d6bc-446a-9cd1-23dcde261a80">
-        На этом рукопись обрывается. Это начало 24 главы близко к началу главы XXIII «Бабушка» III редакции, от которой больше ничего в рукописях не сохранилось.
-       </p>
-       <p rend="left" id="ed42d5a9-12b5-4304-b878-8b7b2ffa1864">
-        <strong>
-         Глава XXIV. «Я».
-        </strong>
-        Этой главы нет в рукописях ни I, ни II редакций.
-       </p>
-       <p rend="left" id="9d5f92cb-df2f-4bb8-9ceb-1d4e08bea54d">
-        <strong>
-         Глава XXV. «Приятели Володи».
-        </strong>
-        В I редакции этой главе соответствует глава «Начало дружбы. XXX», стоящая после текста вар. № 26. Текст ее значительно отличается от текста III редакции, и мы помещаем всё, что сохранилось от нее в вариантах
-        <hi rend="italic">
-         (см. вариант № 28).
-        </hi>
-        Дальше в тетради вырвано сколько-то страниц, а затем идет текст, помещаемый нами в вариантах
-        <hi rend="italic">
-         (см. вариант № 29).
-        </hi>
-        Поперек начала текста помета: «<choice><reg>Гробовщик</reg><orig>Гробовщикъ</orig></choice>», а поперек последних строк этого текста написано: «<choice><reg>Условие</reg><orig>Условiе</orig></choice> говорить <choice><reg>друг</reg><orig>другъ</orig></choice> другу все и никогда не говорить <choice><reg>друг</reg><orig>другъ</orig></choice> про друга. Я говорю <choice><reg>об</reg><orig>объ</orig></choice> <choice><reg>отце</reg><orig>отцѣ</orig></choice>. <choice><reg>Он</reg><orig>Онъ</orig></choice> <choice><reg>останавливает</reg><orig>останавливаетъ</orig></choice> меня». —
-       </p>
-       <p rend="left" id="6a08cda0-cf48-4b75-8e78-010f1839a07a">
-        Первая часть варианта № 28 соответствует намечавшейся 24 главе (см. перечень глав в рукописи I редакции в „Истории писания «Отрочества»“ стр. 352) «Концерт», а вторая часть представляет собою как бы конспект глав 32 и 33 указанного
-        <hi rend="opdelimiter">
-         перечня.
-        </hi>
-        <hi rend="opnumber">
-         368
-        </hi>
-       </p>
-       <p rend="left" id="7b264ac6-4dc5-44d3-b1d3-fa25f060abea">
-        <pb n="369"/>
-        <strong>
-         <hi rend="npdelimiter">
-          Глава XXVI. «Рассуждения».
-         </hi>
-        </strong>
-        Этой главы нет в рукописях ни I, ни II редакций.
-       </p>
-       <p rend="left" id="81f63c2d-f74c-4c5c-b76e-a5a8a8393340">
-        <strong>
-         Глава XXVII. «Начало дружбы».
-        </strong>
-        Этой главы нет в рукописях ни I, ни II редакций.
-       </p>
+        <pb n="358"/>
+        <h4 class="center">
+          <strong>Сравнительный обзор состава глав трех редакций «Отрочества».</strong>
+        </h4>
+        <p rend="left" id="3e7ba030-289b-4eab-b41d-63bb8ac80db5">Не считая возможным в настоящем издании опубликовать полностью текст I и II редакций «Отрочества», мы печатаем из них лишь отрывки. Для указания местонахождения их в рукописях дается настоящий обзор, позволяющий вместе с тем следить за тем, как шла работа автора. За основание сравнения взята окончательная (III) редакция, с текстом которой и сравниваются тексты первых двух редакций.</p>
+        <p rend="left" id="b70bdca1-06bb-4dfc-b611-df63996493f3"><strong>Глава I. «Поездка на долгих».</strong>В I ред. глава носит название «<choice><reg>Путешествие</reg><orig>Путешествiе</orig></choice>» и начинается абзацем: «Со смертью матери», по тексту очень близким к соответствующему абзацу II редакции (вар. № 2). Затем<hi rend="opdelimiter">идет</hi><hi rend="opnumber">358</hi><pb n="359"/><hi rend="npdelimiter">абзац,</hi>помещаемый нами в вариантах<hi rend="italic">(см. вариант №</hi>1), после чего идет текст, близкий к тексту III редакции до (исключительно) последнего абзаца: «Но вот и деревня». Текст I ред. кратче текста III ред. Из мелких отличий отметим, что лакей назван здесь не Василием, а Михеем.</p>
+        <p rend="left" id="7ee21197-c180-49e8-abb2-da52e938b3ab">Затем в I редакции, вместо последнего абзаца III редакции, идет такой текст:</p>
+        <p rend="big left" id="35d191b0-e48e-4751-af73-e61ec025adb0">Иногда <choice><reg>чепец</reg><orig>чепецъ</orig></choice> <choice><reg>с</reg><orig>съ</orig></choice> черными лентами Мими высовывается <choice><reg>из</reg><orig>изъ</orig></choice> окна кареты, и она <choice><reg>грозит</reg><orig>грозитъ</orig></choice> <choice><reg>нам</reg><orig>намъ</orig></choice> головой. Но вообще все время <choice><reg>путешествия</reg><orig>путешествiя</orig></choice> Мими необыкновенно добра. <choice><reg>Мне</reg><orig>Мнѣ</orig></choice> почему то <choice><reg>неприятна</reg><orig>непрiятна</orig></choice> <choice><reg>её</reg><orig>ея</orig></choice> снисходительность: она <choice><reg>напоминает</reg><orig>напоминаетъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice>, что мы сироты. —</p>
+        <p rend="left" id="1979a178-c6b1-45d7-bdaf-20b09d365dc9">Во II редакции этой главе соответствует: «<choice><reg>Поездка</reg><orig>Поѣздка</orig></choice> на <choice><reg>долгих</reg><orig>долгихъ</orig></choice>. Глава I», начинающаяся с зачеркнутого абзаца, отсутствующего в III редакции и помещаемого нами в вариантах<hi rend="italic">(см. вариант № 2).</hi>Затем идет текст, весьма близкий к тексту III редакции.</p>
+        <p rend="left" id="e44af9b2-54b8-4074-b03b-f40ddb45783e">Кроме этого, на двух отдельных листках в 4°, перенумерованных: 15, 16 и 17 стр., имеется текст части главы, начиная со слов «На крутом спуске (второй от конца абзац III редакции) до конца главы. Текст этот весьма близок к тексту III редакции.</p>
+        <p rend="left" id="1e188cf8-4308-40c0-9d3b-ca7663ce0de5"><strong>Глава II. «Гроза».</strong>В I редакции после первой главы начата была глава: «<choice><reg>Наблюдения</reg><orig>Наблюденiя</orig></choice>» (сделанная потом третьей), но несколько написанных строк зачеркнуты, и вслед за ними идет глава: «Гроза. II». Текст ее близок к тексту III редакции, но кратче и не отделан.</p>
+        <p rend="left" id="e9abd67e-e543-4a14-b86e-cbfbdc9d2cb5">Во II редакции эта глава, названная: «Гроза 2»<note id="note160" resp="volume_editor" index="false"><div type="section footnote" xml:id="n160"><p rend="left" id="67f7db23-bafa-4d8e-bbfb-6267d1973c0e"> Цифра «2» переделана из «3».</p></div></note>первоначально была третьей. Текст ее сохранился не полностью и обрывается на слове «под <choice><reg>седом</reg><orig>сѣдомъ</orig></choice>» (в абзаце III редакции: «Но вот дождь становится...»). Сохранившаяся часть близка к тексту III редакции.</p>
+        <p rend="left" id="ddc02a55-c876-4316-96df-38d10f89b85e">Кроме этого, на шести отдельных листках в 4° имеется три куска этой главы: 1) начиная со слов: «минуты на минуту ожидаю» (в абзаце III редакции: «Колеса вертятся скорее и скорее...»), кончая: «третья, четвертая» (в абзаце III редакции: «Василий, в дороге подающий»). Текст этого места весьма близок к тексту III редакции, отличаясь от последнего лишь тем, что в нем есть отдельные слова, исключенные в III редакции; 2) начиная со слов: «покачивается <choice><reg>перед</reg><orig>передъ</orig></choice> нами» (в абзаце III редакции: «Но вот дождь...») до конца главы. Текст этого места близок к тексту III редакции и 3) начиная со слов: «усиливало мое <choice><reg>нетерпение</reg><orig>нетерпѣнiе</orig></choice> (в первом абзаце III редакции), кончая словами: «сквозь <choice><reg>серовато</reg><orig>сѣровато</orig></choice>» (в абзаце III редакции: «Но вот дождь...»). Это место написано старательным почерком не рукой Толстого и вероятно или Акршевским или Янушкевичем (см. „История писания «Отрочества»“). Текст этого места весьма близок к тексту III редакции, но не тождествен с последним.</p>
+        <p rend="left" id="5f6a19fa-2d1e-44a7-8523-9da38b7fa895"><strong>Глава III. «Новый взгляд».</strong>В I редакции, мы уже сказали, первоначально была второй и называлась «<choice><reg>Наблюдения</reg><orig>Наблюденiя</orig></choice>», но начало ее зачеркнуто. После же второй главы «Гроза» идет глава, первоначально названная «Разговоры». Под этим позднее (другими чернилами)<hi rend="opdelimiter">написано:</hi><hi rend="opnumber">359</hi><pb n="360"/><hi rend="npdelimiter">«Новый</hi><choice><reg>взгляд</reg><orig>взглядъ</orig></choice>. III» и еще: «<choice original_editorial_correction="К[атенька]"><sic>К</sic><corr>Катенька</corr></choice> <choice><reg>хочет</reg><orig>хочетъ</orig></choice> итти <choice><reg>в</reg><orig>въ</orig></choice> монастырь». Все три варианта названия не зачеркнуты. Текст ее значительно отличается от текста III редакции. Помещаем его полностью в вариантах<hi rend="italic">(см. вариант № 3).</hi></p>
+        <p rend="left" id="ff81ed86-b303-4d5f-8362-b1b3a50d3bf0">Во II редакции эта глава идет после первой и носит два варианта названия:<hi rend="italic">«Новый <choice><reg>взгляд</reg><orig>взглядъ</orig></choice>. Глава 2»</hi>и «Богатство и <choice><reg>бедность</reg><orig>бѣдность</orig></choice>». Текст ее весьма близок к тексту III редакции, кроме двух мест, исключенных в III редакции: 1) в абзаце: «Случалось ли вам, читатель....» после слов «неизвестною еще страной» идет зачеркнутое:</p>
+        <p rend="big left" id="7a856c13-b367-41a7-aa18-2197d3731512">&lt;Со мной это случалось <choice><reg>несколько</reg><orig>нѣсколько</orig></choice> <choice><reg>раз</reg><orig>разъ</orig></choice>, и я <choice><reg>убежден</reg><orig>убѣжденъ</orig></choice>, что ежели Богу угодно <choice><reg>будет</reg><orig>будетъ</orig></choice>, чтобы я <choice><reg>прожил</reg><orig>прожилъ</orig></choice> до <choice><reg>последнего</reg><orig>послѣдняго</orig></choice> <choice><reg>предела</reg><orig>предѣла</orig></choice> <choice><reg>человеческой</reg><orig>человѣческой</orig></choice> жизни, то еще <choice><reg>несколько</reg><orig>нѣсколько</orig></choice> <choice><reg>раз</reg><orig>разъ</orig></choice> <choice><reg>должен</reg><orig>долженъ</orig></choice> буду испытать эту моральную <choice><reg>перемену</reg><orig>перемѣну</orig></choice>. —&gt;</p>
+        <p rend="left" id="d4244f0c-69a8-4e8a-abb1-1712ac8e5857">2) в абзаце: «Мне в первый раз пришла...» после последних слов: «чувствовал этого» идет зачеркнутое:</p>
+        <p rend="big left" id="52338576-b58f-4061-b031-23f499c4e214">&lt;Кто не <choice><reg>испытывал</reg><orig>испытывалъ</orig></choice> почти <choice><reg>того же</reg><orig>того-же</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>изучении</reg><orig>изученiи</orig></choice> <choice><reg>истории</reg><orig>исторiи</orig></choice>? <choice><reg>Ребенок</reg><orig>Ребенокъ</orig></choice> не <choice><reg>сомневается</reg><orig>сомнѣвается</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>достоверности</reg><orig>достовѣрности</orig></choice> <choice><reg>её</reg><orig>ея</orig></choice>; но не <choice><reg>может</reg><orig>можетъ</orig></choice> <choice><reg>верить</reg><orig>вѣрить</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> нее до <choice><reg>тех</reg><orig>тѣхъ</orig></choice> <choice><reg>пор</reg><orig>поръ</orig></choice>, пока <choice><reg>наблюдения</reg><orig>наблюденiя</orig></choice> <choice><reg>над</reg><orig>надъ</orig></choice> <choice><reg>действительностью</reg><orig>дѣйствительностью</orig></choice> и опытность чувства не <choice><reg>покажут</reg><orig>покажутъ</orig></choice> ему возможности <choice><reg>прошедшего</reg><orig>прошедшаго</orig></choice>. Я только тогда <choice><reg>стал</reg><orig>сталъ</orig></choice> <choice><reg>сомневаться</reg><orig>сомнѣваться</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>истине</reg><orig>истинѣ</orig></choice> <choice><reg>Истории</reg><orig>Исторiи</orig></choice>, когда <choice><reg>стал</reg><orig>сталъ</orig></choice> <choice><reg>верить</reg><orig>вѣрить</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> нее. —&gt;</p>
+        <p rend="left" id="2ca666cb-6962-4679-a9e3-0c015df64ea4">Остальные отличия текста II редакции от текста III редакции чисто стилистического характера.</p>
+        <p rend="left" id="069ad392-4474-4f81-b32f-e72273284be0">Кроме этого, на отдельном листке в 4° имеется очень близкое к тексту III редакции начало этой главы (кончая словом: «встречал» в первом абзаце), носящей здесь название: «Богатство и <choice><reg>Бедность</reg><orig>Бѣдность</orig></choice>. Глава 3».</p>
+        <p rend="left" id="a0d8982a-cc08-4e15-98c0-903305df1b11"><strong>Глава IV. «В Москве».</strong>Ранний (вероятно, до I редакции «Отрочества») вариант этой главы имеется на двух листах (см. „Описание рукописей, относящихся к «Отрочеству»“, № 4). Это — вероятно, один из первых набросков начала «Отрочества»; он имеет заглавие<hi rend="italic">Отрочество</hi>и по тексту значительно отличается от текста IV главы III редакции. Начинается:</p>
+        <p rend="big left" id="2ee62793-a342-456a-9048-3b1a70d50af4">Мы <choice><reg>все</reg><orig>всѣ</orig></choice> опять <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>Москве</reg><orig>Москвѣ</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>том</reg><orig>томъ</orig></choice> же <choice><reg>памятном</reg><orig>памятномъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice> <choice><reg>бабушкином</reg><orig>бабушкиномъ</orig></choice> <choice><reg>доме</reg><orig>домѣ</orig></choice>. Семейство наше <choice><reg>составляют</reg><orig>составляютъ</orig></choice> <choice><reg>теже</reg><orig>тѣже</orig></choice> лица; даже Мими, <choice><reg>Любочка</reg><orig>Любочька</orig></choice> и хорошенькая Катенька <choice><reg>живут</reg><orig>живутъ</orig></choice> <choice><reg>с</reg><orig>съ</orig></choice> нами <choice><reg>наверху</reg><orig>навѣрху</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> недавно для <choice><reg>них</reg><orig>нихъ</orig></choice> <choice><reg>отделанном</reg><orig>отдѣланномъ</orig></choice> <choice><reg>веселеньком</reg><orig>веселенькомъ</orig></choice>, <choice><reg>чистеньком</reg><orig>чистенькомъ</orig></choice> <choice><reg>мезонине</reg><orig>мезонинѣ</orig></choice>. Но <choice><reg>какие</reg><orig>какiя</orig></choice> <choice><reg>огромные</reg><orig>огромныя</orig></choice> <choice><reg>перемены</reg><orig>перемѣны</orig></choice> произошли за два года, <choice><reg>которые</reg><orig>которыя</orig></choice> я пропускаю, во <choice><reg>всех</reg><orig>всѣхъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice> <choice><reg>знакомых</reg><orig>знакомыхъ</orig></choice> <choice><reg>предметах</reg><orig>предметахъ</orig></choice> и <choice><reg>лицах</reg><orig>лицахъ</orig></choice>!</p>
+        <p rend="big left" id="6eccf5f6-90bd-40d3-8a23-042a9accc7de">Бабушка уже не <choice><reg>внушает</reg><orig>внушаетъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice> столько страха и <choice><reg>уважения</reg><orig>уваженiя</orig></choice>, <choice><reg>как</reg><orig>какъ</orig></choice> прежде; а чувства эти <choice><reg>заменились</reg><orig>замѣнились</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>отношении</reg><orig>отношенiи</orig></choice> <choice><reg>её</reg><orig>ея</orig></choice> <choice><reg>сожалением</reg><orig>сожалѣнiемъ</orig></choice> и любовью, <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>которым</reg><orig>которымъ</orig></choice> <choice><reg>так</reg><orig>такъ</orig></choice> способна моя <choice><reg>детская</reg><orig>дѣтская</orig></choice> душа.</p>
+        <p rend="left" id="19e802a6-f403-4214-bb00-f6f68df5d4bc">Затем идет характеристика бабушки, довольно близкая к той, которая дана в I редакции (вар. № 5), но кратче последней. Затем идет текст, помещаемый нами в вариантах<hi rend="italic">(см. вариант №<hi rend="opdelimiter">4).</hi></hi><hi rend="opnumber">360</hi></p>
+        <p rend="left" id="70bf48bc-e456-4978-a6e7-4a0e42509032"><pb n="361"/><hi rend="npdelimiter">В</hi>I редакции этой главе соответствует глава: «Дробь. IV».<note id="note161" resp="volume_editor" index="false"><div type="section footnote" xml:id="n161"><p rend="left" id="aa92d7f4-8999-40b7-875c-678fbedfcc00"> Цыфра приписана позднее, другими чернилами.</p></div></note>Текст ее значительно отличается от текста IV главы III редакции. Помещаем начало его в вариантах<hi rend="italic">(см. вариант № 5).</hi>В напечатанном в вариантах всё написанное с начала главы до слов: «Бабушка много, очень много...» перечеркнуто крест-на-крест, в нескольких местах, и поперек текста позднейшая помета: «<choice><reg>От</reg><orig>Отъ</orig></choice> себя <choice><reg>описание</reg><orig>описанiе</orig></choice> <choice><reg>отношений</reg><orig>отношенiй</orig></choice> <choice><reg>наших</reg><orig>нашихъ</orig></choice> <choice><reg>к</reg><orig>къ</orig></choice> папа и <choice><reg>бабушке</reg><orig>бабушкѣ</orig></choice>».</p>
+        <p rend="left" id="5033046d-3805-4250-a962-7c0b9dfbb9e4">Во II редакции этой главе соответствует глава, стоящая после главы «Гроза» и названная:<hi rend="italic">«Новый <choice><reg>взгляд</reg><orig>взглядъ</orig></choice>. Глава 4».</hi>Эта глава имеется здесь в двух вариантах. В первом дана лишь характеристика бабушки (т. е. то, что в III редакции второй абзац IV главы), по тексту занимающая среднее положение между текстом I редакции (вар. № 5), будучи кратче последнего, и текстом второго варианта, будучи несколько пространнее его. Во втором варианте текст уже весьма близок к тексту III редакции. По этому тексту идет помета: «Они не <choice><reg>переменились</reg><orig>перемѣнились</orig></choice> <choice><reg>вдруг</reg><orig>вдругъ</orig></choice>; но постепенная <choice><reg>их</reg><orig>ихъ</orig></choice> <choice><reg>перемена</reg><orig>перемѣна</orig></choice> <choice><reg>вдруг</reg><orig>вдругъ</orig></choice> поразила меня».</p>
+        <p rend="left" id="ad4cae78-610d-4f14-a4cd-815c747f7025"><strong>Глава V. «Старший брат».</strong>В I редакции место, соответствующее этой главе, находится после места, соответствующего XVII главе III редакции. Здесь (в I редакции) текст близок к тексту V главы III редакции с начала ее и кончая словами: «по целым дням и ночам» (в абзаце: «То вдруг на него...»). Затем идет текст, помещаемый нами в вариантах<hi rend="italic">(см. вариант № 6).</hi>Поперек помещенного в вариантах текста позднейшая помета: «Мои страсти то <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>силе</reg><orig>силѣ</orig></choice>то <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>цветам</reg><orig>цвѣтамъ</orig></choice>». Затем идет текст, соответствующий тексту III редакции, начиная с абзаца: «Однажды во время...» до конца главы. В I редакции текст этого места (в конце его стоит черта-концовка) близок к тексту III редакции, будучи несколько пространнее последнего. Обозначаем это место I редакции<hi rend="italic">А.</hi></p>
+        <p rend="left" id="9add772d-3f5b-4311-a849-08d98600f815">Во II редакции этой главе соответствует глава, названная:<hi rend="italic">«<choice><reg>Старший</reg><orig>Старшiй</orig></choice> <choice><reg>брат</reg><orig>братъ</orig></choice>. 5»</hi><note id="note162" resp="volume_editor" index="false"><div type="section footnote" xml:id="n162"><p rend="left" id="bb99eabe-7815-47c2-a34d-f40e2d440db1"> Цыфра «5» переправлена из «9».</p></div></note>и стоящая после главы 8-й (вар. № 15). Текст ее весьма близок к тексту III редакции.</p>
+        <p rend="left" id="0574828f-5d5a-4cd5-a961-53c8371fca02"><strong>Глава VI. «Маша».</strong>Этой главе в I ред. соответствует текст, идущий после текста<hi rend="italic">А</hi>и близкий к двум последним абзацам VI главы III редакции, после чего идет текст, соответствующий тексту III редакции, начиная со слов: «Иногда, притаившись...» (в абзаце: «Я по целым часам проводил...») до конца этого абзаца. Текст I редакции близок к тексту III редакции. Затем в I редакции идет:</p>
+        <p rend="big left" id="e6827238-bd09-4a02-bf34-8765b7b64396">Когда были гости, и мы играли <choice><reg>с</reg><orig>съ</orig></choice> <choice><reg>девочками</reg><orig>дѣвочками</orig></choice> или танцовали? Опять то же самое скрытое чувство зависти и <choice><reg>страдания</reg><orig>страданiя</orig></choice>. — Я <choice><reg>напрягал</reg><orig>напрягалъ</orig></choice>, сколько <choice><reg>мог</reg><orig>могъ</orig></choice>, свои <choice><reg>умственные</reg><orig>умственныя</orig></choice> способности, чтобы <choice><reg>найти</reg><orig>найдти</orig></choice> дурное <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>этих</reg><orig>этихъ</orig></choice> <choice><reg>удовольствиях</reg><orig>удовольствiяхъ</orig></choice> и находить <choice><reg>наслаждение</reg><orig>наслажденiе</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>гордом</reg><orig>гордомъ</orig></choice> <choice><reg>одиночестве</reg><orig>одиночествѣ</orig></choice>. —</p>
+        <p rend="left" id="6bb7094c-3de5-40cd-99d9-f37bf32a633a">Обозначаем эти строки<hi rend="italic">Б.</hi></p>
+        <p rend="left" id="e4802969-d568-4d12-a355-7c1a3b5fefbb">Во II редакции этой главе соответствует: «Глава 10-я. ‹<choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>› Маша», стоящая после главы 5-й (первоначально бывшей 9-й)<hi rend="opdelimiter">«<choice><reg>Старший</reg><orig>Старшiй</orig></choice></hi><hi rend="opnumber">361</hi><pb n="362"/><hi rend="npdelimiter"><choice><reg>брат</reg><orig>братъ</orig></choice>».</hi>Здесь (во II редакции) глава начинается зачеркнутым местом, помещаемым нами в вариантах<hi rend="italic">(см. вариант № 7).</hi>Затем идет текст, близкий к тексту VI главы III редакции, начиная со второго абзаца до конца главы, с тем лишь отличием, что во II редакции после абзаца: «Не могу выразить....» идет зачеркнутый абзац, помещаемый нами в вариантах<hi rend="italic">(см. вариант № 8).</hi></p>
+        <p rend="left" id="677ccf46-e3e7-40b7-87ca-550ec4404cc2">Кроме этого, на отдельном листке в 4° (вне нумерации) имеется текст начала этой главы, названной здесь: «Глава 6. Маша». Он начинается местом, близким к тексту вар. № 7 со слов: «Отчего мне не признаться...», после чего идет еще абзац, очень близкий к тексту первого абзаца VI главы III редакции.</p>
+        <p rend="left" id="5ab6597f-2a39-4e73-b8bd-a3c1b60f1eea"><strong>Глава VII. «Дробь».</strong>В I редакции этой главе соответствует вторая половина 4-й главы «Дробь» (см. выше о главе IV). Помещаем начало второй половины главы в вариантах<hi rend="italic">(см. вариант № 9).</hi>Среди строк текста, напечатанного нами в качестве варианта, имеется помета: «спокойный, рассудительный <choice><reg>характер</reg><orig>характеръ</orig></choice> Л. ». Затем идет текст весьма близкий к тексту III редакции, начиная с абзаца: «Когда папа пришел» до конца главы.</p>
+        <p rend="left" id="abbead24-0c50-4400-a21d-512e3666b8b6">Во II редакции этой главе соответствует: «Дробь. Глава 7».<note id="note163" resp="volume_editor" index="false"><div type="section footnote" xml:id="n163"><p rend="left" id="b4c4c8fe-760c-4300-a297-318f6644a171"> Цифра «7» переправлена из «5».</p></div></note>Здесь текст весьма близок к III редакции, и места, соответствующего вар. № 9, нет.</p>
+        <p rend="left" id="c289fc26-c3fb-4fa8-b728-86d17878a2c9"><strong>Глава VIII. «История Карла Ивановича».</strong>В I редакции перед главой, соответствующей этой (VIII главе III редакции), имеется еще глава: «Странная <choice><reg>перемена</reg><orig>перемѣна</orig></choice>. V».<note id="note164" resp="volume_editor" index="false"><div type="section footnote" xml:id="n164"><p rend="left" id="22c5faa0-bbcd-4e65-ad79-8f375212d495"> Цыфра «V« написана позднее, другими чернилами.</p></div></note>Помещаем начало ее в вариантах<hi rend="italic">(см. вариант № 10).</hi></p>
+        <p rend="left" id="debb207b-4e31-4529-bc62-37f3a170841b">Затем идет сцена появления пьяного Карла Ивановича, написанная первоначально для главы XXIV «Детства», но оттуда исключенная. Текст ее здесь в общем довольно близок к тексту вар. № 27 «Детства».<note id="note165" resp="volume_editor" index="false"><div type="section footnote" xml:id="n165"><p rend="left" id="c412eb96-246c-4569-aafc-2d20c06ef950"> См. 1 том, стр. 203.</p></div></note>Затем идет место, помещаемое нами в вариантах<hi rend="italic">(см. вариант № 11),</hi>после чего идет текст, довольно близкий к тексту начала VIII гл. III редакции, кончая абзацем: «Карл Иванович облокотился...». Затем идет глава: «<choice><reg>История</reg><orig>Исторiя</orig></choice> Карла Ивановича. VI» (заглавие и цыфра написаны позднее, другими чернилами). Начало ее близко к тексту III редакции, начиная с абзаца: «Я был несчастлив» до слов: «Тогда маменька сказала» (в абзаце: «В жилах моих»). Из мелких отличий I редакции отметим, что здесь есть такое место: «Часто мой добрый маменька <choice><reg>говорил</reg><orig>говорилъ</orig></choice> <choice><reg>мне</reg><orig>мнѣ</orig></choice> ‹Farldjen› <choice><reg>Фриц</reg><orig>Фрицъ</orig></choice> (<hi rend="italic">я</hi>на <choice><reg>родине</reg><orig>родинѣ</orig></choice> <choice><reg>имел</reg><orig>имѣлъ</orig></choice> имя Феодора)», а местом его родины названо «<choice><reg>местечко</reg><orig>мѣстечко</orig></choice> Ruhleben <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>Саксонии</reg><orig>Саксонiи</orig></choice>». Затем в I редакции идет место, помещаемое нами в вариантах<hi rend="italic">(см. вариант № 12),</hi>после чего идет текст, весьма близкий к тексту III редакции, начиная с абзаца: «Я взял его за руку» до конца главы.</p>
+        <p rend="left" id="3e67538e-2b93-4324-9d22-2da3f9ffc57c">Во II редакции главы I редакции «Странная перемена» нет, и VIII главе III редакции соответствует глава: «&lt;<choice><reg>История</reg><orig>Исторiя</orig></choice> Карла Ивановича&gt; <choice><reg>Песнь</reg><orig>Пѣснь</orig></choice> Лебедя. Глава 6». От нее сохранилось лишь начало,<hi rend="opdelimiter">соответствующее</hi><hi rend="opnumber">362</hi><pb n="363"/><hi rend="npdelimiter">началу</hi>VIII главы III редакции, кончая абзацем: «Вы не дитя...». Текст II редакции близок к тексту III редакции, будучи несколько пространнее последнего.</p>
+        <p rend="left" id="8b53ddc9-7386-481d-9e66-515c892b47f1"><strong>Глава IX. «Продолжение предыдущей».</strong>В I редакции этой главе соответствует место, помещаемое нами в вариантах<hi rend="italic">(см. вариант № 13),</hi>после чего идет текст, близкий к тексту III редакции, начиная с абзаца: «На четвертые сутки...» до конца главы.</p>
+        <p rend="left" id="bc71c603-17db-489a-8a23-dfea831551e2">В сохранившихся листках II редакции этой главы нет.</p>
+        <p rend="left" id="cb805f06-900e-485d-83d9-5cb460dfb815"><strong>Глава X. «Продолжение».</strong>В I редакции после эпизода с баронессой идет эпизод с шпионом, т.е. место, соответствующее тексту III редакции, начиная со слов: «В одно воскресенье...» (в абзаце: «Но Богу не угодно....») и кончая словами (в этом же абзаце): «zum Fenster hinaus<hi rend="italic">».</hi>Затем в I редакции идет эпизод появления в родном доме, т.е. то, что в III редакции имеется в первых трех абзацах этой главы. Текст I редакции близок к тексту III редакции. Затем в I редакции идет такой (незачеркнутый) текст:</p>
+        <p rend="big left" id="74f9cc3c-0d4c-442c-a486-f5dc34d1954c"><choice><reg>Как</reg><orig>Какъ</orig></choice> я уже <choice><reg>сказал</reg><orig>сказалъ</orig></choice>, я не знаю, <choice><reg>был ли</reg><orig>былъ-ли</orig></choice> <choice><reg>справедлив</reg><orig>справедливъ</orig></choice> <choice><reg>рассказ</reg><orig>разсказъ</orig></choice> Карла Ивановича, но положительно, то, что <choice><reg>в</reg><orig>въ</orig></choice> то время, <choice><reg>как</reg><orig>какъ</orig></choice> <choice><reg>он</reg><orig>онъ</orig></choice> <choice><reg>передавал</reg><orig>передавалъ</orig></choice> его, <choice><reg>в</reg><orig>въ</orig></choice> его <choice><reg>словах</reg><orig>словахъ</orig></choice> была такая ясная <choice><reg>последовательность</reg><orig>послѣдовательность</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>жестах</reg><orig>жестахъ</orig></choice>, <choice><reg>так</reg><orig>такъ</orig></choice> много истины и чувства, что трудно было <choice><reg>сомневаться</reg><orig>сомнѣваться</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>словах</reg><orig>словахъ</orig></choice> несмотря на то, что <choice><reg>рассказ</reg><orig>разсказъ</orig></choice> <choice><reg>этот</reg><orig>этотъ</orig></choice> по своему <choice><reg>слишком</reg><orig>слишкомъ</orig></choice> классическому <choice><reg>расположению</reg><orig>расположенiю</orig></choice> <choice><reg>внушал</reg><orig>внушалъ</orig></choice> <choice><reg>недоверие</reg><orig>недовѣрiе</orig></choice>.</p>
+        <p rend="left" id="693fd6c9-366e-49fd-a0aa-f44520149965">Между строками этого текста написано:</p>
+        <p rend="big left" id="a76979cb-b37e-4314-a3b7-914ca4b3d74d">Не ручаюсь за <choice><reg>достоверность</reg><orig>достовѣрность</orig></choice> <choice><reg>обстоятельств</reg><orig>обстоятельствъ</orig></choice> рассказа, но ручаюсь за <choice><reg>достоверность</reg><orig>достовѣрность</orig></choice> самого рассказа. <choice><reg>Описание</reg><orig>Описанiе</orig></choice> <choice><reg>войн</reg><orig>войнъ</orig></choice>, <choice><reg>беспрестанных</reg><orig>безпрестанныхъ</orig></choice> <choice><reg>бегств</reg><orig>бѣгствъ</orig></choice>, <choice><reg>самопожертвований</reg><orig>самопожертвованiй</orig></choice>, <choice><reg>свидания</reg><orig>свиданiя</orig></choice> <choice><reg>с</reg><orig>съ</orig></choice> родителями, <choice><reg>имеющее</reg><orig>имѣющее</orig></choice><note id="note166" resp="volume_editor" index="false"><div type="section footnote" xml:id="n166"><p rend="left" id="509b272d-918f-4448-ae75-0fc06cd0afeb"> В подлиннике: <choice><reg>имеющему</reg><orig>имѣющему</orig></choice></p></div></note>сходство <choice><reg>с</reg><orig>съ</orig></choice> <choice><reg>свиданием</reg><orig>свиданiемъ</orig></choice><note id="note167" resp="volume_editor" index="false"><div type="section footnote" xml:id="n167"><p rend="left" id="e856c440-3f56-4c11-b5d1-f8ffb69c6f99"> В подлиннике: <choice><reg>свидания</reg><orig>свиданiя</orig></choice></p></div></note>Іосифа <choice><reg>Прекрасного</reg><orig>Прекраснаго</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>движениях</reg><orig>движенiяхъ</orig></choice> лица и <choice><reg>слезах</reg><orig>слезахъ</orig></choice>, <choice><reg>которые</reg><orig>которыя</orig></choice> <choice><reg>проливал</reg><orig>проливалъ</orig></choice> <choice><reg>он</reg><orig>онъ</orig></choice> <choice original_editorial_correction="[съ]"><sic/><corr><choice><reg>с</reg><orig>съ</orig></choice></corr></choice> своими братьями, <choice><reg>вселяют</reg><orig>всѣляютъ</orig></choice> <choice><reg>недоверие</reg><orig>недовѣрiе</orig></choice> во <choice><reg>мне</reg><orig>мнѣ</orig></choice> теперь, но тогда <choice><reg>такие</reg><orig>такiя</orig></choice> <choice><reg>похождения</reg><orig>похожденiя</orig></choice> <choice><reg>так</reg><orig>такъ</orig></choice> хорошо гармонировали <choice><reg>с</reg><orig>съ</orig></choice> моими идеально-благородными, неопытными <choice><reg>детскими</reg><orig>дѣтскими</orig></choice> <choice><reg>понятиями</reg><orig>понятiями</orig></choice>, что<hi rend="italic">эти-то</hi><choice><reg>самые</reg><orig>самыя</orig></choice> несообразности внушали <choice><reg>мне</reg><orig>мнѣ</orig></choice> <choice><reg>более</reg><orig>болѣе</orig></choice> всего <choice><reg>доверия</reg><orig>довѣрiя</orig></choice>.</p>
+        <p rend="left" id="7470ebd6-bb63-4a8e-bf63-63510d830cac">Затем идет текст, помещаемый нами в вариантах<hi rend="italic">(см. вариант № 14).</hi></p>
+        <p rend="left" id="fa29c688-296d-4770-8e52-4866ec374021">В сохранившихся листках II редакции этой главы нет.</p>
+        <p rend="left" id="d61ca196-b996-4384-9f22-95a3b03eeebd">После «Истории Карла Ивановича» в I редакции следовала глава, не вошедшая в III редакцию и названная: «Новый ‹<choice><reg>Гувернер</reg><orig>Гувернеръ</orig></choice>› <choice><reg>порядок</reg><orig>порядокъ</orig></choice> вещей. VII». Текст ее с начала, будучи несколько пространнее, близок к тексту VII главы II редакции, до абзаца (исключительно): «На крыльце Карл Иванович...» (вар.<hi rend="italic">№</hi>15). Затем идет текст, помещаемый нами в вариантах<hi rend="italic">(см. вариант № 16),</hi>после чего идет текст, в общем довольно близкий к тексту II редакции, начиная с абзаца: «Растроганный<hi rend="opdelimiter">сценой»</hi><hi rend="opnumber">363</hi><pb n="364"/><hi rend="npdelimiter">и</hi>кончая словами: «часто подвергался этому наказанию» в абзаце VIII гл.: «Никто не ездил....» (вар. № 15)<note id="note168" resp="volume_editor" index="false"><div type="section footnote" xml:id="n168"><p rend="left" id="15a1f0fc-d8c2-499e-bab5-93715363474e"> Текст главы «Новый порядок вещей» I редакции (с начала ее и кончая местом, соответствующим месту II редакции, кончающемуся словами: «часто подвергался этому наказанию») впервые напечатан по копии П. И. Бирюковым в «Полном собрании сочинений Л. Н. Толстого», изд. Сытина, 1913, т. I, стр. 393—397.</p></div></note></p>
+        <p rend="left" id="79c4afa4-a43e-48ee-a433-8e45b3e71105">Во II редакции глава I редакции «Новый порядок вещей. VII» разбита на две, помещаемые нами (полностью) в вариантах<hi rend="italic">(см. вариант № 15).</hi></p>
+        <p rend="left" id="96229698-f43d-4249-97e9-0d9086d4c093"><strong>Глава XI. «Единица».</strong>В I редакции этой главе соответствует место, идущее после строк<hi rend="italic">Б</hi>(см. выше о гл. VI). Оно начинается таким текстом:</p>
+        <p rend="big left" id="9fb131a0-0a5f-4036-97f5-d61a0b853d81">Но <choice><reg>вот</reg><orig>вотъ</orig></choice> обстоятельство, окончательно удалившее меня <choice><reg>от</reg><orig>отъ</orig></choice> <choice><reg>забав</reg><orig>забавъ</orig></choice> и <choice><reg>удовольствий</reg><orig>удовольствiй</orig></choice> моего возраста и внушившее <choice><reg>мне</reg><orig>мнѣ</orig></choice> страсть <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>уединению</reg><orig>уединенiю</orig></choice>, <choice><reg>мечтам</reg><orig>мечтамъ</orig></choice> и <choice><reg>размышлению</reg><orig>размышленiю</orig></choice>.</p>
+        <p rend="left" id="5ef134af-a0e2-4d06-b348-865037e0483b">Затем в I редакции идет текст, неразработанный и неотделанный, но близкий к тексту XI главы III редакции. Он заключается чертой, концовкой.</p>
+        <p rend="left" id="0b14dc96-2a1b-4cde-abb8-a8c2ddd3078c">Во II редакции этой главе соответствует: «Глава 9<note id="note169" resp="volume_editor" index="false"><div type="section footnote" xml:id="n169"><p rend="left" id="913aac12-e8b9-4f28-a199-5bfdbbf92946"> Цифра «9» переделана из «10».</p></div></note>&lt;<choice><reg>Класс</reg><orig>Классъ</orig></choice> <choice><reg>Истории</reg><orig>Исторiи</orig></choice>&gt; Единица». Текст ее весьма близок к тексту III редакции.</p>
+        <p rend="left" id="64652e01-5634-4cf4-8674-a87cccfd8e27"><strong>Глава XII. «Ключик».</strong>В I редакции этой главе соответствует текст, который идет после текста, соответствующего тексту XI главы III редакции. Здесь (в I редакции) начало (до многоточия) близко к тексту III редакции. Затем идет место, близкое по тексту к тому, что имеется во II редакции (вар. № 17). Из отличий текста I редакции отметим, что имена корреспонденток здесь: Sophie, Esther и Настя, и на колоде надпись: «понтерки, на <choice><reg>которые</reg><orig>которыя</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> 1814 году я <choice><reg>в</reg><orig>въ</orig></choice> ночь 17 Генваря <choice><reg>отыграл</reg><orig>отъигралъ</orig></choice> все проигранное свое <choice><reg>состояние</reg><orig>состоянiе</orig></choice>».<note id="note170" resp="volume_editor" index="false"><div type="section footnote" xml:id="n170"><p rend="left" id="5f8f12ad-bf0c-4ce1-9220-a2afa87804cf"> Текст этого места (I ред.) впервые напечатан по копии П. И. Бирюковым в назв. собр. соч. Толстого, т. I, стр. 400.</p></div></note>Затем в I редакции идет текст, близкий к тексту III редакции, но значительно более краткий, заключающийся чертой-концовкой.</p>
+        <p rend="left" id="7b6e2e29-2a28-4ccb-815f-19fd5a5ef36e">Во II редакции этой главе соответствует: «Глава 10<note id="note171" resp="volume_editor" index="false"><div type="section footnote" xml:id="n171"><p rend="left" id="827ba39f-674c-4eda-9137-549567c47bb1"> Цифра «10» переделана из «11».</p></div></note>&lt;Становлюсь все <choice><reg>более</reg><orig>болѣе</orig></choice> и <choice><reg>более</reg><orig>болѣе</orig></choice> <choice><reg>виноватым</reg><orig>виноватымъ</orig></choice>&gt; <choice><reg>Ключик</reg><orig>Ключикъ</orig></choice>». Текст начала этой главы весьма близок к тексту III редакции (до многоточия), вместо которого во II редакции идет место, помещаемое нами в вариантах<hi rend="italic">(см. вариант № 17),</hi>после чего идет текст, весьма близкий к тексту III редакции.</p>
+        <p rend="left" id="89253341-19f1-4171-8736-176d478b5f0e">Кроме этого, на отдельном листке в 4° (страницы листка перенумерованы: 133, 134) имеется текст, близкий к тексту III редакции, начиная с абзаца: «Детское чувство...», до конца главы.</p>
+        <p rend="left" id="157358de-8e66-4449-8f8a-5ebb5fb8d33c"><strong>Глава XIII. «Изменница».</strong>В I редакции этой главе соответствует место, идущее за текстом, соответствующим тексту XII главы III редакции. В I редакции текст близок к тексту III редакции, но не разработан.</p>
+        <p rend="left" id="a13e0bfb-ba1c-4eb3-80f0-b6ef2cf44b09">Во II редакции от этой главы, названной:<hi rend="italic">«Глава 14. <choice><reg>Изменница</reg><orig>Измѣнница</orig></choice>»,</hi>сохранилось лишь начало, соответствующее первым трем абзацам<hi rend="opdelimiter">XIII</hi><hi rend="opnumber">364</hi><pb n="365"/><hi rend="npdelimiter">главы</hi>III редакции. Текст II редакции весьма близок к тексту III редакции.</p>
+        <p rend="left" id="40b22f93-a1d5-4427-af46-4e4cf5ed461f"><strong>Глава XIV. «Затмение».</strong>В I редакции этой главе соответствует место, идущее после места, соответствующего XIII главе III редакции. Начинается оно иначе, чем в III редакции. Помещаем его в вариантах<hi rend="italic">(см. вариант № 18</hi>).<note id="note172" resp="volume_editor" index="false"><div type="section footnote" xml:id="n172"><p rend="left" id="316f884f-46dd-4344-bcd3-f176e9c37e97"> Из этого места, со слов «St.-Jérôme вышел...» кончая словами: «выговаривая это последнее слово» впервые напечатано по копии П. И. Бирюковым в назв. собр. соч. Толстого, т. I, стр. 400—401.</p></div></note>Затем<note id="note173" resp="volume_editor" index="false"><div type="section footnote" xml:id="n173"><p rend="left" id="cfef0c59-8446-4050-a584-40256bb92859"> Это место впервые напечатано по копии П. И. Бирюковым в назван. собр. соч Толстого, т. I, стр. 403—405. <hi rend="italic">Редактор электронного издания</hi><choice original_editorial_correction="[ВНИМАНИЕ! В тексте оригинала отсутствует знак сноски, отмечающий место, к которому относится данное примечание. — ]"><sic/><corr>ВНИМАНИЕ! В тексте оригинала отсутствует знак сноски, отмечающий место, к которому относится данное примечание. — </corr></choice></p></div></note>идет место, соответствующее тексту III редакции, начиная со слов: «Я должен был быть....» (в абзаце: «Он сказал это...») до конца главы. Текст этого места I редакции близок к тексту III редакции и так же, как и последний, кончается многоточием, после которого — черта-концовка.</p>
+        <p rend="left" id="e44f467f-17ca-4f50-85f0-9ffbcf93e271">В сохранившихся листках II редакции этой главы нет.</p>
+        <p rend="left" id="897cc280-01ef-438b-af46-5b923997fb57"><strong>Глава XV. «Мечты».</strong>В I редакции этой главе соответствует место, идущее после места, соответствующего XIV главе III редакции. Текст I редакции довольно близок к тексту III редакции, но не разработан и не отделан.</p>
+        <p rend="left" id="b601937d-eaf3-42ba-86c2-b4c292087ae7">В сохранившихся листках II редакции этой главы нет.</p>
+        <p rend="left" id="788571ed-ea50-4ff1-88e1-a7afba54aeaa"><strong>Глава XVI. «Перемелется — мука будет».</strong>В I редакции этой главе соответствует место, идущее после места, соответствующего XV гл. III редакции. Текст I редакции довольно близок к тексту III редакции с начала главы, кончая абзацем: «Хотел ли я убежать...», после чего в І редакции идет место, помещаемое нами в вариантах<hi rend="italic">(см. вариант № 19).</hi>Затем в I редакции идет текст (кончается чертой-концовкой), близкий к тексту последнего абзаца XVI главы III редакции.</p>
+        <p rend="left" id="f8a4c7dd-9b8f-4f5d-bd21-139f8c47322c"><strong>Глава <choice><reg>ХVИИ</reg><orig>ХVII</orig></choice>. «Ненависть».</strong>В I редакции этой главе соответствует глава, названная «&lt;Ненависть&gt; <choice><reg>Унижение</reg><orig>Униженiе</orig></choice>», стоящая после места, кончающегося во II редакции словами: «часто подвергался этому наказанию» (см. вар. № 15, абзац 8-й главы: «Никто не ездил...»). Она начинается абзацем:</p>
+        <p rend="big left" id="c70fa0ed-dbcd-48af-83f3-176855c7dbd2">Исключая Илиньки <choice><reg>Грап</reg><orig>Грапъ</orig></choice>, который <choice><reg>приходил</reg><orig>приходилъ</orig></choice> учиться <choice><reg>с</reg><orig>съ</orig></choice> нами, мы не видали никого <choice><reg>сверстников</reg><orig>сверстниковъ</orig></choice>. <choice><reg>С</reg><orig>Съ</orig></choice> Ивиными мы <choice><reg>встречались</reg><orig>встрѣчались</orig></choice> <choice><reg>изредко</reg><orig>изрѣдко</orig></choice> на <choice original_editorial_correction="Т[верскомъ]"><sic>Т</sic><corr><choice><reg>Тверском</reg><orig>Тверскомъ</orig></choice></corr></choice> <choice><reg>бульваре</reg><orig>бульварѣ</orig></choice> и <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>манеже</reg><orig>манежѣ</orig></choice>, <choice><reg>к</reg><orig>къ</orig></choice> <choice><reg>нам</reg><orig>намъ</orig></choice> же никто не <choice><reg>ездил</reg><orig>ѣздилъ</orig></choice> почти <choice><reg>целый</reg><orig>цѣлый</orig></choice> <choice><reg>год</reg><orig>годъ</orig></choice> траура <choice><reg>под</reg><orig>подъ</orig></choice> <choice><reg>предлогом</reg><orig>предлогомъ</orig></choice> траура и <choice><reg>беспокойства</reg><orig>безпокойства</orig></choice>, которое могло причинить <choice><reg>бабушке</reg><orig>бабушкѣ</orig></choice>, и еще <choice><reg>более</reg><orig>болѣе</orig></choice> потому, чтобы мы не развлекались <choice><reg>от</reg><orig>отъ</orig></choice> <choice><reg>классов</reg><orig>классовъ</orig></choice>, особенно Володя, <choice><reg>поступавший</reg><orig>поступавшiй</orig></choice> будущей весной <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>Университет</reg><orig>Университетъ</orig></choice>.<note id="note174" resp="volume_editor" index="false"><div type="section footnote" xml:id="n174"><p rend="left" id="68634889-86a6-4435-a888-c8af6d7fd999"> Этот абзац впервые напечатан по копии П. И. Бирюковым в назван. собр. соч. Толстого,т. I, стр. 397—398.</p></div></note></p>
+        <p rend="left" id="12c728da-4ba2-4704-8e35-7e9a279cfa20">После этого идет текст, близкий к тексту III редакции, начиная с абзаца: «St.-Jérôme жил у нас...» и кончая абзацем: «Карл Иванович ставил нас...». Затем идет место, помещаемое нами в вариантах<hi rend="italic"><hi rend="opdelimiter">(см.</hi></hi><hi rend="opnumber">365</hi><pb n="366"/><hi rend="italic"><hi rend="npdelimiter">вариант</hi>№ 20).</hi><note id="note175" resp="volume_editor" index="false"><div type="section footnote" xml:id="n175"><p rend="left" id="661fc24e-9a9c-4b1a-bc50-b5f047052269"> Часть этого варианта (с начала и кончая словами: «ударить нашего русского человека!») впервые напечатана по копии П. И. Бирюковым в назв. собр. соч. Толстого, т. I, стр. 398—399.</p></div></note>В напечатанном в вариантах тексте перед словами: «Я понимал, что чувство, возбуждаемое во мне...» имеется помета: («<choice><reg>Отношения</reg><orig>Отношенiя</orig></choice> мои <choice><reg>с</reg><orig>съ</orig></choice> St.-Jérôm’<choice><reg>ом</reg><orig>омъ</orig></choice> <choice><reg>из</reg><orig>изъ</orig></choice> 3-й тетради последнего листа)». Текст последнего листа 3-й тетради, это — место со слов: «в классной, как будто занимаясь», кончая: «Как он, француз, смел ударить нашего русского человека». Очевидно Толстой хотел, выбросив эпизод с Василием, оставить лишь описание чувства, которое ему внушал St.-Jérôme.</p>
+        <p rend="left" id="b16f4fe2-5f1b-4426-9984-da4d5dcc7c9b">После напечатанного в вар. № 20 идет близкое к тексту III редакции место, соответствующее первому абзацу XVII главы III редакции.</p>
+        <p rend="left" id="e2969e21-c906-42c5-b260-b085c455acda">Во II редакции от этой главы сохранилось лишь несколько строк, соответствующих концу вар. № 20.</p>
+        <p rend="left" id="b28a7be6-ffa3-4e88-92a7-a79f25495212"><strong>Глава XVIII. «Девичья».</strong>В I редакции этой главе соответствует глава: «&lt;Маша&gt; <choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>», стоящая после текста, помещенного нами в качестве вар. № 22. Помещаем ее в вариантах<hi rend="italic">(см. вариант № 21).</hi>Поперек текста, кончающегося словами: «заплакала и вышла на лестницу», написано: «<choice><reg>конец</reg><orig>конецъ</orig></choice>».</p>
+        <p rend="left" id="c6855442-206c-451c-b4b6-65576c01f167">Во II редакции этой главе соответствует: «Глава 19. &lt;<choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>&gt; (<choice><reg>Василий</reg><orig>Василiй</orig></choice> и Маша) <choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice>», стоящая после места, соответствующего тексту XIX главы III редакции. Здесь (во II редакции) сначала идет зачеркнутый крест-накрест текст, повторенный сейчас же за ним в таком виде:</p>
+        <lb/>
+        <p rend="center" id="1d11cb6d-061e-4950-8008-67e5bebfe069">Глава 29.<hi rend="Razradka"><choice><reg>Девичья</reg><orig>Дѣвичья</orig></choice></hi>.</p>
+        <div rend="epigraph">
+          <p>If nature has so wowe her web of kindness that some threads of lowe and desire are entangled with the piece; must the all piece be rent in drawing them aut. —</p>
+        </div>
+        <p rend="right" id="ec84ad24-9fd4-41eb-8709-e3db0e5a0dcc">Sterne.<note id="note176" resp="volume_editor" index="false"><div type="section footnote" xml:id="n176"><p rend="left" id="7dd6f7b5-6990-44f8-a865-4823ba1ca373"> <choice original_editorial_correction="[Если природа соткала ткань нежных ощущений так, что нити любви и желаний тесно переплетены в ней, то не пострадает ли сама ткань, если вырывать из нее эти нити. Стерн.]"><sic/><corr>Если природа соткала ткань нежных ощущений так, что нити любви и желаний тесно переплетены в ней, то не пострадает ли сама ткань, если вырывать из нее эти нити. Стерн.</corr></choice> Сохранена орфография Толстого в английском тексте. Цитата взята из гл. «Победа» «Сентиментального путешествия».</p></div></note></p>
+        <p rend="big left" id="a85e900b-0494-4292-8095-f381c8f121a9">&lt;<choice><reg>Как</reg><orig>Какъ</orig></choice> только я, задумавшись о чем-нибудь, забывался на минуту, я <choice><reg>бессознательно</reg><orig>безсознательно</orig></choice> <choice><reg>вставал</reg><orig>вставалъ</orig></choice> <choice><reg>с</reg><orig>съ</orig></choice> <choice><reg>места</reg><orig>мѣста</orig></choice>, <choice><reg>выходил</reg><orig>выходилъ</orig></choice> на <choice><reg>лестницу</reg><orig>лѣстницу</orig></choice>, осторожно <choice><reg>ступал</reg><orig>ступалъ</orig></choice> по <choice><reg>скрипящим</reg><orig>скрипящимъ</orig></choice> <choice><reg>ступеням</reg><orig>ступенямъ</orig></choice> и <choice><reg>вдруг</reg><orig>вдругъ</orig></choice>, совершенно неожиданно для самого себя, <choice><reg>находил</reg><orig>находилъ</orig></choice> себя <choice><reg>сидящим</reg><orig>сидящимъ</orig></choice> за дверью <choice><reg>девичьей</reg><orig>дѣвичьей</orig></choice>, <choice><reg>без</reg><orig>безъ</orig></choice> всякой мысли <choice><reg>устремив</reg><orig>устремивъ</orig></choice> взоры на давно изученные мною до <choice><reg>малейших</reg><orig>малѣйшихъ</orig></choice> подробностей предметы&gt;.</p>
+        <p rend="left" id="2b54f3cb-906f-4c87-a8f0-0d9b706e2270">Затем идет описание девичьей, довольно близкое к описанию, имеющемуся в I редакции, начиная со слов: «В дверь, в которую я смотрел...» и кончая: «пристально шьет (см. вар. № 21, в абзаце «Однажды в праздник...»), после чего в рукописи пропуск, а затем небольшой отрывок, соответствующий в общем абзацу: «Несмотря на то, что...» III редакции. На этом отрывке кончается рукопись III<hi rend="opdelimiter">редакции.</hi><hi rend="opnumber">366</hi></p>
+        <p rend="left" id="c6c609cc-32c1-4c25-a8dd-ad80d0aa5511"><pb n="367"/><strong><hi rend="npdelimiter">Глава XIX. «Отрочество».</hi></strong>В I редакции этой главе соответствует место, стоящее после места, соответствующего последнему абзацу XVI главы III редакции. Текст этого места I редакции отличен от текста III редакции, и мы помещаем его полностью в вариантах<hi rend="italic">(см. вариант № 22</hi>).<note id="note177" resp="volume_editor" index="false"><div type="section footnote" xml:id="n177"><p rend="left" id="54edf5f5-6b9f-41cf-816a-403d64fcf7cc"> Часть этого текста, со слов: «После обеда я не вмешивался...» кончая: «для моих отроческих мечтаний» впервые напечатана по копии П. И. Бирюковым в назван. собр. соч. Толстого, т. I, стр. 401—403.</p></div></note></p>
+        <p rend="left" id="81812040-b5e8-4c26-9c53-69851c9a5643">Во II редакции эта глава сохранилась не полностью: здесь имеется текст, соответствующий тексту III редакции, начиная с абзаца: «Мысли эти представлялись...» и кончая абзацем: «Другой раз, вспомнив...». Текст II редакции отличен от текста III редакции, и мы помещаем его в вариантах<hi rend="italic">(см. вариант № 23).</hi>Затем идет пять строк, весьма близких к началу абзаца III редакции: «Но ни одним...», после чего в рукописи пропуск (страниц в пять). Затем идет текст, соответствующий абзацам III редакции: «То раз, стоя....» и следующему. Даем его в вариантах<hi rend="italic">(см. вариант № 24).</hi>Затем идет текст, близкий к трем абзацам III редакции: «Слабый ум...», «Из всего этого...» и «Однако философские открытия...».</p>
+        <p rend="left" id="42f42b67-c699-48a0-9bfc-5cce02c05b78"><strong>Глава XX. «Володя».</strong>В I редакции этой главе соответствует место, стоящее после вар. № 21. Здесь (в I редакции) текст близок к тексту XX главы III редакции с начала ее и кончая словами: «le fond de la bouteille»<note id="note178" resp="volume_editor" index="false"><div type="section footnote" xml:id="n178"><p rend="left" id="7cd9f71f-2a65-4764-930e-6c3871b8cb9b"> <choice original_editorial_correction="[дно бутылки]"><sic/><corr>дно бутылки</corr></choice></p></div></note>(в абзаце: «Володя с сияющим лицом....»). Затем идет текст, помещаемый нами в вариантах<hi rend="italic">(см. вариант № 25).</hi></p>
+        <p rend="left" id="241bc22f-5a73-4b4e-aa70-69806a6becaf">Затем в I редакции идет место, близкое к тексту III редакции со слов: «Он обедает однако регулярно...» (в предпоследнем абзаце) до конца главы.</p>
+        <p rend="left" id="75ee4ab6-dc4d-4bfa-9c83-6a414454acdb">В сохранившихся листках II редакции этой главы нет.</p>
+        <p rend="left" id="9ea596ec-3504-43c4-adfa-fd28df96fe2d"><strong>Глава XXI. «Катенька и Любочка».</strong>В I редакции этой главе соответствует место, стоящее после места, соответствующего концу XX главы III редакции. Здесь (в I редакции) сначала идет текст, близкий к первому абзацу XXI главы III редакции, после чего имеется фраза:</p>
+        <p rend="big left" id="bd02a23d-f70c-489a-a78b-d4b3c3025d3d">Одно было жалко это то, что у <choice><reg>неё</reg><orig>нея</orig></choice>, <choice><reg>Бог</reg><orig>Богъ</orig></choice> <choice><reg>знает</reg><orig>знаетъ</orig></choice>, откуда, привились <choice><reg>дурные</reg><orig>дурныя</orig></choice> манеры. <choice><reg>Как</reg><orig>Какъ</orig></choice> не <choice><reg>верить</reg><orig>вѣрить</orig></choice> <choice><reg>после</reg><orig>послѣ</orig></choice> <choice><reg>этого</reg><orig>этаго</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> породу.</p>
+        <p rend="left" id="c0b0bb86-6e1b-4019-966a-65901df375e1">Затем идет текст, соответствующий тексту III редакции, начиная с абзаца: «Несмотря на то, что Любочка...» и до конца главы. В I редакции текст близок к тексту III редакции, но местами кратче последнего.</p>
+        <p rend="left" id="9df4a37e-b74b-40bf-b436-6f6aec282317">В сохранившихся листках II редакции этой главы нет.</p>
+        <p rend="left" id="ec0fcf36-344a-424f-b1d1-3d03f230e102"><strong>Глава XXII. «Папа».</strong>В I редакции этой главе соответствует место, стоящее после места, соответствующего XXI главе III редакции. В I редакции текст близок к тексту первых трех абзацев XXII главы III редакции, но кратче последнего. Затем идет текст:</p>
+        <p rend="left" id="1c18f6f6-3451-4851-958f-e0070dfe0b98"><choice><reg>Верно</reg><orig>Вѣрно</orig></choice> <choice><reg>всякий</reg><orig>всякiй</orig></choice> <choice><reg>замечал</reg><orig>замѣчалъ</orig></choice>, что даже <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>одном</reg><orig>одномъ</orig></choice> <choice><reg>роде</reg><orig>родѣ</orig></choice> игры у <choice><reg>каждого</reg><orig>каждаго</orig></choice> есть <choice><reg>непременно</reg><orig>непремѣнно</orig></choice> своя неуловимая особенность, <choice><reg>как</reg><orig>какъ</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>голосе</reg><orig>голосѣ</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>походке</reg><orig>походкѣ</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>руке</reg><orig>рукѣ</orig></choice> <choice><reg>каждого</reg><orig>каждаго</orig></choice> <choice><reg>человека</reg><orig>человѣка</orig></choice>, <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>листке</reg><orig>листкѣ</orig></choice> <choice><reg>каждого</reg><orig>каждаго</orig></choice> дерева: но эта то особенность игры <choice><reg>так</reg><orig>такъ</orig></choice> отразилась до <choice><reg>тончайших</reg><orig>тончайшихъ</orig></choice> <choice><reg>оттенков</reg><orig>оттѣнковъ</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>игре</reg><orig>игрѣ</orig></choice> Любочки, <choice><reg>так</reg><orig>такъ</orig></choice> что,<hi rend="opdelimiter">слушая</hi><hi rend="opnumber">367</hi><pb n="368"/><hi rend="npdelimiter">ее</hi>часто, <choice><reg>мне</reg><orig>мнѣ</orig></choice> случалось закрывать глаза и думать: <choice><reg>вот</reg><orig>вотъ</orig></choice> открою глаза и увижу ее.</p>
+        <p rend="left" id="fc37168b-f7cc-4b93-a0e1-1dda04e6603e">Затем в I редакции идет место, соответствующее тексту III редакции, начиная с абзаца: «Папа вошел в комнату....» и кончая словами: «останавливаясь посреди коридора (в абзаце:«— Вольдемар! скоро ли ты?»). Затем идет место, помещаемое нами в вариантах<hi rend="italic">(см. вариант № 26).</hi>Поперек этого текста идет помета: «Вас. <choice><reg>сидит</reg><orig>сидитъ</orig></choice> <choice><reg>в</reg><orig>въ</orig></choice> части».</p>
+        <p rend="left" id="6033aa8c-07b1-4bbc-b661-b7b109500d2a">В сохранившихся листках II редакции этой главы нет.</p>
+        <p rend="left" id="d598a8f6-6aea-4ad6-8f1f-96c11647d548">Текст рукописи, описанной выше под № 7 (см. „Описание рукописей, относящихся к «Отрочеству»“), представляет собою без начала главу, названную: «Странная новость» и намеченную 23-й в напечатанном выше перечне глав, написанном в конце рукописи I редакции (см. „История писания «Отрочества»“, стр. 352).</p>
+        <p rend="left" id="80407b70-01e3-4003-bb21-72173c845a5c">Текст страниц 120—129 рукописи № 7 помещаем в вариантах<hi rend="italic">(см. вариант № 27).</hi>Кроме этого, шестой листок, страницы которого нумерованы 126, 127, дает более ранний, менее разработанный вариант конца напечатанного (вар. № 27) текста (со слов: «Пришло конец тому делу, что и платить надо...» до конца напечатанного), после чего идет:</p>
+        <lb/>
+        <p rend="center" id="106da372-44a1-4893-a5c9-29d40f07a8cd">Глава 24.<hi rend="Razradka"><choice><reg>Концерт</reg><orig>Концертъ</orig></choice></hi>.</p>
+        <p rend="big left" id="c7c44677-f892-4cb8-9c7d-e63e09491521"><choice><reg>Бабушке</reg><orig>Бабушкѣ</orig></choice> становилось <choice><reg>слабее</reg><orig>слабѣе</orig></choice> и <choice><reg>слабее</reg><orig>слабѣе</orig></choice>. <choice><reg>Из</reg><orig>Изъ</orig></choice> <choice><reg>кресел</reg><orig>креселъ</orig></choice> она перешла уже <choice><reg>в</reg><orig>въ</orig></choice> высокую кровать <choice><reg>с</reg><orig>съ</orig></choice> подушками, обшитыми кружевами. <choice><reg>Колокольчик</reg><orig>Колокольчикъ</orig></choice> и ворчливый <choice><reg>голос</reg><orig>голосъ</orig></choice> Гаши еще чаще были слышны на <choice><reg>её</reg><orig>ея</orig></choice> <choice><reg>половине</reg><orig>половинѣ</orig></choice>. 28 <choice><reg>Апреля</reg><orig>Апрѣля</orig></choice>, когда мы пришли здороваться <choice><reg>с</reg><orig>съ</orig></choice> ней, и она дала <choice><reg>мне</reg><orig>мнѣ</orig></choice> <choice><reg>целовать</reg><orig>цѣловать</orig></choice> свою руку, я <choice><reg>с</reg><orig>съ</orig></choice> <choice><reg>тем</reg><orig>тѣмъ</orig></choice> <choice><reg>болезненным</reg><orig>болѣзненнымъ</orig></choice> <choice><reg>чувством</reg><orig>чувствомъ</orig></choice>, которое испытываешь, находя что нибудь отвратительное <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>людях</reg><orig>людяхъ</orig></choice>, <choice><reg>которых</reg><orig>которыхъ</orig></choice> любишь, <choice><reg>заметил</reg><orig>замѣтилъ</orig></choice>, что рука</p>
+        <p rend="left" id="be6d4729-d6bc-446a-9cd1-23dcde261a80">На этом рукопись обрывается. Это начало 24 главы близко к началу главы XXIII «Бабушка» III редакции, от которой больше ничего в рукописях не сохранилось.</p>
+        <p rend="left" id="ed42d5a9-12b5-4304-b878-8b7b2ffa1864"><strong>Глава XXIV. «Я».</strong>Этой главы нет в рукописях ни I, ни II редакций.</p>
+        <p rend="left" id="9d5f92cb-df2f-4bb8-9ceb-1d4e08bea54d"><strong>Глава XXV. «Приятели Володи».</strong>В I редакции этой главе соответствует глава «Начало дружбы. XXX», стоящая после текста вар. № 26. Текст ее значительно отличается от текста III редакции, и мы помещаем всё, что сохранилось от нее в вариантах<hi rend="italic">(см. вариант № 28).</hi>Дальше в тетради вырвано сколько-то страниц, а затем идет текст, помещаемый нами в вариантах<hi rend="italic">(см. вариант № 29).</hi>Поперек начала текста помета: «<choice><reg>Гробовщик</reg><orig>Гробовщикъ</orig></choice>», а поперек последних строк этого текста написано: «<choice><reg>Условие</reg><orig>Условiе</orig></choice> говорить <choice><reg>друг</reg><orig>другъ</orig></choice> другу все и никогда не говорить <choice><reg>друг</reg><orig>другъ</orig></choice> про друга. Я говорю <choice><reg>об</reg><orig>объ</orig></choice> <choice><reg>отце</reg><orig>отцѣ</orig></choice>. <choice><reg>Он</reg><orig>Онъ</orig></choice> <choice><reg>останавливает</reg><orig>останавливаетъ</orig></choice> меня». —</p>
+        <p rend="left" id="6a08cda0-cf48-4b75-8e78-010f1839a07a">Первая часть варианта № 28 соответствует намечавшейся 24 главе (см. перечень глав в рукописи I редакции в „Истории писания «Отрочества»“ стр. 352) «Концерт», а вторая часть представляет собою как бы конспект глав 32 и 33 указанного<hi rend="opdelimiter">перечня.</hi><hi rend="opnumber">368</hi></p>
+        <p rend="left" id="7b264ac6-4dc5-44d3-b1d3-fa25f060abea"><pb n="369"/><strong><hi rend="npdelimiter">Глава XXVI. «Рассуждения».</hi></strong>Этой главы нет в рукописях ни I, ни II редакций.</p>
+        <p rend="left" id="81f63c2d-f74c-4c5c-b76e-a5a8a8393340"><strong>Глава XXVII. «Начало дружбы».</strong>Этой главы нет в рукописях ни I, ни II редакций.</p>
       </div>
     </body>
   </text>
