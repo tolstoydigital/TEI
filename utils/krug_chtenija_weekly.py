@@ -22,7 +22,6 @@ def add_cit(file):
     l = len(body.findall("./")) - 1
     for n, t in enumerate(body.findall("./")):
         if t.tag == "{http://www.tei-c.org/ns/1.0}head":
-            print("head")
             cit = etree.Element("cit")
             t.addprevious(cit)
             cit.append(t)
@@ -32,7 +31,6 @@ def add_cit(file):
             bibl = etree.Element("bibl")
             t.addprevious(bibl)
             bibl.append(t)
-    text = etree.tostring(root, pretty_print=True, encoding="unicode")
 
     Element_tree = etree.ElementTree(root)
     Element_tree.write(file, encoding = "utf-8", xml_declaration=True, pretty_print=True)
