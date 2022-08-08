@@ -1,89 +1,147 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v49_110_110_1883_07_06">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 6 июля 1883 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">?</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 49</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">49</biblScope>
-            <biblScope unit="page">110-110</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1883-07-06"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="02d00a76-0b42-425c-96ae-d7d6fb156a7d">
-        <pb n="110"/>
-      </p>
-      <div n="v49_n238" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1883-07-06">
-              <hi>[6/18 июля.]</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="6b40ff78-f60c-4bae-91c7-e9e3593eff71" rend="left"> Дурной день. Встал в 8-м, убрался, хотел идти в Тулу, но почувствовал себя столь слабым, что поехал верхом. Перед отъездом приехал Артемов об земле. Я ему грубо и зло сказал: завидущие глаза. И поехал убитый. В Туле духота. В банках чистенькие, щелкают счетами и моча о губку, считают, постукивая, бумажки; а по дороге бабы навивают, мужики косят, скородят. Нищие и странники слабые, голодные идут. Приехал растертый и измученный, послал деньги на почту. Дорогой я ехал и мечтал о том, что, устроив правильно жизнь, т. е. отдавая другим хоть какую-нибудь долю, я должен прежде всего взяться за хозяйство. Я надеюсь, что мог бы теперь делать, не <choice original_editorial_correction="увлека[ясь]"><sic>увлека</sic><corr>увлекаясь</corr></choice> и всегда зная, что отношения с человеком дороже всего. В Туле Урусов. Очень много разговора. Дома попытки отношений — как будто мы всё разрешили и, вместе с тем, ничего изменять не <hi style="opdelimiter">надо.</hi></p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v49_110_110_1883_07_06">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 6 июля 1883 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       ?
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 49
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       49
+      </biblScope>
+      <biblScope unit="page">
+       110-110
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1883-07-06"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="02d00a76-0b42-425c-96ae-d7d6fb156a7d">
+    <pb n="110"/>
+   </p>
+   <div n="v49_n238" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1883-07-06">
+       <hi>
+        [6/18 июля.]
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="6b40ff78-f60c-4bae-91c7-e9e3593eff71" rend="left">
+     Дурной день. Встал в 8-м, убрался, хотел идти в Тулу, но почувствовал себя столь слабым, что поехал верхом. Перед отъездом приехал Артемов об земле. Я ему грубо и зло сказал: завидущие глаза. И поехал убитый. В Туле духота. В банках чистенькие, щелкают счетами и моча о губку, считают, постукивая, бумажки; а по дороге бабы навивают, мужики косят, скородят. Нищие и странники слабые, голодные идут. Приехал растертый и измученный, послал деньги на почту. Дорогой я ехал и мечтал о том, что, устроив правильно жизнь, т. е. отдавая другим хоть какую-нибудь долю, я должен прежде всего взяться за хозяйство. Я надеюсь, что мог бы теперь делать, не
+     <choice original_editorial_correction="увлека[ясь]">
+      <sic>
+       увлека
+      </sic>
+      <corr>
+       увлекаясь
+      </corr>
+     </choice>
+     и всегда зная, что отношения с человеком дороже всего. В Туле Урусов. Очень много разговора. Дома попытки отношений — как будто мы всё разрешили и, вместе с тем, ничего изменять не
+     <hi style="opdelimiter">
+      надо.
+     </hi>
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

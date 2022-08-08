@@ -1,92 +1,293 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v54_189_189_1903_08_20">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 20 августа 1903 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1903 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 54</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1935"/>
-            </imprint>
-            <biblScope unit="volume">54</biblScope>
-            <biblScope unit="page">189-189</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1903-08-20"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="e649acf2-c53e-4e8c-801d-f2265f94bc17">
-        <pb n="189"/>
-      </p>
-      <div n="v54_n211" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1903-08-20">
-              <hi>20 Августа.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="50cd022c-b686-4d07-bea9-beae27a34271" rend="left"> Только нынче <choice><reg>кончил</reg><orig>кончилъ</orig></choice> сказки и не три, a <choice><reg>две</reg><orig>двѣ</orig></choice>. <choice><reg>Недоволен</reg><orig>Недоволенъ</orig></choice>. За то «А вы говорите» недурно. Здоровье все хорошо. Нынче <choice><reg>еду</reg><orig>ѣду</orig></choice><choice><reg>в</reg><orig>въ</orig></choice> Пирогово.</p>
-        <p id="afea7a3a-87fc-4cca-9146-67ec6b5312c5" style="left">Надо было записать кое что, <choice><reg>забыл</reg><orig>забылъ</orig></choice>.</p>
-        <p id="2229a092-bd8c-45e2-b7ee-36f350296a38" style="left">1) Пустяки. Когда <choice><reg>сам</reg><orig>самъ</orig></choice><choice><reg>забыл</reg><orig>забылъ</orig></choice> имя и спрашиваешь у <choice><reg>другого</reg><orig>другаго</orig></choice>, <choice><reg>этот</reg><orig>этотъ</orig></choice> другой заражается и тоже <choice><reg>забывает</reg><orig>забываетъ</orig></choice>.</p>
-        <p id="80a32909-0283-4e4c-bed6-274c152a776b" style="left">2) Научить жить, пока повернешься на одной <choice><reg>ноге</reg><orig>ногѣ</orig></choice>: «Совершенствуйся, старайся быть <choice><reg>совершенным</reg><orig>совершеннымъ</orig></choice>, <choice><reg>как</reg><orig>какъ</orig></choice><choice><reg>отец</reg><orig>отецъ</orig></choice><choice><reg>ваш</reg><orig>вашъ</orig></choice> небесный». (<choice><reg>Забыл</reg><orig>Забылъ</orig></choice> чтò еще.)</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v54_189_189_1903_08_20">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 20 августа 1903 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1903 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 54
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       54
+      </biblScope>
+      <biblScope unit="page">
+       189-189
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1903-08-20"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="e649acf2-c53e-4e8c-801d-f2265f94bc17">
+    <pb n="189"/>
+   </p>
+   <div n="v54_n211" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1903-08-20">
+       <hi>
+        20 Августа.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="50cd022c-b686-4d07-bea9-beae27a34271" rend="left">
+     Только нынче
+     <choice>
+      <reg>
+       кончил
+      </reg>
+      <orig>
+       кончилъ
+      </orig>
+     </choice>
+     сказки и не три, a
+     <choice>
+      <reg>
+       две
+      </reg>
+      <orig>
+       двѣ
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Недоволен
+      </reg>
+      <orig>
+       Недоволенъ
+      </orig>
+     </choice>
+     . За то «А вы говорите» недурно. Здоровье все хорошо. Нынче
+     <choice>
+      <reg>
+       еду
+      </reg>
+      <orig>
+       ѣду
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     Пирогово.
+    </p>
+    <p id="afea7a3a-87fc-4cca-9146-67ec6b5312c5" style="left">
+     Надо было записать кое что,
+     <choice>
+      <reg>
+       забыл
+      </reg>
+      <orig>
+       забылъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="2229a092-bd8c-45e2-b7ee-36f350296a38" style="left">
+     1) Пустяки. Когда
+     <choice>
+      <reg>
+       сам
+      </reg>
+      <orig>
+       самъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       забыл
+      </reg>
+      <orig>
+       забылъ
+      </orig>
+     </choice>
+     имя и спрашиваешь у
+     <choice>
+      <reg>
+       другого
+      </reg>
+      <orig>
+       другаго
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       этот
+      </reg>
+      <orig>
+       этотъ
+      </orig>
+     </choice>
+     другой заражается и тоже
+     <choice>
+      <reg>
+       забывает
+      </reg>
+      <orig>
+       забываетъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="80a32909-0283-4e4c-bed6-274c152a776b" style="left">
+     2) Научить жить, пока повернешься на одной
+     <choice>
+      <reg>
+       ноге
+      </reg>
+      <orig>
+       ногѣ
+      </orig>
+     </choice>
+     : «Совершенствуйся, старайся быть
+     <choice>
+      <reg>
+       совершенным
+      </reg>
+      <orig>
+       совершеннымъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       как
+      </reg>
+      <orig>
+       какъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       отец
+      </reg>
+      <orig>
+       отецъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       ваш
+      </reg>
+      <orig>
+       вашъ
+      </orig>
+     </choice>
+     небесный». (
+     <choice>
+      <reg>
+       Забыл
+      </reg>
+      <orig>
+       Забылъ
+      </orig>
+     </choice>
+     чтò еще.)
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

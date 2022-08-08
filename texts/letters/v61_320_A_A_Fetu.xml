@@ -1,81 +1,135 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v61_320_A_A_Fetu">Письма и документы. Tolstoy Digital</title>
-        <title type="main">Письмо А. А. Фету с 1 января 1863 г. по 31 декабря 1870 г.</title>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Л.Н.</author>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 61</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1953"/>
-            </imprint>
-            <biblScope unit="vol">61</biblScope>
-            <biblScope unit="page">246-246</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-          </series>
-        </biblStruct>
-        <bibl>Публикуется впервые</bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <correspDesc>
-        <correspAction type="sending">
-          <persName ref="13883">Л. Н. Толстой</persName>
-          <placeName>Ясная Поляна</placeName>
-          <date notBefore="1863-01-01" notAfter="1870-12-31"/>
-        </correspAction>
-        <correspAction type="receiving">
-          <persName ref="14499">Фет Афанасий Афанасьевич (Шеншин)</persName>
-        </correspAction>
-      </correspDesc>
-      <langUsage>
-        <language ident="ru"/>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-  <xenoData>
-    <number type="in a volume">320</number>
-  </xenoData>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="A__A__Fetu_320">
-    <body>
-      <div>
-        <pb n="246"/>
-        <opener index="false">* 320. А. А. Фету.1863…1870 гг. Я. П.?</opener>
-        <p id="43eeee3d-0099-4afa-b0e3-52c6915214eb" rend="left">Любезный друг Афанасий Афанасьевич. Мы, в особенности Соня, в отчаянии, что вы с Иван Петровичем только подразнили ее и меня. Она была в кофточке и только побежала накинуть халат, как услыхала звук отъезжающего экипажа. Я же в то утро вернулся из Москвы. Нескоро дождешься таких дорогих гостей. Ради бога, заезжайте вы и Иван Петрович назад, мне так радостно и нужно вас видеть обоих. А ежели вы не заедете, я убью Алексея,<note xml:id="note1" resp="volume_editor" index="false"> А. С. Орехов — слуга Толстого.</note> который всё переврал и так отпустил вас. Ничего не пишу, потому что уверен, что увижу вас. —</p>
-        <p id="08bd291d-c726-4954-b978-ad88d872aeb0" rend="right">Л. Толстой.</p>
-        <comments>
-          <p id="52e35271-65f7-4c99-8feb-46782fd898e2" rend="Textpetit_otstup left">Основание датировки: письмо написано в промежуток между первым годом женитьбы Толстого (1863) и последним годом жизни упоминаемого в письме И. П. Борисова (ум. в начале мая 1871 г.).</p>
-        </comments>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v61_320_A_A_Fetu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо А. А. Фету с 1 января 1863 г. по 31 декабря 1870 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 61
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="vol">
+       61
+      </biblScope>
+      <biblScope unit="page">
+       246-246
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Ясная Поляна
+     </placeName>
+     <date notAfter="1870-12-31" notBefore="1863-01-01"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="14499">
+      Фет Афанасий Афанасьевич (Шеншин)
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   320
+  </number>
+ </xenoData>
+ <text xml:id="A__A__Fetu_320" xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <div>
+    <pb n="246"/>
+    <opener index="false">
+     * 320. А. А. Фету.1863…1870 гг. Я. П.?
+    </opener>
+    <p id="43eeee3d-0099-4afa-b0e3-52c6915214eb" rend="left">
+     Любезный друг Афанасий Афанасьевич. Мы, в особенности Соня, в отчаянии, что вы с Иван Петровичем только подразнили ее и меня. Она была в кофточке и только побежала накинуть халат, как услыхала звук отъезжающего экипажа. Я же в то утро вернулся из Москвы. Нескоро дождешься таких дорогих гостей. Ради бога, заезжайте вы и Иван Петрович назад, мне так радостно и нужно вас видеть обоих. А ежели вы не заедете, я убью Алексея,
+     <note index="false" resp="volume_editor" xml:id="note1">
+      А. С. Орехов — слуга Толстого.
+     </note>
+     который всё переврал и так отпустил вас. Ничего не пишу, потому что уверен, что увижу вас. —
+    </p>
+    <p id="08bd291d-c726-4954-b978-ad88d872aeb0" rend="right">
+     Л. Толстой.
+    </p>
+    <comments>
+     <p id="52e35271-65f7-4c99-8feb-46782fd898e2" rend="Textpetit_otstup left">
+      Основание датировки: письмо написано в промежуток между первым годом женитьбы Толстого (1863) и последним годом жизни упоминаемого в письме И. П. Борисова (ум. в начале мая 1871 г.).
+     </p>
+    </comments>
+   </div>
+  </body>
+ </text>
 </TEI>

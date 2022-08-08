@@ -1,90 +1,147 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v52_038_038_1891_06_08_2">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 8 июня 1891 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1891 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 52</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">52</biblScope>
-            <biblScope unit="page">38-38</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1891-06-08"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="110b65bd-f959-4116-9a2d-324bd46c13f0">
-        <pb n="38"/>
-      </p>
-      <div n="v52_n68" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1891-06-08">
-              <hi>[8 июня.]</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="2781a488-0e4f-40a6-8e3b-d329e7a1a097" rend="left"> К предисловию о вегетарианстве ἐγκρατεία<note exclude="true" resp="volume_editor" xml:id="note57"><choice original_editorial_correction="[воздержание]"><sic/><corr>воздержание</corr></choice></note> и замечание Лихтенберга о развитии умеренности в детях.</p>
-        <p id="2781a488-0e4f-40a6-8e3b-d329e7a1a097" style="left">Приехали сыновья и вечером разговор о дележе. «Завтрак у предводителя». И не хороши были. Не ссорились, но приписывают важность столь пустому. Читал книгу душеспасительную Машинькину. Не дурно. Допускает, требует борьбы, говорит: когда уж возобладала страсть, все-таки не сдавайся.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v52_038_038_1891_06_08_2">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 8 июня 1891 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1891 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 52
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       52
+      </biblScope>
+      <biblScope unit="page">
+       38-38
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1891-06-08"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="110b65bd-f959-4116-9a2d-324bd46c13f0">
+    <pb n="38"/>
+   </p>
+   <div n="v52_n68" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1891-06-08">
+       <hi>
+        [8 июня.]
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="2781a488-0e4f-40a6-8e3b-d329e7a1a097" rend="left">
+     К предисловию о вегетарианстве ἐγκρατεία
+     <note exclude="true" resp="volume_editor" xml:id="note57">
+      <choice original_editorial_correction="[воздержание]">
+       <sic/>
+       <corr>
+        воздержание
+       </corr>
+      </choice>
+     </note>
+     и замечание Лихтенберга о развитии умеренности в детях.
+    </p>
+    <p id="2781a488-0e4f-40a6-8e3b-d329e7a1a097" style="left">
+     Приехали сыновья и вечером разговор о дележе. «Завтрак у предводителя». И не хороши были. Не ссорились, но приписывают важность столь пустому. Читал книгу душеспасительную Машинькину. Не дурно. Допускает, требует борьбы, говорит: когда уж возобладала страсть, все-таки не сдавайся.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

@@ -1,89 +1,288 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v47_020_020_1854_08_04">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 4 августа 1854 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1854 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 47</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">47</biblScope>
-            <biblScope unit="page">20-20</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1854-08-04"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="039e9026-bd6d-4bac-afa2-aae2a1a9805c">
-        <pb n="20"/>
-      </p>
-      <div n="v47_n40" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1854-08-04">
-              <hi>4 Августа.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="33c7e1d5-b193-45c3-b5fd-ebc07e80eeb0" rend="left"> Утро <choice><reg>писал</reg><orig>писалъ</orig></choice> и <choice><reg>вел</reg><orig>велъ</orig></choice> себя хорошо. За <choice><reg>обедом</reg><orig>обѣдомъ</orig></choice><choice><reg>Ольхин</reg><orig>Ольхинъ</orig></choice><choice><reg>привел</reg><orig>привелъ</orig></choice><choice><reg>голодного</reg><orig>голоднаго</orig></choice> офицера. <choice><reg>После</reg><orig>Послѣ</orig></choice><choice><reg>обеда</reg><orig>обѣда</orig></choice> ничего не <choice><reg>делал</reg><orig>дѣлалъ</orig></choice>. У <choice original_editorial_correction="Невережс[каго]"><sic>Невережс</sic><corr><choice><reg>Невережского</reg><orig>Невережскаго</orig></choice></corr></choice><choice><reg>взял</reg><orig>взялъ</orig></choice><choice><reg>денег</reg><orig>денегъ</orig></choice> и <choice><reg>купил</reg><orig>купилъ</orig></choice> у Олхина лошадь. — Упрекаю себя немного за <choice><reg>лень</reg><orig>лѣнь</orig></choice>, за <choice><reg>злословие</reg><orig>злословiе</orig></choice> и <choice><reg>спешные</reg><orig>спѣшныя</orig></choice><choice><reg>суждения</reg><orig>сужденiя</orig></choice>. (2)</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v47_020_020_1854_08_04">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 4 августа 1854 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1854 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 47
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       47
+      </biblScope>
+      <biblScope unit="page">
+       20-20
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1854-08-04"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="039e9026-bd6d-4bac-afa2-aae2a1a9805c">
+    <pb n="20"/>
+   </p>
+   <div n="v47_n40" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1854-08-04">
+       <hi>
+        4 Августа.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="33c7e1d5-b193-45c3-b5fd-ebc07e80eeb0" rend="left">
+     Утро
+     <choice>
+      <reg>
+       писал
+      </reg>
+      <orig>
+       писалъ
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       вел
+      </reg>
+      <orig>
+       велъ
+      </orig>
+     </choice>
+     себя хорошо. За
+     <choice>
+      <reg>
+       обедом
+      </reg>
+      <orig>
+       обѣдомъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Ольхин
+      </reg>
+      <orig>
+       Ольхинъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       привел
+      </reg>
+      <orig>
+       привелъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       голодного
+      </reg>
+      <orig>
+       голоднаго
+      </orig>
+     </choice>
+     офицера.
+     <choice>
+      <reg>
+       После
+      </reg>
+      <orig>
+       Послѣ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       обеда
+      </reg>
+      <orig>
+       обѣда
+      </orig>
+     </choice>
+     ничего не
+     <choice>
+      <reg>
+       делал
+      </reg>
+      <orig>
+       дѣлалъ
+      </orig>
+     </choice>
+     . У
+     <choice original_editorial_correction="Невережс[каго]">
+      <sic>
+       Невережс
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Невережского
+        </reg>
+        <orig>
+         Невережскаго
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       взял
+      </reg>
+      <orig>
+       взялъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       денег
+      </reg>
+      <orig>
+       денегъ
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       купил
+      </reg>
+      <orig>
+       купилъ
+      </orig>
+     </choice>
+     у Олхина лошадь. — Упрекаю себя немного за
+     <choice>
+      <reg>
+       лень
+      </reg>
+      <orig>
+       лѣнь
+      </orig>
+     </choice>
+     , за
+     <choice>
+      <reg>
+       злословие
+      </reg>
+      <orig>
+       злословiе
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       спешные
+      </reg>
+      <orig>
+       спѣшныя
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       суждения
+      </reg>
+      <orig>
+       сужденiя
+      </orig>
+     </choice>
+     . (2)
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

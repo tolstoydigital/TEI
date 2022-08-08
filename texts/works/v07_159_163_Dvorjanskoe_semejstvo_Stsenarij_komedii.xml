@@ -1,174 +1,4185 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v07_159_163_Dvorjanskoe_semejstvo_Stsenarij_komedii">[Сценарий комедии "Дворянское семейство"]. Tolstoy Digital</title>
-        <title type="main">Дворянское семейство</title>
-        <title type="sub">Сценарий комедии</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Сценарий комедии "Дворянское семейство"]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 7</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1936"/>
-            </imprint>
-            <biblScope unit="volume">7</biblScope>
-            <biblScope unit="page">159-163</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="works">
-            <catDesc>произведения</catDesc>
-          </category>
-          <category ana="publ">
-            <catDesc>опубликованное при жизни</catDesc>
-          </category>
-          <category ana="not_finished">
-            <catDesc>незаконченное, неотделанное, черновики</catDesc>
-          </category>
-          <category ana="fiction">
-            <catDesc>художественные произведения</catDesc>
-          </category>
-          <category ana="drama">
-            <catDesc>драматургия</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1856"/>
-      </creation>
-      <langUsage>
-        <language ident="ru"/>
-      </langUsage>
-      <textClass>
-        <catRef target="type" ana="works"/>
-        <catRef target="sphere" ana="fiction"/>
-        <catRef target="genre" ana="drama"/>
-        <catRef target="finished" ana="not_finished"/>
-        <catRef target="published" ana="publ"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <body>
-      <div type="section" xml:id="h000012019002">
-        <p id="9432c86f-b4f6-4b8a-a491-8af6b0761775">
-          <pb n="159"/>
-        </p>
-        <head rend="title_level2 center">[СЦЕНАРИЙ КОМЕДИИ «ДВОРЯНСКОЕ СЕМЕЙСТВО.»]</head>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_159_163_Dvorjanskoe_semejstvo_Stsenarij_komedii">
+     [Сценарий комедии "Дворянское семейство"]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дворянское семейство
+    </title>
+    <title type="sub">
+     Сценарий комедии
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Сценарий комедии "Дворянское семейство"]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       159-163
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="works">
+      <catDesc>
+       произведения
+      </catDesc>
+     </category>
+     <category ana="publ">
+      <catDesc>
+       опубликованное при жизни
+      </catDesc>
+     </category>
+     <category ana="not_finished">
+      <catDesc>
+       незаконченное, неотделанное, черновики
+      </catDesc>
+     </category>
+     <category ana="fiction">
+      <catDesc>
+       художественные произведения
+      </catDesc>
+     </category>
+     <category ana="drama">
+      <catDesc>
+       драматургия
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="works" target="type"/>
+    <catRef ana="fiction" target="sphere"/>
+    <catRef ana="drama" target="genre"/>
+    <catRef ana="not_finished" target="finished"/>
+    <catRef ana="publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <body>
+   <div type="section" xml:id="h000012019002">
+    <p id="9432c86f-b4f6-4b8a-a491-8af6b0761775">
+     <pb n="159"/>
+    </p>
+    <head rend="title_level2 center">
+     [СЦЕНАРИЙ КОМЕДИИ «ДВОРЯНСКОЕ СЕМЕЙСТВО.»]
+    </head>
+   </div>
+   <div type="section" xml:id="h000012019002001">
+    <head rend="title_level3 center">
+     ДѢЙСТВІЕ 1-е.
+    </head>
+    <p id="d23c0243-b0c0-4eb8-a998-edb7483325f0" rend="center">
+     Сцена 1-я.
+    </p>
+    <p id="1063fa8a-d963-45d9-ad04-70ebbe369165" rend="left">
+     Княгиня и Иванъ Ильичъ за чаемъ говорятъ о Князѣ и &lt;Валерьянѣ, о томъ, чтобы женить его&gt; Анатольѣ. Иванъ Ильичь сплетничаетъ на Наталью и Пашеньку и ожидаетъ, что имъ будетъ плохо.
+     <note n="n175">
+      <div type="section" xml:id="n175">
+       <head>
+        <ref target="#backn175">
+         175
+        </ref>
+       </head>
+       <p id="965d95e5-917b-4607-8cc3-b8d91e078e61" rend="left">
+        <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
+         <sic/>
+         <corr>
+          актриса, исполняющая главную роль в пьесе
+         </corr>
+        </choice>
+        .
+       </p>
       </div>
-      <div type="section" xml:id="h000012019002001">
-        <head rend="title_level3 center">ДѢЙСТВІЕ 1-е.</head>
-        <p rend="center" id="d23c0243-b0c0-4eb8-a998-edb7483325f0">Сцена 1-я.</p>
-        <p rend="left" id="1063fa8a-d963-45d9-ad04-70ebbe369165">Княгиня и Иванъ Ильичъ за чаемъ говорятъ о Князѣ и &lt;Валерьянѣ, о томъ, чтобы женить его&gt; Анатольѣ. Иванъ Ильичь сплетничаетъ на Наталью и Пашеньку и ожидаетъ, что имъ будетъ плохо.<note n="n175"><div type="section" xml:id="n175"><head><ref target="#backn175">175</ref></head><p rend="left" id="965d95e5-917b-4607-8cc3-b8d91e078e61"><choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]"><sic/><corr>актриса, исполняющая главную роль в пьесе</corr></choice>.</p></div></note></p>
-        <p rend="center" id="9c8c3f18-804c-4fb3-a029-423802071f54"><pb n="160"/> Сцена 2-я.</p>
-        <p rend="left" id="90537c38-1293-4ac9-8c15-6a6325e1b52c"><choice><reg>Входит</reg><orig>Входитъ</orig></choice><hi rend="italic">Князь</hi>, <choice><reg>бранит</reg><orig>бранитъ</orig></choice> сына за то, что его <choice><reg>нет</reg><orig>нѣтъ</orig></choice>, и <choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что никто не <choice><reg>пойдет</reg><orig>пойдетъ</orig></choice> за него.</p>
-        <p rend="center" id="c92dec4f-9515-41ce-a91f-ec1e8c3d79a8">Сцена 3-я.</p>
-        <p rend="left" id="492b6047-ba3d-4bc0-b2c1-40fee31a956b"><choice><reg>Входит</reg><orig>Входитъ</orig></choice><hi rend="italic">Володя &lt;<choice><reg>с</reg><orig>съ</orig></choice></hi><choice><reg>письмом</reg><orig>письмомъ</orig></choice><choice><reg>от</reg><orig>отъ</orig></choice><choice><reg>Анатолия</reg><orig>Анатолiя</orig></choice>&gt;. Князь восторженно <choice><reg>хвалит</reg><orig>хвалитъ</orig></choice> сына и заботится о его <choice><reg>помещении</reg><orig>помѣщенiи</orig></choice>; &lt;<choice><reg>потом</reg><orig>потомъ</orig></choice><choice><reg>говорит</reg><orig>говоритъ</orig></choice> о <choice><reg>Валерьяне</reg><orig>Валерьянѣ</orig></choice>, при <choice><reg>чем</reg><orig>чемъ</orig></choice> Володя <choice><reg>видит</reg><orig>видитъ</orig></choice><choice><reg>в</reg><orig>въ</orig></choice><choice><reg>нем</reg><orig>немъ</orig></choice> окончательно дурака и <choice><reg>рассказывает</reg><orig>разсказываетъ</orig></choice> про него, его <choice><reg>отношения</reg><orig>отношенiя</orig></choice><choice><reg>с</reg><orig>съ</orig></choice> мужиками&gt;.</p>
-        <p rend="center" id="786bbcb9-bab0-4797-ab50-60f8f6bcbe80">Сцена 4-я.</p>
-        <p rend="left" id="3359cd7e-ebbd-47f4-a183-97ec33cb1c21"><choice original_editorial_correction="Кня[гиня]"><sic>Кня</sic><corr>Княгиня</corr></choice><choice><reg>уходит</reg><orig>уходитъ</orig></choice>. Володя &lt;<choice><reg>скучен</reg><orig>скученъ</orig></choice>, <choice><reg>подозревает</reg><orig>подозрѣваетъ</orig></choice>&gt; <choice><reg>спрашивает</reg><orig>спрашиваетъ</orig></choice> приказанья. <choice original_editorial_correction="Ив[анъ]"><sic>Ив</sic><corr><choice><reg>Иван</reg><orig>Иванъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичъ]"><sic>Ил</sic><corr><choice><reg>Ильич</reg><orig>Ильичъ</orig></choice></corr></choice><choice><reg>сплетничает</reg><orig>сплетничаетъ</orig></choice> на Княгиню.</p>
-        <p rend="center" id="5df51653-1574-474e-88f3-21c5bb6b9484">Сцена 5-я.</p>
-        <p rend="left" id="333402bb-6c4e-41a1-a71e-05b0c78d33ad">Володя <choice><reg>с</reg><orig>съ</orig></choice><choice original_editorial_correction="Ив[аномъ]"><sic>Ив</sic><corr><choice><reg>Иваном</reg><orig>Иваномъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичемъ]"><sic>Ил</sic><corr><choice><reg>Ильичем</reg><orig>Ильичемъ</orig></choice></corr></choice>, подтрунивая <choice><reg>над</reg><orig>надъ</orig></choice><choice><reg>ним</reg><orig>нимъ</orig></choice>, <choice><reg>уходят</reg><orig>уходятъ</orig></choice> ставить шары, Князь &lt;<choice><reg>один</reg><orig>одинъ</orig></choice>, злится на жену, на сына, на <choice><reg>мужиков</reg><orig>мужиковъ</orig></choice>, на Володю даже&gt; — <choice><reg>скучает</reg><orig>скучаетъ</orig></choice>, <choice><reg>один</reg><orig>одинъ</orig></choice> Володя и <choice original_editorial_correction="Нат[алья]"><sic>Нат</sic><corr>Наталья</corr></choice><choice><reg>хорошие</reg><orig>хорошiе</orig></choice> люди.</p>
-        <p rend="center" id="1af35d5c-ddfa-473e-bf98-676ca361ae29">Сцена 6-я.</p>
-        <p rend="left" id="85e1d903-30b5-4454-b81a-309463e89ef9"><choice><reg>Входит</reg><orig>Входитъ</orig></choice> Пашенька. Князь <choice><reg>щупает</reg><orig>щупаетъ</orig></choice> ее. Она <choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что у него есть жена и <choice original_editorial_correction="Натал[ья]"><sic>Натал</sic><corr>Наталья</corr></choice>.</p>
-        <p rend="center" id="74a220bf-cffb-4a8b-bb5a-c882c315c3fc">Сцена 7-я.</p>
-        <p rend="left" id="51f54b79-c8e6-4d79-ba25-76bb4a2083e4">(<choice><reg>Входит</reg><orig>Входитъ</orig></choice><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice><choice><reg>незамеченным</reg><orig>незамѣченнымъ</orig></choice>.) <choice><reg>Отец</reg><orig>Отецъ</orig></choice><choice><reg>замечает</reg><orig>замѣчаетъ</orig></choice> его и &lt;принимается бранить&gt; кротко <choice><reg>делает</reg><orig>дѣлаетъ</orig></choice><choice><reg>наставления</reg><orig>наставленiя</orig></choice>. <choice original_editorial_correction="В[а- лерьянъ]"><sic>В</sic><corr>Ва- <choice><reg>лерьян</reg><orig>лерьянъ</orig></choice></corr></choice> &lt;<choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что <choice><reg>отец</reg><orig>отецъ</orig></choice> его не <choice><reg>может</reg><orig>можетъ</orig></choice> понять&gt;. <choice><reg>Разговор</reg><orig>Разговоръ</orig></choice> о <choice><reg>новом</reg><orig>новомъ</orig></choice><choice><reg>веке</reg><orig>вѣкѣ</orig></choice>. Князь <choice><reg>уходит</reg><orig>уходитъ</orig></choice>.</p>
-        <p rend="center" id="1697ef03-f2fc-4bff-805c-77afed608796">Сцена 8-я.</p>
-        <p rend="left" id="8a8d7451-3633-45fe-a03a-2329ac124f4a"><choice original_editorial_correction="Валер[ьянъ]"><sic>Валер</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice><choice><reg>один</reg><orig>одинъ</orig></choice>, <choice><reg>тоскует</reg><orig>тоскуетъ</orig></choice>, <choice><reg>осуждает</reg><orig>осуждаетъ</orig></choice><choice><reg>всех</reg><orig>всѣхъ</orig></choice> и себя, <choice><reg>ждет</reg><orig>ждетъ</orig></choice><choice><reg>с</reg><orig>съ</orig></choice> жадностью брата, <choice original_editorial_correction="к[отораго]"><sic>к</sic><corr><choice><reg>которого</reg><orig>котораго</orig></choice></corr></choice><choice><reg>он</reg><orig>онъ</orig></choice> не <choice><reg>видал</reg><orig>видалъ</orig></choice> 15 <choice><reg>лет</reg><orig>лѣтъ</orig></choice>.</p>
-        <p rend="center" id="e83bc295-f1c4-4580-b524-9e4301aee0a6">Сцена 9-я.</p>
-        <p rend="left" id="ed79c876-95a1-4e4e-b368-e4c698400959"><hi rend="italic"><choice original_editorial_correction="К[нягиня]"><sic>К</sic><corr>Княгиня</corr></choice> возвращается <choice><reg>с</reg><orig>съ</orig></choice> Лёлей</hi>, которая только что <choice><reg>приехала</reg><orig>прiѣхала</orig></choice>. <choice original_editorial_correction="Вал[ерьянъ]"><sic>Вал</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice><choice><reg>возмущен</reg><orig>возмущенъ</orig></choice> и <choice><reg>говорит</reg><orig>говоритъ</orig></choice><choice><reg>Лёле</reg><orig>Лёлѣ</orig></choice>, почему <choice><reg>он</reg><orig>онъ</orig></choice> ее не <choice><reg>может</reg><orig>можетъ</orig></choice> любить. Лёля <choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что и она его не очень <choice><reg>любит</reg><orig>любитъ</orig></choice> и этому очень рада. <choice original_editorial_correction="К[нягин]я"><sic>Кя</sic><corr>Княгиня</corr></choice> и <choice original_editorial_correction="Л[ёля]"><sic>Л</sic><corr>Лёля</corr></choice><choice><reg>уходят</reg><orig>уходятъ</orig></choice>.</p>
-        <p rend="center" id="bb2340b9-28be-4139-a178-6884ce1907e0">Сцена 10-я.</p>
-        <p rend="left" id="163f1bf0-ebdb-4349-a496-10871e0f1fb1"><choice original_editorial_correction="Ив[анъ]"><sic>Ив</sic><corr><choice><reg>Иван</reg><orig>Иванъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичъ]"><sic>Ил</sic><corr><choice><reg>Ильич</reg><orig>Ильичъ</orig></choice></corr></choice><choice><reg>входит</reg><orig>входитъ</orig></choice>. <choice original_editorial_correction="Вал[ерьянъ]"><sic>Вал</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice><choice><reg>рассказывает</reg><orig>разсказываетъ</orig></choice> ему свою печаль, <choice><reg>историю</reg><orig>исторiю</orig></choice><choice><reg>с</reg><orig>съ</orig></choice> бабами. <choice original_editorial_correction="Ив[анъ]"><sic>Ив</sic><corr><choice><reg>Иван</reg><orig>Иванъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичъ]"><sic>Ил</sic><corr><choice><reg>Ильич</reg><orig>Ильичъ</orig></choice></corr></choice> не <choice><reg>понимает</reg><orig>понимаетъ</orig></choice> и <choice><reg>замечаниями</reg><orig>замѣчанiями</orig></choice><choice><reg>оскорбляет</reg><orig>оскорбляетъ</orig></choice> его, — <choice><reg>уходят</reg><orig>уходятъ</orig></choice>.<note n="n176"><div type="section" xml:id="n176"><head><ref target="#backn176">176</ref></head><p rend="left" id="b75e2e6e-0c1b-41d4-b549-e3431e4cc962"><choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]"><sic/><corr>актриса, исполняющая главную роль в пьесе</corr></choice>.</p></div></note></p>
-        <p rend="center" id="7c28056f-5d28-40af-8b65-f01e9a6d9976"><pb n="161"/> Сцена 11-я.</p>
-        <p rend="left" id="547aaa5a-d0fe-4d94-adfb-01949a03631f"><choice><reg>Входит</reg><orig>Входитъ</orig></choice><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice><choice><reg>с</reg><orig>съ</orig></choice><choice original_editorial_correction="Ив[аномъ]"><sic>Ив</sic><corr><choice><reg>Иваном</reg><orig>Иваномъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичемъ]"><sic>Ил</sic><corr><choice><reg>Ильичем</reg><orig>Ильичемъ</orig></choice></corr></choice>. &lt;<choice original_editorial_correction="Вал[ерьянъ]"><sic>Вал</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice><choice><reg>счастлив</reg><orig>счастливъ</orig></choice>, откровенность его <choice><reg>оскорбляет</reg><orig>оскорбляетъ</orig></choice> брата.&gt; <choice original_editorial_correction="Ив[анъ]"><sic>Ив</sic><corr><choice><reg>Иван</reg><orig>Иванъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичъ]"><sic>Ил</sic><corr><choice><reg>Ильич</reg><orig>Ильичъ</orig></choice></corr></choice><choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что есть богатая <choice><reg>невеста</reg><orig>невѣста</orig></choice>. <choice original_editorial_correction="Ан[атолій]"><sic>Ан</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что <choice><reg>приехал</reg><orig>прiѣхалъ</orig></choice> за деньгами. &lt;<choice original_editorial_correction="Вал[ерьяну]"><sic>Вал</sic><corr>Валерьяну</corr></choice> кажется, что <choice><reg>таким</reg><orig>такимъ</orig></choice> и надо быть.&gt;</p>
-        <p rend="center" id="d38c0cc9-1690-4643-9f7a-e3d25dd4ce89">Сцена 12-я.</p>
-        <p rend="left" id="48cc3f38-f1ae-48ea-8074-dc06867a73f6"><choice><reg>Входят</reg><orig>Входятъ</orig></choice><choice original_editorial_correction="К[нязь]"><sic>К</sic><corr>Князь</corr></choice>, <choice original_editorial_correction="К[нягин]я"><sic>Кя</sic><corr>Княгиня</corr></choice> и <choice original_editorial_correction="Л[ёля]"><sic>Л</sic><corr>Лёля</corr></choice>. Князь <choice><reg>спрашивает</reg><orig>спрашиваетъ</orig></choice> о <choice original_editorial_correction="П[етербургѣ]"><sic>П</sic><corr><choice><reg>Петербурге</reg><orig>Петербургѣ</orig></choice></corr></choice> и злится на <choice><reg>знакомых</reg><orig>знакомыхъ</orig></choice> и <choice original_editorial_correction="совѣт[уетъ]"><sic>совѣт</sic><corr><choice><reg>советует</reg><orig>совѣтуетъ</orig></choice></corr></choice><choice original_editorial_correction="А[натолію]"><sic>А</sic><corr><choice><reg>Анатолию</reg><orig>Анатолiю</orig></choice></corr></choice> заняться <choice><reg>делами</reg><orig>дѣлами</orig></choice>. <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice original_editorial_correction="К[нягин]ю"><sic>Кю</sic><corr>Княгиню</corr></choice><choice><reg>третирует</reg><orig>третируетъ</orig></choice> свысока и Лёлю — тоже и <choice><reg>оскорбляет</reg><orig>оскорбляетъ</orig></choice><choice original_editorial_correction="Ив[ана]"><sic>Ив</sic><corr>Ивана</corr></choice><choice original_editorial_correction="Ил[ьича]"><sic>Ил</sic><corr>Ильича</corr></choice>.</p>
-        <p rend="center" id="057d888e-0c43-4229-8532-a8361f76882f">Сцена 13-я.</p>
-        <p rend="left" id="ce9e074f-8f48-4733-8c11-9580c351ffd4"><choice original_editorial_correction="Вх[одятъ]"><sic>Вх</sic><corr><choice><reg>Входят</reg><orig>Входятъ</orig></choice></corr></choice><choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice> и <choice original_editorial_correction="Н[аталья]"><sic>Н</sic><corr>Наталья</corr></choice>, они подобострастны, боятся за себя, <choice original_editorial_correction="Анат[олій]"><sic>Анат</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>пугает</reg><orig>пугаетъ</orig></choice><choice><reg>их</reg><orig>ихъ</orig></choice> и книгами, и Князь <choice><reg>переходит</reg><orig>переходитъ</orig></choice> на его сторону. <choice><reg>Все</reg><orig>Всѣ</orig></choice><choice><reg>уходят</reg><orig>уходятъ</orig></choice>.</p>
-        <p rend="center" id="434e0fa4-399c-4155-8c10-df49c8492f34">Сцена 14-я.</p>
-        <p rend="left" id="9dc93b37-ee1a-4dae-9399-67dfe8adf9dd"><choice original_editorial_correction="Анат[олій]"><sic>Анат</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>один</reg><orig>одинъ</orig></choice>, <choice><reg>входит</reg><orig>входитъ</orig></choice><choice original_editorial_correction="Вал[ерьянъ]"><sic>Вал</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice>, сцена откровенности и раздора. <choice><reg>Отчаяние</reg><orig>Отчаянiе</orig></choice> Валерьяна.</p>
+     </note>
+    </p>
+    <p id="9c8c3f18-804c-4fb3-a029-423802071f54" rend="center">
+     <pb n="160"/>
+     Сцена 2-я.
+    </p>
+    <p id="90537c38-1293-4ac9-8c15-6a6325e1b52c" rend="left">
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     <hi rend="italic">
+      Князь
+     </hi>
+     ,
+     <choice>
+      <reg>
+       бранит
+      </reg>
+      <orig>
+       бранитъ
+      </orig>
+     </choice>
+     сына за то, что его
+     <choice>
+      <reg>
+       нет
+      </reg>
+      <orig>
+       нѣтъ
+      </orig>
+     </choice>
+     , и
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что никто не
+     <choice>
+      <reg>
+       пойдет
+      </reg>
+      <orig>
+       пойдетъ
+      </orig>
+     </choice>
+     за него.
+    </p>
+    <p id="c92dec4f-9515-41ce-a91f-ec1e8c3d79a8" rend="center">
+     Сцена 3-я.
+    </p>
+    <p id="492b6047-ba3d-4bc0-b2c1-40fee31a956b" rend="left">
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     <hi rend="italic">
+      Володя &lt;
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+     </hi>
+     <choice>
+      <reg>
+       письмом
+      </reg>
+      <orig>
+       письмомъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       от
+      </reg>
+      <orig>
+       отъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Анатолия
+      </reg>
+      <orig>
+       Анатолiя
+      </orig>
+     </choice>
+     &gt;. Князь восторженно
+     <choice>
+      <reg>
+       хвалит
+      </reg>
+      <orig>
+       хвалитъ
+      </orig>
+     </choice>
+     сына и заботится о его
+     <choice>
+      <reg>
+       помещении
+      </reg>
+      <orig>
+       помѣщенiи
+      </orig>
+     </choice>
+     ; &lt;
+     <choice>
+      <reg>
+       потом
+      </reg>
+      <orig>
+       потомъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     о
+     <choice>
+      <reg>
+       Валерьяне
+      </reg>
+      <orig>
+       Валерьянѣ
+      </orig>
+     </choice>
+     , при
+     <choice>
+      <reg>
+       чем
+      </reg>
+      <orig>
+       чемъ
+      </orig>
+     </choice>
+     Володя
+     <choice>
+      <reg>
+       видит
+      </reg>
+      <orig>
+       видитъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       нем
+      </reg>
+      <orig>
+       немъ
+      </orig>
+     </choice>
+     окончательно дурака и
+     <choice>
+      <reg>
+       рассказывает
+      </reg>
+      <orig>
+       разсказываетъ
+      </orig>
+     </choice>
+     про него, его
+     <choice>
+      <reg>
+       отношения
+      </reg>
+      <orig>
+       отношенiя
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     мужиками&gt;.
+    </p>
+    <p id="786bbcb9-bab0-4797-ab50-60f8f6bcbe80" rend="center">
+     Сцена 4-я.
+    </p>
+    <p id="3359cd7e-ebbd-47f4-a183-97ec33cb1c21" rend="left">
+     <choice original_editorial_correction="Кня[гиня]">
+      <sic>
+       Кня
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       уходит
+      </reg>
+      <orig>
+       уходитъ
+      </orig>
+     </choice>
+     . Володя &lt;
+     <choice>
+      <reg>
+       скучен
+      </reg>
+      <orig>
+       скученъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       подозревает
+      </reg>
+      <orig>
+       подозрѣваетъ
+      </orig>
+     </choice>
+     &gt;
+     <choice>
+      <reg>
+       спрашивает
+      </reg>
+      <orig>
+       спрашиваетъ
+      </orig>
+     </choice>
+     приказанья.
+     <choice original_editorial_correction="Ив[анъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иван
+        </reg>
+        <orig>
+         Иванъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильич
+        </reg>
+        <orig>
+         Ильичъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       сплетничает
+      </reg>
+      <orig>
+       сплетничаетъ
+      </orig>
+     </choice>
+     на Княгиню.
+    </p>
+    <p id="5df51653-1574-474e-88f3-21c5bb6b9484" rend="center">
+     Сцена 5-я.
+    </p>
+    <p id="333402bb-6c4e-41a1-a71e-05b0c78d33ad" rend="left">
+     Володя
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Ив[аномъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иваном
+        </reg>
+        <orig>
+         Иваномъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичемъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильичем
+        </reg>
+        <orig>
+         Ильичемъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     , подтрунивая
+     <choice>
+      <reg>
+       над
+      </reg>
+      <orig>
+       надъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       ним
+      </reg>
+      <orig>
+       нимъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       уходят
+      </reg>
+      <orig>
+       уходятъ
+      </orig>
+     </choice>
+     ставить шары, Князь &lt;
+     <choice>
+      <reg>
+       один
+      </reg>
+      <orig>
+       одинъ
+      </orig>
+     </choice>
+     , злится на жену, на сына, на
+     <choice>
+      <reg>
+       мужиков
+      </reg>
+      <orig>
+       мужиковъ
+      </orig>
+     </choice>
+     , на Володю даже&gt; —
+     <choice>
+      <reg>
+       скучает
+      </reg>
+      <orig>
+       скучаетъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       один
+      </reg>
+      <orig>
+       одинъ
+      </orig>
+     </choice>
+     Володя и
+     <choice original_editorial_correction="Нат[алья]">
+      <sic>
+       Нат
+      </sic>
+      <corr>
+       Наталья
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       хорошие
+      </reg>
+      <orig>
+       хорошiе
+      </orig>
+     </choice>
+     люди.
+    </p>
+    <p id="1af35d5c-ddfa-473e-bf98-676ca361ae29" rend="center">
+     Сцена 6-я.
+    </p>
+    <p id="85e1d903-30b5-4454-b81a-309463e89ef9" rend="left">
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     Пашенька. Князь
+     <choice>
+      <reg>
+       щупает
+      </reg>
+      <orig>
+       щупаетъ
+      </orig>
+     </choice>
+     ее. Она
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что у него есть жена и
+     <choice original_editorial_correction="Натал[ья]">
+      <sic>
+       Натал
+      </sic>
+      <corr>
+       Наталья
+      </corr>
+     </choice>
+     .
+    </p>
+    <p id="74a220bf-cffb-4a8b-bb5a-c882c315c3fc" rend="center">
+     Сцена 7-я.
+    </p>
+    <p id="51f54b79-c8e6-4d79-ba25-76bb4a2083e4" rend="left">
+     (
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Валерьян
+      </reg>
+      <orig>
+       Валерьянъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       незамеченным
+      </reg>
+      <orig>
+       незамѣченнымъ
+      </orig>
+     </choice>
+     .)
+     <choice>
+      <reg>
+       Отец
+      </reg>
+      <orig>
+       Отецъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       замечает
+      </reg>
+      <orig>
+       замѣчаетъ
+      </orig>
+     </choice>
+     его и &lt;принимается бранить&gt; кротко
+     <choice>
+      <reg>
+       делает
+      </reg>
+      <orig>
+       дѣлаетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       наставления
+      </reg>
+      <orig>
+       наставленiя
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="В[а- лерьянъ]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Ва-
+       <choice>
+        <reg>
+         лерьян
+        </reg>
+        <orig>
+         лерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     &lt;
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что
+     <choice>
+      <reg>
+       отец
+      </reg>
+      <orig>
+       отецъ
+      </orig>
+     </choice>
+     его не
+     <choice>
+      <reg>
+       может
+      </reg>
+      <orig>
+       можетъ
+      </orig>
+     </choice>
+     понять&gt;.
+     <choice>
+      <reg>
+       Разговор
+      </reg>
+      <orig>
+       Разговоръ
+      </orig>
+     </choice>
+     о
+     <choice>
+      <reg>
+       новом
+      </reg>
+      <orig>
+       новомъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       веке
+      </reg>
+      <orig>
+       вѣкѣ
+      </orig>
+     </choice>
+     . Князь
+     <choice>
+      <reg>
+       уходит
+      </reg>
+      <orig>
+       уходитъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="1697ef03-f2fc-4bff-805c-77afed608796" rend="center">
+     Сцена 8-я.
+    </p>
+    <p id="8a8d7451-3633-45fe-a03a-2329ac124f4a" rend="left">
+     <choice original_editorial_correction="Валер[ьянъ]">
+      <sic>
+       Валер
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       один
+      </reg>
+      <orig>
+       одинъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       тоскует
+      </reg>
+      <orig>
+       тоскуетъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       осуждает
+      </reg>
+      <orig>
+       осуждаетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       всех
+      </reg>
+      <orig>
+       всѣхъ
+      </orig>
+     </choice>
+     и себя,
+     <choice>
+      <reg>
+       ждет
+      </reg>
+      <orig>
+       ждетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     жадностью брата,
+     <choice original_editorial_correction="к[отораго]">
+      <sic>
+       к
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         которого
+        </reg>
+        <orig>
+         котораго
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       он
+      </reg>
+      <orig>
+       онъ
+      </orig>
+     </choice>
+     не
+     <choice>
+      <reg>
+       видал
+      </reg>
+      <orig>
+       видалъ
+      </orig>
+     </choice>
+     15
+     <choice>
+      <reg>
+       лет
+      </reg>
+      <orig>
+       лѣтъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="e83bc295-f1c4-4580-b524-9e4301aee0a6" rend="center">
+     Сцена 9-я.
+    </p>
+    <p id="ed79c876-95a1-4e4e-b368-e4c698400959" rend="left">
+     <hi rend="italic">
+      <choice original_editorial_correction="К[нягиня]">
+       <sic>
+        К
+       </sic>
+       <corr>
+        Княгиня
+       </corr>
+      </choice>
+      возвращается
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      Лёлей
+     </hi>
+     , которая только что
+     <choice>
+      <reg>
+       приехала
+      </reg>
+      <orig>
+       прiѣхала
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="Вал[ерьянъ]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       возмущен
+      </reg>
+      <orig>
+       возмущенъ
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Лёле
+      </reg>
+      <orig>
+       Лёлѣ
+      </orig>
+     </choice>
+     , почему
+     <choice>
+      <reg>
+       он
+      </reg>
+      <orig>
+       онъ
+      </orig>
+     </choice>
+     ее не
+     <choice>
+      <reg>
+       может
+      </reg>
+      <orig>
+       можетъ
+      </orig>
+     </choice>
+     любить. Лёля
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что и она его не очень
+     <choice>
+      <reg>
+       любит
+      </reg>
+      <orig>
+       любитъ
+      </orig>
+     </choice>
+     и этому очень рада.
+     <choice original_editorial_correction="К[нягин]я">
+      <sic>
+       Кя
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     и
+     <choice original_editorial_correction="Л[ёля]">
+      <sic>
+       Л
+      </sic>
+      <corr>
+       Лёля
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       уходят
+      </reg>
+      <orig>
+       уходятъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="bb2340b9-28be-4139-a178-6884ce1907e0" rend="center">
+     Сцена 10-я.
+    </p>
+    <p id="163f1bf0-ebdb-4349-a496-10871e0f1fb1" rend="left">
+     <choice original_editorial_correction="Ив[анъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иван
+        </reg>
+        <orig>
+         Иванъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильич
+        </reg>
+        <orig>
+         Ильичъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       входит
+      </reg>
+      <orig>
+       входитъ
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="Вал[ерьянъ]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       рассказывает
+      </reg>
+      <orig>
+       разсказываетъ
+      </orig>
+     </choice>
+     ему свою печаль,
+     <choice>
+      <reg>
+       историю
+      </reg>
+      <orig>
+       исторiю
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     бабами.
+     <choice original_editorial_correction="Ив[анъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иван
+        </reg>
+        <orig>
+         Иванъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильич
+        </reg>
+        <orig>
+         Ильичъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     не
+     <choice>
+      <reg>
+       понимает
+      </reg>
+      <orig>
+       понимаетъ
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       замечаниями
+      </reg>
+      <orig>
+       замѣчанiями
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       оскорбляет
+      </reg>
+      <orig>
+       оскорбляетъ
+      </orig>
+     </choice>
+     его, —
+     <choice>
+      <reg>
+       уходят
+      </reg>
+      <orig>
+       уходятъ
+      </orig>
+     </choice>
+     .
+     <note n="n176">
+      <div type="section" xml:id="n176">
+       <head>
+        <ref target="#backn176">
+         176
+        </ref>
+       </head>
+       <p id="b75e2e6e-0c1b-41d4-b549-e3431e4cc962" rend="left">
+        <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
+         <sic/>
+         <corr>
+          актриса, исполняющая главную роль в пьесе
+         </corr>
+        </choice>
+        .
+       </p>
       </div>
-      <div type="section" xml:id="h000012019002002">
-        <head rend="title_level3 center"><choice><reg>ДЕЙСТВІЕ</reg><orig>ДѢЙСТВІЕ</orig></choice> 2-е. КОМНАТА ВОЛОДИ И КОНТОРА.</head>
-        <p rend="center" id="9c54c260-f85a-4845-bc1c-b2e4570c140e">Сцена 1.</p>
-        <p rend="left" id="aa114200-673e-4eb7-8cdb-85f368c06599"><choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice>, <choice original_editorial_correction="Н[аталья]"><sic>Н</sic><corr>Наталья</corr></choice>, Пашенька, служанка <choice><reg>обедают</reg><orig>обѣдаютъ</orig></choice>. — <choice original_editorial_correction="Разгов[оръ]"><sic>Разгов</sic><corr><choice><reg>Разговор</reg><orig>Разговоръ</orig></choice></corr></choice> о <choice><reg>молодом</reg><orig>молодомъ</orig></choice><choice><reg>барине</reg><orig>баринѣ</orig></choice>, о <choice><reg>старике</reg><orig>старикѣ</orig></choice>.</p>
-        <p rend="center" id="7728fa9b-d49e-464a-b534-c14251ed2900">Сцена 2-я.</p>
-        <p rend="left" id="c956d3b7-830f-450f-a206-2939205c86cc"><hi rend="italic">Бабы и мужики</hi><choice><reg>входят</reg><orig>входятъ</orig></choice>, кланяются <choice><reg>в</reg><orig>въ</orig></choice> ноги. <hi rend="italic">Пашенька</hi><choice><reg>просит</reg><orig>проситъ</orig></choice> за мужика прощенья и <choice><reg>шьет</reg><orig>шьетъ</orig></choice> по <choice><reg>канве</reg><orig>канвѣ</orig></choice>, <choice><reg>ждут</reg><orig>ждутъ</orig></choice> барина, <choice><reg>придет</reg><orig>придетъ</orig></choice><choice><reg>поверять</reg><orig>повѣрять</orig></choice> книги. <hi rend="italic"><choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice>, <choice original_editorial_correction="Н[аталья]"><sic>Н</sic><corr>Наталья</corr></choice> и мужики <choice><reg>уходят</reg><orig>уходятъ</orig></choice></hi>.<note n="n177"><div type="section" xml:id="n177"><head><ref target="#backn177">177</ref></head><p rend="left" id="1264bbc1-7bee-4b0c-9247-9cb77f2594d8"><choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]"><sic/><corr>актриса, исполняющая главную роль в пьесе</corr></choice>.</p></div></note></p>
-        <p rend="center" id="7ff77896-ede9-4932-be03-bff8ea16f32f">Сцена 3-я.</p>
-        <p rend="left" id="dc814007-06a5-4c94-be24-d2a5e6d73c2d">Пашенька одна, <choice><reg>рассуждает</reg><orig>разсуждаетъ</orig></choice>, что <choice><reg>беда</reg><orig>бѣда</orig></choice> хорошенькой быть, даже и <choice original_editorial_correction="Вал[ерьяна]"><sic>Вал</sic><corr>Валерьяна</corr></choice> она застала <choice><reg>раз</reg><orig>разъ</orig></choice> у двери, a <choice original_editorial_correction="Анат[олія]"><sic>Анат</sic><corr><choice><reg>Анатолия</reg><orig>Анатолiя</orig></choice></corr></choice><hi rend="italic">надо <choice><reg>раззадорит</reg><orig>раззадоритъ</orig></choice></hi>.</p>
-        <p rend="center" id="17703a19-a4a5-4bd2-a155-be8d2dd5f3c2">Сцена 4-я.</p>
-        <p rend="left" id="57e5ea05-acb2-41b9-bc09-897917385f20"><choice><reg>Входит</reg><orig>Входитъ</orig></choice><choice original_editorial_correction="Анат[олій]"><sic>Анат</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice>, <choice><reg>щупает</reg><orig>щупаетъ</orig></choice> ее.</p>
-        <p rend="center" id="527d19f4-da2c-4e22-b9bf-0133f27bdfb5">Сцена 5-я.</p>
-        <p rend="left" id="97d2b495-dc97-4072-af64-ee38e2588811"><choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice><choice><reg>входит</reg><orig>входитъ</orig></choice><choice><reg>с</reg><orig>съ</orig></choice> книгами, учтиво <choice><reg>насмешлив</reg><orig>насмѣшливъ</orig></choice>, но <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>практичен</reg><orig>практиченъ</orig></choice>. <choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice> попадается, <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>распекает</reg><orig>распекаетъ</orig></choice>, <choice><reg>стращает</reg><orig>стращаетъ</orig></choice> его. <choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice><choice><reg>подобострастен</reg><orig>подобострастенъ</orig></choice>. <choice original_editorial_correction="Нат[алья]"><sic>Нат</sic><corr>Наталья</corr></choice><choice original_editorial_correction="под[слу]шиваетъ"><sic>подшиваетъ</sic><corr><choice><reg>подслушивает</reg><orig>подслушиваетъ</orig></choice></corr></choice> — <choice><reg>вмешивается</reg><orig>вмѣшивается</orig></choice> и <choice><reg>дает</reg><orig>даетъ</orig></choice> чувствовать, что она <choice><reg>имеет</reg><orig>имѣетъ</orig></choice> власть. <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>уходит</reg><orig>уходитъ</orig></choice>.</p>
-        <p rend="center" id="6b9b21ab-6e9b-4f0e-a078-dfba2b70cd75"><pb n="162"/> Сцена 6-я.</p>
-        <p rend="left" id="38782001-3206-4962-a6e2-fb12f5a1c80d"><choice original_editorial_correction="Н[аталья]"><sic>Н</sic><corr>Наталья</corr></choice><choice><reg>негодует</reg><orig>негодуетъ</orig></choice>, <choice><reg>рассказывает</reg><orig>разсказываетъ</orig></choice> про векселя и свои права. &lt;<choice><reg>вот</reg><orig>вотъ</orig></choice> только умри <choice><reg>барин</reg><orig>баринъ</orig></choice>.&gt;</p>
-        <p rend="center" id="ca23e23b-32f0-446f-8940-5de65a418794">Сцена 7-я.</p>
-        <p rend="left" id="5002ab42-c037-48fb-9cea-840c22d6ba9d"><choice><reg>Перемена</reg><orig>Перемѣна</orig></choice><choice><reg>декорации</reg><orig>декорацiи</orig></choice> &lt;гостинная&gt;. <choice><reg>Кабинет</reg><orig>Кабинетъ</orig></choice> отца. &lt;<choice original_editorial_correction="К[нягин]я"><sic>Кя</sic><corr>Княгиня</corr></choice> и <choice original_editorial_correction="Вал[ерьянъ]"><sic>Вал</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice>. <choice original_editorial_correction="Вал[ерьянъ]"><sic>Вал</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice> не <choice><reg>отвечает</reg><orig>отвѣчаетъ</orig></choice> на вопросы. <choice original_editorial_correction="Кня[гиня]"><sic>Кня</sic><corr>Княгиня</corr></choice><choice><reg>уговаривает</reg><orig>уговариваетъ</orig></choice> его жениться. <choice original_editorial_correction="В[алерьянъ]"><sic>В</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice><choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что довольно <choice><reg>одного</reg><orig>однаго</orig></choice> такого урода, <choice><reg>как</reg><orig>какъ</orig></choice><choice><reg>он</reg><orig>онъ</orig></choice>, <choice original_editorial_correction="К[нягин]я"><sic>Кя</sic><corr>Княгиня</corr></choice> не <choice><reg>понимает</reg><orig>понимаетъ</orig></choice> его и <choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что она богата, <choice><reg>он</reg><orig>онъ</orig></choice><choice><reg>знает</reg><orig>знаетъ</orig></choice>.&gt; <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>рассказывает</reg><orig>разсказываетъ</orig></choice><choice original_editorial_correction="Кня[гинѣ]"><sic>Кня</sic><corr><choice><reg>Княгине</reg><orig>Княгинѣ</orig></choice></corr></choice> свои <choice original_editorial_correction="[дѣла]"><sic/><corr><choice><reg>дела</reg><orig>дѣла</orig></choice></corr></choice>. <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice original_editorial_correction="paзсказ[ываетъ]"><sic>paзсказ</sic><corr><choice><reg>paзсказывает</reg><orig>paзсказываетъ</orig></choice></corr></choice> про мошенничество Володи отцу, <choice><reg>отец</reg><orig>отецъ</orig></choice><choice original_editorial_correction="под[д]ается"><sic>подается</sic><corr>поддается</corr></choice>, <choice><reg>уходит</reg><orig>уходитъ</orig></choice>, <choice original_editorial_correction="В[алерьянъ]"><sic>В</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice><choice><reg>с</reg><orig>съ</orig></choice> Л[?] <choice><reg>приходят</reg><orig>приходятъ</orig></choice>.</p>
-        <p rend="center" id="35233a03-e205-4cf8-b145-fb02c9fca2f9">Сцена 8.</p>
-        <p rend="left" id="2bdc262b-f554-48bf-950f-7ae6ac41c4a1"><choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice> (прислуживается, <choice><reg>расспрашивает</reg><orig>разспрашиваетъ</orig></choice>) <choice><reg>трунит</reg><orig>трунитъ</orig></choice><choice><reg>над</reg><orig>надъ</orig></choice><choice><reg>братом</reg><orig>братомъ</orig></choice>, <choice original_editorial_correction="К[няги]ня"><sic>Кня</sic><corr>Княгиня</corr></choice><choice><reg>хохочет</reg><orig>хохочетъ</orig></choice> &lt;весело. <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>объясняет</reg><orig>объясняетъ</orig></choice> ей свое положенье весь <choice><reg>в</reg><orig>въ</orig></choice><choice><reg>долгах</reg><orig>долгахъ</orig></choice>, жена<choice><reg>в</reg><orig>въ</orig></choice><choice><reg>ужасе</reg><orig>ужасѣ</orig></choice>&gt;.</p>
-        <p rend="center" id="a9e0d75f-d8b8-4af6-90bd-81886b5f7a13">Сцена 9-я.</p>
-        <p rend="left" id="a4849283-537f-451a-975f-99978f7b39d1"><choice><reg>Входят</reg><orig>Входятъ</orig></choice><choice original_editorial_correction="К[нязь]"><sic>К</sic><corr>Князь</corr></choice><choice><reg>с</reg><orig>съ</orig></choice> Лёлей <choice><reg>с</reg><orig>съ</orig></choice><choice original_editorial_correction="Ив[аномъ]"><sic>Ив</sic><corr><choice><reg>Иваном</reg><orig>Иваномъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичемъ]"><sic>Ил</sic><corr><choice><reg>Ильичем</reg><orig>Ильичемъ</orig></choice></corr></choice><choice><reg>с</reg><orig>съ</orig></choice> гулянья. <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice> волочится и <choice><reg>сейчас</reg><orig>сейчасъ</orig></choice> же <choice><reg>успешно</reg><orig>успѣшно</orig></choice>. &lt;<choice original_editorial_correction="К[нягин]я"><sic>Кя</sic><corr>Княгиня</corr></choice><choice><reg>намекает</reg><orig>намекаетъ</orig></choice><choice original_editorial_correction="К[няз]ю"><sic>Кю</sic><corr>Князю</corr></choice><choice><reg>он</reg><orig>онъ</orig></choice> злится и <choice><reg>оскорбляет</reg><orig>оскорбляетъ</orig></choice> ее.&gt; <choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice><choice><reg>в</reg><orig>въ</orig></choice><choice><reg>отчаянии</reg><orig>отчаянiи</orig></choice>. (<choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>рассказывает</reg><orig>разсказываетъ</orig></choice> отцу о <choice><reg>беспорядке</reg><orig>безпорядкѣ</orig></choice>. <choice original_editorial_correction="В[aлерьянъ]"><sic>В</sic><corr><choice><reg>Вaлерьян</reg><orig>Вaлерьянъ</orig></choice></corr></choice><choice><reg>погиб</reg><orig>погибъ</orig></choice><choice><reg>уж</reg><orig>ужъ</orig></choice><choice><reg>в</reg><orig>въ</orig></choice><choice><reg>уме</reg><orig>умѣ</orig></choice> отца.) <choice><reg>Уходят</reg><orig>Уходятъ</orig></choice><choice><reg>все</reg><orig>всѣ</orig></choice><choice><reg>кроме</reg><orig>кромѣ</orig></choice> Старика.</p>
-        <p rend="center" id="f12d9df9-89b0-41bf-8738-575756639979">Сцена 9-я.</p>
-        <p rend="left" id="91dafe44-e6c8-4a2e-9e9c-e62f20e2a8f8"><choice><reg>Входит</reg><orig>Входитъ</orig></choice><hi rend="italic">Наталья</hi>, <choice><reg>начинает</reg><orig>начинаетъ</orig></choice> сплетничать &lt;и <choice><reg>рассказывать</reg><orig>разсказывать</orig></choice><choice><reg>как</reg><orig>какъ</orig></choice><choice original_editorial_correction="В[алерь]янъ"><sic>Вянъ</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice><choice><reg>честен</reg><orig>честенъ</orig></choice> и <choice><reg>отдал</reg><orig>отдалъ</orig></choice> свою теткину часть, тогда <choice><reg>как</reg><orig>какъ</orig></choice><choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>прожил</reg><orig>прожилъ</orig></choice> ее давно.&gt; <choice><reg>Старик</reg><orig>Старикъ</orig></choice><choice><reg>в</reg><orig>въ</orig></choice> негодованьи на <choice original_editorial_correction="А[натолія]"><sic>А</sic><corr><choice><reg>Анатолия</reg><orig>Анатолiя</orig></choice></corr></choice> — только за Паше </p>
-        <p rend="center" id="769d5387-316b-4c62-aa1c-7daa83926b2b">Сцена 10.</p>
-        <p rend="left" id="891bb6c4-cbb7-4baa-8bd0-61cdd35d61c0">&lt;<choice><reg>Входит</reg><orig>Входитъ</orig></choice><choice original_editorial_correction="Анат[олій]"><sic>Анат</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice>, <choice original_editorial_correction="К[няз]ь"><sic>Кь</sic><corr>Князь</corr></choice>. <choice original_editorial_correction="К[нягин]я"><sic>Кя</sic><corr>Княгиня</corr></choice><choice><reg>говорит</reg><orig>говоритъ</orig></choice> за сьна, Князь <choice><reg>ругает</reg><orig>ругаетъ</orig></choice> Анатолья.&gt;<note n="n178"><div type="section" xml:id="n178"><head><ref target="#backn178">178</ref></head><p rend="left" id="6d909b57-f8ab-4f0f-a350-0e7953162d48"><choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]"><sic/><corr>актриса, исполняющая главную роль в пьесе</corr></choice>.</p></div></note></p>
+     </note>
+    </p>
+    <p id="7c28056f-5d28-40af-8b65-f01e9a6d9976" rend="center">
+     <pb n="161"/>
+     Сцена 11-я.
+    </p>
+    <p id="547aaa5a-d0fe-4d94-adfb-01949a03631f" rend="left">
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Анатолий
+      </reg>
+      <orig>
+       Анатолiй
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Ив[аномъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иваном
+        </reg>
+        <orig>
+         Иваномъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичемъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильичем
+        </reg>
+        <orig>
+         Ильичемъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     . &lt;
+     <choice original_editorial_correction="Вал[ерьянъ]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       счастлив
+      </reg>
+      <orig>
+       счастливъ
+      </orig>
+     </choice>
+     , откровенность его
+     <choice>
+      <reg>
+       оскорбляет
+      </reg>
+      <orig>
+       оскорбляетъ
+      </orig>
+     </choice>
+     брата.&gt;
+     <choice original_editorial_correction="Ив[анъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иван
+        </reg>
+        <orig>
+         Иванъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильич
+        </reg>
+        <orig>
+         Ильичъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что есть богатая
+     <choice>
+      <reg>
+       невеста
+      </reg>
+      <orig>
+       невѣста
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="Ан[атолій]">
+      <sic>
+       Ан
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что
+     <choice>
+      <reg>
+       приехал
+      </reg>
+      <orig>
+       прiѣхалъ
+      </orig>
+     </choice>
+     за деньгами. &lt;
+     <choice original_editorial_correction="Вал[ерьяну]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       Валерьяну
+      </corr>
+     </choice>
+     кажется, что
+     <choice>
+      <reg>
+       таким
+      </reg>
+      <orig>
+       такимъ
+      </orig>
+     </choice>
+     и надо быть.&gt;
+    </p>
+    <p id="d38c0cc9-1690-4643-9f7a-e3d25dd4ce89" rend="center">
+     Сцена 12-я.
+    </p>
+    <p id="48cc3f38-f1ae-48ea-8074-dc06867a73f6" rend="left">
+     <choice>
+      <reg>
+       Входят
+      </reg>
+      <orig>
+       Входятъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="К[нязь]">
+      <sic>
+       К
+      </sic>
+      <corr>
+       Князь
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="К[нягин]я">
+      <sic>
+       Кя
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     и
+     <choice original_editorial_correction="Л[ёля]">
+      <sic>
+       Л
+      </sic>
+      <corr>
+       Лёля
+      </corr>
+     </choice>
+     . Князь
+     <choice>
+      <reg>
+       спрашивает
+      </reg>
+      <orig>
+       спрашиваетъ
+      </orig>
+     </choice>
+     о
+     <choice original_editorial_correction="П[етербургѣ]">
+      <sic>
+       П
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Петербурге
+        </reg>
+        <orig>
+         Петербургѣ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     и злится на
+     <choice>
+      <reg>
+       знакомых
+      </reg>
+      <orig>
+       знакомыхъ
+      </orig>
+     </choice>
+     и
+     <choice original_editorial_correction="совѣт[уетъ]">
+      <sic>
+       совѣт
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         советует
+        </reg>
+        <orig>
+         совѣтуетъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="А[натолію]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолию
+        </reg>
+        <orig>
+         Анатолiю
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     заняться
+     <choice>
+      <reg>
+       делами
+      </reg>
+      <orig>
+       дѣлами
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="К[нягин]ю">
+      <sic>
+       Кю
+      </sic>
+      <corr>
+       Княгиню
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       третирует
+      </reg>
+      <orig>
+       третируетъ
+      </orig>
+     </choice>
+     свысока и Лёлю — тоже и
+     <choice>
+      <reg>
+       оскорбляет
+      </reg>
+      <orig>
+       оскорбляетъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Ив[ана]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       Ивана
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьича]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       Ильича
+      </corr>
+     </choice>
+     .
+    </p>
+    <p id="057d888e-0c43-4229-8532-a8361f76882f" rend="center">
+     Сцена 13-я.
+    </p>
+    <p id="ce9e074f-8f48-4733-8c11-9580c351ffd4" rend="left">
+     <choice original_editorial_correction="Вх[одятъ]">
+      <sic>
+       Вх
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Входят
+        </reg>
+        <orig>
+         Входятъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="В[олодя]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Володя
+      </corr>
+     </choice>
+     и
+     <choice original_editorial_correction="Н[аталья]">
+      <sic>
+       Н
+      </sic>
+      <corr>
+       Наталья
+      </corr>
+     </choice>
+     , они подобострастны, боятся за себя,
+     <choice original_editorial_correction="Анат[олій]">
+      <sic>
+       Анат
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       пугает
+      </reg>
+      <orig>
+       пугаетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       их
+      </reg>
+      <orig>
+       ихъ
+      </orig>
+     </choice>
+     и книгами, и Князь
+     <choice>
+      <reg>
+       переходит
+      </reg>
+      <orig>
+       переходитъ
+      </orig>
+     </choice>
+     на его сторону.
+     <choice>
+      <reg>
+       Все
+      </reg>
+      <orig>
+       Всѣ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       уходят
+      </reg>
+      <orig>
+       уходятъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="434e0fa4-399c-4155-8c10-df49c8492f34" rend="center">
+     Сцена 14-я.
+    </p>
+    <p id="9dc93b37-ee1a-4dae-9399-67dfe8adf9dd" rend="left">
+     <choice original_editorial_correction="Анат[олій]">
+      <sic>
+       Анат
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       один
+      </reg>
+      <orig>
+       одинъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       входит
+      </reg>
+      <orig>
+       входитъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Вал[ерьянъ]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     , сцена откровенности и раздора.
+     <choice>
+      <reg>
+       Отчаяние
+      </reg>
+      <orig>
+       Отчаянiе
+      </orig>
+     </choice>
+     Валерьяна.
+    </p>
+   </div>
+   <div type="section" xml:id="h000012019002002">
+    <head rend="title_level3 center">
+     <choice>
+      <reg>
+       ДЕЙСТВІЕ
+      </reg>
+      <orig>
+       ДѢЙСТВІЕ
+      </orig>
+     </choice>
+     2-е. КОМНАТА ВОЛОДИ И КОНТОРА.
+    </head>
+    <p id="9c54c260-f85a-4845-bc1c-b2e4570c140e" rend="center">
+     Сцена 1.
+    </p>
+    <p id="aa114200-673e-4eb7-8cdb-85f368c06599" rend="left">
+     <choice original_editorial_correction="В[олодя]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Володя
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="Н[аталья]">
+      <sic>
+       Н
+      </sic>
+      <corr>
+       Наталья
+      </corr>
+     </choice>
+     , Пашенька, служанка
+     <choice>
+      <reg>
+       обедают
+      </reg>
+      <orig>
+       обѣдаютъ
+      </orig>
+     </choice>
+     . —
+     <choice original_editorial_correction="Разгов[оръ]">
+      <sic>
+       Разгов
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Разговор
+        </reg>
+        <orig>
+         Разговоръ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     о
+     <choice>
+      <reg>
+       молодом
+      </reg>
+      <orig>
+       молодомъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       барине
+      </reg>
+      <orig>
+       баринѣ
+      </orig>
+     </choice>
+     , о
+     <choice>
+      <reg>
+       старике
+      </reg>
+      <orig>
+       старикѣ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="7728fa9b-d49e-464a-b534-c14251ed2900" rend="center">
+     Сцена 2-я.
+    </p>
+    <p id="c956d3b7-830f-450f-a206-2939205c86cc" rend="left">
+     <hi rend="italic">
+      Бабы и мужики
+     </hi>
+     <choice>
+      <reg>
+       входят
+      </reg>
+      <orig>
+       входятъ
+      </orig>
+     </choice>
+     , кланяются
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     ноги.
+     <hi rend="italic">
+      Пашенька
+     </hi>
+     <choice>
+      <reg>
+       просит
+      </reg>
+      <orig>
+       проситъ
+      </orig>
+     </choice>
+     за мужика прощенья и
+     <choice>
+      <reg>
+       шьет
+      </reg>
+      <orig>
+       шьетъ
+      </orig>
+     </choice>
+     по
+     <choice>
+      <reg>
+       канве
+      </reg>
+      <orig>
+       канвѣ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       ждут
+      </reg>
+      <orig>
+       ждутъ
+      </orig>
+     </choice>
+     барина,
+     <choice>
+      <reg>
+       придет
+      </reg>
+      <orig>
+       придетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       поверять
+      </reg>
+      <orig>
+       повѣрять
+      </orig>
+     </choice>
+     книги.
+     <hi rend="italic">
+      <choice original_editorial_correction="В[олодя]">
+       <sic>
+        В
+       </sic>
+       <corr>
+        Володя
+       </corr>
+      </choice>
+      ,
+      <choice original_editorial_correction="Н[аталья]">
+       <sic>
+        Н
+       </sic>
+       <corr>
+        Наталья
+       </corr>
+      </choice>
+      и мужики
+      <choice>
+       <reg>
+        уходят
+       </reg>
+       <orig>
+        уходятъ
+       </orig>
+      </choice>
+     </hi>
+     .
+     <note n="n177">
+      <div type="section" xml:id="n177">
+       <head>
+        <ref target="#backn177">
+         177
+        </ref>
+       </head>
+       <p id="1264bbc1-7bee-4b0c-9247-9cb77f2594d8" rend="left">
+        <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
+         <sic/>
+         <corr>
+          актриса, исполняющая главную роль в пьесе
+         </corr>
+        </choice>
+        .
+       </p>
       </div>
-      <div type="section" xml:id="h000012019002003">
-        <head rend="title_level3 center"><choice><reg>ДЕЙСТВІЕ</reg><orig>ДѢЙСТВІЕ</orig></choice> 3-е &lt;<choice><reg>В</reg><orig>ВЪ</orig></choice><choice><reg>КАБИНЕТЕ</reg><orig>КАБИНЕТѢ</orig></choice> КНЯЗЯ.&gt;</head>
-        <p rend="center" id="fe64c22c-46ee-4072-8fb5-49829fb035ba">Сцена 1-я.</p>
-        <p rend="center" id="cf7ffd31-08ff-4202-a501-d3bb6f228a1c">&lt;<choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice> и Князь. <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>хочет</reg><orig>хочетъ</orig></choice> жениться.&gt;</p>
-        <p rend="center" id="e2a339d3-9c4a-4460-897f-87a741ac924e">Сцена 1-я.</p>
-        <p rend="left" id="bf206667-b4cb-4a17-b24d-f396cd604b2e">У <choice><reg>Володе</reg><orig>Володѣ</orig></choice>. <hi rend="italic">Наталья</hi> жалуется своему другу <choice><reg>Прикащице</reg><orig>Прикащицѣ</orig></choice>, что <choice><reg>их</reg><orig>ихъ</orig></choice> молодая барыня все испортила и что <choice><reg>им</reg><orig>имъ</orig></choice> плохо <choice><reg>с</reg><orig>съ</orig></choice><choice><reg>мужем</reg><orig>мужемъ</orig></choice> и что вексёля отняли.</p>
-        <p rend="center" id="9ddf4cc3-3159-47a9-a38e-2d6a1a1aa20c"><pb n="163"/> Сцена 2-я.</p>
-        <p rend="left" id="f700974a-681b-424d-9284-17d5c768692c"><choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice><choice><reg>рассказывает</reg><orig>разсказываетъ</orig></choice>, что <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>едет</reg><orig>ѣдетъ</orig></choice> и <choice><reg>верно</reg><orig>вѣрно</orig></choice><choice><reg>будет</reg><orig>будетъ</orig></choice> говорить <choice><reg>с</reg><orig>съ</orig></choice><choice><reg>отцом</reg><orig>отцомъ</orig></choice>.</p>
-        <p rend="center" id="da281269-019d-4440-967e-5a6154103fa9"><choice><reg>Перемена</reg><orig>Перемѣна</orig></choice><choice original_editorial_correction="декор[аціи]"><sic>декор</sic><corr><choice><reg>декорации</reg><orig>декорацiи</orig></choice></corr></choice>. СЦЕНА 3-я.</p>
-        <p rend="left" id="272c8d83-8883-48b2-9d6f-a22693fffcae"><choice original_editorial_correction="Валер[ьянъ]"><sic>Валер</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice> и <choice original_editorial_correction="Ив[анъ]"><sic>Ив</sic><corr><choice><reg>Иван</reg><orig>Иванъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичъ]"><sic>Ил</sic><corr><choice><reg>Ильич</reg><orig>Ильичъ</orig></choice></corr></choice>. <choice original_editorial_correction="Вал[ерьянъ]"><sic>Вал</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice><choice><reg>грустит</reg><orig>груститъ</orig></choice>, <choice original_editorial_correction="откровеннич[аетъ]"><sic>откровеннич</sic><corr><choice><reg>откровенничает</reg><orig>откровенничаетъ</orig></choice></corr></choice> и <choice><reg>пьет</reg><orig>пьетъ</orig></choice> — <choice><reg>уходит</reg><orig>уходитъ</orig></choice>.</p>
-        <p rend="center" id="2d8c414f-ef62-45bf-877c-6a5e0a65df61">Сцена 4-я.</p>
-        <p rend="left" id="4527b870-3e17-40dd-9247-d96a3d42acea"><choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice>, <choice original_editorial_correction="Л[ёля]"><sic>Л</sic><corr>Лёля</corr></choice>, <choice original_editorial_correction="К[нягин]я"><sic>Кя</sic><corr>Княгиня</corr></choice>, Князь, прощанье, <choice><reg>завтрак</reg><orig>завтракъ</orig></choice>. <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice> нахально <choice><reg>пристает</reg><orig>пристаетъ</orig></choice> за <choice original_editorial_correction="отвѣт[омъ]"><sic>отвѣт</sic><corr><choice><reg>ответом</reg><orig>отвѣтомъ</orig></choice></corr></choice>. <choice><reg>Отец</reg><orig>Отецъ</orig></choice> Ната . <choice original_editorial_correction="К[няз]ь"><sic>Кь</sic><corr>Князь</corr></choice><choice><reg>говорит</reg><orig>говоритъ</orig></choice>, что <choice><reg>он</reg><orig>онъ</orig></choice><choice><reg>должен</reg><orig>долженъ</orig></choice> 20 т. <choice><reg>Володе</reg><orig>Володѣ</orig></choice>.</p>
-        <p rend="center" id="c6dc99ba-365b-461d-913d-4bfdd5eba416">Сцена 5-я.</p>
-        <p rend="left" id="c4c85585-5bc8-4b2e-b631-a78bd27c63cf"><choice original_editorial_correction="Н[аталья]"><sic>Н</sic><corr>Наталья</corr></choice> и <choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice><note n="n179"><div type="section" xml:id="n179"><head><ref target="#backn179">179</ref></head><p rend="left" id="bbcf3991-7494-4994-b89a-9d373e66bdd5"><choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]"><sic/><corr>актриса, исполняющая главную роль в пьесе</corr></choice>.</p></div></note><choice><reg>входит</reg><orig>входитъ</orig></choice>, нахально <choice><reg>вмешивается</reg><orig>вмѣшивается</orig></choice>, грубая сцена, <choice original_editorial_correction="В[олодя]"><sic>В</sic><corr>Володя</corr></choice><choice><reg>расчувствовавшись</reg><orig>разчувствовавшись</orig></choice><choice><reg>плачет</reg><orig>плачетъ</orig></choice>.</p>
-        <p rend="center" id="ef490553-4815-449b-af15-c38077c76483">&lt;Сцена 6-я.&gt;</p>
-        <p rend="left" id="4f99b955-9df2-4b71-bc9b-9d9629df4e16"><choice><reg>Входит</reg><orig>Входитъ</orig></choice> пьяный <choice original_editorial_correction="Вал[ерьянъ]"><sic>Вал</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice> и <choice original_editorial_correction="Ив[анъ]"><sic>Ив</sic><corr><choice><reg>Иван</reg><orig>Иванъ</orig></choice></corr></choice><choice original_editorial_correction="Ил[ьичъ]"><sic>Ил</sic><corr><choice><reg>Ильич</reg><orig>Ильичъ</orig></choice></corr></choice>. <choice><reg>Пьющий</reg><orig>Пьющiй</orig></choice><choice><reg>запоем</reg><orig>запоемъ</orig></choice> — трагической <choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice><choice><reg>говорит</reg><orig>говоритъ</orig></choice><choice><reg>всем</reg><orig>всѣмъ</orig></choice> правду. Князь <choice><reg>плачет</reg><orig>плачетъ</orig></choice>, злится раскаивается и <choice><reg>уходит</reg><orig>уходитъ</orig></choice>. &lt;<choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice><choice><reg>уезжает</reg><orig>уѣзжаетъ</orig></choice>&gt;.<note n="n180"><div type="section" xml:id="n180"><head><ref target="#backn180">180</ref></head><p rend="left" id="e9189a4b-787f-49ba-9552-ce59f04faced"><choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]"><sic/><corr>актриса, исполняющая главную роль в пьесе</corr></choice>.</p></div></note><choice original_editorial_correction="Валер[ьянъ]"><sic>Валер</sic><corr><choice><reg>Валерьян</reg><orig>Валерьянъ</orig></choice></corr></choice> — <choice><reg>просит</reg><orig>проситъ</orig></choice> прощенья у отца, <choice><reg>объясняет</reg><orig>объясняетъ</orig></choice>, почему <choice><reg>он</reg><orig>онъ</orig></choice><choice><reg>живет</reg><orig>живетъ</orig></choice><choice><reg>здесь</reg><orig>здѣсь</orig></choice>, что ему нужно любить кого нибудь. Что его жизнь пропала и все равно. <choice original_editorial_correction="А[натолій]"><sic>А</sic><corr><choice><reg>Анатолий</reg><orig>Анатолiй</orig></choice></corr></choice><choice><reg>хладнокровен</reg><orig>хладнокровенъ</orig></choice>, <choice><reg>спрашивает</reg><orig>спрашиваетъ</orig></choice>, пойти ли проститься <choice><reg>с</reg><orig>съ</orig></choice><choice><reg>отцом</reg><orig>отцомъ</orig></choice> или <choice><reg>нет</reg><orig>нѣтъ</orig></choice>. Лучше <choice><reg>нет</reg><orig>нѣтъ</orig></choice>! и <choice><reg>уезжает</reg><orig>уѣзжаетъ</orig></choice>. <choice><reg>Евгения</reg><orig>Евгенiя</orig></choice><choice><reg>выбегает</reg><orig>выбѣгаетъ</orig></choice> и <choice><reg>говорит</reg><orig>говоритъ</orig></choice><choice original_editorial_correction="В[алерьяну]"><sic>В</sic><corr>Валерьяну</corr></choice>, что она его <choice><reg>любит</reg><orig>любитъ</orig></choice>. <choice><reg>Конец</reg><orig>Конецъ</orig></choice>.</p>
+     </note>
+    </p>
+    <p id="7ff77896-ede9-4932-be03-bff8ea16f32f" rend="center">
+     Сцена 3-я.
+    </p>
+    <p id="dc814007-06a5-4c94-be24-d2a5e6d73c2d" rend="left">
+     Пашенька одна,
+     <choice>
+      <reg>
+       рассуждает
+      </reg>
+      <orig>
+       разсуждаетъ
+      </orig>
+     </choice>
+     , что
+     <choice>
+      <reg>
+       беда
+      </reg>
+      <orig>
+       бѣда
+      </orig>
+     </choice>
+     хорошенькой быть, даже и
+     <choice original_editorial_correction="Вал[ерьяна]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       Валерьяна
+      </corr>
+     </choice>
+     она застала
+     <choice>
+      <reg>
+       раз
+      </reg>
+      <orig>
+       разъ
+      </orig>
+     </choice>
+     у двери, a
+     <choice original_editorial_correction="Анат[олія]">
+      <sic>
+       Анат
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолия
+        </reg>
+        <orig>
+         Анатолiя
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <hi rend="italic">
+      надо
+      <choice>
+       <reg>
+        раззадорит
+       </reg>
+       <orig>
+        раззадоритъ
+       </orig>
+      </choice>
+     </hi>
+     .
+    </p>
+    <p id="17703a19-a4a5-4bd2-a155-be8d2dd5f3c2" rend="center">
+     Сцена 4-я.
+    </p>
+    <p id="57e5ea05-acb2-41b9-bc09-897917385f20" rend="left">
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Анат[олій]">
+      <sic>
+       Анат
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       щупает
+      </reg>
+      <orig>
+       щупаетъ
+      </orig>
+     </choice>
+     ее.
+    </p>
+    <p id="527d19f4-da2c-4e22-b9bf-0133f27bdfb5" rend="center">
+     Сцена 5-я.
+    </p>
+    <p id="97d2b495-dc97-4072-af64-ee38e2588811" rend="left">
+     <choice original_editorial_correction="В[олодя]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Володя
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       входит
+      </reg>
+      <orig>
+       входитъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     книгами, учтиво
+     <choice>
+      <reg>
+       насмешлив
+      </reg>
+      <orig>
+       насмѣшливъ
+      </orig>
+     </choice>
+     , но
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       практичен
+      </reg>
+      <orig>
+       практиченъ
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="В[олодя]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Володя
+      </corr>
+     </choice>
+     попадается,
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       распекает
+      </reg>
+      <orig>
+       распекаетъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       стращает
+      </reg>
+      <orig>
+       стращаетъ
+      </orig>
+     </choice>
+     его.
+     <choice original_editorial_correction="В[олодя]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Володя
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       подобострастен
+      </reg>
+      <orig>
+       подобострастенъ
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="Нат[алья]">
+      <sic>
+       Нат
+      </sic>
+      <corr>
+       Наталья
+      </corr>
+     </choice>
+     <choice original_editorial_correction="под[слу]шиваетъ">
+      <sic>
+       подшиваетъ
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         подслушивает
+        </reg>
+        <orig>
+         подслушиваетъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     —
+     <choice>
+      <reg>
+       вмешивается
+      </reg>
+      <orig>
+       вмѣшивается
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       дает
+      </reg>
+      <orig>
+       даетъ
+      </orig>
+     </choice>
+     чувствовать, что она
+     <choice>
+      <reg>
+       имеет
+      </reg>
+      <orig>
+       имѣетъ
+      </orig>
+     </choice>
+     власть.
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       уходит
+      </reg>
+      <orig>
+       уходитъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="6b9b21ab-6e9b-4f0e-a078-dfba2b70cd75" rend="center">
+     <pb n="162"/>
+     Сцена 6-я.
+    </p>
+    <p id="38782001-3206-4962-a6e2-fb12f5a1c80d" rend="left">
+     <choice original_editorial_correction="Н[аталья]">
+      <sic>
+       Н
+      </sic>
+      <corr>
+       Наталья
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       негодует
+      </reg>
+      <orig>
+       негодуетъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       рассказывает
+      </reg>
+      <orig>
+       разсказываетъ
+      </orig>
+     </choice>
+     про векселя и свои права. &lt;
+     <choice>
+      <reg>
+       вот
+      </reg>
+      <orig>
+       вотъ
+      </orig>
+     </choice>
+     только умри
+     <choice>
+      <reg>
+       барин
+      </reg>
+      <orig>
+       баринъ
+      </orig>
+     </choice>
+     .&gt;
+    </p>
+    <p id="ca23e23b-32f0-446f-8940-5de65a418794" rend="center">
+     Сцена 7-я.
+    </p>
+    <p id="5002ab42-c037-48fb-9cea-840c22d6ba9d" rend="left">
+     <choice>
+      <reg>
+       Перемена
+      </reg>
+      <orig>
+       Перемѣна
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       декорации
+      </reg>
+      <orig>
+       декорацiи
+      </orig>
+     </choice>
+     &lt;гостинная&gt;.
+     <choice>
+      <reg>
+       Кабинет
+      </reg>
+      <orig>
+       Кабинетъ
+      </orig>
+     </choice>
+     отца. &lt;
+     <choice original_editorial_correction="К[нягин]я">
+      <sic>
+       Кя
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     и
+     <choice original_editorial_correction="Вал[ерьянъ]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     .
+     <choice original_editorial_correction="Вал[ерьянъ]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     не
+     <choice>
+      <reg>
+       отвечает
+      </reg>
+      <orig>
+       отвѣчаетъ
+      </orig>
+     </choice>
+     на вопросы.
+     <choice original_editorial_correction="Кня[гиня]">
+      <sic>
+       Кня
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       уговаривает
+      </reg>
+      <orig>
+       уговариваетъ
+      </orig>
+     </choice>
+     его жениться.
+     <choice original_editorial_correction="В[алерьянъ]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что довольно
+     <choice>
+      <reg>
+       одного
+      </reg>
+      <orig>
+       однаго
+      </orig>
+     </choice>
+     такого урода,
+     <choice>
+      <reg>
+       как
+      </reg>
+      <orig>
+       какъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       он
+      </reg>
+      <orig>
+       онъ
+      </orig>
+     </choice>
+     ,
+     <choice original_editorial_correction="К[нягин]я">
+      <sic>
+       Кя
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     не
+     <choice>
+      <reg>
+       понимает
+      </reg>
+      <orig>
+       понимаетъ
+      </orig>
+     </choice>
+     его и
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что она богата,
+     <choice>
+      <reg>
+       он
+      </reg>
+      <orig>
+       онъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       знает
+      </reg>
+      <orig>
+       знаетъ
+      </orig>
+     </choice>
+     .&gt;
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       рассказывает
+      </reg>
+      <orig>
+       разсказываетъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Кня[гинѣ]">
+      <sic>
+       Кня
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Княгине
+        </reg>
+        <orig>
+         Княгинѣ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     свои
+     <choice original_editorial_correction="[дѣла]">
+      <sic/>
+      <corr>
+       <choice>
+        <reg>
+         дела
+        </reg>
+        <orig>
+         дѣла
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     .
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="paзсказ[ываетъ]">
+      <sic>
+       paзсказ
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         paзсказывает
+        </reg>
+        <orig>
+         paзсказываетъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     про мошенничество Володи отцу,
+     <choice>
+      <reg>
+       отец
+      </reg>
+      <orig>
+       отецъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="под[д]ается">
+      <sic>
+       подается
+      </sic>
+      <corr>
+       поддается
+      </corr>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       уходит
+      </reg>
+      <orig>
+       уходитъ
+      </orig>
+     </choice>
+     ,
+     <choice original_editorial_correction="В[алерьянъ]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     Л[?]
+     <choice>
+      <reg>
+       приходят
+      </reg>
+      <orig>
+       приходятъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="35233a03-e205-4cf8-b145-fb02c9fca2f9" rend="center">
+     Сцена 8.
+    </p>
+    <p id="2bdc262b-f554-48bf-950f-7ae6ac41c4a1" rend="left">
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     (прислуживается,
+     <choice>
+      <reg>
+       расспрашивает
+      </reg>
+      <orig>
+       разспрашиваетъ
+      </orig>
+     </choice>
+     )
+     <choice>
+      <reg>
+       трунит
+      </reg>
+      <orig>
+       трунитъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       над
+      </reg>
+      <orig>
+       надъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       братом
+      </reg>
+      <orig>
+       братомъ
+      </orig>
+     </choice>
+     ,
+     <choice original_editorial_correction="К[няги]ня">
+      <sic>
+       Кня
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       хохочет
+      </reg>
+      <orig>
+       хохочетъ
+      </orig>
+     </choice>
+     &lt;весело.
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       объясняет
+      </reg>
+      <orig>
+       объясняетъ
+      </orig>
+     </choice>
+     ей свое положенье весь
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       долгах
+      </reg>
+      <orig>
+       долгахъ
+      </orig>
+     </choice>
+     , жена
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       ужасе
+      </reg>
+      <orig>
+       ужасѣ
+      </orig>
+     </choice>
+     &gt;.
+    </p>
+    <p id="a9e0d75f-d8b8-4af6-90bd-81886b5f7a13" rend="center">
+     Сцена 9-я.
+    </p>
+    <p id="a4849283-537f-451a-975f-99978f7b39d1" rend="left">
+     <choice>
+      <reg>
+       Входят
+      </reg>
+      <orig>
+       Входятъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="К[нязь]">
+      <sic>
+       К
+      </sic>
+      <corr>
+       Князь
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     Лёлей
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Ив[аномъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иваном
+        </reg>
+        <orig>
+         Иваномъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичемъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильичем
+        </reg>
+        <orig>
+         Ильичемъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     гулянья.
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     волочится и
+     <choice>
+      <reg>
+       сейчас
+      </reg>
+      <orig>
+       сейчасъ
+      </orig>
+     </choice>
+     же
+     <choice>
+      <reg>
+       успешно
+      </reg>
+      <orig>
+       успѣшно
+      </orig>
+     </choice>
+     . &lt;
+     <choice original_editorial_correction="К[нягин]я">
+      <sic>
+       Кя
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       намекает
+      </reg>
+      <orig>
+       намекаетъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="К[няз]ю">
+      <sic>
+       Кю
+      </sic>
+      <corr>
+       Князю
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       он
+      </reg>
+      <orig>
+       онъ
+      </orig>
+     </choice>
+     злится и
+     <choice>
+      <reg>
+       оскорбляет
+      </reg>
+      <orig>
+       оскорбляетъ
+      </orig>
+     </choice>
+     ее.&gt;
+     <choice>
+      <reg>
+       Валерьян
+      </reg>
+      <orig>
+       Валерьянъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       отчаянии
+      </reg>
+      <orig>
+       отчаянiи
+      </orig>
+     </choice>
+     . (
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       рассказывает
+      </reg>
+      <orig>
+       разсказываетъ
+      </orig>
+     </choice>
+     отцу о
+     <choice>
+      <reg>
+       беспорядке
+      </reg>
+      <orig>
+       безпорядкѣ
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="В[aлерьянъ]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Вaлерьян
+        </reg>
+        <orig>
+         Вaлерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       погиб
+      </reg>
+      <orig>
+       погибъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       уж
+      </reg>
+      <orig>
+       ужъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       уме
+      </reg>
+      <orig>
+       умѣ
+      </orig>
+     </choice>
+     отца.)
+     <choice>
+      <reg>
+       Уходят
+      </reg>
+      <orig>
+       Уходятъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       все
+      </reg>
+      <orig>
+       всѣ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       кроме
+      </reg>
+      <orig>
+       кромѣ
+      </orig>
+     </choice>
+     Старика.
+    </p>
+    <p id="f12d9df9-89b0-41bf-8738-575756639979" rend="center">
+     Сцена 9-я.
+    </p>
+    <p id="91dafe44-e6c8-4a2e-9e9c-e62f20e2a8f8" rend="left">
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     <hi rend="italic">
+      Наталья
+     </hi>
+     ,
+     <choice>
+      <reg>
+       начинает
+      </reg>
+      <orig>
+       начинаетъ
+      </orig>
+     </choice>
+     сплетничать &lt;и
+     <choice>
+      <reg>
+       рассказывать
+      </reg>
+      <orig>
+       разсказывать
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       как
+      </reg>
+      <orig>
+       какъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="В[алерь]янъ">
+      <sic>
+       Вянъ
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       честен
+      </reg>
+      <orig>
+       честенъ
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       отдал
+      </reg>
+      <orig>
+       отдалъ
+      </orig>
+     </choice>
+     свою теткину часть, тогда
+     <choice>
+      <reg>
+       как
+      </reg>
+      <orig>
+       какъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       прожил
+      </reg>
+      <orig>
+       прожилъ
+      </orig>
+     </choice>
+     ее давно.&gt;
+     <choice>
+      <reg>
+       Старик
+      </reg>
+      <orig>
+       Старикъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     негодованьи на
+     <choice original_editorial_correction="А[натолія]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолия
+        </reg>
+        <orig>
+         Анатолiя
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     — только за Паше
+    </p>
+    <p id="769d5387-316b-4c62-aa1c-7daa83926b2b" rend="center">
+     Сцена 10.
+    </p>
+    <p id="891bb6c4-cbb7-4baa-8bd0-61cdd35d61c0" rend="left">
+     &lt;
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Анат[олій]">
+      <sic>
+       Анат
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="К[няз]ь">
+      <sic>
+       Кь
+      </sic>
+      <corr>
+       Князь
+      </corr>
+     </choice>
+     .
+     <choice original_editorial_correction="К[нягин]я">
+      <sic>
+       Кя
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     за сьна, Князь
+     <choice>
+      <reg>
+       ругает
+      </reg>
+      <orig>
+       ругаетъ
+      </orig>
+     </choice>
+     Анатолья.&gt;
+     <note n="n178">
+      <div type="section" xml:id="n178">
+       <head>
+        <ref target="#backn178">
+         178
+        </ref>
+       </head>
+       <p id="6d909b57-f8ab-4f0f-a350-0e7953162d48" rend="left">
+        <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
+         <sic/>
+         <corr>
+          актриса, исполняющая главную роль в пьесе
+         </corr>
+        </choice>
+        .
+       </p>
       </div>
-    </body>
-  </text>
+     </note>
+    </p>
+   </div>
+   <div type="section" xml:id="h000012019002003">
+    <head rend="title_level3 center">
+     <choice>
+      <reg>
+       ДЕЙСТВІЕ
+      </reg>
+      <orig>
+       ДѢЙСТВІЕ
+      </orig>
+     </choice>
+     3-е &lt;
+     <choice>
+      <reg>
+       В
+      </reg>
+      <orig>
+       ВЪ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       КАБИНЕТЕ
+      </reg>
+      <orig>
+       КАБИНЕТѢ
+      </orig>
+     </choice>
+     КНЯЗЯ.&gt;
+    </head>
+    <p id="fe64c22c-46ee-4072-8fb5-49829fb035ba" rend="center">
+     Сцена 1-я.
+    </p>
+    <p id="cf7ffd31-08ff-4202-a501-d3bb6f228a1c" rend="center">
+     &lt;
+     <choice>
+      <reg>
+       Анатолий
+      </reg>
+      <orig>
+       Анатолiй
+      </orig>
+     </choice>
+     и Князь.
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       хочет
+      </reg>
+      <orig>
+       хочетъ
+      </orig>
+     </choice>
+     жениться.&gt;
+    </p>
+    <p id="e2a339d3-9c4a-4460-897f-87a741ac924e" rend="center">
+     Сцена 1-я.
+    </p>
+    <p id="bf206667-b4cb-4a17-b24d-f396cd604b2e" rend="left">
+     У
+     <choice>
+      <reg>
+       Володе
+      </reg>
+      <orig>
+       Володѣ
+      </orig>
+     </choice>
+     .
+     <hi rend="italic">
+      Наталья
+     </hi>
+     жалуется своему другу
+     <choice>
+      <reg>
+       Прикащице
+      </reg>
+      <orig>
+       Прикащицѣ
+      </orig>
+     </choice>
+     , что
+     <choice>
+      <reg>
+       их
+      </reg>
+      <orig>
+       ихъ
+      </orig>
+     </choice>
+     молодая барыня все испортила и что
+     <choice>
+      <reg>
+       им
+      </reg>
+      <orig>
+       имъ
+      </orig>
+     </choice>
+     плохо
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       мужем
+      </reg>
+      <orig>
+       мужемъ
+      </orig>
+     </choice>
+     и что вексёля отняли.
+    </p>
+    <p id="9ddf4cc3-3159-47a9-a38e-2d6a1a1aa20c" rend="center">
+     <pb n="163"/>
+     Сцена 2-я.
+    </p>
+    <p id="f700974a-681b-424d-9284-17d5c768692c" rend="left">
+     <choice original_editorial_correction="В[олодя]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Володя
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       рассказывает
+      </reg>
+      <orig>
+       разсказываетъ
+      </orig>
+     </choice>
+     , что
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       едет
+      </reg>
+      <orig>
+       ѣдетъ
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       верно
+      </reg>
+      <orig>
+       вѣрно
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       будет
+      </reg>
+      <orig>
+       будетъ
+      </orig>
+     </choice>
+     говорить
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       отцом
+      </reg>
+      <orig>
+       отцомъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="da281269-019d-4440-967e-5a6154103fa9" rend="center">
+     <choice>
+      <reg>
+       Перемена
+      </reg>
+      <orig>
+       Перемѣна
+      </orig>
+     </choice>
+     <choice original_editorial_correction="декор[аціи]">
+      <sic>
+       декор
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         декорации
+        </reg>
+        <orig>
+         декорацiи
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     . СЦЕНА 3-я.
+    </p>
+    <p id="272c8d83-8883-48b2-9d6f-a22693fffcae" rend="left">
+     <choice original_editorial_correction="Валер[ьянъ]">
+      <sic>
+       Валер
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     и
+     <choice original_editorial_correction="Ив[анъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иван
+        </reg>
+        <orig>
+         Иванъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильич
+        </reg>
+        <orig>
+         Ильичъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     .
+     <choice original_editorial_correction="Вал[ерьянъ]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       грустит
+      </reg>
+      <orig>
+       груститъ
+      </orig>
+     </choice>
+     ,
+     <choice original_editorial_correction="откровеннич[аетъ]">
+      <sic>
+       откровеннич
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         откровенничает
+        </reg>
+        <orig>
+         откровенничаетъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     и
+     <choice>
+      <reg>
+       пьет
+      </reg>
+      <orig>
+       пьетъ
+      </orig>
+     </choice>
+     —
+     <choice>
+      <reg>
+       уходит
+      </reg>
+      <orig>
+       уходитъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="2d8c414f-ef62-45bf-877c-6a5e0a65df61" rend="center">
+     Сцена 4-я.
+    </p>
+    <p id="4527b870-3e17-40dd-9247-d96a3d42acea" rend="left">
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="Л[ёля]">
+      <sic>
+       Л
+      </sic>
+      <corr>
+       Лёля
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="К[нягин]я">
+      <sic>
+       Кя
+      </sic>
+      <corr>
+       Княгиня
+      </corr>
+     </choice>
+     , Князь, прощанье,
+     <choice>
+      <reg>
+       завтрак
+      </reg>
+      <orig>
+       завтракъ
+      </orig>
+     </choice>
+     .
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     нахально
+     <choice>
+      <reg>
+       пристает
+      </reg>
+      <orig>
+       пристаетъ
+      </orig>
+     </choice>
+     за
+     <choice original_editorial_correction="отвѣт[омъ]">
+      <sic>
+       отвѣт
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         ответом
+        </reg>
+        <orig>
+         отвѣтомъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Отец
+      </reg>
+      <orig>
+       Отецъ
+      </orig>
+     </choice>
+     Ната .
+     <choice original_editorial_correction="К[няз]ь">
+      <sic>
+       Кь
+      </sic>
+      <corr>
+       Князь
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     , что
+     <choice>
+      <reg>
+       он
+      </reg>
+      <orig>
+       онъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       должен
+      </reg>
+      <orig>
+       долженъ
+      </orig>
+     </choice>
+     20 т.
+     <choice>
+      <reg>
+       Володе
+      </reg>
+      <orig>
+       Володѣ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="c6dc99ba-365b-461d-913d-4bfdd5eba416" rend="center">
+     Сцена 5-я.
+    </p>
+    <p id="c4c85585-5bc8-4b2e-b631-a78bd27c63cf" rend="left">
+     <choice original_editorial_correction="Н[аталья]">
+      <sic>
+       Н
+      </sic>
+      <corr>
+       Наталья
+      </corr>
+     </choice>
+     и
+     <choice original_editorial_correction="В[олодя]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Володя
+      </corr>
+     </choice>
+     <note n="n179">
+      <div type="section" xml:id="n179">
+       <head>
+        <ref target="#backn179">
+         179
+        </ref>
+       </head>
+       <p id="bbcf3991-7494-4994-b89a-9d373e66bdd5" rend="left">
+        <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
+         <sic/>
+         <corr>
+          актриса, исполняющая главную роль в пьесе
+         </corr>
+        </choice>
+        .
+       </p>
+      </div>
+     </note>
+     <choice>
+      <reg>
+       входит
+      </reg>
+      <orig>
+       входитъ
+      </orig>
+     </choice>
+     , нахально
+     <choice>
+      <reg>
+       вмешивается
+      </reg>
+      <orig>
+       вмѣшивается
+      </orig>
+     </choice>
+     , грубая сцена,
+     <choice original_editorial_correction="В[олодя]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Володя
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       расчувствовавшись
+      </reg>
+      <orig>
+       разчувствовавшись
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       плачет
+      </reg>
+      <orig>
+       плачетъ
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="ef490553-4815-449b-af15-c38077c76483" rend="center">
+     &lt;Сцена 6-я.&gt;
+    </p>
+    <p id="4f99b955-9df2-4b71-bc9b-9d9629df4e16" rend="left">
+     <choice>
+      <reg>
+       Входит
+      </reg>
+      <orig>
+       Входитъ
+      </orig>
+     </choice>
+     пьяный
+     <choice original_editorial_correction="Вал[ерьянъ]">
+      <sic>
+       Вал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     и
+     <choice original_editorial_correction="Ив[анъ]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Иван
+        </reg>
+        <orig>
+         Иванъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ил[ьичъ]">
+      <sic>
+       Ил
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Ильич
+        </reg>
+        <orig>
+         Ильичъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Пьющий
+      </reg>
+      <orig>
+       Пьющiй
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       запоем
+      </reg>
+      <orig>
+       запоемъ
+      </orig>
+     </choice>
+     — трагической
+     <choice>
+      <reg>
+       Валерьян
+      </reg>
+      <orig>
+       Валерьянъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       всем
+      </reg>
+      <orig>
+       всѣмъ
+      </orig>
+     </choice>
+     правду. Князь
+     <choice>
+      <reg>
+       плачет
+      </reg>
+      <orig>
+       плачетъ
+      </orig>
+     </choice>
+     , злится раскаивается и
+     <choice>
+      <reg>
+       уходит
+      </reg>
+      <orig>
+       уходитъ
+      </orig>
+     </choice>
+     . &lt;
+     <choice>
+      <reg>
+       Анатолий
+      </reg>
+      <orig>
+       Анатолiй
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       уезжает
+      </reg>
+      <orig>
+       уѣзжаетъ
+      </orig>
+     </choice>
+     &gt;.
+     <note n="n180">
+      <div type="section" xml:id="n180">
+       <head>
+        <ref target="#backn180">
+         180
+        </ref>
+       </head>
+       <p id="e9189a4b-787f-49ba-9552-ce59f04faced" rend="left">
+        <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
+         <sic/>
+         <corr>
+          актриса, исполняющая главную роль в пьесе
+         </corr>
+        </choice>
+        .
+       </p>
+      </div>
+     </note>
+     <choice original_editorial_correction="Валер[ьянъ]">
+      <sic>
+       Валер
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Валерьян
+        </reg>
+        <orig>
+         Валерьянъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     —
+     <choice>
+      <reg>
+       просит
+      </reg>
+      <orig>
+       проситъ
+      </orig>
+     </choice>
+     прощенья у отца,
+     <choice>
+      <reg>
+       объясняет
+      </reg>
+      <orig>
+       объясняетъ
+      </orig>
+     </choice>
+     , почему
+     <choice>
+      <reg>
+       он
+      </reg>
+      <orig>
+       онъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       живет
+      </reg>
+      <orig>
+       живетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       здесь
+      </reg>
+      <orig>
+       здѣсь
+      </orig>
+     </choice>
+     , что ему нужно любить кого нибудь. Что его жизнь пропала и все равно.
+     <choice original_editorial_correction="А[натолій]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Анатолий
+        </reg>
+        <orig>
+         Анатолiй
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       хладнокровен
+      </reg>
+      <orig>
+       хладнокровенъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       спрашивает
+      </reg>
+      <orig>
+       спрашиваетъ
+      </orig>
+     </choice>
+     , пойти ли проститься
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       отцом
+      </reg>
+      <orig>
+       отцомъ
+      </orig>
+     </choice>
+     или
+     <choice>
+      <reg>
+       нет
+      </reg>
+      <orig>
+       нѣтъ
+      </orig>
+     </choice>
+     . Лучше
+     <choice>
+      <reg>
+       нет
+      </reg>
+      <orig>
+       нѣтъ
+      </orig>
+     </choice>
+     ! и
+     <choice>
+      <reg>
+       уезжает
+      </reg>
+      <orig>
+       уѣзжаетъ
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Евгения
+      </reg>
+      <orig>
+       Евгенiя
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       выбегает
+      </reg>
+      <orig>
+       выбѣгаетъ
+      </orig>
+     </choice>
+     и
+     <choice>
+      <reg>
+       говорит
+      </reg>
+      <orig>
+       говоритъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="В[алерьяну]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Валерьяну
+      </corr>
+     </choice>
+     , что она его
+     <choice>
+      <reg>
+       любит
+      </reg>
+      <orig>
+       любитъ
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Конец
+      </reg>
+      <orig>
+       Конецъ
+      </orig>
+     </choice>
+     .
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

@@ -1,89 +1,248 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v50_052_053_1889_03_16">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 16 марта 1889 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1889 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 50</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">50</biblScope>
-            <biblScope unit="page">52-53</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1889-03-16"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="6ec59583-b632-460f-8fb5-2d41ae488110">
-        <pb n="52"/>
-      </p>
-      <div n="v50_n116" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1889-03-16">
-              <hi>16 М. 89. М.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="344187a3-033a-46ae-80bf-ebc1e52d999e" rend="left"> Не выходил. Был <choice original_editorial_correction="Ос[ип]"><sic>Ос</sic><corr>Осип</corr></choice><choice original_editorial_correction="Петр[ович]"><sic>Петр</sic><corr>Петрович</corr></choice>, трогательно сознавался в своей <choice original_editorial_correction="раздраж[ительности]"><sic>раздраж</sic><corr>раздражительности</corr></choice>, вследствие слишком больших требований, с <choice original_editorial_correction="к[оторыми]"><sic>к</sic><corr>которыми</corr></choice> согласен. Потом перед обедом Золотарев — купец, с своим приказчиком. Он <hi style="opdelimiter">бьется</hi><pb n="53"/><hi style="npdelimiter">с</hi> женой. Всё то же. Вчера <choice original_editorial_correction="б[ыло]"><sic>б</sic><corr>было</corr></choice> трогательное письмо от <choice original_editorial_correction="Медвед[ева]"><sic>Медвед</sic><corr>Медведева</corr></choice>, и он пришел вечером. Мы составляли список 100 книг; пришел <choice original_editorial_correction="Ив[ан]"><sic>Ив</sic><corr>Иван</corr></choice><choice original_editorial_correction="Мих[айлович]"><sic>Мих</sic><corr>Михайлович</corr></choice>, <choice original_editorial_correction="к[оторый]"><sic>к</sic><corr>который</corr></choice> записался в <choice original_editorial_correction="общ[ество]"><sic>общ</sic><corr>общество</corr></choice><choice original_editorial_correction="трезв[ости]"><sic>трезв</sic><corr>трезвости</corr></choice>. Да, ходил утром к Маракуеву, встретил там <choice original_editorial_correction="Некр[асову]"><sic>Некр</sic><corr>Некрасову</corr></choice>. Не достаточно любовно обошелся.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v50_052_053_1889_03_16">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 16 марта 1889 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1889 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 50
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       50
+      </biblScope>
+      <biblScope unit="page">
+       52-53
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1889-03-16"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="6ec59583-b632-460f-8fb5-2d41ae488110">
+    <pb n="52"/>
+   </p>
+   <div n="v50_n116" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1889-03-16">
+       <hi>
+        16 М. 89. М.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="344187a3-033a-46ae-80bf-ebc1e52d999e" rend="left">
+     Не выходил. Был
+     <choice original_editorial_correction="Ос[ип]">
+      <sic>
+       Ос
+      </sic>
+      <corr>
+       Осип
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Петр[ович]">
+      <sic>
+       Петр
+      </sic>
+      <corr>
+       Петрович
+      </corr>
+     </choice>
+     , трогательно сознавался в своей
+     <choice original_editorial_correction="раздраж[ительности]">
+      <sic>
+       раздраж
+      </sic>
+      <corr>
+       раздражительности
+      </corr>
+     </choice>
+     , вследствие слишком больших требований, с
+     <choice original_editorial_correction="к[оторыми]">
+      <sic>
+       к
+      </sic>
+      <corr>
+       которыми
+      </corr>
+     </choice>
+     согласен. Потом перед обедом Золотарев — купец, с своим приказчиком. Он
+     <hi style="opdelimiter">
+      бьется
+     </hi>
+     <pb n="53"/>
+     <hi style="npdelimiter">
+      с
+     </hi>
+     женой. Всё то же. Вчера
+     <choice original_editorial_correction="б[ыло]">
+      <sic>
+       б
+      </sic>
+      <corr>
+       было
+      </corr>
+     </choice>
+     трогательное письмо от
+     <choice original_editorial_correction="Медвед[ева]">
+      <sic>
+       Медвед
+      </sic>
+      <corr>
+       Медведева
+      </corr>
+     </choice>
+     , и он пришел вечером. Мы составляли список 100 книг; пришел
+     <choice original_editorial_correction="Ив[ан]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       Иван
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Мих[айлович]">
+      <sic>
+       Мих
+      </sic>
+      <corr>
+       Михайлович
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="к[оторый]">
+      <sic>
+       к
+      </sic>
+      <corr>
+       который
+      </corr>
+     </choice>
+     записался в
+     <choice original_editorial_correction="общ[ество]">
+      <sic>
+       общ
+      </sic>
+      <corr>
+       общество
+      </corr>
+     </choice>
+     <choice original_editorial_correction="трезв[ости]">
+      <sic>
+       трезв
+      </sic>
+      <corr>
+       трезвости
+      </corr>
+     </choice>
+     . Да, ходил утром к Маракуеву, встретил там
+     <choice original_editorial_correction="Некр[асову]">
+      <sic>
+       Некр
+      </sic>
+      <corr>
+       Некрасову
+      </corr>
+     </choice>
+     . Не достаточно любовно обошелся.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

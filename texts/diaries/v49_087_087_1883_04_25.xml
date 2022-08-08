@@ -1,87 +1,161 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v49_087_087_1883_04_25">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 25 апреля 1883 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">?</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 49</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">49</biblScope>
-            <biblScope unit="page">87-87</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1883-04-25"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <div n="v49_n163" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1883-04-25">
-              <hi> [25 апреля/7 мая.]</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="747d8f7b-d585-4a05-833e-1efbdc497b48" rend="left"><pb n="87"/>Раньше. Поехал к Озмидову. Проехался хорошо. Но у Озмидова было неприятно. Опять он говорил: платить оброк. Не понимаю. Ему надо кормить семью — не отступая от правды. Что-то неясно. Устал. Дома сначала хорошо, потом разговор о том, как бояться кори — не видаться. Я сказал свое религиозное воззрение и пошло. Как люди, лишенные религиозного чувства, ненавидят проявление его и чутки. Им ненавистно упоминание, как о важном, о том, чего они <choice original_editorial_correction="[не]"><sic/><corr>не</corr></choice> видят. Пошел работать сапоги. Потом читал <choice original_editorial_correction="Иванц[о]ва"><sic>Иванцва</sic><corr>Иванцова</corr></choice> статью. Много детски глупого о социализме и много прекрасных мыслей о значении христианства, но вот образец того, как <choice original_editorial_correction="компром[и]ссы"><sic>компромссы</sic><corr>компромиссы</corr></choice> губят. Столько оговорок, что ничего не осталось. А самые мои мысли.</p>
-        <p id="2b6a4aca-f73f-4989-97da-e8fdd8da2a46" rend="left">Письмо от Урусовой. Vogüé велит ждать «Войны и мир». Смешно. Надо ответить.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v49_087_087_1883_04_25">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 25 апреля 1883 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       ?
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 49
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       49
+      </biblScope>
+      <biblScope unit="page">
+       87-87
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1883-04-25"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <div n="v49_n163" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1883-04-25">
+       <hi>
+        [25 апреля/7 мая.]
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="747d8f7b-d585-4a05-833e-1efbdc497b48" rend="left">
+     <pb n="87"/>
+     Раньше. Поехал к Озмидову. Проехался хорошо. Но у Озмидова было неприятно. Опять он говорил: платить оброк. Не понимаю. Ему надо кормить семью — не отступая от правды. Что-то неясно. Устал. Дома сначала хорошо, потом разговор о том, как бояться кори — не видаться. Я сказал свое религиозное воззрение и пошло. Как люди, лишенные религиозного чувства, ненавидят проявление его и чутки. Им ненавистно упоминание, как о важном, о том, чего они
+     <choice original_editorial_correction="[не]">
+      <sic/>
+      <corr>
+       не
+      </corr>
+     </choice>
+     видят. Пошел работать сапоги. Потом читал
+     <choice original_editorial_correction="Иванц[о]ва">
+      <sic>
+       Иванцва
+      </sic>
+      <corr>
+       Иванцова
+      </corr>
+     </choice>
+     статью. Много детски глупого о социализме и много прекрасных мыслей о значении христианства, но вот образец того, как
+     <choice original_editorial_correction="компром[и]ссы">
+      <sic>
+       компромссы
+      </sic>
+      <corr>
+       компромиссы
+      </corr>
+     </choice>
+     губят. Столько оговорок, что ничего не осталось. А самые мои мысли.
+    </p>
+    <p id="2b6a4aca-f73f-4989-97da-e8fdd8da2a46" rend="left">
+     Письмо от Урусовой. Vogüé велит ждать «Войны и мир». Смешно. Надо ответить.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

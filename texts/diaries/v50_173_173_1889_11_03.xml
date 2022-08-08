@@ -1,89 +1,191 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v50_173_173_1889_11_03">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 3 ноября 1889 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1889 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 50</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">50</biblScope>
-            <biblScope unit="page">173-173</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1889-11-03"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="5bff0026-84d0-4958-9c81-730b808cbbf8">
-        <pb n="173"/>
-      </p>
-      <div n="v50_n355" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1889-11-03">
-              <hi>[3 ноября. Я. П.]</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="c3f2b011-45c2-4b48-aeab-6e589a050b12" rend="left"> Встал поздно, ходил. Дети больны. <choice original_editorial_correction="С[оня]"><sic>С</sic><corr>Соня</corr></choice> волнуется. Я стараюсь помочь, не умею, жалко ее. Писал много о науке, искусстве. Едва ли выйдет прок. Вечером устал, играл в <choice original_editorial_correction="шахм[аты]"><sic>шахм</sic><corr>шахматы</corr></choice>, говорил с детьми и <choice original_editorial_correction="А[лексеем]"><sic>А</sic><corr>Алексеем</corr></choice><choice original_editorial_correction="М[итрофановичем]"><sic>М</sic><corr>Митрофановичем</corr></choice>. Думал: Большая ошибка думать, что <choice original_editorial_correction="Ц[арство]"><sic>Ц</sic><corr>Царство</corr></choice><choice original_editorial_correction="Н[ебесное]"><sic>Н</sic><corr>Небесное</corr></choice> там, за гробом, и такая же большая ошибка думать, что оно здесь. Оно внутри, а когда внутри, то здесь и там не раздельно. Теперь 12. Ложусь спать. <hi>4 Н. Я. П. 89.</hi> Если буду жив.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v50_173_173_1889_11_03">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 3 ноября 1889 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1889 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 50
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       50
+      </biblScope>
+      <biblScope unit="page">
+       173-173
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1889-11-03"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="5bff0026-84d0-4958-9c81-730b808cbbf8">
+    <pb n="173"/>
+   </p>
+   <div n="v50_n355" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1889-11-03">
+       <hi>
+        [3 ноября. Я. П.]
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="c3f2b011-45c2-4b48-aeab-6e589a050b12" rend="left">
+     Встал поздно, ходил. Дети больны.
+     <choice original_editorial_correction="С[оня]">
+      <sic>
+       С
+      </sic>
+      <corr>
+       Соня
+      </corr>
+     </choice>
+     волнуется. Я стараюсь помочь, не умею, жалко ее. Писал много о науке, искусстве. Едва ли выйдет прок. Вечером устал, играл в
+     <choice original_editorial_correction="шахм[аты]">
+      <sic>
+       шахм
+      </sic>
+      <corr>
+       шахматы
+      </corr>
+     </choice>
+     , говорил с детьми и
+     <choice original_editorial_correction="А[лексеем]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       Алексеем
+      </corr>
+     </choice>
+     <choice original_editorial_correction="М[итрофановичем]">
+      <sic>
+       М
+      </sic>
+      <corr>
+       Митрофановичем
+      </corr>
+     </choice>
+     . Думал: Большая ошибка думать, что
+     <choice original_editorial_correction="Ц[арство]">
+      <sic>
+       Ц
+      </sic>
+      <corr>
+       Царство
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Н[ебесное]">
+      <sic>
+       Н
+      </sic>
+      <corr>
+       Небесное
+      </corr>
+     </choice>
+     там, за гробом, и такая же большая ошибка думать, что оно здесь. Оно внутри, а когда внутри, то здесь и там не раздельно. Теперь 12. Ложусь спать.
+     <hi>
+      4 Н. Я. П. 89.
+     </hi>
+     Если буду жив.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

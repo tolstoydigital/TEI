@@ -1,89 +1,184 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v46_136_136_1852_07_29">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Тетрадь Г. Дневник</title>
-        <title type="sub">Дневник 29 июля 1852 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Тетрадь Г. Дневник 1851—1854]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 46</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">46</biblScope>
-            <biblScope unit="page">136-136</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1852-07-29"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="5106d239-9bf3-4be5-8f44-3bfe3e503efe">
-        <pb n="136"/>
-      </p>
-      <div n="v46_n234" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1852-07-29">
-              <hi>29. </hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="76417ce2-4f88-4f39-b54f-08cffde4d130" rend="left"><choice original_editorial_correction="Р[ожеръ]"><sic>Р</sic><corr><choice><reg>Рожер</reg><orig>Рожеръ</orig></choice></corr></choice><choice><reg>был</reg><orig>былъ</orig></choice>, не <choice><reg>начинает</reg><orig>начинаетъ</orig></choice><choice><reg>лечения</reg><orig>леченiя</orig></choice>. Остаюсь <choice><reg>здесь</reg><orig>здѣсь</orig></choice> до четверга. Все тоже самое. — Хорошо. —</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v46_136_136_1852_07_29">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Тетрадь Г. Дневник
+    </title>
+    <title type="sub">
+     Дневник 29 июля 1852 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Тетрадь Г. Дневник 1851—1854]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 46
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       46
+      </biblScope>
+      <biblScope unit="page">
+       136-136
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852-07-29"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="5106d239-9bf3-4be5-8f44-3bfe3e503efe">
+    <pb n="136"/>
+   </p>
+   <div n="v46_n234" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1852-07-29">
+       <hi>
+        29.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="76417ce2-4f88-4f39-b54f-08cffde4d130" rend="left">
+     <choice original_editorial_correction="Р[ожеръ]">
+      <sic>
+       Р
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Рожер
+        </reg>
+        <orig>
+         Рожеръ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       был
+      </reg>
+      <orig>
+       былъ
+      </orig>
+     </choice>
+     , не
+     <choice>
+      <reg>
+       начинает
+      </reg>
+      <orig>
+       начинаетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       лечения
+      </reg>
+      <orig>
+       леченiя
+      </orig>
+     </choice>
+     . Остаюсь
+     <choice>
+      <reg>
+       здесь
+      </reg>
+      <orig>
+       здѣсь
+      </orig>
+     </choice>
+     до четверга. Все тоже самое. — Хорошо. —
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

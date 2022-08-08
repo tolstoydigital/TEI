@@ -1,84 +1,141 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v42_607_607_Iz_pisma_o_vospitanii_L_N_Tolstogo">Комментарии. Tolstoy Digital</title>
-        <title type="main">«Из письма о воспитании». Комментарий</title>
-        <author>H. Н. Гусев</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">Из письма о воспитании. Л. Н. Толстого</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 42</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1957"/>
-            </imprint>
-            <biblScope unit="volume">42</biblScope>
-            <biblScope unit="page">607-607</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="comments">
-            <catDesc>комментарии</catDesc>
-          </category>
-          <category ana="comments_works">
-            <catDesc>комментарии к произведениям</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <textClass>
-        <catRef target="type" ana="comments"/>
-      </textClass>
-      <textClass>
-        <catRef target="comments_type" ana="comments_works"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <body>
-      <div type="section" id="h000008003001022">
-        <pb n="607"/>
-        <h4 class="center">ИЗ ПИСЬМА Л. Н. ТОЛСТОГО К П.И.Б.</h4>
-        <p rend="left" id="5cf7b5d3-dcdb-4c78-b4d1-7b5819285027">Под названием «Из письма к П.И.Б.» в «Круге чтения» было дано с сокращениями письмо Толстого к П. И. Бирюкову от 5 мая 1901 г. (см. т. 73, стр. 62). В наборной рукописи «Круга чтения» имеется копия этого письма рукою H. Н. Ге-сына, в которой на лл. 6, 10, 15, 19, 23 и 24 Толстым сделан ряд исправлений и вставок. На л. 9 одно место снабжено Толстым карандашной пометой «<choice original_editorial_correction="пр[опустить]"><sic>пр</sic><corr>пропустить</corr></choice>». На лл. 1 и 20 той же копии карандашом сделаны сокращения рукою И. И. Горбунова-Посадова.</p>
-        <p rend="left" id="a52cd78e-8659-4edf-aea5-955f1cb1b20a">В корректуре «Круга чтения» Толстой вычеркнул начало письма, имевшее личный характер обращения к П. И. Бирюкову, сделал несколько небольших исправлений и вставок в тексте и вычеркнул весь конец (от слов: «Я думаю, что надо так» следующие десять абзацев, см. т. 73, стр. 67—68).</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_607_607_Iz_pisma_o_vospitanii_L_N_Tolstogo">
+     Комментарии. Tolstoy Digital
+    </title>
+    <title type="main">
+     «Из письма о воспитании». Комментарий
+    </title>
+    <author>
+     H. Н. Гусев
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Из письма о воспитании. Л. Н. Толстого
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 42
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       607-607
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="comments">
+      <catDesc>
+       комментарии
+      </catDesc>
+     </category>
+     <category ana="comments_works">
+      <catDesc>
+       комментарии к произведениям
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass>
+    <catRef ana="comments" target="type"/>
+   </textClass>
+   <textClass>
+    <catRef ana="comments_works" target="comments_type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <body>
+   <div id="h000008003001022" type="section">
+    <pb n="607"/>
+    <h4 class="center">
+     ИЗ ПИСЬМА Л. Н. ТОЛСТОГО К П.И.Б.
+    </h4>
+    <p id="5cf7b5d3-dcdb-4c78-b4d1-7b5819285027" rend="left">
+     Под названием «Из письма к П.И.Б.» в «Круге чтения» было дано с сокращениями письмо Толстого к П. И. Бирюкову от 5 мая 1901 г. (см. т. 73, стр. 62). В наборной рукописи «Круга чтения» имеется копия этого письма рукою H. Н. Ге-сына, в которой на лл. 6, 10, 15, 19, 23 и 24 Толстым сделан ряд исправлений и вставок. На л. 9 одно место снабжено Толстым карандашной пометой «
+     <choice original_editorial_correction="пр[опустить]">
+      <sic>
+       пр
+      </sic>
+      <corr>
+       пропустить
+      </corr>
+     </choice>
+     ». На лл. 1 и 20 той же копии карандашом сделаны сокращения рукою И. И. Горбунова-Посадова.
+    </p>
+    <p id="a52cd78e-8659-4edf-aea5-955f1cb1b20a" rend="left">
+     В корректуре «Круга чтения» Толстой вычеркнул начало письма, имевшее личный характер обращения к П. И. Бирюкову, сделал несколько небольших исправлений и вставок в тексте и вычеркнул весь конец (от слов: «Я думаю, что надо так» следующие десять абзацев, см. т. 73, стр. 67—68).
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

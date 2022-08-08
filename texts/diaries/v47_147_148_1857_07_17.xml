@@ -1,89 +1,265 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v47_147_148_1857_07_17">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 17 июля 1857 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1857 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 47</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">47</biblScope>
-            <biblScope unit="page">147-148</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1857-07-17"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="7a164eff-a1b4-4e2b-a62d-4b537de6b774">
-        <pb n="147"/>
-      </p>
-      <div n="v47_n635" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1857-07-17">
-              <hi>[17/29 июля.] 29 Іюля.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="d1aa9790-4b8f-41b2-88df-0bdab936cabf" rend="left"> Поздно <choice><reg>встал</reg><orig>всталъ</orig></choice>. Не <choice><reg>успел</reg><orig>успѣлъ</orig></choice> пить сыворотку. <choice><reg>Обедал</reg><orig>Обѣдалъ</orig></choice> у <choice original_editorial_correction="Смирно[вой]"><sic>Смирно</sic><corr>Смирновой</corr></choice>. Ничего не остается ни <choice><reg>в</reg><orig>въ</orig></choice><choice><reg>уме</reg><orig>умѣ</orig></choice>, ни <choice><reg>в</reg><orig>въ</orig></choice> памяти. <choice><reg>Ездил</reg><orig>Ѣздилъ</orig></choice><choice><reg>в</reg><orig>въ</orig></choice> Ebersteinschlos. — <choice><reg>Слушал</reg><orig>Слушалъ</orig></choice><hi style="opdelimiter">Полонскаго</hi><pb n="148"/><hi style="npdelimiter">—</hi> плохо. Не <choice><reg>играл</reg><orig>игралъ</orig></choice>, потому что не на что. Дурно, гадко, и <choice><reg>вот</reg><orig>вотъ</orig></choice><choice><reg>уж</reg><orig>ужъ</orig></choice> скоро <choice><reg>неделя</reg><orig>недѣля</orig></choice> такой жизни.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v47_147_148_1857_07_17">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 17 июля 1857 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1857 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 47
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       47
+      </biblScope>
+      <biblScope unit="page">
+       147-148
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1857-07-17"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="7a164eff-a1b4-4e2b-a62d-4b537de6b774">
+    <pb n="147"/>
+   </p>
+   <div n="v47_n635" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1857-07-17">
+       <hi>
+        [17/29 июля.] 29 Іюля.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="d1aa9790-4b8f-41b2-88df-0bdab936cabf" rend="left">
+     Поздно
+     <choice>
+      <reg>
+       встал
+      </reg>
+      <orig>
+       всталъ
+      </orig>
+     </choice>
+     . Не
+     <choice>
+      <reg>
+       успел
+      </reg>
+      <orig>
+       успѣлъ
+      </orig>
+     </choice>
+     пить сыворотку.
+     <choice>
+      <reg>
+       Обедал
+      </reg>
+      <orig>
+       Обѣдалъ
+      </orig>
+     </choice>
+     у
+     <choice original_editorial_correction="Смирно[вой]">
+      <sic>
+       Смирно
+      </sic>
+      <corr>
+       Смирновой
+      </corr>
+     </choice>
+     . Ничего не остается ни
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       уме
+      </reg>
+      <orig>
+       умѣ
+      </orig>
+     </choice>
+     , ни
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     памяти.
+     <choice>
+      <reg>
+       Ездил
+      </reg>
+      <orig>
+       Ѣздилъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     Ebersteinschlos. —
+     <choice>
+      <reg>
+       Слушал
+      </reg>
+      <orig>
+       Слушалъ
+      </orig>
+     </choice>
+     <hi style="opdelimiter">
+      Полонскаго
+     </hi>
+     <pb n="148"/>
+     <hi style="npdelimiter">
+      —
+     </hi>
+     плохо. Не
+     <choice>
+      <reg>
+       играл
+      </reg>
+      <orig>
+       игралъ
+      </orig>
+     </choice>
+     , потому что не на что. Дурно, гадко, и
+     <choice>
+      <reg>
+       вот
+      </reg>
+      <orig>
+       вотъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       уж
+      </reg>
+      <orig>
+       ужъ
+      </orig>
+     </choice>
+     скоро
+     <choice>
+      <reg>
+       неделя
+      </reg>
+      <orig>
+       недѣля
+      </orig>
+     </choice>
+     такой жизни.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

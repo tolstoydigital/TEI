@@ -1,90 +1,174 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v50_184_184_1889_11_26">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 26 ноября 1889 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1889 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 50</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">50</biblScope>
-            <biblScope unit="page">184-184</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1889-11-26"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="974a11cc-859e-4c7a-8770-1bcf03d2a06b">
-        <pb n="184"/>
-      </p>
-      <div n="v50_n380" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1889-11-26">
-              <hi>[26 ноября.]</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="e9ef3085-8a12-400a-a419-d2a9f4f2fc81" rend="left"> День пропустил. Нынче 26. Встал рано, пошел рубить. Потом заснул, а потом писал о науке и искусстве. Проснувшись, очень ясно думал об этом. Писал не дурно. Письмо от Суворина. Читал Лескова. Фальшиво. Дурно.</p>
-        <p id="e9ef3085-8a12-400a-a419-d2a9f4f2fc81" style="left">Думал: признак истинной, т. е. самоотверженной любви тот, что если человек, <choice original_editorial_correction="к[оторого]"><sic>к</sic><corr>которого</corr></choice> я люблю и для <choice original_editorial_correction="к[оторого]"><sic>к</sic><corr>которого</corr></choice> тружусь, не принимает моих трудов, презирает их, я все-таки не могу сердиться на него и не дорожу своими трудами. <choice><reg>Противоположный</reg><orig>Противуположный</orig></choice> признак ложной эгоистичной привязанности. <choice original_editorial_correction="С[оня]"><sic>С</sic><corr>Соня</corr></choice> рассказывала про Илюшу. Очень жаль его.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v50_184_184_1889_11_26">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 26 ноября 1889 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1889 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 50
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       50
+      </biblScope>
+      <biblScope unit="page">
+       184-184
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1889-11-26"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="974a11cc-859e-4c7a-8770-1bcf03d2a06b">
+    <pb n="184"/>
+   </p>
+   <div n="v50_n380" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1889-11-26">
+       <hi>
+        [26 ноября.]
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="e9ef3085-8a12-400a-a419-d2a9f4f2fc81" rend="left">
+     День пропустил. Нынче 26. Встал рано, пошел рубить. Потом заснул, а потом писал о науке и искусстве. Проснувшись, очень ясно думал об этом. Писал не дурно. Письмо от Суворина. Читал Лескова. Фальшиво. Дурно.
+    </p>
+    <p id="e9ef3085-8a12-400a-a419-d2a9f4f2fc81" style="left">
+     Думал: признак истинной, т. е. самоотверженной любви тот, что если человек,
+     <choice original_editorial_correction="к[оторого]">
+      <sic>
+       к
+      </sic>
+      <corr>
+       которого
+      </corr>
+     </choice>
+     я люблю и для
+     <choice original_editorial_correction="к[оторого]">
+      <sic>
+       к
+      </sic>
+      <corr>
+       которого
+      </corr>
+     </choice>
+     тружусь, не принимает моих трудов, презирает их, я все-таки не могу сердиться на него и не дорожу своими трудами.
+     <choice>
+      <reg>
+       Противоположный
+      </reg>
+      <orig>
+       Противуположный
+      </orig>
+     </choice>
+     признак ложной эгоистичной привязанности.
+     <choice original_editorial_correction="С[оня]">
+      <sic>
+       С
+      </sic>
+      <corr>
+       Соня
+      </corr>
+     </choice>
+     рассказывала про Илюшу. Очень жаль его.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

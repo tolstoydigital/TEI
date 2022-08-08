@@ -1,90 +1,210 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v54_121_121_1902_01_04">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 4 января 1902 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1902 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 54</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1935"/>
-            </imprint>
-            <biblScope unit="volume">54</biblScope>
-            <biblScope unit="page">121-121</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1902-01-04"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="5a29bc02-42cb-456f-a144-426ad0c97500">
-        <pb n="121"/>
-      </p>
-      <div n="v54_n117" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1902-01-04">
-              <hi>4 Января 1902</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="35bce5a3-92b5-4f24-8c90-c1e39bb2c3c8" rend="left">. <hi>Г</hi>[<hi>аспра</hi>]<hi>.</hi></p>
-        <p id="3c87ead9-4144-4cea-8b7d-369705070f53" style="left">1) <choice><reg>Бывают</reg><orig>Бываютъ</orig></choice> минуты, что не могу радоваться, или хотя равнодушно <choice><reg>смотреть</reg><orig>смотрѣть</orig></choice>, на <choice><reg>приближение</reg><orig>приближенiе</orig></choice> смерти. А <choice><reg>бывает</reg><orig>бываетъ</orig></choice><choice><reg>в</reg><orig>въ</orig></choice><choice><reg>хорошия</reg><orig>хорошiя</orig></choice> минуты, что <choice><reg>так</reg><orig>такъ</orig></choice> просто, хорошо.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v54_121_121_1902_01_04">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 4 января 1902 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1902 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 54
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       54
+      </biblScope>
+      <biblScope unit="page">
+       121-121
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1902-01-04"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="5a29bc02-42cb-456f-a144-426ad0c97500">
+    <pb n="121"/>
+   </p>
+   <div n="v54_n117" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1902-01-04">
+       <hi>
+        4 Января 1902
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="35bce5a3-92b5-4f24-8c90-c1e39bb2c3c8" rend="left">
+     .
+     <hi>
+      Г
+     </hi>
+     [
+     <hi>
+      аспра
+     </hi>
+     ]
+     <hi>
+      .
+     </hi>
+    </p>
+    <p id="3c87ead9-4144-4cea-8b7d-369705070f53" style="left">
+     1)
+     <choice>
+      <reg>
+       Бывают
+      </reg>
+      <orig>
+       Бываютъ
+      </orig>
+     </choice>
+     минуты, что не могу радоваться, или хотя равнодушно
+     <choice>
+      <reg>
+       смотреть
+      </reg>
+      <orig>
+       смотрѣть
+      </orig>
+     </choice>
+     , на
+     <choice>
+      <reg>
+       приближение
+      </reg>
+      <orig>
+       приближенiе
+      </orig>
+     </choice>
+     смерти. А
+     <choice>
+      <reg>
+       бывает
+      </reg>
+      <orig>
+       бываетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       хорошия
+      </reg>
+      <orig>
+       хорошiя
+      </orig>
+     </choice>
+     минуты, что
+     <choice>
+      <reg>
+       так
+      </reg>
+      <orig>
+       такъ
+      </orig>
+     </choice>
+     просто, хорошо.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

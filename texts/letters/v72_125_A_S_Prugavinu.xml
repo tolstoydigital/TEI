@@ -1,79 +1,285 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v72_125_A_S_Prugavinu">Письма и документы. Tolstoy Digital</title>
-        <title type="main">Письмо А. С. Пругавину от 9 июня 1899 г.</title>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Л.Н.</author>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 72</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1933"/>
-            </imprint>
-            <biblScope unit="vol">72</biblScope>
-            <biblScope unit="page">141-141</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-          </series>
-        </biblStruct>
-        <bibl/>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <correspDesc>
-        <correspAction type="sending">
-          <persName ref="13883">Л. Н. Толстой</persName>
-          <placeName>Ясная Поляна</placeName>
-          <date when="1899-06-09"/>
-        </correspAction>
-        <correspAction type="receiving">
-          <persName ref="11342">Пругавин Александр Степанович</persName>
-        </correspAction>
-      </correspDesc>
-      <langUsage>
-        <language ident="ru"/>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-  <xenoData>
-    <number type="in a volume">125</number>
-  </xenoData>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="A.S.Prugavinu_125">
-    <body>
-      <div>
-        <pb n="141"/>
-        <opener index="false">125. А. С. Пругавину.1899 г. Июня 9? Я. П.</opener>
-        <p id="9f2a0fcd-d2ce-4b2b-aae5-125c02cc88a1" rend="left">Посылаю <choice><reg>вам</reg><orig>вамъ</orig></choice>, дорогой <choice><reg>Александр</reg><orig>Александръ</orig></choice> <choice><reg>Степанович</reg><orig>Степановичъ</orig></choice>, 600 р. <choice><reg>из</reg><orig>изъ</orig></choice> <choice><reg>пожертвованных</reg><orig>пожертвованныхъ</orig></choice> <choice><reg>через</reg><orig>черезъ</orig></choice> меня. <choice><reg>Тут</reg><orig>Тутъ</orig></choice> есть 461 р. 68 [к.] <choice><reg>из</reg><orig>изъ</orig></choice> Ревельской <choice><reg>гимназии</reg><orig>гимназiи</orig></choice>, <choice><reg>предназначенные</reg><orig>предназначенныя</orig></choice> для Самарской и Саратовской, и 23 р. исключительно для <choice><reg>детей</reg><orig>дѣтей</orig></choice> <choice><reg>Алексеевского</reg><orig>Алексѣевскаго</orig></choice>.<note xml:id="note1" resp="volume_editor" index="false"> С. Алексеевское, Землянки тож, Бузулукского у. Самарской губ., в восемнадцати верстах от бывшего имения Толстого.</note> Будьте добры <choice><reg>разместить</reg><orig>размѣстить</orig></choice> <choice><reg>их</reg><orig>ихъ</orig></choice> по <choice><reg>назначению</reg><orig>назначенiю</orig></choice>. Радуюсь <choice><reg>успеху</reg><orig>успѣху</orig></choice> вашей <choice><reg>деятельности</reg><orig>дѣятельности</orig></choice>.</p>
-        <p id="c4512a8e-7362-4b64-85c0-6e2fb4cd8a88" rend="right"><choice><reg>Лев</reg><orig>Левъ</orig></choice> Толстой.</p>
-        <comments/>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v72_125_A_S_Prugavinu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо А. С. Пругавину от 9 июня 1899 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 72
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1933"/>
+      </imprint>
+      <biblScope unit="vol">
+       72
+      </biblScope>
+      <biblScope unit="page">
+       141-141
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl/>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Ясная Поляна
+     </placeName>
+     <date when="1899-06-09"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="11342">
+      Пругавин Александр Степанович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   125
+  </number>
+ </xenoData>
+ <text xml:id="A.S.Prugavinu_125" xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <div>
+    <pb n="141"/>
+    <opener index="false">
+     125. А. С. Пругавину.1899 г. Июня 9? Я. П.
+    </opener>
+    <p id="9f2a0fcd-d2ce-4b2b-aae5-125c02cc88a1" rend="left">
+     Посылаю
+     <choice>
+      <reg>
+       вам
+      </reg>
+      <orig>
+       вамъ
+      </orig>
+     </choice>
+     , дорогой
+     <choice>
+      <reg>
+       Александр
+      </reg>
+      <orig>
+       Александръ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Степанович
+      </reg>
+      <orig>
+       Степановичъ
+      </orig>
+     </choice>
+     , 600 р.
+     <choice>
+      <reg>
+       из
+      </reg>
+      <orig>
+       изъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       пожертвованных
+      </reg>
+      <orig>
+       пожертвованныхъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       через
+      </reg>
+      <orig>
+       черезъ
+      </orig>
+     </choice>
+     меня.
+     <choice>
+      <reg>
+       Тут
+      </reg>
+      <orig>
+       Тутъ
+      </orig>
+     </choice>
+     есть 461 р. 68 [к.]
+     <choice>
+      <reg>
+       из
+      </reg>
+      <orig>
+       изъ
+      </orig>
+     </choice>
+     Ревельской
+     <choice>
+      <reg>
+       гимназии
+      </reg>
+      <orig>
+       гимназiи
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       предназначенные
+      </reg>
+      <orig>
+       предназначенныя
+      </orig>
+     </choice>
+     для Самарской и Саратовской, и 23 р. исключительно для
+     <choice>
+      <reg>
+       детей
+      </reg>
+      <orig>
+       дѣтей
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Алексеевского
+      </reg>
+      <orig>
+       Алексѣевскаго
+      </orig>
+     </choice>
+     .
+     <note index="false" resp="volume_editor" xml:id="note1">
+      С. Алексеевское, Землянки тож, Бузулукского у. Самарской губ., в восемнадцати верстах от бывшего имения Толстого.
+     </note>
+     Будьте добры
+     <choice>
+      <reg>
+       разместить
+      </reg>
+      <orig>
+       размѣстить
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       их
+      </reg>
+      <orig>
+       ихъ
+      </orig>
+     </choice>
+     по
+     <choice>
+      <reg>
+       назначению
+      </reg>
+      <orig>
+       назначенiю
+      </orig>
+     </choice>
+     . Радуюсь
+     <choice>
+      <reg>
+       успеху
+      </reg>
+      <orig>
+       успѣху
+      </orig>
+     </choice>
+     вашей
+     <choice>
+      <reg>
+       деятельности
+      </reg>
+      <orig>
+       дѣятельности
+      </orig>
+     </choice>
+     .
+    </p>
+    <p id="c4512a8e-7362-4b64-85c0-6e2fb4cd8a88" rend="right">
+     <choice>
+      <reg>
+       Лев
+      </reg>
+      <orig>
+       Левъ
+      </orig>
+     </choice>
+     Толстой.
+    </p>
+    <comments/>
+   </div>
+  </body>
+ </text>
 </TEI>

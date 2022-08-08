@@ -1,87 +1,162 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v49_107_107_1883_06_24">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 24 июня 1883 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">?</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 49</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">49</biblScope>
-            <biblScope unit="page">107-107</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1883-06-24"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <div n="v49_n226" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1883-06-24">
-              <hi> [24 июня/6 июля.]</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="bc11d68f-bbc2-47b5-be71-758b90c6b463" rend="left"><pb n="107"/>Встал не так рано, усталый. Пошел на Козловку. Письмо Урусова. Мечтал о том, как бы я поехал во Францию — везде можно одинаково хорошо жить. Теоретически можно. Попробовал продолжать писанье — не мог. После обеда с Таней ездили верхом в Ясенки. Она напугала нас на Султане. Больше ничего не помню. Многого я очень требую от моих близких. В них шевелится совесть, в лучших, и то хорошо. — <choice original_editorial_correction="Ал[ександр]"><sic>Ал</sic><corr>Александр</corr></choice><choice original_editorial_correction="Мих[айлович]"><sic>Мих</sic><corr>Михайлович</corr></choice> очень таков .</p>
-        <p id="6e62aa82-9df0-431a-a67a-947916cf3366" rend="left">Перечитывал дневник тех дней, когда <choice><reg>отыскивал</reg><orig>отъискивал</orig></choice> причину соблазнов. Всё вздор, одна — отсутствие физической напряженной работы. Я недостаточно ценю счастье свободы от соблазнов после работы. Это счастье дешево купить усталостью и болью мускулов. —</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v49_107_107_1883_06_24">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 24 июня 1883 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       ?
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 49
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       49
+      </biblScope>
+      <biblScope unit="page">
+       107-107
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1883-06-24"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <div n="v49_n226" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1883-06-24">
+       <hi>
+        [24 июня/6 июля.]
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="bc11d68f-bbc2-47b5-be71-758b90c6b463" rend="left">
+     <pb n="107"/>
+     Встал не так рано, усталый. Пошел на Козловку. Письмо Урусова. Мечтал о том, как бы я поехал во Францию — везде можно одинаково хорошо жить. Теоретически можно. Попробовал продолжать писанье — не мог. После обеда с Таней ездили верхом в Ясенки. Она напугала нас на Султане. Больше ничего не помню. Многого я очень требую от моих близких. В них шевелится совесть, в лучших, и то хорошо. —
+     <choice original_editorial_correction="Ал[ександр]">
+      <sic>
+       Ал
+      </sic>
+      <corr>
+       Александр
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Мих[айлович]">
+      <sic>
+       Мих
+      </sic>
+      <corr>
+       Михайлович
+      </corr>
+     </choice>
+     очень таков .
+    </p>
+    <p id="6e62aa82-9df0-431a-a67a-947916cf3366" rend="left">
+     Перечитывал дневник тех дней, когда
+     <choice>
+      <reg>
+       отыскивал
+      </reg>
+      <orig>
+       отъискивал
+      </orig>
+     </choice>
+     причину соблазнов. Всё вздор, одна — отсутствие физической напряженной работы. Я недостаточно ценю счастье свободы от соблазнов после работы. Это счастье дешево купить усталостью и болью мускулов. —
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

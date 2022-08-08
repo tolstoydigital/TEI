@@ -1,89 +1,193 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v47_098_098_1856_11_06">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 6 ноября 1856 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1856 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 47</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">47</biblScope>
-            <biblScope unit="page">98-98</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1856-11-06"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="f07d61c6-8709-4412-b351-8143010ae28e">
-        <pb n="98"/>
-      </p>
-      <div n="v47_n399" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1856-11-06">
-              <hi>6 Ноября.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="c5c94e84-93f7-4e65-933b-692b68499a05" rend="left"><choice><reg>Выехал</reg><orig>Выѣхалъ</orig></choice><choice><reg>с</reg><orig>съ</orig></choice><choice original_editorial_correction="Тишк[евичемъ]"><sic>Тишк</sic><corr><choice><reg>Тишкевичем</reg><orig>Тишкевичемъ</orig></choice></corr></choice> и <choice><reg>Волконским</reg><orig>Волконскимъ</orig></choice>. Дорогой <choice><reg>читал</reg><orig>читалъ</orig></choice> Little Dorrit, <choice><reg>спал</reg><orig>спалъ</orig></choice> славно.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v47_098_098_1856_11_06">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 6 ноября 1856 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1856 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 47
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       47
+      </biblScope>
+      <biblScope unit="page">
+       98-98
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856-11-06"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="f07d61c6-8709-4412-b351-8143010ae28e">
+    <pb n="98"/>
+   </p>
+   <div n="v47_n399" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1856-11-06">
+       <hi>
+        6 Ноября.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="c5c94e84-93f7-4e65-933b-692b68499a05" rend="left">
+     <choice>
+      <reg>
+       Выехал
+      </reg>
+      <orig>
+       Выѣхалъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Тишк[евичемъ]">
+      <sic>
+       Тишк
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Тишкевичем
+        </reg>
+        <orig>
+         Тишкевичемъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     и
+     <choice>
+      <reg>
+       Волконским
+      </reg>
+      <orig>
+       Волконскимъ
+      </orig>
+     </choice>
+     . Дорогой
+     <choice>
+      <reg>
+       читал
+      </reg>
+      <orig>
+       читалъ
+      </orig>
+     </choice>
+     Little Dorrit,
+     <choice>
+      <reg>
+       спал
+      </reg>
+      <orig>
+       спалъ
+      </orig>
+     </choice>
+     славно.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

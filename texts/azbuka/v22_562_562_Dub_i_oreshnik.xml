@@ -1,110 +1,561 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v22_562_562_Dub_i_oreshnik">Азбука. Tolstoy Digital</title>
-        <title type="main">Дуб и орешник</title>
-        <title type="sub">Рассказ из "Азбуки"</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">Дуб и орешник</title>
-            <title level="s">Азбука</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений.</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1957"/>
-            </imprint>
-            <biblScope unit="volume">22</biblScope>
-            <biblScope unit="page">562-562</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="works">
-            <catDesc>произведения</catDesc>
-          </category>
-          <category ana="fiction">
-            <catDesc>художественные произведения</catDesc>
-          </category>
-          <category ana="kids">
-            <catDesc>произведения для детей</catDesc>
-          </category>
-          <category ana="publ">
-            <catDesc>опубликованное при жизни</catDesc>
-          </category>
-          <category ana="finished">
-            <catDesc>законченные произведения</catDesc>
-          </category>
-          <category ana="included">
-            <catDesc>включено в одну из Азбук или Книг для чтения</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1872"/>
-      </creation>
-      <textClass>
-        <catRef target="type" ana="works"/>
-        <catRef target="sphere" ana="fiction"/>
-        <catRef target="genre" ana="kids"/>
-        <catRef target="finished" ana="finished"/>
-        <catRef target="published" ana="publ"/>
-        <catRef target="included" ana="included"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <body>
-      <div type="section" xml:id="ref236">
-        <p id="0cdce95d-1c8f-4ed1-8e3b-3053796567c2">
-          <pb n="562"/>
-        </p>
-        <head rend="center">
-          <hi rend="strong"><choice><reg>ДУБ</reg></choice>И<choice><reg>ОРЕШНИК</reg></choice>.</hi>
-        </head>
-        <p rend="left" id="d2c37684-047e-49f1-b2d2-17996bff4803">Старый<choice><reg>дуб</reg></choice><choice><reg>уронил</reg></choice><choice><reg>с</reg></choice>себя жолудь<choice><reg>под</reg></choice><choice><reg>куст</reg></choice><choice><reg>орешника</reg></choice>.<choice><reg>Орешник</reg></choice><choice><reg>сказал</reg></choice>дубу: «<choice><reg>Разве</reg></choice>мало простора<choice><reg>под</reg></choice>твоими сучьями?<choice><reg>Ты бы</reg></choice><choice><reg>ронял</reg></choice>свои жолуди на чистое<choice><reg>место</reg></choice>.<choice><reg>Здесь</reg></choice><choice><reg>мне</reg></choice>самому<choice><reg>тесно</reg></choice>для<choice><reg>моих</reg></choice><choice><reg>отростков</reg></choice>, и я<choice><reg>сам</reg></choice>не бросаю на земь<choice><reg>своих</reg></choice><choice><reg>орехов</reg></choice>, а отдаю<choice><reg>их</reg></choice><choice><reg>людям</reg></choice>»</p>
-        <p rend="left" id="e8b4c9ff-edff-4844-833e-779b97af2d1c">«Я живу 200<choice><reg>лет</reg></choice>»,<choice><reg>сказал</reg></choice>на это<choice><reg>дуб</reg></choice>, «и<choice><reg>дубок</reg></choice><choice><reg>из</reg></choice>этого жолудя<choice><reg>проживет</reg></choice><choice><reg>столько же</reg></choice>».</p>
-        <p rend="left" id="a4f9b6fa-0577-4a55-8cf6-20fcbf9b24eb">Тогда<choice><reg>орешник</reg></choice><choice><reg>рассердился</reg></choice>и<choice><reg>сказал</reg></choice>: «<choice><reg>так</reg></choice>я заглушу твой<choice><reg>дубок</reg></choice>, и<choice><reg>он</reg></choice>не<choice><reg>проживет</reg></choice>и<choice><reg>трех</reg></choice>дней».<choice><reg>Дуб</reg></choice>ничего не<choice><reg>ответил</reg></choice>, a<choice><reg>велел</reg></choice>расти своему сынку<choice><reg>из</reg></choice>жолудя.</p>
-        <p rend="left" id="9639651d-d181-47b4-8481-eed885fcc25b">Жолудь<choice><reg>намок</reg></choice>,<choice><reg>лопнул</reg></choice>и<choice><reg>уцепился</reg></choice><choice><reg>крючком</reg></choice>. ростка<choice><reg>в</reg></choice>землю, а другой<choice><reg>росток</reg></choice>кверху.</p>
-        <p rend="left" id="ff7b21e6-47c8-4f62-85e2-d5e5201c0d15"><choice><reg>Орешник</reg></choice><choice><reg>глушил</reg></choice>его и не<choice><reg>давал</reg></choice>солнца. Но<choice><reg>дубок</reg></choice>тянулся<choice><reg>к</reg></choice>верху и<choice><reg>стал</reg></choice><choice><reg>сильнее</reg></choice><choice><reg>в</reg></choice><choice><reg>тени</reg></choice><choice><reg>орешника</reg></choice>. Прошло сто<choice><reg>лет</reg></choice>.<choice><reg>Орешник</reg></choice>давно<choice><reg>засох</reg></choice>, а<choice><reg>дуб</reg></choice><choice><reg>из</reg></choice>жолудя поднялся до неба и<choice><reg>раскинул</reg></choice><choice><reg>шатер</reg></choice>на<choice><reg>все</reg></choice>стороны.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v22_562_562_Dub_i_oreshnik">
+     Азбука. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дуб и орешник
+    </title>
+    <title type="sub">
+     Рассказ из "Азбуки"
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Дуб и орешник
+      </title>
+      <title level="s">
+       Азбука
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       22
+      </biblScope>
+      <biblScope unit="page">
+       562-562
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="works">
+      <catDesc>
+       произведения
+      </catDesc>
+     </category>
+     <category ana="fiction">
+      <catDesc>
+       художественные произведения
+      </catDesc>
+     </category>
+     <category ana="kids">
+      <catDesc>
+       произведения для детей
+      </catDesc>
+     </category>
+     <category ana="publ">
+      <catDesc>
+       опубликованное при жизни
+      </catDesc>
+     </category>
+     <category ana="finished">
+      <catDesc>
+       законченные произведения
+      </catDesc>
+     </category>
+     <category ana="included">
+      <catDesc>
+       включено в одну из Азбук или Книг для чтения
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1872"/>
+   </creation>
+   <textClass>
+    <catRef ana="works" target="type"/>
+    <catRef ana="fiction" target="sphere"/>
+    <catRef ana="kids" target="genre"/>
+    <catRef ana="finished" target="finished"/>
+    <catRef ana="publ" target="published"/>
+    <catRef ana="included" target="included"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <body>
+   <div type="section" xml:id="ref236">
+    <p id="0cdce95d-1c8f-4ed1-8e3b-3053796567c2">
+     <pb n="562"/>
+    </p>
+    <head rend="center">
+     <hi rend="strong">
+      <choice>
+       <reg>
+        ДУБ
+       </reg>
+      </choice>
+      И
+      <choice>
+       <reg>
+        ОРЕШНИК
+       </reg>
+      </choice>
+      .
+     </hi>
+    </head>
+    <p id="d2c37684-047e-49f1-b2d2-17996bff4803" rend="left">
+     Старый
+     <choice>
+      <reg>
+       дуб
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       уронил
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+     </choice>
+     себя жолудь
+     <choice>
+      <reg>
+       под
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       куст
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       орешника
+      </reg>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Орешник
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       сказал
+      </reg>
+     </choice>
+     дубу: «
+     <choice>
+      <reg>
+       Разве
+      </reg>
+     </choice>
+     мало простора
+     <choice>
+      <reg>
+       под
+      </reg>
+     </choice>
+     твоими сучьями?
+     <choice>
+      <reg>
+       Ты бы
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       ронял
+      </reg>
+     </choice>
+     свои жолуди на чистое
+     <choice>
+      <reg>
+       место
+      </reg>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Здесь
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       мне
+      </reg>
+     </choice>
+     самому
+     <choice>
+      <reg>
+       тесно
+      </reg>
+     </choice>
+     для
+     <choice>
+      <reg>
+       моих
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       отростков
+      </reg>
+     </choice>
+     , и я
+     <choice>
+      <reg>
+       сам
+      </reg>
+     </choice>
+     не бросаю на земь
+     <choice>
+      <reg>
+       своих
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       орехов
+      </reg>
+     </choice>
+     , а отдаю
+     <choice>
+      <reg>
+       их
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       людям
+      </reg>
+     </choice>
+     »
+    </p>
+    <p id="e8b4c9ff-edff-4844-833e-779b97af2d1c" rend="left">
+     «Я живу 200
+     <choice>
+      <reg>
+       лет
+      </reg>
+     </choice>
+     »,
+     <choice>
+      <reg>
+       сказал
+      </reg>
+     </choice>
+     на это
+     <choice>
+      <reg>
+       дуб
+      </reg>
+     </choice>
+     , «и
+     <choice>
+      <reg>
+       дубок
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       из
+      </reg>
+     </choice>
+     этого жолудя
+     <choice>
+      <reg>
+       проживет
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       столько же
+      </reg>
+     </choice>
+     ».
+    </p>
+    <p id="a4f9b6fa-0577-4a55-8cf6-20fcbf9b24eb" rend="left">
+     Тогда
+     <choice>
+      <reg>
+       орешник
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       рассердился
+      </reg>
+     </choice>
+     и
+     <choice>
+      <reg>
+       сказал
+      </reg>
+     </choice>
+     : «
+     <choice>
+      <reg>
+       так
+      </reg>
+     </choice>
+     я заглушу твой
+     <choice>
+      <reg>
+       дубок
+      </reg>
+     </choice>
+     , и
+     <choice>
+      <reg>
+       он
+      </reg>
+     </choice>
+     не
+     <choice>
+      <reg>
+       проживет
+      </reg>
+     </choice>
+     и
+     <choice>
+      <reg>
+       трех
+      </reg>
+     </choice>
+     дней».
+     <choice>
+      <reg>
+       Дуб
+      </reg>
+     </choice>
+     ничего не
+     <choice>
+      <reg>
+       ответил
+      </reg>
+     </choice>
+     , a
+     <choice>
+      <reg>
+       велел
+      </reg>
+     </choice>
+     расти своему сынку
+     <choice>
+      <reg>
+       из
+      </reg>
+     </choice>
+     жолудя.
+    </p>
+    <p id="9639651d-d181-47b4-8481-eed885fcc25b" rend="left">
+     Жолудь
+     <choice>
+      <reg>
+       намок
+      </reg>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       лопнул
+      </reg>
+     </choice>
+     и
+     <choice>
+      <reg>
+       уцепился
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       крючком
+      </reg>
+     </choice>
+     . ростка
+     <choice>
+      <reg>
+       в
+      </reg>
+     </choice>
+     землю, а другой
+     <choice>
+      <reg>
+       росток
+      </reg>
+     </choice>
+     кверху.
+    </p>
+    <p id="ff7b21e6-47c8-4f62-85e2-d5e5201c0d15" rend="left">
+     <choice>
+      <reg>
+       Орешник
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       глушил
+      </reg>
+     </choice>
+     его и не
+     <choice>
+      <reg>
+       давал
+      </reg>
+     </choice>
+     солнца. Но
+     <choice>
+      <reg>
+       дубок
+      </reg>
+     </choice>
+     тянулся
+     <choice>
+      <reg>
+       к
+      </reg>
+     </choice>
+     верху и
+     <choice>
+      <reg>
+       стал
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       сильнее
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       тени
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       орешника
+      </reg>
+     </choice>
+     . Прошло сто
+     <choice>
+      <reg>
+       лет
+      </reg>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Орешник
+      </reg>
+     </choice>
+     давно
+     <choice>
+      <reg>
+       засох
+      </reg>
+     </choice>
+     , а
+     <choice>
+      <reg>
+       дуб
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       из
+      </reg>
+     </choice>
+     жолудя поднялся до неба и
+     <choice>
+      <reg>
+       раскинул
+      </reg>
+     </choice>
+     <choice>
+      <reg>
+       шатер
+      </reg>
+     </choice>
+     на
+     <choice>
+      <reg>
+       все
+      </reg>
+     </choice>
+     стороны.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

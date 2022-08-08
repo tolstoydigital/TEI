@@ -1,108 +1,164 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v90_146_146_Molitva_Esli_ja_v_ljubvi">Молитва («Если я в любви...»). Tolstoy Digital</title>
-        <title type="main">Молитва</title>
-        <title type="sub">«Если я в любви...»</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">Молитва («Если я в любви...»)</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 90</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1958"/>
-            </imprint>
-            <biblScope unit="volume">90</biblScope>
-            <biblScope unit="page">146-146</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="works">
-            <catDesc>произведения</catDesc>
-          </category>
-          <category ana="publ">
-            <catDesc>опубликованное при жизни</catDesc>
-          </category>
-          <category ana="not_finished">
-            <catDesc>незаконченное, неотделанное, черновики</catDesc>
-          </category>
-          <category ana="nonfiction">
-            <catDesc>нехудожественные произведения</catDesc>
-          </category>
-          <category ana="statja">
-            <catDesc>статья</catDesc>
-          </category>
-          <category ana="philosophy_religion">
-            <catDesc>философия и религия</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1909"/>
-      </creation>
-      <langUsage>
-        <language ident="ru"/>
-      </langUsage>
-      <textClass>
-        <catRef target="type" ana="works"/>
-        <catRef target="sphere" ana="nonfiction"/>
-        <catRef target="genre" ana="statja"/>
-        <catRef target="finished" ana="not_finished"/>
-        <catRef target="topic" ana="philosophy_religion"/>
-        <catRef target="published" ana="publ"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <body>
-      <div type="section" xml:id="h001">
-        <p id="f7e66fad-ac5a-4b2d-a376-9b3129a77139">
-          <pb n="146"/>
-        </p>
-        <head class="center">
-          <del>МОЛИТВА</del>
-        </head>
-        <p rend="left" id="b8a998c8-0aaf-4e7c-b5f4-a2ad3fac38a3">Если я в любви, то бог во мне, и я в боге. А если бог во мне и я в боге, то всё хорошо, и не может со мною быть ничего худого. Так буду же всегда в любви со всеми и в делах, и в словах, и пуще всего в мыслях.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v90_146_146_Molitva_Esli_ja_v_ljubvi">
+     Молитва («Если я в любви...»). Tolstoy Digital
+    </title>
+    <title type="main">
+     Молитва
+    </title>
+    <title type="sub">
+     «Если я в любви...»
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Молитва («Если я в любви...»)
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 90
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1958"/>
+      </imprint>
+      <biblScope unit="volume">
+       90
+      </biblScope>
+      <biblScope unit="page">
+       146-146
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="works">
+      <catDesc>
+       произведения
+      </catDesc>
+     </category>
+     <category ana="publ">
+      <catDesc>
+       опубликованное при жизни
+      </catDesc>
+     </category>
+     <category ana="not_finished">
+      <catDesc>
+       незаконченное, неотделанное, черновики
+      </catDesc>
+     </category>
+     <category ana="nonfiction">
+      <catDesc>
+       нехудожественные произведения
+      </catDesc>
+     </category>
+     <category ana="statja">
+      <catDesc>
+       статья
+      </catDesc>
+     </category>
+     <category ana="philosophy_religion">
+      <catDesc>
+       философия и религия
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1909"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="works" target="type"/>
+    <catRef ana="nonfiction" target="sphere"/>
+    <catRef ana="statja" target="genre"/>
+    <catRef ana="not_finished" target="finished"/>
+    <catRef ana="philosophy_religion" target="topic"/>
+    <catRef ana="publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <body>
+   <div type="section" xml:id="h001">
+    <p id="f7e66fad-ac5a-4b2d-a376-9b3129a77139">
+     <pb n="146"/>
+    </p>
+    <head class="center">
+     <del>
+      МОЛИТВА
+     </del>
+    </head>
+    <p id="b8a998c8-0aaf-4e7c-b5f4-a2ad3fac38a3" rend="left">
+     Если я в любви, то бог во мне, и я в боге. А если бог во мне и я в боге, то всё хорошо, и не может со мною быть ничего худого. Так буду же всегда в любви со всеми и в делах, и в словах, и пуще всего в мыслях.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

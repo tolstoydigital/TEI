@@ -1,87 +1,150 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v04_412_412_II_Zametka_po_povodu_voennogo_zhurnala">Комментарии. Tolstoy Digital</title>
-        <title type="main">«Заметка по поводу военного журнала». Комментарий</title>
-        <author>В. И. Срезневский</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">II. Заметка по поводу военного журнала</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 4</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1953"/>
-            </imprint>
-            <biblScope unit="volume">4</biblScope>
-            <biblScope unit="page">412-412</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="comments">
-            <catDesc>комментарии</catDesc>
-          </category>
-          <category ana="comments_works">
-            <catDesc>комментарии к произведениям</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <textClass>
-        <catRef target="type" ana="comments"/>
-      </textClass>
-      <textClass>
-        <catRef target="comments_type" ana="comments_works"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <body>
-      <div type="section" id="h000014003002">
-        <pb n="412"/>
-        <h3 class="center">II.<lb/>ЗАМЕТКА ПО ПОВОДУ ВОЕННОГО ЖУРНАЛА.</h3>
-        <p rend="left" id="e13fa1a2-0641-4bca-b5aa-ee286b4d1b73">Заметка написана Толстым очевидно вскоре по составлении проекта журнала и, судя по словам: «статью Толстого изменить <choice original_editorial_correction="[на]"><sic/><corr>на</corr></choice> Ростовцева», вероятно, и после отсылки пробного номера и проекта в Петербург, т. е. после 21 окт. 1854 г. (см. выше заметку к Проекту журнала), но, вероятно, не позже конца этого месяца, когда Толстой оставил Южную армию (2 ноября он был уже в Одессе) и перешел на службу в Севастополь.</p>
-        <p rend="left" id="0efd1a13-873e-4d34-86f9-f8d1a6d9f78e">Упоминаемый в заметке Ковалевский, к которому Толстой находил полезным обратиться за советом, очевидно, Егор Петрович Ковалевский.</p>
-        <p rend="left" id="a970e5b0-f898-4644-9ae1-8302b0fd0653">Названный в числе сотрудников 1 разряда Ковалевский — генерал-лейтенант Петр Петрович Ковалевский.</p>
-        <p rend="left" id="0f4e25b0-17a6-4ccd-800d-5b33a9e92029">Коржановский — Николай Андреевич Крыжановский — начальник артиллерии Южной армии.</p>
-        <p rend="left" id="2c35ab0e-cf39-4a6e-bb1a-6204cc2e56cb">Рукопись в лист (34 X 21 сант.) на 2 листах; 2-й лист без текста. Заметка писана рукой Толстого частью чернилом, частью карандашом, хранится в архиве Толстого Всесоюзной Библиотеки им. В. И. Ленина (IV. 34, 10).</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v04_412_412_II_Zametka_po_povodu_voennogo_zhurnala">
+     Комментарии. Tolstoy Digital
+    </title>
+    <title type="main">
+     «Заметка по поводу военного журнала». Комментарий
+    </title>
+    <author>
+     В. И. Срезневский
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       II. Заметка по поводу военного журнала
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 4
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="volume">
+       4
+      </biblScope>
+      <biblScope unit="page">
+       412-412
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="comments">
+      <catDesc>
+       комментарии
+      </catDesc>
+     </category>
+     <category ana="comments_works">
+      <catDesc>
+       комментарии к произведениям
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass>
+    <catRef ana="comments" target="type"/>
+   </textClass>
+   <textClass>
+    <catRef ana="comments_works" target="comments_type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <body>
+   <div id="h000014003002" type="section">
+    <pb n="412"/>
+    <h3 class="center">
+     II.
+     <lb/>
+     ЗАМЕТКА ПО ПОВОДУ ВОЕННОГО ЖУРНАЛА.
+    </h3>
+    <p id="e13fa1a2-0641-4bca-b5aa-ee286b4d1b73" rend="left">
+     Заметка написана Толстым очевидно вскоре по составлении проекта журнала и, судя по словам: «статью Толстого изменить
+     <choice original_editorial_correction="[на]">
+      <sic/>
+      <corr>
+       на
+      </corr>
+     </choice>
+     Ростовцева», вероятно, и после отсылки пробного номера и проекта в Петербург, т. е. после 21 окт. 1854 г. (см. выше заметку к Проекту журнала), но, вероятно, не позже конца этого месяца, когда Толстой оставил Южную армию (2 ноября он был уже в Одессе) и перешел на службу в Севастополь.
+    </p>
+    <p id="0efd1a13-873e-4d34-86f9-f8d1a6d9f78e" rend="left">
+     Упоминаемый в заметке Ковалевский, к которому Толстой находил полезным обратиться за советом, очевидно, Егор Петрович Ковалевский.
+    </p>
+    <p id="a970e5b0-f898-4644-9ae1-8302b0fd0653" rend="left">
+     Названный в числе сотрудников 1 разряда Ковалевский — генерал-лейтенант Петр Петрович Ковалевский.
+    </p>
+    <p id="0f4e25b0-17a6-4ccd-800d-5b33a9e92029" rend="left">
+     Коржановский — Николай Андреевич Крыжановский — начальник артиллерии Южной армии.
+    </p>
+    <p id="2c35ab0e-cf39-4a6e-bb1a-6204cc2e56cb" rend="left">
+     Рукопись в лист (34 X 21 сант.) на 2 листах; 2-й лист без текста. Заметка писана рукой Толстого частью чернилом, частью карандашом, хранится в архиве Толстого Всесоюзной Библиотеки им. В. И. Ленина (IV. 34, 10).
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

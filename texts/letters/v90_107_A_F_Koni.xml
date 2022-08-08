@@ -1,86 +1,150 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v90_107_A_F_Koni">Письма и документы. Tolstoy Digital</title>
-        <title type="main">Письмо А. Ф. Кони с 1 января 1897 г. по 31 января 1897 г.</title>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Л.Н.</author>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 90</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1958"/>
-            </imprint>
-            <biblScope unit="vol">90</biblScope>
-            <biblScope unit="page">296-296</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-          </series>
-        </biblStruct>
-        <bibl>Публикуется впервые</bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <correspDesc>
-        <correspAction type="sending">
-          <persName ref="13883">Л. Н. Толстой</persName>
-          <placeName>Москва</placeName>
-          <date notBefore="1897-01-01" notAfter="1897-01-31"/>
-        </correspAction>
-        <correspAction type="receiving">
-          <persName ref="6808">Кони Анатолий Федорович</persName>
-        </correspAction>
-      </correspDesc>
-      <langUsage>
-        <language ident="ru"/>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-  <xenoData>
-    <number type="in a volume">107</number>
-  </xenoData>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="A.F.Koni_107">
-    <body>
-      <div>
-        <pb n="296"/>
-        <opener>* 107. А. Ф. Кони.1897 г. Январь. Москва.</opener>
-        <p rend="Data left">
-          <em>1897 г. Январь. Москва.</em>
-        </p>
-        <p rend="Obrashenie left">Дорогой Анатолий Федорович,</p>
-        <p rend="left">Письмо это вам передаст муж внучки моей сестры.<note xml:id="note1" resp="volume_editor" index="false">Лев Николаевич Краснокутский (р. 1875), с января 1897 г. муж внучатной племянницы Толстого E. Н. Нагорновой (р. 1875); по профессии нотариус, работал в Верее, Московской губ., позднее в Нижием Новгороде</note> Он очень порядочный молодой человек, живет трудом. Он теперь нотариусом в Верее и желал бы получить место нотариуса в Ташкенте. Моей племяннице сказали, что вы можете содействовать этому. Если это так, то я очень прошу вас об этом. Если же почему-нибудь неудобно, то простите.</p>
-        <p rend="left">Надеюсь увидать вас в Москве, а если нет, то я собираюсь пойти к горе, — хотел побывать в Петербурге,<note xml:id="note2" resp="volume_editor" index="false">Толстой был в Петербурге с 7 по 12 февраля, где провожал высылавшегося за границу В. Г. Черткова (см. т. 53).</note> и тогда увижу вас.</p>
-        <p rend="right">Ваш Л. Толстой.</p>
-        <comments>
-          <p rend="Textpetit_otstup left">Датируется предположительно, на основании упоминания о «муже внучки» М. Н. Толстой (см. прим. 1) и желании Толстого побывать в Петербурге (см. прим. 2).</p>
-        </comments>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v90_107_A_F_Koni">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо А. Ф. Кони с 1 января 1897 г. по 31 января 1897 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 90
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1958"/>
+      </imprint>
+      <biblScope unit="vol">
+       90
+      </biblScope>
+      <biblScope unit="page">
+       296-296
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date notAfter="1897-01-31" notBefore="1897-01-01"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="6808">
+      Кони Анатолий Федорович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   107
+  </number>
+ </xenoData>
+ <text xml:id="A.F.Koni_107" xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <div>
+    <pb n="296"/>
+    <opener>
+     * 107. А. Ф. Кони.1897 г. Январь. Москва.
+    </opener>
+    <p rend="Data left">
+     <em>
+      1897 г. Январь. Москва.
+     </em>
+    </p>
+    <p rend="Obrashenie left">
+     Дорогой Анатолий Федорович,
+    </p>
+    <p rend="left">
+     Письмо это вам передаст муж внучки моей сестры.
+     <note index="false" resp="volume_editor" xml:id="note1">
+      Лев Николаевич Краснокутский (р. 1875), с января 1897 г. муж внучатной племянницы Толстого E. Н. Нагорновой (р. 1875); по профессии нотариус, работал в Верее, Московской губ., позднее в Нижием Новгороде
+     </note>
+     Он очень порядочный молодой человек, живет трудом. Он теперь нотариусом в Верее и желал бы получить место нотариуса в Ташкенте. Моей племяннице сказали, что вы можете содействовать этому. Если это так, то я очень прошу вас об этом. Если же почему-нибудь неудобно, то простите.
+    </p>
+    <p rend="left">
+     Надеюсь увидать вас в Москве, а если нет, то я собираюсь пойти к горе, — хотел побывать в Петербурге,
+     <note index="false" resp="volume_editor" xml:id="note2">
+      Толстой был в Петербурге с 7 по 12 февраля, где провожал высылавшегося за границу В. Г. Черткова (см. т. 53).
+     </note>
+     и тогда увижу вас.
+    </p>
+    <p rend="right">
+     Ваш Л. Толстой.
+    </p>
+    <comments>
+     <p rend="Textpetit_otstup left">
+      Датируется предположительно, на основании упоминания о «муже внучки» М. Н. Толстой (см. прим. 1) и желании Толстого побывать в Петербурге (см. прим. 2).
+     </p>
+    </comments>
+   </div>
+  </body>
+ </text>
 </TEI>

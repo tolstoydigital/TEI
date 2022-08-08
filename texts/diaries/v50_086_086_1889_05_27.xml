@@ -1,90 +1,180 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v50_086_086_1889_05_27">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 27 мая 1889 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1889 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 50</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">50</biblScope>
-            <biblScope unit="page">86-86</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1889-05-27"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="faee4c92-2425-4f29-afa8-15a22bc09f4e">
-        <pb n="86"/>
-      </p>
-      <div n="v50_n191" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1889-05-27">
-              <hi>27 М</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="3c1f84cd-bf41-4e92-91cb-329a3cf0ab80" rend="left">. <hi>Я. П.</hi><hi>89.</hi> Встал рано. Всё еще болит под ложечкой. Читал <choice original_editorial_correction="Р[усскую]"><sic>Р</sic><corr>Русскую</corr></choice><choice original_editorial_correction="М[ысль]"><sic>М</sic><corr>Мысль</corr></choice>. Budget. Всякий вздор. Ходил на деревню. <choice original_editorial_correction="С[емен]"><sic>С</sic><corr>Семен</corr></choice> Резунов сказал чудную пословицу по случаю моего уговора не ругаться и не пить: «ослабеет человек, слабей воды; окрепнет, крепче камня». И угрожающая и поощряющая пословица. Обедал, теперь 8-й час. Всё нездоровится, болит. Что-то хорошее <choice original_editorial_correction="б[ыло]"><sic>б</sic><corr>было</corr></choice> записать. Всё забыл.</p>
-        <p id="3c1f84cd-bf41-4e92-91cb-329a3cf0ab80" style="left">Вечером скучная довольно Толстая. Но разговорился о целомудрии хорошо. Лег поздно.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v50_086_086_1889_05_27">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 27 мая 1889 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1889 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 50
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       50
+      </biblScope>
+      <biblScope unit="page">
+       86-86
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1889-05-27"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="faee4c92-2425-4f29-afa8-15a22bc09f4e">
+    <pb n="86"/>
+   </p>
+   <div n="v50_n191" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1889-05-27">
+       <hi>
+        27 М
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="3c1f84cd-bf41-4e92-91cb-329a3cf0ab80" rend="left">
+     .
+     <hi>
+      Я. П.
+     </hi>
+     <hi>
+      89.
+     </hi>
+     Встал рано. Всё еще болит под ложечкой. Читал
+     <choice original_editorial_correction="Р[усскую]">
+      <sic>
+       Р
+      </sic>
+      <corr>
+       Русскую
+      </corr>
+     </choice>
+     <choice original_editorial_correction="М[ысль]">
+      <sic>
+       М
+      </sic>
+      <corr>
+       Мысль
+      </corr>
+     </choice>
+     . Budget. Всякий вздор. Ходил на деревню.
+     <choice original_editorial_correction="С[емен]">
+      <sic>
+       С
+      </sic>
+      <corr>
+       Семен
+      </corr>
+     </choice>
+     Резунов сказал чудную пословицу по случаю моего уговора не ругаться и не пить: «ослабеет человек, слабей воды; окрепнет, крепче камня». И угрожающая и поощряющая пословица. Обедал, теперь 8-й час. Всё нездоровится, болит. Что-то хорошее
+     <choice original_editorial_correction="б[ыло]">
+      <sic>
+       б
+      </sic>
+      <corr>
+       было
+      </corr>
+     </choice>
+     записать. Всё забыл.
+    </p>
+    <p id="3c1f84cd-bf41-4e92-91cb-329a3cf0ab80" style="left">
+     Вечером скучная довольно Толстая. Но разговорился о целомудрии хорошо. Лег поздно.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>
