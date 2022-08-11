@@ -1,90 +1,324 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v58_129_130_1910_07_30">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник для одного себя</title>
-        <title type="sub">Дневник 30 июля 1910 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">"Дневник для одного себя"</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 58</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1934"/>
-            </imprint>
-            <biblScope unit="volume">58</biblScope>
-            <biblScope unit="page">129-130</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1910-07-30"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="a04f9db1-52c3-44ca-9cc4-a3b0851e2751">
-        <pb n="129"/>
-      </p>
-      <div n="v58_n310" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1910-07-30">
-              <hi>30 Іюля.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="6ecd3d74-07af-4d84-aa10-9a5537852979" rend="left"><choice original_editorial_correction="Ч[ертковъ]"><sic>Ч</sic><corr><choice><reg>Чертков</reg><orig>Чертковъ</orig></choice></corr></choice><choice><reg>вовлек</reg><orig>вовлекъ</orig></choice> меня <choice><reg>в</reg><orig>въ</orig></choice> борьбу, и борьба эта <choice original_editorial_correction="оч[ень]"><sic>оч</sic><corr>очень</corr></choice> и тяжела, и противна <choice><reg>мне</reg><orig>мнѣ</orig></choice>. Буду стараться <hi>любя</hi> (страшно сказать, <choice><reg>так</reg><orig>такъ</orig></choice> я <choice><reg>далек</reg><orig>далекъ</orig></choice><choice><reg>от</reg><orig>отъ</orig></choice> этого), вести ее.</p>
-        <p id="15eec893-13d4-4758-a9a3-ed00fa39097b" style="left"><choice><reg>В</reg><orig>Въ</orig></choice><choice><reg>теперешнем</reg><orig>теперешнемъ</orig></choice><choice><reg>положении</reg><orig>положенiи</orig></choice><choice><reg>моем</reg><orig>моемъ</orig></choice>, едва ли не главное нужное — это <hi><choice><reg>неделание</reg><orig>недѣланiе</orig></choice>, не <choice><reg>говорение</reg><orig>говоренiе</orig></choice>.</hi> Сегодня живо <choice><reg>понял</reg><orig>понялъ</orig></choice>, что <hi style="opdelimiter"><choice><reg>мне</reg><orig>мнѣ</orig></choice></hi><pb n="130"/><hi style="npdelimiter">нужно</hi> только не портить своего <choice><reg>положения</reg><orig>положенiя</orig></choice> и живо помнить, <choice original_editorial_correction="ч[то]"><sic>ч</sic><corr>что</corr></choice><choice><reg>мне</reg><orig>мнѣ</orig></choice><hi>ничего, ничего</hi> не нужно,</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v58_129_130_1910_07_30">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник для одного себя
+    </title>
+    <title type="sub">
+     Дневник 30 июля 1910 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       "Дневник для одного себя"
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 58
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1934"/>
+      </imprint>
+      <biblScope unit="volume">
+       58
+      </biblScope>
+      <biblScope unit="page">
+       129-130
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1910-07-30"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="a04f9db1-52c3-44ca-9cc4-a3b0851e2751">
+    <pb n="129"/>
+   </p>
+   <div n="v58_n310" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1910-07-30">
+       <hi>
+        30 Іюля.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="6ecd3d74-07af-4d84-aa10-9a5537852979" rend="left">
+     <choice original_editorial_correction="Ч[ертковъ]">
+      <sic>
+       Ч
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Чертков
+        </reg>
+        <orig>
+         Чертковъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       вовлек
+      </reg>
+      <orig>
+       вовлекъ
+      </orig>
+     </choice>
+     меня
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     борьбу, и борьба эта
+     <choice original_editorial_correction="оч[ень]">
+      <sic>
+       оч
+      </sic>
+      <corr>
+       очень
+      </corr>
+     </choice>
+     и тяжела, и противна
+     <choice>
+      <reg>
+       мне
+      </reg>
+      <orig>
+       мнѣ
+      </orig>
+     </choice>
+     . Буду стараться
+     <hi>
+      любя
+     </hi>
+     (страшно сказать,
+     <choice>
+      <reg>
+       так
+      </reg>
+      <orig>
+       такъ
+      </orig>
+     </choice>
+     я
+     <choice>
+      <reg>
+       далек
+      </reg>
+      <orig>
+       далекъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       от
+      </reg>
+      <orig>
+       отъ
+      </orig>
+     </choice>
+     этого), вести ее.
+    </p>
+    <p id="15eec893-13d4-4758-a9a3-ed00fa39097b" style="left">
+     <choice>
+      <reg>
+       В
+      </reg>
+      <orig>
+       Въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       теперешнем
+      </reg>
+      <orig>
+       теперешнемъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       положении
+      </reg>
+      <orig>
+       положенiи
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       моем
+      </reg>
+      <orig>
+       моемъ
+      </orig>
+     </choice>
+     , едва ли не главное нужное — это
+     <hi>
+      <choice>
+       <reg>
+        неделание
+       </reg>
+       <orig>
+        недѣланiе
+       </orig>
+      </choice>
+      , не
+      <choice>
+       <reg>
+        говорение
+       </reg>
+       <orig>
+        говоренiе
+       </orig>
+      </choice>
+      .
+     </hi>
+     Сегодня живо
+     <choice>
+      <reg>
+       понял
+      </reg>
+      <orig>
+       понялъ
+      </orig>
+     </choice>
+     , что
+     <hi style="opdelimiter">
+      <choice>
+       <reg>
+        мне
+       </reg>
+       <orig>
+        мнѣ
+       </orig>
+      </choice>
+     </hi>
+     <pb n="130"/>
+     <hi style="npdelimiter">
+      нужно
+     </hi>
+     только не портить своего
+     <choice>
+      <reg>
+       положения
+      </reg>
+      <orig>
+       положенiя
+      </orig>
+     </choice>
+     и живо помнить,
+     <choice original_editorial_correction="ч[то]">
+      <sic>
+       ч
+      </sic>
+      <corr>
+       что
+      </corr>
+     </choice>
+     <choice>
+      <reg>
+       мне
+      </reg>
+      <orig>
+       мнѣ
+      </orig>
+     </choice>
+     <hi>
+      ничего, ничего
+     </hi>
+     не нужно,
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

@@ -1,90 +1,246 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v54_174_174_1903_05_26">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 26 мая 1903 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1903 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 54</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1935"/>
-            </imprint>
-            <biblScope unit="volume">54</biblScope>
-            <biblScope unit="page">174-174</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1903-05-26"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="ade3184d-e5b4-401e-bb91-4b670a9b9cc5">
-        <pb n="174"/>
-      </p>
-      <div n="v54_n182" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1903-05-26">
-              <hi>26 Мая 1903</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="609dc56c-7259-44d3-8f47-813914651957" rend="left">.<hi> Я. П. </hi>Здоровье недурно. <choice><reg>Записал</reg><orig>Записалъ</orig></choice> кое что <choice><reg>в</reg><orig>въ</orig></choice><choice><reg>книжечке</reg><orig>книжечкѣ</orig></choice>. <choice><reg>Здесь</reg><orig>Здѣсь</orig></choice> запишу <choice original_editorial_correction="слѣд[ующее]"><sic>след</sic><corr>следующее</corr></choice>:</p>
-        <p id="eae6d94c-8b30-45e1-8d11-07eabed345ff" style="left">1) <choice><reg>Здешняя</reg><orig>Здѣшняя</orig></choice> жизнь не <choice><reg>иллюзия</reg><orig>иллюзiя</orig></choice> и не вся жизнь, а одно <choice><reg>из</reg><orig>изъ</orig></choice><choice><reg>проявлений</reg><orig>проявленiй</orig></choice>, <choice><reg>вечных</reg><orig>вѣчныхъ</orig></choice><choice><reg>проявлений</reg><orig>проявленiй</orig></choice><choice><reg>вечной</reg><orig>вѣчной</orig></choice> жизни.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v54_174_174_1903_05_26">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 26 мая 1903 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1903 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 54
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       54
+      </biblScope>
+      <biblScope unit="page">
+       174-174
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1903-05-26"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="ade3184d-e5b4-401e-bb91-4b670a9b9cc5">
+    <pb n="174"/>
+   </p>
+   <div n="v54_n182" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1903-05-26">
+       <hi>
+        26 Мая 1903
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="609dc56c-7259-44d3-8f47-813914651957" rend="left">
+     .
+     <hi>
+      Я. П.
+     </hi>
+     Здоровье недурно.
+     <choice>
+      <reg>
+       Записал
+      </reg>
+      <orig>
+       Записалъ
+      </orig>
+     </choice>
+     кое что
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       книжечке
+      </reg>
+      <orig>
+       книжечкѣ
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Здесь
+      </reg>
+      <orig>
+       Здѣсь
+      </orig>
+     </choice>
+     запишу
+     <choice original_editorial_correction="слѣд[ующее]">
+      <sic>
+       след
+      </sic>
+      <corr>
+       следующее
+      </corr>
+     </choice>
+     :
+    </p>
+    <p id="eae6d94c-8b30-45e1-8d11-07eabed345ff" style="left">
+     1)
+     <choice>
+      <reg>
+       Здешняя
+      </reg>
+      <orig>
+       Здѣшняя
+      </orig>
+     </choice>
+     жизнь не
+     <choice>
+      <reg>
+       иллюзия
+      </reg>
+      <orig>
+       иллюзiя
+      </orig>
+     </choice>
+     и не вся жизнь, а одно
+     <choice>
+      <reg>
+       из
+      </reg>
+      <orig>
+       изъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       проявлений
+      </reg>
+      <orig>
+       проявленiй
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       вечных
+      </reg>
+      <orig>
+       вѣчныхъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       проявлений
+      </reg>
+      <orig>
+       проявленiй
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       вечной
+      </reg>
+      <orig>
+       вѣчной
+      </orig>
+     </choice>
+     жизни.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

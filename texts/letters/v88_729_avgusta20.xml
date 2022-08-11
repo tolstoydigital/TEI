@@ -1,81 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v88_729_avgusta20">Письма и документы. Tolstoy Digital</title>
-        <title type="main">Письмо В. Г. Черткову от 20 августа 1904 г.</title>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Л.Н.</author>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 88</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1957"/>
-            </imprint>
-            <biblScope unit="vol">88</biblScope>
-            <biblScope unit="page">342-342</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-          </series>
-        </biblStruct>
-        <bibl>Публикуется впервые</bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <correspDesc>
-        <correspAction type="sending">
-          <persName ref="13883">Л. Н. Толстой</persName>
-          <placeName>Пирогово</placeName>
-          <date when="1904-08-20"/>
-        </correspAction>
-        <correspAction type="receiving">
-          <persName ref="15284">Чертков Владимир Григорьевич</persName>
-        </correspAction>
-      </correspDesc>
-      <langUsage>
-        <language ident="ru"/>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-  <xenoData>
-    <number type="in a volume">729</number>
-  </xenoData>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="avgusta20_729">
-    <body>
-      <div>
-        <pb n="342"/>
-        <opener index="false">* 729.1904 г. Августа 20. Пирогово.</opener>
-        <p id="67328661-5c60-4b90-a9c8-6bb4350023a3" rend="left">Очень рад, что Предисловие<note xml:id="note1" resp="volume_editor" index="false"> Новый вариант предисловия Толстого к статье Черткова «О революции».</note> дошло до вас и вам понравилось. Я всё еще у брата. Он тяжело — духовно тяжело умирает. Как справедливо, что готовиться к смерти надо жизнью — <hi>не готовиться к смерти</hi>, а жить так, чтобы смерть составляла условие жизни. А иначе тяжело умирать. Я всё еще надеюсь на пробуждение и хочу служить ему, но, очевидно, плох и не могу.</p>
-        <p id="67bc6bab-f91c-4c09-82b0-19ef48afd240" rend="left">Завтра уезжаю на несколько дней. Может быть, застану его и, может быть, могу быть нужен. Прощайте пока. Любящий вас Л. Толстой. <choice original_editorial_correction="Евг[ения]"><sic>Евг</sic><corr>Евгения</corr></choice> <choice original_editorial_correction="Ив[ановича]"><sic>Ив</sic><corr>Ивановича</corr></choice> целую.</p>
-        <comments>
-          <p id="fe1377d0-e841-4230-ab1c-5775b7e922ea" rend="Textpetit_otstup left">Датируется 20 августа, так как Толстой упоминает, что «всё еще у брата» и уезжает «завтра». Толстой уехал из Пирогова 21 августа (см. Дневник Толстого, запись 22 августа 1904 г., т. 55, стр. 82).</p>
-        </comments>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v88_729_avgusta20">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо В. Г. Черткову от 20 августа 1904 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 88
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="vol">
+       88
+      </biblScope>
+      <biblScope unit="page">
+       342-342
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Пирогово
+     </placeName>
+     <date when="1904-08-20"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="15284">
+      Чертков Владимир Григорьевич
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   729
+  </number>
+ </xenoData>
+ <text xml:id="avgusta20_729" xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <div>
+    <pb n="342"/>
+    <opener index="false">
+     * 729.1904 г. Августа 20. Пирогово.
+    </opener>
+    <p id="67328661-5c60-4b90-a9c8-6bb4350023a3" rend="left">
+     Очень рад, что Предисловие
+     <note index="false" resp="volume_editor" xml:id="note1">
+      Новый вариант предисловия Толстого к статье Черткова «О революции».
+     </note>
+     дошло до вас и вам понравилось. Я всё еще у брата. Он тяжело — духовно тяжело умирает. Как справедливо, что готовиться к смерти надо жизнью —
+     <hi>
+      не готовиться к смерти
+     </hi>
+     , а жить так, чтобы смерть составляла условие жизни. А иначе тяжело умирать. Я всё еще надеюсь на пробуждение и хочу служить ему, но, очевидно, плох и не могу.
+    </p>
+    <p id="67bc6bab-f91c-4c09-82b0-19ef48afd240" rend="left">
+     Завтра уезжаю на несколько дней. Может быть, застану его и, может быть, могу быть нужен. Прощайте пока. Любящий вас Л. Толстой.
+     <choice original_editorial_correction="Евг[ения]">
+      <sic>
+       Евг
+      </sic>
+      <corr>
+       Евгения
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ив[ановича]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       Ивановича
+      </corr>
+     </choice>
+     целую.
+    </p>
+    <comments>
+     <p id="fe1377d0-e841-4230-ab1c-5775b7e922ea" rend="Textpetit_otstup left">
+      Датируется 20 августа, так как Толстой упоминает, что «всё еще у брата» и уезжает «завтра». Толстой уехал из Пирогова 21 августа (см. Дневник Толстого, запись 22 августа 1904 г., т. 55, стр. 82).
+     </p>
+    </comments>
+   </div>
+  </body>
+ </text>
 </TEI>

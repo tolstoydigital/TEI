@@ -1,86 +1,214 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v05_327_327_Zapiski_muzha">Комментарии. Tolstoy Digital</title>
-        <title type="main">«Записки мужа». Комментарий</title>
-        <author>Н. М. Мендельсон</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">«Записки мужа»</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 5</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1953"/>
-            </imprint>
-            <biblScope unit="volume">5</biblScope>
-            <biblScope unit="page">327-327</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="comments">
-            <catDesc>комментарии</catDesc>
-          </category>
-          <category ana="comments_works">
-            <catDesc>комментарии к произведениям</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <textClass>
-        <catRef target="type" ana="comments"/>
-      </textClass>
-      <textClass>
-        <catRef target="comments_type" ana="comments_works"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <body>
-      <div type="section" id="ref42">
-        <pb n="327"/>
-        <h2 class="title_level2 center">ЗАПИСКИ МУЖА.</h2>
-        <p rend="left" id="fa43a09d-7824-4f35-b616-646188b00a9a">Это начало незаконченного произведения относится, по всей вероятности, к 1857 г. 21 августа этого года Толстой отметил в Дневнике: «Начал писать <choice original_editorial_correction="З[аписки]"><sic>З</sic><corr>Записки</corr></choice> <choice original_editorial_correction="м[ужа]"><sic>м</sic><corr>мужа</corr></choice><hi rend="italic">из дна</hi>».</p>
-        <p rend="left" id="90322522-f440-40c4-8c91-e2586441901c">Если принять в тексте отрывка чтение: «<choice><reg>солдат</reg><orig>солдатъ</orig></choice>, <choice><reg>повесившийся</reg><orig>повѣсившiйся</orig></choice>... <choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>засике</reg><orig>засикѣ</orig></choice>» (А. Е. Грузинский и В. И. Срезневский читают даже: «<choice><reg>в</reg><orig>въ</orig></choice> <choice><reg>Засеке</reg><orig>Засѣкѣ</orig></choice>»), то в печатаемом начале можно установить связь со следующей записью Дневника от 13 июня 1856 г.: «Вчера нашли повешенного солдата в Засеке, ездил смотреть на него».</p>
-        <p rend="left" id="d395a17d-e0bf-46d5-9a88-884ac2b40a4f">Рукопись отрывка — автограф, хранящийся в Толстовском кабинете Всесоюзной библиотеки им. В. И. Ленина<hi rend="italic">(П. XXI)</hi>, 2 лл. сероватой русской писчей бумаги, размером в лист. Водяных знаков и клейма нет. Чернила коричневые, выцветшие. Поля справа вполстраницы. Л. 2 об. чистый. Незначительное число поправок и вставок между строк.</p>
-        <p rend="left" id="91180b97-337c-480b-9f12-89e7876f11b4">Публикуется впервые.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_327_327_Zapiski_muzha">
+     Комментарии. Tolstoy Digital
+    </title>
+    <title type="main">
+     «Записки мужа». Комментарий
+    </title>
+    <author>
+     Н. М. Мендельсон
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       «Записки мужа»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       327-327
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="comments">
+      <catDesc>
+       комментарии
+      </catDesc>
+     </category>
+     <category ana="comments_works">
+      <catDesc>
+       комментарии к произведениям
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass>
+    <catRef ana="comments" target="type"/>
+   </textClass>
+   <textClass>
+    <catRef ana="comments_works" target="comments_type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <body>
+   <div id="ref42" type="section">
+    <pb n="327"/>
+    <h2 class="title_level2 center">
+     ЗАПИСКИ МУЖА.
+    </h2>
+    <p id="fa43a09d-7824-4f35-b616-646188b00a9a" rend="left">
+     Это начало незаконченного произведения относится, по всей вероятности, к 1857 г. 21 августа этого года Толстой отметил в Дневнике: «Начал писать
+     <choice original_editorial_correction="З[аписки]">
+      <sic>
+       З
+      </sic>
+      <corr>
+       Записки
+      </corr>
+     </choice>
+     <choice original_editorial_correction="м[ужа]">
+      <sic>
+       м
+      </sic>
+      <corr>
+       мужа
+      </corr>
+     </choice>
+     <hi rend="italic">
+      из дна
+     </hi>
+     ».
+    </p>
+    <p id="90322522-f440-40c4-8c91-e2586441901c" rend="left">
+     Если принять в тексте отрывка чтение: «
+     <choice>
+      <reg>
+       солдат
+      </reg>
+      <orig>
+       солдатъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       повесившийся
+      </reg>
+      <orig>
+       повѣсившiйся
+      </orig>
+     </choice>
+     ...
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       засике
+      </reg>
+      <orig>
+       засикѣ
+      </orig>
+     </choice>
+     » (А. Е. Грузинский и В. И. Срезневский читают даже: «
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Засеке
+      </reg>
+      <orig>
+       Засѣкѣ
+      </orig>
+     </choice>
+     »), то в печатаемом начале можно установить связь со следующей записью Дневника от 13 июня 1856 г.: «Вчера нашли повешенного солдата в Засеке, ездил смотреть на него».
+    </p>
+    <p id="d395a17d-e0bf-46d5-9a88-884ac2b40a4f" rend="left">
+     Рукопись отрывка — автограф, хранящийся в Толстовском кабинете Всесоюзной библиотеки им. В. И. Ленина
+     <hi rend="italic">
+      (П. XXI)
+     </hi>
+     , 2 лл. сероватой русской писчей бумаги, размером в лист. Водяных знаков и клейма нет. Чернила коричневые, выцветшие. Поля справа вполстраницы. Л. 2 об. чистый. Незначительное число поправок и вставок между строк.
+    </p>
+    <p id="91180b97-337c-480b-9f12-89e7876f11b4" rend="left">
+     Публикуется впервые.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

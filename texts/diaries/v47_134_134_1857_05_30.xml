@@ -1,89 +1,322 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v47_134_134_1857_05_30">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 30 мая 1857 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1857 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 47</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">47</biblScope>
-            <biblScope unit="page">134-134</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1857-05-30"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="b5f8881b-2c16-468b-8829-e7f03a6e457f">
-        <pb n="134"/>
-      </p>
-      <div n="v47_n588" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1857-05-30">
-              <hi>[30 мая/11 июня.] 11 Іюня.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="1cb9bb57-c930-46e2-b95d-d30c05979a8a" rend="left"><choice><reg>Разбил</reg><orig>Разбилъ</orig></choice> зеркало. Только <choice><reg>этого</reg><orig>этаго</orig></choice> предсказанья недоставало. <choice><reg>Имел</reg><orig>Имѣлъ</orig></choice> слабость загадать <choice><reg>в</reg><orig>въ</orig></choice><choice><reg>лексиконе</reg><orig>лексиконѣ</orig></choice>, вышло: <hi>подметки</hi>, <hi>вода</hi>, <hi>катарь</hi>, <hi>могила.</hi><choice><reg>Целое</reg><orig>Цѣлое</orig></choice> утро <choice><reg>читал</reg><orig>читалъ</orig></choice><choice><reg>Соседей</reg><orig>Сосѣдей</orig></choice>. Плохо, как произведенье <choice><reg>искусства</reg><orig>искуства</orig></choice>, но <choice><reg>милого</reg><orig>милаго</orig></choice>, <choice><reg>симпатического</reg><orig>симпатическаго</orig></choice> таланта и <choice><reg>поэзии</reg><orig>поэзiи</orig></choice> много. <choice><reg>Целый</reg><orig>Цѣлый</orig></choice> день не <choice><reg>выходил</reg><orig>выходилъ</orig></choice>. <choice><reg>Написал</reg><orig>Написалъ</orig></choice> больше <choice><reg>после</reg><orig>послѣ</orig></choice> чаю 5 <choice><reg>листков</reg><orig>листковъ</orig></choice><choice original_editorial_correction="Бѣгл[аго]"><sic><choice><reg>Бегл</reg><orig>Бѣгл</orig></choice></sic><corr><choice><reg>Беглого</reg><orig>Бѣглаго</orig></choice></corr></choice> Казака.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v47_134_134_1857_05_30">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 30 мая 1857 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1857 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 47
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       47
+      </biblScope>
+      <biblScope unit="page">
+       134-134
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1857-05-30"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="b5f8881b-2c16-468b-8829-e7f03a6e457f">
+    <pb n="134"/>
+   </p>
+   <div n="v47_n588" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1857-05-30">
+       <hi>
+        [30 мая/11 июня.] 11 Іюня.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="1cb9bb57-c930-46e2-b95d-d30c05979a8a" rend="left">
+     <choice>
+      <reg>
+       Разбил
+      </reg>
+      <orig>
+       Разбилъ
+      </orig>
+     </choice>
+     зеркало. Только
+     <choice>
+      <reg>
+       этого
+      </reg>
+      <orig>
+       этаго
+      </orig>
+     </choice>
+     предсказанья недоставало.
+     <choice>
+      <reg>
+       Имел
+      </reg>
+      <orig>
+       Имѣлъ
+      </orig>
+     </choice>
+     слабость загадать
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       лексиконе
+      </reg>
+      <orig>
+       лексиконѣ
+      </orig>
+     </choice>
+     , вышло:
+     <hi>
+      подметки
+     </hi>
+     ,
+     <hi>
+      вода
+     </hi>
+     ,
+     <hi>
+      катарь
+     </hi>
+     ,
+     <hi>
+      могила.
+     </hi>
+     <choice>
+      <reg>
+       Целое
+      </reg>
+      <orig>
+       Цѣлое
+      </orig>
+     </choice>
+     утро
+     <choice>
+      <reg>
+       читал
+      </reg>
+      <orig>
+       читалъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       Соседей
+      </reg>
+      <orig>
+       Сосѣдей
+      </orig>
+     </choice>
+     . Плохо, как произведенье
+     <choice>
+      <reg>
+       искусства
+      </reg>
+      <orig>
+       искуства
+      </orig>
+     </choice>
+     , но
+     <choice>
+      <reg>
+       милого
+      </reg>
+      <orig>
+       милаго
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       симпатического
+      </reg>
+      <orig>
+       симпатическаго
+      </orig>
+     </choice>
+     таланта и
+     <choice>
+      <reg>
+       поэзии
+      </reg>
+      <orig>
+       поэзiи
+      </orig>
+     </choice>
+     много.
+     <choice>
+      <reg>
+       Целый
+      </reg>
+      <orig>
+       Цѣлый
+      </orig>
+     </choice>
+     день не
+     <choice>
+      <reg>
+       выходил
+      </reg>
+      <orig>
+       выходилъ
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Написал
+      </reg>
+      <orig>
+       Написалъ
+      </orig>
+     </choice>
+     больше
+     <choice>
+      <reg>
+       после
+      </reg>
+      <orig>
+       послѣ
+      </orig>
+     </choice>
+     чаю 5
+     <choice>
+      <reg>
+       листков
+      </reg>
+      <orig>
+       листковъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Бѣгл[аго]">
+      <sic>
+       <choice>
+        <reg>
+         Бегл
+        </reg>
+        <orig>
+         Бѣгл
+        </orig>
+       </choice>
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Беглого
+        </reg>
+        <orig>
+         Бѣглаго
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     Казака.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

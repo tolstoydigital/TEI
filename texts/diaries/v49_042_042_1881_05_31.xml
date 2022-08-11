@@ -1,91 +1,173 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v49_042_042_1881_05_31">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 31 мая 1881 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1881 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 49</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">49</biblScope>
-            <biblScope unit="page">42-42</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1881-05-31"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="5f70d6a8-0221-4114-a7b2-4777ac383fc7">
-        <pb n="42"/>
-      </p>
-      <div n="v49_n44" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1881-05-31">
-              <hi>31 Мая</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="68d0028e-af5f-4d42-9a35-902098b1e382" rend="left">. Мать Лапотковского, что в Сибирь ссылают. Плачет. Малый хорош. То жалко. Если сошлют, куда же нам идти.</p>
-        <p id="bc619674-2b1a-4f5a-b64c-a8a026cc975b" rend="left">————————————————————————————————————</p>
-        <p id="9e69502b-07bb-4482-b231-cc76ecdb9d59" rend="left"><note exclude="true" resp="volume_editor" xml:id="note51"><hi>Зач: </hi>1 Июня.</note> Разговор с Таней о <choice original_editorial_correction="Вас[илие]"><sic>Вас</sic><corr>Василие</corr></choice><choice original_editorial_correction="Ив[ановиче]"><sic>Ив</sic><corr>Ивановиче</corr></choice>. Мирские не понимают божиих. Нравственность будущей жизни Лизы и <choice original_editorial_correction="безнравствен[ность]"><sic>безнравствен</sic><corr>безнравственность</corr></choice> жизни Тани.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v49_042_042_1881_05_31">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 31 мая 1881 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1881 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 49
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       49
+      </biblScope>
+      <biblScope unit="page">
+       42-42
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1881-05-31"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="5f70d6a8-0221-4114-a7b2-4777ac383fc7">
+    <pb n="42"/>
+   </p>
+   <div n="v49_n44" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1881-05-31">
+       <hi>
+        31 Мая
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="68d0028e-af5f-4d42-9a35-902098b1e382" rend="left">
+     . Мать Лапотковского, что в Сибирь ссылают. Плачет. Малый хорош. То жалко. Если сошлют, куда же нам идти.
+    </p>
+    <p id="bc619674-2b1a-4f5a-b64c-a8a026cc975b" rend="left">
+     ————————————————————————————————————
+    </p>
+    <p id="9e69502b-07bb-4482-b231-cc76ecdb9d59" rend="left">
+     <note exclude="true" resp="volume_editor" xml:id="note51">
+      <hi>
+       Зач:
+      </hi>
+      1 Июня.
+     </note>
+     Разговор с Таней о
+     <choice original_editorial_correction="Вас[илие]">
+      <sic>
+       Вас
+      </sic>
+      <corr>
+       Василие
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Ив[ановиче]">
+      <sic>
+       Ив
+      </sic>
+      <corr>
+       Ивановиче
+      </corr>
+     </choice>
+     . Мирские не понимают божиих. Нравственность будущей жизни Лизы и
+     <choice original_editorial_correction="безнравствен[ность]">
+      <sic>
+       безнравствен
+      </sic>
+      <corr>
+       безнравственность
+      </corr>
+     </choice>
+     жизни Тани.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

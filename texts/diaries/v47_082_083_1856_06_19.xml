@@ -1,89 +1,323 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v47_082_083_1856_06_19">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 19 июня 1856 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1856 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 47</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">47</biblScope>
-            <biblScope unit="page">82-83</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1856-06-19"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="43b11fd8-8a3f-442d-b4b2-ec2c103e1ab6">
-        <pb n="82"/>
-      </p>
-      <div n="v47_n272" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1856-06-19">
-              <hi>19 Іюня.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="fa032df8-ce0d-4ae1-b0d5-ff68f690f778" rend="left"><choice><reg>Пробыл</reg><orig>Пробылъ</orig></choice><choice><reg>целый</reg><orig>цѣлый</orig></choice> день <choice><reg>один</reg><orig>одинъ</orig></choice> дома и <choice><reg>вечером</reg><orig>вечеромъ</orig></choice><choice original_editorial_correction="б[ыла]"><sic>б</sic><corr>была</corr></choice><choice original_editorial_correction="с[олдатка]"><sic>с</sic><corr>солдатка</corr></choice>. Отвратительно. <choice><reg>Дьяков</reg><orig>Дьяковъ</orig></choice> не <choice><reg>хотел</reg><orig>хотѣлъ</orig></choice><choice><reg>заехать</reg><orig>заѣхать</orig></choice><hi style="opdelimiter"><choice><reg>к</reg><orig>къ</orig></choice></hi><pb n="83"/><hi style="npdelimiter"><choice original_editorial_correction="Ар[сеньевымъ]"><sic>Ар</sic><corr><choice><reg>Арсеньевым</reg><orig>Арсеньевымъ</orig></choice></corr></choice>,</hi><choice><reg>от</reg><orig>отъ</orig></choice><choice><reg>этого</reg><orig>этаго</orig></choice> я не <choice><reg>поехал</reg><orig>поѣхалъ</orig></choice>. <choice><reg>Притом</reg><orig>Притомъ</orig></choice><choice><reg>был</reg><orig>былъ</orig></choice><choice><reg>в</reg><orig>въ</orig></choice><choice><reg>каком</reg><orig>какомъ</orig></choice> то <choice><reg>беспомощно</reg><orig>безпомощно</orig></choice><choice><reg>вялом</reg><orig>вяломъ</orig></choice><choice><reg>расположении</reg><orig>расположенiи</orig></choice> духа. —</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v47_082_083_1856_06_19">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 19 июня 1856 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1856 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 47
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       47
+      </biblScope>
+      <biblScope unit="page">
+       82-83
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856-06-19"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="43b11fd8-8a3f-442d-b4b2-ec2c103e1ab6">
+    <pb n="82"/>
+   </p>
+   <div n="v47_n272" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1856-06-19">
+       <hi>
+        19 Іюня.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="fa032df8-ce0d-4ae1-b0d5-ff68f690f778" rend="left">
+     <choice>
+      <reg>
+       Пробыл
+      </reg>
+      <orig>
+       Пробылъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       целый
+      </reg>
+      <orig>
+       цѣлый
+      </orig>
+     </choice>
+     день
+     <choice>
+      <reg>
+       один
+      </reg>
+      <orig>
+       одинъ
+      </orig>
+     </choice>
+     дома и
+     <choice>
+      <reg>
+       вечером
+      </reg>
+      <orig>
+       вечеромъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="б[ыла]">
+      <sic>
+       б
+      </sic>
+      <corr>
+       была
+      </corr>
+     </choice>
+     <choice original_editorial_correction="с[олдатка]">
+      <sic>
+       с
+      </sic>
+      <corr>
+       солдатка
+      </corr>
+     </choice>
+     . Отвратительно.
+     <choice>
+      <reg>
+       Дьяков
+      </reg>
+      <orig>
+       Дьяковъ
+      </orig>
+     </choice>
+     не
+     <choice>
+      <reg>
+       хотел
+      </reg>
+      <orig>
+       хотѣлъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       заехать
+      </reg>
+      <orig>
+       заѣхать
+      </orig>
+     </choice>
+     <hi style="opdelimiter">
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+     </hi>
+     <pb n="83"/>
+     <hi style="npdelimiter">
+      <choice original_editorial_correction="Ар[сеньевымъ]">
+       <sic>
+        Ар
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Арсеньевым
+         </reg>
+         <orig>
+          Арсеньевымъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      ,
+     </hi>
+     <choice>
+      <reg>
+       от
+      </reg>
+      <orig>
+       отъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       этого
+      </reg>
+      <orig>
+       этаго
+      </orig>
+     </choice>
+     я не
+     <choice>
+      <reg>
+       поехал
+      </reg>
+      <orig>
+       поѣхалъ
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Притом
+      </reg>
+      <orig>
+       Притомъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       был
+      </reg>
+      <orig>
+       былъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       каком
+      </reg>
+      <orig>
+       какомъ
+      </orig>
+     </choice>
+     то
+     <choice>
+      <reg>
+       беспомощно
+      </reg>
+      <orig>
+       безпомощно
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       вялом
+      </reg>
+      <orig>
+       вяломъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       расположении
+      </reg>
+      <orig>
+       расположенiи
+      </orig>
+     </choice>
+     духа. —
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

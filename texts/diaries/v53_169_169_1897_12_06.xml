@@ -1,90 +1,197 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v53_169_169_1897_12_06">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 6 декабря 1897 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1897 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 53</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1953"/>
-            </imprint>
-            <biblScope unit="volume">53</biblScope>
-            <biblScope unit="page">169-169</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1897-12-06"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="db7adc53-06d2-44f4-9f78-828e6c20133a">
-        <pb n="169"/>
-      </p>
-      <div n="v53_n257" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1897-12-06">
-              <hi>Нынче 6 Декабря 1897. Москва.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="6fd51674-3edd-4657-b002-85d7a800d312" rend="left"/>
-        <p id="6fd51674-3edd-4657-b002-85d7a800d312" style="left">4-го ездил в Долгое. Очень умиленное впечатление от развалившегося дома. Рой воспоминаний. Два дня почти ничего не писал — только готовил главы Искусства и укладывался. От <choice original_editorial_correction="С[они]"><sic>С</sic><corr>Сони</corr></choice> самые тяжелые письма. 5<note exclude="true" resp="volume_editor" xml:id="note159"><choice><sic> 6.</sic></choice></note> приехал. Ее нет. Она в страшном возбуждении уехала к Тройце. Всё наделала моя статья в <choice original_editorial_correction="Сев[ерном]"><sic>Сев</sic><corr>Северном</corr></choice><choice original_editorial_correction="В[естнике]"><sic>В</sic><corr>Вестнике</corr></choice>. Я нечаянно ошибся. От Грота глупые письма. Он душевно <choice original_editorial_correction="больн[ой]"><sic>больн</sic><corr>больной</corr></choice>. Был у <choice original_editorial_correction="Труб[ецкого]"><sic>Труб</sic><corr>Трубецкого</corr></choice>. Уступил им. Вечером приехала <choice original_editorial_correction="С[оня]"><sic>С</sic><corr>Соня</corr></choice>, успокоенная. Поговорили и стало хорошо. Ничего не записано. Проснулся дурно.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v53_169_169_1897_12_06">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 6 декабря 1897 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1897 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 53
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="volume">
+       53
+      </biblScope>
+      <biblScope unit="page">
+       169-169
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1897-12-06"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="db7adc53-06d2-44f4-9f78-828e6c20133a">
+    <pb n="169"/>
+   </p>
+   <div n="v53_n257" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1897-12-06">
+       <hi>
+        Нынче 6 Декабря 1897. Москва.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="6fd51674-3edd-4657-b002-85d7a800d312" rend="left"/>
+    <p id="6fd51674-3edd-4657-b002-85d7a800d312" style="left">
+     4-го ездил в Долгое. Очень умиленное впечатление от развалившегося дома. Рой воспоминаний. Два дня почти ничего не писал — только готовил главы Искусства и укладывался. От
+     <choice original_editorial_correction="С[они]">
+      <sic>
+       С
+      </sic>
+      <corr>
+       Сони
+      </corr>
+     </choice>
+     самые тяжелые письма. 5
+     <note exclude="true" resp="volume_editor" xml:id="note159">
+      <choice>
+       <sic>
+        6.
+       </sic>
+      </choice>
+     </note>
+     приехал. Ее нет. Она в страшном возбуждении уехала к Тройце. Всё наделала моя статья в
+     <choice original_editorial_correction="Сев[ерном]">
+      <sic>
+       Сев
+      </sic>
+      <corr>
+       Северном
+      </corr>
+     </choice>
+     <choice original_editorial_correction="В[естнике]">
+      <sic>
+       В
+      </sic>
+      <corr>
+       Вестнике
+      </corr>
+     </choice>
+     . Я нечаянно ошибся. От Грота глупые письма. Он душевно
+     <choice original_editorial_correction="больн[ой]">
+      <sic>
+       больн
+      </sic>
+      <corr>
+       больной
+      </corr>
+     </choice>
+     . Был у
+     <choice original_editorial_correction="Труб[ецкого]">
+      <sic>
+       Труб
+      </sic>
+      <corr>
+       Трубецкого
+      </corr>
+     </choice>
+     . Уступил им. Вечером приехала
+     <choice original_editorial_correction="С[оня]">
+      <sic>
+       С
+      </sic>
+      <corr>
+       Соня
+      </corr>
+     </choice>
+     , успокоенная. Поговорили и стало хорошо. Ничего не записано. Проснулся дурно.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

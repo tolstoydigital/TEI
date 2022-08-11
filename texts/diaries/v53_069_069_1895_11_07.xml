@@ -1,89 +1,200 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v53_069_069_1895_11_07">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 7 ноября 1895 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">Дневник с28 октяября 1895 по 7 декабря 1897 г.</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 53</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1953"/>
-            </imprint>
-            <biblScope unit="volume">53</biblScope>
-            <biblScope unit="page">69-69</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1895-11-07"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="d65a07a5-aa45-4947-86af-ac5950472784">
-        <pb n="69"/>
-      </p>
-      <div n="v53_n77" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1895-11-07">
-              <hi>7 Ноября 95. Я. П.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="ac35576a-10ed-4ac7-b60d-10b78de7c93d" rend="left"> Немного писал эти два дня новое <choice original_editorial_correction="Воскр[есение]"><sic>Воскр</sic><corr>Воскресение</corr></choice>. Совестно вспомнить, как пошло я начал с него. До сих пор радуюсь, думая об этой работе так, как начал. Немного рубил. Ездил в <choice original_editorial_correction="Овсян[никово]"><sic>Овсян</sic><corr>Овсянниково</corr></choice>, хорошо беседовал с <choice original_editorial_correction="М[арьей]"><sic>М</sic><corr>Марьей</corr></choice><choice original_editorial_correction="А[лександровной]"><sic>А</sic><corr>Александровной</corr></choice> и <choice original_editorial_correction="И[ваном]"><sic>И</sic><corr>Иваном</corr></choice><choice original_editorial_correction="И[вановичем]"><sic>И</sic><corr>Ивановичем</corr></choice>. Был помощник Вальца и француз с стихотвореньем — глупый. Радостное письмо от <choice original_editorial_correction="С[они]"><sic>С</sic><corr>Сони</corr></choice>. Неужели совершится <hi>полное</hi> духовное единение? Помоги, Отец. —</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v53_069_069_1895_11_07">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 7 ноября 1895 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Дневник с28 октяября 1895 по 7 декабря 1897 г.
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 53
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="volume">
+       53
+      </biblScope>
+      <biblScope unit="page">
+       69-69
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1895-11-07"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="d65a07a5-aa45-4947-86af-ac5950472784">
+    <pb n="69"/>
+   </p>
+   <div n="v53_n77" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1895-11-07">
+       <hi>
+        7 Ноября 95. Я. П.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="ac35576a-10ed-4ac7-b60d-10b78de7c93d" rend="left">
+     Немного писал эти два дня новое
+     <choice original_editorial_correction="Воскр[есение]">
+      <sic>
+       Воскр
+      </sic>
+      <corr>
+       Воскресение
+      </corr>
+     </choice>
+     . Совестно вспомнить, как пошло я начал с него. До сих пор радуюсь, думая об этой работе так, как начал. Немного рубил. Ездил в
+     <choice original_editorial_correction="Овсян[никово]">
+      <sic>
+       Овсян
+      </sic>
+      <corr>
+       Овсянниково
+      </corr>
+     </choice>
+     , хорошо беседовал с
+     <choice original_editorial_correction="М[арьей]">
+      <sic>
+       М
+      </sic>
+      <corr>
+       Марьей
+      </corr>
+     </choice>
+     <choice original_editorial_correction="А[лександровной]">
+      <sic>
+       А
+      </sic>
+      <corr>
+       Александровной
+      </corr>
+     </choice>
+     и
+     <choice original_editorial_correction="И[ваном]">
+      <sic>
+       И
+      </sic>
+      <corr>
+       Иваном
+      </corr>
+     </choice>
+     <choice original_editorial_correction="И[вановичем]">
+      <sic>
+       И
+      </sic>
+      <corr>
+       Ивановичем
+      </corr>
+     </choice>
+     . Был помощник Вальца и француз с стихотвореньем — глупый. Радостное письмо от
+     <choice original_editorial_correction="С[они]">
+      <sic>
+       С
+      </sic>
+      <corr>
+       Сони
+      </corr>
+     </choice>
+     . Неужели совершится
+     <hi>
+      полное
+     </hi>
+     духовное единение? Помоги, Отец. —
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

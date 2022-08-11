@@ -1,89 +1,279 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v58_044_044_1910_05_03">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 3 мая 1910 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1910 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 58</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1934"/>
-            </imprint>
-            <biblScope unit="volume">58</biblScope>
-            <biblScope unit="page">44-44</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1910-05-03"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="ca7176ce-cd7e-4b48-84a9-89efb84d7399">
-        <pb n="44"/>
-      </p>
-      <div n="v58_n115" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1910-05-03">
-              <hi>3 мая.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="e6442b1d-259d-47dc-84e9-e88c23dd3108" rend="left"><choice><reg>Встал</reg><orig>Всталъ</orig></choice> вяло. Ничего не <choice><reg>работал</reg><orig>работалъ</orig></choice>. <choice><reg>Ходил</reg><orig>Ходилъ</orig></choice> по парку, читая Масарика. Слабо. <choice><reg>Поправлял</reg><orig>Поправлялъ</orig></choice><choice><reg>предисловие</reg><orig>предисловiе</orig></choice>. <choice><reg>Думал</reg><orig>Думалъ</orig></choice> о <choice original_editorial_correction="самоубiй[ствѣ]"><sic><choice><reg>самоубий</reg><orig>самоубiй</orig></choice></sic><corr><choice><reg>самоубийстве</reg><orig>самоубiйствѣ</orig></choice></corr></choice> и <choice><reg>перечитал</reg><orig>перечиталъ</orig></choice> начатое. Хорошо. Хорошо бы <choice original_editorial_correction="написа[ть]"><sic>написа</sic><corr>написать</corr></choice>. <choice><reg>Написал</reg><orig>Написалъ</orig></choice><choice original_editorial_correction="Масар[ику]"><sic>Масар</sic><corr>Масарику</corr></choice>, <choice><reg>Саше</reg><orig>Сашѣ</orig></choice>, <choice><reg>Соне</reg><orig>Сонѣ</orig></choice>. Ложусь спать. 12 <choice original_editorial_correction="ч[асовъ]"><sic>ч</sic><corr><choice><reg>часов</reg><orig>часовъ</orig></choice></corr></choice>.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v58_044_044_1910_05_03">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 3 мая 1910 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1910 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 58
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1934"/>
+      </imprint>
+      <biblScope unit="volume">
+       58
+      </biblScope>
+      <biblScope unit="page">
+       44-44
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1910-05-03"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="ca7176ce-cd7e-4b48-84a9-89efb84d7399">
+    <pb n="44"/>
+   </p>
+   <div n="v58_n115" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1910-05-03">
+       <hi>
+        3 мая.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="e6442b1d-259d-47dc-84e9-e88c23dd3108" rend="left">
+     <choice>
+      <reg>
+       Встал
+      </reg>
+      <orig>
+       Всталъ
+      </orig>
+     </choice>
+     вяло. Ничего не
+     <choice>
+      <reg>
+       работал
+      </reg>
+      <orig>
+       работалъ
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Ходил
+      </reg>
+      <orig>
+       Ходилъ
+      </orig>
+     </choice>
+     по парку, читая Масарика. Слабо.
+     <choice>
+      <reg>
+       Поправлял
+      </reg>
+      <orig>
+       Поправлялъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       предисловие
+      </reg>
+      <orig>
+       предисловiе
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Думал
+      </reg>
+      <orig>
+       Думалъ
+      </orig>
+     </choice>
+     о
+     <choice original_editorial_correction="самоубiй[ствѣ]">
+      <sic>
+       <choice>
+        <reg>
+         самоубий
+        </reg>
+        <orig>
+         самоубiй
+        </orig>
+       </choice>
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         самоубийстве
+        </reg>
+        <orig>
+         самоубiйствѣ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     и
+     <choice>
+      <reg>
+       перечитал
+      </reg>
+      <orig>
+       перечиталъ
+      </orig>
+     </choice>
+     начатое. Хорошо. Хорошо бы
+     <choice original_editorial_correction="написа[ть]">
+      <sic>
+       написа
+      </sic>
+      <corr>
+       написать
+      </corr>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Написал
+      </reg>
+      <orig>
+       Написалъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Масар[ику]">
+      <sic>
+       Масар
+      </sic>
+      <corr>
+       Масарику
+      </corr>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       Саше
+      </reg>
+      <orig>
+       Сашѣ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       Соне
+      </reg>
+      <orig>
+       Сонѣ
+      </orig>
+     </choice>
+     . Ложусь спать. 12
+     <choice original_editorial_correction="ч[асовъ]">
+      <sic>
+       ч
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         часов
+        </reg>
+        <orig>
+         часовъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     .
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

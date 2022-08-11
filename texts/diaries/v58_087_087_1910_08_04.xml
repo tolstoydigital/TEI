@@ -1,86 +1,206 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v58_087_087_1910_08_04">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 4 августа 1910 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1910 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 58</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1934"/>
-            </imprint>
-            <biblScope unit="volume">58</biblScope>
-            <biblScope unit="page">87-87</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1910-08-04"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <div n="v58_n210" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1910-08-04">
-              <hi><hi style="npdelimiter">4</hi> Авг.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="dd8e0a81-12da-43b9-b545-5e10215fb3df" rend="left"><pb n="87"/>Все не записываю мысли. День <choice><reg>прошел</reg><orig>прошелъ</orig></choice> смирно. Много <choice><reg>посетителей</reg><orig>посѣтителей</orig></choice><choice><reg>пустых</reg><orig>пустыхъ</orig></choice>.<note exclude="true" resp="volume_editor" xml:id="note231"><hi>Пункты 1—12 выписаны из Записной книжки в тетрадь Дневника рукой В. Ф. Булгакова. (См. стр. 198</hi>—<hi>200.)</hi></note><choice><reg>Слаб</reg><orig>Слабъ</orig></choice><choice><reg>телесно</reg><orig>тѣлесно</orig></choice> и на <choice><reg>душе</reg><orig>душѣ</orig></choice> не <choice original_editorial_correction="хоро[шо]"><sic>хоро</sic><corr>хорошо</corr></choice>, не добро.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v58_087_087_1910_08_04">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 4 августа 1910 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1910 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 58
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1934"/>
+      </imprint>
+      <biblScope unit="volume">
+       58
+      </biblScope>
+      <biblScope unit="page">
+       87-87
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1910-08-04"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <div n="v58_n210" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1910-08-04">
+       <hi>
+        <hi style="npdelimiter">
+         4
+        </hi>
+        Авг.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="dd8e0a81-12da-43b9-b545-5e10215fb3df" rend="left">
+     <pb n="87"/>
+     Все не записываю мысли. День
+     <choice>
+      <reg>
+       прошел
+      </reg>
+      <orig>
+       прошелъ
+      </orig>
+     </choice>
+     смирно. Много
+     <choice>
+      <reg>
+       посетителей
+      </reg>
+      <orig>
+       посѣтителей
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       пустых
+      </reg>
+      <orig>
+       пустыхъ
+      </orig>
+     </choice>
+     .
+     <note exclude="true" resp="volume_editor" xml:id="note231">
+      <hi>
+       Пункты 1—12 выписаны из Записной книжки в тетрадь Дневника рукой В. Ф. Булгакова. (См. стр. 198
+      </hi>
+      —
+      <hi>
+       200.)
+      </hi>
+     </note>
+     <choice>
+      <reg>
+       Слаб
+      </reg>
+      <orig>
+       Слабъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       телесно
+      </reg>
+      <orig>
+       тѣлесно
+      </orig>
+     </choice>
+     и на
+     <choice>
+      <reg>
+       душе
+      </reg>
+      <orig>
+       душѣ
+      </orig>
+     </choice>
+     не
+     <choice original_editorial_correction="хоро[шо]">
+      <sic>
+       хоро
+      </sic>
+      <corr>
+       хорошо
+      </corr>
+     </choice>
+     , не добро.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

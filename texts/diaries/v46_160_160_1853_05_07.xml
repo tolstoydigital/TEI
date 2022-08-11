@@ -1,87 +1,253 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v46_160_160_1853_05_07">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Тетрадь Г. Дневник</title>
-        <title type="sub">Дневник 7 мая 1853 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Тетрадь Г. Дневник 1851—1854]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 46</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">46</biblScope>
-            <biblScope unit="page">160-160</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1853-05-07"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="7c9412b5-979c-44ea-a0c6-43bb5163705d">
-        <pb n="160"/>
-      </p>
-      <div n="v46_n407" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1853-05-07">[<hi>7 мая.</hi>]</date>
-          </dateline>
-        </opener>
-        <p id="6ce5fe28-59cd-451a-b025-6dd2acdf725c" rend="left"> 4, 5, 6, 7. Ничего <choice><reg>особенного</reg><orig>особеннаго</orig></choice>. Деньги 40 р. за <choice><reg>рассказ</reg><orig>разсказъ</orig></choice> получены на <choice><reg>почте</reg><orig>почтѣ</orig></choice>. Нынче <choice><reg>писал</reg><orig>писалъ</orig></choice> довольно много, <choice><reg>изменил</reg><orig>измѣнилъ</orig></choice>, <choice><reg>сократил</reg><orig>сократилъ</orig></choice> кое что и <choice><reg>придал</reg><orig>придалъ</orig></choice> окончательную форму <choice><reg>рассказу</reg><orig>разсказу</orig></choice>. <choice><reg>Мне</reg><orig>Мнѣ</orig></choice> необходимо <choice><reg>иметь</reg><orig>имѣть</orig></choice> женщину. <choice><reg>Сладостратие</reg><orig>Сладостратiе</orig></choice> не <choice><reg>дает</reg><orig>даетъ</orig></choice><choice><reg>мне</reg><orig>мнѣ</orig></choice> минуты покоя.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v46_160_160_1853_05_07">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Тетрадь Г. Дневник
+    </title>
+    <title type="sub">
+     Дневник 7 мая 1853 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Тетрадь Г. Дневник 1851—1854]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 46
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       46
+      </biblScope>
+      <biblScope unit="page">
+       160-160
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1853-05-07"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="7c9412b5-979c-44ea-a0c6-43bb5163705d">
+    <pb n="160"/>
+   </p>
+   <div n="v46_n407" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1853-05-07">
+       [
+       <hi>
+        7 мая.
+       </hi>
+       ]
+      </date>
+     </dateline>
+    </opener>
+    <p id="6ce5fe28-59cd-451a-b025-6dd2acdf725c" rend="left">
+     4, 5, 6, 7. Ничего
+     <choice>
+      <reg>
+       особенного
+      </reg>
+      <orig>
+       особеннаго
+      </orig>
+     </choice>
+     . Деньги 40 р. за
+     <choice>
+      <reg>
+       рассказ
+      </reg>
+      <orig>
+       разсказъ
+      </orig>
+     </choice>
+     получены на
+     <choice>
+      <reg>
+       почте
+      </reg>
+      <orig>
+       почтѣ
+      </orig>
+     </choice>
+     . Нынче
+     <choice>
+      <reg>
+       писал
+      </reg>
+      <orig>
+       писалъ
+      </orig>
+     </choice>
+     довольно много,
+     <choice>
+      <reg>
+       изменил
+      </reg>
+      <orig>
+       измѣнилъ
+      </orig>
+     </choice>
+     ,
+     <choice>
+      <reg>
+       сократил
+      </reg>
+      <orig>
+       сократилъ
+      </orig>
+     </choice>
+     кое что и
+     <choice>
+      <reg>
+       придал
+      </reg>
+      <orig>
+       придалъ
+      </orig>
+     </choice>
+     окончательную форму
+     <choice>
+      <reg>
+       рассказу
+      </reg>
+      <orig>
+       разсказу
+      </orig>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Мне
+      </reg>
+      <orig>
+       Мнѣ
+      </orig>
+     </choice>
+     необходимо
+     <choice>
+      <reg>
+       иметь
+      </reg>
+      <orig>
+       имѣть
+      </orig>
+     </choice>
+     женщину.
+     <choice>
+      <reg>
+       Сладостратие
+      </reg>
+      <orig>
+       Сладостратiе
+      </orig>
+     </choice>
+     не
+     <choice>
+      <reg>
+       дает
+      </reg>
+      <orig>
+       даетъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       мне
+      </reg>
+      <orig>
+       мнѣ
+      </orig>
+     </choice>
+     минуты покоя.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

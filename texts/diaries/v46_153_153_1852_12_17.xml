@@ -1,89 +1,213 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v46_153_153_1852_12_17">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Тетрадь Г. Дневник</title>
-        <title type="sub">Дневник 17 декабря 1852 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Тетрадь Г. Дневник 1851—1854]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 46</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">46</biblScope>
-            <biblScope unit="page">153-153</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1852-12-17"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="2d985b9c-a1e9-4d25-bff4-2163eeaa0683">
-        <pb n="153"/>
-      </p>
-      <div n="v46_n362" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1852-12-17">
-              <hi>17 Декабря.</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="2091fc35-20c7-4af7-b324-00d961e12223" rend="left"><choice><reg>Ездил</reg><orig>Ѣздилъ</orig></choice><choice><reg>с</reg><orig>съ</orig></choice><choice original_editorial_correction="Н[иколинькой]"><sic>Н</sic><corr>Николинькой</corr></choice> за <choice original_editorial_correction="дудак[ами]"><sic>дудак</sic><corr>дудаками</corr></choice>. <choice><reg>Хилковский</reg><orig>Хилковскiй</orig></choice> не <choice><reg>может</reg><orig>можетъ</orig></choice> переписать, но <choice><reg>мне</reg><orig>мнѣ</orig></choice> глупо совестно было сказать ему это. <choice><reg>Ленюсь</reg><orig>Лѣнюсь</orig></choice>, а надо кончить и послать <choice><reg>рассказ</reg><orig>разсказъ</orig></choice> до похода.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v46_153_153_1852_12_17">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Тетрадь Г. Дневник
+    </title>
+    <title type="sub">
+     Дневник 17 декабря 1852 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Тетрадь Г. Дневник 1851—1854]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 46
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       46
+      </biblScope>
+      <biblScope unit="page">
+       153-153
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852-12-17"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="2d985b9c-a1e9-4d25-bff4-2163eeaa0683">
+    <pb n="153"/>
+   </p>
+   <div n="v46_n362" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1852-12-17">
+       <hi>
+        17 Декабря.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="2091fc35-20c7-4af7-b324-00d961e12223" rend="left">
+     <choice>
+      <reg>
+       Ездил
+      </reg>
+      <orig>
+       Ѣздилъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Н[иколинькой]">
+      <sic>
+       Н
+      </sic>
+      <corr>
+       Николинькой
+      </corr>
+     </choice>
+     за
+     <choice original_editorial_correction="дудак[ами]">
+      <sic>
+       дудак
+      </sic>
+      <corr>
+       дудаками
+      </corr>
+     </choice>
+     .
+     <choice>
+      <reg>
+       Хилковский
+      </reg>
+      <orig>
+       Хилковскiй
+      </orig>
+     </choice>
+     не
+     <choice>
+      <reg>
+       может
+      </reg>
+      <orig>
+       можетъ
+      </orig>
+     </choice>
+     переписать, но
+     <choice>
+      <reg>
+       мне
+      </reg>
+      <orig>
+       мнѣ
+      </orig>
+     </choice>
+     глупо совестно было сказать ему это.
+     <choice>
+      <reg>
+       Ленюсь
+      </reg>
+      <orig>
+       Лѣнюсь
+      </orig>
+     </choice>
+     , а надо кончить и послать
+     <choice>
+      <reg>
+       рассказ
+      </reg>
+      <orig>
+       разсказъ
+      </orig>
+     </choice>
+     до похода.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

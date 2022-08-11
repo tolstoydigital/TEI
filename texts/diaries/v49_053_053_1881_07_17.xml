@@ -1,96 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v49_053_053_1881_07_17">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 17 июля 1881 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1881 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 49</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">49</biblScope>
-            <biblScope unit="page">53-53</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1881-07-17"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="c6173ff4-a267-455c-b425-88b93abd8491">
-        <pb n="53"/>
-      </p>
-      <div n="v49_n78" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1881-07-17">
-              <hi>17 И</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="4cfd448b-0eb2-4015-b76a-0421edfb34ac" rend="left">. Нынче хочу писать и работать.</p>
-        <p id="4f1f71a2-dafc-4362-aeaf-4840218e6564" rend="left">————————————————————————————————————</p>
-        <p id="ba9ced91-afed-47cf-b3ac-4b8e274aae7a" rend="left">Сафронова лошадь просила.</p>
-        <p id="11f6a3e6-606b-42bf-84fc-b9ef7b100dbc" rend="left">————————————————————————————————————</p>
-        <p id="9916ce8b-248c-44c7-90de-41e130ccedee" rend="left">Емельянов.</p>
-        <p id="5b0182a4-1fff-4158-bde1-570bd093befd" rend="left">————————————————————————————————————</p>
-        <p id="d5f3103a-6105-45d0-8c41-41e726a3bc16" rend="left">Татьяна Рыжкова. </p>
-        <p id="6166a16e-cd45-4e5c-9b5f-dce16455b68c" rend="left">————————————————————————————————————</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v49_053_053_1881_07_17">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 17 июля 1881 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1881 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 49
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       49
+      </biblScope>
+      <biblScope unit="page">
+       53-53
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1881-07-17"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="c6173ff4-a267-455c-b425-88b93abd8491">
+    <pb n="53"/>
+   </p>
+   <div n="v49_n78" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1881-07-17">
+       <hi>
+        17 И
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="4cfd448b-0eb2-4015-b76a-0421edfb34ac" rend="left">
+     . Нынче хочу писать и работать.
+    </p>
+    <p id="4f1f71a2-dafc-4362-aeaf-4840218e6564" rend="left">
+     ————————————————————————————————————
+    </p>
+    <p id="ba9ced91-afed-47cf-b3ac-4b8e274aae7a" rend="left">
+     Сафронова лошадь просила.
+    </p>
+    <p id="11f6a3e6-606b-42bf-84fc-b9ef7b100dbc" rend="left">
+     ————————————————————————————————————
+    </p>
+    <p id="9916ce8b-248c-44c7-90de-41e130ccedee" rend="left">
+     Емельянов.
+    </p>
+    <p id="5b0182a4-1fff-4158-bde1-570bd093befd" rend="left">
+     ————————————————————————————————————
+    </p>
+    <p id="d5f3103a-6105-45d0-8c41-41e726a3bc16" rend="left">
+     Татьяна Рыжкова.
+    </p>
+    <p id="6166a16e-cd45-4e5c-9b5f-dce16455b68c" rend="left">
+     ————————————————————————————————————
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

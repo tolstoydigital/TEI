@@ -1,89 +1,171 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v53_116_116_1896_11_02_2">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 2 ноября 1896 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1896 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 53</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1953"/>
-            </imprint>
-            <biblScope unit="volume">53</biblScope>
-            <biblScope unit="page">116-116</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1896-11-02"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="b1dbe78c-15d4-4b79-b4b3-739c0ba905e6">
-        <pb n="116"/>
-      </p>
-      <div n="v53_n131" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1896-11-02">
-              <hi>[2 ноября.]</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="9ffe307b-fbe7-4a15-bee8-8948f26e25e9" rend="left"> Жив. Мне немного лучше. Писал изложение веры. Думаю, что правда — холодно, от того, что хочет быть непогрешимо. Метель. Отослал письма Шмиту и <choice original_editorial_correction="Ч[ерткову]"><sic>Ч</sic><corr>Черткову</corr></choice>. Не послал письма <choice original_editorial_correction="Калмык[овой]"><sic>Калмык</sic><corr>Калмыковой</corr></choice>. Думал нынче об искусстве. Это игра. И когда игра <choice original_editorial_correction="трудящих[ся]"><sic>трудящих</sic><corr>трудящихся</corr></choice>, <choice original_editorial_correction="нормальн[ых]"><sic>нормальн</sic><corr>нормальных</corr></choice> людей — она хороша; но когда это игра развращенных паразитов, тогда она — дурна; и вот теперь дошло до декадентства.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v53_116_116_1896_11_02_2">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 2 ноября 1896 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1896 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 53
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="volume">
+       53
+      </biblScope>
+      <biblScope unit="page">
+       116-116
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1896-11-02"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="b1dbe78c-15d4-4b79-b4b3-739c0ba905e6">
+    <pb n="116"/>
+   </p>
+   <div n="v53_n131" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1896-11-02">
+       <hi>
+        [2 ноября.]
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="9ffe307b-fbe7-4a15-bee8-8948f26e25e9" rend="left">
+     Жив. Мне немного лучше. Писал изложение веры. Думаю, что правда — холодно, от того, что хочет быть непогрешимо. Метель. Отослал письма Шмиту и
+     <choice original_editorial_correction="Ч[ерткову]">
+      <sic>
+       Ч
+      </sic>
+      <corr>
+       Черткову
+      </corr>
+     </choice>
+     . Не послал письма
+     <choice original_editorial_correction="Калмык[овой]">
+      <sic>
+       Калмык
+      </sic>
+      <corr>
+       Калмыковой
+      </corr>
+     </choice>
+     . Думал нынче об искусстве. Это игра. И когда игра
+     <choice original_editorial_correction="трудящих[ся]">
+      <sic>
+       трудящих
+      </sic>
+      <corr>
+       трудящихся
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="нормальн[ых]">
+      <sic>
+       нормальн
+      </sic>
+      <corr>
+       нормальных
+      </corr>
+     </choice>
+     людей — она хороша; но когда это игра развращенных паразитов, тогда она — дурна; и вот теперь дошло до декадентства.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

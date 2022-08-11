@@ -1,89 +1,268 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v46_133_133_1852_07_12">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Тетрадь Г. Дневник</title>
-        <title type="sub">Дневник 12 июля 1852 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Тетрадь Г. Дневник 1851—1854]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 46</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1937"/>
-            </imprint>
-            <biblScope unit="volume">46</biblScope>
-            <biblScope unit="page">133-133</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1852-07-12"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="38cff82c-0d06-48f2-8555-770aa3f56cc2">
-        <pb n="133"/>
-      </p>
-      <div n="v46_n217" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1852-07-12">
-              <hi>12 Іюля</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="5d921f60-54b7-451d-b5b1-3ed8c43bf65a" rend="left">. <choice><reg>Встал</reg><orig>Всталъ</orig></choice> поздно, <choice><reg>пил</reg><orig>пилъ</orig></choice>, купался и ровно <choice><reg>целый</reg><orig>цѣлый</orig></choice> день ничего не <choice><reg>делал</reg><orig>дѣлалъ</orig></choice>. Довольно болтаться. <choice><reg>С</reg><orig>Съ</orig></choice><choice><reg>завтрашнего</reg><orig>завтрашняго</orig></choice> дня кончаю <choice><reg>дело</reg><orig>дѣло</orig></choice><choice><reg>с</reg><orig>съ</orig></choice><choice original_editorial_correction="Ал[иферомъ]"><sic>Ал</sic><corr><choice><reg>Алифером</reg><orig>Алиферомъ</orig></choice></corr></choice> и начинаю заниматься серьезно. <choice><reg>Читал</reg><orig>Читалъ</orig></choice><choice original_editorial_correction="М[ихайловскаго-]"><sic>М</sic><corr><choice><reg>Михайловского-</reg><orig>Михайловскаго-</orig></choice></corr></choice><choice original_editorial_correction="Д[анилевскаго]"><sic>Д</sic><corr><choice><reg>Данилевского</reg><orig>Данилевскаго</orig></choice></corr></choice> — плоско. Ложусь. 11-й <choice><reg>час</reg><orig>часъ</orig></choice>.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v46_133_133_1852_07_12">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Тетрадь Г. Дневник
+    </title>
+    <title type="sub">
+     Дневник 12 июля 1852 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Тетрадь Г. Дневник 1851—1854]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 46
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       46
+      </biblScope>
+      <biblScope unit="page">
+       133-133
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852-07-12"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="38cff82c-0d06-48f2-8555-770aa3f56cc2">
+    <pb n="133"/>
+   </p>
+   <div n="v46_n217" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1852-07-12">
+       <hi>
+        12 Іюля
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="5d921f60-54b7-451d-b5b1-3ed8c43bf65a" rend="left">
+     .
+     <choice>
+      <reg>
+       Встал
+      </reg>
+      <orig>
+       Всталъ
+      </orig>
+     </choice>
+     поздно,
+     <choice>
+      <reg>
+       пил
+      </reg>
+      <orig>
+       пилъ
+      </orig>
+     </choice>
+     , купался и ровно
+     <choice>
+      <reg>
+       целый
+      </reg>
+      <orig>
+       цѣлый
+      </orig>
+     </choice>
+     день ничего не
+     <choice>
+      <reg>
+       делал
+      </reg>
+      <orig>
+       дѣлалъ
+      </orig>
+     </choice>
+     . Довольно болтаться.
+     <choice>
+      <reg>
+       С
+      </reg>
+      <orig>
+       Съ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       завтрашнего
+      </reg>
+      <orig>
+       завтрашняго
+      </orig>
+     </choice>
+     дня кончаю
+     <choice>
+      <reg>
+       дело
+      </reg>
+      <orig>
+       дѣло
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       с
+      </reg>
+      <orig>
+       съ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="Ал[иферомъ]">
+      <sic>
+       Ал
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Алифером
+        </reg>
+        <orig>
+         Алиферомъ
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     и начинаю заниматься серьезно.
+     <choice>
+      <reg>
+       Читал
+      </reg>
+      <orig>
+       Читалъ
+      </orig>
+     </choice>
+     <choice original_editorial_correction="М[ихайловскаго-]">
+      <sic>
+       М
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Михайловского-
+        </reg>
+        <orig>
+         Михайловскаго-
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     <choice original_editorial_correction="Д[анилевскаго]">
+      <sic>
+       Д
+      </sic>
+      <corr>
+       <choice>
+        <reg>
+         Данилевского
+        </reg>
+        <orig>
+         Данилевскаго
+        </orig>
+       </choice>
+      </corr>
+     </choice>
+     — плоско. Ложусь. 11-й
+     <choice>
+      <reg>
+       час
+      </reg>
+      <orig>
+       часъ
+      </orig>
+     </choice>
+     .
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

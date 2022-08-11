@@ -1,89 +1,239 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v48_005_005_1858_01_25">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 25 января 1858 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1858 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 48</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">48</biblScope>
-            <biblScope unit="page">5-5</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1858-01-25"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="a4ac81c1-3366-4559-b91b-21a44a74f11b">
-        <pb n="5"/>
-      </p>
-      <div n="v48_n17" type="entry">
-        <opener>
-          <dateline>
-            <date resp="LNT" when="1858-01-25">
-              <hi>25 Января</hi>
-            </date>
-          </dateline>
-        </opener>
-        <p id="d09ef66f-f284-44d0-9869-54cdc21cedb3" rend="left">. Встал в 10. Читал утро. Гулял много. Обедал дома. Тетинька говорила о <choice original_editorial_correction="Маш[иньке]"><sic>Маш</sic><corr>Машиньке</corr></choice>. Она права. — К Фету. Завидно и радостно смотреть на его семейное счастье. Вечер<note exclude="true" resp="volume_editor" xml:id="note24"><hi>Зачеркнуто:</hi> у <choice original_editorial_correction="н[его]"><sic>н</sic><corr>него</corr></choice></note><choice original_editorial_correction="музык[альный]"><sic>музык</sic><corr>музыкальный</corr></choice> прелесть! Вебер прелесть. <choice original_editorial_correction="Тют[чева]"><sic>Тют</sic><corr>Тютчева</corr></choice>, <choice original_editorial_correction="Сверб[еева]"><sic>Сверб</sic><corr>Свербеева</corr></choice>, <choice original_editorial_correction="Щерб[атова]"><sic>Щерб</sic><corr>Щербатова</corr></choice>, <choice original_editorial_correction="Чичер[ина]"><sic>Чичер</sic><corr>Чичерина</corr></choice>, <choice original_editorial_correction="Алсуф[ьева]"><sic>Алсуф</sic><corr>Алсуфьева</corr></choice>, <choice original_editorial_correction="Ребинд[ер]"><sic>Ребинд</sic><corr>Ребиндер</corr></choice>, я во всех был влюблен. <choice original_editorial_correction="Маш[иньку]"><sic>Маш</sic><corr>Машиньку</corr></choice> мне стало жалко, и я заснуть не мог от счастья до 4 <choice original_editorial_correction="ч[асов]"><sic>ч</sic><corr>часов</corr></choice>.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v48_005_005_1858_01_25">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 25 января 1858 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1858 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 48
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       48
+      </biblScope>
+      <biblScope unit="page">
+       5-5
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1858-01-25"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="a4ac81c1-3366-4559-b91b-21a44a74f11b">
+    <pb n="5"/>
+   </p>
+   <div n="v48_n17" type="entry">
+    <opener>
+     <dateline>
+      <date resp="LNT" when="1858-01-25">
+       <hi>
+        25 Января
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="d09ef66f-f284-44d0-9869-54cdc21cedb3" rend="left">
+     . Встал в 10. Читал утро. Гулял много. Обедал дома. Тетинька говорила о
+     <choice original_editorial_correction="Маш[иньке]">
+      <sic>
+       Маш
+      </sic>
+      <corr>
+       Машиньке
+      </corr>
+     </choice>
+     . Она права. — К Фету. Завидно и радостно смотреть на его семейное счастье. Вечер
+     <note exclude="true" resp="volume_editor" xml:id="note24">
+      <hi>
+       Зачеркнуто:
+      </hi>
+      у
+      <choice original_editorial_correction="н[его]">
+       <sic>
+        н
+       </sic>
+       <corr>
+        него
+       </corr>
+      </choice>
+     </note>
+     <choice original_editorial_correction="музык[альный]">
+      <sic>
+       музык
+      </sic>
+      <corr>
+       музыкальный
+      </corr>
+     </choice>
+     прелесть! Вебер прелесть.
+     <choice original_editorial_correction="Тют[чева]">
+      <sic>
+       Тют
+      </sic>
+      <corr>
+       Тютчева
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="Сверб[еева]">
+      <sic>
+       Сверб
+      </sic>
+      <corr>
+       Свербеева
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="Щерб[атова]">
+      <sic>
+       Щерб
+      </sic>
+      <corr>
+       Щербатова
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="Чичер[ина]">
+      <sic>
+       Чичер
+      </sic>
+      <corr>
+       Чичерина
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="Алсуф[ьева]">
+      <sic>
+       Алсуф
+      </sic>
+      <corr>
+       Алсуфьева
+      </corr>
+     </choice>
+     ,
+     <choice original_editorial_correction="Ребинд[ер]">
+      <sic>
+       Ребинд
+      </sic>
+      <corr>
+       Ребиндер
+      </corr>
+     </choice>
+     , я во всех был влюблен.
+     <choice original_editorial_correction="Маш[иньку]">
+      <sic>
+       Маш
+      </sic>
+      <corr>
+       Машиньку
+      </corr>
+     </choice>
+     мне стало жалко, и я заснуть не мог от счастья до 4
+     <choice original_editorial_correction="ч[асов]">
+      <sic>
+       ч
+      </sic>
+      <corr>
+       часов
+      </corr>
+     </choice>
+     .
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

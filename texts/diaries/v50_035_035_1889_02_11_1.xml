@@ -1,87 +1,193 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:id="v50_035_035_1889_02_11_1">Дневники и записные книжки. Tolstoy Digital</title>
-        <title type="main">Дневник</title>
-        <title type="sub">Дневник 11 февраля 1889 г.</title>
-        <author>Толстой Лев Николаевич</author>
-        <respStmt>
-          <resp>Идея, постановка задач, руководство</resp>
-          <name>Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский</name>
-        </respStmt>
-        <respStmt>
-          <resp>Подготовка TEI/XML</resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров</name>
-        </respStmt>
-        <funder>Проект «Слово Толстого»</funder>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»</orgName>
-        </publisher>
-        <availability>
-          <p>Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)</p>
-        </availability>
-        <date from="2015" to="2022"/>
-      </publicationStmt>
-      <notesStmt>
-        <note>Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.</note>
-      </notesStmt>
-      <sourceDesc>
-        <biblStruct>
-          <analytic>
-            <author>Толстой Лев Николаевич</author>
-            <title level="a">[Дневник 1889 г.]</title>
-          </analytic>
-          <monogr>
-            <title level="m">Полное собрание сочинений. Том 50</title>
-            <imprint>
-              <pubPlace>Москва</pubPlace>
-              <publisher>Государственное издательство «Художественная литература»</publisher>
-              <date when="1952"/>
-            </imprint>
-            <biblScope unit="volume">50</biblScope>
-            <biblScope unit="page">35-35</biblScope>
-          </monogr>
-          <series>
-            <title level="s">Л.Н. Толстой. Полное собрание сочинений.</title>
-          </series>
-        </biblStruct>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy>
-          <category ana="diaries">
-            <catDesc>дневники</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <creation>
-        <date when="1889-02-11"/>
-      </creation>
-      <textClass>
-        <catReF target="type" ana="diaries"/>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <text xmlns="http://www.tei-c.org/ns/1.0">
-    <body>
-      <p id="cffa392b-47f7-4a60-a788-f9873fcd94d2">
-        <pb n="35"/>
-      </p>
-      <div n="v50_n81" type="entry">
-        <opener>
-          <dateline>
-            <date resp="editor" when="1889-02-11">[<hi>11 февраля</hi>.] <hi>10 Ф. М. 89.</hi></date>
-          </dateline>
-        </opener>
-        <p id="951adcb6-c687-4a7c-bc5a-c576f0ace48a" rend="left">Встал позднее, но все-таки до сильного пота поработал. За кофе пришел <choice original_editorial_correction="Арханг[ельский]"><sic>Арханг</sic><corr>Архангельский</corr></choice>, фельдшер <choice original_editorial_correction="ветер[инар]"><sic>ветер</sic><corr>ветеринар</corr></choice> Бронницкий, переписывает «В чем <choice original_editorial_correction="м[оя]"><sic>м</sic><corr>моя</corr></choice><choice original_editorial_correction="в[ера]"><sic>в</sic><corr>вера</corr></choice>», свежий, ясный, сильный человек, но, кажется, пьет. Надо помочь ему. Поговорил с ним, потом сел за работу. Написал предисловие — начерно. Пошел ходить. После обеда переводил усердно. <choice original_editorial_correction="Пришл[и]"><sic>Пришл</sic><corr>Пришли</corr></choice> О. А. <choice original_editorial_correction="Мамон[ова]"><sic>Мамон</sic><corr>Мамонова</corr></choice>, Дунаев. Читал Le sens de la vie. Там страницы о войне и государстве поразительные. Надо, надо писать и воззвание и роман, т. е. высказывать свои мысли, отдаваясь течению жизни.</p>
-      </div>
-    </body>
-  </text>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v50_035_035_1889_02_11_1">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     Дневник 11 февраля 1889 г.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p>
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1889 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 50
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       50
+      </biblScope>
+      <biblScope unit="page">
+       35-35
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <taxonomy>
+     <category ana="diaries">
+      <catDesc>
+       дневники
+      </catDesc>
+     </category>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1889-02-11"/>
+   </creation>
+   <textClass>
+    <catReF ana="diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0">
+  <body>
+   <p id="cffa392b-47f7-4a60-a788-f9873fcd94d2">
+    <pb n="35"/>
+   </p>
+   <div n="v50_n81" type="entry">
+    <opener>
+     <dateline>
+      <date resp="editor" when="1889-02-11">
+       [
+       <hi>
+        11 февраля
+       </hi>
+       .]
+       <hi>
+        10 Ф. М. 89.
+       </hi>
+      </date>
+     </dateline>
+    </opener>
+    <p id="951adcb6-c687-4a7c-bc5a-c576f0ace48a" rend="left">
+     Встал позднее, но все-таки до сильного пота поработал. За кофе пришел
+     <choice original_editorial_correction="Арханг[ельский]">
+      <sic>
+       Арханг
+      </sic>
+      <corr>
+       Архангельский
+      </corr>
+     </choice>
+     , фельдшер
+     <choice original_editorial_correction="ветер[инар]">
+      <sic>
+       ветер
+      </sic>
+      <corr>
+       ветеринар
+      </corr>
+     </choice>
+     Бронницкий, переписывает «В чем
+     <choice original_editorial_correction="м[оя]">
+      <sic>
+       м
+      </sic>
+      <corr>
+       моя
+      </corr>
+     </choice>
+     <choice original_editorial_correction="в[ера]">
+      <sic>
+       в
+      </sic>
+      <corr>
+       вера
+      </corr>
+     </choice>
+     », свежий, ясный, сильный человек, но, кажется, пьет. Надо помочь ему. Поговорил с ним, потом сел за работу. Написал предисловие — начерно. Пошел ходить. После обеда переводил усердно.
+     <choice original_editorial_correction="Пришл[и]">
+      <sic>
+       Пришл
+      </sic>
+      <corr>
+       Пришли
+      </corr>
+     </choice>
+     О. А.
+     <choice original_editorial_correction="Мамон[ова]">
+      <sic>
+       Мамон
+      </sic>
+      <corr>
+       Мамонова
+      </corr>
+     </choice>
+     , Дунаев. Читал Le sens de la vie. Там страницы о войне и государстве поразительные. Надо, надо писать и воззвание и роман, т. е. высказывать свои мысли, отдаваясь течению жизни.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>
