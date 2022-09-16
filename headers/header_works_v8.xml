@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="{id}">
+                    {digital_title_O}. Tolstoy Digital
+                </title>
+                <title type="main">{title_Y}</title>
+                <title type="sub">{subtitle_AA}</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML
+                    </resp>
+                    <name>
+                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+                    </name>                                 
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p>
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date>2015-2022</date>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            {digital_title_O}
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том {volume_B}
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date>{published_date_AL}</date>
+                        </imprint>
+                        <biblScope unit="volume">{volume_B}</biblScope>
+                        <biblScope unit="page">{start_page_P}-{end_page_Q}</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л.Н. Толстой. Полное собрание сочинений.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category ana="works">
+                        <catDesc>произведения</catDesc>
+                    </category>
+                    <category ana="letters">
+                        <catDesc>письма</catDesc>
+                    </category>
+                    <category ana="diaries">
+                        <catDesc>дневники и записные книжки</catDesc>
+                    </category>                    
+                    <category ana="nonpubl">
+                        <catDesc>неопубликованное при жизни</catDesc>
+                    </category>
+                    <category ana="publ">
+                        <catDesc>опубликованное при жизни</catDesc>
+                    </category>
+                    <category ana="finished">
+                        <catDesc>законченные произведения</catDesc>
+                    </category>
+                    <category ana="not_finished">
+                        <catDesc>незаконченное, неотделанное, черновики</catDesc>
+                    </category>
+                    <category ana="editions">
+                        <catDesc>печатные варианты</catDesc>
+                    </category>
+                    <category ana="fiction">
+                        <catDesc>художественные произведения</catDesc>
+                    </category>                   
+                    <category ana="nonfiction">
+                        <catDesc>нехудожественные произведения</catDesc>
+                    </category>
+                    <category ana="autobio">
+                        <catDesc>автобиография</catDesc>
+                    </category>                     
+                    <category ana="drama">
+                        <catDesc>драматургия</catDesc>
+                    </category>                   
+                    <category ana="otryvok">
+                        <catDesc>отрывок</catDesc>
+                    </category> 
+                    <category ana="povest">
+                        <catDesc>повесть</catDesc>
+                    </category> 
+                    <category ana="poem">
+                        <catDesc>поэзия</catDesc>
+                    </category>
+                    <category ana="kids">
+                        <catDesc>произведения для детей</catDesc>
+                    </category> 
+                    <category ana="rasskaz">
+                        <catDesc>рассказ</catDesc>
+                    </category>
+                    <category ana="roman">
+                        <catDesc>роман</catDesc>
+                    </category> 
+                    <category ana="sbornik">
+                        <catDesc>сборник</catDesc>
+                    </category>                 
+                    <category ana="statja">
+                        <catDesc>статья</catDesc>
+                    </category>
+                    <category ana="traktat">
+                        <catDesc>трактат</catDesc>
+                    </category>
+                    <category ana="philosophy_religion">
+                        <catDesc>философия и религия</catDesc>
+                    </category>
+                    <category ana="polit_social">
+                        <catDesc>политика и общественная жизнь</catDesc>
+                    </category>
+                    <category ana="pedagogika">
+                        <catDesc>педагогика</catDesc>
+                    </category> 
+                    <category ana="arts">
+                        <catDesc>искусство</catDesc>
+                    </category> 
+                </taxonomy>
+            </classDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <creation>
+                <date>
+                    {date_L}
+                </date>
+             </creation>
+            <langUsage> 
+                <language ident="{language_K}"/>
+            </langUsage>
+            <textClass> 
+                <catRef target="type" ana="works"/>
+                <catRef target="sphere" ana="{sphere_E}"/>
+                <catRef target="genre" ana="{genre_AQ}"/>
+                <catRef target="finished" ana="{finished_D}"/>
+                <catRef target="topic" ana="{topic_AR}"/>
+                <catRef target="topic" ana="{topic_AS}"/>
+                <catRef target="topic" ana="{topic_AT}"/>
+                <catRef target="topic" ana="{topic_AU}"/>
+                <catRef target="topic" ana="{topic_AV}"/>
+                <catRef target="published" ana="{published_AY}"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    {text}
+</TEI>
+   
+    
