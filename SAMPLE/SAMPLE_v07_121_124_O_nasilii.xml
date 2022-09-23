@@ -92,40 +92,9 @@
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
-   <classDecl>
-    <taxonomy>
-     <category ana="works">
-      <catDesc>
-       произведения
-      </catDesc>
-     </category>
-     <category ana="publ">
-      <catDesc>
-       опубликованное при жизни
-      </catDesc>
-     </category>
-     <category ana="not_finished">
-      <catDesc>
-       незаконченное, неотделанное, черновики
-      </catDesc>
-     </category>
-     <category ana="nonfiction">
-      <catDesc>
-       нехудожественные произведения
-      </catDesc>
-     </category>
-     <category ana="otryvok">
-      <catDesc>
-       отрывок
-      </catDesc>
-     </category>
-     <category ana="philosophy_religion">
-      <catDesc>
-       философия и религия
-      </catDesc>
-     </category>
-    </taxonomy>
-   </classDecl>
+      <classDecl>
+          <xi:include href="../../reference/taxonomy.xml"/>
+      </classDecl>
   </encodingDesc>
   <profileDesc>
    <creation>
@@ -135,12 +104,12 @@
     <language ident="ru"/>
    </langUsage>
    <textClass>
-    <catRef ana="works" target="type"/>
-    <catRef ana="nonfiction" target="sphere"/>
-    <catRef ana="otryvok" target="genre"/>
-    <catRef ana="not_finished" target="finished"/>
-    <catRef ana="philosophy_religion" target="topic"/>
-    <catRef ana="publ" target="published"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#publ" target="published"/>
    </textClass>
   </profileDesc>
  </teiHeader>
