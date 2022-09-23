@@ -89,35 +89,9 @@
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
-   <classDecl>
-    <taxonomy>
-     <category ana="works">
-      <catDesc>
-       произведения
-      </catDesc>
-     </category>
-     <category ana="nonpubl">
-      <catDesc>
-       неопубликованное при жизни
-      </catDesc>
-     </category>
-     <category ana="finished">
-      <catDesc>
-       законченные произведения
-      </catDesc>
-     </category>
-     <category ana="fiction">
-      <catDesc>
-       художественные произведения
-      </catDesc>
-     </category>
-     <category ana="rasskaz">
-      <catDesc>
-       рассказ
-      </catDesc>
-     </category>
-    </taxonomy>
-   </classDecl>
+      <classDecl>
+          <xi:include href="../../reference/taxonomy.xml"/>
+      </classDecl>
   </encodingDesc>
   <profileDesc>
    <creation>
@@ -127,11 +101,11 @@
     <language ident="ru"/>
    </langUsage>
    <textClass>
-    <catRef ana="works" target="type"/>
-    <catRef ana="fiction" target="sphere"/>
-    <catRef ana="rasskaz" target="genre"/>
-    <catRef ana="finished" target="finished"/>
-    <catRef ana="nonpubl" target="published"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
    </textClass>
   </profileDesc>
  </teiHeader>

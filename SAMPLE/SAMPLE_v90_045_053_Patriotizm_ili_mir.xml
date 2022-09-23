@@ -89,40 +89,9 @@
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
-   <classDecl>
-    <taxonomy>
-     <category ana="works">
-      <catDesc>
-       произведения
-      </catDesc>
-     </category>
-     <category ana="nonpubl">
-      <catDesc>
-       неопубликованное при жизни
-      </catDesc>
-     </category>
-     <category ana="finished">
-      <catDesc>
-       законченные произведения
-      </catDesc>
-     </category>
-     <category ana="nonfiction">
-      <catDesc>
-       нехудожественные произведения
-      </catDesc>
-     </category>
-     <category ana="statja">
-      <catDesc>
-       статья
-      </catDesc>
-     </category>
-     <category ana="polit_social">
-      <catDesc>
-       политика и общественная жизнь
-      </catDesc>
-     </category>
-    </taxonomy>
-   </classDecl>
+      <classDecl>
+          <xi:include href="../../reference/taxonomy.xml"/>
+      </classDecl>
   </encodingDesc>
   <profileDesc>
    <creation>
@@ -132,12 +101,12 @@
     <language ident="ru"/>
    </langUsage>
    <textClass>
-    <catRef ana="works" target="type"/>
-    <catRef ana="nonfiction" target="sphere"/>
-    <catRef ana="statja" target="genre"/>
-    <catRef ana="finished" target="finished"/>
-    <catRef ana="polit_social" target="topic"/>
-    <catRef ana="nonpubl" target="published"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
    </textClass>
   </profileDesc>
  </teiHeader>
