@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_bare.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_bare.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Каталог произведений 90 томника</title>                 
+            <respStmt>
+            <resp>Идея, постановка задач, руководство</resp>
+            <name>
+               Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+            </name> 
+            </respStmt>
+            <respStmt>
+            <resp>
+               Подготовка TEI/XML
+            </resp>
+            <name>
+               Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+            </name>                                 
+          </respStmt>
+            <funder>
+            Проект «Слово Толстого»
+            </funder>          
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>
+                  Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+               </orgName>
+            </publisher>
+            <availability>
+               <p>
+                  Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+               </p>
+            </availability>
+            <date from="2015" to="2022"/>
+            </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>
+                     Толстой Лев Николаевич
+                     </author>
+                  <title level="m">
+                     Полное собрание сочинений. 
+                  </title>
+                  <imprint>
+                     <pubPlace>
+                        Москва
+                     </pubPlace>
+                     <publisher>
+                        Государственное издательство «Художественная литература»
+                     </publisher>
+                     <date from="1928" to="1953"/>
+                  </imprint>
+                  </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+        <classDecl>
+           <include href="../reference/taxonomy.xml"/>
+        </classDecl>
+     </encodingDesc> 
+  </teiHeader>
+  <standoff>
+      <listPerson>
+            <person xml:id="3444">
+               <persName type="main" ref="Q43718">
+                  Гоголь Николай Васильевич
+                  <forename sort="2">Николай</forename>
+                  <forename sort="3" type="patronym">Васильевич</forename>
+                  <surname sort="1">Гоголь</surname>
+               </persName>
+               <sex value="male"/>
+               <event type="born" when="1809-03-20"/>
+               <event type="died" when="1852-02-21"/>  
+               <note type="description"></note>
+               <note type="90v_comment"></note>
+               <catRef target="time" ana="#time_contemp"/>
+               <catRef target="country" ana="#compatriot"/>
+               <catRef target="occupation" ana="#work_literature"/>
+               <catRef target="occupation" ana="#work_edu"/>
+               <catRef target="occupation" ana="#work_science"/>
+               <image url=""></image>
+            </person>
+         <person xml:id="14129">
+            <persName type="main" ref="Q42831">
+               Тургенев Иван Сергеевич
+               <forename sort="2">Иван</forename>
+               <forename sort="3" type="patronym">Сергеевич</forename>
+               <surname sort="1">Тургенев</surname>
+            </persName>
+            <sex value="male"/>
+            <event type="born" when="1818-10-28"/>
+            <event type="died" when="1883-08-22"/>  
+            <note type="description">русский писатель, поэт, публицист, драматург и переводчикрусский писатель, поэт, публицист, драматург и переводчик</note>
+            <note type="90v_comment"></note>
+            <catRef target="time" ana="#time_contemp"/>
+            <catRef target="country" ana="#compatriot"/>
+            <catRef target="occupation" ana="#work_literature"/>
+            <image url=""></image>
+         </person>
+         <person xml:id="3855">
+            <persName type="main" ref="Q554746">
+               Григорович Дмитрий Васильевич
+               <forename sort="2">Дмитрий</forename>
+               <forename sort="3" type="patronym">Васильевич</forename>
+               <surname sort="1">Григорович</surname>
+            </persName>
+            <sex value="male"/>
+            <event type="born" when="1822-03-19"/>
+            <event type="died" when="1899-12-22"/>  
+            <note type="description">русский писатель и переводчик</note>
+            <note type="90v_comment"></note>
+            <catRef target="time" ana="#time_contemp"/>
+            <catRef target="country" ana="#compatriot"/>
+            <catRef target="occupation" ana="#work_literature"/>
+            <catRef target="occupation" ana="#work_architecture"/>
+            <catRef target="occupation" ana="#work_science"/>
+            <image url=""></image>
+         </person>
+         <person xml:id="7826">
+            <persName type="main" ref="Q46599">
+               Лермонтов Михаил Юрьевич
+               <forename sort="2">Михаил</forename>
+               <forename sort="3" type="patronym">Юрьевич</forename>
+               <surname sort="1">Лермонтов</surname>
+            </persName>
+            <sex value="male"/>
+            <event type="born" when="1814-10-03"/>
+            <event type="died" when="1841-07-15"/>  
+            <note type="description">русский поэт, прозаик, драматург, художник</note>
+            <note type="90v_comment"></note>
+            <catRef target="time" ana="#time_contemp"/>
+            <catRef target="country" ana="#compatriot"/>
+            <catRef target="occupation" ana="#work_literature"/>
+            <catRef target="occupation" ana="#work_art"/>
+            <catRef target="occupation" ana="#work_soldier"/>
+            <image url=""></image>
+         </person>
+         <person xml:id="8563">
+            <persName type="main" ref="Q128832">
+               Марлинский (Бестужев Александр Александрович)
+               <forename sort="2">Александр</forename>
+               <forename sort="3" type="patronym">Алекандрович</forename>
+               <surname sort="1">Бестужев</surname>
+            </persName>
+            <sex value="male"/>
+            <event type="born" when="1797-11-03"/>
+            <event type="died" when="1837-07-19"/>  
+            <note type="description">российский прозаик, критик, поэт, декабрист, убит в стычке с горцами</note>
+            <note type="90v_comment">российский прозаик, критик, поэт, декабрист, убит в стычке с горцами</note>
+            <catRef target="time" ana="#time_contemp"/>
+            <catRef target="country" ana="#compatriot"/>
+            <catRef target="occupation" ana="#work_literature"/>
+            <catRef target="occupation" ana="#work_soldier"/>
+         </person>
+         <person xml:id="10850">
+            <persName type="main" ref="Q859">
+               Платон
+               <forename sort="1">Платон</forename>
+            </persName>⚓
+            <sex value="male"/>
+            <event type="born" when="0427-05-07"/>
+            <event type="died" when="-0347-00-00"/>
+            <note type="description">древнегреческий философ</note>
+            <note type="90v_comment">Платон (428—347 до н. э.) — греческий философ</note>
+            <catRef target="occupation" ana="#work_literature"/>
+            <catRef target="occupation" ana="#work_philos"/>
+         </person>
+        </listPerson>      
+  </standoff>
+</TEI>
+
