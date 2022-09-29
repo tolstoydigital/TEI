@@ -1,150 +1,107 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title xml:id="v23_001_059_Ispoved">
-     Исповедь (Вступление к ненапечатанному сочинению). Tolstoy Digital
-    </title>
-    <title type="main">
-     Исповедь
-    </title>
-    <title type="sub">
-     (Вступление к ненапечатанному сочинению)
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML
-     </resp>
-     <name>
-      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="c5ar0l55-439i-4b0a-dla7-cio36816ibrb">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015" to="2022"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       Исповедь (Вступление к ненапечатанному сочинению)
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 23
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date when="1957"/>
-      </imprint>
-      <biblScope unit="volume">
-       23
-      </biblScope>
-      <biblScope unit="page">
-       1-59
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л.Н. Толстой. Полное собрание сочинений.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <taxonomy>
-     <category ana="works">
-      <catDesc>
-       произведения
-      </catDesc>
-     </category>
-     <category ana="nonpubl">
-      <catDesc>
-       неопубликованное при жизни
-      </catDesc>
-     </category>
-     <category ana="finished">
-      <catDesc>
-       законченные произведения
-      </catDesc>
-     </category>
-     <category ana="nonfiction">
-      <catDesc>
-       нехудожественные произведения
-      </catDesc>
-     </category>
-     <category ana="traktat">
-      <catDesc>
-       трактат
-      </catDesc>
-     </category>
-     <category ana="philosophy_religion">
-      <catDesc>
-       философия и религия
-      </catDesc>
-     </category>
-    </taxonomy>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date when="1882"/>
-   </creation>
-   <langUsage>
-    <language ident="ru"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="works" target="type"/>
-    <catRef ana="nonfiction" target="sphere"/>
-    <catRef ana="traktat" target="genre"/>
-    <catRef ana="finished" target="finished"/>
-    <catRef ana="philosophy_religion" target="topic"/>
-    <catRef ana="nonpubl" target="published"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="v23_001_059_Ispoved">
+                    Исповедь (Вступление к ненапечатанному сочинению). Tolstoy Digital
+                </title>
+                <title type="main">Исповедь</title>
+                <title type="sub">(Вступление к ненапечатанному сочинению)</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML
+                    </resp>
+                    <name>
+                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                    </name>                                 
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p>
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015" to="2022"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            Исповедь (Вступление к ненапечатанному сочинению)
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том 23
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1957"/>
+                        </imprint>
+                        <biblScope unit="volume">23</biblScope>
+                        <biblScope unit="page">1-59</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л.Н. Толстой. Полное собрание сочинений.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1882"/>
+             </creation>
+            <langUsage> 
+                <language ident="ru"/>
+            </langUsage>
+            <textClass> 
+                <catRef target="type" ana="#works"/>
+                <catRef target="sphere" ana="#nonfiction"/>
+                <catRef target="genre" ana="#traktat"/>
+                <catRef target="finished" ana="#finished"/>
+                <catRef target="topic" ana="#philosophy_religion"/>
+                <catRef target="published" ana="#not_publ"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000008">
     <p id="8cfce66e-184c-4fec-99f0-a354031fd400">
