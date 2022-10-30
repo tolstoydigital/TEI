@@ -1,97 +1,131 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v71_055_S_N_Tolstomu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо С. Н. Толстому от 25 февраля 1898 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="dc9f189e-4b9f-4d9b-be3f-232faf0939db">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 71</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="volume">71</biblScope>
-                        <biblScope unit="page">293-294</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date when="1898-02-25"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="13906">Толстой Сергей Николаевич</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">55</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="S.N.Tolstomu_55">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v71_055_S_N_Tolstomu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо С. Н. Толстому от 25 февраля 1898 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="dc9f189e-4b9f-4d9b-be3f-232faf0939db">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 71
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="volume">
+       71
+      </biblScope>
+      <biblScope unit="page">
+       293-294
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date when="1898-02-25"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="13906">
+      Толстой Сергей Николаевич
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   55
+  </number>
+ </xenoData>
+ <text xml:id="S.N.Tolstomu_55" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="293"/>
     <opener index="false">
-     * 55. С. Н. Толстому.1898 г. Февраля 25. Москва.
+     * 55.
+     <name placement="text" ref="13906" type="person">
+      С. Н. Толстому
+     </name>
+     .1898 г. Февраля 25. Москва.
     </opener>
     <p id="92f8f275-9221-4524-85eb-193bad61fc9c" rend="left">
      Я только что думал о том, что если нам не приходится видеться, то отчего бы нам не писать друг другу: грамоте мы обучены и 7
@@ -116,12 +150,21 @@
     </p>
     <p id="afd5c5bf-fd72-42f0-aff9-e869423a5f7f" rend="left">
      Таня тебе расскажет про мою внешнюю жизнь, про внутреннюю же могу сказать, что мне хорошо, несмотря на желудочное нездоровье, которое влияет очень дурно на расположение духа. События в мире с Дрейфусом
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
-      Альфред Дрейфус (1859—1927), французский офицер генерального штаба, еврей, обвиненный в государственной измене. Процесс по делу Дрейфуса, начатый в 1894 г. и окончившийся лишь в 1906 г. оправданием Дрейфуса, послужил ареной борьбы прогрессивных сил, доказывавших невиновность Дрейфуса, против военных шовинистов, клерикалов и антисемитов. Горячими обличителями подлогов и незаконных действий французского генерального штаба и суда выступили Э. Золя, Ж. Жорес и др. Об отношении Толстого к делу Дрейфуса см. в его статье «О Шекспире и о драме», гл. VII, т. 35, стр. 261.
+     <ref target="#note1"/>
+     <note index="false" resp="volume_editor" xml:id="note1">
+      <name placement="note" ref="4614" type="person">
+       Альфред Дрейфус
+      </name>
+      (1859—1927), французский офицер генерального штаба, еврей, обвиненный в государственной измене. Процесс по делу Дрейфуса, начатый в 1894 г. и окончившийся лишь в 1906 г. оправданием Дрейфуса, послужил ареной борьбы прогрессивных сил, доказывавших невиновность Дрейфуса, против военных шовинистов, клерикалов и антисемитов. Горячими обличителями подлогов и незаконных действий французского генерального штаба и суда выступили Э. Золя, Ж. Жорес и др. Об отношении Толстого к делу Дрейфуса см. в его статье «О Шекспире и о драме», гл. VII, т. 35, стр. 261.
      </note>
      и Боголюбовым
-     <ref target="#note2">2</ref><note index="false" resp="volume_editor" xml:id="note2">
-      Толстой описался в написании фамилии. Судя по письму C. Н. Толстого, речь идет о Николае Павловиче Боголепове (1846—1901), назначен ном 12 февраля 1898 г. министром народного просвещения. Боголепов —профессор-юрист, крайний реакционер, введший систему политическогосыска и надзора за студентами и в 1899 г. издавший «временные правила» для них, по которым студенты—участники «беспорядков»—могли быть отдаваемы в солдаты. В 1901 г. был убит П. В. Карповичем.
+     <ref target="#note2"/>
+     <note index="false" resp="volume_editor" xml:id="note2">
+      Толстой описался в написании фамилии. Судя по письму C. Н. Толстого, речь идет о
+      <name placement="note" ref="1582" type="person">
+       Николае Павловиче Боголепове
+      </name>
+      (1846—1901), назначен ном 12 февраля 1898 г. министром народного просвещения. Боголепов —профессор-юрист, крайний реакционер, введший систему политическогосыска и надзора за студентами и в 1899 г. издавший «временные правила» для них, по которым студенты—участники «беспорядков»—могли быть отдаваемы в солдаты. В 1901 г. был убит П. В. Карповичем.
      </note>
      и т. п., всей литературой и музыкой, и живописью только показывают, как мы всё больше и больше расходимся с царствующим миром.
      <hi style="opdelimiter">
@@ -158,8 +201,13 @@
       </corr>
      </choice>
      сохнет и гадка, а из-под нее идут молодые ростки, засела щеткой. И я их вижу. Это не одни мужики Ляпуновы,
-     <ref target="#note3">3</ref><note index="false" resp="volume_editor" xml:id="note3">
-      Имеется в виду Вячеслав Дмитриевич Ляпунов (1873—1905), поэт из крестьян. Толстой рекомендовал его в 1897 г. С. И. Толстому в качестве управляющего. См. т.
+     <ref target="#note3"/>
+     <note index="false" resp="volume_editor" xml:id="note3">
+      Имеется в виду
+      <name placement="note" ref="8215" type="person">
+       Вячеслав Дмитриевич Ляпунов
+      </name>
+      (1873—1905), поэт из крестьян. Толстой рекомендовал его в 1897 г. С. И. Толстому в качестве управляющего. См. т.
       <hi style="opdelimiter">
        70.
       </hi>
@@ -200,8 +248,12 @@
       </corr>
      </choice>
      ,
-     <ref target="#note4">4</ref><note index="false" resp="volume_editor" xml:id="note4">
-      Мария Михайловна Толстая, рожд. Шишкина (1832—1919), жена С. Н. Толстого.
+     <ref target="#note4"/>
+     <note index="false" resp="volume_editor" xml:id="note4">
+      <name placement="note" ref="13833" type="person">
+       Мария Михайловна Толстая
+      </name>
+      , рожд. Шишкина (1832—1919), жена С. Н. Толстого.
      </note>
      <choice original_editorial_correction="Вер[очку]">
       <sic>
@@ -217,11 +269,17 @@
        Вар
       </sic>
       <corr>
-       Варю
+       <name placement="note" ref="13822" type="person">
+        Варю
+       </name>
       </corr>
      </choice>
-     <ref target="#note5">5</ref><note index="false" resp="volume_editor" xml:id="note5">
-      Варвара Сергеевна Толстая (1871—1920), дочь С. Л. Толстого. См. о ней в т. 75.
+     <ref target="#note5"/>
+     <note index="false" resp="volume_editor" xml:id="note5">
+      <name placement="note" ref="13822" type="person">
+       Варвара Сергеевна Толстая
+      </name>
+      (1871—1920), дочь С. Л. Толстого. См. о ней в т. 75.
      </note>
      ,
      <choice original_editorial_correction="М[ашу]">
@@ -232,7 +290,8 @@
        Машу
       </corr>
      </choice>
-     <ref target="#note6">6</ref><note index="false" resp="volume_editor" xml:id="note6">
+     <ref target="#note6"/>
+     <note index="false" resp="volume_editor" xml:id="note6">
       Мария Сергеевна Толстая (р. 1872), дочь C. И. Толстого. См. о ней в т. 75.
      </note>
      целую.
@@ -245,10 +304,17 @@
       Дата рукой Т. Л. Толстой на копии в копировальной книге.
      </p>
      <p id="b9fbeb15-c29e-4daa-9c57-31af02fc2b4b" rend="petit left">
-      Сергей Николаевич Толстой (1824—1904) — брат Толстого.
+      <name placement="comments" ref="13906" type="person">
+       Сергей Николаевич Толстой
+      </name>
+      (1824—1904) — брат Толстого.
      </p>
      <p id="7529545b-fd68-4dd3-a127-d8828e6c9888" rend="petit left">
-      Ответ на письмо С. Н. Толстого, посланное с оказией, без даты, в котором он передавал просьбу пироговского крестьянина Левонова разрешить ему приехать к Толстому посоветоваться о его судебном деле; писал о болезни своей дочери Веры Сергеевны (1865—1923). Кроме того, он писал: «Кое-что читаю, газеты хороши: в каждой из них сидит штук до пяти пророков, вроде Амфитеатрова, Соловьева, Суворина, Ясинского и проч., и пишут они всё больше из Парижей и Италии и громят жестоко нашего брата, необразованного читателя, особенно из дворян. Золя тоже очень мил в своем Париже, и речь он на суде хорошую сказал, главное очень скромности много у него, тоже пророк не последний. Министр просвещения из детей протоиерея назначен; совсем уж осиливают попы, скоро от них дохнуть нельзя будет». Эта последняя часть письма, касающаяся общественно-политических событий того времени, и вызвала слова в ответном письме Толстого брату о сохнущей траве «стари́ке» и о «молодых ростках».
+      Ответ на письмо С. Н. Толстого, посланное с оказией, без даты, в котором он передавал просьбу пироговского крестьянина Левонова разрешить ему приехать к Толстому посоветоваться о его судебном деле; писал о болезни своей дочери
+      <name placement="comments" ref="13824" type="person">
+       Веры Сергеевны
+      </name>
+      (1865—1923). Кроме того, он писал: «Кое-что читаю, газеты хороши: в каждой из них сидит штук до пяти пророков, вроде Амфитеатрова, Соловьева, Суворина, Ясинского и проч., и пишут они всё больше из Парижей и Италии и громят жестоко нашего брата, необразованного читателя, особенно из дворян. Золя тоже очень мил в своем Париже, и речь он на суде хорошую сказал, главное очень скромности много у него, тоже пророк не последний. Министр просвещения из детей протоиерея назначен; совсем уж осиливают попы, скоро от них дохнуть нельзя будет». Эта последняя часть письма, касающаяся общественно-политических событий того времени, и вызвала слова в ответном письме Толстого брату о сохнущей траве «стари́ке» и о «молодых ростках».
      </p>
     </comments>
    </div>

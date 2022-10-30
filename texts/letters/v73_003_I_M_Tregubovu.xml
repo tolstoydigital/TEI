@@ -1,97 +1,131 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v73_003_I_M_Tregubovu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо И. М. Трегубову от 8 января 1901 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="2dd9eb34-d0c3-494e-a379-8f398e66af05">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 73</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="volume">73</biblScope>
-                        <biblScope unit="page">4-5</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date when="1901-01-08"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="13980">Трегубов Иван Михайлович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">3</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="I.M.Tregubovu_3">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v73_003_I_M_Tregubovu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо И. М. Трегубову от 8 января 1901 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="2dd9eb34-d0c3-494e-a379-8f398e66af05">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 73
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="volume">
+       73
+      </biblScope>
+      <biblScope unit="page">
+       4-5
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date when="1901-01-08"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="13980">
+      Трегубов Иван Михайлович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   3
+  </number>
+ </xenoData>
+ <text xml:id="I.M.Tregubovu_3" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="4"/>
     <opener index="false">
-     * 3. И. М. Трегубову.1901 г. Января 8. Москва.
+     * 3.
+     <name placement="text" ref="13980" type="person">
+      И. М. Трегубову
+     </name>
+     .1901 г. Января 8. Москва.
     </opener>
     <p id="5b48bd52-a5b1-42c7-846f-614ef1bc3893" rend="left">
      Получил вчера вашу статью, всю измаранную
@@ -112,7 +146,8 @@
       </corr>
      </choice>
      .
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
+     <ref target="#note1"/>
+     <note index="false" resp="volume_editor" xml:id="note1">
       В декабре 1900 г. Толстой хлопотал о напечатании статьи И. М. Трегубова «Мир мой даю вам, не так, как мир дает». (См. т. 72, письма №№ 437 и 444.) См. также письмо № 66.
      </note>
      Кроме
@@ -184,7 +219,11 @@
       Датируется по почтовому штемпелю.
      </p>
      <p id="4ba57e10-efad-4d01-aa82-7cbc98c86e10" rend="petit left">
-      Об Иване Михайловиче Трегубове (1858—1931) см. т. 66, стр. 124.
+      Об
+      <name placement="comments" ref="13980" type="person">
+       Иване Михайловиче Трегубове
+      </name>
+      (1858—1931) см. т. 66, стр. 124.
      </p>
     </comments>
    </div>

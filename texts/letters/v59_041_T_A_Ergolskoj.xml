@@ -1,131 +1,191 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v59_041_T_A_Ergolskoj">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо Т. А. Ергольской от 8 мая 1851 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="339fe042-8e5f-4fbe-b68b-46f87ea9751c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 59</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">59</biblScope>
-                        <biblScope unit="page">93-96</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Казань</placeName>
-                    <date when="1851-05-08"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="4947">Ергольская Татьяна Александровна</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#not_sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">41</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="T.A.Ergolskoj_41">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v59_041_T_A_Ergolskoj">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо Т. А. Ергольской от 8 мая 1851 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="339fe042-8e5f-4fbe-b68b-46f87ea9751c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 59
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       59
+      </biblScope>
+      <biblScope unit="page">
+       93-96
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Казань
+     </placeName>
+     <date when="1851-05-08"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="4947">
+      Ергольская Татьяна Александровна
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#not_sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   41
+  </number>
+ </xenoData>
+ <text xml:id="T.A.Ergolskoj_41" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="93"/>
     <opener index="false">
-     * 41. Т. А. Ергольской.1851 г. Мая 8. Казань.
+     * 41.
+     <name placement="text" ref="4947" type="person">
+      Т. А. Ергольской
+     </name>
+     .1851 г. Мая 8. Казань.
     </opener>
     <p id="b2c9251e-caa5-4f49-92b9-1dbefb9776f2" rend="Obrashenie left">
      Chère tante!
     </p>
     <p id="1395b1ed-c220-4903-b9da-d992b58f9b42" rend="left">
      Voilà de nouveau ces deux mots placés au-dessus d’une feuille de papier et me voilà de nouveau dans l’embarras. Qu’irais-je vous écrire? Cependant j’ai tant à vous dire. — Notre voyage a été des plus heureux, pour ce qui est du tems et de la route. — Nous avons passé deux jours à Moscou, j’y ai été chez les Gortshakoffs, André
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
-      Кн. Андрей Иванович Горчаков. О нем см. прим. 1 к п. № 33.
+     <ref target="#note1"/>
+     <note index="false" resp="volume_editor" xml:id="note1">
+      Кн.
+      <name placement="note" ref="3704" type="person">
+       Андрей Иванович Горчаков
+      </name>
+      . О нем см. прим. 1 к п. № 33.
      </note>
      et Serge,
-     <ref target="#note2">2</ref><note index="false" resp="volume_editor" xml:id="note2">
-      Кн. Сергей Дмитриевич Горчаков. О нем см. прим. 1 к п. № 7.
+     <ref target="#note2"/>
+     <note index="false" resp="volume_editor" xml:id="note2">
+      Кн.
+      <name placement="note" ref="3723" type="person">
+       Сергей Дмитриевич Горчаков
+      </name>
+      . О нем см. прим. 1 к п. № 7.
      </note>
      chez les Volkonsky,
-     <ref target="#note3">3</ref><note index="false" resp="volume_editor" xml:id="note3">
-      Волконские — вероятно троюродный брат Толстого кн. Александр Алексеевич Волконский (1818—1865), в 1857—1858 гг. бывший Вологодским предводителем дворянства, и его жена Луиза Ивановна Трузсон (1825—1890), изображенные в отрывке, написанном в марте 1851 г.: «История вчерашнего дня». Кроме этого, кн. Л. И. Волконская изображена в «Войне и Мире» в лице маленькой княгини Болконской.
+     <ref target="#note3"/>
+     <note index="false" resp="volume_editor" xml:id="note3">
+      Волконские — вероятно троюродный брат Толстого кн.
+      <name placement="note" ref="2776" type="person">
+       Александр Алексеевич Волконский
+      </name>
+      (1818—1865), в 1857—1858 гг. бывший Вологодским предводителем дворянства, и его жена Луиза Ивановна Трузсон (1825—1890), изображенные в отрывке, написанном в марте 1851 г.: «История вчерашнего дня». Кроме этого, кн. Л. И. Волконская изображена в «Войне и Мире» в лице маленькой княгини Болконской.
      </note>
      j’ai vu Lwoff,
-     <ref target="#note4">4</ref><note index="false" resp="volume_editor" xml:id="note4">
-      Кн. Георгий Владимирович Львов. О нем см. вступ. прим. к п. № 94.
+     <ref target="#note4"/>
+     <note index="false" resp="volume_editor" xml:id="note4">
+      Кн.
+      <name placement="note" ref="8143" type="person">
+       Георгий Владимирович Львов
+      </name>
+      . О нем см. вступ. прим. к п. № 94.
      </note>
      Calochine,
-     <ref target="#note5">5</ref><note index="false" resp="volume_editor" xml:id="note5">
+     <ref target="#note5"/>
+     <note index="false" resp="volume_editor" xml:id="note5">
       Вероятно Сергей Павлович Калошин. О нем см. прим. 15 к п. № 31.
      </note>
      Kostinka
-     <ref target="#note6">6</ref><note index="false" resp="volume_editor" xml:id="note6">
-      Константин Александрович Иславин. О нем см. прим. 25 к п. № 12.
+     <ref target="#note6"/>
+     <note index="false" resp="volume_editor" xml:id="note6">
+      <name placement="note" ref="5841" type="person">
+       Константин Александрович Иславин
+      </name>
+      . О нем см. прим. 25 к п. № 12.
      </note>
      et tous ceux que j’aime à voir.
     </p>
     <p id="03d0e10a-e980-4455-9b54-77f84e3ba6d8" rend="left">
      J’ai été à la promenade de Sokolniki
-     <ref target="#note7">7</ref><note index="false" resp="volume_editor" xml:id="note7">
+     <ref target="#note7"/>
+     <note index="false" resp="volume_editor" xml:id="note7">
       Сокольники — парк под Москвой.
      </note>
      par un temps détestable, c’est pourquoi je n’ai rencontré personne des dames de la société, que j’avais
@@ -151,7 +211,8 @@
     </p>
     <p id="74b6ba9f-f932-4f26-b8a5-bcba29b1391e" rend="left">
      J’ai écrit à Valérien
-     <ref target="#note8">8</ref><note index="false" resp="volume_editor" xml:id="note8">
+     <ref target="#note8"/>
+     <note index="false" resp="volume_editor" xml:id="note8">
       Письмо это не сохранилось.
      </note>
      de Moscou, que j’avais gagné 400 r.: je crains que cela ne vous donne l’alarme, vous croirez, que je joue et
@@ -202,11 +263,13 @@
     </p>
     <p id="40b0d0f8-46cd-43f3-9f04-66273b1f36a1" rend="petit left">
      le porte monnaie pour Mad. Verganie.
-     <ref target="#note9">9</ref><note index="false" resp="volume_editor" xml:id="note9">
+     <ref target="#note9"/>
+     <note index="false" resp="volume_editor" xml:id="note9">
       О Вергани см. прим. 1 к п. № 27.
      </note>
      Léon vien de partir pour aller chez Mad. Zagoskine
-     <ref target="#note10">10</ref><note index="false" resp="volume_editor" xml:id="note10">
+     <ref target="#note10"/>
+     <note index="false" resp="volume_editor" xml:id="note10">
       Екатерина Дмитриевна Загоскина, рожд. Мертваго (р. 10 октября 1807 г., ум. 6 мая 1885 г.), начальница Казанского Родионовского института в 1836—1861 гг. Ее гостиная, по свидетельству П. Д.
       <hi style="opdelimiter">
        Боборыкина,
@@ -217,7 +280,8 @@
       типу стояла почти на одном уровне с губернаторской». («За полвека» — «Русская мысль» 1906, № 25, стр. 9; статья К. С. Шохор-Троцкого «Казанские знакомства Толстого» (гл. III — Е. Д. Загоскина, ее гостиная и Родионовский институт) в сб. «Великой памяти Л. Н. Толстого Казанский университет. 1828—1928», Казань, 1928, стр. 96—101.)
      </note>
      et j’achève sa lettre. Demain nous allons à Panovo
-     <ref target="#note11">11</ref><note index="false" resp="volume_editor" xml:id="note11">
+     <ref target="#note11"/>
+     <note index="false" resp="volume_editor" xml:id="note11">
       Паново — имение мужа тетки Толстого Влад. Ив. Юшкова, сельцо Астраханской волости, Лаишевского уезда, Казанской губ., в 29 в. от Казани по Оренбургскому тракту.
      </note>
      et ensuite nous allons continuer notre voyage, dès que nous trouverons un bateau à vapeur. C’est la grande question pour nous maintenant! à I'heure qu’il est il n’y a pas de bateau à Cazan, mais il doit en arriver un le 10 c. à d. après demain, comme je ne peux pas rester longtemps à Cazan il peut arriver que nous partirons par terre ce qui sera un peu désagréable pour nous. Adieu, ma bonne tante, je vous baise les mains bien tendrement, portez vous bien, soyez heureuse et croyez à l’amour que vous porte votre affectionné et reconnaissant Nicol. G. Tolstoy.
@@ -227,34 +291,41 @@
     </p>
     <p id="0d504fbe-3f7a-4aee-828c-bf749e12d772" rend="petit left">
      Вот опять эти два слова во главе листа, и опять я в затруднении, о чем вам писать. А так много есть чего вам рассказать. — Путешествие наше было самое удачное в смысле погоды и дороги. — В Москве мы пробыли два дня; я был у Горчаковых, Андрея
-     <ref target="#note12">12</ref><note index="false" resp="volume_editor" xml:id="note12">
+     <ref target="#note12"/>
+     <note index="false" resp="volume_editor" xml:id="note12">
       Кн. Андрей Иванович Горчаков. О нем см. прим. 1 к п. № 33.
      </note>
      и Сергея,
-     <ref target="#note13">13</ref><note index="false" resp="volume_editor" xml:id="note13">
+     <ref target="#note13"/>
+     <note index="false" resp="volume_editor" xml:id="note13">
       Кн. Сергей Дмитриевич Горчаков. О нем см. прим. 1 к п. № 7.
      </note>
      у Волконских,
-     <ref target="#note14">14</ref><note index="false" resp="volume_editor" xml:id="note14">
+     <ref target="#note14"/>
+     <note index="false" resp="volume_editor" xml:id="note14">
       Волконские — вероятно троюродный брат Толстого кн. Александр Алексеевич Волконский (1818—1865), в 1857—1858 гг. бывший Вологодским предводителем дворянства, и его жена Луиза Ивановна Трузсон (1825—1890), изображенные в отрывке, написанном в марте 1851 г.: «История вчерашнего дня». Кроме этого, кн. Л. И. Волконская изображена в «Войне и Мире» в лице маленькой княгини Болконской.
      </note>
      видел Львова,
-     <ref target="#note15">15</ref><note index="false" resp="volume_editor" xml:id="note15">
+     <ref target="#note15"/>
+     <note index="false" resp="volume_editor" xml:id="note15">
       Кн. Георгий Владимирович Львов. О нем см. вступ. прим. к п. № 94.
      </note>
      Калошина,
-     <ref target="#note16">16</ref><note index="false" resp="volume_editor" xml:id="note16">
+     <ref target="#note16"/>
+     <note index="false" resp="volume_editor" xml:id="note16">
       Вероятно Сергей Павлович Калошин. О нем см. прим. 15 к п. № 31.
      </note>
      Костиньку
-     <ref target="#note17">17</ref><note index="false" resp="volume_editor" xml:id="note17">
+     <ref target="#note17"/>
+     <note index="false" resp="volume_editor" xml:id="note17">
       Константин Александрович Иславин. О нем см. прим. 25 к п. № 12.
      </note>
      и всех тех, кого мне приятно встречать.
     </p>
     <p id="51c67752-e71d-4713-a91c-77ff46808986" rend="petit left">
      Был на гулянье в Сокольниках
-     <ref target="#note18">18</ref><note index="false" resp="volume_editor" xml:id="note18">
+     <ref target="#note18"/>
+     <note index="false" resp="volume_editor" xml:id="note18">
       Сокольники — парк под Москвой.
      </note>
      при отвратительной погоде, поэтому никого из дам общества, кого хотелось видеть, не встретил. По вашим словам, что я
@@ -275,11 +346,13 @@
     </p>
     <p id="f47db478-79fd-4d31-92ac-a8fded9376e8" rend="petit left">
      Из Москвы я писал Валерьяну,
-     <ref target="#note19">19</ref><note index="false" resp="volume_editor" xml:id="note19">
+     <ref target="#note19"/>
+     <note index="false" resp="volume_editor" xml:id="note19">
       Письмо это не сохранилось.
      </note>
      что выиграл 400 р.; боюсь, что это вас растревожит, что вы подумаете, что я опять играю и буду играть. — Не беспокойтесь; как исключение я разрешил себе это только с г. Зубковым.
-     <ref target="#note20">20</ref><note index="false" resp="volume_editor" xml:id="note20">
+     <ref target="#note20"/>
+     <note index="false" resp="volume_editor" xml:id="note20">
       Владимир Васильевич Зубков (р. 1828 г.), сын приятеля Пушкина Василия Петровича Зубкова (1799—1862), в 1839—1851 гг. служившего в московском Сенате.
      </note>
      — Только по приезде в Казань вернулось мое хорошее расположение духа; пользуясь этим, я вам пишу. — А всё это время не то, чтобы я был в дурном настроении, но я был не весел. — Вы догадываетесь почему. —
@@ -296,20 +369,33 @@
       Получили
      </hi>
      ли вы портреты
-     <ref target="#note21">21</ref><note index="false" resp="volume_editor" xml:id="note21">
-      Лев Николаевич снялся в Москве в мастерской Мазера перед отъездом на Кавказ с гр. Ник. Ник. Толстым. Этот дагеротип в настоящее время находится в АТБ. На обороте его имеется помета, сделанная точно бы рукой Т. А. Ергольской: «1851, 1 Мая». Впервые полностью воспроизведен в 46 томе настоящего издания (при «Дневниках» за 1847—1854 гг.). Один Лев Николаевич многократно воспроизводился, см. напр. I т. восьмого издания собрания сочинений Толстого 1893 г. и I т. полного собрания сочинений Толстого под ред. П. И. Бирюкова, изд. Сытина, 1913 г.
+     <ref target="#note21"/>
+     <note index="false" resp="volume_editor" xml:id="note21">
+      <name placement="note" ref="13883" type="person">
+       Лев Николаевич
+      </name>
+      снялся в Москве в мастерской Мазера перед отъездом на Кавказ с гр. Ник. Ник. Толстым. Этот дагеротип в настоящее время находится в АТБ. На обороте его имеется помета, сделанная точно бы рукой Т. А. Ергольской: «1851, 1 Мая». Впервые полностью воспроизведен в 46 томе настоящего издания (при «Дневниках» за 1847—1854 гг.). Один
+      <name placement="note" ref="13883" type="person">
+       Лев Николаевич
+      </name>
+      многократно воспроизводился, см. напр. I т. восьмого издания собрания сочинений Толстого 1893 г. и I т. полного собрания сочинений Толстого под ред. П. И. Бирюкова, изд. Сытина, 1913 г.
      </note>
      и нравятся ли они вам. — Я совершенно забыл
      <hi>
       (рукой гр. H.H. Толстого:)
      </hi>
      кошелек для М-ль Вергани.
-     <ref target="#note22">22</ref><note index="false" resp="volume_editor" xml:id="note22">
+     <ref target="#note22"/>
+     <note index="false" resp="volume_editor" xml:id="note22">
       О Вергани см. прим. 1 к п. № 27.
      </note>
      Левочка уехал к г-же Загоскиной,
-     <ref target="#note23">23</ref><note index="false" resp="volume_editor" xml:id="note23">
-      Екатерина Дмитриевна Загоскина, рожд. Мертваго (р. 10 октября 1807 г., ум. 6 мая 1885 г.), начальница Казанского Родионовского института в 1836—1861 гг. Ее гостиная, по свидетельству П. Д.
+     <ref target="#note23"/>
+     <note index="false" resp="volume_editor" xml:id="note23">
+      <name placement="note" ref="5235" type="person">
+       Екатерина Дмитриевна Загоскина
+      </name>
+      , рожд. Мертваго (р. 10 октября 1807 г., ум. 6 мая 1885 г.), начальница Казанского Родионовского института в 1836—1861 гг. Ее гостиная, по свидетельству П. Д.
       <hi style="opdelimiter">
        Боборыкина,
       </hi>
@@ -319,7 +405,8 @@
       типу стояла почти на одном уровне с губернаторской». («За полвека» — «Русская мысль» 1906, № 25, стр. 9; статья К. С. Шохор-Троцкого «Казанские знакомства Толстого» (гл. III — Е. Д. Загоскина, ее гостиная и Родионовский институт) в сб. «Великой памяти Л. Н. Толстого Казанский университет. 1828—1928», Казань, 1928, стр. 96—101.)
      </note>
      и я заканчиваю его письмо. Завтра мы едем в Паново,
-     <ref target="#note24">24</ref><note index="false" resp="volume_editor" xml:id="note24">
+     <ref target="#note24"/>
+     <note index="false" resp="volume_editor" xml:id="note24">
       Паново — имение мужа тетки Толстого Влад. Ив. Юшкова, сельцо Астраханской волости, Лаишевского уезда, Казанской губ., в 29 в. от Казани по Оренбургскому тракту.
      </note>
      а затем пустимся в путь, как будет пароход. Для нас — это большой вопрос; сейчас в Казани парохода нет, но обещают прибытие одного 10 числа, т. е. после завтра, а так как мне нельзя долго задерживаться в Казани, может случиться, что мы поедем на лошадях, что будет для нас не совсем приятно. Прощайте, добрая тетенька, нежно целую ваши ручки, будьте здоровы, будьте счастливы и верьте привязанности вашего любящего и благодарного Николая Гр. Толстого.

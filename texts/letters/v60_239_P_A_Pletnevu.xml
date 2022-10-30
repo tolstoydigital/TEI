@@ -1,125 +1,173 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v60_239_P_A_Pletnevu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо П. А. Плетневу от 1 мая 1862 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="bb7f4855-db4a-4d9a-9fef-27d6eaaf1b96">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 60</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1949"/>
-                        </imprint>
-                        <biblScope unit="volume">60</biblScope>
-                        <biblScope unit="page">423-425</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl/>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Ясная Поляна</placeName>
-                    <date when="1862-05-01"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="10865">Плетнев Петр Александрович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">239</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="P.A.Pletnevu_239">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v60_239_P_A_Pletnevu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо П. А. Плетневу от 1 мая 1862 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="bb7f4855-db4a-4d9a-9fef-27d6eaaf1b96">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 60
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1949"/>
+      </imprint>
+      <biblScope unit="volume">
+       60
+      </biblScope>
+      <biblScope unit="page">
+       423-425
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl/>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Ясная Поляна
+     </placeName>
+     <date when="1862-05-01"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="10865">
+      Плетнев Петр Александрович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   239
+  </number>
+ </xenoData>
+ <text xml:id="P.A.Pletnevu_239" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="423"/>
     <opener index="false">
-     239. П. А. Плетневу.1862 г. Мая 1. Я. П.
+     239.
+     <name placement="text" ref="10865" type="person">
+      П. А. Плетневу
+     </name>
+     .1862 г. Мая 1. Я. П.
     </opener>
     <p id="d039c068-6286-4e83-bd85-3da24fa423fb" rend="left">
-     Ради Бога простите меня, многоуважаемый Петр Александрович, что еще не отвечал вам. Я тем более виноват, что мне редко удается получать письма столь приятные, как ваши. Ваше высказываемое сочувствие мне очень дорого. А Робинзона вы похвалили самым лестным для меня образом.
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
-      «Робинзон» — рассказ для детей, помещенный в приложении к журналу Толстого «Ясная Поляна» — «Книжка для детей», кн. 2, февраль 1862 г. П. А. Плетнев прислал Толстому восторженный отзыв о Робинзоне, свой и своего восьмилетнего сына Алексея Петровича Плетнева» в письме от 20 марта 1862 г.
+     Ради Бога простите меня, многоуважаемый
+     <name placement="text" ref="10865" type="person">
+      Петр Александрович
+     </name>
+     , что еще не отвечал вам. Я тем более виноват, что мне редко удается получать письма столь приятные, как ваши. Ваше высказываемое сочувствие мне очень дорого. А Робинзона вы похвалили самым лестным для меня образом.
+     <ref target="#note1"/>
+     <note index="false" resp="volume_editor" xml:id="note1">
+      «Робинзон» — рассказ для детей, помещенный в приложении к журналу Толстого «Ясная Поляна» — «Книжка для детей», кн. 2, февраль 1862 г. П. А. Плетнев прислал Толстому восторженный отзыв о Робинзоне, свой и своего восьмилетнего сына
+      <name placement="note" ref="10864" type="person">
+       Алексея Петровича Плетнева
+      </name>
+      » в письме от 20 марта 1862 г.
      </note>
      —
     </p>
     <p id="19c313ce-abfe-4962-aa9e-390875e500b3" rend="left">
      Тургеневский роман меня очень занимал и понравился мне гораздо меньше, чем я ожидал. Главный упрек, который я ему делаю — он холоден, холоден, что не годится для Тургеневского дарованья. Всё умно, всё тонко, всё художественно, я соглашусь с вами, многое назидательно и справедливо, но нет ни одной страницы, которая бы была написана одним почерком с замираньем сердца, и потому нет ни одной страницы, которая бы брала за душу. — Я очень жалею, что не согласен с вами и Ф. И. Тютчевым
-     <ref target="#note2">2</ref><note index="false" resp="volume_editor" xml:id="note2">
+     <ref target="#note2"/>
+     <note index="false" resp="volume_editor" xml:id="note2">
       Федор Иванович Тютчев (1803—1873) — поэт. Толстой был лично знаком с Тютчевым и очень высоко ценил его как поэта.
      </note>
      — но не согласен.
-     <ref target="#note3">3</ref><note index="false" resp="volume_editor" xml:id="note3">
+     <ref target="#note3"/>
+     <note index="false" resp="volume_editor" xml:id="note3">
       Речь идет о романе Тургенева «Отцы и дети», опубликованном во втором (февральском) номере «Русского вестника» 1862 г., стр. 473—663.
      </note>
      — Между прочим, во избежание недоразумений считаю нужным вам сообщить, что между мной и Г-ном Тургеневым прерваны всякие личные сношения. —
     </p>
     <p id="096c83de-9928-41b2-9ec6-86bd8f85737c" rend="left">
      Душевно кланяюсь вашей супруге
-     <ref target="#note4">4</ref><note index="false" resp="volume_editor" xml:id="note4">
-      Александра Васильевна Плетнева, рожд. кн. Щетинина (1826—1901) — вторая жена П. А. Плетнева (с 1849 г.).
+     <ref target="#note4"/>
+     <note index="false" resp="volume_editor" xml:id="note4">
+      <name placement="note" ref="10866" type="person">
+       Александра Васильевна Плетнева
+      </name>
+      , рожд. кн. Щетинина (1826—1901) — вторая жена П. А. Плетнева (с 1849 г.).
      </note>
      и благодарю за ее обо мне память. Желал бы, чтобы вашему молодому
      <hi style="opdelimiter">
       человеку
-      <ref target="#note5">5</ref><note index="false" resp="volume_editor" xml:id="note5">
+      <ref target="#note5"/>
+      <note index="false" resp="volume_editor" xml:id="note5">
        См. прим. 1.
       </note>
      </hi>
@@ -136,7 +184,8 @@
       а стеблем глаз колет
      </hi>
      »
-     <ref target="#note6">6</ref><note index="false" resp="volume_editor" xml:id="note6">
+     <ref target="#note6"/>
+     <note index="false" resp="volume_editor" xml:id="note6">
       См. историю написания этого рассказа в статье Толстого: «Кому у кого учиться писать — крестьянским ребятам у нас или нам у крестьянских ребят», напечатанной сначала в журнале «Ясная Поляна», книжка для чтения за апрель 1862 г., а затем перепечатанной в сочинениях Толстого (см. т. 8 настоящего издания).
      </note>
      так же, как Робинзон. Критика его очень мне дорога — ежели он по отцу пошел. —
@@ -152,7 +201,11 @@
     </p>
     <comments>
      <p id="c688c696-7850-47eb-84cf-ce421357f7b0" rend="Textpetit_otstup left">
-      Впервые опубликовано в сборнике «Л. Н. Толстой и П. А. Плетнев», стр. 27. На письме сделана помета рукой П. А. Плетнева: «
+      Впервые опубликовано в сборнике «
+      <name placement="comments" ref="13883" type="person">
+       Л. Н. Толстой
+      </name>
+      и П. А. Плетнев», стр. 27. На письме сделана помета рукой П. А. Плетнева: «
       <choice original_editorial_correction="П[олучено]">
        <sic>
         П
@@ -167,10 +220,17 @@
       Ответ на письмо П. А. Плетнева от 20 марта 1862 г. из Петербурга (там же, стр. 25—26).
      </p>
      <p id="7b5df375-ec0a-4638-98ad-a3dfc909e5d7" rend="petit left">
-      Петр Александрович Плетнев (1792—1862) — профессор русской литературы и ректор Петербургского университета, критик и журналист. Один из близких людей к Пушкину, ведавший делом его изданий. Пушкин посвятил Плетневу «Евгения Онегина». После смерти Пушкина Плетнев сделался издателем основанного им «Современника», но в 1847 г. продал право издания Некрасову и Панаеву. В 1849 г. Толстой подавал на имя Плетнева, как ректора Петербургского университета, прошение о разрешении держать экстерном экзамены.
+      <name placement="comments" ref="10865" type="person">
+       Петр Александрович Плетнев
+      </name>
+      (1792—1862) — профессор русской литературы и ректор Петербургского университета, критик и журналист. Один из близких людей к Пушкину, ведавший делом его изданий. Пушкин посвятил Плетневу «Евгения Онегина». После смерти Пушкина Плетнев сделался издателем основанного им «Современника», но в 1847 г. продал право издания Некрасову и Панаеву. В 1849 г. Толстой подавал на имя Плетнева, как ректора Петербургского университета, прошение о разрешении держать экстерном экзамены.
      </p>
      <p id="f729e722-a7fc-4532-bbad-d3c183887bd7" rend="petit left">
-      С Плетневым Толстой встречался в Париже в феврале 1857 г. (см. Дневник Толстого, т. 47, стр. 114—116). Переписка Толстого с Плетневым охватывает время с февраля по май 1862 г. и состоит из двух писем Плетнева и одного — Толстого. См. Л. Б. Модзалевский, «Л. Н. Толстой и П. А. Плетнев» — «Толстой. 1850—1860. Материалы, статьи», редакция В. И. Срезневского, Л. 1927. В 1910 г. Толстой вспомнил Плетнева, заметив А. Б. Гольденвейзеру: «Он ко мне был очень ласков» (А. Б. Гольденвейзер, «Вблизи Толстого», II, М. 1923, стр. 89).
+      С Плетневым Толстой встречался в Париже в феврале 1857 г. (см. Дневник Толстого, т. 47, стр. 114—116). Переписка Толстого с Плетневым охватывает время с февраля по май 1862 г. и состоит из двух писем Плетнева и одного — Толстого. См. Л. Б. Модзалевский, «
+      <name placement="comments" ref="13883" type="person">
+       Л. Н. Толстой
+      </name>
+      и П. А. Плетнев» — «Толстой. 1850—1860. Материалы, статьи», редакция В. И. Срезневского, Л. 1927. В 1910 г. Толстой вспомнил Плетнева, заметив А. Б. Гольденвейзеру: «Он ко мне был очень ласков» (А. Б. Гольденвейзер, «Вблизи Толстого», II, М. 1923, стр. 89).
      </p>
     </comments>
    </div>

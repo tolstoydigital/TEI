@@ -1,97 +1,131 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v60_201_G_F_Keleru">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо Г. Ф. Келеру от 7 апреля 1861 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c33ad03c-a023-4e14-8d94-adc98d8ce643">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 60</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1949"/>
-                        </imprint>
-                        <biblScope unit="volume">60</biblScope>
-                        <biblScope unit="page">381-382</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Дрезден</placeName>
-                    <date when="1861-04-07"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="6317">Келер Густав Федорович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">201</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="G.F.Keleru_201">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v60_201_G_F_Keleru">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо Г. Ф. Келеру от 7 апреля 1861 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c33ad03c-a023-4e14-8d94-adc98d8ce643">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 60
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1949"/>
+      </imprint>
+      <biblScope unit="volume">
+       60
+      </biblScope>
+      <biblScope unit="page">
+       381-382
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Дрезден
+     </placeName>
+     <date when="1861-04-07"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="6317">
+      Келер Густав Федорович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   201
+  </number>
+ </xenoData>
+ <text xml:id="G.F.Keleru_201" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="381"/>
     <opener index="false">
-     201. Г. Ф. Келеру.1861 г. Апреля 7/19 Дрезден.
+     201.
+     <name placement="text" ref="6317" type="person">
+      Г. Ф. Келеру
+     </name>
+     .1861 г. Апреля 7/19 Дрезден.
     </opener>
     <p id="6844e302-a2a2-4636-9b04-2e469ba8f7f3" rend="left">
      Ich habe in Dresden den Herrn, den ich sehen wolte, nicht gefunden und ohnedem habe mich
@@ -113,8 +147,12 @@
       </corr>
      </choice>
      brauchen werden und bitte Sie direct nach Berlin zu kommen.
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
-      Густав Федорович Келер (см. № 282) приехал в Берлин 10/22 апреля, о чем Толстой отметил в своем Дневнике (т. 48), и вместе с Толстым отправился в тот же день в Россию.
+     <ref target="#note1"/>
+     <note index="false" resp="volume_editor" xml:id="note1">
+      <name placement="note" ref="6317" type="person">
+       Густав Федорович Келер
+      </name>
+      (см. № 282) приехал в Берлин 10/22 апреля, о чем Толстой отметил в своем Дневнике (т. 48), и вместе с Толстым отправился в тот же день в Россию.
      </note>
      Wenn ich nicht vor Montag Zeit habe, Ihnen von Berlin zu schreiben um meine Adresse zu geben, so fragen Sie nach meiner Wohnung in der Russischen Gesandschaft. Also auf
      <choice original_editorial_correction="Wi[e]dersehen">
@@ -129,7 +167,8 @@
     </p>
     <p id="984cca44-8155-466a-a34c-5861fd180a72" rend="left">
      Wenn unglücklicher Weise etwas Sie noch abhalten konnte, so schreiben Sie es mir gleich. Ich glaube, wenn ich nicht einige Tage für das Dampfschiff warten muss, Dienstag abzureisen. — Übergeben Sie, ich bitte, Ihrer Frau Mutter, meinen freundlichen Gruss und versichern Sie, das ich für Ihre Gesundheit und Wohlsein, auf der Reise, so wie zu Hause, so viel als möglich sorgen werde.
-     <ref target="#note2">2</ref><note index="false" resp="volume_editor" xml:id="note2">
+     <ref target="#note2"/>
+     <note index="false" resp="volume_editor" xml:id="note2">
       5/17 апреля в Веймаре Толстой видался с матерью Г. Ф. Келера и записал в Дневнике: «Потом... Келер с матерью. Увидав ее, я понял, что ответственность я на себя беру, увозя его» (т. 48).
      </note>
     </p>
@@ -148,19 +187,30 @@
     </p>
     <p id="31cb3bab-3c0e-49db-9230-bd751a767c75" rend="petit left">
      15 талеров, которые вам, быть может, понадобятся, и прошу вас приехать прямо в Берлин.
-     <ref target="#note3">3</ref><note index="false" resp="volume_editor" xml:id="note3">
-      Густав Федорович Келер (см. № 282) приехал в Берлин 10/22 апреля, о чем Толстой отметил в своем Дневнике (т. 48), и вместе с Толстым отправился в тот же день в Россию.
+     <ref target="#note3"/>
+     <note index="false" resp="volume_editor" xml:id="note3">
+      <name placement="note" ref="6317" type="person">
+       Густав Федорович Келер
+      </name>
+      (см. № 282) приехал в Берлин 10/22 апреля, о чем Толстой отметил в своем Дневнике (т. 48), и вместе с Толстым отправился в тот же день в Россию.
      </note>
      Если до понедельника у меня не будет времени написать вам из Берлина, чтобы сообщить мой адрес, то спросите о моем местожительстве в русском посольстве. Итак, до свидания, милый господин Келер.
     </p>
     <p id="7282656c-4e6e-470e-a791-2cada242a183" rend="petit left">
      Если вас, к несчастью, что-либо еще могло бы задержать, то напишите мне тотчас же. Если мне не придется несколько дней ждать парохода, я предполагаю выехать во вторник. Передайте, пожалуйста, вашей матушке мой дружеский привет и заверьте ее, что я позабочусь, как только смогу, о вашем здоровье и благополучии как во время путешествия, так и дома.
-     <ref target="#note4">4</ref><note index="false" resp="volume_editor" xml:id="note4">
-      Густав Федорович Келер (см. № 282) приехал в Берлин 10/22 апреля, о чем Толстой отметил в своем Дневнике (т. 48), и вместе с Толстым отправился в тот же день в Россию.
+     <ref target="#note4"/>
+     <note index="false" resp="volume_editor" xml:id="note4">
+      <name placement="note" ref="6317" type="person">
+       Густав Федорович Келер
+      </name>
+      (см. № 282) приехал в Берлин 10/22 апреля, о чем Толстой отметил в своем Дневнике (т. 48), и вместе с Толстым отправился в тот же день в Россию.
      </note>
     </p>
     <p id="fef03491-13fb-4806-86b8-cafb8b4cfd14" rend="petit right">
-     Гр. Л. Толстой.
+     <name placement="text" ref="13883" type="person">
+      Гр. Л. Толстой
+     </name>
+     .
     </p>
     <p id="6ff621e9-2b90-468b-a254-3412a0963318" rend="petit left">
      19 апреля.

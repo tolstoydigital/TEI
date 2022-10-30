@@ -1,104 +1,145 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v64_346_S_T_Semenovu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо С. Т. Семенову от 10 апреля 1889 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="17cb3c8c-ad40-45d6-9c10-64b4deeea01e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 64</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1953"/>
-                        </imprint>
-                        <biblScope unit="volume">64</biblScope>
-                        <biblScope unit="page">241-243</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date when="1889-04-10"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="12443">Семенов Сергей Терентьевич</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">346</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="S__T__Semenovu_346">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v64_346_S_T_Semenovu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо С. Т. Семенову от 10 апреля 1889 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="17cb3c8c-ad40-45d6-9c10-64b4deeea01e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 64
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="volume">
+       64
+      </biblScope>
+      <biblScope unit="page">
+       241-243
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date when="1889-04-10"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="12443">
+      Семенов Сергей Терентьевич
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   346
+  </number>
+ </xenoData>
+ <text xml:id="S__T__Semenovu_346" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="241"/>
     <opener index="false">
-     * 346. С. Т. Семенову.1889 г. Апреля. 10. Москва.
+     * 346.
+     <name placement="text" ref="12443" type="person">
+      С. Т. Семенову
+     </name>
+     .1889 г. Апреля. 10. Москва.
     </opener>
     <p id="a7f4d1b8-1e3a-43d8-81e3-7e3fad7c1cad" rend="Obrashenie left">
-     Дорогой Сергей Терентьевич,
+     Дорогой
+     <name placement="text" ref="12443" type="person">
+      Сергей Терентьевич
+     </name>
+     ,
     </p>
     <p id="3f8ea300-3c9f-436b-9d03-362d677fe4fe" rend="left">
      Получил оба ваши хорошие письма с последними рукописями,
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
+     <ref target="#note1">
+      1
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note1">
       Повести С. Т. Семенова: «Немилая жена» (издана «Посредником». М. 1891) и «Назар Ходаков» (напечатана не была).
      </note>
      я их еще не прочел, прочтя пошлю их
@@ -215,7 +256,10 @@
     </p>
     <p id="a3fc8e7f-fbfc-41aa-b98b-b8e36f3f26c2" rend="left">
      Рукописи я ваши прочел. Немилая жена лучше, но еще грубо. Другая тоже имеет этот же недостаток и вся слабее. Я их посылаю обе Черткову.
-     <ref target="#note2">2</ref><note index="false" resp="volume_editor" xml:id="note2">
+     <ref target="#note2">
+      2
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note2">
       См. т. 86, № 220.
      </note>
     </p>
