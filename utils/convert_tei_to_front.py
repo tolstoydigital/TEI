@@ -27,6 +27,7 @@ def get_all_p_uuids(path: Path) -> set[str]:
         for filename in files:
             if not filename.endswith('.xml'):
                 continue
+            print(filename)
             with open(Path(path, filename), 'rb') as file:
                 root = etree.fromstring(file.read())
             paragraphs = root.xpath('//ns:p', namespaces={'ns': f'{XMLNS}'})
@@ -133,6 +134,15 @@ def change_tags(root):
             comments_parent.insert(comments_parent.index(comments_tag), new_p)
 
         comments_parent.remove(comments_tag)
+
+    rare_words_tags = root.xpath('//ns:ref[@target="slovar"]', namespaces={'ns': f'{XMLNS}'})
+    for tag in rare_words_tags:
+        tag.tag = 'a'
+        tag.set('href', '../../reference/Dictionary.xml')
+        word_id = tag.attrib.pop('id')
+        tag.set('data-type', 'topic_slovar')
+        tag.set('data-id', word_id)
+        tag.attrib.pop('target')
 
 
 def main():
