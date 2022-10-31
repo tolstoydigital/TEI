@@ -1,100 +1,138 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v64_172_P_I_Biryukovu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо П. И. Бирюкову от 20 декабря 1887 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="df3e48d1-3523-4fe1-a754-d1d7933b417c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 64</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1953"/>
-                        </imprint>
-                        <biblScope unit="volume">64</biblScope>
-                        <biblScope unit="page">128-130</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date when="1887-12-20"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="1444">Бирюков Павел Иванович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">172</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="P__I__Biryukovu_172">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v64_172_P_I_Biryukovu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо П. И. Бирюкову от 20 декабря 1887 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="df3e48d1-3523-4fe1-a754-d1d7933b417c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 64
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="volume">
+       64
+      </biblScope>
+      <biblScope unit="page">
+       128-130
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date when="1887-12-20"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="1444">
+      Бирюков Павел Иванович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   172
+  </number>
+ </xenoData>
+ <text xml:id="P__I__Biryukovu_172" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="128"/>
     <opener index="false">
-     * 172. П. И. Бирюкову.1887 г. Декабря 20. Москва.
+     * 172.
+     <name placement="text" ref="1444" type="person">
+      П. И. Бирюкову
+     </name>
+     .1887 г. Декабря 20. Москва.
     </opener>
     <p id="d53cbf85-9909-4c3a-adb0-b8823fd4b9b6" rend="Obrashenie left">
-     Дорогой друг Павел Иванович!
+     Дорогой друг
+     <name placement="text" ref="1444" type="person">
+      Павел Иванович
+     </name>
+     !
     </p>
     <p id="24996988-ca94-490a-980c-667015a942a9" rend="left">
      Стихи Горбунова хорошие стихи; в них чувствуется искренность, которую редко встречаешь в стихах. Я отметил
@@ -107,7 +145,10 @@
       </corr>
      </choice>
      стихи слабые — очевидно вследствие условий размера и рифмы — напр, «озарив» «нив», «светляки не на нивах аркады» и т. п. Но стихотворение это нравится мне и с своими слабостями и даже по слабостям. Чувство пробивается сквозь путы формы. Почему именно это самая мысль не могла бы быть выражена прозой
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
+     <ref target="#note1">
+      1
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note1">
       <hi>
        В подлиннике:
       </hi>
@@ -123,14 +164,20 @@
       </corr>
      </choice>
      он спрашивает мое мнение о значении стихотворной поэзии. Это мы все знаем. Еще Буало
-     <ref target="#note2">2</ref><note index="false" resp="volume_editor" xml:id="note2">
+     <ref target="#note2">
+      2
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note2">
       Буало Николя (1636—1711), французский поэт-сатирик и критик.
      </note>
      сказал, чтоб мысль не калечилась рифмой. Если может поэт так сказать стихами, чтобы мы и не заметили, что это стихи — хорошо, а без этого лучше говорить, как умеешь, во всю. — Ведь всё, и самое хорошее, так испошлилось в мире, что надо всё начинать сначала. Стихи? Мне кажется так, если совсем серьезно относиться к поэзии: хоть эта мысль Светло-Христова Воскресения — я бы начал говорить — писать, как вижу, чувствую, не стихами, а потом пришло бы место, где моя мысль потребовала бы больше сжатости, силы, законченности, и вышли бы стихи; может быть, так и кончилось бы стихами, а может быть, несколько строф, а потом опять проза. — Только для этого надо забыть хорошенько всякие стихотворения, места, где они помещаются, и пиитику, а хорошенько вспомнить свою душу.
     </p>
     <p id="b3f83368-5232-47d5-aebd-055a835a858a" rend="left">
      Я так и знал, что вы побоитесь общества трезвости,
-     <ref target="#note3">3</ref><note index="false" resp="volume_editor" xml:id="note3">
+     <ref target="#note3">
+      3
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note3">
       Общество трезвости, или «Согласие против пьянства», было организовано в конце 1887 г. по инициативе Толстого. См. В. Д.
       <hi style="opdelimiter">
        Бонч-Бруевич,
@@ -229,11 +276,17 @@
       </corr>
      </choice>
      мне пришло в голову. А пускай каждый, и вы, выражает свое отношение к этому, как он хочет, только бы было желание противодействовать злу. У нас уж и есть несколько версий. Газеты сделали то, что письма получаются. Мы посылаем свою редакцию. Очень, очень радуюсь известию о солдате.
-     <ref target="#note4">4</ref><note index="false" resp="volume_editor" xml:id="note4">
+     <ref target="#note4">
+      4
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note4">
       Бирюков в письме сообщал рассказ своего дяди, командира полка, об отказе от присяги и от ношения оружия одного солдата его полка.
      </note>
      «Барабан»
-     <ref target="#note5">5</ref><note index="false" resp="volume_editor" xml:id="note5">
+     <ref target="#note5">
+      5
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note5">
       Бирюков передавал просьбу одного своего знакомого переводчика разрешить перевести на немецкий язык сказку Толстого «Работник Емельян и пустой барабан».
      </note>
      переводный, разумеется, я только рад.
@@ -243,7 +296,10 @@
     </p>
     <p id="a23ba626-5c63-442f-b550-ef994a3a2891" rend="left">
      Поблагодарите Оболенского
-     <ref target="#note6">6</ref><note index="false" resp="volume_editor" xml:id="note6">
+     <ref target="#note6">
+      6
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note6">
       О какой книге Л. Е. Оболенского идет речь, выяснить не удалось.
      </note>
      за присылку мне его книги. Я всё прочел, и многое мне понравилось.

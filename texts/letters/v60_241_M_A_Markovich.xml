@@ -1,97 +1,131 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v60_241_M_A_Markovich">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо М. А. Маркович от 19 мая 1862 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="19d8d43b-810d-4ed1-8a16-1ac3442b0d55">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 60</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1949"/>
-                        </imprint>
-                        <biblScope unit="volume">60</biblScope>
-                        <biblScope unit="page">425-426</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date when="1862-05-19"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="8556">Маркович Мария Александровна (Марко Вовчок)</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">241</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="M.A.Markovich_241">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v60_241_M_A_Markovich">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо М. А. Маркович от 19 мая 1862 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="19d8d43b-810d-4ed1-8a16-1ac3442b0d55">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 60
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1949"/>
+      </imprint>
+      <biblScope unit="volume">
+       60
+      </biblScope>
+      <biblScope unit="page">
+       425-426
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date when="1862-05-19"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="8556">
+      Маркович Мария Александровна (Марко Вовчок)
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   241
+  </number>
+ </xenoData>
+ <text xml:id="M.A.Markovich_241" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="425"/>
     <opener index="false">
-     * 241. М. А. Маркович.1862 г. Мая 19. Москва.
+     * 241.
+     <name placement="text" ref="8556" type="person">
+      М. А. Маркович
+     </name>
+     .1862 г. Мая 19. Москва.
     </opener>
     <p id="7cc4cf42-9bc4-4540-90db-ef442c1e193b" rend="left">
      Ваш искренний сочувственный голос очень был мне приятен, от души благодарю вас за то, что вы написали мне. Я еще виноват перед вами. Я всю весну и лето (прошлое) кашлял и думал, что я вот, вот умру. И в это время я получил
@@ -103,7 +137,8 @@
       письмо,
      </hi>
      на которое не ответил.
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
+     <ref target="#note1">1</ref>
+     <note index="false" resp="volume_editor" xml:id="note1">
       Письмо М. А. Маркович к Толстому от 1861 г. неизвестно.
      </note>
      Зимой я поправился, но теперь опять кашляю и нынче уезжаю на кумыс. В издании вследствие этого выйдет маленькая неакуратность, которая наверстается, ежели здоровье поправится.
@@ -136,14 +171,24 @@
      Присылайте мне пожалуйста и позволяйте быть откровенным.
     </p>
     <p id="10996822-aa09-4c61-9da7-ac1b3a85e7db" rend="right">
-     Л. Толстой.
+     <name placement="text" ref="13883" type="person">
+      Л. Толстой
+     </name>
+     .
     </p>
     <comments>
      <p id="b3c23706-bce1-4627-aa0c-4085185eb3cf" rend="Textpetit_otstup left">
       Письмо написано из Москвы, как и предыдущее письмо Ергольской, в день отъезда на кумыс в Самарскую губернию. См. прим. 3 к п. № 240.
      </p>
      <p id="772ccbb8-aff2-4387-9c7b-c38b7ff931a9" rend="petit left">
-      Мария Александровна Маркович, рожд. Велинская (1829—1907) — писательница, известная под псевдонимом Марко Вовчок, писала преимущественно романы и рассказы из крестьянского быта.
+      <name placement="comments" ref="8556" type="person">
+       Мария Александровна Маркович
+      </name>
+      , рожд. Велинская (1829—1907) — писательница, известная под псевдонимом
+      <name placement="comments" ref="8556" type="person">
+       Марко Вовчок
+      </name>
+      , писала преимущественно романы и рассказы из крестьянского быта.
      </p>
     </comments>
    </div>

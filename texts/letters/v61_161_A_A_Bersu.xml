@@ -1,109 +1,155 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v61_161_A_A_Bersu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо А. А. Берсу от 4 февраля 1866 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="89bea60b-a9bb-4d4f-948d-a8d8a3d23f02">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 61</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1953"/>
-                        </imprint>
-                        <biblScope unit="volume">61</biblScope>
-                        <biblScope unit="page">131-132</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date when="1866-02-04"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="1321">Берс Александр Андреевич</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef target="type" ana="#letters"/>
-                <catRef target="sent" ana="#sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">161</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xml:id="A__A__Bersu_161">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v61_161_A_A_Bersu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо А. А. Берсу от 4 февраля 1866 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="89bea60b-a9bb-4d4f-948d-a8d8a3d23f02">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 61
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="volume">
+       61
+      </biblScope>
+      <biblScope unit="page">
+       131-132
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date when="1866-02-04"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="1321">
+      Берс Александр Андреевич
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   161
+  </number>
+ </xenoData>
+ <text xml:id="A__A__Bersu_161" xmlns="http://www.tei-c.org/ns/1.0">
   <body>
    <div>
     <pb n="131"/>
     <opener index="false">
-     * 161. А. А. Берсу.1866 г. Февраля 4. Москва.
+     * 161.
+     <name placement="text" ref="1321" type="person">
+      А. А. Берсу
+     </name>
+     .1866 г. Февраля 4. Москва.
     </opener>
     <p id="20ddbb07-574f-46f7-b282-107556c2948d" rend="left">
      Хотел писать тебе по-французски, милый друг Саша, но я так искренно тебя люблю, что неловко и неискренно обращаться к тебе по-французски. Когда-нибудь в другой раз! Грустно, что мы с тобой не свиделись.
-     <ref target="#note1">1</ref><note index="false" resp="volume_editor" xml:id="note1">
-      Александр Андреевич Берс, служивший в Петербурге в Преображенском полку, приезжал в Москву на рождественские каникулы (21 декабря 1865 г. — 4 января 1866 г.).
+     <ref target="#note1">1</ref>
+     <note index="false" resp="volume_editor" xml:id="note1">
+      <name placement="note" ref="1321" type="person">
+       Александр Андреевич Берс
+      </name>
+      , служивший в Петербурге в Преображенском полку, приезжал в Москву на рождественские каникулы (21 декабря 1865 г. — 4 января 1866 г.).
      </note>
-     Мы теперь значит уже не я и Соня, а Соня, я, Сережа, Таня и Илья
-     <ref target="#note2">2</ref><note index="false" resp="volume_editor" xml:id="note2">
-      Илья Львович Толстой родился 22 мая 1866 г.
+     Мы теперь значит уже не я и Соня, а Соня, я, Сережа, Таня и
+     <name placement="note" ref="13880" type="person">
+      Илья
+     </name>
+     <ref target="#note2">2</ref>
+     <note index="false" resp="volume_editor" xml:id="note2">
+      <name placement="note" ref="13880" type="person">
+       Илья Львович Толстой
+      </name>
+      родился 22 мая 1866 г.
      </note>
      (это будущий). Ежели разобрать хорошенько, зачем мы приехали, то главное затем, чтобы показать всем вам своих детей и цель эта не совсем вполне достигнута, потому что ты их не видел. Никогда еще, с тех пор как я член вашей семьи, Кремль, т. е. все ваши, не производили на меня такого приятного впечатления, как теперь. Должно быть оттого, что все здоровы. Очень хорошо и радостно у вас. Ты тоже, как видно, произвел на всех очень хорошее впечатление и всё, что я о тебе слышу, радует меня. Пиши нам, милый друг, хоть изредка. Ежели я другой раз не отвечу, так ты вспомни меня хорошенько с моей неакуратностью; а уж верно после родителей никто тебя больше нас не любит. — Французский язык твой идет хорошо, что музыка? Недаром ты пробирал так пробор на затылке. Твоя карьера, как видно, светская. А в светской карьере музыка приятное и полезное подспорье. — Ты знаешь, что я не понимаю эту светскую и гвардейскую карьеру, но я настолько знаю жизнь и себя, что признаю многое хорошее, чего и не понимаю. — Мне понравилось, что в твоем последнем письме,
-     <ref target="#note3">3</ref><note index="false" resp="volume_editor" xml:id="note3">
+     <ref target="#note3">3</ref>
+     <note index="false" resp="volume_editor" xml:id="note3">
       Письмо неизвестно.
      </note>
      <choice original_editorial_correction="к[отор]ое">
@@ -123,12 +169,18 @@
       о
      </hi>
      Берсах
-     <ref target="#note4">4</ref><note index="false" resp="volume_editor" xml:id="note4">
+     <ref target="#note4">4</ref>
+     <note index="false" resp="volume_editor" xml:id="note4">
       Семья Александра Евстафьевича Берса, жившая постоянно в Петербурге.
      </note>
      и их обществе, оговариваешься и, как будто, краснеешь. По-моему, общество Берсов, как я знаю по слухам, лучше общества Иславиных.
-     <ref target="#note5">5</ref><note index="false" resp="volume_editor" xml:id="note5">
-      В 1860-х годах в Петербурге жили Владимир, Михаил и Константин Александровичи Иславины. См. т. 46, стр. 338, 340—341, и т. 47, стр. 314—315.
+     <ref target="#note5">5</ref>
+     <note index="false" resp="volume_editor" xml:id="note5">
+      В 1860-х годах в Петербурге жили Владимир, Михаил и
+      <name placement="note" ref="5841" type="person">
+       Константин Александровичи Иславины
+      </name>
+      . См. т. 46, стр. 338, 340—341, и т. 47, стр. 314—315.
      </note>
      Мы, старики, любим поучать: берегись тщеславия и придавания слишком большого значения внешности. Да впрочем у тебя и сердце и ум (esprit de conduite),
      <choice original_editorial_correction="к[отор]ый">
