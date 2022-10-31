@@ -1,13 +1,14 @@
 from copy import deepcopy
 import os
 from pathlib import Path
+import re
 from uuid import uuid4
 
 from lxml import etree
 
 
 """Надо подставить путь то репозитория"""
-REPO_PATH = ...  # {подставить свое}/TEI
+REPO_PATH = '..'  # {подставить свое}/TEI
 REPO_TEXTS_PATH = Path(REPO_PATH, 'texts')
 RESULT_PATH = Path(REPO_PATH, 'texts_front')
 
@@ -27,7 +28,6 @@ def get_all_p_uuids(path: Path) -> set[str]:
         for filename in files:
             if not filename.endswith('.xml'):
                 continue
-            print(filename)
             with open(Path(path, filename), 'rb') as file:
                 root = etree.fromstring(file.read())
             paragraphs = root.xpath('//ns:p', namespaces={'ns': f'{XMLNS}'})
@@ -76,10 +76,10 @@ def wrap_tag_in_p(tag: etree._Element, uuids: set[str], root: etree._Element) ->
 def wrap_unwrapped_tags_in_p_tag(root: etree._Element, uuids: set[str]) -> None:
     body_tag = root.xpath('//ns:body', namespaces={'ns': f'{XMLNS}'})[0]
     for tag in body_tag.iterdescendants():
-        # print(tag.tag.replace(f'{{{XMLNS}}}', ''))
-        if tag.tag.replace(f'{{{XMLNS}}}', '') in ['p', 'l', 'lg', 'comments', 'div']:
+        tag_name = tag.tag.replace(f'{{{XMLNS}}}', '')
+        if tag_name in ['p', 'l', 'lg', 'comments', 'div']:
             continue
-        if tag.getparent() is body_tag and tag.tag.replace(f'{{{XMLNS}}}', '') == 'div':
+        if tag.getparent() is body_tag and tag_name == 'div':
             continue
         if not is_descendant_of_p(tag):
             wrap_tag_in_p(tag, uuids, root)
@@ -112,11 +112,13 @@ def delete_old_orthography(root: etree._Element) -> None:
 
 def change_tags(root):
     """тоже хрень с интендацией"""
+    # various tags into spans
     for tag_name in ['opener', 'dateline', 'unclear', 'del', 'gap', 'add']:
         for tag in root.xpath(f'//ns:{tag_name}', namespaces={'ns': f'{XMLNS}'}):
             tag.tag = 'span'
             tag.set('class', tag_name)
 
+    # comments tag
     comments_tags = root.xpath('//ns:comments', namespaces={'ns': f'{XMLNS}'})
     if comments_tags:
         comments_tag = comments_tags[0]
@@ -135,6 +137,7 @@ def change_tags(root):
 
         comments_parent.remove(comments_tag)
 
+    # rare words tags
     rare_words_tags = root.xpath('//ns:ref[@target="slovar"]', namespaces={'ns': f'{XMLNS}'})
     for tag in rare_words_tags:
         tag.tag = 'a'
@@ -143,6 +146,25 @@ def change_tags(root):
         tag.set('data-type', 'topic_slovar')
         tag.set('data-id', word_id)
         tag.attrib.pop('target')
+
+    # dates in the header to format yyyy-mm-dd
+    date_tags = root.xpath('//ns:teiHeader//ns:date', namespaces={'ns': f'{XMLNS}'})
+    for tag in date_tags:
+        for attr in ['when', 'from', 'to']:
+            if attr in tag.attrib:
+                date = tag.get(attr).strip()
+                if re.search(r'^\d{4}-\d\d-\d\d$', date) is not None:
+                    continue
+                elif re.search(r'^\d{4}$', date) is not None:
+                    tag.set(attr, f'{date}-01-01')
+                elif re.search(r'^\d{4}-\d\d$', date) is not None:
+                    tag.set(attr, f'{date}-01')
+                elif re.search(r'^-\d\d-\d\d$', date) is not None:
+                    tag.set(attr, f'0001{date}')
+                elif date == '?':
+                    tag.set(attr, '0001-01-01')
+                elif re.search(r'\d{4}', date.strip(' ?')) is not None:
+                    tag.set(attr, f'{date.strip(" ?")}-01-01')
 
 
 def main():
