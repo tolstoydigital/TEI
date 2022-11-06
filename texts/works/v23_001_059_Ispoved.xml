@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v23_001_059_Ispoved">
-                    Исповедь (Вступление к ненапечатанному сочинению). Tolstoy Digital
-                </title>
-                <title type="main">Исповедь</title>
-                <title type="sub">(Вступление к ненапечатанному сочинению)</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c5ab7c42-acea-475e-8c99-c36721a50643">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Исповедь (Вступление к ненапечатанному сочинению)
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 23
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">23</biblScope>
-                        <biblScope unit="page">1-59</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1882"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#nonfiction"/>
-                <catRef target="genre" ana="#traktat"/>
-                <catRef target="finished" ana="#finished"/>
-                <catRef target="topic" ana="#philosophy_religion"/>
-                <catRef target="published" ana="#not_publ"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v23_001_059_Ispoved">
+     Исповедь (Вступление к ненапечатанному сочинению). Tolstoy Digital
+    </title>
+    <title type="main">
+     Исповедь
+    </title>
+    <title type="sub">
+     (Вступление к ненапечатанному сочинению)
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c5ab7c42-acea-475e-8c99-c36721a50643">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Исповедь (Вступление к ненапечатанному сочинению)
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 23
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       23
+      </biblScope>
+      <biblScope unit="page">
+       1-59
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1882"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#traktat" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000008">
     <p id="8cfce66e-184c-4fec-99f0-a354031fd400">
@@ -690,7 +702,11 @@
      Было что-то подобное тому, что бывает в математике, когда, думая решать уравнение, решаешь тожество. Ход размышления правилен, но в результате получается ответ: а = а, или х = х, или 0 = 0. То же самое случилось и с моим рассуждением по отношению к вопросу о значении моей жизни. Ответы, даваемые всей наукой на этот вопрос, — только тожества.
     </p>
     <p id="a01d02a4-208a-4140-ab11-e19d7caccda5" rend="left">
-     И действительно, строго разумное знание, то знание, которое, как это сделал Декарт, начинает с полного сомнения во всем, откидывает всякое допущенное на веру знание и строит всё вновь на законах разума и опыта, — и не может дать иного ответа на вопрос жизни, как тот самый, который я и получил, — ответ неопределенный. Мне только показалось сначала, что знание дало положительный ответ — ответ Шопенгауэра: жизнь не имеет смысла, она есть зло. Но, разобрав дело, я понял, что ответ не положительный, что мое чувство только выразило его так. Ответ же строго выраженный, как он выражен и у <ref target="slovar" id="bramin">браминов</ref>, и у Соломона, и у Шопенгауэра, есть только ответ неопределенный, или тожество: 0 = 0, жизнь, представляющаяся мне ничем, есть ничто. Так что знание философское ничего не отрицает, а только отвечает, что вопрос этот не может быть решен им, что для него решение остается неопределенным.
+     И действительно, строго разумное знание, то знание, которое, как это сделал Декарт, начинает с полного сомнения во всем, откидывает всякое допущенное на веру знание и строит всё вновь на законах разума и опыта, — и не может дать иного ответа на вопрос жизни, как тот самый, который я и получил, — ответ неопределенный. Мне только показалось сначала, что знание дало положительный ответ — ответ Шопенгауэра: жизнь не имеет смысла, она есть зло. Но, разобрав дело, я понял, что ответ не положительный, что мое чувство только выразило его так. Ответ же строго выраженный, как он выражен и у
+     <ref id="bramin" target="slovar">
+      браминов
+     </ref>
+     , и у Соломона, и у Шопенгауэра, есть только ответ неопределенный, или тожество: 0 = 0, жизнь, представляющаяся мне ничем, есть ничто. Так что знание философское ничего не отрицает, а только отвечает, что вопрос этот не может быть решен им, что для него решение остается неопределенным.
     </p>
     <p id="a52d549f-8ecb-40b2-8abf-14c8408e4c4e" rend="left">
      Поняв это, я понял, что и нельзя было искать в разумном знании ответа на мой вопрос и что ответ, даваемый разумным знанием, есть только указание на то, что ответ может быть получен только при иной постановке вопроса, только тогда, когда в рассуждение будет введен вопрос отношения конечного к бесконечному. Я понял и то, что, как ни неразумны и уродливы ответы, даваемые верою, они имеют то преимущество, что вводят в каждый ответ отношение конечного к бесконечному, без которого не может быть ответа. Как я ни поставлю вопрос: как мне жить? ответ: по закону божию. Что выйдет

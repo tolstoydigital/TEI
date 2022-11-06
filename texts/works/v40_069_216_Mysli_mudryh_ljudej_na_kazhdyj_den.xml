@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v40_069_216_Mysli_mudryh_ljudej_na_kazhdyj_den">
-                    Мысли мудрых людей на каждый день. Tolstoy Digital
-                </title>
-                <title type="main">Мысли мудрых людей на каждый день</title>
-                <title type="sub">Собраны Л. Н. Толстым</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="15c6e463-c129-4ffb-9bc0-6484da65bf3c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Мысли мудрых людей на каждый день
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 40
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">40</biblScope>
-                        <biblScope unit="page">69-216</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1903"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#nonfiction"/>
-                <catRef target="genre" ana="#sbornik"/>
-                <catRef target="finished" ana="#finished"/>
-                <catRef target="topic" ana="#philosophy_religion"/>
-                <catRef target="published" ana="#not_publ"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v40_069_216_Mysli_mudryh_ljudej_na_kazhdyj_den">
+     Мысли мудрых людей на каждый день. Tolstoy Digital
+    </title>
+    <title type="main">
+     Мысли мудрых людей на каждый день
+    </title>
+    <title type="sub">
+     Собраны Л. Н. Толстым
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="15c6e463-c129-4ffb-9bc0-6484da65bf3c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Мысли мудрых людей на каждый день
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 40
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       40
+      </biblScope>
+      <biblScope unit="page">
+       69-216
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1903"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000005004">
     <p id="d826ff67-c82f-4944-ac5c-02f8b1dcc531">
@@ -2063,10 +2075,17 @@
      29
     </p>
     <p id="814115e2-3ef6-41be-896d-14c2cfae35b4" rend="left">
-     Ученый <ref target="slovar" id="bramin">брамин</ref> пришел раз к мудрому царю и сказал: «Я хорошо знаю священные книги и потому хотел бы научить тебя истине». Царь отвечал ему: «Я думаю, что ты сам еще достаточно не вник в смысл священных книг. Поди и постарайся достигнуть истинного разумения, и тогда я изберу тебя моим учителем».
+     Ученый
+     <ref id="bramin" target="slovar">
+      брамин
+     </ref>
+     пришел раз к мудрому царю и сказал: «Я хорошо знаю священные книги и потому хотел бы научить тебя истине». Царь отвечал ему: «Я думаю, что ты сам еще достаточно не вник в смысл священных книг. Поди и постарайся достигнуть истинного разумения, и тогда я изберу тебя моим учителем».
     </p>
     <p id="befab225-786f-42ee-91d5-f36b7959ea22" rend="left">
-     <ref target="slovar" id="bramin">Брамин</ref> ушел.
+     <ref id="bramin" target="slovar">
+      Брамин
+     </ref>
+     ушел.
     </p>
     <p id="5427e252-7c0e-49f6-9172-13e1d19e4b2b" rend="left">
      «Разве я не изучал столько лет священное писание, — говорил он себе, — а он еще говорит, что я его не понимаю. Как глупо, чтó сказал мне царь!»
@@ -2078,7 +2097,11 @@
      Это заставило его задуматься, и, вернувшись домой, он заперся в своей келье и предался вновь изучению священного писания. Когда же он начал понимать внутренний смысл его, — ему стало ясно, как ничтожны богатства, почести, придворная жизнь и желания земных благ. С тех пор он посвятил себя всего самосовершенствованию, возвышению в себе божественного начала и не возвращался более к царю.
     </p>
     <p id="14e45b61-54ec-47c2-9a8c-418b526d9463" rend="left">
-     Прошло несколько лет, и царь сам пришел к <ref target="slovar" id="bramin">брамину</ref> и, увидав его, всего проникнутого мудростью и любовью, пал перед ним на колени и сказал: «Теперь я вижу, что ты достиг истинного разумения смысла писания, и теперь, если только тебе это угодно, я готов быть твоим учеником».
+     Прошло несколько лет, и царь сам пришел к
+     <ref id="bramin" target="slovar">
+      брамину
+     </ref>
+     и, увидав его, всего проникнутого мудростью и любовью, пал перед ним на колени и сказал: «Теперь я вижу, что ты достиг истинного разумения смысла писания, и теперь, если только тебе это угодно, я готов быть твоим учеником».
     </p>
     <p id="6f186304-3d62-44d2-bb3b-acb3f30cae37" rend="right">
      <hi rend="italic">

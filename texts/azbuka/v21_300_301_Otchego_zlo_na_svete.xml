@@ -1,105 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-            <title xml:id="v21_300_301_Otchego_zlo_na_svete">Азбука. Tolstoy Digital</title>
-            <title type="main">Отчего зло на свете</title>
-            <title type="sub">Рассказ из  "Четвертой русской книги для чтения"</title>
-            <author>Толстой Лев Николаевич</author>
-            <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
-                <name>
-                    Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                </name>
-             </respStmt>
-            <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
-            </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="fc93e4e6-8c48-4b73-b975-d5f72586a6bd">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Отчего зло на свете
-                        </title>
-                        <title level="s">
-                            Четвертая русская книга для чтения
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений.
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">21</biblScope>
-                        <biblScope unit="page">300-301</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date when="1872"/>
-            </creation>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#fiction"/>
-                <catRef target="genre" ana="#kids"/>
-                <catRef target="finished" ana="#finished"/>
-                <catRef target="published" ana="#publ"/>
-                <catRef target="included" ana="#included"/>
-                </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v21_300_301_Otchego_zlo_na_svete">
+     Азбука. Tolstoy Digital
+    </title>
+    <title type="main">
+     Отчего зло на свете
+    </title>
+    <title type="sub">
+     Рассказ из  "Четвертой русской книги для чтения"
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="fc93e4e6-8c48-4b73-b975-d5f72586a6bd">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Отчего зло на свете
+      </title>
+      <title level="s">
+       Четвертая русская книга для чтения
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       21
+      </biblScope>
+      <biblScope unit="page">
+       300-301
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1872"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+    <catRef ana="#included" target="included"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000014031">
     <p id="81362105-4450-4968-84f1-b45e7b0ac580">
@@ -123,7 +137,11 @@
      Ворон сказал: «Зло на свете всё от голода. Когда поешь вволю, сядешь себе на сук, покаркаешь — всё весело, хорошо, на всё радуешься; а вот только поголодай день-другой, и всё так противно станет, что и не смотрел бы на свет божий. И всё тебя тянет куда-то, перелетаешь с места на место, и нет тебе покоя. А завидишь мясо, так еще тошнее сделается, так и бросишься без разбора. Другой раз и палками-то, и камнями в тебя кидают, и волки и собаки хватают, а ты всё не отстаешь. И сколько так из-за голода пропадает нашего брата. Всё зло от голода».
     </p>
     <p id="41f45791-da75-4b3d-a9a4-470a9c2fa2ac" rend="left">
-     Голубь сказал: «А по мне не от голода зло, а всё зло от любви. Кабы мы жили по одному, нам бы горя мало. Одна голова не бедна, а и бедна, так одна. А то мы живем всегда парочками. И так полюбишь свою дружку, что нет тебе покоя — всё о ней думаешь: <ref target="slovar" id="syta">сыта</ref> ли, тепла ли она? А как улетит куда-нибудь от тебя дружка, тут уж совсем пропадешь, — всё думаешь: как бы ястреб не унес или люди не поймали бы; и сам полетишь ее искать, да и залетишь в беду, — либо под ястреба, или в силок. А если пропадет дружка, так самому уже ничто не мило. Не ешь, не пьешь и только ищешь, да плачешь. Сколько нас от этого пропадает! Всё зло не от голода, а от любви».
+     Голубь сказал: «А по мне не от голода зло, а всё зло от любви. Кабы мы жили по одному, нам бы горя мало. Одна голова не бедна, а и бедна, так одна. А то мы живем всегда парочками. И так полюбишь свою дружку, что нет тебе покоя — всё о ней думаешь:
+     <ref id="syta" target="slovar">
+      сыта
+     </ref>
+     ли, тепла ли она? А как улетит куда-нибудь от тебя дружка, тут уж совсем пропадешь, — всё думаешь: как бы ястреб не унес или люди не поймали бы; и сам полетишь ее искать, да и залетишь в беду, — либо под ястреба, или в силок. А если пропадет дружка, так самому уже ничто не мило. Не ешь, не пьешь и только ищешь, да плачешь. Сколько нас от этого пропадает! Всё зло не от голода, а от любви».
     </p>
     <p id="4928ed82-6e48-4cec-8abc-2df91c7d850c" rend="left">
      Змея сказала: «Нет, зло не от голода и не от любви, а зло от злости. Кабы жили мы смирно, не злились бы, — нам бы всё хорошо было. А то как сделается что-нибудь не по тебе, разозлишься, — тогда уж ничто не мило. Только и думаешь, как зло свое на ком выместить. Тут уж сама себя не помнишь, только шипишь да ползаешь, ищешь, кого бы укусить. Уже никого не жалеешь — до тех пор злишься, пока сама себя погубишь. Всё зло на свете от злости».
