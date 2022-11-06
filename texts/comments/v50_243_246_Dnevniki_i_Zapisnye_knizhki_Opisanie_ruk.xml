@@ -1,99 +1,109 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v50_243_246_Dnevniki_i_Zapisnye_knizhki_Opisanie_ruk">
-                    Комментарии. Tolstoy Digital
-                </title>
-                <title type="main">Дневники и Записные книжки 1888 —1889 гг. Описание рукописей</title>
-                <author>К. С. Шохор и H. С. Родионов</author>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                         Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4cb0a595-0bcf-4784-85bb-0929fdf995d3">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Дневники и Записные книжки. Описание рукописей
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 50
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1952"/>
-                        </imprint>
-                        <biblScope unit="volume">50</biblScope>
-                        <biblScope unit="page">243-246</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass> 
-                <catRef target="type" ana="#comments"/>
-           </textClass>
-            <textClass>
-                <catRef target="comments_type" ana="#comments_diaries"/>
-                <catRef target="comments_type" ana="#comments_notes"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v50_243_246_Dnevniki_i_Zapisnye_knizhki_Opisanie_ruk">
+     Комментарии. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневники и Записные книжки 1888 —1889 гг. Описание рукописей
+    </title>
+    <author>
+     К. С. Шохор и H. С. Родионов
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4cb0a595-0bcf-4784-85bb-0929fdf995d3">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Дневники и Записные книжки. Описание рукописей
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 50
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       50
+      </biblScope>
+      <biblScope unit="page">
+       243-246
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass>
+    <catRef ana="#comments" target="type"/>
+   </textClass>
+   <textClass>
+    <catRef ana="#comments_diaries" target="comments_type"/>
+    <catRef ana="#comments_notes" target="comments_type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div id="ref10" type="section">
     <pb n="243"/>
@@ -113,7 +123,11 @@
      ДНЕВНИКИ 1888—1889 гг.
     </h3>
     <p id="e10f8002-b806-4ed7-9e6a-56cb1be3366c" rend="left">
-     1. Тетрадь Дневника (in 4°) в простом картонном переплете с молескиновым корешком, который оторван, и к тетради прикреплена лишь задняя крышка переплета. Бумага в одну линейку. 114 лл., включая листы белого форзаца. <ref target="slovar" id="paginacija">Пагинация</ref> (библиотечная) карандашом: 1—114. Текст внесен рукой Толстого чернилами, за исключением сделанных карандашом записей 3—5 мая 1889 г. в пути из Москвы в Ясную Поляну (лл. 75 и 75 об.). Лл. 1, 1 об. и 114 об. не заполнены.
+     1. Тетрадь Дневника (in 4°) в простом картонном переплете с молескиновым корешком, который оторван, и к тетради прикреплена лишь задняя крышка переплета. Бумага в одну линейку. 114 лл., включая листы белого форзаца.
+     <ref id="paginacija" target="slovar">
+      Пагинация
+     </ref>
+     (библиотечная) карандашом: 1—114. Текст внесен рукой Толстого чернилами, за исключением сделанных карандашом записей 3—5 мая 1889 г. в пути из Москвы в Ясную Поляну (лл. 75 и 75 об.). Лл. 1, 1 об. и 114 об. не заполнены.
     </p>
     <p id="4745bf2d-2d34-46d7-8297-60dfac64a71a" rend="left">
      В тексте имеется ряд вымаранных мест, отмеченных на полях и в тексте, о которых см. ниже, описание рукописи № 2.
@@ -129,7 +143,11 @@
      Помоги, Господи.
     </p>
     <p id="86d9cb9d-56d2-45a0-a52f-004b7b648bdc" rend="left">
-     2. Тетрадь Дневника (in 4°) в простом картонном переплете с коленкоровым корешком. Бумага в одну линейку. 88 лл., включая листы белого форзаца. <ref target="slovar" id="paginacija">Пагинация</ref> (библиотечная) карандашом: 1—88. В январской дате синим карандашом неизвестной рукой зачеркнута цифра 1 и сверху надписана цифра 3. Текст внесен рукой Толстого чернилами. Лл. 1 об., 88, 88 об. и часть 87 об. не заполнены. На л. 18 об., в записи 4 сентября 1889 г., вставка рукой С. А. Толстой
+     2. Тетрадь Дневника (in 4°) в простом картонном переплете с коленкоровым корешком. Бумага в одну линейку. 88 лл., включая листы белого форзаца.
+     <ref id="paginacija" target="slovar">
+      Пагинация
+     </ref>
+     (библиотечная) карандашом: 1—88. В январской дате синим карандашом неизвестной рукой зачеркнута цифра 1 и сверху надписана цифра 3. Текст внесен рукой Толстого чернилами. Лл. 1 об., 88, 88 об. и часть 87 об. не заполнены. На л. 18 об., в записи 4 сентября 1889 г., вставка рукой С. А. Толстой
     </p>
     <p id="71ae5e0c-6fb0-4d60-86d6-eeea37195dfd" rend="left">
      Печатается в настоящем томе, за исключением текста лл, 86—87 об., относящегося к 1—3 января 1890 г. и публикуемого в т. 51.
@@ -369,4 +387,5 @@
     </p>
    </div>
   </body>
- </text></TEI>
+ </text>
+</TEI>

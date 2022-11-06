@@ -1,105 +1,115 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_123_243_Vlast_tmy">
-                    Власть тьмы. Tolstoy Digital
-                </title>
-                <title type="main">Власть тьмы, или Коготок увяз, всей птичке пропасть</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e47c5976-7bc5-4182-8631-24a3133204c0">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Власть тьмы
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">123-243</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1886"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#fiction"/>
-                <catRef target="genre" ana="#drama"/>
-                <catRef target="finished" ana="#finished"/>
-                <catRef target="published" ana="#not_publ"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v26_123_243_Vlast_tmy">
+     Власть тьмы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Власть тьмы, или Коготок увяз, всей птичке пропасть
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e47c5976-7bc5-4182-8631-24a3133204c0">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Власть тьмы
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       123-243
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1886"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000010006">
     <p id="7fb4fa34-0952-48ca-bddc-810035ba5565">
@@ -419,7 +429,11 @@
      </hi>
     </p>
     <p id="0f5a00eb-d5de-4f28-b0a4-3ad2f72c2a03" rend="left">
-     Насилу загнала. Всё <ref target="slovar" id="chalyj">чалый</ref>...
+     Насилу загнала. Всё
+     <ref id="chalyj" target="slovar">
+      чалый
+     </ref>
+     ...
     </p>
     <p id="a2c382af-1f6a-4c3d-ac3d-31fd45f64d6b" rend="center">
      <hi rend="Razradka">
@@ -3464,7 +3478,11 @@
      </hi>
     </p>
     <p id="2af8ec11-e585-4500-a4af-f45b3bf66b59" rend="left">
-     И, что ты, ягодка! Христос с тобой. Что ж ты на меня-то сворачиваешь? Ты, деушка, мотри, с больной головы на здоровую не сворачивай. Коли чего коснется, мое дело сторона, я знать не знаю, ведать не ведаю, — крест поцелую, никаких порошков не давала и не видала и не слыхала, какие такие порошки бывают. Ты, деушка, сама думай. Мы и то намеднись про тебя разговорились, как она, мол, сердечная, маится. Падчерица — дура, а мужик гнилой — <ref target="slovar" id="prisuha">присуха</ref> одна. С этой жизни чего не сделаешь.
+     И, что ты, ягодка! Христос с тобой. Что ж ты на меня-то сворачиваешь? Ты, деушка, мотри, с больной головы на здоровую не сворачивай. Коли чего коснется, мое дело сторона, я знать не знаю, ведать не ведаю, — крест поцелую, никаких порошков не давала и не видала и не слыхала, какие такие порошки бывают. Ты, деушка, сама думай. Мы и то намеднись про тебя разговорились, как она, мол, сердечная, маится. Падчерица — дура, а мужик гнилой —
+     <ref id="prisuha" target="slovar">
+      присуха
+     </ref>
+     одна. С этой жизни чего не сделаешь.
     </p>
     <p id="2347b7b3-afaa-4ca2-bb1a-6a452a41bee6" rend="center">
      <hi rend="Razradka">
@@ -4354,7 +4372,11 @@
      </hi>
     </p>
     <p id="5229a27c-26dc-4844-b239-a1f04f6ac239" rend="left">
-     Никуда не ходи, деньги на нем, я ощупала, на <ref target="slovar" id="gajtan">гайтане</ref> они.
+     Никуда не ходи, деньги на нем, я ощупала, на
+     <ref id="gajtan" target="slovar">
+      гайтане
+     </ref>
+     они.
     </p>
     <p id="6417e0eb-6858-4cfc-88bb-3b2756a994c7" rend="center">
      <hi rend="Razradka">
@@ -5861,7 +5883,11 @@
      </hi>
     </p>
     <p id="e5dd1dbd-2156-44a4-8054-c092ccb0f2f3" rend="left">
-     Старуха, брат, моя к своему месту пристроена. В городу по кабакам сидит. Щеголиха тоже — один глаз выдран, другой подбит, и морда на сторону сворочена. А <ref target="slovar" id="tverezyj">тверезая</ref>, в рот ей пирога с горохом, никогда не бывает.
+     Старуха, брат, моя к своему месту пристроена. В городу по кабакам сидит. Щеголиха тоже — один глаз выдран, другой подбит, и морда на сторону сворочена. А
+     <ref id="tverezyj" target="slovar">
+      тверезая
+     </ref>
+     , в рот ей пирога с горохом, никогда не бывает.
     </p>
     <p id="b3644d84-30c0-4ce7-9492-1a208c8f9d02" rend="center">
      <hi rend="Razradka">
@@ -5946,7 +5972,11 @@
      </hi>
     </p>
     <p id="078bd986-5c00-49ae-a98a-af623c1d315b" rend="left">
-     Целы? Как же, тае, целы? Ты бери их, а они, тае, целы. Как же, насыпь, ты, тае, муки, значит, и всё, тае, в <ref target="slovar" id="runduk">рундук</ref>, тае, или амбар, да и бери ты оттуда муку-то, — что ж она, тае, цела будет? Это, значит, не тае. Обманывают они. Ты это дознайся, а то обманут они. Как же целы? Ты, тае, бери, а они целы.
+     Целы? Как же, тае, целы? Ты бери их, а они, тае, целы. Как же, насыпь, ты, тае, муки, значит, и всё, тае, в
+     <ref id="runduk" target="slovar">
+      рундук
+     </ref>
+     , тае, или амбар, да и бери ты оттуда муку-то, — что ж она, тае, цела будет? Это, значит, не тае. Обманывают они. Ты это дознайся, а то обманут они. Как же целы? Ты, тае, бери, а они целы.
     </p>
     <p id="a3783c2c-6919-4edf-a3f8-19ef41871370" rend="center">
      <hi rend="Razradka">
@@ -7624,7 +7654,11 @@
      .
     </p>
     <p id="2970400a-0a6c-4f6f-91e1-b3b8f3f484dd" rend="left">
-     Не могу я, значит, тае, чай пить. Потому от <ref target="slovar" id="skverna">скверны</ref> от твоей, значит, тае, гнусно мне, дюже гнусно. Не могу я, тае, с тобой чай пить.
+     Не могу я, значит, тае, чай пить. Потому от
+     <ref id="skverna" target="slovar">
+      скверны
+     </ref>
+     от твоей, значит, тае, гнусно мне, дюже гнусно. Не могу я, тае, с тобой чай пить.
     </p>
     <p id="b8902463-b5aa-4fdb-a622-c9cfb317669b" rend="center">
      <hi rend="Razradka">
@@ -8124,7 +8158,11 @@
       .
      </p>
      <p id="d6c7584d-33a7-4430-a76f-6ad29aa8ea96" rend="left">
-      И, и... Она-то хворая? Да против ней в округе нет. Девка как литая — не ущипнешь. Да ведь ты намедни видел. А работать страсть. С глушинкой она, это точно. Ну, да <ref target="slovar" id="chervotochinka">червоточинка</ref> красному яблочку не покор. А что не вышла-то, это, ведашь, с глазу. Сделано над ней. И знаю, чья сука смастерила. Знали, ведашь, что сговор, ну, и напущено. Да я отговор знаю. Завтра встанет девка. Ты насчет девки не сумлевайся.
+      И, и... Она-то хворая? Да против ней в округе нет. Девка как литая — не ущипнешь. Да ведь ты намедни видел. А работать страсть. С глушинкой она, это точно. Ну, да
+      <ref id="chervotochinka" target="slovar">
+       червоточинка
+      </ref>
+      красному яблочку не покор. А что не вышла-то, это, ведашь, с глазу. Сделано над ней. И знаю, чья сука смастерила. Знали, ведашь, что сговор, ну, и напущено. Да я отговор знаю. Завтра встанет девка. Ты насчет девки не сумлевайся.
      </p>
      <p id="3f57fe1b-d489-4aaa-b89b-62e94c91c352" rend="center">
       <hi rend="Razradka">
@@ -9558,7 +9596,11 @@
      .
     </p>
     <p id="2ab5641f-d025-41d8-bec1-ad0aa492d4d8" rend="left">
-     Как не жутко, дедушка! Нянька как билась. Об <ref target="slovar" id="runduk">рундук</ref> головой билась.
+     Как не жутко, дедушка! Нянька как билась. Об
+     <ref id="runduk" target="slovar">
+      рундук
+     </ref>
+     головой билась.
      <hi rend="italic">
       (Шопотом.)
      </hi>
@@ -11004,7 +11046,11 @@
      .
     </p>
     <p id="fe6aded2-5891-4126-a39d-63e57ff1f434" rend="left">
-     У него. Так я здесь постою, а ты покличь, миленькая, старика-то моего. Вызови, <ref target="slovar" id="kasatka">касатка</ref>. Скажи: баба твоя, Марина, велела ехать; товарищи запрягают.
+     У него. Так я здесь постою, а ты покличь, миленькая, старика-то моего. Вызови,
+     <ref id="kasatka" target="slovar">
+      касатка
+     </ref>
+     . Скажи: баба твоя, Марина, велела ехать; товарищи запрягают.
     </p>
     <p id="6cb50048-a3c3-4ed9-b9e4-be9965b47eba" rend="center">
      <hi rend="Razradka">

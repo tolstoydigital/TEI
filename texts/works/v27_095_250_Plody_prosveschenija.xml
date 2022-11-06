@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v27_095_250_Plody_prosveschenija">
-                    Плоды просвещения. Tolstoy Digital
-                </title>
-                <title type="main">Плоды просвещения</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="bde8ea88-9b1b-4a26-87b2-05ffe4017423">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Плоды просвещения
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 27
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">27</biblScope>
-                        <biblScope unit="page">95-250</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1886, 1889-1890
-                </date>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#fiction"/>
-                <catRef target="genre" ana="#drama"/>
-                <catRef target="finished" ana="#finished"/>
-                <catRef target="published" ana="#not_publ"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v27_095_250_Plody_prosveschenija">
+     Плоды просвещения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Плоды просвещения
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="bde8ea88-9b1b-4a26-87b2-05ffe4017423">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Плоды просвещения
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 27
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       27
+      </biblScope>
+      <biblScope unit="page">
+       95-250
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1886, 1889-1890
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="43d68be2-fd3c-498b-9c35-3704a3f70804">
@@ -510,7 +520,11 @@
      Григорий.
     </p>
     <p id="d9d24e4d-6915-4d48-8f7f-4a43f3b97415" rend="left">
-     Неправда, Семку любишь. И нашла же кого, буфетного мужика <ref target="slovar" id="sivolapyj">сиволапого</ref>!
+     Неправда, Семку любишь. И нашла же кого, буфетного мужика
+     <ref id="sivolapyj" target="slovar">
+      сиволапого
+     </ref>
+     !
     </p>
     <p id="21366cb2-539b-4d61-b18f-4e8c7349360d" rend="center_r">
      Таня.
@@ -3447,7 +3461,19 @@
      Петрищев.
     </p>
     <p id="99456e58-d36c-4849-a15d-5e99c1a12e4a" rend="left">
-     Нельзя ведь, чтобы всякий раз выходило. Это в роде <ref target="slovar" id="allegri">аллегри</ref>. <ref target="slovar" id="allegri">Аллегри</ref>, <ref target="slovar" id="allegri">аллегри</ref>, а потом и выигрыш.
+     Нельзя ведь, чтобы всякий раз выходило. Это в роде
+     <ref id="allegri" target="slovar">
+      аллегри
+     </ref>
+     .
+     <ref id="allegri" target="slovar">
+      Аллегри
+     </ref>
+     ,
+     <ref id="allegri" target="slovar">
+      аллегри
+     </ref>
+     , а потом и выигрыш.
     </p>
     <p id="20b8ba91-7099-47b5-9771-8280fce0ed90" rend="center_i">
      <hi rend="italic">
@@ -6211,7 +6237,11 @@
      Кухарка.
     </p>
     <p id="d86bcd35-85a0-47d6-8977-ef5ca6f57717" rend="left">
-     Только, Господи благослови, глаза продерут, сейчас самовар, чай, кофе, щиколад. Только самовара два отопьют, уж третий ставь. А тут завтрак, а тут обед, а тут опять кофий. Только отвалятся, сейчас опять чай. А тут закуски пойдут: конфеты, <ref target="slovar" id="zhamka">жамки</ref> — и конца нет. В постели лежа, — и то едят.
+     Только, Господи благослови, глаза продерут, сейчас самовар, чай, кофе, щиколад. Только самовара два отопьют, уж третий ставь. А тут завтрак, а тут обед, а тут опять кофий. Только отвалятся, сейчас опять чай. А тут закуски пойдут: конфеты,
+     <ref id="zhamka" target="slovar">
+      жамки
+     </ref>
+     — и конца нет. В постели лежа, — и то едят.
     </p>
     <p id="549ed243-e514-4c08-b0ae-908f0e187466" rend="center_r">
      3-й
@@ -10727,7 +10757,11 @@
         </ref>
        </head>
        <p id="a7666fee-532e-4141-af0b-83e6db1ce726" rend="left">
-        [<ref target="slovar" id="dever'">деверь</ref>.]
+        [
+        <ref id="dever'" target="slovar">
+         деверь
+        </ref>
+        .]
        </p>
       </div>
      </note>
@@ -11024,7 +11058,15 @@
      Гросман.
     </p>
     <p id="1fef1601-dc8c-4496-953b-60797e2593b8" rend="left">
-     Господа! я собственно не спирит. Я только изучал гипноз. Гипноз я изучал, правда, во всех его известных проявлениях. Но то, что называется спиритизмом, мне совершенно неизвестно. От усыпления субъекта я могу ожидать известных мне явлений гипноза: летаргии, <ref target="slovar" id="abulija">абулии</ref>, анэстезии, анэлгезии, <ref target="slovar" id="katalepsija">каталепсии</ref> и всякого рода внушений. Здесь же предполагаются к исследованью не эти, а другие явления, и потому желательно бы было знать, какого рода эти ожидаемые явления, и какое они имеют научное значение.
+     Господа! я собственно не спирит. Я только изучал гипноз. Гипноз я изучал, правда, во всех его известных проявлениях. Но то, что называется спиритизмом, мне совершенно неизвестно. От усыпления субъекта я могу ожидать известных мне явлений гипноза: летаргии,
+     <ref id="abulija" target="slovar">
+      абулии
+     </ref>
+     , анэстезии, анэлгезии,
+     <ref id="katalepsija" target="slovar">
+      каталепсии
+     </ref>
+     и всякого рода внушений. Здесь же предполагаются к исследованью не эти, а другие явления, и потому желательно бы было знать, какого рода эти ожидаемые явления, и какое они имеют научное значение.
     </p>
     <p id="a6063360-8abe-453c-b7a8-37272582a17e" rend="center_r centerline">
      Сахатов.
@@ -11914,7 +11956,15 @@
      Толстая барыня.
     </p>
     <p id="f0aa3b04-dae9-46fc-bb39-a97bb29e308c" rend="left">
-     Я хочу спросить о своем желудке. Можно? Я хочу спросить, что мне принимать, <ref target="slovar" id="akonit">аконит</ref> или <ref target="slovar" id="belladonna">белладонну</ref>?
+     Я хочу спросить о своем желудке. Можно? Я хочу спросить, что мне принимать,
+     <ref id="akonit" target="slovar">
+      аконит
+     </ref>
+     или
+     <ref id="belladonna" target="slovar">
+      белладонну
+     </ref>
+     ?
     </p>
     <p id="76df9bdf-d499-4d71-b4e5-3f2021e65da2" rend="center_i">
      <hi rend="italic">

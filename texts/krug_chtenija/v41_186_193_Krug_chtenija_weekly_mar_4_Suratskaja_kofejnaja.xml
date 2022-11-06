@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v41_186_193_Krug_chtenija_weekly_mar_4_Suratskaja_kofejnaja">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения. Март</title>
-                <title type="sub">Суратская кофейная. Перевод Л.Н.Толстого</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d5a4c974-e9a8-4390-9eee-34cfb5fbdc50">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Суратская кофейная. Перевод Л.Н.Толстого
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">41</biblScope>
-                        <biblScope unit="page">186-193</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1906"/>
-         </creation>          
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#fiction"/>
-                <catRef target="published" ana="#publ"/>
-                <catRef target="finished" ana="#finished"/>
-                <catRef target="genre" ana="#sbornik"/>
-                <catRef target="author" ana="#Tolstoy-editor "/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v41_186_193_Krug_chtenija_weekly_mar_4_Suratskaja_kofejnaja">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения. Март
+    </title>
+    <title type="sub">
+     Суратская кофейная. Перевод Л.Н.Толстого
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d5a4c974-e9a8-4390-9eee-34cfb5fbdc50">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Суратская кофейная. Перевод Л.Н.Толстого
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       41
+      </biblScope>
+      <biblScope unit="page">
+       186-193
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1906"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#publ" target="published"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy-editor " target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="weekly" when="--3-24" xml:id="h000010004028001">
     <p id="72d1b5d9-4cc7-4241-8980-e0fdf062e876">
@@ -139,13 +151,25 @@
      Удивительным показался им вопрос господина и еще более удивительным ответ раба.
     </p>
     <p id="e48b5cb7-81b7-45ba-b892-70adbabf33eb" rend="left">
-     Один <ref target="slovar" id="bramin">брамин</ref>, слышавший слова раба, обратился к нему и сказал:
+     Один
+     <ref id="bramin" target="slovar">
+      брамин
+     </ref>
+     , слышавший слова раба, обратился к нему и сказал:
     </p>
     <p id="12e3138d-e2b1-4131-af3b-f9ddc900218f" rend="left">
-     — Несчастный безумец! разве можно думать, чтобы бог мог находиться за поясом у человека? Бог есть один — Брама. И этот Брама больше всего мира, потому что он сотворил весь мир. Брама есть единый, великий бог, тот бог, которому построены храмы на берегах реки Гангеса, тот бог, которому служат его единственные жрецы — <ref target="slovar" id="bramin">брамины</ref>. Одни эти жрецы знают истинного бога. Прошло уже сто двадцать тысяч лет, и сколько ни было переворотов в мире, жрецы эти остаются такими же, какими были всегда, потому что Брама, единый, истинный бог, покровительствует им.
+     — Несчастный безумец! разве можно думать, чтобы бог мог находиться за поясом у человека? Бог есть один — Брама. И этот Брама больше всего мира, потому что он сотворил весь мир. Брама есть единый, великий бог, тот бог, которому построены храмы на берегах реки Гангеса, тот бог, которому служат его единственные жрецы —
+     <ref id="bramin" target="slovar">
+      брамины
+     </ref>
+     . Одни эти жрецы знают истинного бога. Прошло уже сто двадцать тысяч лет, и сколько ни было переворотов в мире, жрецы эти остаются такими же, какими были всегда, потому что Брама, единый, истинный бог, покровительствует им.
     </p>
     <p id="2de6420d-86d6-4e17-8e56-0c7eee56acb6" rend="left">
-     Так сказал <ref target="slovar" id="bramin">брамин</ref>, думая убедить всех; но бывший тут же еврейский меняла возразил ему.
+     Так сказал
+     <ref id="bramin" target="slovar">
+      брамин
+     </ref>
+     , думая убедить всех; но бывший тут же еврейский меняла возразил ему.
     </p>
     <p id="ad078c83-5764-4385-9959-42c6e32c00a0" rend="left">
      — Нет, — сказал он. — Храм истинного бога не в Индии!.. И бог покровительствует не касте браминов! Истинный бог есть бог не браминов, а бог Авраама, Исаака и Иакова. И покровительствует истинный бог только одному своему народу израильскому. Бог с начала мира не переставая любил и любит один наш народ. И если теперь и рассеян наш народ по земле, то это только испытание, а бог, как и обещал, соберет опять народ свой в Иерусалим, с тем чтобы, восстановив чудо
@@ -215,9 +239,9 @@
       Долго он бился и всё смотрел на солнце и ничего не мог сделать, а сделалось с ним только то, что от солнца у него заболели глаза, и он ослеп.
      </p>
      <p id="74f9b644-56d8-4be3-a077-aaccf07147f6" rend="left">
-     <pb n="190"/>
-     Тогда он сказал себе:
-    </p>
+      <pb n="190"/>
+      Тогда он сказал себе:
+     </p>
      <p id="35184312-b9d3-4572-8529-3460c9e265e8" rend="left">
       — Свет солнечный не жидкость, потому что если бы он был жидкостью, то можно было бы переливать его и он колебался бы от ветра, как вода. Свет солнечный тоже не огонь, потому что если б это был огонь, он бы тух в воде. Свет тоже не дух, потому что он виден, и не тело, потому что нельзя им двигать. А так как свет солнечный не жидкость, не огонь, не дух, не тело, то свет солнечный — ничто.
      </p>
