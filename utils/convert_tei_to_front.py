@@ -6,7 +6,6 @@ from uuid import uuid4
 
 from lxml import etree
 
-
 """Надо подставить путь то репозитория"""
 REPO_PATH = '..'  # {подставить свое}/TEI
 REPO_TEXTS_PATH = Path(REPO_PATH, 'texts')
@@ -36,6 +35,11 @@ def get_all_p_uuids(path: Path) -> set[str]:
                     ids.add(p.attrib['id'])
                 except KeyError:
                     continue
+    # consider uuids in taxonomy
+    with open(Path(path, '../../reference/taxonomy.xml'), 'rb') as file:
+        root = etree.fromstring(file.read())
+    for tag in root.xpath('//category'):
+        ids.add(tag.attrib['uuid'])
     return ids
 
 
@@ -49,6 +53,7 @@ def generate_new_uuid(uuids: set[str]) -> str:
 
 def wrap_tag_in_p(tag: etree._Element, uuids: set[str], root: etree._Element) -> None:
     """лажа с индентацией"""
+
     def get_indentation_level(tag, root, uuid):
         """неправильно работает"""
         text_lines = etree.tostring(root, encoding='unicode').split('\n')
@@ -68,7 +73,7 @@ def wrap_tag_in_p(tag: etree._Element, uuids: set[str], root: etree._Element) ->
 
     indentation_level = get_indentation_level(tag, root, uuid)
     etree.indent(new_p, space='  ', level=indentation_level)
-    new_p.tail = f'\n{"  "*indentation_level}'
+    new_p.tail = f'\n{"  " * indentation_level}'
 
     parent_tag.remove(tag)
 
@@ -77,9 +82,11 @@ def wrap_unwrapped_tags_in_p_tag(root: etree._Element, uuids: set[str]) -> None:
     body_tag = root.xpath('//ns:body', namespaces={'ns': f'{XMLNS}'})[0]
     for tag in body_tag.iterdescendants():
         tag_name = tag.tag.replace(f'{{{XMLNS}}}', '')
-        if tag_name in ['p', 'l', 'lg', 'comments', 'div']:
+        if tag_name in ['p', 'l', 'lg', 'noteGrp', 'div']:
             continue
         if tag.getparent() is body_tag and tag_name == 'div':
+            continue
+        if tag.getparent().tag.replace(f'{{{XMLNS}}}', '') == 'noteGrp':
             continue
         if not is_descendant_of_p(tag):
             wrap_tag_in_p(tag, uuids, root)
@@ -94,7 +101,7 @@ def fix_existing_p(root: etree._Element, uuids: set[str]) -> None:
 
 
 def delete_old_orthography(root: etree._Element) -> None:
-    """тут хрень с индентацией и новыми строками, разобраться"""
+    """Заменить тег choice на текст тега reg. Проблемы с переносом строк"""
     for reg_tag in root.xpath('//ns:reg', namespaces={'ns': f'{XMLNS}'}):
         choice_tag = reg_tag.getparent()
         reg_text = reg_tag.text.strip(" \n") if reg_tag.text is not None else ''
@@ -110,32 +117,33 @@ def delete_old_orthography(root: etree._Element) -> None:
             parent.remove(choice_tag)
 
 
+def get_title_id_from_root(root) -> str:
+    title_tag = root.xpath('//ns:title[@xml:id]', namespaces={'ns': f'{XMLNS}'})[0]
+    return title_tag.attrib['{http://www.w3.org/XML/1998/namespace}id']
+
+
 def change_tags(root):
-    """тоже хрень с интендацией"""
+    """тоже хрень с индентацией"""
     # various tags into spans
     for tag_name in ['opener', 'dateline', 'unclear', 'del', 'gap', 'add']:
         for tag in root.xpath(f'//ns:{tag_name}', namespaces={'ns': f'{XMLNS}'}):
             tag.tag = 'span'
             tag.set('class', tag_name)
 
-    # comments tag
-    comments_tags = root.xpath('//ns:comments', namespaces={'ns': f'{XMLNS}'})
-    if comments_tags:
-        comments_tag = comments_tags[0]
-        comments_tags = []
-        for tag in comments_tag:
-            comments_tags.append(deepcopy(tag))
-        comments_parent = comments_tag.getparent()
-        for tag in comments_tags:
-            new_p = etree.Element('p', **tag.attrib, index='false')
-            new_p.append(tag)
-            for key in tag.attrib:
-                tag.attrib.pop(key)
-            tag.tag = 'span'
-            tag.set('class', 'comments')
-            comments_parent.insert(comments_parent.index(comments_tag), new_p)
-
-        comments_parent.remove(comments_tag)
+    # comments
+    note_grp_tags = root.xpath('//ns:noteGrp[@type="comments"]', namespaces={'ns': f'{XMLNS}'})
+    if note_grp_tags:
+        note_grp_tag = note_grp_tags[0]
+        p_tags = []
+        for note_tag in note_grp_tag:
+            for p_tag in note_tag:
+                p_tags.append(deepcopy(p_tag))
+        comments_parent = note_grp_tag.getparent()
+        for p_tag in p_tags:
+            p_tag.set('class', 'comments')
+            p_tag.set('index', 'false')
+            comments_parent.insert(comments_parent.index(note_grp_tag), p_tag)
+        comments_parent.remove(note_grp_tag)
 
     # rare words tags
     rare_words_tags = root.xpath('//ns:ref[@target="slovar"]', namespaces={'ns': f'{XMLNS}'})
@@ -143,7 +151,7 @@ def change_tags(root):
         tag.tag = 'a'
         tag.set('href', '../../reference/Dictionary.xml')
         word_id = tag.attrib.pop('id')
-        tag.set('data-type', 'topic_slovar')
+        tag.set('data-type', 'slovar')
         tag.set('data-id', word_id)
         tag.attrib.pop('target')
 
@@ -165,6 +173,68 @@ def change_tags(root):
                     tag.set(attr, '0001-01-01')
                 elif re.search(r'\d{4}', date.strip(' ?')) is not None:
                     tag.set(attr, f'{date.strip(" ?")}-01-01')
+
+    # cell tags to td
+    cell_tags = root.xpath('//ns:cell', namespaces={'ns': f'{XMLNS}'})
+    for tag in cell_tags:
+        tag.tag = 'td'
+
+    # italic razradka in hi tag
+    hi_tags = root.xpath('//ns:hi', namespaces={'ns': f'{XMLNS}'})
+    for tag in hi_tags:
+        style = []  # .data-attribute
+        for attr in tag.attrib:
+            for class_value in ['razradka', 'italic']:
+                if class_value in tag.attrib[attr].casefold():
+                    style.append(class_value)
+            tag.attrib.pop(attr)
+        if style:
+            tag.tag = 'span'
+            tag.set('class', 'hi')
+            tag.set('data-attribute', ' '.join(style))
+
+    # lb tag
+    for lb_tag in root.xpath('//ns:lb', namespaces={'ns': f'{XMLNS}'}):
+        lb_tag.tag = 'br'
+
+    # remove lg tags
+    lg_tags = root.xpath('//ns:lg', namespaces={'ns': f'{XMLNS}'})
+    for lg_tag in lg_tags:
+        parent_tag = lg_tag.getparent()
+        if parent_tag.tag.replace(f'{{{XMLNS}}}', '') == 'lg':
+            continue  # если вложен lg в lg, то не брать, брать только родителей
+        l_parent_tag = lg_tag[0] if lg_tag[0].tag.replace(f'{{{XMLNS}}}', '') == 'lg' else lg_tag
+        for l_tag in l_parent_tag:
+            parent_tag.insert(parent_tag.index(lg_tag), deepcopy(l_tag))
+        parent_tag.remove(lg_tag)
+
+    # notes to spans
+    note_tags = root.xpath('//ns:text//ns:note', namespaces={'ns': f'{XMLNS}'})
+    for note_tag in note_tags:
+        if 'class' in note_tag.attrib and note_tag.attrib['class'] == 'comments':
+            continue
+        note_id = note_tag.attrib.get('{http://www.w3.org/XML/1998/namespace}id') or note_tag.attrib.get('id') \
+                  or note_tag.attrib.get('n') or note_tag.attrib.get('{http://www.w3.org/2001/XInclude}id')
+        for attr in note_tag.attrib:
+            note_tag.attrib.pop(attr)
+            note_tag.tag = 'span'
+            note_tag.set('class', 'note')
+            note_tag.set('id', note_id)
+
+    # ref around notes to a
+    ref_tags = [t for t in root.xpath('//ns:ref', namespaces={'ns': f'{XMLNS}'})
+                if 'target' in t.attrib and t.attrib['target'].startswith('#note')]
+    for tag in ref_tags:
+        ref_id = tag.attrib['target'].strip('#')
+        tag.tag = 'a'
+        tag.attrib.pop('target')
+        tag.set('href', '#')
+        tag.set('data-type', 'snoska')
+        tag.set('id', ref_id)
+
+    # row tags to tr
+    for tag in root.xpath('//ns:row', namespaces={'ns': f'{XMLNS}'}):
+        tag.tag = 'tr'
 
 
 def main():
