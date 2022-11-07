@@ -1,125 +1,137 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v25_590_600_Skazka_ob_Ivane_Durake_Varianty">
-                    Сказка об Иване Дураке. Tolstoy Digital
-                </title>
-                <title type="main">Сказка об Иване Дураке и его двух братьях: Семене-воине и Тарасе-брюхане и немой сестре Маланье, и о старом дьяволе и трех чертенятах</title>
-                <title type="sub">Вариант</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="2c2da684-340d-49a2-bc43-ad5c71cd0131">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Сказка об Иване Дураке
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 25
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1937-01-01"/>
-                        </imprint>
-                        <biblScope unit="volume">25</biblScope>
-                        <biblScope unit="page">590-600</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1885-01-01"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#fiction"/>
-                <catRef target="genre" ana="#kids"/>
-                <catRef target="finished" ana="#not_finished"/>
-                <catRef target="published" ana="#publ"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v25_590_600_Skazka_ob_Ivane_Durake_Varianty">
+     Сказка об Иване Дураке. Tolstoy Digital
+    </title>
+    <title type="main">
+     Сказка об Иване Дураке и его двух братьях: Семене-воине и Тарасе-брюхане и немой сестре Маланье, и о старом дьяволе и трех чертенятах
+    </title>
+    <title type="sub">
+     Вариант
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="2c2da684-340d-49a2-bc43-ad5c71cd0131">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Сказка об Иване Дураке
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 25
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937-01-01"/>
+      </imprint>
+      <biblScope unit="volume">
+       25
+      </biblScope>
+      <biblScope unit="page">
+       590-600
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1885-01-01"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref55">
     <p id="106fd601-fee0-4021-bcd4-cea060aaf3aa">
      <pb n="590"/>
     </p>
-    <p id="67fde1b5-9a06-42f1-9cd1-de078054ad0e">
+    <p id="6afdbc93-092e-42b9-9ae6-0cea18237f44">
       <head rend="title_level2 center">
      * [ВАРИАНТЫ «СКАЗКИ ОБ ИВАНЕ ДУРАКЕ».]
     </head>
     </p>
     <div type="section">
-     <p id="4d8af468-a941-4599-a14a-0398fcf57fcf">
+     <p id="7a896b44-99ab-4600-b981-b7be2c915cc0">
       <head rend="title_level3 left">
       * № 1.
      </head>
     </p>
     <p id="facc7369-924f-4d16-8044-4bd52ec0d28b" rend="center">
-      <hi rend="Razradka">
+      <span class="hi" data-attribute="razradka">
        Первая редакция
-      </hi>
+      </span>
       .
      </p>
      <p id="b3a0e6ac-44c0-4ef9-9e10-f3b2dc7c68b2" rend="left"> Жил был старик с
@@ -141,7 +153,7 @@
       и без старших
       сыновей старик
       хорошо; а пришли сыновья, принесли денег
-      &lt;и стали ж&gt;ить <note n="n221">
+      &lt;и стали ж&gt;ить <span class="note" id="n221">
        <div type="section" xml:id="n221">
         <head>
          <ref target="#backn221">
@@ -149,12 +161,12 @@
          </ref>
         </head>
         <p id="360b09df-25c5-4f4a-a9af-2143bc51a581" rend="left">
-         <hi rend="italic">
+         <span class="hi" data-attribute="italic">
           Зачеркнуто по ошибке.
-         </hi>
+         </span>
         </p>
        </div>
-      </note>
+      </span>
       еще лучше. Только женились старшие
       сыновья, стали невестки
       не ладить и отделил старик
@@ -194,9 +206,9 @@
       на глаза. Ступайте. Пошли черти, кинули жеребей. И послал двух
       чертей к мужикам
       чертей по местам расставлять
-      [ <hi rend="italic">
+      [ <span class="hi" data-attribute="italic">
        1 неразобр.
-      </hi>
+      </span>
       ] три черта без дела
       . Вот
       и говорит им старший дьявол
@@ -217,14 +229,14 @@
       не было, луга топтать и лес
       сушить. Только надо, говорит
       , расстроить их всех троих
-      , живите и [ <hi rend="italic">
+      , живите и [ <span class="hi" data-attribute="italic">
        2 неразобр
-      </hi>
+      </span>
       .]. Пошли черти, стали работать. Старший черт
       у мельника кулаки с колес летят
-      [ <hi rend="italic">
+      [ <span class="hi" data-attribute="italic">
        1 неразобр
-      </hi>
+      </span>
       .] колеса дуром ведет
       и чуть дождь пройдет
       , так
@@ -391,9 +403,9 @@
       , — глядь — чорт
       живой. Эх
       , думает
-      , пакость какая. [ <hi rend="italic">
+      , пакость какая. [ <span class="hi" data-attribute="italic">
        4 неразобр.
-      </hi>
+      </span>
       ] Хотел
       убить его. Да заговорил чорт
       : &lt;не убивай, говорит
@@ -435,9 +447,9 @@
       домой. Приехал
       , отпрег
       , пришел
-      ужинать, а оба брата [ <hi rend="italic">
+      ужинать, а оба брата [ <span class="hi" data-attribute="italic">
        неразобр.]
-      </hi> сидят с
+      </span> сидят с
       женами и с детьми
       . </p>
      <p id="42480ea2-782e-45cd-a082-66d7336271af" rend="left">
@@ -598,9 +610,9 @@
       . Вот
       ослобонился и третий чорт
       , пришел своих
-      [ <hi rend="italic">
+      [ <span class="hi" data-attribute="italic">
        1 неразобр
-      </hi>
+      </span>
       .] проведать
       . Искал
       , искал
@@ -799,7 +811,7 @@
       , сделай холоп
       , чтоб был
       не сноп
-      , а каждая будылку <note n="n222">
+      , а каждая будылку <span class="note" id="n222">
        <div type="section" xml:id="n222">
         <head>
          <ref target="#backn222">
@@ -807,13 +819,13 @@
          </ref>
         </head>
         <p id="2c8cbbc9-fc43-4ecb-81f3-7380dc154eb8" rend="left">
-         <hi rend="italic">
+         <span class="hi" data-attribute="italic">
           Так в рукописи.
-         </hi>
+         </span>
         </p>
        </div>
-      </note>
-      <hi rend="italic"/> солдат
+      </span>
+      <span class="hi" data-attribute="italic"/> солдат
       . Расскочился сноп
       , стали солдаты, заиграли барабаны, трубы. Велел Иван солдатам песни
       играть. Удивился народ
@@ -867,7 +879,7 @@
      <p id="a8e0c7cd-bffd-4da6-878f-9de34512856f" rend="left">
       И пошел
       &lt; Иван
-      молотить&gt;. <note n="n223">
+      молотить&gt;. <span class="note" id="n223">
        <div type="section" xml:id="n223">
         <head>
          <ref target="#backn223">
@@ -875,16 +887,16 @@
          </ref>
         </head>
         <p id="a72896cf-be40-4fe3-90b2-eacb0d9e4d53" rend="left">
-         <hi rend="italic">
+         <span class="hi" data-attribute="italic">
           Эти слова зачеркнуты; слово
-         </hi>
+         </span>
          пошел
-         <hi rend="italic">
+         <span class="hi" data-attribute="italic">
           зачеркнуто и восстановлено.
-         </hi>
+         </span>
         </p>
        </div>
-      </note>
+      </span>
      </p>
      <p id="c0948588-b7bf-4dca-a4b2-123c298ac2ee" rend="left">
       А неженатый брат набрал
@@ -925,9 +937,9 @@
      <p id="484ea147-a6be-42f7-8854-26084f246bc3" rend="left">
       Да уж
       и так
-      у брата много было [ <hi rend="italic">
+      у брата много было [ <span class="hi" data-attribute="italic">
        1 неразбор.
-      </hi>
+      </span>
       ] в дальния
       земли. Переехал в
       чужое царство, скупил
@@ -1103,7 +1115,7 @@
       стали царями все
       три брата. Жили и царствовали. Старший брат был всех
       богаче. Он
-      свои деньги, что забрал <note n="n224">
+      свои деньги, что забрал <span class="note" id="n224">
        <div type="section" xml:id="n224">
         <head>
          <ref target="#backn224">
@@ -1111,13 +1123,13 @@
          </ref>
         </head>
         <p id="d9ed2aa5-2b5d-4bc9-ad8d-44ad401efc2c" rend="left">
-         <hi rend="italic">
+         <span class="hi" data-attribute="italic">
           По ошибке написано:
-         </hi>
+         </span>
          зaбрала.
         </p>
        </div>
-      </note> от
+      </span> от
       Ивана не растратил
       , а им
       большой прирост сделал
@@ -1146,17 +1158,17 @@
       , и с похорон
       и с проезда
       , и с
-      прохода [ <hi rend="italic">
+      прохода [ <span class="hi" data-attribute="italic">
        1 неразобр.
-      </hi>
+      </span>
       ]
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        ,
-      </hi>
+      </span>
       и с
-      [ <hi rend="italic">
+      [ <span class="hi" data-attribute="italic">
        1 неразобр.
-      </hi>
+      </span>
       ] и с
       лаптей, и с
       онучей, и с оборок
@@ -1195,7 +1207,7 @@
       что надобно. И такую силу забрал он с
       своими солдатами, что стал
       и у других
-      царей отбирать, что полюбится. <note n="n225">
+      царей отбирать, что полюбится. <span class="note" id="n225">
        <div type="section" xml:id="n225">
         <head>
          <ref target="#backn225">
@@ -1203,13 +1215,13 @@
          </ref>
         </head>
         <p id="3a04716c-7fbd-4662-a6a9-bd76e955b4e5" rend="left">
-         <hi rend="italic">
+         <span class="hi" data-attribute="italic">
           Приписка на полях:
-         </hi> Всех повоевал
+         </span> Всех повоевал
          и много царств отобрал
          . </p>
        </div>
-      </note>
+      </span>
      </p>
      <p id="3c5757b5-4ad3-4f2b-a323-5b076c350438" rend="left">
       Не плохо жил
@@ -1478,24 +1490,24 @@
       . </p>
     </div>
     <div type="section">
-     <p id="165a88e3-a719-4775-a6ec-effeeb7db7e0">
+     <p id="85f3b53e-d381-4544-bb0e-94f0033c9aa2">
       <head rend="title_level3 left">
       * № 2.
      </head>
     </p>
     <p id="b8552ccb-9149-42cd-ba34-0e6a74d51e92" rend="center">
-      <hi rend="Razradka">
+      <span class="hi" data-attribute="razradka">
        Англичанин — купец в Ивановом царстве
-      </hi>
+      </span>
       .
      </p>
-     <p id="55c028ef-79f8-4376-a2aa-d2994e711c2f">
-      <lb/>
+     <p id="cdb2fff5-5bbb-42cf-a194-d47f7d40c785">
+      <br/>
     </p>
     <p id="c7bdb613-cab4-430e-87ac-1cc203cca5cd" rend="left">
-      <hi rend="Razradka">
+      <span class="hi" data-attribute="razradka">
        Вариант к главе XII
-      </hi>
+      </span>
       .
      </p>
      <p id="e81ab58c-d94b-4e6a-9f58-a1587a91820f" rend="left"> Хотел
@@ -1545,11 +1557,11 @@
       штучки. Хороши, говорит
       , светлые
       , я бабе дам
-      , правда[?] [ <hi rend="italic">
+      , правда[?] [ <span class="hi" data-attribute="italic">
        1 неразобр.
-      </hi>
+      </span>
       ]
-      <hi rend="italic"/>
+      <span class="hi" data-attribute="italic"/>
       воды на утро, просит
       опять есть
       курятины и все заплатить обещает
@@ -1560,9 +1572,9 @@
       всего дадут
       . Пошел дурак
       [ к
-      ] кузнецу [ <hi rend="italic">
+      ] кузнецу [ <span class="hi" data-attribute="italic">
        1 неразобр
-      </hi>
+      </span>
       .] взять, принес
       сапожнику дураку тоже: на, говорит
       , штучки, дай мне сапоги. — Не надо, говорит
@@ -1628,8 +1640,8 @@
       давали. И ушел чорт
       , не солоно похлебал
       . </p>
-     <p id="4565ed01-8ff4-4e6a-9fee-eac68d18de93">
-      <lb/>
+     <p id="ae713dca-a921-4392-ac52-d873c70e6e1d">
+      <br/>
     </p>
     </div>
    </div>

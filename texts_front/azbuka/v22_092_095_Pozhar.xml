@@ -1,112 +1,126 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-            <title xml:id="v22_092_095_Pozhar">Азбука. Tolstoy Digital</title>
-            <title type="main">Пожар</title>
-            <title type="sub">Рассказ из "Азбуки"</title>
-            <author>Толстой Лев Николаевич</author>
-            <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
-                <name>
-                    Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                </name>
-             </respStmt>
-            <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
-            </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4afb1d65-b000-4120-8dac-560d0bdf264f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Пожар
-                        </title>
-                        <title level="s">
-                            Азбука
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений.
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957-01-01"/>
-                        </imprint>
-                        <biblScope unit="volume">22</biblScope>
-                        <biblScope unit="page">92-95</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date when="1872-01-01"/>
-            </creation>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#fiction"/>
-                <catRef target="genre" ana="#kids"/>
-                <catRef target="finished" ana="#finished"/>
-                <catRef target="published" ana="#publ"/>
-                <catRef target="included" ana="#included"/>
-                </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v22_092_095_Pozhar">
+     Азбука. Tolstoy Digital
+    </title>
+    <title type="main">
+     Пожар
+    </title>
+    <title type="sub">
+     Рассказ из "Азбуки"
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4afb1d65-b000-4120-8dac-560d0bdf264f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Пожар
+      </title>
+      <title level="s">
+       Азбука
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957-01-01"/>
+      </imprint>
+      <biblScope unit="volume">
+       22
+      </biblScope>
+      <biblScope unit="page">
+       92-95
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1872-01-01"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+    <catRef ana="#included" target="included"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref41">
     <p id="f9a15a85-b96b-4987-9fe9-a8df4fa634f1">
      <pb n="92"/>
     </p>
-    <p id="5f7e3b65-04e3-4a20-8848-4dbe955b602d">
+    <p id="d397dacd-8f11-4acc-85bb-9d908dd0d7ac">
       <head rend="Azbuka left">
-        <hi rend="strong">
+        <hi>
       (.) Пожар
       . </hi>
       </head>
@@ -126,41 +140,34 @@
      оставались бабушка и трое внучат
      . Бабушка истопила печку и легла отдохнуть. На неё садились мухи и кусали её. Она закрыла голову полотенцем
      и заснула. Одна из внучек
-     , Маша <hi rend="big">
+     , Маша <hi>
       (
      </hi>
      ей было три года
-     <hi rend="big">
+     <hi>
       )
      </hi>
      , открыла печку, нагребла угольев в черепок
      и пошла в
-     с <hi rend="big">
+     с <hi>
       ѣ
      </hi>
      ни. А в
-     с <hi rend="big">
+     с <hi>
       ѣ
      </hi> нях
-     лежали снопы. Бабы приготовили эти снопы на свясла <note n="n3">
-      <div type="section" xml:id="n3">
-       <head>
-        <ref target="#backn3">
-         3
-        </ref>
-       </head>
-       <p id="02fae1b6-f20c-48bf-a489-8b802b22997e">
+     лежали снопы. Бабы приготовили эти снопы на свясла <a href="#" data-type="snoska" id="note3">3</a><span class="note" id="note3">
+      <p id="02fae1b6-f20c-48bf-a489-8b802b22997e">
         Соломенные жгуты, чтоб
         вязать снопы. </p>
-      </div>
-     </note>
+      </span>
      . Маша принесла уголья, положила под
      снопы и стала дуть. Когда солома стала загораться, она обрадовалась, пошла в
-     избу и привела за руку брата, Кирюшку <hi rend="big">
+     избу и привела за руку брата, Кирюшку <hi>
       (
      </hi>
      ему было полтора года, и он
-     только-что выучился ходить <hi rend="big">
+     только-что выучился ходить <hi>
       )
      </hi>
      , и сказала: «глянь, Килюска, какую я печку вздула». Снопы уже горели
@@ -173,7 +180,7 @@
      ; Маша втащила его в
      избу, и они оба спрятались под
      лавку. Бабушка ничего не слыхала и спала. Старший мальчик
-     , Ваня <hi rend="big">
+     , Ваня <hi>
       (
      </hi>
      ему было восемь
@@ -186,31 +193,31 @@
     </p>
     <p id="661d6c8c-6ca9-42ae-a893-edfdd4d453a6" rend="Azbuka notindent">
      л
-     <hi rend="big">
+     <hi>
       ѣ
-     </hi> т <hi rend="big">
+     </hi> т <hi>
       )
      </hi>
      , был
      на улице
      . Когда он увидал
      , что из
-     с <hi rend="big">
+     с <hi>
       ѣ
      </hi>
      ней валит дым
      , он
-     вб <hi rend="big">
+     вб <hi>
       ѣ
      </hi> жал в
      дверь, сквозь дым проскочил в
      избу и стал
      будить бабушку; но бабушка с просонков ошалела
-     и забыла про д <hi rend="big">
+     и забыла про д <hi>
       ѣ
      </hi>
      тей, выскочила и поб
-     <hi rend="big">
+     <hi>
       ѣ
      </hi>
      жала по дворам
@@ -222,15 +229,15 @@
      его крик
      , поглядел под
      лавку и закричал Маше
-     : «б <hi rend="big">
+     : «б <hi>
       ѣ
      </hi>
      ги, сгоришь!» Маша поб
-     <hi rend="big">
+     <hi>
       ѣ
      </hi>
      жала в
-     с <hi rend="big">
+     с <hi>
       ѣ
      </hi>
      ни, но от
@@ -238,11 +245,11 @@
      огня нельзя было пройти. Она вернулась назад
      . Тогда Ваня поднял
      окно и велел
-     ей л <hi rend="big">
+     ей л <hi>
       ѣ
      </hi>
      зть. Когда она прол
-     <hi rend="big">
+     <hi>
       ѣ
      </hi>
      зла, Ваня схватил
@@ -258,10 +265,10 @@
      . Ваня просунул
      мальчикову голову в
      окно и хотел
-     протолкнуть его; но мальчик <hi rend="big">
+     протолкнуть его; но мальчик <hi>
       (
      </hi> он
-     очень испугался <hi rend="big">
+     очень испугался <hi>
       )
      </hi>
      ухватился ручёнками и не пускал их
