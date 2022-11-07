@@ -1,121 +1,135 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-            <title xml:id="v22_101_101_Slon">Азбука. Tolstoy Digital</title>
-            <title type="main">Слон</title>
-            <title type="sub">Рассказ из "Азбуки"</title>
-            <author>Толстой Лев Николаевич</author>
-            <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
-                <name>
-                    Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                </name>
-             </respStmt>
-            <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
-            </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="edde612a-9fbe-49bd-b13e-9974b4fa64f3">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Слон
-                        </title>
-                        <title level="s">
-                            Азбука
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений.
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957-01-01"/>
-                        </imprint>
-                        <biblScope unit="volume">22</biblScope>
-                        <biblScope unit="page">101-101</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date when="1872-01-01"/>
-            </creation>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#fiction"/>
-                <catRef target="genre" ana="#kids"/>
-                <catRef target="finished" ana="#finished"/>
-                <catRef target="published" ana="#publ"/>
-                <catRef target="included" ana="#included"/>
-                </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v22_101_101_Slon">
+     Азбука. Tolstoy Digital
+    </title>
+    <title type="main">
+     Слон
+    </title>
+    <title type="sub">
+     Рассказ из "Азбуки"
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="edde612a-9fbe-49bd-b13e-9974b4fa64f3">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Слон
+      </title>
+      <title level="s">
+       Азбука
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957-01-01"/>
+      </imprint>
+      <biblScope unit="volume">
+       22
+      </biblScope>
+      <biblScope unit="page">
+       101-101
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1872-01-01"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+    <catRef ana="#included" target="included"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref45">
     <p id="fd7f75c7-29d4-4e0d-84dd-1f3c8ac405fe">
      <pb n="101"/>
     </p>
-    <p id="076939f2-f5f7-42bb-880a-b20fe50582cb">
+    <p id="fa3570e7-4765-4fb9-a797-825c5a1ed970">
       <head rend="Azbuka left">
-        <hi rend="strong"> Слон
+        <hi> Слон
       . </hi>
       </head>
     </p>
     <p id="9014f75c-bf28-40ee-ba1b-281973c5f281" rend="Azbuka left">
-     <hi rend="big">
+     <hi>
       У
      </hi>
      одного Инд
-     <hi rend="big">
+     <hi>
       ѣ
      </hi>
      йца был слон
@@ -124,41 +138,41 @@
      его и заставлял
      много работать. Один раз слон рассердился
      и наступил
-     ногою <hi rend="big">
+     ногою <hi>
       на
      </hi>
      своего хозяина. Инд
-     <hi rend="big">
+     <hi>
       ѣ
      </hi> ец умер
-     . Тогда жена инд <hi rend="big">
+     . Тогда жена инд <hi>
       ѣ
      </hi>
      йца заплакала, принесла своих
-     д <hi rend="big">
+     д <hi>
       ѣ
      </hi>
      тей
-     <hi rend="big"> к </hi>
+     <hi> к </hi>
      слону и бросила их
-     слону <hi rend="big"> под </hi>
+     слону <hi> под </hi>
      ноги. Она сказала: «слон
      ! ты убил
-     отца, убей и ихъ». Слон посмотрел <hi rend="big">
+     отца, убей и ихъ». Слон посмотрел <hi>
       на
      </hi>
      д
-     <hi rend="big">
+     <hi>
       ѣ
      </hi>
      тей, взял хоботом старшего
      , потихоньку поднял
      и посадил
-     его себе <hi rend="big">
+     его себе <hi>
       на
      </hi>
      шею. И слон стал
-     слушаться этого мальчика и работать <hi rend="big">
+     слушаться этого мальчика и работать <hi>
       для
      </hi>
      него.

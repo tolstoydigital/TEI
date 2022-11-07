@@ -1,123 +1,135 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v02_252_296_Otrochestvo_Varianty_iz_pervoj_i_vtoroj_redaktsii">
-                    [Варианты из первой и второй редакции «Отрочества»]. Tolstoy Digital
-                </title>
-                <title type="main">Отрочество</title>
-                <title type="sub">Варианты из первой и второй редакции</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e0e30327-df0e-44ae-b367-6ec79168b530">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты из первой и второй редакции «Отрочества»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 2
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935-01-01"/>
-                        </imprint>
-                        <biblScope unit="volume">2</biblScope>
-                        <biblScope unit="page">252-296</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1854-01-01"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#fiction"/>
-                <catRef target="genre" ana="#povest"/>
-                <catRef target="finished" ana="#not_finished"/>
-                <catRef target="published" ana="#publ"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v02_252_296_Otrochestvo_Varianty_iz_pervoj_i_vtoroj_redaktsii">
+     [Варианты из первой и второй редакции «Отрочества»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Отрочество
+    </title>
+    <title type="sub">
+     Варианты из первой и второй редакции
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e0e30327-df0e-44ae-b367-6ec79168b530">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты из первой и второй редакции «Отрочества»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 2
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935-01-01"/>
+      </imprint>
+      <biblScope unit="volume">
+       2
+      </biblScope>
+      <biblScope unit="page">
+       252-296
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1854-01-01"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012004">
     <p id="8f5e0733-c14c-45b3-b559-60d740b23a65">
      <pb n="252"/>
     </p>
-    <p id="0ca042ef-b181-4398-bb99-c14772e3f3db">
+    <p id="364bc1c3-e79a-47d5-9801-54c2a262a11e">
       <head rend="center">
      IV.
-     <lb/>
+     <br/>
      ВАРИАНТЫ ИЗ ПЕРВОЙ И ВТОРОЙ РЕДАКЦИИ
-     <lb/>
+     <br/>
      «ОТРОЧЕСТВА»
     </head>
     </p>
     </div>
    <div type="section" xml:id="h000012004001">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 1
      </hi>
      (I ред.).
@@ -130,7 +142,7 @@
      , что ты теперь не ребенок
      , не будешь шалить и присмотришь за своим меньшим братом
      ». Мими он сказал
-     : «присмотрите, chère, <note n="n75">
+     : «присмотрите, chère, <span class="note" id="n75">
       <div type="section" xml:id="n75">
        <head>
         <ref target="#backn75">
@@ -146,7 +158,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      и за мальчиками, они еще такие дети
      !» Михею он сказал
      , когда тот
@@ -164,17 +176,17 @@
    </div>
    <div type="section" xml:id="h000012004002">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 2
      </hi>
      (II ред.).
     </head>
     <p id="26c2f4b0-4e7c-47ec-8bfc-559f4dddd8a9" rend="center">
-     <hi rend="Razradka"> Поездка
-      на долгих </hi>
+     <span class="hi" data-attribute="razradka"> Поездка
+      на долгих </span>
      .
     </p>
-    <lb/>
+    <br/>
     <p id="b76b0efe-f8f4-45a2-907a-639fcee732bb" rend="center">
      Глава 1.
     </p>
@@ -216,7 +228,7 @@
      <pb n="253"/>
     </p>
     <p id="2bf90699-ac69-4404-b743-e9f9b5615a01" rend="center">
-     <lb/>
+     <br/>
     </p>
     <div type="image">
      <img alt="" src="./img/imge32ed961cb5d4a0a82eb2037b7d91889.png"/>
@@ -225,7 +237,7 @@
      Первая страница рукописи II редакции «Отрочества»
     </p>
     <p id="e0159399-22fe-40b7-87c3-7400ca2a1f4f" rend="right">
-     <lb/>
+     <br/>
     </p>
     <p id="8276afcc-4255-4d9b-96d6-843b32648787" rend="notindent"> лиц
      , церковных обрядов
@@ -255,25 +267,25 @@
    </div>
    <div type="section" xml:id="h000012004003">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 3
      </hi>
      (I ред.).
     </head>
     <p id="e1f175ab-da15-4b26-af32-d6b7051b129c" rend="center">
-     <hi rend="Razradka">
+     <span class="hi" data-attribute="razradka">
       Разговоры
-     </hi>
+     </span>
      .
-     <lb/>
-     <hi rend="Razradka">
-      Новый взгляд </hi>
+     <br/>
+     <span class="hi" data-attribute="razradka">
+      Новый взгляд </span>
      . III.
-     <lb/>
-     <hi rend="Razradka">
+     <br/>
+     <span class="hi" data-attribute="razradka">
       Катенька хочет
       идти в
-      монастырь </hi>
+      монастырь </span>
      .
     </p>
     <p id="f341a84b-d364-4ed3-8dfc-829964737d92" rend="left"> Один раз после
@@ -344,7 +356,7 @@
      имянины». </p>
     <p id="82d8f3a7-6c9f-4114-bd2e-3bfb97d82fc2" rend="left">
      — «А маменька говорит
-     , что она ужасно строгая, <note n="n76">
+     , что она ужасно строгая, <span class="note" id="n76">
       <div type="section" xml:id="n76">
        <head>
         <ref target="#backn76">
@@ -352,12 +364,12 @@
         </ref>
        </head>
        <p id="ebe0d9ad-1756-4f8a-80ea-0102fb184b97" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          В подлиннике:
-        </hi> строгает
+        </span> строгает
         , </p>
       </div>
-     </note>
+     </span>
      и все меня стращает
      Графиней. Да, впрочем
      , Бог знает
@@ -544,8 +556,8 @@
      — у маменьки ничего нет
      ». </p>
     <p id="30526fe1-bb4a-41bf-a68b-381b9fd37519" rend="left">
-     <hi rend="italic">
-      Ваша маменька, моя маменька, вы богатые, мы бедные </hi>
+     <span class="hi" data-attribute="italic">
+      Ваша маменька, моя маменька, вы богатые, мы бедные </span>
      — эти слова были для меня необыкновенно странны и в
      первый раз
      развили во мне сознание
@@ -670,7 +682,7 @@
      , что не все
      интересы вертятся около нас
      , а что существует
-     другая жизнь людей, ничего не имеющая <note n="n77">
+     другая жизнь людей, ничего не имеющая <span class="note" id="n77">
       <div type="section" xml:id="n77">
        <head>
         <ref target="#backn77">
@@ -678,11 +690,11 @@
         </ref>
        </head>
        <p id="ff088431-eaec-4cc0-aef3-9f0add35f71d" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          В подлиннике:
-        </hi> имеющего </p>
+        </span> имеющего </p>
       </div>
-     </note> общего
+     </span> общего
      , не заботящихся о нас
      и даже не имеющих понятия
      о нашем существовании
@@ -694,9 +706,9 @@
      члена необъятного
      количества людей, и занимающего
      чуть заметную
-     точку <hi rend="italic">
+     точку <span class="hi" data-attribute="italic">
       2 неразобр
-     </hi>
+     </span>
      <choice original_editorial_correction="[.]">
       <sic/>
       <corr>
@@ -904,7 +916,7 @@
    </div>
    <div type="section" xml:id="h000012004004">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 4
      </hi>
      (до I ред.).
@@ -1018,15 +1030,15 @@
    </div>
    <div type="section" xml:id="h000012004005">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 5
      </hi>
      (I ред.).
     </head>
     <p id="bd1de71e-2990-46c0-8fc9-637b807e35b2" rend="center">
-     <hi rend="Razradka">
+     <span class="hi" data-attribute="razradka">
       Дробь
-     </hi>
+     </span>
      . IV.
     </p>
     <p id="56cde0a5-73d3-4a2a-9d34-a808d23eec58" rend="left"> Как
@@ -1037,7 +1049,7 @@
      воспоминаний. Хорошее расположение
      духа, которым
      я наслаждался дорогой, разбилось в
-     дребезги о печаль бабушки, выражавшуюся <note n="n78">
+     дребезги о печаль бабушки, выражавшуюся <span class="note" id="n78">
       <div type="section" xml:id="n78">
        <head>
         <ref target="#backn78">
@@ -1045,13 +1057,13 @@
         </ref>
        </head>
        <p id="7b51ea48-2ea4-4913-bd25-f926b203c0ec" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          В подлиннике:
-        </hi>
+        </span>
         выражаювшуюся
        </p>
       </div>
-     </note> так резко
+     </span> так резко
      и отчаянно, и о постоянное принуждение
      , которое наводил
      на меня вид обшитых белой
@@ -1107,7 +1119,7 @@
      гулять. </p>
     <p id="7f9981be-b64b-49b5-bcce-ec14d3160bdb" rend="left">
      «Nun, liebe Kinder»,
-     <note n="n79">
+     <span class="note" id="n79">
       <div type="section" xml:id="n79">
        <head>
         <ref target="#backn79">
@@ -1123,7 +1135,7 @@
         </choice>
        </p>
       </div>
-     </note> начал он своим торжественным тоном
+     </span> начал он своим торжественным тоном
      : «теперь уже вы большия дети
      , вам
      можно понимать», посадив нас
@@ -1178,9 +1190,9 @@
      , поднимая руки к
      небу, — одна ваша маменька понимала меня и любила старика глухого
      Карла Иваныча. Я поступил к вам
-     , Володя был <hi rend="italic">
+     , Володя был <span class="hi" data-attribute="italic">
       еще
-     </hi>
+     </span>
      у кормилицы, а Николенька не родился. Когда у Волод
      была горячка, я не смыкал глаз
      2 недели
@@ -1303,9 +1315,9 @@
      удвоила жалованье и сказала, что «вы, моя милая, надеюсь
      , останетесь у меня. Коли покойница находила, что вы хороши, так
      и для меня вы будете хороши», и Мими осталась. Карла Иваныча она называет
-     , говоря про него, <hi rend="italic">
+     , говоря про него, <span class="hi" data-attribute="italic">
       дядькой
-     </hi>
+     </span>
      : «позовите обедать
      дядьку», и я должен
      признаться, что Карл Иваныч
@@ -1402,7 +1414,7 @@
    </div>
    <div type="section" xml:id="h000012004006">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 6
      </hi>
      (I ред.).
@@ -1437,16 +1449,16 @@
    </div>
    <div type="section" xml:id="h000012004007">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 7
      </hi>
      (II ред.).
     </head>
     <p id="b1332b03-4e4b-4320-b3ae-3de6b3b5febd" rend="center">
      Глава 10-я
-     <hi rend="Razradka">
+     <span class="hi" data-attribute="razradka">
       &lt; Девичья
-      &gt; Маша </hi>
+      &gt; Маша </span>
      .
     </p>
     <p id="8974a542-90a5-4553-8b89-354c2182b90b" rend="left">
@@ -1489,7 +1501,7 @@
    </div>
    <div type="section" xml:id="h000012004008">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 8
      </hi>
      (II ред.).
@@ -1536,7 +1548,7 @@
    </div>
    <div type="section" xml:id="h000012004009">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 9
      </hi>
      (I ред.).
@@ -1591,7 +1603,7 @@
      красное в пятнах
      лицо, которое было еще краснее в
      эту минуту, очутилось перед
-     Володей, и она схватила его за руку. «Qu’est ce que vous faîtes?» <note n="n80">
+     Володей, и она схватила его за руку. «Qu’est ce que vous faîtes?» <span class="note" id="n80">
       <div type="section" xml:id="n80">
        <head>
         <ref target="#backn80">
@@ -1602,7 +1614,7 @@
         [Что вы делаете?]
        </p>
       </div>
-     </note>
+     </span>
      закричала она задыхающимся страшным голосом
      . Вы своими шалостями всех
      погубите и меня, и Катеньку, и вашу бабушку — всех
@@ -1614,7 +1626,7 @@
      шагами к рассыпанной
      дроби и, презирая опасность, могущую приключиться от
      неожиданного взрыва, начала топтать ее ногами. Когда ей показалось, что опасность миновалась, она позвала Михея, приказала ему выбросить весь этот порох
-     куда нибудь подальше или всего лучше <hi rend="italic"> в </hi>
+     куда нибудь подальше или всего лучше <span class="hi" data-attribute="italic"> в </span>
      воду и напустилась на Володю. « Где
      вы взяли это?» Володя с
      улыбкой отвечал
@@ -1631,7 +1643,7 @@
      . — «Да как
      вы смеете смеяться
      , вы хотели всех нас
-     сжечь. Mauvais sujet», <note n="n81">
+     сжечь. Mauvais sujet», <span class="note" id="n81">
       <div type="section" xml:id="n81">
        <head>
         <ref target="#backn81">
@@ -1647,7 +1659,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      закричала она, задыхаясь от
      злости. — «Что вы беснуетесь
      , Мими, разве этим
@@ -1680,14 +1692,14 @@
    </div>
    <div type="section" xml:id="h000012004010">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 10
      </hi>
      (I ред.).
     </head>
     <p id="278d945a-546f-414e-aa5b-1baa4a3bcbfd" rend="center">
-     <hi rend="Razradka">
-      Странная перемена </hi>
+     <span class="hi" data-attribute="razradka">
+      Странная перемена </span>
      . V.
     </p>
     <p id="0b101042-3d3d-4a04-9588-3572c06a4fb3" rend="left">
@@ -1724,7 +1736,7 @@
    </div>
    <div type="section" xml:id="h000012004011">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 11
      </hi>
      (I ред.).
@@ -1780,14 +1792,14 @@
      горя, что он должен
      оставить жизнь, которую он вел
      12 лет с
-     нами, Карл Иваныч <hi rend="italic"> загулял
-      . </hi>
+     нами, Карл Иваныч <span class="hi" data-attribute="italic"> загулял
+      . </span>
      —
     </p>
    </div>
    <div type="section" xml:id="h000012004012">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 12
      </hi>
      (I ред.).
@@ -1811,15 +1823,15 @@
      Дяденька жил в городе
      15 Meilen от нас
      ; я жил
-     у него 1 <hi rend="sup">
+     у него 1 <hi>
       1
      </hi>
      /
-     <hi rend="sub">
+     <hi>
       2
      </hi>
      года, очень старался, и он обещал мне сделать своим
-     Geselle <note n="n82">
+     Geselle <span class="note" id="n82">
       <div type="section" xml:id="n82">
        <head>
         <ref target="#backn82">
@@ -1835,7 +1847,7 @@
         </choice>
        </p>
       </div>
-     </note> через
+     </span> через
      2 год
      . У дяди была дочь Linchen, и Linchen полюбила меня. Да, я был
      красивый мущина, голубой глаза, римско нози, высокой рост
@@ -1848,16 +1860,16 @@
       <corr> девушка </corr>
      </choice> смотрел
      на меня и смеялся
-     , und <hi rend="italic">
+     , und <span class="hi" data-attribute="italic">
       2 неразобр.
-     </hi>
+     </span>
      <choice original_editorial_correction="[]">
       <sic/>
       <corr/>
      </choice>
-     <hi rend="italic">
+     <span class="hi" data-attribute="italic">
       .
-     </hi>
+     </span>
     </p>
     <p id="65fca322-168a-4c84-ac67-f7d4811375a3" rend="left"> Был один раз праздник
      , 1800 году. Я надел
@@ -1877,7 +1889,7 @@
      люблю, но я на вас
      не женюсь — мне
      это говорит
-     мое сердце. Eine innerliche Stimme sagt mir dieses. <note n="n83">
+     мое сердце. Eine innerliche Stimme sagt mir dieses. <span class="note" id="n83">
       <div type="section" xml:id="n83">
        <head>
         <ref target="#backn83">
@@ -1893,10 +1905,10 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      Только я кончил
      это, пришел
-     Полицей Bеаmtег und sagte <note n="n84">
+     Полицей Bеаmtег und sagte <span class="note" id="n84">
       <div type="section" xml:id="n84">
        <head>
         <ref target="#backn84">
@@ -1912,10 +1924,10 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      « Карл Иваныч
      , вы знаете, по всей Саксонии
-     назначена Conscription, <note n="n85">
+     назначена Conscription, <span class="note" id="n85">
       <div type="section" xml:id="n85">
        <head>
         <ref target="#backn85">
@@ -1931,7 +1943,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      и всякий
      молодой человек от
      18 до 21 года должен
@@ -1951,7 +1963,7 @@
    </div>
    <div type="section" xml:id="h000012004013">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 13
      </hi>
      (I ред.).
@@ -1966,7 +1978,7 @@
      завоевать Германию
      , Рейн
      и Саксонию
-     . Мы до капли крови защищались. Und wir wertbeidigten unfer Baterland bis auf den letzten Tropfen Blut». <note n="n86">
+     . Мы до капли крови защищались. Und wir wertbeidigten unfer Baterland bis auf den letzten Tropfen Blut». <span class="note" id="n86">
       <div type="section" xml:id="n86">
        <head>
         <ref target="#backn86">
@@ -1982,7 +1994,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
     </p>
     <p id="d9e82181-59b7-4006-8263-fe86d360b960" rend="left">
      Я пропущу здесь описание кампаний
@@ -2007,7 +2019,7 @@
      ; но было так
      грязно, что нельзя было бежать
      . Скоро он
-     выбился außer Atem, <note n="n87">
+     выбился außer Atem, <span class="note" id="n87">
       <div type="section" xml:id="n87">
        <head>
         <ref target="#backn87">
@@ -2023,7 +2035,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      спотыкнулся, упал в изнеможении
      и пролежал
      на месте вместе с
@@ -2032,7 +2044,7 @@
      другой раз он
      собственноручно хотел тесаком
      заколоть Французского
-     Гренадера. Der Franzose wars sein Gewehr und ries Bardon, und ich gab ihm die Freiheit, <note n="n88">
+     Гренадера. Der Franzose wars sein Gewehr und ries Bardon, und ich gab ihm die Freiheit, <span class="note" id="n88">
       <div type="section" xml:id="n88">
        <head>
         <ref target="#backn88">
@@ -2048,7 +2060,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      и я пустил
      его. &lt;Еще он рассказывал мне
      , как под Аустерлицом
@@ -2071,7 +2083,7 @@
      », и Эрц-Герцог сказал
      : «Я не сдамся». Но мы пришли на остров
      , и провиянт наш был взят
-     , и mein Camrad fagte mir «wir find umring und wir find verloren, <note n="n89">
+     , и mein Camrad fagte mir «wir find umring und wir find verloren, <span class="note" id="n89">
       <div type="section" xml:id="n89">
        <head>
         <ref target="#backn89">
@@ -2087,7 +2099,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      мы окружены, и теперь Napoleon возьмет нас
      ». А я сказал
      : auf Gott allein vertraun. Бог
@@ -2106,7 +2118,7 @@
    </div>
    <div type="section" xml:id="h000012004014">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 14
      </hi>
      (I ред.).
@@ -2190,7 +2202,7 @@
      , бежать из
      собственна своего дома и в чужих людях
      искать своего хлеба
-     . Ich fam nach Ems, <note n="n90">
+     . Ich fam nach Ems, <span class="note" id="n90">
       <div type="section" xml:id="n90">
        <head>
         <ref target="#backn90">
@@ -2206,7 +2218,7 @@
         </choice>
        </p>
       </div>
-     </note> там
+     </span> там
      мене узнал Генерал Спазин
      , который лечился там звоим
      семейства, полюбил
@@ -2240,7 +2252,7 @@
      его кроватью, что никто не может
      сказать, чтобы Карл Иваныч был
      когда нибудь нечестным человеком
-     . Der General Spasin hatte eine junge Tochter. Das liebensmürditgfte Frautlein, das man nur fehen fonnte. Ich gab ihr Leftion. Kurz, fie wurde in mich verliebt. <note n="n91">
+     . Der General Spasin hatte eine junge Tochter. Das liebensmürditgfte Frautlein, das man nur fehen fonnte. Ich gab ihr Leftion. Kurz, fie wurde in mich verliebt. <span class="note" id="n91">
       <div type="section" xml:id="n91">
        <head>
         <ref target="#backn91">
@@ -2256,7 +2268,7 @@
         </choice>
        </p>
       </div>
-     </note> Он
+     </span> Он
      полюбила мене». Пропускаю подробности этой связи, начатой, по рассказу
      Карла Иваныча, самой барышней, генеральской дочкой
      , и от
@@ -2361,14 +2373,14 @@
    </div>
    <div type="section" xml:id="h000012004015">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 15
      </hi>
      (II ред.).
     </head>
     <p id="73c574ed-1cde-455e-97cd-72f3c123f794" rend="center">
-     <hi rend="Razradka">
-      Новый гувернер </hi>
+     <span class="hi" data-attribute="razradka">
+      Новый гувернер </span>
      . Глава 7.
     </p>
     <p id="0210cb9b-6710-48e8-9868-d21e33a98e19" rend="left">
@@ -2419,7 +2431,7 @@
      бабушкой. </p>
     <p id="c3220dea-d493-49d1-87ce-ca0275630261" rend="left">
      «Croyez-moi, Madame la Comtesse»,
-     <note n="n92">
+     <span class="note" id="n92">
       <div type="section" xml:id="n92">
        <head>
         <ref target="#backn92">
@@ -2435,13 +2447,13 @@
         </choice>
        </p>
       </div>
-     </note> говорил
+     </span> говорил
      St.-Jérôme бабушке
      , в
      то время, как
      мы с Карлом Иванычем
      вошли к
-     ней: «j’envisage l’éducation comme un devoir trop sacré pour le négliger. Je sens toute la gravité de la tâche, que je m’impose, mais je saurais la comprendre et la remplir». <note n="n93">
+     ней: «j’envisage l’éducation comme un devoir trop sacré pour le négliger. Je sens toute la gravité de la tâche, que je m’impose, mais je saurais la comprendre et la remplir». <span class="note" id="n93">
       <div type="section" xml:id="n93">
        <head>
         <ref target="#backn93">
@@ -2457,11 +2469,11 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
     </p>
     <p id="c41573ce-a3c2-4781-9047-6fe623991359" rend="left">
      «Je l’espère, mon cher Monsieur St.-Jérôme,
-     <note n="n94">
+     <span class="note" id="n94">
       <div type="section" xml:id="n94">
        <head>
         <ref target="#backn94">
@@ -2477,12 +2489,12 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      — сказала бабушка.
     </p>
     <p id="d277e676-bd8b-439a-98df-a8688a781a41" rend="left">
      «Et je puis vous promettre»,
-     <note n="n95">
+     <span class="note" id="n95">
       <div type="section" xml:id="n95">
        <head>
         <ref target="#backn95">
@@ -2498,8 +2510,8 @@
         </choice>
        </p>
       </div>
-     </note> продолжал он с большим одушевлением
-     : «sur mon honneurr, Madame la Comtesse, que dans deux ans vous ne reconnaîtrez pas vos élèves. Il faut, que je commence par étudier les capacités, les inclinations, les...» <note n="n96">
+     </span> продолжал он с большим одушевлением
+     : «sur mon honneurr, Madame la Comtesse, que dans deux ans vous ne reconnaîtrez pas vos élèves. Il faut, que je commence par étudier les capacités, les inclinations, les...» <span class="note" id="n96">
       <div type="section" xml:id="n96">
        <head>
         <ref target="#backn96">
@@ -2515,7 +2527,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
     </p>
     <p id="37ec91ca-771e-4742-9429-5faa8073cf5c" rend="left">
      — «Pardon, mon cher», сказала бабушка, обращаясь к
@@ -2548,9 +2560,9 @@
     <p id="75019e75-a946-440b-8567-042e59d3b004" rend="left"> Карл
      Ивановичь молча отошел от неё
      и подошел к Любочке
-     . «Прощайте, <hi rend="italic">
+     . «Прощайте, <span class="hi" data-attribute="italic">
       Любинъка
-     </hi>
+     </span>
      , ( так он называл
      ее) пожалуйте ручка», сказал он дрожащим голосом
      . Любочка большими растерянными глазами посмотрела
@@ -2763,7 +2775,7 @@
      набросать на бумагу. — Бабушка сказала, что это доставит
      ей большое удовольствие
      , и St.-Jérôme начал
-     читать Essquisse sur l’éducation de doux nobles enfants Russes, confiés à mes soins par la Comtesse de Torchkoff, ou Précèptes et maximes, a l’usage d’un gouverneur. <note n="n97">
+     читать Essquisse sur l’éducation de doux nobles enfants Russes, confiés à mes soins par la Comtesse de Torchkoff, ou Précèptes et maximes, a l’usage d’un gouverneur. <span class="note" id="n97">
       <div type="section" xml:id="n97">
        <head>
         <ref target="#backn97">
@@ -2779,7 +2791,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
     </p>
     <p id="51122532-88fc-4b06-8c42-10219cc334ec" rend="left">
      Само собою разумеется
@@ -2801,12 +2813,12 @@
      ему, сухо спросил
      , когда он намерен
      начать классы. — </p>
-    <lb/>
+    <br/>
     <p id="0cbd4ec6-602d-4a12-8a29-3d8d783eb927" rend="center">
      Глава 8.
-     <hi rend="Razradka">
+     <span class="hi" data-attribute="razradka">
       Новый образ
-      жизни </hi>
+      жизни </span>
      .
     </p>
     <p id="789ea160-a72a-4ec3-9ce3-dff030234869" rend="left">
@@ -2837,7 +2849,7 @@
      по случаю болезни
      бабушки, и единственным развлечением нашим
      были уроки фехтованья и верховой езды
-     «l’équitation et les armes», <note n="n98">
+     «l’équitation et les armes», <span class="note" id="n98">
       <div type="section" xml:id="n98">
        <head>
         <ref target="#backn98">
@@ -2853,7 +2865,7 @@
         </choice>
        </p>
       </div>
-     </note> которые
+     </span> которые
      St.-Jérôme нашел
      необходимыми для нашего совершенного образования
      . — В столе
@@ -2984,7 +2996,7 @@
      зла, Бог знает
      , каким путем
      и зачем
-     , прокрадывающагося <note n="n99">
+     , прокрадывающагося <span class="note" id="n99">
       <div type="section" xml:id="n99">
        <head>
         <ref target="#backn99">
@@ -2992,13 +3004,13 @@
         </ref>
        </head>
        <p id="7c95a410-17a4-4709-a8ed-9cc72615f46d" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          В подлиннике:
-        </hi>
+        </span>
         прокрадывающимся
        </p>
       </div>
-     </note> в
+     </span> в
      его сердце. — </p>
     <p id="7f0af52b-d0b4-4fe0-abb7-18a6997544b4" rend="left">
      Тревожное, сосредоточенное в самом себе
@@ -3010,7 +3022,7 @@
    </div>
    <div type="section" xml:id="h000012004016">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 16
      </hi>
      (I ред.).
@@ -3032,7 +3044,7 @@
      доброе сердце, с ним
      ничего не сделаешь
      страхомь, а всей можно сделать через
-     ласку». — «Sehr gut, mein Herr», <note n="n100">
+     ласку». — «Sehr gut, mein Herr», <span class="note" id="n100">
       <div type="section" xml:id="n100">
        <head>
         <ref target="#backn100">
@@ -3048,7 +3060,7 @@
         </choice>
        </p>
       </div>
-     </note> сказал Француз
+     </span> сказал Француз
      , хотя по его выговору можно было заметить
      , и я после узнал
      , что он
@@ -3093,7 +3105,7 @@
    </div>
    <div type="section" xml:id="h000012004017">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 17
      </hi>
      (II ред.).
@@ -3104,7 +3116,7 @@
      по почеркам
      и с
      надписями на каждой пачке
-     . На одной — значилось «Письма Лизы», на другой «Lettres de Clara», <note n="n101">
+     . На одной — значилось «Письма Лизы», на другой «Lettres de Clara», <span class="note" id="n101">
       <div type="section" xml:id="n101">
        <head>
         <ref target="#backn101">
@@ -3120,7 +3132,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      на третьей «Записки бедной
      Аксюты». — Не отдавая себе
      даже отчета в том
@@ -3131,7 +3143,7 @@
      каждой. </p>
     <p id="033d2a89-2327-48d9-baf4-228e3000cdf1" rend="left">
      «Oh! mon bien aimé, rien ne peut égaler la douleur, que je sens de ne plus te voir.
-     <note n="n102">
+     <span class="note" id="n102">
       <div type="section" xml:id="n102">
        <head>
         <ref target="#backn102">
@@ -3147,7 +3159,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      Ради Бога приезжай
      ! Стыд
      и раскаяние
@@ -3159,7 +3171,7 @@
      диктовку, то меня верно
      оставили бы без обеда
      . Например
-     : «Le cadot, que tu m’envoi es charman, mais pourquoi ne l’avoire, pas apporté toi-meme...» <note n="n103">
+     : «Le cadot, que tu m’envoi es charman, mais pourquoi ne l’avoire, pas apporté toi-meme...» <span class="note" id="n103">
       <div type="section" xml:id="n103">
        <head>
         <ref target="#backn103">
@@ -3175,7 +3187,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      и т. д. Письма же
      Аксюты были написаны или писарской рукой на больших листах серой
      бумаги, или на клочках
@@ -3190,16 +3202,16 @@
      я узнал в последствии
      ) и изогнутая колода карт
      , завернутая в
-     бумагу, на которой рукою папа написано было <hi rend="italic">
+     бумагу, на которой рукою папа написано было <span class="hi" data-attribute="italic">
       Понтерки, которыми в
       ночь 17 Генваря 1814 года я выиграл более
-      400.000 </hi>
+      400.000 </span>
      . —
     </p>
    </div>
    <div type="section" xml:id="h000012004018">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       ** № 18
      </hi>
      (I ред.).
@@ -3268,7 +3280,7 @@
      , что виновником
      его падения был
      я, при всех назвал
-     меня mauvais garnement <note n="n104">
+     меня mauvais garnement <span class="note" id="n104">
       <div type="section" xml:id="n104">
        <head>
         <ref target="#backn104">
@@ -3284,14 +3296,14 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      и велел
      идти наверх
      и во всех наклонениях
      , временах
      и числах
      переписать 3 раза выражение
-     : je suis un mauvais garnement, tu es un mauvais garnement <note n="n105">
+     : je suis un mauvais garnement, tu es un mauvais garnement <span class="note" id="n105">
       <div type="section" xml:id="n105">
        <head>
         <ref target="#backn105">
@@ -3307,7 +3319,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      и т. д. (Очень глупое наказание
      , выдуманное St.-Jérôm’ ом
      ). </p>
@@ -3346,7 +3358,7 @@
      это. </p>
     <p id="5400f152-c6a5-44d8-be2b-28540abbf152" rend="left">
      — Prenez garde à vous,
-     <note n="n106">
+     <span class="note" id="n106">
       <div type="section" xml:id="n106">
        <head>
         <ref target="#backn106">
@@ -3362,11 +3374,11 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      — сказал он
      хмурясь, но я еще несколько раз повторил изречение
      во втором лице всякого
-     времени. «Tu fus un mauvais garnement, tu seras un mauvais garnement». <note n="n107">
+     времени. «Tu fus un mauvais garnement, tu seras un mauvais garnement». <span class="note" id="n107">
       <div type="section" xml:id="n107">
        <head>
         <ref target="#backn107">
@@ -3382,11 +3394,11 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
     </p>
     <p id="2f9e49ee-7153-4828-afb2-23288c7917ed" rend="left">
      — C’est bien,
-     <note n="n108">
+     <span class="note" id="n108">
       <div type="section" xml:id="n108">
        <head>
         <ref target="#backn108">
@@ -3402,13 +3414,13 @@
         </choice>
        </p>
       </div>
-     </note> сказал
+     </span> сказал
      St.-Jérôme. — Я уже несколько раз обещал вам наказание
      , от которого вас хотела
      избавить ваша бабушка, но я вижу, что, кроме розог
      , вас ничем
      не заставишь повиноваться, и нынче вы вполне
-     заслужили и будете наказаны. Vous serez fouetté, <note n="n109">
+     заслужили и будете наказаны. Vous serez fouetté, <span class="note" id="n109">
       <div type="section" xml:id="n109">
        <head>
         <ref target="#backn109">
@@ -3424,7 +3436,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      — сказал он
      , отвратительно выговаривая как
      fouatter это последнее
@@ -3438,7 +3450,7 @@
    </div>
    <div type="section" xml:id="h000012004019">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       ** № 19
      </hi>
      (I ред.).
@@ -3586,10 +3598,10 @@
    </div>
    <div type="section" xml:id="h000012004020">
     <head rend="left">
-     <hi rend="strong">
-      <hi rend="italic">
+     <hi>
+      <span class="hi" data-attribute="italic">
        **
-      </hi>
+      </span>
       № 20
      </hi>
      (I ред.).
@@ -3662,7 +3674,7 @@
      долго не приходил
      , шел
      о рабах
-     , les esclaves, les serfs. <note n="n110">
+     , les esclaves, les serfs. <span class="note" id="n110">
       <div type="section" xml:id="n110">
        <head>
         <ref target="#backn110">
@@ -3678,8 +3690,8 @@
         </choice>
        </p>
       </div>
-     </note> Один говорил
-     : «ce sont des brutes, qui ressemblent plutоt des morceaux de bois, qu’à des hommes». <note n="n111">
+     </span> Один говорил
+     : «ce sont des brutes, qui ressemblent plutоt des morceaux de bois, qu’à des hommes». <span class="note" id="n111">
       <div type="section" xml:id="n111">
        <head>
         <ref target="#backn111">
@@ -3695,9 +3707,9 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      Другой говорил
-     : «il n’y a que le knout pour en faire quelque chose». <note n="n112">
+     : «il n’y a que le knout pour en faire quelque chose». <span class="note" id="n112">
       <div type="section" xml:id="n112">
        <head>
         <ref target="#backn112">
@@ -3713,7 +3725,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
     </p>
     <p id="f92be53b-df2d-4fa2-8b05-68edbe9f7fae" rend="left">
      (Еще прежде я замечал
@@ -3753,7 +3765,7 @@
      двери. — </p>
     <p id="80f76e52-27a9-435c-a650-6d608c800313" rend="left">
      — «Et dire, qu’un cretin comme celui-là me gate le sang et l’appetit»,
-     <note n="n113">
+     <span class="note" id="n113">
       <div type="section" xml:id="n113">
        <head>
         <ref target="#backn113">
@@ -3769,14 +3781,14 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      — сказал он
      , обращаясь к своим знакомым
      , которые посмеивались
      , глядя на Василья. </p>
     <p id="c8972ecb-bb43-4d17-b1c1-f12fc93b13c2" rend="left">
      — «Il ne s’attendait pas à recevoir un soufflet aussi bien appliqué. Voyez, quelle aire hébété»).
-     <note n="n114">
+     <span class="note" id="n114">
       <div type="section" xml:id="n114">
        <head>
         <ref target="#backn114">
@@ -3792,7 +3804,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      — Василий действительно молчал
      и, казалось, находился в
      раздумьи. </p>
@@ -3830,7 +3842,7 @@
      ; ему неприятно
      было, чтобы такая сальная история
      дошла до бабушки. «Ce n’est rien», — сказал он своим знакомым
-     , — «je dirai tout ce soir à la comtesse, et le coquin recevra le knout», <note n="n115">
+     , — «je dirai tout ce soir à la comtesse, et le coquin recevra le knout», <span class="note" id="n115">
       <div type="section" xml:id="n115">
        <head>
         <ref target="#backn115">
@@ -3846,7 +3858,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      — и вышел в коридор
      , где
      довольно долго шопотом говорил с Василием
@@ -3870,14 +3882,14 @@
    </div>
    <div type="section" xml:id="h000012004021">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 21
      </hi>
      (I ред.).
     </head>
     <p id="d227a147-4c3b-4c53-a370-9c83e2a36eb6" rend="center">
-     <hi rend="Razradka">
-      &lt;Маша&gt; девичья </hi>
+     <span class="hi" data-attribute="razradka">
+      &lt;Маша&gt; девичья </span>
      .
     </p>
     <p id="eb9a06dd-d574-4dcf-8f38-5e43aad86146" rend="left">
@@ -3984,7 +3996,7 @@
      которую я смотрел
      , мне виднелись
      давно до малейших
-     подробностей изученные мною предметы: доска, на которой утюжили, покрытая <note n="n116">
+     подробностей изученные мною предметы: доска, на которой утюжили, покрытая <span class="note" id="n116">
       <div type="section" xml:id="n116">
        <head>
         <ref target="#backn116">
@@ -3992,14 +4004,14 @@
         </ref>
        </head>
        <p id="747419e9-0374-4907-bf40-beb55d1d9c6a" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          В подлиннике:
-        </hi>
+        </span>
         покрытой
        </p>
       </div>
-     </note> серым сукном
-     , одной стороной лежащая <note n="n117">
+     </span> серым сукном
+     , одной стороной лежащая <span class="note" id="n117">
       <div type="section" xml:id="n117">
        <head>
         <ref target="#backn117">
@@ -4007,13 +4019,13 @@
         </ref>
        </head>
        <p id="66e0199d-32b7-4010-ad24-748e69c4b88b" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          В подлиннике:
-        </hi>
+        </span>
         лежащей
        </p>
       </div>
-     </note>
+     </span>
      на стуле
      , другой на лежанке
      , большой черный сундук
@@ -4187,7 +4199,7 @@
      стукнула дверью, что не понимаю, каким образом
      она удержалась на петлях
      . За перегородкой слышно было, как
-     Агафья Михайловна, продолжала <note n="n118">
+     Агафья Михайловна, продолжала <span class="note" id="n118">
       <div type="section" xml:id="n118">
        <head>
         <ref target="#backn118">
@@ -4195,13 +4207,13 @@
         </ref>
        </head>
        <p id="c12d6ace-3547-4270-b09d-92e2d3ddace8" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          В подлиннике:
-        </hi>
+        </span>
         продолжая
        </p>
       </div>
-     </note> вслух
+     </span> вслух
      проклинать свое житье, швырять все
      свои вещи и даже бить свою любимую кошку. — Внизу послышался колокольчик
      бабушки. — «Хоть раззвонись, а уж
@@ -4211,9 +4223,9 @@
      сундука: «а то шибко расходилась наша барыня, еще нажалуется, того и гляди. До приятного свидания
      ». В дверях он встретился с
      Машей, которая продолжала плакать. « Эх
-     , Маша, о чем <hi rend="italic">
+     , Маша, о чем <span class="hi" data-attribute="italic">
       ты
-     </hi>
+     </span>
      плачешь, сказал он
      ей: вот мне так
      , так
@@ -4300,10 +4312,10 @@
    </div>
    <div type="section" xml:id="h000012004022">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * №
-      <hi rend="italic">
-      </hi>
+      <span class="hi" data-attribute="italic">
+      </span>
       22
      </hi>
      (I ред.).
@@ -4389,9 +4401,9 @@
      кажется, есть лучший признак
      правды. — Я был в
      полной уверенности
-     , что я <hi rend="italic">
+     , что я <span class="hi" data-attribute="italic">
       не
-     </hi>
+     </span>
      останусь жить с своим семейством
      , что каким-нибудь непостижимым случаем
      я буду скоро разлучен с
@@ -4405,9 +4417,9 @@
      за нею, и остановилась подле нас
      . — Я не мог видеть её
      лица, но меня поразила фигура и походка этой дамы, так
-     много она напоминала покойную <hi rend="italic">
+     много она напоминала покойную <span class="hi" data-attribute="italic">
       maman.
-     </hi>
+     </span>
      Черная одежда, церковное пение
      , всегда переносившее меня к
      времю кончины матушки, еще более
@@ -4518,9 +4530,9 @@
      , Его Величество поклонился всему народу, стало быть и мне
      , и какое это для меня было счастье. Но я остался все тем
      же Николенькой с
-     невыученными за 2 дня уроками. Утвердившаяся надежда найти <hi rend="italic">
+     невыученными за 2 дня уроками. Утвердившаяся надежда найти <span class="hi" data-attribute="italic">
       maman
-     </hi>
+     </span>
      , честолюбивое желание переменить образ
      жизни и неясное влечение к женщинам
      , о котором
@@ -4656,7 +4668,7 @@
    </div>
    <div type="section" xml:id="h000012004023">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 23
      </hi>
      (II ред.)
@@ -4779,7 +4791,7 @@
    </div>
    <div type="section" xml:id="h000012004024">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 24
      </hi>
      (II ред.).
@@ -4849,7 +4861,7 @@
    </div>
    <div type="section" xml:id="h000012004025">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 25
      </hi>
      (I ред.).
@@ -4874,15 +4886,15 @@
      скрывать этих
      вещей; но верно им
      нравилась эта таинственность. Одну девушку
-     они называли <hi rend="italic">
+     они называли <span class="hi" data-attribute="italic">
       10,000000,
-     </hi>
+     </span>
      другую
-     <hi rend="italic"> милые лени </hi>
+     <span class="hi" data-attribute="italic"> милые лени </span>
      , третью
-     <hi rend="italic">
+     <span class="hi" data-attribute="italic">
       птички
-     </hi>
+     </span>
      (вообще все названия
      давались во <choice original_editorial_correction="множеств[енномъ]">
       <sic>
@@ -4896,8 +4908,8 @@
      любви были прогулки пешком
      и в экипажах
      мимо окон своих возлюбленных
-     . Эти прогулки технически назывались <hi rend="italic"> ездою
-      по пунктам </hi>
+     . Эти прогулки технически назывались <span class="hi" data-attribute="italic"> ездою
+      по пунктам </span>
      . Все это было смешно
      , но делалось так
      мило благородно и украшалось всегда такой неподдельной
@@ -4910,7 +4922,7 @@
    </div>
    <div type="section" xml:id="h000012004026">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 26
      </hi>
      (I ред.).
@@ -4944,17 +4956,17 @@
    </div>
    <div type="section" xml:id="h000012004027">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 27
      </hi>
      (II ред.).
     </head>
     <p id="7a2b2cd6-b42f-4e45-8403-a9f17196ea22" rend="center">
-     <hi rend="Razradka">
+     <span class="hi" data-attribute="razradka">
       Странная новость
-     </hi>
+     </span>
      .
-     <note n="n119">
+     <span class="note" id="n119">
       <div type="section" xml:id="n119">
        <head>
         <ref target="#backn119">
@@ -4962,12 +4974,12 @@
         </ref>
        </head>
        <p id="ceae6da1-b962-42cc-88d1-fdef31eb9dd4" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Помета позднейшая.
-        </hi>
+        </span>
        </p>
       </div>
-     </note>
+     </span>
     </p>
     <p id="5c8e41d1-4cd7-4cfb-a729-adb9d011d958" rend="left">
      всего общества веселыми рассказами
@@ -5264,7 +5276,7 @@
      . </p>
     <p id="20fa9e0e-94de-4a22-b082-ca47dd60d830" rend="left">
      — «La belle Flamande?»
-     <note n="n120">
+     <span class="note" id="n120">
       <div type="section" xml:id="n120">
        <head>
         <ref target="#backn120">
@@ -5275,7 +5287,7 @@
         [Красавица фламандка?]
        </p>
       </div>
-     </note>
+     </span>
      — сказал
      Володя. </p>
     <p id="2bc4d630-7f45-4d07-b1b6-27ee50409e2e" rend="left">
@@ -5301,15 +5313,15 @@
    </div>
    <div type="section" xml:id="h000012004028">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 28
      </hi>
      (I ред.).
     </head>
     <p id="cd27ffb5-ac42-41d7-ae13-adac2c02591e" rend="center">
-     <hi rend="Razradka">
+     <span class="hi" data-attribute="razradka">
       Начало дружбы
-     </hi>
+     </span>
      . XXX.
     </p>
     <p id="301d84fa-a561-4129-b635-1c30feb53ce2" rend="left"> С тех пор
@@ -5348,9 +5360,9 @@
      25, и имянно его 25 лет
      были главной привлекательностью. Я понимал
      , как приятно Володе
-     сойдтись на <hi rend="italic">
+     сойдтись на <span class="hi" data-attribute="italic">
       ты
-     </hi> с адъютантом
+     </span> с адъютантом
      , человеком
      , который уже давно бреет
      свою бороду. Кому не случалось встречатьcя с
@@ -5380,7 +5392,7 @@
      склонность соединять и смешивать понятие
      порядочности, comme il faut. — Рассуждая
      теперь, я очень ясно вижу, что Володя, который был совершенным типом
-     того, что называется enfant de bonne maison, <note n="n121">
+     того, что называется enfant de bonne maison, <span class="note" id="n121">
       <div type="section" xml:id="n121">
        <head>
         <ref target="#backn121">
@@ -5396,7 +5408,7 @@
         </choice>
        </p>
       </div>
-     </note> был в
+     </span> был в
      10 раз порядочнее
      Губкова; но заметно
      было, что Володя сильно боялся Губкова имянно в этом отношении
@@ -5535,9 +5547,9 @@
      : «У нас в школе
      тоже было трудно. Я никогда бы ничего не знал
      , но умел так
-     устроивать <hi rend="italic">
+     устроивать <span class="hi" data-attribute="italic">
       1 неразобр
-     </hi>
+     </span>
      <choice original_editorial_correction="[.]">
       <sic/>
       <corr>
@@ -5545,9 +5557,9 @@
       </corr>
      </choice>
      пускать пыль в
-     глаза <hi rend="italic">
+     глаза <span class="hi" data-attribute="italic">
       1 неразобр
-     </hi>
+     </span>
      <choice original_editorial_correction="[.]">
       <sic/>
       <corr>
@@ -5560,9 +5572,9 @@
      другое дело
      , мне из истории
      , из
-     Древней и <hi rend="italic">
+     Древней и <span class="hi" data-attribute="italic">
       1 неразобр
-     </hi>
+     </span>
      <choice original_editorial_correction="[.]">
       <sic/>
       <corr>
@@ -5589,7 +5601,7 @@
      получать 5, а не 3, разве
      не все равно? Напротив
      , еще как-то неприятно
-     и mettre en lieu <note n="n122">
+     и mettre en lieu <span class="note" id="n122">
       <div type="section" xml:id="n122">
        <head>
         <ref target="#backn122">
@@ -5605,11 +5617,11 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      со всеми
      этими Заверзиными, Полетаевыми. У них
      своя дорога, у меня своя. Правда, тоже Г. говорит
-     , que c’est mauvais genre <note n="n123">
+     , que c’est mauvais genre <span class="note" id="n123">
       <div type="section" xml:id="n123">
        <head>
         <ref target="#backn123">
@@ -5625,7 +5637,7 @@
         </choice>
        </p>
       </div>
-     </note>
+     </span>
      получить больше 3». Нехлюдов
      : «Этого я не понимаю. Г. говорит
      глупость, а ты повторяешь. Что это за гордость, что не хочешь стать en lieu с
@@ -5665,7 +5677,7 @@
      . Положим
      , я самолюбив
      , но мне
-     кажется, что каждый тоже самое, и поэтому не вижу <note n="n124">
+     кажется, что каждый тоже самое, и поэтому не вижу <span class="note" id="n124">
       <div type="section" xml:id="n124">
        <head>
         <ref target="#backn124">
@@ -5673,17 +5685,17 @@
         </ref>
        </head>
        <p id="6569a0ed-b4db-4fac-8518-378e2287da55" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          дальше вырвано сколько-то страниц.
-        </hi>
+        </span>
        </p>
       </div>
-     </note>
+     </span>
     </p>
    </div>
    <div type="section" xml:id="h000012004029">
     <head rend="left">
-     <hi rend="strong">
+     <hi>
       * № 29
      </hi>
      (I ред.).
@@ -5720,9 +5732,9 @@
      различить. Наконец
      , отделилась
      эстрада, на ней пюпитры; дамы, сидящия
-     , <hi rend="italic">
+     , <span class="hi" data-attribute="italic">
       1 неразобр
-     </hi>
+     </span>
      <choice original_editorial_correction="[.]">
       <sic/>
       <corr>
@@ -5827,9 +5839,9 @@
       <corr> Нехлюдовым </corr>
      </choice>
      и
-     <hi rend="italic">
+     <span class="hi" data-attribute="italic">
       1 неразобр
-     </hi>
+     </span>
      <choice original_editorial_correction="[.]">
       <sic/>
       <corr>
@@ -5853,16 +5865,16 @@
      . Мы пошли в сад
      . Он отдал мне
      письмо Мими к
-     папа, на адресе которого был <hi rend="italic">
+     папа, на адресе которого был <span class="hi" data-attribute="italic">
       1 неразобр.
-     </hi>
+     </span>
      <choice original_editorial_correction="[]">
       <sic/>
       <corr/>
      </choice>
-     <hi rend="italic">
+     <span class="hi" data-attribute="italic">
       .
-     </hi>
+     </span>
      Я прочел
      его. Мими просит
      отца принять меры насчет

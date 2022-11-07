@@ -1,125 +1,137 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v42_532_553_Krug_chtenija_Nezakonchennoe_obschedostupnoe_izlozhenie">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения</title>
-                <title type="sub">Незаконченное общедоступное изложение </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="26ef196c-7e3c-41f4-bb40-3931d0a043f5">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Незаконченное общедоступное изложение 
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957-01-01"/>
-                        </imprint>
-                        <biblScope unit="volume">42</biblScope>
-                        <biblScope unit="page">532-553</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1906-01-01"/>
-         </creation>          
-            <textClass> 
-                <catRef target="type" ana="#works"/>
-                <catRef target="sphere" ana="#nonfiction"/>
-                <catRef target="published" ana="#not_publ"/>
-                <catRef target="finished" ana="#not_finished"/>
-                <catRef target="genre" ana="#sbornik"/>
-                <catRef target="author" ana="#Tolstoy"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_532_553_Krug_chtenija_Nezakonchennoe_obschedostupnoe_izlozhenie">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения
+    </title>
+    <title type="sub">
+     Незаконченное общедоступное изложение
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="26ef196c-7e3c-41f4-bb40-3931d0a043f5">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Незаконченное общедоступное изложение
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957-01-01"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       532-553
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1906-01-01"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000007010">
     <p id="710df45a-e0c9-423e-9cc1-1b415223da3a">
      <pb n="532"/>
     </p>
-    <p id="346acd4f-39f5-42c1-bbd7-d9d571807585">
+    <p id="fe15732f-1cbf-4e05-aa7e-df9b49574109">
       <head rend="center">
      НЕЗАКОНЧЕННОЕ ОБЩЕДОСТУПНОЕ ИЗЛОЖЕНИЕ «КРУГА ЧТЕНИЯ»
     </head>
     </p>
-    <p id="e738e207-58a3-4a01-ac82-bc6a487ba7a2">
-      <lb/>
+    <p id="bf2219e0-f4e7-469d-a636-78a60a92d8f4">
+      <br/>
     </p>
-    <p id="063b4dc3-10b7-4923-a0fe-ca265cf4b306">
+    <p id="d9e2a70a-99b9-463e-932c-9f05c95699ac">
       <head>
         <p id="c135959e-f90d-49fa-8211-5f60df87330a" rend="center textindent_38px">
-          <hi rend="Razradka">
+          <span class="hi" data-attribute="razradka">
        1-е января
-      </hi>
+      </span>
         </p>
       </head>
     </p>
@@ -157,12 +169,12 @@
      <p id="734bc004-3c88-4805-b81c-f8db558d7e99" rend="left">
       Различие между ядами вещественными и умственными в том, что большинство ядов вещественных противны на вкус, яды же умственные в виде газет и дурных книг часто привлекательны, и тем более привлекательны, чем вкус более извращен.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="56a807bb-6a3a-4e98-92bb-e8668e9123b6" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         2-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="287bfc51-961a-4c3b-8256-5c6fa282181c" rend="left">
@@ -203,12 +215,12 @@
      <p id="43f7221f-709d-4666-8bda-f1b62b864039" rend="left">
       Жизнь человека без веры — жизнь животного.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="1ab645eb-6e3d-4955-a36d-cc45d377bf6f" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         3-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="7a7b714e-0751-47d9-8eae-4a6ff966372f" rend="left">
@@ -221,18 +233,11 @@
      </p>
      <p id="628fadab-f94b-46a6-9719-0615f48818ca" rend="left">
       Не надо во что бы то ни стало держаться старины. Надо быть готовым изменить прежние порядки, если
-      <note n="n219">
-       <div type="section" xml:id="n219">
-        <head>
-         <ref target="#backn219">
-          219
-         </ref>
-        </head>
-        <p id="fe1b0865-be34-43d0-8e86-40d86d9c1423" rend="left">
+      <a href="#" data-type="snoska" id="note219">219</a><span class="note" id="note219">
+       <p id="fe1b0865-be34-43d0-8e86-40d86d9c1423" rend="left">
          &lt;del&gt;явно, что&lt;/del&gt;
         </p>
-       </div>
-      </note>
+       </span>
       они вредны. Моряк, который будет становить одни и те же паруса при всяком ветре, недалеко уедет.
      </p>
     </div1>
@@ -251,12 +256,12 @@
      <p id="951c97e8-baec-4e5e-953d-47a240998b2a" rend="left">
       Стоит прямо и просто принять Христа, чтобы ясен был тот ужасный обман, в котором живем все мы и живет каждый из нас.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="d779b6ac-99f1-40fe-ba7f-87fc9336f57a" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         4-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="b54077cb-2418-4c74-8103-66684183626e" rend="left">
@@ -272,15 +277,15 @@
      </p>
      <cit>
       <p id="18464ae5-4d25-4f09-89d9-27922339ec5b" rend="left">
-       <hi rend="italic">
+       <span class="hi" data-attribute="italic">
         Добрые люди друг другу пособляют, не думая об этом, а злые нарочно вредят друг другу.
-       </hi>
+       </span>
       </p>
       <bibl>
        <p id="16193299-2b71-4a9d-a2e9-5003a93d9d0b" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Китайская пословица.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -295,9 +300,9 @@
       </p>
       <bibl>
        <p id="e5b49fdc-1e2a-4a83-a01e-2c3154881b8a" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Генри Джордж.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -312,9 +317,9 @@
       </p>
       <bibl>
        <p id="4c99744f-dfbd-4b89-905e-c29d44d7b289" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Лао-Тсе.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -326,12 +331,12 @@
      <p id="b59495fa-662e-4f44-93c6-dfb40efa0c5d" rend="left">
       Сначала люди всю жизнь жили порознь, не зная друг друга. Чем дальше мы живем, тем больше сближается народ с народом и человек с человеком. Таков закон жизни, и потому каждому человеку надо делать то, что сближает людей, и не делать того, что разъединяет их.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="fc672884-a007-4390-a66a-d045419b7e67" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         5-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="86a91ac2-6eba-45c8-b80a-a9bfcee4bfa9" rend="left">
@@ -351,9 +356,9 @@
       </p>
       <bibl>
        <p id="5fa7b7c1-85b8-4ca3-a598-4ef46a90fba6" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Персидское изречение.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -370,9 +375,9 @@
       </p>
       <bibl>
        <p id="611a02e6-5621-4f84-8dfe-90e8002c3181" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Посл. Иакова III, 2—6, 13.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -396,9 +401,9 @@
       </p>
       <bibl>
        <p id="c60864db-a807-4058-bcd8-7c7f709028e6" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Китайская мудрость.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -413,9 +418,9 @@
       </p>
       <bibl>
        <p id="6141e1a1-49dd-4dbc-8fad-44874f685996" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Гоголь.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -430,9 +435,9 @@
       </p>
       <bibl>
        <p id="3c789e4b-450a-4725-9108-d6f4c1261d25" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Псал. XXXVIII, 2.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -442,16 +447,16 @@
       ————
      </p>
      <p id="b1fb063e-baf1-43b1-a712-5a113a5e3f65" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Бойся быть нарушителем единения людей, вызвать в них словами недобрые чувства друг против друга.
-      </hi>
+      </span>
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="cc92fbb0-77ed-4e05-a7bc-021bee70190d" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         6-е января.
-       </hi>
+       </span>
       </p>
      </head>
      <p id="3a4b8201-3f48-4874-88fd-899d78650b81" rend="left">
@@ -471,9 +476,9 @@
       </p>
       <bibl>
        <p id="6aa0f709-1114-4af0-8dd3-44c1604a3738" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Лао-Тсе.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -491,9 +496,9 @@
       </p>
       <bibl>
        <p id="da5d93a7-88be-4191-bd6a-e3eebec39b1c" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Эпиктет.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -508,9 +513,9 @@
       </p>
       <bibl>
        <p id="ad8d68b5-5a98-412b-b4ca-8c8a94ce835b" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мф. XXIV, 13.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -525,9 +530,9 @@
       </p>
       <bibl>
        <p id="28e66d93-cac8-41ef-bb3d-242e6324ec31" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Талмуд.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -537,9 +542,9 @@
       5
      </p>
      <p id="2b1d44bd-93c2-4a07-b186-35a43f8bde84" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Величайшая сила человека в том, чтобы остановиться.
-      </hi>
+      </span>
      </p>
     </div1>
     <p id="e65afd04-dbcc-458a-b71f-697c1edec0b7" rend="left">
@@ -554,18 +559,18 @@
        Лишь того я назову верным возничим, кто сдерживает свой гнев, несущийся подобно стремительной колеснице; другие же, бессильные, только держатся за поводья.
       </p>
       <p id="aa5c9ee6-a776-4671-b329-8a7b166c58cf" rend="right">
-       <hi rend="italic">
+       <span class="hi" data-attribute="italic">
         Буддийская мудрость.
-       </hi>
+       </span>
       </p>
       <p id="1a9df666-3739-46f4-9771-bf0e796da270" rend="left">
        Если, обремененный неприятными делами, ты чувствуешь приступ гнева или возмущения, то спеши уйти от самого себя и не поддавайся впечатлениям, могущим лишить тебя самообладания. Чем более мы упражняемся в том, чтобы силою воли вернуться к спокойному настроению души, тем способность удерживать спокойствие духа усиливается.
       </p>
       <bibl>
        <p id="cac973ce-3b1b-4dcc-b79d-84f07a12f282" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Марк Аврелий.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -577,30 +582,23 @@
      <p id="0e16efd1-32fc-49cf-b30b-6c060fd36df5" rend="left">
       Сколько бы раз ни пришлось тебе падать, не достигнув победы над своими страстями, не унывай. Насколько ты поборолся с страстью, настолько ты уменьшил ее силу, и тем легче будет победа над ней.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="8188b374-9ffe-4166-84f8-cef20acf1b94" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         7-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="fda83a76-55ed-4527-a982-766025c53c9c" rend="left">
       Надо быть добрым со всеми людьми. Доброта
-      <note n="n220">
-       <div type="section" xml:id="n220">
-        <head>
-         <ref target="#backn220">
-          220
-         </ref>
-        </head>
-        <p id="3978ada5-5e45-42f0-b0a9-49ca5b47b247" rend="left">
+      <a href="#" data-type="snoska" id="note220">220</a><span class="note" id="note220">
+       <p id="3978ada5-5e45-42f0-b0a9-49ca5b47b247" rend="left">
          <span class="del">
           и злоба
          </span>
         </p>
-       </div>
-      </note>
+       </span>
       заразительна. Если ты добр к людям, ты делаешь самое важное дело в мире: увеличиваешь доброту в людях.
      </p>
     </div1>
@@ -613,31 +611,24 @@
      </p>
      <p id="8cabbb74-1e8a-44f3-a8cc-2fd0bc5d310f" rend="left">
       И потому, живя в мире, мы должны терпеливо сносить всякие
-      <note n="n221">
-       <div type="section" xml:id="n221">
-        <head>
-         <ref target="#backn221">
-          221
-         </ref>
-        </head>
-        <p id="49ade602-a682-4b49-8975-bf7b746e4bba" rend="left">
-         <hi rend="italic">
+      <a href="#" data-type="snoska" id="note221">221</a><span class="note" id="note221">
+       <p id="49ade602-a682-4b49-8975-bf7b746e4bba" rend="left">
+         <span class="hi" data-attribute="italic">
           Переделано из:
-         </hi>
+         </span>
          всяких;
-         <hi rend="italic">
+         <span class="hi" data-attribute="italic">
           далее зачеркнуто:
-         </hi>
+         </span>
          людей
         </p>
-       </div>
-      </note>
+       </span>
       недостатки людей, уметь наилучшим образом обходиться с людьми, какие они есть, не рассчитывая на то, что они могут измениться.
      </p>
      <p id="b8076e0d-89b4-486a-bb95-8b311c931fc4" rend="right">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Шопенгауэр.
-      </hi>
+      </span>
      </p>
     </div1>
     <p id="6f067d09-ec3c-424f-9b5e-509f950a1305" rend="left">
@@ -648,9 +639,9 @@
       2
      </p>
      <p id="99f7cf45-7486-43d7-b2ff-6fe1a98b2f69" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Не будь строг к тому, кто подпал искушению, и старайся утешить его так, как бы ты сам желал быть утешен.
-      </hi>
+      </span>
      </p>
     </div1>
     <div1 n="3">
@@ -681,9 +672,9 @@
       </p>
       <bibl>
        <p id="4dadb31d-268f-436d-96df-54adbf55f603" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Джеферсон.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -695,12 +686,12 @@
      <p id="a687a19a-fbb0-492c-b7f9-11870ecb2bb5" rend="left">
       Доброта украшает жизнь, разрешает все противоречия, запутанное делает ясным, трудное делает легким, мрачное делает радостным.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="1e83df04-b81b-4717-a647-255bdf51ee20" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         8-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="c0d096a4-56ae-402c-a838-8a1755f1cc9e" rend="left">
@@ -725,9 +716,9 @@
       </p>
       <bibl>
        <p id="2bfa7b16-e922-4a1a-9d4a-b3a17ec2e903" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Ламенэ.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -746,9 +737,9 @@
       </p>
       <bibl>
        <p id="e038b04f-90b4-42f2-bcf3-dd4be39241c8" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Джон Рёскин.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -771,9 +762,9 @@
       </p>
       <bibl>
        <p id="a8e90765-07dd-457a-8a21-303e932af2df" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Ибрагим Кордовский.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -783,16 +774,16 @@
       ————
      </p>
      <p id="59ba48ac-9ccd-4657-b8f8-b694771cb2fe" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Чтобы было истинное христианство, нужно только, чтобы уничтожилось ложное.
-      </hi>
+      </span>
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="b5ae4ace-72c8-4893-a315-dfafa635590c" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         9-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="cf6a4c98-eaf4-4063-b156-2684e25d1b7a" rend="left">
@@ -804,9 +795,9 @@
       1
      </p>
      <p id="fdabcdd2-88f1-441c-a10c-31d58b9f37bb" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Для человеческого ума менее вредно совсем не учиться, чем учиться слишком рано и слишком много.
-      </hi>
+      </span>
      </p>
     </div1>
     <p id="cc589d4f-f832-4939-bedc-7b6e72523865" rend="left">
@@ -825,9 +816,9 @@
       </p>
       <bibl>
        <p id="0a87e91e-8d36-4438-861a-85114a26b109" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Эмерсон.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -839,12 +830,12 @@
      <p id="3f2d8092-3bda-42d5-86d4-21105bd8ce81" rend="left">
       Меньше читайте, меньше учитесь, больше думайте. Учитесь и у учителей и в книгах только тому, что вам нужно и хочется знать.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="cb5e4ca6-593b-4a5f-91a3-2895df9e09fe" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         10-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="cecc6578-d4a1-4b69-84e3-6ffc7a4b17d5" rend="left">
@@ -864,9 +855,9 @@
       </p>
       <bibl>
        <p id="44ee8319-fc2a-49e9-a08f-c2d0fcb4b6ea" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мф. XVIII, 6, 7.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -877,15 +868,15 @@
      </p>
      <cit>
       <p id="5a0f8361-6632-4f07-a514-3749486be6b4" rend="left">
-       <hi rend="italic">
+       <span class="hi" data-attribute="italic">
         Довести ребенка до сознания божественной природы в себе, в этом главная задача родителей и воспитателей.
-       </hi>
+       </span>
       </p>
       <bibl>
        <p id="3b4dd6c0-8482-4693-abd4-187502fbd98c" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Чаннинг.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -900,9 +891,9 @@
       </p>
       <bibl>
        <p id="11f71301-ec39-4fdc-8a4f-b99540c2bfcd" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Джон Рёскин.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -914,12 +905,12 @@
      <p id="6c6249bb-ae14-4184-9029-44c5bb864335" rend="left">
       Обучение вере — первое дело в воспитании. Но надо, чтобы те, кто учат, сами верили тому, чему учат. Дети проницательны, и если учителя не верят, то и они не верят не только тому, чему их учат, но и тем, которые их учат.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="9e2d659a-a624-43b6-afd6-fd085d4cc56f" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         11-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="1097c199-4f9e-4699-9535-e9f8ad6e0770" rend="left">
@@ -945,9 +936,9 @@
       </p>
       <bibl>
        <p id="cd104e97-e09e-4b24-8d9a-b79585b3dd01" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Экклезиаст (апокрифический).
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -959,16 +950,16 @@
      <cit>
       <p id="e71176be-8a63-49e0-b368-cd97611397be" rend="left">
        Иисус же, подозвав их, сказал: вы знаете, что князья народов господствуют над ними, и вельможи властвуют ими; но между вами да не будет так; а кто хочет между вами быть бòльшим, да будет вам слугою; и кто хочет между вами быть первым, да будет вам рабом; так как сын человеческий не для
-       <hi rend="italic">
+       <span class="hi" data-attribute="italic">
         того
-       </hi>
+       </span>
        пришел, чтобы ему служили, но чтобы послужить и отдать душу свою для искупления многих.
       </p>
       <bibl>
        <p id="1e43ee57-cd39-446e-b555-2d799dfa20ed" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мф. XX, 25—28.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -983,9 +974,9 @@
       </p>
       <bibl>
        <p id="769f8f91-8a98-43a8-8410-deeef2720eb6" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Женевио-Лан.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1000,9 +991,9 @@
       </p>
       <bibl>
        <p id="63a61287-7d4e-45f7-a7ed-1f9a402897a5" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Талмуд.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1026,9 +1017,9 @@
       </p>
       <bibl>
        <p id="0b7db8ac-5fba-45fa-9ca9-244f27293edb" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Талмуд.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1054,9 +1045,9 @@
       </p>
       <bibl>
        <p id="cf853c7d-9b8e-4489-9171-57090e08b357" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Конфуций.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1075,15 +1066,15 @@
      </p>
      <cit>
       <p id="ce4959e1-26d3-45c5-84cc-9d0b8a32dc38" rend="left">
-       <hi rend="italic">
+       <span class="hi" data-attribute="italic">
         Больший из вас да будет вам слуга: ибо кто возвышает себя, тот унижен будет; а кто унижает себя, тот возвысится.
-       </hi>
+       </span>
       </p>
       <bibl>
        <p id="82dd1787-3aa9-4eec-b79f-604fe6c2680c" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мф. XXIII, 11—12.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1095,12 +1086,12 @@
      <p id="1e00c917-c468-41c9-af94-d84774e52073" rend="left">
       Вспоминай всё дурное, сделанное тобой. Это поможет тебе не делать дурного. Если же будешь вспоминать сделанное тобою хорошее, это помешает тебе делать доброе.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="b83fc5bd-ece7-436d-8dc2-a8f055a5f7ef" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         12-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="110f9c88-503d-4dae-a156-1120bd20b056" rend="left">
@@ -1126,9 +1117,9 @@
       </p>
       <bibl>
        <p id="a1656ba5-2ff1-4b77-bff3-106eca6a206e" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мильтон.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1146,9 +1137,9 @@
       </p>
       <bibl>
        <p id="6a4e8f2a-1c5f-427c-84c4-a6e5a6416b6d" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Эмерсон.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1163,9 +1154,9 @@
       </p>
       <bibl>
        <p id="7c1a71b5-a492-45fd-8b21-8eb5acc47cf1" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мф. XXIII, 8.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1176,13 +1167,17 @@
      </p>
      <cit>
       <p id="e8b4dc3e-cd27-4c96-9ad8-4325f17e88ad" rend="left">
-       Берегитесь лжепророков, которые приходят к вам в овечьей одежде, а внутри суть волки хищные; по плодам их узнаете их. Собирают ли с терновника виноград или с репейника <a href="../../reference/Dictionary.xml" data-type="topic_slovar" data-id="smokva">смоквы</a>? Так всякое дерево доброе приносит и плоды добрые, а худое дерево приносит и плоды худые: не может дерево доброе приносить плоды худые, ни дерево худое приносить плоды добрые. Итак, по плодам их узнаете их.
+       Берегитесь лжепророков, которые приходят к вам в овечьей одежде, а внутри суть волки хищные; по плодам их узнаете их. Собирают ли с терновника виноград или с репейника
+       <a href="../../reference/Dictionary.xml" data-type="slovar" data-id="smokva">
+        смоквы
+       </a>
+       ? Так всякое дерево доброе приносит и плоды добрые, а худое дерево приносит и плоды худые: не может дерево доброе приносить плоды худые, ни дерево худое приносить плоды добрые. Итак, по плодам их узнаете их.
       </p>
       <bibl>
        <p id="90455ad5-dce1-4792-b655-6b881c7b6e95" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мф. VII, 15—20.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1195,16 +1190,16 @@
       Человек может пользоваться тем преданием, которое перешло к нему от мудрых и святых людей прошедшего, но от него зависит проверить своим разумом то, что передается, и откинуть одно и избрать другое.
      </p>
      <p id="561f3f79-3f9f-4a13-9ecf-af8f931f058e" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Каждый человек должен сам устанавливать свое отношение к богу.
-      </hi>
+      </span>
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="eb8bde99-4f67-4316-8ed0-6a55780dbfe1" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         13-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="b5cc8fd5-67b9-4494-88e7-8ad5711d5ca5" rend="left">
@@ -1224,9 +1219,9 @@
       </p>
       <bibl>
        <p id="91d86c1c-78f8-470b-97c8-680ecc1fba20" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Амиель.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1241,9 +1236,9 @@
       </p>
       <bibl>
        <p id="dfcdfe6a-0f48-4ee1-8d8e-40a80f86e4d2" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Лессинг.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1261,9 +1256,9 @@
       </p>
       <bibl>
        <p id="26bc66ac-3db2-40ed-8638-0295a7f5c9a8" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Чаннинг.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1278,9 +1273,9 @@
       </p>
       <bibl>
        <p id="7f530b28-a24e-4287-998b-253c3e0a3c92" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Персидская Кейям.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1291,15 +1286,15 @@
      </p>
      <cit>
       <p id="0bc4b2a9-92a6-4b03-b17c-e6462cd6a43f" rend="left">
-       <hi rend="italic">
+       <span class="hi" data-attribute="italic">
         Кто добрый человек? Добр только религиозный человек. Но что такое доброта? Прежде и важнее всего это согласие воли с совестью.
-       </hi>
+       </span>
       </p>
       <bibl>
        <p id="6424491d-0ce2-47da-929c-c08a8046bfa1" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Китайский буддизм.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1334,12 +1329,12 @@
      <p id="8445dae0-fc6c-409b-a285-303513b90373" rend="left">
       Не думайте, что вы можете найти душевный мир без веры.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="aaf9a825-1f31-4eb8-aad2-734d1bf7d57c" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         14-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="27ddcf13-8808-4966-ac81-304f7a50eda4" rend="left">
@@ -1359,9 +1354,9 @@
       </p>
       <bibl>
        <p id="ffd82ba2-c298-46ef-8db2-93cca1dc8258" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мф. XXII, 36—40.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1376,9 +1371,9 @@
       </p>
       <bibl>
        <p id="f7f8f6ba-c74b-4ee9-8bc5-2188f14f2312" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Паскаль.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1391,9 +1386,9 @@
       3
      </p>
      <p id="4b62e9a2-5b80-4e2f-8685-b1394995ee7f" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Люди живы любовью: любовь к себе — начало смерти, любовь к богу и людям — начало жизни.
-      </hi>
+      </span>
      </p>
     </div1>
     <div1 n="4">
@@ -1414,9 +1409,9 @@
       </p>
       <bibl>
        <p id="6a7bbecf-5dd9-41fe-b174-5a4b0f34851e" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          1-е Послание Иоанна, из гл. 4.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1447,12 +1442,12 @@
      <p id="6cf9e97c-1281-4a27-ac9d-c8e838376c17" rend="left">
       Любовь истинная достигается усилием. Вспомни о том, что тот, с кем ты общаешься, любит себя так же, как и ты себя, и ты поймешь, как тебе надо отнестись к нему.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="6455d515-9dcf-4f67-a714-83afb568aebe" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         15-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="5bb995d4-2564-4b5c-a3ac-868293f1363a" rend="left">
@@ -1484,15 +1479,15 @@
      </p>
      <cit>
       <p id="b9177e70-4ffa-41e0-a63c-b0d7cdee629b" rend="left">
-       <hi rend="italic">
+       <span class="hi" data-attribute="italic">
         Пока мы живы, души наши мертвы и погребены в нашем теле; а когда мы умираем, они оживают.
-       </hi>
+       </span>
       </p>
       <bibl>
        <p id="9354d56a-a165-4800-b070-62d1036a0dbf" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Гераклит Эфесский.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1520,12 +1515,12 @@
      <p id="ac3e7d7b-3bab-45a7-a96d-7b071957fd1b" rend="left">
       Если есть вечность, то она в прошедшем так же, как и в будущем.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="93489402-7ae7-47aa-8596-3accaf1f7f89" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         16-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="3f1e1efe-385a-4d9e-ae76-7079c68fc173" rend="left">
@@ -1545,9 +1540,9 @@
       </p>
       <bibl>
        <p id="669757c4-2bc3-455b-811c-565a5bde7628" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мф. VII, 21.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1570,9 +1565,9 @@
       </p>
       <bibl>
        <p id="709043b2-b440-48ee-8924-cb85d7162b70" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Китайская мудрость.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1590,9 +1585,9 @@
       </p>
       <bibl>
        <p id="08813d92-3cf7-4e0d-8db2-651a7cddc276" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Талмуд.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1602,9 +1597,9 @@
       5
      </p>
      <p id="ddb7cbd4-8bf7-4c83-ae1d-850d923d91c8" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Мне тяжело, я прошу бога помочь мне. Да ведь мое дело служить богу, а не ему служить мне. Стоит вспомнить это, и тяжесть облегчается.
-      </hi>
+      </span>
      </p>
     </div1>
     <div1 n="6">
@@ -1617,9 +1612,9 @@
       </p>
       <bibl>
        <p id="6c712c5d-9793-48e4-9ada-2a34f124151c" rend="left">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Мадзини.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1631,12 +1626,12 @@
      <p id="cb47782d-ee1d-488d-9c5e-546a57509a3f" rend="left">
       Вообрази себе, что цель жизни — твое счастие — и жизнь жестокая бессмыслица. Признай то, что говорит предание, разум и сердце, что жизнь есть служение тому, кто послал тебя в мир, и жизнь становится разумным и радостным не состоянием, а прохождением.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="e699d223-b256-4089-bc3b-f24a4f225d25" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         17-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="7364e183-bdd5-451f-a10d-f391d2d9f127" rend="left">
@@ -1656,9 +1651,9 @@
       </p>
       <bibl>
        <p id="ebd81f3f-c534-41e9-95e1-e285a1cb5fb9" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Давид Томас.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1673,9 +1668,9 @@
       </p>
       <bibl>
        <p id="4c9c23fc-4082-4d08-9319-cf79607c517d" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Лессинг.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1695,9 +1690,9 @@
       </p>
       <bibl>
        <p id="e5b27c1f-1a2d-4f7e-ba3a-b26c5b499d88" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Ламенэ.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1716,18 +1711,18 @@
      </p>
      <cit>
       <p id="49a83764-f7bc-4703-af5c-96cc44899c2d" rend="left">
-       <hi rend="italic">
+       <span class="hi" data-attribute="italic">
         Если вы можете научить человека добру и не делаете этого — вы теряете брата. Если человек не расположен принять ваши поучения, а вы все-таки передаете их ему — вы теряете слова.
-       </hi>
+       </span>
       </p>
       <p id="e3b5f8ea-281a-4ef6-a7ff-41df307ce204" rend="left">
        Мудрый, просвещенный человек не теряет ни братьев, ни свои слова.
       </p>
       <bibl>
        <p id="2cf71bf0-9d1c-4577-8b23-b81511dfd094" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Китайская мудрость.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
@@ -1739,12 +1734,12 @@
      <p id="8bc2d133-4af0-45ea-82ba-a53dfcfafdd6" rend="left">
       Делай свое дело жизни, исполняя волю бога, и будь уверен, что только этим путем ты будешь самым плодотворным образом содействовать улучшению общей жизни.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="e4d3b645-b35c-4295-98fd-2cdfdb42ae00" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         18-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="a6f1be45-15b8-4ada-9c2a-7a473bb77c84" rend="left">
@@ -1757,9 +1752,9 @@
      </p>
      <p id="a1af1053-b24e-430d-ab4d-408d70cd2954" rend="left">
       Ученый тот, кто много знает из книг; образованный тот, кто усвоил себе все самые распространенные в его время знания; просвещенный тот, кто понимает смысл
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        своей
-      </hi>
+      </span>
       жизни.
      </p>
     </div1>
@@ -1784,12 +1779,12 @@
      <p id="43e5f238-bc2e-4be7-883b-81abe4ec0ca2" rend="left">
       Знание это доступно всем.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="78da6491-17cc-4bf9-a9e6-50d8e6f9bd1a" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         19-е января
-       </hi>
+       </span>
       </p>
      </head>
      <p id="01f5e941-34ef-4008-8e9e-d2865e880041" rend="left">
@@ -1809,9 +1804,9 @@
       2
      </p>
      <p id="7198ae7c-4009-434b-b3af-5c7ef2fcb7ce" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        Жизнь требует своего проявления. Если пути зла закрыты ей, она проявляется на пути добра.
-      </hi>
+      </span>
      </p>
     </div1>
     <div1 n="3">
@@ -1838,9 +1833,9 @@
       5
      </p>
      <p id="0a1490a6-4d76-43d4-bbbc-05fd16eee5b7" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        В наше время самые большие и вредные преступления не те, которые совершаются временами, а те, которые совершаются постоянно и не признаются преступлениями.
-      </hi>
+      </span>
      </p>
     </div1>
     <div1>
@@ -1850,19 +1845,19 @@
      <p id="3edcbc7c-5601-4fcb-88de-d38aedd4892d" rend="left">
       Не утешай себя мыслью, что если ты не видишь тех, которых ты мучаешь и убиваешь, и если у тебя много товарищей, делающих то же, что ты не мучитель, не убийца. Ты мог не быть им до тех пор, пока не понимал того, что делаешь, но если ты понял, то нет тебе оправдания не перед людьми (перед людьми во всем и всегда есть оправдание), а перед своей совестью.
      </p>
-     <lb/>
+     <br/>
      <head>
       <p id="36a2810d-33f2-49ce-bc23-06c4b3655c9c" rend="center textindent_38px">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         19-е января
-       </hi>
+       </span>
       </p>
      </head>
      <head>
       <p id="42216781-0663-4ebf-887e-a06b06494649" rend="center">
-       <hi rend="Razradka">
+       <span class="hi" data-attribute="razradka">
         (Запас)
-       </hi>
+       </span>
       </p>
      </head>
      <p id="609712cc-9974-4542-b1d0-90d852724726" rend="left">
@@ -1882,9 +1877,9 @@
       2
      </p>
      <p id="1809795e-438b-46e3-bb4c-e0249941dd70" rend="left">
-      <hi rend="italic">
+      <span class="hi" data-attribute="italic">
        В частной и общей жизни один закон: хочешь улучшить жизнь, будь готов отдать ее.
-      </hi>
+      </span>
      </p>
     </div1>
     <p id="1dea2b67-8fb8-4dec-97cc-54134732e7bc" rend="left">
@@ -1900,9 +1895,9 @@
       </p>
       <bibl>
        <p id="fac4b06b-1ad9-47ba-86ce-e9620d928178" rend="right">
-        <hi rend="italic">
+        <span class="hi" data-attribute="italic">
          Ламенэ.
-        </hi>
+        </span>
        </p>
       </bibl>
      </cit>
