@@ -1,130 +1,118 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title xml:id="v30_455_478_Nauka_i_iskusstvo_Varianty">
-     Наука и искусство. Tolstoy Digital
-    </title>
-    <title type="main">
-     Наука и искусство
-    </title>
-    <title type="sub">
-     Варианты
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML
-     </resp>
-     <name>
-      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="316c837a-50d0-4909-b40b-427b34232fa0">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015-01-01" to="2022-01-01"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       Наука и искусство
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 30
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date when="1951-01-01"/>
-      </imprint>
-      <biblScope unit="volume">
-       30
-      </biblScope>
-      <biblScope unit="page">
-       455-478
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л.Н. Толстой. Полное собрание сочинений.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date from="1889-01-01" to="1891-01-01"/>
-   </creation>
-   <langUsage>
-    <language ident="ru"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#works" target="type"/>
-    <catRef ana="#nonfiction" target="sphere"/>
-    <catRef ana="#statja" target="genre"/>
-    <catRef ana="#not_finished" target="finished"/>
-    <catRef ana="#arts" target="topic"/>
-    <catRef ana="#not_publ" target="published"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="v30_455_478_Nauka_i_iskusstvo_Varianty">
+                    Наука и искусство. Tolstoy Digital
+                </title>
+                <title type="main">Наука и искусство.</title>
+                <title type="sub">Варианты</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML
+                    </resp>
+                    <name>
+                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                    </name>                                 
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="316c837a-50d0-4909-b40b-427b34232fa0">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015-01-01" to="2022-01-01"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            Наука и искусство
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том 30
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1951-01-01"/>
+                        </imprint>
+                        <biblScope unit="volume">30</biblScope>
+                        <biblScope unit="page">455-478</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л.Н. Толстой. Полное собрание сочинений.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date from="1889-01-01" to="1891-01-01"/>
+             </creation>
+            <langUsage> 
+                <language ident="ru"/>
+            </langUsage>
+            <textClass> 
+                <catRef ana="#works" target="type"/>
+                <catRef ana="#nonfiction" target="sphere"/>
+                <catRef ana="#statja" target="genre"/>
+                <catRef ana="#not_finished" target="finished"/>
+                <catRef ana="#arts" target="topic"/>
+                <catRef ana="#not_publ" target="published"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref19">
     <p id="62e46a7e-2a6a-41ca-be20-52e3e5fc77ae">
      <pb n="455"/>
     </p>
-    <p id="3632619d-a953-4851-b978-357c7d4102bf">
+    <p id="7f1dda7b-b568-4cee-800b-3bfa7d3dc47c">
       <head rend="title_level2 center">
      НАУКА И ИСКУССТВО
     </head>
     </p>
     <div type="section">
-     <p id="8667af15-f682-411c-af68-25830e517018">
+     <p id="336fb823-a5a2-45c5-8e26-0a58d7624825">
       <head rend="title_level3 left left">
       * № 1 (рук. № 1).
      </head>
@@ -277,7 +265,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="9dae23e5-fb3b-4d52-8590-65623d8ec651">
+     <p id="8f0f1988-90a0-439a-9a2c-ef437d105a0c">
       <head rend="title_level3 left left">
       * № 2 (рук. № 2).
      </head>
@@ -354,7 +342,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="e96a05f8-cf26-4e04-ba19-c1045cc6d86b">
+     <p id="8f6fda8f-e53d-415e-bf8e-861d1c93d91d">
       <head rend="title_level3 left left">
       * № 3 (рук. № 3).
      </head>
@@ -380,7 +368,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="8d80dc2e-f177-4d8f-856d-5ce639cd0877">
+     <p id="50647d7b-d709-4554-97c8-7705d4c47967">
       <head rend="title_level3 left left">
       * № 4 (рук. № 4).
      </head>
@@ -460,7 +448,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="948286eb-1a7b-4ab0-b96b-1335f5d4096f">
+     <p id="d8a6e0fc-f8ca-42df-8150-88b696ac06b2">
       <head rend="title_level3 left left">
       * № 5 (рук. № 5).
      </head>
@@ -582,7 +570,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="83c1cadd-d0bc-4e89-8d93-3f77d4a9a70e">
+     <p id="389f80f1-91a8-4001-8a71-a38c03a23ca4">
       <head rend="title_level3 left left">
       * № 6 (рук. № 7).
      </head>
@@ -631,7 +619,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="df94af5b-6cd3-4401-a86c-f5d1887755ad">
+     <p id="e1df28a0-b8fb-4511-a824-8808f509300e">
       <head rend="title_level3 left left">
       * № 7 (рук. № 8).
      </head>
@@ -664,7 +652,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="3123d8a5-d7a9-4481-ad54-44eb0ff561bd">
+     <p id="6aae908d-0fdc-427c-a7fb-e82a0ce18aa3">
       <head rend="title_level3 left left">
       * № 8 (рук. № 9).
      </head>
@@ -777,7 +765,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="65a7bda9-91a9-48df-9992-54eb56b8baea">
+     <p id="4225b0a3-6546-43f6-93d7-6ee6423a5e92">
       <head rend="title_level3 left left">
       * № 9 (рук. № 10).
      </head>
@@ -946,7 +934,7 @@
      </p>
     </div>
     <div type="section">
-     <p id="d9b995bd-503c-44aa-9e96-598044bee4cf">
+     <p id="6e9af4b2-66fb-4afe-afdb-955bd961f228">
       <head rend="title_level3 left left">
       * № 10 (рук. № 12).
      </head>
@@ -1070,7 +1058,7 @@
      <p id="13ed17c8-fd36-45f2-ab63-9b35ac3b23f4" rend="left">
       Если же под видом наук и искусств люди предаются пустой, ложной и вредной деятельности, необходимо ясно и точно определить: 1) в чем состоит научная и художественная деятельность и 2) всякая ли научная и художественная деятельность составляет важное и нужное для людей дело, и если не всякая, то 3) какая именно научная и художественная деятельность важна и нужна для людей и потому достойна того уважения, которым пользуются в наше время деятельности этого имени?
      </p>
-     <p id="3901fe71-68df-44c4-8198-8ee0ab7b4d29">
+     <p id="f07eb0e1-7c0a-4823-b0c1-e09b586b6dc1">
       <br/>
     </p>
     </div>
