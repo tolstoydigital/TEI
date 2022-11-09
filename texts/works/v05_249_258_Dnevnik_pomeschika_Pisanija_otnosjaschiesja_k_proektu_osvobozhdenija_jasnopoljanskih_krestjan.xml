@@ -1,107 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v05_249_258_Dnevnik_pomeschika_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan">
-                    7. Дневник помещика. Tolstoy Digital
-                </title>
-                <title type="main">Дневник помещика.</title>
-                <title type="sub">Писания, относящиеся к проекту освобождения яснополянских крестьян</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="cf47b1e3-2581-45ab-94e3-679cd6a0134a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            7. Дневник помещика
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 5
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">5</biblScope>
-                        <biblScope unit="page">249-258</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1856"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_249_258_Dnevnik_pomeschika_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan">
+     7. Дневник помещика. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник помещика.
+    </title>
+    <title type="sub">
+     Писания, относящиеся к проекту освобождения яснополянских крестьян
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="cf47b1e3-2581-45ab-94e3-679cd6a0134a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       7. Дневник помещика
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       249-258
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref25">
     <p id="5e6cca95-a11a-4a01-a29c-07512a040533">
@@ -293,7 +305,11 @@
        рѣчью
       </orig>
      </choice>
-     , и Осипа Наумова, мужа моей кормилицы,
+     , и
+     <name placement="text" ref="9593" type="person">
+      Осипа Наумова
+     </name>
+     , мужа моей кормилицы,
      <choice>
       <reg>
        бывшего
@@ -326,7 +342,10 @@
        извѣстнаго
       </orig>
      </choice>
-     за колдуна, хозяина и пчеловода. — Осипу Наумову
+     за колдуна, хозяина и пчеловода. —
+     <name placement="text" ref="9593" type="person">
+      Осипу Наумову
+     </name>
      <choice>
       <reg>
        лет
@@ -778,7 +797,9 @@
     <p id="1e6ff8eb-649f-4f91-8bd1-c777a1d84a3e" rend="left">
      <choice>
       <reg>
-       Василий
+       <name placement="text" ref="5521" type="person">
+        Василий
+       </name>
       </reg>
       <orig>
        Василiй
@@ -835,7 +856,9 @@
      меня.
      <choice>
       <reg>
-       Осип
+       <name placement="text" ref="9593" type="person">
+        Осип
+       </name>
       </reg>
       <orig>
        Осипъ
@@ -1044,13 +1067,20 @@
      на
      <choice>
       <reg>
-       Матвея
+       <name placement="text" ref="4841" type="person">
+        Матвея
+       </name>
       </reg>
       <orig>
-       Матвѣя
+       <name placement="text" ref="4841" type="person">
+        Матвѣя
+       </name>
       </orig>
      </choice>
-     Егорова,
+     <name placement="text" ref="4841" type="person">
+      Егорова
+     </name>
+     ,
      <choice>
       <reg>
        богатого
@@ -4529,7 +4559,9 @@
      несогласны, что
      <choice>
       <reg>
-       Осип
+       <name placement="text" ref="9593" type="person">
+        Осип
+       </name>
       </reg>
       <orig>
        Осипъ
@@ -4735,7 +4767,10 @@
        къ
       </orig>
      </choice>
-     Осипу:
+     <name placement="text" ref="9593" type="person">
+      Осипу
+     </name>
+     :
      <choice>
       <reg>
        он
@@ -4921,7 +4956,9 @@
      </choice>
      <choice>
       <reg>
-       Даниле
+       <name placement="text" ref="10234" type="person">
+        Даниле
+       </name>
       </reg>
       <orig>
        Данилѣ
@@ -5785,7 +5822,9 @@
      .
      <choice>
       <reg>
-       Яков
+       <name placement="text" ref="14778" type="person">
+        Яков
+       </name>
       </reg>
       <orig>
        Яковъ
@@ -6190,7 +6229,9 @@
      </choice>
      <choice>
       <reg>
-       Яков
+       <name placement="text" ref="14778" type="person">
+        Яков
+       </name>
       </reg>
       <orig>
        Яковъ
@@ -6761,7 +6802,11 @@
        будетъ
       </orig>
      </choice>
-     осквернять святыню. Данило,
+     осквернять святыню.
+     <name placement="text" ref="10234" type="person">
+      Данило
+     </name>
+     ,
      <choice>
       <reg>
        к
@@ -7662,7 +7707,9 @@
      .
      <choice>
       <reg>
-       Владимир
+       <name placement="text" ref="14630" type="person">
+        Владимир
+       </name>
       </reg>
       <orig>
        Владимiръ
@@ -7704,13 +7751,19 @@
      ,
      <choice>
       <reg>
-       Осип
+       <name placement="text" ref="9593" type="person">
+        Осип
+       </name>
       </reg>
       <orig>
        Осипъ
       </orig>
      </choice>
-     и Данило. Староста
+     и
+     <name placement="text" ref="10234" type="person">
+      Данило
+     </name>
+     . Староста
      <choice>
       <reg>
        им
@@ -7835,7 +7888,9 @@
      . —
      <choice>
       <reg>
-       Осип
+       <name placement="text" ref="9593" type="person">
+        Осип
+       </name>
       </reg>
       <orig>
        Осипъ
@@ -7953,7 +8008,11 @@
        будетъ
       </orig>
      </choice>
-     много. — Данило — злобной плутовской
+     много. —
+     <name placement="text" ref="10234" type="person">
+      Данило
+     </name>
+     — злобной плутовской
      <choice>
       <reg>
        брюнет
@@ -10505,7 +10564,9 @@
      и
      <choice>
       <reg>
-       Наполеонов
+       <name placement="text" ref="9541" type="person">
+        Наполеонов
+       </name>
       </reg>
       <orig>
        Наполеоновъ

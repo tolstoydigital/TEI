@@ -1,106 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v01_167_212_Varianty_iz_2_j_i_3_j_redaktsii_Detstva">
-                    [Варианты из второй и третьей редакции «Детства»]. Tolstoy Digital
-                </title>
-                <title type="main">Детство.</title>
-                <title type="sub">Варианты из второй и третьей редакции</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="fafb877e-304c-476e-ac2a-5c3fea8dfedd">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты из второй и третьей редакции «Детства»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 1
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">1</biblScope>
-                        <biblScope unit="page">167-212</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1852"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v01_167_212_Varianty_iz_2_j_i_3_j_redaktsii_Detstva">
+     [Варианты из второй и третьей редакции «Детства»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Детство.
+    </title>
+    <title type="sub">
+     Варианты из второй и третьей редакции
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="fafb877e-304c-476e-ac2a-5c3fea8dfedd">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты из второй и третьей редакции «Детства»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 1
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       1
+      </biblScope>
+      <biblScope unit="page">
+       167-212
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <p id="6b88c606-fac8-484f-a73b-f372c44f631b">
@@ -7627,7 +7639,10 @@
         мнѣнiе
        </orig>
       </choice>
-      , что сонаты Бетховена
+      , что сонаты
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
       <choice>
        <reg>
         нагоняют
@@ -7690,7 +7705,10 @@
         пѣвала
        </orig>
       </choice>
-      Семенова, и «Не одна»,
+      <name placement="text" ref="12446" type="person">
+       Семенова
+      </name>
+      , и «Не одна»,
       <choice>
        <reg>
         как
@@ -10733,7 +10751,11 @@
       .
      </p>
      <p id="1cc28732-740f-478f-88d6-e0b4849c6502" rend="left">
-      &lt;Maman сдѣлала гамму и потомъ начала играть 2-й концерта Фильда. Мими играла хорошо, и еще я слыхалъ хорошихъ музыкантовъ, но ничья игра мнѣ такъ не нравилась, какъ матушкина. Впослѣдствіи, вспоминая и обсуживая этотъ предметъ, я нашелъ, что пріятность игры maman состояла въ простотѣ. Она играла такъ, какъ было написано, ничего не перемѣняя, не пропуская и не прибавляя, не употребляла никакихъ аффектацій (Я могъ бы выразиться по-Русски, но, говоря о maman, мнѣ непріятно употребить неблагозвучное слово «натяжка») — ни въ игрѣ, ни въ позѣ. У дѣтей всегда чувство прекраснаго очень вѣрно, поэтому я безсознательно любилъ ея игру и не могъ и не могу слушать безъ отвращенія музыкантовъ и музыкантшъ, которые, садясь за форте-піано, делаютъ прелюдіи, состоящія изъ 3 основныхъ аккордовъ. Когда барышня;
+      &lt;Maman сдѣлала гамму и потомъ начала играть 2-й концерта
+      <name placement="text" ref="14567" type="person">
+       Фильда
+      </name>
+      . Мими играла хорошо, и еще я слыхалъ хорошихъ музыкантовъ, но ничья игра мнѣ такъ не нравилась, какъ матушкина. Впослѣдствіи, вспоминая и обсуживая этотъ предметъ, я нашелъ, что пріятность игры maman состояла въ простотѣ. Она играла такъ, какъ было написано, ничего не перемѣняя, не пропуская и не прибавляя, не употребляла никакихъ аффектацій (Я могъ бы выразиться по-Русски, но, говоря о maman, мнѣ непріятно употребить неблагозвучное слово «натяжка») — ни въ игрѣ, ни въ позѣ. У дѣтей всегда чувство прекраснаго очень вѣрно, поэтому я безсознательно любилъ ея игру и не могъ и не могу слушать безъ отвращенія музыкантовъ и музыкантшъ, которые, садясь за форте-піано, делаютъ прелюдіи, состоящія изъ 3 основныхъ аккордовъ. Когда барышня;
       <pb n="176"/>
       садится за
       <choice>
@@ -10864,7 +10886,11 @@
       <hi rend="italic">
        серьезную музыку
       </hi>
-      , особенно Бетховена, &lt;которого они
+      , особенно
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
+      , &lt;которого они
       <choice>
        <reg>
         понимают
@@ -10948,7 +10974,10 @@
         говорятъ
        </orig>
       </choice>
-      это не потому, что музыка Бетховена
+      это не потому, что музыка
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
       <choice>
        <reg>
         им
@@ -11091,7 +11120,9 @@
       и
       <choice>
        <reg>
-        Бетховен
+        <name placement="text" ref="1377" type="person">
+         Бетховен
+        </name>
        </reg>
        <orig>
         Бетховенъ
@@ -11184,7 +11215,10 @@
         вмѣсто
        </orig>
       </choice>
-      Бетховена,
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
+      ,
       <choice>
        <reg>
         написал
@@ -11346,7 +11380,11 @@
         производитъ
        </orig>
       </choice>
-      на него одна соната Бетховена,
+      на него одна соната
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
+      ,
       <choice>
        <reg>
         говорит
@@ -12092,7 +12130,9 @@
       </choice>
       <choice>
        <reg>
-        Ламартин
+        <name placement="text" ref="7591" type="person">
+         Ламартин
+        </name>
        </reg>
        <orig>
         Ламартинъ
@@ -12235,7 +12275,9 @@
       </choice>
       <choice>
        <reg>
-        Ламартин
+        <name placement="text" ref="7591" type="person">
+         Ламартин
+        </name>
        </reg>
        <orig>
         Ламартинъ
@@ -13483,7 +13525,11 @@
         случаѣ
        </orig>
       </choice>
-      не должно, и что, исполняя Бетховена, нужно ни на
+      не должно, и что, исполняя
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
+      , нужно ни на
       <choice>
        <reg>
         волос
@@ -14167,7 +14213,11 @@
         форте-пiано
        </orig>
       </choice>
-      и начала играть другую пьесу, именно sonate pathétique Бетховена.
+      и начала играть другую пьесу, именно sonate pathétique
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
+      .
      </p>
      <p id="0670720d-a26d-4541-8dc6-03d6bd8973c9" rend="left">
       Читатель!
@@ -14212,7 +14262,10 @@
         сочиненiя
        </orig>
       </choice>
-      Бетховена,
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
+      ,
       <choice>
        <reg>
         как
@@ -14369,7 +14422,11 @@
         непремѣнно
        </orig>
       </choice>
-      сонату Бетховена, особенно
+      сонату
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
+      , особенно
       <choice>
        <reg>
         в
@@ -14416,7 +14473,10 @@
       <hi rend="italic">
        понимать
       </hi>
-      Бетховена, и что чудо, какая
+      <name placement="text" ref="1377" type="person">
+       Бетховена
+      </name>
+      , и что чудо, какая
       <hi rend="italic">
        миленькая штучка
       </hi>
@@ -35236,7 +35296,9 @@
         лексикономъ
        </orig>
       </choice>
-      Татищева
+      <name placement="text" ref="13564" type="person">
+       Татищева
+      </name>
       <choice>
        <reg>
         так
@@ -42381,7 +42443,26 @@
         сочиненiя
        </orig>
       </choice>
-      Дружинина, Григоровича, Тургенева, Гоголя, Гончарова,
+      <name placement="text" ref="4633" type="person">
+       Дружинина
+      </name>
+      ,
+      <name placement="text" ref="3855" type="person">
+       Григоровича
+      </name>
+      ,
+      <name placement="text" ref="14129" type="person">
+       Тургенева
+      </name>
+      ,
+      <name placement="text" ref="3444" type="person">
+       Гоголя
+      </name>
+      ,
+      <name placement="text" ref="3621" type="person">
+       Гончарова
+      </name>
+      ,
       <choice>
        <reg>
         советует

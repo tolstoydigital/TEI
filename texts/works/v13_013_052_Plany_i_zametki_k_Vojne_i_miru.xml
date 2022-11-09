@@ -1,106 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v13_013_052_Plany_i_zametki_k_Vojne_i_miru">
-                    Планы и заметки к «Войне и миру». Tolstoy Digital
-                </title>
-                <title type="main">Война и мир.</title>
-                <title type="sub">Планы и заметки</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d80dbac5-cc69-4988-8f37-a248b67009d1">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Планы и заметки к «Войне и миру»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 13
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1949"/>
-                        </imprint>
-                        <biblScope unit="volume">13</biblScope>
-                        <biblScope unit="page">13-52</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1869"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v13_013_052_Plany_i_zametki_k_Vojne_i_miru">
+     Планы и заметки к «Войне и миру». Tolstoy Digital
+    </title>
+    <title type="main">
+     Война и мир.
+    </title>
+    <title type="sub">
+     Планы и заметки
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d80dbac5-cc69-4988-8f37-a248b67009d1">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Планы и заметки к «Войне и миру»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 13
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1949"/>
+      </imprint>
+      <biblScope unit="volume">
+       13
+      </biblScope>
+      <biblScope unit="page">
+       13-52
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1869"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000008002">
     <p id="4d0cc281-8728-45a4-88ef-1007fb1f2eea">
@@ -1499,7 +1511,11 @@
     </p>
     <lb/>
     <p id="c70258be-b926-4bcb-8b11-9f61fa176756" rend="left">
-     Женится — уезжает — узнает о связи с братом. Как будто не знает этого — уважает Наполеона. В 12-м году ничего не видит, кроме спасения своего достояния и карьеры. Жена делается по нем.
+     Женится — уезжает — узнает о связи с братом. Как будто не знает этого — уважает
+     <name placement="text" ref="9541" type="person">
+      Наполеона
+     </name>
+     . В 12-м году ничего не видит, кроме спасения своего достояния и карьеры. Жена делается по нем.
     </p>
     <p id="bed21680-ed2d-4f00-b18a-b6f35a467a9d" rend="left">
      <pb n="20"/>
@@ -1989,7 +2005,15 @@
     </p>
     <p id="4beca240-b075-4834-ae8b-8e22cc9f27e2" rend="left">
      <pb n="22"/>
-     3) Засоренная глубина совести у старика — Воейков, Исленьев никогда не смотрят вглубь.
+     3) Засоренная глубина совести у старика —
+     <name placement="text" ref="2699" type="person">
+      Воейков
+     </name>
+     ,
+     <name placement="text" ref="5849" type="person">
+      Исленьев
+     </name>
+     никогда не смотрят вглубь.
     </p>
     <p id="a9b7dbdb-8be6-4810-9ff2-23cf049f3b76" rend="left">
      4) Rattraper le temps perdu
@@ -2178,7 +2202,9 @@
      </choice>
      заняты своими исключительными интересами, не признают людьми не
      <hi rend="italic">
-      Апраксин
+      <name placement="text" ref="591" type="person">
+       Апраксин
+      </name>
      </hi>
      [
      <hi rend="italic">
@@ -2196,7 +2222,10 @@
     </p>
     <p id="04bcc727-cd06-47d8-8b2e-92fab46012ab" rend="left">
      <pb n="23"/>
-     Разумовской весел и любезен, потеряв два миллиона.
+     <name placement="text" ref="11498" type="person">
+      Разумовской
+     </name>
+     весел и любезен, потеряв два миллиона.
     </p>
     <p id="9be6b386-74d1-46dc-a5c4-5fc7b3c8e77c" rend="left">
      Слипух [?] хлеба
@@ -2209,7 +2238,11 @@
      тоже.
     </p>
     <p id="dea166bb-39c3-47e7-8075-f5b8743a6287" rend="left">
-     Является к Сперанскому и думает, что в нем всё премудрость.
+     Является к
+     <name placement="text" ref="13073" type="person">
+      Сперанскому
+     </name>
+     и думает, что в нем всё премудрость.
     </p>
     <p id="49f68bf7-0794-4d14-b322-ecad1201590e" rend="left">
      Тетинька, как ваше здоровье? Нарочно спокойно.
@@ -2230,7 +2263,9 @@
        Нап
       </sic>
       <corr>
-       Наполеону
+       <name placement="text" ref="9541" type="person">
+        Наполеону
+       </name>
       </corr>
      </choice>
      , Борису 19, Федору 16,
@@ -2344,7 +2379,11 @@
        </choice>
       </corr>
      </choice>
-     о Карамзине. Презрение к русским писателям.
+     о
+     <name placement="text" ref="6127" type="person">
+      Карамзине
+     </name>
+     . Презрение к русским писателям.
     </p>
     <p id="54b01c57-a95f-49ee-b2ca-fa8e6ab44c6e" rend="left">
      <choice original_editorial_correction="К[нязь]">
@@ -2377,7 +2416,9 @@
      зарыдал после Фридланда.
     </p>
     <p id="ccb00514-5447-4804-8f6f-e06f3bb5d4ef" rend="left">
-     Сперанский
+     <name placement="text" ref="13073" type="person">
+      Сперанский
+     </name>
      <note n="n61">
       <div type="section" xml:id="n61">
        <p id="152f817a-cae5-4261-9ad6-88530d8599b3" rend="left">
@@ -2694,7 +2735,11 @@
        Павловна
       </corr>
      </choice>
-     любит Наполеона.
+     любит
+     <name placement="text" ref="9541" type="person">
+      Наполеона
+     </name>
+     .
      <choice original_editorial_correction="К[нязь]">
       <sic>
        К
@@ -3212,7 +3257,11 @@
      Во время истории с Анатолем она скорее, скорей губит себя, именно затем, что чувствует, как это дурно.
     </p>
     <p id="b0c3bb15-756e-4e5a-836c-a2ba81e9d222" rend="left">
-     Старик Ростов говорит с Pierr'OM о делах, о Сперанском, о иллюминатах, а
+     Старик Ростов говорит с Pierr'OM о делах, о
+     <name placement="text" ref="13073" type="person">
+      Сперанском
+     </name>
+     , о иллюминатах, а
      <choice original_editorial_correction="А[натоль]">
       <sic>
        А
@@ -3244,7 +3293,15 @@
        Андрей
       </corr>
      </choice>
-     раненный, злится, стыдится, не хочет перевязок, везется, слышит разговор Репнина с Бонапартом.
+     раненный, злится, стыдится, не хочет перевязок, везется, слышит разговор
+     <name placement="text" ref="11652" type="person">
+      Репнина
+     </name>
+     с
+     <name placement="text" ref="9541" type="person">
+      Бонапартом
+     </name>
+     .
     </p>
     <p id="d6be2550-190f-419d-9f77-4e6f6d6349e9" rend="left">
      Через четыре недели он был здоров и с одной мыслью не служить, жить с отцом, женой и ребенком, зарыться, ехал в деревню. Как всегда после раны, ждал новой жизни.
@@ -3474,7 +3531,9 @@
        Пржиб
       </sic>
       <corr>
-       Пржибышевским
+       <name placement="text" ref="11252" type="person">
+        Пржибышевским
+       </name>
       </corr>
      </choice>
      (
@@ -3818,7 +3877,11 @@
        Болконский
       </corr>
      </choice>
-     пишет письмо. Мак.
+     пишет письмо.
+     <name placement="text" ref="8354" type="person">
+      Мак
+     </name>
+     .
     </p>
     <p id="526bc1cf-0712-4c17-97cf-4ed72535d4f3" rend="left">
      3)
@@ -3866,7 +3929,9 @@
        Кут
       </sic>
       <corr>
-       Кутузов
+       <name placement="text" ref="7484" type="person">
+        Кутузов
+       </name>
       </corr>
      </choice>
      прощается с
@@ -4031,7 +4096,11 @@
        Багратиона
       </corr>
      </choice>
-     . Всё стратегическое дело письмо Мюрата. &lt;
+     . Всё стратегическое дело письмо
+     <name placement="text" ref="9459" type="person">
+      Мюрата
+     </name>
+     . &lt;
      <choice original_editorial_correction="Т[ушин]">
       <sic>
        Т
@@ -4159,7 +4228,9 @@
        К
       </sic>
       <corr>
-       Кутузов
+       <name placement="text" ref="7484" type="person">
+        Кутузов
+       </name>
       </corr>
      </choice>
      с
@@ -4482,7 +4553,9 @@
        Н
       </sic>
       <corr>
-       Наполеон
+       <name placement="text" ref="9541" type="person">
+        Наполеон
+       </name>
       </corr>
      </choice>
      на аванпостах.
@@ -4491,7 +4564,15 @@
      ————
     </p>
     <p id="eab19d2d-1b6d-48f1-95bd-5512388e62c2" rend="left">
-     28) Утро, выезд Наполеона. Скучно и вяло бьются у Ланжерона. Ошибки. Судят.
+     28) Утро, выезд
+     <name placement="text" ref="9541" type="person">
+      Наполеона
+     </name>
+     . Скучно и вяло бьются у
+     <name placement="text" ref="7612" type="person">
+      Ланжерона
+     </name>
+     . Ошибки. Судят.
     </p>
     <p id="585a894b-bf06-4f8c-98e9-4bd445e2361c" rend="left">
      29) На Працене. Несвицкой бежит, злобно трусит.
@@ -4704,16 +4785,30 @@
        Нап
       </sic>
       <corr>
-       Наполеон
+       <name placement="text" ref="9541" type="person">
+        Наполеон
+       </name>
       </corr>
      </choice>
      на аванпостах. Огни.
     </p>
     <p id="aa9c77df-42f7-4593-b7f0-bedce8be73b6" rend="left">
-     Утро. Наполеон выезжает.
+     Утро.
+     <name placement="text" ref="9541" type="person">
+      Наполеон
+     </name>
+     выезжает.
     </p>
     <p id="f456f4f3-d444-4007-bffd-c916777cdf8e" rend="left">
-     8) &lt;Борис адъютантом у Дохтурова.&gt; Скучно и вяло бьются внизу у Ланжерона и видят, что ошибки везде. Ахрасимов.
+     8) &lt;Борис адъютантом у
+     <name placement="text" ref="4602" type="person">
+      Дохтурова
+     </name>
+     .&gt; Скучно и вяло бьются внизу у
+     <name placement="text" ref="7612" type="person">
+      Ланжерона
+     </name>
+     и видят, что ошибки везде. Ахрасимов.
     </p>
     <p id="587b9de5-561d-4951-8d4c-909a0475b4cb" rend="left">
      9) Общий вид с
@@ -5306,7 +5401,11 @@
        Князь
       </corr>
      </choice>
-     Багратион в картузе с смушками, суворовская шпага, — поминают о Суворове. Крепкое, карее лицо с мутными, мертвыми глазами.
+     Багратион в картузе с смушками, суворовская шпага, — поминают о
+     <name placement="text" ref="13320" type="person">
+      Суворове
+     </name>
+     . Крепкое, карее лицо с мутными, мертвыми глазами.
      <choice original_editorial_correction="К[нязь]">
       <sic>
        К
@@ -5953,18 +6052,28 @@
        К
       </sic>
       <corr>
-       Константин
+       <name placement="text" ref="6831" type="person">
+        Константин
+       </name>
       </corr>
      </choice>
      <choice original_editorial_correction="П[авлович]">
       <sic>
-       П
+       <name placement="text" ref="6831" type="person">
+        П
+       </name>
       </sic>
       <corr>
-       Павлович
+       <name placement="text" ref="6831" type="person">
+        Павлович
+       </name>
       </corr>
      </choice>
-     теперь за атаку и ненавидит Барклая.
+     теперь за атаку и ненавидит
+     <name placement="text" ref="979" type="person">
+      Барклая
+     </name>
+     .
     </p>
     <p id="bc86f08a-d981-4527-814b-9d5a3ae3588e" rend="left">
      1) Положение армии; русские вдвое слабее — и раскинуты.
@@ -5973,7 +6082,9 @@
        Барк
       </sic>
       <corr>
-       Барклай
+       <name placement="text" ref="979" type="person">
+        Барклай
+       </name>
       </corr>
      </choice>
      может и не
@@ -5999,10 +6110,18 @@
      1) Соединение армий нечаянно произвело отступление.
     </p>
     <p id="10584495-8e26-4a12-b2c9-01132e5824b4" rend="left">
-     2) Багратион, чтоб не соединиться, придумывал планы, чтоб итти в Украину. И казалось, что нельзя.
+     2)
+     <name placement="text" ref="842" type="person">
+      Багратион
+     </name>
+     , чтоб не соединиться, придумывал планы, чтоб итти в Украину. И казалось, что нельзя.
     </p>
     <p id="b8f34da0-2d50-4d75-83eb-bd6943768f1c" rend="left">
-     3) Барклай в шарфе.
+     3)
+     <name placement="text" ref="979" type="person">
+      Барклай
+     </name>
+     в шарфе.
      <choice original_editorial_correction="Баграт[ион]">
       <sic>
        Баграт
@@ -6014,13 +6133,19 @@
      старше чином.
     </p>
     <p id="17b05fdc-7a74-4dfd-82de-2eb87695f622" rend="left">
-     Графы Браницкий, Любомирский,
+     Графы Браницкий,
+     <name placement="text" ref="8178" type="person">
+      Любомирский
+     </name>
+     ,
      <choice original_editorial_correction="Влодск[ий]">
       <sic>
        Влодск
       </sic>
       <corr>
-       Влодский
+       <name placement="text" ref="2686" type="person">
+        Влодский
+       </name>
       </corr>
      </choice>
      — отосланы с бумагами к государю.
@@ -6064,7 +6189,9 @@
        Б
       </sic>
       <corr>
-       Бонапарт
+       <name placement="text" ref="9541" type="person">
+        Бонапарт
+       </name>
       </corr>
      </choice>
      с своим подбородком не человек, нет жизни, а машина с своим подбородком. Привычка — левую ладонь к левому глазу. Не думает никогда о других, о том, что
@@ -6112,7 +6239,9 @@
        А
       </sic>
       <corr>
-       Александр
+       <name placement="text" ref="202" type="person">
+        Александр
+       </name>
       </corr>
      </choice>
      лицо — человек.
@@ -6121,7 +6250,9 @@
        Н
       </sic>
       <corr>
-       Наполеон
+       <name placement="text" ref="9541" type="person">
+        Наполеон
+       </name>
       </corr>
      </choice>
      — холодность итальянца-певца.
@@ -6156,7 +6287,10 @@
      , даже царем — надо быть орудием, а это не может самобытный человек.
     </p>
     <p id="cc0c9e30-4fc7-49c5-937d-e214e8243b6a" rend="left">
-     Кутузов принимает армию. Восторг к нему, потому что так нужен восторг к кому-нибудь.
+     <name placement="text" ref="7484" type="person">
+      Кутузов
+     </name>
+     принимает армию. Восторг к нему, потому что так нужен восторг к кому-нибудь.
     </p>
     <p id="b23e133e-0548-451c-8ad8-fdee5d6b7e9e" rend="left">
      Дневник
@@ -6191,7 +6325,9 @@
        Бонап
       </sic>
       <corr>
-       Бонапарта
+       <name placement="text" ref="9541" type="person">
+        Бонапарта
+       </name>
       </corr>
      </choice>
      , то бить
@@ -6236,7 +6372,9 @@
        Бон
       </sic>
       <corr>
-       Бонапарт
+       <name placement="text" ref="9541" type="person">
+        Бонапарт
+       </name>
       </corr>
      </choice>
      свое дело знает, а я свое.
@@ -6301,7 +6439,9 @@
        Напол
       </sic>
       <corr>
-       Наполеона
+       <name placement="text" ref="9541" type="person">
+        Наполеона
+       </name>
       </corr>
      </choice>
      , удерживает боль, чтоб презирать.
@@ -6310,7 +6450,14 @@
      Кутузов в Филях на совете — велик, но он только полководец, а не русский.
     </p>
     <p id="44927e45-3e81-4a11-98fc-32ab55fc8b92" rend="left">
-     Кутузов и Растопчин вместе.
+     <name placement="text" ref="7484" type="person">
+      Кутузов
+     </name>
+     и
+     <name placement="text" ref="11541" type="person">
+      Растопчин
+     </name>
+     вместе.
     </p>
     <p id="671ece96-f74d-46f5-a599-9331f641ee55" rend="left">
      Наслаждение разрушения. Солдаты жгут Смоленск.
@@ -6319,15 +6466,21 @@
        М
       </sic>
       <corr>
-       Мария
+       <name placement="text" ref="8538" type="person">
+        Мария
+       </name>
       </corr>
      </choice>
      <choice original_editorial_correction="Ф[едоровна]">
       <sic>
-       Ф
+       <name placement="text" ref="8538" type="person">
+        Ф
+       </name>
       </sic>
       <corr>
-       Федоровна
+       <name placement="text" ref="8538" type="person">
+        Федоровна
+       </name>
       </corr>
      </choice>
      согласна на мир перед
@@ -6350,15 +6503,21 @@
        К
       </sic>
       <corr>
-       Константин
+       <name placement="text" ref="6831" type="person">
+        Константин
+       </name>
       </corr>
      </choice>
      <choice original_editorial_correction="П[авлович]">
       <sic>
-       П
+       <name placement="text" ref="6831" type="person">
+        П
+       </name>
       </sic>
       <corr>
-       Павлович
+       <name placement="text" ref="6831" type="person">
+        Павлович
+       </name>
       </corr>
      </choice>
      за мир. Charmant!
@@ -6564,7 +6723,15 @@
      <hi rend="italic">
       война. Конституционализм
      </hi>
-     , всё прекрасно в руках людей: Петра, Потемкиных. Мнение Местра, что
+     , всё прекрасно в руках людей:
+     <name placement="text" ref="10196" type="person">
+      Петра
+     </name>
+     ,
+     <name placement="text" ref="11184" type="person">
+      Потемкиных
+     </name>
+     . Мнение Местра, что
      <choice original_editorial_correction="католич[еские]">
       <sic>
        католич
@@ -6655,7 +6822,11 @@
      лет идет на войну.
     </p>
     <p id="34cb5cbf-aabc-4ad5-87e4-4491b7571d78" rend="left">
-     Слово X ложи Седекия. Новое слово есть Мак — бенок пополам в каждое ухо, но мы... сказываем его в левое ухо сразу адонаи, ударяя друг друга средним пальцем по локтю, а в левое адонаи в правое.
+     Слово X ложи Седекия. Новое слово есть
+     <name placement="text" ref="8354" type="person">
+      Мак
+     </name>
+     — бенок пополам в каждое ухо, но мы... сказываем его в левое ухо сразу адонаи, ударяя друг друга средним пальцем по локтю, а в левое адонаи в правое.
     </p>
     <p id="cb5a556e-9ddf-4800-b641-a5f279552a58" rend="left">
      163. Капитул рыцарей Востока и Иерусалима. Храм Соломонов разрушен, но бог в милости своей восстановил его и строителями храма повелел быть всем. 1-м был Иоанн Креститель, потом Андрей, потом Христос.
@@ -7311,7 +7482,9 @@
        Кут
       </sic>
       <corr>
-       Кутузова
+       <name placement="text" ref="7484" type="person">
+        Кутузова
+       </name>
       </corr>
      </choice>
      , завязывающего башмачок молдаванке. Холодно распростился и поехал — в отпуск, в отставку не выпускали.
@@ -7629,7 +7802,11 @@
      ————
     </p>
     <p id="9b94398a-a941-4dce-9635-0f0cb2f580b9" rend="left">
-     Шерер. Румянцев.
+     Шерер.
+     <name placement="text" ref="11954" type="person">
+      Румянцев
+     </name>
+     .
      <choice original_editorial_correction="К[нязь]">
       <sic>
        К
@@ -7644,7 +7821,9 @@
        Кут
       </sic>
       <corr>
-       Кутузову
+       <name placement="text" ref="7484" type="person">
+        Кутузову
+       </name>
       </corr>
      </choice>
      . Il y voit assez
@@ -7873,7 +8052,11 @@
        Бородиным
       </corr>
      </choice>
-     . Берг сходится и держит в рабстве жену. Государь завидует Кутузову. Сам не верит себе, и смеются над москвичами.
+     . Берг сходится и держит в рабстве жену. Государь завидует
+     <name placement="text" ref="7484" type="person">
+      Кутузову
+     </name>
+     . Сам не верит себе, и смеются над москвичами.
     </p>
     <lb/>
     <p id="949a91a0-5973-465f-be74-ef3186e7d9b4" rend="left">
@@ -7963,7 +8146,9 @@
        Б
       </sic>
       <corr>
-       Барклая
+       <name placement="text" ref="979" type="person">
+        Барклая
+       </name>
       </corr>
      </choice>
      и умирающего
@@ -7972,7 +8157,9 @@
        Кут
       </sic>
       <corr>
-       Кутузова
+       <name placement="text" ref="7484" type="person">
+        Кутузова
+       </name>
       </corr>
      </choice>
      . Я вспомнил о Долохове. Его успех есть успех
@@ -8425,7 +8612,19 @@
      Письма двух государей.
     </p>
     <p id="a52572dd-b974-48ee-aaff-36552711e2bc" rend="left">
-     Бал у Бенигсена. Балашов у Мюрата, у Даву и Бонапарта. Речь Бонапарта. Бонапарт после Дрездена, где он подарками всё-таки усмирил
+     Бал у Бенигсена.
+     <name placement="text" ref="915" type="person">
+      Балашов
+     </name>
+     у
+     <name placement="text" ref="9459" type="person">
+      Мюрата
+     </name>
+     , у
+     <name placement="text" ref="4097" type="person">
+      Даву
+     </name>
+     и Бонапарта. Речь Бонапарта. Бонапарт после Дрездена, где он подарками всё-таки усмирил
      <choice original_editorial_correction="имп[ератора]">
       <sic>
        имп
@@ -8694,7 +8893,11 @@
        Павловны
       </corr>
      </choice>
-     читают. Сухотин читает: С'est beau,
+     читают.
+     <name placement="text" ref="13406" type="person">
+      Сухотин
+     </name>
+     читает: С'est beau,
      <note n="n123">
       <div type="section" xml:id="n123">
        <head>
@@ -8707,13 +8910,19 @@
        </p>
       </div>
      </note>
-     речь Платона.
+     речь
+     <name placement="text" ref="10851" type="person">
+      Платона
+     </name>
+     .
      <choice original_editorial_correction="Богд[анович]">
       <sic>
        Богд
       </sic>
       <corr>
-       Богданович
+       <name placement="text" ref="1574" type="person">
+        Богданович
+       </name>
       </corr>
      </choice>
      260 стр., II
@@ -8728,7 +8937,10 @@
      .
     </p>
     <p id="95f283ef-708a-4997-a7f5-12d696164980" rend="left">
-     Мюрат фамильярен и добрейший малый — руку на шею лошади.
+     <name placement="text" ref="9459" type="person">
+      Мюрат
+     </name>
+     фамильярен и добрейший малый — руку на шею лошади.
     </p>
     <p id="6c49c1d7-98f6-4b9b-9f9b-5cc85836770f" rend="left">
      <pb n="39"/>
@@ -8787,13 +8999,19 @@
        Богд
       </sic>
       <corr>
-       Богданович
+       <name placement="text" ref="1574" type="person">
+        Богданович
+       </name>
       </corr>
      </choice>
      .
     </p>
     <p id="a8742df5-9981-4637-8b0d-c1a8456e68a7" rend="left">
-     За мир и Аракчеева. Конец.
+     За мир и
+     <name placement="text" ref="599" type="person">
+      Аракчеева
+     </name>
+     . Конец.
     </p>
     <p id="b0a493b9-985e-441f-a18c-d5424a4a0b51" rend="left">
      <choice original_editorial_correction="Р[иеrrе]">
@@ -8822,7 +9040,9 @@
        А
       </sic>
       <corr>
-       Александр
+       <name placement="text" ref="202" type="person">
+        Александр
+       </name>
       </corr>
      </choice>
      дитя — разговор Мишо, письмо
@@ -8831,7 +9051,9 @@
        Р
       </sic>
       <corr>
-       Растопчину
+       <name placement="text" ref="11541" type="person">
+        Растопчину
+       </name>
       </corr>
      </choice>
      о шаре.
@@ -9038,7 +9260,11 @@
         </hi>
         1) С приездом Кутузова
         <hi rend="italic">
-         написано рукою Степана Андреевича Берса.
+         написано рукою
+         <name placement="note" ref="1336" type="person">
+          Степана Андреевича Берса
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -9055,7 +9281,11 @@
      Подбородок Кутузова.
     </p>
     <p id="942b6c62-4ac4-4e0a-a5ff-cc3e2e3cff84" rend="left">
-     В деревне Романцове Степан Васильев.
+     В деревне Романцове
+     <name placement="text" ref="2310" type="person">
+      Степан Васильев
+     </name>
+     .
      <note n="n127">
       <div type="section" xml:id="n127">
        <head>
@@ -9065,7 +9295,11 @@
        </head>
        <p id="7d724c0e-7df3-4b6e-9216-e1478b01e787" rend="left">
         <hi rend="italic">
-         Эта фраза написана рукою С. А. Берса.
+         Эта фраза написана рукою
+         <name placement="note" ref="1336" type="person">
+          С. А. Берса
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -9148,7 +9382,11 @@
      . Андриян Филипов.
     </p>
     <p id="e6bb6b0e-343e-45d8-b7c3-b1e9355d68e2" rend="left">
-     У Хлебникова.
+     У
+     <name placement="text" ref="14919" type="person">
+      Хлебникова
+     </name>
+     .
     </p>
     <p id="2a43a15e-b717-48e2-96ad-9cfa432ee894" rend="left">
      Петр
@@ -9359,7 +9597,10 @@
      Семеновское срыто.
     </p>
     <p id="85a41699-2bde-4dfe-8445-5faa6c7d5c0f" rend="left">
-     Мюрат пешком ушел в левую
+     <name placement="text" ref="9459" type="person">
+      Мюрат
+     </name>
+     пешком ушел в левую
      <ref id="flesh'" target="slovar">
       флешь
      </ref>
@@ -9392,7 +9633,9 @@
        Нап
       </sic>
       <corr>
-       Наполеон
+       <name placement="text" ref="9541" type="person">
+        Наполеон
+       </name>
       </corr>
      </choice>
      только путает, послав Жюно между
@@ -9417,7 +9660,9 @@
        Понят
       </sic>
       <corr>
-       Понятовским
+       <name placement="text" ref="11058" type="person">
+        Понятовским
+       </name>
       </corr>
      </choice>
      , а флеши опять взяты.
@@ -9425,7 +9670,8 @@
     <p id="39007217-32f8-41fd-8a4a-5bca556660d5" rend="left">
      <pb n="41"/>
     </p>
-    <p id="93cedba2-626c-4609-8921-5136a2e10321" rend="left" xml:id="i1"/>
+    <p id="93cedba2-626c-4609-8921-5136a2e10321" rend="left" xml:id="i1">
+    </p>
     <div rend="image">
      <figure>
       <graphic rend="alt:" url="./img/b00000708.png"/>
@@ -9439,7 +9685,9 @@
        Кут
       </sic>
       <corr>
-       Кутузов
+       <name placement="text" ref="7484" type="person">
+        Кутузов
+       </name>
       </corr>
      </choice>
      то посылал
@@ -9465,10 +9713,16 @@
        Дохтур
       </sic>
       <corr>
-       Дохтурова
+       <name placement="text" ref="4602" type="person">
+        Дохтурова
+       </name>
       </corr>
      </choice>
-     , то Толя.
+     , то
+     <name placement="text" ref="13920" type="person">
+      Толя
+     </name>
+     .
     </p>
     <p id="3ac5001a-84d9-4c80-8945-777fb87e1eb1" rend="left">
      Ратники, вооруженные пиками, на левом фланге.
@@ -9669,7 +9923,9 @@
        Ключ
       </sic>
       <corr>
-       Ключарев
+       <name placement="text" ref="6536" type="person">
+        Ключарев
+       </name>
       </corr>
      </choice>
     </p>
@@ -9679,7 +9935,9 @@
        Расто
       </sic>
       <corr>
-       Растопчин
+       <name placement="text" ref="11541" type="person">
+        Растопчин
+       </name>
       </corr>
      </choice>
     </p>
@@ -9771,7 +10029,11 @@
      , спаси его бог; свечку, как звать.
     </p>
     <p id="359bd077-4538-4e76-bd57-80da30fd80d6" rend="left">
-     Граф Растопчин, Верещагин. Поезды за заставой. Ростовы впереди, за заставой понимают значение и ужас, крестятся.
+     Граф Растопчин,
+     <name placement="text" ref="2451" type="person">
+      Верещагин
+     </name>
+     . Поезды за заставой. Ростовы впереди, за заставой понимают значение и ужас, крестятся.
     </p>
     <p id="158163ec-f6ac-43c6-ae12-1a4f70322df8" rend="left">
      Наполеон вступает.
@@ -9977,7 +10239,11 @@
      5) Его приезд в Ярославль.
     </p>
     <p id="c724c020-aed6-45e8-804a-936a2112094e" rend="left">
-     6) Кутузов в Вильно. Смотр.
+     6)
+     <name placement="text" ref="7484" type="person">
+      Кутузов
+     </name>
+     в Вильно. Смотр.
     </p>
     <p id="b135ec90-a657-4860-a7cb-71dbbea0d596" rend="center">
      ————
@@ -10054,7 +10320,9 @@
        Арак
       </sic>
       <corr>
-       Аракчеева
+       <name placement="text" ref="599" type="person">
+        Аракчеева
+       </name>
       </corr>
      </choice>
      . У
@@ -10169,7 +10437,9 @@
        Нап
       </sic>
       <corr>
-       Наполеона
+       <name placement="text" ref="9541" type="person">
+        Наполеона
+       </name>
       </corr>
      </choice>
      .
@@ -10181,7 +10451,9 @@
        Кут
       </sic>
       <corr>
-       Кутузовым
+       <name placement="text" ref="7484" type="person">
+        Кутузовым
+       </name>
       </corr>
      </choice>
      .
@@ -10616,7 +10888,9 @@
        Перф
       </sic>
       <corr>
-       Перфильева
+       <name placement="text" ref="10663" type="person">
+        Перфильева
+       </name>
       </corr>
      </choice>
      отступление,
@@ -10665,7 +10939,9 @@
        Кут
       </sic>
       <corr>
-       Кутузов
+       <name placement="text" ref="7484" type="person">
+        Кутузов
+       </name>
       </corr>
      </choice>
      ждет, и он сказал это прежде.
@@ -10677,7 +10953,9 @@
        Барт
       </sic>
       <corr>
-       Бартенева
+       <name placement="text" ref="999" type="person">
+        Бартенева
+       </name>
       </corr>
      </choice>
      :
@@ -11206,7 +11484,9 @@
        Ч
       </sic>
       <corr>
-       Чарторижский
+       <name placement="text" ref="15159" type="person">
+        Чарторижский
+       </name>
       </corr>
      </choice>
      ,
@@ -11215,7 +11495,9 @@
        А
       </sic>
       <corr>
-       Аракчеев
+       <name placement="text" ref="599" type="person">
+        Аракчеев
+       </name>
       </corr>
      </choice>
      ,
@@ -11224,7 +11506,9 @@
        Т
       </sic>
       <corr>
-       Толстой
+       <name placement="text" ref="13888" type="person">
+        Толстой
+       </name>
       </corr>
      </choice>
      ,
@@ -11233,7 +11517,9 @@
        В
       </sic>
       <corr>
-       Волконский
+       <name placement="text" ref="2786" type="person">
+        Волконский
+       </name>
       </corr>
      </choice>
      ,
@@ -11285,7 +11571,9 @@
        Кут
       </sic>
       <corr>
-       Кутузова
+       <name placement="text" ref="7484" type="person">
+        Кутузова
+       </name>
       </corr>
      </choice>
      .
@@ -11340,7 +11628,9 @@
        Б
       </sic>
       <corr>
-       Богданович
+       <name placement="text" ref="1574" type="person">
+        Богданович
+       </name>
       </corr>
      </choice>
      323
@@ -11412,7 +11702,11 @@
      Военное до Вязьмы &lt;Корт. Н. ве&gt;
     </p>
     <p id="5bcbb2a7-7fec-4b36-8ebf-2367dbb7fe15" rend="left">
-     Партизаны (разные сорта их: Фигнер, Долохов.
+     Партизаны (разные сорта их:
+     <name placement="text" ref="14507" type="person">
+      Фигнер
+     </name>
+     , Долохов.
      <choice original_editorial_correction="чувств[ительный]">
       <sic>
        чувств
@@ -11767,7 +12061,15 @@
      * № 36 (рук. № 32).
     </head>
     <p id="731a1858-4935-413d-8536-83ab39d63e13" rend="left">
-     &lt;Александр и Наполеон. Осуждение истории.
+     &lt;
+     <name placement="text" ref="202" type="person">
+      Александр
+     </name>
+     и
+     <name placement="text" ref="9541" type="person">
+      Наполеон
+     </name>
+     . Осуждение истории.
     </p>
     <p id="1aaa9479-0ed5-4671-abc2-fa972cbaaa0e" rend="left">
      1) Обзор деятельности
@@ -11776,7 +12078,9 @@
        Н
       </sic>
       <corr>
-       Наполеона
+       <name placement="text" ref="9541" type="person">
+        Наполеона
+       </name>
       </corr>
      </choice>
      и
@@ -11785,7 +12089,9 @@
        А
       </sic>
       <corr>
-       Александра
+       <name placement="text" ref="202" type="person">
+        Александра
+       </name>
       </corr>
      </choice>
      и результат, что не в них власть. 2) Результат этот дала история. Но что она говорит? Она говорит от Тьера,
@@ -11806,13 +12112,19 @@
        Гервинуса
       </corr>
      </choice>
-     , Шлоссера обратное, она говорит, что сделали это
+     ,
+     <name placement="text" ref="15694" type="person">
+      Шлоссера
+     </name>
+     обратное, она говорит, что сделали это
      <choice original_editorial_correction="А[лександр]">
       <sic>
        А
       </sic>
       <corr>
-       Александр
+       <name placement="text" ref="202" type="person">
+        Александр
+       </name>
       </corr>
      </choice>
      ,
@@ -12151,7 +12463,11 @@
      * № 37 (рук. № 33).
     </head>
     <p id="391a9605-1a8e-4109-8393-97cd85a525dd" rend="left">
-     Сердце царево в руце божьей. Вольтер говорит, что не было бы
+     Сердце царево в руце божьей.
+     <name placement="text" ref="2816" type="person">
+      Вольтер
+     </name>
+     говорит, что не было бы
      <choice original_editorial_correction="Варф[оломеевской]">
       <sic>
        Варф
@@ -12196,7 +12512,9 @@
        Нап
       </sic>
       <corr>
-       Наполеона
+       <name placement="text" ref="9541" type="person">
+        Наполеона
+       </name>
       </corr>
      </choice>
      .
@@ -12688,13 +13006,21 @@
      Николай просил через Наташу, что когда она хочет.
     </p>
     <p id="3a92727f-a693-4919-a858-ab512873cdcf" rend="left">
-     Николай в Вильне просится у Кутузова жениться.
+     Николай в Вильне просится у
+     <name placement="text" ref="7484" type="person">
+      Кутузова
+     </name>
+     жениться.
     </p>
     <p id="db44c257-1551-4164-affc-c062293880a9" rend="left">
      (Сцена у костра: «тоже — люди», ну-ка еще...)
     </p>
     <p id="a7935190-07f9-4461-81ca-b57389d01b07" rend="left">
-     К эпилогу: Франция еще раз, старая, должна была содрогнуться, и явился Наполеон самым необычайным образом.
+     К эпилогу: Франция еще раз, старая, должна была содрогнуться, и явился
+     <name placement="text" ref="9541" type="person">
+      Наполеон
+     </name>
+     самым необычайным образом.
     </p>
     <p id="aa35ab62-bb0e-40c7-8fdf-a03f7419dc72" rend="left">
      К эпилогу рассказывают и поминают о том, как Пьер женился.
@@ -12759,7 +13085,10 @@
      Фланговая защита при Малом Ярославце.
     </p>
     <p id="eb084ac3-9d23-4093-86ea-1f357a08624c" rend="left">
-     Кутузов не
+     <name placement="text" ref="7484" type="person">
+      Кутузов
+     </name>
+     не
      <unclear>
       спешит
      </unclear>
@@ -12813,7 +13142,9 @@
        К
       </sic>
       <corr>
-       Кутузов
+       <name placement="text" ref="7484" type="person">
+        Кутузов
+       </name>
       </corr>
      </choice>
      говорит — золотой мост под Вязьмой. Смоленск — цель. Цель нужна, все так думают и
@@ -12822,7 +13153,9 @@
        Н
       </sic>
       <corr>
-       Наполеон
+       <name placement="text" ref="9541" type="person">
+        Наполеон
+       </name>
       </corr>
      </choice>
      с ними.&gt;
@@ -12884,7 +13217,9 @@
        К
       </sic>
       <corr>
-       Кутузова
+       <name placement="text" ref="7484" type="person">
+        Кутузова
+       </name>
       </corr>
      </choice>
      , врозь идут, и
@@ -12901,7 +13236,9 @@
        К
       </sic>
       <corr>
-       Кутузова
+       <name placement="text" ref="7484" type="person">
+        Кутузова
+       </name>
       </corr>
      </choice>
      в Витебске.&gt;

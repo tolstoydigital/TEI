@@ -1,106 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v08_455_486_Dnevnik_Jasno_poljanskoj_shkoly">
-                    [Дневник Ясно-полянской школы]. Tolstoy Digital
-                </title>
-                <title type="main">Дневник Ясно-полянской школы</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="21301744-1994-4b0c-ba6a-312eb99cfdfd">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Дневник Ясно-полянской школы]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 8
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">8</biblScope>
-                        <biblScope unit="page">455-486</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#pedagogika" target="topic"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v08_455_486_Dnevnik_Jasno_poljanskoj_shkoly">
+     [Дневник Ясно-полянской школы]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник Ясно-полянской школы
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="21301744-1994-4b0c-ba6a-312eb99cfdfd">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник Ясно-полянской школы]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 8
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       8
+      </biblScope>
+      <biblScope unit="page">
+       455-486
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#pedagogika" target="topic"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="5af0cf33-8352-41cb-8de4-edb5197d276b">
@@ -160,7 +170,11 @@
       </p>
       <div type="section" xml:id="n209">
        <p id="7906a8a4-b5a7-4df1-9ef0-8c6ead5669d2" rend="left">
-        Общее заглавие «Дневника» и заголовок первой записи от 26 февраля писаны рукою учителя П. В. Морозова; текст записи о математике — автограф Толстого; две следующие записи (о Писании и чтении) сделаныМорозовым.
+        Общее заглавие «Дневника» и заголовок первой записи от 26 февраля писаны рукою учителя
+        <name placement="note" ref="9277" type="person">
+         П. В. Морозова
+        </name>
+        ; текст записи о математике — автограф Толстого; две следующие записи (о Писании и чтении) сделаныМорозовым.
        </p>
       </div>
      </note>
@@ -218,7 +232,9 @@
     <p id="fa565592-35ee-4c3a-8fa2-ee207c3ad1a2" rend="normal left">
      <choice>
       <reg>
-       Морозов
+       <name placement="text" ref="9277" type="person">
+        Морозов
+       </name>
       </reg>
       <orig>
        Морозовъ
@@ -282,7 +298,9 @@
       <corr>
        <choice>
         <reg>
-         Фоканов
+         <name placement="text" ref="14633" type="person">
+          Фоканов
+         </name>
         </reg>
         <orig>
          Ѳокановъ
@@ -334,20 +352,28 @@
       <corr>
        <choice>
         <reg>
-         Владимира
+         <name placement="text" ref="2650" type="person">
+          Владимира
+         </name>
         </reg>
         <orig>
-         Владимiра
+         <name placement="text" ref="2650" type="person">
+          Владимiра
+         </name>
         </orig>
        </choice>
       </corr>
      </choice>
      <choice original_editorial_correction="Ал[ександровича]">
       <sic>
-       Ал
+       <name placement="text" ref="2650" type="person">
+        Ал
+       </name>
       </sic>
       <corr>
-       Александровича
+       <name placement="text" ref="2650" type="person">
+        Александровича
+       </name>
       </corr>
      </choice>
      . Сокращали и приводили
@@ -517,7 +543,9 @@
      учителя математики. Много написали:
      <choice>
       <reg>
-       Румянцев
+       <name placement="text" ref="11948" type="person">
+        Румянцев
+       </name>
       </reg>
       <orig>
        Румянцевъ
@@ -601,7 +629,9 @@
      ]. —
      <choice>
       <reg>
-       Румянцев
+       <name placement="text" ref="11948" type="person">
+        Румянцев
+       </name>
       </reg>
       <orig>
        Румянцевъ
@@ -876,7 +906,9 @@
      и
      <choice>
       <reg>
-       Владимиров
+       <name placement="text" ref="2661" type="person">
+        Владимиров
+       </name>
       </reg>
       <orig>
        Владимiровъ
@@ -903,7 +935,9 @@
      «О
      <choice>
       <reg>
-       Владимире
+       <name placement="text" ref="2653" type="person">
+        Владимире
+       </name>
       </reg>
       <orig>
        Владимiрѣ
@@ -948,13 +982,19 @@
      ,
      <choice>
       <reg>
-       Гаврилов
+       <name placement="text" ref="2996" type="person">
+        Гаврилов
+       </name>
       </reg>
       <orig>
        Гавриловъ
       </orig>
      </choice>
-     и Ермилова «О
+     и
+     <name placement="text" ref="5541" type="person">
+      Ермилова
+     </name>
+     «О
      <choice>
       <reg>
        Матвее
@@ -1006,13 +1046,19 @@
        разсказывали
       </orig>
      </choice>
-     прекрасно. — Остальные — сказски Худякова и
+     прекрасно. — Остальные — сказски
+     <name placement="text" ref="15035" type="person">
+      Худякова
+     </name>
+     и
      <choice original_editorial_correction="Аѳан[асьева]">
       <sic>
        Афан
       </sic>
       <corr>
-       Афанасьева
+       <name placement="text" ref="770" type="person">
+        Афанасьева
+       </name>
       </corr>
      </choice>
      ,
@@ -1311,7 +1357,11 @@
        </head>
        <p id="82c19ce2-97e8-4e69-8a74-52b8b2fea63d" rend="left">
         <hi rend="italic">
-         Две записи о математике под ряд, кончая запиской на имя Петра Васильевича Морозова — автограф Толстого, дальше — рука Морозова
+         Две записи о математике под ряд, кончая запиской на имя
+         <name placement="note" ref="9277" type="person">
+          Петра Васильевича Морозова
+         </name>
+         — автограф Толстого, дальше — рука Морозова
         </hi>
        </p>
       </div>
@@ -2005,7 +2055,9 @@
      <hi rend="italic">
       <choice>
        <reg>
-        Владимиров
+        <name placement="text" ref="2661" type="person">
+         Владимиров
+        </name>
        </reg>
        <orig>
         Владимiровъ
@@ -2025,7 +2077,9 @@
      <hi rend="italic">
       <choice>
        <reg>
-        Гаврилов
+        <name placement="text" ref="2996" type="person">
+         Гаврилов
+        </name>
        </reg>
        <orig>
         Гавриловъ
@@ -2672,7 +2726,11 @@
        худшiе
       </orig>
      </choice>
-     , «Сказски» Худякова.
+     , «Сказски»
+     <name placement="text" ref="15035" type="person">
+      Худякова
+     </name>
+     .
      <choice>
       <reg>
        Всех
@@ -3180,7 +3238,11 @@
        </head>
        <p id="3b1d5366-7d7e-40e8-bb23-1afddd3904d9" rend="left">
         <hi rend="italic">
-         Запись о математике с обращением к Густаву Федоровичу Келлеру — автограф Толстого, следующая немецкая запись о черчении и рисовании, с рисунком, сделана Келлером, дальше — рука Морозова.
+         Запись о математике с обращением к
+         <name placement="note" ref="6317" type="person">
+          Густаву Федоровичу Келлеру
+         </name>
+         — автограф Толстого, следующая немецкая запись о черчении и рисовании, с рисунком, сделана Келлером, дальше — рука Морозова.
         </hi>
        </p>
       </div>
@@ -3192,15 +3254,21 @@
     <p id="f27ab2da-ceba-4a8e-8a59-72822bedbaa1" rend="normal left">
      <choice>
       <reg>
-       Густав
+       <name placement="text" ref="6317" type="person">
+        Густав
+       </name>
       </reg>
       <orig>
-       Густавъ
+       <name placement="text" ref="6317" type="person">
+        Густавъ
+       </name>
       </orig>
      </choice>
      <choice>
       <reg>
-       Федорович
+       <name placement="text" ref="6317" type="person">
+        Федорович
+       </name>
       </reg>
       <orig>
        Ѳедоровичъ
@@ -3209,7 +3277,9 @@
      .
     </p>
     <p id="7bcbf24b-ff7a-43f5-8cf1-3c3f1416adcc" rend="normal left">
-     Данилка
+     <name placement="text" ref="6624" type="person">
+      Данилка
+     </name>
      <choice>
       <reg>
        вел
@@ -3347,7 +3417,9 @@
      ,
      <choice>
       <reg>
-       Владимиров
+       <name placement="text" ref="2661" type="person">
+        Владимиров
+       </name>
       </reg>
       <orig>
        Владимировъ
@@ -3462,7 +3534,15 @@
        живьемъ
       </orig>
      </choice>
-     — руководства Водовозова или Погодина и прямо объясняюсь
+     — руководства
+     <name placement="text" ref="2692" type="person">
+      Водовозова
+     </name>
+     или
+     <name placement="text" ref="10900" type="person">
+      Погодина
+     </name>
+     и прямо объясняюсь
      <choice>
       <reg>
        с
@@ -3860,7 +3940,9 @@
      . —
      <choice>
       <reg>
-       Румянцев
+       <name placement="text" ref="11948" type="person">
+        Румянцев
+       </name>
       </reg>
       <orig>
        Румянцевъ
@@ -3894,7 +3976,9 @@
      хорошо и много. Ванникова,
      <choice>
       <reg>
-       Фоканов
+       <name placement="text" ref="14639" type="person">
+        Фоканов
+       </name>
       </reg>
       <orig>
        Фокановъ
@@ -3903,7 +3987,9 @@
      и
      <choice>
       <reg>
-       Жданов
+       <name placement="text" ref="5058" type="person">
+        Жданов
+       </name>
       </reg>
       <orig>
        Ждановъ
@@ -4026,7 +4112,9 @@
      ,
      <choice>
       <reg>
-       Резунов
+       <name placement="text" ref="11605" type="person">
+        Резунов
+       </name>
       </reg>
       <orig>
        Рѣзуновъ
@@ -4312,7 +4400,9 @@
     <p id="6c06d763-2c4d-48cd-9d0b-b877826f495b" rend="petit left margin_left_15px">
      <choice>
       <reg>
-       Кирилл
+       <name placement="text" ref="5597" type="person">
+        Кирилл
+       </name>
       </reg>
       <orig>
        Кириллъ
@@ -4735,7 +4825,9 @@
      .
      <choice>
       <reg>
-       Богданов
+       <name placement="text" ref="1568" type="person">
+        Богданов
+       </name>
       </reg>
       <orig>
        Богдановъ
@@ -4839,7 +4931,15 @@
           </head>
           <p id="bc448214-4048-4504-9c4e-2cecd1ee02a7" rend="left">
            <hi rend="italic">
-            Запись о сочинениях и о математике и заметка об ученике М. [Морозов ?] — автограф Толстого. Фраза о Кирюшке написана карандашом. Следующая запись о священной истории — учителя Морозова.
+            Запись о сочинениях и о математике и заметка об ученике М. [
+            <name placement="note" ref="9269" type="person">
+             Морозов
+            </name>
+            ?] — автограф Толстого. Фраза о Кирюшке написана карандашом. Следующая запись о священной истории — учителя
+            <name placement="note" ref="9269" type="person">
+             Морозова
+            </name>
+            .
            </hi>
           </p>
          </div>
@@ -4879,7 +4979,9 @@
         .
         <choice>
          <reg>
-          Чернов
+          <name placement="text" ref="15241" type="person">
+           Чернов
+          </name>
          </reg>
          <orig>
           Черновъ
@@ -4947,15 +5049,21 @@
         . — Радуются на тетради — надо поддерживать эту охоту. Пожалуйста
         <choice>
          <reg>
-          Петр
+          <name placement="text" ref="9277" type="person">
+           Петр
+          </name>
          </reg>
          <orig>
-          Петръ
+          <name placement="text" ref="9277" type="person">
+           Петръ
+          </name>
          </orig>
         </choice>
         <choice>
          <reg>
-          Васильич
+          <name placement="text" ref="9277" type="person">
+           Васильич
+          </name>
          </reg>
          <orig>
           Васильичъ
@@ -4997,7 +5105,10 @@
           уступалъ
          </orig>
         </choice>
-        Успенскому, —
+        <name placement="text" ref="14289" type="person">
+         Успенскому
+        </name>
+        , —
         <choice>
          <reg>
           в
@@ -5022,7 +5133,9 @@
        <p id="ca1b869f-8971-454a-8153-e6da4d7093ba" rend="normal left">
         <choice>
          <reg>
-          Чернов
+          <name placement="text" ref="15241" type="person">
+           Чернов
+          </name>
          </reg>
          <orig>
           Черновъ
@@ -5459,7 +5572,11 @@
        </head>
        <p id="f1386c47-defc-4d10-aa18-9958e593dc3c" rend="left">
         <hi rend="italic">
-         Запись о математике — автограф Толстого, дальше — Морозова.
+         Запись о математике — автограф Толстого, дальше —
+         <name placement="note" ref="9269" type="person">
+          Морозова
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -5638,7 +5755,9 @@
      , написали изрядно.
      <choice>
       <reg>
-       Румянцев
+       <name placement="text" ref="11948" type="person">
+        Румянцев
+       </name>
       </reg>
       <orig>
        Румянцевъ
@@ -6049,7 +6168,11 @@
        отъ
       </orig>
      </choice>
-     ученика Кирилла Иванова, что не
+     ученика
+     <name placement="text" ref="5597" type="person">
+      Кирилла Иванова
+     </name>
+     , что не
      <choice>
       <reg>
        все
@@ -6336,7 +6459,11 @@
         </ref>
        </head>
        <p id="163bf20e-9668-4e03-8bff-b27434f4a379" rend="left">
-        [Два новых ученика, Арбузов и Сахаров сейчас же зарисовали прилагаемую фигуру с упражнениями[?]]
+        [Два новых ученика,
+        <name placement="note" ref="610" type="person">
+         Арбузов
+        </name>
+        и Сахаров сейчас же зарисовали прилагаемую фигуру с упражнениями[?]]
        </p>
       </div>
      </note>
@@ -6440,7 +6567,9 @@
      </choice>
      , исключая
      <hi rend="italic">
-      Чернова
+      <name placement="text" ref="15241" type="person">
+       Чернова
+      </name>
      </hi>
      , который
      <choice>
@@ -6577,7 +6706,9 @@
      </choice>
      . Тогда-то у
      <hi rend="italic">
-      Чернова
+      <name placement="text" ref="15241" type="person">
+       Чернова
+      </name>
      </hi>
      полились потоки
      <choice>
@@ -6709,7 +6840,9 @@
      ученика:
      <choice>
       <reg>
-       Богданов
+       <name placement="text" ref="1568" type="person">
+        Богданов
+       </name>
       </reg>
       <orig>
        Богдановъ
@@ -6718,7 +6851,9 @@
      и
      <choice>
       <reg>
-       Морозов
+       <name placement="text" ref="9269" type="person">
+        Морозов
+       </name>
       </reg>
       <orig>
        Морозовъ
@@ -6955,7 +7090,11 @@
        </head>
        <p id="ff1a937c-f35d-40d7-81fe-d240f2331c6a" rend="left">
         <hi rend="italic">
-         Запись о математике — автограф Толстого, дальше —рука Морозова.
+         Запись о математике — автограф Толстого, дальше —рука
+         <name placement="note" ref="9269" type="person">
+          Морозова
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -7104,7 +7243,11 @@
      __________________________________________________________________________
     </p>
     <p id="9294ae72-352b-49f5-bafd-47027aef6f60" rend="petit left margin_left_15px">
-     Одна Банникова продолжала писать
+     Одна
+     <name placement="text" ref="939" type="person">
+      Банникова
+     </name>
+     продолжала писать
      <choice>
       <reg>
        из
@@ -7150,7 +7293,9 @@
      . —
      <choice>
       <reg>
-       Румянцев
+       <name placement="text" ref="11948" type="person">
+        Румянцев
+       </name>
       </reg>
       <orig>
        Румянцевъ
@@ -7168,7 +7313,9 @@
      ,
      <choice>
       <reg>
-       Фоканов
+       <name placement="text" ref="14639" type="person">
+        Фоканов
+       </name>
       </reg>
       <orig>
        Фокановъ
@@ -7186,7 +7333,9 @@
      ,
      <choice>
       <reg>
-       Жданов
+       <name placement="text" ref="5058" type="person">
+        Жданов
+       </name>
       </reg>
       <orig>
        Ждановъ
@@ -7749,7 +7898,9 @@
      класса,
      <choice>
       <reg>
-       Макаров
+       <name placement="text" ref="8321" type="person">
+        Макаров
+       </name>
       </reg>
       <orig>
        Макаровъ
@@ -7758,18 +7909,26 @@
      и
      <choice>
       <reg>
-       Козлов
+       <name placement="text" ref="6624" type="person">
+        Козлов
+       </name>
       </reg>
       <orig>
-       Козловъ
+       <name placement="text" ref="6624" type="person">
+        Козловъ
+       </name>
       </orig>
      </choice>
      <choice original_editorial_correction="Д[анилка]">
       <sic>
-       Д
+       <name placement="text" ref="6624" type="person">
+        Д
+       </name>
       </sic>
       <corr>
-       Данилка
+       <name placement="text" ref="6624" type="person">
+        Данилка
+       </name>
       </corr>
      </choice>
      — задавали 1-му
@@ -8501,7 +8660,11 @@
         </ref>
        </head>
        <p id="d6e9776d-c834-4ed6-b049-0a0e6bface06" rend="left">
-        [Все классы вместе. Рисовали очень хорошо. Румянцев лучше всех.]
+        [Все классы вместе. Рисовали очень хорошо.
+        <name placement="note" ref="11948" type="person">
+         Румянцев
+        </name>
+        лучше всех.]
        </p>
       </div>
      </note>
@@ -8570,7 +8733,11 @@
        </head>
        <p id="3ce1a12e-a81e-48bd-993e-8f18c829f7ef" rend="normal left">
         <hi rend="italic">
-         Запись о математике — автограф Толстого, дальше рука Морозова.
+         Запись о математике — автограф Толстого, дальше рука
+         <name placement="note" ref="9269" type="person">
+          Морозова
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -8713,7 +8880,9 @@
          <corr>
           <choice>
            <reg>
-            Фоканов
+            <name placement="text" ref="14633" type="person">
+             Фоканов
+            </name>
            </reg>
            <orig>
             Ѳокановъ
@@ -8739,7 +8908,9 @@
          <corr>
           <choice>
            <reg>
-            Морозов
+            <name placement="text" ref="9269" type="person">
+             Морозов
+            </name>
            </reg>
            <orig>
             Морозовъ
@@ -8812,7 +8983,9 @@
        <p id="3bb5369c-c319-4ae1-86a2-8d307fdb55d3">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -8860,7 +9033,9 @@
        <p id="35f7531f-5ad3-4abc-9c94-6ecacf4b9c17" rend="petit">
         <choice>
          <reg>
-          Румянцев
+          <name placement="text" ref="11948" type="person">
+           Румянцев
+          </name>
          </reg>
          <orig>
           Румянцевъ
@@ -8918,7 +9093,9 @@
        <p id="d9aadd98-128c-473a-a124-301044345253">
         <choice>
          <reg>
-          Жданов
+          <name placement="text" ref="5058" type="person">
+           Жданов
+          </name>
          </reg>
          <orig>
           Ждановъ
@@ -8937,7 +9114,9 @@
        <p id="127f267b-5c7e-4277-a9fa-6a38e1ca8111">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -8994,7 +9173,9 @@
      очень плоха; а
      <choice>
       <reg>
-       Жданов
+       <name placement="text" ref="5058" type="person">
+        Жданов
+       </name>
       </reg>
       <orig>
        Ждановъ
@@ -9021,7 +9202,8 @@
     <p id="cdc0670a-eb5d-4cc0-b96c-801c3136f3eb" rend="left">
      <pb n="465"/>
     </p>
-    <p id="67a01fc3-307b-4ee0-a876-820ac59c4553" rend="left" xml:id="i5"/>
+    <p id="67a01fc3-307b-4ee0-a876-820ac59c4553" rend="left" xml:id="i5">
+    </p>
     <div rend="image">
      <figure>
       <graphic rend="alt:" url="./img/b00002671.png"/>
@@ -9164,7 +9346,9 @@
        <p id="7dfd8c48-7809-4f56-b679-2faf17896738">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -9236,7 +9420,9 @@
        <p id="8dd9bb85-cb29-4547-9df8-c26a51564d82">
         <choice>
          <reg>
-          Цветков
+          <name placement="text" ref="15064" type="person">
+           Цветков
+          </name>
          </reg>
          <orig>
           Цвѣтковъ
@@ -9435,7 +9621,9 @@
        <p id="c2f71dc0-378e-4501-b545-799ceff2e4b8">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Рѣзуновъ
@@ -9607,7 +9795,9 @@
        <p id="b0fca16a-97fb-49c5-a1d3-2f0e00316dd5">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14633" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -9645,7 +9835,9 @@
        <p id="7c87d6fb-538e-4f1b-bec3-d4f151f4b1d2">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9269" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -9684,7 +9876,9 @@
        <p id="dbdc36cb-7452-4b60-9e81-019c8fa90346">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -9729,7 +9923,11 @@
      . —
     </p>
     <p id="d65340ca-84fd-4483-851b-992c26c792de" rend="petit left margin_left_15px">
-     Во время класса Ермилова и
+     Во время класса
+     <name placement="text" ref="5541" type="person">
+      Ермилова
+     </name>
+     и
      <choice>
       <reg>
        Матвеев
@@ -9859,7 +10057,9 @@
        <p id="10240da3-ae49-4222-94da-9904440e1af0">
         <choice>
          <reg>
-          Румянцев
+          <name placement="text" ref="11948" type="person">
+           Румянцев
+          </name>
          </reg>
          <orig>
           Румянцевъ
@@ -9878,7 +10078,9 @@
        <p id="d4a9e500-ada5-4bf5-8099-07e2eb6ca65a">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -9909,7 +10111,9 @@
        <p id="12f67887-d2c2-4573-a0d4-6287ebd93850">
         <choice>
          <reg>
-          Жданов
+          <name placement="text" ref="5058" type="person">
+           Жданов
+          </name>
          </reg>
          <orig>
           Ждановъ
@@ -9928,7 +10132,9 @@
        <p id="4e256df4-2952-4be1-a6fa-4fdb27f75480">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14633" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -10479,7 +10685,9 @@
      Свящ.
      <choice>
       <reg>
-       Пашковский
+       <name placement="text" ref="10581" type="person">
+        Пашковский
+       </name>
       </reg>
       <orig>
        Пашковскiй
@@ -10585,7 +10793,11 @@
        </head>
        <p id="c66ed61b-2bc6-4161-ab04-d6c0a8a79548" rend="left">
         <hi rend="italic">
-         Запись о математике — автограф Толстого. Следующая запись — Морозова.
+         Запись о математике — автограф Толстого. Следующая запись —
+         <name placement="note" ref="9269" type="person">
+          Морозова
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -10705,7 +10917,10 @@
        уравненiй
       </orig>
      </choice>
-     . — Сашка
+     . —
+     <name placement="text" ref="6621" type="person">
+      Сашка
+     </name>
      <choice>
       <reg>
        в
@@ -10806,7 +11021,9 @@
          <corr>
           <choice>
            <reg>
-            Морозов
+            <name placement="text" ref="9269" type="person">
+             Морозов
+            </name>
            </reg>
            <orig>
             Морозовъ
@@ -10859,7 +11076,9 @@
          <corr>
           <choice>
            <reg>
-            Фоканов
+            <name placement="text" ref="14639" type="person">
+             Фоканов
+            </name>
            </reg>
            <orig>
             Ѳокановъ
@@ -10922,7 +11141,9 @@
           Д
          </sic>
          <corr>
-          Данилка
+          <name placement="text" ref="6624" type="person">
+           Данилка
+          </name>
          </corr>
         </choice>
        </p>
@@ -10961,17 +11182,23 @@
           Р
          </sic>
          <corr>
-          Ромашка
+          <name placement="text" ref="1568" type="person">
+           Ромашка
+          </name>
          </corr>
         </choice>
         <choice original_editorial_correction="Б[огдановъ]">
          <sic>
-          Б
+          <name placement="text" ref="1568" type="person">
+           Б
+          </name>
          </sic>
          <corr>
           <choice>
            <reg>
-            Богданов
+            <name placement="text" ref="1568" type="person">
+             Богданов
+            </name>
            </reg>
            <orig>
             Богдановъ
@@ -11011,7 +11238,9 @@
        <p id="470d2176-7743-41be-8ec8-fb390d17cea0">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Рѣзуновъ
@@ -11164,7 +11393,9 @@
        <p id="cb75f67e-8c32-4b42-a425-1641ca12234b">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -11237,10 +11468,14 @@
       </cell>
       <cell>
        <p id="4e7eacd1-52e3-425f-8810-264a07e66705">
-        В.
+        <name placement="text" ref="7299" type="person">
+         В.
+        </name>
         <choice>
          <reg>
-          Кузнецов
+          <name placement="text" ref="7299" type="person">
+           Кузнецов
+          </name>
          </reg>
          <orig>
           Кузнецовъ
@@ -11557,7 +11792,9 @@
        <p id="34515b3b-0df6-4867-9a49-89da41e32d99" rend="normal left">
         <choice>
          <reg>
-          Цветков
+          <name placement="text" ref="15064" type="person">
+           Цветков
+          </name>
          </reg>
          <orig>
           Цвѣтковъ
@@ -11577,7 +11814,9 @@
        <p id="1d544ad8-4952-4b91-87f5-05c3ba3b845b" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -11927,7 +12166,11 @@
        </head>
        <p id="09353b82-de5e-4a0b-a098-eac9c78eb2a8" rend="left">
         <hi rend="italic">
-         Запись о математике — автограф Толстого; следующие записи сделаны Морозовым и Келлером.
+         Запись о математике — автограф Толстого; следующие записи сделаны
+         <name placement="note" ref="9269" type="person">
+          Морозовым
+         </name>
+         и Келлером.
         </hi>
        </p>
       </div>
@@ -12099,7 +12342,9 @@
           Бнн[икова
          </sic>
          <corr>
-          Банникова
+          <name placement="text" ref="939" type="person">
+           Банникова
+          </name>
          </corr>
         </choice>
         ]
@@ -12138,7 +12383,9 @@
          <corr>
           <choice>
            <reg>
-            Жданов
+            <name placement="text" ref="5058" type="person">
+             Жданов
+            </name>
            </reg>
            <orig>
             Ждановъ
@@ -12162,7 +12409,9 @@
           Д
          </sic>
          <corr>
-          Данилка
+          <name placement="text" ref="6624" type="person">
+           Данилка
+          </name>
          </corr>
         </choice>
        </p>
@@ -12708,7 +12957,9 @@
        <p id="26fffceb-2607-4b28-b834-3487494173d6" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9269" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -12727,7 +12978,9 @@
        <p id="aab27cfb-aabd-4c1c-9c2f-9af4668c3995" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14633" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -12746,7 +12999,9 @@
        <p id="31380020-a9fb-4324-9b70-df53ddc532ec" rend="normal left">
         <choice>
          <reg>
-          Румянцев
+          <name placement="text" ref="11948" type="person">
+           Румянцев
+          </name>
          </reg>
          <orig>
           Румянцевъ
@@ -12765,7 +13020,9 @@
        <p id="2a8cce4c-4324-4464-a2c1-0f0208e4bac8" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -12856,7 +13113,9 @@
         Банникова,
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -12865,7 +13124,9 @@
         и
         <choice>
          <reg>
-          Жданов
+          <name placement="text" ref="5058" type="person">
+           Жданов
+          </name>
          </reg>
          <orig>
           Ждановъ
@@ -12880,7 +13141,19 @@
            </ref>
           </head>
           <p id="2e0f1745-38cd-4045-9f19-95512a9d2963" rend="left">
-           [Ящик для счетов в различных положениях. Банникова, Фоканов и Жданов рисовали квадрат в трех положениях.]
+           [Ящик для счетов в различных положениях.
+           <name placement="note" ref="939" type="person">
+            Банникова
+           </name>
+           ,
+           <name placement="note" ref="14639" type="person">
+            Фоканов
+           </name>
+           и
+           <name placement="note" ref="5058" type="person">
+            Жданов
+           </name>
+           рисовали квадрат в трех положениях.]
           </p>
          </div>
         </note>
@@ -12893,7 +13166,9 @@
        <p id="5486e066-0a6b-40ab-aab1-29b5f19dfdc1" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9269" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -12950,7 +13225,9 @@
        <p id="dc9f69e3-25d9-40da-9da5-b258779a7906" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -12988,7 +13265,9 @@
        <p id="4f5eb486-c485-4add-8b75-9cf1e2b2e4a1" rend="normal left">
         <choice>
          <reg>
-          Румянцев
+          <name placement="text" ref="11948" type="person">
+           Румянцев
+          </name>
          </reg>
          <orig>
           Румянцевъ
@@ -13019,7 +13298,9 @@
        <p id="b37ddd80-52fe-43c3-836c-4c59726a40a8" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -13038,7 +13319,9 @@
        <p id="11bdae66-f20e-4583-a57c-ea401e50d7e7" rend="normal left">
         <choice>
          <reg>
-          Жданов
+          <name placement="text" ref="5058" type="person">
+           Жданов
+          </name>
          </reg>
          <orig>
           Ждановъ
@@ -13177,7 +13460,11 @@
        </head>
        <p id="ff05ec6c-404c-423c-8f95-4883ac8d843c" rend="normal left">
         <hi rend="italic">
-         Эта и следующая запись — о чтении и писании — сделаны Морозовым.
+         Эта и следующая запись — о чтении и писании — сделаны
+         <name placement="note" ref="9269" type="person">
+          Морозовым
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -13193,7 +13480,9 @@
        <p id="05c01c7b-8849-4776-9c46-d303feac0592" rend="normal left">
         <choice>
          <reg>
-          Румянцев
+          <name placement="text" ref="11948" type="person">
+           Румянцев
+          </name>
          </reg>
          <orig>
           Румянцевъ
@@ -13247,7 +13536,9 @@
         дрались, особенно
         <choice>
          <reg>
-          Румянцев
+          <name placement="text" ref="11948" type="person">
+           Румянцев
+          </name>
          </reg>
          <orig>
           Румянцевъ
@@ -13263,7 +13554,9 @@
        <p id="96295d60-d847-4732-8f89-d74f41c28ab4" rend="normal left">
         <choice>
          <reg>
-          Жданов
+          <name placement="text" ref="5058" type="person">
+           Жданов
+          </name>
          </reg>
          <orig>
           Ждановъ
@@ -13282,7 +13575,9 @@
        <p id="364507f8-f306-451e-a1cd-c6f2a5f7767b" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -13657,7 +13952,9 @@
        <p id="7a852c65-4159-4174-aab0-053e156a0e04" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9269" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -13676,7 +13973,9 @@
        <p id="418084b7-7236-4ef8-b34b-aba758e8c7d7" rend="normal left">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -13734,7 +14033,9 @@
        <p id="0452a916-e195-4ccd-81e6-afad18a38b61" rend="normal left">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Рѣзуновъ
@@ -13854,7 +14155,9 @@
        <p id="ff8b01d6-fbcc-4d64-be9b-6842288f7bde" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -13937,7 +14240,9 @@
       <corr>
        <choice>
         <reg>
-         Екатерине
+         <name placement="text" ref="4865" type="person">
+          Екатерине
+         </name>
         </reg>
         <orig>
          Екатеринѣ
@@ -13953,7 +14258,9 @@
       <corr>
        <choice>
         <reg>
-         Александре
+         <name placement="text" ref="202" type="person">
+          Александре
+         </name>
         </reg>
         <orig>
          Александрѣ
@@ -13969,7 +14276,9 @@
       <corr>
        <choice>
         <reg>
-         Наполеоне
+         <name placement="text" ref="9541" type="person">
+          Наполеоне
+         </name>
         </reg>
         <orig>
          Наполеонѣ
@@ -13980,7 +14289,9 @@
      ,
      <choice>
       <reg>
-       Николае
+       <name placement="text" ref="9799" type="person">
+        Николае
+       </name>
       </reg>
       <orig>
        Николаѣ
@@ -13994,15 +14305,22 @@
       <corr>
        <choice>
         <reg>
-         Александре
+         <name placement="text" ref="203" type="person">
+          Александре
+         </name>
         </reg>
         <orig>
-         Александрѣ
+         <name placement="text" ref="203" type="person">
+          Александрѣ
+         </name>
         </orig>
        </choice>
       </corr>
      </choice>
-     II.
+     <name placement="text" ref="203" type="person">
+      II
+     </name>
+     .
      <choice original_editorial_correction="Черн[овъ]">
       <sic>
        Черн
@@ -14010,7 +14328,9 @@
       <corr>
        <choice>
         <reg>
-         Чернов
+         <name placement="text" ref="15241" type="person">
+          Чернов
+         </name>
         </reg>
         <orig>
          Черновъ
@@ -14067,7 +14387,9 @@
          <corr>
           <choice>
            <reg>
-            Богданов
+            <name placement="text" ref="1568" type="person">
+             Богданов
+            </name>
            </reg>
            <orig>
             Богдановъ
@@ -14157,7 +14479,9 @@
          <corr>
           <choice>
            <reg>
-            Морозов
+            <name placement="text" ref="9269" type="person">
+             Морозов
+            </name>
            </reg>
            <orig>
             Морозовъ
@@ -14190,7 +14514,9 @@
          <corr>
           <choice>
            <reg>
-            Фоканов
+            <name placement="text" ref="14633" type="person">
+             Фоканов
+            </name>
            </reg>
            <orig>
             Ѳокановъ
@@ -14337,7 +14663,9 @@
          <corr>
           <choice>
            <reg>
-            Богданов
+            <name placement="text" ref="1568" type="person">
+             Богданов
+            </name>
            </reg>
            <orig>
             Богдановъ
@@ -14373,7 +14701,9 @@
           Д
          </sic>
          <corr>
-          Данилка
+          <name placement="text" ref="6624" type="person">
+           Данилка
+          </name>
          </corr>
         </choice>
        </p>
@@ -14394,7 +14724,9 @@
          <corr>
           <choice>
            <reg>
-            Морозов
+            <name placement="text" ref="9269" type="person">
+             Морозов
+            </name>
            </reg>
            <orig>
             Морозовъ
@@ -14489,7 +14821,9 @@
          <corr>
           <choice>
            <reg>
-            Жданов
+            <name placement="text" ref="5058" type="person">
+             Жданов
+            </name>
            </reg>
            <orig>
             Ждановъ
@@ -14522,7 +14856,9 @@
          <corr>
           <choice>
            <reg>
-            Фоканов
+            <name placement="text" ref="14633" type="person">
+             Фоканов
+            </name>
            </reg>
            <orig>
             Ѳокановъ
@@ -14966,7 +15302,9 @@
        <p id="8fd80a02-876e-42ec-97f7-e084d56261d1" rend="normal left">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Рѣзуновъ
@@ -15240,7 +15578,9 @@
        <p id="e86f98b3-12c9-4e0b-8b6b-86703fd30c0d" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -15324,7 +15664,9 @@
        <p id="aefd48e2-cfeb-480c-802e-e93a15f2cc66" rend="normal left">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -15399,7 +15741,9 @@
        <p id="adf08cb7-63ad-479b-9e6e-9e24f1863ea8" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -15418,7 +15762,9 @@
        <p id="3c25c497-3c38-4508-a069-0fefd8fbd008" rend="normal left">
         <choice>
          <reg>
-          Румянцев
+          <name placement="text" ref="11948" type="person">
+           Румянцев
+          </name>
          </reg>
          <orig>
           Румянцевъ
@@ -15490,7 +15836,9 @@
         Ал.
         <choice>
          <reg>
-          Козлов
+          <name placement="text" ref="6621" type="person">
+           Козлов
+          </name>
          </reg>
          <orig>
           Козловъ
@@ -15981,7 +16329,9 @@
        <p id="f03a7590-1dba-4a45-ac20-005df23ecca4" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -16310,7 +16660,10 @@
           отвѣтилъ
          </orig>
         </choice>
-        [?] Ермилова
+        [?]
+        <name placement="text" ref="5541" type="person">
+         Ермилова
+        </name>
         <choice original_editorial_correction="некоторы[я]">
          <sic>
           некоторы
@@ -16410,7 +16763,9 @@
      ,
      <choice>
       <reg>
-       Иванов
+       <name placement="text" ref="10581" type="person">
+        Иванов
+       </name>
       </reg>
       <orig>
        Ивановъ
@@ -16428,7 +16783,9 @@
      ,
      <choice>
       <reg>
-       Морозов
+       <name placement="text" ref="9269" type="person">
+        Морозов
+       </name>
       </reg>
       <orig>
        Морозовъ
@@ -16437,13 +16794,19 @@
      ,
      <choice>
       <reg>
-       Макаров
+       <name placement="text" ref="8321" type="person">
+        Макаров
+       </name>
       </reg>
       <orig>
        Макаровъ
       </orig>
      </choice>
-     , Банникова по 5 +, Т.
+     ,
+     <name placement="text" ref="939" type="person">
+      Банникова
+     </name>
+     по 5 +, Т.
      <choice>
       <reg>
        Фоканов
@@ -16722,7 +17085,9 @@
        <p id="d1ed87f2-4113-4b58-86ed-a8b8f73182ba" rend="normal left">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Рѣзуновъ
@@ -16994,7 +17359,11 @@
        </head>
        <p id="da17a951-e933-457d-9172-7fc31f2a725b" rend="left">
         <hi rend="italic">
-         Запись о писании и чтении сделана Морозовым.
+         Запись о писании и чтении сделана
+         <name placement="note" ref="9269" type="person">
+          Морозовым
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -17034,7 +17403,9 @@
        <p id="b839f176-726a-439e-a088-37956ca5f82b" rend="normal left">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -17219,7 +17590,9 @@
          <corr>
           <choice>
            <reg>
-            Морозов
+            <name placement="text" ref="9269" type="person">
+             Морозов
+            </name>
            </reg>
            <orig>
             Морозовъ
@@ -17271,7 +17644,9 @@
          <corr>
           <choice>
            <reg>
-            Фоканов
+            <name placement="text" ref="14633" type="person">
+             Фоканов
+            </name>
            </reg>
            <orig>
             Ѳокановъ
@@ -17317,7 +17692,9 @@
          <corr>
           <choice>
            <reg>
-            Румянцев
+            <name placement="text" ref="11948" type="person">
+             Румянцев
+            </name>
            </reg>
            <orig>
             Румянцевъ
@@ -17411,7 +17788,9 @@
        <p id="712ff40c-24b3-4efb-a4cc-f966c4541b8d" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -17440,7 +17819,11 @@
        </head>
        <p id="4360129a-6d90-4edb-a1e1-59c5de2e7b8b" rend="left">
         <hi rend="italic">
-         Запись о рисовании сделана Келлером, следующая — Морозовым.
+         Запись о рисовании сделана Келлером, следующая —
+         <name placement="note" ref="9269" type="person">
+          Морозовым
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -17545,7 +17928,10 @@
        Заставилъ
       </orig>
      </choice>
-     Чернова читать по
+     <name placement="text" ref="15241" type="person">
+      Чернова
+     </name>
+     читать по
      <choice>
       <reg>
        Библии
@@ -17926,17 +18312,23 @@
           С
          </sic>
          <corr>
-          Сашка
+          <name placement="text" ref="6621" type="person">
+           Сашка
+          </name>
          </corr>
         </choice>
         <choice original_editorial_correction="К[озловъ]">
          <sic>
-          К
+          <name placement="text" ref="6621" type="person">
+           К
+          </name>
          </sic>
          <corr>
           <choice>
            <reg>
-            Козлов
+            <name placement="text" ref="6621" type="person">
+             Козлов
+            </name>
            </reg>
            <orig>
             Козловъ
@@ -17962,7 +18354,9 @@
          <corr>
           <choice>
            <reg>
-            Морозов
+            <name placement="text" ref="9269" type="person">
+             Морозов
+            </name>
            </reg>
            <orig>
             Морозовъ
@@ -18021,7 +18415,9 @@
           Дан
          </sic>
          <corr>
-          Данилка
+          <name placement="text" ref="6624" type="person">
+           Данилка
+          </name>
          </corr>
         </choice>
        </p>
@@ -18094,7 +18490,9 @@
          <corr>
           <choice>
            <reg>
-            Фоканов
+            <name placement="text" ref="14633" type="person">
+             Фоканов
+            </name>
            </reg>
            <orig>
             Ѳокановъ
@@ -18197,7 +18595,11 @@
        </head>
        <p id="cfe2e0e8-4375-4138-beb1-c271763ee6a1" rend="left">
         <hi rend="italic">
-         Запись о чтении и писании — Морозова.
+         Запись о чтении и писании —
+         <name placement="note" ref="9269" type="person">
+          Морозова
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -18508,7 +18910,9 @@
        <p id="c4edc69d-ba57-4f39-a0e8-76b59b08ea7d" rend="normal left">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Рѣзуновъ
@@ -18703,7 +19107,9 @@
          <corr>
           <choice>
            <reg>
-            Цветков
+            <name placement="text" ref="15064" type="person">
+             Цветков
+            </name>
            </reg>
            <orig>
             Цвѣтковъ
@@ -18732,7 +19138,9 @@
        <p id="f694b7e3-1a68-48cd-ad98-9d926238eb20" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -18818,7 +19226,9 @@
        <p id="55f2a688-9a38-4fa3-8bda-0fe08aa69ae9" rend="normal left">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -18880,7 +19290,9 @@
        <p id="0f80bbfb-ae7c-43c8-b01c-ec8ef1a48bd7" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9269" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -18937,7 +19349,9 @@
        <p id="88012b05-6fa8-4974-8ca6-eafbfa84e358" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="14633" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -18986,7 +19400,9 @@
      <row>
       <cell>
        <p id="c5d851ae-73db-4c61-b995-30c071eea78e" rend="normal left">
-        Жданов
+        <name placement="text" ref="5058" type="person">
+         Жданов
+        </name>
        </p>
       </cell>
       <cell>
@@ -19183,7 +19599,9 @@
        <p id="93be7505-7649-4318-ad6e-4ffa811fc560" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Фокановъ
@@ -19284,7 +19702,9 @@
        <p id="548b2f7d-93a1-4015-92d7-9ddf479cd6c9" rend="normal left">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Резуновъ
@@ -19428,7 +19848,11 @@
        </head>
        <p id="f133761e-3faf-4b73-81d5-b006bcc8b945" rend="left">
         <hi rend="italic">
-         Запись о рисовании сделана Келлером; две следующие записи сделаны Морозовым.
+         Запись о рисовании сделана Келлером; две следующие записи сделаны
+         <name placement="note" ref="9277" type="person">
+          Морозовым
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -19489,7 +19913,9 @@
        <p id="e5b0234a-c6d6-4686-998d-4f005e056fe7" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -19545,7 +19971,9 @@
        <p id="472f2d1e-8b2a-4690-9d4c-a8c38b870ae6" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9277" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -19582,7 +20010,9 @@
        <p id="01c4c13c-4c9a-47b6-94f8-e7166c0b432f" rend="normal left">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -19601,7 +20031,9 @@
        <p id="79292ee8-7c5a-4390-9714-3fe011fe8a22" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -19900,7 +20332,11 @@
      <hi rend="italic">
       читали
      </hi>
-     сказски Худякова,
+     сказски
+     <name placement="text" ref="15035" type="person">
+      Худякова
+     </name>
+     ,
      <choice>
       <reg>
        рассказали
@@ -20382,7 +20818,11 @@
        </head>
        <p id="3ce58a82-f68e-4a92-8233-6101281cd86d" rend="left">
         <hi rend="italic">
-         Две записи об алгебре и геометрии сделаны Келлером; между ними запись о писании и чтении — Морозова.
+         Две записи об алгебре и геометрии сделаны Келлером; между ними запись о писании и чтении —
+         <name placement="note" ref="9277" type="person">
+          Морозова
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -20493,7 +20933,9 @@
        <p id="12463eb7-c7a2-403e-b339-de81ee130aa3" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="14633" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -20512,7 +20954,9 @@
        <p id="c7be27b8-087b-42a8-8437-f223e6760a5d" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14633" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -20543,7 +20987,9 @@
        <p id="ede9d396-07a8-48f2-92c0-d64f735fa215" rend="normal left">
         <choice>
          <reg>
-          Жданов
+          <name placement="text" ref="5058" type="person">
+           Жданов
+          </name>
          </reg>
          <orig>
           Ждановъ
@@ -20633,7 +21079,9 @@
        <p id="a9029054-8cfb-49f7-bd3c-cca4812a9381" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14633" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -20944,7 +21392,9 @@
        <p id="34d65ee7-2f44-457f-b866-e40fd267d13a" rend="normal left">
         <choice>
          <reg>
-          Цветков
+          <name placement="text" ref="15064" type="person">
+           Цветков
+          </name>
          </reg>
          <orig>
           Цвѣтковъ
@@ -21173,7 +21623,9 @@
        <p id="38b6e5ed-fde4-4101-bc98-11b1023f9500" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14633" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -21190,7 +21642,9 @@
      <row>
       <cell>
        <p id="703d5c4b-e674-492b-bb91-5e1592a066da" rend="normal left">
-        Ивановь
+        <name placement="text" ref="14633" type="person">
+         Ивановь
+        </name>
        </p>
       </cell>
       <cell>
@@ -21216,7 +21670,9 @@
        <p id="7d925bc7-e68b-41c6-9302-fc51b0b72f87" rend="normal left">
         <choice>
          <reg>
-          Жданов
+          <name placement="text" ref="5058" type="person">
+           Жданов
+          </name>
          </reg>
          <orig>
           Ждановъ
@@ -21886,7 +22342,9 @@
        <p id="d12b29c2-239f-4624-8f86-2db27362c7c5" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9277" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -21943,7 +22401,9 @@
        <p id="f21bdaf9-971c-4e05-abe7-34cfff920e24" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Ѳокановъ
@@ -21962,7 +22422,9 @@
        <p id="5eff6cd2-250a-42e3-a4f4-3000b8222334" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -22039,22 +22501,30 @@
       <corr>
        <choice>
         <reg>
-         Петр
+         <name placement="text" ref="9277" type="person">
+          Петр
+         </name>
         </reg>
         <orig>
-         Петръ
+         <name placement="text" ref="9277" type="person">
+          Петръ
+         </name>
         </orig>
        </choice>
       </corr>
      </choice>
      <choice original_editorial_correction="В[асильичъ]">
       <sic>
-       В
+       <name placement="text" ref="9277" type="person">
+        В
+       </name>
       </sic>
       <corr>
        <choice>
         <reg>
-         Васильич
+         <name placement="text" ref="9277" type="person">
+          Васильич
+         </name>
         </reg>
         <orig>
          Васильичъ
@@ -22162,15 +22632,21 @@
        П
       </sic>
       <corr>
-       Петру
+       <name placement="text" ref="9277" type="person">
+        Петру
+       </name>
       </corr>
      </choice>
      <choice original_editorial_correction="В[асильичу]">
       <sic>
-       В
+       <name placement="text" ref="9277" type="person">
+        В
+       </name>
       </sic>
       <corr>
-       Васильичу
+       <name placement="text" ref="9277" type="person">
+        Васильичу
+       </name>
       </corr>
      </choice>
      <choice>
@@ -22202,7 +22678,9 @@
           Д
          </sic>
          <corr>
-          Данилка
+          <name placement="text" ref="6624" type="person">
+           Данилка
+          </name>
          </corr>
         </choice>
        </p>
@@ -22529,7 +23007,9 @@
        <p id="33d18575-cdd0-4c35-bde3-3de847746738" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Фокановъ
@@ -22785,7 +23265,11 @@
        </head>
        <p id="a30d296c-8fcd-4bfe-b1f6-cda8826e492d" rend="left">
         <hi rend="italic">
-         Записи о чтении сочинений и о писании — Морозова, между ними запись о математике — Келлера.
+         Записи о чтении сочинений и о писании —
+         <name placement="note" ref="9277" type="person">
+          Морозова
+         </name>
+         , между ними запись о математике — Келлера.
         </hi>
        </p>
       </div>
@@ -22890,7 +23374,9 @@
       </cell>
       <cell>
        <p id="801cc916-6f35-44a0-b9f5-6e6281d39238" rend="normal left">
-        В. Жданова
+        <name placement="text" ref="5058" type="person">
+         В. Жданова
+        </name>
        </p>
       </cell>
       <cell>
@@ -22995,7 +23481,9 @@
       </cell>
       <cell>
        <p id="a2e49ddc-c01a-4807-92b3-9ded7674b626" rend="normal left">
-        Румянцева
+        <name placement="text" ref="11948" type="person">
+         Румянцева
+        </name>
        </p>
       </cell>
       <cell>
@@ -23109,7 +23597,23 @@
         </ref>
        </head>
        <p id="57387595-a955-4bc7-9612-4e3164b63f34" rend="normal left">
-        [Арифметика должна была сегодня выпасть, так как Морозов, Макаров, Иванов не были в состоянии, Банникова не пришла, а Козлов, Богданов и Фоканов должны былиучить младшие классы.]
+        [Арифметика должна была сегодня выпасть, так как
+        <name placement="note" ref="9277" type="person">
+         Морозов
+        </name>
+        , Макаров, Иванов не были в состоянии,
+        <name placement="note" ref="939" type="person">
+         Банникова
+        </name>
+        не пришла, а
+        <name placement="note" ref="6621" type="person">
+         Козлов
+        </name>
+        , Богданов и
+        <name placement="note" ref="14639" type="person">
+         Фоканов
+        </name>
+        должны былиучить младшие классы.]
        </p>
       </div>
      </note>
@@ -23121,7 +23625,9 @@
      Die Arithmetik musste heute ausfallen, weil
      <choice>
       <reg>
-       Морозов
+       <name placement="text" ref="9277" type="person">
+        Морозов
+       </name>
       </reg>
       <orig>
        Морозовъ
@@ -23151,13 +23657,17 @@
        Баникова
       </sic>
       <corr>
-       Банникова
+       <name placement="text" ref="939" type="person">
+        Банникова
+       </name>
       </corr>
      </choice>
      fehlte und
      <choice>
       <reg>
-       Козлов
+       <name placement="text" ref="6621" type="person">
+        Козлов
+       </name>
       </reg>
       <orig>
        Козловъ
@@ -23479,7 +23989,9 @@
        <p id="5e0577aa-81c7-4e8d-bd25-ccd7422b5757" rend="normal left">
         <choice>
          <reg>
-          Цветков
+          <name placement="text" ref="15064" type="person">
+           Цветков
+          </name>
          </reg>
          <orig>
           Цвѣтковъ
@@ -23714,7 +24226,11 @@
       </cell>
       <cell>
        <p id="8b0927e5-59c4-4525-b1c4-556e088ee7bf" rend="normal notindent">
-        Читали сказски Худякова.
+        Читали сказски
+        <name placement="text" ref="15035" type="person">
+         Худякова
+        </name>
+        .
         <choice>
          <reg>
           Все
@@ -23734,7 +24250,9 @@
         .
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -24000,7 +24518,9 @@
        <p id="193d49c4-dfe7-4441-a950-367e927bf5de" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -24339,7 +24859,9 @@
        <p id="cb182cea-bf11-449e-a0eb-8dad4b6d519c" rend="normal left">
         <choice>
          <reg>
-          Цветков
+          <name placement="text" ref="15064" type="person">
+           Цветков
+          </name>
          </reg>
          <orig>
           Цветковъ
@@ -24501,7 +25023,9 @@
        <p id="a04c40f2-0226-4627-baba-4543be50c7de" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -24744,7 +25268,9 @@
        <p id="ebdd1d06-f582-497b-9491-f7d16729c2f1" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9277" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -24977,7 +25503,11 @@
        </head>
        <p id="5d6b84c9-adcb-40ac-aa9e-a16626f3f552" rend="left">
         <hi rend="italic">
-         Три записи под ряд — о географии, о писании и о русской истории — рукой Морозова.
+         Три записи под ряд — о географии, о писании и о русской истории — рукой
+         <name placement="note" ref="9277" type="person">
+          Морозова
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -25588,7 +26118,8 @@
     <p id="efa49b1a-8483-435f-a5e1-0388278a533d">
      <pb n="481"/>
     </p>
-    <p id="ae5cd7d9-c0d0-4ee5-92bb-0a9143db1d73" rend="left" xml:id="i6"/>
+    <p id="ae5cd7d9-c0d0-4ee5-92bb-0a9143db1d73" rend="left" xml:id="i6">
+    </p>
     <div rend="image">
      <figure>
       <graphic rend="alt:" url="./img/b00002997.png"/>
@@ -25755,7 +26286,9 @@
        <p id="289af7fe-bd39-42e7-8a44-96fd8445de8c" rend="normal left">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -25898,7 +26431,9 @@
        <p id="bb935716-8c76-4172-b980-eda41a957c1d" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Фокановъ
@@ -26081,7 +26616,9 @@
        <p id="c6a35aee-298a-4ea6-a686-6ae3ed2c47b8" rend="normal left">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Рѣзуновъ
@@ -26452,7 +26989,9 @@
        <p id="c5f08f45-07fe-4bb8-98c2-8a4b85d9d0f3" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -26524,7 +27063,11 @@
     </table>
     <lb/>
     <p id="5d9ae245-673a-49b5-af0f-5fc7c7c579a8" rend="normal right">
-     Читали сказски Худякова. М. Оси-
+     Читали сказски
+     <name placement="text" ref="15035" type="person">
+      Худякова
+     </name>
+     . М. Оси-
      <lb/>
      <choice>
       <reg>
@@ -26692,7 +27235,9 @@
        <p id="d12743c3-05fc-4e0f-8bf5-a1a611b95c59" rend="normal left">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -26820,7 +27365,9 @@
        <p id="9ff9e0b2-6f43-446b-a837-1e4cea5276b7" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Фокановъ
@@ -27252,7 +27799,9 @@
        <p id="488a2918-557b-49d9-b9d6-ce61418338b6" rend="normal left">
         <choice>
          <reg>
-          Цветков
+          <name placement="text" ref="15064" type="person">
+           Цветков
+          </name>
          </reg>
          <orig>
           Цвѣтковъ
@@ -27314,7 +27863,9 @@
        <p id="84664928-3674-4601-a420-0c6f8ea0e6b9" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -27410,7 +27961,11 @@
           </head>
           <p id="a2eb1ab4-d5de-445e-bc2c-169eb05f479d" rend="left">
            <hi rend="italic">
-            Эта фамилия написана вверху, справа, рядом с фамилией Ермиловой.
+            Эта фамилия написана вверху, справа, рядом с фамилией
+            <name placement="note" ref="5541" type="person">
+             Ермиловой
+            </name>
+            .
            </hi>
           </p>
          </div>
@@ -28015,7 +28570,9 @@
         <lb/>
         <choice>
          <reg>
-          Козлов
+          <name placement="text" ref="6624" type="person">
+           Козлов
+          </name>
          </reg>
          <orig>
           Козловъ
@@ -28030,7 +28587,11 @@
            </ref>
           </head>
           <p id="7ea2cde0-91ee-49ed-bf5e-a5c85517ff73" rend="left">
-           [Окончание рисунка нижней части стола. Козлов плакал, так как потерял свою тетрадку.]
+           [Окончание рисунка нижней части стола.
+           <name placement="note" ref="6624" type="person">
+            Козлов
+           </name>
+           плакал, так как потерял свою тетрадку.]
           </p>
          </div>
         </note>
@@ -28061,7 +28622,9 @@
        <p id="fd262fee-2b54-4cdf-97ee-9c5af25b5e55" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9277" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -28500,7 +29063,10 @@
           путешествiя
          </orig>
         </choice>
-        Парлея. Во время урока
+        <name placement="text" ref="10517" type="person">
+         Парлея
+        </name>
+        . Во время урока
         <choice>
          <reg>
           прибыл
@@ -28585,7 +29151,9 @@
        <p id="134d9227-d2bd-40a1-a9fc-47177fb04831" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9277" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -28642,10 +29210,14 @@
      <row>
       <cell>
        <p id="93f9fca7-77fb-480f-b11c-340d26452cde" rend="normal left">
-        Р.
+        <name placement="text" ref="1568" type="person">
+         Р.
+        </name>
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -28735,7 +29307,9 @@
        <p id="a7574439-5ee9-4c37-b152-6ab02ce8b484" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14639" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Фокановъ
@@ -29130,7 +29704,11 @@
       </cell>
       <cell rend="rowspan:14">
        <p id="a4ca1b5a-bcc6-4b5d-9f18-6dd82fd96162" rend="normal notindent">
-        Читали сказски Худякова, очень
+        Читали сказски
+        <name placement="text" ref="15035" type="person">
+         Худякова
+        </name>
+        , очень
         <choice>
          <reg>
           немногие
@@ -29306,7 +29884,9 @@
        <p id="8c7942b6-e04a-4f79-b8d5-f82da156502f" rend="normal left">
         <choice>
          <reg>
-          Резунов
+          <name placement="text" ref="11605" type="person">
+           Резунов
+          </name>
          </reg>
          <orig>
           Рѣзуновъ
@@ -29421,7 +30001,9 @@
        <p id="c73ed565-457d-4b6b-a430-10eb43cb29b7" rend="normal left">
         <choice>
          <reg>
-          Арбузов
+          <name placement="text" ref="610" type="person">
+           Арбузов
+          </name>
          </reg>
          <orig>
           Арбузовъ
@@ -29627,7 +30209,9 @@
        <p id="3d2e5898-1d4f-4754-90ab-d252423bb3a1" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14633" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Фокановъ
@@ -29671,7 +30255,9 @@
        <p id="cfbdda8b-0814-4803-9d8d-c83dfbb02be4" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -29850,7 +30436,11 @@
        </head>
        <p id="bd452363-e463-4e87-ba9a-b136c8061719" rend="left">
         <hi rend="italic">
-         Запись о чтении сделана Морозовым.
+         Запись о чтении сделана
+         <name placement="note" ref="9277" type="person">
+          Морозовым
+         </name>
+         .
         </hi>
        </p>
       </div>
@@ -30081,7 +30671,9 @@
        <p id="4d1a4f47-1f50-471c-96d0-5a2e086631e9" rend="normal left">
         <choice>
          <reg>
-          Цветков
+          <name placement="text" ref="15064" type="person">
+           Цветков
+          </name>
          </reg>
          <orig>
           Цвѣтковъ
@@ -30294,7 +30886,11 @@
           разсказывали
          </orig>
         </choice>
-        сказски Худякова. Со
+        сказски
+        <name placement="text" ref="15035" type="person">
+         Худякова
+        </name>
+        . Со
         <choice>
          <reg>
           всеми
@@ -30438,7 +31034,9 @@
         Wiederholung der Entwickelung für die Winkelsumme des Vieleckes, weil
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9277" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -30489,7 +31087,11 @@
            [Ученики решали некоторые задачи относительно суммы углов в различных фигурах.
           </p>
           <p id="5c24d265-584c-4acf-b266-e34474b3323d" rend="normal left">
-           Повторение вывода относительно суммы углов многоугольника, так как Морозов и Макаров вчера обучали младшие классы.]
+           Повторение вывода относительно суммы углов многоугольника, так как
+           <name placement="note" ref="9277" type="person">
+            Морозов
+           </name>
+           и Макаров вчера обучали младшие классы.]
           </p>
          </div>
         </note>
@@ -30501,7 +31103,9 @@
        <p id="e31c32ad-f617-4bf5-9952-1402eddc8665" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9277" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -30629,7 +31233,9 @@
        <p id="2cd44ccb-de1e-407a-b327-d78a607e97a3" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="5597" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -30983,7 +31589,9 @@
         Учитель
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -31201,7 +31809,9 @@
         . Учитель
         <choice>
          <reg>
-          Чернов
+          <name placement="text" ref="15241" type="person">
+           Чернов
+          </name>
          </reg>
          <orig>
           Черновъ
@@ -31304,7 +31914,9 @@
        <p id="5f3baabc-0b5d-42e3-8af1-d7a26c61a7c3" rend="normal left">
         <choice>
          <reg>
-          Морозов
+          <name placement="text" ref="9269" type="person">
+           Морозов
+          </name>
          </reg>
          <orig>
           Морозовъ
@@ -31342,7 +31954,9 @@
        <p id="8d656be4-2c50-454f-9a17-a7ec65a3cd1a" rend="normal left">
         <choice>
          <reg>
-          Богданов
+          <name placement="text" ref="1568" type="person">
+           Богданов
+          </name>
          </reg>
          <orig>
           Богдановъ
@@ -31361,7 +31975,9 @@
        <p id="16178978-e1f8-48e5-879a-577c42f5eb93" rend="normal left">
         <choice>
          <reg>
-          Иванов
+          <name placement="text" ref="14633" type="person">
+           Иванов
+          </name>
          </reg>
          <orig>
           Ивановъ
@@ -31419,7 +32035,9 @@
        <p id="92a2c041-e1ae-4f44-bd9e-a653b2fd06ea" rend="normal left">
         <choice>
          <reg>
-          Фоканов
+          <name placement="text" ref="14633" type="person">
+           Фоканов
+          </name>
          </reg>
          <orig>
           Фокановъ
@@ -31438,7 +32056,9 @@
        <p id="55ecea45-cb1c-4394-bc93-f50461e33137" rend="normal left">
         <choice>
          <reg>
-          Румянцев
+          <name placement="text" ref="11948" type="person">
+           Румянцев
+          </name>
          </reg>
          <orig>
           Румянцевъ
@@ -31489,7 +32109,9 @@
        <p id="fd983e78-09ed-48e6-bd9f-8c2ae8724f87" rend="normal left">
         <choice>
          <reg>
-          Жданов
+          <name placement="text" ref="5058" type="person">
+           Жданов
+          </name>
          </reg>
          <orig>
           Ждановъ

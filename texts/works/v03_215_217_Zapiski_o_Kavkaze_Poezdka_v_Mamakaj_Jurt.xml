@@ -1,105 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v03_215_217_Zapiski_o_Kavkaze_Poezdka_v_Mamakaj_Jurt">
-                    [«Записки о Кавказе. Поездка в Мамакай-Юрт»]. Tolstoy Digital
-                </title>
-                <title type="main">Записки о Кавказе. Поездка в Мамакай-Юрт</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d18498f2-9feb-47c9-817e-35d2a60b551f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [«Записки о Кавказе. Поездка в Мамакай-Юрт»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 3
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">3</biblScope>
-                        <biblScope unit="page">215-217</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1852"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v03_215_217_Zapiski_o_Kavkaze_Poezdka_v_Mamakaj_Jurt">
+     [«Записки о Кавказе. Поездка в Мамакай-Юрт»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Записки о Кавказе. Поездка в Мамакай-Юрт
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d18498f2-9feb-47c9-817e-35d2a60b551f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [«Записки о Кавказе. Поездка в Мамакай-Юрт»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 3
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       3
+      </biblScope>
+      <biblScope unit="page">
+       215-217
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="e8f104f1-f03d-4379-97e1-dc111fed7b1d">
@@ -489,7 +499,9 @@
       <corr>
        <choice>
         <reg>
-         Марлинского
+         <name placement="text" ref="8563" type="person">
+          Марлинского
+         </name>
         </reg>
         <orig>
          Марлинскаго
@@ -572,7 +584,10 @@
        сочиненiя
       </orig>
      </choice>
-     Лермонтова.
+     <name placement="text" ref="7826" type="person">
+      Лермонтова
+     </name>
+     .
      <choice>
       <reg>
        Вот
@@ -858,7 +873,9 @@
       <corr>
        <choice>
         <reg>
-         Марлинского
+         <name placement="text" ref="8563" type="person">
+          Марлинского
+         </name>
         </reg>
         <orig>
          Марлинскаго
@@ -872,7 +889,9 @@
        Л
       </sic>
       <corr>
-       Лермонтова
+       <name placement="text" ref="7826" type="person">
+        Лермонтова
+       </name>
       </corr>
      </choice>
      , но
@@ -1385,7 +1404,10 @@
           котораго
          </orig>
         </choice>
-        изгнаны подданные Шамиля
+        изгнаны подданные
+        <name placement="note" ref="15416" type="person">
+         Шамиля
+        </name>
        </p>
       </div>
      </note>
