@@ -1,107 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v31_115_184_I_svet_vo_tme_svetit">
-                    И свет во тьме светит. Tolstoy Digital
-                </title>
-                <title type="main">И свет во тьме светит</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="b4225e52-ad5b-4851-ab0f-cd7b2b60a70c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            И свет во тьме светит
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 31
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="volume">31</biblScope>
-                        <biblScope unit="page">115-184</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1896—1897, 1900
-                </date>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v31_115_184_I_svet_vo_tme_svetit">
+     И свет во тьме светит. Tolstoy Digital
+    </title>
+    <title type="main">
+     И свет во тьме светит
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="b4225e52-ad5b-4851-ab0f-cd7b2b60a70c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       И свет во тьме светит
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 31
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="volume">
+       31
+      </biblScope>
+      <biblScope unit="page">
+       115-184
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1896—1897, 1900
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013">
     <p id="b09aea1a-ee86-4a06-80a9-9f2899fe26ba">
@@ -1089,7 +1099,11 @@
      <hi rend="Razradka">
       Священник.
      </hi>
-     А это г-на Ренана, так сказать, сочинение, «Жизнь Иисуса».
+     А это г-на
+     <name placement="text" ref="11638" type="person">
+      Ренана
+     </name>
+     , так сказать, сочинение, «Жизнь Иисуса».
     </p>
     <p id="777cf69d-df02-461d-9b7d-07c2cb3cbbd1" rend="left">
      <hi rend="Razradka">
@@ -1113,7 +1127,11 @@
      <hi rend="italic">
       (презрительно)
      </hi>
-     . Николай Иванович вам дал прочесть. Что же, вы согласны с Николаем Ивановичем и с господином Ренаном?
+     . Николай Иванович вам дал прочесть. Что же, вы согласны с Николаем Ивановичем и с господином
+     <name placement="text" ref="11638" type="person">
+      Ренаном
+     </name>
+     ?
     </p>
     <p id="271404e6-61cb-4042-b5f1-e0ce2e81afee" rend="left">
      <hi rend="Razradka">
@@ -1342,7 +1360,11 @@
      <hi rend="Razradka">
       Александра Ивановна.
      </hi>
-     Какая же это религия, когда он в церковь не ходит и не признает таинства. А вы, вместо того чтобы образумить его, читаете с ним Ренана и толкуете по-своему евангелие.
+     Какая же это религия, когда он в церковь не ходит и не признает таинства. А вы, вместо того чтобы образумить его, читаете с ним
+     <name placement="text" ref="11638" type="person">
+      Ренана
+     </name>
+     и толкуете по-своему евангелие.
     </p>
     <p id="004d2a20-9aea-46c7-a23d-a58d92621e64" rend="left">
      <hi rend="Razradka">
@@ -1357,7 +1379,11 @@
      <hi rend="Razradka">
       Александра Ивановна.
      </hi>
-     Ох, кабы я была архиерей, я бы вас научила Ренана читать и папироски курить.
+     Ох, кабы я была архиерей, я бы вас научила
+     <name placement="text" ref="11638" type="person">
+      Ренана
+     </name>
+     читать и папироски курить.
     </p>
     <p id="984a11c4-eca9-43ec-933d-9f448ecfb526" rend="left">
      <hi rend="Razradka">
@@ -2107,7 +2133,11 @@
      <hi rend="italic">
       (К священнику.)
      </hi>
-     Я думал, что Ренан для вас мало убедителен...
+     Я думал, что
+     <name placement="text" ref="11638" type="person">
+      Ренан
+     </name>
+     для вас мало убедителен...
     </p>
     <p id="fe701b75-fd57-4e41-b2a8-82e26c402bae" rend="left">
      <hi rend="Razradka">
@@ -4432,7 +4462,11 @@
        Тоня
       </ref>
      </hi>
-     сыграла Шумана сонату и сидит за роялем. У рояля стоит
+     сыграла
+     <name placement="text" ref="15827" type="person">
+      Шумана
+     </name>
+     сонату и сидит за роялем. У рояля стоит
      <hi rend="Razradka">
       Степа
      </hi>
@@ -4491,7 +4525,10 @@
      <hi rend="Razradka">
       Люба.
      </hi>
-     Шуман хорош, но все-таки Chopin больше хватает за сердце.
+     <name placement="text" ref="15827" type="person">
+      Шуман
+     </name>
+     хорош, но все-таки Chopin больше хватает за сердце.
     </p>
     <p id="c00a2341-65a9-475b-9443-2a0ae92f15e9" rend="left">
      <hi rend="Razradka">
@@ -4810,7 +4847,11 @@
      <hi rend="italic">
       моем
      </hi>
-     лесу срубил весной одну из ста тысяч [елок], которые растут там. А мы здесь обмытые, одетые, бросив по спальням наши нечистоты на заботу рабов, едим, пьем, рассуждаем про Шумана и Chopin, который больше нас трогает, разгоняет нашу скуку. Я думал это, проходя мимо вас, и потому сказал вам. Ну подумайте, разве можно так жить.
+     лесу срубил весной одну из ста тысяч [елок], которые растут там. А мы здесь обмытые, одетые, бросив по спальням наши нечистоты на заботу рабов, едим, пьем, рассуждаем про
+     <name placement="text" ref="15827" type="person">
+      Шумана
+     </name>
+     и Chopin, который больше нас трогает, разгоняет нашу скуку. Я думал это, проходя мимо вас, и потому сказал вам. Ну подумайте, разве можно так жить.
      <hi rend="italic">
       (Стоит волнуясь.)
      </hi>
@@ -4831,7 +4872,11 @@
      <hi rend="Razradka">
       Степа.
      </hi>
-     Отчего? Я не вижу, почему нельзя говорить про Шумана, если народ беден. Одно не исключает другого. Если люди......
+     Отчего? Я не вижу, почему нельзя говорить про
+     <name placement="text" ref="15827" type="person">
+      Шумана
+     </name>
+     , если народ беден. Одно не исключает другого. Если люди......
     </p>
     <p id="0a053c0f-7ad2-49ef-9610-0ad316f23223" rend="left">
      <hi rend="Razradka">
@@ -9398,7 +9443,11 @@
      читает евангелие. Толкует.
     </p>
     <p id="0fdae80f-b917-416c-a8ab-637a073b6f89" rend="left">
-     Вводят наказанного. Ах нет на вас Пугачева. Врывается
+     Вводят наказанного. Ах нет на вас
+     <name placement="text" ref="11366" type="person">
+      Пугачева
+     </name>
+     . Врывается
      <choice original_editorial_correction="кн[ягиня]">
       <sic>
        кн

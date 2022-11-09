@@ -1,106 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v27_370_388_Tretja_nezakonchennaja_redaktsija_Krejtserovoj_sonaty">
-                    Третья (незаконченная) редакция «Крейцеровой сонаты». Tolstoy Digital
-                </title>
-                <title type="main">Крейцерова соната.</title>
-                <title type="sub">Третья (незаконченная) редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="69e79eed-ce8b-4cca-bfb2-8499a0844c98">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Третья (незаконченная) редакция «Крейцеровой сонаты»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 27
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">27</biblScope>
-                        <biblScope unit="page">370-388</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1887" to="1889"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v27_370_388_Tretja_nezakonchennaja_redaktsija_Krejtserovoj_sonaty">
+     Третья (незаконченная) редакция «Крейцеровой сонаты». Tolstoy Digital
+    </title>
+    <title type="main">
+     Крейцерова соната.
+    </title>
+    <title type="sub">
+     Третья (незаконченная) редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="69e79eed-ce8b-4cca-bfb2-8499a0844c98">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Третья (незаконченная) редакция «Крейцеровой сонаты»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 27
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       27
+      </biblScope>
+      <biblScope unit="page">
+       370-388
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1887" to="1889"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000014">
     <p id="4290f115-8725-4c88-a0a8-256631166ef9">
@@ -14432,7 +14444,15 @@
        разъ
       </orig>
      </choice>
-     сонату Бетховена, посвященную Крейцеру. Какая ужасная вещь это 1-е аллегро. Никогда я не
+     сонату
+     <name placement="text" ref="1377" type="person">
+      Бетховена
+     </name>
+     , посвященную
+     <name placement="text" ref="7139" type="person">
+      Крейцеру
+     </name>
+     . Какая ужасная вещь это 1-е аллегро. Никогда я не
      <choice>
       <reg>
        видел
@@ -16770,7 +16790,11 @@
        </p>
       </div>
      </note>
-     Я обсудилъ свое прошедшее влюбленье. Въ немъ было безумное превознесенiе себя и ея, именно ея, надо всѣми, но дѣвушка, какъ дѣвушка, сама по себѣ, ее нельзя не любить. Только дѣло въ томъ, что мы, мущины, входя въ общеніе съ ней, вмѣсто того чтобы понять свою низость, свою гадость, вмѣсто того чтобы стараться подняться до нея, мы ее хотимъ развить, научить. Ну и научаемъ. Я теперь только вспоминаю ее, какою она была, когда я сталъ сближаться съ нею. Помню ея дневникъ, который я почти насильно отнялъ у нея, ея философствованіе, исканіе истины, а главное, ея готовность отдаться другому и жить не для себя. Еще прежде того дня на лодкѣ, когда я еще не былъ женихомъ, я проводилъ у нихъ вечеръ. Были ея сестры и еще одна дѣвушка. Помню, читали «Мертвый домъ» Достоевского — описаніе наказанія шпицрутенами. Кончили главу въ молчаніи. Одна спросила:
+     Я обсудилъ свое прошедшее влюбленье. Въ немъ было безумное превознесенiе себя и ея, именно ея, надо всѣми, но дѣвушка, какъ дѣвушка, сама по себѣ, ее нельзя не любить. Только дѣло въ томъ, что мы, мущины, входя въ общеніе съ ней, вмѣсто того чтобы понять свою низость, свою гадость, вмѣсто того чтобы стараться подняться до нея, мы ее хотимъ развить, научить. Ну и научаемъ. Я теперь только вспоминаю ее, какою она была, когда я сталъ сближаться съ нею. Помню ея дневникъ, который я почти насильно отнялъ у нея, ея философствованіе, исканіе истины, а главное, ея готовность отдаться другому и жить не для себя. Еще прежде того дня на лодкѣ, когда я еще не былъ женихомъ, я проводилъ у нихъ вечеръ. Были ея сестры и еще одна дѣвушка. Помню, читали «Мертвый домъ»
+     <name placement="text" ref="4597" type="person">
+      Достоевского
+     </name>
+     — описаніе наказанія шпицрутенами. Кончили главу въ молчаніи. Одна спросила:
     </p>
     <p id="c3550d08-2775-4698-94da-c5df9be2439f" rend="left">
      —

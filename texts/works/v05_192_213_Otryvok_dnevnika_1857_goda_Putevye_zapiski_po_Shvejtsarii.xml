@@ -1,106 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v05_192_213_Otryvok_dnevnika_1857_goda_Putevye_zapiski_po_Shvejtsarii">
-                    Отрывок дневника 1857 года [Путевые записки по Швейцарии]. Tolstoy Digital
-                </title>
-                <title type="main">Отрывок дневника 1857 года.</title>
-                <title type="sub">Путевые записки по Швейцарии</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d431c305-dd90-4c17-beea-250bff3082d5">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Отрывок дневника 1857 года [Путевые записки по Швейцарии]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 5
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">5</biblScope>
-                        <biblScope unit="page">192-213</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1857"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_192_213_Otryvok_dnevnika_1857_goda_Putevye_zapiski_po_Shvejtsarii">
+     Отрывок дневника 1857 года [Путевые записки по Швейцарии]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Отрывок дневника 1857 года.
+    </title>
+    <title type="sub">
+     Путевые записки по Швейцарии
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d431c305-dd90-4c17-beea-250bff3082d5">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Отрывок дневника 1857 года [Путевые записки по Швейцарии]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       192-213
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1857"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref11">
     <p id="93f175c9-8006-45ff-a0d9-0407be80f0af">
@@ -161,7 +173,10 @@
        пансiонѣ
       </orig>
      </choice>
-     Кетерера. Я давно уже сбирался идти
+     <name placement="text" ref="6347" type="person">
+      Кетерера
+     </name>
+     . Я давно уже сбирался идти
      <choice>
       <reg>
        пешком
@@ -428,7 +443,11 @@
        насъ
       </orig>
      </choice>
-     трудолюбивые муравьи Кетереры.
+     трудолюбивые муравьи
+     <name placement="text" ref="6347" type="person">
+      Кетереры
+     </name>
+     .
     </p>
     <p id="6618b6b1-dcdc-42f9-b33e-e4cda9488bbd" rend="left">
      Долго я пытался достигнуть акуратности
@@ -1000,7 +1019,9 @@
      . Благодарный
      <choice>
       <reg>
-       Кетерер
+       <name placement="text" ref="6347" type="person">
+        Кетерер
+       </name>
       </reg>
       <orig>
        Кетереръ
@@ -1349,7 +1370,9 @@
       <corr>
        <choice>
         <reg>
-         Пущиных
+         <name placement="text" ref="11409" type="person">
+          Пущиных
+         </name>
         </reg>
         <orig>
          Пущиныхъ
@@ -3806,7 +3829,11 @@
        томъ
       </orig>
      </choice>
-     , чтобы Саша (мой
+     , чтобы
+     <name placement="text" ref="10970" type="person">
+      Саша
+     </name>
+     (мой
      <choice>
       <reg>
        спутник
@@ -9933,7 +9960,11 @@
        безпокоился
       </orig>
      </choice>
-     , но Саша, которому я
+     , но
+     <name placement="text" ref="10970" type="person">
+      Саша
+     </name>
+     , которому я
      <choice>
       <reg>
        сообщил
@@ -12060,7 +12091,10 @@
        исторiю
       </orig>
      </choice>
-     Женевьевы, брошенной
+     <name placement="text" ref="5093" type="person">
+      Женевьевы
+     </name>
+     , брошенной
      <choice>
       <reg>
        в
@@ -16076,7 +16110,10 @@
        твердилъ
       </orig>
      </choice>
-     про него. — А Саша
+     про него. — А
+     <name placement="text" ref="10970" type="person">
+      Саша
+     </name>
      <choice>
       <reg>
        хохотал

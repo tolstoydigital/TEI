@@ -1,106 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v40_451_465_Mysli_mudryh_ljudej_na_kazhdyj_den_Novaja_redaktsija">
-                    [Новая редакция «Мыслей мудрых людей на каждый день»]. Tolstoy Digital
-                </title>
-                <title type="main">Мыслей мудрых людей на каждый день.</title>
-                <title type="sub">Новая редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c32e86dd-f101-475a-a085-1a87ae87ce9e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Новая редакция «Мыслей мудрых людей на каждый день»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 40
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">40</biblScope>
-                        <biblScope unit="page">451-465</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1903"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v40_451_465_Mysli_mudryh_ljudej_na_kazhdyj_den_Novaja_redaktsija">
+     [Новая редакция «Мыслей мудрых людей на каждый день»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Мыслей мудрых людей на каждый день.
+    </title>
+    <title type="sub">
+     Новая редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c32e86dd-f101-475a-a085-1a87ae87ce9e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Новая редакция «Мыслей мудрых людей на каждый день»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 40
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       40
+      </biblScope>
+      <biblScope unit="page">
+       451-465
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1903"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000007003">
     <p id="9092d90f-fe0d-4ca5-92bc-d8724ae88f1c">
@@ -205,7 +217,10 @@
     </p>
     <p id="ca8074d2-d4b4-42d5-997d-d2cff0209e7a" rend="right">
      <hi rend="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -229,7 +244,10 @@
     </p>
     <p id="a9c401ee-9695-4c04-b1df-ad191f85699a" rend="right">
      <hi rend="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -448,7 +466,10 @@
     </p>
     <p id="07283bd6-8068-4ee1-ac00-ff0e3654cee8" rend="right">
      <hi rend="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -584,7 +605,10 @@
     </p>
     <p id="15afeaff-880e-4ade-bd38-c348f446434f" rend="right">
      <hi rend="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -605,7 +629,10 @@
     </p>
     <p id="eb34bd1c-1524-4b4b-a41e-862fcec4d090" rend="right">
      <hi rend="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -816,7 +843,10 @@
     </p>
     <p id="02edea05-3b01-4c71-9163-b97d03edcae6" rend="right">
      <hi rend="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -934,7 +964,10 @@
     </p>
     <p id="6dc0e634-d5dd-41e4-9027-6fd382efea3c" rend="right">
      <hi rend="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -1143,7 +1176,10 @@
     </p>
     <p id="364dc60d-7545-42f8-9a20-47c26acbab3a" rend="right">
      <hi rend="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -1256,7 +1292,10 @@
     </p>
     <p id="817fd632-733d-4b54-9a52-a5cb78fd2e7a" rend="right">
      <hi rend="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </hi>
     </p>
     <lb/>
@@ -1280,7 +1319,10 @@
     </p>
     <p id="4f71647f-edae-462c-8e1b-949828ea88f2" rend="right">
      <hi rend="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </hi>
     </p>
     <lb/>
