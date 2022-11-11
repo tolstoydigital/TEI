@@ -1,112 +1,124 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v40_069_216_Mysli_mudryh_ljudej_na_kazhdyj_den">
-                    Мысли мудрых людей на каждый день. Tolstoy Digital
-                </title>
-                <title type="main">Мысли мудрых людей на каждый день.</title>
-                <title type="sub">Собраны Л. Н. Толстым</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="15c6e463-c129-4ffb-9bc0-6484da65bf3c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Мысли мудрых людей на каждый день
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 40
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956-01-01"/>
-                        </imprint>
-                        <biblScope unit="volume">40</biblScope>
-                        <biblScope unit="page">69-216</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1903-01-01"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v40_069_216_Mysli_mudryh_ljudej_na_kazhdyj_den">
+     Мысли мудрых людей на каждый день. Tolstoy Digital
+    </title>
+    <title type="main">
+     Мысли мудрых людей на каждый день.
+    </title>
+    <title type="sub">
+     Собраны Л. Н. Толстым
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="15c6e463-c129-4ffb-9bc0-6484da65bf3c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Мысли мудрых людей на каждый день
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 40
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956-01-01"/>
+      </imprint>
+      <biblScope unit="volume">
+       40
+      </biblScope>
+      <biblScope unit="page">
+       69-216
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1903-01-01"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000005004">
     <p id="d826ff67-c82f-4944-ac5c-02f8b1dcc531">
      <pb n="69"/>
     </p>
-    <p id="7c67c7c5-ef82-499d-83b1-72bb80007df2">
+    <p id="93bc2291-4702-4ded-bcdc-23adda1bfd97">
       <head rend="center center center">
         <hi>
       МЫСЛИ МУДРЫХ ЛЮДЕЙ
@@ -136,29 +148,113 @@
      1
     </p>
     <p id="2e190096-5580-4541-9ec7-742801dc6ca4" rend="left">
-     Однажды зимой Франциск шел с братом Львом из Перузы к Порционкюлю; было так холодно, что они дрожали от стужи. Франциск позвал брата Льва, который шел впереди, и сказал ему: «О брат Лев, дай бог, чтобы наши братья подавали по всей земле пример святой жизни; запиши, однако, что не в этом радость совершенная».
+     Однажды зимой
+     <name placement="text" ref="14723" type="person">
+      Франциск
+     </name>
+     шел с братом
+     <name placement="text" ref="7702" type="person">
+      Львом
+     </name>
+     из Перузы к Порционкюлю; было так холодно, что они дрожали от стужи.
+     <name placement="text" ref="14723" type="person">
+      Франциск
+     </name>
+     позвал брата
+     <name placement="text" ref="7702" type="person">
+      Льва
+     </name>
+     , который шел впереди, и сказал ему: «О брат
+     <name placement="text" ref="7702" type="person">
+      Лев
+     </name>
+     , дай бог, чтобы наши братья подавали по всей земле пример святой жизни; запиши, однако, что не в этом радость совершенная».
     </p>
     <p id="f68a7a27-23c9-46a9-af5d-8e37bedc5f51" rend="left">
-     Пройдя немного далее, Франциск опять позвал брата Льва.
+     Пройдя немного далее,
+     <name placement="text" ref="14723" type="person">
+      Франциск
+     </name>
+     опять позвал брата
+     <name placement="text" ref="7702" type="person">
+      Льва
+     </name>
+     .
     </p>
     <p id="820425df-1923-4819-8ba1-43f847037101" rend="left">
-     «И запиши еще, брат Лев, что если наши братья будут исцелять больных, изгонять бесов, будут делать слепых зрячими или будут воскрешать четырехдневно умерших, — запиши, что и в этом не будет радости совершенной».
+     «И запиши еще, брат
+     <name placement="text" ref="7702" type="person">
+      Лев
+     </name>
+     , что если наши братья будут исцелять больных, изгонять бесов, будут делать слепых зрячими или будут воскрешать четырехдневно умерших, — запиши, что и в этом не будет радости совершенной».
     </p>
     <p id="d754045b-6b5d-426c-98d3-663d683c1490" rend="left">
-     И пройдя еще далее, Франциск сказал Льву: «Запиши еще, брат Лев, что если бы наши братья знали все языки, все науки и все писания, если бы они пророчествовали не только про будущее, но знали бы все тайны совести и души, — запиши, что и в этом нет радости совершенной».
+     И пройдя еще далее,
+     <name placement="text" ref="14723" type="person">
+      Франциск
+     </name>
+     сказал
+     <name placement="text" ref="7702" type="person">
+      Льву
+     </name>
+     : «Запиши еще, брат
+     <name placement="text" ref="7702" type="person">
+      Лев
+     </name>
+     , что если бы наши братья знали все языки, все науки и все писания, если бы они пророчествовали не только про будущее, но знали бы все тайны совести и души, — запиши, что и в этом нет радости совершенной».
     </p>
     <p id="d1e28907-30c5-4b92-b91e-504586202db5" rend="left">
-     Пройдя еще далее, Франциск опять позвал Льва и сказал: «И еще запиши, брат Лев, овечка божия, что если бы мы научились говорить на языках ангельских, если бы узнали течение звезд, и если бы нам открылись все клады земли, и мы познали бы все тайны жизней птиц, рыб, всех животных, людей, деревьев, камней и вод, — запиши, что и это не было бы радостью совершенною».
+     Пройдя еще далее,
+     <name placement="text" ref="14723" type="person">
+      Франциск
+     </name>
+     опять позвал
+     <name placement="text" ref="7702" type="person">
+      Льва
+     </name>
+     и сказал: «И еще запиши, брат
+     <name placement="text" ref="7702" type="person">
+      Лев
+     </name>
+     , овечка божия, что если бы мы научились говорить на языках ангельских, если бы узнали течение звезд, и если бы нам открылись все клады земли, и мы познали бы все тайны жизней птиц, рыб, всех животных, людей, деревьев, камней и вод, — запиши, что и это не было бы радостью совершенною».
     </p>
     <p id="d13e0789-0580-4b2d-9b38-a1f90661295e" rend="left">
-     И пройдя еще немного, Франциск опять позвал брата Льва и сказал ему: «Запиши еще, что если бы мы были такими проповедниками, что обратили бы всех язычников в веру Христа, — запиши, что и в этом не было бы радости совершенной».
+     И пройдя еще немного,
+     <name placement="text" ref="14723" type="person">
+      Франциск
+     </name>
+     опять позвал брата
+     <name placement="text" ref="7702" type="person">
+      Льва
+     </name>
+     и сказал ему: «Запиши еще, что если бы мы были такими проповедниками, что обратили бы всех язычников в веру Христа, — запиши, что и в этом не было бы радости совершенной».
     </p>
     <p id="732efe26-5c15-424d-804c-507a4647a290" rend="left">
      <pb n="70"/>
-     Тогда брат Лев сказал Франциску: «В чем же, брат Франциск, радость совершенная?»
+     Тогда брат
+     <name placement="text" ref="7702" type="person">
+      Лев
+     </name>
+     сказал
+     <name placement="text" ref="14723" type="person">
+      Франциску
+     </name>
+     : «В чем же, брат
+     <name placement="text" ref="14723" type="person">
+      Франциск
+     </name>
+     , радость совершенная?»
     </p>
     <p id="0c89ba90-84d6-4217-b707-03867dbd8296" rend="left">
-     И Франциск отвечал: «А вот в чем. В том, что если, когда мы придем в Порционкюль грязные, мокрые, окоченелые от холода и голодные и попросимся пустить нас, а привратник скажет нам: «Что вы, бродяги, шатаетесь по свету, соблазняете народ, крадете милостыню бедных людей, убирайтесь отсюда!» — и не отворит нам. И если мы тогда не обидимся и со смирением и любовью подумаем, что привратник прав, что сам бог внушил ему так поступить с нами, и мокрые, холодные и голодные пробудем в снегу и в воде до утра без ропота на привратника, тогда, брат Лев, только тогда будет радость совершенная».
+     И
+     <name placement="text" ref="14723" type="person">
+      Франциск
+     </name>
+     отвечал: «А вот в чем. В том, что если, когда мы придем в Порционкюль грязные, мокрые, окоченелые от холода и голодные и попросимся пустить нас, а привратник скажет нам: «Что вы, бродяги, шатаетесь по свету, соблазняете народ, крадете милостыню бедных людей, убирайтесь отсюда!» — и не отворит нам. И если мы тогда не обидимся и со смирением и любовью подумаем, что привратник прав, что сам бог внушил ему так поступить с нами, и мокрые, холодные и голодные пробудем в снегу и в воде до утра без ропота на привратника, тогда, брат
+     <name placement="text" ref="7702" type="person">
+      Лев
+     </name>
+     , только тогда будет радость совершенная».
     </p>
     <br/>
     <p id="026fc039-4d0c-473d-bdc9-8b3513caf49e" rend="subtitle centerline">
@@ -255,7 +351,10 @@
     </p>
     <p id="300dea88-9848-4620-b481-fff7ba300eef" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -276,7 +375,10 @@
     </p>
     <p id="35c63bad-e8cd-4bfc-add5-bd9a5516620c" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -288,7 +390,10 @@
     </p>
     <p id="34f16e38-5a03-44fb-b7bb-fef581220cb1" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -404,7 +509,10 @@
     </p>
     <p id="20b5108e-e6af-48de-bebc-1faaa6c2aca6" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -434,7 +542,10 @@
     </p>
     <p id="82e7a75a-04ec-4118-ad70-9b031a66100e" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="2129972e-6fc2-4bf3-9d37-8ae7645e1ad2" rend="left">
@@ -442,7 +553,10 @@
     </p>
     <p id="eb527155-8630-42b8-b9d7-b2f6e4b52570" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -475,7 +589,10 @@
     </p>
     <p id="1d151f30-ad66-4e40-91e9-2804984b4985" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -535,7 +652,10 @@
     </p>
     <p id="5f142240-4f11-406b-b93c-289cca796973" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -593,7 +713,10 @@
     </p>
     <p id="cba4d142-547c-4656-8f71-360ddb635c10" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -645,7 +768,10 @@
     </p>
     <p id="d1bbeddb-a90e-440c-8913-522a96b2aef2" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -668,7 +794,10 @@
     </p>
     <p id="dc6f5f75-62a7-4524-844a-eb8b063ba111" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -683,7 +812,10 @@
     </p>
     <p id="c0508b08-219c-4023-948d-6ececb019250" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -739,7 +871,10 @@
     </p>
     <p id="e76a737a-ef79-4eb9-b723-ede54260485b" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -748,7 +883,10 @@
     </p>
     <p id="19cf9948-285b-4640-813e-9e370c6c7fe1" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -778,7 +916,10 @@
     </p>
     <p id="d6306795-5e67-4568-8088-74c277b72079" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -839,7 +980,10 @@
     </p>
     <p id="3e081ed9-30e9-44b7-b34f-825215a2ec7b" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="9940827b-99da-4d12-9b17-733edaec519d" rend="left">
@@ -872,7 +1016,10 @@
     </p>
     <p id="95303531-e7a6-4aea-8175-f1f8e2a04f67" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -946,7 +1093,10 @@
     </p>
     <p id="e326e9aa-2b7b-4cbc-bde0-34a5457d94e6" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1030,7 +1180,10 @@
     </p>
     <p id="6ab16fe1-e02f-4f34-9feb-0a21df6ee342" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1042,7 +1195,10 @@
     </p>
     <p id="b499a265-e704-48ca-a473-66e1437d64af" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1111,7 +1267,10 @@
     </p>
     <p id="41a07850-1901-4c1a-bce2-3931ea5d91ec" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1158,7 +1317,10 @@
     </p>
     <p id="e2be580b-3ac2-4848-b5f7-e7edfe3614c2" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1188,7 +1350,10 @@
     </p>
     <p id="f6ad91ab-eb9a-4e5f-b321-7937dd78d57c" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1197,7 +1362,10 @@
     </p>
     <p id="78cdbfb8-6d60-4453-ad88-7b32d66e3a3c" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1286,7 +1454,11 @@
     </p>
     <p id="6406519d-73c8-4fd3-8e64-728a70087efb" rend="right">
      <span class="hi" data-attribute="italic">
-      Браминская мудрость (Рамакришна).
+      Браминская мудрость (
+      <name placement="text" ref="11518" type="person">
+       Рамакришна
+      </name>
+      ).
      </span>
     </p>
     <br/>
@@ -1325,7 +1497,10 @@
     </p>
     <p id="8a7e7c5b-968c-4960-b720-c3dcbd62f0dc" rend="right">
      <span class="hi" data-attribute="italic">
-      Жан-Поль Рихтер.
+      <name placement="text" ref="11720" type="person">
+       Жан-Поль Рихтер
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1387,7 +1562,10 @@
     </p>
     <p id="fc4460e4-30b6-4454-9890-1b17a900d3c6" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1399,7 +1577,10 @@
     </p>
     <p id="7839f758-e90a-42d5-9bda-eb0ece110e48" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1475,7 +1656,10 @@
     </p>
     <p id="eb413590-25ee-4676-bc32-11afb1c32fa8" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1493,7 +1677,11 @@
     </p>
     <p id="beca239d-2fda-434e-94b7-308b12b1ffde" rend="right">
      <span class="hi" data-attribute="italic">
-      Браминская мудрость (Рамакришна).
+      Браминская мудрость (
+      <name placement="text" ref="11518" type="person">
+       Рамакришна
+      </name>
+      ).
      </span>
     </p>
     <p id="0032b192-9450-417d-a6dd-7f9ee13d193a" rend="left">
@@ -1613,7 +1801,10 @@
     </p>
     <p id="d101320b-78b0-49ac-9003-f6302e5a9ba5" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1625,7 +1816,10 @@
     </p>
     <p id="de2faeb1-af44-4b74-a348-c4a04b309a3f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1643,7 +1837,10 @@
     </p>
     <p id="b6238f57-57f1-4166-a800-3ba0b49e8448" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1655,7 +1852,10 @@
     </p>
     <p id="17d10e72-6c9d-4364-a3a7-c46f2ee1929f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1675,7 +1875,10 @@
     </p>
     <p id="8f5af457-15e2-4163-9837-c4119eba53b9" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -1729,7 +1932,10 @@
     </p>
     <p id="c5eb2ad6-118a-4e48-a1e9-da8c3526350a" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="b0236c28-6a2a-4b6b-9d88-8c6ec2491dc6" rend="left">
@@ -1825,7 +2031,10 @@
     </p>
     <p id="0c13993b-ed44-40bb-aa41-b9d1c8681934" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -2016,7 +2225,10 @@
      27
     </p>
     <p id="acd524b9-40c1-4706-ad69-230a4a6e5cbf" rend="left">
-     Мудрец Диоген говорил: «Только тот истинно свободен, кто всегда готов умереть». Он писал персидскому царю: «Ты не можешь сделать истинно свободных людей рабами, как не можешь поработить рыбу. Если ты и возьмешь их в плен, они не будут рабствовать тебе. А если они умрут в плену у тебя, то какая тебе прибыль от того, что ты забрал их в плен?»
+     <name placement="text" ref="4408" type="person">
+      Мудрец Диоген
+     </name>
+     говорил: «Только тот истинно свободен, кто всегда готов умереть». Он писал персидскому царю: «Ты не можешь сделать истинно свободных людей рабами, как не можешь поработить рыбу. Если ты и возьмешь их в плен, они не будут рабствовать тебе. А если они умрут в плену у тебя, то какая тебе прибыль от того, что ты забрал их в плен?»
     </p>
     <p id="ce46938a-9495-4fca-a4f9-245e147da02c" rend="left">
      Вот это — речи человека свободного: такой человек знает, в чем состоит истинная свобода.
@@ -2094,7 +2306,11 @@
     </p>
     <p id="6f186304-3d62-44d2-bb3b-acb3f30cae37" rend="right">
      <span class="hi" data-attribute="italic">
-      Браминская мудрость (Рамакришна).
+      Браминская мудрость (
+      <name placement="text" ref="11518" type="person">
+       Рамакришна
+      </name>
+      ).
      </span>
     </p>
     <br/>
@@ -2106,7 +2322,10 @@
     </p>
     <p id="6cba9ca4-6c08-4720-b3a9-c7c5504fc989" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="7e3529f6-d979-4af9-af86-56fb7325c446" rend="left">
@@ -2150,7 +2369,10 @@
     </p>
     <p id="488b8bd0-aeb1-47fe-8a26-ab0ecdfa443b" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -2162,7 +2384,10 @@
     </p>
     <p id="97f2045f-5884-42f1-ad00-33f80511ec9d" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -2183,7 +2408,10 @@
     </p>
     <p id="1983b96e-1570-4a1a-bd5a-8c74b7e88fae" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="db7bdd9d-23f0-48c4-9838-d570c1dea622" rend="left">
@@ -2243,7 +2471,10 @@
     </p>
     <p id="6187e15e-2bd3-4274-85f7-dbc88360d49d" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -2329,7 +2560,10 @@
     </p>
     <p id="38c7046c-8e29-4c5b-8bc1-4b3a7aab85d8" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -2555,7 +2789,10 @@
     </p>
     <p id="19e37ab8-0266-4781-9bdd-47f117a16e1a" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="ef5eff48-ad8b-4ab4-92b0-25b75bfbeb73" rend="left">
@@ -2618,7 +2855,10 @@
     </p>
     <p id="212ead8e-a6c6-475b-822a-c3d9fa05943c" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="7e401e4f-6d47-4510-954a-ab5cbc11339b" rend="left">
@@ -2629,7 +2869,9 @@
     </p>
     <p id="a48d64c9-71b1-470a-9020-02ae98f928e3" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
      </span>
     </p>
     <br/>
@@ -2843,7 +3085,10 @@
     </p>
     <p id="28556bba-8303-4894-9461-d0c044a15394" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -2864,7 +3109,10 @@
     </p>
     <p id="1d249cd3-f206-444e-911e-7ad4ceda100b" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="80a0959b-1890-422a-846c-65c87caf31eb" rend="left">
@@ -2953,7 +3201,10 @@
     </p>
     <p id="552e44e2-d616-43bd-b5d5-0f3567bdc898" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -2974,7 +3225,10 @@
     </p>
     <p id="46c5af30-4d14-4fc7-aa2b-74ec6fd74d19" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3206,7 +3460,10 @@
     </p>
     <p id="89d9c428-374f-46ad-aac7-05499dd3b275" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3215,7 +3472,10 @@
     </p>
     <p id="980db873-7c5f-41b4-9854-2ec7a6fcf9c6" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="0ff6bd66-4a24-4373-955f-6386414065cd" rend="left">
@@ -3230,7 +3490,10 @@
     </p>
     <p id="a50821b8-91bd-4a6b-ab38-97d7417c1e96" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3304,7 +3567,10 @@
     </p>
     <p id="90997fb5-f31d-4ede-94fa-8c9995ddd250" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3358,7 +3624,10 @@
     </p>
     <p id="2cd57e0c-b80f-4277-9f6c-f14fb23ddd86" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3425,7 +3694,10 @@
     </p>
     <p id="0362618c-89f1-40d5-a7bd-107275c57756" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3449,7 +3721,10 @@
     </p>
     <p id="1ba1ee34-447b-4f6a-a5d2-67730a9be9c9" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3529,7 +3804,10 @@
     </p>
     <p id="480b70d7-b252-4c18-ba36-efcafbc0e40a" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3547,7 +3825,10 @@
     </p>
     <p id="7310fb7c-b3b5-44f4-a5f7-88c7d907bd86" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3626,7 +3907,10 @@
     </p>
     <p id="2cdba825-0b5d-4a1f-b759-fff23dcf95b6" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3638,7 +3922,10 @@
     </p>
     <p id="08ce306c-59c7-4c0a-a757-658b9f1559c9" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3659,7 +3946,10 @@
     </p>
     <p id="37fb22ab-9435-4407-af1f-6c2bd35dd936" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3746,7 +4036,10 @@
     </p>
     <p id="f90b22df-7e7d-4b75-a3d8-377ae220a31f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3911,7 +4204,10 @@
     </p>
     <p id="3c288ae9-0620-40bd-8642-ada3a5b9de8b" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -3932,7 +4228,10 @@
     </p>
     <p id="689e0b98-09be-4ff3-b467-23643eb50515" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="222aefa0-6b25-4a6c-a4de-b18155fd60ea" rend="left">
@@ -3987,7 +4286,10 @@
     </p>
     <p id="aa2925e4-90d6-4804-92a9-ef7851ea8038" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4065,7 +4367,10 @@
     </p>
     <p id="13d75e1a-6114-4cd5-b76f-763d1e2fbbf0" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4079,7 +4384,10 @@
     </p>
     <p id="9ad0b906-f1d6-4cf3-bc55-51817ccbf7b1" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4134,7 +4442,10 @@
     </p>
     <p id="e39d8926-4e11-49f5-b08c-8a8fe84bc779" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4146,7 +4457,10 @@
     </p>
     <p id="51e1d50c-74d4-46df-96e4-c9780f00f0da" rend="right">
      <span class="hi" data-attribute="italic">
-      Фома Кемпийский.
+      <name placement="text" ref="14657" type="person">
+       Фома Кемпийский
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4210,7 +4524,10 @@
     </p>
     <p id="ee28ed1d-594e-4c4f-ab73-922149ff9b48" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4473,7 +4790,10 @@
     </p>
     <p id="7a656f9a-e799-4e2f-b9d2-f145b753ad83" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4494,7 +4814,10 @@
     </p>
     <p id="97598545-5d92-4054-8010-aea77bd82864" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4503,7 +4826,10 @@
     </p>
     <p id="162c81eb-9c9e-4b82-bccf-9574236a2ab4" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="fb1d2a70-b1ac-4c8d-bebc-abd00507c561" rend="left">
@@ -4594,7 +4920,10 @@
     </p>
     <p id="e378d58c-0ea4-4e47-b78e-c4a6e072d766" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4606,7 +4935,10 @@
     </p>
     <p id="fc2b10d1-1205-4c67-86ab-bd81b9276838" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4618,7 +4950,10 @@
     </p>
     <p id="3c412927-59aa-4823-92f7-e834dcb24b75" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="d38067ad-8c7b-4454-adc0-f4ebd8dbb129" rend="left">
@@ -4633,7 +4968,10 @@
     </p>
     <p id="0d7d3775-4658-4c92-a855-2a1df2c43599" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4642,7 +4980,10 @@
     </p>
     <p id="34ad2c88-b392-47fb-aa27-f545f7a4ae9f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4678,7 +5019,10 @@
     </p>
     <p id="4ca842a1-3144-4a0f-849f-a19859af2538" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="9be6ff11-d992-4c3f-a1a7-feeea901b490" rend="left">
@@ -4764,7 +5108,10 @@
     </p>
     <p id="a4f8f74a-1905-4dbf-8db5-6fc5aefa0cb0" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4773,7 +5120,10 @@
     </p>
     <p id="278cd626-198f-4fb4-8f0f-7a95ab461c26" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4811,7 +5161,10 @@
     </p>
     <p id="64d8fb5d-cd62-423b-84af-9a6d1665e887" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4825,7 +5178,10 @@
     </p>
     <p id="b7bd244f-597c-44ee-8582-613a6cc142ab" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -4881,7 +5237,10 @@
     </p>
     <p id="4df737a2-9de5-4478-bf46-3aef266d090a" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
      <pb n="159"/>
     </p>
@@ -5077,7 +5436,10 @@
     </p>
     <p id="16763086-232e-4d2b-a825-27fa021b90e8" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5089,7 +5451,10 @@
     </p>
     <p id="0db6c09d-2cd9-4cb3-83ae-bfd8e2654ae7" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5136,7 +5501,10 @@
     </p>
     <p id="ddcf659e-f978-4281-bfed-198f6d473d08" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5148,7 +5516,10 @@
     </p>
     <p id="e07c33ae-efc1-4a00-88b7-2516703adb9b" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="b2fb9802-e8f1-496a-a877-91ca0ad25798" rend="left">
@@ -5201,7 +5572,10 @@
     </p>
     <p id="93b3785a-12f2-4f58-825b-ee4abfd788e8" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5231,7 +5605,10 @@
     </p>
     <p id="163b69e9-dd5f-4717-b7c7-fdc1eae38804" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5243,7 +5620,10 @@
     </p>
     <p id="95f4c4da-0de1-4dc0-917e-26b8f85d22e2" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5264,7 +5644,10 @@
     </p>
     <p id="f34fd0db-ff8e-46c1-9076-121131d8ace3" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5339,7 +5722,10 @@
     </p>
     <p id="13daf725-40a7-4e53-9a99-c4c7ed10986f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5348,7 +5734,10 @@
     </p>
     <p id="62e56a9a-9440-42d2-9be1-66d5ee12077d" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5369,7 +5758,10 @@
     </p>
     <p id="956272ef-967b-43c1-90be-0fac816080b3" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5611,7 +6003,10 @@
     </p>
     <p id="c4328835-a17c-4be0-ae87-c037732feb0b" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="d4c60482-5e40-4c53-869e-1a58225b64a3" rend="left">
@@ -5635,7 +6030,10 @@
     </p>
     <p id="6fd8f95f-9f83-43f7-b812-6d1466d155e5" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5703,7 +6101,10 @@
     </p>
     <p id="a023ee64-1ea4-4885-8116-119f59fd6851" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5733,7 +6134,10 @@
     </p>
     <p id="5e025b98-2d4e-4e5e-9c20-cbc21db64e14" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5745,7 +6149,10 @@
     </p>
     <p id="63a3c2c5-fc19-4b7b-8794-106a76828767" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5754,7 +6161,10 @@
     </p>
     <p id="4480d3a0-65d6-4173-8bef-29da4cfcf90b" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="af79d97d-55f6-43fa-9bf2-69c4efc24733" rend="left">
@@ -5769,7 +6179,10 @@
     </p>
     <p id="80eee625-e1f0-4f8b-a3fa-b77c5ca70510" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5814,7 +6227,10 @@
     </p>
     <p id="c1fb60ba-94f5-4b8f-a585-89519a7f05da" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5823,7 +6239,10 @@
     </p>
     <p id="caa19b62-7693-4983-a304-eab5db70fb5f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5835,7 +6254,10 @@
     </p>
     <p id="6601a88d-3256-4bdd-afbb-1fbdc7a9c447" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5892,7 +6314,9 @@
     </p>
     <p id="89e6b440-678e-492c-9784-a3f0b5d8ae67" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
      </span>
     </p>
     <br/>
@@ -5960,7 +6384,11 @@
     </p>
     <p id="887d87ad-5f5d-4fac-a523-a8cdb4af5d54" rend="right">
      <span class="hi" data-attribute="italic">
-      Браминская мудрость (Рамакришна).
+      Браминская мудрость (
+      <name placement="text" ref="11518" type="person">
+       Рамакришна
+      </name>
+      ).
      </span>
     </p>
     <br/>
@@ -5974,7 +6402,10 @@
     </p>
     <p id="b7942abf-7405-4eb4-a79a-ede1c4a9244a" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -5986,7 +6417,10 @@
     </p>
     <p id="4273c90b-9aad-4e73-ab99-f07f2644c5e5" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6151,7 +6585,10 @@
     </p>
     <p id="9fd28112-f0d9-483e-bf00-1b27e08ec492" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6160,7 +6597,10 @@
     </p>
     <p id="11b706d7-40d6-432e-8713-b8ba97e3125a" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6210,7 +6650,10 @@
     </p>
     <p id="cfa216f9-8881-4a2a-b239-66f8074d2778" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6345,7 +6788,10 @@
     </p>
     <p id="680cd6f8-3733-40f4-b5a1-5b7ab3e0315c" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="c7b2d3f7-0400-4c3a-8410-7445d6265e32" rend="left">
@@ -6369,7 +6815,10 @@
     </p>
     <p id="ac3ba4d8-194e-4480-82b9-cf8da90ef0f9" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6378,7 +6827,10 @@
     </p>
     <p id="2d7abb05-bb62-4054-9da9-2f2d36916de4" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6425,7 +6877,10 @@
     </p>
     <p id="d84dc0a4-9e9d-48a6-8cfa-d06350b3d1c2" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6477,7 +6932,10 @@
     </p>
     <p id="def2b47b-b96d-4f5b-81e2-e266fdb712f7" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6498,7 +6956,10 @@
     </p>
     <p id="1f906580-875b-44c3-80f5-8f703bc3456d" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6574,7 +7035,10 @@
     </p>
     <p id="9a288f5a-a73e-45e3-9cbd-34e0e668143f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6586,7 +7050,10 @@
     </p>
     <p id="6a441303-72a0-4f83-b0a4-4caec2caadc7" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6598,7 +7065,10 @@
     </p>
     <p id="b1d9b5cb-68fb-43f8-b499-4367d7acfcf1" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6607,7 +7077,10 @@
     </p>
     <p id="55548efb-3212-4e3e-943f-c1dc0aa3be9c" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6721,7 +7194,10 @@
     </p>
     <p id="4ceb57cd-e83a-4613-943d-e342a569d390" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6806,7 +7282,10 @@
     </p>
     <p id="8d33acaa-6018-405c-af2a-30e93e8e8824" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6885,7 +7364,10 @@
     </p>
     <p id="135198b5-5b43-4d51-aad0-1474fe28b02d" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -6988,7 +7470,10 @@
     </p>
     <p id="aacb88f1-c879-411a-80ca-7a9ddecdc0ad" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="d09ea72f-71f5-4d50-925a-9efd7b225ef2" rend="left">
@@ -7104,7 +7589,10 @@
     </p>
     <p id="86bb2020-6192-41c2-b1b8-da536039b9d8" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7181,7 +7669,10 @@
     </p>
     <p id="4f138530-2627-4780-b28f-1abefeac4ac2" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <p id="df772392-37b0-4c24-bfd4-447a1469d899" rend="left">
@@ -7202,7 +7693,10 @@
     </p>
     <p id="1c8479a0-2154-41c6-8fab-da703d5818bb" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7403,7 +7897,10 @@
     </p>
     <p id="fa4cf881-d307-41e4-8041-e23265822a6f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7411,7 +7908,11 @@
      28
     </p>
     <p id="e68fd665-8a47-4b69-b8d2-1610960ccb7c" rend="left">
-     Вы слышали, что сказано: люби ближнего твоего и ненавидь врага твоего (Лев. XIX, 17—18). А я говорю вам: любите врагов ваших, благословляйте проклинающих вас, благотворите ненавидящим вас и молитесь за обижающих вас и гонящих вас; да будете сынами отца вашего небесного; ибо он повелевает солнцу своему восходить над злыми и добрыми и посылает дождь на праведных и неправедных.
+     Вы слышали, что сказано: люби ближнего твоего и ненавидь врага твоего (
+     <name placement="text" ref="7702" type="person">
+      Лев
+     </name>
+     . XIX, 17—18). А я говорю вам: любите врагов ваших, благословляйте проклинающих вас, благотворите ненавидящим вас и молитесь за обижающих вас и гонящих вас; да будете сынами отца вашего небесного; ибо он повелевает солнцу своему восходить над злыми и добрыми и посылает дождь на праведных и неправедных.
     </p>
     <p id="94a9b180-8da9-435b-a904-2fed65f4af8c" rend="right">
      <span class="hi" data-attribute="italic">
@@ -7524,7 +8025,10 @@
     </p>
     <p id="e80c82c4-d251-4280-9768-2596a1df7cc1" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7625,7 +8129,10 @@
     </p>
     <p id="1dff1915-e004-476f-845b-7e5298fb9ef3" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7774,7 +8281,10 @@
     </p>
     <p id="5d58f2ce-15d1-4fac-9992-62e01b19b6e7" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7900,7 +8410,10 @@
     </p>
     <p id="8dc84a7e-3edc-49c7-baf5-5bbb8dd589ba" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7924,7 +8437,10 @@
     </p>
     <p id="b5958d36-c42d-4529-a31b-1e1e1784b61d" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7942,7 +8458,10 @@
     </p>
     <p id="66c6cb48-a7b1-4a47-9412-4f50018171c2" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -7986,7 +8505,10 @@
     </p>
     <p id="130cf936-e30d-41d5-be2d-6a00dd821ded" rend="right">
      <span class="hi" data-attribute="italic">
-      Гёте.
+      <name placement="text" ref="3324" type="person">
+       Гёте
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -8007,7 +8529,10 @@
     </p>
     <p id="8f1948c0-e155-4c2e-b727-0936e0c115db" rend="right">
      <span class="hi" data-attribute="italic">
-      Франц Гартман.
+      <name placement="text" ref="3145" type="person">
+       Франц Гартман
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -8021,7 +8546,10 @@
     </p>
     <p id="cdece9ce-dd0e-46ed-aa98-0c355eb4c561" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -8033,7 +8561,10 @@
     </p>
     <p id="10e121ea-a1cf-4549-908d-b75d1f5697b2" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -8060,7 +8591,10 @@
     </p>
     <p id="877f0455-5767-49ef-8bb2-56146863b008" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
     <br/>
@@ -8084,7 +8618,10 @@
     </p>
     <p id="bacd3a6b-c378-46a2-907c-328d7a7593d4" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <p id="37e9e95e-b6b2-4a14-8e7c-d5a894ced3b6" rend="left">
@@ -8095,7 +8632,10 @@
     </p>
     <p id="6df657cc-429b-476c-9705-1695714420ff" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
     <br/>

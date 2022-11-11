@@ -1,112 +1,124 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v05_249_258_Dnevnik_pomeschika_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan">
-                    7. Дневник помещика. Tolstoy Digital
-                </title>
-                <title type="main">Дневник помещика.</title>
-                <title type="sub">Писания, относящиеся к проекту освобождения яснополянских крестьян</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="cf47b1e3-2581-45ab-94e3-679cd6a0134a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            7. Дневник помещика
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 5
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935-01-01"/>
-                        </imprint>
-                        <biblScope unit="volume">5</biblScope>
-                        <biblScope unit="page">249-258</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1856-01-01"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_249_258_Dnevnik_pomeschika_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan">
+     7. Дневник помещика. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник помещика.
+    </title>
+    <title type="sub">
+     Писания, относящиеся к проекту освобождения яснополянских крестьян
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="cf47b1e3-2581-45ab-94e3-679cd6a0134a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       7. Дневник помещика
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935-01-01"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       249-258
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856-01-01"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref25">
     <p id="5e6cca95-a11a-4a01-a29c-07512a040533">
      <pb n="249"/>
     </p>
-    <p id="01683972-21b7-4e9e-ba09-15ef0ec60812">
+    <p id="80f6c31f-bf3e-4757-aa97-077fbf11777a">
       <head rend="title_level4 Razradka">
      7. Дневник помещика
      . </head>
@@ -125,23 +137,21 @@
      , путая господские
      обороты с
      крестьянской речью
-     , и Осипа Наумова, мужа моей кормилицы, бывшего
-     старосту, <span class="note" id="n231">
-      <div type="section" xml:id="n231">
-       <head>
-        <ref target="#backn231">
-         231
-        </ref>
-       </head>
-       <p id="81c9a512-68f5-4bba-9543-4e8f06f3f9c4">
+     , и <name placement="text" ref="9593" type="person">
+      Осипа Наумова
+     </name>
+     , мужа моей кормилицы, бывшего
+     старосту, <a href="#" data-type="snoska" id="note231">231</a><span class="note" id="note231">
+      <p id="81c9a512-68f5-4bba-9543-4e8f06f3f9c4">
         <span class="hi" data-attribute="italic">
          В подлиннике:
         </span>
         старосты
        </p>
-      </div>
-     </span> известного
-     за колдуна, хозяина и пчеловода. — Осипу Наумову лет
+      </span> известного
+     за колдуна, хозяина и пчеловода. — <name placement="text" ref="9593" type="person">
+      Осипу Наумову
+     </name> лет
      60, но на вид
      не более
      40. Он приземист
@@ -173,28 +183,21 @@
      не с каждым отдельным крестьянином
      , а с обществом
      , при чем
-     общество за недоимки обязано выставлять по урочной плате <span class="note" id="n232">
-      <div type="section" xml:id="n232">
-       <head>
-        <ref target="#backn232">
-         232
-        </ref>
-       </head>
-       <p id="b7a1fa8c-aad1-4f43-9cd5-7916a036de3e">
+     общество за недоимки обязано выставлять по урочной плате <a href="#" data-type="snoska" id="note232">232</a><span class="note" id="note232">
+      <p id="b7a1fa8c-aad1-4f43-9cd5-7916a036de3e">
         <span class="del"> известное </span>
        </p>
-      </div>
-     </span>
+      </span>
      нужное число рабочих
      . </p>
-    <p id="1e6ff8eb-649f-4f91-8bd1-c777a1d84a3e" rend="left"> Василий сказал
+    <p id="1e6ff8eb-649f-4f91-8bd1-c777a1d84a3e" rend="left"> сказал
      , что размежевку земли <span class="hi" data-attribute="italic">
       составить слишком
       затруднительно </span>
      , на что я ответил
      , что затруднения
      не остановят
-     меня. Осип сказал
+     меня. сказал
      , что иметь дело с обществом <pb n="250"/>
      невозможно, потому что найдется слишком
      много лежебоков
@@ -210,8 +213,10 @@
      , нет ли жалоб
      и довольны ли начальниками. — Все
      молчали, я смотрел
-     на Матвея
-     Егорова, богатого
+     на  <name placement="text" ref="4841" type="person">
+      Егорова
+     </name>
+     , богатого
      ямщика. — Так
      довольны, — повторил
      я. — Чтож
@@ -245,20 +250,13 @@
       </sic>
       <corr> Василий </corr>
      </choice> объяснил
-     , что та самая <span class="note" id="n233">
-      <div type="section" xml:id="n233">
-       <head>
-        <ref target="#backn233">
-         233
-        </ref>
-       </head>
-       <p id="4222656c-34f7-4045-883c-d39c1370e093">
+     , что та самая <a href="#" data-type="snoska" id="note233">233</a><span class="note" id="note233">
+      <p id="4222656c-34f7-4045-883c-d39c1370e093">
         <span class="hi" data-attribute="italic">
          В подлиннике:
         </span> те
         самые </p>
-      </div>
-     </span>
+      </span>
      отходящая земля, 25 десятин
      , приступит к
      крестьянскому полю. Я ничего не понял
@@ -309,14 +307,8 @@
      , предполагая, что вся крестьянская земля будет переделяться
      между ними и между мной; причем Осип прибавил
      , что ежели я у них
-     за С. <span class="note" id="n234">
-      <div type="section" xml:id="n234">
-       <head>
-        <ref target="#backn234">
-         234
-        </ref>
-       </head>
-       <p id="c40f2185-37a7-4f95-8856-9cc0b25794ff">
+     за С. <a href="#" data-type="snoska" id="note234">234</a><span class="note" id="note234">
+      <p id="c40f2185-37a7-4f95-8856-9cc0b25794ff">
         <span class="hi" data-attribute="italic">
          Буква
         </span>
@@ -325,8 +317,7 @@
          написана неясно и читается предположительно
         </span>
        </p>
-      </div>
-     </span> верхом
+      </span> верхом
      землю отмежую, то они без хлеба
      останутся. Они видимо предполагали во мне умысел
      обобрать их
@@ -471,19 +462,12 @@
      покосы, исключая некоторых
      . Я вышел
      снова к ним из
-     конторы и предложил вопрос <span class="note" id="n235">
-      <div type="section" xml:id="n235">
-       <head>
-        <ref target="#backn235">
-         235
-        </ref>
-       </head>
-       <p id="9422d9a2-cf11-4c11-941d-9788bbda79b2">
+     конторы и предложил вопрос <a href="#" data-type="snoska" id="note235">235</a><span class="note" id="note235">
+      <p id="9422d9a2-cf11-4c11-941d-9788bbda79b2">
         <span class="del">
          о сене </span>
        </p>
-      </div>
-     </span> так
+      </span> так
      : хотите взять по вольному контракту или нет
      , и какую назначите цену
      ? Осип сказал
@@ -532,18 +516,11 @@
      : нельзя. Какой то дерзкий голос
      , с желанием
      уколоть меня, как мне
-     показалось: <span class="note" id="n236">
-      <div type="section" xml:id="n236">
-       <head>
-        <ref target="#backn236">
-         236
-        </ref>
-       </head>
-       <p id="3ca26747-ad96-4dec-9f16-54236bf2bf0e">
+     показалось: <a href="#" data-type="snoska" id="note236">236</a><span class="note" id="note236">
+      <p id="3ca26747-ad96-4dec-9f16-54236bf2bf0e">
         <span class="del"> этаким </span>
        </p>
-      </div>
-     </span> оброком нас всех
+      </span> оброком нас всех
      раззорите. — Много голосов
      , все из бедных
      и бездомовных
@@ -590,7 +567,7 @@
      . Василий
      однако утром сказал мне
      , что мужики решительно
-     несогласны, что Осип сказал
+     несогласны, что сказал
      , что и 10 р. не заплатить, а Резун один согласен
      . Вечером
      на <choice original_editorial_correction="Груман[тѣ]">
@@ -604,8 +581,10 @@
      ; он сказал
      , что нынешний год тяжел падежем
      лошадей, и поэтому оброк невозможен
-     . Потом подъехал к
-     Осипу: он с
+     . Потом подъехал к <name placement="text" ref="9593" type="person">
+      Осипу
+     </name>
+     : он с
      сдержанной улыбкой умного человека
      , который проник
      , что его хотят
@@ -619,8 +598,7 @@
      не понимает
      упорства других
      , что он согласен
-     и что надо поговорить еще. Потом подъехал к Даниле
-     (богатый семейный мужик
+     и что надо поговорить еще. Потом подъехал к (богатый семейный мужик
      , из ямщиков
      , худой, бледной
      , неподобострастный, но добродушный и очень умный). Он подошел
@@ -642,19 +620,12 @@
      , что он как пред Богом
      , так
      и передо мной, объяснит
-     , что <span class="note" id="n237">
-      <div type="section" xml:id="n237">
-       <head>
-        <ref target="#backn237">
-         237
-        </ref>
-       </head>
-       <p id="b3c673d7-6574-4737-b9a5-e597dfae5e1d">
+     , что <a href="#" data-type="snoska" id="note237">237</a><span class="note" id="note237">
+      <p id="b3c673d7-6574-4737-b9a5-e597dfae5e1d">
         <span class="del">
          на сходке </span>
        </p>
-      </div>
-     </span>
+      </span>
      они имеют в разуме
      , что я хочу <span class="hi" data-attribute="italic"> сделку </span> сделать
      , теперь обязательство взять, так как
@@ -700,8 +671,7 @@
      . Что произойти это не может
      раньше выкупа из Совета
      , 24 лет
-     . Яков
-     , — белобрысый бойкий мужик сказал
+     . , — белобрысый бойкий мужик сказал
      , что никто не доживет
      до этого
      срока. Звуки одобренья. — Сказали, что оброк велик
@@ -709,14 +679,8 @@
      жить хорошо. Я предложил
      итти на оброк тем
      , которые хотят
-     , и составить общество. Звуки <span class="note" id="n238">
-      <div type="section" xml:id="n238">
-       <head>
-        <ref target="#backn238">
-         238
-        </ref>
-       </head>
-       <p id="cd07c747-3820-4e1f-9b57-5610a5d83f9f">
+     , и составить общество. Звуки <a href="#" data-type="snoska" id="note238">238</a><span class="note" id="note238">
+      <p id="cd07c747-3820-4e1f-9b57-5610a5d83f9f">
         <span class="del">
          звуки,
          <span class="hi" data-attribute="italic">
@@ -728,8 +692,7 @@
          согласились почти
         </span>
        </p>
-      </div>
-     </span> одобрения
+      </span> одобрения
      ; но когда я сказал
      , что остальные пусть вместе с
      другими сделают условие
@@ -741,19 +704,12 @@
       </sic>
       <corr> сделаться </corr>
      </choice>
-     <span class="note" id="n239">
-      <div type="section" xml:id="n239">
-       <head>
-        <ref target="#backn239">
-         239
-        </ref>
-       </head>
-       <p id="b06c540d-3d7f-4791-b3d3-01e6db884674">
+     <a href="#" data-type="snoska" id="note239">239</a><span class="note" id="note239">
+      <p id="b06c540d-3d7f-4791-b3d3-01e6db884674">
         <span class="hi" data-attribute="italic">
          В подлиннике:
         </span> сделать </p>
-      </div>
-     </span> болезнь
+      </span> болезнь
      и из
      всего общества 10 человек
      останется. Я сказал
@@ -765,8 +721,7 @@
      , что можно и совсем
      , вообще изложил
      неясно. — Сначала напали бедняки
-     , и из первых Яков
-     , на то, что оброчным
+     , и из первых , на то, что оброчным
      нечего ходить, ежели не все
      . Я объяснил
      , что каждый свободен
@@ -816,7 +771,10 @@
      будто я предлагал им <pb n="254"/>
      дать подписку в том
      , что каждый будет
-     осквернять святыню. Данило, к
+     осквернять святыню. <name placement="text" ref="10234" type="person">
+      Данило
+     </name>
+     , к
      которому я приступил
      , требуя объяснения
      отказа и объясняя его надеждой воли без
@@ -869,14 +827,8 @@
      желать свободы, объяснял их несогласие
      действительно тем
      , что свободным
-     хуже. <span class="note" id="n240">
-      <div type="section" xml:id="n240">
-       <head>
-        <ref target="#backn240">
-         240
-        </ref>
-       </head>
-       <p id="8f2673f8-dc29-43c6-919b-70aed20c4d2e">
+     хуже. <a href="#" data-type="snoska" id="note240">240</a><span class="note" id="note240">
+      <p id="8f2673f8-dc29-43c6-919b-70aed20c4d2e">
         <span class="hi" data-attribute="italic">
          В подлиннике:
         </span>
@@ -885,8 +837,7 @@
          (по описке).
         </span>
        </p>
-      </div>
-     </span> Он подтверждал
+      </span> Он подтверждал
      это примерами
      . Завтра напишу черновое условие
      и дам им
@@ -932,25 +883,19 @@
      , добродушный плут
      , который отвечал мне
      , что он глух
-     . Владимир
-     , <span class="note" id="n241">
-      <div type="section" xml:id="n241">
-       <head>
-        <ref target="#backn241">
-         241
-        </ref>
-       </head>
-       <p id="93014991-3e67-4d75-a368-0dfa8a26b158">
+     . , <a href="#" data-type="snoska" id="note241">241</a><span class="note" id="note241">
+      <p id="93014991-3e67-4d75-a368-0dfa8a26b158">
         <span class="del">
          умный
         </span>
        </p>
-      </div>
-     </span>
+      </span>
      добрый, но тупой мужик
      , Резун
-     , Осип
-     и Данило. Староста им прочел
+     , и <name placement="text" ref="10234" type="person">
+      Данило
+     </name>
+     . Староста им прочел
      еще прежде меня, я прочел
      снова. Резун говорил
      , что понимает
@@ -960,7 +905,7 @@
      ? сказали, что лучше по старому, что мы готовы, — одним словом
      , не отвечали
      на вопрос
-     . — Осип сказал
+     . — сказал
      , что хуже бы не было от
      того, что 3 дня; я доказывал нелепость
      его слов
@@ -969,7 +914,10 @@
      , — с
      молодыми поговорите. Потом сказал
      , что начальства будет
-     много. — Данило — злобной плутовской брюнет
+     много. — <name placement="text" ref="10234" type="person">
+      Данило
+     </name>
+     — злобной плутовской брюнет
      . Ямщик
      . Косится на других
      , когда говорит
@@ -1022,21 +970,14 @@
      Петербурга я, кажется, имел
      честь сообщать Вам цель
      моей поездки в
-     деревню. Я хотел <span class="note" id="n242">
-      <div type="section" xml:id="n242">
-       <head>
-        <ref target="#backn242">
-         242
-        </ref>
-       </head>
-       <p id="2d61e98a-a07f-4d71-87c5-12192ff07547">
+     деревню. Я хотел <a href="#" data-type="snoska" id="note242">242</a><span class="note" id="note242">
+      <p id="2d61e98a-a07f-4d71-87c5-12192ff07547">
         <span class="del"> хотел <span class="hi" data-attribute="italic">
           и снова восстановлено
          </span>
         </span>
        </p>
-      </div>
-     </span> разрешить
+      </span> разрешить
      для себя в
      частности вопрос об освобождении крестьян
      , занимавший
@@ -1118,19 +1059,12 @@
      обязанные крестьяне работой по 3 дня в неделю
      , с
      прибавками земли, с тем
-     , чтобы, по истечении <span class="note" id="n243">
-      <div type="section" xml:id="n243">
-       <head>
-        <ref target="#backn243">
-         243
-        </ref>
-       </head>
-       <p id="80af4409-7c83-4948-ba82-a3ed9008fdde">
+     , чтобы, по истечении <a href="#" data-type="snoska" id="note243">243</a><span class="note" id="note243">
+      <p id="80af4409-7c83-4948-ba82-a3ed9008fdde">
         <span class="hi" data-attribute="italic">
          В подлиннике:
         </span> истечению </p>
-      </div>
-     </span>
+      </span>
      24 лет
      , срока выкупа именья из
      залога, они получили вольную с
@@ -1172,28 +1106,15 @@
      общее освобождение
      , твердо вкоренилось во всем народе
      , даже в самых глухих местах
-     , и 2) главное, что <span class="note" id="n244">
-      <div type="section" xml:id="n244">
-       <head>
-        <ref target="#backn244">
-         244
-        </ref>
-       </head>
-       <p id="49619c5e-db65-4a68-a2f0-1e4b56b88d42">
+     , и 2) главное, что <a href="#" data-type="snoska" id="note244">244</a><span class="note" id="note244">
+      <p id="49619c5e-db65-4a68-a2f0-1e4b56b88d42">
         <span class="del"> понятие </span>
        </p>
-      </div>
-     </span> вопрос
+      </span> вопрос
      о том
      , чья собственность — помещичья
-     земля, населенная крестьянами, чрезвычайно запутан <span class="note" id="n245">
-      <div type="section" xml:id="n245">
-       <head>
-        <ref target="#backn245">
-         245
-        </ref>
-       </head>
-       <p id="85a5597c-a11a-4dfc-ac68-f9c8bbc021ff">
+     земля, населенная крестьянами, чрезвычайно запутан <a href="#" data-type="snoska" id="note245">245</a><span class="note" id="note245">
+      <p id="85a5597c-a11a-4dfc-ac68-f9c8bbc021ff">
         <span class="hi" data-attribute="italic">
          В подлиннике:
         </span>
@@ -1201,8 +1122,7 @@
         <span class="hi" data-attribute="italic">
          по согласованию с зачеркнутым:
         </span> понятие </p>
-      </div>
-     </span> в народе
+      </span> в народе
      и большей частью решается в
      пользу крестьян
      , и даже со всей землею помещичьею
@@ -1250,33 +1170,19 @@
      . Для меня ясно, что вопрос помещикам
      теперь уже поставлен так
      : жизнь или земля. И признаюсь, я никогда не понимал
-     , почему невозможно определение <span class="note" id="n246">
-      <div type="section" xml:id="n246">
-       <head>
-        <ref target="#backn246">
-         246
-        </ref>
-       </head>
-       <p id="72824811-ebd3-406b-965e-3cf94f0aa153">
+     , почему невозможно определение <a href="#" data-type="snoska" id="note246">246</a><span class="note" id="note246">
+      <p id="72824811-ebd3-406b-965e-3cf94f0aa153">
         <span class="hi" data-attribute="italic">
          В подлиннике:
         </span> определения </p>
-      </div>
-     </span>
+      </span>
      собственности земли за помещиком
-     и освобождение <span class="note" id="n247">
-      <div type="section" xml:id="n247">
-       <head>
-        <ref target="#backn247">
-         247
-        </ref>
-       </head>
-       <p id="a83155ae-35c3-4591-bdee-753162a07882">
+     и освобождение <a href="#" data-type="snoska" id="note247">247</a><span class="note" id="note247">
+      <p id="a83155ae-35c3-4591-bdee-753162a07882">
         <span class="hi" data-attribute="italic">
          В подлиннике:
         </span> освобождения </p>
-      </div>
-     </span>
+      </span>
      крестьянина без
      земли? Пролетариат
      ! Да разве
@@ -1299,8 +1205,7 @@
      . Еще те явления истории
      , которые произвел пролетариат
      , произведший революции
-     и Наполеонов
-     , не сказал
+     и , не сказал
      свое последнее
      слово, и мы не можем
      судить о нем
@@ -1368,14 +1273,8 @@
      , во вторых
      , что они откровенно-прямо-истинны. — Невозможно отречься от них
      , опять потому что они истинны, или надо уронить в
-     грязь prestige <span class="note" id="n248">
-      <div type="section" xml:id="n248">
-       <head>
-        <ref target="#backn248">
-         248
-        </ref>
-       </head>
-       <p id="ec996901-36f3-44e2-b445-52494a341d9f">
+     грязь prestige <a href="#" data-type="snoska" id="note248">248</a><span class="note" id="note248">
+      <p id="ec996901-36f3-44e2-b445-52494a341d9f">
         <choice original_editorial_correction="[обаяние, престиж]">
          <sic/>
          <corr>
@@ -1383,8 +1282,7 @@
          </corr>
         </choice>
        </p>
-      </div>
-     </span>
+      </span>
      трона, нельзя откладывать их исполнения
      , потому что его дожидают
      люди <span class="hi" data-attribute="italic"> страдающие </span>
@@ -1402,21 +1300,14 @@
        находящаяся
       </corr>
      </choice> в владении крепостных
-     , и пусть <span class="note" id="n249">
-      <div type="section" xml:id="n249">
-       <head>
-        <ref target="#backn249">
-         249
-        </ref>
-       </head>
-       <p id="738ec0f3-1216-4252-a053-22dea161ee03">
+     , и пусть <a href="#" data-type="snoska" id="note249">249</a><span class="note" id="note249">
+      <p id="738ec0f3-1216-4252-a053-22dea161ee03">
         <span class="del">
          назначать срок
          6 м. в
          который </span>
        </p>
-      </div>
-     </span> объявят всех
+      </span> объявят всех
      вольными, с условием
      оставаться впродолжение
      6 месяцев
@@ -1482,14 +1373,8 @@
      </choice> нет
      . И 3 — без
      земли. Можно после
-     утвердить. <span class="note" id="n250">
-      <div type="section" xml:id="n250">
-       <head>
-        <ref target="#backn250">
-         250
-        </ref>
-       </head>
-       <p id="9c6d10fb-eae8-495f-9f4a-5fd87a986b95">
+     утвердить. <a href="#" data-type="snoska" id="note250">250</a><span class="note" id="note250">
+      <p id="9c6d10fb-eae8-495f-9f4a-5fd87a986b95">
         <span class="hi" data-attribute="italic">
          Со слов:
         </span>
@@ -1501,8 +1386,7 @@
          вписано карандашом, очевидно наспех, для памяти, фразы остались неотделанными, и потому общий смысл их не совсем ясен.
         </span>
        </p>
-      </div>
-     </span>
+      </span>
      Первая
      <choice original_editorial_correction="приготов[ительная]">
       <sic>
@@ -1558,14 +1442,8 @@
      брать, говоря, что для этого
      нужно принуждать: очевидное противоречие с
      2 -м доводом
-     Резуна. <span class="note" id="n251">
-      <div type="section" xml:id="n251">
-       <head>
-        <ref target="#backn251">
-         251
-        </ref>
-       </head>
-       <p id="9fcf6544-0e61-472d-a7fc-7a3275adb6d3">
+     Резуна. <a href="#" data-type="snoska" id="note251">251</a><span class="note" id="note251">
+      <p id="9fcf6544-0e61-472d-a7fc-7a3275adb6d3">
         <span class="hi" data-attribute="italic">
          Со слов:
         </span>
@@ -1579,20 +1457,13 @@
         </span>
         .
        </p>
-      </div>
-     </span>
+      </span>
     </p>
     <p id="d8690f75-62ca-4d60-8ee6-96d67e9ece9e" rend="left"> Мир
      , как
      правила детской
-     игры, compétent <span class="note" id="n252">
-      <div type="section" xml:id="n252">
-       <head>
-        <ref target="#backn252">
-         252
-        </ref>
-       </head>
-       <p id="41430377-dc6d-4fdf-8f84-afb719a3ede5">
+     игры, compétent <a href="#" data-type="snoska" id="note252">252</a><span class="note" id="note252">
+      <p id="41430377-dc6d-4fdf-8f84-afb719a3ede5">
         <choice original_editorial_correction="[сведущий]">
          <sic/>
          <corr>
@@ -1600,8 +1471,7 @@
          </corr>
         </choice>
        </p>
-      </div>
-     </span> в решении дел
+      </span> в решении дел
      о сенокосах
      , но перенесите его в
      другую сферу, дайте ему другую задачу, задачу о выходе из помещичьей

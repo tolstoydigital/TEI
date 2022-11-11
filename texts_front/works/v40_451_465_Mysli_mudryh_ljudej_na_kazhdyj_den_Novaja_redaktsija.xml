@@ -1,111 +1,123 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v40_451_465_Mysli_mudryh_ljudej_na_kazhdyj_den_Novaja_redaktsija">
-                    [Новая редакция «Мыслей мудрых людей на каждый день»]. Tolstoy Digital
-                </title>
-                <title type="main">Мыслей мудрых людей на каждый день.</title>
-                <title type="sub">Новая редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c32e86dd-f101-475a-a085-1a87ae87ce9e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Новая редакция «Мыслей мудрых людей на каждый день»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 40
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956-01-01"/>
-                        </imprint>
-                        <biblScope unit="volume">40</biblScope>
-                        <biblScope unit="page">451-465</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1903-01-01"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v40_451_465_Mysli_mudryh_ljudej_na_kazhdyj_den_Novaja_redaktsija">
+     [Новая редакция «Мыслей мудрых людей на каждый день»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Мыслей мудрых людей на каждый день.
+    </title>
+    <title type="sub">
+     Новая редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c32e86dd-f101-475a-a085-1a87ae87ce9e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Новая редакция «Мыслей мудрых людей на каждый день»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 40
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956-01-01"/>
+      </imprint>
+      <biblScope unit="volume">
+       40
+      </biblScope>
+      <biblScope unit="page">
+       451-465
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1903-01-01"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000007003">
     <p id="9092d90f-fe0d-4ca5-92bc-d8724ae88f1c">
      <pb n="451"/>
     </p>
-    <p id="abb8aa66-4594-4b19-bb3d-8c578be016c2">
+    <p id="44e58cc5-8a83-465f-be78-82ed101bce32">
       <head rend="center">
      * [НОВАЯ РЕДАКЦИЯ «МЫСЛЕЙ МУДРЫХ ЛЮДЕЙ НА КАЖДЫЙ ДЕНЬ»]
     </head>
@@ -118,21 +130,14 @@
     </p>
     <p id="6665aee2-3934-4f10-b21a-3da475bf5699" rend="left">
      Наоборот, человек, занятый тем, что от него самого зависит, и полагающий свою жизнь в
-     <span class="note" id="n110">
-      <div type="section" xml:id="n110">
-       <head>
-        <ref target="#backn110">
-         110
-        </ref>
-       </head>
-       <p id="2f91239a-0b81-4261-8165-8ce2e98c6612" rend="left">
+     <a href="#" data-type="snoska" id="note110">110</a><span class="note" id="note110">
+      <p id="2f91239a-0b81-4261-8165-8ce2e98c6612" rend="left">
         <span class="hi" data-attribute="italic">
          Далее по недосмотру незачеркнуто
         </span>
         : работе
        </p>
-      </div>
-     </span>
+      </span>
      том,
      <choice original_editorial_correction="что[бы]">
       <sic>
@@ -146,21 +151,14 @@
     </p>
     <p id="03986bd0-47ce-45a6-bb47-2ce04cb43004" rend="left">
      — А если я умру от того, что не буду
-     <span class="note" id="n111">
-      <div type="section" xml:id="n111">
-       <head>
-        <ref target="#backn111">
-         111
-        </ref>
-       </head>
-       <p id="22e5fe74-87de-4f10-889a-4744eedff289" rend="left">
+     <a href="#" data-type="snoska" id="note111">111</a><span class="note" id="note111">
+      <p id="22e5fe74-87de-4f10-889a-4744eedff289" rend="left">
         <span class="hi" data-attribute="italic">
          В подлиннике
         </span>
         : не будут
        </p>
-      </div>
-     </span>
+      </span>
      заниматься внешними делами?
     </p>
     <p id="ebbc0b30-d8a2-482e-a956-2709f196d693" rend="left">
@@ -179,7 +177,7 @@
       Эпиктет.
      </span>
     </p>
-    <p id="f5ce455c-2a77-49cc-9b36-27bbd5087c63">
+    <p id="4c1ae639-a812-46c0-849d-289dc100ff8d">
       <br/>
     </p>
     <p id="d0a8fd93-6252-4fe1-81fc-47729f8dc991" rend="subtitle centerline Razradka">
@@ -196,7 +194,7 @@
       Влас Паскаль.
      </span>
     </p>
-    <p id="d033d8ea-755d-45d1-a6be-e0194396b274">
+    <p id="06bce2d9-a84c-4a7b-ab03-4068694e6974">
       <br/>
     </p>
     <p id="869a4814-3634-4b7a-95f1-43ed8842bdf2" rend="subtitle centerline Razradka">
@@ -210,10 +208,13 @@
     </p>
     <p id="ca8074d2-d4b4-42d5-997d-d2cff0209e7a" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
-    <p id="782a5b35-fb56-45fd-8d3c-ecbc5c752020">
+    <p id="2b467ecf-a9a4-4445-9462-6b401fed5004">
       <br/>
     </p>
     <p id="8dbc9892-ef62-4778-875b-e2b540178e27" rend="subtitle centerline Razradka">
@@ -225,7 +226,7 @@
     <p id="5b25f23b-58e9-454f-8243-7ff34a599aac" rend="left">
      В том же и несчастие большинства людей: они не верят в то божественное начало, которое есть в них. Не веря же в это начало, продают его за ненужные телесные удовольствия и, лишившись этого начала, убивают сами себя.
     </p>
-    <p id="9cf0178b-7c5a-49b0-a4ff-474e31e959fb">
+    <p id="4ff4ce73-c365-4d53-8982-1723d4b4a3d7">
       <br/>
     </p>
     <p id="7b0689db-e3cf-454a-af82-13ef34331b90" rend="subtitle centerline Razradka">
@@ -238,10 +239,13 @@
     </p>
     <p id="a9c401ee-9695-4c04-b1df-ad191f85699a" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
-    <p id="d191bf1c-b3e3-464a-b5a8-102cab2c11a0">
+    <p id="14fa8197-fdca-4a62-84e4-03108afa5ccc">
       <br/>
     </p>
     <p id="7b495ca7-f5bc-4c55-821f-85a1872eaa06" rend="subtitle centerline Razradka">
@@ -250,7 +254,7 @@
     <p id="af19ae10-6544-4511-9712-f7d9b6e78f71" rend="left">
      Нет в мире ничего дороже любви от людей. Но, удивительное дело, для того, чтобы люди любили тебя, не надо угождать им, а заботиться только о том, чтобы угождать богу. Угождай людям, забывая о боге, и люди не будут любить тебя. Угождай богу, забывая о людях, и люди полюбят тебя.
     </p>
-    <p id="b5892769-c433-4fa9-9059-7a1897a7405a">
+    <p id="2a7f9024-bdaf-45dd-8108-c8d8e1bc8514">
       <br/>
     </p>
     <p id="7c6089e1-ffb1-4501-8fbe-5c4c92203a63" rend="subtitle centerline Razradka">
@@ -264,7 +268,7 @@
       Лао-Тзе.
      </span>
     </p>
-    <p id="89e4ee78-e80e-4266-ac64-031ed24ca3c7">
+    <p id="38c1a509-2f6c-41da-afd3-5ce1488ddf4e">
       <br/>
     </p>
     <p id="37bbd6e3-a64b-44cb-bba6-6877c1bb564e" rend="subtitle centerline Razradka">
@@ -278,7 +282,7 @@
       Талмуд.
      </span>
     </p>
-    <p id="a4cac923-236a-4b11-89b5-d56fa7590b27">
+    <p id="ffd74e70-9b5a-4989-9264-093b7ddea806">
       <br/>
     </p>
     <p id="b7c618bd-9da7-4fbc-aaf4-2390e3263d8d" rend="left">
@@ -292,7 +296,7 @@
       Dhammapada.
      </span>
     </p>
-    <p id="f2e6773e-764f-46ce-9006-3adaecdfcb87">
+    <p id="a676ac4c-ca01-416f-8da3-15b6da6749e7">
       <br/>
     </p>
     <p id="96396587-edc2-459b-ae55-9c7c56efed7e" rend="subtitle centerline Razradka">
@@ -306,7 +310,7 @@
       Талмуд.
      </span>
     </p>
-    <p id="374e45fd-434c-41d9-8a40-6fa43c534925">
+    <p id="11b1c1c8-ac1a-4a5e-a369-89e8b422b9a7">
       <br/>
     </p>
     <p id="81fc96c3-5f9e-43ba-a62f-41f6778bcaf0" rend="subtitle centerline Razradka">
@@ -332,7 +336,7 @@
       &lt;Джон Рёскин.&gt;
      </span>
     </p>
-    <p id="68db8076-4e53-4a64-97c1-b7097d40fa6d">
+    <p id="ee438ba0-0232-4568-a090-ea14b1e365f6">
       <br/>
     </p>
     <p id="e62ee8b1-a566-42aa-b128-bf484d29d02b" rend="subtitle centerline Razradka">
@@ -346,25 +350,18 @@
       &lt;Конфуций.&gt;
      </span>
     </p>
-    <p id="e6d64056-0d6a-486d-ae8b-acbb243dd015">
+    <p id="744a6a2e-0ace-4190-851e-3bb8caf753d6">
       <br/>
     </p>
     <p id="b12125e9-7090-4df1-b5bb-e955520ebc69" rend="left">
      Хорошо
-     <span class="note" id="n112">
-      <div type="section" xml:id="n112">
-       <head>
-        <ref target="#backn112">
-         112
-        </ref>
-       </head>
-       <p id="679bbf14-29ed-4f06-9958-1149e924f3b5" rend="left">
+     <a href="#" data-type="snoska" id="note112">112</a><span class="note" id="note112">
+      <p id="679bbf14-29ed-4f06-9958-1149e924f3b5" rend="left">
         <span class="del">
          Хорошо делать такие дела
         </span>
        </p>
-      </div>
-     </span>
+      </span>
      скрывать свои добрые дела, но не надо воздерживаться от доброго дела, если не можешь скрыть его.
     </p>
     <p id="e921e6e1-6df5-453e-ab59-a1b7bdd0fabb" rend="right">
@@ -372,7 +369,7 @@
       &lt;Джон Рёскин.&gt;
      </span>
     </p>
-    <p id="6baf2d05-db0c-4b6d-bfc3-6683bca83184">
+    <p id="7ef6bf9e-a714-42ff-91db-0d950cc80ce9">
       <br/>
     </p>
     <p id="5e9717dc-f190-485b-9fe0-7edbb8df3a0a" rend="subtitle centerline Razradka">
@@ -395,7 +392,7 @@
       Dhammapada.
      </span>
     </p>
-    <p id="c7b665c5-a6ec-4063-8d32-523d9e8d3560">
+    <p id="579398bf-2535-4501-9632-620891091544">
       <br/>
     </p>
     <p id="00e78b2c-7231-4207-a60f-f07e9bddd386" rend="subtitle centerline Razradka">
@@ -409,7 +406,7 @@
       Талмуд.&gt;
      </span>
     </p>
-    <p id="b82981b4-2178-4d5c-b21b-c27c6e2a5e8b">
+    <p id="5ed768c5-7137-4bb4-acb7-2aa89d84f7f5">
       <br/>
     </p>
     <p id="da462428-5dcb-4749-98f2-8a7efcc991c2" rend="subtitle centerline Razradka">
@@ -428,7 +425,7 @@
      <pb n="455"/>
      Ничто так не радует людей, как то, когда их прощают за их зло и платят добром за зло; и ничто так не радостно тому, кто это делает.
     </p>
-    <p id="2e653396-5593-4ae1-8c2e-6c419991b4ab">
+    <p id="83f01076-7b20-402a-9734-00cb165eed41">
       <br/>
     </p>
     <p id="207b3c6e-4f0c-415e-86d2-aeff3ee6afd5" rend="subtitle centerline Razradka">
@@ -436,37 +433,23 @@
     </p>
     <p id="7b015f41-8c28-45f4-9f30-89f7da28cdd1" rend="left">
      Нельзя сердиться на
-     <span class="note" id="n113">
-      <div type="section" xml:id="n113">
-       <head>
-        <ref target="#backn113">
-         113
-        </ref>
-       </head>
-       <p id="ee792eaf-8226-4a83-b53e-0409f35b06eb" rend="left">
+     <a href="#" data-type="snoska" id="note113">113</a><span class="note" id="note113">
+      <p id="ee792eaf-8226-4a83-b53e-0409f35b06eb" rend="left">
         <span class="hi" data-attribute="italic">
          Зачеркнуто
         </span>
         : больного
        </p>
-      </div>
-     </span>
+      </span>
      человека
-     <span class="note" id="n114">
-      <div type="section" xml:id="n114">
-       <head>
-        <ref target="#backn114">
-         114
-        </ref>
-       </head>
-       <p id="a70be152-769a-423f-9c4a-1c28aba370a9" rend="left">
+     <a href="#" data-type="snoska" id="note114">114</a><span class="note" id="note114">
+      <p id="a70be152-769a-423f-9c4a-1c28aba370a9" rend="left">
         <span class="hi" data-attribute="italic">
          Зач
         </span>
         .: с гадкой болезнью, когда он
        </p>
-      </div>
-     </span>
+      </span>
      с какой-нибудь отвратительной болезнью. Он
      <choice original_editorial_correction="[не]">
       <sic/>
@@ -481,10 +464,13 @@
     </p>
     <p id="07283bd6-8068-4ee1-ac00-ff0e3654cee8" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
-    <p id="c4e64138-6c7c-438d-8d10-b9e9039c7ed3">
+    <p id="acc6628f-309f-4797-bd17-4306a4a39573">
       <br/>
     </p>
     <p id="740a327b-d7ed-47a6-8806-aef470f17535" rend="subtitle centerline Razradka">
@@ -504,7 +490,7 @@
       &lt;Эпиктет.&gt;
      </span>
     </p>
-    <p id="68bb3165-1aef-4d0b-8b0c-e2b3b9a9dafb">
+    <p id="43af981e-894c-4430-8d47-4b451a6df9f9">
       <br/>
     </p>
     <p id="5bd0a9bd-728d-4ef0-b78c-eb61340f60bf" rend="subtitle centerline Razradka">
@@ -521,7 +507,7 @@
     <p id="444f2c71-aba0-4694-9c65-0e9c0f02bf2c" rend="left">
      <pb n="456"/>
     </p>
-    <p id="91292300-d995-430d-9140-9680c6792e3d">
+    <p id="aebad277-af84-4956-a9fb-855b899024da">
       <br/>
     </p>
     <p id="5e475f5f-1ff0-4601-8839-07bed66d0a90" rend="subtitle centerline Razradka">
@@ -538,7 +524,7 @@
       Dhammapada.
      </span>
     </p>
-    <p id="a2525cb6-edda-46f5-bc87-5ea416858d98">
+    <p id="49b883da-f4e0-47af-8146-ec13280acf7a">
       <br/>
     </p>
     <p id="61e42553-7238-4f9a-9ef8-f2f3eb959d4e" rend="subtitle centerline Razradka">
@@ -552,7 +538,7 @@
       Эпиктет.
      </span>
     </p>
-    <p id="377c509b-80ab-4308-b999-8d6ab7a41f59">
+    <p id="0851375b-9470-4a5d-a6ef-60785ae1a9a7">
       <br/>
     </p>
     <p id="9ffe38e0-fac7-48b2-a0e8-fb2ee5f39490" rend="subtitle centerline Razradka">
@@ -569,21 +555,14 @@
     </p>
     <p id="7d49eaad-d7a0-4e45-8d34-2dac0b9aa970" rend="left">
      Давая нам разум, он как будто сказал нам: Для того, чтобы вы могли избегать зла и пользоваться благами жизни, я вселил в вас божественную частицу себя самого. Я дал вам разум. Если вы будете прикладывать его ко всему тому, что случается с вами, то ничто в мире не будет служить вам препятствием или стеснением на том пути, который я вам назначил, и никогда не будете плакаться ни на свою судьбу, ни на людей; не станете осуждать их и не будете подделываться к ним. Так не упрекайте же меня за то, что я не дал вам большего. Неужели мало для вас того, что вы можете прожить всю вашу
-     <span class="note" id="n115">
-      <div type="section" xml:id="n115">
-       <head>
-        <ref target="#backn115">
-         115
-        </ref>
-       </head>
-       <p id="6f40bb1d-1bca-4db9-9298-72e838e49105" rend="left">
+     <a href="#" data-type="snoska" id="note115">115</a><span class="note" id="note115">
+      <p id="6f40bb1d-1bca-4db9-9298-72e838e49105" rend="left">
         <span class="hi" data-attribute="italic">
          В подлиннике
         </span>
         : твою
        </p>
-      </div>
-     </span>
+      </span>
      жизнь разумно, спокойно и радостно? Довольствуйтесь этим.
     </p>
     <p id="97b10ca2-e64a-44c9-a6ef-6331d3247161" rend="right">
@@ -591,7 +570,7 @@
       Эпиктет.
      </span>
     </p>
-    <p id="cad69e27-4457-48fc-ac93-e54854530c3b">
+    <p id="b20241c0-4be3-481a-a9c9-6115b39b93dd">
       <br/>
     </p>
     <p id="d1a2aa19-aad9-4a3c-a444-84365be8490c" rend="subtitle centerline Razradka">
@@ -607,7 +586,7 @@
       Талмуд.
      </span>
     </p>
-    <p id="08c0d2c0-200a-42b8-9541-d5f9c6a85387">
+    <p id="99096f25-616e-4fa7-8679-5bffcda4fd11">
       <br/>
     </p>
     <p id="3f42e076-3821-47e9-a08a-c3c5bcd67975" rend="left">
@@ -618,13 +597,13 @@
       Бондарев.
      </span>
     </p>
-    <p id="27b9ded5-1b71-4ce5-a654-355e799d8c90">
+    <p id="d7fcf01e-2815-445c-98d4-029bdb60245e">
       <br/>
     </p>
     <p id="b07fd5f1-41fb-4381-a362-8b2712acf941" rend="left">
      Каждый человек должен иметь право и возможность добывать свою пищу из земли. И потому грешат люди, когда держат больше земли, чем им нужно, и не пускают других людей кормиться ею.
     </p>
-    <p id="a2788f2d-e0c5-41fb-aece-aa7ebcf1cd43">
+    <p id="915bef02-361c-4dea-9e29-5846ac9781f4">
       <br/>
     </p>
     <p id="98f73f44-b22f-4d2b-afb5-187ecdf2ef0c" rend="subtitle centerline Razradka">
@@ -635,10 +614,13 @@
     </p>
     <p id="15afeaff-880e-4ade-bd38-c348f446434f" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
-    <p id="0b7f959e-113a-45fe-823d-50d83d4c5518">
+    <p id="61fa7841-0b19-47b2-955d-54ed1db98cdd">
       <br/>
     </p>
     <p id="b9ab900c-1a69-41ea-8e37-3b6bfad95b18" rend="left">
@@ -649,7 +631,7 @@
       Лао-Тзе.
      </span>
     </p>
-    <p id="9faa3520-6cfa-4297-954d-1d0c018b6878">
+    <p id="2c1da1e5-b354-44e0-8627-fd73f4b17f77">
       <br/>
     </p>
     <p id="4e181a00-1237-4e1c-87ec-b9de087774fd" rend="subtitle centerline Razradka">
@@ -660,10 +642,13 @@
     </p>
     <p id="eb34bd1c-1524-4b4b-a41e-862fcec4d090" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
-    <p id="911a86e3-23ec-4f9a-ac7e-d0a9bd284a14">
+    <p id="4c75847d-63c0-472a-81e6-5da55e2170ab">
       <br/>
     </p>
     <p id="7623aabe-20aa-4792-a9fc-d27e137e7704" rend="subtitle centerline Razradka">
@@ -671,21 +656,14 @@
     </p>
     <p id="0a5144e0-18e8-4fd2-84f0-cb2dee382984" rend="left">
      Первый грех бывает тяжел, и человек страдает от
-     <span class="note" id="n116">
-      <div type="section" xml:id="n116">
-       <head>
-        <ref target="#backn116">
-         116
-        </ref>
-       </head>
-       <p id="5a1f1450-0ba6-44a1-a8d7-6830771f430e" rend="left">
+     <a href="#" data-type="snoska" id="note116">116</a><span class="note" id="note116">
+      <p id="5a1f1450-0ba6-44a1-a8d7-6830771f430e" rend="left">
         <span class="hi" data-attribute="italic">
          Зачеркнуто
         </span>
         : него
        </p>
-      </div>
-     </span>
+      </span>
      раскаяния. Но чем чаще грешишь, тем меньше раскаяния и под конец делаешь грехи, не замечая их.
     </p>
     <p id="5f0d240c-f859-4042-bf7e-5757250e3530" rend="left">
@@ -701,7 +679,7 @@
       Л. Т.
      </span>
     </p>
-    <p id="2d8b9385-97b5-47ab-8bdf-e2d5ca61b7f2">
+    <p id="df2f1eab-5571-4213-910c-257fdc4966b6">
       <br/>
     </p>
     <p id="3e7ccc83-ca04-4355-93f5-bff3dc03f337" rend="subtitle centerline Razradka">
@@ -709,26 +687,19 @@
     </p>
     <p id="7192dbee-a4f0-4ef7-bbda-510bf2aa55b8" rend="left">
      Если ты
-     <span class="note" id="n117">
-      <div type="section" xml:id="n117">
-       <head>
-        <ref target="#backn117">
-         117
-        </ref>
-       </head>
-       <p id="255fac9d-cd43-47ee-a789-b434d595532c" rend="left">
+     <a href="#" data-type="snoska" id="note117">117</a><span class="note" id="note117">
+      <p id="255fac9d-cd43-47ee-a789-b434d595532c" rend="left">
         <span class="del">
          истинно любить бога
         </span>
        </p>
-      </div>
-     </span>
+      </span>
      исполняешь заповеди божьи не из страха перед богом, не из выгоды, а из любви к нему, то жизнь твоя будет радостна, и, глядя на твою жизнь, другие люди, подражая тебе, постараются исполнять заповеди божии.
     </p>
     <p id="277d24b0-a7f7-4646-90cc-f17df782a205" rend="left">
      Так что привлечь к богу мы можем людей не словами, а исполнением нами самими его заповедей.
     </p>
-    <p id="1356261d-bf3a-4dfc-bd1d-0f1b5fe7dd12">
+    <p id="7463244f-2b06-45f8-9b32-f1a4b14d908a">
       <br/>
     </p>
     <p id="6cf0ba6c-9bdf-4d9f-abb2-b17778d1520c" rend="subtitle centerline Razradka">
@@ -740,7 +711,7 @@
     <p id="9ed3d728-9e3b-4294-87b0-99752f6fb8cd" rend="right">
      Талмуд.
     </p>
-    <p id="76c7a691-23db-48e3-aa64-1ec8e297aede">
+    <p id="f757e023-5d42-4136-9da3-d3d48ed284c3">
       <br/>
     </p>
     <p id="af740616-201e-491e-a20e-dff1d48152ef" rend="subtitle centerline Razradka">
@@ -752,7 +723,7 @@
     <p id="0b71d0db-babe-4939-ac07-c3421694b3f8" rend="right">
      Шопенгауэр.
     </p>
-    <p id="80f95ab5-3f98-4de1-9a09-11321309abae">
+    <p id="6873dd14-0e58-4e2e-94b9-3fcb040079d1">
       <br/>
     </p>
     <p id="3ec4c815-fe86-47af-9804-3ba74e1adaa9" rend="subtitle centerline Razradka">
@@ -767,7 +738,7 @@
     <p id="32ad8e4e-1942-4a72-a9ad-11694d501f50" rend="right">
      Влас Паскаль.
     </p>
-    <p id="e18d0dd0-89e3-4c45-b3c8-07c01912f864">
+    <p id="de521d4f-f3ed-4546-8990-8009c4aac6f6">
       <br/>
     </p>
     <p id="3cc2fdaf-080c-4bef-a8dc-90c1c4f374fb" rend="subtitle centerline Razradka">
@@ -775,21 +746,14 @@
     </p>
     <p id="bbd196bd-0c18-422e-af63-bdc5cf94e7a8" rend="left">
      Если толпа ненавидит кого-нибудь, то не надо думать, что человек этот заслуживает ненависть, а внимательно исследовать, почему это так. Если толпа хвалит кого-нибудь, надо тоже не
-     <span class="note" id="n118">
-      <div type="section" xml:id="n118">
-       <head>
-        <ref target="#backn118">
-         118
-        </ref>
-       </head>
-       <p id="5d0c3434-eb77-43a3-a4fd-e5aa3ab2d825" rend="left">
+     <a href="#" data-type="snoska" id="note118">118</a><span class="note" id="note118">
+      <p id="5d0c3434-eb77-43a3-a4fd-e5aa3ab2d825" rend="left">
         <span class="hi" data-attribute="italic">
          Зач.:
         </span>
         верить
        </p>
-      </div>
-     </span>
+      </span>
      поддаваться общему мнению, а внимательно исследовать это, прежде чем судить.
     </p>
     <p id="b2803c73-ac1d-418f-9a6c-28e3f4adbd32" rend="left">
@@ -813,7 +777,7 @@
       Китайская мудрость.
      </span>
     </p>
-    <p id="9eca3a36-58d3-4103-a5b6-c9fed1f130b7">
+    <p id="9b1d5fcd-5646-486e-93a9-6f91a3439bc7">
       <br/>
     </p>
     <p id="ce1a8318-c1f8-4ce2-bfc1-3a0ee31d67af" rend="subtitle centerline Razradka">
@@ -827,7 +791,7 @@
       &lt;Талмуд.&gt;
      </span>
     </p>
-    <p id="67b54eb0-2fc4-43f3-b988-1d3619a5a760">
+    <p id="27edfe9c-34f3-416f-928e-a3f985ea59f5">
       <br/>
     </p>
     <p id="d7cbbdd3-a87d-4ea5-ae35-f9178c97231e" rend="subtitle centerline Razradka">
@@ -844,7 +808,7 @@
       Лао-Тзе.
      </span>
     </p>
-    <p id="b5420eb0-52ef-4e9b-80f0-670a7ed83155">
+    <p id="a230face-f0e0-45cc-8af5-4aa9dbbd1424">
       <br/>
     </p>
     <p id="56f6a181-74db-410f-a621-056043a60608" rend="subtitle centerline Razradka">
@@ -853,7 +817,7 @@
     <p id="bccd1210-ff85-4fd7-9ad4-1604db68fb57" rend="left">
      Одно только в жизни драгоценно — хранить правду и поступать кротко; беспрестанно сталкиваясь с людскою ложью и жестокостью, — не уставать самому быть правдивым и кротким.
     </p>
-    <p id="ada66114-e228-4661-b5ce-cfc5a58f4f8c">
+    <p id="46c2296d-930b-432a-8a5d-c7ad2ff5bea9">
       <br/>
     </p>
     <p id="a0f3547c-3905-4d90-9841-f5f5434a6a7a" rend="subtitle centerline Razradka">
@@ -867,7 +831,7 @@
       Китайская мудрость.
      </span>
     </p>
-    <p id="0e04d2de-eabc-4562-b19a-9a599271d8ec">
+    <p id="a33860d7-197c-47ef-b4b5-667f2cd1f7e4">
       <br/>
     </p>
     <p id="93fa6f07-aea9-4b31-a797-522635bf301b" rend="subtitle centerline Razradka">
@@ -884,7 +848,7 @@
     <p id="a781b566-8a97-405b-b1c8-254a89bf9b1e" rend="left">
      <pb n="460"/>
     </p>
-    <p id="51877e54-6680-49c5-9730-f54d89455bec">
+    <p id="83af7e22-cbc4-425f-9591-4fc96e5f5947">
       <br/>
     </p>
     <p id="40a1de67-9900-48fd-8d4a-5f76f9e71658" rend="subtitle centerline Razradka">
@@ -895,10 +859,13 @@
     </p>
     <p id="02edea05-3b01-4c71-9163-b97d03edcae6" rend="right">
      <span class="hi" data-attribute="italic">
-      Марк Аврелий.
+      <name placement="text" ref="8542" type="person">
+       Марк Аврелий
+      </name>
+      .
      </span>
     </p>
-    <p id="1db47a82-0d45-43fa-83bd-26917ee0a8fe">
+    <p id="55375929-c8e9-4bfe-a499-e6f1768b43a1">
       <br/>
     </p>
     <p id="e03d4f9a-2b0f-4788-b26d-f8dea27ba648" rend="subtitle centerline Razradka">
@@ -913,14 +880,8 @@
       </corr>
      </choice>
      не может помешать твоему движению. А благо
-     <span class="note" id="n119">
-      <div type="section" xml:id="n119">
-       <head>
-        <ref target="#backn119">
-         119
-        </ref>
-       </head>
-       <p id="4e58c04a-73e8-4e57-85e5-90e082a58d85" rend="left">
+     <a href="#" data-type="snoska" id="note119">119</a><span class="note" id="note119">
+      <p id="4e58c04a-73e8-4e57-85e5-90e082a58d85" rend="left">
         <span class="hi" data-attribute="italic">
          Зачеркнуто
         </span>
@@ -934,8 +895,7 @@
          </corr>
         </choice>
        </p>
-      </div>
-     </span>
+      </span>
      только в этом движении по истинному, предназначенному человеку пути жизни.
     </p>
     <p id="3b8eeea4-8ce1-413f-8836-b74ef8297a34" rend="right">
@@ -943,7 +903,7 @@
       &lt;Карлейль.&gt;
      </span>
     </p>
-    <p id="1cad91ea-e319-4650-a3a3-64789deb0881">
+    <p id="dec786f7-7f23-42b7-8de3-9011848a8855">
       <br/>
     </p>
     <p id="7805ef09-95be-4c1b-91cd-c6d70edab96e" rend="subtitle centerline Razradka">
@@ -957,7 +917,7 @@
       Влас Паскаль.
      </span>
     </p>
-    <p id="e5016f21-902e-4a3d-a83e-ef1aeb8d897d">
+    <p id="b72eae25-9990-400a-b90e-2a0e06de0b91">
       <br/>
     </p>
     <p id="ac7fd047-9804-444c-a808-662e13df7a56" rend="subtitle centerline Razradka">
@@ -969,7 +929,7 @@
     <p id="a22e9abc-2468-4be7-9132-8278b6b26cfc" rend="left">
      Слова эти значат то, что тот, кто захочет сохранить свою плотскую жизнь, тот потеряет духовную, и кто отдаст свою жизнь для бога, тот приобретет истинную духовную жизнь. Жизнь наша в нашем духе. В просветлении этого духа единственно возможно верное благо мира.
     </p>
-    <p id="8408b793-8cb4-48de-8dd5-fb6004b68809">
+    <p id="b18ca0c8-fd0a-459f-a4c4-6be2cc4ff495">
       <br/>
     </p>
     <p id="ea715a5b-721e-4bd6-acd2-c39c4ceecc16" rend="subtitle centerline Razradka">
@@ -983,7 +943,7 @@
       Л. Т.
      </span>
     </p>
-    <p id="3f4e0a21-3444-4a0a-97be-82ebf90a80ea">
+    <p id="a16e86d4-7cf8-4496-a392-ef65018a4aaa">
       <br/>
     </p>
     <p id="a4dc2821-1e34-474c-8666-10603cf1ba69" rend="subtitle centerline Razradka">
@@ -999,7 +959,7 @@
       Талмуд.
      </span>
     </p>
-    <p id="d05e6737-fb56-4122-a046-623d146eea78">
+    <p id="7a4ef849-e2c8-425a-bda7-eeee262017f3">
       <br/>
     </p>
     <p id="0e7f09ce-3a01-4261-8038-52fe6ff83905" rend="subtitle centerline Razradka">
@@ -1013,7 +973,7 @@
       Лао-Тзе.
      </span>
     </p>
-    <p id="da9b459f-4bed-4f85-a757-2794e0649e43">
+    <p id="d33b3793-c8e9-4398-80cc-78e4666f81df">
       <br/>
     </p>
     <p id="4767ba2e-5c2c-463f-b5ae-fac6c26a3375" rend="subtitle centerline Razradka">
@@ -1027,10 +987,13 @@
     </p>
     <p id="6dc0e634-d5dd-41e4-9027-6fd382efea3c" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
-    <p id="c89cff25-d961-45d3-b5b3-63cd0d684159">
+    <p id="26e52ffe-5602-4538-9c92-de93c3a81670">
       <br/>
     </p>
     <p id="9cd3fa8d-bf4c-4789-a16d-4e019ef3f1a0" rend="subtitle centerline Razradka">
@@ -1058,7 +1021,7 @@
       Влас Паскаль.
      </span>
     </p>
-    <p id="24d98755-f60b-4ea4-ba4f-97ccbd679a92">
+    <p id="318aeb19-a636-4c0e-ad38-93dd8cb1896c">
       <br/>
     </p>
     <p id="d56a80ce-949f-4629-9215-92ee39dac8bb" rend="subtitle centerline Razradka">
@@ -1072,7 +1035,7 @@
       Dhammapada.
      </span>
     </p>
-    <p id="76b3f4c6-6bc7-4466-9be5-053e1ee95ffb">
+    <p id="e9561245-7ea0-4f92-81e6-292baa1ebd7b">
       <br/>
     </p>
     <p id="d7c9336c-5218-430a-836f-37b472b6a785" rend="left">
@@ -1081,7 +1044,7 @@
     <p id="f1cce965-796e-4e55-a7c5-ff63e530c87c" rend="left">
      <pb n="462"/>
     </p>
-    <p id="3eaa7999-be5c-4f8d-ad42-6d4d2f77f039">
+    <p id="d35b5a35-71c7-4112-9daa-e279a8ecf939">
       <br/>
     </p>
     <p id="05492425-419e-4ccc-bd92-41932254acb4" rend="subtitle centerline Razradka">
@@ -1095,7 +1058,7 @@
       Лао-Тзе.
      </span>
     </p>
-    <p id="4a45d355-dfd1-4e03-ad85-aaf3de607228">
+    <p id="10500ff8-2239-4844-9e59-85fc6289dd65">
       <br/>
     </p>
     <p id="2589a4ec-adc1-4681-b213-65bbb718de9a" rend="subtitle centerline Razradka">
@@ -1112,7 +1075,7 @@
       Браминская мудрость.
      </span>
     </p>
-    <p id="77f64f58-b1c4-4110-8154-66afe6f779e4">
+    <p id="190ec30c-9b46-40dd-a029-a158500a09c5">
       <br/>
     </p>
     <p id="f8501708-bddf-4867-8060-ae6e18122716" rend="subtitle centerline Razradka">
@@ -1121,7 +1084,7 @@
     <p id="d6a2e981-b3c6-4957-9384-c5ab3ccc36bc" rend="left">
      Царство божие, в которое богатство не пропускает человека, не на небе только, но и на земле. Нельзя богатому быть истинно счастливым.
     </p>
-    <p id="8590c4ec-2706-4bfc-9347-9ac8f243b5f9">
+    <p id="0266131b-2252-4fc9-9da6-09e7f553cc1b">
       <br/>
     </p>
     <p id="bbfcf282-8f00-40d9-b3fd-ba3ededad894" rend="subtitle centerline Razradka">
@@ -1135,7 +1098,7 @@
       Конфуций.
      </span>
     </p>
-    <p id="5276fe64-4ff4-4ff0-be33-91329b7238bb">
+    <p id="1b76fb89-3683-430b-ae7f-fcce0fbef1ed">
       <br/>
     </p>
     <p id="7361116a-2109-4362-a4a5-87c7d85d8e2f" rend="subtitle centerline Razradka">
@@ -1144,7 +1107,7 @@
     <p id="a76fb538-e8df-410e-a99b-64c30fbd152d" rend="left">
      Ничто так не утишает страсти и злобу, ничто так не направляет к кротости и прощению, как память о своей близости к смерти.
     </p>
-    <p id="64f0e81e-a268-41ef-a83e-e053b95fa326">
+    <p id="9cb8d16c-146a-4262-9433-9c7ffc14abc3">
       <br/>
     </p>
     <p id="a1b90203-3b24-4ac0-b50f-bf33446cc10a" rend="subtitle centerline Razradka">
@@ -1161,7 +1124,7 @@
       Dhammapada.
      </span>
     </p>
-    <p id="2d33832a-e069-43ff-835c-9082021e52e2">
+    <p id="5fbad9ab-e2e5-4975-89ce-9158c4eebfa9">
       <br/>
     </p>
     <p id="8ad35879-4ee9-4851-aa9e-aaeccac8deac" rend="subtitle centerline Razradka">
@@ -1183,7 +1146,7 @@
      <pb n="463"/>
      Иго это, о котором говорится здесь, есть признание себя во власти бога для исполнения его воли. Смиренно примите это иго — и вы увидите, что иго не только не трудно, но легко и радостно.
     </p>
-    <p id="a8a20c9c-5ec7-44c9-87da-57b2124de001">
+    <p id="1961b37e-5d9a-4a73-9fd3-bd8b681d0937">
       <br/>
     </p>
     <p id="d711e7a1-ab61-48ec-9d3f-87ba426eb4dd" rend="subtitle centerline Razradka">
@@ -1197,7 +1160,7 @@
       Талмуд.
      </span>
     </p>
-    <p id="aa9182aa-87cb-41cd-acdd-fc03056fcf34">
+    <p id="97e13d40-8682-4196-9c6a-7f2923b9ca45">
       <br/>
     </p>
     <p id="7a70b7f9-4e5d-4219-b3ac-9b6ad189cb8d" rend="subtitle centerline Razradka">
@@ -1211,7 +1174,7 @@
       Влас Паскаль.
      </span>
     </p>
-    <p id="8745f455-77aa-4f3d-b205-299862cd29cb">
+    <p id="12293136-6d91-4a9a-b036-20945c4f982e">
       <br/>
     </p>
     <p id="272bc3b2-a0da-4f5e-9ff3-00a3c6ee3ded" rend="left">
@@ -1234,7 +1197,7 @@
       Лao-Тзе.
      </span>
     </p>
-    <p id="d0a27b43-d7f2-47ba-9057-ee96d45bbbdd">
+    <p id="41865044-c173-4c9c-8982-c986023a6d49">
       <br/>
     </p>
     <p id="102e6415-460d-4ec8-a3d1-33e34d2654f9" rend="subtitle centerline Razradka">
@@ -1251,7 +1214,7 @@
       Влас Паскаль.
      </span>
     </p>
-    <p id="05d4cad0-d036-4d1a-b943-e1b7febb564f">
+    <p id="b22934a4-d193-46eb-9a1b-ebe1e0106de9">
       <br/>
     </p>
     <p id="34beda5c-92d8-479e-affe-73a0b55414fb" rend="subtitle centerline Razradka">
@@ -1266,10 +1229,13 @@
     </p>
     <p id="364dc60d-7545-42f8-9a20-47c26acbab3a" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
-    <p id="3826e1b7-84c5-4ca9-9389-d150796f148b">
+    <p id="61c707be-4a83-4cb7-81a1-ad632dd92b4f">
       <br/>
     </p>
     <p id="92c83a0a-1f76-4236-ac1c-0e937c54e14a" rend="subtitle centerline Razradka">
@@ -1278,7 +1244,7 @@
     <p id="e238d632-5c83-4fc2-9513-9c81a6bc8406" rend="left">
      Любовь живет в нас оттого, что мы чувствуем, что все люди одно; что в каждом человеке есть то самое высшее, что есть во мне. И потому, если я не люблю хоть одного человека, то я теряю свое единение со всеми. Если же полюблю того, кого не любил, то восстановлю это единение. От этого так радостно бывает полюбить того, кто меня не любил и кому я платил тем же.
     </p>
-    <p id="aa4ade99-396f-4a67-b2a7-82bb0a7f6ad3">
+    <p id="b907c865-3efd-488a-a9f7-5b5d9511e82a">
       <br/>
     </p>
     <p id="91efb692-5de7-4a2f-aaad-a0488265f7e5" rend="subtitle centerline Razradka">
@@ -1290,7 +1256,7 @@
     <p id="ab3096f3-e4b6-47a9-9ab9-fcaf2b818c57" rend="left">
      Все равны — и сильные и слабые, и умные и глупые.
     </p>
-    <p id="cb950751-be4b-4d9c-a2e3-ddc0a8ec96e8">
+    <p id="d2d40d81-e37b-4bd4-8707-bea4467e301e">
       <br/>
     </p>
     <p id="97638d57-7b37-4ad9-8545-30b3c30a5b06" rend="subtitle centerline Razradka">
@@ -1304,7 +1270,7 @@
       Талмуд.
      </span>
     </p>
-    <p id="f5fe6cd5-3d31-443d-92a2-5e5f250a3def">
+    <p id="ba2c9193-f9f0-4933-8e12-02cd2230c427">
       <br/>
     </p>
     <p id="af5515f3-ffc9-4128-9950-5f4ebb6fb223" rend="subtitle centerline Razradka">
@@ -1318,7 +1284,7 @@
       &lt;Талмуд.&gt;
      </span>
     </p>
-    <p id="2108e6cd-d737-49ce-be63-128fcd0c8189">
+    <p id="0f48cded-5e86-4ea7-8c1d-c1db48bac282">
       <br/>
     </p>
     <p id="ba126105-cf07-4b71-93c8-320c3f2495fa" rend="subtitle centerline Razradka">
@@ -1327,7 +1293,7 @@
     <p id="b9f3c12a-f574-499c-ae87-1088bc5fecce" rend="left">
      «И научитесь от меня все, яко кроток и смирен сердцем и найдете покой душам вашим». Гордость и удовлетворение дают короткую радость и долгую печаль. Смирение и унижение дают постоянное спокойствие и только короткие минуты неприятности.
     </p>
-    <p id="354694d8-ce25-4d07-a4f5-80d1b4062f21">
+    <p id="c6163f5a-483c-40ac-984f-627a022eedf1">
       <br/>
     </p>
     <p id="b3fbb9df-4025-4b0d-b975-8d184475387b" rend="subtitle centerline Razradka">
@@ -1339,7 +1305,7 @@
     <p id="7c21d1a8-c21c-438b-90ee-68a69f364a2e" rend="left">
      <pb n="465"/>
     </p>
-    <p id="ee0c3e70-0fa2-49cd-8602-8206e2c072af">
+    <p id="8ea0604c-e2d5-48ef-a209-e58da1803a59">
       <br/>
     </p>
     <p id="1efd0e91-2607-4b0a-b253-05e189c71b4a" rend="subtitle centerline Razradka">
@@ -1353,7 +1319,7 @@
       Талмуд.
      </span>
     </p>
-    <p id="cad2fcfa-a38a-451a-b195-729260f3e407">
+    <p id="4c1c0524-6577-4b1a-a7c0-45f8b84936b5">
       <br/>
     </p>
     <p id="5a87e0ad-84d8-4859-9c1f-32e89548d0ef" rend="subtitle centerline Razradka">
@@ -1367,7 +1333,7 @@
       Китайская мудрость.
      </span>
     </p>
-    <p id="c05496bc-8cac-480c-9c6f-8fef11fb702b">
+    <p id="4ae5aa76-a12a-4285-8601-ff431cbb2dd6">
       <br/>
     </p>
     <p id="9c495f85-5f9d-4ed5-886a-2fa3f220726d" rend="subtitle centerline Razradka">
@@ -1376,7 +1342,7 @@
     <p id="783fab48-9e27-46d3-b20c-bce76378bc79" rend="left">
      Остерегайтесь людей, отговаривающих вас стремиться делать добро на том основании, что совершенство недостижимо. Разумна и добра только такая деятельность, которая имеет своей целью совершенство. Будьте совершенны, как отец ваш небесный.
     </p>
-    <p id="6537c25f-0ad2-4123-ab50-4c8cc89b838e">
+    <p id="fbe2ca85-b277-43f3-bc7b-3f5cde492b00">
       <br/>
     </p>
     <p id="a84cc021-4c6c-4c71-a8e3-a96b958e4b70" rend="subtitle centerline Razradka">
@@ -1390,7 +1356,7 @@
       Талмуд.
      </span>
     </p>
-    <p id="f2ce074e-7897-4861-83d1-fb25528b0921">
+    <p id="34f83eca-599e-4332-8792-566407d71c08">
       <br/>
     </p>
     <p id="06739c47-8cec-4e7d-968b-932954bb31f7" rend="subtitle centerline Razradka">
@@ -1401,10 +1367,13 @@
     </p>
     <p id="817fd632-733d-4b54-9a52-a5cb78fd2e7a" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
-    <p id="a88dda68-3bac-449e-b63c-70f00e67fd7f">
+    <p id="4c4bb89f-073c-47a9-b6fb-bebc16f1a9d9">
       <br/>
     </p>
     <p id="d6f7dbfd-0477-4dbb-91c6-b071f7419be6" rend="subtitle centerline Razradka">
@@ -1418,7 +1387,7 @@
       Лао-Тзе.
      </span>
     </p>
-    <p id="3bb51bd0-6f9e-4d16-8193-351ff4e0616f">
+    <p id="f4801a5c-2ba7-49ac-9ab4-e7d2a9114791">
       <br/>
     </p>
     <p id="e8527045-b0e9-4f34-ab79-d3a54d054e1c" rend="subtitle centerline Razradka">
@@ -1429,10 +1398,13 @@
     </p>
     <p id="4f71647f-edae-462c-8e1b-949828ea88f2" rend="right">
      <span class="hi" data-attribute="italic">
-      Джон Рёскин.
+      <name placement="text" ref="11656" type="person">
+       Джон Рёскин
+      </name>
+      .
      </span>
     </p>
-    <p id="7d2493a5-4a98-4b9c-af74-7d0a946fb54b">
+    <p id="e91db393-c8fd-40ac-8456-6a6b909c9345">
       <br/>
     </p>
     <p id="01f1336d-338f-467b-99cb-780df1e90af1" rend="subtitle centerline Razradka">
