@@ -1,112 +1,124 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v05_241_243_Zametki_k_voprosu_o_porjadke_i_uslovijah_osvobozhdenija_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan">
-                    2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]. Tolstoy Digital
-                </title>
-                <title type="main">Заметки к вопросу о порядке и условиях освобождения.</title>
-                <title type="sub">Писания, относящиеся к проекту освобождения яснополянских крестьян</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="3ac2432a-eff5-40a8-a2ea-045684eacc9e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 5
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date from="1935-01-01" to="1935-12-31"/>
-                        </imprint>
-                        <biblScope unit="volume">5</biblScope>
-                        <biblScope unit="page">241-243</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1856-01-01" to="1856-12-31"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_241_243_Zametki_k_voprosu_o_porjadke_i_uslovijah_osvobozhdenija_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan">
+     2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Заметки к вопросу о порядке и условиях освобождения.
+    </title>
+    <title type="sub">
+     Писания, относящиеся к проекту освобождения яснополянских крестьян
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="3ac2432a-eff5-40a8-a2ea-045684eacc9e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date from="1935-01-01" to="1935-12-31"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       241-243
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1856-01-01" to="1856-12-31"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref20">
     <p id="8185589e-690c-4c8d-9031-933c3ec541e1">
      <pb n="241"/>
     </p>
-    <p id="0525cfae-a4d1-45b1-9ca1-97ff2cb06f3b">
+    <p id="16bdcae1-a0da-4e9e-82ad-c641af734126">
       <head rend="title_level4 Razradka">
      2.
      <choice original_editorial_correction="[Заметки к вопросу о порядке и условиях освобождения.]">
@@ -315,13 +327,16 @@
      <p id="59b1c950-b0f4-4bbf-b243-9000ee8ec6b8" rend="left">
       в) сверх
       того платит с
-      каждой десятины процент погашения <a href="#" data-type="snoska" id="note209">209</a><span class="note" id="note209">
-       <span id="1128195d-b927-48f1-a4c7-b251dff1d1ff" data-class="paragraph">
-         <span class="del">
-          на 30 или др
-         </span>
+      каждой десятины процент погашения <a href="#" data-type="snoska" id="note209">
+       209
+      </a>
+      <span class="note" id="note209">
+       <span data-class="paragraph" id="1128195d-b927-48f1-a4c7-b251dff1d1ff">
+        <span class="del">
+         на 30 или др
         </span>
        </span>
+      </span>
       не менее как
       на 20 лет
       . </p>
@@ -331,12 +346,15 @@
      <p id="181b58cd-7fc0-444d-b5ab-bf10f02e216d" rend="left">
       5) По истечении означенного
       числа лет
-      крестьяне <a href="#" data-type="snoska" id="note210">210</a><span class="note" id="note210">
-       <span id="c1274be0-f376-46a9-9946-42a05456dff3" data-class="paragraph">
-         <span class="del"> получают
-          полную свободу и </span>
-        </span>
+      крестьяне <a href="#" data-type="snoska" id="note210">
+       210
+      </a>
+      <span class="note" id="note210">
+       <span data-class="paragraph" id="c1274be0-f376-46a9-9946-42a05456dff3">
+        <span class="del"> получают
+         полную свободу и </span>
        </span>
+      </span>
       освобождаются
       <pb n="243"/> от всех
       обязанностей к помещику
@@ -395,64 +413,70 @@
        <corr> учреждению </corr>
       </choice>
       , то оно
-      <a href="#" data-type="snoska" id="note211">211</a><span class="note" id="note211">
-       <span id="7b616440-8f19-407f-ab4c-6b556e846c0a" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике:
-         </span> он </span>
-       </span> берет
+      <a href="#" data-type="snoska" id="note211">
+       211
+      </a>
+      <span class="note" id="note211">
+       <span data-class="paragraph" id="7b616440-8f19-407f-ab4c-6b556e846c0a">
+        <span class="hi" data-attribute="italic">
+         В подлиннике:
+        </span> он </span>
+      </span> берет
       весь долг
-      на себя. <a href="#" data-type="snoska" id="note212">212</a><span class="note" id="note212">
-       <span id="2b115cf1-2757-42a7-afd3-4d2b9b55ad83" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          Первоначально начало этого параграфа было изложено следующим образом:
-         </span>
-         Ежели общая сумма платежа помещику превышает
-         или равняется сумме процентов
-         долга и процентов погашения
-         , платимых в
-         Кредитное установление
-         , то <choice original_editorial_correction="пом[ѣщикъ]">
-          <sic>
-           пом
-          </sic>
-          <corr> помещик </corr>
-         </choice>
-         предлагает
-         <choice original_editorial_correction="М[инистерству]">
-          <sic>
-           М
-          </sic>
-          <corr>
-           Министерству
-          </corr>
-         </choice>
-         <choice original_editorial_correction="Г[осударственныхъ]">
-          <sic>
-           Г
-          </sic>
-          <corr> Государственных </corr>
-         </choice>
-         <choice original_editorial_correction="И[муществъ]">
-          <sic>
-           И
-          </sic>
-          <corr> Имуществ </corr>
-         </choice>
-         взять в
-         свое ведение имение с долгом <choice original_editorial_correction="Сов[ѣту]">
-          <sic>
-           Сов
-          </sic>
-          <corr> Совету </corr>
-         </choice>
-         Кред. устан. и в первом случае
-         о превышающей плате <choice original_editorial_correction="[можетъ]">
-          <sic></sic>
-          <corr> может </corr>
-         </choice> ведаться гражданским судом с
-         крестьянами. </span>
-       </span>
+      на себя. <a href="#" data-type="snoska" id="note212">
+       212
+      </a>
+      <span class="note" id="note212">
+       <span data-class="paragraph" id="2b115cf1-2757-42a7-afd3-4d2b9b55ad83">
+        <span class="hi" data-attribute="italic">
+         Первоначально начало этого параграфа было изложено следующим образом:
+        </span>
+        Ежели общая сумма платежа помещику превышает
+        или равняется сумме процентов
+        долга и процентов погашения
+        , платимых в
+        Кредитное установление
+        , то <choice original_editorial_correction="пом[ѣщикъ]">
+         <sic>
+          пом
+         </sic>
+         <corr> помещик </corr>
+        </choice>
+        предлагает
+        <choice original_editorial_correction="М[инистерству]">
+         <sic>
+          М
+         </sic>
+         <corr>
+          Министерству
+         </corr>
+        </choice>
+        <choice original_editorial_correction="Г[осударственныхъ]">
+         <sic>
+          Г
+         </sic>
+         <corr> Государственных </corr>
+        </choice>
+        <choice original_editorial_correction="И[муществъ]">
+         <sic>
+          И
+         </sic>
+         <corr> Имуществ </corr>
+        </choice>
+        взять в
+        свое ведение имение с долгом <choice original_editorial_correction="Сов[ѣту]">
+         <sic>
+          Сов
+         </sic>
+         <corr> Совету </corr>
+        </choice>
+        Кред. устан. и в первом случае
+        о превышающей плате <choice original_editorial_correction="[можетъ]">
+         <sic></sic>
+         <corr> может </corr>
+        </choice> ведаться гражданским судом с
+        крестьянами. </span>
+      </span>
       Ежели Министерство Государственных Имуществ
       не найдет достаточным обезпечением
       долга крестьянскую землю, то <choice original_editorial_correction="[можетъ]">

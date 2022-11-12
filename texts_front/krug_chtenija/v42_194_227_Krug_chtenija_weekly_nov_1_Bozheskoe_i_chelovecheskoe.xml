@@ -1,118 +1,130 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v42_194_227_Krug_chtenija_weekly_nov_1_Bozheskoe_i_chelovecheskoe">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения. Ноябрь</title>
-                <title type="sub">Божеское и человеческое. Л.Н.Толстого</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c6180fdd-2417-4489-90a7-3202adbef860">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Божеское и человеческое. Л.Н.Толстого
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date from="1957-01-01" to="1957-12-31"/>
-                        </imprint>
-                        <biblScope unit="volume">42</biblScope>
-                        <biblScope unit="page">194-227</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1906-01-01" to="1906-12-31"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#publ" target="published"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#Tolstoy" target="author"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_194_227_Krug_chtenija_weekly_nov_1_Bozheskoe_i_chelovecheskoe">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения. Ноябрь
+    </title>
+    <title type="sub">
+     Божеское и человеческое. Л.Н.Толстого
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c6180fdd-2417-4489-90a7-3202adbef860">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Божеское и человеческое. Л.Н.Толстого
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date from="1957-01-01" to="1957-12-31"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       194-227
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1906-01-01" to="1906-12-31"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#publ" target="published"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="weekly" when="--11-3" xml:id="h000006004004001">
     <p id="a50ff612-31c1-4b7f-abf8-fb20d059149f">
      <pb n="194"/>
     </p>
-    <p id="d0f21fb2-375a-4f2c-9a2e-decd407f22ca">
+    <p id="a754172e-15f4-4099-822a-d4bed9b5e4e8">
       <head rend="center">
      БОЖЕСКОЕ И ЧЕЛОВЕЧЕСКОЕ
     </head>
     </p>
     <div type="section" xml:id="h000006004004001001">
-     <p id="1d42dbd4-786a-47c6-b4b9-edf6833596d6">
+     <p id="bf4e163b-53bf-4406-aae2-bea78ccee6bb">
       <head rend="center">
       I
      </head>
@@ -153,16 +165,19 @@
       — Нет, не надо, — сказал генерал. «Да, — сказал он сам себе, — нерешительность хуже всего волнует. Подписано
       <pb n="196"/>
       и кончено. “Ein jeder macht sich sein Bett und muss drauf schlafen”,
-      <a href="#" data-type="snoska" id="note5">5</a><span class="note" id="note5">
-       <span id="c62629bf-c5db-439c-954d-63352e698f8e" rend="left" data-class="paragraph">
-         <choice original_editorial_correction="[“Каждый готовит себе постель и должен на ней спать”.]">
-          <sic></sic>
-          <corr>
-           “Каждый готовит себе постель и должен на ней спать”.
-          </corr>
-         </choice>
-        </span>
+      <a href="#" data-type="snoska" id="note5">
+       5
+      </a>
+      <span class="note" id="note5">
+       <span data-class="paragraph" id="c62629bf-c5db-439c-954d-63352e698f8e" rend="left">
+        <choice original_editorial_correction="[“Каждый готовит себе постель и должен на ней спать”.]">
+         <sic></sic>
+         <corr>
+          “Каждый готовит себе постель и должен на ней спать”.
+         </corr>
+        </choice>
        </span>
+      </span>
       — сказал он сам себе любимую пословицу. — Да и это меня не касается. Я исполнитель высшей воли и должен стоять выше таких соображений», — прибавил он, сдвигая брови, чтобы вызвать в себе жестокость, которой не было в его сердце.
      </p>
      <p id="7d35e1a8-dfb6-498c-b903-9e3e0503d317" rend="left">
@@ -195,16 +210,19 @@
      <p id="afde33fd-041b-4211-87b2-442f89e60a41" rend="left">
       <pb n="197"/>
       — Ах, не говорите! — сказала княжна. — Je deviens féroce quand je pense à cette maudite engeance.
-      <a href="#" data-type="snoska" id="note6">6</a><span class="note" id="note6">
-       <span id="e145a8e1-d1d2-4f72-b739-41b792015178" rend="left" data-class="paragraph">
-         <choice original_editorial_correction="[Я свирепею, когда думаю об этой проклятой породе.]">
-          <sic></sic>
-          <corr>
-           Я свирепею, когда думаю об этой проклятой породе.
-          </corr>
-         </choice>
-        </span>
+      <a href="#" data-type="snoska" id="note6">
+       6
+      </a>
+      <span class="note" id="note6">
+       <span data-class="paragraph" id="e145a8e1-d1d2-4f72-b739-41b792015178" rend="left">
+        <choice original_editorial_correction="[Я свирепею, когда думаю об этой проклятой породе.]">
+         <sic></sic>
+         <corr>
+          Я свирепею, когда думаю об этой проклятой породе.
+         </corr>
+        </choice>
        </span>
+      </span>
      </p>
      <p id="13cb356d-002e-4fe0-a7c2-88b54d8c32da" rend="left">
       — Да, да, ужасно! Верите ли, он работает двенадцать часов в сутки, и с его слабым сердцем. Я прямо боюсь...
@@ -232,7 +250,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001002">
-     <p id="ffd52746-d8e6-404b-ba48-d8563d409a5b">
+     <p id="58f4c0a2-370a-4b7d-b5cc-41bbb3252efb">
       <head rend="center">
       II
      </head>
@@ -285,7 +303,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001003">
-     <p id="649b4a53-87ab-4acc-ae6d-a92348124502">
+     <p id="93796c2a-47b8-4fbc-8306-3bae5c70a8f3">
       <head rend="center">
       III
      </head>
@@ -340,7 +358,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001004">
-     <p id="89893764-8ef1-4235-8bc0-f5afec1ee87e">
+     <p id="9caeb1b5-6e36-43a4-80d2-4911b04aa727">
       <head rend="center">
       IV
      </head>
@@ -379,7 +397,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001005">
-     <p id="fbd6b2b9-dfe5-4cd1-b913-f343a7e5c5f3">
+     <p id="ae22b4bb-74f4-4efe-8f62-454d915ad9d7">
       <head rend="center">
       V
      </head>
@@ -543,7 +561,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001006">
-     <p id="da929d97-a983-41c6-bd4d-26917c9fdf9a">
+     <p id="64a17401-9e7c-486f-bb6f-95b4842ca399">
       <head rend="center">
       VI
      </head>
@@ -564,7 +582,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001007">
-     <p id="2e7e25f8-1239-4b91-918b-2e60638c173b">
+     <p id="2aae0220-eb15-4c4a-bae2-10024be0599a">
       <head rend="center">
       VII
      </head>
@@ -659,7 +677,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001008">
-     <p id="270e4f70-cc88-4ecb-b405-4bd0bd784891">
+     <p id="d1d3fcf1-8a3d-4db7-a89c-1e46030c79b4">
       <head rend="center">
       VIII
      </head>
@@ -789,7 +807,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001009">
-     <p id="49bc3166-478b-4e2e-8e79-6eba7cadf182">
+     <p id="c4bb2a3e-5858-4029-a1d8-8d1768601bed">
       <head rend="center">
       IX
      </head>
@@ -875,7 +893,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001010">
-     <p id="701e461f-7b18-47d6-94e2-cae6d1580432">
+     <p id="da5cbab6-d1d8-4530-b78f-2aed0121f603">
       <head rend="center">
       X
      </head>
@@ -907,7 +925,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001011">
-     <p id="495c44e3-e491-450c-9e4b-11def2c77eca">
+     <p id="a34a30d4-c492-4875-ac16-8d3419ea57e1">
       <head rend="center">
       XI
      </head>
@@ -970,7 +988,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001012">
-     <p id="aaf8e29f-6324-4c7e-b1b3-ac345d7fec12">
+     <p id="ce713c4f-955c-407a-9044-dd198d90a3df">
       <head rend="center">
       XII
      </head>
@@ -1047,7 +1065,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000006004004001013">
-     <p id="89d00a34-499a-4186-a296-0dac5da94583">
+     <p id="22ec5b8c-3ede-433a-959a-d545bfcac210">
       <head rend="center">
       XIII
      </head>

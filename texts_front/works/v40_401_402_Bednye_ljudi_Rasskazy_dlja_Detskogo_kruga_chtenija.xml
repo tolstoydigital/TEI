@@ -1,221 +1,264 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v40_401_402_Bednye_ljudi_Rasskazy_dlja_Detskogo_kruga_chtenija">
-                    Бедные люди. Tolstoy Digital
-                </title>
-                <title type="main">Бедные люди</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="7a15de9f-1264-47f3-9ef2-8d6f02959b88">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Бедные люди
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 40
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date from="1956-01-01" to="1956-12-31"/>
-                        </imprint>
-                        <biblScope unit="volume">40</biblScope>
-                        <biblScope unit="page">401-402</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1907-01-01" to="1907-12-31"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#kids" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v40_401_402_Bednye_ljudi_Rasskazy_dlja_Detskogo_kruga_chtenija">
+     Бедные люди. Tolstoy Digital
+    </title>
+    <title type="main">
+     Бедные люди
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="7a15de9f-1264-47f3-9ef2-8d6f02959b88">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Бедные люди
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 40
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date from="1956-01-01" to="1956-12-31"/>
+      </imprint>
+      <biblScope unit="volume">
+       40
+      </biblScope>
+      <biblScope unit="page">
+       401-402
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1907-01-01" to="1907-12-31"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000006002001">
     <p id="2c3459d9-f667-426a-ad93-3891668f9016">
      <pb n="401"/>
     </p>
-    <p id="34ffa7a5-e215-466e-8e70-e8221b1ebd9c">
+    <p id="6e5e2192-4720-4765-9a13-9dc1b51fc6cb">
       <head rend="center">
      БЕДНЫЕ ЛЮДИ
     </head>
     </p>
     <p id="78f67d21-dff0-40d0-baf7-0c92364e0e2d" rend="left">
-     <a href="#" data-type="snoska" id="note12">12</a><span class="note" id="note12">
-      <span id="0d32fcc8-1019-4588-ad26-d5c844686d36" rend="left" data-class="paragraph">
-        <span class="del">
-         Была бурная темная ночь.
-        </span>
+     <a href="#" data-type="snoska" id="note12">
+      12
+     </a>
+     <span class="note" id="note12">
+      <span data-class="paragraph" id="0d32fcc8-1019-4588-ad26-d5c844686d36" rend="left">
+       <span class="del">
+        Была бурная темная ночь.
        </span>
       </span>
+     </span>
      Жанна, жена рыбака,
-     <a href="#" data-type="snoska" id="note13">13</a><span class="note" id="note13">
-      <span id="d9bab850-8c0c-49e2-9a08-e7d35ecd608c" rend="left" data-class="paragraph">
-        З
-        <span class="hi" data-attribute="italic">
-         ач.:
-        </span>
-        Пьера &lt;
-        <choice original_editorial_correction="уехавш[его]">
+     <a href="#" data-type="snoska" id="note13">
+      13
+     </a>
+     <span class="note" id="note13">
+      <span data-class="paragraph" id="d9bab850-8c0c-49e2-9a08-e7d35ecd608c" rend="left">
+       З
+       <span class="hi" data-attribute="italic">
+        ач.:
+       </span>
+       Пьера &lt;
+       <choice original_editorial_correction="уехавш[его]">
+        <sic>
+         уехавш
+        </sic>
+        <corr>
+         уехавшего
+        </corr>
+       </choice>
+       ушедшего с своими сетями в море
+      </span>
+     </span>
+     убирала свою хату, кормила детей — у нее их было
+     <a href="#" data-type="snoska" id="note14">
+      14
+     </a>
+     <span class="note" id="note14">
+      <span data-class="paragraph" id="822c5591-452c-4cd8-a344-246c95a72544" rend="left">
+       <span class="del">
+        пятеро
+       </span>
+      </span>
+     </span>
+     трое — укладывала их спать, но не переставая думала
+     <a href="#" data-type="snoska" id="note15">
+      15
+     </a>
+     <span class="note" id="note15">
+      <span data-class="paragraph" id="486a6cd5-8bfe-44be-bee3-286c4e902212" rend="left">
+       <span class="del">
+        об одном
+       </span>
+      </span>
+     </span>
+     о своем муже. Муж ее Поль,
+     <a href="#" data-type="snoska" id="note16">
+      16
+     </a>
+     <span class="note" id="note16">
+      <span data-class="paragraph" id="6301715b-d79b-4ac8-8bc6-adc279d9307f" rend="left">
+       <span class="del">
+        здоровый и молчаливый
+       </span>
+      </span>
+     </span>
+     рыбак, с утра ушел с своими сетями в море. С полдня поднялся ветер, к вечеру разыгралась буря.
+     <a href="#" data-type="snoska" id="note17">
+      17
+     </a>
+     <span class="note" id="note17">
+      <span data-class="paragraph" id="8e19287b-694a-4a47-a2e0-285312dc248c" rend="left">
+       <span class="del">
+        Стало
+       </span>
+      </span>
+     </span>
+     Совсем смерклось, а Поля всё не было. Люди они были бедные и кормились одной рыбой, которую ловил муж. Утони он в море, как часто случалось с рыбаками, что бы сталось с семьею. Да и не одна бедность пугала Жанну. Поль был молчаливый, на вид суровый человек, но они десять лет жили вместе, и любили друг друга. Жанна без ужаса не могла подумать о том, что бы было с ней, если бы муж не воротился. Она несколько раз выбегала на улицу послушать и посмотреть.
+     <a href="#" data-type="snoska" id="note18">
+      18
+     </a>
+     <span class="note" id="note18">
+      <span data-class="paragraph" id="1798dc36-8a67-486c-915a-d2d8b48ddb95" rend="left">
+       <span class="del">
+        Но было темно как в печи
+       </span>
+      </span>
+     </span>
+     Темно и не слышно
+     <a href="#" data-type="snoska" id="note19">
+      19
+     </a>
+     <span class="note" id="note19">
+      <span data-class="paragraph" id="80685662-3dc2-4470-a00d-490ee406ec4b" rend="left">
+       <span class="del">
+        было
+       </span>
+      </span>
+     </span>
+     ничего, кроме грохота волн на море и свиста ветра над крышей. Жанна вышла на улицу и, приглядевшись к темноте, стала вглядываться в даль моря.
+     <a href="#" data-type="snoska" id="note20">
+      20
+     </a>
+     <span class="note" id="note20">
+      <span data-class="paragraph" id="fe55169e-09c4-4e13-97d5-88902610549d" rend="left">
+       <span class="del">
+        Опять
+       </span>
+      </span>
+     </span>
+     Ничего не видно, и та же страшная мысль о том, что будет с ней и ее детьми, если он не вернется. И
+     <a href="#" data-type="snoska" id="note21">
+      21
+     </a>
+     <span class="note" id="note21">
+      <span data-class="paragraph" id="f2de7b9d-ca4c-4dc6-8abc-17b5c487927c" rend="left">
+       <span class="del">
+        <choice original_editorial_correction="вспомни[в]">
          <sic>
-          уехавш
+          вспомни
          </sic>
          <corr>
-          уехавшего
+          вспомнив
          </corr>
         </choice>
-        ушедшего с своими сетями в море
+        о детях
        </span>
       </span>
-     убирала свою хату, кормила детей — у нее их было
-     <a href="#" data-type="snoska" id="note14">14</a><span class="note" id="note14">
-      <span id="822c5591-452c-4cd8-a344-246c95a72544" rend="left" data-class="paragraph">
-        <span class="del">
-         пятеро
-        </span>
-       </span>
-      </span>
-     трое — укладывала их спать, но не переставая думала
-     <a href="#" data-type="snoska" id="note15">15</a><span class="note" id="note15">
-      <span id="486a6cd5-8bfe-44be-bee3-286c4e902212" rend="left" data-class="paragraph">
-        <span class="del">
-         об одном
-        </span>
-       </span>
-      </span>
-     о своем муже. Муж ее Поль,
-     <a href="#" data-type="snoska" id="note16">16</a><span class="note" id="note16">
-      <span id="6301715b-d79b-4ac8-8bc6-adc279d9307f" rend="left" data-class="paragraph">
-        <span class="del">
-         здоровый и молчаливый
-        </span>
-       </span>
-      </span>
-     рыбак, с утра ушел с своими сетями в море. С полдня поднялся ветер, к вечеру разыгралась буря.
-     <a href="#" data-type="snoska" id="note17">17</a><span class="note" id="note17">
-      <span id="8e19287b-694a-4a47-a2e0-285312dc248c" rend="left" data-class="paragraph">
-        <span class="del">
-         Стало
-        </span>
-       </span>
-      </span>
-     Совсем смерклось, а Поля всё не было. Люди они были бедные и кормились одной рыбой, которую ловил муж. Утони он в море, как часто случалось с рыбаками, что бы сталось с семьею. Да и не одна бедность пугала Жанну. Поль был молчаливый, на вид суровый человек, но они десять лет жили вместе, и любили друг друга. Жанна без ужаса не могла подумать о том, что бы было с ней, если бы муж не воротился. Она несколько раз выбегала на улицу послушать и посмотреть.
-     <a href="#" data-type="snoska" id="note18">18</a><span class="note" id="note18">
-      <span id="1798dc36-8a67-486c-915a-d2d8b48ddb95" rend="left" data-class="paragraph">
-        <span class="del">
-         Но было темно как в печи
-        </span>
-       </span>
-      </span>
-     Темно и не слышно
-     <a href="#" data-type="snoska" id="note19">19</a><span class="note" id="note19">
-      <span id="80685662-3dc2-4470-a00d-490ee406ec4b" rend="left" data-class="paragraph">
-        <span class="del">
-         было
-        </span>
-       </span>
-      </span>
-     ничего, кроме грохота волн на море и свиста ветра над крышей. Жанна вышла на улицу и, приглядевшись к темноте, стала вглядываться в даль моря.
-     <a href="#" data-type="snoska" id="note20">20</a><span class="note" id="note20">
-      <span id="fe55169e-09c4-4e13-97d5-88902610549d" rend="left" data-class="paragraph">
-        <span class="del">
-         Опять
-        </span>
-       </span>
-      </span>
-     Ничего не видно, и та же страшная мысль о том, что будет с ней и ее детьми, если он не вернется. И
-     <a href="#" data-type="snoska" id="note21">21</a><span class="note" id="note21">
-      <span id="f2de7b9d-ca4c-4dc6-8abc-17b5c487927c" rend="left" data-class="paragraph">
-        <span class="del">
-         <choice original_editorial_correction="вспомни[в]">
-          <sic>
-           вспомни
-          </sic>
-          <corr>
-           вспомнив
-          </corr>
-         </choice>
-         о детях
-        </span>
-       </span>
-      </span>
+     </span>
      она вспомнила о соседке Лизе, вдове, у которой также пропал муж в море. Она вспомнила и то, что
-     <a href="#" data-type="snoska" id="note22">22</a><span class="note" id="note22">
-      <span id="9ff069cb-2cd9-4de7-b0e0-465cc88d58d6" rend="left" data-class="paragraph">
-        <span class="del">
-         Лиза
-        </span>
+     <a href="#" data-type="snoska" id="note22">
+      22
+     </a>
+     <span class="note" id="note22">
+      <span data-class="paragraph" id="9ff069cb-2cd9-4de7-b0e0-465cc88d58d6" rend="left">
+       <span class="del">
+        Лиза
        </span>
       </span>
+     </span>
      соседка больна. «Пойду навещу ее», подумала Жанна и, вернувшись домой, взяла фонарь и пошла к соседке. Ветер, подгоняя ее и облепив ей ноги юбкой, сейчас же задул фонарь и чуть не сбил ее с ног, но она справилась, дошла до двери соседки и постучалась.
     </p>
     <p id="ce7a2d12-3590-485a-80e8-b4e095ab6725" rend="left">
@@ -230,57 +273,72 @@
       </corr>
      </choice>
      . Она толкнула дверь, вошла и зажгла фонарь.
-     <a href="#" data-type="snoska" id="note23">23</a><span class="note" id="note23">
-      <span id="c6c5dc84-59c2-42e5-8496-b654532b48ec" rend="left" data-class="paragraph">
-        <span class="hi" data-attribute="italic">
-         Зачеркнуто
-        </span>
-        : Лиза
+     <a href="#" data-type="snoska" id="note23">
+      23
+     </a>
+     <span class="note" id="note23">
+      <span data-class="paragraph" id="c6c5dc84-59c2-42e5-8496-b654532b48ec" rend="left">
+       <span class="hi" data-attribute="italic">
+        Зачеркнуто
        </span>
+       : Лиза
       </span>
+     </span>
      Соседка уж не больнабольше, она лежит неподвижная, и бледная, и холодная. На кровати
-     <a href="#" data-type="snoska" id="note24">24</a><span class="note" id="note24">
-      <span id="6c6d8357-1cc5-4734-ae60-1ab3f3898ce1" rend="left" data-class="paragraph">
-        <span class="del">
-         <choice original_editorial_correction="рядо[м]">
-          <sic>
-           рядо
-          </sic>
-          <corr>
-           рядом
-          </corr>
-         </choice>
-        </span>
+     <a href="#" data-type="snoska" id="note24">
+      24
+     </a>
+     <span class="note" id="note24">
+      <span data-class="paragraph" id="6c6d8357-1cc5-4734-ae60-1ab3f3898ce1" rend="left">
+       <span class="del">
+        <choice original_editorial_correction="рядо[м]">
+         <sic>
+          рядо
+         </sic>
+         <corr>
+          рядом
+         </corr>
+        </choice>
        </span>
       </span>
+     </span>
      у ее ног
-     <a href="#" data-type="snoska" id="note25">25</a><span class="note" id="note25">
-      <span id="48993a35-e9e1-4648-a739-a38892f90c02" rend="left" data-class="paragraph">
-        <span class="del">
-         спят
-        </span>
+     <a href="#" data-type="snoska" id="note25">
+      25
+     </a>
+     <span class="note" id="note25">
+      <span data-class="paragraph" id="48993a35-e9e1-4648-a739-a38892f90c02" rend="left">
+       <span class="del">
+        спят
        </span>
       </span>
+     </span>
      двое детей: мальчик 5 и девочка трех лет. Девочка лежит головой на груди мальчика и одной ручонкой обнимает его.
     </p>
     <p id="1e49c6c0-dd29-4689-8560-bd90698b4b2d" rend="left">
      Жанна не задумывается, потихоньку берет девочку на руки,
-     <a href="#" data-type="snoska" id="note26">26</a><span class="note" id="note26">
-      <span id="c208bb61-c77d-4acc-8020-6b14402d0a4a" rend="left" data-class="paragraph">
-        <span class="del">
-         &lt;завертывает&gt; &lt;прижимает&gt; и с нею бежит домой
-        </span>
+     <a href="#" data-type="snoska" id="note26">
+      26
+     </a>
+     <span class="note" id="note26">
+      <span data-class="paragraph" id="c208bb61-c77d-4acc-8020-6b14402d0a4a" rend="left">
+       <span class="del">
+        &lt;завертывает&gt; &lt;прижимает&gt; и с нею бежит домой
        </span>
       </span>
+     </span>
      она не просыпается, только мальчик проснулся и заплакал. Но Жанна уговаривает его не плакать и обещается сейчас придти за ним и бежит с девочкой против ветра. Дома она кладет девочку за полог
-     <a href="#" data-type="snoska" id="note27">27</a><span class="note" id="note27">
-      <span id="2496afd8-54e7-410b-8fda-b81822707d9b" rend="left" data-class="paragraph">
-        <span class="hi" data-attribute="italic">
-         Зач.:
-        </span>
-        рядом со своими
+     <a href="#" data-type="snoska" id="note27">
+      27
+     </a>
+     <span class="note" id="note27">
+      <span data-class="paragraph" id="2496afd8-54e7-410b-8fda-b81822707d9b" rend="left">
+       <span class="hi" data-attribute="italic">
+        Зач.:
        </span>
+       рядом со своими
       </span>
+     </span>
      на свою постель и бежит за мальчиком.
     </p>
     <p id="e0d30fa0-1954-4aa9-8d2a-4b8952eebc38" rend="left">
@@ -288,52 +346,61 @@
     </p>
     <p id="3e8e3130-b4d2-4c33-9723-29702ce7a4e7" rend="left">
      Жанна сидит у огня, греется и думает о том, что ее ждет. Пропадет муж, что она будет делать с 5-ю детьми? А вернется, как она скажет ему про сирот?
-     <a href="#" data-type="snoska" id="note28">28</a><span class="note" id="note28">
-      <span id="692fca83-c6b5-46d1-818e-6546db92d217" rend="left" data-class="paragraph">
-        <span class="del">
-         А если он
-        </span>
+     <a href="#" data-type="snoska" id="note28">
+      28
+     </a>
+     <span class="note" id="note28">
+      <span data-class="paragraph" id="692fca83-c6b5-46d1-818e-6546db92d217" rend="left">
+       <span class="del">
+        А если он
        </span>
       </span>
+     </span>
      Не позволит он взять их. Он человек суровый. «Боже мой, боже мой, помоги мне», думает она, и пальцы ее быстро шевелятся, работая привычное вязанье.
     </p>
     <p id="a71f182e-2091-47b8-bc5b-118ab61d4b88" rend="left">
      Ветер всё так же гудит, но вот вдруг из-за ветра послышались еще как будто шаги у порога. «Не может быть. Нет, он». И вдруг дверь дрогнула, отлипла, и в горницу, моча пол струями
-     <a href="#" data-type="snoska" id="note29">29</a><span class="note" id="note29">
-      <span id="110d6073-9d0a-4d00-9e1c-84033fc9e400" rend="left" data-class="paragraph">
-        <span class="del">
-         &lt;
-         <choice original_editorial_correction="сбе[гавшей]">
-          <sic>
-           сбе
-          </sic>
-          <corr>
-           сбегавшей
-          </corr>
-         </choice>
-         &gt;
-         <choice original_editorial_correction="капаю[щей]">
-          <sic>
-           капаю
-          </sic>
-          <corr>
-           капающей
-          </corr>
-         </choice>
-        </span>
+     <a href="#" data-type="snoska" id="note29">
+      29
+     </a>
+     <span class="note" id="note29">
+      <span data-class="paragraph" id="110d6073-9d0a-4d00-9e1c-84033fc9e400" rend="left">
+       <span class="del">
+        &lt;
+        <choice original_editorial_correction="сбе[гавшей]">
+         <sic>
+          сбе
+         </sic>
+         <corr>
+          сбегавшей
+         </corr>
+        </choice>
+        &gt;
+        <choice original_editorial_correction="капаю[щей]">
+         <sic>
+          капаю
+         </sic>
+         <corr>
+          капающей
+         </corr>
+        </choice>
        </span>
       </span>
+     </span>
      текущей с него морской воды, вошла высокая широкая фигура мужа.
     </p>
     <p id="bbde549a-cc35-4ffe-a7f4-ffead5bfc4a2" rend="left">
      Он
-     <a href="#" data-type="snoska" id="note30">30</a><span class="note" id="note30">
-      <span id="8cf1d178-4ac1-49d4-8890-49bbdfc81fba" rend="left" data-class="paragraph">
-        <span class="del">
-         разделся
-        </span>
+     <a href="#" data-type="snoska" id="note30">
+      30
+     </a>
+     <span class="note" id="note30">
+      <span data-class="paragraph" id="8cf1d178-4ac1-49d4-8890-49bbdfc81fba" rend="left">
+       <span class="del">
+        разделся
        </span>
       </span>
+     </span>
      переменился, поужинал и сел к огню, закурив трубку. Она всё хотела и не решалась сказать ему. Но он сам спросил:
     </p>
     <p id="a1993d7f-4cbd-41a1-aec9-d466cd0d342e" rend="left">
@@ -341,13 +408,16 @@
     </p>
     <p id="4f5af0c2-663d-40d0-b617-85fd12f25ad4" rend="left">
      — Кончилась, —
-     <a href="#" data-type="snoska" id="note31">31</a><span class="note" id="note31">
-      <span id="c1c2e33e-cfac-47d1-a77a-d6e66eda1d87" rend="left" data-class="paragraph">
-        <span class="del">
-         вздохнув
-        </span>
+     <a href="#" data-type="snoska" id="note31">
+      31
+     </a>
+     <span class="note" id="note31">
+      <span data-class="paragraph" id="c1c2e33e-cfac-47d1-a77a-d6e66eda1d87" rend="left">
+       <span class="del">
+        вздохнув
        </span>
       </span>
+     </span>
      сдерживая дыханье, сказала Жанна. «Сейчас надо сказать. А скажешь... Не позволит он».
     </p>
     <p id="1125d298-8840-4bf7-b280-d2b7898cc529" rend="left">
@@ -358,13 +428,16 @@
     </p>
     <p id="e05391d2-a1ef-441b-ae00-95bebd7844d2" rend="left">
      — Что же и им помирать? Взять надо,
-     <a href="#" data-type="snoska" id="note32">32</a><span class="note" id="note32">
-      <span id="ceedf100-60a0-403f-93b7-e3cb22fc5287" rend="left" data-class="paragraph">
-        <span class="del">
-         хмуря
-        </span>
+     <a href="#" data-type="snoska" id="note32">
+      32
+     </a>
+     <span class="note" id="note32">
+      <span data-class="paragraph" id="ceedf100-60a0-403f-93b7-e3cb22fc5287" rend="left">
+       <span class="del">
+        хмуря
        </span>
       </span>
+     </span>
      — глядя в огонь, сказал он.
     </p>
     <p id="b783bec9-ce1f-45bd-b0f5-6c64df6eacc1" rend="left">
