@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v01_226_228_S_teh_por_kak_ja_pomnju_svoju_zhizn">
-                    [«С тех пор, как я помню свою жизнь…»]. Tolstoy Digital
-                </title>
-                <title type="main">"С тех пор, как я помню свою жизнь..."</title>
-                <title type="sub">Отрывок без заглавия</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="50724f9a-c795-463a-864a-bad4f4030231">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [«С тех пор, как я помню свою жизнь…»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 1
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">1</biblScope>
-                        <biblScope unit="page">226-228</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1847"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v01_226_228_S_teh_por_kak_ja_pomnju_svoju_zhizn">
+     [«С тех пор, как я помню свою жизнь…»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     "С тех пор, как я помню свою жизнь..."
+    </title>
+    <title type="sub">
+     Отрывок без заглавия
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="50724f9a-c795-463a-864a-bad4f4030231">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [«С тех пор, как я помню свою жизнь…»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 1
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       1
+      </biblScope>
+      <biblScope unit="page">
+       226-228
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1847"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_3">
     <p id="1aa03e39-4a42-46f9-a5a8-8473aea632db">
@@ -498,141 +510,144 @@
       </orig>
      </choice>
      , но напрасно.
-     <ref target="#note158">158</ref><note xml:id="note158" index="false">
-      <span id="08841294-0ee7-4143-a520-a83f1ebaabd9" rend="left" data-class="paragraph">
-        <hi rend="sup">
-         <a href="#backn158">
-          158
-         </a>
-        </hi>
-        <hi rend="italic">
-         <hi rend="color_-65536">
-          Здесь на полях:
-         </hi>
-        </hi>
+     <ref target="#note158">
+      158
+     </ref>
+     <note index="false" xml:id="note158">
+      <span data-class="paragraph" id="08841294-0ee7-4143-a520-a83f1ebaabd9" rend="left">
+       <hi rend="sup">
+        <a href="#backn158">
+         158
+        </a>
+       </hi>
+       <hi rend="italic">
         <hi rend="color_-65536">
-         Я начинаю
-         <choice>
-          <reg>
-           историю
-          </reg>
-          <orig>
-           исторiю
-          </orig>
-         </choice>
-         моего
-         <choice>
-          <reg>
-           познания
-          </reg>
-          <orig>
-           познанiя
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           с
-          </reg>
-          <orig>
-           съ
-          </orig>
-         </choice>
-         того момента, до
-         <choice>
-          <reg>
-           которого
-          </reg>
-          <orig>
-           котораго
-          </orig>
-         </choice>
-         я
-         <choice>
-          <reg>
-           шел
-          </reg>
-          <orig>
-           шелъ
-          </orig>
-         </choice>
-         одинаково
-         <choice>
-          <reg>
-           с
-          </reg>
-          <orig>
-           съ
-          </orig>
-         </choice>
-         другими. —
+         Здесь на полях:
         </hi>
+       </hi>
+       <hi rend="color_-65536">
+        Я начинаю
+        <choice>
+         <reg>
+          историю
+         </reg>
+         <orig>
+          исторiю
+         </orig>
+        </choice>
+        моего
+        <choice>
+         <reg>
+          познания
+         </reg>
+         <orig>
+          познанiя
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        того момента, до
+        <choice>
+         <reg>
+          которого
+         </reg>
+         <orig>
+          котораго
+         </orig>
+        </choice>
+        я
+        <choice>
+         <reg>
+          шел
+         </reg>
+         <orig>
+          шелъ
+         </orig>
+        </choice>
+        одинаково
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        другими. —
+       </hi>
+       <hi rend="color_-65536">
+        Я
+        <choice>
+         <reg>
+          бросил
+         </reg>
+         <orig>
+          бросилъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          самого
+         </reg>
+         <orig>
+          самаго
+         </orig>
+        </choice>
+        начала вс
         <hi rend="color_-65536">
-         Я
-         <choice>
-          <reg>
-           бросил
-          </reg>
-          <orig>
-           бросилъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           с
-          </reg>
-          <orig>
-           съ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           самого
-          </reg>
-          <orig>
-           самаго
-          </orig>
-         </choice>
-         начала вс
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         предразсудки, не найдя
-         <choice>
-          <reg>
-           в
-          </reg>
-          <orig>
-           въ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           них
-          </reg>
-          <orig>
-           нихъ
-          </orig>
-         </choice>
-         ничего
-         <choice original_editorial_correction="удовле[творяющаго]">
-          <sic>
-           удовле
-          </sic>
-          <corr>
-           <choice>
-            <reg>
-             удовлетворяющего
-            </reg>
-            <orig>
-             удовлетворяющаго
-            </orig>
-           </choice>
-          </corr>
-         </choice>
-         .
+         ѣ
         </hi>
-       </span>
-      </note>
+        предразсудки, не найдя
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          них
+         </reg>
+         <orig>
+          нихъ
+         </orig>
+        </choice>
+        ничего
+        <choice original_editorial_correction="удовле[творяющаго]">
+         <sic>
+          удовле
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            удовлетворяющего
+           </reg>
+           <orig>
+            удовлетворяющаго
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        .
+       </hi>
+      </span>
+     </note>
     </p>
     <p id="9d82f247-84ad-4f7c-9327-1cd5ec19ba10" rend="left">
      Не подвинувшись
@@ -713,26 +728,29 @@
       </orig>
      </choice>
      , причинною которой есть я и не я.
-     <ref target="#note159">159</ref><note xml:id="note159" index="false">
-      <span id="d0142719-aa8b-4c77-bf31-7b1caa8e9999" rend="left" data-class="paragraph">
-        <hi rend="sup">
-         <a href="#backn159">
-          159
-         </a>
-        </hi>
-        <hi rend="color_-65536">
-         <choice>
-          <reg>
-           Скептицизм
-          </reg>
-          <orig>
-           Скептицизмъ
-          </orig>
-         </choice>
-         — есть я.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note159">
+      159
+     </ref>
+     <note index="false" xml:id="note159">
+      <span data-class="paragraph" id="d0142719-aa8b-4c77-bf31-7b1caa8e9999" rend="left">
+       <hi rend="sup">
+        <a href="#backn159">
+         159
+        </a>
+       </hi>
+       <hi rend="color_-65536">
+        <choice>
+         <reg>
+          Скептицизм
+         </reg>
+         <orig>
+          Скептицизмъ
+         </orig>
+        </choice>
+        — есть я.
+       </hi>
+      </span>
+     </note>
      Я
      <choice>
       <reg>
@@ -1447,554 +1465,557 @@
       </orig>
      </choice>
      и чтобы знать это, надо было знать, что есть неограниченное и что ограниченное.
-     <ref target="#note160">160</ref><note xml:id="note160" index="false">
-      <span id="4771a738-9b7e-4b44-9ea0-9383013626cd" rend="left" data-class="paragraph">
-        <hi rend="sup">
-         <a href="#backn160">
-          160
-         </a>
-        </hi>
-        <hi rend="italic">
-         <hi rend="color_-65536">
-          На полях к тексту этого отрывка автор дал нечто вроде его конспекта, в таком виде:
-         </hi>
-        </hi>
+     <ref target="#note160">
+      160
+     </ref>
+     <note index="false" xml:id="note160">
+      <span data-class="paragraph" id="4771a738-9b7e-4b44-9ea0-9383013626cd" rend="left">
+       <hi rend="sup">
+        <a href="#backn160">
+         160
+        </a>
+       </hi>
+       <hi rend="italic">
         <hi rend="color_-65536">
-         Я излагаю
-         <choice>
-          <reg>
-           историю
-          </reg>
-          <orig>
-           исторiю
-          </orig>
-         </choice>
-         своего
-         <choice>
-          <reg>
-           познания
-          </reg>
-          <orig>
-           познанiя
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           с
-          </reg>
-          <orig>
-           съ
-          </orig>
-         </choice>
-         т
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         <choice>
-          <reg>
-           х
-          </reg>
-          <orig>
-           хъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           пор
-          </reg>
-          <orig>
-           поръ
-          </orig>
-         </choice>
-         , до
-         <choice>
-          <reg>
-           которых
-          </reg>
-          <orig>
-           которыхъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           ход
-          </reg>
-          <orig>
-           ходъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           этот
-          </reg>
-          <orig>
-           этотъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           был
-          </reg>
-          <orig>
-           былъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           слишком
-          </reg>
-          <orig>
-           слишкомъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           прост
-          </reg>
-          <orig>
-           простъ
-          </orig>
-         </choice>
-         и
-         <choice>
-          <reg>
-           одинаков
-          </reg>
-          <orig>
-           одинаковъ
-          </orig>
-         </choice>
-         у вс
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         <choice>
-          <reg>
-           х
-          </reg>
-          <orig>
-           хъ
-          </orig>
-         </choice>
-         .
+         На полях к тексту этого отрывка автор дал нечто вроде его конспекта, в таком виде:
         </hi>
+       </hi>
+       <hi rend="color_-65536">
+        Я излагаю
+        <choice>
+         <reg>
+          историю
+         </reg>
+         <orig>
+          исторiю
+         </orig>
+        </choice>
+        своего
+        <choice>
+         <reg>
+          познания
+         </reg>
+         <orig>
+          познанiя
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        т
         <hi rend="color_-65536">
-         <choice>
-          <reg>
-           Стремление
-          </reg>
-          <orig>
-           Стремленiе
-          </orig>
-         </choice>
-         , которое я
-         <choice>
-          <reg>
-           находил
-          </reg>
-          <orig>
-           находилъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           в
-          </reg>
-          <orig>
-           въ
-          </orig>
-         </choice>
-         себ
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         , было
-         <choice>
-          <reg>
-           стремление
-          </reg>
-          <orig>
-           стремленiе
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           к
-          </reg>
-          <orig>
-           къ
-          </orig>
-         </choice>
-         благосостоянию или
-         <choice>
-          <reg>
-           к
-          </reg>
-          <orig>
-           къ
-          </orig>
-         </choice>
-         счастью,
-         <choice original_editorial_correction="которы[я]">
-          <sic>
-           которы
-          </sic>
-          <corr>
-           <choice>
-            <reg>
-             которые
-            </reg>
-            <orig>
-             которыя
-            </orig>
-           </choice>
-          </corr>
-         </choice>
-         я не
-         <choice>
-          <reg>
-           понимал
-          </reg>
-          <orig>
-           понималъ
-          </orig>
-         </choice>
-         иначе,
-         <choice>
-          <reg>
-           как
-          </reg>
-          <orig>
-           какъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           в
-          </reg>
-          <orig>
-           въ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           проявлении
-          </reg>
-          <orig>
-           проявленiи
-          </orig>
-         </choice>
-         ;
-         <choice>
-          <reg>
-           в
-          </reg>
-          <orig>
-           въ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           проявлении
-          </reg>
-          <orig>
-           проявленiи
-          </orig>
-         </choice>
-         же оно не
-         <choice original_editorial_correction="удовлетворял[о]">
-          <sic>
-           удовлетворял
-          </sic>
-          <corr>
-           удовлетворяло
-          </corr>
-         </choice>
-         .
+         ѣ
         </hi>
+        <choice>
+         <reg>
+          х
+         </reg>
+         <orig>
+          хъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          пор
+         </reg>
+         <orig>
+          поръ
+         </orig>
+        </choice>
+        , до
+        <choice>
+         <reg>
+          которых
+         </reg>
+         <orig>
+          которыхъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          ход
+         </reg>
+         <orig>
+          ходъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          этот
+         </reg>
+         <orig>
+          этотъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          был
+         </reg>
+         <orig>
+          былъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          слишком
+         </reg>
+         <orig>
+          слишкомъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          прост
+         </reg>
+         <orig>
+          простъ
+         </orig>
+        </choice>
+        и
+        <choice>
+         <reg>
+          одинаков
+         </reg>
+         <orig>
+          одинаковъ
+         </orig>
+        </choice>
+        у вс
         <hi rend="color_-65536">
-         Ограниченность не есть
-         <choice>
-          <reg>
-           понятие
-          </reg>
-          <orig>
-           понятiе
-          </orig>
-         </choice>
-         , но
-         <choice>
-          <reg>
-           сознание
-          </reg>
-          <orig>
-           сознанiе
-          </orig>
-         </choice>
-         : понимаю ограниченность и неограниченность, но я есть ограниченность и неограниченность. —
+         ѣ
         </hi>
+        <choice>
+         <reg>
+          х
+         </reg>
+         <orig>
+          хъ
+         </orig>
+        </choice>
+        .
+       </hi>
+       <hi rend="color_-65536">
+        <choice>
+         <reg>
+          Стремление
+         </reg>
+         <orig>
+          Стремленiе
+         </orig>
+        </choice>
+        , которое я
+        <choice>
+         <reg>
+          находил
+         </reg>
+         <orig>
+          находилъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        себ
         <hi rend="color_-65536">
-         Не найдя удовлетворительными
-         <choice>
-          <reg>
-           многия
-          </reg>
-          <orig>
-           многiя
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           из
-          </reg>
-          <orig>
-           изъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           правил
-          </reg>
-          <orig>
-           правилъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           существующих
-          </reg>
-          <orig>
-           существующихъ
-          </orig>
-         </choice>
-         , я
-         <choice>
-          <reg>
-           отвергнул
-          </reg>
-          <orig>
-           отвергнулъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           их
-          </reg>
-          <orig>
-           ихъ
-          </orig>
-         </choice>
-         всец
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         ло и
-         <choice>
-          <reg>
-           принимал
-          </reg>
-          <orig>
-           принималъ
-          </orig>
-         </choice>
-         только тогда
-         <choice>
-          <reg>
-           правильным
-          </reg>
-          <orig>
-           правильнымъ
-          </orig>
-         </choice>
-         , когда
-         <choice>
-          <reg>
-           сам
-          </reg>
-          <orig>
-           самъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           составлял
-          </reg>
-          <orig>
-           составлялъ
-          </orig>
-         </choice>
-         его
-         <choice>
-          <reg>
-           с
-          </reg>
-          <orig>
-           съ
-          </orig>
-         </choice>
-         т
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         ми. —
+         ѣ
         </hi>
+        , было
+        <choice>
+         <reg>
+          стремление
+         </reg>
+         <orig>
+          стремленiе
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        благосостоянию или
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        счастью,
+        <choice original_editorial_correction="которы[я]">
+         <sic>
+          которы
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            которые
+           </reg>
+           <orig>
+            которыя
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        я не
+        <choice>
+         <reg>
+          понимал
+         </reg>
+         <orig>
+          понималъ
+         </orig>
+        </choice>
+        иначе,
+        <choice>
+         <reg>
+          как
+         </reg>
+         <orig>
+          какъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          проявлении
+         </reg>
+         <orig>
+          проявленiи
+         </orig>
+        </choice>
+        ;
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          проявлении
+         </reg>
+         <orig>
+          проявленiи
+         </orig>
+        </choice>
+        же оно не
+        <choice original_editorial_correction="удовлетворял[о]">
+         <sic>
+          удовлетворял
+         </sic>
+         <corr>
+          удовлетворяло
+         </corr>
+        </choice>
+        .
+       </hi>
+       <hi rend="color_-65536">
+        Ограниченность не есть
+        <choice>
+         <reg>
+          понятие
+         </reg>
+         <orig>
+          понятiе
+         </orig>
+        </choice>
+        , но
+        <choice>
+         <reg>
+          сознание
+         </reg>
+         <orig>
+          сознанiе
+         </orig>
+        </choice>
+        : понимаю ограниченность и неограниченность, но я есть ограниченность и неограниченность. —
+       </hi>
+       <hi rend="color_-65536">
+        Не найдя удовлетворительными
+        <choice>
+         <reg>
+          многия
+         </reg>
+         <orig>
+          многiя
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          из
+         </reg>
+         <orig>
+          изъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          правил
+         </reg>
+         <orig>
+          правилъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          существующих
+         </reg>
+         <orig>
+          существующихъ
+         </orig>
+        </choice>
+        , я
+        <choice>
+         <reg>
+          отвергнул
+         </reg>
+         <orig>
+          отвергнулъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          их
+         </reg>
+         <orig>
+          ихъ
+         </orig>
+        </choice>
+        всец
         <hi rend="color_-65536">
-         Д
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         ятельность не есть
-         <choice>
-          <reg>
-           понятие
-          </reg>
-          <orig>
-           понятiе
-          </orig>
-         </choice>
-         , но
-         <choice>
-          <reg>
-           сознание
-          </reg>
-          <orig>
-           сознанiе
-          </orig>
-         </choice>
-         . —
+         ѣ
         </hi>
+        ло и
+        <choice>
+         <reg>
+          принимал
+         </reg>
+         <orig>
+          принималъ
+         </orig>
+        </choice>
+        только тогда
+        <choice>
+         <reg>
+          правильным
+         </reg>
+         <orig>
+          правильнымъ
+         </orig>
+        </choice>
+        , когда
+        <choice>
+         <reg>
+          сам
+         </reg>
+         <orig>
+          самъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          составлял
+         </reg>
+         <orig>
+          составлялъ
+         </orig>
+        </choice>
+        его
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        т
         <hi rend="color_-65536">
-         Причина этого есть д
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         ятельность есть
-         <choice>
-          <reg>
-           противор
-          </reg>
-          <orig>
-           противур
-          </orig>
-         </choice>
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         <choice>
-          <reg>
-           чие
-          </reg>
-          <orig>
-           чiе
-          </orig>
-         </choice>
-         , потому что ежели бы не было одного
-         <choice>
-          <reg>
-           из
-          </reg>
-          <orig>
-           изъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           этих
-          </reg>
-          <orig>
-           этихъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           двух
-          </reg>
-          <orig>
-           двухъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           начал
-          </reg>
-          <orig>
-           началъ
-          </orig>
-         </choice>
-         , я не могу себ
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         представить и д
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         ятельности. —
+         ѣ
         </hi>
+        ми. —
+       </hi>
+       <hi rend="color_-65536">
+        Д
         <hi rend="color_-65536">
-         <choice>
-          <reg>
-           Из
-          </reg>
-          <orig>
-           Изъ
-          </orig>
-         </choice>
-         этого
-         <choice>
-          <reg>
-           заключения
-          </reg>
-          <orig>
-           заключенiя
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           выходит
-          </reg>
-          <orig>
-           выходитъ
-          </orig>
-         </choice>
-         , что ежели бы не было ограниченности, то не было бы и д
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         ятельности, сл
-         <hi rend="color_-65536">
-          ѣ
-         </hi>
-         <choice original_editorial_correction="д[овательно]">
-          <sic>
-           д
-          </sic>
-          <corr>
-           довательно
-          </corr>
-         </choice>
-         первое
-         <choice>
-          <reg>
-           сознание
-          </reg>
-          <orig>
-           сознанiе
-          </orig>
-         </choice>
-         есть
-         <choice>
-          <reg>
-           сознание
-          </reg>
-          <orig>
-           сознанiе
-          </orig>
-         </choice>
-         ограниченности.
+         ѣ
         </hi>
-       </span>
-      </note>
+        ятельность не есть
+        <choice>
+         <reg>
+          понятие
+         </reg>
+         <orig>
+          понятiе
+         </orig>
+        </choice>
+        , но
+        <choice>
+         <reg>
+          сознание
+         </reg>
+         <orig>
+          сознанiе
+         </orig>
+        </choice>
+        . —
+       </hi>
+       <hi rend="color_-65536">
+        Причина этого есть д
+        <hi rend="color_-65536">
+         ѣ
+        </hi>
+        ятельность есть
+        <choice>
+         <reg>
+          противор
+         </reg>
+         <orig>
+          противур
+         </orig>
+        </choice>
+        <hi rend="color_-65536">
+         ѣ
+        </hi>
+        <choice>
+         <reg>
+          чие
+         </reg>
+         <orig>
+          чiе
+         </orig>
+        </choice>
+        , потому что ежели бы не было одного
+        <choice>
+         <reg>
+          из
+         </reg>
+         <orig>
+          изъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          этих
+         </reg>
+         <orig>
+          этихъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          двух
+         </reg>
+         <orig>
+          двухъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          начал
+         </reg>
+         <orig>
+          началъ
+         </orig>
+        </choice>
+        , я не могу себ
+        <hi rend="color_-65536">
+         ѣ
+        </hi>
+        представить и д
+        <hi rend="color_-65536">
+         ѣ
+        </hi>
+        ятельности. —
+       </hi>
+       <hi rend="color_-65536">
+        <choice>
+         <reg>
+          Из
+         </reg>
+         <orig>
+          Изъ
+         </orig>
+        </choice>
+        этого
+        <choice>
+         <reg>
+          заключения
+         </reg>
+         <orig>
+          заключенiя
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          выходит
+         </reg>
+         <orig>
+          выходитъ
+         </orig>
+        </choice>
+        , что ежели бы не было ограниченности, то не было бы и д
+        <hi rend="color_-65536">
+         ѣ
+        </hi>
+        ятельности, сл
+        <hi rend="color_-65536">
+         ѣ
+        </hi>
+        <choice original_editorial_correction="д[овательно]">
+         <sic>
+          д
+         </sic>
+         <corr>
+          довательно
+         </corr>
+        </choice>
+        первое
+        <choice>
+         <reg>
+          сознание
+         </reg>
+         <orig>
+          сознанiе
+         </orig>
+        </choice>
+        есть
+        <choice>
+         <reg>
+          сознание
+         </reg>
+         <orig>
+          сознанiе
+         </orig>
+        </choice>
+        ограниченности.
+       </hi>
+      </span>
+     </note>
     </p>
     <p id="d00b0c0f-1506-4c89-b26b-7ed97f20ea54" rend="left">
      Я

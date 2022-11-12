@@ -1,105 +1,115 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v36_075_085_Chto_ja_videl_vo_sne">
-                    Что я видел во сне. Tolstoy Digital
-                </title>
-                <title type="main">Что я видел во сне</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="6d9144a1-9ccc-4c3c-b16a-d21262a5e18f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Что я видел во сне
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 36
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">36</biblScope>
-                        <biblScope unit="page">75-85</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1906"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v36_075_085_Chto_ja_videl_vo_sne">
+     Что я видел во сне. Tolstoy Digital
+    </title>
+    <title type="main">
+     Что я видел во сне
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="6d9144a1-9ccc-4c3c-b16a-d21262a5e18f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Что я видел во сне
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 36
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       36
+      </biblScope>
+      <biblScope unit="page">
+       75-85
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1906"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013004">
     <p id="b4e5e8bb-07f2-41da-aef5-47a769828465">
@@ -152,68 +162,83 @@
     </p>
     <p id="abf73334-2cb3-4b38-9065-ec9cd096d30b" rend="left">
      — C’est moi, Michel.
-     <ref target="#note17">17</ref><note xml:id="note17" index="false">
-      <span id="2f263b61-f2ff-4881-9bba-eaed88a1a35c" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="[ — Это я, Мишель.]">
-         <sic/>
-         <corr>
-          — Это я, Мишель.
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note17">
+      17
+     </ref>
+     <note index="false" xml:id="note17">
+      <span data-class="paragraph" id="2f263b61-f2ff-4881-9bba-eaed88a1a35c" rend="left">
+       <choice original_editorial_correction="[ — Это я, Мишель.]">
+        <sic/>
+        <corr>
+         — Это я, Мишель.
+        </corr>
+       </choice>
+      </span>
+     </note>
     </p>
     <p id="c9bf29fa-1f4c-46df-918a-9be56f9383b9" rend="left">
      Князь Михаил Иванович узнал голос невестки, поморщился, вставил назад зубы и проговорил про себя «чего ей нужно» и громко:
     </p>
     <p id="6359954d-2803-4234-abc5-09cf7f41bbeb" rend="left">
      — Entrez.
-     <ref target="#note18">18</ref><note xml:id="note18" index="false">
-      <span id="1c22c3b4-8bba-4040-954c-8f11c181867d" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="[ — Войдите.]">
-         <sic/>
-         <corr>
-          — Войдите.
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note18">
+      18
+     </ref>
+     <note index="false" xml:id="note18">
+      <span data-class="paragraph" id="1c22c3b4-8bba-4040-954c-8f11c181867d" rend="left">
+       <choice original_editorial_correction="[ — Войдите.]">
+        <sic/>
+        <corr>
+         — Войдите.
+        </corr>
+       </choice>
+      </span>
+     </note>
     </p>
     <p id="051a28be-b681-445b-b00a-480e5b4989b5" rend="left">
      Невестка была тихое, кроткое существо, безропотно покорявшаяся мужу, но чудачка, как ее называли (некоторые считали ее даже дурочкой), хотя и хорошенькая, всегда растрепанная, неряшливо, небрежно одетая, всегда рассеянная и с самыми странными, неподходящими к предводительше, не аристократическими мыслями, которые она вдруг выражала к удивлению всех, и знакомых и мужа.
     </p>
     <p id="9f0683e2-dce9-44bf-90ba-b4e7b2620eeb" rend="left">
      — Vous pouver me renvoyer, mais je ne m’en irai pas, je vous le dis d’avance,
-     <ref target="#note19">19</ref><note xml:id="note19" index="false">
-      <span id="57a05d65-55f9-47cc-b310-a220f648edbc" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="[ — Вы можете меня прогнать, но я не уйду, говорю это вам наперед.]">
-         <sic/>
-         <corr>
-          — Вы можете меня прогнать, но я не уйду, говорю это вам наперед.
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note19">
+      19
+     </ref>
+     <note index="false" xml:id="note19">
+      <span data-class="paragraph" id="57a05d65-55f9-47cc-b310-a220f648edbc" rend="left">
+       <choice original_editorial_correction="[ — Вы можете меня прогнать, но я не уйду, говорю это вам наперед.]">
+        <sic/>
+        <corr>
+         — Вы можете меня прогнать, но я не уйду, говорю это вам наперед.
+        </corr>
+       </choice>
+      </span>
+     </note>
      — начала она свою речь с свойственной ей нелогичностью.
     </p>
     <p id="af116586-33c5-4994-8909-22704c604cfe" rend="left">
      — Dieu preserve,
-     <ref target="#note20">20</ref><note xml:id="note20" index="false">
-      <span id="8c513f18-9e05-4014-acd4-38532809be13" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="[ — Боже сохрани,]">
-         <sic/>
-         <corr>
-          — Боже сохрани,
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note20">
+      20
+     </ref>
+     <note index="false" xml:id="note20">
+      <span data-class="paragraph" id="8c513f18-9e05-4014-acd4-38532809be13" rend="left">
+       <choice original_editorial_correction="[ — Боже сохрани,]">
+        <sic/>
+        <corr>
+         — Боже сохрани,
+        </corr>
+       </choice>
+      </span>
+     </note>
      — отвечал деверь, с своей обычной, несколько преувеличенной учтивостью подвигая ей кресло. — Ça ne vous dérange pas?
-     <ref target="#note21">21</ref><note xml:id="note21" index="false">
-      <span id="709ca2be-3a49-483b-8bfc-911f34d0c69e" rend="left" data-class="paragraph">
-        [ — Вас это не беспокоит?]
-       </span>
-      </note>
+     <ref target="#note21">
+      21
+     </ref>
+     <note index="false" xml:id="note21">
+      <span data-class="paragraph" id="709ca2be-3a49-483b-8bfc-911f34d0c69e" rend="left">
+       [ — Вас это не беспокоит?]
+      </span>
+     </note>
      — сказал он, вынимая папиросу.
     </p>
     <p id="7c6c8e08-4602-4e93-948f-ea0769aa65d4" rend="left">
@@ -230,16 +255,19 @@
     </p>
     <p id="8d4b39e3-eb9c-4c89-a7ca-fa29f36ebee7" rend="left">
      — Мишель, mon bon ami,
-     <ref target="#note22">22</ref><note xml:id="note22" index="false">
-      <span id="9b270c59-b468-47df-89ed-307dd3de7eb6" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="[друг мой,]">
-         <sic/>
-         <corr>
-          друг мой,
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note22">
+      22
+     </ref>
+     <note index="false" xml:id="note22">
+      <span data-class="paragraph" id="9b270c59-b468-47df-89ed-307dd3de7eb6" rend="left">
+       <choice original_editorial_correction="[друг мой,]">
+        <sic/>
+        <corr>
+         друг мой,
+        </corr>
+       </choice>
+      </span>
+     </note>
      пожалейте ее. — Она, как всегда, говоря с деверем, сбивалась на «вы». — Ведь она человек.
     </p>
     <p id="e1ffde05-84ff-4c84-8cde-da3bb6e668f4" rend="left">
@@ -281,16 +309,19 @@
     </p>
     <p id="f5d582d5-3af5-4386-a6af-172af19d1ce6" rend="left">
      — Brisons la-dessus. Et bonne nuit,
-     <ref target="#note23">23</ref><note xml:id="note23" index="false">
-      <span id="6daa732c-3711-453b-a647-4a36b82b4505" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="[ — Оставим это. Покойной ночи,]">
-         <sic/>
-         <corr>
-          — Оставим это. Покойной ночи,
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note23">
+      23
+     </ref>
+     <note index="false" xml:id="note23">
+      <span data-class="paragraph" id="6daa732c-3711-453b-a647-4a36b82b4505" rend="left">
+       <choice original_editorial_correction="[ — Оставим это. Покойной ночи,]">
+        <sic/>
+        <corr>
+         — Оставим это. Покойной ночи,
+        </corr>
+       </choice>
+      </span>
+     </note>
      — сказал он.
     </p>
     <p id="563c443d-e515-48c4-abf6-6457f0c28a50" rend="left">
@@ -446,16 +477,19 @@
     </p>
     <p id="0f772a4e-2174-4f4c-a1d1-3ddfccf64f83" rend="left">
      Михаил Иванович послушался ее совета и пошел в городской сад, откуда было всё близко, и с досадой думал о глупости, упорстве и бессердечности женщин. «Ей не жалко меня, — думал он о невестке. — Она и понять не может моих страданий. А она? — он подумал о дочери. — Она знает, что это для меня, какая это мука. Какой ужасный удар, в конце жизни, которую укоротит наверное она же. Ну, да и лучше конец, чем эти мучения. И всё это pour les beaux yeux d’un chenapan».
-     <ref target="#note24">24</ref><note xml:id="note24" index="false">
-      <span id="07f2b102-915f-46fe-8a25-21484715ca2a" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="[ради прекрасных глаз негодяя.]">
-         <sic/>
-         <corr>
-          ради прекрасных глаз негодяя.
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note24">
+      24
+     </ref>
+     <note index="false" xml:id="note24">
+      <span data-class="paragraph" id="07f2b102-915f-46fe-8a25-21484715ca2a" rend="left">
+       <choice original_editorial_correction="[ради прекрасных глаз негодяя.]">
+        <sic/>
+        <corr>
+         ради прекрасных глаз негодяя.
+        </corr>
+       </choice>
+      </span>
+     </note>
      <hi rend="sup"/>
      — O-o-o, — громко простонал он, и такое чувство ненависти и злобы поднялось в нем при мысли о всем том, что теперь будут говорить в городе, когда все узнают (наверно все уже знают), такое чувство злобы поднялось в нем против нее, что захотелось всё сказать ей, дать ей понять всё значение того, что она сделала. «Они не понимают».
     </p>

@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v25_530_531_Nagornaja_propoved">
-                    Нагорная проповедь. Tolstoy Digital
-                </title>
-                <title type="main">Нагорная проповедь</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="aa96b3cb-b105-48ef-bcce-37caa903a160">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Нагорная проповедь
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 25
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1937"/>
-                        </imprint>
-                        <biblScope unit="volume">25</biblScope>
-                        <biblScope unit="page">530-531</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1885"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v25_530_531_Nagornaja_propoved">
+     Нагорная проповедь. Tolstoy Digital
+    </title>
+    <title type="main">
+     Нагорная проповедь
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="aa96b3cb-b105-48ef-bcce-37caa903a160">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Нагорная проповедь
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 25
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       25
+      </biblScope>
+      <biblScope unit="page">
+       530-531
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1885"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref43">
     <p id="f2588914-480e-4ffe-a452-aadd843e0e19">
@@ -238,184 +248,187 @@
       </orig>
      </choice>
      людей
-     <ref target="#note80">80</ref><note xml:id="note80" index="false">
-      <span id="ab725813-0441-4163-9098-bba9af5cfe77" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          Іисус
-         </reg>
-         <orig>
-          Іисусъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          Христос
-         </reg>
-         <orig>
-          Христосъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          учил
-         </reg>
-         <orig>
-          училъ
-         </orig>
-        </choice>
-        людей и словами, и
-        <choice>
-         <reg>
-          делами
-         </reg>
-         <orig>
-          дѣлами
-         </orig>
-        </choice>
-        своими, и всею
-        <choice>
-         <reg>
-          жизнию
-         </reg>
-         <orig>
-          жизнiю
-         </orig>
-        </choice>
-        , и
-        <choice>
-         <reg>
-          смертию
-         </reg>
-         <orig>
-          смертiю
-         </orig>
-        </choice>
-        , и
-        <choice>
-         <reg>
-          воскресением
-         </reg>
-         <orig>
-          воскресенiемъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          своим
-         </reg>
-         <orig>
-          своимъ
-         </orig>
-        </choice>
-        , и
-        <choice>
-         <reg>
-          ответами
-         </reg>
-         <orig>
-          отвѣтами
-         </orig>
-        </choice>
-        на вопросы
-        <choice>
-         <reg>
-          фарисеев
-         </reg>
-         <orig>
-          фарисеевъ
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          книжников
-         </reg>
-         <orig>
-          книжниковъ
-         </orig>
-        </choice>
-        , и
-        <choice>
-         <reg>
-          ответами
-         </reg>
-         <orig>
-          отвѣтами
-         </orig>
-        </choice>
-        на вопросы
-        <choice>
-         <reg>
-          учеников
-         </reg>
-         <orig>
-          учениковъ
-         </orig>
-        </choice>
-        , и
-        <choice>
-         <reg>
-          наставлениями
-         </reg>
-         <orig>
-          наставленiями
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          им
-         </reg>
-         <orig>
-          имъ
-         </orig>
-        </choice>
-        , когда
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          посылал
-         </reg>
-         <orig>
-          посылалъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          их
-         </reg>
-         <orig>
-          ихъ
-         </orig>
-        </choice>
-        , и
-        <choice>
-         <reg>
-          утешениями
-         </reg>
-         <orig>
-          утѣшенiями
-         </orig>
-        </choice>
-        , когда разлучался
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        ними.
-       </span>
-      </note>
+     <ref target="#note80">
+      80
+     </ref>
+     <note index="false" xml:id="note80">
+      <span data-class="paragraph" id="ab725813-0441-4163-9098-bba9af5cfe77" rend="left">
+       <choice>
+        <reg>
+         Іисус
+        </reg>
+        <orig>
+         Іисусъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Христос
+        </reg>
+        <orig>
+         Христосъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         учил
+        </reg>
+        <orig>
+         училъ
+        </orig>
+       </choice>
+       людей и словами, и
+       <choice>
+        <reg>
+         делами
+        </reg>
+        <orig>
+         дѣлами
+        </orig>
+       </choice>
+       своими, и всею
+       <choice>
+        <reg>
+         жизнию
+        </reg>
+        <orig>
+         жизнiю
+        </orig>
+       </choice>
+       , и
+       <choice>
+        <reg>
+         смертию
+        </reg>
+        <orig>
+         смертiю
+        </orig>
+       </choice>
+       , и
+       <choice>
+        <reg>
+         воскресением
+        </reg>
+        <orig>
+         воскресенiемъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         своим
+        </reg>
+        <orig>
+         своимъ
+        </orig>
+       </choice>
+       , и
+       <choice>
+        <reg>
+         ответами
+        </reg>
+        <orig>
+         отвѣтами
+        </orig>
+       </choice>
+       на вопросы
+       <choice>
+        <reg>
+         фарисеев
+        </reg>
+        <orig>
+         фарисеевъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         книжников
+        </reg>
+        <orig>
+         книжниковъ
+        </orig>
+       </choice>
+       , и
+       <choice>
+        <reg>
+         ответами
+        </reg>
+        <orig>
+         отвѣтами
+        </orig>
+       </choice>
+       на вопросы
+       <choice>
+        <reg>
+         учеников
+        </reg>
+        <orig>
+         учениковъ
+        </orig>
+       </choice>
+       , и
+       <choice>
+        <reg>
+         наставлениями
+        </reg>
+        <orig>
+         наставленiями
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         им
+        </reg>
+        <orig>
+         имъ
+        </orig>
+       </choice>
+       , когда
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         посылал
+        </reg>
+        <orig>
+         посылалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         их
+        </reg>
+        <orig>
+         ихъ
+        </orig>
+       </choice>
+       , и
+       <choice>
+        <reg>
+         утешениями
+        </reg>
+        <orig>
+         утѣшенiями
+        </orig>
+       </choice>
+       , когда разлучался
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       ними.
+      </span>
+     </note>
      <choice>
       <reg>
        всеми
@@ -433,287 +446,290 @@
       </orig>
      </choice>
      своими, всею жизнью своей.
-     <ref target="#note81">81</ref><note xml:id="note81" index="false">
-      <span id="ab30f9c9-3655-4a8f-9497-8a442d503f74" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зач:
-        </hi>
-        <choice>
-         <reg>
-          Учил
-         </reg>
-         <orig>
-          Училъ
-         </orig>
-        </choice>
-        людей своей
-        <choice>
-         <reg>
-          смертию
-         </reg>
-         <orig>
-          смертiю
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          воскресением
-         </reg>
-         <orig>
-          воскресенiемъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          учил
-         </reg>
-         <orig>
-          училъ
-         </orig>
-        </choice>
-        людей словами,
-        <choice>
-         <reg>
-          которые
-         </reg>
-         <orig>
-          которыя
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          говорил
-         </reg>
-         <orig>
-          говорилъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          отвечая
-         </reg>
-         <orig>
-          отвѣчая
-         </orig>
-        </choice>
-        на вопросы
-        <choice>
-         <reg>
-          книжников
-         </reg>
-         <orig>
-          книжниковъ
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          фарисеев
-         </reg>
-         <orig>
-          фарисеевъ
-         </orig>
-        </choice>
-        и на
-        <choice>
-         <reg>
-          сомнения
-         </reg>
-         <orig>
-          сомнѣнiя
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          учеников
-         </reg>
-         <orig>
-          учениковъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          своих
-         </reg>
-         <orig>
-          своихъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          учил
-         </reg>
-         <orig>
-          училъ
-         </orig>
-        </choice>
-        людей и притчами своими,
-        <choice>
-         <reg>
-          которые
-         </reg>
-         <orig>
-          которыя
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          объяснял
-         </reg>
-         <orig>
-          объяснялъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          наедине
-         </reg>
-         <orig>
-          наединѣ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          ученикам
-         </reg>
-         <orig>
-          ученикамъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          своим
-         </reg>
-         <orig>
-          своимъ
-         </orig>
-        </choice>
-        ; но
-        <choice>
-         <reg>
-          один
-         </reg>
-         <orig>
-          одинъ
-         </orig>
-        </choice>
-        только
-        <choice>
-         <reg>
-          раз
-         </reg>
-         <orig>
-          разъ
-         </orig>
-        </choice>
-        во всей своей земной жизни Господь
-        <choice>
-         <reg>
-          наш
-         </reg>
-         <orig>
-          нашъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          Іисус
-         </reg>
-         <orig>
-          Іисусъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          Христос
-         </reg>
-         <orig>
-          Христосъ
-         </orig>
-        </choice>
-        прямо
-        <choice>
-         <reg>
-          открыл
-         </reg>
-         <orig>
-          открылъ
-         </orig>
-        </choice>
-        и просто
-        <choice>
-         <reg>
-          учил
-         </reg>
-         <orig>
-          училъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          народ
-         </reg>
-         <orig>
-          народъ
-         </orig>
-        </choice>
-        , поучая людей тому, что
-        <choice>
-         <reg>
-          всякий
-         </reg>
-         <orig>
-          всякiй
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          должен
-         </reg>
-         <orig>
-          долженъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          делать
-         </reg>
-         <orig>
-          дѣлать
-         </orig>
-        </choice>
-        для своего
-        <choice>
-         <reg>
-          спасения
-         </reg>
-         <orig>
-          спасенiя
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note81">
+      81
+     </ref>
+     <note index="false" xml:id="note81">
+      <span data-class="paragraph" id="ab30f9c9-3655-4a8f-9497-8a442d503f74" rend="left">
+       <hi rend="italic">
+        Зач:
+       </hi>
+       <choice>
+        <reg>
+         Учил
+        </reg>
+        <orig>
+         Училъ
+        </orig>
+       </choice>
+       людей своей
+       <choice>
+        <reg>
+         смертию
+        </reg>
+        <orig>
+         смертiю
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         воскресением
+        </reg>
+        <orig>
+         воскресенiемъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         учил
+        </reg>
+        <orig>
+         училъ
+        </orig>
+       </choice>
+       людей словами,
+       <choice>
+        <reg>
+         которые
+        </reg>
+        <orig>
+         которыя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         говорил
+        </reg>
+        <orig>
+         говорилъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         отвечая
+        </reg>
+        <orig>
+         отвѣчая
+        </orig>
+       </choice>
+       на вопросы
+       <choice>
+        <reg>
+         книжников
+        </reg>
+        <orig>
+         книжниковъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         фарисеев
+        </reg>
+        <orig>
+         фарисеевъ
+        </orig>
+       </choice>
+       и на
+       <choice>
+        <reg>
+         сомнения
+        </reg>
+        <orig>
+         сомнѣнiя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         учеников
+        </reg>
+        <orig>
+         учениковъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         своих
+        </reg>
+        <orig>
+         своихъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         учил
+        </reg>
+        <orig>
+         училъ
+        </orig>
+       </choice>
+       людей и притчами своими,
+       <choice>
+        <reg>
+         которые
+        </reg>
+        <orig>
+         которыя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         объяснял
+        </reg>
+        <orig>
+         объяснялъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         наедине
+        </reg>
+        <orig>
+         наединѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ученикам
+        </reg>
+        <orig>
+         ученикамъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         своим
+        </reg>
+        <orig>
+         своимъ
+        </orig>
+       </choice>
+       ; но
+       <choice>
+        <reg>
+         один
+        </reg>
+        <orig>
+         одинъ
+        </orig>
+       </choice>
+       только
+       <choice>
+        <reg>
+         раз
+        </reg>
+        <orig>
+         разъ
+        </orig>
+       </choice>
+       во всей своей земной жизни Господь
+       <choice>
+        <reg>
+         наш
+        </reg>
+        <orig>
+         нашъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Іисус
+        </reg>
+        <orig>
+         Іисусъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Христос
+        </reg>
+        <orig>
+         Христосъ
+        </orig>
+       </choice>
+       прямо
+       <choice>
+        <reg>
+         открыл
+        </reg>
+        <orig>
+         открылъ
+        </orig>
+       </choice>
+       и просто
+       <choice>
+        <reg>
+         учил
+        </reg>
+        <orig>
+         училъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         народ
+        </reg>
+        <orig>
+         народъ
+        </orig>
+       </choice>
+       , поучая людей тому, что
+       <choice>
+        <reg>
+         всякий
+        </reg>
+        <orig>
+         всякiй
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         должен
+        </reg>
+        <orig>
+         долженъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         делать
+        </reg>
+        <orig>
+         дѣлать
+        </orig>
+       </choice>
+       для своего
+       <choice>
+        <reg>
+         спасения
+        </reg>
+        <orig>
+         спасенiя
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      Он
      <choice>
       <reg>
@@ -1809,300 +1825,303 @@
       </orig>
      </choice>
      его.
-     <ref target="#note82">82</ref><note xml:id="note82" index="false">
-      <span id="609d8957-44f7-4d2f-8627-4340204fddfa" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          Добрые
-         </reg>
-         <orig>
-          Добрыя
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          дела
-         </reg>
-         <orig>
-          дѣла
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          приведут
-         </reg>
-         <orig>
-          приведутъ
-         </orig>
-        </choice>
-        тебя в Царство Небесное,
-        <choice>
-         <reg>
-          злые
-         </reg>
-         <orig>
-          злыя
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        погибель».
-        <choice>
-         <reg>
-          Все
-         </reg>
-         <orig>
-          Всѣ
-         </orig>
-        </choice>
-        мы
-        <choice>
-         <reg>
-          знаем
-         </reg>
-         <orig>
-          знаемъ
-         </orig>
-        </choice>
-        это и
-        <choice>
-         <reg>
-          все
-         </reg>
-         <orig>
-          всѣ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          творим
-         </reg>
-         <orig>
-          творимъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          злые
-         </reg>
-         <orig>
-          злыя
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          дела
-         </reg>
-         <orig>
-          дѣла
-         </orig>
-        </choice>
-        и не
-        <choice>
-         <reg>
-          чаем
-         </reg>
-         <orig>
-          чаемъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          себе
-         </reg>
-         <orig>
-          себѣ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          спасения
-         </reg>
-         <orig>
-          спасенiя
-         </orig>
-        </choice>
-        . Трудно спасти душу,
-        <choice>
-         <reg>
-          говорим
-         </reg>
-         <orig>
-          говоримъ
-         </orig>
-        </choice>
-        мы, и
-        <choice>
-         <reg>
-          идем
-         </reg>
-         <orig>
-          идемъ
-         </orig>
-        </choice>
-        к погибели. (Мф. XI. 28, 29, 30).
-        <choice>
-         <reg>
-          Разве
-         </reg>
-         <orig>
-          Развѣ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          этого
-         </reg>
-         <orig>
-          этаго
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          хотел
-         </reg>
-         <orig>
-          хотѣлъ
-         </orig>
-        </choice>
-        Богь,
-        <choice>
-         <reg>
-          разве
-         </reg>
-         <orig>
-          развѣ
-         </orig>
-        </choice>
-        за
-        <choice>
-         <reg>
-          тем
-         </reg>
-         <orig>
-          тѣмъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          прислал
-         </reg>
-         <orig>
-          прислалъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          Он
-         </reg>
-         <orig>
-          Онъ
-         </orig>
-        </choice>
-        кь
-        <choice>
-         <reg>
-          нам
-         </reg>
-         <orig>
-          намъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          людям
-         </reg>
-         <orig>
-          людямъ
-         </orig>
-        </choice>
-        , Сына Своего?
-        <choice>
-         <reg>
-          Он
-         </reg>
-         <orig>
-          Онъ
-         </orig>
-        </choice>
-        не
-        <choice>
-         <reg>
-          этого
-         </reg>
-         <orig>
-          этаго
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          хотел
-         </reg>
-         <orig>
-          хотѣлъ
-         </orig>
-        </choice>
-        , a
-        <choice>
-         <reg>
-          хотел
-         </reg>
-         <orig>
-          хотѣлъ
-         </orig>
-        </choice>
-        спасти
-        <choice>
-         <reg>
-          нас
-         </reg>
-         <orig>
-          насъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          всех
-         </reg>
-         <orig>
-          всѣхъ
-         </orig>
-        </choice>
-        и для
-        <choice>
-         <reg>
-          всех
-         </reg>
-         <orig>
-          всѣхъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          прислал
-         </reg>
-         <orig>
-          прислалъ
-         </orig>
-        </choice>
-        Сына Своего.
-       </span>
-      </note>
+     <ref target="#note82">
+      82
+     </ref>
+     <note index="false" xml:id="note82">
+      <span data-class="paragraph" id="609d8957-44f7-4d2f-8627-4340204fddfa" rend="left">
+       <choice>
+        <reg>
+         Добрые
+        </reg>
+        <orig>
+         Добрыя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         дела
+        </reg>
+        <orig>
+         дѣла
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         приведут
+        </reg>
+        <orig>
+         приведутъ
+        </orig>
+       </choice>
+       тебя в Царство Небесное,
+       <choice>
+        <reg>
+         злые
+        </reg>
+        <orig>
+         злыя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       погибель».
+       <choice>
+        <reg>
+         Все
+        </reg>
+        <orig>
+         Всѣ
+        </orig>
+       </choice>
+       мы
+       <choice>
+        <reg>
+         знаем
+        </reg>
+        <orig>
+         знаемъ
+        </orig>
+       </choice>
+       это и
+       <choice>
+        <reg>
+         все
+        </reg>
+        <orig>
+         всѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         творим
+        </reg>
+        <orig>
+         творимъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         злые
+        </reg>
+        <orig>
+         злыя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         дела
+        </reg>
+        <orig>
+         дѣла
+        </orig>
+       </choice>
+       и не
+       <choice>
+        <reg>
+         чаем
+        </reg>
+        <orig>
+         чаемъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         себе
+        </reg>
+        <orig>
+         себѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         спасения
+        </reg>
+        <orig>
+         спасенiя
+        </orig>
+       </choice>
+       . Трудно спасти душу,
+       <choice>
+        <reg>
+         говорим
+        </reg>
+        <orig>
+         говоримъ
+        </orig>
+       </choice>
+       мы, и
+       <choice>
+        <reg>
+         идем
+        </reg>
+        <orig>
+         идемъ
+        </orig>
+       </choice>
+       к погибели. (Мф. XI. 28, 29, 30).
+       <choice>
+        <reg>
+         Разве
+        </reg>
+        <orig>
+         Развѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этого
+        </reg>
+        <orig>
+         этаго
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         хотел
+        </reg>
+        <orig>
+         хотѣлъ
+        </orig>
+       </choice>
+       Богь,
+       <choice>
+        <reg>
+         разве
+        </reg>
+        <orig>
+         развѣ
+        </orig>
+       </choice>
+       за
+       <choice>
+        <reg>
+         тем
+        </reg>
+        <orig>
+         тѣмъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         прислал
+        </reg>
+        <orig>
+         прислалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       кь
+       <choice>
+        <reg>
+         нам
+        </reg>
+        <orig>
+         намъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         людям
+        </reg>
+        <orig>
+         людямъ
+        </orig>
+       </choice>
+       , Сына Своего?
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       не
+       <choice>
+        <reg>
+         этого
+        </reg>
+        <orig>
+         этаго
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         хотел
+        </reg>
+        <orig>
+         хотѣлъ
+        </orig>
+       </choice>
+       , a
+       <choice>
+        <reg>
+         хотел
+        </reg>
+        <orig>
+         хотѣлъ
+        </orig>
+       </choice>
+       спасти
+       <choice>
+        <reg>
+         нас
+        </reg>
+        <orig>
+         насъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         всех
+        </reg>
+        <orig>
+         всѣхъ
+        </orig>
+       </choice>
+       и для
+       <choice>
+        <reg>
+         всех
+        </reg>
+        <orig>
+         всѣхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         прислал
+        </reg>
+        <orig>
+         прислалъ
+        </orig>
+       </choice>
+       Сына Своего.
+      </span>
+     </note>
      А
      <choice>
       <reg>

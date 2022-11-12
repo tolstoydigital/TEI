@@ -1,105 +1,115 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_087_098_Tihon_i_Malanja">
-                    Тихон и Маланья. Tolstoy Digital
-                </title>
-                <title type="main">Тихон и Маланья</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="17a7dc5d-2a00-4578-910e-cae1cdc05c32">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Тихон и Маланья
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">87-98</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_087_098_Tihon_i_Malanja">
+     Тихон и Маланья. Tolstoy Digital
+    </title>
+    <title type="main">
+     Тихон и Маланья
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="17a7dc5d-2a00-4578-910e-cae1cdc05c32">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Тихон и Маланья
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       87-98
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="d5dc762a-70c6-4c7b-a72b-b47b109def93">
@@ -4289,11 +4299,14 @@
       </orig>
      </choice>
      углу.
-     <ref target="#note31">31</ref><note xml:id="note31" index="false">
-      <span id="f2d41017-de12-4151-94d4-48e7b55625b1" rend="left" data-class="paragraph">
-        Все ему это мило было, потому что все это напоминало ему Маланью, его хозяйку.
-       </span>
-      </note>
+     <ref target="#note31">
+      31
+     </ref>
+     <note index="false" xml:id="note31">
+      <span data-class="paragraph" id="f2d41017-de12-4151-94d4-48e7b55625b1" rend="left">
+       Все ему это мило было, потому что все это напоминало ему Маланью, его хозяйку.
+      </span>
+     </note>
      Не одни его оттопыренные пальцы, но и внимательные,
      <choice>
       <reg>
@@ -5155,111 +5168,114 @@
       </orig>
      </choice>
      увидать, хорошо ли.
-     <ref target="#note32">32</ref><note xml:id="note32" index="false">
-      <span id="6868b8cd-9b00-41be-8d8e-c5feb12a8fac" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зачеркнуто в ркп. II:
-        </hi>
-        и
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        будто что-то
-        <choice>
-         <reg>
-          вспомнил
-         </reg>
-         <orig>
-          вспомнилъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          пошел
-         </reg>
-         <orig>
-          пошелъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        избу &lt;
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          посмотрел
-         </reg>
-         <orig>
-          посмотрѣлъ
-         </orig>
-        </choice>
-        еще
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        улицу&gt;,
-        <choice>
-         <reg>
-          взял
-         </reg>
-         <orig>
-          взялъ
-         </orig>
-        </choice>
-        свой
-        <choice>
-         <reg>
-          кафтан
-         </reg>
-         <orig>
-          кафтанъ
-         </orig>
-        </choice>
-        , женину синюю поддевку и
-        <choice>
-         <reg>
-          вышел
-         </reg>
-         <orig>
-          вышелъ
-         </orig>
-        </choice>
-        на
-        <choice>
-         <reg>
-          двор
-         </reg>
-         <orig>
-          дворъ
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note32">
+      32
+     </ref>
+     <note index="false" xml:id="note32">
+      <span data-class="paragraph" id="6868b8cd-9b00-41be-8d8e-c5feb12a8fac" rend="left">
+       <hi rend="italic">
+        Зачеркнуто в ркп. II:
+       </hi>
+       и
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       будто что-то
+       <choice>
+        <reg>
+         вспомнил
+        </reg>
+        <orig>
+         вспомнилъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         пошел
+        </reg>
+        <orig>
+         пошелъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       избу &lt;
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         посмотрел
+        </reg>
+        <orig>
+         посмотрѣлъ
+        </orig>
+       </choice>
+       еще
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       улицу&gt;,
+       <choice>
+        <reg>
+         взял
+        </reg>
+        <orig>
+         взялъ
+        </orig>
+       </choice>
+       свой
+       <choice>
+        <reg>
+         кафтан
+        </reg>
+        <orig>
+         кафтанъ
+        </orig>
+       </choice>
+       , женину синюю поддевку и
+       <choice>
+        <reg>
+         вышел
+        </reg>
+        <orig>
+         вышелъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         двор
+        </reg>
+        <orig>
+         дворъ
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      <choice>
       <reg>
        Кнут
@@ -5314,170 +5330,173 @@
       </orig>
      </choice>
      на всю избу.
-     <ref target="#note33">33</ref><note xml:id="note33" index="false">
-      <span id="a82f0097-b004-4435-bf54-fff261fac4e0" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зачеркнуто в ркп. II:
-        </hi>
-        <choice>
-         <reg>
-          Тихон
-         </reg>
-         <orig>
-          Тихонъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          вышел
-         </reg>
-         <orig>
-          вышелъ
-         </orig>
-        </choice>
-        на
-        <choice>
-         <reg>
-          двор
-         </reg>
-         <orig>
-          дворъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          достал
-         </reg>
-         <orig>
-          досталъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          сенца
-         </reg>
-         <orig>
-          сѣнца
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          от
-         </reg>
-         <orig>
-          отъ
-         </orig>
-        </choice>
-        лошадей,
-        <choice>
-         <reg>
-          посмотрел
-         </reg>
-         <orig>
-          посмотрѣлъ
-         </orig>
-        </choice>
-        было
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        сани, но ему не понравилось, и
-        <choice>
-         <reg>
-          влез
-         </reg>
-         <orig>
-          влѣзъ
-         </orig>
-        </choice>
-        на
-        <choice>
-         <reg>
-          амбар
-         </reg>
-         <orig>
-          амбаръ
-         </orig>
-        </choice>
-        . На
-        <choice>
-         <reg>
-          амбаре
-         </reg>
-         <orig>
-          амбарѣ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          постелил
-         </reg>
-         <orig>
-          постелилъ
-         </orig>
-        </choice>
-        свой
-        <choice>
-         <reg>
-          кафтан
-         </reg>
-         <orig>
-          кафтанъ
-         </orig>
-        </choice>
-        на
-        <choice>
-         <reg>
-          сено
-         </reg>
-         <orig>
-          сѣно
-         </orig>
-        </choice>
-        и, чему то
-        <choice>
-         <reg>
-          посмеиваясь
-         </reg>
-         <orig>
-          посмѣиваясь
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          слез
-         </reg>
-         <orig>
-          слѣзъ
-         </orig>
-        </choice>
-        опять и
-        <choice>
-         <reg>
-          вышел
-         </reg>
-         <orig>
-          вышелъ
-         </orig>
-        </choice>
-        за ворота.
-       </span>
-      </note>
+     <ref target="#note33">
+      33
+     </ref>
+     <note index="false" xml:id="note33">
+      <span data-class="paragraph" id="a82f0097-b004-4435-bf54-fff261fac4e0" rend="left">
+       <hi rend="italic">
+        Зачеркнуто в ркп. II:
+       </hi>
+       <choice>
+        <reg>
+         Тихон
+        </reg>
+        <orig>
+         Тихонъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вышел
+        </reg>
+        <orig>
+         вышелъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         двор
+        </reg>
+        <orig>
+         дворъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         достал
+        </reg>
+        <orig>
+         досталъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         сенца
+        </reg>
+        <orig>
+         сѣнца
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         от
+        </reg>
+        <orig>
+         отъ
+        </orig>
+       </choice>
+       лошадей,
+       <choice>
+        <reg>
+         посмотрел
+        </reg>
+        <orig>
+         посмотрѣлъ
+        </orig>
+       </choice>
+       было
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       сани, но ему не понравилось, и
+       <choice>
+        <reg>
+         влез
+        </reg>
+        <orig>
+         влѣзъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         амбар
+        </reg>
+        <orig>
+         амбаръ
+        </orig>
+       </choice>
+       . На
+       <choice>
+        <reg>
+         амбаре
+        </reg>
+        <orig>
+         амбарѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         постелил
+        </reg>
+        <orig>
+         постелилъ
+        </orig>
+       </choice>
+       свой
+       <choice>
+        <reg>
+         кафтан
+        </reg>
+        <orig>
+         кафтанъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         сено
+        </reg>
+        <orig>
+         сѣно
+        </orig>
+       </choice>
+       и, чему то
+       <choice>
+        <reg>
+         посмеиваясь
+        </reg>
+        <orig>
+         посмѣиваясь
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         слез
+        </reg>
+        <orig>
+         слѣзъ
+        </orig>
+       </choice>
+       опять и
+       <choice>
+        <reg>
+         вышел
+        </reg>
+        <orig>
+         вышелъ
+        </orig>
+       </choice>
+       за ворота.
+      </span>
+     </note>
      <choice>
       <reg>
        Тихон
@@ -6227,14 +6246,17 @@
      друга, здоровкались, осматривали новые платки, бусы,
      <pb n="92"/>
      коты прошивные.
-     <ref target="#note34">34</ref><note xml:id="note34" index="false">
-      <span id="a1e07651-147b-4c79-b522-c2c53bda31e5" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зачеркнуто в ркп. II:
-        </hi>
-        &lt;Весело смотрѣть на &lt;праздничный&gt; народъ, когда онъ въ праздникъ идетъ изъ церкви, да еще веселѣй, как знаешь этотъ народъ, какъ всякаго знаешь и что къ чему знаешь. Вотъ&gt; Ермилины бабы щеголихи идутъ и къ другимъ не пристаютъ, не отъ того, что у нихъ платки и сарафаны лучше всѣхъ, но оттого что самъ старикъ Ермила, свекоръ, идетъ той стороной и посматриваетъ на нихъ. Бѣда, коли увидитъ, что онѣ съ ребятами играть станутъ или что. Мальчишки стороной идутъ, подальше обходятъ Ермила и смѣются надъ его брюхомъ.
-       </span>
-      </note>
+     <ref target="#note34">
+      34
+     </ref>
+     <note index="false" xml:id="note34">
+      <span data-class="paragraph" id="a1e07651-147b-4c79-b522-c2c53bda31e5" rend="left">
+       <hi rend="italic">
+        Зачеркнуто в ркп. II:
+       </hi>
+       &lt;Весело смотрѣть на &lt;праздничный&gt; народъ, когда онъ въ праздникъ идетъ изъ церкви, да еще веселѣй, как знаешь этотъ народъ, какъ всякаго знаешь и что къ чему знаешь. Вотъ&gt; Ермилины бабы щеголихи идутъ и къ другимъ не пристаютъ, не отъ того, что у нихъ платки и сарафаны лучше всѣхъ, но оттого что самъ старикъ Ермила, свекоръ, идетъ той стороной и посматриваетъ на нихъ. Бѣда, коли увидитъ, что онѣ съ ребятами играть станутъ или что. Мальчишки стороной идутъ, подальше обходятъ Ермила и смѣются надъ его брюхомъ.
+      </span>
+     </note>
      <choice>
       <reg>
        Все
@@ -6979,133 +7001,136 @@
       </orig>
      </choice>
      .
-     <ref target="#note35">35</ref><note xml:id="note35" index="false">
-      <span id="c597d521-0962-48db-a91c-529bf96f4453" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зачеркнуто в ркп. I:
-        </hi>
-        она
-        <choice>
-         <reg>
-          после
-         </reg>
-         <orig>
-          послѣ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          родов
-         </reg>
-         <orig>
-          родовъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        первый
-        <choice>
-         <reg>
-          раз
-         </reg>
-         <orig>
-          разъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        церкви была и ребенка причащала.
-        <choice>
-         <reg>
-          Вон
-         </reg>
-         <orig>
-          Вонъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          солдат
-         </reg>
-         <orig>
-          солдатъ
-         </orig>
-        </choice>
-        замчной в новой шинели
-        <choice>
-         <reg>
-          идет
-         </reg>
-         <orig>
-          идетъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          уж
-         </reg>
-         <orig>
-          ужъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          пьян
-         </reg>
-         <orig>
-          пьянъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          где
-         </reg>
-         <orig>
-          гдѣ
-         </orig>
-        </choice>
-        то набрался,
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          бабам
-         </reg>
-         <orig>
-          бабамъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          подлипает
-         </reg>
-         <orig>
-          подлипаетъ
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note35">
+      35
+     </ref>
+     <note index="false" xml:id="note35">
+      <span data-class="paragraph" id="c597d521-0962-48db-a91c-529bf96f4453" rend="left">
+       <hi rend="italic">
+        Зачеркнуто в ркп. I:
+       </hi>
+       она
+       <choice>
+        <reg>
+         после
+        </reg>
+        <orig>
+         послѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         родов
+        </reg>
+        <orig>
+         родовъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       первый
+       <choice>
+        <reg>
+         раз
+        </reg>
+        <orig>
+         разъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       церкви была и ребенка причащала.
+       <choice>
+        <reg>
+         Вон
+        </reg>
+        <orig>
+         Вонъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         солдат
+        </reg>
+        <orig>
+         солдатъ
+        </orig>
+       </choice>
+       замчной в новой шинели
+       <choice>
+        <reg>
+         идет
+        </reg>
+        <orig>
+         идетъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         уж
+        </reg>
+        <orig>
+         ужъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         пьян
+        </reg>
+        <orig>
+         пьянъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         где
+        </reg>
+        <orig>
+         гдѣ
+        </orig>
+       </choice>
+       то набрался,
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         бабам
+        </reg>
+        <orig>
+         бабамъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         подлипает
+        </reg>
+        <orig>
+         подлипаетъ
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      Видно, родила, причащать носила.ВонъБолхина старухасъклюкой, шла, устала,сѣла&lt;и все молится Богу ипрохожимъговоритъ, что она нынчевъпослѣднійразъвъцеркви была, чтоужъсмертьеяпришла за ней. Ипоглядѣтьна нее,такъкажется, что правда.&gt; Все жива старуха. Аужълѣтъ100будетъ. Авотъи мои —старикъбольшими шагамишагаетъ, и всегорбъу него такой же, —думалъТихонъ. —Вотъи она... &lt;Красавицу, кто бы она ни была, баба ли, барышня ли, издалека видно. Иидетъона иначе,плыветъточно, и головунесетъи рукамиразмахиваетънетакъ,какъдругіябабы, ицвѣта-тона ней ярче, рубахабѣлѣеиплатокъкраснѣе. Акакъкрасавица она, да своя,такъеще дальше узнаешь;такъ-тои&gt;Тихонъсъдругого конца улицыузналъсвою бабу. Маланья шласъсолдаткой исъдвумя бабами.Съними жешелъзамчнойсолдатъвъновой шинели, казалось,ужъпьяный, и что-торазсказывалъ, махая руками.ЦвѣтанаМаланьѣвсѣхъярче показались Тихону. &lt;Маланьягдѣбы ни была, всегдакъней
      <pb n="93"/>
      приставали,около нее сходились
@@ -8798,101 +8823,104 @@
       </orig>
      </choice>
      .
-     <ref target="#note36">36</ref><note xml:id="note36" index="false">
-      <span id="705d4b3f-8028-40c1-b37e-cc5f42e853a9" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зачеркнуто в ркп. II:
-        </hi>
-        и на
-        <choice>
-         <reg>
-          месте
-         </reg>
-         <orig>
-          мѣстѣ
-         </orig>
-        </choice>
-        ей не стоялось. Она
-        <choice>
-         <reg>
-          сбежала
-         </reg>
-         <orig>
-          сбѣжала
-         </orig>
-        </choice>
-        на
-        <choice>
-         <reg>
-          двор
-         </reg>
-         <orig>
-          дворъ
-         </orig>
-        </choice>
-        , поздоровалась
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          мужем
-         </reg>
-         <orig>
-          мужемъ
-         </orig>
-        </choice>
-        , но
-        <choice>
-         <reg>
-          Тихон
-         </reg>
-         <orig>
-          Тихонъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          показывал
-         </reg>
-         <orig>
-          показывалъ
-         </orig>
-        </choice>
-        отцу новокупленную лошадь, и Маланья не
-        <choice>
-         <reg>
-          посмела
-         </reg>
-         <orig>
-          посмѣла
-         </orig>
-        </choice>
-        говорить, она опять
-        <choice>
-         <reg>
-          побежала
-         </reg>
-         <orig>
-          побѣжала
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        избу.
-       </span>
-      </note>
+     <ref target="#note36">
+      36
+     </ref>
+     <note index="false" xml:id="note36">
+      <span data-class="paragraph" id="705d4b3f-8028-40c1-b37e-cc5f42e853a9" rend="left">
+       <hi rend="italic">
+        Зачеркнуто в ркп. II:
+       </hi>
+       и на
+       <choice>
+        <reg>
+         месте
+        </reg>
+        <orig>
+         мѣстѣ
+        </orig>
+       </choice>
+       ей не стоялось. Она
+       <choice>
+        <reg>
+         сбежала
+        </reg>
+        <orig>
+         сбѣжала
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         двор
+        </reg>
+        <orig>
+         дворъ
+        </orig>
+       </choice>
+       , поздоровалась
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мужем
+        </reg>
+        <orig>
+         мужемъ
+        </orig>
+       </choice>
+       , но
+       <choice>
+        <reg>
+         Тихон
+        </reg>
+        <orig>
+         Тихонъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         показывал
+        </reg>
+        <orig>
+         показывалъ
+        </orig>
+       </choice>
+       отцу новокупленную лошадь, и Маланья не
+       <choice>
+        <reg>
+         посмела
+        </reg>
+        <orig>
+         посмѣла
+        </orig>
+       </choice>
+       говорить, она опять
+       <choice>
+        <reg>
+         побежала
+        </reg>
+        <orig>
+         побѣжала
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       избу.
+      </span>
+     </note>
     </p>
     <p id="f265b3e0-c2de-4972-9e04-144f2642ee7d" rend="left">
      — И то видно, плетку
@@ -10950,33 +10978,36 @@
      ,
      <pb n="96"/>
      мотри,все ли справно. Моя,значитъ, четверка заплетена, выведена, готово,молъ, не ты повезёшь, а мыпоѣдемъ. ИТихонъ,засунувъсвои оттопыренныебольшіепальцы запоясокъ,тряхнулъволосами и оглянулся набабъ;онѣвсѣслушали исмотрѣлина него. Маланькасъчашкойприсѣлана краю лавки и тоже встряхнула головой точно также,какъмужъ,какъбудто онаразсказывала, и улыбнулась, как будто говоря: «Каковы мы молодцысъТихономъ!»Старикъположилъсвоиобѣруки настолъи, нахмурившись,нагнулъголову набокъ.Онъ, видимо,понималъвсю важностьдѣла. Солдатка, размахивая рукамиотъсамыхъплечъвпередъсебя ивмѣстѣ,какъмаятникомъ, прошлаизъдвери, но подойдякъпечкѣ,сѣла,услыхавъ, очемъидетърѣчь, и начала складыватьзанавѣскувдвое,потомъвчетверо ипотомъопять вдвое и опять вчетверо. Старуха же,имѣвшаятолько одну манеру слушатьвсякійразсказъ,
-     <ref target="#note37">37</ref><note xml:id="note37" index="false">
-      <span id="6c97f95e-ff6c-4722-946e-300feb7efe23" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В подлиннике, по описке, вместо:
-        </hi>
-        <choice>
-         <reg>
-          рассказ
-         </reg>
-         <orig>
-          разсказъ
-         </orig>
-        </choice>
-        <hi rend="italic">
-         написано:
-        </hi>
-        <choice>
-         <reg>
-          раз
-         </reg>
-         <orig>
-          разъ
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note37">
+      37
+     </ref>
+     <note index="false" xml:id="note37">
+      <span data-class="paragraph" id="6c97f95e-ff6c-4722-946e-300feb7efe23" rend="left">
+       <hi rend="italic">
+        В подлиннике, по описке, вместо:
+       </hi>
+       <choice>
+        <reg>
+         рассказ
+        </reg>
+        <orig>
+         разсказъ
+        </orig>
+       </choice>
+       <hi rend="italic">
+        написано:
+       </hi>
+       <choice>
+        <reg>
+         раз
+        </reg>
+        <orig>
+         разъ
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      веселый ли
      <choice>
       <reg>
@@ -11979,90 +12010,93 @@
       </orig>
      </choice>
      зубы,
-     <ref target="#note38">38</ref><note xml:id="note38" index="false">
-      <span id="c612cca3-aa3a-4f3b-a2e7-114b16d8162a" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В ркп. II:
-        </hi>
-        —
-        <choice>
-         <reg>
-          Так бы
-         </reg>
-         <orig>
-          Такъ-бы
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          дарданкнул
-         </reg>
-         <orig>
-          дарданкнулъ
-         </orig>
-        </choice>
-        , —
-        <choice>
-         <reg>
-          отвечал
-         </reg>
-         <orig>
-          отвѣчалъ
-         </orig>
-        </choice>
-        Гришка, показывая
-        <choice>
-         <reg>
-          все
-         </reg>
-         <orig>
-          всѣ
-         </orig>
-        </choice>
-        зубы. Что
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          разумел
-         </reg>
-         <orig>
-          разумѣлъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          под
-         </reg>
-         <orig>
-          подъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          дарданкнул
-         </reg>
-         <orig>
-          дарданкнулъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          неизвестно
-         </reg>
-         <orig>
-          неизвѣстно
-         </orig>
-        </choice>
-        , но очевидно было —
-       </span>
-      </note>
+     <ref target="#note38">
+      38
+     </ref>
+     <note index="false" xml:id="note38">
+      <span data-class="paragraph" id="c612cca3-aa3a-4f3b-a2e7-114b16d8162a" rend="left">
+       <hi rend="italic">
+        В ркп. II:
+       </hi>
+       —
+       <choice>
+        <reg>
+         Так бы
+        </reg>
+        <orig>
+         Такъ-бы
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         дарданкнул
+        </reg>
+        <orig>
+         дарданкнулъ
+        </orig>
+       </choice>
+       , —
+       <choice>
+        <reg>
+         отвечал
+        </reg>
+        <orig>
+         отвѣчалъ
+        </orig>
+       </choice>
+       Гришка, показывая
+       <choice>
+        <reg>
+         все
+        </reg>
+        <orig>
+         всѣ
+        </orig>
+       </choice>
+       зубы. Что
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         разумел
+        </reg>
+        <orig>
+         разумѣлъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         под
+        </reg>
+        <orig>
+         подъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         дарданкнул
+        </reg>
+        <orig>
+         дарданкнулъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         неизвестно
+        </reg>
+        <orig>
+         неизвѣстно
+        </orig>
+       </choice>
+       , но очевидно было —
+      </span>
+     </note>
      <choice>
       <reg>
        с
@@ -12573,120 +12607,123 @@
       </orig>
      </choice>
      .
-     <ref target="#note39">39</ref><note xml:id="note39" index="false">
-      <span id="b3cc8272-1d20-41d7-8cbd-23444feb9ec1" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зачеркнуто в ркп. II:
-        </hi>
-        <choice>
-         <reg>
-          Мишенского
-         </reg>
-         <orig>
-          Мишенскаго
-         </orig>
-        </choice>
-        смотрителя же
-        <choice>
-         <reg>
-          угостил
-         </reg>
-         <orig>
-          угостилъ
-         </orig>
-        </choice>
-        за то, давно на него
-        <choice>
-         <reg>
-          зол
-         </reg>
-         <orig>
-          золъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          был
-         </reg>
-         <orig>
-          былъ
-         </orig>
-        </choice>
-        .
-        <choice>
-         <reg>
-          Подбежал
-         </reg>
-         <orig>
-          Подбѣжалъ
-         </orig>
-        </choice>
-        ко
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        : «что, —
-        <choice>
-         <reg>
-          говорит
-         </reg>
-         <orig>
-          говоритъ
-         </orig>
-        </choice>
-        , — гонять?» А я
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        будто не слышу, отпрягаю, да
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        свисну будто по коренной, да по
-        <choice>
-         <reg>
-          нем
-         </reg>
-         <orig>
-          немъ
-         </orig>
-        </choice>
-        . —
-        <choice>
-         <reg>
-          Все
-         </reg>
-         <orig>
-          Всѣ
-         </orig>
-        </choice>
-        лопнули со
-        <choice>
-         <reg>
-          смеху
-         </reg>
-         <orig>
-          смѣху
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note39">
+      39
+     </ref>
+     <note index="false" xml:id="note39">
+      <span data-class="paragraph" id="b3cc8272-1d20-41d7-8cbd-23444feb9ec1" rend="left">
+       <hi rend="italic">
+        Зачеркнуто в ркп. II:
+       </hi>
+       <choice>
+        <reg>
+         Мишенского
+        </reg>
+        <orig>
+         Мишенскаго
+        </orig>
+       </choice>
+       смотрителя же
+       <choice>
+        <reg>
+         угостил
+        </reg>
+        <orig>
+         угостилъ
+        </orig>
+       </choice>
+       за то, давно на него
+       <choice>
+        <reg>
+         зол
+        </reg>
+        <orig>
+         золъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       .
+       <choice>
+        <reg>
+         Подбежал
+        </reg>
+        <orig>
+         Подбѣжалъ
+        </orig>
+       </choice>
+       ко
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       : «что, —
+       <choice>
+        <reg>
+         говорит
+        </reg>
+        <orig>
+         говоритъ
+        </orig>
+       </choice>
+       , — гонять?» А я
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       будто не слышу, отпрягаю, да
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       свисну будто по коренной, да по
+       <choice>
+        <reg>
+         нем
+        </reg>
+        <orig>
+         немъ
+        </orig>
+       </choice>
+       . —
+       <choice>
+        <reg>
+         Все
+        </reg>
+        <orig>
+         Всѣ
+        </orig>
+       </choice>
+       лопнули со
+       <choice>
+        <reg>
+         смеху
+        </reg>
+        <orig>
+         смѣху
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
     </p>
     <p id="87a57cb2-4b69-43fb-9362-b30a0ac79651" rend="left">
      <choice>

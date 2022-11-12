@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v42_194_227_Krug_chtenija_weekly_nov_1_Bozheskoe_i_chelovecheskoe">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения. Ноябрь</title>
-                <title type="sub">Божеское и человеческое. Л.Н.Толстого</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c6180fdd-2417-4489-90a7-3202adbef860">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Божеское и человеческое. Л.Н.Толстого
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">42</biblScope>
-                        <biblScope unit="page">194-227</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1906"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#publ" target="published"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#Tolstoy" target="author"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_194_227_Krug_chtenija_weekly_nov_1_Bozheskoe_i_chelovecheskoe">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения. Ноябрь
+    </title>
+    <title type="sub">
+     Божеское и человеческое. Л.Н.Толстого
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c6180fdd-2417-4489-90a7-3202adbef860">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Божеское и человеческое. Л.Н.Толстого
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       194-227
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1906"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#publ" target="published"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="weekly" when="--11-3" xml:id="h000006004004001">
     <p id="a50ff612-31c1-4b7f-abf8-fb20d059149f">
@@ -150,16 +162,19 @@
       — Нет, не надо, — сказал генерал. «Да, — сказал он сам себе, — нерешительность хуже всего волнует. Подписано
       <pb n="196"/>
       и кончено. “Ein jeder macht sich sein Bett und muss drauf schlafen”,
-      <ref target="#note5">5</ref><note xml:id="note5" index="false">
-       <span id="c62629bf-c5db-439c-954d-63352e698f8e" rend="left" data-class="paragraph">
-         <choice original_editorial_correction="[“Каждый готовит себе постель и должен на ней спать”.]">
-          <sic/>
-          <corr>
-           “Каждый готовит себе постель и должен на ней спать”.
-          </corr>
-         </choice>
-        </span>
-       </note>
+      <ref target="#note5">
+       5
+      </ref>
+      <note index="false" xml:id="note5">
+       <span data-class="paragraph" id="c62629bf-c5db-439c-954d-63352e698f8e" rend="left">
+        <choice original_editorial_correction="[“Каждый готовит себе постель и должен на ней спать”.]">
+         <sic/>
+         <corr>
+          “Каждый готовит себе постель и должен на ней спать”.
+         </corr>
+        </choice>
+       </span>
+      </note>
       — сказал он сам себе любимую пословицу. — Да и это меня не касается. Я исполнитель высшей воли и должен стоять выше таких соображений», — прибавил он, сдвигая брови, чтобы вызвать в себе жестокость, которой не было в его сердце.
      </p>
      <p id="7d35e1a8-dfb6-498c-b903-9e3e0503d317" rend="left">
@@ -192,16 +207,19 @@
      <p id="afde33fd-041b-4211-87b2-442f89e60a41" rend="left">
       <pb n="197"/>
       — Ах, не говорите! — сказала княжна. — Je deviens féroce quand je pense à cette maudite engeance.
-      <ref target="#note6">6</ref><note xml:id="note6" index="false">
-       <span id="e145a8e1-d1d2-4f72-b739-41b792015178" rend="left" data-class="paragraph">
-         <choice original_editorial_correction="[Я свирепею, когда думаю об этой проклятой породе.]">
-          <sic/>
-          <corr>
-           Я свирепею, когда думаю об этой проклятой породе.
-          </corr>
-         </choice>
-        </span>
-       </note>
+      <ref target="#note6">
+       6
+      </ref>
+      <note index="false" xml:id="note6">
+       <span data-class="paragraph" id="e145a8e1-d1d2-4f72-b739-41b792015178" rend="left">
+        <choice original_editorial_correction="[Я свирепею, когда думаю об этой проклятой породе.]">
+         <sic/>
+         <corr>
+          Я свирепею, когда думаю об этой проклятой породе.
+         </corr>
+        </choice>
+       </span>
+      </note>
      </p>
      <p id="13cb356d-002e-4fe0-a7c2-88b54d8c32da" rend="left">
       — Да, да, ужасно! Верите ли, он работает двенадцать часов в сутки, и с его слабым сердцем. Я прямо боюсь...

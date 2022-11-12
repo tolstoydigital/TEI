@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_635_647_Blago_tolko_dlja_vseh">
-                    [Благо только для всех]. Tolstoy Digital
-                </title>
-                <title type="main">Благо только для всех</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c3c31bfb-5f8b-4082-a773-1fb657c065c8">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Благо только для всех]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">635-647</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1887"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v26_635_647_Blago_tolko_dlja_vseh">
+     [Благо только для всех]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Благо только для всех
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c3c31bfb-5f8b-4082-a773-1fb657c065c8">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Благо только для всех]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       635-647
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1887"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013018">
     <p id="91a176dc-1652-4102-aef0-118aaa0462a9">
@@ -962,14 +972,17 @@
       </orig>
      </choice>
      ,
-     <ref target="#note478">478</ref><note xml:id="note478" index="false">
-      <span id="24a5c003-44a9-4513-9f55-47d6e2228e9c" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В рукописи:
-        </hi>
-        прежняя,
-       </span>
-      </note>
+     <ref target="#note478">
+      478
+     </ref>
+     <note index="false" xml:id="note478">
+      <span data-class="paragraph" id="24a5c003-44a9-4513-9f55-47d6e2228e9c" rend="left">
+       <hi rend="italic">
+        В рукописи:
+       </hi>
+       прежняя,
+      </span>
+     </note>
      <choice>
       <reg>
        вполне
@@ -986,14 +999,17 @@
        удовлетворявшiя
       </orig>
      </choice>
-     <ref target="#note479">479</ref><note xml:id="note479" index="false">
-      <span id="3a094fc7-810d-402e-ba6a-0e64cdd1effa" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В рукп.:
-        </hi>
-        удовлетворявшее,
-       </span>
-      </note>
+     <ref target="#note479">
+      479
+     </ref>
+     <note index="false" xml:id="note479">
+      <span data-class="paragraph" id="3a094fc7-810d-402e-ba6a-0e64cdd1effa" rend="left">
+       <hi rend="italic">
+        В рукп.:
+       </hi>
+       удовлетворявшее,
+      </span>
+     </note>
      его
      <choice>
       <reg>
@@ -1003,21 +1019,24 @@
        влеченiя
       </orig>
      </choice>
-     <ref target="#note480">480</ref><note xml:id="note480" index="false">
-      <span id="d53a18ef-b9d4-449e-a1d3-4dc11c93ca33" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В рукп.:
-        </hi>
-        <choice>
-         <reg>
-          влечение
-         </reg>
-         <orig>
-          влеченiе
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note480">
+      480
+     </ref>
+     <note index="false" xml:id="note480">
+      <span data-class="paragraph" id="d53a18ef-b9d4-449e-a1d3-4dc11c93ca33" rend="left">
+       <hi rend="italic">
+        В рукп.:
+       </hi>
+       <choice>
+        <reg>
+         влечение
+        </reg>
+        <orig>
+         влеченiе
+        </orig>
+       </choice>
+      </span>
+     </note>
      личной жизни,
      <choice>
       <reg>
@@ -9656,55 +9675,58 @@
       </orig>
      </choice>
      средства
-     <ref target="#note481">481</ref><note xml:id="note481" index="false">
-      <span id="4a8ab7d1-1577-4fd3-aba5-5a2ffb1a8b70" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          От
-         </reg>
-         <orig>
-          Отъ
-         </orig>
-        </choice>
-        этого всегда
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        первой молодости
-        <choice>
-         <reg>
-          начинают
-         </reg>
-         <orig>
-          начинаютъ
-         </orig>
-        </choice>
-        курить, именно тогда, когда впервые пробуждается
-        <choice>
-         <reg>
-          сознание
-         </reg>
-         <orig>
-          сознанiе
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          тормозит
-         </reg>
-         <orig>
-          тормозитъ
-         </orig>
-        </choice>
-        жизнь.
-       </span>
-      </note>
+     <ref target="#note481">
+      481
+     </ref>
+     <note index="false" xml:id="note481">
+      <span data-class="paragraph" id="4a8ab7d1-1577-4fd3-aba5-5a2ffb1a8b70" rend="left">
+       <choice>
+        <reg>
+         От
+        </reg>
+        <orig>
+         Отъ
+        </orig>
+       </choice>
+       этого всегда
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       первой молодости
+       <choice>
+        <reg>
+         начинают
+        </reg>
+        <orig>
+         начинаютъ
+        </orig>
+       </choice>
+       курить, именно тогда, когда впервые пробуждается
+       <choice>
+        <reg>
+         сознание
+        </reg>
+        <orig>
+         сознанiе
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         тормозит
+        </reg>
+        <orig>
+         тормозитъ
+        </orig>
+       </choice>
+       жизнь.
+      </span>
+     </note>
      для
      <choice>
       <reg>
@@ -16580,23 +16602,26 @@
        человѣка
       </orig>
      </choice>
-     <ref target="#note482">482</ref><note xml:id="note482" index="false">
-      <span id="a7c4baf6-2f22-4ad7-8701-5a13f948a368" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В подлиннике:
-        </hi>
-        как
-        <choice>
-         <reg>
-          отделовека
-         </reg>
-         <orig>
-          отдѣловѣка
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note482">
+      482
+     </ref>
+     <note index="false" xml:id="note482">
+      <span data-class="paragraph" id="a7c4baf6-2f22-4ad7-8701-5a13f948a368" rend="left">
+       <hi rend="italic">
+        В подлиннике:
+       </hi>
+       как
+       <choice>
+        <reg>
+         отделовека
+        </reg>
+        <orig>
+         отдѣловѣка
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      есть неперестающее
      <choice>
       <reg>

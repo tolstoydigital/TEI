@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v42_518_531_Krug_chtenija_Varianty">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения. Божеское и человеческое</title>
-                <title type="sub">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4d02442f-4720-4ce7-ae05-515a78cc2425">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Варианты
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">42</biblScope>
-                        <biblScope unit="page">518-531</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1906"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#not_publ" target="published"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#Tolstoy" target="author"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_518_531_Krug_chtenija_Varianty">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения. Божеское и человеческое
+    </title>
+    <title type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4d02442f-4720-4ce7-ae05-515a78cc2425">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Варианты
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       518-531
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1906"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000007009">
     <p id="124c378c-74ef-4cd0-bff6-0cb9c8240b69">
@@ -120,11 +132,14 @@
     </p>
     <p id="15e1b89c-0b08-4c11-9bfa-d07224f70514" rend="left">
      Так он думал, чувствовал, но уши слушали, глаза смотрели. И вот глазам его
-     <ref target="#note208">208</ref><note xml:id="note208" index="false">
-      <span id="832575d6-f53b-4889-9ce6-a76a581b6134" rend="left" data-class="paragraph">
-        В подлиннике: ему
-       </span>
-      </note>
+     <ref target="#note208">
+      208
+     </ref>
+     <note index="false" xml:id="note208">
+      <span data-class="paragraph" id="832575d6-f53b-4889-9ce6-a76a581b6134" rend="left">
+       В подлиннике: ему
+      </span>
+     </note>
      представились два студента и одна девушка, рысью с веселым
      <choice original_editorial_correction="[хохотом]">
       <sic/>
@@ -390,28 +405,37 @@
     </p>
     <p id="e8f0a157-0bb4-4fcb-8d3e-a927d656638d" rend="left">
      «Не перешибешь, так-то», тупо глядя перед собою повторял Меженецкий и, проводив Красавцева, ровным шагом, не поднимая головы, продолжал ходить по коридору. Меженецкий во время своей революционной деятельности, переодетый в рабочего, жил среди народа и знал всю, как он выражался, инертность русского крестьянина, сходился и с солдатами на службе и отставными и знал их тупую веру в необходимость повиновения и невозможность рассуждением подействовать на них. Он знал всё это, но не делал ни прежде, ни после из этого знания того вывода, который
-     <ref target="#note209">209</ref><note xml:id="note209" index="false">
-      <span id="6ed9d9d8-f223-4b84-a63e-d0e187b09764" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В подлиннике:
-        </hi>
-        которое
-       </span>
-      </note>
+     <ref target="#note209">
+      209
+     </ref>
+     <note index="false" xml:id="note209">
+      <span data-class="paragraph" id="6ed9d9d8-f223-4b84-a63e-d0e187b09764" rend="left">
+       <hi rend="italic">
+        В подлиннике:
+       </hi>
+       которое
+      </span>
+     </note>
      неизбежно вытекал
-     <ref target="#note210">210</ref><note xml:id="note210" index="false">
-      <span id="b353cc84-fce8-44c6-99b8-898b0a0d5a66" rend="left" data-class="paragraph">
-        В подлиннике: вытекало
-       </span>
-      </note>
+     <ref target="#note210">
+      210
+     </ref>
+     <note index="false" xml:id="note210">
+      <span data-class="paragraph" id="b353cc84-fce8-44c6-99b8-898b0a0d5a66" rend="left">
+       В подлиннике: вытекало
+      </span>
+     </note>
      из него. Только теперь в том настроении, в которое привел его разговор с новыми революционерами, он вдруг понял из слов Красавцева
      <pb n="526"/>
      всю тщету, бесполезность, нелепость всей его прошедшей деятельности и тем более той бесцельной, фантастической деятельности, которой отдавались теперь новые революционеры. Миллионы таких людей, как Красавцев, вымуштрованные, дисциплинированные, одуренные, были в руках правительства. В руках правительства были
-     <ref target="#note211">211</ref><note xml:id="note211" index="false">
-      <span id="7b41d0f8-1380-47bb-9e6d-a06f2abbc505" rend="left" data-class="paragraph">
-        В подлиннике: было
-       </span>
-      </note>
+     <ref target="#note211">
+      211
+     </ref>
+     <note index="false" xml:id="note211">
+      <span data-class="paragraph" id="7b41d0f8-1380-47bb-9e6d-a06f2abbc505" rend="left">
+       В подлиннике: было
+      </span>
+     </note>
      ежегодно миллиарды рублей, была организованная шайка чиновников, была школа, была литература, пресса и лживая, одуряющая церковь. И правительство знает свою неправду, знает, что, если оно даст восторжествовать правде, оно погибнет, и потому по чувству самосохранения оно безошибочно и безжалостно давит всё то, что может представлять для него хоть малейшую опасность.
     </p>
     <p id="bf142c84-5600-45c4-8a85-526ec201886c" rend="left">
@@ -434,13 +458,16 @@
       </corr>
      </choice>
      доказанное участие в революционной деятельности, направленной на ниспровержение существующего правительства, кандидат прав Анатолий Светлогуб приговаривается военным судом к лишению всех прав состояния и к смертной казни через повешение. Приговор суда конфирмован его высокопревосходительством генерал-губернатором и имеет быть приведен в исполнение сего 22 октября 1878 года. Светлогуб, внимательно слушая чтение бумаги, не мог понять значения того, что ему объявлялось. Ему объявлялось, что завтра он должен умереть. Это было такое событие, ничего подобного которому он никогда не испытывал.
-     <ref target="#note212">212</ref><note xml:id="note212" index="false">
-      <span id="018c5397-f6d5-43d5-9288-a2eccebe3d7a" rend="left" data-class="paragraph">
-        <del>
-         Это было нечто изменявшее всё его отношение к миру.
-        </del>
-       </span>
-      </note>
+     <ref target="#note212">
+      212
+     </ref>
+     <note index="false" xml:id="note212">
+      <span data-class="paragraph" id="018c5397-f6d5-43d5-9288-a2eccebe3d7a" rend="left">
+       <del>
+        Это было нечто изменявшее всё его отношение к миру.
+       </del>
+      </span>
+     </note>
      Это было нечто невероятное, ужасное, изменявшее всё в мире, а между тем офицер оправлял шашку левой рукой в замшевой перчатке, усы у него были нафиксатуарены, и сторож почтительно стоял у двери, и стены, и столик, и кружка — всё было как всегда. Известие это было так несообразно со всем тем, что было и есть, что Светлогуб слышал, понимал, что было прочтено, но не верил.
     </p>
     <p id="2a93b56c-d7b3-45f2-8d67-05096311649f" rend="left">
@@ -483,19 +510,25 @@
     </p>
     <p id="0f2f959a-70f5-4a15-a023-c46386bf2cd8" rend="left">
      «Милая, родная», — написал он и заплакал. Он узнал, что плакал потому, что слеза капнула на бумагу. Он вспомнил, как часто он встречал в романах подробности о слезах на письмах. Он стер рукавом слезу
-     <ref target="#note213">213</ref><note xml:id="note213" index="false">
-      <span id="28d52696-930e-4f55-af88-48e3f7c3f3e9" rend="left" data-class="paragraph">
-        <del>
-         но тут же капнул еще чернила на бумагу. Он старательно высушил бумагу на лампе, не переставая думать о том, что его ожидает, не столько думая, сколько сознавая, что в душе его поднялся и стоит мучительный, неразрешимый вопрос. Бумага высохла и он
-        </del>
-       </span>
-      </note>
+     <ref target="#note213">
+      213
+     </ref>
+     <note index="false" xml:id="note213">
+      <span data-class="paragraph" id="28d52696-930e-4f55-af88-48e3f7c3f3e9" rend="left">
+       <del>
+        но тут же капнул еще чернила на бумагу. Он старательно высушил бумагу на лампе, не переставая думать о том, что его ожидает, не столько думая, сколько сознавая, что в душе его поднялся и стоит мучительный, неразрешимый вопрос. Бумага высохла и он
+       </del>
+      </span>
+     </note>
      и продолжал писать
-     <ref target="#note214">214</ref><note xml:id="note214" index="false">
-      <span id="8ea9199e-e5af-4b49-9853-59ed2db42171" rend="left" data-class="paragraph">
-        &lt;del&gt;успокоившись немного&lt;/del&gt;
-       </span>
-      </note>
+     <ref target="#note214">
+      214
+     </ref>
+     <note index="false" xml:id="note214">
+      <span data-class="paragraph" id="8ea9199e-e5af-4b49-9853-59ed2db42171" rend="left">
+       &lt;del&gt;успокоившись немного&lt;/del&gt;
+      </span>
+     </note>
      : «Мне объявили приговор», — писал он. То, что он сам написал про это, сделало то, что он поверил, что это будет. И это ужаснуло его. Он встал, походил по камере и, живо вспомнив о горе матери, опять сел писать.
     </p>
    </div>
@@ -536,13 +569,16 @@
     </p>
     <p id="e0f36522-e3ee-40ce-b735-637a91be3b55" rend="left">
      С тою же мыслью о том, чтобы являть людям вид мужественный, спокойный, радостный, он, сидя на лавке колесницы спиною к кучеру и держа в руке Евангелие, ехал по городу.
-     <ref target="#note215">215</ref><note xml:id="note215" index="false">
-      <span id="e6319202-7936-4e92-8d74-f16f4d74221c" rend="left" data-class="paragraph">
-        <del>
-         оглядывая людей и думая о том впечатлении, которое он производит.
-        </del>
-       </span>
-      </note>
+     <ref target="#note215">
+      215
+     </ref>
+     <note index="false" xml:id="note215">
+      <span data-class="paragraph" id="e6319202-7936-4e92-8d74-f16f4d74221c" rend="left">
+       <del>
+        оглядывая людей и думая о том впечатлении, которое он производит.
+       </del>
+      </span>
+     </note>
     </p>
     <p id="47e154ea-f902-4a7c-b040-400caa24aecd" rend="left">
      Настроение это продолжалось во время выезда из ворот тюрьмы и переезда двух первых улиц. Но въехав в более людную часть города, стали встречаться люди, очевидно враждебно настроенные к нему. Он видел нахмуренные лица, сердитые жесты, очевидно осудительные слова, которые говорили о нем люди. И он почувствовал недоброе расположение к этим людям, досаду на них и сознание своей беспомощности.
@@ -559,13 +595,16 @@
     </p>
     <p id="6c77baca-1909-45a8-afd4-2f0c68b361d6" rend="left">
      Когда колесница въехала на Сенную площадь, и Светлогуба поразил любимый им с детства запах сена и конского навоза, он живо перенесся к счастливому времени детства &lt;лошадей, кучеров&gt;, беспричинной радости жизни. Такая волна молодой, бодрой, радостной жизни хлынула ему в душу, что, вспомнив то, что его ожидает, он вдруг ослабел.
-     <ref target="#note216">216</ref><note xml:id="note216" index="false">
-      <span id="1638fed0-80a4-45cf-bedf-ba4af0b592d1" rend="left" data-class="paragraph">
-        <del>
-         Ему захотелось плакать, и мысль о смерти стала ужасна. «Что это? Отчего это? — подумал он. — Как хорошо было ночью в тюрьме, как хорошо! Да это оттого, что я думаю о себе, о том, чем я кажусь другим людям. И совершенно забыв о том, кто и как на него смотрит и какой он имеет вид, ехал дальше по городу.
-        </del>
-       </span>
-      </note>
+     <ref target="#note216">
+      216
+     </ref>
+     <note index="false" xml:id="note216">
+      <span data-class="paragraph" id="1638fed0-80a4-45cf-bedf-ba4af0b592d1" rend="left">
+       <del>
+        Ему захотелось плакать, и мысль о смерти стала ужасна. «Что это? Отчего это? — подумал он. — Как хорошо было ночью в тюрьме, как хорошо! Да это оттого, что я думаю о себе, о том, чем я кажусь другим людям. И совершенно забыв о том, кто и как на него смотрит и какой он имеет вид, ехал дальше по городу.
+       </del>
+      </span>
+     </note>
     </p>
     <p id="a27c9a24-0816-49cd-a1fc-9ff00e5dd9b0" rend="left">
      И Светлогуб вернулся к тому состоянию, в котором он был ночью и опять весь погрузился в себя и в желание до последней минуты жить во всю силу жизни. И он забыл про себя и опять все люди, которых он видел, стали милы ему.
@@ -613,13 +652,16 @@
     </p>
     <p id="51da0b5e-ae9f-485e-b19c-5f48dad78acc" rend="left">
      «В руки твои предаю дух мой» — только мог он вспомнить слова Евангелия. Он понимал, что совершается с ним великая перемена, которая должна и не может не быть, но представить себе того, в чем эта перемена, он не мог.
-     <ref target="#note217">217</ref><note xml:id="note217" index="false">
-      <span id="29072b39-63d6-4639-b86d-37e1d55f7472" rend="left" data-class="paragraph">
-        <del>
-         потому что знал только то, что переменялось, но не знал, во что. Он понимал это, и в то же время тело его возмущалось против совершаемого насилия.
-        </del>
-       </span>
-      </note>
+     <ref target="#note217">
+      217
+     </ref>
+     <note index="false" xml:id="note217">
+      <span data-class="paragraph" id="29072b39-63d6-4639-b86d-37e1d55f7472" rend="left">
+       <del>
+        потому что знал только то, что переменялось, но не знал, во что. Он понимал это, и в то же время тело его возмущалось против совершаемого насилия.
+       </del>
+      </span>
+     </note>
      Он не противился смерти, не видел в ней ничего ужасного, но сильное молодое тело его не принимало смерти, не покорялось ей и до последней минуты боролось с ней.
     </p>
     <p id="42e00211-e535-4a20-894b-3f64c42cc614" rend="left">
@@ -659,11 +701,14 @@
     </head>
     <p id="674c1acd-202b-45cd-a0ac-6b094dd657a0" rend="left">
      Меженецкий давно уже ненавидел царя, министров, губернаторов, богачей, купцов, дворян, попов, ненавидел &lt;возненавидел&gt; теперь и этот идиотский народ с своей верой в присягу, царя
-     <ref target="#note218">218</ref><note xml:id="note218" index="false">
-      <span id="e5664e56-2fc2-4e71-89c4-e3c675238cb7" rend="left" data-class="paragraph">
-        &lt;del&gt;в Иверские&lt;/del&gt;
-       </span>
-      </note>
+     <ref target="#note218">
+      218
+     </ref>
+     <note index="false" xml:id="note218">
+      <span data-class="paragraph" id="e5664e56-2fc2-4e71-89c4-e3c675238cb7" rend="left">
+       &lt;del&gt;в Иверские&lt;/del&gt;
+      </span>
+     </note>
      и в каких-то агнцев, но больше всего возненавидел этих новых людей, с такой уверенностью решающих все вопросы.
     </p>
     <p id="8ee05b3a-949d-469d-b374-065a67177404" rend="left">

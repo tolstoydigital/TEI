@@ -1,105 +1,115 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v01_279_295_Istorija_vcherashnego_dnja">
-                    История вчерашнего дня. Tolstoy Digital
-                </title>
-                <title type="main">История вчерашнего дня</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="cc7cb7d1-6c15-4df8-8695-28c253ee878d">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            История вчерашнего дня
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 1
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">1</biblScope>
-                        <biblScope unit="page">279-295</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1851"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v01_279_295_Istorija_vcherashnego_dnja">
+     История вчерашнего дня. Tolstoy Digital
+    </title>
+    <title type="main">
+     История вчерашнего дня
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="cc7cb7d1-6c15-4df8-8695-28c253ee878d">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       История вчерашнего дня
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 1
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       1
+      </biblScope>
+      <biblScope unit="page">
+       279-295
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1851"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <p id="da686f76-18c8-437b-acd9-7647fe5ad23b">
@@ -2434,37 +2444,40 @@
        </corr>
       </choice>
       и кружить головы, это прекрасно,
-      <ref target="#note222">222</ref><note xml:id="note222" index="false">
-       <span id="91d0c4fb-5054-48c1-a543-bd87ad25872a" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn222">
-           222
-          </ref>
-         </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           Здесь над строкой вписано другими чернилами:
-          </hi>
-         </hi>
+      <ref target="#note222">
+       222
+      </ref>
+      <note index="false" xml:id="note222">
+       <span data-class="paragraph" id="91d0c4fb-5054-48c1-a543-bd87ad25872a" rend="left">
+        <hi rend="sup">
+         <ref target="#backn222">
+          222
+         </ref>
+        </hi>
+        <hi rend="italic">
          <hi rend="color_-65536">
-          Случай
-          <choice>
-           <reg>
-            с
-           </reg>
-           <orig>
-            съ
-           </orig>
-          </choice>
-          бар.
+          Здесь над строкой вписано другими чернилами:
          </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           (Конец слова и следующее слово не разобраны.) В виду неясности этой ремарки мы вывели ее из контекста.
-          </hi>
+        </hi>
+        <hi rend="color_-65536">
+         Случай
+         <choice>
+          <reg>
+           с
+          </reg>
+          <orig>
+           съ
+          </orig>
+         </choice>
+         бар.
+        </hi>
+        <hi rend="italic">
+         <hi rend="color_-65536">
+          (Конец слова и следующее слово не разобраны.) В виду неясности этой ремарки мы вывели ее из контекста.
          </hi>
-        </span>
-       </note>
+        </hi>
+       </span>
+      </note>
       такое,;
       <pb n="282"/>
       которое
@@ -3161,35 +3174,41 @@
        </orig>
       </choice>
       и мной.
-      <ref target="#note223">223</ref><note xml:id="note223" index="false">
-       <span id="147f0ad4-c000-43c9-b4b5-99cd52af5ea8" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn223">
-           223
-          </ref>
-         </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           Тут при переделке фразы остались зачеркнутыми слова:
-          </hi>
-         </hi>
+      <ref target="#note223">
+       223
+      </ref>
+      <note index="false" xml:id="note223">
+       <span data-class="paragraph" id="147f0ad4-c000-43c9-b4b5-99cd52af5ea8" rend="left">
+        <hi rend="sup">
+         <ref target="#backn223">
+          223
+         </ref>
+        </hi>
+        <hi rend="italic">
          <hi rend="color_-65536">
-          и сказала:
+          Тут при переделке фразы остались зачеркнутыми слова:
          </hi>
-        </span>
-       </note>
-      <ref target="#note224">224</ref><note xml:id="note224" index="false">
-       <span id="8f1e0c9d-b93f-4681-8f38-ab60ce72f9f3" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn224">
-           224
-          </ref>
-         </hi>
-         <hi rend="color_-65536">
-          [очарование, прелесть.]
-         </hi>
-        </span>
-       </note>
+        </hi>
+        <hi rend="color_-65536">
+         и сказала:
+        </hi>
+       </span>
+      </note>
+      <ref target="#note224">
+       224
+      </ref>
+      <note index="false" xml:id="note224">
+       <span data-class="paragraph" id="8f1e0c9d-b93f-4681-8f38-ab60ce72f9f3" rend="left">
+        <hi rend="sup">
+         <ref target="#backn224">
+          224
+         </ref>
+        </hi>
+        <hi rend="color_-65536">
+         [очарование, прелесть.]
+        </hi>
+       </span>
+      </note>
       <hi rend="italic">
        1 неразобр.
       </hi>
@@ -3503,18 +3522,21 @@
      </p>
      <p id="484de504-9717-480e-b630-6a50a798770e" rend="left">
       Comme il est aimable, ce jeune homme.
-      <ref target="#note225">225</ref><note xml:id="note225" index="false">
-       <span id="0499635d-9cdd-45fe-a228-846c0631f91f" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn225">
-           225
-          </ref>
-         </hi>
-         <hi rend="color_-65536">
-          [Как он любезен, этот юноша!]
-         </hi>
-        </span>
-       </note>
+      <ref target="#note225">
+       225
+      </ref>
+      <note index="false" xml:id="note225">
+       <span data-class="paragraph" id="0499635d-9cdd-45fe-a228-846c0631f91f" rend="left">
+        <hi rend="sup">
+         <ref target="#backn225">
+          225
+         </ref>
+        </hi>
+        <hi rend="color_-65536">
+         [Как он любезен, этот юноша!]
+        </hi>
+       </span>
+      </note>
      </p>
      <p id="76b29206-c6a4-4968-87bf-4afa21935618" rend="left">
       Эта фраза,
@@ -3673,49 +3695,52 @@
        </orig>
       </choice>
       и по немецки. Отчего она
-      <ref target="#note226">226</ref><note xml:id="note226" index="false">
-       <span id="6228cbb9-46a5-4622-909f-4fd722e9ced2" rend="left" data-class="paragraph">
-         <hi rend="sup"/>
-         <hi rend="color_-65536">
-          меня не
-          <choice>
-           <reg>
-            называет
-           </reg>
-           <orig>
-            называетъ
-           </orig>
-          </choice>
-          ни
-          <choice>
-           <reg>
-            Граф
-           </reg>
-           <orig>
-            Графъ
-           </orig>
-          </choice>
-          ,ни
-          <choice>
-           <reg>
-            Лев
-           </reg>
-           <orig>
-            Левъ
-           </orig>
-          </choice>
-          <choice>
-           <reg>
-            Николаевич
-           </reg>
-           <orig>
-            Николаевичъ
-           </orig>
-          </choice>
-          ? она
-         </hi>
-        </span>
-       </note>
+      <ref target="#note226">
+       226
+      </ref>
+      <note index="false" xml:id="note226">
+       <span data-class="paragraph" id="6228cbb9-46a5-4622-909f-4fd722e9ced2" rend="left">
+        <hi rend="sup"/>
+        <hi rend="color_-65536">
+         меня не
+         <choice>
+          <reg>
+           называет
+          </reg>
+          <orig>
+           называетъ
+          </orig>
+         </choice>
+         ни
+         <choice>
+          <reg>
+           Граф
+          </reg>
+          <orig>
+           Графъ
+          </orig>
+         </choice>
+         ,ни
+         <choice>
+          <reg>
+           Лев
+          </reg>
+          <orig>
+           Левъ
+          </orig>
+         </choice>
+         <choice>
+          <reg>
+           Николаевич
+          </reg>
+          <orig>
+           Николаевичъ
+          </orig>
+         </choice>
+         ? она
+        </hi>
+       </span>
+      </note>
       <hi rend="italic">
        <choice>
         <reg>
@@ -3993,23 +4018,26 @@
        </orig>
       </choice>
       :
-      <ref target="#note227">227</ref><note xml:id="note227" index="false">
-       <span id="551e8e19-bda1-4007-8eb8-67f5abcc1429" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn227">
-           227
-          </ref>
-         </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           Подразумевается:
-          </hi>
-         </hi>
+      <ref target="#note227">
+       227
+      </ref>
+      <note index="false" xml:id="note227">
+       <span data-class="paragraph" id="551e8e19-bda1-4007-8eb8-67f5abcc1429" rend="left">
+        <hi rend="sup">
+         <ref target="#backn227">
+          227
+         </ref>
+        </hi>
+        <hi rend="italic">
          <hi rend="color_-65536">
-          кадрили.
+          Подразумевается:
          </hi>
-        </span>
-       </note>
+        </hi>
+        <hi rend="color_-65536">
+         кадрили.
+        </hi>
+       </span>
+      </note>
       <choice>
        <reg>
         повторил
@@ -4113,68 +4141,74 @@
        Она
       </hi>
       . Я знаю, зачѣмъ вы повторяете то, что уже сказали: вамъ неловко б[ыть] одному и вы видите, что мнѣ неловко, — такъ чтобы казаться намъ занятыми вы заговорили. За это вниманіе васъ очень благодарю, но можно бы сказать что нибудь поумнѣе». — Я. Это правда, ваше замѣчаніе вѣрно, но я не знаю, отчего вамъ неловко; неужели вы думаете, что ежели вы однѣ, то я стану вамъ говорить такія вещи, которыя будутъ вамъ непріятны? И чтобы доказать вамъ, какъ я готовъ жертвовать своими удовольствіями для васъ, что
-      <ref target="#note228">228</ref><note xml:id="note228" index="false">
-       <span id="b36ea22f-70de-4a39-961c-d7c4c07afdac" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn228">
-           228
-          </ref>
-         </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           Союзы в этой фразе перепутаны; вероятно, это
-          </hi>
-         </hi>
+      <ref target="#note228">
+       228
+      </ref>
+      <note index="false" xml:id="note228">
+       <span data-class="paragraph" id="b36ea22f-70de-4a39-961c-d7c4c07afdac" rend="left">
+        <hi rend="sup">
+         <ref target="#backn228">
+          228
+         </ref>
+        </hi>
+        <hi rend="italic">
          <hi rend="color_-65536">
-          что
+          Союзы в этой фразе перепутаны; вероятно, это
          </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           должно было заменить собою стоящее выше
-          </hi>
-         </hi>
+        </hi>
+        <hi rend="color_-65536">
+         что
+        </hi>
+        <hi rend="italic">
          <hi rend="color_-65536">
-          <choice>
-           <reg>
-            как
-           </reg>
-           <orig>
-            какъ
-           </orig>
-          </choice>
-          [я готов...].
+          должно было заменить собою стоящее выше
          </hi>
-        </span>
-       </note>
-      <ref target="#note229">229</ref><note xml:id="note229" index="false">
-       <span id="89b78316-e828-48a3-a7a5-486354437403" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn229">
-           229
-          </ref>
-         </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           В оригинале стоит:
-          </hi>
-         </hi>
+        </hi>
+        <hi rend="color_-65536">
+         <choice>
+          <reg>
+           как
+          </reg>
+          <orig>
+           какъ
+          </orig>
+         </choice>
+         [я готов...].
+        </hi>
+       </span>
+      </note>
+      <ref target="#note229">
+       229
+      </ref>
+      <note index="false" xml:id="note229">
+       <span data-class="paragraph" id="89b78316-e828-48a3-a7a5-486354437403" rend="left">
+        <hi rend="sup">
+         <ref target="#backn229">
+          229
+         </ref>
+        </hi>
+        <hi rend="italic">
          <hi rend="color_-65536">
-          <choice>
-           <reg>
-            неприятен
-           </reg>
-           <orig>
-            непрiятенъ
-           </orig>
-          </choice>
+          В оригинале стоит:
          </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           в противоречие смыслу.
-          </hi>
+        </hi>
+        <hi rend="color_-65536">
+         <choice>
+          <reg>
+           неприятен
+          </reg>
+          <orig>
+           непрiятенъ
+          </orig>
+         </choice>
+        </hi>
+        <hi rend="italic">
+         <hi rend="color_-65536">
+          в противоречие смыслу.
          </hi>
-        </span>
-       </note>
+        </hi>
+       </span>
+      </note>
       <hi rend="italic">
        Она
       </hi>
@@ -5160,20 +5194,23 @@
       <hi rend="italic">
        когда
       </hi>
-      <ref target="#note230">230</ref><note xml:id="note230" index="false">
-       <span id="7111ff3a-73de-49a3-87e4-037acbba280b" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn230">
-           230
-          </ref>
+      <ref target="#note230">
+       230
+      </ref>
+      <note index="false" xml:id="note230">
+       <span data-class="paragraph" id="7111ff3a-73de-49a3-87e4-037acbba280b" rend="left">
+        <hi rend="sup">
+         <ref target="#backn230">
+          230
+         </ref>
+        </hi>
+        <hi rend="italic">
+         <hi rend="color_-65536">
+          Курсив во всей этой фразе поставлен редактором для ясности.
          </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           Курсив во всей этой фразе поставлен редактором для ясности.
-          </hi>
-         </hi>
-        </span>
-       </note>
+        </hi>
+       </span>
+      </note>
       <hi rend="italic">
        мы
       </hi>
@@ -10629,18 +10666,21 @@
        </orig>
       </choice>
       , мало fierté
-      <ref target="#note231">231</ref><note xml:id="note231" index="false">
-       <span id="94c62d2b-1b0c-4472-89b0-b8e8093d5b34" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn231">
-           231
-          </ref>
-         </hi>
-         <hi rend="color_-65536">
-          [достоинства]
-         </hi>
-        </span>
-       </note>
+      <ref target="#note231">
+       231
+      </ref>
+      <note index="false" xml:id="note231">
+       <span data-class="paragraph" id="94c62d2b-1b0c-4472-89b0-b8e8093d5b34" rend="left">
+        <hi rend="sup">
+         <ref target="#backn231">
+          231
+         </ref>
+        </hi>
+        <hi rend="color_-65536">
+         [достоинства]
+        </hi>
+       </span>
+      </note>
      </p>
      <p id="b81911b4-f11f-4c95-8f9b-803cb0d51251" rend="left">
       Я
@@ -12741,20 +12781,23 @@
        </orig>
       </choice>
       .
-      <ref target="#note232">232</ref><note xml:id="note232" index="false">
-       <span id="13297661-07fd-4d99-9ee0-df6878e26b35" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn232">
-           232
-          </ref>
+      <ref target="#note232">
+       232
+      </ref>
+      <note index="false" xml:id="note232">
+       <span data-class="paragraph" id="13297661-07fd-4d99-9ee0-df6878e26b35" rend="left">
+        <hi rend="sup">
+         <ref target="#backn232">
+          232
+         </ref>
+        </hi>
+        <hi rend="italic">
+         <hi rend="color_-65536">
+          Дальше около двух страниц зачеркнуто, но мы даем их в ломаных скобках.
          </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           Дальше около двух страниц зачеркнуто, но мы даем их в ломаных скобках.
-          </hi>
-         </hi>
-        </span>
-       </note>
+        </hi>
+       </span>
+      </note>
      </p>
      <p id="ea040e48-8a73-4c43-b000-ecae1bbee2e9" rend="left">
       &lt;«Морфей, прими меня
@@ -12819,18 +12862,21 @@
        </orig>
       </choice>
       барыня, когда ей сказали: «Quand je suis passé chez vous, vous étiez encore dans les bras de Morphée.
-      <ref target="#note233">233</ref><note xml:id="note233" index="false">
-       <span id="d79f4865-f9c5-4058-ba54-d84ff5de951d" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn233">
-           233
-          </ref>
-         </hi>
-         <hi rend="color_-65536">
-          [Когда я пришел к вам, вы были еще в объятиях Морфея.]
-         </hi>
-        </span>
-       </note>
+      <ref target="#note233">
+       233
+      </ref>
+      <note index="false" xml:id="note233">
+       <span data-class="paragraph" id="d79f4865-f9c5-4058-ba54-d84ff5de951d" rend="left">
+        <hi rend="sup">
+         <ref target="#backn233">
+          233
+         </ref>
+        </hi>
+        <hi rend="color_-65536">
+         [Когда я пришел к вам, вы были еще в объятиях Морфея.]
+        </hi>
+       </span>
+      </note>
       на;
       <pb n="292"/>
       Верхомъ съ нимъ ѣздили. Славная была травля, какъ подлѣ станового Гельке атукнулъ и Налетъ ловилъ изъ за всѣхъ, да еще по
@@ -15054,169 +15100,172 @@
        </orig>
       </choice>
       прежде.
-      <ref target="#note234">234</ref><note xml:id="note234" index="false">
-       <span id="481a2be9-2b5a-46e2-a410-72b41f037ac2" rend="left" data-class="paragraph">
-         <hi rend="sup">
-          <ref target="#backn234">
-           234
-          </ref>
-         </hi>
-         <hi rend="italic">
-          <hi rend="color_-65536">
-           Против этого места на полях стоит зачеркнутое:
-          </hi>
-         </hi>
+      <ref target="#note234">
+       234
+      </ref>
+      <note index="false" xml:id="note234">
+       <span data-class="paragraph" id="481a2be9-2b5a-46e2-a410-72b41f037ac2" rend="left">
+        <hi rend="sup">
+         <ref target="#backn234">
+          234
+         </ref>
+        </hi>
+        <hi rend="italic">
          <hi rend="color_-65536">
-          Я проснулся уже
-          <choice>
-           <reg>
-            утром
-           </reg>
-           <orig>
-            утромъ
-           </orig>
-          </choice>
-          и
-          <choice>
-           <reg>
-            стал
-           </reg>
-           <orig>
-            сталъ
-           </orig>
-          </choice>
-          вспоминать, что я вид
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          <choice>
-           <reg>
-            л
-           </reg>
-           <orig>
-            лъ
-           </orig>
-          </choice>
-          во сн
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          . — Вид
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          <choice>
-           <reg>
-            л
-           </reg>
-           <orig>
-            лъ
-           </orig>
-          </choice>
-          я, будто мы
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          здили
-          <choice>
-           <reg>
-            с
-           </reg>
-           <orig>
-            съ
-           </orig>
-          </choice>
-          <choice>
-           <reg>
-            братом
-           </reg>
-           <orig>
-            братомъ
-           </orig>
-          </choice>
-          на охоту и затравили
-          <choice>
-           <reg>
-            в
-           </reg>
-           <orig>
-            въ
-           </orig>
-          </choice>
-          остров
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          жену прим
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          рной доброд
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          тели. Н
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          <choice>
-           <reg>
-            т
-           </reg>
-           <orig>
-            тъ
-           </orig>
-          </choice>
-          ; еще прежде, ч
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          <choice>
-           <reg>
-            м
-           </reg>
-           <orig>
-            мъ
-           </orig>
-          </choice>
-          по
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          хали на охоту, вид
-          <hi rend="color_-65536">
-           ѣ
-          </hi>
-          <choice>
-           <reg>
-            л
-           </reg>
-           <orig>
-            лъ
-           </orig>
-          </choice>
-          я, что St. Thomas
-          <choice>
-           <reg>
-            пришел
-           </reg>
-           <orig>
-            пришелъ
-           </orig>
-          </choice>
-          просить меня, чтобы я
-          <choice>
-           <reg>
-            простил
-           </reg>
-           <orig>
-            простилъ
-           </orig>
-          </choice>
-          .
+          Против этого места на полях стоит зачеркнутое:
          </hi>
-        </span>
-       </note>
+        </hi>
+        <hi rend="color_-65536">
+         Я проснулся уже
+         <choice>
+          <reg>
+           утром
+          </reg>
+          <orig>
+           утромъ
+          </orig>
+         </choice>
+         и
+         <choice>
+          <reg>
+           стал
+          </reg>
+          <orig>
+           сталъ
+          </orig>
+         </choice>
+         вспоминать, что я вид
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         <choice>
+          <reg>
+           л
+          </reg>
+          <orig>
+           лъ
+          </orig>
+         </choice>
+         во сн
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         . — Вид
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         <choice>
+          <reg>
+           л
+          </reg>
+          <orig>
+           лъ
+          </orig>
+         </choice>
+         я, будто мы
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         здили
+         <choice>
+          <reg>
+           с
+          </reg>
+          <orig>
+           съ
+          </orig>
+         </choice>
+         <choice>
+          <reg>
+           братом
+          </reg>
+          <orig>
+           братомъ
+          </orig>
+         </choice>
+         на охоту и затравили
+         <choice>
+          <reg>
+           в
+          </reg>
+          <orig>
+           въ
+          </orig>
+         </choice>
+         остров
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         жену прим
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         рной доброд
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         тели. Н
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         <choice>
+          <reg>
+           т
+          </reg>
+          <orig>
+           тъ
+          </orig>
+         </choice>
+         ; еще прежде, ч
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         <choice>
+          <reg>
+           м
+          </reg>
+          <orig>
+           мъ
+          </orig>
+         </choice>
+         по
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         хали на охоту, вид
+         <hi rend="color_-65536">
+          ѣ
+         </hi>
+         <choice>
+          <reg>
+           л
+          </reg>
+          <orig>
+           лъ
+          </orig>
+         </choice>
+         я, что St. Thomas
+         <choice>
+          <reg>
+           пришел
+          </reg>
+          <orig>
+           пришелъ
+          </orig>
+         </choice>
+         просить меня, чтобы я
+         <choice>
+          <reg>
+           простил
+          </reg>
+          <orig>
+           простилъ
+          </orig>
+         </choice>
+         .
+        </hi>
+       </span>
+      </note>
      </p>
      <p id="e4447afc-a61d-4100-abde-d41e6e690eff" rend="left">
       Во время ночи

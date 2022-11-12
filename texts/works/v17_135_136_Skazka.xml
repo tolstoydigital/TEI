@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_135_136_Skazka">
-                    Сказка. Tolstoy Digital
-                </title>
-                <title type="main">Сказка.</title>
-                <title type="sub">"...и я потерял сознание"</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="814733f1-15f1-4ffe-a301-671eaa89899d">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Сказка
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">135-136</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1873"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#kids" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v17_135_136_Skazka">
+     Сказка. Tolstoy Digital
+    </title>
+    <title type="main">
+     Сказка.
+    </title>
+    <title type="sub">
+     "...и я потерял сознание"
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="814733f1-15f1-4ffe-a301-671eaa89899d">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Сказка
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       135-136
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1873"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="057db49c-92ae-4ba7-9010-c98d5020079b">
@@ -174,53 +186,56 @@
       </orig>
      </choice>
      , а
-     <ref target="#note26">26</ref><note xml:id="note26" index="false">
-      <span id="70e10154-f12b-4b19-b3a2-78d4268a38a7" rend="left" data-class="paragraph">
-        : &lt;
-        <choice>
-         <reg>
-          под
-         </reg>
-         <orig>
-          подъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          тенью
-         </reg>
-         <orig>
-          тѣнью
-         </orig>
-        </choice>
-        кактуса
-        <choice>
-         <reg>
-          подле
-         </reg>
-         <orig>
-          подлѣ
-         </orig>
-        </choice>
-        шалаша&gt;
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          доме
-         </reg>
-         <orig>
-          домѣ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note26">
+      26
+     </ref>
+     <note index="false" xml:id="note26">
+      <span data-class="paragraph" id="70e10154-f12b-4b19-b3a2-78d4268a38a7" rend="left">
+       : &lt;
+       <choice>
+        <reg>
+         под
+        </reg>
+        <orig>
+         подъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         тенью
+        </reg>
+        <orig>
+         тѣнью
+        </orig>
+       </choice>
+       кактуса
+       <choice>
+        <reg>
+         подле
+        </reg>
+        <orig>
+         подлѣ
+        </orig>
+       </choice>
+       шалаша&gt;
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         доме
+        </reg>
+        <orig>
+         домѣ
+        </orig>
+       </choice>
+      </span>
+     </note>
      на
      <choice>
       <reg>
@@ -231,33 +246,39 @@
       </orig>
      </choice>
      между
-     <ref target="#note27">27</ref><note xml:id="note27" index="false">
-      <span id="c6d82ae2-365e-4c8a-9fe5-1dc6e32080e3" rend="left" data-class="paragraph">
-        людьми
-       </span>
-      </note>
+     <ref target="#note27">
+      27
+     </ref>
+     <note index="false" xml:id="note27">
+      <span data-class="paragraph" id="c6d82ae2-365e-4c8a-9fe5-1dc6e32080e3" rend="left">
+       людьми
+      </span>
+     </note>
      живыми существами. — Два
-     <ref target="#note28">28</ref><note xml:id="note28" index="false">
-      <span id="d2d9d4da-63cb-45f2-8d0d-4be6ef3b9697" rend="left" data-class="paragraph">
-        <choice>
-         <sic>
-          <choice>
-           <reg>
-            Две
-           </reg>
-           <orig>
-            Двѣ
-           </orig>
-          </choice>
-          .
-          <hi rend="italic">
-           Далее зачеркнуто
-          </hi>
-          : женщины одна молодая, другая старая
-         </sic>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note28">
+      28
+     </ref>
+     <note index="false" xml:id="note28">
+      <span data-class="paragraph" id="d2d9d4da-63cb-45f2-8d0d-4be6ef3b9697" rend="left">
+       <choice>
+        <sic>
+         <choice>
+          <reg>
+           Две
+          </reg>
+          <orig>
+           Двѣ
+          </orig>
+         </choice>
+         .
+         <hi rend="italic">
+          Далее зачеркнуто
+         </hi>
+         : женщины одна молодая, другая старая
+        </sic>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        такие
@@ -302,20 +323,26 @@
       </orig>
      </choice>
      бутыли, другое плело
-     <ref target="#note29">29</ref><note xml:id="note29" index="false">
-      <span id="b0469eb2-29a6-4545-9946-8327252c0685" rend="left" data-class="paragraph">
-        что
-       </span>
-      </note>
+     <ref target="#note29">
+      29
+     </ref>
+     <note index="false" xml:id="note29">
+      <span data-class="paragraph" id="b0469eb2-29a6-4545-9946-8327252c0685" rend="left">
+       что
+      </span>
+     </note>
      какое то торпище (?).
-     <ref target="#note30">30</ref><note xml:id="note30" index="false">
-      <span id="f0e3c36a-5769-49e9-b6a6-1a6f45faf76c" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зач:
-        </hi>
-        Мущина
-       </span>
-      </note>
+     <ref target="#note30">
+      30
+     </ref>
+     <note index="false" xml:id="note30">
+      <span data-class="paragraph" id="f0e3c36a-5769-49e9-b6a6-1a6f45faf76c" rend="left">
+       <hi rend="italic">
+        Зач:
+       </hi>
+       Мущина
+      </span>
+     </note>
      Третье существо
      <choice>
       <reg>
@@ -335,11 +362,14 @@
       </orig>
      </choice>
      .
-     <ref target="#note31">31</ref><note xml:id="note31" index="false">
-      <span id="51739ba4-4173-4f1f-a57c-a4735f0c35c0" rend="left" data-class="paragraph">
-        Они
-       </span>
-      </note>
+     <ref target="#note31">
+      31
+     </ref>
+     <note index="false" xml:id="note31">
+      <span data-class="paragraph" id="51739ba4-4173-4f1f-a57c-a4735f0c35c0" rend="left">
+       Они
+      </span>
+     </note>
      <choice>
       <reg>
        Увидав
@@ -434,57 +464,66 @@
        могъ
       </orig>
      </choice>
-     <ref target="#note32">32</ref><note xml:id="note32" index="false">
-      <span id="d08580c0-c168-41b8-ba10-4592900191fb" rend="left" data-class="paragraph">
-        пройти
-       </span>
-      </note>
+     <ref target="#note32">
+      32
+     </ref>
+     <note index="false" xml:id="note32">
+      <span data-class="paragraph" id="d08580c0-c168-41b8-ba10-4592900191fb" rend="left">
+       пройти
+      </span>
+     </note>
      ходить,
-     <ref target="#note33">33</ref><note xml:id="note33" index="false">
-      <span id="fd119489-5c83-40e8-adf4-80f354de4228" rend="left" data-class="paragraph">
-        : по
-        <choice>
-         <reg>
-          комнате
-         </reg>
-         <orig>
-          комнатѣ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note33">
+      33
+     </ref>
+     <note index="false" xml:id="note33">
+      <span data-class="paragraph" id="fd119489-5c83-40e8-adf4-80f354de4228" rend="left">
+       : по
+       <choice>
+        <reg>
+         комнате
+        </reg>
+        <orig>
+         комнатѣ
+        </orig>
+       </choice>
+      </span>
+     </note>
      на другой день я
-     <ref target="#note34">34</ref><note xml:id="note34" index="false">
-      <span id="f92f2865-2c51-44a5-a9da-cea6604610db" rend="left" data-class="paragraph">
-        уже
-        <choice>
-         <reg>
-          мог
-         </reg>
-         <orig>
-          могъ
-         </orig>
-        </choice>
-        сойти
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          лестницы
-         </reg>
-         <orig>
-          лѣстницы
-         </orig>
-        </choice>
-        и ходить по надворью
-       </span>
-      </note>
+     <ref target="#note34">
+      34
+     </ref>
+     <note index="false" xml:id="note34">
+      <span data-class="paragraph" id="f92f2865-2c51-44a5-a9da-cea6604610db" rend="left">
+       уже
+       <choice>
+        <reg>
+         мог
+        </reg>
+        <orig>
+         могъ
+        </orig>
+       </choice>
+       сойти
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         лестницы
+        </reg>
+        <orig>
+         лѣстницы
+        </orig>
+       </choice>
+       и ходить по надворью
+      </span>
+     </note>
      <choice>
       <reg>
        почувствовал
@@ -570,15 +609,18 @@
       </orig>
      </choice>
      Дюлей,
-     <ref target="#note35">35</ref><note xml:id="note35" index="false">
-      <span id="76a86a44-cabe-4b73-add6-96c1dd2b3e3e" rend="left" data-class="paragraph">
-        <choice>
-         <sic>
-          людей
-         </sic>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note35">
+      35
+     </ref>
+     <note index="false" xml:id="note35">
+      <span data-class="paragraph" id="76a86a44-cabe-4b73-add6-96c1dd2b3e3e" rend="left">
+       <choice>
+        <sic>
+         людей
+        </sic>
+       </choice>
+      </span>
+     </note>
      и
      <choice>
       <reg>
@@ -588,18 +630,21 @@
        успѣлъ
       </orig>
      </choice>
-     <ref target="#note36">36</ref><note xml:id="note36" index="false">
-      <span id="458be1dd-182e-4c26-ae1f-04e177db6c2e" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="изуч[ить]">
-         <sic>
-          изуч
-         </sic>
-         <corr>
-          изучить
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note36">
+      36
+     </ref>
+     <note index="false" xml:id="note36">
+      <span data-class="paragraph" id="458be1dd-182e-4c26-ae1f-04e177db6c2e" rend="left">
+       <choice original_editorial_correction="изуч[ить]">
+        <sic>
+         изуч
+        </sic>
+        <corr>
+         изучить
+        </corr>
+       </choice>
+      </span>
+     </note>
      узнать
      <choice>
       <reg>
@@ -609,11 +654,14 @@
        ихъ
       </orig>
      </choice>
-     <ref target="#note37">37</ref><note xml:id="note37" index="false">
-      <span id="c26f5051-d912-4eaa-a90f-e3aebdbd867d" rend="left" data-class="paragraph">
-        знак
-       </span>
-      </note>
+     <ref target="#note37">
+      37
+     </ref>
+     <note index="false" xml:id="note37">
+      <span data-class="paragraph" id="c26f5051-d912-4eaa-a90f-e3aebdbd867d" rend="left">
+       знак
+      </span>
+     </note>
      <choice>
       <reg>
        язык
@@ -812,18 +860,21 @@
       </orig>
      </choice>
      каждой минутой
-     <ref target="#note38">38</ref><note xml:id="note38" index="false">
-      <span id="a4517fd4-73f6-4c1d-91b1-0f460fb3bfb2" rend="left" data-class="paragraph">
-        <choice original_editorial_correction="гни[ли]">
-         <sic>
-          гни
-         </sic>
-         <corr>
-          гнили
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note38">
+      38
+     </ref>
+     <note index="false" xml:id="note38">
+      <span data-class="paragraph" id="a4517fd4-73f6-4c1d-91b1-0f460fb3bfb2" rend="left">
+       <choice original_editorial_correction="гни[ли]">
+        <sic>
+         гни
+        </sic>
+        <corr>
+         гнили
+        </corr>
+       </choice>
+      </span>
+     </note>
      таяли или, если по
      <choice>
       <reg>
@@ -895,20 +946,23 @@
        другiе
       </orig>
      </choice>
-     <ref target="#note39">39</ref><note xml:id="note39" index="false">
-      <span id="7b0aa25f-a572-4a8c-a025-bec2ec8f4add" rend="left" data-class="paragraph">
-        не
-        <choice>
-         <reg>
-          успевали
-         </reg>
-         <orig>
-          успѣвали
-         </orig>
-        </choice>
-        даже
-       </span>
-      </note>
+     <ref target="#note39">
+      39
+     </ref>
+     <note index="false" xml:id="note39">
+      <span data-class="paragraph" id="7b0aa25f-a572-4a8c-a025-bec2ec8f4add" rend="left">
+       не
+       <choice>
+        <reg>
+         успевали
+        </reg>
+        <orig>
+         успѣвали
+        </orig>
+       </choice>
+       даже
+      </span>
+     </note>
      еще не
      <choice>
       <reg>
@@ -1016,11 +1070,14 @@
       </orig>
      </choice>
      , а только разными
-     <ref target="#note40">40</ref><note xml:id="note40" index="false">
-      <span id="d5c64e97-2018-4101-bb88-8493d75f81b2" rend="left" data-class="paragraph">
-        способами
-       </span>
-      </note>
+     <ref target="#note40">
+      40
+     </ref>
+     <note index="false" xml:id="note40">
+      <span data-class="paragraph" id="d5c64e97-2018-4101-bb88-8493d75f81b2" rend="left">
+       способами
+      </span>
+     </note>
      путями
      <choice>
       <reg>
@@ -1116,78 +1173,81 @@
       </orig>
      </choice>
      .
-     <ref target="#note41">41</ref><note xml:id="note41" index="false">
-      <span id="eef8301b-1ae6-4d63-8ba6-c7a9f7164d7f" rend="left" data-class="paragraph">
-        &lt;Я&gt;
-        <choice>
-         <reg>
-          Через
-         </reg>
-         <orig>
-          Черезъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          месяц
-         </reg>
-         <orig>
-          мѣсяцъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          после
-         </reg>
-         <orig>
-          послѣ
-         </orig>
-        </choice>
-        моего
-        <choice>
-         <reg>
-          поселения
-         </reg>
-         <orig>
-          поселенiя
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          Дюлевском
-         </reg>
-         <orig>
-          Дюлевскомъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          городе
-         </reg>
-         <orig>
-          городѣ
-         </orig>
-        </choice>
-        , я помню
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        одно воскресенье
-       </span>
-      </note>
+     <ref target="#note41">
+      41
+     </ref>
+     <note index="false" xml:id="note41">
+      <span data-class="paragraph" id="eef8301b-1ae6-4d63-8ba6-c7a9f7164d7f" rend="left">
+       &lt;Я&gt;
+       <choice>
+        <reg>
+         Через
+        </reg>
+        <orig>
+         Черезъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         месяц
+        </reg>
+        <orig>
+         мѣсяцъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         после
+        </reg>
+        <orig>
+         послѣ
+        </orig>
+       </choice>
+       моего
+       <choice>
+        <reg>
+         поселения
+        </reg>
+        <orig>
+         поселенiя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Дюлевском
+        </reg>
+        <orig>
+         Дюлевскомъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         городе
+        </reg>
+        <orig>
+         городѣ
+        </orig>
+       </choice>
+       , я помню
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       одно воскресенье
+      </span>
+     </note>
      Я
      <choice>
       <reg>
@@ -1467,19 +1527,22 @@
       </orig>
      </choice>
      ,
-     <ref target="#note42">42</ref><note xml:id="note42" index="false">
-      <span id="3bcc56a5-99a6-4e06-8e52-224619810919" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          отношениях
-         </reg>
-         <orig>
-          отношенiяхъ
-         </orig>
-        </choice>
-        людей
-       </span>
-      </note>
+     <ref target="#note42">
+      42
+     </ref>
+     <note index="false" xml:id="note42">
+      <span data-class="paragraph" id="3bcc56a5-99a6-4e06-8e52-224619810919" rend="left">
+       <choice>
+        <reg>
+         отношениях
+        </reg>
+        <orig>
+         отношенiяхъ
+        </orig>
+       </choice>
+       людей
+      </span>
+     </note>
      и начатки столь запутанные,
      <choice>
       <reg>
@@ -1711,11 +1774,14 @@
       </orig>
      </choice>
      .
-     <ref target="#note43">43</ref><note xml:id="note43" index="false">
-      <span id="d68f0520-46c1-4dfe-89bc-8a452d2235f6" rend="left" data-class="paragraph">
-        большей частью
-       </span>
-      </note>
+     <ref target="#note43">
+      43
+     </ref>
+     <note index="false" xml:id="note43">
+      <span data-class="paragraph" id="d68f0520-46c1-4dfe-89bc-8a452d2235f6" rend="left">
+       большей частью
+      </span>
+     </note>
      <choice>
       <reg>
        Отличие
@@ -1848,14 +1914,17 @@
       </orig>
      </choice>
      труда, и дюли
-     <ref target="#note44">44</ref><note xml:id="note44" index="false">
-      <span id="f903ba66-957e-487d-943c-00c6bd31e7fc" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В подлиннике описка:
-        </hi>
-        люди
-       </span>
-      </note>
+     <ref target="#note44">
+      44
+     </ref>
+     <note index="false" xml:id="note44">
+      <span data-class="paragraph" id="f903ba66-957e-487d-943c-00c6bd31e7fc" rend="left">
+       <hi rend="italic">
+        В подлиннике описка:
+       </hi>
+       люди
+      </span>
+     </note>
      <choice>
       <reg>
        разрушающие
@@ -1899,21 +1968,24 @@
       </orig>
      </choice>
      ,
-     <ref target="#note45">45</ref><note xml:id="note45" index="false">
-      <span id="f90c9483-1e65-4a2f-b319-550eb6444390" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В подлиннике описка:
-        </hi>
-        <choice>
-         <reg>
-          городах
-         </reg>
-         <orig>
-          городахъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note45">
+      45
+     </ref>
+     <note index="false" xml:id="note45">
+      <span data-class="paragraph" id="f90c9483-1e65-4a2f-b319-550eb6444390" rend="left">
+       <hi rend="italic">
+        В подлиннике описка:
+       </hi>
+       <choice>
+        <reg>
+         городах
+        </reg>
+        <orig>
+         городахъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      вторые
      <choice>
       <reg>
@@ -1932,21 +2004,24 @@
       </orig>
      </choice>
      .
-     <ref target="#note46">46</ref><note xml:id="note46" index="false">
-      <span id="6e597630-5b67-4c53-bb72-a1cbc5ba13e9" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В подлиннике описка:
-        </hi>
-        <choice>
-         <reg>
-          деревнях
-         </reg>
-         <orig>
-          деревняхъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note46">
+      46
+     </ref>
+     <note index="false" xml:id="note46">
+      <span data-class="paragraph" id="6e597630-5b67-4c53-bb72-a1cbc5ba13e9" rend="left">
+       <hi rend="italic">
+        В подлиннике описка:
+       </hi>
+       <choice>
+        <reg>
+         деревнях
+        </reg>
+        <orig>
+         деревняхъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        В
@@ -2103,28 +2178,31 @@
       </corr>
      </choice>
      .
-     <ref target="#note47">47</ref><note xml:id="note47" index="false">
-      <span id="45e173d9-d418-4718-a8f7-d9afa2748838" rend="left" data-class="paragraph">
-        и
-        <choice>
-         <reg>
-          вследствии
-         </reg>
-         <orig>
-          вслѣдствiи
-         </orig>
-        </choice>
-        того увеличение труда остающихся
-        <choice original_editorial_correction="производит[елей]">
-         <sic>
-          производит
-         </sic>
-         <corr>
-          производителей
-         </corr>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note47">
+      47
+     </ref>
+     <note index="false" xml:id="note47">
+      <span data-class="paragraph" id="45e173d9-d418-4718-a8f7-d9afa2748838" rend="left">
+       и
+       <choice>
+        <reg>
+         вследствии
+        </reg>
+        <orig>
+         вслѣдствiи
+        </orig>
+       </choice>
+       того увеличение труда остающихся
+       <choice original_editorial_correction="производит[елей]">
+        <sic>
+         производит
+        </sic>
+        <corr>
+         производителей
+        </corr>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        В
