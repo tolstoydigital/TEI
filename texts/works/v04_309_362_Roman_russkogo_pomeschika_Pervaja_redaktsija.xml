@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v04_309_362_Roman_russkogo_pomeschika_Pervaja_redaktsija">
-                    «Роман русского помещика». [Первая редакция]. Tolstoy Digital
-                </title>
-                <title type="main">Роман русского помещика.</title>
-                <title type="sub">Первая редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="1786a37a-fa1a-4d0b-92f3-9876a07cbdb4">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            «Роман русского помещика». [Первая редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 4
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">4</biblScope>
-                        <biblScope unit="page">309-362</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1854"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v04_309_362_Roman_russkogo_pomeschika_Pervaja_redaktsija">
+     «Роман русского помещика». [Первая редакция]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Роман русского помещика.
+    </title>
+    <title type="sub">
+     Первая редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="1786a37a-fa1a-4d0b-92f3-9876a07cbdb4">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       «Роман русского помещика». [Первая редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 4
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       4
+      </biblScope>
+      <biblScope unit="page">
+       309-362
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1854"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013002">
     <p id="7f2ece4d-9563-4cfa-98f0-f1302e481188">
@@ -3940,13 +3952,16 @@
       </choice>
      </hi>
      .
-     <ref target="#note86">86</ref><note xml:id="note86" index="false">
-      <span id="1d94d2c7-ec71-45a1-b265-0c50d510be40" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Позднейшая помета Толстого.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note86">
+      86
+     </ref>
+     <note index="false" xml:id="note86">
+      <span data-class="paragraph" id="1d94d2c7-ec71-45a1-b265-0c50d510be40" rend="left">
+       <hi rend="italic">
+        Позднейшая помета Толстого.
+       </hi>
+      </span>
+     </note>
     </head>
     <p id="ff5875fc-562d-49c6-b49f-39e496204286" rend="left">
      Сойдя
@@ -7406,13 +7421,16 @@
      <hi rend="italic">
       .
      </hi>
-     <ref target="#note87">87</ref><note xml:id="note87" index="false">
-      <span id="0885c602-5d3b-4ddf-86c5-ca2127c2f2f6" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Позднейшая помета Толстого.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note87">
+      87
+     </ref>
+     <note index="false" xml:id="note87">
+      <span data-class="paragraph" id="0885c602-5d3b-4ddf-86c5-ca2127c2f2f6" rend="left">
+       <hi rend="italic">
+        Позднейшая помета Толстого.
+       </hi>
+      </span>
+     </note>
     </head>
     <p id="ad476394-562b-4d39-8202-8d3b9c65e852" rend="left">
      На прошлой недѣлѣ 5 хабаровскихъ бабъ ходили въ казенную засѣку за грибами. Набравъ по лукошкѣ, часу въ 10-мъ онѣ, возвращаясь домой черезъ шкаликовскую долину (онъ снималъ ее отъ казны), присѣли отдохнуть около стоговъ. По шкаликовской долинѣ, занимающей продолговатое пространство въ нѣсколько десятинъ, между старымъ казеннымъ лѣсомъ, молодымъ березникомъ и хабаровскимъ озимымъ полемъ, течетъ чуть видная, чуть слышная рѣчка Сорочка. На одномъ изъ ея изгибовъ расли 3 развѣсистыя березы, а между березами стояли стога стараго сѣна и вмѣстѣ съ ними кидали по утрамъ причудливую лиловую тѣнь черезъ рѣчку на мокрую отъ росы шкаликовскую траву. Тутъ-то полдничали и спали бабы. Тонкая сочная трава растетъ около рѣчки, но ближе къ темнымъ дубамъ, стоящимъ на опушкѣ лѣса, она сначала превращается въ осоку и глухую зарость, а еще ближе къ лѣсу только кое-гдѣ тонкими былинками пробивается сквозь сухія листья, жолуди, сучья, каряжникъ, которые сотни лѣтъ сбрасываетъ съ себя дремучій лѣсъ и кидаетъ на сырую землю. Лѣсъ идетъ въ гору и чѣмъ дальше, тѣмъ суровѣе; изрѣдка попадаются голые стволы осинъ, съ подсохшими снизу сучьями и круглой, высоко трепещущей, зеленой верхушкой; кое-гдѣ скрипитъ отъ вѣтра нагнувшаяся двойная береза надъ сырымъ оврагомъ, въ которомъ, придавивъ орѣховый и осиновый подростокъ, съ незапамятныхъ временъ, гніетъ покрытое мохомъ свалившееся дерево. Но когда смотришь съ долины, видны только зеленыя макушки высокихъ деревъ, все выше и выше, все синѣе и синѣе. И конца не видать. — Березникъ, лѣсокъ незавидный, нешто, нешто, слѣга, а то и оглобля не выйдетъ. — Трава тоже пустая, тонкая, рѣдкая, косой не захватишь по ней.
@@ -7420,123 +7438,126 @@
       Шкаликъ
      </ref>
      скотину пускаетъ. Зато
-     <ref target="#note88">88</ref><note xml:id="note88" index="false">
-      <span id="3e716eae-2979-4fc9-bddc-68dbd2e51fa7" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        поднимется солнышко и
-        <choice>
-         <reg>
-          бросит
-         </reg>
-         <orig>
-          броситъ
-         </orig>
-        </choice>
-        первые розовыекосые лучи по
-        <choice>
-         <reg>
-          тонким
-         </reg>
-         <orig>
-          тонкимъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          белым
-         </reg>
-         <orig>
-          бѣлымъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          деревьям
-         </reg>
-         <orig>
-          деревьямъ
-         </orig>
-        </choice>
-        , да
-        <choice>
-         <reg>
-          утренний
-         </reg>
-         <orig>
-          утреннiй
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          ветерок
-         </reg>
-         <orig>
-          вѣтерокъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          разбудит
-         </reg>
-         <orig>
-          разбудитъ
-         </orig>
-        </choice>
-        сочный зеленый
-        <choice>
-         <reg>
-          лист
-         </reg>
-         <orig>
-          листъ
-         </orig>
-        </choice>
-        , куда
-        <choice>
-         <reg>
-          место
-         </reg>
-         <orig>
-          мѣсто
-         </orig>
-        </choice>
-        веселое.
-        <choice>
-         <reg>
-          Мне
-         </reg>
-         <orig>
-          Мнѣ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          так же
-         </reg>
-         <orig>
-          такъ-же
-         </orig>
-        </choice>
-        хорошо
-        <choice>
-         <reg>
-          известно
-         </reg>
-         <orig>
-          извѣстно
-         </orig>
-        </choice>
-        , что
-       </span>
-      </note>
+     <ref target="#note88">
+      88
+     </ref>
+     <note index="false" xml:id="note88">
+      <span data-class="paragraph" id="3e716eae-2979-4fc9-bddc-68dbd2e51fa7" rend="left">
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       поднимется солнышко и
+       <choice>
+        <reg>
+         бросит
+        </reg>
+        <orig>
+         броситъ
+        </orig>
+       </choice>
+       первые розовыекосые лучи по
+       <choice>
+        <reg>
+         тонким
+        </reg>
+        <orig>
+         тонкимъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         белым
+        </reg>
+        <orig>
+         бѣлымъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         деревьям
+        </reg>
+        <orig>
+         деревьямъ
+        </orig>
+       </choice>
+       , да
+       <choice>
+        <reg>
+         утренний
+        </reg>
+        <orig>
+         утреннiй
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ветерок
+        </reg>
+        <orig>
+         вѣтерокъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         разбудит
+        </reg>
+        <orig>
+         разбудитъ
+        </orig>
+       </choice>
+       сочный зеленый
+       <choice>
+        <reg>
+         лист
+        </reg>
+        <orig>
+         листъ
+        </orig>
+       </choice>
+       , куда
+       <choice>
+        <reg>
+         место
+        </reg>
+        <orig>
+         мѣсто
+        </orig>
+       </choice>
+       веселое.
+       <choice>
+        <reg>
+         Мне
+        </reg>
+        <orig>
+         Мнѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         так же
+        </reg>
+        <orig>
+         такъ-же
+        </orig>
+       </choice>
+       хорошо
+       <choice>
+        <reg>
+         известно
+        </reg>
+        <orig>
+         извѣстно
+        </orig>
+       </choice>
+       , что
+      </span>
+     </note>
      самое
      <pb n="317"/>
      время, какъ бабы отдыхали подъ стогами,
@@ -9819,13 +9840,16 @@
       Примиренье
      </hi>
      .
-     <ref target="#note89">89</ref><note xml:id="note89" index="false">
-      <span id="2d7fc986-cc15-4878-9957-899edfcdb3b0" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Позднейшая помета Толстого.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note89">
+      89
+     </ref>
+     <note index="false" xml:id="note89">
+      <span data-class="paragraph" id="2d7fc986-cc15-4878-9957-899edfcdb3b0" rend="left">
+       <hi rend="italic">
+        Позднейшая помета Толстого.
+       </hi>
+      </span>
+     </note>
     </head>
     <p id="0a99afba-c950-44d2-9716-9c4b4f22693d" rend="left">
      <choice>
@@ -11457,13 +11481,16 @@
       </choice>
      </hi>
      .
-     <ref target="#note90">90</ref><note xml:id="note90" index="false">
-      <span id="cd5fb4cf-f16e-4f73-93ce-bff97ba9a08d" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Позднейшая помета Толстого.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note90">
+      90
+     </ref>
+     <note index="false" xml:id="note90">
+      <span data-class="paragraph" id="cd5fb4cf-f16e-4f73-93ce-bff97ba9a08d" rend="left">
+       <hi rend="italic">
+        Позднейшая помета Толстого.
+       </hi>
+      </span>
+     </note>
     </head>
     <p id="b6ea5535-1e91-47f6-81e5-9ba8df5da2a4" rend="left">
      <ref id="shkalik" target="slovar">
@@ -14100,29 +14127,32 @@
       </orig>
      </choice>
      того, чтобы платить 50 р. какому-то (Рюрику)
-     <ref target="#note91">91</ref><note xml:id="note91" index="false">
-      <span id="892d633d-9445-421c-91c6-56fa7a28000f" rend="left" data-class="paragraph">
-        Бранное
-        <choice>
-         <reg>
-          выражение
-         </reg>
-         <orig>
-          выраженiе
-         </orig>
-        </choice>
-        , означающее грубый
-        <choice>
-         <reg>
-          мужик
-         </reg>
-         <orig>
-          мужикъ
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note91">
+      91
+     </ref>
+     <note index="false" xml:id="note91">
+      <span data-class="paragraph" id="892d633d-9445-421c-91c6-56fa7a28000f" rend="left">
+       Бранное
+       <choice>
+        <reg>
+         выражение
+        </reg>
+        <orig>
+         выраженiе
+        </orig>
+       </choice>
+       , означающее грубый
+       <choice>
+        <reg>
+         мужик
+        </reg>
+        <orig>
+         мужикъ
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      задумчивости
      <pb n="323"/>
      были
@@ -14888,13 +14918,16 @@
       Князя
      </hi>
      .
-     <ref target="#note92">92</ref><note xml:id="note92" index="false">
-      <span id="e31cae7f-baa6-43e6-94d9-cbb462aeeb73" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Позднейшая помета Толстого.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note92">
+      92
+     </ref>
+     <note index="false" xml:id="note92">
+      <span data-class="paragraph" id="e31cae7f-baa6-43e6-94d9-cbb462aeeb73" rend="left">
+       <hi rend="italic">
+        Позднейшая помета Толстого.
+       </hi>
+      </span>
+     </note>
     </head>
     <p id="472cd01f-9619-4c42-8be0-63226169ba0f" rend="left">
      Юный князь скорыми шагами
@@ -16331,13 +16364,16 @@
       </choice>
      </hi>
      .
-     <ref target="#note93">93</ref><note xml:id="note93" index="false">
-      <span id="19e0654d-cfc3-4438-82a8-ca4ec62d2540" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Позднейшая помета Толстого.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note93">
+      93
+     </ref>
+     <note index="false" xml:id="note93">
+      <span data-class="paragraph" id="19e0654d-cfc3-4438-82a8-ca4ec62d2540" rend="left">
+       <hi rend="italic">
+        Позднейшая помета Толстого.
+       </hi>
+      </span>
+     </note>
     </head>
     <p id="b0a30365-a6fa-4ed1-a957-082a8660396f" rend="left">
      Подходя
@@ -20030,13 +20066,16 @@
       Глава 7. Его изба
      </hi>
      .
-     <ref target="#note94">94</ref><note xml:id="note94" index="false">
-      <span id="068b1da0-a19b-4e6e-8a8b-e83188049404" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Позднейшая помета Толстого.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note94">
+      94
+     </ref>
+     <note index="false" xml:id="note94">
+      <span data-class="paragraph" id="068b1da0-a19b-4e6e-8a8b-e83188049404" rend="left">
+       <hi rend="italic">
+        Позднейшая помета Толстого.
+       </hi>
+      </span>
+     </note>
     </head>
     <p id="918155f6-3edd-45b6-bcab-095418dbd986" rend="left">
      &lt;
@@ -20084,7 +20123,7 @@
       </orig>
      </choice>
      <add n="n95" stage="в подлиннике">
-      <span id="4d4989e8-49af-4311-b842-6aaccca683e8" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="4d4989e8-49af-4311-b842-6aaccca683e8" rend="left">
        <choice>
         <reg>
          левой
@@ -20095,134 +20134,137 @@
        </choice>
       </span>
      </add>
-     <ref target="#note96">96</ref><note xml:id="note96" index="false">
-      <span id="9d15a86e-4fe1-40a2-9f2e-0cf4869766d0" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зачеркнуто крест на крест. Раньше было после слов:
-        </hi>
-        наклеены
-        <choice>
-         <reg>
-          возле
-         </reg>
-         <orig>
-          возлѣ
-         </orig>
-        </choice>
-        : &lt;Но я
-        <choice>
-         <reg>
-          уверен
-         </reg>
-         <orig>
-          увѣренъ
-         </orig>
-        </choice>
-        , что
-        <choice>
-         <reg>
-          из
-         </reg>
-         <orig>
-          изъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          одного
-         </reg>
-         <orig>
-          однаго
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          этого
-         </reg>
-         <orig>
-          этаго
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          мрачного
-         </reg>
-         <orig>
-          мрачнаго
-         </orig>
-        </choice>
-        угла возносилось
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        Небу гораздо больше
-        <choice>
-         <reg>
-          искренних
-         </reg>
-         <orig>
-          искреннихъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          молитв
-         </reg>
-         <orig>
-          молитвъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          чем
-         </reg>
-         <orig>
-          чѣмъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          из
-         </reg>
-         <orig>
-          изъ
-         </orig>
-        </choice>
-        сотни
-        <choice>
-         <reg>
-          образных
-         </reg>
-         <orig>
-          образныхъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        золочеными иконами и налойчиками
-        <choice>
-         <reg>
-          красного
-         </reg>
-         <orig>
-          краснаго
-         </orig>
-        </choice>
-        дерева&gt;.
-       </span>
-      </note>
+     <ref target="#note96">
+      96
+     </ref>
+     <note index="false" xml:id="note96">
+      <span data-class="paragraph" id="9d15a86e-4fe1-40a2-9f2e-0cf4869766d0" rend="left">
+       <hi rend="italic">
+        Зачеркнуто крест на крест. Раньше было после слов:
+       </hi>
+       наклеены
+       <choice>
+        <reg>
+         возле
+        </reg>
+        <orig>
+         возлѣ
+        </orig>
+       </choice>
+       : &lt;Но я
+       <choice>
+        <reg>
+         уверен
+        </reg>
+        <orig>
+         увѣренъ
+        </orig>
+       </choice>
+       , что
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         одного
+        </reg>
+        <orig>
+         однаго
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этого
+        </reg>
+        <orig>
+         этаго
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мрачного
+        </reg>
+        <orig>
+         мрачнаго
+        </orig>
+       </choice>
+       угла возносилось
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       Небу гораздо больше
+       <choice>
+        <reg>
+         искренних
+        </reg>
+        <orig>
+         искреннихъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         молитв
+        </reg>
+        <orig>
+         молитвъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         чем
+        </reg>
+        <orig>
+         чѣмъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       сотни
+       <choice>
+        <reg>
+         образных
+        </reg>
+        <orig>
+         образныхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       золочеными иконами и налойчиками
+       <choice>
+        <reg>
+         красного
+        </reg>
+        <orig>
+         краснаго
+        </orig>
+       </choice>
+       дерева&gt;.
+      </span>
+     </note>
     </p>
     <p id="aa619da0-7662-4128-97da-ff970626f82a" rend="left">
      &lt;За столомъ была широкая лавка, покрытая рогожей и овчинами, около нея и подъ ней стояли свѣтецъ, кадушки, ушатъ, ведра, ухватъ. Противуположную сторону занимали почернѣвшая большая смрадная печь и полати.&gt;
@@ -29881,13 +29923,16 @@
       Глава. Юхванка Мудреной
      </hi>
      .
-     <ref target="#note97">97</ref><note xml:id="note97" index="false">
-      <span id="956eb979-9a19-44e8-ba25-e7ef6d332765" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Позднейшая помета Толстого.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note97">
+      97
+     </ref>
+     <note index="false" xml:id="note97">
+      <span data-class="paragraph" id="956eb979-9a19-44e8-ba25-e7ef6d332765" rend="left">
+       <hi rend="italic">
+        Позднейшая помета Толстого.
+       </hi>
+      </span>
+     </note>
     </head>
     <p id="6fe5d264-a225-4dad-abab-5e1c8dee1f1e" rend="left">
      «Юхванка мудреный
@@ -51167,7 +51212,7 @@
     <p id="21ca966f-c418-4b26-9fc4-5f7365d7af60" rend="left">
      Николинька подвинулся ближе и въ полныхъ и чистыхъ акордахъ повторялъ мотивъ, потомъ началъ модулировать, гармонія безпрестанно измѣнялась, изрѣдко только возвращалась къ первоначальной и повторенію прежняго мотива. Иногда модуляціи были слишкомъ смѣлы и не совсѣмъ правильны, но иногда чрезвычайно удачны. Николинька забылся. Его слабые, иногда тощіе, аккорды дополнялись его воображеніемъ. Ему казалось, что онъ слышитъ и хоръ, и оркестръ, и тысячи мелодій, сообразныхъ съ его гармоніей, вертѣлись въ его головѣ. Всякую минуту, переходя къ смѣлому измѣненію, онъ съ замираніемъ сердца ожидалъ, что выдетъ, и когда переходъ былъ удаченъ, какъ отрадно становилось ему на душѣ. Въ то же самое время мысли его находились въ положеніи усиленной дѣятельности и вмѣстѣ запутанности и туманности, въ которомъ онѣ обыкновенно находятся въ то время, когда человѣкъ бываетъ занятъ полуумственнымъ, полупрактическимъ трудомъ, напримѣръ, когда мы читаемъ, не вникая въ смыслъ читаннаго, когда читаешь ноты, когда рисуешь, когда находишься на охотѣ и т. д. Различные странные образы — грустные и отрадные — измѣнялись одни другими. То представлялись ему отецъ и сынъ въ видѣ Негровъ, запряженныхъ въ тележку, на которой сидитъ плантаторъ необыкновенной толщины, такъ что никакія силы не могли
      <add n="n98">
-      <span id="2b489e34-3f35-4a8a-9aa7-0f6d229cf851" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="2b489e34-3f35-4a8a-9aa7-0f6d229cf851" rend="left">
        не
        <choice>
         <reg>
@@ -54809,11 +54854,14 @@
       </orig>
      </choice>
      «enfant de bonne maison»;
-     <ref target="#note99">99</ref><note xml:id="note99" index="false">
-      <span id="fddbac67-9c70-4974-80e4-30ab8d1fe639" rend="left" data-class="paragraph">
-        [ребенок из хорошей семьи;]
-       </span>
-      </note>
+     <ref target="#note99">
+      99
+     </ref>
+     <note index="false" xml:id="note99">
+      <span data-class="paragraph" id="fddbac67-9c70-4974-80e4-30ab8d1fe639" rend="left">
+       [ребенок из хорошей семьи;]
+      </span>
+     </note>
      <hi rend="italic">
       одному
      </hi>

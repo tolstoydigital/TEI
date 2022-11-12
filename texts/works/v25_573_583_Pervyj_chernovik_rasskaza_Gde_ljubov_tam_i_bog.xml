@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v25_573_583_Pervyj_chernovik_rasskaza_Gde_ljubov_tam_i_bog">
-                    [Первый черновик рассказа «Где любовь, там и бог»]. Tolstoy Digital
-                </title>
-                <title type="main">Где любовь, там и бог.</title>
-                <title type="sub">Первый черновик рассказа</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="76b577fe-d815-4af7-a4fe-1910534268e3">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Первый черновик рассказа «Где любовь, там и бог»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 25
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1937"/>
-                        </imprint>
-                        <biblScope unit="volume">25</biblScope>
-                        <biblScope unit="page">573-583</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1885"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v25_573_583_Pervyj_chernovik_rasskaza_Gde_ljubov_tam_i_bog">
+     [Первый черновик рассказа «Где любовь, там и бог»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Где любовь, там и бог.
+    </title>
+    <title type="sub">
+     Первый черновик рассказа
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="76b577fe-d815-4af7-a4fe-1910534268e3">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Первый черновик рассказа «Где любовь, там и бог»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 25
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       25
+      </biblScope>
+      <biblScope unit="page">
+       573-583
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1885"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref50">
     <p id="f49e6532-c160-460d-a9bd-4011c65bbc28">
@@ -126,64 +138,67 @@
      .
     </p>
     <p id="57078369-005b-4e1b-8c04-14eaa45a4480" rend="left">
-     <ref target="#note96">96</ref><note xml:id="note96" index="false">
-      <span id="34f5116e-1f7e-43fa-ac9e-c280cf28494b" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Зачеркнуто печатное начало:
-        </hi>
-        Знавали ли вы дядю Мартына,
-        <choice>
-         <reg>
-          старого
-         </reg>
-         <orig>
-          стараго
-         </orig>
-        </choice>
-        башмачника,
-        <choice>
-         <reg>
-          более
-         </reg>
-         <orig>
-          болѣе
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          известного
-         </reg>
-         <orig>
-          извѣстнаго
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          под
-         </reg>
-         <orig>
-          подъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          названием
-         </reg>
-         <orig>
-          названiемъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          Авдеича
-         </reg>
-         <orig>
-          Авдѣича
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note96">
+      96
+     </ref>
+     <note index="false" xml:id="note96">
+      <span data-class="paragraph" id="34f5116e-1f7e-43fa-ac9e-c280cf28494b" rend="left">
+       <hi rend="italic">
+        Зачеркнуто печатное начало:
+       </hi>
+       Знавали ли вы дядю Мартына,
+       <choice>
+        <reg>
+         старого
+        </reg>
+        <orig>
+         стараго
+        </orig>
+       </choice>
+       башмачника,
+       <choice>
+        <reg>
+         более
+        </reg>
+        <orig>
+         болѣе
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         известного
+        </reg>
+        <orig>
+         извѣстнаго
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         под
+        </reg>
+        <orig>
+         подъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         названием
+        </reg>
+        <orig>
+         названiемъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Авдеича
+        </reg>
+        <orig>
+         Авдѣича
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      <choice>
       <reg>
        Жил
@@ -299,28 +314,31 @@
       </orig>
      </choice>
      большого города.
-     <ref target="#note97">97</ref><note xml:id="note97" index="false">
-      <span id="49b6f98c-c55f-47db-a635-86b22055eba7" rend="left" data-class="paragraph">
-        Коморка, служившая ему спальней,
-        <choice>
-         <reg>
-          приемной
-         </reg>
-         <orig>
-          прiемной
-         </orig>
-        </choice>
-        , мастерской и кухней, выглядывала,
-        <choice>
-         <reg>
-          впрочем
-         </reg>
-         <orig>
-          впрочемъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note97">
+      97
+     </ref>
+     <note index="false" xml:id="note97">
+      <span data-class="paragraph" id="49b6f98c-c55f-47db-a635-86b22055eba7" rend="left">
+       Коморка, служившая ему спальней,
+       <choice>
+        <reg>
+         приемной
+        </reg>
+        <orig>
+         прiемной
+        </orig>
+       </choice>
+       , мастерской и кухней, выглядывала,
+       <choice>
+        <reg>
+         впрочем
+        </reg>
+        <orig>
+         впрочемъ
+        </orig>
+       </choice>
+      </span>
+     </note>
     </p>
     <p id="82f32780-3262-421b-8828-58d8ee404a6f" rend="left">
      Горенка дяди Мартына выходила на улицу,
@@ -349,11 +367,14 @@
        могъ
       </orig>
      </choice>
-     <ref target="#note98">98</ref><note xml:id="note98" index="false">
-      <span id="dc158e00-5705-42ec-9800-d2ba1a7160f8" rend="left" data-class="paragraph">
-        : свободно
-       </span>
-      </note>
+     <ref target="#note98">
+      98
+     </ref>
+     <note index="false" xml:id="note98">
+      <span data-class="paragraph" id="dc158e00-5705-42ec-9800-d2ba1a7160f8" rend="left">
+       : свободно
+      </span>
+     </note>
      наблюдать за прохожими, главное, изучать
      <choice>
       <reg>
@@ -447,18 +468,21 @@
       </orig>
      </choice>
      , а все таки каждая пара
-     <ref target="#note99">99</ref><note xml:id="note99" index="false">
-      <span id="90d6bb13-79a4-476c-bd99-98c7ad634896" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          башмаком
-         </reg>
-         <orig>
-          башмакомъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note99">
+      99
+     </ref>
+     <note index="false" xml:id="note99">
+      <span data-class="paragraph" id="90d6bb13-79a4-476c-bd99-98c7ad634896" rend="left">
+       <choice>
+        <reg>
+         башмаком
+        </reg>
+        <orig>
+         башмакомъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        сапог
@@ -571,11 +595,14 @@
        былъ
       </orig>
      </choice>
-     <ref target="#note100">100</ref><note xml:id="note100" index="false">
-      <span id="89a6278e-00e2-4a94-986a-cb967ef52b61" rend="left" data-class="paragraph">
-        важный
-       </span>
-      </note>
+     <ref target="#note100">
+      100
+     </ref>
+     <note index="false" xml:id="note100">
+      <span data-class="paragraph" id="89a6278e-00e2-4a94-986a-cb967ef52b61" rend="left">
+       важный
+      </span>
+     </note>
      <choice>
       <reg>
        сапожник
@@ -594,27 +621,30 @@
       </orig>
      </choice>
      всякую щегольскую обувь, но старость пришла,
-     <ref target="#note101">101</ref><note xml:id="note101" index="false">
-      <span id="346b4cab-2f35-4ffa-9118-683137b8bdf3" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          зрение
-         </reg>
-         <orig>
-          зрѣнiе
-         </orig>
-        </choice>
-        стало
-        <choice>
-         <reg>
-          слабеть
-         </reg>
-         <orig>
-          слабѣть
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note101">
+      101
+     </ref>
+     <note index="false" xml:id="note101">
+      <span data-class="paragraph" id="346b4cab-2f35-4ffa-9118-683137b8bdf3" rend="left">
+       <choice>
+        <reg>
+         зрение
+        </reg>
+        <orig>
+         зрѣнiе
+        </orig>
+       </choice>
+       стало
+       <choice>
+        <reg>
+         слабеть
+        </reg>
+        <orig>
+         слабѣть
+        </orig>
+       </choice>
+      </span>
+     </note>
      глаза
      <choice>
       <reg>
@@ -667,33 +697,39 @@
        можетъ
       </orig>
      </choice>
-     <ref target="#note102">102</ref><note xml:id="note102" index="false">
-      <span id="d87454d6-171c-4142-b07a-a6d23ced4766" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        искусно и прочно накладывать;
-       </span>
-      </note>
+     <ref target="#note102">
+      102
+     </ref>
+     <note index="false" xml:id="note102">
+      <span data-class="paragraph" id="d87454d6-171c-4142-b07a-a6d23ced4766" rend="left">
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       искусно и прочно накладывать;
+      </span>
+     </note>
      на чужую работу ставить латки и заплаты.
-     <ref target="#note103">103</ref><note xml:id="note103" index="false">
-      <span id="15baa16c-3de7-495f-80b1-cf44444766ca" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        чужому труду. Зато
-       </span>
-      </note>
+     <ref target="#note103">
+      103
+     </ref>
+     <note index="false" xml:id="note103">
+      <span data-class="paragraph" id="15baa16c-3de7-495f-80b1-cf44444766ca" rend="left">
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       чужому труду. Зато
+      </span>
+     </note>
      <choice>
       <reg>
        Закащиков
@@ -802,26 +838,32 @@
       </orig>
      </choice>
      , говорили
-     <ref target="#note104">104</ref><note xml:id="note104" index="false">
-      <span id="743603a9-aece-4674-9e1e-8fb41cc1d0ea" rend="left" data-class="paragraph">
-        твердили
-       </span>
-      </note>
+     <ref target="#note104">
+      104
+     </ref>
+     <note index="false" xml:id="note104">
+      <span data-class="paragraph" id="743603a9-aece-4674-9e1e-8fb41cc1d0ea" rend="left">
+       твердили
+      </span>
+     </note>
      онѣ, его подошвы не скоро изобьешь, и по шву ни зачто не распорется, какъ у другихъ безсовѣстныхъ».
-     <ref target="#note105">105</ref><note xml:id="note105" index="false">
-      <span id="a17b0d00-28d5-4d19-a979-24514ce28125" rend="left" data-class="paragraph">
-        и гвоздь
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        ногу не вопьется
-       </span>
-      </note>
+     <ref target="#note105">
+      105
+     </ref>
+     <note index="false" xml:id="note105">
+      <span data-class="paragraph" id="a17b0d00-28d5-4d19-a979-24514ce28125" rend="left">
+       и гвоздь
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       ногу не вопьется
+      </span>
+     </note>
     </p>
     <p id="a4ec33af-d4ff-47da-af1a-bb8bdcdc9b22" rend="left">
      <pb n="574"/>
@@ -870,11 +912,14 @@
        всемъ
       </orig>
      </choice>
-     <ref target="#note106">106</ref><note xml:id="note106" index="false">
-      <span id="ac0ff861-4771-4b06-a365-9ab2b6d527be" rend="left" data-class="paragraph">
-        окрестности
-       </span>
-      </note>
+     <ref target="#note106">
+      106
+     </ref>
+     <note index="false" xml:id="note106">
+      <span data-class="paragraph" id="ac0ff861-4771-4b06-a365-9ab2b6d527be" rend="left">
+       окрестности
+      </span>
+     </note>
      <choice>
       <reg>
        околодке
@@ -956,19 +1001,22 @@
       </orig>
      </choice>
      всегда
-     <ref target="#note107">107</ref><note xml:id="note107" index="false">
-      <span id="4502a2b2-b554-4fe7-bdc0-00d27d379715" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          был
-         </reg>
-         <orig>
-          былъ
-         </orig>
-        </choice>
-        набожный
-       </span>
-      </note>
+     <ref target="#note107">
+      107
+     </ref>
+     <note index="false" xml:id="note107">
+      <span data-class="paragraph" id="4502a2b2-b554-4fe7-bdc0-00d27d379715" rend="left">
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       набожный
+      </span>
+     </note>
      <choice>
       <reg>
        любил
@@ -1064,11 +1112,14 @@
       </orig>
      </choice>
      это случилось.
-     <ref target="#note108">108</ref><note xml:id="note108" index="false">
-      <span id="a77d4aab-8f96-415f-b4f4-fa483f880bd4" rend="left" data-class="paragraph">
-        Давно уже
-       </span>
-      </note>
+     <ref target="#note108">
+      108
+     </ref>
+     <note index="false" xml:id="note108">
+      <span data-class="paragraph" id="a77d4aab-8f96-415f-b4f4-fa483f880bd4" rend="left">
+       Давно уже
+      </span>
+     </note>
     </p>
     <p id="777c32b2-58dc-4c4f-b7ed-5208d273c23b" rend="left">
      <choice>
@@ -1105,129 +1156,135 @@
       </orig>
      </choice>
      жену.
-     <ref target="#note109">109</ref><note xml:id="note109" index="false">
-      <span id="95f664e3-a407-48d9-9e28-7e7969816f94" rend="left" data-class="paragraph">
-        но она оставила ему
-        <choice>
-         <reg>
-          после
-         </reg>
-         <orig>
-          послѣ
-         </orig>
-        </choice>
-        себя сокровище
-        <choice>
-         <reg>
-          трехлетнюю
-         </reg>
-         <orig>
-          трехлѣтнюю
-         </orig>
-        </choice>
-        малютку, которая
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        ясное солнышко,
-        <choice>
-         <reg>
-          согревала
-         </reg>
-         <orig>
-          согрѣвала
-         </orig>
-        </choice>
-        ему душу.
-        <choice>
-         <reg>
-          Потешила
-         </reg>
-         <orig>
-          Потѣшила
-         </orig>
-        </choice>
-        она его
-        <choice>
-         <reg>
-          несколько
-         </reg>
-         <orig>
-          нѣсколько
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          годков
-         </reg>
-         <orig>
-          годковъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note109">
+      109
+     </ref>
+     <note index="false" xml:id="note109">
+      <span data-class="paragraph" id="95f664e3-a407-48d9-9e28-7e7969816f94" rend="left">
+       но она оставила ему
+       <choice>
+        <reg>
+         после
+        </reg>
+        <orig>
+         послѣ
+        </orig>
+       </choice>
+       себя сокровище
+       <choice>
+        <reg>
+         трехлетнюю
+        </reg>
+        <orig>
+         трехлѣтнюю
+        </orig>
+       </choice>
+       малютку, которая
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       ясное солнышко,
+       <choice>
+        <reg>
+         согревала
+        </reg>
+        <orig>
+         согрѣвала
+        </orig>
+       </choice>
+       ему душу.
+       <choice>
+        <reg>
+         Потешила
+        </reg>
+        <orig>
+         Потѣшила
+        </orig>
+       </choice>
+       она его
+       <choice>
+        <reg>
+         несколько
+        </reg>
+        <orig>
+         нѣсколько
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         годков
+        </reg>
+        <orig>
+         годковъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      Осталась послѣ нея трехлѣтняя дѣвочка и Мартынъ сталъ ей замѣсто матери. Но не пожила и дѣвочка. Подросла, стала все понимать, обо всемъ съ нимъ толковать, а тамъ и ее Богъ
-     <ref target="#note110">110</ref><note xml:id="note110" index="false">
-      <span id="e2eda12c-a1b6-4eac-95a0-70708061609f" rend="left" data-class="paragraph">
-        и
-        <choice>
-         <reg>
-          взял
-         </reg>
-         <orig>
-          взялъ
-         </orig>
-        </choice>
-        .
-        <choice>
-         <reg>
-          Уж
-         </reg>
-         <orig>
-          Ужъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          горевал
-         </reg>
-         <orig>
-          горевалъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          отец
-         </reg>
-         <orig>
-          отецъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        показать нельзя. «Все пропало»
-       </span>
-      </note>
+     <ref target="#note110">
+      110
+     </ref>
+     <note index="false" xml:id="note110">
+      <span data-class="paragraph" id="e2eda12c-a1b6-4eac-95a0-70708061609f" rend="left">
+       и
+       <choice>
+        <reg>
+         взял
+        </reg>
+        <orig>
+         взялъ
+        </orig>
+       </choice>
+       .
+       <choice>
+        <reg>
+         Уж
+        </reg>
+        <orig>
+         Ужъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         горевал
+        </reg>
+        <orig>
+         горевалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         отец
+        </reg>
+        <orig>
+         отецъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       показать нельзя. «Все пропало»
+      </span>
+     </note>
      <choice>
       <reg>
        прибрал
@@ -1237,37 +1294,40 @@
       </orig>
      </choice>
      . И грустно стало Мартыну. Жить больше не
-     <ref target="#note111">111</ref><note xml:id="note111" index="false">
-      <span id="575d0ca0-98dd-4896-92f6-a465d6c7875c" rend="left" data-class="paragraph">
-        для кого»,
-        <choice>
-         <reg>
-          твердил
-         </reg>
-         <orig>
-          твердилъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          оплакивал
-         </reg>
-         <orig>
-          оплакивалъ
-         </orig>
-        </choice>
-        свою малютку день и ночь.
-       </span>
-      </note>
+     <ref target="#note111">
+      111
+     </ref>
+     <note index="false" xml:id="note111">
+      <span data-class="paragraph" id="575d0ca0-98dd-4896-92f6-a465d6c7875c" rend="left">
+       для кого»,
+       <choice>
+        <reg>
+         твердил
+        </reg>
+        <orig>
+         твердилъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         оплакивал
+        </reg>
+        <orig>
+         оплакивалъ
+        </orig>
+       </choice>
+       свою малютку день и ночь.
+      </span>
+     </note>
      <choice>
       <reg>
        зачем
@@ -1336,11 +1396,14 @@
        сосѣднiй
       </orig>
      </choice>
-     <ref target="#note112">112</ref><note xml:id="note112" index="false">
-      <span id="4a42fc58-4525-49aa-98b0-a9749dc983f2" rend="left" data-class="paragraph">
-        батюшка
-       </span>
-      </note>
+     <ref target="#note112">
+      112
+     </ref>
+     <note index="false" xml:id="note112">
+      <span data-class="paragraph" id="4a42fc58-4525-49aa-98b0-a9749dc983f2" rend="left">
+       батюшка
+      </span>
+     </note>
      <choice>
       <reg>
        священник
@@ -1400,11 +1463,14 @@
        сталъ
       </orig>
      </choice>
-     <ref target="#note113">113</ref><note xml:id="note113" index="false">
-      <span id="2391157d-a3ad-4073-959d-481d494fd6ec" rend="left" data-class="paragraph">
-        твердить: «Все пропало».
-       </span>
-      </note>
+     <ref target="#note113">
+      113
+     </ref>
+     <note index="false" xml:id="note113">
+      <span data-class="paragraph" id="2391157d-a3ad-4073-959d-481d494fd6ec" rend="left">
+       твердить: «Все пропало».
+      </span>
+     </note>
      говорить: «Жить больше не
      <choice>
       <reg>
@@ -1525,11 +1591,14 @@
        Тамъ
       </orig>
      </choice>
-     <ref target="#note114">114</ref><note xml:id="note114" index="false">
-      <span id="e4cfa280-cde9-4b68-b90e-647e69493250" rend="left" data-class="paragraph">
-        для тебя и другое сокровище это
-       </span>
-      </note>
+     <ref target="#note114">
+      114
+     </ref>
+     <note index="false" xml:id="note114">
+      <span data-class="paragraph" id="e4cfa280-cde9-4b68-b90e-647e69493250" rend="left">
+       для тебя и другое сокровище это
+      </span>
+     </note>
      и жена твоя и
      <choice>
       <reg>
@@ -1576,11 +1645,14 @@
        Авдѣичъ
       </orig>
      </choice>
-     <ref target="#note115">115</ref><note xml:id="note115" index="false">
-      <span id="37165435-b9ce-4c60-bde3-81fb199eede8" rend="left" data-class="paragraph">
-        грустно
-       </span>
-      </note>
+     <ref target="#note115">
+      115
+     </ref>
+     <note index="false" xml:id="note115">
+      <span data-class="paragraph" id="37165435-b9ce-4c60-bde3-81fb199eede8" rend="left">
+       грустно
+      </span>
+     </note>
      ничего не
      <choice>
       <reg>
@@ -1609,21 +1681,24 @@
       </orig>
      </choice>
      души все таки
-     <ref target="#note116">116</ref><note xml:id="note116" index="false">
-      <span id="70e5849e-96a0-4c3d-9c2b-0192dcfa6092" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В рукописи добавлено ошибочно:
-        </hi>
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note116">
+      116
+     </ref>
+     <note index="false" xml:id="note116">
+      <span data-class="paragraph" id="70e5849e-96a0-4c3d-9c2b-0192dcfa6092" rend="left">
+       <hi rend="italic">
+        В рукописи добавлено ошибочно:
+       </hi>
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        как будто
@@ -1785,18 +1860,21 @@
        Мартынъ
       </orig>
      </choice>
-     <ref target="#note117">117</ref><note xml:id="note117" index="false">
-      <span id="23a267b1-7db6-4a78-8e53-b30ec4d85a33" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          добыл
-         </reg>
-         <orig>
-          добылъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note117">
+      117
+     </ref>
+     <note index="false" xml:id="note117">
+      <span data-class="paragraph" id="23a267b1-7db6-4a78-8e53-b30ec4d85a33" rend="left">
+       <choice>
+        <reg>
+         добыл
+        </reg>
+        <orig>
+         добылъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        Евангелие
@@ -1877,11 +1955,14 @@
        поднялъ
       </orig>
      </choice>
-     <ref target="#note118">118</ref><note xml:id="note118" index="false">
-      <span id="8eb4439e-484c-4d2c-9ffb-71d7b8f6694c" rend="left" data-class="paragraph">
-        поникшую
-       </span>
-      </note>
+     <ref target="#note118">
+      118
+     </ref>
+     <note index="false" xml:id="note118">
+      <span data-class="paragraph" id="8eb4439e-484c-4d2c-9ffb-71d7b8f6694c" rend="left">
+       поникшую
+      </span>
+     </note>
      голову и
      <choice>
       <reg>
@@ -2098,11 +2179,14 @@
       </orig>
      </choice>
      . него.
-     <ref target="#note119">119</ref><note xml:id="note119" index="false">
-      <span id="1de5c83e-3119-4e5a-b4dc-b073055a7e11" rend="left" data-class="paragraph">
-        Доносятся до него
-       </span>
-      </note>
+     <ref target="#note119">
+      119
+     </ref>
+     <note index="false" xml:id="note119">
+      <span data-class="paragraph" id="1de5c83e-3119-4e5a-b4dc-b073055a7e11" rend="left">
+       Доносятся до него
+      </span>
+     </note>
      <choice>
       <reg>
        Слышит
@@ -2137,19 +2221,22 @@
       </orig>
      </choice>
      время
-     <ref target="#note120">120</ref><note xml:id="note120" index="false">
-      <span id="e7e30464-e008-486e-a0f5-20ca9a2719e7" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          из
-         </reg>
-         <orig>
-          изъ
-         </orig>
-        </choice>
-        трактира
-       </span>
-      </note>
+     <ref target="#note120">
+      120
+     </ref>
+     <note index="false" xml:id="note120">
+      <span data-class="paragraph" id="e7e30464-e008-486e-a0f5-20ca9a2719e7" rend="left">
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       трактира
+      </span>
+     </note>
      <choice>
       <reg>
        как
@@ -2183,35 +2270,38 @@
       </orig>
      </choice>
      хриплые голоса,
-     <ref target="#note121">121</ref><note xml:id="note121" index="false">
-      <span id="e52e3f60-a8d5-4595-aa17-695b15b7abbc" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          громкия
-         </reg>
-         <orig>
-          громкiя
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          шумные
-         </reg>
-         <orig>
-          шумныя
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          речи
-         </reg>
-         <orig>
-          рѣчи
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note121">
+      121
+     </ref>
+     <note index="false" xml:id="note121">
+      <span data-class="paragraph" id="e52e3f60-a8d5-4595-aa17-695b15b7abbc" rend="left">
+       <choice>
+        <reg>
+         громкия
+        </reg>
+        <orig>
+         громкiя
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         шумные
+        </reg>
+        <orig>
+         шумныя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         речи
+        </reg>
+        <orig>
+         рѣчи
+        </orig>
+       </choice>
+      </span>
+     </note>
      а
      <choice>
       <reg>
@@ -2349,27 +2439,30 @@
       </orig>
      </choice>
      улыбка.
-     <ref target="#note122">122</ref><note xml:id="note122" index="false">
-      <span id="68d5755c-f7d9-4cf0-8812-469b87af807e" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          Был
-         </reg>
-         <orig>
-          Былъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          канун
-         </reg>
-         <orig>
-          канунъ
-         </orig>
-        </choice>
-        Рождества Христова
-       </span>
-      </note>
+     <ref target="#note122">
+      122
+     </ref>
+     <note index="false" xml:id="note122">
+      <span data-class="paragraph" id="68d5755c-f7d9-4cf0-8812-469b87af807e" rend="left">
+       <choice>
+        <reg>
+         Был
+        </reg>
+        <orig>
+         Былъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         канун
+        </reg>
+        <orig>
+         канунъ
+        </orig>
+       </choice>
+       Рождества Христова
+      </span>
+     </note>
     </p>
     <p id="45c9c325-caae-4657-80a2-ac33e7fe56f8" rend="left">
      Случилось
@@ -2399,54 +2492,63 @@
        дворѣ
       </orig>
      </choice>
-     <ref target="#note123">123</ref><note xml:id="note123" index="false">
-      <span id="67b5f137-251d-498f-a494-f89febdce39d" rend="left" data-class="paragraph">
-        стояла
-       </span>
-      </note>
+     <ref target="#note123">
+      123
+     </ref>
+     <note index="false" xml:id="note123">
+      <span data-class="paragraph" id="67b5f137-251d-498f-a494-f89febdce39d" rend="left">
+       стояла
+      </span>
+     </note>
      была мятель,
-     <ref target="#note124">124</ref><note xml:id="note124" index="false">
-      <span id="628a9751-481a-473b-9d5a-a9218bd6fde6" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          страшным
-         </reg>
-         <orig>
-          страшнымъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          холодным
-         </reg>
-         <orig>
-          холоднымъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          ветром
-         </reg>
-         <orig>
-          вѣтромъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note124">
+      124
+     </ref>
+     <note index="false" xml:id="note124">
+      <span data-class="paragraph" id="628a9751-481a-473b-9d5a-a9218bd6fde6" rend="left">
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         страшным
+        </reg>
+        <orig>
+         страшнымъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         холодным
+        </reg>
+        <orig>
+         холоднымъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ветром
+        </reg>
+        <orig>
+         вѣтромъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      но у
-     <ref target="#note125">125</ref><note xml:id="note125" index="false">
-      <span id="9d58f63e-892a-48b7-a282-b891a12eaa3c" rend="left" data-class="paragraph">
-        нашего башмачника
-       </span>
-      </note>
+     <ref target="#note125">
+      125
+     </ref>
+     <note index="false" xml:id="note125">
+      <span data-class="paragraph" id="9d58f63e-892a-48b7-a282-b891a12eaa3c" rend="left">
+       нашего башмачника
+      </span>
+     </note>
      Мартына было тепло. Жарко истопленная печь еще не остыла.
      <choice>
       <reg>
@@ -2656,29 +2758,32 @@
       </orig>
      </choice>
      .
-     <ref target="#note126">126</ref><note xml:id="note126" index="false">
-      <span id="7641c6c0-f56a-4dad-b4dc-8d896fc00407" rend="left" data-class="paragraph">
-        коморка хоть и
-        <choice>
-         <reg>
-          бедная
-         </reg>
-         <orig>
-          бѣдная
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          тесная
-         </reg>
-         <orig>
-          тѣсная
-         </orig>
-        </choice>
-        , но чисто прибрана, и показалась ему очень приглядной
-       </span>
-      </note>
+     <ref target="#note126">
+      126
+     </ref>
+     <note index="false" xml:id="note126">
+      <span data-class="paragraph" id="7641c6c0-f56a-4dad-b4dc-8d896fc00407" rend="left">
+       коморка хоть и
+       <choice>
+        <reg>
+         бедная
+        </reg>
+        <orig>
+         бѣдная
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         тесная
+        </reg>
+        <orig>
+         тѣсная
+        </orig>
+       </choice>
+       , но чисто прибрана, и показалась ему очень приглядной
+      </span>
+     </note>
      «
      <choice>
       <reg>
@@ -2724,11 +2829,14 @@
       </orig>
      </choice>
      ,
-     <ref target="#note127">127</ref><note xml:id="note127" index="false">
-      <span id="6b49972a-3cd0-4516-8c63-c13a9dda8c8a" rend="left" data-class="paragraph">
-        всю бы комнату
-       </span>
-      </note>
+     <ref target="#note127">
+      127
+     </ref>
+     <note index="false" xml:id="note127">
+      <span data-class="paragraph" id="6b49972a-3cd0-4516-8c63-c13a9dda8c8a" rend="left">
+       всю бы комнату
+      </span>
+     </note>
      весь бы
      <choice>
       <reg>
@@ -3010,19 +3118,22 @@
        Авдѣичъ
       </orig>
      </choice>
-     <ref target="#note128">128</ref><note xml:id="note128" index="false">
-      <span id="2dfd2dac-8907-4b3d-93c9-12a83cf44647" rend="left" data-class="paragraph">
-        увлеченный своими
-        <choice>
-         <reg>
-          размышлениями
-         </reg>
-         <orig>
-          размышленiями
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note128">
+      128
+     </ref>
+     <note index="false" xml:id="note128">
+      <span data-class="paragraph" id="2dfd2dac-8907-4b3d-93c9-12a83cf44647" rend="left">
+       увлеченный своими
+       <choice>
+        <reg>
+         размышлениями
+        </reg>
+        <orig>
+         размышленiями
+        </orig>
+       </choice>
+      </span>
+     </note>
      потянулся
      <choice>
       <reg>
@@ -3067,11 +3178,14 @@
        въ
       </orig>
      </choice>
-     <ref target="#note129">129</ref><note xml:id="note129" index="false">
-      <span id="1cd0c691-34b8-4e69-b96f-032d20241af1" rend="left" data-class="paragraph">
-        тонкую;
-       </span>
-      </note>
+     <ref target="#note129">
+      129
+     </ref>
+     <note index="false" xml:id="note129">
+      <span data-class="paragraph" id="1cd0c691-34b8-4e69-b96f-032d20241af1" rend="left">
+       тонкую;
+      </span>
+     </note>
      бумагу, лежали два крошечные,
      <choice>
       <reg>
@@ -3090,11 +3204,14 @@
        мягкаго
       </orig>
      </choice>
-     <ref target="#note130">130</ref><note xml:id="note130" index="false">
-      <span id="2544ea46-a187-4977-b2cc-07b59332f47e" rend="left" data-class="paragraph">
-        мягкой лайковой кожи;
-       </span>
-      </note>
+     <ref target="#note130">
+      130
+     </ref>
+     <note index="false" xml:id="note130">
+      <span data-class="paragraph" id="2544ea46-a187-4977-b2cc-07b59332f47e" rend="left">
+       мягкой лайковой кожи;
+      </span>
+     </note>
      опойка. «
      <choice>
       <reg>
@@ -3303,150 +3420,153 @@
     <p id="a1dc977d-6358-48d4-a67b-9db979781d0b" rend="left">
      <pb n="576"/>
      И
-     <ref target="#note131">131</ref><note xml:id="note131" index="false">
-      <span id="0dd88c1c-0f82-42a4-83c6-e95378103c77" rend="left" data-class="paragraph">
-        углубился
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        свое ветхое, поношенное кресло и
-        <choice>
-         <reg>
-          закрыл
-         </reg>
-         <orig>
-          закрылъ
-         </orig>
-        </choice>
-        глаза. На
-        <choice>
-         <reg>
-          улицах
-         </reg>
-         <orig>
-          улицахъ
-         </orig>
-        </choice>
-        , даже и
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          глухом
-         </reg>
-         <orig>
-          глухомъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          переулке
-         </reg>
-         <orig>
-          переулкѣ
-         </orig>
-        </choice>
-        , было людно и шумно, каждый
-        <choice>
-         <reg>
-          спешил
-         </reg>
-         <orig>
-          спѣшилъ
-         </orig>
-        </choice>
-        туда и сюда, кто
-        <choice>
-         <reg>
-          из
-         </reg>
-         <orig>
-          изъ
-         </orig>
-        </choice>
-        церкви, кто
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        покупками, кто
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          родным
-         </reg>
-         <orig>
-          роднымъ
-         </orig>
-        </choice>
-        на ёлку, а дядя
-        <choice>
-         <reg>
-          Мартын
-         </reg>
-         <orig>
-          Мартынъ
-         </orig>
-        </choice>
-        не трогался
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          места
-         </reg>
-         <orig>
-          мѣста
-         </orig>
-        </choice>
-        —
-        <choice>
-         <reg>
-          задремал
-         </reg>
-         <orig>
-          задремалъ
-         </orig>
-        </choice>
-        , должно быть
-        <choice>
-         <reg>
-          старик
-         </reg>
-         <orig>
-          старикъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note131">
+      131
+     </ref>
+     <note index="false" xml:id="note131">
+      <span data-class="paragraph" id="0dd88c1c-0f82-42a4-83c6-e95378103c77" rend="left">
+       углубился
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       свое ветхое, поношенное кресло и
+       <choice>
+        <reg>
+         закрыл
+        </reg>
+        <orig>
+         закрылъ
+        </orig>
+       </choice>
+       глаза. На
+       <choice>
+        <reg>
+         улицах
+        </reg>
+        <orig>
+         улицахъ
+        </orig>
+       </choice>
+       , даже и
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         глухом
+        </reg>
+        <orig>
+         глухомъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         переулке
+        </reg>
+        <orig>
+         переулкѣ
+        </orig>
+       </choice>
+       , было людно и шумно, каждый
+       <choice>
+        <reg>
+         спешил
+        </reg>
+        <orig>
+         спѣшилъ
+        </orig>
+       </choice>
+       туда и сюда, кто
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       церкви, кто
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       покупками, кто
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         родным
+        </reg>
+        <orig>
+         роднымъ
+        </orig>
+       </choice>
+       на ёлку, а дядя
+       <choice>
+        <reg>
+         Мартын
+        </reg>
+        <orig>
+         Мартынъ
+        </orig>
+       </choice>
+       не трогался
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         места
+        </reg>
+        <orig>
+         мѣста
+        </orig>
+       </choice>
+       —
+       <choice>
+        <reg>
+         задремал
+        </reg>
+        <orig>
+         задремалъ
+        </orig>
+       </choice>
+       , должно быть
+       <choice>
+        <reg>
+         старик
+        </reg>
+        <orig>
+         старикъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      раздумывая
      <choice>
       <reg>
@@ -3504,11 +3624,14 @@
       </orig>
      </choice>
      около него
-     <ref target="#note132">132</ref><note xml:id="note132" index="false">
-      <span id="f07d4788-c71d-436b-8d82-69eac47add41" rend="left" data-class="paragraph">
-        мягкий
-       </span>
-      </note>
+     <ref target="#note132">
+      132
+     </ref>
+     <note index="false" xml:id="note132">
+      <span data-class="paragraph" id="f07d4788-c71d-436b-8d82-69eac47add41" rend="left">
+       мягкий
+      </span>
+     </note>
      <choice>
       <reg>
        тихий
@@ -3562,18 +3685,21 @@
        просонокъ
       </orig>
      </choice>
-     <ref target="#note133">133</ref><note xml:id="note133" index="false">
-      <span id="416f9a41-e94e-4ef6-b938-50ef3389333d" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          башмачник
-         </reg>
-         <orig>
-          башмачникъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note133">
+      133
+     </ref>
+     <note index="false" xml:id="note133">
+      <span data-class="paragraph" id="416f9a41-e94e-4ef6-b938-50ef3389333d" rend="left">
+       <choice>
+        <reg>
+         башмачник
+        </reg>
+        <orig>
+         башмачникъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        Мартын
@@ -3725,34 +3851,37 @@
        Мартынъ
       </orig>
      </choice>
-     <ref target="#note134">134</ref><note xml:id="note134" index="false">
-      <span id="80a6ac34-6395-4441-8a88-d5cdb1d4ce1d" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          трепетном
-         </reg>
-         <orig>
-          трепетномъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          удивлении
-         </reg>
-         <orig>
-          удивленiи
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note134">
+      134
+     </ref>
+     <note index="false" xml:id="note134">
+      <span data-class="paragraph" id="80a6ac34-6395-4441-8a88-d5cdb1d4ce1d" rend="left">
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         трепетном
+        </reg>
+        <orig>
+         трепетномъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         удивлении
+        </reg>
+        <orig>
+         удивленiи
+        </orig>
+       </choice>
+      </span>
+     </note>
      <hi rend="sup"/>
      <choice>
       <reg>
@@ -3788,11 +3917,14 @@
        комнатѣ
       </orig>
      </choice>
-     <ref target="#note135">135</ref><note xml:id="note135" index="false">
-      <span id="4c5e8b94-e1ee-4869-a10f-154ba2b98386" rend="left" data-class="paragraph">
-        было
-       </span>
-      </note>
+     <ref target="#note135">
+      135
+     </ref>
+     <note index="false" xml:id="note135">
+      <span data-class="paragraph" id="4c5e8b94-e1ee-4869-a10f-154ba2b98386" rend="left">
+       было
+      </span>
+     </note>
      стало темно.
     </p>
     <p id="ae259f31-66d0-4d96-94f1-fa3d0d698808" rend="left">
@@ -3914,73 +4046,76 @@
       </orig>
      </choice>
      печку, помолился Богу,
-     <ref target="#note136">136</ref><note xml:id="note136" index="false">
-      <span id="55ccfc95-b5c8-4dc1-a5ab-830ff4ee3a08" rend="left" data-class="paragraph">
-        напился чаю,
-        <choice>
-         <reg>
-          прибрал
-         </reg>
-         <orig>
-          прибралъ
-         </orig>
-        </choice>
-        комнату, а
-        <choice>
-         <reg>
-          сам
-         </reg>
-         <orig>
-          самъ
-         </orig>
-        </choice>
-        все
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        окошко
-        <choice>
-         <reg>
-          поглядывает
-         </reg>
-         <orig>
-          поглядываетъ
-         </orig>
-        </choice>
-        , поджидая
-        <choice>
-         <reg>
-          первых
-         </reg>
-         <orig>
-          первыхъ
-         </orig>
-        </choice>
-        лучей солнца и
-        <choice>
-         <reg>
-          ранних
-         </reg>
-         <orig>
-          раннихъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          прохожих
-         </reg>
-         <orig>
-          прохожихъ
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note136">
+      136
+     </ref>
+     <note index="false" xml:id="note136">
+      <span data-class="paragraph" id="55ccfc95-b5c8-4dc1-a5ab-830ff4ee3a08" rend="left">
+       напился чаю,
+       <choice>
+        <reg>
+         прибрал
+        </reg>
+        <orig>
+         прибралъ
+        </orig>
+       </choice>
+       комнату, а
+       <choice>
+        <reg>
+         сам
+        </reg>
+        <orig>
+         самъ
+        </orig>
+       </choice>
+       все
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       окошко
+       <choice>
+        <reg>
+         поглядывает
+        </reg>
+        <orig>
+         поглядываетъ
+        </orig>
+       </choice>
+       , поджидая
+       <choice>
+        <reg>
+         первых
+        </reg>
+        <orig>
+         первыхъ
+        </orig>
+       </choice>
+       лучей солнца и
+       <choice>
+        <reg>
+         ранних
+        </reg>
+        <orig>
+         раннихъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         прохожих
+        </reg>
+        <orig>
+         прохожихъ
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      <choice>
       <reg>
        поставил
@@ -4068,278 +4203,281 @@
       </orig>
      </choice>
      , старый престарый
-     <ref target="#note137">137</ref><note xml:id="note137" index="false">
-      <span id="fb9eb778-52e9-46aa-aa1b-d745f32cb935" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          дворник
-         </reg>
-         <orig>
-          дворникъ
-         </orig>
-        </choice>
-        , т. е. не
-        <choice>
-         <reg>
-          дворник
-         </reg>
-         <orig>
-          дворникъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        собственно, —
-        <choice>
-         <reg>
-          этим
-         </reg>
-         <orig>
-          этимъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          званием
-         </reg>
-         <orig>
-          званiемъ
-         </orig>
-        </choice>
-        его никто не
-        <choice>
-         <reg>
-          величал
-         </reg>
-         <orig>
-          величалъ
-         </orig>
-        </choice>
-        , — а просто
-        <choice>
-         <reg>
-          увечный
-         </reg>
-         <orig>
-          увѣчный
-         </orig>
-        </choice>
-        , ни начто почти неспособный
-        <choice>
-         <reg>
-          человек
-         </reg>
-         <orig>
-          человѣкъ
-         </orig>
-        </choice>
-        , который только и
-        <choice>
-         <reg>
-          мог
-         </reg>
-         <orig>
-          могъ
-         </orig>
-        </choice>
-        сгребать
-        <choice>
-         <reg>
-          снег
-         </reg>
-         <orig>
-          снѣгъ
-         </orig>
-        </choice>
-        или подметать улицу
-        <choice>
-         <reg>
-          перед
-         </reg>
-         <orig>
-          передъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          домом
-         </reg>
-         <orig>
-          домомъ
-         </orig>
-        </choice>
-        , да и то
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          грехом
-         </reg>
-         <orig>
-          грѣхомъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          пополам
-         </reg>
-         <orig>
-          пополамъ
-         </orig>
-        </choice>
-        . Пять или шесть
-        <choice>
-         <reg>
-          небогатых
-         </reg>
-         <orig>
-          небогатыхъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          домовладельцев
-         </reg>
-         <orig>
-          домовладѣльцевъ
-         </orig>
-        </choice>
-        , сложившись между собою, отвели ему за
-        <choice>
-         <reg>
-          этот
-         </reg>
-         <orig>
-          этотъ
-         </orig>
-        </choice>
-        посильный
-        <choice>
-         <reg>
-          труд
-         </reg>
-         <orig>
-          трудъ
-         </orig>
-        </choice>
-        конуру для жилья и платили ничтожное
-        <choice>
-         <reg>
-          вознаграждение
-         </reg>
-         <orig>
-          вознагражденiе
-         </orig>
-        </choice>
-        , едва достаточное, чтобы не умереть ему
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        голоду
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        хворой женой. Милостыню просить
-        <choice>
-         <reg>
-          Степаныч
-         </reg>
-         <orig>
-          Степанычъ
-         </orig>
-        </choice>
-        однако не
-        <choice>
-         <reg>
-          решался
-         </reg>
-         <orig>
-          рѣшался
-         </orig>
-        </choice>
-        , за что
-        <choice>
-         <reg>
-          нередко
-         </reg>
-         <orig>
-          нерѣдко
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          получал
-         </reg>
-         <orig>
-          получалъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          выговор
-         </reg>
-         <orig>
-          выговоръ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          от
-         </reg>
-         <orig>
-          отъ
-         </orig>
-        </choice>
-        жены; но
-        <choice>
-         <reg>
-          старик
-         </reg>
-         <orig>
-          старикъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          был
-         </reg>
-         <orig>
-          былъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          тихого
-         </reg>
-         <orig>
-          тихаго
-         </orig>
-        </choice>
-        нрава и на эти выговоры не обижался.
-       </span>
-      </note>
+     <ref target="#note137">
+      137
+     </ref>
+     <note index="false" xml:id="note137">
+      <span data-class="paragraph" id="fb9eb778-52e9-46aa-aa1b-d745f32cb935" rend="left">
+       <choice>
+        <reg>
+         дворник
+        </reg>
+        <orig>
+         дворникъ
+        </orig>
+       </choice>
+       , т. е. не
+       <choice>
+        <reg>
+         дворник
+        </reg>
+        <orig>
+         дворникъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       собственно, —
+       <choice>
+        <reg>
+         этим
+        </reg>
+        <orig>
+         этимъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         званием
+        </reg>
+        <orig>
+         званiемъ
+        </orig>
+       </choice>
+       его никто не
+       <choice>
+        <reg>
+         величал
+        </reg>
+        <orig>
+         величалъ
+        </orig>
+       </choice>
+       , — а просто
+       <choice>
+        <reg>
+         увечный
+        </reg>
+        <orig>
+         увѣчный
+        </orig>
+       </choice>
+       , ни начто почти неспособный
+       <choice>
+        <reg>
+         человек
+        </reg>
+        <orig>
+         человѣкъ
+        </orig>
+       </choice>
+       , который только и
+       <choice>
+        <reg>
+         мог
+        </reg>
+        <orig>
+         могъ
+        </orig>
+       </choice>
+       сгребать
+       <choice>
+        <reg>
+         снег
+        </reg>
+        <orig>
+         снѣгъ
+        </orig>
+       </choice>
+       или подметать улицу
+       <choice>
+        <reg>
+         перед
+        </reg>
+        <orig>
+         передъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         домом
+        </reg>
+        <orig>
+         домомъ
+        </orig>
+       </choice>
+       , да и то
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         грехом
+        </reg>
+        <orig>
+         грѣхомъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         пополам
+        </reg>
+        <orig>
+         пополамъ
+        </orig>
+       </choice>
+       . Пять или шесть
+       <choice>
+        <reg>
+         небогатых
+        </reg>
+        <orig>
+         небогатыхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         домовладельцев
+        </reg>
+        <orig>
+         домовладѣльцевъ
+        </orig>
+       </choice>
+       , сложившись между собою, отвели ему за
+       <choice>
+        <reg>
+         этот
+        </reg>
+        <orig>
+         этотъ
+        </orig>
+       </choice>
+       посильный
+       <choice>
+        <reg>
+         труд
+        </reg>
+        <orig>
+         трудъ
+        </orig>
+       </choice>
+       конуру для жилья и платили ничтожное
+       <choice>
+        <reg>
+         вознаграждение
+        </reg>
+        <orig>
+         вознагражденiе
+        </orig>
+       </choice>
+       , едва достаточное, чтобы не умереть ему
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       голоду
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       хворой женой. Милостыню просить
+       <choice>
+        <reg>
+         Степаныч
+        </reg>
+        <orig>
+         Степанычъ
+        </orig>
+       </choice>
+       однако не
+       <choice>
+        <reg>
+         решался
+        </reg>
+        <orig>
+         рѣшался
+        </orig>
+       </choice>
+       , за что
+       <choice>
+        <reg>
+         нередко
+        </reg>
+        <orig>
+         нерѣдко
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         получал
+        </reg>
+        <orig>
+         получалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         выговор
+        </reg>
+        <orig>
+         выговоръ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         от
+        </reg>
+        <orig>
+         отъ
+        </orig>
+       </choice>
+       жены; но
+       <choice>
+        <reg>
+         старик
+        </reg>
+        <orig>
+         старикъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         тихого
+        </reg>
+        <orig>
+         тихаго
+        </orig>
+       </choice>
+       нрава и на эти выговоры не обижался.
+      </span>
+     </note>
      <choice>
       <reg>
        старик
@@ -4402,82 +4540,85 @@
        Авдѣичъ
       </orig>
      </choice>
-     <ref target="#note138">138</ref><note xml:id="note138" index="false">
-      <span id="72e57c0c-5d93-40fe-8d12-4fcab3c185c4" rend="left" data-class="paragraph">
-        почти и не
-        <choice>
-         <reg>
-          взглянул
-         </reg>
-         <orig>
-          взглянулъ
-         </orig>
-        </choice>
-        , до того ли ему было! А на
-        <choice>
-         <reg>
-          дворе
-         </reg>
-         <orig>
-          дворѣ
-         </orig>
-        </choice>
-        становится,
-        <choice>
-         <reg>
-          ух
-         </reg>
-         <orig>
-          ухъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        холодно,
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          пробирает
-         </reg>
-         <orig>
-          пробираетъ
-         </orig>
-        </choice>
-        до костей
-        <choice>
-         <reg>
-          крепкий
-         </reg>
-         <orig>
-          крѣпкiй
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          мороз
-         </reg>
-         <orig>
-          морозъ
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note138">
+      138
+     </ref>
+     <note index="false" xml:id="note138">
+      <span data-class="paragraph" id="72e57c0c-5d93-40fe-8d12-4fcab3c185c4" rend="left">
+       почти и не
+       <choice>
+        <reg>
+         взглянул
+        </reg>
+        <orig>
+         взглянулъ
+        </orig>
+       </choice>
+       , до того ли ему было! А на
+       <choice>
+        <reg>
+         дворе
+        </reg>
+        <orig>
+         дворѣ
+        </orig>
+       </choice>
+       становится,
+       <choice>
+        <reg>
+         ух
+        </reg>
+        <orig>
+         ухъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       холодно,
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         пробирает
+        </reg>
+        <orig>
+         пробираетъ
+        </orig>
+       </choice>
+       до костей
+       <choice>
+        <reg>
+         крепкий
+        </reg>
+        <orig>
+         крѣпкiй
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мороз
+        </reg>
+        <orig>
+         морозъ
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      <choice>
       <reg>
        посмотрел
@@ -4562,46 +4703,49 @@
        Степанычъ
       </orig>
      </choice>
-     <ref target="#note139">139</ref><note xml:id="note139" index="false">
-      <span id="78e17d8d-ea6a-4762-bf85-f82f71d3f312" rend="left" data-class="paragraph">
-        сначала было усердно принялся сгребать
-        <choice>
-         <reg>
-          снег
-         </reg>
-         <orig>
-          снѣгъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          которого
-         </reg>
-         <orig>
-          котораго
-         </orig>
-        </choice>
-        много навалило за ночь, но не
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          терпение
-         </reg>
-         <orig>
-          терпѣнiе
-         </orig>
-        </choice>
-        стало, должно быть.
-       </span>
-      </note>
+     <ref target="#note139">
+      139
+     </ref>
+     <note index="false" xml:id="note139">
+      <span data-class="paragraph" id="78e17d8d-ea6a-4762-bf85-f82f71d3f312" rend="left">
+       сначала было усердно принялся сгребать
+       <choice>
+        <reg>
+         снег
+        </reg>
+        <orig>
+         снѣгъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         которого
+        </reg>
+        <orig>
+         котораго
+        </orig>
+       </choice>
+       много навалило за ночь, но не
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         терпение
+        </reg>
+        <orig>
+         терпѣнiе
+        </orig>
+       </choice>
+       стало, должно быть.
+      </span>
+     </note>
      <choice>
       <reg>
        положил
@@ -4611,36 +4755,39 @@
       </orig>
      </choice>
      лопату и
-     <ref target="#note140">140</ref><note xml:id="note140" index="false">
-      <span id="24a11682-6021-4898-8e8c-d7ae3bee7a92" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          начал
-         </reg>
-         <orig>
-          началъ
-         </orig>
-        </choice>
-        размахивать руками и ногами топать,
-        <choice>
-         <reg>
-          чтоб
-         </reg>
-         <orig>
-          чтобъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          согреться
-         </reg>
-         <orig>
-          согрѣться
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note140">
+      140
+     </ref>
+     <note index="false" xml:id="note140">
+      <span data-class="paragraph" id="24a11682-6021-4898-8e8c-d7ae3bee7a92" rend="left">
+       <choice>
+        <reg>
+         начал
+        </reg>
+        <orig>
+         началъ
+        </orig>
+       </choice>
+       размахивать руками и ногами топать,
+       <choice>
+        <reg>
+         чтоб
+        </reg>
+        <orig>
+         чтобъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         согреться
+        </reg>
+        <orig>
+         согрѣться
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      приклонился
      <choice>
       <reg>
@@ -4677,28 +4824,31 @@
       </orig>
      </choice>
      .
-     <ref target="#note141">141</ref><note xml:id="note141" index="false">
-      <span id="32694aad-bcdd-42ce-b0f1-c3da3cad96fe" rend="left" data-class="paragraph">
-        ишь
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        его
-        <choice>
-         <reg>
-          пробирает
-         </reg>
-         <orig>
-          пробираетъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note141">
+      141
+     </ref>
+     <note index="false" xml:id="note141">
+      <span data-class="paragraph" id="32694aad-bcdd-42ce-b0f1-c3da3cad96fe" rend="left">
+       ишь
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       его
+       <choice>
+        <reg>
+         пробирает
+        </reg>
+        <orig>
+         пробираетъ
+        </orig>
+       </choice>
+      </span>
+     </note>
     </p>
     <p id="11c0df9c-4f31-418a-8b36-0e3fd57aa175" rend="left">
      <pb n="577"/>
@@ -4754,36 +4904,39 @@
       </orig>
      </choice>
      .
-     <ref target="#note142">142</ref><note xml:id="note142" index="false">
-      <span id="ce9fce6a-6afb-4413-9931-dc6914479d45" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          замерзнет
-         </reg>
-         <orig>
-          замерзнетъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          совсем
-         </reg>
-         <orig>
-          совсѣмъ
-         </orig>
-        </choice>
-        на
-        <choice>
-         <reg>
-          стуже
-         </reg>
-         <orig>
-          стужѣ
-         </orig>
-        </choice>
-        , и жилье-то, поди-ка, не топленое.
-       </span>
-      </note>
+     <ref target="#note142">
+      142
+     </ref>
+     <note index="false" xml:id="note142">
+      <span data-class="paragraph" id="ce9fce6a-6afb-4413-9931-dc6914479d45" rend="left">
+       <choice>
+        <reg>
+         замерзнет
+        </reg>
+        <orig>
+         замерзнетъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         совсем
+        </reg>
+        <orig>
+         совсѣмъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         стуже
+        </reg>
+        <orig>
+         стужѣ
+        </orig>
+       </choice>
+       , и жилье-то, поди-ка, не топленое.
+      </span>
+     </note>
      «Напоить его,
      <choice>
       <reg>
@@ -4908,25 +5061,31 @@
        онъ
       </orig>
      </choice>
-     <ref target="#note143">143</ref><note xml:id="note143" index="false">
-      <span id="6e1a6772-eb0e-40f2-9d57-b738b0159b42" rend="left" data-class="paragraph">
-        ласково.
-       </span>
-      </note>
+     <ref target="#note143">
+      143
+     </ref>
+     <note index="false" xml:id="note143">
+      <span data-class="paragraph" id="6e1a6772-eb0e-40f2-9d57-b738b0159b42" rend="left">
+       ласково.
+      </span>
+     </note>
      старику.
-     <ref target="#note144">144</ref><note xml:id="note144" index="false">
-      <span id="0a79b49c-bbe0-4af2-a27d-5fe69ca1f6c6" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          здесь
-         </reg>
-         <orig>
-          здѣсь
-         </orig>
-        </choice>
-        тепленько слава Богу.
-       </span>
-      </note>
+     <ref target="#note144">
+      144
+     </ref>
+     <note index="false" xml:id="note144">
+      <span data-class="paragraph" id="0a79b49c-bbe0-4af2-a27d-5fe69ca1f6c6" rend="left">
+       <choice>
+        <reg>
+         здесь
+        </reg>
+        <orig>
+         здѣсь
+        </orig>
+       </choice>
+       тепленько слава Богу.
+      </span>
+     </note>
     </p>
     <p id="efe4954e-03bc-4bb1-ad1c-f37628e0a384" rend="left">
      — «Спасибо,
@@ -5015,27 +5174,30 @@
       </orig>
      </choice>
      ».
-     <ref target="#note145">145</ref><note xml:id="note145" index="false">
-      <span id="23d79d53-96ff-4467-94ad-325d073f8923" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          башмачник
-         </reg>
-         <orig>
-          башмачникъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          усадил
-         </reg>
-         <orig>
-          усадилъ
-         </orig>
-        </choice>
-        гостя
-       </span>
-      </note>
+     <ref target="#note145">
+      145
+     </ref>
+     <note index="false" xml:id="note145">
+      <span data-class="paragraph" id="23d79d53-96ff-4467-94ad-325d073f8923" rend="left">
+       <choice>
+        <reg>
+         башмачник
+        </reg>
+        <orig>
+         башмачникъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         усадил
+        </reg>
+        <orig>
+         усадилъ
+        </orig>
+       </choice>
+       гостя
+      </span>
+     </note>
     </p>
     <p id="95a5beb0-ef7e-4222-aa75-333426df1399" rend="left">
      <choice>
@@ -5108,20 +5270,23 @@
        сталъ
       </orig>
      </choice>
-     <ref target="#note146">146</ref><note xml:id="note146" index="false">
-      <span id="593c73eb-39ec-4387-8a16-9a05b2da89d3" rend="left" data-class="paragraph">
-        пристально
-        <choice>
-         <reg>
-          смотреть
-         </reg>
-         <orig>
-          смотрѣть
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note146">
+      146
+     </ref>
+     <note index="false" xml:id="note146">
+      <span data-class="paragraph" id="593c73eb-39ec-4387-8a16-9a05b2da89d3" rend="left">
+       пристально
+       <choice>
+        <reg>
+         смотреть
+        </reg>
+        <orig>
+         смотрѣть
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      шить и поглядывать то
      <choice>
       <reg>
@@ -5150,82 +5315,85 @@
       </orig>
      </choice>
      ли кто.
-     <ref target="#note147">147</ref><note xml:id="note147" index="false">
-      <span id="4aea1609-4408-4af9-ba1f-944f7c5d2a96" rend="left" data-class="paragraph">
-        <del>
-         «Наливай
-         <choice>
-          <reg>
-           себе
-          </reg>
-          <orig>
-           себѣ
-          </orig>
-         </choice>
-         ,
-         <choice>
-          <reg>
-           Степаныч
-          </reg>
-          <orig>
-           Степанычъ
-          </orig>
-         </choice>
-         , второй
-         <choice>
-          <reg>
-           стакан
-          </reg>
-          <orig>
-           стаканъ
-          </orig>
-         </choice>
-         »,
-         <choice>
-          <reg>
-           сказал
-          </reg>
-          <orig>
-           сказалъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           он
-          </reg>
-          <orig>
-           онъ
-          </orig>
-         </choice>
-         , не оборачиваясь.
-         <hi rend="italic">
-          Дальнейшее есть вставка на отдельном листе бумаги
-         </hi>
-         ,
-         <hi rend="italic">
-          кончая словами:
-         </hi>
-         и опять
-         <choice>
-          <reg>
-           подошел
-          </reg>
-          <orig>
-           подошелъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           к
-          </reg>
-          <orig>
-           къ
-          </orig>
-         </choice>
-         окну.
-        </del>
-       </span>
-      </note>
+     <ref target="#note147">
+      147
+     </ref>
+     <note index="false" xml:id="note147">
+      <span data-class="paragraph" id="4aea1609-4408-4af9-ba1f-944f7c5d2a96" rend="left">
+       <del>
+        «Наливай
+        <choice>
+         <reg>
+          себе
+         </reg>
+         <orig>
+          себѣ
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          Степаныч
+         </reg>
+         <orig>
+          Степанычъ
+         </orig>
+        </choice>
+        , второй
+        <choice>
+         <reg>
+          стакан
+         </reg>
+         <orig>
+          стаканъ
+         </orig>
+        </choice>
+        »,
+        <choice>
+         <reg>
+          сказал
+         </reg>
+         <orig>
+          сказалъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          он
+         </reg>
+         <orig>
+          онъ
+         </orig>
+        </choice>
+        , не оборачиваясь.
+        <hi rend="italic">
+         Дальнейшее есть вставка на отдельном листе бумаги
+        </hi>
+        ,
+        <hi rend="italic">
+         кончая словами:
+        </hi>
+        и опять
+        <choice>
+         <reg>
+          подошел
+         </reg>
+         <orig>
+          подошелъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        окну.
+       </del>
+      </span>
+     </note>
     </p>
     <p id="35de8b86-24c4-4d60-8876-2cea3ca18585" rend="left">
      <choice>
@@ -5387,306 +5555,309 @@
       </orig>
      </choice>
      .
-     <ref target="#note148">148</ref><note xml:id="note148" index="false">
-      <span id="4fb3ed49-1b99-4fa2-ada0-27ce1595fc16" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Дальнейшее есть большая вставка на отдельном листе
-        </hi>
-        ,
-        <hi rend="italic">
-         кончая словами:
-        </hi>
-        <choice>
-         <reg>
-          перевернул
-         </reg>
-         <orig>
-          перевернулъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          стакан
-         </reg>
-         <orig>
-          стаканъ
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          встал
-         </reg>
-         <orig>
-          всталъ
-         </orig>
-        </choice>
-        —
-        <hi rend="italic">
-         вместо зачеркнутого:
-        </hi>
-        «Да
-        <choice>
-         <reg>
-          вот
-         </reg>
-         <orig>
-          вотъ
-         </orig>
-        </choice>
-        жду Господа»,
-        <choice>
-         <reg>
-          отвечал
-         </reg>
-         <orig>
-          отвѣчалъ
-         </orig>
-        </choice>
-        дядя
-        <choice>
-         <reg>
-          Мартын
-         </reg>
-         <orig>
-          Мартынъ
-         </orig>
-        </choice>
-        , «
-        <choice>
-         <reg>
-          обещался
-         </reg>
-         <orig>
-          обѣщался
-         </orig>
-        </choice>
-        мимо
-        <choice>
-         <reg>
-          моих
-         </reg>
-         <orig>
-          моихъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          окон
-         </reg>
-         <orig>
-          оконъ
-         </orig>
-        </choice>
-        пройти сегодня, я все и поджидаю, —
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        бы не пропустить Его, Господа, Іисуса Христа...
-        <choice>
-         <reg>
-          ведь
-         </reg>
-         <orig>
-          вѣдь
-         </orig>
-        </choice>
-        ты знаешь Его?»
-       </span>
-       <span id="a79dd05c-eebc-4187-87a7-4ebddf979c1f" rend="left" data-class="paragraph">
-        —
-        <choice>
-         <reg>
-          Как
-         </reg>
-         <orig>
-          Какъ
-         </orig>
-        </choice>
-        не знать;
-        <choice>
-         <reg>
-          грамоте
-         </reg>
-         <orig>
-          грамотѣ
-         </orig>
-        </choice>
-        хоть не знаю, а
-        <choice>
-         <reg>
-          слышал
-         </reg>
-         <orig>
-          слышалъ
-         </orig>
-        </choice>
-        про Него, что
-        <choice>
-         <reg>
-          Он
-         </reg>
-         <orig>
-          Онъ
-         </orig>
-        </choice>
-        Спаситель
-        <choice>
-         <reg>
-          наш
-         </reg>
-         <orig>
-          нашъ
-         </orig>
-        </choice>
-        , и
-        <choice>
-         <reg>
-          сердцем
-         </reg>
-         <orig>
-          сердцемъ
-         </orig>
-        </choice>
-        Его часто поминаю.
-       </span>
-       <span id="68046d98-8fd1-419f-906f-f5b0ea71da2d" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          Авдеича
-         </reg>
-         <orig>
-          Авдѣича
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          задело
-         </reg>
-         <orig>
-          задѣло
-         </orig>
-        </choice>
-        это за живое, и
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          стал
-         </reg>
-         <orig>
-          сталъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          рассказывать
-         </reg>
-         <orig>
-          разсказывать
-         </orig>
-        </choice>
-        своему гостю, то и другое, что
-        <choice>
-         <reg>
-          читал
-         </reg>
-         <orig>
-          читалъ
-         </orig>
-        </choice>
-        в
-        <choice>
-         <reg>
-          Евангелии
-         </reg>
-         <orig>
-          Евангелiи
-         </orig>
-        </choice>
-        про Спасителя,
-        <choice>
-         <reg>
-          рассказал
-         </reg>
-         <orig>
-          разсказалъ
-         </orig>
-        </choice>
-        ему то, что
-        <choice>
-         <reg>
-          читал
-         </reg>
-         <orig>
-          читалъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          накануне
-         </reg>
-         <orig>
-          наканунѣ
-         </orig>
-        </choice>
-        ; говорить, а
-        <choice>
-         <reg>
-          сам
-         </reg>
-         <orig>
-          самъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          нет-нет
-         </reg>
-         <orig>
-          нѣтъ-нѣтъ
-         </orig>
-        </choice>
-        , да и оборачивается к окошку. &lt;Но
-        <choice>
-         <reg>
-          вдруг
-         </reg>
-         <orig>
-          вдругъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          взор
-         </reg>
-         <orig>
-          взоръ
-         </orig>
-        </choice>
-        его остановился на молодой
-        <choice>
-         <reg>
-          женщине
-         </reg>
-         <orig>
-          женщинѣ
-         </orig>
-        </choice>
-        &gt;
-       </span>
-       </note>
+     <ref target="#note148">
+      148
+     </ref>
+     <note index="false" xml:id="note148">
+      <span data-class="paragraph" id="4fb3ed49-1b99-4fa2-ada0-27ce1595fc16" rend="left">
+       <hi rend="italic">
+        Дальнейшее есть большая вставка на отдельном листе
+       </hi>
+       ,
+       <hi rend="italic">
+        кончая словами:
+       </hi>
+       <choice>
+        <reg>
+         перевернул
+        </reg>
+        <orig>
+         перевернулъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         стакан
+        </reg>
+        <orig>
+         стаканъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         встал
+        </reg>
+        <orig>
+         всталъ
+        </orig>
+       </choice>
+       —
+       <hi rend="italic">
+        вместо зачеркнутого:
+       </hi>
+       «Да
+       <choice>
+        <reg>
+         вот
+        </reg>
+        <orig>
+         вотъ
+        </orig>
+       </choice>
+       жду Господа»,
+       <choice>
+        <reg>
+         отвечал
+        </reg>
+        <orig>
+         отвѣчалъ
+        </orig>
+       </choice>
+       дядя
+       <choice>
+        <reg>
+         Мартын
+        </reg>
+        <orig>
+         Мартынъ
+        </orig>
+       </choice>
+       , «
+       <choice>
+        <reg>
+         обещался
+        </reg>
+        <orig>
+         обѣщался
+        </orig>
+       </choice>
+       мимо
+       <choice>
+        <reg>
+         моих
+        </reg>
+        <orig>
+         моихъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         окон
+        </reg>
+        <orig>
+         оконъ
+        </orig>
+       </choice>
+       пройти сегодня, я все и поджидаю, —
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       бы не пропустить Его, Господа, Іисуса Христа...
+       <choice>
+        <reg>
+         ведь
+        </reg>
+        <orig>
+         вѣдь
+        </orig>
+       </choice>
+       ты знаешь Его?»
+      </span>
+      <span data-class="paragraph" id="a79dd05c-eebc-4187-87a7-4ebddf979c1f" rend="left">
+       —
+       <choice>
+        <reg>
+         Как
+        </reg>
+        <orig>
+         Какъ
+        </orig>
+       </choice>
+       не знать;
+       <choice>
+        <reg>
+         грамоте
+        </reg>
+        <orig>
+         грамотѣ
+        </orig>
+       </choice>
+       хоть не знаю, а
+       <choice>
+        <reg>
+         слышал
+        </reg>
+        <orig>
+         слышалъ
+        </orig>
+       </choice>
+       про Него, что
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       Спаситель
+       <choice>
+        <reg>
+         наш
+        </reg>
+        <orig>
+         нашъ
+        </orig>
+       </choice>
+       , и
+       <choice>
+        <reg>
+         сердцем
+        </reg>
+        <orig>
+         сердцемъ
+        </orig>
+       </choice>
+       Его часто поминаю.
+      </span>
+      <span data-class="paragraph" id="68046d98-8fd1-419f-906f-f5b0ea71da2d" rend="left">
+       <choice>
+        <reg>
+         Авдеича
+        </reg>
+        <orig>
+         Авдѣича
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         задело
+        </reg>
+        <orig>
+         задѣло
+        </orig>
+       </choice>
+       это за живое, и
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         стал
+        </reg>
+        <orig>
+         сталъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         рассказывать
+        </reg>
+        <orig>
+         разсказывать
+        </orig>
+       </choice>
+       своему гостю, то и другое, что
+       <choice>
+        <reg>
+         читал
+        </reg>
+        <orig>
+         читалъ
+        </orig>
+       </choice>
+       в
+       <choice>
+        <reg>
+         Евангелии
+        </reg>
+        <orig>
+         Евангелiи
+        </orig>
+       </choice>
+       про Спасителя,
+       <choice>
+        <reg>
+         рассказал
+        </reg>
+        <orig>
+         разсказалъ
+        </orig>
+       </choice>
+       ему то, что
+       <choice>
+        <reg>
+         читал
+        </reg>
+        <orig>
+         читалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         накануне
+        </reg>
+        <orig>
+         наканунѣ
+        </orig>
+       </choice>
+       ; говорить, а
+       <choice>
+        <reg>
+         сам
+        </reg>
+        <orig>
+         самъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нет-нет
+        </reg>
+        <orig>
+         нѣтъ-нѣтъ
+        </orig>
+       </choice>
+       , да и оборачивается к окошку. &lt;Но
+       <choice>
+        <reg>
+         вдруг
+        </reg>
+        <orig>
+         вдругъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         взор
+        </reg>
+        <orig>
+         взоръ
+        </orig>
+       </choice>
+       его остановился на молодой
+       <choice>
+        <reg>
+         женщине
+        </reg>
+        <orig>
+         женщинѣ
+        </orig>
+       </choice>
+       &gt;
+      </span>
+     </note>
     </p>
     <p id="11539fda-ab50-4baf-8b4c-eb352dc50425" rend="left">
      —
@@ -5761,27 +5932,30 @@
       </orig>
      </choice>
      , что родился Спаситель
-     <ref target="#note149">149</ref><note xml:id="note149" index="false">
-      <span id="c879759d-9829-43a8-82b8-3f2fb94210a3" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        Ему
-        <choice>
-         <reg>
-          места
-         </reg>
-         <orig>
-          мѣста
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note149">
+      149
+     </ref>
+     <note index="false" xml:id="note149">
+      <span data-class="paragraph" id="c879759d-9829-43a8-82b8-3f2fb94210a3" rend="left">
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       Ему
+       <choice>
+        <reg>
+         места
+        </reg>
+        <orig>
+         мѣста
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        в
@@ -5862,44 +6036,47 @@
       </orig>
      </choice>
      , да мы люди темные,
-     <ref target="#note150">150</ref><note xml:id="note150" index="false">
-      <span id="667de927-35d2-4f0c-8580-fcf5a13117a1" rend="left" data-class="paragraph">
-        что и
-        <choice>
-         <reg>
-          слышим
-         </reg>
-         <orig>
-          слышимъ
-         </orig>
-        </choice>
-        того, не
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          слышим
-         </reg>
-         <orig>
-          слышимъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          из
-         </reg>
-         <orig>
-          изъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note150">
+      150
+     </ref>
+     <note index="false" xml:id="note150">
+      <span data-class="paragraph" id="667de927-35d2-4f0c-8580-fcf5a13117a1" rend="left">
+       что и
+       <choice>
+        <reg>
+         слышим
+        </reg>
+        <orig>
+         слышимъ
+        </orig>
+       </choice>
+       того, не
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         слышим
+        </reg>
+        <orig>
+         слышимъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        грамоте
@@ -5918,20 +6095,23 @@
       </orig>
      </choice>
      .
-     <ref target="#note151">151</ref><note xml:id="note151" index="false">
-      <span id="3c010a31-18ef-48b7-ae31-39dbd61c5a7e" rend="left" data-class="paragraph">
-        не то, что вы
-        <choice>
-         <reg>
-          все
-         </reg>
-         <orig>
-          всѣ
-         </orig>
-        </choice>
-        которые
-       </span>
-      </note>
+     <ref target="#note151">
+      151
+     </ref>
+     <note index="false" xml:id="note151">
+      <span data-class="paragraph" id="3c010a31-18ef-48b7-ae31-39dbd61c5a7e" rend="left">
+       не то, что вы
+       <choice>
+        <reg>
+         все
+        </reg>
+        <orig>
+         всѣ
+        </orig>
+       </choice>
+       которые
+      </span>
+     </note>
     </p>
     <p id="d08a4ced-419f-405a-9f5c-804249292e14" rend="left">
      — Ну
@@ -6335,18 +6515,21 @@
       </orig>
      </choice>
      простыми людьми водился.
-     <ref target="#note152">152</ref><note xml:id="note152" index="false">
-      <span id="aacf5daa-da72-4fac-8774-03d66f00ca77" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          хаживал
-         </reg>
-         <orig>
-          хаживалъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note152">
+      152
+     </ref>
+     <note index="false" xml:id="note152">
+      <span data-class="paragraph" id="aacf5daa-da72-4fac-8774-03d66f00ca77" rend="left">
+       <choice>
+        <reg>
+         хаживал
+        </reg>
+        <orig>
+         хаживалъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      Не
      <choice>
       <reg>
@@ -6375,34 +6558,37 @@
       </orig>
      </choice>
      , а
-     <ref target="#note153">153</ref><note xml:id="note153" index="false">
-      <span id="4256d34a-2c42-44a9-b6c8-27b6c6e86b69" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          ходил
-         </reg>
-         <orig>
-          ходилъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          грешникам
-         </reg>
-         <orig>
-          грѣшникамъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note153">
+      153
+     </ref>
+     <note index="false" xml:id="note153">
+      <span data-class="paragraph" id="4256d34a-2c42-44a9-b6c8-27b6c6e86b69" rend="left">
+       <choice>
+        <reg>
+         ходил
+        </reg>
+        <orig>
+         ходилъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         грешникам
+        </reg>
+        <orig>
+         грѣшникамъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        набирал
@@ -6497,19 +6683,22 @@
       </orig>
      </choice>
      возвысится.
-     <ref target="#note154">154</ref><note xml:id="note154" index="false">
-      <span id="3e92bcb9-9354-4293-8a73-831a7e8b16b5" rend="left" data-class="paragraph">
-        Я,
-        <choice>
-         <reg>
-          говорит
-         </reg>
-         <orig>
-          говоритъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note154">
+      154
+     </ref>
+     <note index="false" xml:id="note154">
+      <span data-class="paragraph" id="3e92bcb9-9354-4293-8a73-831a7e8b16b5" rend="left">
+       Я,
+       <choice>
+        <reg>
+         говорит
+        </reg>
+        <orig>
+         говоритъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      Вы меня,
      <choice>
       <reg>
@@ -6726,26 +6915,29 @@
        сказалъ
       </orig>
      </choice>
-     <ref target="#note155">155</ref><note xml:id="note155" index="false">
-      <span id="91df7657-05a7-4266-aff1-f74b830fc5b3" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          наконец
-         </reg>
-         <orig>
-          наконецъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          Степаныч
-         </reg>
-         <orig>
-          Степанычъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note155">
+      155
+     </ref>
+     <note index="false" xml:id="note155">
+      <span data-class="paragraph" id="91df7657-05a7-4266-aff1-f74b830fc5b3" rend="left">
+       <choice>
+        <reg>
+         наконец
+        </reg>
+        <orig>
+         наконецъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Степаныч
+        </reg>
+        <orig>
+         Степанычъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        он
@@ -6782,11 +6974,14 @@
       </orig>
      </choice>
      ты Его своими
-     <ref target="#note156">156</ref><note xml:id="note156" index="false">
-      <span id="f2af87b2-366d-4da5-8e10-055315d2f96e" rend="left" data-class="paragraph">
-        разсказали
-       </span>
-      </note>
+     <ref target="#note156">
+      156
+     </ref>
+     <note index="false" xml:id="note156">
+      <span data-class="paragraph" id="f2af87b2-366d-4da5-8e10-055315d2f96e" rend="left">
+       разсказали
+      </span>
+     </note>
      <choice>
       <reg>
        речами
@@ -6805,45 +7000,48 @@
       </orig>
      </choice>
      .
-     <ref target="#note157">157</ref><note xml:id="note157" index="false">
-      <span id="a2a13a3a-c14a-4406-805b-60384b52dc9d" rend="left" data-class="paragraph">
-        будто и
-        <choice>
-         <reg>
-          стоит
-         </reg>
-         <orig>
-          стоитъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          тут
-         </reg>
-         <orig>
-          тутъ
-         </orig>
-        </choice>
-        близко и
-        <choice>
-         <reg>
-          говорит
-         </reg>
-         <orig>
-          говоритъ
-         </orig>
-        </choice>
-        со мною
-       </span>
-      </note>
+     <ref target="#note157">
+      157
+     </ref>
+     <note index="false" xml:id="note157">
+      <span data-class="paragraph" id="a2a13a3a-c14a-4406-805b-60384b52dc9d" rend="left">
+       будто и
+       <choice>
+        <reg>
+         стоит
+        </reg>
+        <orig>
+         стоитъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         тут
+        </reg>
+        <orig>
+         тутъ
+        </orig>
+       </choice>
+       близко и
+       <choice>
+        <reg>
+         говорит
+        </reg>
+        <orig>
+         говоритъ
+        </orig>
+       </choice>
+       со мною
+      </span>
+     </note>
      Спасибо
      <choice>
       <reg>
@@ -6880,11 +7078,14 @@
       </orig>
      </choice>
      ты меня,
-     <ref target="#note158">158</ref><note xml:id="note158" index="false">
-      <span id="14bbd979-71db-4339-9b8a-6ed7d0fa132e" rend="left" data-class="paragraph">
-        ради праздника Господня
-       </span>
-      </note>
+     <ref target="#note158">
+      158
+     </ref>
+     <note index="false" xml:id="note158">
+      <span data-class="paragraph" id="14bbd979-71db-4339-9b8a-6ed7d0fa132e" rend="left">
+       ради праздника Господня
+      </span>
+     </note>
      и душу и
      <choice>
       <reg>
@@ -6996,37 +7197,40 @@
       </orig>
      </choice>
      , а
-     <ref target="#note159">159</ref><note xml:id="note159" index="false">
-      <span id="4a965940-2872-4aef-8662-9bea45c4870d" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          башмачник
-         </reg>
-         <orig>
-          башмачникъ
-         </orig>
-        </choice>
-        опять
-        <choice>
-         <reg>
-          прижал
-         </reg>
-         <orig>
-          прижалъ
-         </orig>
-        </choice>
-        лицо
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        стеклу
-       </span>
-      </note>
+     <ref target="#note159">
+      159
+     </ref>
+     <note index="false" xml:id="note159">
+      <span data-class="paragraph" id="4a965940-2872-4aef-8662-9bea45c4870d" rend="left">
+       <choice>
+        <reg>
+         башмачник
+        </reg>
+        <orig>
+         башмачникъ
+        </orig>
+       </choice>
+       опять
+       <choice>
+        <reg>
+         прижал
+        </reg>
+        <orig>
+         прижалъ
+        </orig>
+       </choice>
+       лицо
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       стеклу
+      </span>
+     </note>
      <choice>
       <reg>
        Мартын
@@ -7112,40 +7316,46 @@
       </orig>
      </choice>
      .
-     <ref target="#note160">160</ref><note xml:id="note160" index="false">
-      <span id="26d8c92a-f4b8-4d9e-b449-128b65648013" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          Вот
-         </reg>
-         <orig>
-          Вотъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note160">
+      160
+     </ref>
+     <note index="false" xml:id="note160">
+      <span data-class="paragraph" id="26d8c92a-f4b8-4d9e-b449-128b65648013" rend="left">
+       <choice>
+        <reg>
+         Вот
+        </reg>
+        <orig>
+         Вотъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      Прошли
-     <ref target="#note161">161</ref><note xml:id="note161" index="false">
-      <span id="e3c5c04e-0a99-4455-8c6f-8c638571a78e" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          проходят
-         </reg>
-         <orig>
-          проходятъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          шатающияся
-         </reg>
-         <orig>
-          шатающiяся
-         </orig>
-        </choice>
-        фигуры
-       </span>
-      </note>
+     <ref target="#note161">
+      161
+     </ref>
+     <note index="false" xml:id="note161">
+      <span data-class="paragraph" id="e3c5c04e-0a99-4455-8c6f-8c638571a78e" rend="left">
+       <choice>
+        <reg>
+         проходят
+        </reg>
+        <orig>
+         проходятъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         шатающияся
+        </reg>
+        <orig>
+         шатающiяся
+        </orig>
+       </choice>
+       фигуры
+      </span>
+     </note>
      <hi rend="sup"/>
      мимо окошка два
      <choice>
@@ -7166,52 +7376,55 @@
       </orig>
      </choice>
      трактира:
-     <ref target="#note162">162</ref><note xml:id="note162" index="false">
-      <span id="c92b0643-f040-4c6f-b7ab-c33c9a66b37b" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          перебрасывает
-         </reg>
-         <orig>
-          перебрасываетъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          их
-         </reg>
-         <orig>
-          ихъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        одной стороны улицы на другую;
-        <choice>
-         <reg>
-          проходят
-         </reg>
-         <orig>
-          проходятъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note162">
+      162
+     </ref>
+     <note index="false" xml:id="note162">
+      <span data-class="paragraph" id="c92b0643-f040-4c6f-b7ab-c33c9a66b37b" rend="left">
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         перебрасывает
+        </reg>
+        <orig>
+         перебрасываетъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         их
+        </reg>
+        <orig>
+         ихъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       одной стороны улицы на другую;
+       <choice>
+        <reg>
+         проходят
+        </reg>
+        <orig>
+         проходятъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        идут
@@ -7246,19 +7459,22 @@
        разнощикъ
       </orig>
      </choice>
-     <ref target="#note163">163</ref><note xml:id="note163" index="false">
-      <span id="16e4d4cc-cd88-4fbf-b844-1811cedebf4c" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        лотками
-       </span>
-      </note>
+     <ref target="#note163">
+      163
+     </ref>
+     <note index="false" xml:id="note163">
+      <span data-class="paragraph" id="16e4d4cc-cd88-4fbf-b844-1811cedebf4c" rend="left">
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       лотками
+      </span>
+     </note>
      <choice>
       <reg>
        с
@@ -7285,11 +7501,14 @@
       </orig>
      </choice>
      корзиной
-     <ref target="#note164">164</ref><note xml:id="note164" index="false">
-      <span id="a2f75e72-5fc4-4326-ac6c-04908bb92889" rend="left" data-class="paragraph">
-        все это не новость
-       </span>
-      </note>
+     <ref target="#note164">
+      164
+     </ref>
+     <note index="false" xml:id="note164">
+      <span data-class="paragraph" id="a2f75e72-5fc4-4326-ac6c-04908bb92889" rend="left">
+       все это не новость
+      </span>
+     </note>
      и дядя
      <choice>
       <reg>
@@ -7299,54 +7518,57 @@
        Мартынъ
       </orig>
      </choice>
-     <ref target="#note165">165</ref><note xml:id="note165" index="false">
-      <span id="51b5f1d4-ca54-4319-bf60-f3ae6b87a610" rend="left" data-class="paragraph">
-        Мало
-        <choice>
-         <reg>
-          обращает
-         </reg>
-         <orig>
-          обращаетъ
-         </orig>
-        </choice>
-        на это
-        <choice>
-         <reg>
-          внимания
-         </reg>
-         <orig>
-          вниманiя
-         </orig>
-        </choice>
-        . Но
-        <choice>
-         <reg>
-          вдруг
-         </reg>
-         <orig>
-          вдругъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          взор
-         </reg>
-         <orig>
-          взоръ
-         </orig>
-        </choice>
-        его остановился на молодой
-        <choice>
-         <reg>
-          женщине
-         </reg>
-         <orig>
-          женщинѣ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note165">
+      165
+     </ref>
+     <note index="false" xml:id="note165">
+      <span data-class="paragraph" id="51b5f1d4-ca54-4319-bf60-f3ae6b87a610" rend="left">
+       Мало
+       <choice>
+        <reg>
+         обращает
+        </reg>
+        <orig>
+         обращаетъ
+        </orig>
+       </choice>
+       на это
+       <choice>
+        <reg>
+         внимания
+        </reg>
+        <orig>
+         вниманiя
+        </orig>
+       </choice>
+       . Но
+       <choice>
+        <reg>
+         вдруг
+        </reg>
+        <orig>
+         вдругъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         взор
+        </reg>
+        <orig>
+         взоръ
+        </orig>
+       </choice>
+       его остановился на молодой
+       <choice>
+        <reg>
+         женщине
+        </reg>
+        <orig>
+         женщинѣ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        поглядит
@@ -7416,20 +7638,23 @@
       </orig>
      </choice>
      , худая.
-     <ref target="#note166">166</ref><note xml:id="note166" index="false">
-      <span id="f3a2c475-5ee1-4063-8e83-b82dc86dee5c" rend="left" data-class="paragraph">
-        такая и на
-        <choice>
-         <reg>
-          вид
-         </reg>
-         <orig>
-          видъ
-         </orig>
-        </choice>
-        голодная, что у старика защемило сердце
-       </span>
-      </note>
+     <ref target="#note166">
+      166
+     </ref>
+     <note index="false" xml:id="note166">
+      <span data-class="paragraph" id="f3a2c475-5ee1-4063-8e83-b82dc86dee5c" rend="left">
+       такая и на
+       <choice>
+        <reg>
+         вид
+        </reg>
+        <orig>
+         видъ
+        </orig>
+       </choice>
+       голодная, что у старика защемило сердце
+      </span>
+     </note>
      И жалко ее стало Мартыну.
     </p>
     <p id="bd03e8a4-0056-47fa-a1f9-b0857543b107" rend="left">
@@ -7442,18 +7667,21 @@
        Авдѣичъ
       </orig>
      </choice>
-     <ref target="#note167">167</ref><note xml:id="note167" index="false">
-      <span id="308875cf-4e2f-4ce5-a9b7-329aacea2f81" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          распахнул
-         </reg>
-         <orig>
-          распахнулъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note167">
+      167
+     </ref>
+     <note index="false" xml:id="note167">
+      <span data-class="paragraph" id="308875cf-4e2f-4ce5-a9b7-329aacea2f81" rend="left">
+       <choice>
+        <reg>
+         распахнул
+        </reg>
+        <orig>
+         распахнулъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        встал
@@ -7480,28 +7708,31 @@
       </orig>
      </choice>
      дверь и
-     <ref target="#note168">168</ref><note xml:id="note168" index="false">
-      <span id="3074d342-a832-439c-8fb3-f3141d1b9ca8" rend="left" data-class="paragraph">
-        своей коморки,
-        <choice>
-         <reg>
-          стал
-         </reg>
-         <orig>
-          сталъ
-         </orig>
-        </choice>
-        на
-        <choice>
-         <reg>
-          пороге
-         </reg>
-         <orig>
-          порогѣ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note168">
+      168
+     </ref>
+     <note index="false" xml:id="note168">
+      <span data-class="paragraph" id="3074d342-a832-439c-8fb3-f3141d1b9ca8" rend="left">
+       своей коморки,
+       <choice>
+        <reg>
+         стал
+        </reg>
+        <orig>
+         сталъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         пороге
+        </reg>
+        <orig>
+         порогѣ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        кликнул
@@ -7511,36 +7742,45 @@
       </orig>
      </choice>
      :
-     <ref target="#note169">169</ref><note xml:id="note169" index="false">
-      <span id="149d8481-e9e6-4d2e-9f46-260fba08b5e8" rend="left" data-class="paragraph">
-        «Эй, голубушка»!
-       </span>
-      </note>
+     <ref target="#note169">
+      169
+     </ref>
+     <note index="false" xml:id="note169">
+      <span data-class="paragraph" id="149d8481-e9e6-4d2e-9f46-260fba08b5e8" rend="left">
+       «Эй, голубушка»!
+      </span>
+     </note>
      «Умница, а умница». Женщина услыхала и обернулась, удивленная.
     </p>
     <p id="82bd7701-0cf9-46ee-a816-11e68b9b84a8" rend="left">
      — Подойди, подойди сюда, ты должно
-     <ref target="#note170">170</ref><note xml:id="note170" index="false">
-      <span id="51f86975-8181-4dcb-b448-f98155d8d26a" rend="left" data-class="paragraph">
-        быть
-       </span>
-      </note>
+     <ref target="#note170">
+      170
+     </ref>
+     <note index="false" xml:id="note170">
+      <span data-class="paragraph" id="51f86975-8181-4dcb-b448-f98155d8d26a" rend="left">
+       быть
+      </span>
+     </note>
      нездорова.
-     <ref target="#note171">171</ref><note xml:id="note171" index="false">
-      <span id="524c82b1-6c56-416a-af13-00825060c3f3" rend="left" data-class="paragraph">
-        <del>
-         красавица:
-         <hi rend="italic">
-          сначала было испр. на
-         </hi>
-         умница,
-         <hi rend="italic">
-          но и это зачеркнуто
-         </hi>
-         . «Красавица» было одно изъ любимыхъ словъ дяди Мартына; онъ употреблялъ его, говоря и съ толстой рыночной торговкой, и со старой сосѣдкой-прачкой, и со всѣми женщинами, безъ исключенiя, — будь онѣ молодыя, старыя, богатыя или бѣдныя.
-        </del>
-       </span>
-      </note>
+     <ref target="#note171">
+      171
+     </ref>
+     <note index="false" xml:id="note171">
+      <span data-class="paragraph" id="524c82b1-6c56-416a-af13-00825060c3f3" rend="left">
+       <del>
+        красавица:
+        <hi rend="italic">
+         сначала было испр. на
+        </hi>
+        умница,
+        <hi rend="italic">
+         но и это зачеркнуто
+        </hi>
+        . «Красавица» было одно изъ любимыхъ словъ дяди Мартына; онъ употреблялъ его, говоря и съ толстой рыночной торговкой, и со старой сосѣдкой-прачкой, и со всѣми женщинами, безъ исключенiя, — будь онѣ молодыя, старыя, богатыя или бѣдныя.
+       </del>
+      </span>
+     </note>
     </p>
     <p id="6a48820d-21c2-4e15-b201-2422b040813a" rend="left">
      <choice>
@@ -7596,11 +7836,14 @@
       </orig>
      </choice>
      молодая женщина,
-     <ref target="#note172">172</ref><note xml:id="note172" index="false">
-      <span id="54a21396-d9c1-4af0-bd70-ac74d783768b" rend="left" data-class="paragraph">
-        пыталась попасть
-       </span>
-      </note>
+     <ref target="#note172">
+      172
+     </ref>
+     <note index="false" xml:id="note172">
+      <span data-class="paragraph" id="54a21396-d9c1-4af0-bd70-ac74d783768b" rend="left">
+       пыталась попасть
+      </span>
+     </note>
      просилась
      <choice>
       <reg>
@@ -7697,11 +7940,14 @@
       </orig>
      </choice>
      жду.
-     <ref target="#note173">173</ref><note xml:id="note173" index="false">
-      <span id="d7f9b173-358d-4138-a542-c40b39a993aa" rend="left" data-class="paragraph">
-        не дождусь
-       </span>
-      </note>
+     <ref target="#note173">
+      173
+     </ref>
+     <note index="false" xml:id="note173">
+      <span data-class="paragraph" id="d7f9b173-358d-4138-a542-c40b39a993aa" rend="left">
+       не дождусь
+      </span>
+     </note>
      А
      <choice>
       <reg>
@@ -7748,29 +7994,32 @@
       </orig>
      </choice>
      за нею.
-     <ref target="#note174">174</ref><note xml:id="note174" index="false">
-      <span id="c640d1b3-8aaa-41a6-9772-350c8ed5a0cc" rend="left" data-class="paragraph">
-        «
-        <choice>
-         <reg>
-          бедная
-         </reg>
-         <orig>
-          бѣдная
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          бедная
-         </reg>
-         <orig>
-          бѣдная
-         </orig>
-        </choice>
-        »
-       </span>
-      </note>
+     <ref target="#note174">
+      174
+     </ref>
+     <note index="false" xml:id="note174">
+      <span data-class="paragraph" id="c640d1b3-8aaa-41a6-9772-350c8ed5a0cc" rend="left">
+       «
+       <choice>
+        <reg>
+         бедная
+        </reg>
+        <orig>
+         бѣдная
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         бедная
+        </reg>
+        <orig>
+         бѣдная
+        </orig>
+       </choice>
+       »
+      </span>
+     </note>
     </p>
     <p id="96ed3bae-4890-47bc-b351-90afac50b69b" rend="left">
      — Вишь сердечная,
@@ -7782,11 +8031,14 @@
        сказалъ
       </orig>
      </choice>
-     <ref target="#note175">175</ref><note xml:id="note175" index="false">
-      <span id="39b57a2d-67be-4943-adfc-58c6dbc5b3cb" rend="left" data-class="paragraph">
-        растроганный
-       </span>
-      </note>
+     <ref target="#note175">
+      175
+     </ref>
+     <note index="false" xml:id="note175">
+      <span data-class="paragraph" id="39b57a2d-67be-4943-adfc-58c6dbc5b3cb" rend="left">
+       растроганный
+      </span>
+     </note>
      <choice>
       <reg>
        старик
@@ -7796,20 +8048,23 @@
       </orig>
      </choice>
      , заходи
-     <ref target="#note176">176</ref><note xml:id="note176" index="false">
-      <span id="2eea3a99-4eb4-4ba4-b1a0-974d96776d20" rend="left" data-class="paragraph">
-        войди хоть ко
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        покуда
-       </span>
-      </note>
+     <ref target="#note176">
+      176
+     </ref>
+     <note index="false" xml:id="note176">
+      <span data-class="paragraph" id="2eea3a99-4eb4-4ba4-b1a0-974d96776d20" rend="left">
+       войди хоть ко
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       покуда
+      </span>
+     </note>
      чтоль.
      <choice>
       <reg>
@@ -7874,11 +8129,14 @@
        Авдѣичъ
       </orig>
      </choice>
-     <ref target="#note177">177</ref><note xml:id="note177" index="false">
-      <span id="f1c706f0-8136-41eb-9473-41379572fac9" rend="left" data-class="paragraph">
-        принялся угощать новых гостей
-       </span>
-      </note>
+     <ref target="#note177">
+      177
+     </ref>
+     <note index="false" xml:id="note177">
+      <span data-class="paragraph" id="f1c706f0-8136-41eb-9473-41379572fac9" rend="left">
+       принялся угощать новых гостей
+      </span>
+     </note>
      <choice>
       <reg>
        достал
@@ -7916,11 +8174,14 @@
     </p>
     <p id="bad3c8f4-2b32-4989-897f-79d69231939a" rend="left">
      — «Ты
-     <ref target="#note178">178</ref><note xml:id="note178" index="false">
-      <span id="0b2ef0ab-a75c-4461-8beb-eb680100a28b" rend="left" data-class="paragraph">
-        красавица
-       </span>
-      </note>
+     <ref target="#note178">
+      178
+     </ref>
+     <note index="false" xml:id="note178">
+      <span data-class="paragraph" id="0b2ef0ab-a75c-4461-8beb-eb680100a28b" rend="left">
+       красавица
+      </span>
+     </note>
      умница, покушай,
      <choice>
       <reg>
@@ -7939,50 +8200,56 @@
       </orig>
      </choice>
      ,
-     <ref target="#note179">179</ref><note xml:id="note179" index="false">
-      <span id="3233c4dd-fcf8-4c4f-b0bf-0b7f1223a4c5" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          поставив
-         </reg>
-         <orig>
-          поставивъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          перед
-         </reg>
-         <orig>
-          передъ
-         </orig>
-        </choice>
-        нею
-        <choice>
-         <reg>
-          все
-         </reg>
-         <orig>
-          всѣ
-         </orig>
-        </choice>
-        свои припасы
-       </span>
-      </note>
+     <ref target="#note179">
+      179
+     </ref>
+     <note index="false" xml:id="note179">
+      <span data-class="paragraph" id="3233c4dd-fcf8-4c4f-b0bf-0b7f1223a4c5" rend="left">
+       <choice>
+        <reg>
+         поставив
+        </reg>
+        <orig>
+         поставивъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         перед
+        </reg>
+        <orig>
+         передъ
+        </orig>
+       </choice>
+       нею
+       <choice>
+        <reg>
+         все
+        </reg>
+        <orig>
+         всѣ
+        </orig>
+       </choice>
+       свои припасы
+      </span>
+     </note>
      а
-     <ref target="#note180">180</ref><note xml:id="note180" index="false">
-      <span id="f4a81c81-ca6d-4a0a-91f2-a9c27246b7c6" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        покуда младенца передай
-       </span>
-      </note>
+     <ref target="#note180">
+      180
+     </ref>
+     <note index="false" xml:id="note180">
+      <span data-class="paragraph" id="f4a81c81-ca6d-4a0a-91f2-a9c27246b7c6" rend="left">
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       покуда младенца передай
+      </span>
+     </note>
      ребеночка я подержу, —
      <choice>
       <reg>
@@ -8145,11 +8412,14 @@
        въ
       </orig>
      </choice>
-     <ref target="#note181">181</ref><note xml:id="note181" index="false">
-      <span id="addd507e-1062-4c88-9860-d771e38d885e" rend="left" data-class="paragraph">
-        тонкую
-       </span>
-      </note>
+     <ref target="#note181">
+      181
+     </ref>
+     <note index="false" xml:id="note181">
+      <span data-class="paragraph" id="addd507e-1062-4c88-9860-d771e38d885e" rend="left">
+       тонкую
+      </span>
+     </note>
      бумагу, которыми
      <choice>
       <reg>
@@ -8203,114 +8473,117 @@
       </orig>
      </choice>
      — точно на него и сшиты.
-     <ref target="#note182">182</ref><note xml:id="note182" index="false">
-      <span id="46a85f9b-4996-4dbb-9a91-265f2a52e017" rend="left" data-class="paragraph">
-        дядя
-        <choice>
-         <reg>
-          Мартын
-         </reg>
-         <orig>
-          Мартынъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          подавил
-         </reg>
-         <orig>
-          подавилъ
-         </orig>
-        </choice>
-        однакоже
-        <choice>
-         <reg>
-          вздох
-         </reg>
-         <orig>
-          вздохъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          расставаясь
-         </reg>
-         <orig>
-          разставаясь
-         </orig>
-        </choice>
-        со
-        <choice>
-         <reg>
-          своим
-         </reg>
-         <orig>
-          своимъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          сокровищем
-         </reg>
-         <orig>
-          сокровищемъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          тем
-         </reg>
-         <orig>
-          тѣмъ
-         </orig>
-        </choice>
-        , что
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        сработаль
-        <choice>
-         <reg>
-          самого
-         </reg>
-         <orig>
-          самаго
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          лучшего
-         </reg>
-         <orig>
-          лучшаго
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        жизни.
-       </span>
-      </note>
+     <ref target="#note182">
+      182
+     </ref>
+     <note index="false" xml:id="note182">
+      <span data-class="paragraph" id="46a85f9b-4996-4dbb-9a91-265f2a52e017" rend="left">
+       дядя
+       <choice>
+        <reg>
+         Мартын
+        </reg>
+        <orig>
+         Мартынъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         подавил
+        </reg>
+        <orig>
+         подавилъ
+        </orig>
+       </choice>
+       однакоже
+       <choice>
+        <reg>
+         вздох
+        </reg>
+        <orig>
+         вздохъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         расставаясь
+        </reg>
+        <orig>
+         разставаясь
+        </orig>
+       </choice>
+       со
+       <choice>
+        <reg>
+         своим
+        </reg>
+        <orig>
+         своимъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         сокровищем
+        </reg>
+        <orig>
+         сокровищемъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         тем
+        </reg>
+        <orig>
+         тѣмъ
+        </orig>
+       </choice>
+       , что
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       сработаль
+       <choice>
+        <reg>
+         самого
+        </reg>
+        <orig>
+         самаго
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         лучшего
+        </reg>
+        <orig>
+         лучшаго
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       жизни.
+      </span>
+     </note>
     </p>
     <p id="bca6dddf-fd7d-4f0a-8aec-b49840c761c8" rend="left">
      Жалко стало
@@ -8432,11 +8705,14 @@
        носитъ
       </orig>
      </choice>
-     <ref target="#note183">183</ref><note xml:id="note183" index="false">
-      <span id="39b51893-81f5-44fb-a519-258c3d5a5952" rend="left" data-class="paragraph">
-        их дитя
-       </span>
-      </note>
+     <ref target="#note183">
+      183
+     </ref>
+     <note index="false" xml:id="note183">
+      <span data-class="paragraph" id="39b51893-81f5-44fb-a519-258c3d5a5952" rend="left">
+       их дитя
+      </span>
+     </note>
      <choice>
       <reg>
        христианская
@@ -8493,11 +8769,14 @@
       </orig>
      </choice>
      опять
-     <ref target="#note184">184</ref><note xml:id="note184" index="false">
-      <span id="8ad69bd3-c808-439e-860e-637841ab11d5" rend="left" data-class="paragraph">
-        вернулся
-       </span>
-      </note>
+     <ref target="#note184">
+      184
+     </ref>
+     <note index="false" xml:id="note184">
+      <span data-class="paragraph" id="8ad69bd3-c808-439e-860e-637841ab11d5" rend="left">
+       вернулся
+      </span>
+     </note>
      <choice>
       <reg>
        сел
@@ -8515,27 +8794,30 @@
       </orig>
      </choice>
      окну и
-     <ref target="#note185">185</ref><note xml:id="note185" index="false">
-      <span id="dc42f3e8-fa19-41de-80f0-2fe35e46cd7b" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        упорно
-        <choice>
-         <reg>
-          смотрел
-         </reg>
-         <orig>
-          смотрѣлъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note185">
+      185
+     </ref>
+     <note index="false" xml:id="note185">
+      <span data-class="paragraph" id="dc42f3e8-fa19-41de-80f0-2fe35e46cd7b" rend="left">
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       упорно
+       <choice>
+        <reg>
+         смотрел
+        </reg>
+        <orig>
+         смотрѣлъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      опять
      <choice>
       <reg>
@@ -8554,11 +8836,14 @@
       </orig>
      </choice>
      на улицу.
-     <ref target="#note186">186</ref><note xml:id="note186" index="false">
-      <span id="2d946b38-cd9e-46c6-af93-7a9ebbed99f7" rend="left" data-class="paragraph">
-        что это поразило его гостью
-       </span>
-      </note>
+     <ref target="#note186">
+      186
+     </ref>
+     <note index="false" xml:id="note186">
+      <span data-class="paragraph" id="2d946b38-cd9e-46c6-af93-7a9ebbed99f7" rend="left">
+       что это поразило его гостью
+      </span>
+     </note>
     </p>
     <p id="2f32eaf8-0435-4203-97c6-b5dd5bbcb555" rend="left">
      — «Что это вы
@@ -8571,27 +8856,30 @@
       </orig>
      </choice>
      все смотрите?» спросила она.
-     <ref target="#note187">187</ref><note xml:id="note187" index="false">
-      <span id="15fde715-e096-4327-a59d-b1c20c0d9821" rend="left" data-class="paragraph">
-        «Я жду моего Господа»,
-        <choice>
-         <reg>
-          отвечал
-         </reg>
-         <orig>
-          отвѣчалъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          башмачник
-         </reg>
-         <orig>
-          башмачникъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note187">
+      187
+     </ref>
+     <note index="false" xml:id="note187">
+      <span data-class="paragraph" id="15fde715-e096-4327-a59d-b1c20c0d9821" rend="left">
+       «Я жду моего Господа»,
+       <choice>
+        <reg>
+         отвечал
+        </reg>
+        <orig>
+         отвѣчалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         башмачник
+        </reg>
+        <orig>
+         башмачникъ
+        </orig>
+       </choice>
+      </span>
+     </note>
     </p>
     <p id="ee2d47fa-8889-46c9-8128-df23ca8fa899" rend="left">
      <choice>
@@ -8682,27 +8970,30 @@
     </p>
     <p id="d2a5e7ea-5c2e-4255-aca9-a9e8c95a503e" rend="left">
      Женщина
-     <ref target="#note188">188</ref><note xml:id="note188" index="false">
-      <span id="18a79da2-9d3c-4c0b-928e-c50c1385447d" rend="left" data-class="paragraph">
-        казалось, не поняла или не
-        <choice>
-         <reg>
-          расслышала
-         </reg>
-         <orig>
-          разслышала
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          ответа
-         </reg>
-         <orig>
-          отвѣта
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note188">
+      188
+     </ref>
+     <note index="false" xml:id="note188">
+      <span data-class="paragraph" id="18a79da2-9d3c-4c0b-928e-c50c1385447d" rend="left">
+       казалось, не поняла или не
+       <choice>
+        <reg>
+         расслышала
+        </reg>
+        <orig>
+         разслышала
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ответа
+        </reg>
+        <orig>
+         отвѣта
+        </orig>
+       </choice>
+      </span>
+     </note>
      покачала головой и ничего не сказала.
     </p>
     <p id="204cce84-1bc5-4ae1-baa5-b6060bad76de" rend="left">
@@ -8716,18 +9007,21 @@
       </orig>
      </choice>
      знаешь Господа Іисуса Христа?»
-     <ref target="#note189">189</ref><note xml:id="note189" index="false">
-      <span id="4719b5fc-54e7-42e6-b840-34362d2dd8b5" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          продолжал
-         </reg>
-         <orig>
-          продолжалъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note189">
+      189
+     </ref>
+     <note index="false" xml:id="note189">
+      <span data-class="paragraph" id="4719b5fc-54e7-42e6-b840-34362d2dd8b5" rend="left">
+       <choice>
+        <reg>
+         продолжал
+        </reg>
+        <orig>
+         продолжалъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        спросил
@@ -8758,11 +9052,14 @@
       </orig>
      </choice>
      она, «я
-     <ref target="#note190">190</ref><note xml:id="note190" index="false">
-      <span id="f0087c52-fa88-48f6-8e34-19757ea7d591" rend="left" data-class="paragraph">
-        еще маленькая
-       </span>
-      </note>
+     <ref target="#note190">
+      190
+     </ref>
+     <note index="false" xml:id="note190">
+      <span data-class="paragraph" id="f0087c52-fa88-48f6-8e34-19757ea7d591" rend="left">
+       еще маленькая
+      </span>
+     </note>
      <hi rend="sup"/>
      и
      <choice>
@@ -8774,19 +9071,22 @@
       </orig>
      </choice>
      знаю, я
-     <ref target="#note191">191</ref><note xml:id="note191" index="false">
-      <span id="69198572-b555-4aa9-a658-3efc5cb8782f" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        подарили
-       </span>
-      </note>
+     <ref target="#note191">
+      191
+     </ref>
+     <note index="false" xml:id="note191">
+      <span data-class="paragraph" id="69198572-b555-4aa9-a658-3efc5cb8782f" rend="left">
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       подарили
+      </span>
+     </note>
      <hi rend="sup"/>
      <choice>
       <reg>
@@ -8814,33 +9114,39 @@
       </orig>
      </choice>
      ,
-     <ref target="#note192">192</ref><note xml:id="note192" index="false">
-      <span id="358e24f6-6fb8-4eae-8fa1-88dbbdca1f67" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          Как
-         </reg>
-         <orig>
-          Какъ
-         </orig>
-        </choice>
-        выберется свободная минутка, все его
-       </span>
-      </note>
+     <ref target="#note192">
+      192
+     </ref>
+     <note index="false" xml:id="note192">
+      <span data-class="paragraph" id="358e24f6-6fb8-4eae-8fa1-88dbbdca1f67" rend="left">
+       <choice>
+        <reg>
+         Как
+        </reg>
+        <orig>
+         Какъ
+        </orig>
+       </choice>
+       выберется свободная минутка, все его
+      </span>
+     </note>
      я читала.
-     <ref target="#note193">193</ref><note xml:id="note193" index="false">
-      <span id="17cdec1f-7750-4ad0-9a4a-76a3d0a8556d" rend="left" data-class="paragraph">
-        Ни до какой другой книжки, бывало, и охоты
-        <choice>
-         <reg>
-          нет
-         </reg>
-         <orig>
-          нѣтъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note193">
+      193
+     </ref>
+     <note index="false" xml:id="note193">
+      <span data-class="paragraph" id="17cdec1f-7750-4ad0-9a4a-76a3d0a8556d" rend="left">
+       Ни до какой другой книжки, бывало, и охоты
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      И теперь бы почитала когда, да
      <choice>
       <reg>
@@ -8877,140 +9183,143 @@
       </orig>
      </choice>
      .
-     <ref target="#note194">194</ref><note xml:id="note194" index="false">
-      <span id="afa2255c-f89b-47fa-8664-7464bbed850f" rend="left" data-class="paragraph">
-        «
-        <choice>
-         <reg>
-          Вот
-         </reg>
-         <orig>
-          Вотъ
-         </orig>
-        </choice>
-        Его то я теперь и жду»,
-        <choice>
-         <reg>
-          сказал
-         </reg>
-         <orig>
-          сказалъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          старик
-         </reg>
-         <orig>
-          старикъ
-         </orig>
-        </choice>
-        . — И вы думаете.
-        <choice>
-         <reg>
-          Он
-         </reg>
-         <orig>
-          Онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          придет
-         </reg>
-         <orig>
-          придетъ
-         </orig>
-        </choice>
-        ? «Думаю, что
-        <choice>
-         <reg>
-          придет
-         </reg>
-         <orig>
-          придетъ
-         </orig>
-        </choice>
-        —
-        <choice>
-         <reg>
-          Он
-         </reg>
-         <orig>
-          Онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          сам
-         </reg>
-         <orig>
-          самъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          сказал
-         </reg>
-         <orig>
-          сказалъ
-         </orig>
-        </choice>
-        , —
-        <choice>
-         <reg>
-          может
-         </reg>
-         <orig>
-          можетъ
-         </orig>
-        </choice>
-        ли это быть,
-        <choice>
-         <reg>
-          хотелось
-         </reg>
-         <orig>
-          хотѣлось
-         </orig>
-        </choice>
-        бы и
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        подождать Его
-        <choice>
-         <reg>
-          здесь
-         </reg>
-         <orig>
-          здѣсь
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note194">
+      194
+     </ref>
+     <note index="false" xml:id="note194">
+      <span data-class="paragraph" id="afa2255c-f89b-47fa-8664-7464bbed850f" rend="left">
+       «
+       <choice>
+        <reg>
+         Вот
+        </reg>
+        <orig>
+         Вотъ
+        </orig>
+       </choice>
+       Его то я теперь и жду»,
+       <choice>
+        <reg>
+         сказал
+        </reg>
+        <orig>
+         сказалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         старик
+        </reg>
+        <orig>
+         старикъ
+        </orig>
+       </choice>
+       . — И вы думаете.
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         придет
+        </reg>
+        <orig>
+         придетъ
+        </orig>
+       </choice>
+       ? «Думаю, что
+       <choice>
+        <reg>
+         придет
+        </reg>
+        <orig>
+         придетъ
+        </orig>
+       </choice>
+       —
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         сам
+        </reg>
+        <orig>
+         самъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         сказал
+        </reg>
+        <orig>
+         сказалъ
+        </orig>
+       </choice>
+       , —
+       <choice>
+        <reg>
+         может
+        </reg>
+        <orig>
+         можетъ
+        </orig>
+       </choice>
+       ли это быть,
+       <choice>
+        <reg>
+         хотелось
+        </reg>
+        <orig>
+         хотѣлось
+        </orig>
+       </choice>
+       бы и
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       подождать Его
+       <choice>
+        <reg>
+         здесь
+        </reg>
+        <orig>
+         здѣсь
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
     </p>
     <p id="b9bf0229-a6e4-4145-a24a-d80f699b4268" rend="left">
      — Ну спасибо
@@ -9088,18 +9397,21 @@
       </orig>
      </choice>
      лавки,
-     <ref target="#note195">195</ref><note xml:id="note195" index="false">
-      <span id="6e0affc6-333d-462b-ad94-95d90b4e2971" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          места
-         </reg>
-         <orig>
-          мѣста
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note195">
+      195
+     </ref>
+     <note index="false" xml:id="note195">
+      <span data-class="paragraph" id="6e0affc6-333d-462b-ad94-95d90b4e2971" rend="left">
+       <choice>
+        <reg>
+         места
+        </reg>
+        <orig>
+         мѣста
+        </orig>
+       </choice>
+      </span>
+     </note>
      укутала ребенка
      <choice>
       <reg>
@@ -9119,37 +9431,40 @@
       </orig>
      </choice>
      и стала кланяться старику, благодаря его за
-     <ref target="#note196">196</ref><note xml:id="note196" index="false">
-      <span id="f6a52132-7807-44a0-afe8-1fbb5af4a75c" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          гостеприимство
-         </reg>
-         <orig>
-          гостепрiимство
-         </orig>
-        </choice>
-        . А
-        <choice>
-         <reg>
-          Евангелие
-         </reg>
-         <orig>
-          Евангелiе
-         </orig>
-        </choice>
-        еще при
-        <choice>
-         <reg>
-          тебе
-         </reg>
-         <orig>
-          тебѣ
-         </orig>
-        </choice>
-        ?
-       </span>
-      </note>
+     <ref target="#note196">
+      196
+     </ref>
+     <note index="false" xml:id="note196">
+      <span data-class="paragraph" id="f6a52132-7807-44a0-afe8-1fbb5af4a75c" rend="left">
+       <choice>
+        <reg>
+         гостеприимство
+        </reg>
+        <orig>
+         гостепрiимство
+        </orig>
+       </choice>
+       . А
+       <choice>
+        <reg>
+         Евангелие
+        </reg>
+        <orig>
+         Евангелiе
+        </orig>
+       </choice>
+       еще при
+       <choice>
+        <reg>
+         тебе
+        </reg>
+        <orig>
+         тебѣ
+        </orig>
+       </choice>
+       ?
+      </span>
+     </note>
      его милость. «
      <choice>
       <reg>
@@ -9208,115 +9523,118 @@
       </orig>
      </choice>
      , дядюшка,
-     <ref target="#note197">197</ref><note xml:id="note197" index="false">
-      <span id="b60df312-9f97-4a14-8e30-fb756543273c" rend="left" data-class="paragraph">
-        не при
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        —
-        <choice>
-         <reg>
-          муж
-         </reg>
-         <orig>
-          мужъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          взял
-         </reg>
-         <orig>
-          взялъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        собой,
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        на службу
-        <choice>
-         <reg>
-          пошел
-         </reg>
-         <orig>
-          пошелъ
-         </orig>
-        </choice>
-        ; я и рада, что
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          взял
-         </reg>
-         <orig>
-          взялъ
-         </orig>
-        </choice>
-        — думаю,
-        <choice>
-         <reg>
-          от
-         </reg>
-         <orig>
-          отъ
-         </orig>
-        </choice>
-        зла
-        <choice>
-         <reg>
-          сбережет
-         </reg>
-         <orig>
-          сбережетъ
-         </orig>
-        </choice>
-        его, да и жаль было
-        <choice>
-         <reg>
-          расстаться
-         </reg>
-         <orig>
-          разстаться
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        Божьей книгой».
-       </span>
-      </note>
+     <ref target="#note197">
+      197
+     </ref>
+     <note index="false" xml:id="note197">
+      <span data-class="paragraph" id="b60df312-9f97-4a14-8e30-fb756543273c" rend="left">
+       не при
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       —
+       <choice>
+        <reg>
+         муж
+        </reg>
+        <orig>
+         мужъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         взял
+        </reg>
+        <orig>
+         взялъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       собой,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       на службу
+       <choice>
+        <reg>
+         пошел
+        </reg>
+        <orig>
+         пошелъ
+        </orig>
+       </choice>
+       ; я и рада, что
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         взял
+        </reg>
+        <orig>
+         взялъ
+        </orig>
+       </choice>
+       — думаю,
+       <choice>
+        <reg>
+         от
+        </reg>
+        <orig>
+         отъ
+        </orig>
+       </choice>
+       зла
+       <choice>
+        <reg>
+         сбережет
+        </reg>
+        <orig>
+         сбережетъ
+        </orig>
+       </choice>
+       его, да и жаль было
+       <choice>
+        <reg>
+         расстаться
+        </reg>
+        <orig>
+         разстаться
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       Божьей книгой».
+      </span>
+     </note>
      <choice>
       <reg>
        сгорело
@@ -9398,18 +9716,21 @@
        сказалъ
       </orig>
      </choice>
-     <ref target="#note198">198</ref><note xml:id="note198" index="false">
-      <span id="471dc852-f3ac-4784-8c8b-4367a16e76a4" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          старик
-         </reg>
-         <orig>
-          старикъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note198">
+      198
+     </ref>
+     <note index="false" xml:id="note198">
+      <span data-class="paragraph" id="471dc852-f3ac-4784-8c8b-4367a16e76a4" rend="left">
+       <choice>
+        <reg>
+         старик
+        </reg>
+        <orig>
+         старикъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        он
@@ -9455,20 +9776,23 @@
       </orig>
      </choice>
      тебя.
-     <ref target="#note199">199</ref><note xml:id="note199" index="false">
-      <span id="3a9f8da8-caaf-48eb-8a90-b9e454a02bb7" rend="left" data-class="paragraph">
-        хоть ты и не дождешься Его здесь, сегодня; а
-        <choice>
-         <reg>
-          может
-         </reg>
-         <orig>
-          можетъ
-         </orig>
-        </choice>
-        быть, когда-нибудь и увидишь Его»
-       </span>
-      </note>
+     <ref target="#note199">
+      199
+     </ref>
+     <note index="false" xml:id="note199">
+      <span data-class="paragraph" id="3a9f8da8-caaf-48eb-8a90-b9e454a02bb7" rend="left">
+       хоть ты и не дождешься Его здесь, сегодня; а
+       <choice>
+        <reg>
+         может
+        </reg>
+        <orig>
+         можетъ
+        </orig>
+       </choice>
+       быть, когда-нибудь и увидишь Его»
+      </span>
+     </note>
     </p>
     <p id="5e4d86a5-be62-40f6-a840-fb6ca8cccd57" rend="left">
      Женщина ваяла Евангеліе, и все лицо ея просіяло отъ радости. Старикъ сунулъ ей въ руку еще двугривенный и обѣщалъ
@@ -9556,119 +9880,122 @@
       </orig>
      </choice>
      . Много проходило народу: старые и молодые, мастеровые, солдаты, торговцы
-     <ref target="#note200">200</ref><note xml:id="note200" index="false">
-      <span id="9e810ea9-41e6-45c2-a628-621ef51d1daa" rend="left" data-class="paragraph">
-        <del>
-         и бабы
-         <choice>
-          <reg>
-           с
-          </reg>
-          <orig>
-           съ
-          </orig>
-         </choice>
-         ребятишками. Проходили и
-         <choice>
-          <reg>
-           нищие
-          </reg>
-          <orig>
-           нищiе
-          </orig>
-         </choice>
-         , и
-         <choice>
-          <reg>
-           увидав
-          </reg>
-          <orig>
-           увидавъ
-          </orig>
-         </choice>
-         добродушное лицо, прижатое
-         <choice>
-          <reg>
-           к
-          </reg>
-          <orig>
-           къ
-          </orig>
-         </choice>
-         окошку, останавливались иной
-         <choice>
-          <reg>
-           раз
-          </reg>
-          <orig>
-           разъ
-          </orig>
-         </choice>
-         , протягивая
-         <choice>
-          <reg>
-           окоченевшую
-          </reg>
-          <orig>
-           окоченѣвшую
-          </orig>
-         </choice>
-         руку. То ломоть
-         <choice>
-          <reg>
-           хлеба
-          </reg>
-          <orig>
-           хлѣба
-          </orig>
-         </choice>
-         , то
-         <choice>
-          <reg>
-           медная
-          </reg>
-          <orig>
-           мѣдная
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           копейка
-          </reg>
-          <orig>
-           копѣйка
-          </orig>
-         </choice>
-         попадала
-         <choice>
-          <reg>
-           в
-          </reg>
-          <orig>
-           въ
-          </orig>
-         </choice>
-         эти руки из коморки дяди Мартына; и
-         <choice>
-          <reg>
-           нищие
-          </reg>
-          <orig>
-           нищiе
-          </orig>
-         </choice>
-         проходили мимо. Но Господь не являлся.
-         <hi rend="italic">
-          Далее на отдельном листе была сделана большая вставка
-         </hi>
-         ,
-         <hi rend="italic">
-          см. ниже стр.
-         </hi>
-         682—683.
-        </del>
-       </span>
-      </note>
+     <ref target="#note200">
+      200
+     </ref>
+     <note index="false" xml:id="note200">
+      <span data-class="paragraph" id="9e810ea9-41e6-45c2-a628-621ef51d1daa" rend="left">
+       <del>
+        и бабы
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        ребятишками. Проходили и
+        <choice>
+         <reg>
+          нищие
+         </reg>
+         <orig>
+          нищiе
+         </orig>
+        </choice>
+        , и
+        <choice>
+         <reg>
+          увидав
+         </reg>
+         <orig>
+          увидавъ
+         </orig>
+        </choice>
+        добродушное лицо, прижатое
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        окошку, останавливались иной
+        <choice>
+         <reg>
+          раз
+         </reg>
+         <orig>
+          разъ
+         </orig>
+        </choice>
+        , протягивая
+        <choice>
+         <reg>
+          окоченевшую
+         </reg>
+         <orig>
+          окоченѣвшую
+         </orig>
+        </choice>
+        руку. То ломоть
+        <choice>
+         <reg>
+          хлеба
+         </reg>
+         <orig>
+          хлѣба
+         </orig>
+        </choice>
+        , то
+        <choice>
+         <reg>
+          медная
+         </reg>
+         <orig>
+          мѣдная
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          копейка
+         </reg>
+         <orig>
+          копѣйка
+         </orig>
+        </choice>
+        попадала
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        эти руки из коморки дяди Мартына; и
+        <choice>
+         <reg>
+          нищие
+         </reg>
+         <orig>
+          нищiе
+         </orig>
+        </choice>
+        проходили мимо. Но Господь не являлся.
+        <hi rend="italic">
+         Далее на отдельном листе была сделана большая вставка
+        </hi>
+        ,
+        <hi rend="italic">
+         см. ниже стр.
+        </hi>
+        682—683.
+       </del>
+      </span>
+     </note>
      и ребятишки и бабы, но все не было того, кого
      <choice>
       <reg>
@@ -9790,18 +10117,21 @@
        съ
       </orig>
      </choice>
-     <ref target="#note201">201</ref><note xml:id="note201" index="false">
-      <span id="0cc87fa2-4c5f-4343-bbd8-c4db0c9ca9c5" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          большим
-         </reg>
-         <orig>
-          большимъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note201">
+      201
+     </ref>
+     <note index="false" xml:id="note201">
+      <span data-class="paragraph" id="0cc87fa2-4c5f-4343-bbd8-c4db0c9ca9c5" rend="left">
+       <choice>
+        <reg>
+         большим
+        </reg>
+        <orig>
+         большимъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        мешком
@@ -9864,11 +10194,14 @@
       </orig>
      </choice>
      и
-     <ref target="#note202">202</ref><note xml:id="note202" index="false">
-      <span id="f3a80008-677e-4a74-b616-6d53c5b42de8" rend="left" data-class="paragraph">
-        стала укутывать перевязывать
-       </span>
-      </note>
+     <ref target="#note202">
+      202
+     </ref>
+     <note index="false" xml:id="note202">
+      <span data-class="paragraph" id="f3a80008-677e-4a74-b616-6d53c5b42de8" rend="left">
+       стала укутывать перевязывать
+      </span>
+     </note>
      развязала
      <choice>
       <reg>
@@ -9879,11 +10212,14 @@
       </orig>
      </choice>
      , запахнулась лучше рваной
-     <ref target="#note203">203</ref><note xml:id="note203" index="false">
-      <span id="b12097a3-d5ba-4cc9-bc3e-1c32b81c2fe9" rend="left" data-class="paragraph">
-        шубенкой
-       </span>
-      </note>
+     <ref target="#note203">
+      203
+     </ref>
+     <note index="false" xml:id="note203">
+      <span data-class="paragraph" id="b12097a3-d5ba-4cc9-bc3e-1c32b81c2fe9" rend="left">
+       шубенкой
+      </span>
+     </note>
      куцавейкой и стала на
      <choice>
       <reg>
@@ -9937,43 +10273,46 @@
       </orig>
      </choice>
      латка яблоко
-     <ref target="#note204">204</ref><note xml:id="note204" index="false">
-      <span id="462fb938-4111-4301-92bd-e71b5cb11aeb" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          выхватил
-         </reg>
-         <orig>
-          выхватилъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          из
-         </reg>
-         <orig>
-          изъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          мешка
-         </reg>
-         <orig>
-          мѣшка
-         </orig>
-        </choice>
-        охапку
-        <choice>
-         <reg>
-          щепок
-         </reg>
-         <orig>
-          щепокъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note204">
+      204
+     </ref>
+     <note index="false" xml:id="note204">
+      <span data-class="paragraph" id="462fb938-4111-4301-92bd-e71b5cb11aeb" rend="left">
+       <choice>
+        <reg>
+         выхватил
+        </reg>
+        <orig>
+         выхватилъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мешка
+        </reg>
+        <orig>
+         мѣшка
+        </orig>
+       </choice>
+       охапку
+       <choice>
+        <reg>
+         щепок
+        </reg>
+        <orig>
+         щепокъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      и
      <choice>
       <reg>
@@ -9992,11 +10331,14 @@
       </orig>
      </choice>
      , но старуха
-     <ref target="#note205">205</ref><note xml:id="note205" index="false">
-      <span id="c070dd76-02d2-4374-8fb2-e76037ba44bd" rend="left" data-class="paragraph">
-        живо обернулась
-       </span>
-      </note>
+     <ref target="#note205">
+      205
+     </ref>
+     <note index="false" xml:id="note205">
+      <span data-class="paragraph" id="c070dd76-02d2-4374-8fb2-e76037ba44bd" rend="left">
+       живо обернулась
+      </span>
+     </note>
      увидала повернулась и поймала его за руку.
      <choice>
       <reg>
@@ -10198,37 +10540,40 @@
       </orig>
      </choice>
      прощать.
-     <ref target="#note206">206</ref><note xml:id="note206" index="false">
-      <span id="3c587b84-38e4-4eda-b654-43f9167ef012" rend="left" data-class="paragraph">
-        Я чай у тебя и свои
-        <choice>
-         <reg>
-          дети
-         </reg>
-         <orig>
-          дѣти
-         </orig>
-        </choice>
-        были. Пусти его,
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        не
-        <choice>
-         <reg>
-          уйдет
-         </reg>
-         <orig>
-          уйдетъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note206">
+      206
+     </ref>
+     <note index="false" xml:id="note206">
+      <span data-class="paragraph" id="3c587b84-38e4-4eda-b654-43f9167ef012" rend="left">
+       Я чай у тебя и свои
+       <choice>
+        <reg>
+         дети
+        </reg>
+        <orig>
+         дѣти
+        </orig>
+       </choice>
+       были. Пусти его,
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       не
+       <choice>
+        <reg>
+         уйдет
+        </reg>
+        <orig>
+         уйдетъ
+        </orig>
+       </choice>
+      </span>
+     </note>
     </p>
     <p id="756acbc1-e938-430a-9125-d09e8cc95919" rend="left">
      Старуха пустила мальчика, а
@@ -10432,83 +10777,57 @@
       </orig>
      </choice>
      надо?
-     <ref target="#note207">207</ref><note xml:id="note207" index="false">
-      <span id="9501532b-46a7-4bbb-be37-e4d07c09d0e9" rend="left" data-class="paragraph">
-        <del>
-         Были и мы съ тобой такіе же. И у насъ такія же дѣти были. У меня была такая же да прибралъ ее Богь. У тебя что были дѣти, бабушка? Старуха не слушала Авдѣича до тѣхъ поръ, пока онъ не спросилъ ее были ли у нея дѣти, но когда онъ спросилъ ее объ этомъ, она вдругъ размякла. Было и у меня дѣдушка, да 8 человѣкъ, сказала она
-         <hi rend="italic">
-          (зач.
-         </hi>
-         старуха) да только одна
-         <hi rend="italic">
-          (зач.
-         </hi>
-         двое) осталась. И
-         <choice>
-          <reg>
-           хорошие
-          </reg>
-          <orig>
-           хорошiе
-          </orig>
-         </choice>
-         были
-         <choice>
-          <reg>
-           дети
-          </reg>
-          <orig>
-           дѣти
-          </orig>
-         </choice>
-         .
-         <choice>
-          <reg>
-           Сын
-          </reg>
-          <orig>
-           Сынъ
-          </orig>
-         </choice>
-         у меня умный Ва. Теперь внучки.
-         <choice>
-          <reg>
-           Один
-          </reg>
-          <orig>
-           Одинъ
-          </orig>
-         </choice>
-         такой то. И
-         <choice>
-          <reg>
-           вот
-          </reg>
-          <orig>
-           вотъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           им
-          </reg>
-          <orig>
-           имъ
-          </orig>
-         </choice>
-         то и несу протопиться.
-        </del>
-       </span>
-       <span id="6294ec81-dcec-423e-b388-b899844e9ea2" rend="left" data-class="paragraph">
-        —
+     <ref target="#note207">
+      207
+     </ref>
+     <note index="false" xml:id="note207">
+      <span data-class="paragraph" id="9501532b-46a7-4bbb-be37-e4d07c09d0e9" rend="left">
+       <del>
+        Были и мы съ тобой такіе же. И у насъ такія же дѣти были. У меня была такая же да прибралъ ее Богь. У тебя что были дѣти, бабушка? Старуха не слушала Авдѣича до тѣхъ поръ, пока онъ не спросилъ ее были ли у нея дѣти, но когда онъ спросилъ ее объ этомъ, она вдругъ размякла. Было и у меня дѣдушка, да 8 человѣкъ, сказала она
+        <hi rend="italic">
+         (зач.
+        </hi>
+        старуха) да только одна
+        <hi rend="italic">
+         (зач.
+        </hi>
+        двое) осталась. И
         <choice>
          <reg>
-          Так
+          хорошие
          </reg>
          <orig>
-          Такъ
+          хорошiе
          </orig>
         </choice>
+        были
+        <choice>
+         <reg>
+          дети
+         </reg>
+         <orig>
+          дѣти
+         </orig>
+        </choice>
+        .
+        <choice>
+         <reg>
+          Сын
+         </reg>
+         <orig>
+          Сынъ
+         </orig>
+        </choice>
+        у меня умный Ва. Теперь внучки.
+        <choice>
+         <reg>
+          Один
+         </reg>
+         <orig>
+          Одинъ
+         </orig>
+        </choice>
+        такой то. И
         <choice>
          <reg>
           вот
@@ -10519,32 +10838,61 @@
         </choice>
         <choice>
          <reg>
-          жалеешь
+          им
          </reg>
          <orig>
-          жалѣешь
+          имъ
          </orig>
         </choice>
-        <choice>
-         <reg>
-          их
-         </reg>
-         <orig>
-          ихъ
-         </orig>
-        </choice>
-        и его
-        <choice>
-         <reg>
-          пожалеть
-         </reg>
-         <orig>
-          пожалѣть
-         </orig>
-        </choice>
-        надо.
-       </span>
-       </note>
+        то и несу протопиться.
+       </del>
+      </span>
+      <span data-class="paragraph" id="6294ec81-dcec-423e-b388-b899844e9ea2" rend="left">
+       —
+       <choice>
+        <reg>
+         Так
+        </reg>
+        <orig>
+         Такъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вот
+        </reg>
+        <orig>
+         вотъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         жалеешь
+        </reg>
+        <orig>
+         жалѣешь
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         их
+        </reg>
+        <orig>
+         ихъ
+        </orig>
+       </choice>
+       и его
+       <choice>
+        <reg>
+         пожалеть
+        </reg>
+        <orig>
+         пожалѣть
+        </orig>
+       </choice>
+       надо.
+      </span>
+     </note>
     </p>
     <p id="934fe356-ea87-43be-8fc8-6e1d6c569065" rend="left">
      <pb n="582"/>
@@ -10831,53 +11179,56 @@
       </orig>
      </choice>
      размякла старуха и сказала.
-     <ref target="#note208">208</ref><note xml:id="note208" index="false">
-      <span id="72470922-8cb6-407a-a75a-71e95041ee7c" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          Известно
-         </reg>
-         <orig>
-          Извѣстно
-         </orig>
-        </choice>
-        , ребячье
-        <choice>
-         <reg>
-          дело
-         </reg>
-         <orig>
-          дѣло
-         </orig>
-        </choice>
-        .
-        <choice>
-         <reg>
-          Бог
-         </reg>
-         <orig>
-          Богъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          ним
-         </reg>
-         <orig>
-          нимъ
-         </orig>
-        </choice>
-        , сказала старуха
-       </span>
-      </note>
+     <ref target="#note208">
+      208
+     </ref>
+     <note index="false" xml:id="note208">
+      <span data-class="paragraph" id="72470922-8cb6-407a-a75a-71e95041ee7c" rend="left">
+       <choice>
+        <reg>
+         Известно
+        </reg>
+        <orig>
+         Извѣстно
+        </orig>
+       </choice>
+       , ребячье
+       <choice>
+        <reg>
+         дело
+        </reg>
+        <orig>
+         дѣло
+        </orig>
+       </choice>
+       .
+       <choice>
+        <reg>
+         Бог
+        </reg>
+        <orig>
+         Богъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ним
+        </reg>
+        <orig>
+         нимъ
+        </orig>
+       </choice>
+       , сказала старуха
+      </span>
+     </note>
     </p>
     <p id="b91fa44f-e79f-4244-a33f-8279f917921b" rend="left">
      Ну
@@ -11122,32 +11473,38 @@
       </orig>
      </choice>
      , глаза старика устали
-     <ref target="#note209">209</ref><note xml:id="note209" index="false">
-      <span id="b40b3d3a-0455-4d8b-a0ab-4f0c95716830" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          от
-         </reg>
-         <orig>
-          отъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          напряжения
-         </reg>
-         <orig>
-          напряженiя
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note209">
+      209
+     </ref>
+     <note index="false" xml:id="note209">
+      <span data-class="paragraph" id="b40b3d3a-0455-4d8b-a0ab-4f0c95716830" rend="left">
+       <choice>
+        <reg>
+         от
+        </reg>
+        <orig>
+         отъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         напряжения
+        </reg>
+        <orig>
+         напряженiя
+        </orig>
+       </choice>
+      </span>
+     </note>
      и сердце
-     <ref target="#note210">210</ref><note xml:id="note210" index="false">
-      <span id="7f46b28a-3e7f-4253-a783-ca4f85565316" rend="left" data-class="paragraph">
-        заныло тоскою
-       </span>
-      </note>
+     <ref target="#note210">
+      210
+     </ref>
+     <note index="false" xml:id="note210">
+      <span data-class="paragraph" id="7f46b28a-3e7f-4253-a783-ca4f85565316" rend="left">
+       заныло тоскою
+      </span>
+     </note>
      стало тосковать.
      <choice>
       <reg>
@@ -11198,25 +11555,31 @@
        напротивъ
       </orig>
      </choice>
-     <ref target="#note211">211</ref><note xml:id="note211" index="false">
-      <span id="257256bb-6057-4cfb-be2f-fac1c10c11eb" rend="left" data-class="paragraph">
-        весело
-       </span>
-      </note>
+     <ref target="#note211">
+      211
+     </ref>
+     <note index="false" xml:id="note211">
+      <span data-class="paragraph" id="257256bb-6057-4cfb-be2f-fac1c10c11eb" rend="left">
+       весело
+      </span>
+     </note>
      заблистали огни.
-     <ref target="#note212">212</ref><note xml:id="note212" index="false">
-      <span id="699747a7-d0d0-4d04-a709-eb45e795570f" rend="left" data-class="paragraph">
-        огоньки на
-        <choice>
-         <reg>
-          елке
-         </reg>
-         <orig>
-          елкѣ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note212">
+      212
+     </ref>
+     <note index="false" xml:id="note212">
+      <span data-class="paragraph" id="699747a7-d0d0-4d04-a709-eb45e795570f" rend="left">
+       огоньки на
+       <choice>
+        <reg>
+         елке
+        </reg>
+        <orig>
+         елкѣ
+        </orig>
+       </choice>
+      </span>
+     </note>
     </p>
     <p id="8b42d003-2d2c-489d-a947-cbc7298b93a4" rend="left">
      А Господь все не являлся!
@@ -11396,11 +11759,14 @@
       </orig>
      </choice>
      , но охоты не было, и голова
-     <ref target="#note213">213</ref><note xml:id="note213" index="false">
-      <span id="37f6912f-f4be-4b05-9982-983c5aec718a" rend="left" data-class="paragraph">
-        уныло
-       </span>
-      </note>
+     <ref target="#note213">
+      213
+     </ref>
+     <note index="false" xml:id="note213">
+      <span data-class="paragraph" id="37f6912f-f4be-4b05-9982-983c5aec718a" rend="left">
+       уныло
+      </span>
+     </note>
      опустилась. «Это
      <choice>
       <reg>
@@ -11505,11 +11871,14 @@
        ужинъ
       </orig>
      </choice>
-     <ref target="#note214">214</ref><note xml:id="note214" index="false">
-      <span id="47aa29d0-290f-4344-b99f-4bbdeb7367e9" rend="left" data-class="paragraph">
-        почти не тронутый
-       </span>
-      </note>
+     <ref target="#note214">
+      214
+     </ref>
+     <note index="false" xml:id="note214">
+      <span data-class="paragraph" id="47aa29d0-290f-4344-b99f-4bbdeb7367e9" rend="left">
+       почти не тронутый
+      </span>
+     </note>
      и
      <choice>
       <reg>
@@ -11529,20 +11898,23 @@
       </orig>
      </choice>
      свою любимую книгу. Но
-     <ref target="#note215">215</ref><note xml:id="note215" index="false">
-      <span id="8c7c01da-ebf9-4efc-9ec9-f94e36992879" rend="left" data-class="paragraph">
-        даже и любимая книга не могла
-        <choice>
-         <reg>
-          развеять
-         </reg>
-         <orig>
-          развѣять
-         </orig>
-        </choice>
-        тоски.
-       </span>
-      </note>
+     <ref target="#note215">
+      215
+     </ref>
+     <note index="false" xml:id="note215">
+      <span data-class="paragraph" id="8c7c01da-ebf9-4efc-9ec9-f94e36992879" rend="left">
+       даже и любимая книга не могла
+       <choice>
+        <reg>
+         развеять
+        </reg>
+        <orig>
+         развѣять
+        </orig>
+       </choice>
+       тоски.
+      </span>
+     </note>
      и читать
      <choice>
       <reg>
@@ -11599,19 +11971,22 @@
       </orig>
      </choice>
      .
-     <ref target="#note216">216</ref><note xml:id="note216" index="false">
-      <span id="26e8a874-a001-4f17-957e-4ac19a8eb851" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          с
-         </reg>
-         <orig>
-          съ
-         </orig>
-        </choice>
-        тоски.
-       </span>
-      </note>
+     <ref target="#note216">
+      216
+     </ref>
+     <note index="false" xml:id="note216">
+      <span data-class="paragraph" id="26e8a874-a001-4f17-957e-4ac19a8eb851" rend="left">
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       тоски.
+      </span>
+     </note>
      <choice>
       <reg>
        Вдруг
@@ -11647,18 +12022,21 @@
        стоялъ
       </orig>
      </choice>
-     <ref target="#note217">217</ref><note xml:id="note217" index="false">
-      <span id="6160d387-259c-4ef1-964b-cb9829afdd4b" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          убогий
-         </reg>
-         <orig>
-          убогiй
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note217">
+      217
+     </ref>
+     <note index="false" xml:id="note217">
+      <span data-class="paragraph" id="6160d387-259c-4ef1-964b-cb9829afdd4b" rend="left">
+       <choice>
+        <reg>
+         убогий
+        </reg>
+        <orig>
+         убогiй
+        </orig>
+       </choice>
+      </span>
+     </note>
      <choice>
       <reg>
        Степаныч
@@ -11724,80 +12102,83 @@
       </orig>
      </choice>
      Меня?»
-     <ref target="#note218">218</ref><note xml:id="note218" index="false">
-      <span id="aca6fa0d-1aec-4af8-b34c-aa672ac03718" rend="left" data-class="paragraph">
-        За ними шли
-        <choice>
-         <reg>
-          нищие
-         </reg>
-         <orig>
-          нищiе
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          которым
-         </reg>
-         <orig>
-          которымъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          подавал
-         </reg>
-         <orig>
-          подавалъ
-         </orig>
-        </choice>
-        милостыню и каждый
-        <choice>
-         <reg>
-          говорил
-         </reg>
-         <orig>
-          говорилъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        свою очередь: «
-        <choice>
-         <reg>
-          Разве
-         </reg>
-         <orig>
-          Развѣ
-         </orig>
-        </choice>
-        ты не
-        <choice>
-         <reg>
-          видал
-         </reg>
-         <orig>
-          видалъ
-         </orig>
-        </choice>
-        меня?»
-       </span>
-      </note>
+     <ref target="#note218">
+      218
+     </ref>
+     <note index="false" xml:id="note218">
+      <span data-class="paragraph" id="aca6fa0d-1aec-4af8-b34c-aa672ac03718" rend="left">
+       За ними шли
+       <choice>
+        <reg>
+         нищие
+        </reg>
+        <orig>
+         нищiе
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         которым
+        </reg>
+        <orig>
+         которымъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         подавал
+        </reg>
+        <orig>
+         подавалъ
+        </orig>
+       </choice>
+       милостыню и каждый
+       <choice>
+        <reg>
+         говорил
+        </reg>
+        <orig>
+         говорилъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       свою очередь: «
+       <choice>
+        <reg>
+         Разве
+        </reg>
+        <orig>
+         Развѣ
+        </orig>
+       </choice>
+       ты не
+       <choice>
+        <reg>
+         видал
+        </reg>
+        <orig>
+         видалъ
+        </orig>
+       </choice>
+       меня?»
+      </span>
+     </note>
     </p>
     <p id="bfe48c37-ae3e-4524-a5b1-0001174849e4" rend="left">
      «Да кто же вы
@@ -11906,27 +12287,30 @@
        Евангелiемъ
       </orig>
      </choice>
-     <ref target="#note219">219</ref><note xml:id="note219" index="false">
-      <span id="1aa72879-e949-48a9-be6c-48631265dc47" rend="left" data-class="paragraph">
-        которое
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          читал
-         </reg>
-         <orig>
-          читалъ
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note219">
+      219
+     </ref>
+     <note index="false" xml:id="note219">
+      <span data-class="paragraph" id="1aa72879-e949-48a9-be6c-48631265dc47" rend="left">
+       которое
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         читал
+        </reg>
+        <orig>
+         читалъ
+        </orig>
+       </choice>
+      </span>
+     </note>
      и
      <choice>
       <reg>
@@ -11945,56 +12329,59 @@
       </orig>
      </choice>
      на
-     <ref target="#note220">220</ref><note xml:id="note220" index="false">
-      <span id="40bc7294-3d2f-4ff0-9aab-30b63b84b635" rend="left" data-class="paragraph">
-        то
-        <choice>
-         <reg>
-          место
-         </reg>
-         <orig>
-          мѣсто
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          где
-         </reg>
-         <orig>
-          гдѣ
-         </orig>
-        </choice>
-        сказано: «Кто
-        <choice>
-         <reg>
-          примет
-         </reg>
-         <orig>
-          приметъ
-         </orig>
-        </choice>
-        одно такое дитя во Имя Мое,
-        <choice>
-         <reg>
-          тот
-         </reg>
-         <orig>
-          тотъ
-         </orig>
-        </choice>
-        Меня
-        <choice>
-         <reg>
-          принимает
-         </reg>
-         <orig>
-          принимаетъ
-         </orig>
-        </choice>
-        (Матфея 18,5) и еще на эти слова:
-       </span>
-      </note>
+     <ref target="#note220">
+      220
+     </ref>
+     <note index="false" xml:id="note220">
+      <span data-class="paragraph" id="40bc7294-3d2f-4ff0-9aab-30b63b84b635" rend="left">
+       то
+       <choice>
+        <reg>
+         место
+        </reg>
+        <orig>
+         мѣсто
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         где
+        </reg>
+        <orig>
+         гдѣ
+        </orig>
+       </choice>
+       сказано: «Кто
+       <choice>
+        <reg>
+         примет
+        </reg>
+        <orig>
+         приметъ
+        </orig>
+       </choice>
+       одно такое дитя во Имя Мое,
+       <choice>
+        <reg>
+         тот
+        </reg>
+        <orig>
+         тотъ
+        </orig>
+       </choice>
+       Меня
+       <choice>
+        <reg>
+         принимает
+        </reg>
+        <orig>
+         принимаетъ
+        </orig>
+       </choice>
+       (Матфея 18,5) и еще на эти слова:
+      </span>
+     </note>
      стихи.
     </p>
     <p id="58ab7edc-8e96-4ab9-99d8-96d1aadc4ae5" rend="left">

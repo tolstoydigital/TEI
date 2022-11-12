@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v42_532_553_Krug_chtenija_Nezakonchennoe_obschedostupnoe_izlozhenie">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения</title>
-                <title type="sub">Незаконченное общедоступное изложение </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="26ef196c-7e3c-41f4-bb40-3931d0a043f5">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Незаконченное общедоступное изложение 
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">42</biblScope>
-                        <biblScope unit="page">532-553</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1906"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#not_publ" target="published"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#Tolstoy" target="author"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_532_553_Krug_chtenija_Nezakonchennoe_obschedostupnoe_izlozhenie">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения
+    </title>
+    <title type="sub">
+     Незаконченное общедоступное изложение
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="26ef196c-7e3c-41f4-bb40-3931d0a043f5">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Незаконченное общедоступное изложение
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       532-553
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1906"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000007010">
     <p id="710df45a-e0c9-423e-9cc1-1b415223da3a">
@@ -216,11 +228,14 @@
      </p>
      <p id="628fadab-f94b-46a6-9719-0615f48818ca" rend="left">
       Не надо во что бы то ни стало держаться старины. Надо быть готовым изменить прежние порядки, если
-      <ref target="#note219">219</ref><note xml:id="note219" index="false">
-       <span id="fe1b0865-be34-43d0-8e86-40d86d9c1423" rend="left" data-class="paragraph">
-         &lt;del&gt;явно, что&lt;/del&gt;
-        </span>
-       </note>
+      <ref target="#note219">
+       219
+      </ref>
+      <note index="false" xml:id="note219">
+       <span data-class="paragraph" id="fe1b0865-be34-43d0-8e86-40d86d9c1423" rend="left">
+        &lt;del&gt;явно, что&lt;/del&gt;
+       </span>
+      </note>
       они вредны. Моряк, который будет становить одни и те же паруса при всяком ветре, недалеко уедет.
      </p>
     </div1>
@@ -575,13 +590,16 @@
      </p>
      <p id="fda83a76-55ed-4527-a982-766025c53c9c" rend="left">
       Надо быть добрым со всеми людьми. Доброта
-      <ref target="#note220">220</ref><note xml:id="note220" index="false">
-       <span id="3978ada5-5e45-42f0-b0a9-49ca5b47b247" rend="left" data-class="paragraph">
-         <del>
-          и злоба
-         </del>
-        </span>
-       </note>
+      <ref target="#note220">
+       220
+      </ref>
+      <note index="false" xml:id="note220">
+       <span data-class="paragraph" id="3978ada5-5e45-42f0-b0a9-49ca5b47b247" rend="left">
+        <del>
+         и злоба
+        </del>
+       </span>
+      </note>
       заразительна. Если ты добр к людям, ты делаешь самое важное дело в мире: увеличиваешь доброту в людях.
      </p>
     </div1>
@@ -594,18 +612,21 @@
      </p>
      <p id="8cabbb74-1e8a-44f3-a8cc-2fd0bc5d310f" rend="left">
       И потому, живя в мире, мы должны терпеливо сносить всякие
-      <ref target="#note221">221</ref><note xml:id="note221" index="false">
-       <span id="49ade602-a682-4b49-8975-bf7b746e4bba" rend="left" data-class="paragraph">
-         <hi rend="italic">
-          Переделано из:
-         </hi>
-         всяких;
-         <hi rend="italic">
-          далее зачеркнуто:
-         </hi>
-         людей
-        </span>
-       </note>
+      <ref target="#note221">
+       221
+      </ref>
+      <note index="false" xml:id="note221">
+       <span data-class="paragraph" id="49ade602-a682-4b49-8975-bf7b746e4bba" rend="left">
+        <hi rend="italic">
+         Переделано из:
+        </hi>
+        всяких;
+        <hi rend="italic">
+         далее зачеркнуто:
+        </hi>
+        людей
+       </span>
+      </note>
       недостатки людей, уметь наилучшим образом обходиться с людьми, какие они есть, не рассчитывая на то, что они могут измениться.
      </p>
      <p id="b8076e0d-89b4-486a-bb95-8b311c931fc4" rend="right">

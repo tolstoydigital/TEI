@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v08_386_391_Proekt_ustava_uchebnyh_zavedenij">
-                    [Проект устава учебных заведений]. Tolstoy Digital
-                </title>
-                <title type="main">Проект устава учебных заведений</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d53f0468-39bb-4d6d-abd2-fbc823540c43">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Проект устава учебных заведений]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 8
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">8</biblScope>
-                        <biblScope unit="page">386-391</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1872"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#pedagogika" target="topic"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v08_386_391_Proekt_ustava_uchebnyh_zavedenij">
+     [Проект устава учебных заведений]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Проект устава учебных заведений
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d53f0468-39bb-4d6d-abd2-fbc823540c43">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Проект устава учебных заведений]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 8
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       8
+      </biblScope>
+      <biblScope unit="page">
+       386-391
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1872"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#pedagogika" target="topic"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="1fd5b260-02ff-4e9d-8aa1-01e362afe592">
@@ -3303,31 +3313,34 @@
       </orig>
      </choice>
      устава
-     <ref target="#note72">72</ref><note xml:id="note72" index="false">
-      <span id="2f2fc2d2-9850-42e2-9dcd-7a4742a7584f" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         После двух последних слов вписана недоконченная фраза:
-        </hi>
-        Учителю могутъ
-        <choice original_editorial_correction="б[ыть?]">
-         <sic>
-          б
-         </sic>
-         <corr cert="low">
-          быть
-         </corr>
-        </choice>
-        <choice original_editorial_correction="помощ[ники?]">
-         <sic>
-          помощ
-         </sic>
-         <corr cert="low">
-          помощники
-         </corr>
-        </choice>
-        для низшихъ
-       </span>
-      </note>
+     <ref target="#note72">
+      72
+     </ref>
+     <note index="false" xml:id="note72">
+      <span data-class="paragraph" id="2f2fc2d2-9850-42e2-9dcd-7a4742a7584f" rend="left">
+       <hi rend="italic">
+        После двух последних слов вписана недоконченная фраза:
+       </hi>
+       Учителю могутъ
+       <choice original_editorial_correction="б[ыть?]">
+        <sic>
+         б
+        </sic>
+        <corr cert="low">
+         быть
+        </corr>
+       </choice>
+       <choice original_editorial_correction="помощ[ники?]">
+        <sic>
+         помощ
+        </sic>
+        <corr cert="low">
+         помощники
+        </corr>
+       </choice>
+       для низшихъ
+      </span>
+     </note>
      <choice>
       <reg>
        основан
@@ -4480,7 +4493,7 @@
      </choice>
      узаконить
      <add n="n73" stage="в подлиннике">
-      <span id="c203c9c1-52b8-4111-a928-44671d14d8b4" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="c203c9c1-52b8-4111-a928-44671d14d8b4" rend="left">
        узаконеть.
       </span>
      </add>
@@ -5541,21 +5554,24 @@
       </choice>
       .
      </hi>
-     <ref target="#note74">74</ref><note xml:id="note74" index="false">
-      <span id="6bb8cb72-2b45-4a4f-9d27-0062bf9a6f60" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В подлиннике очевидная описка:
-        </hi>
-        <choice>
-         <reg>
-          доверяя
-         </reg>
-         <orig>
-          довѣряя
-         </orig>
-        </choice>
-       </span>
-      </note>
+     <ref target="#note74">
+      74
+     </ref>
+     <note index="false" xml:id="note74">
+      <span data-class="paragraph" id="6bb8cb72-2b45-4a4f-9d27-0062bf9a6f60" rend="left">
+       <hi rend="italic">
+        В подлиннике очевидная описка:
+       </hi>
+       <choice>
+        <reg>
+         доверяя
+        </reg>
+        <orig>
+         довѣряя
+        </orig>
+       </choice>
+      </span>
+     </note>
      <hi rend="sup"/>
      <choice>
       <reg>
@@ -5779,13 +5795,16 @@
        основанiе
       </orig>
      </choice>
-     <ref target="#note75">75</ref><note xml:id="note75" index="false">
-      <span id="4ee9ba25-05d6-4177-94e4-2b26a34c5306" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Первые пять букв, — очевидно, по ошибке, — зачеркнуты.
-        </hi>
-       </span>
-      </note>
+     <ref target="#note75">
+      75
+     </ref>
+     <note index="false" xml:id="note75">
+      <span data-class="paragraph" id="4ee9ba25-05d6-4177-94e4-2b26a34c5306" rend="left">
+       <hi rend="italic">
+        Первые пять букв, — очевидно, по ошибке, — зачеркнуты.
+       </hi>
+      </span>
+     </note>
      <choice original_editorial_correction="у[чилищъ]">
       <sic>
        у
@@ -6020,11 +6039,14 @@
       </orig>
      </choice>
      и entrain,
-     <ref target="#note76">76</ref><note xml:id="note76" index="false">
-      <span id="8991035d-0bcc-4194-8aff-60ee5a356dad" rend="left" data-class="paragraph">
-        [увлекательности,]
-       </span>
-      </note>
+     <ref target="#note76">
+      76
+     </ref>
+     <note index="false" xml:id="note76">
+      <span data-class="paragraph" id="8991035d-0bcc-4194-8aff-60ee5a356dad" rend="left">
+       [увлекательности,]
+      </span>
+     </note>
      ко[торыя] быонѣимѣли, ежели бы были связанывъобщество общей сознанной идеей. —
     </p>
     <p id="ac3aed8c-f9c3-4fbc-8279-d5b48d2dc060" rend="normal left">

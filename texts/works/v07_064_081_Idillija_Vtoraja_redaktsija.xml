@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_064_081_Idillija_Vtoraja_redaktsija">
-                    [Идиллия. Вторая редакция]. Tolstoy Digital
-                </title>
-                <title type="main">Идиллия.</title>
-                <title type="sub">Вторая редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="bfbeb55b-6aa6-43a1-bd8c-d9622f0c06d6">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Идиллия. Вторая редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">64-81</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_064_081_Idillija_Vtoraja_redaktsija">
+     [Идиллия. Вторая редакция]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Идиллия.
+    </title>
+    <title type="sub">
+     Вторая редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="bfbeb55b-6aa6-43a1-bd8c-d9622f0c06d6">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Идиллия. Вторая редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       64-81
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="90c28f3a-c4d0-4b09-bd86-c5af1a553245">
@@ -908,100 +920,103 @@
        замужъ
       </orig>
      </choice>
-     <ref target="#note4">4</ref><note xml:id="note4" index="false">
-      <span id="b5a8dbfa-3413-4d98-a334-0a2f1445881a" rend="left" data-class="paragraph">
-        молодою, вовсе
-        <choice>
-         <reg>
-          девчонка
-         </reg>
-         <orig>
-          дѣвчонка
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          несмысленок
-         </reg>
-         <orig>
-          несмысленокъ
-         </orig>
-        </choice>
-        была,
-        <choice>
-         <reg>
-          годочков
-         </reg>
-         <orig>
-          годочковъ
-         </orig>
-        </choice>
-        14, и
-        <choice>
-         <reg>
-          сил
-         </reg>
-         <orig>
-          силъ
-         </orig>
-        </choice>
-        вовсе не было. На груди
-        <choice>
-         <reg>
-          занавеску
-         </reg>
-         <orig>
-          занавѣску
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          где
-         </reg>
-         <orig>
-          гдѣ
-         </orig>
-        </choice>
-        хочешь перевежи,
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        скатерть на
-        <choice>
-         <reg>
-          столе
-         </reg>
-         <orig>
-          столѣ
-         </orig>
-        </choice>
-        — вовсе
-        <choice>
-         <reg>
-          ребенок
-         </reg>
-         <orig>
-          ребенокъ
-         </orig>
-        </choice>
-        была.
-        <choice>
-         <reg>
-          Понесет
-         </reg>
-         <orig>
-          Понесетъ
-         </orig>
-        </choice>
-        бывало
-       </span>
-      </note>
+     <ref target="#note4">
+      4
+     </ref>
+     <note index="false" xml:id="note4">
+      <span data-class="paragraph" id="b5a8dbfa-3413-4d98-a334-0a2f1445881a" rend="left">
+       молодою, вовсе
+       <choice>
+        <reg>
+         девчонка
+        </reg>
+        <orig>
+         дѣвчонка
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         несмысленок
+        </reg>
+        <orig>
+         несмысленокъ
+        </orig>
+       </choice>
+       была,
+       <choice>
+        <reg>
+         годочков
+        </reg>
+        <orig>
+         годочковъ
+        </orig>
+       </choice>
+       14, и
+       <choice>
+        <reg>
+         сил
+        </reg>
+        <orig>
+         силъ
+        </orig>
+       </choice>
+       вовсе не было. На груди
+       <choice>
+        <reg>
+         занавеску
+        </reg>
+        <orig>
+         занавѣску
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         где
+        </reg>
+        <orig>
+         гдѣ
+        </orig>
+       </choice>
+       хочешь перевежи,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       скатерть на
+       <choice>
+        <reg>
+         столе
+        </reg>
+        <orig>
+         столѣ
+        </orig>
+       </choice>
+       — вовсе
+       <choice>
+        <reg>
+         ребенок
+        </reg>
+        <orig>
+         ребенокъ
+        </orig>
+       </choice>
+       была.
+       <choice>
+        <reg>
+         Понесет
+        </reg>
+        <orig>
+         Понесетъ
+        </orig>
+       </choice>
+       бывало
+      </span>
+     </note>
      15
      <choice>
       <reg>
@@ -1074,11 +1089,14 @@
       </orig>
      </choice>
      не любила, только боялась.
-     <ref target="#note5">5</ref><note xml:id="note5" index="false">
-      <span id="30f17eb4-7d56-4d61-94a2-e32f9e93eb99" rend="left" data-class="paragraph">
-        А акуратненькая, чернобровинькая бабочка была, только &lt;молодость еще&gt; молода.
-       </span>
-      </note>
+     <ref target="#note5">
+      5
+     </ref>
+     <note index="false" xml:id="note5">
+      <span data-class="paragraph" id="30f17eb4-7d56-4d61-94a2-e32f9e93eb99" rend="left">
+       А акуратненькая, чернобровинькая бабочка была, только &lt;молодость еще&gt; молода.
+      </span>
+     </note>
      Когда
      <choice>
       <reg>
@@ -1271,178 +1289,181 @@
       </orig>
      </choice>
      .
-     <ref target="#note6">6</ref><note xml:id="note6" index="false">
-      <span id="4957a0d0-b8e8-4dbb-a17e-7921eceeb6ce" rend="left" data-class="paragraph">
-        <choice>
-         <reg>
-          так
-         </reg>
-         <orig>
-          такъ
-         </orig>
-        </choice>
-        взвыла,
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        по матери родной убивалась. «Что, говорю, воешь, —
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        то я
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        свекору ее
-        <choice>
-         <reg>
-          зашел
-         </reg>
-         <orig>
-          зашелъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        то время, вижу заливается баба. — Вишь какого добра не видала, — говорю, —
-        <choice>
-         <reg>
-          конопатого
-         </reg>
-         <orig>
-          конопатаго
-         </orig>
-        </choice>
-        чорта-то». Я
-        <choice>
-         <reg>
-          пошутил
-         </reg>
-         <orig>
-          пошутилъ
-         </orig>
-        </choice>
-        (
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        точно конопатый, не
-        <choice>
-         <reg>
-          хороший
-         </reg>
-         <orig>
-          хорошiй
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          из
-         </reg>
-         <orig>
-          изъ
-         </orig>
-        </choice>
-        себя
-        <choice>
-         <reg>
-          был
-         </reg>
-         <orig>
-          былъ
-         </orig>
-        </choice>
-        , только
-        <choice>
-         <reg>
-          силен
-         </reg>
-         <orig>
-          силенъ
-         </orig>
-        </choice>
-        ужасть
-        <choice>
-         <reg>
-          был
-         </reg>
-         <orig>
-          былъ
-         </orig>
-        </choice>
-        и
-        <choice>
-         <reg>
-          мужик
-         </reg>
-         <orig>
-          мужикъ
-         </orig>
-        </choice>
-        добрый), «какого добра не видала»,
-        <choice>
-         <reg>
-          пошутил
-         </reg>
-         <orig>
-          пошутилъ
-         </orig>
-        </choice>
-        я ей,
-        <choice>
-         <reg>
-          значит
-         </reg>
-         <orig>
-          значитъ
-         </orig>
-        </choice>
-        .
-        <choice>
-         <reg>
-          Так
-         </reg>
-         <orig>
-          Такъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        вскинется на меня.
-       </span>
-      </note>
+     <ref target="#note6">
+      6
+     </ref>
+     <note index="false" xml:id="note6">
+      <span data-class="paragraph" id="4957a0d0-b8e8-4dbb-a17e-7921eceeb6ce" rend="left">
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       взвыла,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       по матери родной убивалась. «Что, говорю, воешь, —
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       то я
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       свекору ее
+       <choice>
+        <reg>
+         зашел
+        </reg>
+        <orig>
+         зашелъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       то время, вижу заливается баба. — Вишь какого добра не видала, — говорю, —
+       <choice>
+        <reg>
+         конопатого
+        </reg>
+        <orig>
+         конопатаго
+        </orig>
+       </choice>
+       чорта-то». Я
+       <choice>
+        <reg>
+         пошутил
+        </reg>
+        <orig>
+         пошутилъ
+        </orig>
+       </choice>
+       (
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       точно конопатый, не
+       <choice>
+        <reg>
+         хороший
+        </reg>
+        <orig>
+         хорошiй
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       себя
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       , только
+       <choice>
+        <reg>
+         силен
+        </reg>
+        <orig>
+         силенъ
+        </orig>
+       </choice>
+       ужасть
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         мужик
+        </reg>
+        <orig>
+         мужикъ
+        </orig>
+       </choice>
+       добрый), «какого добра не видала»,
+       <choice>
+        <reg>
+         пошутил
+        </reg>
+        <orig>
+         пошутилъ
+        </orig>
+       </choice>
+       я ей,
+       <choice>
+        <reg>
+         значит
+        </reg>
+        <orig>
+         значитъ
+        </orig>
+       </choice>
+       .
+       <choice>
+        <reg>
+         Так
+        </reg>
+        <orig>
+         Такъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       вскинется на меня.
+      </span>
+     </note>
      <choice>
       <reg>
        Вошел
@@ -1859,11 +1880,14 @@
        въ
       </orig>
      </choice>
-     <ref target="#note7">7</ref><note xml:id="note7" index="false">
-      <span id="ea67da8c-68b3-48d3-ab7e-c0b6ca758bc3" rend="left" data-class="paragraph">
-        жопу.
-       </span>
-      </note>
+     <ref target="#note7">
+      7
+     </ref>
+     <note index="false" xml:id="note7">
+      <span data-class="paragraph" id="ea67da8c-68b3-48d3-ab7e-c0b6ca758bc3" rend="left">
+       жопу.
+      </span>
+     </note>
      спину
      <choice>
       <reg>
@@ -2939,7 +2963,7 @@
      </choice>
      улья, повысыпали
      <add n="n8" stage="в подлиннике">
-      <span id="d2032b09-ad52-4f03-8e5b-3c6ca98cba6b" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="d2032b09-ad52-4f03-8e5b-3c6ca98cba6b" rend="left">
        посывыпали
       </span>
      </add>
@@ -4102,7 +4126,7 @@
       </orig>
      </choice>
      <add n="n9" stage="в подлиннике">
-      <span id="508d136e-f969-4a9a-90e7-84a476e7a28c" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="508d136e-f969-4a9a-90e7-84a476e7a28c" rend="left">
        <choice>
         <reg>
          сеном
@@ -4193,7 +4217,7 @@
       </orig>
      </choice>
      <add n="n10" stage="в подлиннике">
-      <span id="bd458711-ac55-4372-99a1-d4a327b0ebf6" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="bd458711-ac55-4372-99a1-d4a327b0ebf6" rend="left">
        <choice>
         <reg>
          всеми
@@ -8071,37 +8095,40 @@
       </orig>
      </choice>
      , волосы русые,
-     <ref target="#note11">11</ref><note xml:id="note11" index="false">
-      <span id="002c0f02-3606-45d5-9458-7d0166ee833d" rend="left" data-class="paragraph">
-        и
-        <choice>
-         <reg>
-          песни
-         </reg>
-         <orig>
-          пѣсни
-         </orig>
-        </choice>
-        играть
-        <choice>
-         <reg>
-          горазд
-         </reg>
-         <orig>
-          гораздъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          был
-         </reg>
-         <orig>
-          былъ
-         </orig>
-        </choice>
-        ,
-       </span>
-      </note>
+     <ref target="#note11">
+      11
+     </ref>
+     <note index="false" xml:id="note11">
+      <span data-class="paragraph" id="002c0f02-3606-45d5-9458-7d0166ee833d" rend="left">
+       и
+       <choice>
+        <reg>
+         песни
+        </reg>
+        <orig>
+         пѣсни
+        </orig>
+       </choice>
+       играть
+       <choice>
+        <reg>
+         горазд
+        </reg>
+        <orig>
+         гораздъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       ,
+      </span>
+     </note>
      ну да все какой
      <choice>
       <reg>
@@ -9243,7 +9270,7 @@
     <p id="91893881-48cc-4a42-a3fa-c8bec79dde6e" rend="left">
      Андрюха вывернулсяизъ-подънея,ухватилъ
      <add n="n12" stage="в подлиннике">
-      <span id="f5deafc3-8f9a-4ecf-be18-9ab97b0564f7" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="f5deafc3-8f9a-4ecf-be18-9ab97b0564f7" rend="left">
        ухватила
       </span>
      </add>
@@ -9785,46 +9812,49 @@
       </orig>
      </choice>
      , чуть не захлебнулась.
-     <ref target="#note13">13</ref><note xml:id="note13" index="false">
-      <span id="578acc35-ae55-4b39-994f-afe0b2cb624c" rend="left" data-class="paragraph">
-        Просто это было
-        <choice>
-         <reg>
-          в
-         </reg>
-         <orig>
-          въ
-         </orig>
-        </choice>
-        старину. Ну а Андрюха ни за что при
-        <choice>
-         <reg>
-          бабах
-         </reg>
-         <orig>
-          бабахъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          раздеваться
-         </reg>
-         <orig>
-          раздѣваться
-         </orig>
-        </choice>
-        не
-        <choice>
-         <reg>
-          станет
-         </reg>
-         <orig>
-          станетъ
-         </orig>
-        </choice>
-        , все стыдится. — Только
-       </span>
-      </note>
+     <ref target="#note13">
+      13
+     </ref>
+     <note index="false" xml:id="note13">
+      <span data-class="paragraph" id="578acc35-ae55-4b39-994f-afe0b2cb624c" rend="left">
+       Просто это было
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       старину. Ну а Андрюха ни за что при
+       <choice>
+        <reg>
+         бабах
+        </reg>
+        <orig>
+         бабахъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         раздеваться
+        </reg>
+        <orig>
+         раздѣваться
+        </orig>
+       </choice>
+       не
+       <choice>
+        <reg>
+         станет
+        </reg>
+        <orig>
+         станетъ
+        </orig>
+       </choice>
+       , все стыдится. — Только
+      </span>
+     </note>
     </p>
     <p id="200b0ce9-e31d-4792-89d7-eaab5bfe4ce8" rend="left">
      Откуда ни вывернулся Андрюшка, да
@@ -10217,31 +10247,34 @@
       </orig>
      </choice>
      валы греби.
-     <ref target="#note14">14</ref><note xml:id="note14" index="false">
-      <span id="67cec2e9-064a-43cf-89c1-f8f03ef20467" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Поперек рукописи от слова:
-        </hi>
-        Особенно
-        <hi rend="italic">
-         до:
-        </hi>
-        греби,
-        <hi rend="italic">
-         написано:
-        </hi>
-        Андрюха
-        <choice>
-         <reg>
-          решился
-         </reg>
-         <orig>
-          рѣшился
-         </orig>
-        </choice>
-        серчать
-       </span>
-      </note>
+     <ref target="#note14">
+      14
+     </ref>
+     <note index="false" xml:id="note14">
+      <span data-class="paragraph" id="67cec2e9-064a-43cf-89c1-f8f03ef20467" rend="left">
+       <hi rend="italic">
+        Поперек рукописи от слова:
+       </hi>
+       Особенно
+       <hi rend="italic">
+        до:
+       </hi>
+       греби,
+       <hi rend="italic">
+        написано:
+       </hi>
+       Андрюха
+       <choice>
+        <reg>
+         решился
+        </reg>
+        <orig>
+         рѣшился
+        </orig>
+       </choice>
+       серчать
+      </span>
+     </note>
      Барское все убрали, и свое мужички посвозили, — тогда угодей много было, —
      <choice>
       <reg>
@@ -10614,7 +10647,7 @@
      </choice>
      ,
      <add n="n15" stage="в подлиннике">
-      <span id="8ca97256-d1dd-4e18-bd87-3650d8862900" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="8ca97256-d1dd-4e18-bd87-3650d8862900" rend="left">
        <choice>
         <reg>
          песню
@@ -10842,7 +10875,7 @@
       </orig>
      </choice>
      <add n="n16" stage="в подлиннике">
-      <span id="b6d13865-d0b8-4b83-9168-70cac88f960f" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="b6d13865-d0b8-4b83-9168-70cac88f960f" rend="left">
        стали
       </span>
      </add>
@@ -11430,30 +11463,33 @@
       </orig>
      </choice>
      дней тошно.
-     <ref target="#note17">17</ref><note xml:id="note17" index="false">
-      <span id="ac6a2bb2-33db-4efd-bc31-75f401d030dc" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Поперек рукописи от слов:
-        </hi>
-        Мужики за ними д
-        <hi rend="italic">
-         о слов:
-        </hi>
-        <choice>
-         <reg>
-          Рассчет
-         </reg>
-         <orig>
-          Разсчетъ
-         </orig>
-        </choice>
-        возьму,
-        <hi rend="italic">
-         написано:
-        </hi>
-        свечера приехали
-       </span>
-      </note>
+     <ref target="#note17">
+      17
+     </ref>
+     <note index="false" xml:id="note17">
+      <span data-class="paragraph" id="ac6a2bb2-33db-4efd-bc31-75f401d030dc" rend="left">
+       <hi rend="italic">
+        Поперек рукописи от слов:
+       </hi>
+       Мужики за ними д
+       <hi rend="italic">
+        о слов:
+       </hi>
+       <choice>
+        <reg>
+         Рассчет
+        </reg>
+        <orig>
+         Разсчетъ
+        </orig>
+       </choice>
+       возьму,
+       <hi rend="italic">
+        написано:
+       </hi>
+       свечера приехали
+      </span>
+     </note>
      <choice>
       <reg>
        Рассчет
@@ -11473,7 +11509,7 @@
      </choice>
      ,
      <add n="n18" stage="в подлиннике">
-      <span id="7fcb575d-4c8d-413e-8b97-5f8b6060545b" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="7fcb575d-4c8d-413e-8b97-5f8b6060545b" rend="left">
        думаю
       </span>
      </add>
@@ -12101,11 +12137,14 @@
        сталъ
       </orig>
      </choice>
-     <ref target="#note19">19</ref><note xml:id="note19" index="false">
-      <span id="25bf65a5-09e0-4a1c-a1e8-bebec75421e6" rend="left" data-class="paragraph">
-        песню петь
-       </span>
-      </note>
+     <ref target="#note19">
+      19
+     </ref>
+     <note index="false" xml:id="note19">
+      <span data-class="paragraph" id="25bf65a5-09e0-4a1c-a1e8-bebec75421e6" rend="left">
+       песню петь
+      </span>
+     </note>
      на
      <choice>
       <reg>
@@ -12237,29 +12276,32 @@
       </orig>
      </choice>
      — пой, Андрюша.
-     <ref target="#note20">20</ref><note xml:id="note20" index="false">
-      <span id="0e8001d2-1211-4f3c-93d3-933f867deddf" rend="left" data-class="paragraph">
-        И такой
-        <choice>
-         <reg>
-          голос
-         </reg>
-         <orig>
-          голосъ
-         </orig>
-        </choice>
-        тихой и не
-        <choice>
-         <reg>
-          смеется
-         </reg>
-         <orig>
-          смѣется
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note20">
+      20
+     </ref>
+     <note index="false" xml:id="note20">
+      <span data-class="paragraph" id="0e8001d2-1211-4f3c-93d3-933f867deddf" rend="left">
+       И такой
+       <choice>
+        <reg>
+         голос
+        </reg>
+        <orig>
+         голосъ
+        </orig>
+       </choice>
+       тихой и не
+       <choice>
+        <reg>
+         смеется
+        </reg>
+        <orig>
+         смѣется
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
     </p>
     <p id="62355e2c-cad9-4efe-9996-ec55d750aaa9" rend="left">
      Андрюшка
@@ -12494,28 +12536,31 @@
       </orig>
      </choice>
      еще?
-     <ref target="#note21">21</ref><note xml:id="note21" index="false">
-      <span id="52523c17-bde2-4d87-b247-2f66bd843e69" rend="left" data-class="paragraph">
-        &lt;del&gt;Да&lt;/del&gt;
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          завоет
-         </reg>
-         <orig>
-          завоетъ
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note21">
+      21
+     </ref>
+     <note index="false" xml:id="note21">
+      <span data-class="paragraph" id="52523c17-bde2-4d87-b247-2f66bd843e69" rend="left">
+       &lt;del&gt;Да&lt;/del&gt;
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         завоет
+        </reg>
+        <orig>
+         завоетъ
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
     </p>
     <p id="fd58a78e-2de4-4e67-98b0-608c9862a676" rend="left">
      — Что
@@ -12926,118 +12971,124 @@
       </orig>
      </choice>
      .&gt;
-     <ref target="#note22">22</ref><note xml:id="note22" index="false">
-      <span id="40f8f8f0-07b1-4a10-95fe-f350478f6634" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Поперек рукописи от слов:
-        </hi>
-        Не
-        <choice>
-         <reg>
-          мил
-         </reg>
-         <orig>
-          милъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        никто,
-        <hi rend="italic">
-         до слов:
-        </hi>
-        Андрюха
-        <choice>
-         <reg>
-          засмеялся
-         </reg>
-         <orig>
-          засмѣялся
-         </orig>
-        </choice>
-        .
-        <hi rend="italic">
-         написано:
-        </hi>
-        заставила его борта водить. И что
-        <choice>
-         <reg>
-          смешного
-         </reg>
-         <orig>
-          смѣшного
-         </orig>
-        </choice>
-        , что
-        <choice>
-         <reg>
-          бедный
-         </reg>
-         <orig>
-          бѣдный
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          ушел
-         </reg>
-         <orig>
-          ушелъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          заплакал
-         </reg>
-         <orig>
-          заплакалъ
-         </orig>
-        </choice>
-        . Она пришла
-        <choice>
-         <reg>
-          к
-         </reg>
-         <orig>
-          къ
-         </orig>
-        </choice>
-        нему.
-       </span>
-      </note>
+     <ref target="#note22">
+      22
+     </ref>
+     <note index="false" xml:id="note22">
+      <span data-class="paragraph" id="40f8f8f0-07b1-4a10-95fe-f350478f6634" rend="left">
+       <hi rend="italic">
+        Поперек рукописи от слов:
+       </hi>
+       Не
+       <choice>
+        <reg>
+         мил
+        </reg>
+        <orig>
+         милъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       никто,
+       <hi rend="italic">
+        до слов:
+       </hi>
+       Андрюха
+       <choice>
+        <reg>
+         засмеялся
+        </reg>
+        <orig>
+         засмѣялся
+        </orig>
+       </choice>
+       .
+       <hi rend="italic">
+        написано:
+       </hi>
+       заставила его борта водить. И что
+       <choice>
+        <reg>
+         смешного
+        </reg>
+        <orig>
+         смѣшного
+        </orig>
+       </choice>
+       , что
+       <choice>
+        <reg>
+         бедный
+        </reg>
+        <orig>
+         бѣдный
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ушел
+        </reg>
+        <orig>
+         ушелъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         заплакал
+        </reg>
+        <orig>
+         заплакалъ
+        </orig>
+       </choice>
+       . Она пришла
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       нему.
+      </span>
+     </note>
     </p>
     <p id="8459cb2d-399e-4bfa-a2ce-13858fa77181" rend="left">
      — Вишь, Настасья хозяина нашла.
-     <ref target="#note23">23</ref><note xml:id="note23" index="false">
-      <span id="60eef058-9d8a-4e9b-a24b-b26b3356cb6c" rend="left" data-class="paragraph">
-        A
-        <choice>
-         <reg>
-          мне
-         </reg>
-         <orig>
-          мнѣ
-         </orig>
-        </choice>
-        никто не
-        <choice>
-         <reg>
-          мил
-         </reg>
-         <orig>
-          милъ
-         </orig>
-        </choice>
-        , окромя мужа.
-       </span>
-      </note>
+     <ref target="#note23">
+      23
+     </ref>
+     <note index="false" xml:id="note23">
+      <span data-class="paragraph" id="60eef058-9d8a-4e9b-a24b-b26b3356cb6c" rend="left">
+       A
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       никто не
+       <choice>
+        <reg>
+         мил
+        </reg>
+        <orig>
+         милъ
+        </orig>
+       </choice>
+       , окромя мужа.
+      </span>
+     </note>
     </p>
     <p id="5835b7b2-abf8-44a5-9eed-d5f46d0850b9" rend="left">
      — Я бы пошла за тебя.
@@ -13219,7 +13270,7 @@
       </orig>
      </choice>
      <add n="n24" stage="в подлиннике">
-      <span id="145cd62c-0ec0-459c-8ac6-c3f75a10f337" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="145cd62c-0ec0-459c-8ac6-c3f75a10f337" rend="left">
        ухватила
       </span>
      </add>
@@ -13969,38 +14020,41 @@
       </orig>
      </choice>
      соскакивать,
-     <ref target="#note25">25</ref><note xml:id="note25" index="false">
-      <span id="32aad2b5-6d03-47da-b3e3-ba81176c16d0" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         Поперек рукописи, со слов:
-        </hi>
-        <choice>
-         <reg>
-          Баб
-         </reg>
-         <orig>
-          Бабъ
-         </orig>
-        </choice>
-        возить заставили,
-        <hi rend="italic">
-         до слов:
-        </hi>
-        <choice>
-         <reg>
-          успевай
-         </reg>
-         <orig>
-          успѣвай
-         </orig>
-        </choice>
-        соскакивать,
-        <hi rend="italic">
-         написано:
-        </hi>
-        Все чище, чище.
-       </span>
-      </note>
+     <ref target="#note25">
+      25
+     </ref>
+     <note index="false" xml:id="note25">
+      <span data-class="paragraph" id="32aad2b5-6d03-47da-b3e3-ba81176c16d0" rend="left">
+       <hi rend="italic">
+        Поперек рукописи, со слов:
+       </hi>
+       <choice>
+        <reg>
+         Баб
+        </reg>
+        <orig>
+         Бабъ
+        </orig>
+       </choice>
+       возить заставили,
+       <hi rend="italic">
+        до слов:
+       </hi>
+       <choice>
+        <reg>
+         успевай
+        </reg>
+        <orig>
+         успѣвай
+        </orig>
+       </choice>
+       соскакивать,
+       <hi rend="italic">
+        написано:
+       </hi>
+       Все чище, чище.
+      </span>
+     </note>
      а то
      <choice>
       <reg>
@@ -14865,7 +14919,7 @@
      </choice>
      .
      <add n="n26" stage="в подлиннике">
-      <span id="4ef1eb29-6abc-4cee-b819-5ac7f95eece6" rend="left" data-class="paragraph">
+      <span data-class="paragraph" id="4ef1eb29-6abc-4cee-b819-5ac7f95eece6" rend="left">
        <choice>
         <reg>
          сеном
@@ -15019,47 +15073,50 @@
       </orig>
      </choice>
      , моченьки не стало,
-     <ref target="#note27">27</ref><note xml:id="note27" index="false">
-      <span id="88c3904b-ffe4-4584-bb66-95a2950a9843" rend="left" data-class="paragraph">
-        заработался,
-        <choice>
-         <reg>
-          значит
-         </reg>
-         <orig>
-          значитъ
-         </orig>
-        </choice>
-        , малый. — Что ты, али спать? — Баба
-        <choice>
-         <reg>
-          смеется
-         </reg>
-         <orig>
-          смѣется
-         </orig>
-        </choice>
-        , только глядь, он
-        <choice>
-         <reg>
-          как
-         </reg>
-         <orig>
-          какъ
-         </orig>
-        </choice>
-        полотенцо
-        <choice>
-         <reg>
-          белое
-         </reg>
-         <orig>
-          бѣлое
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note27">
+      27
+     </ref>
+     <note index="false" xml:id="note27">
+      <span data-class="paragraph" id="88c3904b-ffe4-4584-bb66-95a2950a9843" rend="left">
+       заработался,
+       <choice>
+        <reg>
+         значит
+        </reg>
+        <orig>
+         значитъ
+        </orig>
+       </choice>
+       , малый. — Что ты, али спать? — Баба
+       <choice>
+        <reg>
+         смеется
+        </reg>
+        <orig>
+         смѣется
+        </orig>
+       </choice>
+       , только глядь, он
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       полотенцо
+       <choice>
+        <reg>
+         белое
+        </reg>
+        <orig>
+         бѣлое
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      <choice>
       <reg>
        перестал
@@ -15142,11 +15199,14 @@
     </p>
     <p id="49b636d8-cc78-4aaa-91f6-4166fad03bf6" rend="left">
      — Что ты, Андрей! Аль
-     <ref target="#note28">28</ref><note xml:id="note28" index="false">
-      <span id="22721fa3-e14f-4e27-a291-727ff352b68c" rend="left" data-class="paragraph">
-        умираешь
-       </span>
-      </note>
+     <ref target="#note28">
+      28
+     </ref>
+     <note index="false" xml:id="note28">
+      <span data-class="paragraph" id="22721fa3-e14f-4e27-a291-727ff352b68c" rend="left">
+       умираешь
+      </span>
+     </note>
      <choice>
       <reg>
        одурел
@@ -19203,22 +19263,25 @@
       </orig>
      </choice>
      .
-     <ref target="#note29">29</ref><note xml:id="note29" index="false">
-      <span id="58d878dd-5a54-4959-853f-717b47032355" rend="left" data-class="paragraph">
-        <hi rend="italic">
-         В подлиннике рукой С. А. Толстой сверху надписано:
-        </hi>
-        <choice>
-         <reg>
-          гуртовщике
-         </reg>
-         <orig>
-          гуртовщикѣ
-         </orig>
-        </choice>
-        .
-       </span>
-      </note>
+     <ref target="#note29">
+      29
+     </ref>
+     <note index="false" xml:id="note29">
+      <span data-class="paragraph" id="58d878dd-5a54-4959-853f-717b47032355" rend="left">
+       <hi rend="italic">
+        В подлиннике рукой С. А. Толстой сверху надписано:
+       </hi>
+       <choice>
+        <reg>
+         гуртовщике
+        </reg>
+        <orig>
+         гуртовщикѣ
+        </orig>
+       </choice>
+       .
+      </span>
+     </note>
      А
      <choice>
       <reg>

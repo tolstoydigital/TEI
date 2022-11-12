@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v05_241_243_Zametki_k_voprosu_o_porjadke_i_uslovijah_osvobozhdenija_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan">
-                    2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]. Tolstoy Digital
-                </title>
-                <title type="main">Заметки к вопросу о порядке и условиях освобождения.</title>
-                <title type="sub">Писания, относящиеся к проекту освобождения яснополянских крестьян</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="3ac2432a-eff5-40a8-a2ea-045684eacc9e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 5
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">5</biblScope>
-                        <biblScope unit="page">241-243</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1856"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_241_243_Zametki_k_voprosu_o_porjadke_i_uslovijah_osvobozhdenija_Pisanija_otnosjaschiesja_k_proektu_osvobozhdenija_jasnopoljanskih_krestjan">
+     2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Заметки к вопросу о порядке и условиях освобождения.
+    </title>
+    <title type="sub">
+     Писания, относящиеся к проекту освобождения яснополянских крестьян
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="3ac2432a-eff5-40a8-a2ea-045684eacc9e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       2. [Заметки (А и Б) к вопросу о порядке и условиях освобождения]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       241-243
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref20">
     <p id="8185589e-690c-4c8d-9031-933c3ec541e1">
@@ -958,13 +970,16 @@
         погашенiя
        </orig>
       </choice>
-      <ref target="#note209">209</ref><note xml:id="note209" index="false">
-       <span id="1128195d-b927-48f1-a4c7-b251dff1d1ff" data-class="paragraph">
-         <del>
-          на 30 или др
-         </del>
-        </span>
-       </note>
+      <ref target="#note209">
+       209
+      </ref>
+      <note index="false" xml:id="note209">
+       <span data-class="paragraph" id="1128195d-b927-48f1-a4c7-b251dff1d1ff">
+        <del>
+         на 30 или др
+        </del>
+       </span>
+      </note>
       не
       <choice>
        <reg>
@@ -1073,21 +1088,24 @@
        </orig>
       </choice>
       крестьяне
-      <ref target="#note210">210</ref><note xml:id="note210" index="false">
-       <span id="c1274be0-f376-46a9-9946-42a05456dff3" data-class="paragraph">
-         <del>
-          <choice>
-           <reg>
-            получают
-           </reg>
-           <orig>
-            получаютъ
-           </orig>
-          </choice>
-          полную свободу и
-         </del>
-        </span>
-       </note>
+      <ref target="#note210">
+       210
+      </ref>
+      <note index="false" xml:id="note210">
+       <span data-class="paragraph" id="c1274be0-f376-46a9-9946-42a05456dff3">
+        <del>
+         <choice>
+          <reg>
+           получают
+          </reg>
+          <orig>
+           получаютъ
+          </orig>
+         </choice>
+         полную свободу и
+        </del>
+       </span>
+      </note>
       освобождаются
       <pb n="243"/>
       <choice>
@@ -1307,21 +1325,24 @@
        </corr>
       </choice>
       , то оно
-      <ref target="#note211">211</ref><note xml:id="note211" index="false">
-       <span id="7b616440-8f19-407f-ab4c-6b556e846c0a" data-class="paragraph">
-         <hi rend="italic">
-          В подлиннике:
-         </hi>
-         <choice>
-          <reg>
-           он
-          </reg>
-          <orig>
-           онъ
-          </orig>
-         </choice>
-        </span>
-       </note>
+      <ref target="#note211">
+       211
+      </ref>
+      <note index="false" xml:id="note211">
+       <span data-class="paragraph" id="7b616440-8f19-407f-ab4c-6b556e846c0a">
+        <hi rend="italic">
+         В подлиннике:
+        </hi>
+        <choice>
+         <reg>
+          он
+         </reg>
+         <orig>
+          онъ
+         </orig>
+        </choice>
+       </span>
+      </note>
       <choice>
        <reg>
         берет
@@ -1340,282 +1361,285 @@
        </orig>
       </choice>
       на себя.
-      <ref target="#note212">212</ref><note xml:id="note212" index="false">
-       <span id="2b115cf1-2757-42a7-afd3-4d2b9b55ad83" data-class="paragraph">
-         <hi rend="italic">
-          Первоначально начало этого параграфа было изложено следующим образом:
-         </hi>
-         Ежели общая сумма платежа
-         <choice>
-          <reg>
-           помещику
-          </reg>
-          <orig>
-           помѣщику
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           превышает
-          </reg>
-          <orig>
-           превышаетъ
-          </orig>
-         </choice>
-         или равняется
-         <choice>
-          <reg>
-           сумме
-          </reg>
-          <orig>
-           суммѣ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           процентов
-          </reg>
-          <orig>
-           процентовъ
-          </orig>
-         </choice>
-         долга и
-         <choice>
-          <reg>
-           процентов
-          </reg>
-          <orig>
-           процентовъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           погашения
-          </reg>
-          <orig>
-           погашенiя
-          </orig>
-         </choice>
-         ,
-         <choice>
-          <reg>
-           платимых
-          </reg>
-          <orig>
-           платимыхъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           в
-          </reg>
-          <orig>
-           въ
-          </orig>
-         </choice>
-         Кредитное
-         <choice>
-          <reg>
-           установление
-          </reg>
-          <orig>
-           установленiе
-          </orig>
-         </choice>
-         , то
-         <choice original_editorial_correction="пом[ѣщикъ]">
-          <sic>
-           пом
-          </sic>
-          <corr>
-           <choice>
-            <reg>
-             помещик
-            </reg>
-            <orig>
-             помѣщикъ
-            </orig>
-           </choice>
-          </corr>
-         </choice>
-         предлагает
-         <choice original_editorial_correction="М[инистерству]">
-          <sic>
-           М
-          </sic>
-          <corr>
-           Министерству
-          </corr>
-         </choice>
-         <choice original_editorial_correction="Г[осударственныхъ]">
-          <sic>
-           Г
-          </sic>
-          <corr>
-           <choice>
-            <reg>
-             Государственных
-            </reg>
-            <orig>
-             Государственныхъ
-            </orig>
-           </choice>
-          </corr>
-         </choice>
-         <choice original_editorial_correction="И[муществъ]">
-          <sic>
-           И
-          </sic>
-          <corr>
-           <choice>
-            <reg>
-             Имуществ
-            </reg>
-            <orig>
-             Имуществъ
-            </orig>
-           </choice>
-          </corr>
-         </choice>
-         взять
-         <choice>
-          <reg>
-           в
-          </reg>
-          <orig>
-           въ
-          </orig>
-         </choice>
-         свое
-         <choice>
-          <reg>
-           ведение
-          </reg>
-          <orig>
-           вѣденiе
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           имение
-          </reg>
-          <orig>
-           имѣнiе
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           с
-          </reg>
-          <orig>
-           съ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           долгом
-          </reg>
-          <orig>
-           долгомъ
-          </orig>
-         </choice>
-         <choice original_editorial_correction="Сов[ѣту]">
-          <sic>
-           Сов
-          </sic>
-          <corr>
-           <choice>
-            <reg>
-             Совету
-            </reg>
-            <orig>
-             Совѣту
-            </orig>
-           </choice>
-          </corr>
-         </choice>
-         Кред. устан. и
-         <choice>
-          <reg>
-           в
-          </reg>
-          <orig>
-           въ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           первом
-          </reg>
-          <orig>
-           первомъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           случае
-          </reg>
-          <orig>
-           случаѣ
-          </orig>
-         </choice>
-         о превышающей
-         <choice>
-          <reg>
-           плате
-          </reg>
-          <orig>
-           платѣ
-          </orig>
-         </choice>
-         <choice original_editorial_correction="[можетъ]">
-          <sic/>
-          <corr>
-           <choice>
-            <reg>
-             может
-            </reg>
-            <orig>
-             можетъ
-            </orig>
-           </choice>
-          </corr>
-         </choice>
-         <choice>
-          <reg>
-           ведаться
-          </reg>
-          <orig>
-           вѣдаться
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           гражданским
-          </reg>
-          <orig>
-           гражданскимъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           судом
-          </reg>
-          <orig>
-           судомъ
-          </orig>
-         </choice>
-         <choice>
-          <reg>
-           с
-          </reg>
-          <orig>
-           съ
-          </orig>
-         </choice>
-         крестьянами.
-        </span>
-       </note>
+      <ref target="#note212">
+       212
+      </ref>
+      <note index="false" xml:id="note212">
+       <span data-class="paragraph" id="2b115cf1-2757-42a7-afd3-4d2b9b55ad83">
+        <hi rend="italic">
+         Первоначально начало этого параграфа было изложено следующим образом:
+        </hi>
+        Ежели общая сумма платежа
+        <choice>
+         <reg>
+          помещику
+         </reg>
+         <orig>
+          помѣщику
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          превышает
+         </reg>
+         <orig>
+          превышаетъ
+         </orig>
+        </choice>
+        или равняется
+        <choice>
+         <reg>
+          сумме
+         </reg>
+         <orig>
+          суммѣ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          процентов
+         </reg>
+         <orig>
+          процентовъ
+         </orig>
+        </choice>
+        долга и
+        <choice>
+         <reg>
+          процентов
+         </reg>
+         <orig>
+          процентовъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          погашения
+         </reg>
+         <orig>
+          погашенiя
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          платимых
+         </reg>
+         <orig>
+          платимыхъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        Кредитное
+        <choice>
+         <reg>
+          установление
+         </reg>
+         <orig>
+          установленiе
+         </orig>
+        </choice>
+        , то
+        <choice original_editorial_correction="пом[ѣщикъ]">
+         <sic>
+          пом
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            помещик
+           </reg>
+           <orig>
+            помѣщикъ
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        предлагает
+        <choice original_editorial_correction="М[инистерству]">
+         <sic>
+          М
+         </sic>
+         <corr>
+          Министерству
+         </corr>
+        </choice>
+        <choice original_editorial_correction="Г[осударственныхъ]">
+         <sic>
+          Г
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            Государственных
+           </reg>
+           <orig>
+            Государственныхъ
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        <choice original_editorial_correction="И[муществъ]">
+         <sic>
+          И
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            Имуществ
+           </reg>
+           <orig>
+            Имуществъ
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        взять
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        свое
+        <choice>
+         <reg>
+          ведение
+         </reg>
+         <orig>
+          вѣденiе
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          имение
+         </reg>
+         <orig>
+          имѣнiе
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          долгом
+         </reg>
+         <orig>
+          долгомъ
+         </orig>
+        </choice>
+        <choice original_editorial_correction="Сов[ѣту]">
+         <sic>
+          Сов
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            Совету
+           </reg>
+           <orig>
+            Совѣту
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        Кред. устан. и
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          первом
+         </reg>
+         <orig>
+          первомъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          случае
+         </reg>
+         <orig>
+          случаѣ
+         </orig>
+        </choice>
+        о превышающей
+        <choice>
+         <reg>
+          плате
+         </reg>
+         <orig>
+          платѣ
+         </orig>
+        </choice>
+        <choice original_editorial_correction="[можетъ]">
+         <sic/>
+         <corr>
+          <choice>
+           <reg>
+            может
+           </reg>
+           <orig>
+            можетъ
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        <choice>
+         <reg>
+          ведаться
+         </reg>
+         <orig>
+          вѣдаться
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          гражданским
+         </reg>
+         <orig>
+          гражданскимъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          судом
+         </reg>
+         <orig>
+          судомъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        крестьянами.
+       </span>
+      </note>
       Ежели Министерство
       <choice>
        <reg>
