@@ -1,117 +1,129 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v42_423_438_Krug_chtenija_Mysli_vypuschennye_izdeatelem_po_tsenzurnym_soobrazhenijam_v_pervom_izdanii">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения</title>
-                <title type="sub">Мысли, выпущенные издеателем по цензурным соображениям в первом издании </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="63e0bd5c-fdca-4250-a015-e4234433fba8">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Мысли, выпущенные издеателем по цензурным соображениям в первом издании 
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date from="1957-01-01" to="1957-12-31"/>
-                        </imprint>
-                        <biblScope unit="volume">42</biblScope>
-                        <biblScope unit="page">423-438</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1906-01-01" to="1906-12-31"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#not_publ" target="published"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#Tolstoy" target="author"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_423_438_Krug_chtenija_Mysli_vypuschennye_izdeatelem_po_tsenzurnym_soobrazhenijam_v_pervom_izdanii">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения
+    </title>
+    <title type="sub">
+     Мысли, выпущенные издеателем по цензурным соображениям в первом издании
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="63e0bd5c-fdca-4250-a015-e4234433fba8">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Мысли, выпущенные издеателем по цензурным соображениям в первом издании
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date from="1957-01-01" to="1957-12-31"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       423-438
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1906-01-01" to="1906-12-31"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000007003">
     <p id="b7d3858a-6fe6-46a0-9ebd-04ed2e40b2e1">
      <pb n="423"/>
     </p>
-    <p id="6a435cae-fd5d-42df-9f80-f7fb7e2d51b5">
+    <p id="10af658e-9c68-49a9-a10b-ed381510b5fb">
       <head rend="center">
      * МЫСЛИ, ВЫПУЩЕННЫЕ ИЗДАТЕЛЕМ ПО ЦЕНЗУРНЫМ СООБРАЖЕНИЯМ В ПЕРВОМ ИЗДАНИИ «КРУГА ЧТЕНИЯ»
     </head>
     </p>
-    <p id="bcb41801-5065-46b3-ad15-2a30039575e9">
+    <p id="72b0e66e-d851-4f7b-90a2-aed89cba0dca">
       <br/>
     </p>
     <p id="acd2a80b-5ae5-4f37-9f33-8883f09c9313" rend="center textindent_38px">
@@ -205,7 +217,7 @@
       <pb n="425"/>
       то же, что ты не мучитель, не убийца. Ты мог не быть им до тех пор, пока не знал, откуда деньги, которые попадают тебе в руки, но если ты знаешь, то нет тебе оправдания не перед людьми (перед людьми во всем и всегда оправдание), а перед своей совестью.
      </p>
-     <p id="f58d6eff-388b-4d0b-ac76-97dcb7e2d3fe">
+     <p id="19bcfffe-3342-459d-a5cb-e65f1386dd39">
       <br/>
     </p>
     <p id="cd2dee6a-31f4-4fe0-b316-88f8aaf7a3a6" rend="center textindent_38px">
@@ -270,7 +282,7 @@
       <pb n="426"/>
       к такому человеку и пожалеть его, но если, как это происходит среди военных, они гордятся своим положением, нельзя, если невозможно образумить его, не желать избавиться от всякого отношения с таким человеком.
      </p>
-     <p id="8ae0c6ac-c6b5-47c9-918f-f8cb68469b16">
+     <p id="ee7babf7-2fb2-4f2b-89d3-2e05dac5d069">
       <br/>
     </p>
     <p id="429bee84-8517-409d-a91a-c440965fa330" rend="center textindent_38px">
@@ -295,7 +307,7 @@
        Кант.
       </span>
      </p>
-     <p id="165699e6-2df2-4bb4-bf51-7ef52adecba8">
+     <p id="b734766b-ea74-4c75-96cf-fd6f293ab6da">
       <br/>
     </p>
     <p id="cf5d6c22-a571-44d4-8410-e5fefe608329" rend="center textindent_38px">
@@ -320,7 +332,7 @@
        Урбан Гойэ.
       </span>
      </p>
-     <p id="85b0ea1e-47d0-4a6f-b29b-c06d0ea19bd4">
+     <p id="de7321b0-e866-44d6-895b-c5c23aedb7d9">
       <br/>
     </p>
     <p id="bbcfb0aa-7255-45b1-8342-969494c5c542" rend="center textindent_38px">
@@ -430,7 +442,7 @@
      <p id="c5502ea2-d9af-4cec-9840-0d315bc61308" rend="left">
       Всякий внешний религиозный обряд враждебен религии. Обряды не могут вызвать религиозное настроение. Обряд вызывает только подобие его, заставляя человека думать, что он владеет тем, чего нет у него.
      </p>
-     <p id="88c8ad6c-8132-4561-aeab-578902a5f394">
+     <p id="5ac8acb3-80a7-41c0-84bf-926abcc0a1b3">
       <br/>
     </p>
     <p id="6731c309-d4cb-4016-9cbc-923b303bfc81" rend="center textindent_38px">
@@ -493,7 +505,7 @@
      <p id="2b5694b2-5210-42f6-b6a9-ae0f4ccefa80" rend="left">
       Пусть все, не думая об единении, идут к истине и они соединятся. Мир подобен великому храму, в котором свет падает в середине. Напрасно будут стараться люди соединяться вне света. Соединяясь в темноте, они будут только разъединяться. Пусть все, не думая о соединении, идут к свету, и, придя с различных сторон, они все соединятся в середине храма.
      </p>
-     <p id="f68517f5-78e6-47f8-b2e0-6d7ae6edb1c5">
+     <p id="2b3f6abf-19b0-4c34-b969-eb34a2369412">
       <br/>
     </p>
     <p id="21fbd832-9ac5-44ca-b7f9-bd064d33e35f" rend="center textindent_38px">
@@ -506,7 +518,7 @@
      <p id="8fdb52d7-ee37-47b4-9470-9080eaa482d7" rend="left">
       Человек вообще и в особенности христианин обязан не участвовать в войне и приготовлении к ней ни лично, ни деньгами, ни рассуждениями о ней.
      </p>
-     <p id="d7c0ecaf-48e5-4912-a1c2-416feebfd0e2">
+     <p id="2016a80f-4ff8-4084-9a9a-22f596bb109d">
       <br/>
     </p>
     <p id="3949eb72-1fc8-462b-a4d4-19f177c4416a" rend="center textindent_38px">
@@ -544,7 +556,7 @@
      <p id="710c6193-986d-40fb-91b2-2cf5ae5b7e7c" rend="left">
       Это одно нужно и наверно будет успешно. И этого хочет бог, и этому учил Христос.
      </p>
-     <p id="7a51b1ef-7837-4577-a33c-7f6e75dedb05">
+     <p id="ba9defcc-760e-41dd-a4d2-b4a691516050">
       <br/>
     </p>
     <p id="0cb1aa04-d93b-4f2b-b964-900a43601a4a" rend="center textindent_38px">
@@ -686,7 +698,7 @@
      <p id="3d4c7b08-9254-4888-b926-0b5d5865531a" rend="left">
       Торжественность и внешний блеск церковных обрядов суть главные признаки ее неразумности и вредности.
      </p>
-     <p id="2e92a254-73df-44ed-ae41-9a34c2674413">
+     <p id="219d4b07-f36c-4f21-8c85-3d0f92181cfe">
       <br/>
     </p>
     <p id="c9c43fd8-dd81-46c0-bd93-1cc2a5a47659" rend="center textindent_38px">
@@ -839,7 +851,7 @@
        Для уничтожения отжившего государственного устройства есть только одно средство: не участие в том насилии, которым держится государство.
       </span>
      </p>
-     <p id="9a80baae-848c-4fc5-b398-f149b0e3832c">
+     <p id="fddd2c9f-9054-47cb-b86c-3f8bd69b4e67">
       <br/>
     </p>
     <p id="25400149-7127-4c07-a8cd-acfdee781739" rend="center textindent_38px">
@@ -932,7 +944,7 @@
      <p id="841c965c-c3bc-44e5-9434-1cb0ad6b88b9" rend="left">
       Всякое рабство легче сносить, чем рабство религиозное. Человек, раболепствующий перед церковным деспотизмом, будет рабом всех тех хозяев, которые захотят завладеть им.
      </p>
-     <p id="f60d46f3-8d57-4087-b419-84c265f76ccd">
+     <p id="a7965648-51db-4ac0-b1a8-44bba6b94c4d">
       <br/>
     </p>
     <p id="b32a4e12-28e8-4907-a049-308682839ea3" rend="center textindent_38px">
@@ -1026,7 +1038,7 @@
      <p id="0634f501-f543-496f-8359-cb9b6d75c34d" rend="left">
       Церковные учения до такой степени извратили истинный смысл христианства, что люди, ни во что не верующие, отрицающие всё христианское учение, ближе к нему, чем церковники, мнимо признающие его.
      </p>
-     <p id="abf48d27-c159-4178-b6bc-f329e0818d92">
+     <p id="7bcacdce-17f2-43b1-a1f2-05f960f94274">
       <br/>
     </p>
     <p id="72fa5bc1-112d-45ad-afec-1da4c9d785f2" rend="center textindent_38px">
@@ -1049,7 +1061,7 @@
      <p id="cc9102a9-6b4a-4f47-be4b-80881ae041f2" rend="left">
       А если могло быть воспитано такое благоговение к вещи, то могло бы быть воспитано такое же благоговение и к жизни людей.
      </p>
-     <p id="b6ff8100-2149-4c79-8b13-6e6f50c98029">
+     <p id="34bbca4e-7ac0-4bb3-87eb-fcf59bec805f">
       <br/>
     </p>
     <p id="db3ddb97-5aaa-4159-9ae4-5ab4224e8ffb" rend="center textindent_38px">

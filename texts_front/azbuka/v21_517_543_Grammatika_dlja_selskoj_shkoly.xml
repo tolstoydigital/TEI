@@ -1,119 +1,131 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-            <title xml:id="v21_517_543_Grammatika_dlja_selskoj_shkoly">Азбука. Tolstoy Digital</title>
-            <title type="main">Грамматика для сельской школы. Планы и варианты</title>
-            <author>Толстой Лев Николаевич</author>
-            <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
-                <name>
-                    Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                </name>
-             </respStmt>
-            <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
-            </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="b61d82bb-bbee-44bc-80c2-40a85bb7f8f3">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Грамматика для сельской школы
-                        </title>
-                        </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений.
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date from="1957-01-01" to="1957-12-31"/>
-                        </imprint>
-                        <biblScope unit="volume">21</biblScope>
-                        <biblScope unit="page">517-543</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date from="1874-01-01" to="1875-01-01"/>
-            </creation>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#kids" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-                <catRef ana="#not_included" target="included"/>
-                </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v21_517_543_Grammatika_dlja_selskoj_shkoly">
+     Азбука. Tolstoy Digital
+    </title>
+    <title type="main">
+     Грамматика для сельской школы. Планы и варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="b61d82bb-bbee-44bc-80c2-40a85bb7f8f3">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Грамматика для сельской школы
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date from="1957-01-01" to="1957-12-31"/>
+      </imprint>
+      <biblScope unit="volume">
+       21
+      </biblScope>
+      <biblScope unit="page">
+       517-543
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1874-01-01" to="1875-01-01"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#not_included" target="included"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_4">
     <p id="90ae822a-81ad-4105-b63d-333932deeb12">
      <pb n="517"/>
     </p>
     <div type="section" xml:id="ref15">
-     <p id="50a9d204-e51b-4ec3-9aa0-503759a56b4f">
+     <p id="1f48a1ce-1371-4999-952f-de6e4e7cd293">
       <head rend="center">
       ГРАММАТИКА ДЛЯ СЕЛЬСКОЙ ШКОЛЫ
      </head>
     </p>
     </div>
     <div type="section" xml:id="h000018005001">
-     <p id="c54e5da5-5adf-46d7-b50d-b870d5bbbed8">
+     <p id="03f15536-d4be-4d99-ab56-1d286b3efce3">
       <head rend="left">
       * № 1 (рук. № 1).
      </head>
     </p>
-    <p id="17ed25d6-222b-4590-9bf1-1f6207ccabe7">
+    <p id="cd853fb6-d456-4f4d-892f-69d91dfea2e6">
       <br/>
     </p>
     <p id="5f04dad8-4656-42c5-925e-c2aa7a5ea9ba" rend="centerline">
@@ -148,14 +160,17 @@
      </p>
      <p id="9cd8cf99-b2a5-4794-a84c-ace830f29156" rend="left">
       Уже, на, после, сзади, и, очень, совсем, из, и, без, но, достаточно, разве, только, ничего, не, из, со, уже, потом, сколько, за, никогда, нельзя, еще, иногда, даже, так, на, в, над, где, за.
-      <a href="#" data-type="snoska" id="note176">176</a><span class="note" id="note176">
-       <span id="366a090e-83c9-4817-a213-2991d972ec72" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          На полях против этого абзаца поставлены ломаные скобки и сделано добавление;
-         </span>
-         2. первый признак перемены по числу
+      <a href="#" data-type="snoska" id="note176">
+       176
+      </a>
+      <span class="note" id="note176">
+       <span data-class="paragraph" id="366a090e-83c9-4817-a213-2991d972ec72" rend="left">
+        <span class="hi" data-attribute="italic">
+         На полях против этого абзаца поставлены ломаные скобки и сделано добавление;
         </span>
+        2. первый признак перемены по числу
        </span>
+      </span>
      </p>
      <p id="b58663af-6294-46c8-81cf-502894b668e5" rend="left">
       Переменять можно об себе, обо мне и о нем, о самих о нас и о них.
@@ -204,20 +219,23 @@
      </p>
      <p id="4269cba9-3a0a-46fa-acc2-85636441dd60" rend="left">
       Большая баба.
-      <a href="#" data-type="snoska" id="note177">177</a><span class="note" id="note177">
-       <span id="92a2737e-fec8-4adc-aed7-76a969d99ec4" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике:
-         </span>
-         бабы.
+      <a href="#" data-type="snoska" id="note177">
+       177
+      </a>
+      <span class="note" id="note177">
+       <span data-class="paragraph" id="92a2737e-fec8-4adc-aed7-76a969d99ec4" rend="left">
+        <span class="hi" data-attribute="italic">
+         В подлиннике:
         </span>
+        бабы.
        </span>
+      </span>
      </p>
      <p id="3c3b3035-8413-43fc-a5c0-43576c8d05f2" rend="left">
       <pb n="518"/>
       Точку. Упражнения. Стали пить чай хороший. Мужик пришел.
      </p>
-     <p id="5fd6e2bb-b886-4a49-bd48-13ced5e081cc">
+     <p id="0ad11b9b-9723-4791-87a9-2e0a09fca841">
       <br/>
     </p>
     <p id="9d583661-b611-4c13-9667-d19575561223" rend="left">
@@ -232,14 +250,14 @@
      <p id="47d3299c-f436-4197-a408-708cb94f35c4" rend="left">
       4) Есть слова и по числу и по роду и по времени переменяются, это глаголы.
      </p>
-     <p id="91b7527b-828e-4660-911b-728413a79f31">
+     <p id="7f555103-b698-4a00-9714-ae61102cc36d">
       <br/>
     </p>
     <p id="b28716b1-bc65-481f-9c73-0504402130ad" rend="centerline">
       По числу переменяются:
      </p>
      <div type="image">
-      <p id="00c4d35c-85a1-4194-ae9c-b37218dafd03">
+      <p id="4e3ff945-3015-4c5c-9445-46a3db7fb15a">
         <img alt="" src="./img/b00006116.png"/>
       </p>
       </div>
@@ -260,12 +278,12 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005002">
-     <p id="aad17ad6-1d62-441a-b9e6-e120b5b079f6">
+     <p id="6d37f622-b44a-472c-b547-7a82f34a1ad1">
       <head rend="left">
       * № 2 (рук. № 2).
      </head>
     </p>
-    <p id="f38dd2dc-f509-4755-91e5-1651ad7300b3">
+    <p id="b442a261-7285-4703-9142-c772ea735356">
       <br/>
     </p>
     <p id="0a69c2d9-64b9-4387-9def-022d320711e8" rend="centerline">
@@ -332,7 +350,7 @@
         <p id="236daf63-420f-4d30-b622-f3c3d3d46fab" rend="left">
          4) Какие переменяются по всем — отмечать.
         </p>
-        <p id="e21db3fe-e064-4655-8849-830f4b8d3f23">
+        <p id="a6288e9a-b760-42d0-94ae-39577ef6b442">
           <br/>
         </p>
         <p id="019502cf-1638-4ad6-b51d-1c96be231dba" rend="center">
@@ -343,14 +361,17 @@
         </p>
         <p id="53673cf6-a05b-4296-b045-627df943c603" rend="notindent">
          (не — с прилагательным.)
-         <a href="#" data-type="snoska" id="note178">178</a><span class="note" id="note178">
-          <span id="329e40fe-63e6-4bf3-8bc6-5095a951f9c5" rend="left" data-class="paragraph">
-            <span class="hi" data-attribute="italic">
-             Между первым и вторым пунктами наискось помечено:
-            </span>
-            Водовозова. Паульсон. Родное слово.
+         <a href="#" data-type="snoska" id="note178">
+          178
+         </a>
+         <span class="note" id="note178">
+          <span data-class="paragraph" id="329e40fe-63e6-4bf3-8bc6-5095a951f9c5" rend="left">
+           <span class="hi" data-attribute="italic">
+            Между первым и вторым пунктами наискось помечено:
            </span>
+           Водовозова. Паульсон. Родное слово.
           </span>
+         </span>
         </p>
         <p id="61cacee5-2c84-4d7a-8ec4-5357c81c0bda" rend="left">
          2) Существительное, падежи.
@@ -426,24 +447,24 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005003">
-     <p id="d06eebe5-f0b4-4ab8-826d-4f3d192236d4">
+     <p id="0522d56e-37c0-4494-a8b1-929f66cefe8e">
       <head rend="left">
       * № 3 (рук. № 3).
      </head>
     </p>
-    <p id="5c81c8f9-1813-4056-8b64-f786a6d991a5">
+    <p id="27f6c2e7-73cc-4ea4-af03-faceb92af818">
       <br/>
     </p>
     <p id="70611e1b-b158-4fbf-a709-95d62db33332" rend="centerline">
       ГРАММАТИКА
      </p>
-     <p id="1700abb4-7960-4a5c-823b-1c956bfa4b4e">
+     <p id="dee7f308-1573-4b95-8ac4-a2f2cde00f6a">
       <br/>
     </p>
     <p id="31b2db97-af70-4a07-ada7-eef91916784b" rend="centerline Razradka">
       ЭТИМОЛОГИЯ
      </p>
-     <p id="07b1d097-1e82-4009-8cf8-47da43ff817c">
+     <p id="ea689547-8994-43b5-bb70-c2938a73d835">
       <br/>
     </p>
     <p id="865a2ffa-52a7-4ae3-b13a-1d8f2061e289" rend="centerline">
@@ -507,22 +528,25 @@
        на
       </span>
       псарню.
-      <a href="#" data-type="snoska" id="note179">179</a><span class="note" id="note179">
-       <span id="a485d862-8c31-4282-96f7-5465f5f8b65a" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике:
-         </span>
-         ... думая попасть
-         <span class="hi" data-attribute="italic">
-          на
-         </span>
-         псарню, попал
-         <span class="hi" data-attribute="italic">
-          в
-         </span>
-         овчарню.
+      <a href="#" data-type="snoska" id="note179">
+       179
+      </a>
+      <span class="note" id="note179">
+       <span data-class="paragraph" id="a485d862-8c31-4282-96f7-5465f5f8b65a" rend="left">
+        <span class="hi" data-attribute="italic">
+         В подлиннике:
         </span>
+        ... думая попасть
+        <span class="hi" data-attribute="italic">
+         на
+        </span>
+        псарню, попал
+        <span class="hi" data-attribute="italic">
+         в
+        </span>
+        овчарню.
        </span>
+      </span>
      </p>
      <p id="1c03d365-495f-4ffb-b5d7-07c67ad75dad" rend="left">
       <span class="hi" data-attribute="italic">
@@ -540,7 +564,7 @@
      <p id="2845af98-a22c-4a79-82b9-653d4ccfc549" rend="left">
       Одни слова не переменяются никогда; как раз написано слово, так оно всегда и остается, к чему его ни поставь; а другие слова переменяются на конце, смотря по тому, к чему они сказаны.
      </p>
-     <p id="a02ed276-0ef8-4748-a91d-54abd58ea95f">
+     <p id="faa9887a-4e17-4c9c-b410-c56bfa60cb0e">
       <br/>
     </p>
     <p id="42069621-eebd-4739-937c-6015242be0de" rend="centerline">
@@ -548,22 +572,25 @@
      </p>
      <p id="c5d5bc6f-17fe-4930-86ea-806d1784efcb" rend="left">
       Волк ночью, думая попасть в овчарню, попал на псарню.
-      <a href="#" data-type="snoska" id="note180">180</a><span class="note" id="note180">
-       <span id="e6456a46-1b91-41c4-8621-108d31f63520" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике:
-         </span>
-         ... думая попасть
-         <span class="hi" data-attribute="italic">
-          на
-         </span>
-         псарню, попал
-         <span class="hi" data-attribute="italic">
-          в
-         </span>
-         овчарню.
+      <a href="#" data-type="snoska" id="note180">
+       180
+      </a>
+      <span class="note" id="note180">
+       <span data-class="paragraph" id="e6456a46-1b91-41c4-8621-108d31f63520" rend="left">
+        <span class="hi" data-attribute="italic">
+         В подлиннике:
         </span>
+        ... думая попасть
+        <span class="hi" data-attribute="italic">
+         на
+        </span>
+        псарню, попал
+        <span class="hi" data-attribute="italic">
+         в
+        </span>
+        овчарню.
        </span>
+      </span>
       <hi>
       </hi>
       Поднялся
@@ -645,7 +672,7 @@
       </span>
       не может отвечать на вопросы: от кого? кому? и нельзя сказать про прежнее и теперешнее; стало быть, оно непеременное.
      </p>
-     <p id="c389c1f7-e51d-4eed-a719-94c1784f9ecd">
+     <p id="7a1cc9e8-7bfa-4d46-aac8-bf3d61e02fff">
       <br/>
     </p>
     <p id="e6b02a74-a9d7-42cf-8cf9-019a986b2faa" rend="left">
@@ -662,7 +689,7 @@
      <p id="554cfada-a439-4e05-a00a-a763e667e0cb" rend="left emptyline">
       <pb n="521"/>
      </p>
-     <p id="8794f180-82f8-4547-a3f9-4e9ff29c8ba1">
+     <p id="4393214c-606f-445e-94a2-00acdb68d01b">
       <br/>
     </p>
     <p id="b0ecc8e9-55bb-4ace-9bd2-04ca498a6c91" rend="centerline Razradka">
@@ -713,7 +740,7 @@
       на вопросы: 1) Как звать? 2) от кого родился? 3) кому дать? 4) кого винить? 5) кем сотворено? 6) о ком предложено? Запомни, что там, где в дательном и предложном падеже имя кончается на е, всегда пишется ѣ: палке
       , дворе
       . </p>
-     <p id="82e846e8-2275-45aa-8659-510c89f59e12">
+     <p id="4dc535d0-8d7a-4730-8609-b99a4c560ad2">
       <br/>
     </p>
     <p id="5d50e617-d572-44b8-b142-3cc39ba37eb4" rend="centerline Razradka">
@@ -764,7 +791,7 @@
      <p id="db45b24f-d636-488b-8c22-9d218c709fb5" rend="left emptyline">
       <pb n="522"/>
      </p>
-     <p id="7c44579f-83aa-4661-a2da-e89dfa6cdf3a">
+     <p id="89e3a237-b773-46fb-a090-ac15cb7e62bc">
       <br/>
     </p>
     <p id="1b94ae4c-914b-4396-aadf-b94a22b85668" rend="centerline Razradka">
@@ -773,7 +800,7 @@
      <p id="4aad491d-f9db-4f74-a128-5d369188231a" rend="left">
       Я думаю, ты думаешь, он думает, мы думаем, вы думаете, они думают.
      </p>
-     <p id="ed4dec68-89e1-422b-8ac6-7f9feded0354">
+     <p id="a15e37bc-5032-46e3-9c17-0ef578b5a5c1">
       <br/>
     </p>
     <p id="04ee1b7d-550d-4052-8b5a-b560ea607c57" rend="centerline Razradka">
@@ -782,7 +809,7 @@
      <p id="ac6db804-0831-42b0-aafa-832e42110fe6" rend="left">
       Я думал, . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
      </p>
-     <p id="176e04cc-2114-4fc2-98a2-2be3d06159be">
+     <p id="a56cee7b-5951-43ce-84a6-e19f43cc177b">
       <br/>
     </p>
     <p id="ef05b57d-83ab-4b99-a30e-56dd4f559ed6" rend="centerline Razradka">
@@ -839,7 +866,7 @@
       </span>
       переменяется. Имена, которые переменяются, когда прикладываются к мужскому или женскому имени, называются прилагательными.
      </p>
-     <p id="9ee29192-eb70-4bbf-abfe-7fa124014bd1">
+     <p id="868c85f3-bd3e-4f8f-a420-719e10bcf946">
       <br/>
     </p>
     <p id="1241e922-4990-4ee2-ba8d-8139b85c299b" rend="centerline Razradka">
@@ -990,14 +1017,17 @@
       <span class="hi" data-attribute="italic">
        думая
       </span>
-      <a href="#" data-type="snoska" id="note181">181</a><span class="note" id="note181">
-       <span id="4cfea2a5-ab9b-44ab-8771-cf5675f30a2e" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике
-         </span>
-         : думал
+      <a href="#" data-type="snoska" id="note181">
+       181
+      </a>
+      <span class="note" id="note181">
+       <span data-class="paragraph" id="4cfea2a5-ab9b-44ab-8771-cf5675f30a2e" rend="left">
+        <span class="hi" data-attribute="italic">
+         В подлиннике
         </span>
+        : думал
        </span>
+      </span>
       <span class="hi" data-attribute="italic">
        залезть,
       </span>
@@ -1121,7 +1151,7 @@
      <p id="7b297331-f0c4-457a-be6d-0aa4d8b2b564" rend="left">
       Каждое главное слово с своими словами составляет отдельную речь (предложение) и должно быть отделено от другого главного слова (с его словами) точкой, если одно предложение имеет от другого особый смысл.
      </p>
-     <p id="e0e84da7-2b3b-4678-ab5b-54bc8fa0163f">
+     <p id="97eed0bc-1f4a-462b-b644-4f0b807ce243">
       <br/>
     </p>
     <p id="5f9337c7-17be-4664-9336-b941c47e1847" rend="centerline Razradka">
@@ -1159,13 +1189,16 @@
       Главное слово стоит отдельно от другого главного слова с своими словами.
      </p>
      <p id="9c3bc510-1204-4b50-8629-57e9026ea58b" rend="left">
-      <a href="#" data-type="snoska" id="note182">182</a><span class="note" id="note182">
-       <span id="cf31b50c-ed36-4ea5-8e9d-8032157aa58c" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          Абзац редактора.
-         </span>
+      <a href="#" data-type="snoska" id="note182">
+       182
+      </a>
+      <span class="note" id="note182">
+       <span data-class="paragraph" id="cf31b50c-ed36-4ea5-8e9d-8032157aa58c" rend="left">
+        <span class="hi" data-attribute="italic">
+         Абзац редактора.
         </span>
        </span>
+      </span>
       Почуя серого так близко забияку, псы залились и рвутся вон на драку. Псы — общее слово к 3-м главным словам и соединено почуя с
       <span class="hi" data-attribute="italic">
        залились
@@ -1181,13 +1214,16 @@
       запятою соединяются.
      </p>
      <p id="bdff54e6-26f6-416e-b741-60f2dc6330e6" rend="left">
-      <a href="#" data-type="snoska" id="note183">183</a><span class="note" id="note183">
-       <span id="697540c5-ba05-463b-9ee6-624c96464261" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          Абзац редактора.
-         </span>
+      <a href="#" data-type="snoska" id="note183">
+       183
+      </a>
+      <span class="note" id="note183">
+       <span data-class="paragraph" id="697540c5-ba05-463b-9ee6-624c96464261" rend="left">
+        <span class="hi" data-attribute="italic">
+         Абзац редактора.
         </span>
        </span>
+      </span>
       2) Тем, что одно предложение всё отвечает на вопрос другого. —
       <span class="hi" data-attribute="italic">
        Псари кричат: Ахти
@@ -1212,30 +1248,36 @@
      </p>
      <p id="57cea7ae-781d-41e4-8e7f-b8977d79ff22" rend="left">
       Бегут иной с дубьем, иной с
-      <a href="#" data-type="snoska" id="note184">184</a><span class="note" id="note184">
-       <span id="0c9c48f4-85dd-4dd1-83c3-41ed41b87181" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          Слово:
-         </span>
-         с
-         <span class="hi" data-attribute="italic">
-          написано дважды.
-         </span>
+      <a href="#" data-type="snoska" id="note184">
+       184
+      </a>
+      <span class="note" id="note184">
+       <span data-class="paragraph" id="0c9c48f4-85dd-4dd1-83c3-41ed41b87181" rend="left">
+        <span class="hi" data-attribute="italic">
+         Слово:
+        </span>
+        с
+        <span class="hi" data-attribute="italic">
+         написано дважды.
         </span>
        </span>
+      </span>
       ружьем. Бегут — кто? Иной с ружьем
-      <a href="#" data-type="snoska" id="note185">185</a><span class="note" id="note185">
-       <span id="ae6dad85-4c28-473e-8139-f709bd345451" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          Слово:
-         </span>
-         ружьем
-         <span class="hi" data-attribute="italic">
-          зачеркнуто и над ним написано рукой переписчика:
-         </span>
-         дубьем.
+      <a href="#" data-type="snoska" id="note185">
+       185
+      </a>
+      <span class="note" id="note185">
+       <span data-class="paragraph" id="ae6dad85-4c28-473e-8139-f709bd345451" rend="left">
+        <span class="hi" data-attribute="italic">
+         Слово:
         </span>
+        ружьем
+        <span class="hi" data-attribute="italic">
+         зачеркнуто и над ним написано рукой переписчика:
+        </span>
+        дубьем.
        </span>
+      </span>
       . Если бы отвечало на вопрос, то было бы:
       <span class="hi" data-attribute="italic">
        бежит
@@ -1321,7 +1363,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005004">
-     <p id="fe1e9abb-d3c9-437a-a431-61d7a3519d42">
+     <p id="7fa9614f-14fa-4f08-a05a-8722f997d0a4">
       <head rend="left">
       * № 4 (рук. № 4).
      </head>
@@ -1364,14 +1406,17 @@
      </p>
      <p id="734c2287-24d2-4693-930b-ffec4927522e" rend="left">
       (Местоимения бывают также существительные и прилагательные.)
-      <a href="#" data-type="snoska" id="note186">186</a><span class="note" id="note186">
-       <span id="52fb8616-2af9-43a9-99ed-9f75c546068c" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          На полях помета
-         </span>
-         : Мест. после сущест. и прил.
+      <a href="#" data-type="snoska" id="note186">
+       186
+      </a>
+      <span class="note" id="note186">
+       <span data-class="paragraph" id="52fb8616-2af9-43a9-99ed-9f75c546068c" rend="left">
+        <span class="hi" data-attribute="italic">
+         На полях помета
         </span>
+        : Мест. после сущест. и прил.
        </span>
+      </span>
      </p>
      <p id="c5ebbe7d-6e31-40d0-a81c-b0b3b79b38ab" rend="left">
       <pb n="527"/>
@@ -1424,15 +1469,18 @@
      </p>
      <p id="161b29b5-8b80-43c2-9838-b8a2f3cd4be0" rend="left">
       2) Басня. (Слова разных чисел.) Выписать слова. Существительные бывают 2-х чисел. Басня, разбор по числам
-      <a href="#" data-type="snoska" id="note187">187</a><span class="note" id="note187">
-       <span id="591aca28-78ce-4dc3-8758-c6fb5acdd6b8" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          На полях помета:
-          <span quantity="1" reason="illegible" unit="word" class="gap"/>
-         </span>
-         по падежам особен. роды.
+      <a href="#" data-type="snoska" id="note187">
+       187
+      </a>
+      <span class="note" id="note187">
+       <span data-class="paragraph" id="591aca28-78ce-4dc3-8758-c6fb5acdd6b8" rend="left">
+        <span class="hi" data-attribute="italic">
+         На полях помета:
+         <span quantity="1" reason="illegible" unit="word" class="gap"/>
         </span>
+        по падежам особен. роды.
        </span>
+      </span>
       .
      </p>
      <p id="43e47b6d-0e61-40c8-a256-7465fd383740" rend="left">
@@ -1449,14 +1497,17 @@
        Прилагательное.
       </span>
       1) Прилагательное полное и усеченное. 1) Полное. Басня, разбор по родам.
-      <a href="#" data-type="snoska" id="note188">188</a><span class="note" id="note188">
-       <span id="3d0be67b-8028-47d6-8707-2bafcc3d035c" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          На полях против этого абзаца помета:
-         </span>
-         по родам особен, усеч. и степ.
+      <a href="#" data-type="snoska" id="note188">
+       188
+      </a>
+      <span class="note" id="note188">
+       <span data-class="paragraph" id="3d0be67b-8028-47d6-8707-2bafcc3d035c" rend="left">
+        <span class="hi" data-attribute="italic">
+         На полях против этого абзаца помета:
         </span>
+        по родам особен, усеч. и степ.
        </span>
+      </span>
      </p>
      <p id="c318457e-929e-4375-adce-a8edccf75c4a" rend="left">
       2) Басни, разбор по числам.
@@ -1542,7 +1593,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005005">
-     <p id="4f68f999-6ec0-4dad-8fbe-f4707472b582">
+     <p id="dcc60bac-16e6-4731-8b17-dbdc892d6a6c">
       <head rend="left">
       ** № 5 (рук. 4).
      </head>
@@ -1625,12 +1676,12 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005006">
-     <p id="6e4f0de2-bea0-4993-8ed5-062c2e21267e">
+     <p id="a288de09-9ed7-45a0-aa8d-4b1d285e7688">
       <head rend="left">
       ** № 6 (рук. 7).
      </head>
     </p>
-    <p id="d7d8b983-8fc7-4a5f-84be-89c741e20982">
+    <p id="92285b22-0259-4698-9c36-05f2daea5b15">
       <br/>
     </p>
     <p id="a72d4598-5f3b-42b6-999a-81f8addaa5d3" rend="centerline Razradka">
@@ -1672,7 +1723,7 @@
      <p id="07c7d05f-5539-4dce-94e6-770b35aae4dc" rend="left">
       9) Наречия с глаголами.
      </p>
-     <p id="7fb42aed-5d4e-483a-b71d-db11fa9bce81">
+     <p id="84c3b9af-e393-415f-a72e-747369098e93">
       <br/>
     </p>
     <p id="054ddd49-03ba-4aba-8192-1b067e9d1ccc" rend="center Razradka">
@@ -1713,7 +1764,7 @@
       </span>
       . 9) — —
      </p>
-     <p id="7d66e504-9b8e-437c-aa6b-bcf7ae767dde">
+     <p id="a884f349-9a64-4eb1-870b-f001bbe0af16">
       <br/>
     </p>
     <p id="640b9bd5-ed62-4353-bbe6-103d8dec24f6" rend="centerline Razradka">
@@ -1734,7 +1785,7 @@
        а глупому ты.
       </span>
      </p>
-     <p id="81940835-a189-4fac-9678-2daeae39f946">
+     <p id="ffc77a82-1653-4556-a486-bff4c362f05d">
       <br/>
     </p>
     <p id="3e35a5ce-2a4c-4f12-900d-b241427bd3ad" rend="centerline Razradka">
@@ -1745,7 +1796,7 @@
        Мужик спит, я сплю. Старый спит.
       </span>
      </p>
-     <p id="ddfd525c-4e77-42d6-8477-caf233bf7568">
+     <p id="cf24d938-3b79-4689-ab10-33bc10c8b06f">
       <br/>
     </p>
     <p id="a97951b5-0554-4bcb-a5ec-af4280ca9b1d" rend="centerline Razradka">
@@ -1756,7 +1807,7 @@
        Отец старше. Мать моложе.
       </span>
      </p>
-     <p id="fb6a73a7-1b15-4313-a5f8-0de65c5b0654">
+     <p id="bdaf1cec-408e-41a2-83e7-e2fa396790a5">
       <br/>
     </p>
     <p id="c3e17b22-8515-40c9-9c4c-078f33f909bb" rend="centerline Razradka">
@@ -1767,7 +1818,7 @@
        Учится шить. Хочется спать.
       </span>
      </p>
-     <p id="c9298445-eab1-4513-899e-240ad733b293">
+     <p id="6f39845c-aa17-409d-a929-122fa806cc39">
       <br/>
     </p>
     <p id="6aba3d3e-7fa3-4d48-aa64-be347f021114" rend="centerline Razradka">
@@ -1782,7 +1833,7 @@
      <p id="aff08121-197a-4493-8d9d-8ba344265e32" rend="left emptyline">
       <pb n="530"/>
      </p>
-     <p id="1f4f002d-f090-45a8-9f85-bbaa9b398d86">
+     <p id="a531c108-7b71-480e-8b7b-19e0a076b2be">
       <br/>
     </p>
     <p id="e5ea18c9-af7c-40ab-8ce5-acfb871c3ff5" rend="centerline Razradka">
@@ -1793,7 +1844,7 @@
        Стало тепло. Замерзло крепко.
       </span>
      </p>
-     <p id="854bae91-d453-43f8-aecf-ac6a92373295">
+     <p id="4ea0c4de-4df4-4435-a8b8-e4abf24e9e5e">
       <br/>
     </p>
     <p id="1c66b241-3169-4513-8ac0-b9f87bd6c644" rend="centerline Razradka">
@@ -1804,7 +1855,7 @@
        Тепло лучше.
       </span>
      </p>
-     <p id="9b677bcc-a133-4c68-bdab-403bc07fb582">
+     <p id="4f27c995-f6f2-4334-aec3-2063d94f4acd">
       <br/>
     </p>
     <p id="25cc2ae7-b14f-4e69-8726-af2763c90623" rend="centerline Razradka">
@@ -1815,7 +1866,7 @@
        Старше отца. Моложе матери.
       </span>
      </p>
-     <p id="18db5119-147e-4afb-8636-abb66f774e03">
+     <p id="e334eafe-4c3b-44e7-8e1d-2fb3bfd27805">
       <br/>
     </p>
     <p id="ffce4191-1e3a-47d9-a29d-c3b9b55e1910" rend="centerline Razradka">
@@ -1869,7 +1920,7 @@
      <p id="67e7281e-6173-40be-83e0-b5fede3d28af" rend="left">
       &lt;Где&gt; сладкий шопот моих лесов.
      </p>
-     <p id="ea089d58-2587-43fc-9f87-ed3ebc44398a">
+     <p id="72620a01-d4b3-4927-a683-44de09ef5b40">
       <br/>
     </p>
     <p id="f636a2cf-163d-4d8c-8d36-370eb4f0bc67" rend="left">
@@ -1877,7 +1928,7 @@
        Итак:
       </span>
      </p>
-     <p id="f14e824e-9608-4b23-b289-ee73b782e9ab">
+     <p id="37569c89-a8db-4a54-afd9-30ae6c213d04">
       <br/>
     </p>
     <p id="4705433d-3104-4f9a-a1ff-d5b0d66ed6d9" rend="left">
@@ -1894,7 +1945,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005007">
-     <p id="71bd4e4a-a681-4f38-832c-ca16b9cd11b8">
+     <p id="21a98426-7716-457b-86e1-6d5a569e6cad">
       <head rend="left">
       ** № 7 (рук. № 7).
      </head>
@@ -1970,7 +2021,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005008">
-     <p id="900f78e3-6c0d-4419-ba53-d2e89d79330d">
+     <p id="7693bf6a-57d3-463f-80e1-8efacba0c40f">
       <head rend="left">
       ** № 8 (рук. № 7).
      </head>
@@ -2163,7 +2214,7 @@
       </tr>
       <tr>
        <td>
-        <p id="80ecca4c-f127-473d-bc80-75b75782cb59">
+        <p id="6a9fbe06-f07a-4366-9fb7-f36271acef8d">
           <br/>
         </p>
         </td>
@@ -2208,13 +2259,16 @@
        наслажденье
       </span>
       выехать до зари.
-      <a href="#" data-type="snoska" id="note189">189</a><span class="note" id="note189">
-       <span id="d78e5691-f823-44e2-80a8-79a5ac6dd0c8" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          Против этой фразы на полях поставлен вопрос.
-         </span>
+      <a href="#" data-type="snoska" id="note189">
+       189
+      </a>
+      <span class="note" id="note189">
+       <span data-class="paragraph" id="d78e5691-f823-44e2-80a8-79a5ac6dd0c8" rend="left">
+        <span class="hi" data-attribute="italic">
+         Против этой фразы на полях поставлен вопрос.
         </span>
        </span>
+      </span>
      </p>
      <p id="e231f93c-6e20-4493-afed-2fac41373f57" rend="left">
       Иван хочет
@@ -2231,7 +2285,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005009">
-     <p id="00499959-9d2c-48b0-ba41-22fab4bc8708">
+     <p id="40a6f885-2b21-433d-bbb1-eb6c39643d99">
       <head rend="left">
       ** № 9 (рук. № 7).
      </head>
@@ -2287,23 +2341,29 @@
        молитва
       </span>
       . — Тем, что стоит в том же роде, числе и падеже. — По всем переменам: по роду, числу и падежу, оба слова эти соединены, так что составляют как одно слово. Без материнских молитв тебе бы худо было. Тут эти слова в другом падеже и числе, но оба в одном числе, падеже и роде. Если слова соединены тем, что стоят
-      <a href="#" data-type="snoska" id="note190">190</a><span class="note" id="note190">
-       <span id="116396da-decb-4719-8f0e-809835fbe0fe" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике:
-         </span>
-         стоит
+      <a href="#" data-type="snoska" id="note190">
+       190
+      </a>
+      <span class="note" id="note190">
+       <span data-class="paragraph" id="116396da-decb-4719-8f0e-809835fbe0fe" rend="left">
+        <span class="hi" data-attribute="italic">
+         В подлиннике:
         </span>
+        стоит
        </span>
+      </span>
       в одном роде, числе и падеже, то это называется,
-      <a href="#" data-type="snoska" id="note191">191</a><span class="note" id="note191">
-       <span id="38380b7f-0dfc-4fe1-b0fa-36fe231a13ae" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике:
-         </span>
-         называются:
+      <a href="#" data-type="snoska" id="note191">
+       191
+      </a>
+      <span class="note" id="note191">
+       <span data-class="paragraph" id="38380b7f-0dfc-4fe1-b0fa-36fe231a13ae" rend="left">
+        <span class="hi" data-attribute="italic">
+         В подлиннике:
         </span>
+        называются:
        </span>
+      </span>
       что они согласованы, и соединение по всем переменам может быть только между существительным, прилагательным и причастием, потому что все три слова эти имеют роды, числа и падежи, и такое соединение есть полное согласование. —
      </p>
      <p id="b4940391-22fa-4c5c-93a1-2ed0c5dc8c04" rend="left">
@@ -2330,7 +2390,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005010">
-     <p id="b62b0190-4268-436c-b5a7-a756be5cd191">
+     <p id="d36d1477-166a-410f-8394-73206e037ab4">
       <head rend="left">
       ** № 10 (рук. № 7).
      </head>
@@ -2343,14 +2403,17 @@
      </p>
      <p id="611f0d3f-cf7a-4876-99d2-2fbdd7adde24" rend="left">
       Здоровье дороже богатства. Бог любит труды. Тут 6 слов. Можно ли их переставлять — одно прежде, другое после? Попробуем с конца слова наперед. Любит здоровье дороже богатства. Бог труды — нельзя, смыслу нет. Труды здоровье дороже — тоже нельзя. Бог здоровье — тоже нельзя. Богатства здоровье дороже. Это можно сказать. Дороже здоровье богатства.
-      <a href="#" data-type="snoska" id="note192">192</a><span class="note" id="note192">
-       <span id="cdb83f98-699e-4e95-ae14-022e4e745f9e" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике:
-         </span>
-         Дороже здоровья богатство.
+      <a href="#" data-type="snoska" id="note192">
+       192
+      </a>
+      <span class="note" id="note192">
+       <span data-class="paragraph" id="cdb83f98-699e-4e95-ae14-022e4e745f9e" rend="left">
+        <span class="hi" data-attribute="italic">
+         В подлиннике:
         </span>
+        Дороже здоровья богатство.
        </span>
+      </span>
       И так можно. 3 слова эти можно переставлять, как хочешь, всё будет смысл. Также можно переставлять: Бог любит труды. Любит труды бог. Труды бог любит.
      </p>
      <p id="e7ada66c-f77c-4c7e-968b-78d8cbb5d014" rend="left">
@@ -2431,7 +2494,7 @@
      </table>
     </div>
     <div type="section" xml:id="h000018005011">
-     <p id="2dfed9f5-d50a-4c69-930f-0ce05d3c2607">
+     <p id="b4a97651-300d-44b6-adc6-f2f1109300bd">
       <head rend="left">
       ** № 11 (рук. № 7).
      </head>
@@ -2489,14 +2552,17 @@
       тоже соединены тем, что стоят оба в одном роде, числе и падеже, и что если изменить одно слово, то оба переменятся вместе. Матери стары; лежали, то мужики; зеленые сена, палки длинны. Оба слова равны, и одно изменить, то и другое изменится.
      </p>
      <p id="f2359991-25e2-4166-a940-af45fb8f8cea" rend="left">
-      <a href="#" data-type="snoska" id="note193">193</a><span class="note" id="note193">
-       <span id="af43a944-aad3-4aac-b7da-b5bf0a69769b" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          Абзац редактора
-         </span>
-         .
+      <a href="#" data-type="snoska" id="note193">
+       193
+      </a>
+      <span class="note" id="note193">
+       <span data-class="paragraph" id="af43a944-aad3-4aac-b7da-b5bf0a69769b" rend="left">
+        <span class="hi" data-attribute="italic">
+         Абзац редактора
         </span>
+        .
        </span>
+      </span>
       <span class="hi" data-attribute="italic">
        Стадо овец
       </span>
@@ -2590,7 +2656,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005012">
-     <p id="a1a7d3cd-2e5b-4369-86cf-73c1a89e9671">
+     <p id="4deb8050-05ff-4155-889b-be5035c7287b">
       <head rend="left">
       ** № 12 (рук. № 7).
      </head>
@@ -2610,7 +2676,7 @@
      <p id="0395b731-5eef-43f0-a287-86b27cdf1cac" rend="left">
       3) Когда много соединено, то одно главное слово.
      </p>
-     <p id="34268f46-a861-4e1f-be66-071cf700da9f">
+     <p id="e4253aae-b52f-45e7-9be4-1018d67cb8b6">
       <br/>
     </p>
     <p id="a1197716-48c9-4733-8e46-fb04c6f4439a" rend="left">
@@ -2622,7 +2688,7 @@
      <p id="1b18c77b-6719-4380-89ed-62d7e606c355" rend="centerline Razradka">
       Знаки
      </p>
-     <p id="1c428839-94ce-4516-9482-044bba429ca1">
+     <p id="6c7ddfc6-dc98-423b-930c-ae7e9e977f82">
       <br/>
     </p>
     <p id="bd58bf28-df5a-4447-b53a-d588270bef27" rend="left">
@@ -2666,7 +2732,7 @@
      <p id="664c58fc-4990-4da4-8a41-082a36f98b85" rend="left">
       &lt;Главное слово узнается, во-первых, по тому, что, если его выпустить из речи, то вся речь остается без связи, во 2), по тому, что к одному только главному слову присоединяются слова падежами, в 3), по тому, что оно бывает 1) и чаще всего глагол. Я люблю бога. 2) Существительное всегда в именительном падеже. Дети наша радость. 3) Прилагательное короткое: не старый, пустой, а стар, пуст. Дом пуст. Отец стар. И 4) наречие. Где цветок, там и медок. Один в поле не воин. Мне нужно учиться.
      </p>
-     <p id="31f0cf08-be7a-4edb-bff7-108596fb2ad8">
+     <p id="477fb5dd-044b-43b7-9fca-8ddc44c0863b">
       <br/>
     </p>
     <p id="de588d9c-a9fe-4c23-9413-9a24c1750ed4" rend="left">
@@ -2831,7 +2897,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005013">
-     <p id="c9e5acc1-eaa8-48ee-bfb1-dd64f0be5e5b">
+     <p id="aec941b4-44cf-4ac3-96b2-7efc885d180f">
       <head rend="left">
       ** № 13 (рук. № 8).
      </head>
@@ -2859,7 +2925,7 @@
       </choice>
       . — Стало быть, тут 6 соединений по 2 слова.
      </p>
-     <p id="10d6af8c-398e-49cb-9f98-64af5ae552dd">
+     <p id="a4b6b8a1-cac7-4d3e-94a3-261c7670f3f2">
       <br/>
     </p>
     <p id="9a0b9a34-27ae-4f36-b4c7-586449c9fc27" rend="centerline Razradka">
@@ -3042,21 +3108,24 @@
        </corr>
       </choice>
       ,
-      <a href="#" data-type="snoska" id="note194">194</a><span class="note" id="note194">
-       <span id="775ca465-dd29-4921-a869-90dcced717ef" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          Можно прочесть:
-         </span>
-         <choice original_editorial_correction="часов[ой]">
-          <sic>
-           часов
-          </sic>
-          <corr>
-           часовой
-          </corr>
-         </choice>
+      <a href="#" data-type="snoska" id="note194">
+       194
+      </a>
+      <span class="note" id="note194">
+       <span data-class="paragraph" id="775ca465-dd29-4921-a869-90dcced717ef" rend="left">
+        <span class="hi" data-attribute="italic">
+         Можно прочесть:
         </span>
+        <choice original_editorial_correction="часов[ой]">
+         <sic>
+          часов
+         </sic>
+         <corr>
+          часовой
+         </corr>
+        </choice>
        </span>
+      </span>
       Иван думая об жене, кому играть, а нам работать; и наречие (или прилагательное без рода, числа и падежа): где цветок, там и медок, скучно Афонюшке на чужой сторонушке.
      </p>
      <p id="b30816ff-a334-4832-bcb1-57d605120031" rend="left">
@@ -3077,12 +3146,12 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005014">
-     <p id="35ee9aa0-2209-4215-b409-129b0d93f383">
+     <p id="be84d453-31b5-412c-a7e5-15611d404a05">
       <head rend="left">
       ** № 14 (рук. № 8).
      </head>
     </p>
-    <p id="f8c7e6be-9897-4e03-9b9c-c4e0c375650d">
+    <p id="6137e4e8-2edc-4fac-bf07-ab4777351574">
       <br/>
     </p>
     <p id="08ff4d62-e2d1-406b-9722-22f4055e23ed" rend="center Razradka">
@@ -3547,7 +3616,7 @@
      <p id="a97d8d2b-2d1b-4a26-b51d-f32d3562f2e2" rend="left">
       Все предложения составлены из существительных в именительном, или из глаголов в изъявительном, или из наречий из непеременных слов.&gt;
      </p>
-     <p id="e0ab9f9b-696e-4718-bba9-a0bb225576a6">
+     <p id="8a16d8d5-d8d1-4b3c-a8ef-d8554b264781">
       <br/>
     </p>
     <p id="438ea21f-0f46-4ea9-b570-b6337d246cae" rend="left">
@@ -3558,7 +3627,7 @@
      </p>
     </div>
     <div type="section" xml:id="h000018005015">
-     <p id="04403c8d-fae5-4f59-ace6-03ea7f69f7ef">
+     <p id="bc6068b2-36ff-4bde-b400-597dcc69796e">
       <head rend="left">
       ** № 15 (рук. № 8).
      </head>
@@ -3762,17 +3831,20 @@
        не родится
       </span>
       ,
-      <a href="#" data-type="snoska" id="note195">195</a><span class="note" id="note195">
-       <span id="091221dc-13f4-4c0d-a311-b7e8f1d208a5" rend="left" data-class="paragraph">
-         <span class="hi" data-attribute="italic">
-          В подлиннике
-         </span>
-         родится
-         <span class="hi" data-attribute="italic">
-          написано дважды.
-         </span>
+      <a href="#" data-type="snoska" id="note195">
+       195
+      </a>
+      <span class="note" id="note195">
+       <span data-class="paragraph" id="091221dc-13f4-4c0d-a311-b7e8f1d208a5" rend="left">
+        <span class="hi" data-attribute="italic">
+         В подлиннике
+        </span>
+        родится
+        <span class="hi" data-attribute="italic">
+         написано дважды.
         </span>
        </span>
+      </span>
       то было бы
       <span class="hi" data-attribute="italic">
        от беды.

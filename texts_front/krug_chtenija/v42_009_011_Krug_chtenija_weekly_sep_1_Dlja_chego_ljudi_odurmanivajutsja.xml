@@ -1,112 +1,124 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v42_009_011_Krug_chtenija_weekly_sep_1_Dlja_chego_ljudi_odurmanivajutsja">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения. Сентябрь</title>
-                <title type="sub">Для чего люди одурманиваются? Л.Н.Толстой</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d3e2b1e8-afba-4efc-9986-50249420b7aa">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015-01-01" to="2022-01-01"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Для чего люди одурманиваются? Л.Н.Толстой
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date from="1957-01-01" to="1957-12-31"/>
-                        </imprint>
-                        <biblScope unit="volume">42</biblScope>
-                        <biblScope unit="page">9-11</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1906-01-01" to="1906-12-31"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#publ" target="published"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#Tolstoy" target="author"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_009_011_Krug_chtenija_weekly_sep_1_Dlja_chego_ljudi_odurmanivajutsja">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения. Сентябрь
+    </title>
+    <title type="sub">
+     Для чего люди одурманиваются? Л.Н.Толстой
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d3e2b1e8-afba-4efc-9986-50249420b7aa">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015-01-01" to="2022-01-01"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Для чего люди одурманиваются? Л.Н.Толстой
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date from="1957-01-01" to="1957-12-31"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       9-11
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1906-01-01" to="1906-12-31"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#publ" target="published"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="weekly" when="--9-1" xml:id="h000006002002001">
     <p id="abb43b67-0b94-4bb8-a886-83f796469d87">
      <pb n="9"/>
     </p>
-    <p id="cb89d679-7030-4461-a3b1-64a3d1c96f32">
+    <p id="5d9f0912-e458-499c-9767-57f351ddd676">
       <head rend="center">
      ДЛЯ ЧЕГО ЛЮДИ ОДУРМАНИВАЮТСЯ?
     </head>
