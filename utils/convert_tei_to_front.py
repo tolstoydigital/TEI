@@ -14,9 +14,9 @@ RESULT_PATH = Path(REPO_PATH, 'texts_front')
 XMLNS = 'http://www.tei-c.org/ns/1.0'
 
 
-def is_descendant_of_p(tag: etree._Element) -> bool:
+def is_descendant_of_p(tag: etree._Element, tag_type='p') -> bool:
     for parent in tag.iterancestors():
-        if parent.tag.replace(f'{{{XMLNS}}}', '') == 'p':
+        if parent.tag.replace(f'{{{XMLNS}}}', '') == tag_type:
             return True
     return False
 
@@ -109,16 +109,17 @@ def wrap_unwrapped_tags_in_p_tag(root: etree._Element, uuids: set[str]) -> None:
             continue
         if tag.getparent().tag.replace(f'{{{XMLNS}}}', '') == 'noteGrp':
             continue
-        if not is_descendant_of_p(tag):
+        if not is_descendant_of_p(tag) and not is_descendant_of_p(tag, 'l'):
             wrap_tag_in_p(tag, uuids, root)
 
 
-def fix_existing_p(root: etree._Element, uuids: set[str]) -> None:
+def add_uuids_to_existing_p_and_l(root: etree._Element, uuids: set[str]) -> None:
     """добавить uuid где не было"""
-    ps = root.xpath('//ns:p', namespaces={'ns': f'{XMLNS}'})
-    for p in ps:
-        if 'id' not in p.attrib:
-            p.set('id', generate_new_uuid(uuids))
+    tags = root.xpath('//ns:p', namespaces={'ns': f'{XMLNS}'})
+    tags.extend(root.xpath('//ns:l', namespaces={'ns': f'{XMLNS}'}))
+    for tag in tags:
+        if 'id' not in tag.attrib:
+            tag.set('id', generate_new_uuid(uuids))
 
 
 def delete_old_orthography(root: etree._Element) -> None:
@@ -205,8 +206,6 @@ def change_tags(root):
                 elif re.search(r'\d{4}', date.strip(' ?')) is not None:
                     tag.set(attr, f'{date.strip(" ?")}-01-01')
 
-        # print(get_title_id_from_root(root))
-        # print(tag.attrib)
         # теги с нестандартными периодами в виде текста
         if tag.text is not None:
             # print(get_title_id_from_root(root))
@@ -230,14 +229,24 @@ def change_tags(root):
         if 'from' in tag.attrib:
             first_year = tag.attrib['from']
             last_year = tag.attrib['to']
-            if first_year.split('-')[0] == last_year.split('-')[0] and last_year.split('-')[1] == last_year.split('-')[
-                2] == '01':
+            if first_year.split('-')[0] == last_year.split('-')[0] and last_year.split('-')[1] == last_year.split('-')[2] == '01':
                 tag.set('to', f'{last_year.split("-")[0]}-12-31')
+
+        # temp если глюк, что левая дата больше, то меняю местами даты
+        left_date = tag.attrib['from']
+        right_date = tag.attrib['to']
+        if left_date > right_date:
+            tag.set('from', right_date)
+            tag.set('to', left_date)
 
         # check dates
         for attr in ['from', 'to']:
             if re.search(r'^\d{4}-\d\d-\d\d$', tag.attrib[attr]) is None:
                 print(tag.attrib, get_title_id_from_root(root))
+        left_date = tag.attrib['from']
+        right_date = tag.attrib['to']
+        if left_date > right_date:
+            print(left_date, right_date, get_title_id_from_root(root))
 
     # cell tags to td
     cell_tags = root.xpath('//ns:cell', namespaces={'ns': f'{XMLNS}'})
@@ -301,11 +310,17 @@ def change_tags(root):
     for tag in root.xpath('//ns:row', namespaces={'ns': f'{XMLNS}'}):
         tag.tag = 'tr'
 
+    # None text in sic to '' text — может, это и не нужно
+    for tag in root.xpath('//ns:sic', namespaces={'ns': f'{XMLNS}'}):
+        if tag.text is None:
+            tag.text = ''
+
 
 def check_paragraphs(root):
     wrong = False
     for p_tag in root.xpath('//ns:p', namespaces={'ns': f'{XMLNS}'}):
-        if is_descendant_of_p(p_tag):
+        # if is_descendant_of_p(p_tag):
+        if is_descendant_of_p(p_tag) or is_descendant_of_p(p_tag, 'l'):
             parent = p_tag.getparent()
             # add
             # if parent.tag.replace(f'{{{XMLNS}}}', '') == 'span' and 'class' in parent.attrib and parent.get('class') == 'add':
@@ -321,10 +336,37 @@ def check_paragraphs(root):
             wrong = True
             ancestor = get_p_ancestor(p_tag)
             if wrong:
-                print(get_title_id_from_root(root), ancestor.get(f'id'))
-                print(p_tag.getparent().attrib, p_tag.getparent().tag)
-                print(p_tag.get('id'))
+                # print(get_title_id_from_root(root), ancestor.get(f'id'))
+                # print(p_tag.getparent().attrib, p_tag.getparent().tag)
+                # print(p_tag.get('id'))
+                pass
+
+    # check l tags
+    # for l_tag in root.xpath('//ns:l', namespaces={'ns': f'{XMLNS}'}):
+    #     for tag in l_tag.iterdescendants():
+    #         if tag.tag.replace(f'{{{XMLNS}}}', '') == 'p':
+    #             print(get_title_id_from_root(root))
     return wrong
+
+
+def change_epigraphs(root):
+    for epigraph_tag in root.xpath('//ns:epigraph', namespaces={'ns': f'{XMLNS}'}):
+        future_spans = []
+        for tag in epigraph_tag.iterdescendants():
+            if tag.tag.replace(f'{{{XMLNS}}}', '') == 'p':
+                future_spans.append(deepcopy(tag))
+        paragraphs = []
+        for span in future_spans:
+            new_p = etree.Element('p', **span.attrib)
+            new_p.append(span)
+            for attr in span.attrib:
+                span.attrib.pop(attr)
+            span.set('class', 'epigraph')
+            span.tag = 'span'
+            paragraphs.append(new_p)
+        for new_p in paragraphs[::-1]:
+            epigraph_tag.addnext(new_p)
+        epigraph_tag.getparent().remove(epigraph_tag)
 
 
 def main():
@@ -337,9 +379,10 @@ def main():
             with open(Path(path, filename), 'rb') as file:
                 root = etree.fromstring(file.read())
 
-            fix_existing_p(root, uuids)
-            wrap_unwrapped_tags_in_p_tag(root, uuids)
+            add_uuids_to_existing_p_and_l(root, uuids)
+            change_epigraphs(root)
             delete_old_orthography(root)
+            wrap_unwrapped_tags_in_p_tag(root, uuids)
             change_tags(root)
             wrongs += check_paragraphs(root)
 
