@@ -21,8 +21,15 @@ def is_descendant_of_p(tag: etree._Element) -> bool:
     return False
 
 
+def get_p_ancestor(tag: etree._Element) -> etree._Element:
+    for parent in tag.iterancestors():
+        if parent.tag.replace(f'{{{XMLNS}}}', '') == 'p':
+            return parent
+
+
 def get_all_p_uuids(path: Path) -> set[str]:
     ids = set()
+    ids_list = []
     for path, dirs, files in os.walk(path):
         for filename in files:
             if not filename.endswith('.xml'):
@@ -33,13 +40,25 @@ def get_all_p_uuids(path: Path) -> set[str]:
             for p in paragraphs:
                 try:
                     ids.add(p.attrib['id'])
+                    ids_list.append(p.attrib['id'])
                 except KeyError:
                     continue
+            lines = root.xpath('//ns:l', namespaces={'ns': f'{XMLNS}'})
+            for l in lines:
+                try:
+                    ids.add(l.attrib['id'])
+                    ids_list.append(l.attrib['id'])
+                except KeyError:
+                    continue
+
     # consider uuids in taxonomy
     with open(Path(path, '../../reference/taxonomy.xml'), 'rb') as file:
         root = etree.fromstring(file.read())
     for tag in root.xpath('//category'):
         ids.add(tag.attrib['uuid'])
+        ids_list.append(tag.attrib['uuid'])
+
+    # print(len(ids), len(ids_list))
     return ids
 
 
@@ -82,8 +101,10 @@ def wrap_unwrapped_tags_in_p_tag(root: etree._Element, uuids: set[str]) -> None:
     body_tag = root.xpath('//ns:body', namespaces={'ns': f'{XMLNS}'})[0]
     for tag in body_tag.iterdescendants():
         tag_name = tag.tag.replace(f'{{{XMLNS}}}', '')
-        if tag_name in ['p', 'l', 'lg', 'noteGrp', 'div']:
+        # if tag_name in ['p', 'l', 'lg', 'noteGrp', 'div']:
+        if tag_name in ['p', 'l', 'lg', 'noteGrp', 'div', 'table', 'cit', 'row', 'cell', 'tr', 'td', 'div1', 'bibl']:
             continue
+
         if tag.getparent() is body_tag and tag_name == 'div':
             continue
         if tag.getparent().tag.replace(f'{{{XMLNS}}}', '') == 'noteGrp':
@@ -158,6 +179,16 @@ def change_tags(root):
     # dates in the header to format yyyy-mm-dd
     date_tags = root.xpath('//ns:teiHeader//ns:date', namespaces={'ns': f'{XMLNS}'})
     for tag in date_tags:
+        # notBefore notAfter -> from to
+        if 'notBefore' in tag.attrib:
+            not_before_year = tag.attrib['notBefore']
+            tag.attrib.pop('notBefore')
+            tag.set('from', not_before_year)
+        if 'notAfter' in tag.attrib:
+            not_after_year = tag.attrib['notAfter']
+            tag.attrib.pop('notAfter')
+            tag.set('to', not_after_year)
+        # change date format
         for attr in ['when', 'from', 'to']:
             if attr in tag.attrib:
                 date = tag.get(attr).strip()
@@ -173,6 +204,40 @@ def change_tags(root):
                     tag.set(attr, '0001-01-01')
                 elif re.search(r'\d{4}', date.strip(' ?')) is not None:
                     tag.set(attr, f'{date.strip(" ?")}-01-01')
+
+        # print(get_title_id_from_root(root))
+        # print(tag.attrib)
+        # теги с нестандартными периодами в виде текста
+        if tag.text is not None:
+            # print(get_title_id_from_root(root))
+            # print(tag.attrib)
+            years = [i.group() for i in re.finditer(r'\d{4}', tag.text)]
+            years.sort(key=int)
+            from_year = f'{years[0]}-01-01'
+            to_year = f'{years[-1]}-12-31'
+            tag.set('from', from_year)
+            tag.set('to', to_year)
+            tag.text = None
+
+        # для фронта удаляем when и заменяем на from и to
+        if 'when' in tag.attrib:
+            first_year = tag.attrib['when']
+            year = first_year.split('-')[0]
+            tag.attrib.pop('when')
+            tag.set('from', first_year)
+            tag.set('to', f'{year}-12-31')
+
+        if 'from' in tag.attrib:
+            first_year = tag.attrib['from']
+            last_year = tag.attrib['to']
+            if first_year.split('-')[0] == last_year.split('-')[0] and last_year.split('-')[1] == last_year.split('-')[
+                2] == '01':
+                tag.set('to', f'{last_year.split("-")[0]}-12-31')
+
+        # check dates
+        for attr in ['from', 'to']:
+            if re.search(r'^\d{4}-\d\d-\d\d$', tag.attrib[attr]) is None:
+                print(tag.attrib, get_title_id_from_root(root))
 
     # cell tags to td
     cell_tags = root.xpath('//ns:cell', namespaces={'ns': f'{XMLNS}'})
@@ -237,8 +302,34 @@ def change_tags(root):
         tag.tag = 'tr'
 
 
+def check_paragraphs(root):
+    wrong = False
+    for p_tag in root.xpath('//ns:p', namespaces={'ns': f'{XMLNS}'}):
+        if is_descendant_of_p(p_tag):
+            parent = p_tag.getparent()
+            # add
+            # if parent.tag.replace(f'{{{XMLNS}}}', '') == 'span' and 'class' in parent.attrib and parent.get('class') == 'add':
+            #     continue
+            # note
+            # is_note_descendant = False
+            # for tag in p_tag.iterancestors():
+            #     if tag.tag.replace(f'{{{XMLNS}}}', '') == 'span' and 'class' in tag.attrib and tag.get('class') == 'note':
+            #         is_note_descendant = True
+            # if is_note_descendant:
+            #     continue
+            #
+            wrong = True
+            ancestor = get_p_ancestor(p_tag)
+            if wrong:
+                print(get_title_id_from_root(root), ancestor.get(f'id'))
+                print(p_tag.getparent().attrib, p_tag.getparent().tag)
+                print(p_tag.get('id'))
+    return wrong
+
+
 def main():
     uuids = get_all_p_uuids(REPO_TEXTS_PATH)
+    wrongs = 0
     for path, _, files in os.walk(REPO_TEXTS_PATH):
         for filename in files:
             if not filename.endswith('.xml'):
@@ -250,10 +341,12 @@ def main():
             wrap_unwrapped_tags_in_p_tag(root, uuids)
             delete_old_orthography(root)
             change_tags(root)
+            wrongs += check_paragraphs(root)
 
             text = etree.tostring(root, encoding='unicode')
             etree.fromstring(text.encode())  # для проверки, что не ломается
             Path(RESULT_PATH, Path(path).name, filename).write_text(text)
+    print('files with wrong paragraphs: ', wrongs)
 
 
 if __name__ == '__main__':
