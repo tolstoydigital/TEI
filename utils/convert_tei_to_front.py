@@ -7,9 +7,14 @@ from uuid import uuid4
 from lxml import etree
 
 """Надо подставить путь то репозитория"""
-REPO_PATH = '..'  # {подставить свое}/TEI
+# REPO_PATH = '..'  # {подставить свое}/TEI
+import utils as ut
+
+REPO_PATH = ut.REPO_PATH  # {подставить свое}/TEI
 REPO_TEXTS_PATH = Path(REPO_PATH, 'texts')
 RESULT_PATH = Path(REPO_PATH, 'texts_front')
+DICTIONARY_PATH = Path(REPO_PATH, 'reference', 'Dictionary.xml')
+PERSON_LIST_PATH = Path(REPO_PATH, 'reference', 'personList.xml')
 
 XMLNS = 'http://www.tei-c.org/ns/1.0'
 
@@ -21,9 +26,9 @@ def is_descendant_of_p(tag: etree._Element, tag_type='p') -> bool:
     return False
 
 
-def get_p_ancestor(tag: etree._Element) -> etree._Element:
+def get_p_ancestor(tag: etree._Element, tag_type='p') -> etree._Element:
     for parent in tag.iterancestors():
-        if parent.tag.replace(f'{{{XMLNS}}}', '') == 'p':
+        if parent.tag.replace(f'{{{XMLNS}}}', '') == tag_type:
             return parent
 
 
@@ -126,17 +131,24 @@ def delete_old_orthography(root: etree._Element) -> None:
     """Заменить тег choice на текст тега reg. Проблемы с переносом строк"""
     for reg_tag in root.xpath('//ns:reg', namespaces={'ns': f'{XMLNS}'}):
         choice_tag = reg_tag.getparent()
-        reg_text = reg_tag.text.strip(" \n") if reg_tag.text is not None else ''
-        text = f'{reg_text}{choice_tag.tail if choice_tag.tail is not None else ""}'.strip(' \n') + ' '
         parent = choice_tag.getparent()
-        if parent is not None:
-            previous_tag = choice_tag.getprevious()
-            if previous_tag is not None:
-                previous_tag.tail = (previous_tag.tail or '').rstrip(' \n') + ' ' + text
+        if len(reg_tag) == 0:
+            temp_reg = deepcopy(reg_tag)
+            choice_tag.addnext(temp_reg)
+            remove_tag_save_text(choice_tag)
+            remove_tag_save_text(temp_reg)
+        else:
+            prev = choice_tag.getprevious()
+            reg_tag_text = reg_tag.text if reg_tag.text is not None and reg_tag.text.strip(' \n') else ''
+            if prev is not None:
+                prev.tail = f'{prev.tail}{reg_tag_text}'
+                for sub_tag in reg_tag:
+                    parent.insert(parent.index(choice_tag), deepcopy(sub_tag))
             else:
-                parent_text = (parent.text or '').rstrip(' \n') + ' ' + text
-                parent.text = parent_text.rstrip('\n')
-            parent.remove(choice_tag)
+                parent.text = f'{parent.text}{reg_tag_text}'
+                for sub_tag in reg_tag:
+                    parent.insert(parent.index(choice_tag), deepcopy(sub_tag))
+            remove_tag_save_text(choice_tag)
 
 
 def get_title_id_from_root(root) -> str:
@@ -206,6 +218,8 @@ def change_tags(root):
                 elif re.search(r'\d{4}', date.strip(' ?')) is not None:
                     tag.set(attr, f'{date.strip(" ?")}-01-01')
 
+        # print(get_title_id_from_root(root))
+        # print(tag.attrib)
         # теги с нестандартными периодами в виде текста
         if tag.text is not None:
             # print(get_title_id_from_root(root))
@@ -229,7 +243,8 @@ def change_tags(root):
         if 'from' in tag.attrib:
             first_year = tag.attrib['from']
             last_year = tag.attrib['to']
-            if first_year.split('-')[0] == last_year.split('-')[0] and last_year.split('-')[1] == last_year.split('-')[2] == '01':
+            if first_year.split('-')[0] == last_year.split('-')[0] and last_year.split('-')[1] == last_year.split('-')[
+                2] == '01':
                 tag.set('to', f'{last_year.split("-")[0]}-12-31')
 
         # temp если глюк, что левая дата больше, то меняю местами даты
@@ -340,7 +355,12 @@ def check_paragraphs(root):
                 # print(p_tag.getparent().attrib, p_tag.getparent().tag)
                 # print(p_tag.get('id'))
                 pass
-
+    for l_tag in root.xpath('//ns:l', namespaces={'ns': f'{XMLNS}'}):
+        if is_descendant_of_p(l_tag) or is_descendant_of_p(l_tag, 'l'):
+            wrong = True
+        if wrong:
+            ancestor = get_p_ancestor(l_tag, 'l') or get_p_ancestor(l_tag)
+            print('wrong nested l', get_title_id_from_root(root), ancestor.get('id'), l_tag.get('id'))
     # check l tags
     # for l_tag in root.xpath('//ns:l', namespaces={'ns': f'{XMLNS}'}):
     #     for tag in l_tag.iterdescendants():
@@ -369,9 +389,53 @@ def change_epigraphs(root):
         epigraph_tag.getparent().remove(epigraph_tag)
 
 
+def get_ids_from_catalogue(path: Path, regex: str) -> list[str]:
+    with open(path) as file:
+        catalogue = file.read()
+    ids = []
+    for _id in re.finditer(regex, catalogue):
+        ids.append(_id.group(1))
+    return ids
+
+
+def remove_tag_if_id_not_in_catalogue(
+        root: etree._Element,
+        ids: list[str],
+        tag_name: str,
+        xpath_attrs: str,
+        id_attr='id'
+) -> None:
+    tags = root.xpath(f'//ns:{tag_name}[{xpath_attrs}]', namespaces={'ns': f'{XMLNS}'})
+    for tag in tags:
+        person_id = tag.attrib[id_attr]
+        if person_id not in ids:
+            remove_tag_save_text(tag)
+
+
+def remove_tag_save_text(tag: etree._Element) -> None:
+    parent = tag.getparent()
+    previous = tag.getprevious()
+    ref_tag_text = tag.text.strip(' \n') if tag.text is not None else ''
+    ref_tag_tail = tag.tail.strip('\n').lstrip(' ') if tag.tail is not None else ''
+
+    no_space_before_tail = ref_tag_tail and re.search(r'\w', ref_tag_tail[0]) is None and \
+                           ref_tag_tail[0] not in ['(']
+    space = '' if no_space_before_tail else ' '
+
+    if previous is not None:
+        prev_tail = previous.tail.rstrip(" \n") if previous.tail is not None else ''
+        previous.tail = f'{prev_tail} {ref_tag_text}{space}{ref_tag_tail}'
+    else:
+        parent_text = parent.text.rstrip(" \n") if parent.text is not None else ''
+        parent.text = f'{parent_text} {ref_tag_text}{space}{ref_tag_tail}'
+    parent.remove(tag)
+
+
 def main():
     uuids = get_all_p_uuids(REPO_TEXTS_PATH)
     wrongs = 0
+    rare_words_ids = get_ids_from_catalogue(DICTIONARY_PATH, r'<word xml:id="(.*?)">')
+    person_ids = get_ids_from_catalogue(PERSON_LIST_PATH, r'<person id="(.*?)">')
     for path, _, files in os.walk(REPO_TEXTS_PATH):
         for filename in files:
             if not filename.endswith('.xml'):
@@ -382,6 +446,8 @@ def main():
             add_uuids_to_existing_p_and_l(root, uuids)
             change_epigraphs(root)
             delete_old_orthography(root)
+            remove_tag_if_id_not_in_catalogue(root, rare_words_ids, 'ref', '@target="slovar"', 'id')
+            remove_tag_if_id_not_in_catalogue(root, person_ids, 'name', '@type="person"', 'ref')
             wrap_unwrapped_tags_in_p_tag(root, uuids)
             change_tags(root)
             wrongs += check_paragraphs(root)
