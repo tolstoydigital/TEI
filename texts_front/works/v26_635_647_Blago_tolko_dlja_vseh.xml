@@ -1,121 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title xml:id="v26_635_647_Blago_tolko_dlja_vseh">
-     [Благо только для всех]. Tolstoy Digital
-    </title>
-    <title type="main">
-     Благо только для всех
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML
-     </resp>
-     <name>
-      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="c3c31bfb-5f8b-4082-a773-1fb657c065c8">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015-01-01" to="2022-01-01"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       [Благо только для всех]
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 26
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date from="1936-01-01" to="1936-12-31"/>
-      </imprint>
-      <biblScope unit="volume">
-       26
-      </biblScope>
-      <biblScope unit="page">
-       635-647
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л.Н. Толстой. Полное собрание сочинений.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date from="1887-01-01" to="1887-12-31"/>
-   </creation>
-   <langUsage>
-    <language ident="ru"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#works" target="type"/>
-    <catRef ana="#nonfiction" target="sphere"/>
-    <catRef ana="#statja" target="genre"/>
-    <catRef ana="#not_finished" target="finished"/>
-    <catRef ana="#philosophy_religion" target="topic"/>
-    <catRef ana="#publ" target="published"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="v26_635_647_Blago_tolko_dlja_vseh" resp="volume_editor">
+                    [Благо только для всех]. Tolstoy Digital
+                </title>
+                <title type="main" resp="volume_editor">Благо только для всех</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML
+                    </resp>
+                    <name>
+                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                    </name>                                 
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="c3c31bfb-5f8b-4082-a773-1fb657c065c8">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015-01-01" to="2022-01-01"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            [Благо только для всех]
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том 26
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date from="1936-01-01" to="1936-12-31"/>
+                        </imprint>
+                        <biblScope unit="volume">26</biblScope>
+                        <biblScope unit="page">635-647</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л.Н. Толстой. Полное собрание сочинений.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date from="1887-01-01" to="1887-12-31"/>
+             </creation>
+            <langUsage> 
+                <language ident="ru"/>
+            </langUsage>
+            <textClass> 
+                <catRef ana="#works" target="type"/>
+                <catRef ana="#main" target="work_main"/>
+                <catRef ana="#nonfiction" target="sphere"/>
+                <catRef ana="#statja" target="genre"/>
+                <catRef ana="#not_finished" target="finished"/>
+                <catRef ana="#philosophy_religion" target="topic"/>
+                <catRef ana="#publ" target="published"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013018">
     <p id="91a176dc-1652-4102-aef0-118aaa0462a9">
      <pb n="635"></pb>
     </p>
-    <p id="b80ca2eb-c394-4d57-8b24-b6a8a2570e7a">
+    <p id="2a2a3913-2dbd-41b0-b126-3339ce625e80">
       <head rend="center">
      * [БЛАГО ТОЛЬКО ДЛЯ ВСЕХ
      .]
@@ -123,7 +115,7 @@
     </p>
     </div>
    <div type="section" xml:id="h000013018001">
-    <p id="f1650bdc-e8d2-42d3-b3af-b7e2a18fa9f6">
+    <p id="12bdffdc-8d1f-4c9f-8d32-553213e62c45">
       <head rend="center">
      1.
     </head>
@@ -316,7 +308,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013018002">
-    <p id="5f25a358-ab95-44fd-b537-f322ee8cc911">
+    <p id="35df46dd-093d-4bf1-94d2-0d475407ea3e">
       <head rend="center">
      2.
     </head>
@@ -609,7 +601,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013018003">
-    <p id="82495c87-25fc-4fa6-a5cd-9e9f41aecda3">
+    <p id="ee42db6d-43bc-49bd-bf43-7cff4f399c1d">
       <head rend="center">
      3.
     </head>
@@ -828,7 +820,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013018004">
-    <p id="2b7b421f-5109-496c-8674-7c5a2f79acca">
+    <p id="897b5e72-6bdd-4e62-ab1a-65a81a82a9d5">
       <head rend="center">
      4.
     </head>
@@ -1040,7 +1032,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013018005">
-    <p id="5de22a7f-fca7-4050-a7f1-b1b42759c87b">
+    <p id="ce8d556c-28d1-47b3-a9d2-ebb85163fa7c">
       <head rend="center">
      5.
     </head>
@@ -1312,7 +1304,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013018006">
-    <p id="88c80653-d1c3-41a8-8823-2bd753b93566">
+    <p id="4f0a4c8d-6271-48de-8c82-00729397b79e">
       <head rend="center">
      6.
     </head>
@@ -1442,7 +1434,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013018007">
-    <p id="0b697e46-326a-4570-81df-dceaf6f40580">
+    <p id="2d578f09-1af6-4b14-8cf3-f72ee60443cb">
       <head rend="center">
      7.
     </head>
@@ -1666,7 +1658,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013018008">
-    <p id="9900232d-e2c0-4e0c-b383-167c419586ad">
+    <p id="116a0a69-0217-4b9e-9a0c-75382b63de0e">
       <head rend="center">
      8.
     </head>

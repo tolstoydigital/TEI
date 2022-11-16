@@ -1,123 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title xml:id="v02_241_242_Pervyj_plan_romana_Chetyre_epohi_razvitija">
-     [Первый план романа «Четыре эпохи развития»]. Tolstoy Digital
-    </title>
-    <title type="main">
-     Четыре эпохи развиия.
-    </title>
-    <title type="sub">
-     Первый план романа
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML
-     </resp>
-     <name>
-      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="b1d02e35-c800-47a0-8ea5-583f96ff5e1d">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015-01-01" to="2022-01-01"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       [Первый план романа «Четыре эпохи развития»]
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 2
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date from="1935-01-01" to="1935-12-31"/>
-      </imprint>
-      <biblScope unit="volume">
-       2
-      </biblScope>
-      <biblScope unit="page">
-       241-242
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л.Н. Толстой. Полное собрание сочинений.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date from="1851-01-01" to="1851-12-31"/>
-   </creation>
-   <langUsage>
-    <language ident="ru"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#works" target="type"/>
-    <catRef ana="#fiction" target="sphere"/>
-    <catRef ana="#roman" target="genre"/>
-    <catRef ana="#not_finished" target="finished"/>
-    <catRef ana="#publ" target="published"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="v02_241_242_Pervyj_plan_romana_Chetyre_epohi_razvitija" resp="volume_editor">
+                    [Первый план романа «Четыре эпохи развития»]. Tolstoy Digital
+                </title>
+                <title type="main" resp="volume_editor">Четыре эпохи развиия.</title>
+                <title type="sub" resp="volume_editor">Первый план романа</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML
+                    </resp>
+                    <name>
+                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+                    </name>                                 
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="b1d02e35-c800-47a0-8ea5-583f96ff5e1d">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015-01-01" to="2022-01-01"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            [Первый план романа «Четыре эпохи развития»]
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том 2
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date from="1935-01-01" to="1935-12-31"/>
+                        </imprint>
+                        <biblScope unit="volume">2</biblScope>
+                        <biblScope unit="page">241-242</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л.Н. Толстой. Полное собрание сочинений.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date from="1851-01-01" to="1851-12-31"/>
+             </creation>
+            <langUsage> 
+                <language ident="ru"/>
+            </langUsage>
+            <textClass> 
+                <catRef ana="#works" target="type"/>
+                <catRef ana="#main" target="work_main"/>
+                <catRef ana="#fiction" target="sphere"/>
+                <catRef ana="#roman" target="genre"/>
+                <catRef ana="#not_finished" target="finished"/>
+                <catRef ana="#publ" target="published"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div rend="section" xml:id="h000012">
     <p id="8ce156dd-8cbf-4c1e-9c34-462fe05f937b">
      <pb n="241"></pb>
     </p>
-    <p id="9504b923-6f86-4512-baca-93b21e6efb2b">
+    <p id="cd489a39-224f-4987-8bac-31e11425b637">
       <head rend="center">
         <hi>
       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
