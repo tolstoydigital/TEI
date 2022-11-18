@@ -1,112 +1,124 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v29_364_371_Petr_Hlebnik_Varianty">
-                    Петр Хлебник. Tolstoy Digital
-                </title>
-                <title type="main">Петр Хлебник.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e202d7c8-f18d-478d-84a9-6c299338dc79">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Петр Хлебник
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 29
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="volume">29</biblScope>
-                        <biblScope unit="page">364-371</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1884" to="1894"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v29_364_371_Petr_Hlebnik_Varianty">
+     Петр Хлебник. Tolstoy Digital
+    </title>
+    <title type="main">
+     Петр Хлебник.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e202d7c8-f18d-478d-84a9-6c299338dc79">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Петр Хлебник
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 29
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="volume">
+       29
+      </biblScope>
+      <biblScope unit="page">
+       364-371
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1884" to="1894"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section">
     <p id="154a6989-cec6-4946-8aca-e2da1b5ef87e">
      <pb n="364"/>
     </p>
-    <head rend="title_level2 center" xml:id="h35">
+    <head n="level1">
      ПЕТР ХЛЕБНИК
     </head>
     <div type="section">
@@ -118,7 +130,7 @@
        ДЕЙСТВИЕ 1-е
       </head>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         1
        </head>
        <p id="7d447890-5000-4565-9d0f-495d4f625286" rend="left">
@@ -126,7 +138,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         2
        </head>
        <p id="22aa3600-c867-4aa4-88ef-0374bcd488e0" rend="left">
@@ -134,7 +146,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         3
        </head>
        <p id="29902fef-456b-4d13-8988-90924bd4b247" rend="left">
@@ -155,7 +167,7 @@
        ДЕЙСТВИЕ 2-е
       </head>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         1
        </head>
        <p id="0277a7e4-ebc8-4bb2-884a-e685d5a40f7d" rend="left">
@@ -166,7 +178,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         2
        </head>
        <p id="d4cb90dc-facd-4a1b-ad19-e864aae06d1f" rend="left">
@@ -174,7 +186,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         3
        </head>
        <p id="313bbd10-d6f5-441f-82fe-f7c817970baa" rend="left">
@@ -182,7 +194,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         4
        </head>
        <p id="a3c5eabf-a2bc-4710-86f2-426494890899" rend="left">
@@ -195,7 +207,7 @@
        3-е ДЕЙСТВИЕ
       </head>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         1
        </head>
        <p id="6a21390f-0746-4f77-98c5-ac1c00d5d65f" rend="left">
@@ -203,7 +215,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         2
        </head>
        <p id="319bc5c4-0a9e-4808-ae4e-7f565a4cdc73" rend="left">
@@ -211,7 +223,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         3
        </head>
        <p id="16f63ef6-e50b-460d-8187-9346828d0516" rend="left">
@@ -219,7 +231,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         4
        </head>
        <p id="35df2b9b-fa51-47a1-a71f-8ca298273059" rend="left">
@@ -232,7 +244,7 @@
        4-е ДЕЙСТВИЕ
       </head>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         1
        </head>
        <p id="93e6b1b3-b35f-4fa3-bcd9-7bf6beec3208" rend="left">
@@ -246,7 +258,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         2
        </head>
        <p id="6c426564-04ea-4acc-b060-778d64159887" rend="left">
@@ -292,7 +304,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         3
        </head>
        <p id="5706148f-6028-47b1-93d7-f03facb4fcc0" rend="left">
@@ -309,7 +321,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         4
        </head>
        <p id="6c94ab2f-1f23-4928-8f02-196ed9f179d9" rend="left">
@@ -327,7 +339,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         1
        </head>
        <p id="c53961ae-4d3e-4c46-b8a2-51f105b7f45b" rend="left">
@@ -335,7 +347,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level2" type="editorial">
         2
        </head>
        <p id="8d6f589a-9e9c-40b7-a8d5-a2b3be3d66a4" rend="left">
@@ -343,7 +355,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         3
        </head>
        <p id="bf18340f-bb3a-4ed9-9b8d-a4a001584628" rend="left">
@@ -366,7 +378,7 @@
       № 2 (рук. № 3).
      </head>
      <div type="section">
-      <head rend="title_level4 centerline">
+      <head n="level2" type="act">
        ДЕЙСТВИЕ ПЕРВОЕ
       </head>
       <div>
@@ -379,7 +391,7 @@
        </p>
       </div>
       <div type="section">
-       <head rend="title_level5 centerline">
+       <head n="level3" type="yavlenie">
         ЯВЛЕНИЕ 1-е
        </head>
        <p id="eb9081c6-4083-4a08-b21e-cbc3364b548b" rend="subtitle petit">

@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v03_015_039_Nabeg_Rasskaz_volontera">
-                    Набег. Рассказ волонтера. Tolstoy Digital
-                </title>
-                <title type="main">Набег.</title>
-                <title type="sub">Рассказ волонтера</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="5e96c58f-aa78-41fa-b562-10b377da03e4">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Набег. Рассказ волонтера
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 3
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">3</biblScope>
-                        <biblScope unit="page">15-39</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1852"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v03_015_039_Nabeg_Rasskaz_volontera">
+     Набег. Рассказ волонтера. Tolstoy Digital
+    </title>
+    <title type="main">
+     Набег.
+    </title>
+    <title type="sub">
+     Рассказ волонтера
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="5e96c58f-aa78-41fa-b562-10b377da03e4">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Набег. Рассказ волонтера
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 3
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       3
+      </biblScope>
+      <biblScope unit="page">
+       15-39
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000010">
     <p id="16904380-b9b9-4f70-855e-e3cba222f8c3">
@@ -118,7 +130,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000010001">
-    <head rend="center">
+    <head n="level1">
      НАБЕГ.
      <lb/>
      РАССКАЗ ВОЛОНТЕРА.
@@ -130,7 +142,7 @@
     </div>
    </div>
    <div type="section" xml:id="h000010001002">
-    <head rend="center">
+    <head n="level2" type="chapter">
      I.
     </head>
     <p id="0ad95d12-6748-423e-a253-317b48b1a177" rend="left">
@@ -309,7 +321,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      II.
     </head>
     <p id="3596506b-629a-4846-bcda-b921f2d86579" rend="left">
@@ -415,7 +427,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      III.
     </head>
     <p id="585021a8-f2da-4d42-8e9e-13802bfb8e05" rend="left">
@@ -496,7 +508,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IV.
     </head>
     <p id="89bc6166-7f47-481b-8247-24d119fdf269" rend="left">
@@ -528,7 +540,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001006">
-    <head rend="center">
+    <head n="level2" type="chapter">
      V.
     </head>
     <p id="41ba87a9-46e3-4c7b-b3f3-c3af31a75a2f" rend="left">
@@ -638,7 +650,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001007">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VI.
     </head>
     <p id="5e88821a-b0ec-4e01-ad80-a2d69db37081" rend="left">
@@ -700,7 +712,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001008">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VII.
     </head>
     <p id="dde02f6a-ecf6-4116-9c44-99529dbcf45d" rend="left">
@@ -940,7 +952,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001009">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VIII.
     </head>
     <p id="85c4fd1c-5704-4115-8398-f459c72bb39c" rend="left">
@@ -1040,7 +1052,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001010">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IX.
     </head>
     <p id="416586c6-4933-4fdd-baf4-374a1b1abf4b" rend="left">
@@ -1171,7 +1183,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001011">
-    <head rend="center">
+    <head n="level2" type="chapter">
      X.
     </head>
     <p id="c01ddfc5-66f9-48cc-abbb-fdede9e4af8d" rend="left">
@@ -1291,7 +1303,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001012">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XI.
     </head>
     <p id="e61f23ac-a2c3-41da-9ac0-3bd428c77017" rend="left">
@@ -1340,7 +1352,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010001013">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XII.
     </head>
     <p id="543c2f9a-79a3-4be6-8ff6-65c839f00744" rend="left">

@@ -1,113 +1,123 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_300_318_Truzhdajuschiesja_i_obremenennye" resp="volume_editor">
-                    [Труждающиеся и обремененные]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Труждающиеся и обремененные</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4efe2eb3-d40a-4fd2-8526-dc2700117739">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Труждающиеся и обремененные]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">300-318</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1879"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_300_318_Truzhdajuschiesja_i_obremenennye">
+     [Труждающиеся и обремененные]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Труждающиеся и обремененные
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4efe2eb3-d40a-4fd2-8526-dc2700117739">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Труждающиеся и обремененные]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       300-318
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1879"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011009">
     <p id="394533bb-b813-412e-b8be-35bb57d64fba">
      <pb n="300"/>
     </p>
-    <head rend="center">
+    <head n="level1" type="editorial">
      * [ТРУЖДАЮЩИЕСЯ И ОБРЕМЕНЕННЫЕ.]
     </head>
     <div>
@@ -117,10 +127,10 @@
     </div>
    </div>
    <div type="section" xml:id="h000011009002">
-    <head rend="left">
+    <head n="level2" type="editorial">
      № 1.
     </head>
-    <p id="f81700fe-9be0-4862-b204-76b0cfe3c25b" rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       1757
       <choice>
@@ -133,10 +143,10 @@
       </choice>
       .
      </hi>
-    </p>
-    <p id="92e3059e-0441-4068-8212-1866c42fcda8" rend="center">
+    </head>
+    <head n="level2" type="editorial">
      1.
-    </p>
+    </head>
     <p id="347ec880-5aec-4d0f-9c7f-3ed1ef2b1e4a" rend="left">
      Князь
      <choice>
@@ -2075,7 +2085,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011009003">
-    <head rend="left">
+    <head n="level2" type="editorial">
      № 2.
     </head>
     <p id="f79d4321-bf62-4b51-8107-9d7f68b81738" rend="center">
@@ -2093,9 +2103,9 @@
      </hi>
      —
     </p>
-    <p id="db08c8d7-bf54-4596-a374-de63ccfd77ed" rend="center">
+    <head n="level2" type="editorial">
      1.
-    </p>
+    </head>
     <p id="f31028ce-aa56-47fd-b102-c720ffb97f03" rend="left">
      <ref target="#note383">
       383
@@ -4523,12 +4533,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011009004">
-    <head rend="left">
+    <head n="level2" type="editorial">
      №№ 3—4.
     </head>
-    <p id="d4086da6-25ce-4bc2-9c6b-1d1a4c6caf17" rend="center">
+    <head n="level2" type="editorial">
      1.
-    </p>
+    </head>
     <p id="06149583-d691-421b-8fca-27583b129404" rend="left">
      Село Вяземское
      <choice>
@@ -8901,9 +8911,9 @@
      </note>
      Сама она была баба не молодая, и молока у нея въ грудяхъ мало было. Пока она подкидыша держала, закричалъ ея Мишка. Она положила подкидыша въ шубу и пошла, достала на загнеткѣ горшокъ вчерашній съ кашей, наскребла тупикомъ каши, принесла молока и, набравъ въ ротъ каши и молока, нажевала, изо рта накормила своего Мишутку, дала ему груди побаловаться и потомъ уложила въ одну зыбку и подкидыша и Мишку и велѣла Аксюткѣ качать, а сама, взявъ коромысло и ведра, пошла за водой. —
     </p>
-    <p id="10cd718a-1d3f-45d5-91a0-edd340fea738" rend="center">
+    <head n="level2" type="chapter">
      II.
-    </p>
+    </head>
     <p id="a896f517-a8bf-46e0-b98a-3c47f34b289f" rend="left">
      <ref target="#note401">
       401
@@ -15063,10 +15073,10 @@
     </p>
    </div>
    <div type="section" xml:id="h000011009005">
-    <head rend="left">
+    <head n="level2" type="editorial">
      ** № 5.
     </head>
-    <p id="597e3860-388e-414b-a2e0-62fcc099b200" rend="center Razradka">
+    <head n="level1" type="editorial">
      <choice>
       <reg>
        Труждающиеся
@@ -15076,7 +15086,7 @@
       </orig>
      </choice>
      и обремененные.
-    </p>
+    </head>
     <epigraph>
      <cit>
       <quote>

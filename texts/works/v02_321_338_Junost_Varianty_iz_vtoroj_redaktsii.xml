@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v02_321_338_Junost_Varianty_iz_vtoroj_redaktsii">
-                    [Варианты из второй редакции «Юности»]. Tolstoy Digital
-                </title>
-                <title type="main">Юность.</title>
-                <title type="sub" resp="volume_editor">Варианты из второй редакции</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="3b724ddb-5a65-49c7-a965-f1bc9db5d05e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты из второй редакции «Юности»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 2
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">2</biblScope>
-                        <biblScope unit="page">321-338</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1856"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v02_321_338_Junost_Varianty_iz_vtoroj_redaktsii">
+     [Варианты из второй редакции «Юности»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Юность.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты из второй редакции
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="3b724ddb-5a65-49c7-a965-f1bc9db5d05e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты из второй редакции «Юности»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 2
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       2
+      </biblScope>
+      <biblScope unit="page">
+       321-338
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012007">
     <p id="b8a88260-7246-4150-b8c7-edc3e2b299a1">
@@ -113,16 +125,16 @@
     </head>
    </div>
    <div type="section" xml:id="h000012007001">
-    <head rend="Razradka left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 1.
      </hi>
     </head>
-    <p id="c66efa1d-7b37-49a1-9588-6b4dd330a246" rend="center">
+    <head n="level1">
      ЮНОСТЬ
-    </p>
+    </head>
     <lb/>
-    <p id="88c30f16-76af-4cd0-a184-084af7fdeb6e" rend="center">
+    <head n="level2" type="chapter">
      Глава 1-я.
      <hi rend="Razradka">
       &lt;Новый
@@ -149,7 +161,7 @@
       юности
      </hi>
      .
-    </p>
+    </head>
     <p id="35a51024-0960-4694-8108-53b99882739c" rend="left">
      Я
      <choice>
@@ -1681,7 +1693,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007002">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       ** № 2
       <hi rend="italic">
@@ -1689,7 +1701,7 @@
       </hi>
      </hi>
     </head>
-    <p id="180263cd-0745-4230-8a3e-d7c10fd43691" rend="center">
+    <head n="level2" type="chapter">
      &lt;Глава 2-я.
      <hi rend="Razradka">
       Постный
@@ -1704,7 +1716,7 @@
       .
      </hi>
      &gt;
-    </p>
+    </head>
     <p id="2af33a3d-5638-4b4a-bb1d-f44c5849d741" rend="left">
      &lt;Когда меня позвали
      <choice>
@@ -4372,7 +4384,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007003">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 3.
      </hi>
@@ -7153,7 +7165,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007004">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 4.
      </hi>
@@ -7538,7 +7550,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007005">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 5.
      </hi>
@@ -8410,12 +8422,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007006">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 6.
      </hi>
     </head>
-    <p id="e79fe6ff-8afb-4290-b778-a426458a2772" rend="center">
+    <head n="level2" type="chapter">
      <choice original_editorial_correction="[Глава]">
       <sic/>
       <corr>
@@ -8427,7 +8439,7 @@
       Comme il faut
      </hi>
      ».
-    </p>
+    </head>
     <p id="26749fc1-1182-4f7f-b9e0-eabbbdc258df" rend="left">
      <choice>
       <reg>
@@ -8812,18 +8824,18 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007007">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       ** № 7.
      </hi>
     </head>
-    <p id="3be12b7c-e8bc-4961-af32-d39b072135c6" rend="center">
+    <head n="level2" type="chapter">
      &lt;Глава 8.
      <hi rend="Razradka">
       Женитьба отца
      </hi>
      .&gt;
-    </p>
+    </head>
     <p id="5a1683b3-2fdf-44f3-86a8-15e7b2a2589d" rend="left">
      &lt;Отцу было 48
      <choice>
@@ -12055,12 +12067,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007008">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 8.
      </hi>
     </head>
-    <p id="5b6d01b8-7c89-40b8-8cf7-642e91a108e8" rend="center">
+    <head n="level2" type="chapter">
      &lt;Глава 8-я.
      <hi rend="Razradka">
       Женитьба отца.
@@ -12084,7 +12096,7 @@
       </choice>
       враги.
      </hi>
-    </p>
+    </head>
     <p id="81045979-9ee3-4e62-ba1b-45424610dcb1" rend="left">
      Отцу было 48
      <choice>
@@ -15648,7 +15660,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007009">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 9.
      </hi>
@@ -17223,7 +17235,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007010">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 10.
      </hi>
@@ -19047,7 +19059,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007011">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 11.
      </hi>
@@ -19642,7 +19654,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007012">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 12.
      </hi>
@@ -20519,7 +20531,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007013">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 13.
      </hi>
@@ -20698,13 +20710,13 @@
      поражали ужасно больно. —
     </p>
     <lb/>
-    <p id="aacbbf9c-6799-46bb-806c-94446a83dc05" rend="center">
+    <head n="level2" type="chapter">
      45.
      <hi rend="Razradka">
       Дружба
      </hi>
      .
-    </p>
+    </head>
     <p id="2b38d148-b4d6-45de-b36b-a5fa571f8d37" rend="left">
      <choice>
       <reg>
@@ -21513,7 +21525,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012007014">
-    <head rend="left">
+    <head n="level2" type="editorial">
      <hi rend="strong">
       * № 14.
      </hi>

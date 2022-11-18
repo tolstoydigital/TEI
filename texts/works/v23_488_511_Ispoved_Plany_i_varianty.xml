@@ -1,123 +1,135 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v23_488_511_Ispoved_Plany_i_varianty">
-                    Исповедь. Tolstoy Digital
-                </title>
-                <title type="main">Исповедь.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e0da4075-f7ad-432b-ad1c-0ec5eb107e36">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Исповедь
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 23
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">23</biblScope>
-                        <biblScope unit="page">488-511</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1882"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#traktat" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v23_488_511_Ispoved_Plany_i_varianty">
+     Исповедь. Tolstoy Digital
+    </title>
+    <title type="main">
+     Исповедь.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e0da4075-f7ad-432b-ad1c-0ec5eb107e36">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Исповедь
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 23
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       23
+      </biblScope>
+      <biblScope unit="page">
+       488-511
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1882"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#traktat" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000010002">
     <p id="8d735f71-925b-4510-90ed-5068183bccd1">
      <pb n="488"/>
     </p>
-    <head rend="center">
+    <head n="level1">
      ИСПОВЕДЬ
     </head>
    </div>
    <div type="section" xml:id="h000010002001">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 1.
     </head>
    </div>
    <div type="section" xml:id="h000010002001001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе I
      </hi>
@@ -435,12 +447,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002002">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 2.
     </head>
    </div>
    <div type="section" xml:id="h000010002002001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе I
      </hi>
@@ -454,12 +466,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002003">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 3.
     </head>
    </div>
    <div type="section" xml:id="h000010002003001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе III
      </hi>
@@ -469,12 +481,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002004">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 4.
     </head>
    </div>
    <div type="section" xml:id="h000010002004001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе III
      </hi>
@@ -484,12 +496,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002005">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 5.
     </head>
    </div>
    <div type="section" xml:id="h000010002005001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе IV
      </hi>
@@ -504,12 +516,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002006">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * №. 6.
     </head>
    </div>
    <div type="section" xml:id="h000010002006001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе V
      </hi>
@@ -548,12 +560,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002007">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 7.
     </head>
    </div>
    <div type="section" xml:id="h000010002007001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе V
      </hi>
@@ -565,12 +577,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002008">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 8.
     </head>
    </div>
    <div type="section" xml:id="h000010002008001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе V
      </hi>
@@ -596,12 +608,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002009">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 9.
     </head>
    </div>
    <div type="section" xml:id="h000010002009001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе VII
      </hi>
@@ -646,12 +658,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002010">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 10.
     </head>
    </div>
    <div type="section" xml:id="h000010002010001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе VIII
      </hi>
@@ -661,12 +673,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002011">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 11.
     </head>
    </div>
    <div type="section" xml:id="h000010002011001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе IX
      </hi>
@@ -678,12 +690,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002012">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 12.
     </head>
    </div>
    <div type="section" xml:id="h000010002012001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе IX
      </hi>
@@ -693,7 +705,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002013">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 13.
     </head>
     <p id="d3201656-fd57-47bb-a623-7562370deb34" rend="left">
@@ -701,12 +713,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002014">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 14.
     </head>
    </div>
    <div type="section" xml:id="h000010002014001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе X
      </hi>
@@ -721,12 +733,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002015">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 15.
     </head>
    </div>
    <div type="section" xml:id="h000010002015001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе X
      </hi>
@@ -780,12 +792,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002016">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 16.
     </head>
    </div>
    <div type="section" xml:id="h000010002016001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе XI
      </hi>
@@ -795,12 +807,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002017">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 17.
     </head>
    </div>
    <div type="section" xml:id="h000010002017001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе XII
      </hi>
@@ -839,12 +851,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002018">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 18.
     </head>
    </div>
    <div type="section" xml:id="h000010002018001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе XII
      </hi>
@@ -854,12 +866,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002019">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 19.
     </head>
    </div>
    <div type="section" xml:id="h000010002019001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе XIV
      </hi>
@@ -872,12 +884,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002020">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 20.
     </head>
    </div>
    <div type="section" xml:id="h000010002020001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе XV
      </hi>
@@ -899,12 +911,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002021">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 21.
     </head>
    </div>
    <div type="section" xml:id="h000010002021001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе XVI
      </hi>
@@ -916,12 +928,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002022">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 22.
     </head>
    </div>
    <div type="section" xml:id="h000010002022001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       К главе XVI
      </hi>
@@ -934,12 +946,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002023">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 23.
     </head>
    </div>
    <div type="section" xml:id="h000010002023001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       ЧТО Я?
      </hi>

@@ -1,123 +1,135 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v45_499_517_Put_zhizni_Varianty">
-                    Путь жизни. Tolstoy Digital
-                </title>
-                <title type="main">Путь жизни</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="698cd512-6ac5-4942-bfec-43d7a8ffaaa1">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Путь жизни
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 45
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">45</biblScope>
-                        <biblScope unit="page">499-517</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1907" to="1910"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v45_499_517_Put_zhizni_Varianty">
+     Путь жизни. Tolstoy Digital
+    </title>
+    <title type="main">
+     Путь жизни
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="698cd512-6ac5-4942-bfec-43d7a8ffaaa1">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Путь жизни
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 45
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       45
+      </biblScope>
+      <biblScope unit="page">
+       499-517
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1907" to="1910"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011002">
     <p id="6b20cfee-fda1-4941-9bbc-9bb50804df7c">
      <pb n="499"/>
     </p>
-    <head rend="center">
+    <head n="level1">
      «ПУТЬ ЖИЗНИ»
     </head>
    </div>
    <div type="section" xml:id="h000011002001">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе I «О ВЕРЕ»
     </head>
    </div>
    <div type="section" xml:id="h000011002001001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 1
     </head>
     <p id="91ee25f3-932b-44b4-9bc6-ef1a36de9ddd" rend="left">
@@ -125,7 +137,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 2
     </head>
     <p id="85af5b1c-7584-4763-a642-b2b84e75ae30" rend="left">
@@ -133,7 +145,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 3
     </head>
     <p id="32078721-5ed7-4655-9714-410eadfa002a" rend="left">
@@ -141,7 +153,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 4
     </head>
     <p id="14fe67cd-0e53-4efa-94e8-485b1fa50111" rend="left">
@@ -152,7 +164,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001005">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 5
     </head>
     <p id="4cf9529b-002c-481f-ac0a-af2e11dfcb09" rend="left">
@@ -169,7 +181,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001006">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 6
     </head>
     <p id="82bba4dd-7778-4a65-b0ed-165cd2a74d27" rend="left">
@@ -189,7 +201,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001007">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 7
     </head>
     <p id="f7c9d7bd-7f30-44ed-ac0a-c18bc7c6022b" rend="left">
@@ -197,7 +209,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001008">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 8
     </head>
     <p id="ec3ae1f2-32f2-43d3-b657-9fea191628ca" rend="left">
@@ -216,7 +228,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001009">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 9
     </head>
     <p id="f34391b3-eb6b-4c96-91c6-564175ee95ca" rend="left">
@@ -236,7 +248,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001010">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 10
     </head>
     <p id="f6b43302-528d-4f19-9d40-98d0f84e3c33" rend="left">
@@ -253,12 +265,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе II «ДУША»
     </head>
    </div>
    <div type="section" xml:id="h000011002002001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 11
     </head>
     <p id="aba548ea-0b9d-4f3d-9994-fe33a5aacbc2" rend="left">
@@ -270,7 +282,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 12
     </head>
     <p id="7d23aeaf-006b-45f2-bba6-42d15611fd0f" rend="left">
@@ -278,7 +290,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 13
     </head>
     <p id="0b4fdeb5-3a16-47ad-9bea-dbb5baefe063" rend="left">
@@ -286,7 +298,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 14
     </head>
     <p id="da8d3ace-7a46-46a9-b163-7014ab3354b0" rend="left">
@@ -306,7 +318,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002005">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 15
     </head>
     <p id="4d78ee10-8a54-4fc7-88ea-aae4f4bc82ed" rend="left">
@@ -314,7 +326,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002006">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 16
     </head>
     <p id="98a01cf5-d79b-4a8c-90bf-55a79057ec5d" rend="left">
@@ -322,7 +334,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002007">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 17
     </head>
     <p id="cdb914d0-d3cb-4afd-8070-ed48dd8d99ef" rend="left">
@@ -330,7 +342,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002008">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 18
     </head>
     <p id="fe2c2228-e461-4f0a-b79a-0f2210429cf7" rend="left">
@@ -338,7 +350,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002009">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 19
     </head>
     <p id="9dd4c4eb-be57-4ff7-a7bb-4d29863be62d" rend="left">
@@ -346,7 +358,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002010">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 20
     </head>
     <p id="d53adf55-8766-41f3-9912-e119c3bc9b06" rend="left">
@@ -357,7 +369,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002011">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 21
     </head>
     <p id="7bf4efe6-9f8e-482a-9873-99c815b078d8" rend="left">
@@ -369,12 +381,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе III «ОДНА ДУША ВО ВСЕХ»
     </head>
    </div>
    <div type="section" xml:id="h000011002003001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 22
     </head>
     <p id="3107f4f6-6721-4228-98d5-df0db55d6306" rend="left">
@@ -382,7 +394,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 23
     </head>
     <p id="b0ebbbb8-c647-4a42-b4af-6d607acb8411" rend="left">
@@ -419,7 +431,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 24
     </head>
     <p id="ba1fbba5-cccb-47f4-8f9b-00d6651312e9" rend="left">
@@ -429,7 +441,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 25
     </head>
     <p id="32383c12-6af3-42a0-87b5-9ec197d7587d" rend="left">
@@ -437,7 +449,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003005">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 26
     </head>
     <p id="cc642491-42c9-403c-89f7-57590100e391" rend="left">
@@ -445,7 +457,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003006">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 27
     </head>
     <p id="cff5401d-af03-41c3-8cb2-a69f3e44ac92" rend="left">
@@ -453,7 +465,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003007">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 28
     </head>
     <p id="9ea4fad7-67ea-458e-9b0a-66dd402e86b3" rend="left">
@@ -461,7 +473,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003008">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 29
     </head>
     <p id="52f9528c-f073-4a5d-a067-b76d5da2834a" rend="left">
@@ -469,7 +481,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003009">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 30
     </head>
     <p id="7fec58d3-aba4-4f41-806d-4769cf345df2" rend="left">
@@ -477,7 +489,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003010">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 31
     </head>
     <p id="6b2c387a-29d1-42a2-8b03-660fb18709bf" rend="left">
@@ -502,7 +514,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003011">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 32
     </head>
     <p id="9d55c21f-f1bb-4f6a-a6c0-4c4a071ce24e" rend="left">
@@ -510,7 +522,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003012">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 33
     </head>
     <p id="cd7ed9e4-50c2-42a9-92e6-62864fbefbb1" rend="left">
@@ -523,7 +535,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003013">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 34
     </head>
     <p id="649f1364-e89b-4e98-a4d7-8ee7d837631f" rend="left">
@@ -531,12 +543,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002004">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе IV «БОГ»
     </head>
    </div>
    <div type="section" xml:id="h000011002004001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 35
     </head>
     <p id="019f5087-2c66-4cfc-9e00-4b147bd04233" rend="left">
@@ -544,7 +556,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002004002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 36
     </head>
     <p id="8efbb475-1949-4183-a698-aa08bb92df23" rend="left">
@@ -552,7 +564,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002004003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 37
     </head>
     <p id="b49f0cf3-b45e-41df-8c51-cc31e07b15ee" rend="left">
@@ -603,7 +615,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002004006">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 40
     </head>
     <p id="58284ff6-e6d1-44d2-aaf5-c7f13cade3c2" rend="left">
@@ -611,12 +623,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе V «ЛЮБОВЬ»
     </head>
    </div>
    <div type="section" xml:id="h000011002005001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 41
     </head>
     <p id="9d9dbf17-33c7-4b7a-97b5-3c1f766624cb" rend="left">
@@ -628,7 +640,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 42
     </head>
     <p id="2e882887-33c7-4130-a954-8ea3e8628d9c" rend="left">
@@ -636,7 +648,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 43
     </head>
     <p id="6332669c-a49c-4719-be79-6045d34814dd" rend="left">
@@ -644,7 +656,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 44
     </head>
     <p id="dede97ad-c0a7-4256-bc05-dd7126e60379" rend="left">
@@ -659,7 +671,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005005">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 45
     </head>
     <p id="e56afbef-4891-463a-b407-27256bd44927" rend="left">
@@ -669,7 +681,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005006">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 46
     </head>
     <p id="ff68adaa-121f-497e-9989-c35e5785f2e6" rend="left">
@@ -677,7 +689,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005007">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 47
     </head>
     <p id="f809677b-b9c1-4f24-9772-dbd7ac8c77e9" rend="left">
@@ -697,7 +709,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005008">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 48
     </head>
     <p id="9713b01e-4ad3-46a2-932c-8498cff23a1d" rend="left">
@@ -717,7 +729,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005009">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 49
     </head>
     <p id="9c777a41-d303-41d5-8924-a4733ed6eff9" rend="left">
@@ -728,7 +740,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005010">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 50
     </head>
     <p id="f5b1faaf-40d1-4be7-b649-34a5968a05b3" rend="left">
@@ -738,7 +750,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005011">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 51
     </head>
     <p id="74b1eb51-b80f-4475-bc14-c263165837f6" rend="left">
@@ -746,7 +758,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005012">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 52
     </head>
     <p id="5fa4709c-e656-45f5-8a85-ab393cc04edb" rend="left">
@@ -754,7 +766,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005013">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 53
     </head>
     <p id="2e234c41-1b53-49c3-b708-c906318aecba" rend="left">
@@ -767,7 +779,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005014">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 54
     </head>
     <p id="cfcc2213-09c9-4cfb-81aa-d54c3c957e50" rend="left">
@@ -775,7 +787,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005015">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 55
     </head>
     <p id="8b142adb-c08f-4818-93b2-59303cfa70a5" rend="left">
@@ -800,12 +812,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе VI «ГРЕХИ, СОБЛАЗНЫ, СУЕВЕРИЯ»
     </head>
    </div>
    <div type="section" xml:id="h000011002006001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 56
     </head>
     <p id="0eb7411d-7eb8-439e-822d-9f44af369d3d" rend="left">
@@ -816,7 +828,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 57
     </head>
     <p id="670a8674-5a11-455f-b74c-209717b1657e" rend="left">
@@ -824,7 +836,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 58
     </head>
     <p id="83229f34-db0b-4c26-a5f6-78a5c8108d17" rend="left">
@@ -832,7 +844,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 59
     </head>
     <p id="c9ca0fa5-93e3-401b-97a1-17dbf14dc0e9" rend="left">
@@ -840,7 +852,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006005">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 60
     </head>
     <p id="0288ff3b-f2ff-48bd-a279-ef2288e7ac3c" rend="left">
@@ -848,7 +860,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006006">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 61
     </head>
     <p id="38f5efd0-81d0-44e8-b0b7-cdd77bca387d" rend="left">
@@ -856,7 +868,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006007">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 62
     </head>
     <p id="3feff3a4-fa6a-423e-aeeb-9e0b078ff6b5" rend="left">
@@ -864,7 +876,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006008">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 63
     </head>
     <p id="95f7aee5-f41e-472e-9390-f7462daa11d0" rend="left">
@@ -893,7 +905,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006009">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 64
     </head>
     <p id="e350fc2c-8961-43be-8b61-00c0a7ba6a09" rend="left">
@@ -904,12 +916,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002007">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе VII «ИЗЛИШЕСТВО»
     </head>
    </div>
    <div type="section" xml:id="h000011002007001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 65
     </head>
     <p id="9013333c-1bf1-4590-b0b5-cb30f08cfe80" rend="left">
@@ -928,7 +940,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002007002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 66
     </head>
     <p id="bdee5fd0-4599-4bd3-ab5e-99e12329ef54" rend="left">
@@ -936,12 +948,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002008">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе VIII «ПОЛОВАЯ ПОХОТЬ»
     </head>
    </div>
    <div type="section" xml:id="h000011002008001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 67
     </head>
     <p id="b9a2ad4d-0703-4921-9caf-24a29197d7c2" rend="left">
@@ -963,7 +975,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002008002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 68
     </head>
     <p id="f25db302-dbde-44e3-ada9-1602d833373a" rend="left">
@@ -971,7 +983,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002008003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 69
     </head>
     <p id="153189cd-9e49-4ad3-948a-0595de445596" rend="left">
@@ -979,7 +991,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002008004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 70
     </head>
     <p id="803cdc2f-4db5-491c-99cf-50c3f862602d" rend="left">
@@ -990,7 +1002,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002008005">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 71
     </head>
     <p id="a4a06b15-1d76-4b7b-9d21-c59221fb2f34" rend="left">
@@ -998,12 +1010,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002009">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе IX «ТУНЕЯДСТВО»
     </head>
    </div>
    <div type="section" xml:id="h000011002009001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 72
     </head>
     <p id="ea58e937-8f7c-471e-a678-be18c992acf0" rend="left">
@@ -1011,7 +1023,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002009002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 73
     </head>
     <p id="a3195d7e-24a5-40dc-b800-5976fb36799d" rend="left">
@@ -1019,7 +1031,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002009003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 74
     </head>
     <p id="cf980ee4-9b42-403e-9662-88da2fcc56ad" rend="left">
@@ -1032,7 +1044,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002009004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 75
     </head>
     <p id="9f1e9d33-817f-4e79-9dba-a3327e44e1d7" rend="left">
@@ -1040,7 +1052,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002009005">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 76
     </head>
     <p id="b36f763e-304e-40ac-8076-27b57b4bf6c7" rend="left">
@@ -1048,7 +1060,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002009006">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 77
     </head>
     <p id="3755265e-47bd-47ec-aba0-f4e08010243d" rend="left">
@@ -1059,12 +1071,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002010">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе X «КОРЫСТОЛЮБИЕ»
     </head>
    </div>
    <div type="section" xml:id="h000011002010001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 78
     </head>
     <p id="289eaeee-faa0-4f3d-baef-c6ac141cef12" rend="left">
@@ -1072,7 +1084,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002010002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 79
     </head>
     <p id="8884756c-84dd-42f4-8509-ba443e823aa9" rend="left">
@@ -1080,12 +1092,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002011">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XI «ГНЕВ»
     </head>
    </div>
    <div type="section" xml:id="h000011002011001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 80
     </head>
     <p id="4f9012e9-768e-4547-8503-e81b0830700e" rend="left">
@@ -1096,12 +1108,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002012">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XII «ГОРДОСТЬ»
     </head>
    </div>
    <div type="section" xml:id="h000011002012001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 81
     </head>
     <p id="6cec49e2-88d0-462d-8b04-8f43ffbde547" rend="left">
@@ -1109,12 +1121,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002013">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XV «НАКАЗАНИЕ»
     </head>
    </div>
    <div type="section" xml:id="h000011002013001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 82
     </head>
     <p id="ebd94a0d-9c68-4fea-ac5f-6d529ab64463" rend="left">
@@ -1128,7 +1140,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002013002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 83
     </head>
     <p id="c846a738-5a44-48b9-8736-838af1d3d424" rend="left">
@@ -1136,7 +1148,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002013003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 84
     </head>
     <p id="e36e23c6-96fb-4c89-86e3-11bca87c89a1" rend="left">
@@ -1162,12 +1174,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002014">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XVI «ТЩЕСЛАВИЕ»
     </head>
    </div>
    <div type="section" xml:id="h000011002014001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 85
     </head>
     <p id="390f5986-97b4-4838-957c-57d21eb8909a" rend="left">
@@ -1175,7 +1187,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002014002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 86
     </head>
     <p id="c9153414-1f7c-4236-b637-5fbb71492b9e" rend="left">
@@ -1183,7 +1195,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002014003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 87
     </head>
     <p id="f1cfa29b-60c9-4d02-a5f7-5050822d31ec" rend="left">
@@ -1198,7 +1210,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002014004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 88
     </head>
     <p id="23ed9db3-1893-4df6-9f8b-c10913fea4ee" rend="left">
@@ -1212,12 +1224,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002015">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XVIII «ЛОЖНАЯ ВЕРА»
     </head>
    </div>
    <div type="section" xml:id="h000011002015001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 89
     </head>
     <p id="325da879-974d-444f-b40e-33abc3d2fbd1" rend="left">
@@ -1225,12 +1237,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002016">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXI «ЖИЗНЬ В НАСТОЯЩЕМ»
     </head>
    </div>
    <div type="section" xml:id="h000011002016001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 90
     </head>
     <p id="0c25c298-b571-48e8-8444-a2a5e5f3a3d1" rend="left">
@@ -1238,7 +1250,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002016002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 91
     </head>
     <p id="3dc1c17d-4020-421a-ad11-8ceb41165b1c" rend="left">
@@ -1246,7 +1258,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002016003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 92
     </head>
     <p id="23fceba6-e02d-4e0b-b475-aeb9f2131424" rend="left">
@@ -1257,12 +1269,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002017">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXII «НЕДЕЛАНИЕ»
     </head>
    </div>
    <div type="section" xml:id="h000011002017001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 93
     </head>
     <p id="3df69cc4-5035-4306-b69e-07c677bfdb88" rend="left">
@@ -1270,7 +1282,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002017002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 94
     </head>
     <p id="a8dedd39-d9f8-45d3-a12e-57256992621e" rend="left">
@@ -1278,12 +1290,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002018">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXIII.«СЛОВО»
     </head>
    </div>
    <div type="section" xml:id="h000011002018001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 95
     </head>
     <p id="e1b46261-2f21-4070-81ff-fd0442b01c2e" rend="left">
@@ -1294,12 +1306,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002019">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXIV «МЫСЛЬ»
     </head>
    </div>
    <div type="section" xml:id="h000011002019001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 96
     </head>
     <p id="c9d2d8c3-e5af-4bfb-9d85-379f27a6d5ea" rend="left">
@@ -1307,7 +1319,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002019002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 97
     </head>
     <p id="6fa64bb0-bb9d-407e-bbf3-2ec8a9e493f1" rend="left">
@@ -1315,12 +1327,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002020">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXV «САМООТРЕЧЕНИЕ»
     </head>
    </div>
    <div type="section" xml:id="h000011002020001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 98
     </head>
     <p id="37aa3ff6-9dd4-49f3-93af-bd4b9378608e" rend="left">
@@ -1330,12 +1342,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002021">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXVI «СМИРЕНИЕ»
     </head>
    </div>
    <div type="section" xml:id="h000011002021001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 99
     </head>
     <p id="c6eaa31b-950f-4e7a-9c5d-7919222e99f0" rend="left">
@@ -1343,7 +1355,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002021002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 100
     </head>
     <p id="72ced118-747c-444c-a9ab-f18a719723ae" rend="left">
@@ -1351,12 +1363,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXVII «ПРАВДИВОСТЬ»
     </head>
    </div>
    <div type="section" xml:id="h000011002022001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 101
     </head>
     <p id="390791a1-3bf9-4556-aedc-2e3fd30f03e5" rend="left">
@@ -1364,7 +1376,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 102
     </head>
     <p id="399017e5-262b-4ac2-bb51-d84f91bccee0" rend="left">
@@ -1372,7 +1384,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 103
     </head>
     <p id="80b68eab-47e4-4fff-abe7-a08c62d306bc" rend="left">
@@ -1380,7 +1392,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022004">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 104
     </head>
     <p id="d2c28c2e-4ed5-4aa5-845e-87974492eb2b" rend="left">
@@ -1388,7 +1400,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022005">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 105
     </head>
     <p id="9e14468d-91c5-48d0-a8d5-332c2afba0bc" rend="left">
@@ -1396,7 +1408,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022006">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 106
     </head>
     <p id="5734d5a4-e766-47dc-8dca-4a92ab086c7c" rend="left">
@@ -1407,7 +1419,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022007">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 107
     </head>
     <p id="bbdb4bab-04f9-4e84-ab69-4d28d11b1b02" rend="left">
@@ -1415,7 +1427,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022008">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 108
     </head>
     <p id="1460067c-71d5-40d8-a0d7-bdd697c243b5" rend="left">
@@ -1430,12 +1442,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002023">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXVIII «ЗЛО»
     </head>
    </div>
    <div type="section" xml:id="h000011002023001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 109
     </head>
     <p id="5a591c6e-3d27-485d-ad34-ac68e6d80124" rend="left">
@@ -1443,7 +1455,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002023002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 110
     </head>
     <p id="794a7a1f-3c4c-4092-a795-b5c720c2f9bc" rend="left">
@@ -1451,7 +1463,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002023003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 111
     </head>
     <p id="d1e42e31-4a05-40b4-8aea-2991c53c54ec" rend="left">
@@ -1459,12 +1471,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002024">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXIX «СМЕРТЬ»
     </head>
    </div>
    <div type="section" xml:id="h000011002024001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 112
     </head>
     <p id="31c86655-8815-4f5e-aae7-2de3cfd2b2dd" rend="left">
@@ -1487,7 +1499,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002024002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 113
     </head>
     <p id="5c0f1a30-00a7-46d8-b26a-682635a21178" rend="left">
@@ -1507,7 +1519,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002024003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 114
     </head>
     <p id="576bf388-73a4-46ce-a09e-7a5cecbd42d7" rend="left">
@@ -1515,12 +1527,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002025">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXX «ПОСЛЕ СМЕРТИ»
     </head>
    </div>
    <div type="section" xml:id="h000011002025001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 115
     </head>
     <p id="acecd993-0c1a-4d84-bf0e-c68420d899c8" rend="left">
@@ -1540,7 +1552,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002025002">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 116
     </head>
     <p id="51fadbaf-f383-47c0-8d69-71fbc4253abe" rend="left">
@@ -1548,7 +1560,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002025003">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 117
     </head>
     <p id="0dd13fc8-5cb2-4c9c-85c0-f0668b2fa47f" rend="left">
@@ -1564,12 +1576,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002026">
-    <head rend="center">
+    <head n="level2" type="editorial">
      К главе XXXI «ЖИЗНЬ —БЛАГО»
     </head>
    </div>
    <div type="section" xml:id="h000011002026001">
-    <head rend=" left left">
+    <head n="level3" type="editorial">
      * № 118
     </head>
     <p id="b4e40939-070f-47e0-85d2-2bd953c09bed" rend="left">

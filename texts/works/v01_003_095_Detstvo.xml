@@ -1,112 +1,122 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v01_003_095_Detstvo">
-                    Детство. Tolstoy Digital
-                </title>
-                <title type="main">Детство</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="5298f2ea-0881-4f0d-bd2e-805e9919fc20">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Детство
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 1
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">1</biblScope>
-                        <biblScope unit="page">3-95</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1852"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v01_003_095_Detstvo">
+     Детство. Tolstoy Digital
+    </title>
+    <title type="main">
+     Детство
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="5298f2ea-0881-4f0d-bd2e-805e9919fc20">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Детство
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 1
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       1
+      </biblScope>
+      <biblScope unit="page">
+       3-95
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000">
     <p id="846ab88b-2958-4ac0-8ebe-76369c3ef573">
      <pb n="3"/>
     </p>
-    <head rend="center">
+    <head n="level1">
      <hi rend="font_times_new_roman fontsize_18">
       ДЕТСТВО
      </hi>
@@ -116,7 +126,7 @@
     </div>
    </div>
    <div type="section" xml:id="h000001">
-    <head rend="center" xml:id="h6">
+    <head n="level2" type="chapter">
      ГЛАВА I.
      <lb/>
      УЧИТЕЛЬ КАРЛ ИВАНЫЧ.
@@ -320,7 +330,7 @@
     <lb/>
    </div>
    <div type="section" xml:id="h000002">
-    <head rend="center" xml:id="h7">
+    <head n="level2" type="chapter">
      ГЛАВА II.
      <lb/>
      MAMAN.
@@ -447,7 +457,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000003">
-    <head rend="center" xml:id="h8">
+    <head n="level2" type="chapter">
      ГЛАВА III.
      <lb/>
      ПАПА.
@@ -584,7 +594,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000004">
-    <head rend="center" xml:id="h9">
+    <head n="level2" type="chapter">
      ГЛАВА IV.
      <lb/>
      КЛАССЫ.
@@ -775,7 +785,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000005">
-    <head rend="center" xml:id="h10">
+    <head n="level2" type="chapter">
      ГЛАВА V.
      <lb/>
      ЮРОДИВЫЙ.
@@ -953,7 +963,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000006">
-    <head rend="center" xml:id="h11">
+    <head n="level2" type="chapter">
      ГЛАВА VI.
      <lb/>
      ПРИГОТОВЛЕНИЯ К ОХОТЕ.
@@ -1006,7 +1016,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000007">
-    <head rend="center" xml:id="h12">
+    <head n="level2" type="chapter">
      ГЛАВА VII.
      <lb/>
      ОХОТА.
@@ -1130,7 +1140,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008">
-    <head rend="center" xml:id="h13">
+    <head n="level2" type="chapter">
      ГЛАВА VIII.
      <lb/>
      ИГРЫ.
@@ -1190,7 +1200,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009">
-    <head rend="center" xml:id="h14">
+    <head n="level2" type="chapter">
      ГЛАВА IX.
      <lb/>
      ЧТО-ТО В РОДЕ ПЕРВОЙ ЛЮБВИ.
@@ -1239,7 +1249,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010">
-    <head rend="center" xml:id="h15">
+    <head n="level2" type="chapter">
      ГЛАВА X.
      <lb/>
      ЧТÓ ЗА ЧЕЛОВЕК БЫЛ МОЙ ОТЕЦ?
@@ -1293,7 +1303,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011">
-    <head rend="center" xml:id="h16">
+    <head n="level2" type="chapter">
      ГЛАВА XI.
      <lb/>
      ЗАНЯТИЯ В КАБИНЕТЕ И ГОСТИНОЙ.
@@ -1412,7 +1422,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012">
-    <head rend="center" xml:id="h17">
+    <head n="level2" type="chapter">
      ГЛАВА XII.
      <lb/>
      ГРИША.
@@ -1479,7 +1489,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013">
-    <head rend="center" xml:id="h18">
+    <head n="level2" type="chapter">
      ГЛАВА XIII.
      <lb/>
      НАТАЛЬЯ САВИШНА.
@@ -1582,7 +1592,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014">
-    <head rend="center" xml:id="h19">
+    <head n="level2" type="chapter">
      ГЛАВА XIV.
      <lb/>
      РАЗЛУКА.
@@ -1684,7 +1694,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000015">
-    <head rend="center" xml:id="h20">
+    <head n="level2" type="chapter">
      ГЛАВА XV.
      <lb/>
      ДЕТСТВО.
@@ -1753,7 +1763,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000016">
-    <head rend="center" xml:id="h21">
+    <head n="level2" type="chapter">
      ГЛАВА XVI.
      <lb/>
      СТИХИ.
@@ -1948,7 +1958,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000017">
-    <head rend="center" xml:id="h22">
+    <head n="level2" type="chapter">
      ГЛАВА XVII.
      <lb/>
      КНЯГИНЯ КОРНАКОВА.
@@ -2150,7 +2160,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000018">
-    <head rend="center" xml:id="h23">
+    <head n="level2" type="chapter">
      ГЛАВА XVIII.
      <lb/>
      КНЯЗЬ ИВАН ИВАНЫЧ.
@@ -2313,7 +2323,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000019">
-    <head rend="center" xml:id="h24">
+    <head n="level2" type="chapter">
      ГЛАВА XIX.
      <lb/>
      ИВИНЫ.
@@ -2458,7 +2468,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000020">
-    <head rend="center" xml:id="h25">
+    <head n="level2" type="chapter">
      ГЛАВА XX.
      <lb/>
      СОБИРАЮТСЯ ГОСТИ.
@@ -2579,7 +2589,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000021">
-    <head rend="center" xml:id="h26">
+    <head n="level2" type="chapter">
      ГЛАВА XXI.
      <lb/>
      ДО МАЗУРКИ.
@@ -2790,7 +2800,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000022">
-    <head rend="center" xml:id="h27">
+    <head n="level2" type="chapter">
      ГЛАВА XXII.
      <lb/>
      МАЗУРКА.
@@ -2902,7 +2912,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000023">
-    <head rend="center" xml:id="h28">
+    <head n="level2" type="chapter">
      ГЛАВА XXIII.
      <lb/>
      ПОСЛЕ МАЗУРКИ.
@@ -3014,7 +3024,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000024">
-    <head rend="center" xml:id="h29">
+    <head n="level2" type="chapter">
      ГЛАВА XXIV.
      <lb/>
      В ПОСТЕЛИ.
@@ -3088,7 +3098,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000025">
-    <head rend="center" xml:id="h30">
+    <head n="level2" type="chapter">
      ГЛАВА XXV.
      <lb/>
      ПИСЬМО.
@@ -3207,7 +3217,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000026">
-    <head rend="center" xml:id="h31">
+    <head n="level2" type="chapter">
      ГЛАВА XXVI.
      <lb/>
      ЧТО ОЖИДАЛО НАС В ДЕРЕВНЕ.
@@ -3280,7 +3290,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000027">
-    <head rend="center" xml:id="h32">
+    <head n="level2" type="chapter">
      ГЛАВА XXVII.
      <lb/>
      ГОРЕ.
@@ -3348,7 +3358,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000028">
-    <head rend="center" xml:id="h33">
+    <head n="level2" type="chapter">
      ГЛАВА XXVIII.
      <lb/>
      ПОСЛЕДНИЕ ГРУСТНЫЕ ВОСПОМИНАНИЯ.

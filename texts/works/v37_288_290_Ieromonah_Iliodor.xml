@@ -1,118 +1,130 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v37_288_290_Ieromonah_Iliodor" resp="volume_editor">
-                    [Иеромонах Илиодор]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Иеромонах Илиодор.</title>
-                <title type="sub">«Иеромонах Илиодор, опустив голову...»</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="58898852-4560-4d2b-8628-e786ef000bee">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Иеромонах Илиодор]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 37
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">37</biblScope>
-                        <biblScope unit="page">288-290</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1909"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v37_288_290_Ieromonah_Iliodor">
+     [Иеромонах Илиодор]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Иеромонах Илиодор.
+    </title>
+    <title type="sub">
+     «Иеромонах Илиодор, опустив голову...»
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="58898852-4560-4d2b-8628-e786ef000bee">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Иеромонах Илиодор]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 37
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       37
+      </biblScope>
+      <biblScope unit="page">
+       288-290
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1909"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000009003005">
     <p id="c13add86-537a-46d2-a1e2-7245a99b2cba">
      <pb n="288"/>
     </p>
-    <head rend="title_level2 center">
+    <head n="level1" type="editorial">
      ** [ИЕРОМОНАХ ИЛИОДОР]
     </head>
-    <p id="044e437b-4f36-41ab-beb0-5200191e490f" rend="center">
+    <head n="level2" type="chapter">
      I
-    </p>
+    </head>
     <p id="a8a28e40-a09d-46d5-b1be-80f3fd6ae1df" rend="left">
      Иеромонах Илиодор, опустив голову и закрыв глаза, сидел во время службы в алтаре скитской церкви. Сейчас ему надо будет встать, подойти к престолу, стать лицом к царским дверям и сделать руками известное движение, произнести известные слова и потом подойти к алтарю, взять в руки серебряную золоченую чашу и начать совершать таинство причащения телом и кровью Христа бога. Прошло уже три с половиной года с тех пор, как он, князь Иван Тверской, перестал быть князем Тверским и отставным гвардии полковником, а стал смиренным иноком Илиодором, и никогда еще не было с ним того, что было сейчас.
     </p>
@@ -164,15 +176,15 @@
     <p id="d6e37b9a-0015-4524-a561-f1e64b140e70" rend="left">
      сверхъестественному религиозному настроению. Поклонницы его толпились у его кельи. Но он никого не принял и заперся в своей келье.
     </p>
-    <p id="e3f3d629-9513-4c7a-a752-ee8773798a77" rend="center">
+    <head n="level2" type="chapter">
      II
-    </p>
+    </head>
     <p id="f338dbde-4b77-4653-a3b9-21843aee9050" rend="left">
      В этот же день Илиодор побывал у старца и, вернувшись в келью, безвыходно пробыл в ней 12 дней. Рыжий Митрий приносил ему с трапезы обед и ужин и всё съедал сам. Илиодор ничего не ел и питался во все эти дни просвирами и водой. Митрий слышал его вздохи, его плач и его громкую молитву.
     </p>
-    <p id="7b43982d-f068-46e3-8e55-a05fd99e0c59" rend="center">
+    <head n="level2" type="chapter">
      ДНЕВНИК ИЛИОДОРА
-    </p>
+    </head>
     <p id="7684d492-dffc-4dda-a7f2-48e28f3a8b2d" rend="left">
      15 сент. 1902 г. Да, всё кончено. Нет выхода, нет спасения. Главное, нет бога — того бога, которому я служил, которому отдал свою жизнь, которого умолял открыться мне, который мог бы слышать меня. Нет и нет его.
     </p>

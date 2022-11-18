@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v06_003_150_Kazaki_Kavkazskaja_povest">
-                    Казаки. Tolstoy Digital
-                </title>
-                <title type="main">Казаки</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="78bbf901-566f-4bae-863a-97c043789987">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Казаки
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 6
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">6</biblScope>
-                        <biblScope unit="page">3-150</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v06_003_150_Kazaki_Kavkazskaja_povest">
+     Казаки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Казаки
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="78bbf901-566f-4bae-863a-97c043789987">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Казаки
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 6
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       6
+      </biblScope>
+      <biblScope unit="page">
+       3-150
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="074320fa-1167-4906-bca0-6ffe1e9b3958">
@@ -120,7 +130,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000011001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      I.
     </head>
     <p id="50da0c8d-a6ef-4959-952a-b922cb0268a7" rend="left">
@@ -253,7 +263,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002">
-    <head rend="center">
+    <head n="level2" type="chapter">
      II.
     </head>
     <p id="5329efc0-79e9-451d-8b97-2ba0f80934b4" rend="left">
@@ -345,7 +355,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      III.
     </head>
     <p id="d17d250f-db59-4020-a209-5cc1bc430353" rend="left">
@@ -392,7 +402,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IV.
     </head>
     <p id="3e1bf5ad-8858-4dd4-be9d-345b67e6751c" rend="left">
@@ -439,7 +449,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      V.
     </head>
     <p id="f378c251-ee3a-4a9c-9dcb-16a75b2e3f0d" rend="left">
@@ -611,7 +621,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VI.
     </head>
     <p id="8c9de789-ea4f-4d08-bd07-f2d25a50501c" rend="left">
@@ -865,7 +875,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011007">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VII.
     </head>
     <p id="4ac01402-4f7c-46a1-aaa2-66cc1b2346a3" rend="left">
@@ -1053,7 +1063,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011008">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VIII.
     </head>
     <p id="a06c4834-7ff2-4618-a8b2-244d4e564b85" rend="left">
@@ -1247,7 +1257,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011009">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IX.
     </head>
     <p id="c6c212f6-b39c-41b4-b190-3e0ff9844b64" rend="left">
@@ -1453,7 +1463,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011010">
-    <head rend="center">
+    <head n="level2" type="chapter">
      X.
     </head>
     <p id="354e8e3c-793e-404d-8689-87ac5bb62656" rend="left">
@@ -1562,7 +1572,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011011">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XI.
     </head>
     <p id="076ed76e-143b-4c0b-85ca-c196b8ad4d22" rend="left">
@@ -1748,7 +1758,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011012">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XII.
     </head>
     <p id="c044a28f-e052-4eee-86fd-826d1249990f" rend="left">
@@ -1887,7 +1897,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011013">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XIII.
     </head>
     <p id="3745108c-43a7-4b87-8ef9-32fe53f74546" rend="left">
@@ -2217,7 +2227,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011014">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XIV.
     </head>
     <p id="c89a253d-04e4-4f1a-af31-044330516153" rend="left">
@@ -2328,7 +2338,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011015">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XV.
     </head>
     <p id="715daace-1334-4011-89cf-8727d2e3cbea" rend="left">
@@ -2410,7 +2420,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011016">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XVI.
     </head>
     <p id="39016ce7-3e0d-499b-8ea7-a731b180db4c" rend="left">
@@ -2665,7 +2675,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011017">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XVII.
     </head>
     <p id="affc6449-0136-47fe-86d0-6f89ce37e5d0" rend="left">
@@ -2783,7 +2793,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011018">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XVIII.
     </head>
     <p id="01f0a360-c1be-4916-9347-bfa30c22f21a" rend="left">
@@ -3132,7 +3142,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011019">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XIX.
     </head>
     <p id="ea76489f-fc5a-4eac-8526-25fd130228ae" rend="left">
@@ -3213,7 +3223,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011020">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XX.
     </head>
     <p id="492f62fa-492a-4fe6-ab3e-252481b85be1" rend="left">
@@ -3238,7 +3248,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011021">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXI.
     </head>
     <p id="5e9f7fbc-a483-4dbf-bd3c-403474e28525" rend="left">
@@ -3356,7 +3366,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011022">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXII.
     </head>
     <p id="190e525a-4f53-46a7-be42-29e44c57ad35" rend="left">
@@ -3603,7 +3613,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011023">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXIII.
     </head>
     <p id="8df41e8c-8384-449c-b832-6f8798e8f4ef" rend="left">
@@ -3651,7 +3661,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011024">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXIV.
     </head>
     <p id="019caacc-63cd-41db-bf21-ec7e28636f11" rend="left">
@@ -4579,7 +4589,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011029">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXIX.
     </head>
     <p id="26f65cb1-7ced-4854-90d5-b0184816fe0f" rend="left">
@@ -4714,7 +4724,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011030">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXX.
     </head>
     <p id="cff40f53-d8e1-4c3f-b458-f58e0b142654" rend="left">
@@ -4897,7 +4907,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011031">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXI.
     </head>
     <p id="f4f5b695-eeb5-48cf-9523-87832484fd02" rend="left">
@@ -5032,7 +5042,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011032">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXII.
     </head>
     <p id="921ade41-d676-41a5-a86a-e1ba3ad9f415" rend="left">
@@ -5113,7 +5123,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011033">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXIII.
     </head>
     <p id="1024e285-eeaf-438b-893e-bb31312f2de5" rend="left">
@@ -5143,7 +5153,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011034">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXIV.
     </head>
     <p id="4c9a17b2-7364-41ee-8f95-0f629ebcd53a" rend="left">
@@ -5252,7 +5262,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011035">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXV.
     </head>
     <p id="cae2fc19-5d81-4e96-b717-da2316511ba8" rend="left">
@@ -5356,7 +5366,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011036">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXVI.
     </head>
     <p id="f8c0a9db-d36e-4f4a-bec0-b420a6f91d9d" rend="left">
@@ -5483,7 +5493,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011037">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXVII.
     </head>
     <p id="0efe497d-8d41-4cc7-9201-89b0d455ebbb" rend="left">
@@ -5595,7 +5605,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011038">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXVIII.
     </head>
     <p id="982be5fc-c59f-4618-bf0a-affeea6f8ebf" rend="left">
@@ -5977,7 +5987,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011039">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXXIX.
     </head>
     <p id="12d65c98-7781-414c-afc0-761c74917d7f" rend="left">
@@ -6059,7 +6069,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011040">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XL.
     </head>
     <p id="6f6aa069-d37d-4141-a171-c5d21132e835" rend="left">
@@ -6190,7 +6200,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011041">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XLI.
     </head>
     <p id="64e56197-cc8a-4e70-aedc-2d9be877d218" rend="left">
@@ -6319,7 +6329,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011042">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XLII.
     </head>
     <p id="ef5f4efc-9653-47a7-9085-c277297d968c" rend="left">

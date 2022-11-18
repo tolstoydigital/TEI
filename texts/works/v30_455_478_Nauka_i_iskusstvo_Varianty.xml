@@ -1,122 +1,134 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v30_455_478_Nauka_i_iskusstvo_Varianty">
-                    Наука и искусство. Tolstoy Digital
-                </title>
-                <title type="main">Наука и искусство.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="316c837a-50d0-4909-b40b-427b34232fa0">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Наука и искусство
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 30
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1951"/>
-                        </imprint>
-                        <biblScope unit="volume">30</biblScope>
-                        <biblScope unit="page">455-478</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1889" to="1891"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#arts" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v30_455_478_Nauka_i_iskusstvo_Varianty">
+     Наука и искусство. Tolstoy Digital
+    </title>
+    <title type="main">
+     Наука и искусство.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="316c837a-50d0-4909-b40b-427b34232fa0">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Наука и искусство
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 30
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1951"/>
+      </imprint>
+      <biblScope unit="volume">
+       30
+      </biblScope>
+      <biblScope unit="page">
+       455-478
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1889" to="1891"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#arts" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref19">
     <p id="62e46a7e-2a6a-41ca-be20-52e3e5fc77ae">
      <pb n="455"/>
     </p>
-    <head rend="title_level2 center">
+    <head n="level1">
      НАУКА И ИСКУССТВО
     </head>
     <div type="section">
      <head rend="title_level3 left left">
       * № 1 (рук. № 1).
      </head>
-     <p id="16779c87-aaa3-4885-b707-8522813242e7" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       1
-     </p>
+     </head>
      <p id="79028c80-04b0-47ee-8573-5a1c7c548517" rend="left">
       <choice original_editorial_correction="Н[ауки]">
        <sic>
@@ -137,27 +149,27 @@
       </choice>
       пользуются почетом. Памятники, юбилеи, вознаграждение. Конкуренция. — Ученые и художники и люди богатые считают, что так и должно быть, верят.
      </p>
-     <p id="9a343772-59e7-4917-acbb-6e3c32385913" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       2
-     </p>
+     </head>
      <p id="f2e8f3c6-2d4d-44e6-b1ee-ad4a3f3e9703" rend="left">
       Но само дело вводит в сомнение: споры, отрицания друг друга, очевидная тщета, даже вред.
      </p>
-     <p id="acc3ad0d-9891-4415-91d6-6e4bc089f5fb" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       3
-     </p>
+     </head>
      <p id="4916b1c1-a33e-4016-a261-dcaff5119a86" rend="left">
       Очевидно, что так как выгодно и почетно, то много подделок. Надо отделить настоящее от ложного. На каком основании? Принимаемое основание: определения науки и искусства.
      </p>
-     <p id="22955a4d-909a-434f-bfa3-d2969608d51d" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       4
-     </p>
+     </head>
      <p id="65f78498-673c-4cd2-9f56-18eaee12f2c8" rend="left">
       Недостаточно, можно всё подвести. А так как выгодно, то нет пределов. Но говорят: ничего, все-таки всё сделается на пользу. Возражение против этого. Нельзя жертвовать несомненным для сомнительного.
      </p>
-     <p id="9a6a101e-d4f9-481f-8952-cf6b116e17cf" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       5
-     </p>
+     </head>
      <p id="ed6c0663-0d1a-4ad7-9b03-1373d1c1c121" rend="left">
       Противоречия
       <choice original_editorial_correction="безобраз[ны?]">
@@ -170,9 +182,9 @@
       </choice>
       , и естественно мне, что если нельзя отобрать, то лучше всё к чорту, чем давать тому, что делается, то первенствующее место. Оно оправдывает всякое насилие и мерзость. Так и отрицают. Отрицают не науку и искусство, а то, что неправильно признается такими.
      </p>
-     <p id="8e9f986a-fae7-48f0-93f4-136378a68f9b" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       6
-     </p>
+     </head>
      <p id="3e6d2cc5-23ab-48d5-90cc-287f4a1f6b05" rend="left">
       Но отрицание неправильно. Чтò же
       <choice original_editorial_correction="н[аука]">
@@ -212,30 +224,30 @@
       </choice>
       передача знаний всех, двоякая.
      </p>
-     <p id="db25fd0b-fe85-4188-8df7-13286ea71939" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       7
-     </p>
+     </head>
      <p id="3cce30a1-6676-40de-ae63-48f4e669483e" rend="left">
       Но почему один разряд выделяется? — Выделяется всякое движение вперед по указанному пути. Путь указывает миросозерцание.
      </p>
      <p id="98ca3433-8634-4dd3-b2fa-74915219fb8c" rend="left">
       <pb n="456"/>
      </p>
-     <p id="f325ebed-0538-4539-b5f6-c78afad67320" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       8
-     </p>
+     </head>
      <p id="3e24d1db-1238-4e72-a7b4-0c84e3c75d9b" rend="left">
       Так всегда было. Примеры. У нас же считается, во-первых, и не движение вперед, а повторение, только в условиях научных и художественных, и движение без всякого пути.
      </p>
-     <p id="87102bfe-1213-4b90-8874-031b598d0079" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       9
-     </p>
+     </head>
      <p id="adefdd73-7ca0-44a8-87e5-f9164dbfa8fe" rend="left">
       Нелепость этого. Примеры.
      </p>
-     <p id="4b0a2a27-110e-4df0-a5c0-709739f737a2" rend="subtitle centerline">
+     <head n="level2" type="editorial">
       10
-     </p>
+     </head>
      <p id="7e3a0bfb-687b-44a6-8388-6131e020590a" rend="left">
       Что есть
       <choice original_editorial_correction="произвед[ение]">
@@ -248,15 +260,15 @@
       </choice>
       науки и искусства в наше время? Есть то, что тем или другим способом вводит в сознание людей то, что им всем нужно знать, что подвигает людей на пути, указанном миросозерцанием = верою.
      </p>
-     <p id="e3491ed6-c12e-4ff9-9b2c-7181e05a09cd" rend="subtitle centerline">
+     <head n="level2" type="chapter">
       11
-     </p>
+     </head>
      <p id="28599c84-5993-4e18-a569-4037e006da0a" rend="left">
       В чем наше миросозерцание — вера — движение к единению людей. — Примеры.
      </p>
-     <p id="3298dabc-5a84-4bce-b352-7ab442080b46" rend="subtitle centerline">
+     <head n="level2" type="chapter">
       12
-     </p>
+     </head>
      <p id="9b5bf57f-e598-4a6e-9cc0-ffd35257e4c2" rend="left">
       Достойно быть предметом науки и искусства только то, что достигает этой цели. Примеры: теория чисел, Дарвинизм, шахматные задачи. Большая или меньшая важность определяется большим или меньшим достижением цели единения.
      </p>
@@ -265,9 +277,9 @@
      <head rend="title_level3 left left">
       * № 2 (рук. № 2).
      </head>
-     <p id="3886ae5f-587d-4507-b718-5a87f6195d5d" rend="subtitle centerline">
+     <head n="level1" type="draft">
       О НАУКЕ И ИСКУССТВЕ
-     </p>
+     </head>
      <p id="20d71cdc-fc47-4521-a6e5-722bfc4fb4cc" rend="left">
       1) Занятия
       <choice original_editorial_correction="наук[ами]">
@@ -451,9 +463,9 @@
        25 Н. 89. Я. П.
       </hi>
      </p>
-     <p id="87d9ec09-131c-4cd4-bfed-3ca0ca9d8d2d" rend="subtitle centerline">
+     <head n="level2" type="chapter">
       I
-     </p>
+     </head>
      <p id="43d5e5eb-b1e7-42c3-8fa7-5d9ca2d82c9d" rend="left">
       Люди, с детства лишенные общения с людьми, делаются подобны не только диким, но зверям. Таков был Гаспар Гаузер
       <ref target="#note505">
@@ -498,9 +510,9 @@
       </note>
       Не будь у человека свойства усвоения и передачи знаний, не было бы человека и человеческой жизни. Две деятельности эти составляют известные, выделяемые из всех других, знания, передаваемые от людей людям. Какие же это знания? Я впредь буду говорить об одной передаче знаний, не упоминая об усвоении их, так как одно само собой подразумевает другое.
      </p>
-     <p id="08b96173-03bc-491c-8bed-474d46d7e098" rend="subtitle centerline">
+     <head n="level2" type="chapter">
       &lt;II&gt;
-     </p>
+     </head>
      <p id="ec666848-a176-458e-aee1-643ad82a8026" rend="left">
       3наний, передаваемых от одних людей другим, начиная от знания, как добывать огонь и делать топор до знания движения небесных тел и исполнения Вагнеровских опер, — знаний, передаваемых от людей людям, если не бесчисленное, то огромное количество.
      </p>
@@ -570,11 +582,11 @@
        П.
       </hi>
      </p>
-     <p id="26445bf7-2f41-4351-8cb5-fdc2ada7190e" rend="subtitle centerline">
+     <head n="level1" type="draft">
       О СЛЕПОЙ ВЕРЕ ЛЮДЕЙ НАШЕГО ВРЕМЕНИ В НАУКУ И ИСКУССТВО. О ТОМ, ЧТО ПОДРАЗУМЕВАЕТСЯ ПОД ЭТИМИ ДВУМЯ СЛОВАМИ, И О ТОМ, ЧТО СКРЫВАЕТСЯ ПОД НИМИ.
       <lb/>
       ВРЕД ЭТОЙ ЛОЖНОЙ ВЕРЫ
-     </p>
+     </head>
      <p id="1083b3e8-e2fd-4483-ae53-051ab5e324f7" rend="left">
       Я хочу показать, что в наше время люди, освободившись от одних суеверий, не заметив еще того, подпали под другие суеверия, не менее безосновательные и вредные, как и те, от которых они только что избавились. Избавившись от суеверий религиозных, люди подпали и подпадают под суеверия культурные. Сначала это кажется игрою слов, натяжкой. Сначала кажется, что не может быть ничего общего между верою, положим, египтян в бога Аписа и верою человека нашего времени в то, что культура — науки и искусства — дает человеку наибольшее
       <pb n="464"/>
@@ -898,9 +910,9 @@
      <head rend="title_level3 left left">
       * № 10 (рук. № 12).
      </head>
-     <p id="4351391b-5cb1-4cf0-b7d0-fa8b35bfdfca" rend="subtitle centerline">
+     <head n="level1">
       НАУКА И ИСКУССТВО
-     </p>
+     </head>
      <p id="cec33e71-5a2f-4876-913b-fae5cbfa6d76" rend="left">
       Науки и искусства составляют в наше время едва ли не самую уважаемую людскую деятельность, такую деятельность, которая по важности своей превосходит все другие, поощрение которой считается самым почтенным, противодействие которой самым постыдным делом и представители которой считаются наиболее достойными вознаграждения, почестей и уважения. Мнение о том, что деятельность наук и искусств есть высшая человеческая деятельность и ученые и художники суть люди, стоящие во главе человечества, не раз прямо высказывалось, не встречая возражений. Оно и действительно так, и наблюдения над направлением стремлений людей нашего времени подтверждают такое мнение. Большинство людей стремится к образованию только для того, чтобы занять место в рядах наиболее уважаемых всеми деятелей общества — ученых и художников. Вознаграждение за труд художественный — 500 тысяч франков за картину, 50 тысяч рублей за абонемент, 2 милиона марок за секрет лимфы, — самое большое из всех вознаграждений за труд. (Если ученые не получают таких громадных гонораров за свои труды, как некоторые из художников, то труды их ровнее оплачиваются и дают всегда более, чем обеспеченное барское существование.) Для богатого человека, желающего заслужить уважение общества, — лучшее средство есть не жертва на церкви, монастыри, как было прежде, не на филантропические учреждения, как было недавно, а на ученые или художественные учреждения — школы, институты, клиники, художественные заведения, галлереи, музеи........
       <ref target="#note523">

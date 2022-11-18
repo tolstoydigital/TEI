@@ -1,109 +1,121 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_156_180_Nachala_romana_vremen_Petra_I_Perehod_vlasti_ot_Sofi_k_Petru" resp="volume_editor">
-                    [«Начала» романа времен Петра I. Переход власти от Софьи к Петру]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Начало романа времен Петра I.</title>
-                <title type="sub" resp="volume_editor">Переход власти от Софьи к Петру</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c70bb508-d696-4f9e-b69c-13232573efc2">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [«Начала» романа времен Петра I. Переход власти от Софьи к Петру]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">156-180</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1870-1873, 1879 гг.
-                </date>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_156_180_Nachala_romana_vremen_Petra_I_Perehod_vlasti_ot_Sofi_k_Petru">
+     [«Начала» романа времен Петра I. Переход власти от Софьи к Петру]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Начало романа времен Петра I.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Переход власти от Софьи к Петру
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c70bb508-d696-4f9e-b69c-13232573efc2">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [«Начала» романа времен Петра I. Переход власти от Софьи к Петру]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       156-180
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1870-1873, 1879 гг.
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="35e8d7d0-b109-434c-b4c2-c44ceb40448f">
@@ -125,7 +137,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000011006001">
-    <head rend="center">
+    <head n="level1" type="editorial">
      <hi rend="italic">
       *,
      </hi>
@@ -145,12 +157,12 @@
     </head>
    </div>
    <div type="section" xml:id="h000011006001003001">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 3.
     </head>
-    <p id="f7a98899-8d91-4d02-b216-6440386d58dc" rend="center">
+    <head n="level2" type="chapter">
      I.
-    </p>
+    </head>
     <p id="0ef726c5-8159-42ac-a1e3-da52d6fd6e57" rend="left">
      Князь В. В.
      <choice>
@@ -3606,12 +3618,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001003002">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 4.
     </head>
-    <p id="9830db70-73de-4775-ad64-6cd7b376bf55" rend="center">
+    <head n="level2" type="chapter">
      I.
-    </p>
+    </head>
     <p id="7705f087-92ef-4172-9e36-2f6ff38e1877" rend="left">
      <choice>
       <reg>
@@ -6636,9 +6648,9 @@
      </choice>
      [?]
     </p>
-    <p id="819329d0-1822-4886-94bf-6a57161b4d8e" rend="center">
+    <head n="level2" type="chapter">
      II.
-    </p>
+    </head>
     <p id="44ea7413-539d-46e2-a266-5d62b247c8f5" rend="left">
      Хуже всего эти
      <choice>
@@ -8624,7 +8636,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001003003">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 5.
     </head>
     <p id="bb4a07ae-1f9c-4f3e-b610-73ee27158938" rend="left">
@@ -10732,7 +10744,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001003004">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 6.
     </head>
     <p id="e843077b-94a4-45cc-924c-b33949d745c1" rend="left">
@@ -12158,7 +12170,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001003005">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 7.
     </head>
     <p id="12ba8fcb-0165-4f4f-9b47-aee3cf6b647e" rend="left">
@@ -13583,7 +13595,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001003006">
-    <head rend="left">
+    <head n="level2" type="editorial">
      ** № 8.
     </head>
     <p id="b65781bd-206e-4a2a-af52-1cb94bee95d0" rend="left">
@@ -30289,7 +30301,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001003007">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 9.
     </head>
     <p id="09706260-c21d-493c-af88-4d6fe2b8a08c" rend="left">

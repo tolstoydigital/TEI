@@ -1,109 +1,121 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_180_195_Nachala_romana_vremen_Petra_I_Kozhuhovskij_pohod" resp="volume_editor">
-                    [«Начала» романа времен Петра I. Кожуховский поход]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Начало романа времен Петра I.</title>
-                <title type="sub" resp="volume_editor">Кожуховский поход</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e89dbe1e-dc2d-4fb6-b5eb-6203dd7c877a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [«Начала» романа времен Петра I. Кожуховский поход]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">180-195</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1870-1873, 1879 гг.
-                </date>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_180_195_Nachala_romana_vremen_Petra_I_Kozhuhovskij_pohod">
+     [«Начала» романа времен Петра I. Кожуховский поход]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Начало романа времен Петра I.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Кожуховский поход
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e89dbe1e-dc2d-4fb6-b5eb-6203dd7c877a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [«Начала» романа времен Петра I. Кожуховский поход]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       180-195
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1870-1873, 1879 гг.
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="a1c46ec4-e767-4850-9000-7e9b79586135">
@@ -125,7 +137,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000011006001">
-    <head rend="center">
+    <head n="level1" type="editorial">
      <hi rend="italic">
       *,
      </hi>
@@ -145,7 +157,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000011006001004001">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 10.
     </head>
     <p id="64c832ed-de6d-4d0f-bb7b-f99d172e63ea" rend="left">
@@ -534,12 +546,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001004002">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *, ** № 11.
     </head>
-    <p id="394a5c0d-bdf1-4660-a0c3-bc8fd64959fe" rend="center">
+    <head n="level2" type="chapter">
      1.
-    </p>
+    </head>
     <p id="487f8903-543d-45b8-b3d0-eb98b007b6b2" rend="left">
      <choice>
       <reg>
@@ -4154,9 +4166,9 @@
     <table rend="nopad w85">
      <row>
       <cell>
-       <p id="778e49fa-b3fa-4f12-81eb-0385c7359c7f">
+       <head n="level2" type="chapter">
         1)
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="c98e33c5-ab87-4a7b-9ee4-8a0b4f2fb271">
@@ -4474,9 +4486,9 @@
      </row>
      <row>
       <cell>
-       <p id="c9b0aea1-8b1a-43c3-b24e-06bec05e0248">
+       <head n="level2" type="editorial">
         10)
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="084c0c0e-f7b7-4ea0-b859-1f38c9e51e62">
@@ -4503,9 +4515,9 @@
      </row>
      <row>
       <cell>
-       <p id="1b2bdc4a-af47-4dc5-a693-499b2160dabf">
+       <head n="level2" type="editorial">
         11)
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="4fa39904-649e-4e6c-8f83-a1f56cf78648">
@@ -4516,9 +4528,9 @@
      </row>
      <row>
       <cell>
-       <p id="ebea52d5-1e16-4a11-a13d-edb6388a3f76">
+       <head n="level2" type="editorial">
         12)
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="30696b4a-1ea9-423d-a808-70efa2441c21">
@@ -4537,9 +4549,9 @@
      </row>
      <row>
       <cell>
-       <p id="b2b4af35-58c6-41e7-b82f-deaaf2539ba4">
+       <head n="level2" type="editorial">
         13)
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="9afb6c90-ce97-4c11-b97f-4f2b6a7fec6e">
@@ -4567,9 +4579,9 @@
      </row>
      <row>
       <cell>
-       <p id="45371a30-7598-477b-896c-e3ee0120942f">
+       <head n="level2" type="editorial">
         14)
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="1d58e9f1-e915-42f4-9055-39760e9a6b32">
@@ -4598,7 +4610,7 @@
     </table>
    </div>
    <div type="section" xml:id="h000011006001004003">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 12.
     </head>
     <p id="60a99f94-a226-4b48-8dae-cb354b05f253" rend="left">
@@ -9857,7 +9869,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001004004">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 13.
     </head>
     <p id="26af5679-a270-4a1f-af35-aed833464898" rend="left">
@@ -12590,7 +12602,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001004005">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 14.
     </head>
     <p id="d78a9093-3b98-4ef0-b09f-9c9d40ef956a" rend="left">
@@ -13087,9 +13099,9 @@
      </choice>
      день не было службы.
     </p>
-    <p id="6bff44a6-de92-4521-9973-c4304da0edee" rend="center">
+    <head n="level2" type="chapter">
      II.
-    </p>
+    </head>
     <p id="0a498109-e051-4ef5-a3ed-fbd40cf2ded6" rend="left">
      <choice>
       <reg>
@@ -16249,18 +16261,18 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001004006">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 15.
     </head>
-    <p id="a92bcd79-a9a1-4bc7-92aa-bbfad8f88b49" rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       Старое и новое
      </hi>
      .
-    </p>
-    <p id="5bd8710d-db2e-4079-bd50-4dc0aa58d5ff" rend="center">
+    </head>
+    <head n="level2" type="chapter">
      1.
-    </p>
+    </head>
     <p id="5a0bddd5-e2cf-47f2-9a97-95645034a23e" rend="left">
      <choice>
       <reg>
@@ -20416,7 +20428,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001004007">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 16.
     </head>
     <p id="edb8a7a8-67f9-47d8-b0c0-8c1bc66df166" rend="left">

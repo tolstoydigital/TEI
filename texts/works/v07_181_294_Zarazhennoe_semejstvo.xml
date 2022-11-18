@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_181_294_Zarazhennoe_semejstvo">
-                    Зараженное семейство. Tolstoy Digital
-                </title>
-                <title type="main">Зараженное семейство</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="54c93dd6-6a2e-469a-8759-63bc4880e483">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Зараженное семейство
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">181-294</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1864"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_181_294_Zarazhennoe_semejstvo">
+     Зараженное семейство. Tolstoy Digital
+    </title>
+    <title type="main">
+     Зараженное семейство
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="54c93dd6-6a2e-469a-8759-63bc4880e483">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Зараженное семейство
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       181-294
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1864"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012019006">
     <p id="7ddfe960-b29e-4112-80c9-11a7ee0074d1">
@@ -166,7 +176,7 @@
       </choice>
       .
      </p>
-     <p id="6718bf8a-1612-4fbe-adc3-0753f09da359" rend="center">
+     <head n="level2" type="act">
       <choice>
        <reg>
         ДЕЙСТВУЮЩІЯ
@@ -176,7 +186,7 @@
        </orig>
       </choice>
       ЛИЦА:
-     </p>
+     </head>
      <p id="a8faeb31-5a24-4df8-9769-ddef9c0a2572" rend="left">
       <hi rend="Razradka">
        <choice>
@@ -751,7 +761,7 @@
     </div>
    </div>
    <div type="section" xml:id="h000012019006002">
-    <head rend="title_level3 center">
+    <head n="level2" type="act">
      <choice>
       <reg>
        ДЕЙСТВІЕ
@@ -23892,7 +23902,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012019006003">
-    <head rend="title_level3 center">
+    <head n="level2" type="act">
      <choice>
       <reg>
        ДЕЙСТВІЕ
@@ -23905,7 +23915,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000012019006003001">
-    <head rend="title_level4 center">
+    <head n="level3" type="scene">
      Сцена I.
     </head>
     <div>
@@ -38496,7 +38506,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012019006003002">
-    <head rend="title_level4 center">
+    <head n="level3" type="scene">
      Сцена 2.
     </head>
     <div>
@@ -51143,7 +51153,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012019006004">
-    <head rend="title_level3 center">
+    <head n="level2" type="act">
      <choice>
       <reg>
        ДЕЙСТВІЕ
@@ -51156,7 +51166,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000012019006004001">
-    <head rend="title_level4 center">
+    <head n="level3" type="scene">
      Сцена 1.
     </head>
     <div>
@@ -60715,7 +60725,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012019006004002">
-    <head rend="title_level4 center">
+    <head n="level3" type="scene">
      Сцена 2.
     </head>
     <div>
@@ -64592,7 +64602,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012019006005">
-    <head rend="title_level3 center">
+    <head n="level2" type="act">
      <choice>
       <reg>
        ДЕЙСТВІЕ
@@ -72561,7 +72571,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012019006006">
-    <head rend="title_level3 center">
+    <head n="level2" type="act">
      <choice>
       <reg>
        ДЕЙСТВІЕ
@@ -72573,7 +72583,7 @@
      V.
     </head>
     <div>
-     <p id="a5d76f5f-d1f9-4f4f-9b6e-a8ccbd7b479e" rend="center">
+     <head n="level2" type="act">
       <choice>
        <reg>
         ДЕЙСТВУЮЩІЯ
@@ -72583,7 +72593,7 @@
        </orig>
       </choice>
       ЛИЦА:
-     </p>
+     </head>
      <p id="06f2573d-22ca-4231-9e22-e8c79f42c5a8" rend="left">
       <hi rend="Razradka">
        <choice>
