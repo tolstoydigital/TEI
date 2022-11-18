@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_313_442_O_zhizni">
-                    О жизни. Tolstoy Digital
-                </title>
-                <title type="main">О жизни</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="686d0d72-af3b-4528-aba1-b35617eda7e5">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            О жизни
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">313-442</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1887"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v26_313_442_O_zhizni">
+     О жизни. Tolstoy Digital
+    </title>
+    <title type="main">
+     О жизни
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="686d0d72-af3b-4528-aba1-b35617eda7e5">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       О жизни
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       313-442
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1887"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="0f39fe9d-e51b-48eb-8946-9187f3d816a5">
@@ -178,7 +188,7 @@
     </div>
    </div>
    <div type="section" xml:id="h000011002004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       ВСТУПЛЕНИЕ
      </hi>
@@ -2681,7 +2691,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002040">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ЗАКЛЮЧЕНИЕ.
     </head>
     <p id="3f7db9f9-841e-44b8-98d3-5e9a23b47d1e" rend="left">
@@ -2707,11 +2717,11 @@
     <p id="03f69b05-b9d5-43fd-83ae-479321e028de" rend="center">
      ————
     </p>
-    <p id="28fb6cc8-ffbc-4c0f-8ecb-4b0afff843c6" rend="right">
+    <head n="level3">
      <hi rend="italic">
       Прибавление 1-е.
      </hi>
-    </p>
+    </head>
     <p id="718adb53-3c7c-4ce1-8477-ce850edfcf1a" rend="left">
      Обыкновенно говорят: мы изучаем жизнь не по сознанию своей жизни, а вообще вне себя. Но ведь это всё равно, что сказать: мы рассматриваем предметы не глазами, но вообще вне себя.
     </p>
@@ -2749,11 +2759,11 @@
     <p id="a5002700-04a2-4eef-a8dc-bd5ecdf493a4" rend="left">
      Ведь изучать жизнь в других существах, не имея определения своей жизни, это всё равно, что описывать окружность, не имея центра ее. Только установив одну непоколебимую точку как центр, можно описывать окружность. Но какие бы фигуры мы ни рисовали, без центра не будет окружности.
     </p>
-    <p id="e7296e2b-6ea8-43dc-b7e5-010f3c5d99f2" rend="right">
+    <head n="level3">
      <hi rend="italic">
       Прибавление 2-е.
      </hi>
-    </p>
+    </head>
     <p id="f70ad3ac-f457-4113-9a08-6a1ab4764699" rend="left">
      Ложная наука, изучая явления, сопутствующие жизни, и предполагая изучать самую жизнь, этим предположением извращает понятие жизни; и потому, чем дольше она изучает явление, того, что она называет жизнью, тем больше она удаляется от понятия жизни, которое она хочет изучать.
     </p>
@@ -2780,11 +2790,11 @@
     <p id="ca399d9c-6dea-46a5-84b3-77664fcd4316" rend="left">
      Это в роде того, что̀ бы делал человек, которому дали на записке точное указание того, что̀ ему нужно, и который, не умея прочесть её, бросил бы эту записку и спрашивал бы у всех встречных, не знают ли они того, что̀ ему нужно. Определение жизни, которое неизгладимыми буквами, в его стремлении к благу, начертано в душе человека, люди ищут везде, только не в самом сознании человека. Это тем более странно, что всё человечество, в лице мудрейших представителей своих, начиная с греческого изречения, гласившего: «познай самого себя», говорило и продолжает говорить совершенно обратное. Все учения религиозные суть не что иное, как определения жизни, как стремления к действительному, необманному благу, доступному человеку.
     </p>
-    <p id="f0b0c66e-a169-4052-9782-14a6962bda60" rend="right">
+    <head n="level3">
      <hi rend="italic">
       Прибавление 3-е.
      </hi>
-    </p>
+    </head>
     <p id="d756c46a-038b-441e-bc17-2f1287a5eb33" rend="left">
      Всё яснее и яснее слышится человеку голос разума; человек чаще и чаще прислушивается к этому голосу, и приходит время и пришло уже, когда голос этот стал сильнее, чем голос,
      <pb n="439"/>
@@ -2839,9 +2849,9 @@
        <lb/>
       </cell>
       <cell>
-       <p id="cc6fde07-8978-4b01-8ed5-3944da24a80c">
+       <head n="level2" type="chapter">
         Вступление
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="d7ed3d9f-dcce-4280-bd8c-e07a68540431">
@@ -3658,9 +3668,9 @@
        <lb/>
       </cell>
       <cell>
-       <p id="58c8e943-36b1-44dd-aa31-a94fcfaf5187">
+       <head n="level2" type="chapter">
         Заключение
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="f95e4518-ed04-419c-84eb-775757f93248">
@@ -3676,9 +3686,9 @@
        <lb/>
       </cell>
       <cell>
-       <p id="fe88fecb-0131-4d34-a5d5-de5c559bd007">
+       <head n="level3">
         Прибавление 1-е
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="1821faee-5172-4fe9-9ef0-827a869cc5f3">
@@ -3694,9 +3704,9 @@
        <lb/>
       </cell>
       <cell>
-       <p id="3aec3e6e-e357-4507-87c1-30be5624e373">
+       <head n="level3">
         Прибавление 2-е
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="b3d86249-ee8e-4e4e-ba10-4ee4b66989f7">
@@ -3712,9 +3722,9 @@
        <lb/>
       </cell>
       <cell>
-       <p id="11913565-d4b9-4d05-bc63-404855549478">
+       <head n="level3">
         Прибавление 3-е
-       </p>
+       </head>
       </cell>
       <cell>
        <p id="451f14b9-93fc-4452-b358-64e78dd1a27b">

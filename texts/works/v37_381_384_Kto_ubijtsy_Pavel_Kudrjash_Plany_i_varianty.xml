@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v37_381_384_Kto_ubijtsy_Pavel_Kudrjash_Plany_i_varianty">
-                    Кто убийцы? Павел Кудряш. Tolstoy Digital
-                </title>
-                <title type="main">Кто убийцы? Павел Кудряш.</title>
-                <title type="sub" resp="volume_editor">Планы и варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="eff93190-921e-4092-9f3e-95a2d2fb450a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Кто убийцы? Павел Кудряш
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 37
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">37</biblScope>
-                        <biblScope unit="page">381-384</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1908" to="1909"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v37_381_384_Kto_ubijtsy_Pavel_Kudrjash_Plany_i_varianty">
+     Кто убийцы? Павел Кудряш. Tolstoy Digital
+    </title>
+    <title type="main">
+     Кто убийцы? Павел Кудряш.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Планы и варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="eff93190-921e-4092-9f3e-95a2d2fb450a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Кто убийцы? Павел Кудряш
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 37
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       37
+      </biblScope>
+      <biblScope unit="page">
+       381-384
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1908" to="1909"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000009">
     <p id="ce782e56-2b07-4b01-94ce-84291d27be4f">
@@ -124,15 +136,15 @@
     </head>
    </div>
    <div type="section" xml:id="h000009004003">
-    <head rend="title_level2 center">
+    <head n="level1">
      КТО УБИЙЦЫ? ПАВЕЛ КУДРЯШ
     </head>
     <p id="45fff4a6-57dc-401d-bc58-e2ed1a4ddc73" rend="left">
      * № 1 (рук. № 2).
     </p>
-    <p id="098547aa-42cc-4c38-8503-6ba6e0126715" rend="center">
+    <head n="level1" type="draft">
      &lt;УБИЙЦЫ&gt; НЕТ ВИНОВАТЫХ
-    </p>
+    </head>
     <p id="4755f0fa-9156-41e2-8a3f-aa7ec0cc458f" rend="left">
      Они все восемеро уже 2-й месяц сидели в тюрьме и ждали суда и решения. Решение могло быть только одно: насильственная смерть — &lt;удавят за шею веревками&gt;. Преступление их состояло в том, что они были уличены в намерении убить взрывом бомбы считавшегося ими очень дурным и вредным человека, называвшегося «великим князем». Сидели они уже 2-й месяц, свидания между собой не допускалось, не допускалось и свидания с родственниками, не допускалось и общение с другими заключенными, но начальники тюрьмы, их помощники, надзиратели, сторожа, часовые солдаты были люди и притом русские люди, не совсем еще, но только временно одуренные, и потому необходимейшие сведения и не только сведения, но выражения чувств передавались и друг от друга между заключенными, а также и из внешнего мира. Известие, полученное 5 октября из верхнего этажа тюрьмы, спущенное на нитке, было особенно важное. На 22, то есть через две недели, был назначен суд надо всеми тут же в Петербурге.
     </p>
@@ -156,9 +168,9 @@
     <p id="cfb23a86-7689-4a73-9e02-b050a77ec033" rend="left">
      *№ 2 (рук. № 4).
     </p>
-    <p id="21b28216-b0d3-4269-99ff-f17a29e1c449" rend="center">
+    <head n="level2" type="act">
      ДЕЙСТВИЕ І-Е
-    </p>
+    </head>
     <p id="58fb04cc-4d6a-4479-8552-ae75e4dbf7ef" rend="center">
      Действующие лица: Вл. Вас.
      <hi rend="Razradka">
@@ -166,9 +178,9 @@
      </hi>
      , бывший офицер, 30 лет, в летней поддевке и картузе, и Павел в элегантном пальто и шляпе.
     </p>
-    <p id="5936c7af-a4a1-4ffa-aabc-6ad72d415bb0" rend="center">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 1-е
-    </p>
+    </head>
     <p id="d6d20d5f-4cc0-4351-b75d-508481f76082" rend="left">
      Александровский сад. На скамейке сидят
      <hi rend="Razradka">
@@ -307,9 +319,9 @@
     <p id="839a36cd-2d01-4b7c-a94d-c17a6a9529be" rend="left">
      ** № 3 (рук. № 10).
     </p>
-    <p id="8da3ee8f-3e13-44f9-b467-85af2b5ff86c" rend="center">
+    <head n="level3" type="editorial">
      [На л. 1:]
-    </p>
+    </head>
     <p id="e335692a-029d-4226-933f-c65af391bf3c" rend="left">
      1) Судящиеся за покушение на жизнь великого князя сидят ли в одиночках, или могут быть вместе некоторые?
     </p>
@@ -358,9 +370,9 @@
      <pb n="384"/>
      На все вопросы желательно иметь ответы: самые подробные, как обыкновенно делается и могут ли быть исключения.
     </p>
-    <p id="df952aee-7b43-4389-ae4e-3f3f2a13ddb2" rend="center">
+    <head n="level3" type="editorial">
      [На л. 2:]
-    </p>
+    </head>
     <p id="184071fa-0091-4510-8f0e-4edd6ec90a3a" rend="left">
      1) При военном суде допускаются ли адвокаты к подсудимому? Как? Где?
     </p>

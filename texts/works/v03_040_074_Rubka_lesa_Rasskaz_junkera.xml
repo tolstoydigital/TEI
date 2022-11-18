@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v03_040_074_Rubka_lesa_Rasskaz_junkera">
-                    Рубка леса. Рассказ юнкера. Tolstoy Digital
-                </title>
-                <title type="main">Рубка леса.</title>
-                <title type="sub">Рассказ юнкера</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e3493043-3c61-4aff-b181-b29a7f43c1fe">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Рубка леса. Рассказ юнкера
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 3
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">3</biblScope>
-                        <biblScope unit="page">40-74</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1854"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v03_040_074_Rubka_lesa_Rasskaz_junkera">
+     Рубка леса. Рассказ юнкера. Tolstoy Digital
+    </title>
+    <title type="main">
+     Рубка леса.
+    </title>
+    <title type="sub">
+     Рассказ юнкера
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e3493043-3c61-4aff-b181-b29a7f43c1fe">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Рубка леса. Рассказ юнкера
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 3
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       3
+      </biblScope>
+      <biblScope unit="page">
+       40-74
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1854"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000010">
     <p id="3ee963ac-944f-435d-b56a-4815ae27d00a">
@@ -118,7 +130,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000010002">
-    <head rend="center">
+    <head n="level1">
      РУБКА ЛЕСА.
      <lb/>
      РАССКАЗ ЮНКЕРА.
@@ -130,7 +142,7 @@
     </div>
    </div>
    <div type="section" xml:id="h000010002002">
-    <head rend="center">
+    <head n="level2" type="chapter">
      I.
     </head>
     <p id="837847c7-f623-44f9-9bb0-32edf7d7dac9" rend="left">
@@ -222,7 +234,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      II.
     </head>
     <p id="9adc1bab-2090-4076-a567-9eb222a31cc0" rend="left">
@@ -275,7 +287,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      III.
     </head>
     <p id="b3b66ccc-f94e-4536-b9a8-0c7d17fa9da5" rend="left">
@@ -346,7 +358,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IV.
     </head>
     <p id="c6420172-b22b-4a63-81de-d2523db79e0c" rend="left">
@@ -462,7 +474,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002006">
-    <head rend="center">
+    <head n="level2" type="chapter">
      V.
     </head>
     <p id="51a0741b-da52-43e6-b2e0-170b9cc190e6" rend="left">
@@ -551,7 +563,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002007">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VI.
     </head>
     <p id="ef0d2b14-2cee-498f-ae2d-15498ccfb17f" rend="left">
@@ -666,7 +678,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002008">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VII.
     </head>
     <p id="138aa912-0b3d-4757-aeb3-a7b482f6465d" rend="left">
@@ -719,7 +731,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002009">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VIII.
     </head>
     <p id="ac65b79a-392c-438d-a7c7-c97faf03136c" rend="left">
@@ -776,7 +788,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002010">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IX.
     </head>
     <p id="a028522e-52d8-45e5-bdf4-0bf3b1d39ccc" rend="left">
@@ -818,7 +830,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002011">
-    <head rend="center">
+    <head n="level2" type="chapter">
      X.
     </head>
     <p id="1475a16e-46b1-48cc-a402-4e7e39092611" rend="left">
@@ -873,7 +885,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002012">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XI.
     </head>
     <p id="82c0053a-2937-4ed7-b365-6cc206f4805d" rend="left">
@@ -1041,7 +1053,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002013">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XII.
     </head>
     <p id="95eb5629-0ae2-4aaa-a6a8-b5a635010430" rend="left">
@@ -1184,7 +1196,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002014">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XIII.
     </head>
     <p id="3b32415b-5aa2-4329-a54d-c112aa80d9b3" rend="left">

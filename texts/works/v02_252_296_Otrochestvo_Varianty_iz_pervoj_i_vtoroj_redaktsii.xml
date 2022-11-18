@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v02_252_296_Otrochestvo_Varianty_iz_pervoj_i_vtoroj_redaktsii">
-                    [Варианты из первой и второй редакции «Отрочества»]. Tolstoy Digital
-                </title>
-                <title type="main">Отрочество.</title>
-                <title type="sub" resp="volume_editor">Варианты из первой и второй редакции</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e0e30327-df0e-44ae-b367-6ec79168b530">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты из первой и второй редакции «Отрочества»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 2
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">2</biblScope>
-                        <biblScope unit="page">252-296</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1854"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v02_252_296_Otrochestvo_Varianty_iz_pervoj_i_vtoroj_redaktsii">
+     [Варианты из первой и второй редакции «Отрочества»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Отрочество.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты из первой и второй редакции
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e0e30327-df0e-44ae-b367-6ec79168b530">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты из первой и второй редакции «Отрочества»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 2
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       2
+      </biblScope>
+      <biblScope unit="page">
+       252-296
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1854"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012004">
     <p id="8f5e0733-c14c-45b3-b559-60d740b23a65">
@@ -1268,7 +1280,7 @@
      </hi>
      (I ред.).
     </head>
-    <p id="e1f175ab-da15-4b26-af32-d6b7051b129c" rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       Разговоры
      </hi>
@@ -1309,7 +1321,7 @@
       монастырь
      </hi>
      .
-    </p>
+    </head>
     <p id="f341a84b-d364-4ed3-8dfc-829964737d92" rend="left">
      <choice>
       <reg>
@@ -9283,12 +9295,12 @@
      </hi>
      (I ред.).
     </head>
-    <p id="bd1de71e-2990-46c0-8fc9-637b807e35b2" rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       Дробь
      </hi>
      . IV.
-    </p>
+    </head>
     <p id="56cde0a5-73d3-4a2a-9d34-a808d23eec58" rend="left">
      <choice>
       <reg>
@@ -13810,7 +13822,7 @@
      </hi>
      (II ред.).
     </head>
-    <p id="b1332b03-4e4b-4320-b3ae-3de6b3b5febd" rend="center">
+    <head n="level2" type="chapter">
      Глава 10-я
      <hi rend="Razradka">
       &lt;
@@ -13825,7 +13837,7 @@
       &gt; Маша
      </hi>
      .
-    </p>
+    </head>
     <p id="8974a542-90a5-4553-8b89-354c2182b90b" rend="left">
      &lt;Я
      <choice>
@@ -16094,7 +16106,7 @@
      </hi>
      (I ред.).
     </head>
-    <p id="278d945a-546f-414e-aa5b-1baa4a3bcbfd" rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       Странная
       <choice>
@@ -16107,7 +16119,7 @@
       </choice>
      </hi>
      . V.
-    </p>
+    </head>
     <p id="0b101042-3d3d-4a04-9588-3572c06a4fb3" rend="left">
      Не знаю,
      <choice>
@@ -21765,7 +21777,7 @@
      </hi>
      (II ред.).
     </head>
-    <p id="73c574ed-1cde-455e-97cd-72f3c123f794" rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       Новый
       <choice>
@@ -21778,7 +21790,7 @@
       </choice>
      </hi>
      . Глава 7.
-    </p>
+    </head>
     <p id="0210cb9b-6710-48e8-9868-d21e33a98e19" rend="left">
      На другой день
      <choice>
@@ -25872,7 +25884,7 @@
      начать классы. —
     </p>
     <lb/>
-    <p id="0cbd4ec6-602d-4a12-8a29-3d8d783eb927" rend="center">
+    <head n="level2" type="chapter">
      Глава 8.
      <hi rend="Razradka">
       Новый
@@ -25887,7 +25899,7 @@
       жизни
      </hi>
      .
-    </p>
+    </head>
     <p id="789ea160-a72a-4ec3-9ce3-dff030234869" rend="left">
      Весь
      <choice>
@@ -35173,7 +35185,7 @@
      </hi>
      (I ред.).
     </head>
-    <p id="d227a147-4c3b-4c53-a370-9c83e2a36eb6" rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       &lt;Маша&gt;
       <choice>
@@ -35186,7 +35198,7 @@
       </choice>
      </hi>
      .
-    </p>
+    </head>
     <p id="eb9a06dd-d574-4dcf-8f38-5e43aad86146" rend="left">
      Маша горничная была красавица,
      <choice>
@@ -50287,12 +50299,12 @@
      </hi>
      (I ред.).
     </head>
-    <p id="cd27ffb5-ac42-41d7-ae13-adac2c02591e" rend="center">
+    <head n="level2" type="chapter">
      <hi rend="Razradka">
       Начало дружбы
      </hi>
      . XXX.
-    </p>
+    </head>
     <p id="301d84fa-a561-4129-b635-1c30feb53ce2" rend="left">
      <choice>
       <reg>

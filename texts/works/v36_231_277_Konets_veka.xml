@@ -1,108 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v36_231_277_Konets_veka">
-                    Конец века. Tolstoy Digital
-                </title>
-                <title type="main">Конец века</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="758fb830-19b6-49cb-a111-674cbd0d1dca">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Конец века
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 36
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">36</biblScope>
-                        <biblScope unit="page">231-277</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1905"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v36_231_277_Konets_veka">
+     Конец века. Tolstoy Digital
+    </title>
+    <title type="main">
+     Конец века
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="758fb830-19b6-49cb-a111-674cbd0d1dca">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Конец века
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 36
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       36
+      </biblScope>
+      <biblScope unit="page">
+       231-277
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1905"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000014007">
     <p id="60e153cc-2c37-4296-aac7-9ee8e3fd2ee6">
@@ -146,7 +156,7 @@
     </epigraph>
    </div>
    <div type="section" xml:id="h000014007003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      I.
      <lb/>
      КОНЕЦ ВЕКА, УНИЧТОЖЕНИЕ СТАРОГО. ПРИЗНАКИ И ПРИЧИНЫ.
@@ -183,7 +193,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      II.
      <lb/>
      ЗНАЧЕНИЕ ПОБЕДЫ ЯПОНЦЕВ.
@@ -231,7 +241,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      III.
      <lb/>
      СУЩНОСТЬ РЕВОЛЮЦИОННОГО ДВИЖЕНИЯ В РОССИИ.
@@ -283,7 +293,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007006">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IV.
      <lb/>
      ОСНОВНАЯ ПРИЧИНА ПРЕДСТОЯЩЕГО ПЕРЕВОРОТА.
@@ -343,7 +353,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007007">
-    <head rend="center">
+    <head n="level2" type="chapter">
      V.
      <lb/>
      ПОСЛЕДСТВИЯ НЕПРИНЯТИЯ ЗАПОВЕДИ НЕПРОТИВЛЕНИЯ.
@@ -406,7 +416,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007008">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VI.
      <lb/>
      ПЕРВАЯ ВНЕШНЯЯ ПРИЧИНА ПРЕДСТОЯЩЕГО ПЕРЕВОРОТА.
@@ -459,7 +469,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007009">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VII.
      <lb/>
      ВТОРАЯ ВНЕШНЯЯ ПРИЧИНА ПРЕДСТОЯЩЕГО ПЕРЕВОРОТА.
@@ -520,7 +530,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007010">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VIII.
      <lb/>
      КАКОВО БУДЕТ ПОЛОЖЕНИЕ ЛЮДЕЙ, ОТКАЗАВШИХСЯ ОТ ПОВИНОВЕНИЯ?
@@ -617,7 +627,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007011">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IX.
      <lb/>
      КАКАЯ ДЕЯТЕЛЬНОСТЬ ЛЮДЕЙ БУДЕТ СОДЕЙСТВОВАТЬ ПРЕДСТОЯЩЕМУ ПЕРЕВОРОТУ.
@@ -673,7 +683,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007012">
-    <head rend="center">
+    <head n="level2" type="chapter">
      X.
      <lb/>
      УСТРОЙСТВО ОБЩЕСТВА, ОСВОБОДИВШЕГОСЯ ОТ НАСИЛЬНИЧЕСКОГО ПРАВИТЕЛЬСТВА.
@@ -740,7 +750,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007013">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XI.
      <lb/>
      ЧТО СТАНЕТСЯ С ЦИВИЛИЗАЦИЕЙ?
@@ -817,7 +827,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007014">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XII.
      <lb/>
      СВОБОДЫ И СВОБОДА.
@@ -944,7 +954,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000014007015">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ЗАКЛЮЧЕНИЕ.
     </head>
     <p id="18935ee1-4504-4b6e-95d8-1d36f8f136d6" rend="left">

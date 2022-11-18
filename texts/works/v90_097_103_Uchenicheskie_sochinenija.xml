@@ -1,115 +1,125 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v90_097_103_Uchenicheskie_sochinenija" resp="volume_editor">
-                    [Ученические сочинения]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Ученические сочинения</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="1273693c-21b1-4e57-97ac-acf18ccbf26a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Ученические сочинения]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 90
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1958"/>
-                        </imprint>
-                        <biblScope unit="volume">90</biblScope>
-                        <biblScope unit="page">97-103</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1839" to="1841"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v90_097_103_Uchenicheskie_sochinenija">
+     [Ученические сочинения]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Ученические сочинения
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="1273693c-21b1-4e57-97ac-acf18ccbf26a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Ученические сочинения]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 90
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1958"/>
+      </imprint>
+      <biblScope unit="volume">
+       90
+      </biblScope>
+      <biblScope unit="page">
+       97-103
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1839" to="1841"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h001">
     <p id="0803fa90-1fd2-4243-8459-669e34381ccb">
      <pb n="97"/>
     </p>
-    <head class="center">
+    <head n="level1" type="editorial">
      ** [УЧЕНИЧЕСКИЕ СОЧИНЕНИЯ]
     </head>
-    <head class="center">
+    <head n="level2" type="chapter">
      ФОРТУНА И НИЩИЙ
     </head>
     <p id="ba48d9be-ac67-40b7-9bdf-4cd73705ed09" rend="left">
@@ -143,7 +153,7 @@
      </note>
      и червонцы обратились в прах. Фортуна скрылася; а удивленный нищий пошол по прежнему скитаться.
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      СОБАЧЬЯ ДРУЖБА
     </head>
     <p id="f87b8f5b-b925-4a2b-83af-6c4af249384b" rend="left">
@@ -151,7 +161,7 @@
      <pb n="98"/>
      собаки с одного двора не могут одного дня провести без драки? какое сравнение еслиб мы жили в дружбе, ну чтож, ведь это дело, и наши новые друзья стали обниматься; не знают как себя назвать Орест! ты мой Пилат: только в эту минуту из кухни выбросили кость и новые друзья к ней взапуски летят смотри и наш Орест с Пилатом уж грызутся и их розлили водой.
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      ДЕНЬ
     </head>
     <p id="671671ec-cc7e-41ee-9385-ca78f39ebad4" rend="left">
@@ -179,7 +189,7 @@
      </choice>
      предметов; но вспомнил, что меня ждут к обеду, и пошол домой полный приятными ощущениями.
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      ОСЕНЬ
     </head>
     <p id="fc581e00-ad02-4dbd-a6bd-70805e337849" rend="left">
@@ -188,7 +198,7 @@
     <p id="f2f7656a-0103-49fd-8801-7207b25da497" rend="emptyline left">
      <pb n="99"/>
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      ВЕСНА
     </head>
     <p id="5208fdd8-4e0e-4120-925e-899601ccbab5" rend="left">
@@ -210,7 +220,7 @@
      </del>
      по траве. Обратив глаза в право я увидел воду, которая быстро падала с крутой горы. Я бросился к этому ключю и жадно впивал его прохладную и освежительную воду. Я уже возвратился домой, когда солнце было довольно высоко и своим черезмерным жаром приводило в расслабление.
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      НОЧЬ
     </head>
     <p id="58c24597-722b-4bc3-8716-65dcec50a9a6" rend="left">
@@ -223,7 +233,7 @@
     <p id="33501301-1e3e-432d-8602-8c7892bd6366" rend="emptyline left">
      <pb n="100"/>
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      КУЛИКОВОЕ ПОЛЕ
     </head>
     <p id="a45e9c9b-7e50-46eb-834d-367bfd76f42f" rend="left">
@@ -252,7 +262,7 @@
      </name>
      всё был впереди рядов, но в самом жару битвы был тяжело ранен и упал с коня под дерево и лишившись чувств он не видел окончания сей великой битвы.
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      ПОЖАР
     </head>
     <p id="3c5fa5e5-8f85-433d-8a14-92405f811ee1" rend="left">
@@ -274,7 +284,7 @@
      <pb n="101"/>
      супругу или сына: редкая семья оставалась без потери; так когда бог захочет наказать то может в один час сравнять богатейшего с беднейшим.
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      КРЕМЛЬ
     </head>
     <p id="d1f3a437-4980-4ccc-bb46-2b6d964d4b7b" rend="left">
@@ -298,7 +308,7 @@
      </name>
      сделалась величайшим и многолюднейшим городом Европы.
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      ПОМПЕЯ
     </head>
     <p id="68e059fe-6bec-4c08-8029-78ad52675fc8" rend="left">
@@ -321,7 +331,7 @@
      <pb n="102"/>
      отец хотел спасти свое единственное дитя скрывая в своем плаще: но один удар и он падал без чувств держа в своих холодных руках сына одни умирали от огня других засыпало пеплом и лавою иные умирали под развалинами своих домов.
     </p>
-    <head class="center">
+    <head n="level2" type="chapter">
      МАРФА ПОСАДНИЦА
     </head>
     <p id="41020b6c-e641-4694-9b1e-f3da0e10d5a4" rend="left">

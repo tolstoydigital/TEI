@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v33_217_261_Voskresenie_5_ja_redaktsija">
-                    [Воскресение. 5-я редакция]. Tolstoy Digital
-                </title>
-                <title type="main">Воскресение.</title>
-                <title type="sub" resp="volume_editor">5-я редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="573d9513-1f42-48bd-9c8d-2de84b091e88">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Воскресение. 5-я редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 33
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">33</biblScope>
-                        <biblScope unit="page">217-261</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1899"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v33_217_261_Voskresenie_5_ja_redaktsija">
+     [Воскресение. 5-я редакция]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Воскресение.
+    </title>
+    <title resp="volume_editor" type="sub">
+     5-я редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="573d9513-1f42-48bd-9c8d-2de84b091e88">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Воскресение. 5-я редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 33
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       33
+      </biblScope>
+      <biblScope unit="page">
+       217-261
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1899"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_4">
     <p id="811dbaf7-cd1d-40e7-9bdb-4cd6454440dc">
@@ -1118,9 +1130,9 @@
      <h4>
       * № 95 (кор. № 27).
      </h4>
-     <p id="8fda9d5d-ae0e-49af-8c5c-53148d162cf2" rend="center noindent">
+     <head n="level2" type="chapter">
       XX.
-     </p>
+     </head>
      <p id="809b0bf1-0636-4530-a620-b0545f09de8b" rend="left noindent">
       —
       <choice>
@@ -12209,9 +12221,9 @@
      <h4>
       ** № 106 (кор. № 21).
      </h4>
-     <p id="9ae6d457-90ca-42e4-974d-213469acb887" rend="center noindent">
+     <head n="level2" type="chapter">
       LXXXII.
-     </p>
+     </head>
      <p id="f87c0148-d2bf-4807-a2a1-839986c3ea15" rend="left">
       Первое чувство Нехлюдова, когда
       <choice>
@@ -31916,9 +31928,9 @@
      <h4>
       * № 110 (кор. № 27).
      </h4>
-     <p id="efa9cc64-f6df-4f2b-b73d-254a42688b91" rend="center noindent">
+     <head n="level2" type="chapter">
       ХСVІІІ.
-     </p>
+     </head>
      <p id="f0df83e7-b5f5-4102-81b4-c6e46cf20616" rend="left">
       Было 5
       <choice>
@@ -39255,7 +39267,7 @@
      <h4>
       ** № 113 (кор. № 27)
      </h4>
-     <p id="34dc3a23-04da-4383-a848-291be54bfabb" rend="center noindent">
+     <head n="level2" type="chapter">
       <choice original_editorial_correction="Слѣд[ующая]">
        <sic>
         Слѣд
@@ -39280,7 +39292,7 @@
        </corr>
       </choice>
       .
-     </p>
+     </head>
      <p id="dd69ee8c-f493-439b-9dc6-3c9873225d55" rend="left">
       Начался
       <choice>
@@ -48795,7 +48807,7 @@
      <h4>
       * № 116 (кор. № 27).
      </h4>
-     <p id="f76b4a11-0d69-4d69-9557-afb7220427a5" rend="center noindent">
+     <head n="level2" type="chapter">
       <choice>
        <reg>
         Следующая
@@ -48805,7 +48817,7 @@
        </orig>
       </choice>
       глава.
-     </p>
+     </head>
      <p id="61f943b9-b812-4060-ba86-36d361cc0215" rend="left noindent">
       <choice>
        <reg>
@@ -51779,7 +51791,7 @@
      <h4>
       ** № 118 (кор. № 27).
      </h4>
-     <p id="6898e30d-8578-4b7e-b280-425e59e54f78" rend="center noindent">
+     <head n="level2" type="chapter">
       <choice>
        <reg>
         Эпилог
@@ -51789,7 +51801,7 @@
        </orig>
       </choice>
       .
-     </p>
+     </head>
      <p id="051fdf9d-31b4-45d5-baeb-a80834c95b4c" rend="left">
       <choice>
        <reg>

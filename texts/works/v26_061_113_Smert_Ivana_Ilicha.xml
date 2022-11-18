@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_061_113_Smert_Ivana_Ilicha">
-                    Смерть Ивана Ильича. Tolstoy Digital
-                </title>
-                <title type="main">Смерть Ивана Ильича</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="3fd5d48f-7fa5-4ec9-8d86-dd5e342c265e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Смерть Ивана Ильича
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">61-113</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1886"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v26_061_113_Smert_Ivana_Ilicha">
+     Смерть Ивана Ильича. Tolstoy Digital
+    </title>
+    <title type="main">
+     Смерть Ивана Ильича
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="3fd5d48f-7fa5-4ec9-8d86-dd5e342c265e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Смерть Ивана Ильича
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       61-113
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1886"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000010">
     <p id="242b3e64-58df-4a59-a425-fb3b99ca01e5">
@@ -117,12 +127,12 @@
     </head>
    </div>
    <div type="section" xml:id="h000010003">
-    <head rend="center">
+    <head n="level1">
      СМЕРТЬ ИВАНА ИЛЬИЧА.
     </head>
    </div>
    <div type="section" xml:id="h000010003001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      I.
     </head>
     <p id="bc887987-b904-4bbf-9786-d98fd55554c7" rend="left">
@@ -308,7 +318,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003002">
-    <head rend="center">
+    <head n="level2" type="chapter">
      II.
     </head>
     <p id="79a16841-ee3e-4ba6-abed-5ce762ea034a" rend="left">
@@ -466,7 +476,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      III.
     </head>
     <p id="ab5d202b-2ba9-446b-8d46-cbdfd0c7cfeb" rend="left">
@@ -567,7 +577,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IV.
     </head>
     <p id="977ac307-2af8-4b49-b74a-0cd81c20feb4" rend="left">
@@ -678,7 +688,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      V.
     </head>
     <p id="a34fb7e0-93bd-4e58-baec-42cf5d18d71a" rend="left">
@@ -795,7 +805,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003006">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VI.
     </head>
     <p id="eace6aba-e9ec-4120-94d9-7d28946e7969" rend="left">
@@ -904,7 +914,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003007">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VII.
     </head>
     <p id="cddfdca8-d502-497a-a999-0ed8e2d4ed4e" rend="left">
@@ -1023,7 +1033,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003008">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VIII.
     </head>
     <p id="becb3c3b-4f1e-4e05-9943-ff0be18ad4b4" rend="left">
@@ -1241,7 +1251,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003009">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IX.
     </head>
     <p id="eefaa2ca-0885-4d4c-9b4b-70330af156b3" rend="left">
@@ -1324,7 +1334,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003010">
-    <head rend="center">
+    <head n="level2" type="chapter">
      X.
     </head>
     <p id="287219ca-a7f5-4705-9e07-d5112d670036" rend="left">
@@ -1348,7 +1358,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003011">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XI.
     </head>
     <p id="3df8e91a-83a2-4cff-9981-7db6741fdf90" rend="left">
@@ -1446,7 +1456,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003012">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XII.
     </head>
     <p id="a9d9c3ad-2f59-4d71-b0fe-39662dd98ac6" rend="left">

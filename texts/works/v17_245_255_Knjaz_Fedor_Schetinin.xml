@@ -1,112 +1,122 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_245_255_Knjaz_Fedor_Schetinin" resp="volume_editor">
-                    [Князь Федор Щетинин]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Князь Федор Щетинин</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="55388b04-9e33-4640-ad87-44d5042bf29a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Князь Федор Щетинин]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">245-255</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1877" to="1898"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_245_255_Knjaz_Fedor_Schetinin">
+     [Князь Федор Щетинин]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Князь Федор Щетинин
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="55388b04-9e33-4640-ad87-44d5042bf29a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Князь Федор Щетинин]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       245-255
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1877" to="1898"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011007">
     <p id="b7d5f55a-8db2-45d5-a5ef-664c847803a4">
      <pb n="245"/>
     </p>
-    <head rend="center">
+    <head n="level1" type="editorial">
      * [КНЯЗЬ ФЕДОР ЩЕТИНИН.]
     </head>
     <div>
@@ -116,7 +126,7 @@
     </div>
    </div>
    <div type="section" xml:id="h000011007002">
-    <head rend="left">
+    <head n="level2" type="editorial">
      № 1.
     </head>
     <p id="259ddba3-f592-4cc9-951b-4bd9dfbff56f" rend="left">
@@ -3894,10 +3904,10 @@
     </p>
    </div>
    <div type="section" xml:id="h000011007003">
-    <head rend="left">
+    <head n="level2" type="editorial">
      № 2.
     </head>
-    <p id="53825c67-3d68-4831-a497-3ab46c01ec6c" rend="center Razradka">
+    <head n="level1" type="editorial">
      <hi rend="Razradka">
       Князь
       <choice>
@@ -3918,13 +3928,13 @@
       </choice>
       .
      </hi>
-    </p>
-    <p id="ae08c19e-f7b5-413e-a717-8e03ceab3179" rend="center">
+    </head>
+    <head n="level2" type="part">
      1 часть.
-    </p>
-    <p id="5bf0bf69-3354-4cd1-b569-e213e8a12b07" rend="center">
+    </head>
+    <head n="level2" type="chapter">
      I.
-    </p>
+    </head>
     <p id="6b589747-a638-445f-8e55-b06cea02e4eb" rend="left">
      Уже прошло 2 года
      <choice>
@@ -5161,9 +5171,9 @@
      </choice>
      и военной самовластностью.
     </p>
-    <p id="67d4ae5a-b4c4-43f0-967c-35df04041766" rend="center">
+    <head n="level2" type="chapter">
      II.
-    </p>
+    </head>
     <p id="58c4fcd9-503f-4434-bef6-3d99bccca484" rend="left">
      Было время уборки винограда. Солнце только что ало поднялось
      <choice>
@@ -7051,7 +7061,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011007004">
-    <head rend="left">
+    <head n="level2" type="editorial">
      № 3.
     </head>
     <p id="8fbab105-e7d9-49f2-9f2a-56dfbb403b37" rend="left">
@@ -10888,7 +10898,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011007005">
-    <head rend="left">
+    <head n="level2" type="editorial">
      № 4.
     </head>
     <p id="6fdb116e-c708-4c16-b96a-a21aad77b055" rend="left">
@@ -12662,7 +12672,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000011007006">
-    <head rend="left">
+    <head n="level2" type="editorial">
      № 5.
     </head>
     <p id="99dcbe7c-be7d-4fd3-b589-ed75430f934b" rend="left">

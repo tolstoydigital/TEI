@@ -1,117 +1,129 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_505_528_Smert_Ivana_Ilicha_Varianty">
-                    [Варианты к «Смерти Ивана Ильича»]. Tolstoy Digital
-                </title>
-                <title type="main">Смерть Ивана Ильича.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="0e709a99-1ecc-484b-a789-e1601de1154c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты к «Смерти Ивана Ильича»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">505-528</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1886"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v26_505_528_Smert_Ivana_Ilicha_Varianty">
+     [Варианты к «Смерти Ивана Ильича»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Смерть Ивана Ильича.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="0e709a99-1ecc-484b-a789-e1601de1154c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты к «Смерти Ивана Ильича»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       505-528
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1886"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013008">
     <p id="0d6ab32a-06aa-4672-9db3-9f7b7e5e35b3">
      <pb n="505"/>
     </p>
-    <head rend="center">
+    <head n="level1" type="editorial">
      * [ВАРИАНТЫ К «СМЕРТИ ИВАНА ИЛЬИЧА».]
     </head>
    </div>
    <div type="section" xml:id="h000013008001">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 1.
     </head>
     <p id="30721701-121c-493a-9322-4afbf34a889b" rend="left">
@@ -19321,7 +19333,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013008002">
-    <head rend="left">
+    <head n="level2" type="editorial">
      № 2.
     </head>
     <p id="827db656-964f-44e4-a4c1-96674d33eedc" rend="left">
@@ -19507,12 +19519,12 @@
      </choice>
      на жизнь.
     </p>
-    <p id="f410b940-a89b-43a5-a34a-4412e3584603" rend="left">
+    <head n="level2" type="editorial">
      <hi rend="italic">
       К главе 1
      </hi>
      .
-    </p>
+    </head>
     <p id="49eec344-5e3d-4757-b7da-15f64f0f17fc" rend="left">
      И. П.
      <choice>
@@ -21253,14 +21265,14 @@
     <p id="d0fceffb-c736-4d79-b75c-ffe1930d76a5" rend="left"/>
    </div>
    <div type="section" xml:id="h000013008003">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 4.
     </head>
-    <p id="6d1e3f97-45b3-409b-9bdf-1ac021cc48d8" rend="left">
+    <head n="level2" type="editorial">
      <hi rend="italic">
       К главе II
      </hi>
-    </p>
+    </head>
     <p id="88feed38-c71a-4013-8c43-783f123f8d26" rend="left">
      Но
      <choice>
@@ -21556,7 +21568,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013008004">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 5.
     </head>
     <p id="e9c8c52e-5c50-47a3-8756-94e8cc59cc76" rend="left">
@@ -24086,14 +24098,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000013008005">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 6.
     </head>
-    <p id="24085b1a-c711-41eb-b3c0-7b68eb7a901c" rend="left">
+    <head n="level2" type="editorial">
      <hi rend="italic">
       К главе IV.
      </hi>
-    </p>
+    </head>
     <p id="89c542d8-0a22-4402-ab9d-130f56f06abc" rend="left">
      Только два
      <choice>
@@ -25366,15 +25378,15 @@
     </p>
    </div>
    <div type="section" xml:id="h000013008006">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 7.
     </head>
-    <p id="7c920d3c-bbf5-4a38-8467-bb147e9e65bc" rend="left">
+    <head n="level2" type="editorial">
      <hi rend="italic">
       К главе IV
      </hi>
      .
-    </p>
+    </head>
     <p id="898642d0-5ef5-4165-9a6d-0d4229588c86" rend="left">
      Только три
      <choice>
@@ -26776,14 +26788,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000013008007">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 8.
     </head>
-    <p id="8ed0ea39-28f1-40a1-b0d3-df363b74e886" rend="left">
+    <head n="level2" type="editorial">
      <hi rend="italic">
       К главе IV.
      </hi>
-    </p>
+    </head>
     <p id="b26e8785-1e24-4d3c-946d-d21d66f54077" rend="left">
      Теперь же
      <ref target="#note190">
@@ -27611,14 +27623,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000013008008">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 9.
     </head>
-    <p id="6c6d5b20-6463-4072-ad80-c9104090bde3" rend="left">
+    <head n="level2" type="editorial">
      <hi rend="italic">
       К главе IV.
      </hi>
-    </p>
+    </head>
     <p id="e22673fd-5f9a-4a77-a566-06d856486c72" rend="left">
      <choice>
       <reg>
@@ -28159,14 +28171,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000013008009">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 10.
     </head>
-    <p id="d949ae48-1003-45bd-8b51-e4721c4dbd9d" rend="left">
+    <head n="level2" type="editorial">
      <hi rend="italic">
       К главе IV.
      </hi>
-    </p>
+    </head>
     <p id="13e3af57-791d-4604-b0d2-e05424897e45" rend="left">
      И странное, ужасное
      <choice>
@@ -30938,14 +30950,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000013008010">
-    <head rend="left">
+    <head n="level2" type="editorial">
      *№ 11.
     </head>
-    <p id="1b0ba721-4154-44e0-8040-6e87b1d600f4" rend="left">
+    <head n="level2" type="editorial">
      <hi rend="italic">
       К главе VIII.
      </hi>
-    </p>
+    </head>
     <p id="0ab04ab7-a636-405e-8002-b66a85b325f7" rend="left">
      <choice>
       <reg>

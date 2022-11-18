@@ -1,113 +1,123 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v23_304_465_V_chem_moja_vera">
-                    В чем моя вера?. Tolstoy Digital
-                </title>
-                <title type="main">В чем моя вера?</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c77c3fb8-5abe-4833-88be-89d1da86dffc">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            В чем моя вера?
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 23
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">23</biblScope>
-                        <biblScope unit="page">304-465</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1884"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v23_304_465_V_chem_moja_vera">
+     В чем моя вера?. Tolstoy Digital
+    </title>
+    <title type="main">
+     В чем моя вера?
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c77c3fb8-5abe-4833-88be-89d1da86dffc">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       В чем моя вера?
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 23
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       23
+      </biblScope>
+      <biblScope unit="page">
+       304-465
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1884"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000008004">
     <p id="73a8df56-da87-49de-a9a4-0db593d82286">
      <pb n="304"/>
     </p>
-    <head rend="center">
+    <head n="level1">
      В ЧЕМ МОЯ ВЕРА?
     </head>
    </div>
@@ -160,7 +170,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004002">
-    <head rend="center">
+    <head n="level2" type="chapter">
      I
     </head>
     <p id="372f2bdc-e7c2-4aa9-8caa-fd20d8c0d0f9" rend="left">
@@ -247,7 +257,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      II
     </head>
     <p id="732b8e42-e291-4f4f-8fd8-2711e947a9b6" rend="left">
@@ -310,7 +320,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      III
     </head>
     <p id="b9f41a8c-8dad-4aec-9775-212746e8ebbb" rend="left">
@@ -595,7 +605,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IV
     </head>
     <p id="d921cf79-293b-4241-888a-cb1a35d7c873" rend="left">
@@ -707,7 +717,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004006">
-    <head rend="center">
+    <head n="level2" type="chapter">
      V
     </head>
     <p id="50091cc2-9380-4bd8-a7f6-a76b54696e28" rend="left">
@@ -1015,7 +1025,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004007">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VI
     </head>
     <p id="251ca544-e8cf-432c-b2d7-c941a1a49e1a" rend="left">
@@ -1623,7 +1633,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004008">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VII
     </head>
     <p id="fef7b847-4763-473a-ab33-c63aa1cd668b" rend="left">
@@ -1878,7 +1888,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004009">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VIII
     </head>
     <p id="a7cb0995-62a6-4f72-bf3e-b26c65a4bd6a" rend="left">
@@ -2253,7 +2263,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004010">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IX
     </head>
     <p id="96e9bc60-0966-4e39-a84a-7a86bcdb56c1" rend="left">
@@ -2797,7 +2807,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004012">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XI
     </head>
     <p id="1a83ba3f-d451-4d78-9e30-767bfdb8a03a" rend="left">
@@ -3246,7 +3256,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008004013">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XII
     </head>
     <p id="898e7794-e65d-45af-a4de-c8a895986f0c" rend="left">

@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v38_306_310_Doklad_prigotovlennyj_dlja_kongressa_mira_v_Stokgolme_Varianty" resp="volume_editor">
-                    Варианты «Доклада, приготовленного для конгресса мира в Стокгольме». Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Доклад, приготовленный для конгресса мира в Стокгольме.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="37905018-ebd6-4617-ba10-47bb7694056f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Варианты «Доклада, приготовленного для конгресса мира в Стокгольме»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 38
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">38</biblScope>
-                        <biblScope unit="page">306-310</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1909"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v38_306_310_Doklad_prigotovlennyj_dlja_kongressa_mira_v_Stokgolme_Varianty">
+     Варианты «Доклада, приготовленного для конгресса мира в Стокгольме». Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Доклад, приготовленный для конгресса мира в Стокгольме.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="37905018-ebd6-4617-ba10-47bb7694056f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Варианты «Доклада, приготовленного для конгресса мира в Стокгольме»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 38
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       38
+      </biblScope>
+      <biblScope unit="page">
+       306-310
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1909"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013023">
     <p id="011fd52f-084c-414c-99d9-988748c03ee8">
@@ -114,7 +126,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000013023001">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 1.
     </head>
     <p id="10350843-905f-4eaf-9307-a9af3d2612fb" rend="left">
@@ -682,7 +694,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023002">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 2.
     </head>
     <p id="ed3a0543-f68c-4d9e-bc30-0bc1e358ad16" rend="left">
@@ -868,7 +880,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023003">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 3.
     </head>
     <p id="6ab6a3b3-8fea-4700-a516-e6144d138fac" rend="left">
@@ -1142,7 +1154,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023004">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 4.
     </head>
     <p id="d398089e-3fb0-46d8-a6a2-caaef9c2d0c6" rend="left">
@@ -2366,7 +2378,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023005">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 5.
     </head>
     <p id="b692ebde-0492-4652-b52f-9affdd867487" rend="left">
@@ -2448,7 +2460,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023006">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 6.
     </head>
     <p id="bd43eff0-6e98-4f1e-9ed4-86a63850cb66" rend="left">
@@ -2930,7 +2942,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023007">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 7.
     </head>
     <p id="463f5e50-173a-4399-a1ea-23ca211804ff" rend="left">
@@ -3009,7 +3021,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023008">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 8.
     </head>
     <p id="f50fa8c5-7d66-4769-8038-36c90d4b1dd8" rend="left">
@@ -3152,7 +3164,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023009">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 9.
     </head>
     <p id="e2e3c4ca-8f86-48f4-955a-fa1a2d6605d6" rend="left">
@@ -4511,7 +4523,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023010">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 10.
     </head>
     <p id="47429fd4-2646-42c9-ae7b-b1ca1bffa77f" rend="left">
@@ -5298,7 +5310,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000013023011">
-    <head rend="left">
+    <head n="level2" type="editorial">
      * № 11.
     </head>
     <p id="6b5d57c4-be7a-4d55-8f8a-70f216c436f2" rend="left">

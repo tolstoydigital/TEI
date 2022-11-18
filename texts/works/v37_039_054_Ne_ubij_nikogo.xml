@@ -1,118 +1,128 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v37_039_054_Ne_ubij_nikogo">
-                    Не убий никого. Tolstoy Digital
-                </title>
-                <title type="main">Не убий никого</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="53eedcb4-8efd-4308-838f-7d19c11e5051">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Не убий никого
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 37
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">37</biblScope>
-                        <biblScope unit="page">39-54</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1907"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v37_039_054_Ne_ubij_nikogo">
+     Не убий никого. Tolstoy Digital
+    </title>
+    <title type="main">
+     Не убий никого
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="53eedcb4-8efd-4308-838f-7d19c11e5051">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Не убий никого
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 37
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       37
+      </biblScope>
+      <biblScope unit="page">
+       39-54
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1907"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000009002003">
     <p id="b06bc6f4-dacb-4d28-bfce-5ac2670b33ae">
      <pb n="39"/>
     </p>
-    <head rend="title_level2 center">
+    <head n="level1">
      НЕ УБИЙ НИКОГО
     </head>
    </div>
    <div type="section" xml:id="h000009002003001">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      I
     </head>
     <p id="4353a16f-30d6-4ee0-94fe-1b841d2dcb10" rend="left">
@@ -150,7 +160,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003002">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      II
     </head>
     <p id="1b31b096-38de-452d-aab4-7c2310097e2b" rend="left">
@@ -177,7 +187,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003003">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      III
     </head>
     <p id="e7e4a829-9481-484c-80bb-017e16b7dc21" rend="left">
@@ -193,7 +203,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003004">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      IV
     </head>
     <p id="b06539cd-1f27-4fc4-bcfc-baf2ef5ef2fd" rend="left">
@@ -212,7 +222,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003005">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      V
     </head>
     <p id="afb08aaa-751d-491f-b03c-10bb3939a179" rend="left">
@@ -228,7 +238,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003006">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      VI
     </head>
     <p id="555c3bd5-dcb2-4cdc-a520-80ef09e76189" rend="left">
@@ -244,7 +254,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003007">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      VII
     </head>
     <p id="cd6df311-50b3-482c-96b6-efff4b5fab74" rend="left">
@@ -261,7 +271,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003008">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      VIII
     </head>
     <p id="c2486aad-9588-4436-a237-bb8302dba6ad" rend="left">
@@ -294,7 +304,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003009">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      IX
     </head>
     <p id="f1b22a49-8a43-40f2-8f04-412b37cc6f25" rend="left">
@@ -348,7 +358,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003010">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      X
     </head>
     <p id="6eaca519-1154-4102-bb65-8d6b0c3ba86f" rend="left">
@@ -373,7 +383,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003011">
-    <head rend="title_level3 center">
+    <head n="level2" type="chapter">
      XI
     </head>
     <p id="36e9d64b-63cd-4796-8d04-4ee9a77f4096" rend="left">

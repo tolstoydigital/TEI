@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v27_007_078_Krejtserova_sonata">
-                    Крейцерова соната. Tolstoy Digital
-                </title>
-                <title type="main">Крейцерова соната</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="229c26ca-1f70-4c14-a789-7b05e89d643d">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Крейцерова соната
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 27
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">27</biblScope>
-                        <biblScope unit="page">7-78</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1887" to="1889"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v27_007_078_Krejtserova_sonata">
+     Крейцерова соната. Tolstoy Digital
+    </title>
+    <title type="main">
+     Крейцерова соната
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="229c26ca-1f70-4c14-a789-7b05e89d643d">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Крейцерова соната
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 27
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       27
+      </biblScope>
+      <biblScope unit="page">
+       7-78
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1887" to="1889"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="433890b5-bac6-48c4-a1bc-94b25354ff29">
@@ -113,7 +123,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000012001">
-    <head rend="center">
+    <head n="level1">
      <hi rend="strong">
       **** КРЕЙЦЕРОВА СОНАТА
      </hi>
@@ -163,7 +173,7 @@
     </div>
    </div>
    <div type="section" xml:id="h000012001002">
-    <head rend="center">
+    <head n="level2" type="chapter">
      I.
     </head>
     <p id="bc41a059-19db-4172-b789-e2dc6416c17a" rend="left">
@@ -332,7 +342,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      II.
     </head>
     <p id="b631294f-5a96-4a1b-b1c6-961570e08fed" rend="left">
@@ -515,7 +525,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      III.
     </head>
     <p id="21612897-cffb-4561-a4f7-a2b4beb1b514" rend="left">
@@ -553,7 +563,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IV.
     </head>
     <p id="32bc4f27-9bf6-43eb-b820-5742867be2bf" rend="left">
@@ -583,7 +593,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001006">
-    <head rend="center">
+    <head n="level2" type="chapter">
      V.
     </head>
     <p id="ef45d11c-5326-49ba-a99c-b33b417ceca2" rend="left">
@@ -630,7 +640,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001007">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VI.
     </head>
     <p id="39951254-f482-4418-a384-c2d891e27117" rend="left">
@@ -650,7 +660,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001008">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VII.
     </head>
     <p id="b23ddf1b-a6b6-47cc-be7b-df018d2025de" rend="left">
@@ -667,7 +677,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001009">
-    <head rend="center">
+    <head n="level2" type="chapter">
      VIII.
     </head>
     <p id="3a8fdfe5-cdc7-41d7-9697-870eb76c17fe" rend="left">
@@ -683,7 +693,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001010">
-    <head rend="center">
+    <head n="level2" type="chapter">
      IX.
     </head>
     <p id="d2c02a31-c9dc-46a3-a569-d8b177742549" rend="left">
@@ -713,7 +723,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001011">
-    <head rend="center">
+    <head n="level2" type="chapter">
      X.
     </head>
     <p id="a8e34d29-0177-432a-abda-be15236f3460" rend="left">
@@ -726,7 +736,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001012">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XI.
     </head>
     <p id="23df86e9-1788-40b1-946f-9a1b3ab3b7fe" rend="left">
@@ -799,7 +809,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001013">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XII.
     </head>
     <p id="1e71eb54-39e8-4a8a-a675-0e89726b7c80" rend="left">
@@ -824,7 +834,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001014">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XIII.
     </head>
     <p id="156a7cb8-e8bb-4c82-8798-abb2357ba621" rend="left">
@@ -864,7 +874,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001015">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XIV.
     </head>
     <p id="9f311add-a504-4b10-9179-51e9869995f2" rend="left">
@@ -913,7 +923,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001016">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XV.
     </head>
     <p id="386d4765-f095-4869-968c-830327c18803" rend="left">
@@ -956,7 +966,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001017">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XVI.
     </head>
     <p id="cd2b8738-e009-4511-b24e-b1c5d8defdee" rend="left">
@@ -991,7 +1001,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001018">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XVII.
     </head>
     <p id="335e19cc-329b-4099-a731-5b5808d81b1e" rend="left">
@@ -1037,7 +1047,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001019">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XVIII.
     </head>
     <p id="16224241-50d6-4286-ae26-9405b82d1da9" rend="left">
@@ -1063,7 +1073,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001020">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XIX.
     </head>
     <p id="d0334378-c9c8-417f-a315-9456821d6b59" rend="left">
@@ -1109,7 +1119,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001021">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XX.
     </head>
     <p id="2a0f875f-1f63-47db-879f-b7b120bb3fa3" rend="left">
@@ -1161,7 +1171,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001022">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXI.
     </head>
     <p id="dff0cf0c-09f2-456c-8edd-83cad6a48d5a" rend="left">
@@ -1218,7 +1228,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001023">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXII.
     </head>
     <p id="72ee92ab-f821-403f-a245-703a7f75be68" rend="left">
@@ -1307,7 +1317,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001024">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXIII.
     </head>
     <p id="bf306e08-f5b6-47d2-9128-e05d811191d7" rend="left">
@@ -1384,7 +1394,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001025">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXIV.
     </head>
     <p id="eb84c306-afbb-4636-8444-ea822dd649a2" rend="left">
@@ -1409,7 +1419,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001026">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXV.
     </head>
     <p id="451c11e5-22e0-4fec-b8ca-41b967955f3c" rend="left">
@@ -1435,7 +1445,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001027">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXVI.
     </head>
     <p id="694208f3-6712-4f92-8a1b-70b558a2a8c6" rend="left">
@@ -1490,7 +1500,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001028">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXVII.
     </head>
     <p id="cca6e7a7-6e87-46d2-a855-1e9f2d32faa1" rend="left">
@@ -1599,7 +1609,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001029">
-    <head rend="center">
+    <head n="level2" type="chapter">
      XXVIII.
     </head>
     <p id="ea9ea9c2-322a-4c76-9e9a-623b8207f6cb" rend="left">

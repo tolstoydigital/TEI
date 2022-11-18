@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v05_067_143_Semejnoe_schastie">
-                    Семейное счастье. Tolstoy Digital
-                </title>
-                <title type="main">Семейное счастье</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="2843c4eb-0ca3-4d09-b897-043979ad3489">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Семейное счастье
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 5
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">5</biblScope>
-                        <biblScope unit="page">67-143</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1858" to="1859"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_067_143_Semejnoe_schastie">
+     Семейное счастье. Tolstoy Digital
+    </title>
+    <title type="main">
+     Семейное счастье
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="2843c4eb-0ca3-4d09-b897-043979ad3489">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Семейное счастье
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       67-143
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1858" to="1859"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref6">
     <p id="8fbfa008-5fe6-48c3-a971-b506001577ff">
@@ -110,11 +120,11 @@
      СЕМЕЙНОЕ СЧАСТИЕ.
     </head>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="part">
       ЧАСТЬ ПЕРВАЯ.
      </head>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        I.
       </head>
       <p id="cbd8a498-6b16-4b59-ae44-6daac0c82cda" rend="left">
@@ -303,7 +313,7 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        II.
       </head>
       <p id="2c2c0374-6242-4b46-8fd7-fdf6c5ec8635" rend="left">
@@ -487,7 +497,7 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        III.
       </head>
       <p id="aec42ec8-c109-4615-8caa-f43d27e6ccc6" rend="left">
@@ -732,7 +742,7 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        IV.
       </head>
       <p id="6822b062-a2e4-46d5-acbd-f5f6d6db1a65" rend="left">
@@ -884,7 +894,7 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        V.
       </head>
       <p id="f35143bd-7d08-4c10-86e6-9b426abec0be" rend="left">
@@ -1074,11 +1084,11 @@
      </div>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="part">
       ЧАСТЬ ВТОРАЯ.
      </head>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        VI.
       </head>
       <p id="5461c69a-c4d1-4df9-8b30-3eb576bcf012" rend="left">
@@ -1326,7 +1336,7 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        VII.
       </head>
       <p id="5c0bc6b9-ada1-487a-8c99-8815061f908e" rend="left">
@@ -1589,7 +1599,7 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        VIII.
       </head>
       <p id="8977bc0b-e15c-47e1-88f2-4cda43cf0038" rend="left">
@@ -1719,7 +1729,7 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 center">
+      <head n="level2" type="chapter">
        IX.
       </head>
       <p id="3ba2dc6b-547f-4474-9a2e-944edccb87f7" rend="left">
