@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v90_109_110_Zametki_k_romanu_o_russkih_bogatyrjah" resp="volume_editor">
-                    [Заметки к роману о русских богатырях]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Заметки к роману о русских богатырях</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d1852e28-0e91-4cdf-b9c3-51530189d453">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Заметки к роману о русских богатырях]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 90
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1958"/>
-                        </imprint>
-                        <biblScope unit="volume">90</biblScope>
-                        <biblScope unit="page">109-110</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1870"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v90_109_110_Zametki_k_romanu_o_russkih_bogatyrjah">
+     [Заметки к роману о русских богатырях]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Заметки к роману о русских богатырях
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d1852e28-0e91-4cdf-b9c3-51530189d453">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Заметки к роману о русских богатырях]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 90
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1958"/>
+      </imprint>
+      <biblScope unit="volume">
+       90
+      </biblScope>
+      <biblScope unit="page">
+       109-110
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1870"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h001">
     <p id="fda28fda-34f9-466e-a382-c38187978750">
@@ -198,8 +208,11 @@
      .
      <ref target="#note22">
       22
-     </ref><note index="false" resp="volume_editor" xml:id="note22">
-      <del>Лебедь белая.</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note22">
+      <del>
+       Лебедь белая.
+      </del>
      </note>
      Богачка, двоемужница заманивает его, он убивает ее
      <choice original_editorial_correction="нрав[ственно]">
@@ -225,14 +238,20 @@
      .
      <ref target="#note23">
       23
-     </ref><note index="false" resp="volume_editor" xml:id="note23">
-      <del>философия</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note23">
+      <del>
+       философия
+      </del>
      </note>
      Жалко убивать,
      <ref target="#note24">
       24
-     </ref><note index="false" resp="volume_editor" xml:id="note24">
-      <del>она его дочь</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note24">
+      <del>
+       она его дочь
+      </del>
      </note>
      <choice original_editorial_correction="к[оторый]">
       <sic>
@@ -315,8 +334,19 @@
      одолевает, он
      <ref target="#note25">
       25
-     </ref><note index="false" resp="volume_editor" xml:id="note25">
-      <del><choice original_editorial_correction="убива[ет]"><sic>убива</sic><corr>убивает</corr></choice>.</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note25">
+      <del>
+       <choice original_editorial_correction="убива[ет]">
+        <sic>
+         убива
+        </sic>
+        <corr>
+         убивает
+        </corr>
+       </choice>
+       .
+      </del>
      </note>
      смеется и убивает его. Известие получает от Митиньки, т. е. от того, кто дал ему
      <choice original_editorial_correction="образ[ование]">
@@ -596,8 +626,11 @@
      . И с ней
      <ref target="#note26">
       26
-     </ref><note index="false" resp="volume_editor" xml:id="note26">
-      <del>уединяется и излечивает ее.</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note26">
+      <del>
+       уединяется и излечивает ее.
+      </del>
      </note>
     </p>
     <p id="b35b5d30-a142-458a-b9d4-a16d4d11f0ac" rend="left">
@@ -732,8 +765,11 @@
     <p id="9515bda7-6e06-4f56-a611-119298157388" rend="left">
      <ref target="#note27">
       27
-     </ref><note index="false" resp="volume_editor" xml:id="note27">
-      <del>Богатство</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note27">
+      <del>
+       Богатство
+      </del>
      </note>
      Щегольство, соблазн. Старый Бермятин убивает жену. Борьба с
      <choice original_editorial_correction="Дюк[ом]">

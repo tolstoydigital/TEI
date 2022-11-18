@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v90_095_096_Rasskazy_dedushki">
-                    Рассказы дедушки. Tolstoy Digital
-                </title>
-                <title type="main">Рассказы дедушки</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d9a299a2-7d2b-4ad6-833a-3d36c5a47f22">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Рассказы дедушки
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 90
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1958"/>
-                        </imprint>
-                        <biblScope unit="volume">90</biblScope>
-                        <biblScope unit="page">95-96</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1837" to="1838"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v90_095_096_Rasskazy_dedushki">
+     Рассказы дедушки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Рассказы дедушки
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d9a299a2-7d2b-4ad6-833a-3d36c5a47f22">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Рассказы дедушки
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 90
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1958"/>
+      </imprint>
+      <biblScope unit="volume">
+       90
+      </biblScope>
+      <biblScope unit="page">
+       95-96
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1837" to="1838"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h001">
     <p id="bb5ee093-ce8a-4de1-8f07-8ab3984a3bd9">
@@ -114,8 +124,11 @@
      В селе П: жил девятеностолетний старик которой служил под 5 Госудярыми он видел более ста сражении он был чином полковник имел десять орденов которые он купил своею кровию ибо у него было десять ран он ходил на костылях ибо у него не было ноги лице 3 рубцами на лбу середний палец лежал под Браиловом. у него было 5 детей двое девочек и трое мальчишик так называл он их хотя у старшего было
      <ref target="#note8">
       8
-     </ref><note index="false" resp="volume_editor" xml:id="note8">
-      <del>двое</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note8">
+      <del>
+       двое
+      </del>
      </note>
      4 детей и 4 внучек а у всех было уже 4 ребетишик а младшему из его правнучков было десять лет а
      <choice original_editorial_correction="старш[его]">
@@ -175,8 +188,11 @@
      Я ведь знаю что вы
      <ref target="#note9">
       9
-     </ref><note index="false" resp="volume_editor" xml:id="note9">
-      <del>дураки</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note9">
+      <del>
+       дураки
+      </del>
      </note>
      ничего в морской науке непонимаете дак стало я и не стану вам разказывать путешествие поморе
      <pb n="96"/>
@@ -198,8 +214,11 @@
      Ге трус
      <ref target="#note10">
       10
-     </ref><note index="false" resp="volume_editor" xml:id="note10">
-      <del>закричал другой</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note10">
+      <del>
+       закричал другой
+      </del>
      </note>
      ну от чего не спать
      <ref target="#note11">
@@ -222,14 +241,20 @@
      А ты мой
      <ref target="#note12">
       12
-     </ref><note index="false" resp="volume_editor" xml:id="note12">
-      <del>пузырь потопузый</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note12">
+      <del>
+       пузырь потопузый
+      </del>
      </note>
      дружок сказал прадедушка целуя в лоб толстого
      <ref target="#note13">
       13
-     </ref><note index="false" resp="volume_editor" xml:id="note13">
-      <del>рухлого</del>
+     </ref>
+     <note index="false" resp="volume_editor" xml:id="note13">
+      <del>
+       рухлого
+      </del>
      </note>
      малютку которой играл подле тебя и оробел бы ты
     </p>
