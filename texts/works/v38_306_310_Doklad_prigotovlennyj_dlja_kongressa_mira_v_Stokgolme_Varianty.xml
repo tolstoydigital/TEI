@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v38_306_310_Doklad_prigotovlennyj_dlja_kongressa_mira_v_Stokgolme_Varianty" resp="volume_editor">
-                    Варианты «Доклада, приготовленного для конгресса мира в Стокгольме». Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Доклад, приготовленный для конгресса мира в Стокгольме.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="37905018-ebd6-4617-ba10-47bb7694056f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Варианты «Доклада, приготовленного для конгресса мира в Стокгольме»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 38
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">38</biblScope>
-                        <biblScope unit="page">306-310</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1909"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v38_306_310_Doklad_prigotovlennyj_dlja_kongressa_mira_v_Stokgolme_Varianty">
+     Варианты «Доклада, приготовленного для конгресса мира в Стокгольме». Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Доклад, приготовленный для конгресса мира в Стокгольме.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="37905018-ebd6-4617-ba10-47bb7694056f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Варианты «Доклада, приготовленного для конгресса мира в Стокгольме»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 38
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       38
+      </biblScope>
+      <biblScope unit="page">
+       306-310
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1909"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013023">
     <p id="011fd52f-084c-414c-99d9-988748c03ee8">
@@ -686,459 +698,473 @@
      * № 2.
     </head>
     <p id="ed3a0543-f68c-4d9e-bc30-0bc1e358ad16" rend="left">
-     <del>Любезные братья. Мы
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       собравшиеся
-      </reg>
-      <orig>
-       собравшiеся
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       здесь
-      </reg>
-      <orig>
-       здѣсь
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       христиане
-      </reg>
-      <orig>
-       христiане
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Смело
-      </reg>
-      <orig>
-       Смѣло
-      </orig>
-     </choice>
-     называю
-     <choice>
-      <reg>
-       вас
-      </reg>
-      <orig>
-       васъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     . Но если бы среди
-     <choice>
-      <reg>
-       нас
-      </reg>
-      <orig>
-       насъ
-      </orig>
-     </choice>
-     были и
-     <ref target="#note63">
-      63
-     </ref>
-     <note index="false" xml:id="note63">
-      <span data-class="paragraph" id="9d997a8e-a839-4856-b37a-139aa49c6db5" rend="left">
-       <del>
-        <choice original_editorial_correction="Инду[сы]">
-         <sic>
-          Инду
-         </sic>
-         <corr>
-          Индусы
-         </corr>
+     <del>
+      Любезные братья. Мы
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        собравшиеся
+       </reg>
+       <orig>
+        собравшiеся
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        здесь
+       </reg>
+       <orig>
+        здѣсь
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        христиане
+       </reg>
+       <orig>
+        христiане
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Смело
+       </reg>
+       <orig>
+        Смѣло
+       </orig>
+      </choice>
+      называю
+      <choice>
+       <reg>
+        вас
+       </reg>
+       <orig>
+        васъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      . Но если бы среди
+      <choice>
+       <reg>
+        нас
+       </reg>
+       <orig>
+        насъ
+       </orig>
+      </choice>
+      были и
+      <ref target="#note63">
+       63
+      </ref>
+      <note index="false" xml:id="note63">
+       <span data-class="paragraph" id="9d997a8e-a839-4856-b37a-139aa49c6db5" rend="left">
+        <del>
+         <choice original_editorial_correction="Инду[сы]">
+          <sic>
+           Инду
+          </sic>
+          <corr>
+           Индусы
+          </corr>
+         </choice>
+        </del>
+       </span>
+      </note>
+      Брамины и Буддисты и
+      <choice original_editorial_correction="Конфуц[іанцы]">
+       <sic>
+        Конфуц
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Конфуцианцы
+         </reg>
+         <orig>
+          Конфуцiанцы
+         </orig>
         </choice>
-       </del>
-      </span>
-     </note>
-     Брамины и Буддисты и
-     <choice original_editorial_correction="Конфуц[іанцы]">
-      <sic>
-       Конфуц
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Конфуцианцы
-        </reg>
-        <orig>
-         Конфуцiанцы
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     , я
-     <choice>
-      <reg>
-       уверен
-      </reg>
-      <orig>
-       увѣренъ
-      </orig>
-     </choice>
-     , что
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     признали
-     <choice original_editorial_correction="[бы]">
-      <sic/>
-      <corr>
-       бы
-      </corr>
-     </choice>
-     такое
-     <choice>
-      <reg>
-       обращение
-      </reg>
-      <orig>
-       обращенiе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       наиболее
-      </reg>
-      <orig>
-       наиболѣе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       приличным
-      </reg>
-      <orig>
-       приличнымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     виду той
-     <choice>
-      <reg>
-       цели
-      </reg>
-      <orig>
-       цѣли
-      </orig>
-     </choice>
-     , которая собрала
-     <choice>
-      <reg>
-       нас
-      </reg>
-      <orig>
-       насъ
-      </orig>
-     </choice>
-     .</del>
-    </p></div>
+       </corr>
+      </choice>
+      , я
+      <choice>
+       <reg>
+        уверен
+       </reg>
+       <orig>
+        увѣренъ
+       </orig>
+      </choice>
+      , что
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      признали
+      <choice original_editorial_correction="[бы]">
+       <sic/>
+       <corr>
+        бы
+       </corr>
+      </choice>
+      такое
+      <choice>
+       <reg>
+        обращение
+       </reg>
+       <orig>
+        обращенiе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        наиболее
+       </reg>
+       <orig>
+        наиболѣе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        приличным
+       </reg>
+       <orig>
+        приличнымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      виду той
+      <choice>
+       <reg>
+        цели
+       </reg>
+       <orig>
+        цѣли
+       </orig>
+      </choice>
+      , которая собрала
+      <choice>
+       <reg>
+        нас
+       </reg>
+       <orig>
+        насъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+   </div>
    <div type="section" xml:id="h000013023003">
     <head n="level2" type="editorial">
      * № 3.
     </head>
     <p id="6ab6a3b3-8fea-4700-a516-e6144d138fac" rend="left">
-     <del>Мы
-     <choice>
-      <reg>
-       хотим
-      </reg>
-      <orig>
-       хотимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       противодействовать
-      </reg>
-      <orig>
-       противодѣйствовать
-      </orig>
-     </choice>
-     величайшему злу, удручающему
-     <choice>
-      <reg>
-       человечество
-      </reg>
-      <orig>
-       человѣчество
-      </orig>
-     </choice>
-     , величайшему
-     <choice>
-      <reg>
-       греху
-      </reg>
-      <orig>
-       грѣху
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       войне
-      </reg>
-      <orig>
-       войнѣ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       хотим
-      </reg>
-      <orig>
-       хотимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       противодействовать
-      </reg>
-      <orig>
-       противодѣйствовать
-      </orig>
-     </choice>
-     <pb n="307"/>
-     тому
-     <choice>
-      <reg>
-       преступлению
-      </reg>
-      <orig>
-       преступленiю
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       убийства
-      </reg>
-      <orig>
-       убiйства
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       человека
-      </reg>
-      <orig>
-       человѣка
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       человеком
-      </reg>
-      <orig>
-       человѣкомъ
-      </orig>
-     </choice>
-     , которое
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     самой глубокой древности считалось необходимыми
-     <choice>
-      <reg>
-       условием
-      </reg>
-      <orig>
-       условiемъ
-      </orig>
-     </choice>
-     жизни
-     <choice>
-      <reg>
-       народов
-      </reg>
-      <orig>
-       народовъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       участие
-      </reg>
-      <orig>
-       участiе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       котором
-      </reg>
-      <orig>
-       которомъ
-      </orig>
-     </choice>
-     считалось <del>доблестью,
-     <choice>
-      <reg>
-       добродетелью
-      </reg>
-      <orig>
-       добродѣтелью
-      </orig>
-     </choice>
-     и</del> священной обязанностью, главные участники
-     <choice>
-      <reg>
-       которого
-      </reg>
-      <orig>
-       котораго
-      </orig>
-     </choice>
-     считались <del>и считаются</del> величайшими людьми, героями и которое до
-     <choice>
-      <reg>
-       сих
-      </reg>
-      <orig>
-       сихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       пор
-      </reg>
-      <orig>
-       поръ
-      </orig>
-     </choice>
-     не только существуешь, но все больше и больше
-     <choice>
-      <reg>
-       захватывает
-      </reg>
-      <orig>
-       захватываетъ
-      </orig>
-     </choice>
-     народы,
-     <choice>
-      <reg>
-       раззоряет
-      </reg>
-      <orig>
-       раззоряетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       губит
-      </reg>
-      <orig>
-       губитъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     жизнь и
-     <choice>
-      <reg>
-       самым
-      </reg>
-      <orig>
-       самымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       действительным
-      </reg>
-      <orig>
-       дѣйствительнымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       способом
-      </reg>
-      <orig>
-       способомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       развращает
-      </reg>
-      <orig>
-       развращаетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     .</del>
-    </p></div>
+     <del>
+      Мы
+      <choice>
+       <reg>
+        хотим
+       </reg>
+       <orig>
+        хотимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        противодействовать
+       </reg>
+       <orig>
+        противодѣйствовать
+       </orig>
+      </choice>
+      величайшему злу, удручающему
+      <choice>
+       <reg>
+        человечество
+       </reg>
+       <orig>
+        человѣчество
+       </orig>
+      </choice>
+      , величайшему
+      <choice>
+       <reg>
+        греху
+       </reg>
+       <orig>
+        грѣху
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        войне
+       </reg>
+       <orig>
+        войнѣ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        хотим
+       </reg>
+       <orig>
+        хотимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        противодействовать
+       </reg>
+       <orig>
+        противодѣйствовать
+       </orig>
+      </choice>
+      <pb n="307"/>
+      тому
+      <choice>
+       <reg>
+        преступлению
+       </reg>
+       <orig>
+        преступленiю
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        убийства
+       </reg>
+       <orig>
+        убiйства
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        человека
+       </reg>
+       <orig>
+        человѣка
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        человеком
+       </reg>
+       <orig>
+        человѣкомъ
+       </orig>
+      </choice>
+      , которое
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      самой глубокой древности считалось необходимыми
+      <choice>
+       <reg>
+        условием
+       </reg>
+       <orig>
+        условiемъ
+       </orig>
+      </choice>
+      жизни
+      <choice>
+       <reg>
+        народов
+       </reg>
+       <orig>
+        народовъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        участие
+       </reg>
+       <orig>
+        участiе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        котором
+       </reg>
+       <orig>
+        которомъ
+       </orig>
+      </choice>
+      считалось
+      <del>
+       доблестью,
+       <choice>
+        <reg>
+         добродетелью
+        </reg>
+        <orig>
+         добродѣтелью
+        </orig>
+       </choice>
+       и
+      </del>
+      священной обязанностью, главные участники
+      <choice>
+       <reg>
+        которого
+       </reg>
+       <orig>
+        котораго
+       </orig>
+      </choice>
+      считались
+      <del>
+       и считаются
+      </del>
+      величайшими людьми, героями и которое до
+      <choice>
+       <reg>
+        сих
+       </reg>
+       <orig>
+        сихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        пор
+       </reg>
+       <orig>
+        поръ
+       </orig>
+      </choice>
+      не только существуешь, но все больше и больше
+      <choice>
+       <reg>
+        захватывает
+       </reg>
+       <orig>
+        захватываетъ
+       </orig>
+      </choice>
+      народы,
+      <choice>
+       <reg>
+        раззоряет
+       </reg>
+       <orig>
+        раззоряетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        губит
+       </reg>
+       <orig>
+        губитъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      жизнь и
+      <choice>
+       <reg>
+        самым
+       </reg>
+       <orig>
+        самымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        действительным
+       </reg>
+       <orig>
+        дѣйствительнымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        способом
+       </reg>
+       <orig>
+        способомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        развращает
+       </reg>
+       <orig>
+        развращаетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+   </div>
    <div type="section" xml:id="h000013023004">
     <head n="level2" type="editorial">
      * № 4.
@@ -3282,33 +3308,37 @@
        мыслящiе
       </orig>
      </choice>
-     , <del>люди
-     <choice>
-      <reg>
-       могущие
-      </reg>
-      <orig>
-       могущiе
-      </orig>
-     </choice>
-     руководить
-     <choice>
-      <reg>
-       общественным
-      </reg>
-      <orig>
-       общественнымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мнением
-      </reg>
-      <orig>
-       мнѣнiемъ
-      </orig>
-     </choice>
-     , главное</del> люди,
+     ,
+     <del>
+      люди
+      <choice>
+       <reg>
+        могущие
+       </reg>
+       <orig>
+        могущiе
+       </orig>
+      </choice>
+      руководить
+      <choice>
+       <reg>
+        общественным
+       </reg>
+       <orig>
+        общественнымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мнением
+       </reg>
+       <orig>
+        мнѣнiемъ
+       </orig>
+      </choice>
+      , главное
+     </del>
+     люди,
      <choice>
       <reg>
        исповедующие
@@ -4503,7 +4533,8 @@
       </orig>
      </choice>
      .
-    </p><p id="a870e858-e499-4ad2-9d39-0f6a344c101c" rend="left pages">
+    </p>
+    <p id="a870e858-e499-4ad2-9d39-0f6a344c101c" rend="left pages">
      <pb n="310"/>
     </p>
    </div>
@@ -4681,16 +4712,19 @@
        убiйства
       </orig>
      </choice>
-     и гордится этими знаками <del>своей
-     <choice>
-      <reg>
-       профессии
-      </reg>
-      <orig>
-       профессiи
-      </orig>
-     </choice>
-     </del> (
+     и гордится этими знаками
+     <del>
+      своей
+      <choice>
+       <reg>
+        профессии
+       </reg>
+       <orig>
+        профессiи
+       </orig>
+      </choice>
+     </del>
+     (
      <choice>
       <reg>
        в
@@ -4726,30 +4760,30 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       виде
-      </reg>
-      <orig>
-       видѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       украшения
-      </reg>
-      <orig>
-       украшенiя
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        виде
+       </reg>
+       <orig>
+        видѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        украшения
+       </reg>
+       <orig>
+        украшенiя
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -4969,57 +5003,60 @@
        онъ
       </orig>
      </choice>
-     больше гордится <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       роде
-      </reg>
-      <orig>
-       родѣ
-      </orig>
-     </choice>
-     того
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     во
-     <choice>
-      <reg>
-       Франции
-      </reg>
-      <orig>
-       Францiи
-      </orig>
-     </choice>
-     гордится М-r de Paris
-     <ref target="#note71">
-      71
-     </ref>
-     <note index="false" xml:id="note71">
-      <span data-class="paragraph" id="5ead8561-54a2-4814-91bc-ed29351a6938" rend="left">
-       <choice original_editorial_correction="[палач]">
-        <sic/>
-        <corr>
-         палач
-        </corr>
-       </choice>
-       .
-      </span>
-     </note>
-     своей должностью</del> и
+     больше гордится
+     <del>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        роде
+       </reg>
+       <orig>
+        родѣ
+       </orig>
+      </choice>
+      того
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      во
+      <choice>
+       <reg>
+        Франции
+       </reg>
+       <orig>
+        Францiи
+       </orig>
+      </choice>
+      гордится М-r de Paris
+      <ref target="#note71">
+       71
+      </ref>
+      <note index="false" xml:id="note71">
+       <span data-class="paragraph" id="5ead8561-54a2-4814-91bc-ed29351a6938" rend="left">
+        <choice original_editorial_correction="[палач]">
+         <sic/>
+         <corr>
+          палач
+         </corr>
+        </choice>
+        .
+       </span>
+      </note>
+      своей должностью
+     </del>
+     и
      <choice>
       <reg>
        тем
@@ -5292,7 +5329,8 @@
       </orig>
      </choice>
      .
-    </p></div>
+    </p>
+   </div>
    <div type="section" xml:id="h000013023011">
     <head n="level2" type="editorial">
      * № 11.
@@ -5435,51 +5473,53 @@
        </del>
       </span>
      </note>
-     <del>: «Люди, про
-     <choice>
-      <reg>
-       которых
-      </reg>
-      <orig>
-       которыхъ
-      </orig>
-     </choice>
-     ты ничего не знаешь
-     <choice>
-      <reg>
-       кроме
-      </reg>
-      <orig>
-       кромѣ
-      </orig>
-     </choice>
-     того, что
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     называюсь Императорами, Королями, Президентами, Падишахами и т. п.,
-     <choice>
-      <reg>
-       приказывают
-      </reg>
-      <orig>
-       приказываютъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       тебе
-      </reg>
-      <orig>
-       тебѣ
-      </orig>
-     </choice>
-     </del> ему, чтобы
+     <del>
+      : «Люди, про
+      <choice>
+       <reg>
+        которых
+       </reg>
+       <orig>
+        которыхъ
+       </orig>
+      </choice>
+      ты ничего не знаешь
+      <choice>
+       <reg>
+        кроме
+       </reg>
+       <orig>
+        кромѣ
+       </orig>
+      </choice>
+      того, что
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      называюсь Императорами, Королями, Президентами, Падишахами и т. п.,
+      <choice>
+       <reg>
+        приказывают
+       </reg>
+       <orig>
+        приказываютъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        тебе
+       </reg>
+       <orig>
+        тебѣ
+       </orig>
+      </choice>
+     </del>
+     ему, чтобы
      <choice>
       <reg>
        он
@@ -5662,7 +5702,10 @@
        можетъ
       </orig>
      </choice>
-     сказать <del>разумный</del>
+     сказать
+     <del>
+      разумный
+     </del>
      <choice>
       <reg>
        человек
@@ -5820,8 +5863,13 @@
        такихъ
       </orig>
      </choice>
-     глупостей <del>и гадостей</del>.
-    </p><p id="068a931c-e1ef-43c7-bd7e-ea107edd6489" rend="center"/>
+     глупостей
+     <del>
+      и гадостей
+     </del>
+     .
+    </p>
+    <p id="068a931c-e1ef-43c7-bd7e-ea107edd6489" rend="center"/>
     <div rend="image">
      <img alt="" src="./img/b00002856.png"/>
     </div>

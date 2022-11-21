@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v40_466_468_Izbrannye_mysli_Labrjujera_Laroshfuko_Vovenarga_i_Monteske">
-                    Избранные мысли Лабрюйера, Ларошфуко, Вовенарга и Монтескье. Tolstoy Digital
-                </title>
-                <title type="main">Избранные мысли Лабрюйера, Ларошфуко, Вовенарга и Монтескье.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="fe11bf88-b333-4350-bf09-3e5a6135d129">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Избранные мысли Лабрюйера, Ларошфуко, Вовенарга и Монтескье
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 40
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">40</biblScope>
-                        <biblScope unit="page">466-468</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1907"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v40_466_468_Izbrannye_mysli_Labrjujera_Laroshfuko_Vovenarga_i_Monteske">
+     Избранные мысли Лабрюйера, Ларошфуко, Вовенарга и Монтескье. Tolstoy Digital
+    </title>
+    <title type="main">
+     Избранные мысли Лабрюйера, Ларошфуко, Вовенарга и Монтескье.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="fe11bf88-b333-4350-bf09-3e5a6135d129">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Избранные мысли Лабрюйера, Ларошфуко, Вовенарга и Монтескье
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 40
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       40
+      </biblScope>
+      <biblScope unit="page">
+       466-468
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1907"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000007004">
     <p id="8f2dfd94-6366-49b5-8f44-7fdeec2b4dc9">
@@ -115,16 +127,19 @@
      ПРЕДИСЛОВИЕ
     </head>
     <p id="62c42ad9-ff5b-486c-a354-8e441e245eab" rend="left">
-     <del>Не говоря уже о том, что очень часто в этих коротких мыслях встречаются такие, как, например, мысли Лабрюйера о духе и материи, которые яснее, убедительнее и дают больше материала мысли, чем целые длинные трактаты, так же как и многие короткие мысли
-     <name placement="text" ref="7649" type="person">
-      Ларошфуко
-     </name>
-     , Монтескье,
-     <name placement="text" ref="2688" type="person">
-      Вовенарга
-     </name>
-     .</del>
-    </p><lb/>
+     <del>
+      Не говоря уже о том, что очень часто в этих коротких мыслях встречаются такие, как, например, мысли Лабрюйера о духе и материи, которые яснее, убедительнее и дают больше материала мысли, чем целые длинные трактаты, так же как и многие короткие мысли
+      <name placement="text" ref="7649" type="person">
+       Ларошфуко
+      </name>
+      , Монтескье,
+      <name placement="text" ref="2688" type="person">
+       Вовенарга
+      </name>
+      .
+     </del>
+    </p>
+    <lb/>
     <head n="level2" type="chapter">
      ИЗБРАННЫЕ МЫСЛИ ЛАРОШФУКО
     </head>
@@ -132,20 +147,32 @@
      67. Изящество для тела то же, что здравый смысл для ума.
     </p>
     <p id="9dfd43b9-f8d8-47de-87ef-aac9acfbb379" rend="left">
-     <del>109. Пылкость крови заставляет в молодости часто менять вкусы, тогда как в старости привычки сохраняют их в неприкосновенности.</del>
-    </p><p id="1abb1651-adab-457d-82ca-1d04c4161eab" rend="left">
-     <del>259. Радость любви, это — любить, и человек счастлив более от той страсти, которую он сам испытывает, нежели от той, которую в другом он возбуждает.</del>
-    </p><p id="fcdbc7fb-24ae-4a4e-99e2-88cc1137a552" rend="left">
+     <del>
+      109. Пылкость крови заставляет в молодости часто менять вкусы, тогда как в старости привычки сохраняют их в неприкосновенности.
+     </del>
+    </p>
+    <p id="1abb1651-adab-457d-82ca-1d04c4161eab" rend="left">
+     <del>
+      259. Радость любви, это — любить, и человек счастлив более от той страсти, которую он сам испытывает, нежели от той, которую в другом он возбуждает.
+     </del>
+    </p>
+    <p id="fcdbc7fb-24ae-4a4e-99e2-88cc1137a552" rend="left">
      272. Ничто не должно бы так стыдить людей, заслуживших всеобщие похвалы, как та их забота о том, чтобы выказать себя и в самых ничтожных пустяках.
     </p>
     <p id="6f0b7a52-a5a9-47dc-a723-a6a08351dc96" rend="left">
      310. Часто бывают такие случаи в жизни, что для того, чтобы выпутаться из них, нужно поступить безумно.
     </p>
     <p id="e38739d2-372a-4237-9d7f-d97903102ee7" rend="left">
-     <del>421. Взаимное доверие доставляет больше материала для разговора, чем ум и образование.</del>
-    </p><p id="bc0e521d-3797-44ab-afd7-6f372afd3734" rend="left">
-     <del>480. Застенчивость это такой недостаток, в котором не надо упрекать того человека, которого ты желаешь в этом недостатке исправить.</del>
-    </p><p id="a1a6b301-9ed1-4db7-a344-87fc82e90ffa" rend="left">
+     <del>
+      421. Взаимное доверие доставляет больше материала для разговора, чем ум и образование.
+     </del>
+    </p>
+    <p id="bc0e521d-3797-44ab-afd7-6f372afd3734" rend="left">
+     <del>
+      480. Застенчивость это такой недостаток, в котором не надо упрекать того человека, которого ты желаешь в этом недостатке исправить.
+     </del>
+    </p>
+    <p id="a1a6b301-9ed1-4db7-a344-87fc82e90ffa" rend="left">
      <hi rend="italic">
       Третье дополнение.
      </hi>
@@ -214,8 +241,11 @@
      322. Вера — утешение несчастных и ужас для счастливых.
     </p>
     <p id="c8007055-821e-439a-abad-88127543be56" rend="left">
-     <del>364. Ясность, это — окончательная отделка у талантливого писателя.</del>
-    </p><p id="3ec22ba8-a157-4f7e-8971-bc439295e1c8" rend="left">
+     <del>
+      364. Ясность, это — окончательная отделка у талантливого писателя.
+     </del>
+    </p>
+    <p id="3ec22ba8-a157-4f7e-8971-bc439295e1c8" rend="left">
      372. Нас прежде очень хвалят, а потом уже хвалят разумно.
     </p>
     <p id="abcaa01f-1249-4618-b6cb-1865f09766c3" rend="left">
@@ -273,10 +303,16 @@
      15. У большей части царей и министров намерения добрые, но они не знают, как осуществить их.
     </p>
     <p id="6fd60db8-3e06-455e-8f40-7d57e6a846fa" rend="left">
-     <del>19. Твой наряд должен быть хуже твоих средств.</del>
-    </p><p id="1037b72b-551b-41d7-a432-5b41b1c0691e" rend="left">
-     <del>33. То, что не создано гением, создано памятью или прилежанием.</del>
-    </p></div>
+     <del>
+      19. Твой наряд должен быть хуже твоих средств.
+     </del>
+    </p>
+    <p id="1037b72b-551b-41d7-a432-5b41b1c0691e" rend="left">
+     <del>
+      33. То, что не создано гением, создано памятью или прилежанием.
+     </del>
+    </p>
+   </div>
   </body>
  </text>
 </TEI>

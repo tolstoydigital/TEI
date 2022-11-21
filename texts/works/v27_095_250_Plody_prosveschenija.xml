@@ -1,108 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v27_095_250_Plody_prosveschenija">
-                    Плоды просвещения. Tolstoy Digital
-                </title>
-                <title type="main">Плоды просвещения</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="bde8ea88-9b1b-4a26-87b2-05ffe4017423">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Плоды просвещения
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 27
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">27</biblScope>
-                        <biblScope unit="page">95-250</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1886, 1889-1890
-                </date>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v27_095_250_Plody_prosveschenija">
+     Плоды просвещения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Плоды просвещения
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="bde8ea88-9b1b-4a26-87b2-05ffe4017423">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Плоды просвещения
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 27
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       27
+      </biblScope>
+      <biblScope unit="page">
+       95-250
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1886, 1889-1890
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="43d68be2-fd3c-498b-9c35-3704a3f70804">
@@ -359,9 +369,9 @@
      Театр представляет переднюю богатого дома в Москве. Три двери: наружная, в кабинет Леонида Федоровича и в комнату Василья Леонидыча. Лестница наверх, во внутренние покои; сзади нее проход в буфет.
     </p>
     <lb/>
-    <p id="b1f5010d-4583-4575-a89d-ca1bb077ee6f" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 1-е.
-    </p>
+    </head>
     <p id="9227f55e-399b-473a-81db-be75480052b1" rend="center centerline">
      <hi rend="Razradka">
       Григорий
@@ -394,9 +404,9 @@
      Вишь постукивает каблучками... в-ва!..
     </p>
     <lb/>
-    <p id="c4329fed-cf8e-4e4b-9ebe-fe9c9cc7e33f" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 2-е.
-    </p>
+    </head>
     <p id="fccd6f04-e7aa-442c-9877-b07a4d2a3cc9" rend="center centerline">
      <hi rend="Razradka">
       Григорий и Таня
@@ -621,9 +631,9 @@
     <p id="9027b53c-4914-4530-a97e-55241c9d0392" rend="left pages_p">
      <pb n="100"/>
     </p>
-    <p id="61a40e95-a043-4d2f-b765-0564479801d4" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 3-е.
-    </p>
+    </head>
     <p id="f279ff0b-bb6d-4ee4-bd1b-b9658c307cf5" rend="center centerline">
      <hi rend="Razradka">
       Григорий, Таня и артельщик
@@ -665,9 +675,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="6f9c96c8-9618-4784-8d9e-dbf3083fb3c0" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 4-е.
-    </p>
+    </head>
     <p id="59641b34-7396-4b40-94f7-946c368cb849" rend="center centerline">
      <hi rend="Razradka">
       Григорий, артельщик и Василий Леонидыч
@@ -735,9 +745,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="b50462d3-e719-4683-995e-6e347e460de5" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 5-е.
-    </p>
+    </head>
     <p id="4e266d44-90a5-4ab7-8160-695a7459c30d" rend="center centerline">
      <hi rend="Razradka">
       Артельщик и Таня
@@ -764,9 +774,9 @@
      И так дожидаюсь.
     </p>
     <lb/>
-    <p id="4a980838-41ec-401a-ba5a-b389080ded75" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 6-е
-    </p>
+    </head>
     <p id="27be0fd8-79e6-4d58-91c2-be9fc766d0e8" rend="center centerline">
      <hi rend="Razradka">
       Артельщик, Таня и Сахатов
@@ -807,9 +817,9 @@
      Как же, давно уж!
     </p>
     <lb/>
-    <p id="ee5b15fa-abf7-4c00-8e92-af5f9a42ee71" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 7-е.
-    </p>
+    </head>
     <p id="de2e55df-1585-4597-b06d-0d3cb5caf531" rend="center centerline">
      <hi rend="Razradka">
       Артельщик, Таня и Сахатов
@@ -961,9 +971,9 @@
     <p id="b4615a53-6f4c-41bc-a061-fb7561acc675" rend="left pages_p">
      <pb n="103"/>
     </p>
-    <p id="fc1598b6-ba35-474f-bf40-42d9ae437af1" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 8-е.
-    </p>
+    </head>
     <p id="6b9a03fc-2893-4a4b-a39f-ec503b68c1f5" rend="center centerline">
      <hi rend="Razradka">
       Артельщик, Таня и Федор Иваныч
@@ -1041,9 +1051,9 @@
      А Лизавета Леонидовна сказывали.
     </p>
     <lb/>
-    <p id="fc2cae50-577e-4ff8-a666-416b49aa4698" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 9-е.
-    </p>
+    </head>
     <p id="9d2604e4-83ec-4d4d-b95d-ea902a5a4d2f" rend="center centerline">
      <hi rend="Razradka">
       Таня, Федор Иваныч, Артельщик и Яков-буфетчик
@@ -1082,9 +1092,9 @@
     <p id="b7005d29-e92c-4d22-b589-0e103c2b9f2a" rend="left pages_p">
      <pb n="104"/>
     </p>
-    <p id="f46997e5-6773-4a2f-a906-d388ee6e92e0" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 10-е.
-    </p>
+    </head>
     <p id="2a0112b6-3d88-400f-ae9c-99a1ada1132d" rend="center_r">
      Те же и Григорий
     </p>
@@ -1165,9 +1175,9 @@
     <p id="414a50be-9c7c-46ba-8007-93b57256bdb5" rend="left pages_p">
      <pb n="105"/>
     </p>
-    <p id="d2c17984-fc2a-4546-af85-4f9caf3b6dba" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 11-е.
-    </p>
+    </head>
     <p id="74647ff3-7562-466b-9c96-8020dadc405e" rend="center_r">
      <hi rend="Razradka">
       Таня, Яков, Федор Иваныч и Артельщик.
@@ -1208,9 +1218,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="42ecafb5-bd7d-41f8-9095-8da2f8f17d7e" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 12-е.
-    </p>
+    </head>
     <p id="b857f633-6c91-467c-9378-0fd8dd899aff" rend="center centerline">
      <hi rend="Razradka">
       Таня, Федор Ивaныч и Артельщик
@@ -1260,9 +1270,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="e0e7046e-fe00-4091-a10a-647877ba4996" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 13-е.
-    </p>
+    </head>
     <p id="aaa0e324-935d-4d9e-b70b-d9dc9cc2c078" rend="center_r">
      <hi rend="Razradka">
       Таня, Федор Иваныч, Швейцар и Артельщик.
@@ -1300,9 +1310,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="a42d1493-7a70-4529-b3d3-5c21e570c8a5" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 14-е.
-    </p>
+    </head>
     <p id="c3951039-a1bf-4631-9844-06a4493b8163" rend="center_r">
      <hi rend="Razradka">
       Федор Иваныч, Швейцар и Артельщик.
@@ -1340,9 +1350,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="b3f03eee-d30b-4b12-a90d-1605ae2626cf" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 15-е.
-    </p>
+    </head>
     <p id="8757298c-e838-4241-b4ac-eaa8349c2368" rend="center_r">
      <hi rend="Razradka">
       Федор Иваныч, Таня
@@ -1434,9 +1444,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="48c7c702-2c93-4b0e-9176-739c3c3afee6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 16-е.
-    </p>
+    </head>
     <p id="c135d478-4e91-4c6f-9c37-08ae588fe17f" rend="center_r">
      Таня, Федор Иваныч и три Мужика.
     </p>
@@ -1471,9 +1481,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="d42f1b49-f755-4b94-99f3-fb5876373c80" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 17-е.
-    </p>
+    </head>
     <p id="be0d7c2a-4aaa-477e-a909-3a2637dd92d5" rend="center centerline">
      <hi rend="Razradka">
       Таня и три Мужика. Василий Леонидыч
@@ -1763,9 +1773,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="b55c2929-42a2-4a0b-a44b-e1d896d24281" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 18-е.
-    </p>
+    </head>
     <p id="b04bfc19-517c-4339-83cb-c7f924e26762" rend="center centerline">
      <hi rend="Razradka">
       Те же
@@ -1827,9 +1837,9 @@
     <p id="f552959a-c173-42d9-a6ad-a29926662f2a" rend="left pages_p">
      <pb n="111"/>
     </p>
-    <p id="06b8ef58-e2e3-428a-a15e-418d71cd390a" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 19-е.
-    </p>
+    </head>
     <p id="5733c93e-e34d-4d4f-a575-36ceed458fe4" rend="center_r">
      <hi rend="Razradka">
       Те же и Григорий.
@@ -1879,9 +1889,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="6527ec66-21b0-416e-842b-2793ce55d491" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 20-е.
-    </p>
+    </head>
     <p id="1cb16bd0-39d6-4566-a468-56de1f2846aa" rend="center_r">
      <hi rend="Razradka">
       Таня, три Мужика и Артельщик.
@@ -1907,9 +1917,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="d77aeca2-d686-4605-9c10-c59b984af3a4" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 21-е.
-    </p>
+    </head>
     <p id="93187bf2-7b6d-451e-84c6-d0fe69e14339" rend="center centerline">
      <hi rend="Razradka">
       Те же, Сахатов, Леонид Федорович
@@ -2066,9 +2076,9 @@
      Да вы приезжайте, всё равно приезжайте. Если Капчича и не будет, мы найдем своего медиума. Марья Игнатьевна — медиум; не такой сильный, как Капчич, но всё-таки...
     </p>
     <lb/>
-    <p id="85079405-5c8c-4780-b8bd-b688c5e972e6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 22-е.
-    </p>
+    </head>
     <p id="a511e480-6e88-4728-9ffb-6f2c78aa9784" rend="center centerline">
      <hi rend="Razradka">
       Те же и Таня
@@ -2182,9 +2192,9 @@
     <p id="7d91efff-122b-4509-9c08-c98eccc19755" rend="left pages_p">
      <pb n="115"/>
     </p>
-    <p id="05e414e2-806f-4b4d-8cc4-d9ea79cde3b0" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 23-е.
-    </p>
+    </head>
     <p id="49fe86ed-9384-4e42-b78b-c3f25a9f1312" rend="center_r">
      Те же, без Сахатова.
     </p>
@@ -2209,9 +2219,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="341b4a1a-93b8-4a8a-90d0-1382ee0b2376" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 24-е.
-    </p>
+    </head>
     <p id="a83626ca-bced-4670-8aaa-3947e0aaf443" rend="center_r">
      Те же, без Тани.
     </p>
@@ -2278,9 +2288,9 @@
      К вашей милости, значит.
     </p>
     <lb/>
-    <p id="bff344b6-aef8-4af9-aec2-297cb1bfb915" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 25-е.
-    </p>
+    </head>
     <p id="defe87a7-a399-4cad-868b-93f0a87f9c2e" rend="center centerline">
      <hi rend="Razradka">
       Те же и Петрищев
@@ -2329,9 +2339,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="87ad1a6b-0328-46c1-8e40-4f6dd8da9a72" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 26-е.
-    </p>
+    </head>
     <p id="cf7151bc-2b44-424e-b91f-09e4e9fae21c" rend="center_r">
      Те же, без Петрищева.
     </p>
@@ -2631,9 +2641,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="5b6bb878-7c97-459b-b0fc-18906c12cbb3" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 27-е.
-    </p>
+    </head>
     <p id="cdbd809d-ce2d-4d4a-b5fa-fb110afb8c4a" rend="center centerline">
      <hi rend="Razradka">
       Те же, без Леонида Федоровича
@@ -2749,9 +2759,9 @@
      Мы бы всей душой, да, скажем, и так под метелочку и эти-то собрали.
     </p>
     <lb/>
-    <p id="eaaf522b-aa90-45ab-88a7-62d36b7c3aaa" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 28-е.
-    </p>
+    </head>
     <p id="e6b3b5f0-925e-481f-9b4f-12011a5b95ae" rend="center centerline">
      <hi rend="Razradka">
       Те же, Василий Леонидыч и Петрищев
@@ -2795,9 +2805,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="4cb1cf0d-e369-4574-9a8d-b554e3324582" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 29-е.
-    </p>
+    </head>
     <p id="366a2928-d57b-4111-b1b2-e18d7ab6750a" rend="center_r">
      Те же, без Петрищева.
     </p>
@@ -3017,9 +3027,9 @@
     <p id="9ee465a3-09a4-459b-a334-2293468acfef" rend="left pages_p">
      <pb n="124"/>
     </p>
-    <p id="6cadf6ba-f8fc-4ffb-a187-8cfbcef033cd" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 30-е.
-    </p>
+    </head>
     <p id="2e231163-4139-4d4a-9fcb-dc4a560c6409" rend="center_r">
      <hi rend="Razradka">
       Мужики, Федор Иваныч и Артельщик.
@@ -3110,9 +3120,9 @@
      О, Господи!
     </p>
     <lb/>
-    <p id="31bc68af-f340-48e6-8448-f200c6cfbb4f" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 31-е.
-    </p>
+    </head>
     <p id="90a26229-0c64-4271-8c95-4572bf099082" rend="center centerline">
      <hi rend="Razradka">
       Федор Иваныч, три Мужика, Василий Леонидыч
@@ -3157,9 +3167,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="6bf4e68c-d473-40a2-81ff-31d4999b07cb" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 32-е.
-    </p>
+    </head>
     <p id="a0743d13-4c96-4f9b-ae6e-f1e520c08617" rend="center_r">
      Те же, без Леонида Федоровича.
     </p>
@@ -3184,9 +3194,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="76451d79-afeb-4a29-8624-14321f4edb43" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 33-е.
-    </p>
+    </head>
     <p id="95866ee0-2b7d-48be-a0f9-3c62f751e528" rend="center centerline">
      <hi rend="Razradka">
       Те же.
@@ -3387,9 +3397,9 @@
      Охота вам помнить!.. Вово, ты здесь?
     </p>
     <lb/>
-    <p id="49ce59b7-fc2c-4246-b313-4e35c760063b" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 34-е.
-    </p>
+    </head>
     <p id="faa3d85f-f7f3-473e-8bb7-b0e4d49d2a5a" rend="center_r">
      <hi rend="Razradka">
       Те же и Петрищев.
@@ -3480,9 +3490,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="111364b4-38c7-418f-8864-c047e48c39d1" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 35-е.
-    </p>
+    </head>
     <p id="8bfd2fef-5b48-4dfc-ad9d-4d8d36d1cdab" rend="center_r">
      Те же, без Федора Иваныча.
     </p>
@@ -3625,9 +3635,9 @@
     <p id="5b2e0e7f-5feb-41ff-a911-2ca95e9c485a" rend="left pages_p">
      <pb n="130"/>
     </p>
-    <p id="fcc987b5-45fa-4e45-9e7f-2e0257bf7a31" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 36-е.
-    </p>
+    </head>
     <p id="bd1c8ad3-7ab9-447b-9964-a13a7a94a26b" rend="center_r">
      <hi rend="Razradka">
       Григорий, три Мужика и Артельщик.
@@ -3722,9 +3732,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="9200b3e1-bd43-4219-b3e7-733227ef6953" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 37-е.
-    </p>
+    </head>
     <p id="92ee5a98-7bcf-4479-94f9-d6e9a13a962f" rend="center centerline">
      <hi rend="Razradka">
       Григорий, три Мужика, Артельщик
@@ -3787,9 +3797,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="d5c50ad2-d4b6-4930-bd61-007016e7c214" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 38-е.
-    </p>
+    </head>
     <p id="804f029c-f5d1-4e92-81ac-7d1e68044012" rend="center_r">
      Те же, без Григория.
     </p>
@@ -3897,9 +3907,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="4e06bc87-ad2e-4e2a-ba8c-1347d1327966" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 39-е.
-    </p>
+    </head>
     <p id="ba9bd56d-1f73-4f6c-96b5-9b288590d605" rend="center centerline">
      <hi rend="Razradka">
       Те же, без Семена. Федор Иваныч
@@ -3987,9 +3997,9 @@
      Ну, а если в сиансе?...
     </p>
     <lb/>
-    <p id="96ee4657-ee59-4471-bfc6-9be58895e2aa" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 40-е.
-    </p>
+    </head>
     <p id="ef2cedec-1dc3-497c-bc63-6b5de35d7e9c" rend="center_r">
      <hi rend="Razradka">
       Те же и Леонид Федорович.
@@ -4063,9 +4073,9 @@
     <p id="1a291efc-de28-4ba7-980d-8ca5caa19f4a" rend="left pages_p">
      <pb n="134"/>
     </p>
-    <p id="a81fe17b-5114-46df-a664-9039db3a214d" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 41-е.
-    </p>
+    </head>
     <p id="cd9634d9-8832-4d34-97cb-22b3088b9c5e" rend="center centerline">
      <hi rend="Razradka">
       Те же, Барыня и Доктор
@@ -4132,9 +4142,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="a2330f7f-7276-4ae4-af18-8461f2972a66" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 42-е.
-    </p>
+    </head>
     <p id="9d7003fa-9c3d-4d6d-a67c-d1618efa303c" rend="center_r">
      Те же, без Доктора.
     </p>
@@ -4189,9 +4199,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="7628ff0e-bd99-4aa8-ade3-83de2d7e1ee6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 43-е.
-    </p>
+    </head>
     <p id="5049c250-2261-4671-bb8c-5703d8703ccd" rend="center_r">
      Те же, без Леонида Федоровича и Григория.
     </p>
@@ -4291,9 +4301,9 @@
      Сказывал, на фатеру бы пока что.
     </p>
     <lb/>
-    <p id="676e5879-2ef5-40f3-942d-ef33449aa600" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 44-е.
-    </p>
+    </head>
     <p id="44dfa8d2-84fb-4011-9c9a-f4a7676dc550" rend="center_r">
      <hi rend="Razradka">
       Те же, Доктор и Григорий.
@@ -4375,9 +4385,9 @@
      Таня где? Позовите Таню!
     </p>
     <lb/>
-    <p id="afe0d113-4624-4863-9fa4-bd2e75892b9e" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 45-е.
-    </p>
+    </head>
     <p id="09b80169-e562-4860-9316-b8f2506c85f9" rend="center_r">
      <hi rend="Razradka">
       Те же и Таня.
@@ -4438,9 +4448,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="1323c23e-794e-43a5-b719-849bb63cd8b7" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 46-е.
-    </p>
+    </head>
     <p id="59e2d617-9712-49a4-811c-651ea8e4a620" rend="center_r">
      Те же, без Доктора.
     </p>
@@ -4499,9 +4509,9 @@
     <p id="9a531bb0-3714-451a-9df3-72854e18b2bd" rend="left pages_p">
      <pb n="139"/>
     </p>
-    <p id="d9383193-9823-42d6-957f-538b52027485" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 47-е.
-    </p>
+    </head>
     <p id="9ecc0710-61bd-43f4-a3be-4e6b1721784f" rend="center_r">
      <hi rend="Razradka">
       Барыня, Григорий, Федор Иваныч, Таня, Василий Леонидыч и Артельщик.
@@ -4575,9 +4585,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="c28e314d-9455-4ba7-bb6d-07ce2b9bcb9b" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 48-е.
-    </p>
+    </head>
     <p id="e957311e-c5d4-4da6-8b10-abf08ff9ce08" rend="center_r">
      Те же, без Артельщика.
     </p>
@@ -4601,9 +4611,9 @@
     <p id="2b73dc6c-02ac-4a6a-b6e0-e2990b6336f1" rend="left pages_p">
      <pb n="140"/>
     </p>
-    <p id="4b98854c-ffe1-4cb6-9c2d-58abbcfd08e8" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 49-е.
-    </p>
+    </head>
     <p id="5168080c-0f2d-40e5-9c7e-98515305dffc" rend="center_r">
      <hi rend="Razradka">
       Те же, Петрищев, Бетси и Марья Константиновна.
@@ -4771,9 +4781,9 @@
     <p id="21d90a4f-746c-4024-a25d-d16952751c53" rend="left pages_p">
      <pb n="142"/>
     </p>
-    <p id="6126b4b2-1058-4903-920b-0b6223c52528" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 50-е.
-    </p>
+    </head>
     <p id="c1df6b13-f612-4ecb-aca9-f90f2dbc95a4" rend="center_r">
      <hi rend="Razradka">
       Петрищев, Василий Леонидыч, Таня и Федор Иваныч.
@@ -4803,9 +4813,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="ccbb5396-7b00-4242-aee2-2abe8cd79c28" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 51-е.
-    </p>
+    </head>
     <p id="d28c258a-9bc9-40f1-8f58-51cd5b04231a" rend="center centerline">
      <hi rend="Razradka">
       Федор Иваныч
@@ -4821,9 +4831,9 @@
      Да, всё неприятности. И как это они не могут в согласии жить? Да и правду сказать, молодое поколенье — не то. А царство женщин? Как давеча Леонид Федорович хотели было вступиться, да увидали, что она в экстазе, захлопнули дверь. Редкой доброты человек! Да, редкой доброты... Это что? Таня-то их опять ведет.
     </p>
     <lb/>
-    <p id="d23584b1-f667-4d8d-9e80-eb6b561a6cf2" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 52-е.
-    </p>
+    </head>
     <p id="49e7030d-23b8-4925-931d-373facf41c61" rend="center_r">
      Федор Иваныч, Таня и три Мужика.
     </p>
@@ -4887,9 +4897,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="714ab2b9-b72d-4a7c-acea-bd60529664a0" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 53-е.
-    </p>
+    </head>
     <p id="1b7cb4fe-a4e4-4b72-8454-22b6347f81de" rend="center centerline">
      <hi rend="Razradka">
       Таня и три Мужика
@@ -5033,9 +5043,9 @@
      А спрос — не беда. Это двистительно.
     </p>
     <lb/>
-    <p id="d9175ea5-f827-4248-8000-21560e9bdc62" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 54-е.
-    </p>
+    </head>
     <p id="ec8b62bf-9002-4089-9813-20a850e915fe" rend="center_r">
      Те же и Федор Иваныч.
     </p>
@@ -5074,9 +5084,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="4ee80547-4bb3-40fa-8019-f671cbf0d749" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 55-е.
-    </p>
+    </head>
     <p id="92c2561e-7b40-48d1-8fa8-8039b6594426" rend="center_r">
      Федор Иваныч и Таня.
     </p>
@@ -5127,9 +5137,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="1a4b0b0e-731d-47be-8ea7-21cb7d856aa0" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 56-е.
-    </p>
+    </head>
     <p id="f990d38a-8dfd-4e13-a46a-5eef087502a7" rend="center centerline">
      <hi rend="Razradka">
       Таня
@@ -5147,9 +5157,9 @@
     <p id="bbf16355-64a4-4a77-b029-d7ac4fd3a74a" rend="left pages_p">
      <pb n="146"/>
     </p>
-    <p id="a89f0287-d856-4150-b2cb-0543110c71df" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 57-е.
-    </p>
+    </head>
     <p id="c23d6c25-da8d-44f1-b7a3-24a6e6e8262b" rend="center centerline">
      <hi rend="Razradka">
       Таня, Леонид Федорович и
@@ -5187,9 +5197,9 @@
      Что так? Федор, выдь на минутку.
     </p>
     <lb/>
-    <p id="44a983de-19c8-4578-9aac-194a6f1831fc" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 58-е.
-    </p>
+    </head>
     <p id="4cdb5b30-eba9-420e-bf42-b3a358513c65" rend="center_r">
      Леонид Федорович и Таня.
     </p>
@@ -5393,9 +5403,9 @@
     <p id="a32f3723-fef4-411b-95e1-6e143435a064" rend="left pages_p">
      <pb n="149"/>
     </p>
-    <p id="82039579-8495-4f70-baac-1d989cc27558" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 60-е.
-    </p>
+    </head>
     <p id="a149a206-2e9c-4a48-9a4c-151cc7607d51" rend="center centerline">
      <hi rend="Razradka">
       Таня
@@ -5419,9 +5429,9 @@
      Теперь сделаю, только бы Семен не сробел.
     </p>
     <lb/>
-    <p id="752ac90e-e2f1-48f6-99e9-f8ba3efbef23" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 61-е.
-    </p>
+    </head>
     <p id="7c1705ca-ec93-48e1-b4c0-4e801b04874b" rend="center centerline">
      <hi rend="Razradka">
       Таня и Федор Иваныч
@@ -5550,9 +5560,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="b836690e-0647-4013-9c00-052fb0d0b384" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 62-е.
-    </p>
+    </head>
     <p id="da1e6b59-f01e-4c43-98af-0c6d07151356" rend="center centerline">
      <hi rend="Razradka">
       Федор Иваныч
@@ -5599,9 +5609,9 @@
      Театр представляет внутренность людской кухни. Мужики, раздевшись и запотев, сидят у стола и пьют чай. Федор Иваныч с сигарой на другом конце сцены. На печке Старый повар, не видный первые четыре явления.
     </p>
     <lb/>
-    <p id="b3bdca4e-e1f3-4872-a7ec-fd0512c0dbe5" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 1-е.
-    </p>
+    </head>
     <p id="c0d886de-98e4-490c-a0d6-a006746b42e7" rend="center_r">
      Три Мужика и Федор Иваныч.
     </p>
@@ -5834,9 +5844,9 @@
     <p id="f6eb120a-acb2-4db3-9eb0-2d24ad206285" rend="left pages_p">
      <pb n="154"/>
     </p>
-    <p id="64deb843-8f22-43f3-a4c1-ae9f068f0ca3" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 2-е.
-    </p>
+    </head>
     <p id="3b898f19-a9a9-4ed0-8fdb-78c0c8721956" rend="center centerline">
      <hi rend="Razradka">
       Те же
@@ -5985,9 +5995,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="7b240492-dfdf-4965-be95-a4cdbda37bcb" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 4-е.
-    </p>
+    </head>
     <p id="10632855-9873-4142-9b70-00b5fe756dc0" rend="center_r">
      Те же, без Кучера.
     </p>
@@ -6017,9 +6027,9 @@
     <p id="df159142-5977-4c8b-af5a-7d036802f7c1" rend="left pages_p">
      <pb n="156"/>
     </p>
-    <p id="0d5c3638-ca1e-4d42-8e2e-d3b9bd84f61e" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 5-е.
-    </p>
+    </head>
     <p id="d316dccd-29d7-407d-8549-9a1b7d3f515f" rend="center_r">
      Те же, без Федора Иваныча.
     </p>
@@ -6294,9 +6304,9 @@
     <p id="86d677a2-0cfa-434d-8265-c8ca0a45aaa2" rend="left pages_p">
      <pb n="159"/>
     </p>
-    <p id="10f92142-9d58-4277-9069-0f359b325a99" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 6-е.
-    </p>
+    </head>
     <p id="0f4d66af-3145-4ed7-abcb-029d3cfe1e0a" rend="center_r">
      Те же и Семен.
     </p>
@@ -6664,9 +6674,9 @@
      Ну, ты, танцорщик, помалкивай, знай. Во, идет кто-то
     </p>
     <lb/>
-    <p id="a3d953ad-7e9a-41ec-ae1e-12d24b6c63d9" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 7-е.
-    </p>
+    </head>
     <p id="b5688c10-6bd7-4ff7-b4f5-55bc40681949" rend="center_r">
      Те же и Григорий.
     </p>
@@ -6729,9 +6739,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="82375cf4-9593-4c7a-8f09-4c5d5b5a06b1" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 8-е.
-    </p>
+    </head>
     <p id="d1aaac2e-8548-4181-909e-e3c00f37e0b7" rend="center_r">
      Те же, без Кухарки.
     </p>
@@ -6751,9 +6761,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="5f4cefc6-9080-4e6b-94c7-da55b5bd4dee" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 9-е.
-    </p>
+    </head>
     <p id="1fc264f2-cc1d-4ef1-970f-84724188af8b" rend="center centerline">
      <hi rend="Razradka">
       Три Мужика, Семен и Старый Повар
@@ -6797,9 +6807,9 @@
     <p id="3fcaad33-7098-4a31-8859-167cd4d02d79" rend="left pages_p">
      <pb n="164"/>
     </p>
-    <p id="337098d1-971a-4788-852e-fccb5919c8cc" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 10-е.
-    </p>
+    </head>
     <p id="651ebabf-025b-48c9-bd28-518045c8551f" rend="center centerline">
      <hi rend="Razradka">
       Те же и Яков
@@ -6842,9 +6852,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="32c34b8c-0a0d-4d3f-b370-5fd371c990da" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 11-е.
-    </p>
+    </head>
     <p id="eb2de58a-3c51-4310-b701-f47d3c765bed" rend="center_r">
      Те же, без Семена.
     </p>
@@ -7100,9 +7110,9 @@
      Да так, ослаб. А тоже человек какой был, как барин! При золотых часах ходил, по сорока рублей в месяц жалованья брал. А теперь давно с голоду бы помер, кабы не Лукерья.
     </p>
     <lb/>
-    <p id="aa043a8e-eb43-4eb0-a731-a6654a6a3c6c" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 12-е.
-    </p>
+    </head>
     <p id="24271020-9b7b-4568-8782-7248dc5d7f1c" rend="center centerline">
      <hi rend="Razradka">
       Те же и Кухарка
@@ -7461,9 +7471,9 @@
      Как не знать, — третий двор.
     </p>
     <lb/>
-    <p id="77552f9c-6694-42f9-a5c5-04b029bfd892" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 13-е.
-    </p>
+    </head>
     <p id="c7f959d4-0010-414b-9997-ce9f30a22f57" rend="center centerline">
      <hi rend="Razradka">
       Те же и Таня
@@ -7525,9 +7535,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="4b56b115-1b8b-4ce5-b6a7-fc26cc726dc9" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 14-е.
-    </p>
+    </head>
     <p id="e212a239-fa01-4e30-a180-21fc501b8b5c" rend="center_r">
      Те же без Якова.
     </p>
@@ -8021,9 +8031,9 @@
      Ничего.
     </p>
     <lb/>
-    <p id="cfb19d7c-018d-4a0d-af84-6340ac4c6156" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 15-е.
-    </p>
+    </head>
     <p id="11480d9e-4c58-45cb-a045-909d81c76855" rend="center centerline">
      <hi rend="Razradka">
       Три Мужика, Кухарка, Старый повар
@@ -8228,9 +8238,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="f2c6fdc1-ff57-46af-a56a-353be4a1017f" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 16-е.
-    </p>
+    </head>
     <p id="82f9cb74-ff9d-4e7a-8867-0d2f6f765376" rend="center centerline">
      <hi rend="Razradka">
       Три Мужика, Кухарка и Старый Повар
@@ -8368,9 +8378,9 @@
      Царицу Небесную просить надо. Авось смилосердуется.
     </p>
     <lb/>
-    <p id="ef399be1-6f16-43b9-8caa-3049f6828693" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 17-е.
-    </p>
+    </head>
     <p id="f2f05b4b-f818-450a-bdbb-0852efaa2a07" rend="center centerline">
      <hi rend="italic">
       Тишина, вздохи. Потом слышны топот шагов, шум голосов, двери растворяются настежь и стремительно вваливаются:
@@ -8783,9 +8793,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="f5d7869b-3b82-450b-a236-b0770645e823" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 18-е
-    </p>
+    </head>
     <p id="b176f27b-c41b-4eca-948c-d0f97f44c7fe" rend="center_r">
      <hi rend="Razradka">
       Те же, без Бетси, Марьи Константиновны, Петрищева и Василия Леонидыча
@@ -9110,9 +9120,9 @@
     <p id="0687ddb6-b656-4722-98fa-6ae1d28fe561" rend="left pages_p">
      <pb n="187"/>
     </p>
-    <p id="8231affe-5f03-4939-ae4d-c96ac60eb81a" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 19-е.
-    </p>
+    </head>
     <p id="17ed1241-c72a-44d0-8e8c-001224323d6d" rend="center centerline">
      <hi rend="Razradka">
       Три Мужика, Кухарка, Федор Иваныч, Таня, Старый повар
@@ -9217,9 +9227,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="4a4cba3d-4165-47fe-aa68-34e7ecb16d88" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 20-е.
-    </p>
+    </head>
     <p id="feb851b1-93a4-4b7f-9c47-c915d674bd5b" rend="center centerline">
      <hi rend="Razradka">
       Три Мужика, Таня, Федор Иваныч, Кухарка и Старый повар
@@ -9296,9 +9306,9 @@
     <p id="f0323948-17dd-477e-aa83-f7538d736063" rend="left pages_p">
      <pb n="189"/>
     </p>
-    <p id="40032f11-f0f4-4a5a-952d-1893cb38cbc6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 21-е.
-    </p>
+    </head>
     <p id="f96e0c8b-c09d-4d43-ad6d-67562ee8fb29" rend="center_r">
      <hi rend="Razradka">
       Три Мужика, Таня, Кухарка и Старый повар.
@@ -9378,9 +9388,9 @@
      Действие происходит вечером того же дня, в маленькой гостиной, где всегда производятся у Леонида Федоровича опыты.
     </p>
     <lb/>
-    <p id="94957fd1-3cc3-4cf5-bfb6-a18e77b95897" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 1-е.
-    </p>
+    </head>
     <p id="562c5d00-73f3-4ee1-bbea-d37b35ad514e" rend="center_r">
      Леонид Федорович и Профессор.
     </p>
@@ -9418,9 +9428,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="314eebad-92de-45e5-9a14-619644f3a450" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 2-е.
-    </p>
+    </head>
     <p id="4426f0a5-7040-4930-acf8-a75beca28ba9" rend="center_r">
      Те же и Сахатов.
     </p>
@@ -9561,9 +9571,9 @@
      Да, конечно, но...
     </p>
     <lb/>
-    <p id="661483a2-c759-437d-ac2d-07dbe9ec14b5" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 3-е.
-    </p>
+    </head>
     <p id="962d3048-7b9c-44e6-9f09-1ebddef09b6b" rend="center centerline">
      <hi rend="Razradka">
       Те же и Таня
@@ -9601,9 +9611,9 @@
      Конечно, конечно. Но главное дело — в объяснении явлений и подведении их под общие законы.
     </p>
     <lb/>
-    <p id="0e11db97-8139-40e5-aba4-0cc464904ee2" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 4-е.
-    </p>
+    </head>
     <p id="69cc025a-ae54-4aa9-a2b9-d6839b8abb15" rend="center_r">
      Те же и Толстая барыня.
     </p>
@@ -9717,9 +9727,9 @@
      Я одну, другую, третью ночь не буду спать, а всё-таки не засну.
     </p>
     <lb/>
-    <p id="55b45e04-bb41-432a-b154-736f0741ce41" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 5-е.
-    </p>
+    </head>
     <p id="114f152b-f909-40cb-85db-de5e21bd86f2" rend="center_r">
      Те же и Григорий.
     </p>
@@ -9741,9 +9751,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="11082855-d2f1-4e67-b490-a3b335cc7038" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 6-е.
-    </p>
+    </head>
     <p id="3e68cb6a-0574-476d-b22f-55d89bb3c77f" rend="center centerline">
      <hi rend="Razradka">
       Леонид Федорович, Профессор, Толстая барыня и Таня
@@ -9808,9 +9818,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="9ee73c82-cee3-4ca0-ba79-f90e0308a36e" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 7-е.
-    </p>
+    </head>
     <p id="28a9abbf-2d8e-490d-8f68-637184999d9e" rend="center centerline">
      <hi rend="Razradka">
       Таня
@@ -9829,9 +9839,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="2ed68c4f-d7cd-4d06-b029-8fb44d10a1c3" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 8-е.
-    </p>
+    </head>
     <p id="686cd1d2-3cdd-4e31-b429-87506fbcbfa0" rend="center centerline">
      <hi rend="Razradka">
       Таня и Бетси
@@ -10005,9 +10015,9 @@
      Да ничего, это всё одно, — авось и так выйдет.
     </p>
     <lb/>
-    <p id="8d5adc30-c3e0-4568-adb8-b1fce00b3b49" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 9-е.
-    </p>
+    </head>
     <p id="21cb17b2-fb72-4eaa-b8de-bf73e3024c26" rend="center_r">
      Таня и Федор Иваныч.
     </p>
@@ -10190,9 +10200,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="a795d606-46b3-44b9-b100-a587107f595d" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 10-е.
-    </p>
+    </head>
     <p id="e718fd3e-afa5-400f-a4ce-8075275b2719" rend="center centerline">
      <hi rend="Razradka">
       Федор Иваныч
@@ -10212,9 +10222,9 @@
      Ведь вот их альбом спиритический. Ну, возможное ли это дело, чтобы фотографию с духа снять? А вот изображение — турок и Леонид Федорович сидят. Удивительна слабость человеческая!
     </p>
     <lb/>
-    <p id="00816925-858f-4771-a8d1-13c4cc91d5f6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 11-е.
-    </p>
+    </head>
     <p id="7204119f-3a84-441a-b958-e7c9b7695be8" rend="center_r">
      Федор Иваныч и Леонид Федорович.
     </p>
@@ -10322,9 +10332,9 @@
     <p id="f4fb0aff-6814-483b-9e3a-07511356682d" rend="left pages_p">
      <pb n="201"/>
     </p>
-    <p id="e04c671d-4b15-4673-8c11-2508f33ba3b6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 12-е.
-    </p>
+    </head>
     <p id="e966e622-748b-4aae-8dac-becac5dc9710" rend="center centerline">
      <hi rend="Razradka">
       Те же и Семен
@@ -10434,9 +10444,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="f0e2ec35-42f0-4b0d-8afd-a161117e30b5" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 13-е.
-    </p>
+    </head>
     <p id="be4c0415-0fdd-4ff8-9bd4-4bb59da775ee" rend="center_r">
      Леонид Федорович и Семен.
     </p>
@@ -10464,9 +10474,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="6014a1e1-2d58-4043-ae2f-d90874d73cde" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 14-е.
-    </p>
+    </head>
     <p id="79ad4c33-da9e-4bbf-9da6-7ecb8d74d7d2" rend="center centerline">
      <hi rend="Razradka">
       Семен
@@ -10482,9 +10492,9 @@
      Опять то же велела делать, а она опять будет свое швырять. И как она не боится?
     </p>
     <lb/>
-    <p id="856cb8bc-5138-4590-931d-34172bbc972d" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 15-е.
-    </p>
+    </head>
     <p id="78a691ff-8f22-4f95-a7d2-882236e9c737" rend="center centerline">
      <hi rend="Razradka">
       Семен и Таня
@@ -10566,9 +10576,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="1940aa0c-596c-486d-be15-1e02a1b83136" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 16-е.
-    </p>
+    </head>
     <p id="51fa7955-3ad6-4559-804f-299becd4f781" rend="center centerline">
      <hi rend="Razradka">
       Семен и Таня
@@ -10643,9 +10653,9 @@
      Нет, позвольте, Анна Павловна, это нельзя так решать. Когда еще я была не замужем, видела один замечательный сон. Сны, знаете, бывают такие, что вы не знаете, когда начинается, когда кончается; так я видела именно такой сон...
     </p>
     <lb/>
-    <p id="a2bc8b01-204e-4143-9bcd-28cd90c2edfa" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 17-е.
-    </p>
+    </head>
     <p id="c1410e2b-c5ff-42e5-b408-32ae5d76cc4c" rend="center centerline">
      <hi rend="Razradka">
       Те же, Василий Леонидыч и Петрищев
@@ -10673,9 +10683,9 @@
     <p id="9a94235a-3f66-4e09-aed9-f215b9d9259d" rend="left pages_p">
      <pb n="205"/>
     </p>
-    <p id="a30c6412-06ed-478e-b812-0208ac3ebee3" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 18-е.
-    </p>
+    </head>
     <p id="2b74dcd2-b1e4-47ea-ac77-50162b545a5a" rend="center centerline">
      <hi rend="Razradka">
       Те же
@@ -10786,9 +10796,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="b3eafa7e-98fb-4060-8834-162836cd2494" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 19-е.
-    </p>
+    </head>
     <p id="f9d50bf0-14d1-494b-8776-681a16543749" rend="center_r">
      Те же, без Барыни.
     </p>
@@ -11937,9 +11947,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="f8c46de2-5daf-4e18-b1c3-dbd75ccbc730" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 20-е.
-    </p>
+    </head>
     <p id="fe184822-e5d3-4757-a99f-3a870f41d455" rend="center centerline">
      <hi rend="Razradka">
       Леонид Федорович, Профессор, Толстая барыня, Сахатов, Гросман, Доктор, Семен и Таня.
@@ -12414,9 +12424,9 @@
      </row>
     </table>
     <lb/>
-    <p id="0a13280f-add8-43e5-bffd-5f8720ccae69" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 21-е.
-    </p>
+    </head>
     <p id="55cc2f02-b3a8-4651-804e-f176682e5d52" rend="center centerline">
      <hi rend="Razradka">
       Леонид Федорович с
@@ -12476,9 +12486,9 @@
     <p id="ceae4077-966e-44f1-bc8b-96361ed2e98c" rend="left pages_p">
      <pb n="226"/>
     </p>
-    <p id="b062e94f-32d2-421d-947e-dc6dda190eff" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 22-е.
-    </p>
+    </head>
     <p id="9f881f98-bed2-430c-94cb-546b77fe1f28" rend="center centerline">
      <hi rend="Razradka">
       Таня
@@ -12498,9 +12508,9 @@
      Ну, да всё-таки вышло, — подписал!
     </p>
     <lb/>
-    <p id="e34ded52-b443-4682-9a7f-827927d05c9b" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 23-е.
-    </p>
+    </head>
     <p id="81b1288c-7ea6-4d3b-83ae-efcdd6a50cc0" rend="center_r">
      <hi rend="Razradka">
       Таня и
@@ -12545,9 +12555,9 @@
      Театр представляет декорацию 1-го действия.
     </p>
     <lb/>
-    <p id="b2cf516c-4392-4bfb-b8ce-70a5c2f8c3f6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 1-е.
-    </p>
+    </head>
     <p id="7e59d843-4755-480e-8025-caca4a565c13" rend="center centerline">
      <hi rend="Razradka">
       Два выездных Лакея
@@ -12596,9 +12606,9 @@
      У Щербаковых так-то хорошо, что как бал, так лакеям угощение.
     </p>
     <lb/>
-    <p id="7027e43c-ea17-4360-9ee3-8e03b9d6b9b6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 2-е.
-    </p>
+    </head>
     <p id="1e5e2c25-d65e-4490-8432-55983669d0a3" rend="center centerline">
      <hi rend="Razradka">
       Те же
@@ -12749,9 +12759,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="2d4b115b-0d35-4c59-a9d0-2d2ac6d6bae5" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 3-е.
-    </p>
+    </head>
     <p id="75399a76-7f64-46b8-bc1a-31568f340f5f" rend="center_r">
      Два Лакея, Федор Иваныч и Григорий.
     </p>
@@ -12828,9 +12838,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="b19dc09b-8285-4650-91be-a0618281546f" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 4-е.
-    </p>
+    </head>
     <p id="b36cccf8-3f0d-4b2f-abca-3664a7a31e0a" rend="center_r">
      Те же, без Григорья.
     </p>
@@ -12861,9 +12871,9 @@
      Я бы его к нашему графу, он бы его поставил в точку. Ох! не любит этаких вертунов. Лакей, так будь лакей, звание свое оправдай; а эта гордость не пристала.
     </p>
     <lb/>
-    <p id="514834d2-58c9-472d-9e37-f3c338de932a" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 5-е.
-    </p>
+    </head>
     <p id="aad1aa5d-464a-4916-ab64-5522e6a03cd1" rend="center centerline">
      <hi rend="Razradka">
       Те же
@@ -12995,9 +13005,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="d7e3138a-6809-4729-8e3f-d7a03e23ff38" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 6-е.
-    </p>
+    </head>
     <p id="00d32817-9fcf-4dce-a4d0-299b04d5aed3" rend="center centerline">
      <hi rend="Razradka">
       Два Лакея, Федор Иваныч и Коко Клинген. Бетси
@@ -13407,9 +13417,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="edcd4647-6d47-4757-b1ed-aa4fa4552848" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 7-е.
-    </p>
+    </head>
     <p id="0acad2b0-67fb-4a8b-886f-f5ced8b53c84" rend="center centerline">
      <hi rend="Razradka">
       Федор Иваныч, два Лакея и Яков
@@ -13449,9 +13459,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="2137b8c7-ba38-4e20-9823-aa35a64d0069" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 8-е.
-    </p>
+    </head>
     <p id="dbb2769a-b9c3-4c1b-9b18-a63f5f802d76" rend="center_r">
      Те же, без Якова.
     </p>
@@ -13490,9 +13500,9 @@
      и провели их в кухню. А тут случись угадыванье мыслей; спрятали вещь в кухню, пришли все господа, увидала их барыня — беда! Как, говорит, люди, может быть, зараженные, а их в кухню!.. Очень она напугана заразой этой.
     </p>
     <lb/>
-    <p id="6b98f597-e754-449a-a532-dfd5928741fa" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 9-е.
-    </p>
+    </head>
     <p id="fa8e6067-0d0b-42a4-b8bd-67063625c2ac" rend="center_r">
      Те же и Григорий.
     </p>
@@ -13514,9 +13524,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="73dccc82-cd5b-42a4-9dcd-68b39a5c9e5c" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 10-е.
-    </p>
+    </head>
     <p id="7c8124e5-9989-4b7f-94b2-b174fcd17d7c" rend="center_r">
      Те же, без Григорья.
     </p>
@@ -13551,9 +13561,9 @@
      Ни на что не похоже, какие грехи с этими заразами. Скверно совсем! Даже Бога забыли. Вот у нашего барина сестры, княгини Мосоловой, дочка умирала. Так что же? Ни отец ни мать и в комнату не вошли, так и не простились. А дочка плакала, звала проститься, — не вошли! Доктор какую-то заразу нашел. А ведь ходили же за нею и горничная своя и сиделка — и ничего, обе живы остались.
     </p>
     <lb/>
-    <p id="95d2f519-0a0c-4dd5-8b09-2eac37083ac9" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 11-е.
-    </p>
+    </head>
     <p id="c15c12ee-67a0-46c8-ac60-6a8f474c5700" rend="center centerline">
      <hi rend="Razradka">
       Те же, Василий Леонидыч и Петрищев
@@ -13619,9 +13629,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="430b49ac-8c50-452d-93cf-b1cfe7ed64f6" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 12-е.
-    </p>
+    </head>
     <p id="b3b8aab6-378f-48d1-b3e7-07260ad3e192" rend="center centerline">
      <hi rend="Razradka">
       Два Лакея, Федор Иваныч и Яков
@@ -13695,9 +13705,9 @@
      И то возьмите во внимание, что ежели теперь так всех бояться, то надо запереться в четырех стенах, как в тюрьме ровно, да так и сидеть.
     </p>
     <lb/>
-    <p id="7f43aa8a-c797-4d29-ae7d-5e7c28a2400e" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 13-е.
-    </p>
+    </head>
     <p id="aa3e9877-0cdb-43ba-bdf9-fcdc50194fb1" rend="center centerline">
      <hi rend="Razradka">
       Те же и Таня
@@ -13896,9 +13906,9 @@
      Ступай теперь, — не место тут.
     </p>
     <lb/>
-    <p id="1e30682e-539f-4261-b43b-32747dd5f64d" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 14-е.
-    </p>
+    </head>
     <p id="57b12598-95a3-42ad-b44d-b30fe349ca36" rend="center centerline">
      <hi rend="italic">
       Сверху сходит
@@ -13945,9 +13955,9 @@
      Сейчас говорила. Уж вы заступитесь, Федор Иваныч! А то семейство только стало поправляться, а тут сойдешь с места, когда-то опять попадешь. Федор Иваныч, пожалуйста!
     </p>
     <lb/>
-    <p id="0189b258-643a-45df-a334-6d5525edcac2" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 15-е.
-    </p>
+    </head>
     <p id="52678005-43f9-4c40-9329-544dd7727a5a" rend="center centerline">
      <hi rend="Razradka">
       Федор Иваныч
@@ -14025,9 +14035,9 @@
      </note>
     </p>
     <lb/>
-    <p id="5b0666c7-b71c-4f77-a5ea-14149df84b74" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 16-е.
-    </p>
+    </head>
     <p id="bcd8974d-3aef-459b-8bbf-ae91040d65e5" rend="center centerline">
      <hi rend="Razradka">
       Те же и Григорий
@@ -14107,9 +14117,9 @@
     <p id="c925d2a6-7ef3-43a5-8281-b1bce79b83ee" rend="left pages_p">
      <pb n="241"/>
     </p>
-    <p id="cd63da2f-f4eb-4c57-ad48-5c90e1a8b5b3" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 17-е.
-    </p>
+    </head>
     <p id="d1904409-1ced-42b0-9314-3ea85989fce7" rend="center_r">
      Федор Иваныч, Барыня, Григорий и Семен.
     </p>
@@ -14270,9 +14280,9 @@
     <p id="b0aaad35-3c53-449a-ab13-bc7862a800fe" rend="left pages_p">
      <pb n="243"/>
     </p>
-    <p id="057fe895-2355-4318-84b2-64da3da4f1df" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 18-е.
-    </p>
+    </head>
     <p id="294dcb49-82e8-4acc-be68-e498960d16af" rend="center centerline">
      <hi rend="Razradka">
       Те же, без Григория
@@ -14358,9 +14368,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="3161f5b2-f425-4002-883a-2d0cf50afaa0" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 19-е.
-    </p>
+    </head>
     <p id="a37b72f1-d79f-4a68-b235-4e1312304edc" rend="center centerline">
      <hi rend="Razradka">
       Те же и Леонид Федорович
@@ -14439,9 +14449,9 @@
      Погодите, погодите.
     </p>
     <lb/>
-    <p id="89259cf2-6445-4f9c-a6c9-75a80a6e4f95" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 20-е.
-    </p>
+    </head>
     <p id="d28957a6-7116-4c87-bb94-32b415ed1ce8" rend="center_r">
      Те же, Григорий и Таня.
     </p>
@@ -14497,9 +14507,9 @@
     <p id="ba50fd69-7e30-4fe6-bd00-a0857b1e06a6" rend="left pages_p">
      <pb n="245"/>
     </p>
-    <p id="ab82d3d5-1ede-457d-9d38-694ed3c1d399" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 21-е.
-    </p>
+    </head>
     <p id="86b8bf7a-2cd4-47ea-b2cb-7650c83e6f79" rend="center centerline">
      <hi rend="Razradka">
       Те же
@@ -14557,9 +14567,9 @@
      Ну, да уж когда ты, то кроме самого гадкого ничего и быть не могло.
     </p>
     <lb/>
-    <p id="47ec7431-f922-47c1-b8c4-93d53f0d0a5b" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 22-е.
-    </p>
+    </head>
     <p id="b34f1043-9b02-4982-828d-f46143ee86a5" rend="center_r">
      Те же и Профессор.
     </p>
@@ -14694,9 +14704,9 @@
      Да, как еще мы далеки от Европы!
     </p>
     <lb/>
-    <p id="e0bdd8cd-4b70-4097-ab01-a54f45ae3495" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 23-е.
-    </p>
+    </head>
     <p id="cd3c74e4-9fc3-4245-9df9-6fe7a046da2a" rend="center centerline">
      <hi rend="Razradka">
       Барыня, три Мужика, Федор Иваныч, Таня, Бетси, Григорий, Семен и Яков
@@ -14801,9 +14811,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="63fd529e-046c-4d58-808f-8a85dc3728d7" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 24-е.
-    </p>
+    </head>
     <p id="1d3de9c4-900f-4b3c-9149-449d86af07ce" rend="center_r">
      Те же, без Барыни, Якова и Григория.
     </p>
@@ -14828,9 +14838,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="150ca94c-c079-42d6-ab1e-b75584b48013" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 25-е.
-    </p>
+    </head>
     <p id="aa6157bc-b1ec-4216-95af-3051d2e20dc1" rend="center_r">
      <hi rend="Razradka">
       Федор Иваныч, три Мужика, Таня и Швейцар.
@@ -14940,9 +14950,9 @@
      </hi>
     </p>
     <lb/>
-    <p id="45490b2e-f980-4081-b841-e0486565bd20" rend="subtitle center centerline">
+    <head n="level3" type="yavlenie">
      ЯВЛЕНИЕ 26-е.
-    </p>
+    </head>
     <p id="a411a07f-39bb-4384-bf21-6a2a932a244f" rend="center_r">
      Федор Иваныч, Таня и Семен.
     </p>

@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v23_060_303_Issledovanie_dogmaticheskogo_bogoslovija">
-                    Исследование догматического богословия. Tolstoy Digital
-                </title>
-                <title type="main">Исследование догматического богословия</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4f06b418-678a-4a6d-a097-12ef1482722c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Исследование догматического богословия
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 23
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">23</biblScope>
-                        <biblScope unit="page">60-303</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1884"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v23_060_303_Issledovanie_dogmaticheskogo_bogoslovija">
+     Исследование догматического богословия. Tolstoy Digital
+    </title>
+    <title type="main">
+     Исследование догматического богословия
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4f06b418-678a-4a6d-a097-12ef1482722c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Исследование догматического богословия
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 23
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       23
+      </biblScope>
+      <biblScope unit="page">
+       60-303
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1884"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000008003">
     <p id="9dc637ea-3d1c-45b3-a101-1ce40bdf0fc8">
@@ -204,7 +214,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003002">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА I
     </head>
     <p id="e30fd981-f9aa-4e8e-8ede-19bd1eed8f2a" rend="left">
@@ -288,7 +298,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА II
     </head>
     <p id="16c5df5a-a579-49d5-a7dd-dc5af17e9bd0" rend="left">
@@ -494,7 +504,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА III
     </head>
     <p id="614b6000-40f9-46d6-b452-c0e021d02432" rend="petit left">
@@ -783,7 +793,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА IV
     </head>
     <p id="37333540-0481-4fa8-a0f8-58ea171de76e" rend="left">
@@ -1399,7 +1409,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003006">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА V
     </head>
     <p id="5311fe07-e5ca-4c6e-8aa8-8ca403c7f114" rend="left">
@@ -1891,7 +1901,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003007">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА VI
     </head>
     <p id="7f70679c-7e64-43dd-98a2-3c2af5e24944" rend="left">
@@ -2278,7 +2288,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003008">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА VII
     </head>
     <p id="918a9075-3f4b-4c7b-b085-40667b2478f2" rend="left">
@@ -2464,7 +2474,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003009">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА VIII
     </head>
     <p id="f9ef801a-a673-48f0-bdb8-af65052185d7" rend="left">
@@ -2663,7 +2673,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003010">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА IX
     </head>
     <p id="866d4574-7946-49e3-8266-58c772f4dae1" rend="left">
@@ -2975,7 +2985,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003011">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА X
     </head>
     <p id="4a5c3bad-6f8d-413c-a916-3d12714601a9" rend="left">
@@ -3179,7 +3189,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003012">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА XI
     </head>
     <p id="3bc5e8db-146b-45fd-bebf-c7f7090e6645" rend="left">
@@ -3784,7 +3794,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003013">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА XII
     </head>
     <p id="75c32a7d-e1d1-432c-8a61-d6ee77be243a" rend="left">
@@ -4335,7 +4345,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003014">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА XIII
     </head>
     <p id="8c81b834-2dd9-46af-9303-ce799de4aae7" rend="left">
@@ -4955,7 +4965,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003015">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА XIV
     </head>
     <p id="82268f2e-ab99-493a-9329-0c0baa20dfc2" rend="left">
@@ -5289,7 +5299,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003016">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА XV
     </head>
     <p id="a6d82bc0-659d-429b-8698-164b0282025b" rend="left">
@@ -5468,7 +5478,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003017">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА XVI
     </head>
     <p id="54003c06-4a4b-471e-a242-6d9a5af14d0d" rend="left">
@@ -6260,7 +6270,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000008003018">
-    <head rend="center">
+    <head n="level2" type="chapter">
      ГЛАВА XVII
     </head>
     <p id="b5c062ab-fc51-48fa-a320-bd16a3ddc3ed" rend="left">

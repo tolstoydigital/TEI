@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v40_412_422_Shut_Palechek_Rasskazy_dlja_Detskogo_kruga_chtenija">
-                    Шут Палечек. Tolstoy Digital
-                </title>
-                <title type="main">Шут Палечек.</title>
-                <title type="sub" resp="volume_editor">Переработка рассказа А. Шкарвана</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="01dbe707-e667-44ed-9d21-a64be2879563">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Шут Палечек
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 40
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">40</biblScope>
-                        <biblScope unit="page">412-422</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1907"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#kids" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v40_412_422_Shut_Palechek_Rasskazy_dlja_Detskogo_kruga_chtenija">
+     Шут Палечек. Tolstoy Digital
+    </title>
+    <title type="main">
+     Шут Палечек.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Переработка рассказа А. Шкарвана
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="01dbe707-e667-44ed-9d21-a64be2879563">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Шут Палечек
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 40
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       40
+      </biblScope>
+      <biblScope unit="page">
+       412-422
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1907"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000006002006">
     <p id="4af70861-7c53-4735-b174-482fa479d14c">
@@ -126,12 +138,21 @@
      <note index="false" xml:id="note93">
       <span data-class="paragraph" id="a2fa5d8d-a6ec-4ae8-a7cc-e5942975a6c5" rend="left">
        <del>
-        какому учили людей папы и их <del>архиереи</del>, епископы и попы — неправильно: что учение Христа не в том, чтобы поклоняться иконам и служить обедни и почитать пап, епископов, <del>священ</del> попов, и делать то, что они велят, а
+        какому учили людей папы и их
+        <del>
+         архиереи
+        </del>
+        , епископы и попы — неправильно: что учение Христа не в том, чтобы поклоняться иконам и служить обедни и почитать пап, епископов,
+        <del>
+         священ
+        </del>
+        попов, и делать то, что они велят, а
        </del>
       </span>
      </note>
      в том, чтобы, как сказано в Евангелии, любить бога и ближнего, и что для того, чтобы жить так, нужно ни перед кем не возвышаться, обиды терпеть и не себе требовать службы, а самому служить всем. Так и понимал учение Христа Хельчицкий и так и учил людей. И нашлись такие люди, что приняли это его учение и стали жить так. Люди эти все были простые, небогатые и жили работая. Считали эти люди всех других людей братьями и никого не величали, а всем одинаково говорили: ты брат или сестра. А жили эти братья в Моравии, а потому и стали их называть моравскими братьями. И сами они так и называли себя.
-    </p><p id="e15c3b25-ff02-45b2-b23f-fe0662796316" rend="left">
+    </p>
+    <p id="e15c3b25-ff02-45b2-b23f-fe0662796316" rend="left">
      Был среди этих братьев один хороший, умный и веселый человек по имени
      <name placement="text" ref="10439" type="person">
       Иван Палечек
@@ -468,8 +489,13 @@
      Нечего было делать, и священники отнесли больного нищего в больницу.
     </p>
     <p id="b8013783-533c-4bd1-a30c-e5363a0ef677" rend="left">
-     Не любил Палечек богатых, священников, попов, каноников, епископов за то, что они <del>одевались в роскошные одежды с золотыми украшениями и так входили в алтарь.</del> — «Христос был бедный, — говорил он, — и учил своих учеников раздавать всё и следовать за ним в бедности, а не велел собирать имущества и одеваться в богатые одежды».
-    </p><p id="1fbcd0f8-0743-419e-9288-517e7518cae6" rend="left">
+     Не любил Палечек богатых, священников, попов, каноников, епископов за то, что они
+     <del>
+      одевались в роскошные одежды с золотыми украшениями и так входили в алтарь.
+     </del>
+     — «Христос был бедный, — говорил он, — и учил своих учеников раздавать всё и следовать за ним в бедности, а не велел собирать имущества и одеваться в богатые одежды».
+    </p>
+    <p id="1fbcd0f8-0743-419e-9288-517e7518cae6" rend="left">
      Пришли раз к королю пражские каноники. Нарядились они в самые роскошные наряды, в свои горностаевые накидки. Накидки эти надевают мехом кверху. В то время как каноники
      <pb n="418"/>
      эти стояли перед королем и говорили ему про свои дела, подошел к ним сзади Палечек и стал дергать их за горностаевые хвостики и смеяться.
@@ -490,7 +516,11 @@
      — Оставь в покое господ священников.
     </p>
     <p id="5265f678-0f04-4b55-b176-a857edfe0743" rend="left">
-     — <del>Священников?</del> удивился Палечек. — Разве это священники? А я думал, что это ряженые.
+     —
+     <del>
+      Священников?
+     </del>
+     удивился Палечек. — Разве это священники? А я думал, что это ряженые.
      <ref target="#note100">
       100
      </ref>
@@ -501,7 +531,8 @@
        </del>
       </span>
      </note>
-    </p><p id="9569ce77-8efd-460e-8dea-28ee4b92a13f" rend="left">
+    </p>
+    <p id="9569ce77-8efd-460e-8dea-28ee4b92a13f" rend="left">
      Другой раз случилось, что к Палечеку пришел староста и просил помочь ему в его горе. Дело было в том, что у боярыни
      <name placement="text" ref="13678" type="person">
       Терчковой

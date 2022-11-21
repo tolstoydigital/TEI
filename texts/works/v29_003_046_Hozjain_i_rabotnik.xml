@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v29_003_046_Hozjain_i_rabotnik">
-                    Хозяин и работник. Tolstoy Digital
-                </title>
-                <title type="main">Хозяин и работник</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="1ae9a347-0630-424f-85d5-d2ceed4c3c8e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Хозяин и работник
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 29
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="volume">29</biblScope>
-                        <biblScope unit="page">3-46</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1894" to="1895"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v29_003_046_Hozjain_i_rabotnik">
+     Хозяин и работник. Tolstoy Digital
+    </title>
+    <title type="main">
+     Хозяин и работник
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="1ae9a347-0630-424f-85d5-d2ceed4c3c8e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Хозяин и работник
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 29
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="volume">
+       29
+      </biblScope>
+      <biblScope unit="page">
+       3-46
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1894" to="1895"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section">
     <p id="30033723-7d47-46b5-8169-41682fc18833">
@@ -110,7 +120,7 @@
      ХОЗЯИН И РАБОТНИК
     </head>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       I
      </head>
      <p id="cf3ab935-610a-46bf-950b-a1bcd7f90962" rend="left">
@@ -315,7 +325,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       II
      </head>
      <p id="234f31cf-cddf-49b9-bc2e-4c20622ec1b0" rend="left">
@@ -556,7 +566,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       III
      </head>
      <p id="aad31be7-b536-4bd9-80ef-9929d5638e89" rend="left">
@@ -866,7 +876,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       IV
      </head>
      <p id="59937456-104d-4cda-b7f9-8f353003bd64" rend="left">
@@ -1032,7 +1042,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       V
      </head>
      <p id="faf837b4-e6a7-4100-b3dc-b34d6c00ae08" rend="left">
@@ -1284,7 +1294,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       VI
      </head>
      <p id="e62b59e6-0643-47b8-8af8-798aa374405b" rend="left">
@@ -1458,7 +1468,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       VII
      </head>
      <p id="bf8b9c08-82ed-4bfd-8a33-d03f5ac5d97e" rend="left">
@@ -1493,7 +1503,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       VIII
      </head>
      <p id="d91c6ea5-83a9-4fae-8cda-4f3d4075e456" rend="left">
@@ -1578,7 +1588,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       IX
      </head>
      <p id="f1d16f14-50b1-4b7b-bf80-2e64fe885bf4" rend="left">
@@ -1687,7 +1697,7 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 center">
+     <head n="level2" type="chapter">
       X
      </head>
      <p id="4b523ff2-b3df-4af9-96aa-72d99a01dcb5" rend="left">

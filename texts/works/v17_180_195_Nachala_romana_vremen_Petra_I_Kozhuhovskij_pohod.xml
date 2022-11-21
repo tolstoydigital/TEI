@@ -1,109 +1,121 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_180_195_Nachala_romana_vremen_Petra_I_Kozhuhovskij_pohod" resp="volume_editor">
-                    [«Начала» романа времен Петра I. Кожуховский поход]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Начало романа времен Петра I.</title>
-                <title type="sub" resp="volume_editor">Кожуховский поход</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e89dbe1e-dc2d-4fb6-b5eb-6203dd7c877a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [«Начала» романа времен Петра I. Кожуховский поход]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">180-195</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1870-1873, 1879 гг.
-                </date>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_180_195_Nachala_romana_vremen_Petra_I_Kozhuhovskij_pohod">
+     [«Начала» романа времен Петра I. Кожуховский поход]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Начало романа времен Петра I.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Кожуховский поход
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e89dbe1e-dc2d-4fb6-b5eb-6203dd7c877a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [«Начала» романа времен Петра I. Кожуховский поход]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       180-195
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1870-1873, 1879 гг.
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="a1c46ec4-e767-4850-9000-7e9b79586135">
@@ -250,16 +262,20 @@
        ихъ
       </orig>
      </choice>
-     шайку разогнали и <del>Ерлокова сослали
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     свои вотчины</del>. И
+     шайку разогнали и
+     <del>
+      Ерлокова сослали
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      свои вотчины
+     </del>
+     . И
      <choice>
       <reg>
        стал
@@ -464,7 +480,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="35337039-5738-4400-87b8-5730a0f2ac97" rend="left">
+    </p>
+    <p id="35337039-5738-4400-87b8-5730a0f2ac97" rend="left">
      Вотчины были не
      <choice>
       <reg>
@@ -2958,7 +2975,11 @@
        отпуститъ
       </orig>
      </choice>
-     , не угостивши и не напоивши до <del>пьяна</del>.
+     , не угостивши и не напоивши до
+     <del>
+      пьяна
+     </del>
+     .
      <choice>
       <reg>
        После
@@ -3383,7 +3404,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="45bf105b-f999-4012-85c7-b7f87701b4e7" rend="left">
+    </p>
+    <p id="45bf105b-f999-4012-85c7-b7f87701b4e7" rend="left">
      Теперь на
      <choice>
       <reg>
@@ -3511,14 +3533,14 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -3558,7 +3580,8 @@
       </orig>
      </choice>
      .
-    </p><p id="d9a3bf56-dc48-4854-8e61-4920d936fc12" rend="left">
+    </p>
+    <p id="d9a3bf56-dc48-4854-8e61-4920d936fc12" rend="left">
      — Ты поди
      <choice>
       <reg>
@@ -4386,8 +4409,13 @@
       </cell>
       <cell>
        <p id="2419271b-51b2-4fd6-8979-67aeb1face16">
-        7) <del>Мона</del>.
-       </p></cell>
+        7)
+        <del>
+         Мона
+        </del>
+        .
+       </p>
+      </cell>
      </row>
      <row>
       <cell>
@@ -4623,16 +4651,18 @@
        подъ
       </orig>
      </choice>
-     Москву было собрано <del>
-     <choice>
-      <reg>
-       потешное
-      </reg>
-      <orig>
-       потѣшное
-      </orig>
-     </choice>
-     </del> войско. Войско состояло
+     Москву было собрано
+     <del>
+      <choice>
+       <reg>
+        потешное
+       </reg>
+       <orig>
+        потѣшное
+       </orig>
+      </choice>
+     </del>
+     войско. Войско состояло
      <choice>
       <reg>
        из
@@ -4917,7 +4947,8 @@
       </orig>
      </choice>
      сроку. —
-    </p><p id="5514d33d-5b62-4840-a882-2db5d1da379f" rend="left">
+    </p>
+    <p id="5514d33d-5b62-4840-a882-2db5d1da379f" rend="left">
      <choice>
       <reg>
        Под
@@ -5378,40 +5409,42 @@
     </p>
     <p id="9e6f4dc9-17ec-4274-8987-d05c1ba956d8" rend="left">
      <del>
-     <choice>
-      <reg>
-       Походов
-      </reg>
-      <orig>
-       Походовъ
-      </orig>
-     </choice>
-     не было
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Крымских
-      </reg>
-      <orig>
-       Крымскихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       походов
-      </reg>
-      <orig>
-       походовъ
-      </orig>
-     </choice>
-     3 года.</del> Дворяне знали, что
+      <choice>
+       <reg>
+        Походов
+       </reg>
+       <orig>
+        Походовъ
+       </orig>
+      </choice>
+      не было
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Крымских
+       </reg>
+       <orig>
+        Крымскихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        походов
+       </reg>
+       <orig>
+        походовъ
+       </orig>
+      </choice>
+      3 года.
+     </del>
+     Дворяне знали, что
      <choice>
       <reg>
        вызывают
@@ -5491,7 +5524,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="c5704251-5f92-49ac-93a0-cd324e96c369" rend="left">
+    </p>
+    <p id="c5704251-5f92-49ac-93a0-cd324e96c369" rend="left">
      Любовался
      <choice>
       <reg>
@@ -6895,112 +6929,116 @@
        любилъ
       </orig>
      </choice>
-     угостить. — <del>Холопи его
-     <choice>
-      <reg>
-       забегались
-      </reg>
-      <orig>
-       забѣгались
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     это утро, угощая гостей.
-     <choice>
-      <reg>
-       В
-      </reg>
-      <orig>
-       Въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       таборе
-      </reg>
-      <orig>
-       таборѣ
-      </orig>
-     </choice>
-     Луки Ивановича перебывало
-     <choice>
-      <reg>
-       человек
-      </reg>
-      <orig>
-       человѣкъ
-      </orig>
-     </choice>
-     20 и
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     уходили пьяные и теперь (
-     <choice>
-      <reg>
-       уж
-      </reg>
-      <orig>
-       ужъ
-      </orig>
-     </choice>
-     время шло
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       обеду
-      </reg>
-      <orig>
-       обѣду
-      </orig>
-     </choice>
-     ) еще
-     <choice>
-      <reg>
-       сидели
-      </reg>
-      <orig>
-       сидѣли
-      </orig>
-     </choice>
-     гости, пили
-     <choice>
-      <reg>
-       мед
-      </reg>
-      <orig>
-       медъ
-      </orig>
-     </choice>
-     старый. Лука
-     <choice>
-      <reg>
-       Иванович
-      </reg>
-      <orig>
-       Ивановичъ
-      </orig>
-     </choice>
-     хвалился своими медами.</del> Гости
+     угостить. —
+     <del>
+      Холопи его
+      <choice>
+       <reg>
+        забегались
+       </reg>
+       <orig>
+        забѣгались
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      это утро, угощая гостей.
+      <choice>
+       <reg>
+        В
+       </reg>
+       <orig>
+        Въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        таборе
+       </reg>
+       <orig>
+        таборѣ
+       </orig>
+      </choice>
+      Луки Ивановича перебывало
+      <choice>
+       <reg>
+        человек
+       </reg>
+       <orig>
+        человѣкъ
+       </orig>
+      </choice>
+      20 и
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      уходили пьяные и теперь (
+      <choice>
+       <reg>
+        уж
+       </reg>
+       <orig>
+        ужъ
+       </orig>
+      </choice>
+      время шло
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        обеду
+       </reg>
+       <orig>
+        обѣду
+       </orig>
+      </choice>
+      ) еще
+      <choice>
+       <reg>
+        сидели
+       </reg>
+       <orig>
+        сидѣли
+       </orig>
+      </choice>
+      гости, пили
+      <choice>
+       <reg>
+        мед
+       </reg>
+       <orig>
+        медъ
+       </orig>
+      </choice>
+      старый. Лука
+      <choice>
+       <reg>
+        Иванович
+       </reg>
+       <orig>
+        Ивановичъ
+       </orig>
+      </choice>
+      хвалился своими медами.
+     </del>
+     Гости
      <choice>
       <reg>
        сидели
@@ -7159,7 +7197,8 @@
       </orig>
      </choice>
      [?] Княжеской.
-    </p><p id="0162e032-af3a-4199-b9f3-d2e3bb70160a" rend="left">
+    </p>
+    <p id="0162e032-af3a-4199-b9f3-d2e3bb70160a" rend="left">
      Гостей было 5.
      <choice>
       <reg>
@@ -7238,24 +7277,25 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     большущей волосатой русой головой и
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     рыжеватой бородищей до пояса.</del>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      большущей волосатой русой головой и
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      рыжеватой бородищей до пояса.
+     </del>
      <choice>
       <reg>
        Он
@@ -7350,7 +7390,11 @@
        воротѣ
       </orig>
      </choice>
-     и рубашка тоже, и то его толстую красную шею точно давило <del>что-то</del>,
+     и рубашка тоже, и то его толстую красную шею точно давило
+     <del>
+      что-то
+     </del>
+     ,
      <choice>
       <reg>
        он
@@ -7740,7 +7784,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="0818421d-2b67-4b64-8482-14a39109ae88" rend="left">
+    </p>
+    <p id="0818421d-2b67-4b64-8482-14a39109ae88" rend="left">
      Молодой
      <choice>
       <reg>
@@ -9522,7 +9567,9 @@
          копьемъ
         </orig>
        </choice>
-       <del>и</del>
+       <del>
+        и
+       </del>
        <choice>
         <reg>
          ратовищем
@@ -9846,7 +9893,8 @@
       </span>
      </note>
      —
-    </p></div>
+    </p>
+   </div>
    <div type="section" xml:id="h000011006001004004">
     <head n="level2" type="editorial">
      * № 13.
@@ -10593,16 +10641,19 @@
        лѣса
       </orig>
      </choice>
-     [?], <del>кто
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     ша</del>
+     [?],
+     <del>
+      кто
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      ша
+     </del>
      <choice>
       <reg>
        лашах
@@ -10654,15 +10705,17 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       под
-      </reg>
-      <orig>
-       подъ
-      </orig>
-     </choice>
-     подвязанными оглоблями</del>. Князь
+      <choice>
+       <reg>
+        под
+       </reg>
+       <orig>
+        подъ
+       </orig>
+      </choice>
+      подвязанными оглоблями
+     </del>
+     . Князь
      <choice>
       <reg>
        Иван
@@ -10755,7 +10808,8 @@
       </orig>
      </choice>
      рогожами для затишья. —
-    </p><p id="ec950155-d9a9-4acb-979b-0ddcf817d4c7" rend="left">
+    </p>
+    <p id="ec950155-d9a9-4acb-979b-0ddcf817d4c7" rend="left">
      Ивану Лукичу было далеко за 60
      <choice>
       <reg>
@@ -11705,24 +11759,26 @@
        бѣглаго
       </orig>
      </choice>
-     , есть ли слухи. Мужики <del>
-     <choice>
-      <reg>
-       без
-      </reg>
-      <orig>
-       безъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       шапок
-      </reg>
-      <orig>
-       шапокъ
-      </orig>
-     </choice>
-     </del> стояли
+     , есть ли слухи. Мужики
+     <del>
+      <choice>
+       <reg>
+        без
+       </reg>
+       <orig>
+        безъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        шапок
+       </reg>
+       <orig>
+        шапокъ
+       </orig>
+      </choice>
+     </del>
+     стояли
      <choice>
       <reg>
        перед
@@ -11749,7 +11805,8 @@
       </orig>
      </choice>
      , что знали.
-    </p><p id="db303f91-56ea-4812-ba2b-60e810aa8e45" rend="left">
+    </p>
+    <p id="db303f91-56ea-4812-ba2b-60e810aa8e45" rend="left">
      <choice>
       <reg>
        Поговорив
@@ -11870,25 +11927,28 @@
        пощелкалъ
       </orig>
      </choice>
-     зернушки и <del>
-     <choice>
-      <reg>
-       пошел
-      </reg>
-      <orig>
-       пошелъ
-      </orig>
-     </choice>
-     опять покалякать
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     мужиками</del>.
+     зернушки и
+     <del>
+      <choice>
+       <reg>
+        пошел
+       </reg>
+       <orig>
+        пошелъ
+       </orig>
+      </choice>
+      опять покалякать
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      мужиками
+     </del>
+     .
      <choice>
       <reg>
        Потом
@@ -11987,7 +12047,8 @@
       </span>
      </add>
      чужаго холопа. Это былъ холопъ сосѣда по табору Кн. Хованскаго, онъ подозвалъ къ себѣ.
-    </p><p id="5d8ea1dd-4b4d-4448-87e7-929093d69e8d" rend="left">
+    </p>
+    <p id="5d8ea1dd-4b4d-4448-87e7-929093d69e8d" rend="left">
      — Скажи куму Князю
      <name placement="text" ref="14946" type="person">
       Ивану Ивановичу
@@ -12196,23 +12257,25 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       попом
-      </reg>
-      <orig>
-       попомъ
-      </orig>
-     </choice>
-     ушла</del>,
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        попом
+       </reg>
+       <orig>
+        попомъ
+       </orig>
+      </choice>
+      ушла
+     </del>
+     ,
      <choice>
       <reg>
        велела
@@ -12275,7 +12338,8 @@
       </orig>
      </choice>
      .
-    </p><p id="358ecfe2-e04b-48db-949e-dfd3761848f1" rend="left">
+    </p>
+    <p id="358ecfe2-e04b-48db-949e-dfd3761848f1" rend="left">
      —
      <choice>
       <reg>
@@ -13272,25 +13336,29 @@
        землѣ
       </orig>
      </choice>
-     и шалашики для дворни, спереди на лужку <del>стояли варки
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     конями или ходили
-     <choice>
-      <reg>
-       спутанные
-      </reg>
-      <orig>
-       спутанныя
-      </orig>
-     </choice>
-     лошади</del>. Позади
+     и шалашики для дворни, спереди на лужку
+     <del>
+      стояли варки
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      конями или ходили
+      <choice>
+       <reg>
+        спутанные
+       </reg>
+       <orig>
+        спутанныя
+       </orig>
+      </choice>
+      лошади
+     </del>
+     . Позади
      <choice>
       <reg>
        в
@@ -13463,7 +13531,8 @@
       </orig>
      </choice>
      , медами. —
-    </p><p id="e2277006-1655-452a-9a79-2b1b43cdb14b" rend="left">
+    </p>
+    <p id="e2277006-1655-452a-9a79-2b1b43cdb14b" rend="left">
      Князь
      <choice>
       <reg>
@@ -14429,7 +14498,11 @@
          навстрѣчу
         </orig>
        </choice>
-       . И <del>низко</del> поклонился,
+       . И
+       <del>
+        низко
+       </del>
+       поклонился,
        <choice>
         <reg>
          потом
@@ -14515,7 +14588,8 @@
       </span>
      </note>
      —
-    </p><p id="16c30d6c-5484-4d85-8525-eeba3d620f74" rend="left">
+    </p>
+    <p id="16c30d6c-5484-4d85-8525-eeba3d620f74" rend="left">
      <pb n="191"/>
     </p>
     <p id="423a1a42-cb63-42e0-8ea5-fe4f6bb3b634" rend="left">
@@ -17881,7 +17955,11 @@
        Черезъ
       </orig>
      </choice>
-     три <del>дни</del>, слышно было, что
+     три
+     <del>
+      дни
+     </del>
+     , слышно было, что
      <choice>
       <reg>
        <name placement="text" ref="2117" type="person">
@@ -18131,7 +18209,8 @@
       </orig>
      </choice>
      Москвою.
-    </p><p id="260eb5c5-1518-4352-a878-fa900d6c250f" rend="left">
+    </p>
+    <p id="260eb5c5-1518-4352-a878-fa900d6c250f" rend="left">
      Оттуда пошли
      <choice>
       <reg>
@@ -18166,16 +18245,19 @@
        черезъ
       </orig>
      </choice>
-     Москву, <del>по Мясницкой
-     <choice>
-      <reg>
-       улице
-      </reg>
-      <orig>
-       улицѣ
-      </orig>
-     </choice>
-     </del>.
+     Москву,
+     <del>
+      по Мясницкой
+      <choice>
+       <reg>
+        улице
+       </reg>
+       <orig>
+        улицѣ
+       </orig>
+      </choice>
+     </del>
+     .
      <choice>
       <reg>
        Щетининым
@@ -19676,7 +19758,8 @@
       </orig>
      </choice>
      .
-    </p><p id="8bfa66d9-8999-4590-b509-564b2917205b" rend="left">
+    </p>
+    <p id="8bfa66d9-8999-4590-b509-564b2917205b" rend="left">
      <choice>
       <reg>
        Аргамак

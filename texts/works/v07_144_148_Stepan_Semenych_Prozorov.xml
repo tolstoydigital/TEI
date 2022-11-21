@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_144_148_Stepan_Semenych_Prozorov">
-                    Степан Семеныч Прозоров. Tolstoy Digital
-                </title>
-                <title type="main">Степан Семеныч Прозоров</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="96efa160-5405-44dc-96b6-34fd92af3319">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Степан Семеныч Прозоров
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">144-148</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1869"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_144_148_Stepan_Semenych_Prozorov">
+     Степан Семеныч Прозоров. Tolstoy Digital
+    </title>
+    <title type="main">
+     Степан Семеныч Прозоров
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="96efa160-5405-44dc-96b6-34fd92af3319">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Степан Семеныч Прозоров
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       144-148
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1869"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="f14d49bd-9684-478f-9128-5e807d3a27f3">
@@ -114,7 +124,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000012017">
-    <head rend="center">
+    <head n="level1">
      <hi rend="strong">
       *
       <choice>
@@ -177,585 +187,587 @@
     </head>
     <p id="688be4d8-a652-43e5-b31b-59c8053e4e6b" rend="left">
      <del>
-     <choice>
-      <reg>
-       Был
-      </reg>
-      <orig>
-       Былъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     богатый
-     <choice>
-      <reg>
-       помещик
-      </reg>
-      <orig>
-       помѣщикъ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="А[ндрей]">
-      <sic>
-       А
-      </sic>
-      <corr>
-       Андрей
-      </corr>
-     </choice>
-     <choice original_editorial_correction="И[ванычъ]">
-      <sic>
-       И
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Иваныч
-        </reg>
-        <orig>
-         Иванычъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       Прозоров
-      </reg>
-      <orig>
-       Прозоровъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Он
-      </reg>
-      <orig>
-       Онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       молод
-      </reg>
-      <orig>
-       молодъ
-      </orig>
-     </choice>
-     ,
-     <ref target="#note151">
-      151
-     </ref>
-     <note index="false" xml:id="note151">
-      <span data-class="paragraph" id="a9ba1f72-cd89-442e-ba76-16784e9315e8" rend="left">
-       ему было 25
-       <choice>
-        <reg>
-         лет
-        </reg>
-        <orig>
-         лѣтъ
-        </orig>
-       </choice>
-       , а его выбрали
-       <choice original_editorial_correction="предводи[телемъ]">
-        <sic>
-         предводи
-        </sic>
-        <corr>
-         <choice>
-          <reg>
-           предводителем
-          </reg>
-          <orig>
-           предводителемъ
-          </orig>
-         </choice>
-        </corr>
-       </choice>
-      </span>
-     </note>
-     <choice>
-      <reg>
-       красив
-      </reg>
-      <orig>
-       красивъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       силен
-      </reg>
-      <orig>
-       силенъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       здоров
-      </reg>
-      <orig>
-       здоровъ
-      </orig>
-     </choice>
-     , жена у него была добрая и красивая, было двое
-     <choice>
-      <reg>
-       прекрасных
-      </reg>
-      <orig>
-       прекрасныхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       детей
-      </reg>
-      <orig>
-       дѣтей
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       сын
-      </reg>
-      <orig>
-       сынъ
-      </orig>
-     </choice>
-     и дочь, во
-     <choice>
-      <reg>
-       всем
-      </reg>
-      <orig>
-       всемъ
-      </orig>
-     </choice>
-     ему была удача, и
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     всегда
-     <choice>
-      <reg>
-       доволен
-      </reg>
-      <orig>
-       доволенъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       весел
-      </reg>
-      <orig>
-       веселъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       видеть
-      </reg>
-      <orig>
-       видѣть
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       мог
-      </reg>
-      <orig>
-       могъ
-      </orig>
-     </choice>
-     несчастье
-     <choice>
-      <reg>
-       других
-      </reg>
-      <orig>
-       другихъ
-      </orig>
-     </choice>
-     людей. Если
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       видел
-      </reg>
-      <orig>
-       видѣлъ
-      </orig>
-     </choice>
-     несчастье и
-     <choice>
-      <reg>
-       мог
-      </reg>
-      <orig>
-       могъ
-      </orig>
-     </choice>
-     помочь,
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     все
-     <choice>
-      <reg>
-       готов
-      </reg>
-      <orig>
-       готовъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сделать
-      </reg>
-      <orig>
-       сдѣлать
-      </orig>
-     </choice>
-     для
-     <choice>
-      <reg>
-       несчастного
-      </reg>
-      <orig>
-       несчастнаго
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       последнюю
-      </reg>
-      <orig>
-       послѣднюю
-      </orig>
-     </choice>
-     рубашку
-     <choice>
-      <reg>
-       готов
-      </reg>
-      <orig>
-       готовъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     отдать; а если
-     <choice>
-      <reg>
-       уж
-      </reg>
-      <orig>
-       ужъ
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       мог
-      </reg>
-      <orig>
-       могъ
-      </orig>
-     </choice>
-     помочь, то
-     <choice>
-      <reg>
-       начинал
-      </reg>
-      <orig>
-       начиналъ
-      </orig>
-     </choice>
-     махать руками и плакать и
-     <choice>
-      <reg>
-       убегал
-      </reg>
-      <orig>
-       убѣгалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       вон
-      </reg>
-      <orig>
-       вонъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       чтоб
-      </reg>
-      <orig>
-       чтобъ
-      </orig>
-     </choice>
-     не видать
-     <choice>
-      <reg>
-       несчастия
-      </reg>
-      <orig>
-       несчастiя
-      </orig>
-     </choice>
-     . Жена и мать его, старушка, часто упрекали ему за то, что
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     много
-     <choice>
-      <reg>
-       тратил
-      </reg>
-      <orig>
-       тратилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       денег
-      </reg>
-      <orig>
-       денегъ
-      </orig>
-     </choice>
-     . Но
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       им
-      </reg>
-      <orig>
-       имъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       говорил
-      </reg>
-      <orig>
-       говорилъ
-      </orig>
-     </choice>
-     : «На что
-     <choice>
-      <reg>
-       ж
-      </reg>
-      <orig>
-       жъ
-      </orig>
-     </choice>
-     деньги, если
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     не тратить», — и
-     <choice>
-      <reg>
-       собирал
-      </reg>
-      <orig>
-       собиралъ
-      </orig>
-     </choice>
-     гостей,
-     <choice>
-      <reg>
-       задавал
-      </reg>
-      <orig>
-       задавалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       обеды
-      </reg>
-      <orig>
-       обѣды
-      </orig>
-     </choice>
-     , балы, и кто не
-     <choice>
-      <reg>
-       просил
-      </reg>
-      <orig>
-       просилъ
-      </orig>
-     </choice>
-     у него,
-     <choice>
-      <reg>
-       всем
-      </reg>
-      <orig>
-       всѣмъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       давал
-      </reg>
-      <orig>
-       давалъ
-      </orig>
-     </choice>
-     . И сколько
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       мотал
-      </reg>
-      <orig>
-       моталъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       денег
-      </reg>
-      <orig>
-       денегъ
-      </orig>
-     </choice>
-     , деньги сами шли
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     нему. Что
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     больше
-     <choice>
-      <reg>
-       бросал
-      </reg>
-      <orig>
-       бросалъ
-      </orig>
-     </choice>
-     деньги, то деньги больше шли
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     нему.</del>
-    </p><p id="0d5fa22a-4496-4ebe-8b0a-cd8917fb8237" rend="left">
+      <choice>
+       <reg>
+        Был
+       </reg>
+       <orig>
+        Былъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      богатый
+      <choice>
+       <reg>
+        помещик
+       </reg>
+       <orig>
+        помѣщикъ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="А[ндрей]">
+       <sic>
+        А
+       </sic>
+       <corr>
+        Андрей
+       </corr>
+      </choice>
+      <choice original_editorial_correction="И[ванычъ]">
+       <sic>
+        И
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Иваныч
+         </reg>
+         <orig>
+          Иванычъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        Прозоров
+       </reg>
+       <orig>
+        Прозоровъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Он
+       </reg>
+       <orig>
+        Онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        молод
+       </reg>
+       <orig>
+        молодъ
+       </orig>
+      </choice>
+      ,
+      <ref target="#note151">
+       151
+      </ref>
+      <note index="false" xml:id="note151">
+       <span data-class="paragraph" id="a9ba1f72-cd89-442e-ba76-16784e9315e8" rend="left">
+        ему было 25
+        <choice>
+         <reg>
+          лет
+         </reg>
+         <orig>
+          лѣтъ
+         </orig>
+        </choice>
+        , а его выбрали
+        <choice original_editorial_correction="предводи[телемъ]">
+         <sic>
+          предводи
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            предводителем
+           </reg>
+           <orig>
+            предводителемъ
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+       </span>
+      </note>
+      <choice>
+       <reg>
+        красив
+       </reg>
+       <orig>
+        красивъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        силен
+       </reg>
+       <orig>
+        силенъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        здоров
+       </reg>
+       <orig>
+        здоровъ
+       </orig>
+      </choice>
+      , жена у него была добрая и красивая, было двое
+      <choice>
+       <reg>
+        прекрасных
+       </reg>
+       <orig>
+        прекрасныхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        детей
+       </reg>
+       <orig>
+        дѣтей
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        сын
+       </reg>
+       <orig>
+        сынъ
+       </orig>
+      </choice>
+      и дочь, во
+      <choice>
+       <reg>
+        всем
+       </reg>
+       <orig>
+        всемъ
+       </orig>
+      </choice>
+      ему была удача, и
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      всегда
+      <choice>
+       <reg>
+        доволен
+       </reg>
+       <orig>
+        доволенъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        весел
+       </reg>
+       <orig>
+        веселъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        видеть
+       </reg>
+       <orig>
+        видѣть
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        мог
+       </reg>
+       <orig>
+        могъ
+       </orig>
+      </choice>
+      несчастье
+      <choice>
+       <reg>
+        других
+       </reg>
+       <orig>
+        другихъ
+       </orig>
+      </choice>
+      людей. Если
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        видел
+       </reg>
+       <orig>
+        видѣлъ
+       </orig>
+      </choice>
+      несчастье и
+      <choice>
+       <reg>
+        мог
+       </reg>
+       <orig>
+        могъ
+       </orig>
+      </choice>
+      помочь,
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      все
+      <choice>
+       <reg>
+        готов
+       </reg>
+       <orig>
+        готовъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сделать
+       </reg>
+       <orig>
+        сдѣлать
+       </orig>
+      </choice>
+      для
+      <choice>
+       <reg>
+        несчастного
+       </reg>
+       <orig>
+        несчастнаго
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        последнюю
+       </reg>
+       <orig>
+        послѣднюю
+       </orig>
+      </choice>
+      рубашку
+      <choice>
+       <reg>
+        готов
+       </reg>
+       <orig>
+        готовъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      отдать; а если
+      <choice>
+       <reg>
+        уж
+       </reg>
+       <orig>
+        ужъ
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        мог
+       </reg>
+       <orig>
+        могъ
+       </orig>
+      </choice>
+      помочь, то
+      <choice>
+       <reg>
+        начинал
+       </reg>
+       <orig>
+        начиналъ
+       </orig>
+      </choice>
+      махать руками и плакать и
+      <choice>
+       <reg>
+        убегал
+       </reg>
+       <orig>
+        убѣгалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        вон
+       </reg>
+       <orig>
+        вонъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        чтоб
+       </reg>
+       <orig>
+        чтобъ
+       </orig>
+      </choice>
+      не видать
+      <choice>
+       <reg>
+        несчастия
+       </reg>
+       <orig>
+        несчастiя
+       </orig>
+      </choice>
+      . Жена и мать его, старушка, часто упрекали ему за то, что
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      много
+      <choice>
+       <reg>
+        тратил
+       </reg>
+       <orig>
+        тратилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        денег
+       </reg>
+       <orig>
+        денегъ
+       </orig>
+      </choice>
+      . Но
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        им
+       </reg>
+       <orig>
+        имъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        говорил
+       </reg>
+       <orig>
+        говорилъ
+       </orig>
+      </choice>
+      : «На что
+      <choice>
+       <reg>
+        ж
+       </reg>
+       <orig>
+        жъ
+       </orig>
+      </choice>
+      деньги, если
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      не тратить», — и
+      <choice>
+       <reg>
+        собирал
+       </reg>
+       <orig>
+        собиралъ
+       </orig>
+      </choice>
+      гостей,
+      <choice>
+       <reg>
+        задавал
+       </reg>
+       <orig>
+        задавалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        обеды
+       </reg>
+       <orig>
+        обѣды
+       </orig>
+      </choice>
+      , балы, и кто не
+      <choice>
+       <reg>
+        просил
+       </reg>
+       <orig>
+        просилъ
+       </orig>
+      </choice>
+      у него,
+      <choice>
+       <reg>
+        всем
+       </reg>
+       <orig>
+        всѣмъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        давал
+       </reg>
+       <orig>
+        давалъ
+       </orig>
+      </choice>
+      . И сколько
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        мотал
+       </reg>
+       <orig>
+        моталъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        денег
+       </reg>
+       <orig>
+        денегъ
+       </orig>
+      </choice>
+      , деньги сами шли
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      нему. Что
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      больше
+      <choice>
+       <reg>
+        бросал
+       </reg>
+       <orig>
+        бросалъ
+       </orig>
+      </choice>
+      деньги, то деньги больше шли
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      нему.
+     </del>
+    </p>
+    <p id="0d5fa22a-4496-4ebe-8b0a-cd8917fb8237" rend="left">
      <choice>
       <reg>
        В
@@ -764,7 +776,10 @@
        Въ
       </orig>
      </choice>
-     <del>Тульской</del> Сандарской
+     <del>
+      Тульской
+     </del>
+     Сандарской
      <choice>
       <reg>
        губернии
@@ -782,14 +797,14 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       Одоевском
-      </reg>
-      <orig>
-       Одоевскомъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        Одоевском
+       </reg>
+       <orig>
+        Одоевскомъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -1093,7 +1108,8 @@
       </orig>
      </choice>
      .
-    </p><p id="733a769d-c87b-4b10-bf06-054ae0b56a69" rend="left">
+    </p>
+    <p id="733a769d-c87b-4b10-bf06-054ae0b56a69" rend="left">
      <choice>
       <reg>
        Один
@@ -1227,15 +1243,17 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       тянет
-      </reg>
-      <orig>
-       тянетъ
-      </orig>
-     </choice>
-     за подтяжки одной рукой лошадь,</del> а другой
+      <choice>
+       <reg>
+        тянет
+       </reg>
+       <orig>
+        тянетъ
+       </orig>
+      </choice>
+      за подтяжки одной рукой лошадь,
+     </del>
+     а другой
      <choice>
       <reg>
        бьет
@@ -2074,7 +2092,8 @@
       </orig>
      </choice>
      то». —
-    </p><p id="671feae6-526d-462e-9101-c63a37f0a848" rend="left">
+    </p>
+    <p id="671feae6-526d-462e-9101-c63a37f0a848" rend="left">
      — «Бери, чтоль». — Но ни
      <choice>
       <reg>
@@ -2851,7 +2870,9 @@
        въ
       </orig>
      </choice>
-     <del>Москву</del>
+     <del>
+      Москву
+     </del>
      <choice>
       <reg>
        город
@@ -3582,16 +3603,20 @@
        вошелъ
       </orig>
      </choice>
-     на нее. <del>«Берите билеты
-     <choice>
-      <reg>
-       скорее
-      </reg>
-      <orig>
-       скорѣе
-      </orig>
-     </choice>
-     », закричали ему.</del> «Проходи
+     на нее.
+     <del>
+      «Берите билеты
+      <choice>
+       <reg>
+        скорее
+       </reg>
+       <orig>
+        скорѣе
+       </orig>
+      </choice>
+      », закричали ему.
+     </del>
+     «Проходи
      <choice>
       <reg>
        скорее
@@ -3636,7 +3661,8 @@
       </orig>
      </choice>
      .
-    </p><p id="fdc43b6c-d124-4291-87bb-0b865ede6fde" rend="left">
+    </p>
+    <p id="fdc43b6c-d124-4291-87bb-0b865ede6fde" rend="left">
      Андрей
      <choice>
       <reg>

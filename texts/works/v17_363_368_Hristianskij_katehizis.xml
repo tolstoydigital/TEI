@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_363_368_Hristianskij_katehizis">
-                    Христианский катехизис. Tolstoy Digital
-                </title>
-                <title type="main">Христианский катехизис</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="ee6600c4-2750-4478-928e-58b20278dc7c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Христианский катехизис
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">363-368</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1877"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#pedagogika" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v17_363_368_Hristianskij_katehizis">
+     Христианский катехизис. Tolstoy Digital
+    </title>
+    <title type="main">
+     Христианский катехизис
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="ee6600c4-2750-4478-928e-58b20278dc7c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Христианский катехизис
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       363-368
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1877"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#pedagogika" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011021">
     <p id="1ea1a5e3-14c1-438c-909c-fd1509aeb739">
@@ -411,7 +421,7 @@
      </choice>
      :
     </p>
-    <p id="0c23388d-9f1f-42a0-a577-3ac3172f3fa8" rend="center italic">
+    <head n="level2" type="chapter">
      <hi rend="italic">
       О
       <choice>
@@ -443,7 +453,7 @@
        </hi>
       </span>
      </note>
-    </p>
+    </head>
     <p id="d0754d51-2fc0-45d2-a1ef-5112d64db648" rend="left">
      <hi rend="italic">
       В.
@@ -606,75 +616,78 @@
        потребностямъ
       </orig>
      </choice>
-     души, <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="кот[орых]">
-      <sic>
-       кот
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         которых
-        </reg>
-        <orig>
-         которыхъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     бы душа
-     <choice>
-      <reg>
-       человека
-      </reg>
-      <orig>
-       человѣка
-      </orig>
-     </choice>
-     находила полное
-     <choice>
-      <reg>
-       удовлетворение
-      </reg>
-      <orig>
-       удовлетворенiе
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       соответствие
-      </reg>
-      <orig>
-       соотвѣтствiе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       своим
-      </reg>
-      <orig>
-       своимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       требованиям
-      </reg>
-      <orig>
-       требованiямъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="74e81f62-1d68-40e7-9121-e1ea3c047b8c" rend="left">
+     души,
+     <del>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="кот[орых]">
+       <sic>
+        кот
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          которых
+         </reg>
+         <orig>
+          которыхъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      бы душа
+      <choice>
+       <reg>
+        человека
+       </reg>
+       <orig>
+        человѣка
+       </orig>
+      </choice>
+      находила полное
+      <choice>
+       <reg>
+        удовлетворение
+       </reg>
+       <orig>
+        удовлетворенiе
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        соответствие
+       </reg>
+       <orig>
+        соотвѣтствiе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        своим
+       </reg>
+       <orig>
+        своимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        требованиям
+       </reg>
+       <orig>
+        требованiямъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="74e81f62-1d68-40e7-9121-e1ea3c047b8c" rend="left">
      <hi rend="italic">
       В.
      </hi>
@@ -814,24 +827,26 @@
        философiя
       </orig>
      </choice>
-     , <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="особен[ности]">
-      <sic>
-       особен
-      </sic>
-      <corr>
-       особенности
-      </corr>
-     </choice>
-     </del> (матерьялисты)
+     ,
+     <del>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="особен[ности]">
+       <sic>
+        особен
+       </sic>
+       <corr>
+        особенности
+       </corr>
+      </choice>
+     </del>
+     (матерьялисты)
      <choice>
       <reg>
        утверждает
@@ -1202,7 +1217,8 @@
       </orig>
      </choice>
      это благо.
-    </p><p id="0438ac98-60e3-48ab-8868-0057d54609c1" rend="left">
+    </p>
+    <p id="0438ac98-60e3-48ab-8868-0057d54609c1" rend="left">
      <hi rend="italic">
       В.
      </hi>
@@ -1215,7 +1231,11 @@
        спасенiя
       </orig>
      </choice>
-     души <del>т. е.</del> или что нужно для того, чтобы
+     души
+     <del>
+      т. е.
+     </del>
+     или что нужно для того, чтобы
      <ref target="#note569">
       569
      </ref>
@@ -1249,7 +1269,8 @@
       </span>
      </note>
      знать то, что нужно для потребностей души?
-    </p><p id="7abe06f1-922d-4bd8-966c-22e0748145e2" rend="left">
+    </p>
+    <p id="7abe06f1-922d-4bd8-966c-22e0748145e2" rend="left">
      <hi rend="italic">
       О.
      </hi>
@@ -1277,34 +1298,37 @@
        вѣримъ
       </orig>
      </choice>
-     <del>и жизнь сообразная
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       тем
-      </reg>
-      <orig>
-       тѣмъ
-      </orig>
-     </choice>
-     , во что мы
-     <choice>
-      <reg>
-       верим
-      </reg>
-      <orig>
-       вѣримъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="0107bd63-aa0c-4f21-a77f-47bf44ee8dc8" rend="left">
+     <del>
+      и жизнь сообразная
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        тем
+       </reg>
+       <orig>
+        тѣмъ
+       </orig>
+      </choice>
+      , во что мы
+      <choice>
+       <reg>
+        верим
+       </reg>
+       <orig>
+        вѣримъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="0107bd63-aa0c-4f21-a77f-47bf44ee8dc8" rend="left">
      <hi rend="italic">
       В.
      </hi>
@@ -1323,41 +1347,43 @@
      <hi rend="italic">
       О.
      </hi>
-     <del>По апост. Павлу «есть
-     <choice>
-      <reg>
-       уповаемых
-      </reg>
-      <orig>
-       уповаемыхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       извещение
-      </reg>
-      <orig>
-       извѣщенiе
-      </orig>
-     </choice>
-     , вещей
-     <choice>
-      <reg>
-       обличение
-      </reg>
-      <orig>
-       обличенiе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       неведомых
-      </reg>
-      <orig>
-       невѣдомыхъ
-      </orig>
-     </choice>
-     ».</del>
+     <del>
+      По апост. Павлу «есть
+      <choice>
+       <reg>
+        уповаемых
+       </reg>
+       <orig>
+        уповаемыхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        извещение
+       </reg>
+       <orig>
+        извѣщенiе
+       </orig>
+      </choice>
+      , вещей
+      <choice>
+       <reg>
+        обличение
+       </reg>
+       <orig>
+        обличенiе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        неведомых
+       </reg>
+       <orig>
+        невѣдомыхъ
+       </orig>
+      </choice>
+      ».
+     </del>
      <choice>
       <reg>
        Вера
@@ -1393,7 +1419,8 @@
       </orig>
      </choice>
      разуму.
-    </p><p id="acdbcd9c-08c8-4e36-8c34-fac7dfb5dee0" rend="left">
+    </p>
+    <p id="acdbcd9c-08c8-4e36-8c34-fac7dfb5dee0" rend="left">
      <hi rend="italic">
       В.
      </hi>
@@ -3154,15 +3181,19 @@
      <hi rend="italic">
       В.
      </hi>
-     Откуда почерпается <del>разумное</del> <del>
-     <choice>
-      <reg>
-       выражение
-      </reg>
-      <orig>
-       выраженiе
-      </orig>
-     </choice>
+     Откуда почерпается
+     <del>
+      разумное
+     </del>
+     <del>
+      <choice>
+       <reg>
+        выражение
+       </reg>
+       <orig>
+        выраженiе
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -3181,7 +3212,8 @@
       </orig>
      </choice>
      ?
-    </p><p id="e156b792-6423-48f2-a5bc-335cdae227f0" rend="left">
+    </p>
+    <p id="e156b792-6423-48f2-a5bc-335cdae227f0" rend="left">
      <hi rend="italic">
       О.
      </hi>
@@ -3263,58 +3295,62 @@
        человѣческой
       </orig>
      </choice>
-     , <del>но
-     <choice>
-      <reg>
-       выражение
-      </reg>
-      <orig>
-       выраженiе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       знания
-      </reg>
-      <orig>
-       знанiя
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       этого
-      </reg>
-      <orig>
-       этаго
-      </orig>
-     </choice>
-     передается
-     <choice>
-      <reg>
-       от
-      </reg>
-      <orig>
-       отъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       одного
-      </reg>
-      <orig>
-       однаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       человека
-      </reg>
-      <orig>
-       человѣка
-      </orig>
-     </choice>
-     другому.</del>
-    </p><p id="11c46229-ecb9-4042-98c7-691201a610a2" rend="left">
+     ,
+     <del>
+      но
+      <choice>
+       <reg>
+        выражение
+       </reg>
+       <orig>
+        выраженiе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        знания
+       </reg>
+       <orig>
+        знанiя
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        этого
+       </reg>
+       <orig>
+        этаго
+       </orig>
+      </choice>
+      передается
+      <choice>
+       <reg>
+        от
+       </reg>
+       <orig>
+        отъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        одного
+       </reg>
+       <orig>
+        однаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        человека
+       </reg>
+       <orig>
+        человѣка
+       </orig>
+      </choice>
+      другому.
+     </del>
+    </p>
+    <p id="11c46229-ecb9-4042-98c7-691201a610a2" rend="left">
      <hi rend="italic">
       В.
      </hi>
@@ -3398,19 +3434,26 @@
       </span>
      </note>
      <del>
-     <hi rend="italic">
-      В.
-     </hi>
-     Если оно передается, то <del>
-     <choice>
-      <reg>
-       где
-      </reg>
-      <orig>
-       гдѣ
-      </orig>
-     </choice>
-     </del> основная причина источника его</del>, <del>кто первый</del>
+      <hi rend="italic">
+       В.
+      </hi>
+      Если оно передается, то
+      <del>
+       <choice>
+        <reg>
+         где
+        </reg>
+        <orig>
+         гдѣ
+        </orig>
+       </choice>
+      </del>
+      основная причина источника его
+     </del>
+     ,
+     <del>
+      кто первый
+     </del>
      <choice>
       <reg>
        из
@@ -3420,7 +3463,8 @@
       </orig>
      </choice>
      людей получили его?
-    </p><p id="24de7207-7ab4-496b-b899-c5cb4e0fc753" rend="left">
+    </p>
+    <p id="24de7207-7ab4-496b-b899-c5cb4e0fc753" rend="left">
      <pb n="366"/>
     </p>
     <p id="bf14cf26-3318-48f4-93b2-89bc0494f36f" rend="left">
@@ -3636,15 +3680,16 @@
        вѣры
       </orig>
      </choice>
-     <del>не
-     <choice>
-      <reg>
-       может
-      </reg>
-      <orig>
-       можетъ
-      </orig>
-     </choice>
+     <del>
+      не
+      <choice>
+       <reg>
+        может
+       </reg>
+       <orig>
+        можетъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -3698,17 +3743,21 @@
        существующего
       </corr>
      </choice>
-     , — Бога <del>и называется
-     <choice>
-      <reg>
-       откровением
-      </reg>
-      <orig>
-       откровенiемъ
-      </orig>
-     </choice>
-     </del>.
-    </p><p id="d67c5eab-45c7-4d00-b816-5073aac99380" rend="left">
+     , — Бога
+     <del>
+      и называется
+      <choice>
+       <reg>
+        откровением
+       </reg>
+       <orig>
+        откровенiемъ
+       </orig>
+      </choice>
+     </del>
+     .
+    </p>
+    <p id="d67c5eab-45c7-4d00-b816-5073aac99380" rend="left">
      <ref target="#note581">
       581
      </ref>
@@ -3887,16 +3936,18 @@
        нѣтъ
       </orig>
      </choice>
-     ли <del>
-     <choice>
-      <reg>
-       другого
-      </reg>
-      <orig>
-       другаго
-      </orig>
-     </choice>
-     </del> еще
+     ли
+     <del>
+      <choice>
+       <reg>
+        другого
+       </reg>
+       <orig>
+        другаго
+       </orig>
+      </choice>
+     </del>
+     еще
      <choice>
       <reg>
        выражения
@@ -3956,7 +4007,8 @@
       </orig>
      </choice>
      друга?
-    </p><p id="b8832afe-f403-4e7c-bc21-65d6aeaa4f75" rend="left">
+    </p>
+    <p id="b8832afe-f403-4e7c-bc21-65d6aeaa4f75" rend="left">
      <hi rend="italic">
       О.
      </hi>
@@ -4397,25 +4449,28 @@
        вѣры
       </orig>
      </choice>
-     <del>общее
-     <choice>
-      <reg>
-       всем
-      </reg>
-      <orig>
-       всѣмъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       людям
-      </reg>
-      <orig>
-       людямъ
-      </orig>
-     </choice>
-     ?</del>
-    </p><p id="6582aa55-906f-4925-be64-ae5f5b393d4f" rend="left">
+     <del>
+      общее
+      <choice>
+       <reg>
+        всем
+       </reg>
+       <orig>
+        всѣмъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        людям
+       </reg>
+       <orig>
+        людямъ
+       </orig>
+      </choice>
+      ?
+     </del>
+    </p>
+    <p id="6582aa55-906f-4925-be64-ae5f5b393d4f" rend="left">
      <hi rend="italic">
       О.
      </hi>

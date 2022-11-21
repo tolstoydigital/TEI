@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_099_105_Tihon_i_Malanja_Varianty_nachal">
-                    [Варианты начал «Тихона и Маланьи»]. Tolstoy Digital
-                </title>
-                <title type="main">Тихон и Маланья.</title>
-                <title type="sub" resp="volume_editor">Варианты начал</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="b0e9e773-4b75-43f0-9a9a-8a15400296d1">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты начал «Тихона и Маланьи»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">99-105</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_099_105_Tihon_i_Malanja_Varianty_nachal">
+     [Варианты начал «Тихона и Маланьи»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Тихон и Маланья.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты начал
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="b0e9e773-4b75-43f0-9a9a-8a15400296d1">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты начал «Тихона и Маланьи»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       99-105
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012004104">
     <p id="da1243c4-e060-49c8-9fe2-757abb524d9c">
@@ -120,7 +132,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000012004104001">
-    <head rend="title_level3 left">
+    <head n="level2" type="editorial">
      ** № 1.
     </head>
     <p id="52df5cc1-58ea-45bd-b956-2b07e58f6acb" rend="left">
@@ -1616,297 +1628,300 @@
        заткнувъ
       </orig>
      </choice>
-     <del>рукавицы и
-     <choice>
-      <reg>
-       кнут
-      </reg>
-      <orig>
-       кнутъ
-      </orig>
-     </choice>
-     за
-     <choice>
-      <reg>
-       пояс
-      </reg>
-      <orig>
-       поясъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       стал
-      </reg>
-      <orig>
-       сталъ
-      </orig>
-     </choice>
-     снимать петли
-     <choice>
-      <reg>
-       постромок
-      </reg>
-      <orig>
-       постромокъ
-      </orig>
-     </choice>
-     и захлестывать за шлеи,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       рассупонил
-      </reg>
-      <orig>
-       разсупонилъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       вывел
-      </reg>
-      <orig>
-       вывелъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       нигде
-      </reg>
-      <orig>
-       нигдѣ
-      </orig>
-     </choice>
-     ни
-     <choice>
-      <reg>
-       стукнул
-      </reg>
-      <orig>
-       стукнулъ
-      </orig>
-     </choice>
-     , ни
-     <choice>
-      <reg>
-       дернул
-      </reg>
-      <orig>
-       дернулъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     будто все намаслено было,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     и спорилось у него
-     <choice>
-      <reg>
-       под
-      </reg>
-      <orig>
-       подъ
-      </orig>
-     </choice>
-     руками,
-     <choice>
-      <reg>
-       нигде
-      </reg>
-      <orig>
-       нигдѣ
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       зацепится
-      </reg>
-      <orig>
-       зацѣпится
-      </orig>
-     </choice>
-     , не повалится, не
-     <choice>
-      <reg>
-       соскочит
-      </reg>
-      <orig>
-       соскочитъ
-      </orig>
-     </choice>
-     , и когда
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       убрал
-      </reg>
-      <orig>
-       убралъ
-      </orig>
-     </choice>
-     лошадей
-     <choice>
-      <reg>
-       под
-      </reg>
-      <orig>
-       подъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       навес
-      </reg>
-      <orig>
-       навѣсъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       кинул
-      </reg>
-      <orig>
-       кинулъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       им
-      </reg>
-      <orig>
-       имъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сенца
-      </reg>
-      <orig>
-       сѣнца
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     ящика и,
-     <choice>
-      <reg>
-       сдвинув
-      </reg>
-      <orig>
-       сдвинувъ
-      </orig>
-     </choice>
-     шляпу
-     <choice>
-      <reg>
-       наперед
-      </reg>
-      <orig>
-       напередъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       оттопырив
-      </reg>
-      <orig>
-       оттопыривъ
-      </orig>
-     </choice>
-     далеко
-     <choice>
-      <reg>
-       большие
-      </reg>
-      <orig>
-       большiе
-      </orig>
-     </choice>
-     пальцы (такая у него привычка была), нескоро, не тихо, поглядывая по
-     <choice>
-      <reg>
-       сторонам
-      </reg>
-      <orig>
-       сторонамъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       пошел
-      </reg>
-      <orig>
-       пошелъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     избу,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     и казалось, что
-     <choice>
-      <reg>
-       вот
-      </reg>
-      <orig>
-       вотъ
-      </orig>
-     </choice>
-     ему еще чтóбы схватить да сработать. Но работать было ему нечего</del>.
+     <del>
+      рукавицы и
+      <choice>
+       <reg>
+        кнут
+       </reg>
+       <orig>
+        кнутъ
+       </orig>
+      </choice>
+      за
+      <choice>
+       <reg>
+        пояс
+       </reg>
+       <orig>
+        поясъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        стал
+       </reg>
+       <orig>
+        сталъ
+       </orig>
+      </choice>
+      снимать петли
+      <choice>
+       <reg>
+        постромок
+       </reg>
+       <orig>
+        постромокъ
+       </orig>
+      </choice>
+      и захлестывать за шлеи,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        рассупонил
+       </reg>
+       <orig>
+        разсупонилъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        вывел
+       </reg>
+       <orig>
+        вывелъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        нигде
+       </reg>
+       <orig>
+        нигдѣ
+       </orig>
+      </choice>
+      ни
+      <choice>
+       <reg>
+        стукнул
+       </reg>
+       <orig>
+        стукнулъ
+       </orig>
+      </choice>
+      , ни
+      <choice>
+       <reg>
+        дернул
+       </reg>
+       <orig>
+        дернулъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      будто все намаслено было,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      и спорилось у него
+      <choice>
+       <reg>
+        под
+       </reg>
+       <orig>
+        подъ
+       </orig>
+      </choice>
+      руками,
+      <choice>
+       <reg>
+        нигде
+       </reg>
+       <orig>
+        нигдѣ
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        зацепится
+       </reg>
+       <orig>
+        зацѣпится
+       </orig>
+      </choice>
+      , не повалится, не
+      <choice>
+       <reg>
+        соскочит
+       </reg>
+       <orig>
+        соскочитъ
+       </orig>
+      </choice>
+      , и когда
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        убрал
+       </reg>
+       <orig>
+        убралъ
+       </orig>
+      </choice>
+      лошадей
+      <choice>
+       <reg>
+        под
+       </reg>
+       <orig>
+        подъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        навес
+       </reg>
+       <orig>
+        навѣсъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        кинул
+       </reg>
+       <orig>
+        кинулъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        им
+       </reg>
+       <orig>
+        имъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сенца
+       </reg>
+       <orig>
+        сѣнца
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      ящика и,
+      <choice>
+       <reg>
+        сдвинув
+       </reg>
+       <orig>
+        сдвинувъ
+       </orig>
+      </choice>
+      шляпу
+      <choice>
+       <reg>
+        наперед
+       </reg>
+       <orig>
+        напередъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        оттопырив
+       </reg>
+       <orig>
+        оттопыривъ
+       </orig>
+      </choice>
+      далеко
+      <choice>
+       <reg>
+        большие
+       </reg>
+       <orig>
+        большiе
+       </orig>
+      </choice>
+      пальцы (такая у него привычка была), нескоро, не тихо, поглядывая по
+      <choice>
+       <reg>
+        сторонам
+       </reg>
+       <orig>
+        сторонамъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        пошел
+       </reg>
+       <orig>
+        пошелъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      избу,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      и казалось, что
+      <choice>
+       <reg>
+        вот
+       </reg>
+       <orig>
+        вотъ
+       </orig>
+      </choice>
+      ему еще чтóбы схватить да сработать. Но работать было ему нечего
+     </del>
+     .
      <choice>
       <reg>
        Он
@@ -2335,9 +2350,10 @@
       </orig>
      </choice>
      .
-    </p></div>
+    </p>
+   </div>
    <div type="section" xml:id="h000012004104002">
-    <head rend="title_level3 left">
+    <head n="level2" type="editorial">
      * № 2.
     </head>
     <p id="b3b89300-3430-4259-a3b8-a13a3b0c7338" rend="left">
@@ -3635,133 +3651,136 @@
      , и каждый взялся за него; вспоминать, да разбирать, &lt;да серчать&gt; — некогда.
     </p>
     <p id="a3739024-3c45-44fc-a6f4-ac8ff47cf334" rend="left">
-     <del>У
-     <ref target="#note44">
-      44
-     </ref>
-     <note index="false" xml:id="note44">
-      <span data-class="paragraph" id="0c0dafcd-5afa-47d1-a505-fe897c4ce360" rend="left">
-       <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
-        <sic/>
-        <corr>
-         актриса, исполняющая главную роль в пьесе
-        </corr>
-       </choice>
-       .
-      </span>
-     </note>
-     <choice>
-      <reg>
-       Ермилиных
-      </reg>
-      <orig>
-       Ермилиныхъ
-      </orig>
-     </choice>
-     вчера
-     <choice>
-      <reg>
-       старик
-      </reg>
-      <orig>
-       старикъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       крепко
-      </reg>
-      <orig>
-       крѣпко
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       загулял
-      </reg>
-      <orig>
-       загулялъ
-      </orig>
-     </choice>
-     и всю ночь своей
-     <choice>
-      <reg>
-       старухе
-      </reg>
-      <orig>
-       старухѣ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       невестке
-      </reg>
-      <orig>
-       невѣсткѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       солдатке
-      </reg>
-      <orig>
-       солдаткѣ
-      </orig>
-     </choice>
-     спать не
-     <choice>
-      <reg>
-       давал
-      </reg>
-      <orig>
-       давалъ
-      </orig>
-     </choice>
-     , все
-     <choice>
-      <reg>
-       бурчал
-      </reg>
-      <orig>
-       бурчалъ
-      </orig>
-     </choice>
-     , только
-     <choice>
-      <reg>
-       перед
-      </reg>
-      <orig>
-       передъ
-      </orig>
-     </choice>
-     зарей угомонился.
-     <choice>
-      <reg>
-       Старик
-      </reg>
-      <orig>
-       Старикъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       редко
-      </reg>
-      <orig>
-       рѣдко
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       гулял
-      </reg>
-      <orig>
-       гулялъ
-      </orig>
-     </choice>
-     , но</del>,
+     <del>
+      У
+      <ref target="#note44">
+       44
+      </ref>
+      <note index="false" xml:id="note44">
+       <span data-class="paragraph" id="0c0dafcd-5afa-47d1-a505-fe897c4ce360" rend="left">
+        <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
+         <sic/>
+         <corr>
+          актриса, исполняющая главную роль в пьесе
+         </corr>
+        </choice>
+        .
+       </span>
+      </note>
+      <choice>
+       <reg>
+        Ермилиных
+       </reg>
+       <orig>
+        Ермилиныхъ
+       </orig>
+      </choice>
+      вчера
+      <choice>
+       <reg>
+        старик
+       </reg>
+       <orig>
+        старикъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        крепко
+       </reg>
+       <orig>
+        крѣпко
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        загулял
+       </reg>
+       <orig>
+        загулялъ
+       </orig>
+      </choice>
+      и всю ночь своей
+      <choice>
+       <reg>
+        старухе
+       </reg>
+       <orig>
+        старухѣ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        невестке
+       </reg>
+       <orig>
+        невѣсткѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        солдатке
+       </reg>
+       <orig>
+        солдаткѣ
+       </orig>
+      </choice>
+      спать не
+      <choice>
+       <reg>
+        давал
+       </reg>
+       <orig>
+        давалъ
+       </orig>
+      </choice>
+      , все
+      <choice>
+       <reg>
+        бурчал
+       </reg>
+       <orig>
+        бурчалъ
+       </orig>
+      </choice>
+      , только
+      <choice>
+       <reg>
+        перед
+       </reg>
+       <orig>
+        передъ
+       </orig>
+      </choice>
+      зарей угомонился.
+      <choice>
+       <reg>
+        Старик
+       </reg>
+       <orig>
+        Старикъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        редко
+       </reg>
+       <orig>
+        рѣдко
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        гулял
+       </reg>
+       <orig>
+        гулялъ
+       </orig>
+      </choice>
+      , но
+     </del>
+     ,
      <ref target="#note45">
       45
      </ref>
@@ -3819,353 +3838,356 @@
        давалъ
       </orig>
      </choice>
-     покоя; <del>
-     <choice>
-      <reg>
-       начнет
-      </reg>
-      <orig>
-       начнетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       рассказывать
-      </reg>
-      <orig>
-       разсказывать
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     его обижали,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     его мучали, и все подноси, все подноси. Вчера же и случай такой
-     <choice>
-      <reg>
-       вышел
-      </reg>
-      <orig>
-       вышелъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Кроме
-      </reg>
-      <orig>
-       Кромѣ
-      </orig>
-     </choice>
-     того, что
-     <choice>
-      <reg>
-       праздник
-      </reg>
-      <orig>
-       праздникъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       этот
-      </reg>
-      <orig>
-       этотъ
-      </orig>
-     </choice>
-     день
-     <choice>
-      <reg>
-       старший
-      </reg>
-      <orig>
-       старшiй
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сын
-      </reg>
-      <orig>
-       сынъ
-      </orig>
-     </choice>
-     <pb n="102"/>
-     женатой со
-     <choice>
-      <reg>
-       станции
-      </reg>
-      <orig>
-       станцiи
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       приехал
-      </reg>
-      <orig>
-       прiѣхалъ
-      </orig>
-     </choice>
-     , деньги
-     <choice>
-      <reg>
-       привез
-      </reg>
-      <orig>
-       привезъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       тут
-      </reg>
-      <orig>
-       тутъ
-      </orig>
-     </choice>
-     же
-     <choice>
-      <reg>
-       сенокос
-      </reg>
-      <orig>
-       сѣнокосъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       казенном
-      </reg>
-      <orig>
-       казенномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       лесу
-      </reg>
-      <orig>
-       лѣсу
-      </orig>
-     </choice>
-     наняли и работника
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       соседней
-      </reg>
-      <orig>
-       сосѣдней
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       деревне
-      </reg>
-      <orig>
-       деревнѣ
-      </orig>
-     </choice>
-     сговорили. До вечера еще ничего, а
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     запили магарычи
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Телятинским
-      </reg>
-      <orig>
-       Телятинскимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мужиком
-      </reg>
-      <orig>
-       мужикомъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       отцом
-      </reg>
-      <orig>
-       отцомъ
-      </orig>
-     </choice>
-     , за Андрея (
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     звали работника,
-     <choice>
-      <reg>
-       которого
-      </reg>
-      <orig>
-       котораго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нанял
-      </reg>
-      <orig>
-       нанялъ
-      </orig>
-     </choice>
-     ), и
-     <choice>
-      <reg>
-       пошел
-      </reg>
-      <orig>
-       пошелъ
-      </orig>
-     </choice>
-     причитать. — Хорошо, что еще
-     <choice>
-      <reg>
-       старший
-      </reg>
-      <orig>
-       старшiй
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сын
-      </reg>
-      <orig>
-       сынъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Яков
-      </reg>
-      <orig>
-       Яковъ
-      </orig>
-     </choice>
-     дома
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     егo
-     <choice>
-      <reg>
-       посовестился
-      </reg>
-      <orig>
-       посовѣстился
-      </orig>
-     </choice>
-     , а то бы еще хуже
-     <choice>
-      <reg>
-       бабам
-      </reg>
-      <orig>
-       бабамъ
-      </orig>
-     </choice>
-     досталось. —</del>
-    </p><p id="d392f44d-c4a9-4c33-b76b-bb996d17a7be" rend="left">
+     покоя;
+     <del>
+      <choice>
+       <reg>
+        начнет
+       </reg>
+       <orig>
+        начнетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        рассказывать
+       </reg>
+       <orig>
+        разсказывать
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      его обижали,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      его мучали, и все подноси, все подноси. Вчера же и случай такой
+      <choice>
+       <reg>
+        вышел
+       </reg>
+       <orig>
+        вышелъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Кроме
+       </reg>
+       <orig>
+        Кромѣ
+       </orig>
+      </choice>
+      того, что
+      <choice>
+       <reg>
+        праздник
+       </reg>
+       <orig>
+        праздникъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        этот
+       </reg>
+       <orig>
+        этотъ
+       </orig>
+      </choice>
+      день
+      <choice>
+       <reg>
+        старший
+       </reg>
+       <orig>
+        старшiй
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сын
+       </reg>
+       <orig>
+        сынъ
+       </orig>
+      </choice>
+      <pb n="102"/>
+      женатой со
+      <choice>
+       <reg>
+        станции
+       </reg>
+       <orig>
+        станцiи
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        приехал
+       </reg>
+       <orig>
+        прiѣхалъ
+       </orig>
+      </choice>
+      , деньги
+      <choice>
+       <reg>
+        привез
+       </reg>
+       <orig>
+        привезъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        тут
+       </reg>
+       <orig>
+        тутъ
+       </orig>
+      </choice>
+      же
+      <choice>
+       <reg>
+        сенокос
+       </reg>
+       <orig>
+        сѣнокосъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        казенном
+       </reg>
+       <orig>
+        казенномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        лесу
+       </reg>
+       <orig>
+        лѣсу
+       </orig>
+      </choice>
+      наняли и работника
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        соседней
+       </reg>
+       <orig>
+        сосѣдней
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        деревне
+       </reg>
+       <orig>
+        деревнѣ
+       </orig>
+      </choice>
+      сговорили. До вечера еще ничего, а
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      запили магарычи
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Телятинским
+       </reg>
+       <orig>
+        Телятинскимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мужиком
+       </reg>
+       <orig>
+        мужикомъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        отцом
+       </reg>
+       <orig>
+        отцомъ
+       </orig>
+      </choice>
+      , за Андрея (
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      звали работника,
+      <choice>
+       <reg>
+        которого
+       </reg>
+       <orig>
+        котораго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нанял
+       </reg>
+       <orig>
+        нанялъ
+       </orig>
+      </choice>
+      ), и
+      <choice>
+       <reg>
+        пошел
+       </reg>
+       <orig>
+        пошелъ
+       </orig>
+      </choice>
+      причитать. — Хорошо, что еще
+      <choice>
+       <reg>
+        старший
+       </reg>
+       <orig>
+        старшiй
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сын
+       </reg>
+       <orig>
+        сынъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Яков
+       </reg>
+       <orig>
+        Яковъ
+       </orig>
+      </choice>
+      дома
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      егo
+      <choice>
+       <reg>
+        посовестился
+       </reg>
+       <orig>
+        посовѣстился
+       </orig>
+      </choice>
+      , а то бы еще хуже
+      <choice>
+       <reg>
+        бабам
+       </reg>
+       <orig>
+        бабамъ
+       </orig>
+      </choice>
+      досталось. —
+     </del>
+    </p>
+    <p id="d392f44d-c4a9-4c33-b76b-bb996d17a7be" rend="left">
      <choice>
       <reg>
        Сам
@@ -4251,7 +4273,11 @@
        имъ
       </orig>
      </choice>
-     . Солдатка, сестра <del>старухи</del>, постелила
+     . Солдатка, сестра
+     <del>
+      старухи
+     </del>
+     , постелила
      <choice>
       <reg>
        себе
@@ -4427,7 +4453,8 @@
       </orig>
      </choice>
      .
-    </p><p id="965aeac2-2a21-4349-93ca-109ff46d26a4" rend="left">
+    </p>
+    <p id="965aeac2-2a21-4349-93ca-109ff46d26a4" rend="left">
      <choice>
       <reg>
        Как
@@ -4780,7 +4807,10 @@
        старикъ
       </orig>
      </choice>
-     поднялся <del>и, сидя на кровати,</del>
+     поднялся
+     <del>
+      и, сидя на кровати,
+     </del>
      <choice>
       <reg>
        покашлял
@@ -4825,42 +4855,46 @@
       </orig>
      </choice>
      молиться Богу.
-    </p><p id="d8be8bfb-9600-40c3-a154-652216d05cde" rend="left">
-     <del>Только на
-     <choice>
-      <reg>
-       дворе
-      </reg>
-      <orig>
-       дворѣ
-      </orig>
-     </choice>
-     еще
-     <choice>
-      <reg>
-       спал
-      </reg>
-      <orig>
-       спалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Яков
-      </reg>
-      <orig>
-       Яковъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     молодайкой.</del> Только что послышался лошадиной
+    </p>
+    <p id="d8be8bfb-9600-40c3-a154-652216d05cde" rend="left">
+     <del>
+      Только на
+      <choice>
+       <reg>
+        дворе
+       </reg>
+       <orig>
+        дворѣ
+       </orig>
+      </choice>
+      еще
+      <choice>
+       <reg>
+        спал
+       </reg>
+       <orig>
+        спалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Яков
+       </reg>
+       <orig>
+        Яковъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      молодайкой.
+     </del>
+     Только что послышался лошадиной
      <choice>
       <reg>
        топот
@@ -4943,7 +4977,8 @@
       </orig>
      </choice>
      ругаться:
-    </p><p id="a61fa4d8-f34d-4024-9111-b523baec7a3b" rend="left">
+    </p>
+    <p id="a61fa4d8-f34d-4024-9111-b523baec7a3b" rend="left">
      — Заснули, дьяволы бабы, хороводы водить, чтоль, аль не слышите. Я
      <choice>
       <reg>
@@ -5040,50 +5075,54 @@
        попрекалъ
       </orig>
      </choice>
-     . <del>Кто
-     <choice>
-      <reg>
-       сам
-      </reg>
-      <orig>
-       самъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       виноват
-      </reg>
-      <orig>
-       виноватъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       тот
-      </reg>
-      <orig>
-       тотъ
-      </orig>
-     </choice>
-     всегда легко
-     <choice>
-      <reg>
-       других
-      </reg>
-      <orig>
-       другихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       винит
-      </reg>
-      <orig>
-       винитъ
-      </orig>
-     </choice>
-     .</del> На
+     .
+     <del>
+      Кто
+      <choice>
+       <reg>
+        сам
+       </reg>
+       <orig>
+        самъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        виноват
+       </reg>
+       <orig>
+        виноватъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        тот
+       </reg>
+       <orig>
+        тотъ
+       </orig>
+      </choice>
+      всегда легко
+      <choice>
+       <reg>
+        других
+       </reg>
+       <orig>
+        другихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        винит
+       </reg>
+       <orig>
+        винитъ
+       </orig>
+      </choice>
+      .
+     </del>
+     На
      <choice>
       <reg>
        дворе
@@ -5187,16 +5226,19 @@
        колѣно
       </orig>
      </choice>
-     . Корова, <del>которая лежала у
-     <choice>
-      <reg>
-       ворот
-      </reg>
-      <orig>
-       воротъ
-      </orig>
-     </choice>
-     и</del>
+     . Корова,
+     <del>
+      которая лежала у
+      <choice>
+       <reg>
+        ворот
+       </reg>
+       <orig>
+        воротъ
+       </orig>
+      </choice>
+      и
+     </del>
      <choice>
       <reg>
        лениво
@@ -5288,32 +5330,35 @@
        армякомъ
       </orig>
      </choice>
-     зашевелилось <del>и молодайка высунула голову
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       красном
-      </reg>
-      <orig>
-       красномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       платке
-      </reg>
-      <orig>
-       платкѣ
-      </orig>
-     </choice>
-     </del>. Ворота
+     зашевелилось
+     <del>
+      и молодайка высунула голову
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        красном
+       </reg>
+       <orig>
+        красномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        платке
+       </reg>
+       <orig>
+        платкѣ
+       </orig>
+      </choice>
+     </del>
+     . Ворота
      <choice>
       <reg>
        заскрипели
@@ -5340,24 +5385,26 @@
        сторонѣ
       </orig>
      </choice>
-     , и Гришутка <del>
-     <choice>
-      <reg>
-       младший
-      </reg>
-      <orig>
-       младшiй
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сын
-      </reg>
-      <orig>
-       сынъ
-      </orig>
-     </choice>
-     Копыла</del>
+     , и Гришутка
+     <del>
+      <choice>
+       <reg>
+        младший
+       </reg>
+       <orig>
+        младшiй
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сын
+       </reg>
+       <orig>
+        сынъ
+       </orig>
+      </choice>
+      Копыла
+     </del>
      <choice>
       <reg>
        въехал
@@ -5480,16 +5527,19 @@
        отъ
       </orig>
      </choice>
-     росы мокрые <del>по
-     <choice>
-      <reg>
-       колены
-      </reg>
-      <orig>
-       колѣны
-      </orig>
-     </choice>
-     </del>, калясь зеленой травой, разбрелись по очищенному двору — дни три кончили
+     росы мокрые
+     <del>
+      по
+      <choice>
+       <reg>
+        колены
+       </reg>
+       <orig>
+        колѣны
+       </orig>
+      </choice>
+     </del>
+     , калясь зеленой травой, разбрелись по очищенному двору — дни три кончили
      <choice>
       <reg>
        навоз
@@ -5750,33 +5800,40 @@
        платкѣ
       </orig>
      </choice>
-     <del>румяная</del> голова молодайки <del>и
-     <choice>
-      <reg>
-       белая
-      </reg>
-      <orig>
-       бѣлая
-      </orig>
-     </choice>
-     рука
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       под
-      </reg>
-      <orig>
-       подъ
-      </orig>
-     </choice>
-     заворотившагося рукава рубахи</del>.
+     <del>
+      румяная
+     </del>
+     голова молодайки
+     <del>
+      и
+      <choice>
+       <reg>
+        белая
+       </reg>
+       <orig>
+        бѣлая
+       </orig>
+      </choice>
+      рука
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        под
+       </reg>
+       <orig>
+        подъ
+       </orig>
+      </choice>
+      заворотившагося рукава рубахи
+     </del>
+     .
      <ref target="#note50">
       50
      </ref>
@@ -5800,7 +5857,11 @@
        платокъ
       </orig>
      </choice>
-     на <del>русые, густые</del> волосы, потерла
+     на
+     <del>
+      русые, густые
+     </del>
+     волосы, потерла
      <choice>
       <reg>
        рукавом
@@ -5818,65 +5879,68 @@
        скинувъ
       </orig>
      </choice>
-     ноги, поднялась. Красавица была баба, чернобровая, румяная, складная. <del>
-     <choice>
-      <reg>
-       Как
-      </reg>
-      <orig>
-       Какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       две
-      </reg>
-      <orig>
-       двѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       черные
-      </reg>
-      <orig>
-       черныя
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       звездочки
-      </reg>
-      <orig>
-       звѣздочки
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       засияли
-      </reg>
-      <orig>
-       засiяли
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       её
-      </reg>
-      <orig>
-       ея
-      </orig>
-     </choice>
-     глаза и
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     заря зарумянились щеки.</del> Она потянулась
+     ноги, поднялась. Красавица была баба, чернобровая, румяная, складная.
+     <del>
+      <choice>
+       <reg>
+        Как
+       </reg>
+       <orig>
+        Какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        две
+       </reg>
+       <orig>
+        двѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        черные
+       </reg>
+       <orig>
+        черныя
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        звездочки
+       </reg>
+       <orig>
+        звѣздочки
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        засияли
+       </reg>
+       <orig>
+        засiяли
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        её
+       </reg>
+       <orig>
+        ея
+       </orig>
+      </choice>
+      глаза и
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      заря зарумянились щеки.
+     </del>
+     Она потянулась
      <choice>
       <reg>
        так
@@ -5894,95 +5958,101 @@
        зѣвнула
       </orig>
      </choice>
-     , <del>
-     <choice>
-      <reg>
-       открыв
-      </reg>
-      <orig>
-       открывъ
-      </orig>
-     </choice>
-     свои
-     <choice>
-      <reg>
-       белые
-      </reg>
-      <orig>
-       бѣлые
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мелкие
-      </reg>
-      <orig>
-       мелкiе
-      </orig>
-     </choice>
-     зубы и
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     и сложила
-     <choice>
-      <reg>
-       румяные
-      </reg>
-      <orig>
-       румяныя
-      </orig>
-     </choice>
-     губы
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     такую улыбку, что
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     будто только радость и <del>счастье</del> здоровье
-     <choice>
-      <reg>
-       живут
-      </reg>
-      <orig>
-       живутъ
-      </orig>
-     </choice>
-     на
-     <choice>
-      <reg>
-       этом
-      </reg>
-      <orig>
-       этомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       свете
-      </reg>
-      <orig>
-       свѣтѣ
-      </orig>
-     </choice>
-     </del>. И
+     ,
+     <del>
+      <choice>
+       <reg>
+        открыв
+       </reg>
+       <orig>
+        открывъ
+       </orig>
+      </choice>
+      свои
+      <choice>
+       <reg>
+        белые
+       </reg>
+       <orig>
+        бѣлые
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мелкие
+       </reg>
+       <orig>
+        мелкiе
+       </orig>
+      </choice>
+      зубы и
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      и сложила
+      <choice>
+       <reg>
+        румяные
+       </reg>
+       <orig>
+        румяныя
+       </orig>
+      </choice>
+      губы
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      такую улыбку, что
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      будто только радость и
+      <del>
+       счастье
+      </del>
+      здоровье
+      <choice>
+       <reg>
+        живут
+       </reg>
+       <orig>
+        живутъ
+       </orig>
+      </choice>
+      на
+      <choice>
+       <reg>
+        этом
+       </reg>
+       <orig>
+        этомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        свете
+       </reg>
+       <orig>
+        свѣтѣ
+       </orig>
+      </choice>
+     </del>
+     . И
      <choice>
       <reg>
        как
@@ -6096,7 +6166,10 @@
        кушакомъ
       </orig>
      </choice>
-     <del>гибкую</del> спину, что даже грудь выставилась, и
+     <del>
+      гибкую
+     </del>
+     спину, что даже грудь выставилась, и
      <choice>
       <reg>
        так
@@ -6114,7 +6187,11 @@
        къ
       </orig>
      </choice>
-     колодцу <del>умыть свои лицо и руки</del>, что ноги
+     колодцу
+     <del>
+      умыть свои лицо и руки
+     </del>
+     , что ноги
      <choice>
       <reg>
        в
@@ -6283,7 +6360,8 @@
       </orig>
      </choice>
      .
-    </p><p id="462bd87e-0d68-47e5-be67-2d341f018b10" rend="left">
+    </p>
+    <p id="462bd87e-0d68-47e5-be67-2d341f018b10" rend="left">
      —
      <choice>
       <reg>
@@ -6447,807 +6525,819 @@
        нашъ
       </orig>
      </choice>
-     ! <del>А баба
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     баба.</del>
-    </p><p id="f3555b5c-393a-42ef-9199-998515574f63" rend="left">
+     !
+     <del>
+      А баба
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      баба.
+     </del>
+    </p>
+    <p id="f3555b5c-393a-42ef-9199-998515574f63" rend="left">
      <pb n="104"/>
-     <del>И не
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       этот
-      </reg>
-      <orig>
-       этотъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       солдат
-      </reg>
-      <orig>
-       солдатъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Маланье
-      </reg>
-      <orig>
-       Маланьѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       вкус
-      </reg>
-      <orig>
-       вкусъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нашел
-      </reg>
-      <orig>
-       нашелъ
-      </orig>
-     </choice>
-     . Много, много и очень много
-     <choice>
-      <reg>
-       других
-      </reg>
-      <orig>
-       другихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       всяких
-      </reg>
-      <orig>
-       всякихъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       мужиков
-      </reg>
-      <orig>
-       мужиковъ
-      </orig>
-     </choice>
-     , и
-     <choice>
-      <reg>
-       дворников
-      </reg>
-      <orig>
-       дворниковъ
-      </orig>
-     </choice>
-     , и
-     <choice>
-      <reg>
-       солдат
-      </reg>
-      <orig>
-       солдатъ
-      </orig>
-     </choice>
-     , и
-     <choice>
-      <reg>
-       офицеров
-      </reg>
-      <orig>
-       офицеровъ
-      </orig>
-     </choice>
-     , и
-     <choice>
-      <reg>
-       господ
-      </reg>
-      <orig>
-       господъ
-      </orig>
-     </choice>
-     , и
-     <choice>
-      <reg>
-       портных
-      </reg>
-      <orig>
-       портныхъ
-      </orig>
-     </choice>
-     , и офень заглядывались на эту бабу. «Кабы да эту бабу да
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     холю взять, —
-     <choice>
-      <reg>
-       говорил
-      </reg>
-      <orig>
-       говорилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       господ
-      </reg>
-      <orig>
-       господъ
-      </orig>
-     </choice>
-     , — а то сиволапому мужику досталась». Однако и сиволапый
-     <choice>
-      <reg>
-       мужик
-      </reg>
-      <orig>
-       мужикъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     ней
-     <choice>
-      <reg>
-       цену
-      </reg>
-      <orig>
-       цѣну
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       знал
-      </reg>
-      <orig>
-       зналъ
-      </orig>
-     </choice>
-     , да и
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       цену
-      </reg>
-      <orig>
-       цѣну
-      </orig>
-     </choice>
-     знали. Для
-     <choice>
-      <reg>
-       этого
-      </reg>
-      <orig>
-       этаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       университетах
-      </reg>
-      <orig>
-       университетахъ
-      </orig>
-     </choice>
-     учиться не нужно.
-     <choice>
-      <reg>
-       Старик
-      </reg>
-      <orig>
-       Старикъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Копыл
-      </reg>
-      <orig>
-       Копылъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сосватал
-      </reg>
-      <orig>
-       сосваталъ
-      </orig>
-     </choice>
-     ее для сына, за родню,
-     <choice>
-      <reg>
-       отец
-      </reg>
-      <orig>
-       отецъ
-      </orig>
-     </choice>
-     ее
-     <choice>
-      <reg>
-       человек
-      </reg>
-      <orig>
-       человѣкъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       хороший
-      </reg>
-      <orig>
-       хорошiй
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Своих
-      </reg>
-      <orig>
-       Своихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       девок
-      </reg>
-      <orig>
-       дѣвокъ
-      </orig>
-     </choice>
-     не было,
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     ее за 20
-     <choice>
-      <reg>
-       верст
-      </reg>
-      <orig>
-       верстъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Соловках
-      </reg>
-      <orig>
-       Соловкахъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       взял
-      </reg>
-      <orig>
-       взялъ
-      </orig>
-     </choice>
-     . 105 рублей зa нее
-     <choice>
-      <reg>
-       отдал
-      </reg>
-      <orig>
-       отдалъ
-      </orig>
-     </choice>
-     . Это было 4 года тому
-     <choice>
-      <reg>
-       назад
-      </reg>
-      <orig>
-       назадъ
-      </orig>
-     </choice>
-     , тогда ей 16
-     <choice>
-      <reg>
-       лет
-      </reg>
-      <orig>
-       лѣтъ
-      </orig>
-     </choice>
-     было. Шустрая, черноглазая
-     <choice>
-      <reg>
-       девочка
-      </reg>
-      <orig>
-       дѣвочка
-      </orig>
-     </choice>
-     была и
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       работе
-      </reg>
-      <orig>
-       работѣ
-      </orig>
-     </choice>
-     <del>куда</del> ловкая была, только <del>
-     <choice>
-      <reg>
-       вот
-      </reg>
-      <orig>
-       вотъ
-      </orig>
-     </choice>
-     </del> жидка старику казалась. И точно, первое время худа была,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       детенок
-      </reg>
-      <orig>
-       дѣтенокъ
-      </orig>
-     </choice>
-     , ничего не смыслила и мужа не любила, боялась его, била, щипала. Только теперь
-     <choice>
-      <reg>
-       раздобрела
-      </reg>
-      <orig>
-       раздобрѣла
-      </orig>
-     </choice>
-     и мужа любить стала,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       приедет
-      </reg>
-      <orig>
-       прiѣдетъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       уж
-      </reg>
-      <orig>
-       ужъ
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       знает
-      </reg>
-      <orig>
-       знаетъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       чем
-      </reg>
-      <orig>
-       чѣмъ
-      </orig>
-     </choice>
-     угодить. А все еще гуляла,
-     <choice>
-      <reg>
-       детей
-      </reg>
-      <orig>
-       дѣтей
-      </orig>
-     </choice>
-     не рожала. Баба молодая, красивая баба, много
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     ней
-     <choice>
-      <reg>
-       всякого
-      </reg>
-      <orig>
-       всякаго
-      </orig>
-     </choice>
-     народа подлипало, да только плохого ничего не слышно было. И
-     <choice>
-      <reg>
-       муж
-      </reg>
-      <orig>
-       мужъ
-      </orig>
-     </choice>
-     что дальше, то больше
-     <choice>
-      <reg>
-       любил
-      </reg>
-      <orig>
-       любилъ
-      </orig>
-     </choice>
-     бабу, особенно теперь,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     ка
-     <choice>
-      <reg>
-       станции
-      </reg>
-      <orig>
-       станцiи
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       стоял
-      </reg>
-      <orig>
-       стоялъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Как
-      </reg>
-      <orig>
-       Какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       неделю
-      </reg>
-      <orig>
-       недѣлю
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       раз
-      </reg>
-      <orig>
-       разъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       заедет
-      </reg>
-      <orig>
-       заѣдетъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     охотки и
-     <choice>
-      <reg>
-       сам
-      </reg>
-      <orig>
-       самъ
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       знает
-      </reg>
-      <orig>
-       знаетъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     порадовать. Когда баба, покачиваясь, но не колыхаясь плечами, пронесла мимо него
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     солдаткой
-     <choice>
-      <reg>
-       ушат
-      </reg>
-      <orig>
-       ушатъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     водой,
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       посмотрел
-      </reg>
-      <orig>
-       посмотрѣлъ
-      </orig>
-     </choice>
-     на нее и
-     <choice>
-      <reg>
-       посмеялся
-      </reg>
-      <orig>
-       посмѣялся
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       себе
-      </reg>
-      <orig>
-       себѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     бороду; весело ему
-     <ref target="#note51">
-      51
-     </ref>
-     <note index="false" xml:id="note51">
-      <span data-class="paragraph" id="4573ff3e-9f74-4e9f-9f3f-14b836f75713" rend="left">
-       <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
-        <sic/>
-        <corr>
-         актриса, исполняющая главную роль в пьесе
-        </corr>
+     <del>
+      И не
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        этот
+       </reg>
+       <orig>
+        этотъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        солдат
+       </reg>
+       <orig>
+        солдатъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Маланье
+       </reg>
+       <orig>
+        Маланьѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        вкус
+       </reg>
+       <orig>
+        вкусъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нашел
+       </reg>
+       <orig>
+        нашелъ
+       </orig>
+      </choice>
+      . Много, много и очень много
+      <choice>
+       <reg>
+        других
+       </reg>
+       <orig>
+        другихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        всяких
+       </reg>
+       <orig>
+        всякихъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        мужиков
+       </reg>
+       <orig>
+        мужиковъ
+       </orig>
+      </choice>
+      , и
+      <choice>
+       <reg>
+        дворников
+       </reg>
+       <orig>
+        дворниковъ
+       </orig>
+      </choice>
+      , и
+      <choice>
+       <reg>
+        солдат
+       </reg>
+       <orig>
+        солдатъ
+       </orig>
+      </choice>
+      , и
+      <choice>
+       <reg>
+        офицеров
+       </reg>
+       <orig>
+        офицеровъ
+       </orig>
+      </choice>
+      , и
+      <choice>
+       <reg>
+        господ
+       </reg>
+       <orig>
+        господъ
+       </orig>
+      </choice>
+      , и
+      <choice>
+       <reg>
+        портных
+       </reg>
+       <orig>
+        портныхъ
+       </orig>
+      </choice>
+      , и офень заглядывались на эту бабу. «Кабы да эту бабу да
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      холю взять, —
+      <choice>
+       <reg>
+        говорил
+       </reg>
+       <orig>
+        говорилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        господ
+       </reg>
+       <orig>
+        господъ
+       </orig>
+      </choice>
+      , — а то сиволапому мужику досталась». Однако и сиволапый
+      <choice>
+       <reg>
+        мужик
+       </reg>
+       <orig>
+        мужикъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      ней
+      <choice>
+       <reg>
+        цену
+       </reg>
+       <orig>
+        цѣну
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        знал
+       </reg>
+       <orig>
+        зналъ
+       </orig>
+      </choice>
+      , да и
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        цену
+       </reg>
+       <orig>
+        цѣну
+       </orig>
+      </choice>
+      знали. Для
+      <choice>
+       <reg>
+        этого
+       </reg>
+       <orig>
+        этаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        университетах
+       </reg>
+       <orig>
+        университетахъ
+       </orig>
+      </choice>
+      учиться не нужно.
+      <choice>
+       <reg>
+        Старик
+       </reg>
+       <orig>
+        Старикъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Копыл
+       </reg>
+       <orig>
+        Копылъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сосватал
+       </reg>
+       <orig>
+        сосваталъ
+       </orig>
+      </choice>
+      ее для сына, за родню,
+      <choice>
+       <reg>
+        отец
+       </reg>
+       <orig>
+        отецъ
+       </orig>
+      </choice>
+      ее
+      <choice>
+       <reg>
+        человек
+       </reg>
+       <orig>
+        человѣкъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        хороший
+       </reg>
+       <orig>
+        хорошiй
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Своих
+       </reg>
+       <orig>
+        Своихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        девок
+       </reg>
+       <orig>
+        дѣвокъ
+       </orig>
+      </choice>
+      не было,
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      ее за 20
+      <choice>
+       <reg>
+        верст
+       </reg>
+       <orig>
+        верстъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Соловках
+       </reg>
+       <orig>
+        Соловкахъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        взял
+       </reg>
+       <orig>
+        взялъ
+       </orig>
+      </choice>
+      . 105 рублей зa нее
+      <choice>
+       <reg>
+        отдал
+       </reg>
+       <orig>
+        отдалъ
+       </orig>
+      </choice>
+      . Это было 4 года тому
+      <choice>
+       <reg>
+        назад
+       </reg>
+       <orig>
+        назадъ
+       </orig>
+      </choice>
+      , тогда ей 16
+      <choice>
+       <reg>
+        лет
+       </reg>
+       <orig>
+        лѣтъ
+       </orig>
+      </choice>
+      было. Шустрая, черноглазая
+      <choice>
+       <reg>
+        девочка
+       </reg>
+       <orig>
+        дѣвочка
+       </orig>
+      </choice>
+      была и
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        работе
+       </reg>
+       <orig>
+        работѣ
+       </orig>
+      </choice>
+      <del>
+       куда
+      </del>
+      ловкая была, только
+      <del>
+       <choice>
+        <reg>
+         вот
+        </reg>
+        <orig>
+         вотъ
+        </orig>
        </choice>
-       .
-      </span>
-     </note>
-     <choice>
-      <reg>
-       видеть
-      </reg>
-      <orig>
-       видѣть
-      </orig>
-     </choice>
-     при
-     <choice>
-      <reg>
-       дневном
-      </reg>
-      <orig>
-       дневномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       свете
-      </reg>
-      <orig>
-       свѣтѣ
-      </orig>
-     </choice>
-     и при
-     <choice>
-      <reg>
-       народе
-      </reg>
-      <orig>
-       народѣ
-      </orig>
-     </choice>
-     свою хозяйку.
-     <choice>
-      <reg>
-       Как
-      </reg>
-      <orig>
-       Какъ
-      </orig>
-     </choice>
-     будто ночь еще
-     <choice>
-      <reg>
-       веселей
-      </reg>
-      <orig>
-       веселѣй
-      </orig>
-     </choice>
-     показалась.</del>
-    </p><p id="1132a4bf-94e6-48cf-a27b-f69ee418bbde" rend="left">
+      </del>
+      жидка старику казалась. И точно, первое время худа была,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        детенок
+       </reg>
+       <orig>
+        дѣтенокъ
+       </orig>
+      </choice>
+      , ничего не смыслила и мужа не любила, боялась его, била, щипала. Только теперь
+      <choice>
+       <reg>
+        раздобрела
+       </reg>
+       <orig>
+        раздобрѣла
+       </orig>
+      </choice>
+      и мужа любить стала,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        приедет
+       </reg>
+       <orig>
+        прiѣдетъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        уж
+       </reg>
+       <orig>
+        ужъ
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        знает
+       </reg>
+       <orig>
+        знаетъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        чем
+       </reg>
+       <orig>
+        чѣмъ
+       </orig>
+      </choice>
+      угодить. А все еще гуляла,
+      <choice>
+       <reg>
+        детей
+       </reg>
+       <orig>
+        дѣтей
+       </orig>
+      </choice>
+      не рожала. Баба молодая, красивая баба, много
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      ней
+      <choice>
+       <reg>
+        всякого
+       </reg>
+       <orig>
+        всякаго
+       </orig>
+      </choice>
+      народа подлипало, да только плохого ничего не слышно было. И
+      <choice>
+       <reg>
+        муж
+       </reg>
+       <orig>
+        мужъ
+       </orig>
+      </choice>
+      что дальше, то больше
+      <choice>
+       <reg>
+        любил
+       </reg>
+       <orig>
+        любилъ
+       </orig>
+      </choice>
+      бабу, особенно теперь,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      ка
+      <choice>
+       <reg>
+        станции
+       </reg>
+       <orig>
+        станцiи
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        стоял
+       </reg>
+       <orig>
+        стоялъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Как
+       </reg>
+       <orig>
+        Какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        неделю
+       </reg>
+       <orig>
+        недѣлю
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        раз
+       </reg>
+       <orig>
+        разъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        заедет
+       </reg>
+       <orig>
+        заѣдетъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      охотки и
+      <choice>
+       <reg>
+        сам
+       </reg>
+       <orig>
+        самъ
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        знает
+       </reg>
+       <orig>
+        знаетъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      порадовать. Когда баба, покачиваясь, но не колыхаясь плечами, пронесла мимо него
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      солдаткой
+      <choice>
+       <reg>
+        ушат
+       </reg>
+       <orig>
+        ушатъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      водой,
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        посмотрел
+       </reg>
+       <orig>
+        посмотрѣлъ
+       </orig>
+      </choice>
+      на нее и
+      <choice>
+       <reg>
+        посмеялся
+       </reg>
+       <orig>
+        посмѣялся
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        себе
+       </reg>
+       <orig>
+        себѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      бороду; весело ему
+      <ref target="#note51">
+       51
+      </ref>
+      <note index="false" xml:id="note51">
+       <span data-class="paragraph" id="4573ff3e-9f74-4e9f-9f3f-14b836f75713" rend="left">
+        <choice original_editorial_correction="[актриса, исполняющая главную роль в пьесе]">
+         <sic/>
+         <corr>
+          актриса, исполняющая главную роль в пьесе
+         </corr>
+        </choice>
+        .
+       </span>
+      </note>
+      <choice>
+       <reg>
+        видеть
+       </reg>
+       <orig>
+        видѣть
+       </orig>
+      </choice>
+      при
+      <choice>
+       <reg>
+        дневном
+       </reg>
+       <orig>
+        дневномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        свете
+       </reg>
+       <orig>
+        свѣтѣ
+       </orig>
+      </choice>
+      и при
+      <choice>
+       <reg>
+        народе
+       </reg>
+       <orig>
+        народѣ
+       </orig>
+      </choice>
+      свою хозяйку.
+      <choice>
+       <reg>
+        Как
+       </reg>
+       <orig>
+        Какъ
+       </orig>
+      </choice>
+      будто ночь еще
+      <choice>
+       <reg>
+        веселей
+       </reg>
+       <orig>
+        веселѣй
+       </orig>
+      </choice>
+      показалась.
+     </del>
+    </p>
+    <p id="1132a4bf-94e6-48cf-a27b-f69ee418bbde" rend="left">
      <choice>
       <reg>
        Старик
@@ -7352,140 +7442,144 @@
        бабамъ
       </orig>
      </choice>
-     гресть, и пошла забота. <del>Кабы
-     <choice>
-      <reg>
-       глянул
-      </reg>
-      <orig>
-       глянулъ
-      </orig>
-     </choice>
-     на
-     <choice>
-      <reg>
-       них
-      </reg>
-      <orig>
-       нихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       всех
-      </reg>
-      <orig>
-       всѣхъ
-      </orig>
-     </choice>
-     , кто обихода
-     <choice>
-      <reg>
-       мужицкого
-      </reg>
-      <orig>
-       мужицкаго
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       знает
-      </reg>
-      <orig>
-       знаетъ
-      </orig>
-     </choice>
-     , ничего бы не
-     <choice>
-      <reg>
-       понял
-      </reg>
-      <orig>
-       понялъ
-      </orig>
-     </choice>
-     , —
-     <choice>
-      <reg>
-       подумал
-      </reg>
-      <orig>
-       подумалъ
-      </orig>
-     </choice>
-     , что ничего не
-     <choice>
-      <reg>
-       делают
-      </reg>
-      <orig>
-       дѣлаютъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     суются, а однако
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       дела
-      </reg>
-      <orig>
-       дѣла
-      </orig>
-     </choice>
-     , не торопясь, разбирались, каждый
-     <choice>
-      <reg>
-       знал
-      </reg>
-      <orig>
-       зналъ
-      </orig>
-     </choice>
-     свое
-     <choice>
-      <reg>
-       дело
-      </reg>
-      <orig>
-       дѣло
-      </orig>
-     </choice>
-     . И сколько
-     <choice>
-      <reg>
-       тут
-      </reg>
-      <orig>
-       тутъ
-      </orig>
-     </choice>
-     сразу
-     <choice>
-      <reg>
-       делов
-      </reg>
-      <orig>
-       дѣловъ
-      </orig>
-     </choice>
-     было.</del> —
+     гресть, и пошла забота.
+     <del>
+      Кабы
+      <choice>
+       <reg>
+        глянул
+       </reg>
+       <orig>
+        глянулъ
+       </orig>
+      </choice>
+      на
+      <choice>
+       <reg>
+        них
+       </reg>
+       <orig>
+        нихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        всех
+       </reg>
+       <orig>
+        всѣхъ
+       </orig>
+      </choice>
+      , кто обихода
+      <choice>
+       <reg>
+        мужицкого
+       </reg>
+       <orig>
+        мужицкаго
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        знает
+       </reg>
+       <orig>
+        знаетъ
+       </orig>
+      </choice>
+      , ничего бы не
+      <choice>
+       <reg>
+        понял
+       </reg>
+       <orig>
+        понялъ
+       </orig>
+      </choice>
+      , —
+      <choice>
+       <reg>
+        подумал
+       </reg>
+       <orig>
+        подумалъ
+       </orig>
+      </choice>
+      , что ничего не
+      <choice>
+       <reg>
+        делают
+       </reg>
+       <orig>
+        дѣлаютъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      суются, а однако
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        дела
+       </reg>
+       <orig>
+        дѣла
+       </orig>
+      </choice>
+      , не торопясь, разбирались, каждый
+      <choice>
+       <reg>
+        знал
+       </reg>
+       <orig>
+        зналъ
+       </orig>
+      </choice>
+      свое
+      <choice>
+       <reg>
+        дело
+       </reg>
+       <orig>
+        дѣло
+       </orig>
+      </choice>
+      . И сколько
+      <choice>
+       <reg>
+        тут
+       </reg>
+       <orig>
+        тутъ
+       </orig>
+      </choice>
+      сразу
+      <choice>
+       <reg>
+        делов
+       </reg>
+       <orig>
+        дѣловъ
+       </orig>
+      </choice>
+      было.
+     </del>
+     —
      <choice>
       <reg>
        Бабам
@@ -7651,19 +7745,21 @@
        лавочкѣ
       </orig>
      </choice>
-     , <del>
-     <choice>
-      <reg>
-       скот
-      </reg>
-      <orig>
-       скотъ
-      </orig>
-     </choice>
+     ,
+     <del>
+      <choice>
+       <reg>
+        скот
+       </reg>
+       <orig>
+        скотъ
+       </orig>
+      </choice>
      </del>
-    </p></div>
+    </p>
+   </div>
    <div type="section" xml:id="h000012004104003">
-    <head rend="title_level3 left">
+    <head n="level2" type="editorial">
      * № 3.
     </head>
     <p id="efd7f803-58d5-4064-bc20-3e227d57edc9" rend="left">
@@ -8230,7 +8326,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012004104004">
-    <head rend="title_level3 left">
+    <head n="level2" type="editorial">
      * № 4.
     </head>
     <p id="fb429242-2fb9-4eea-9b1c-43f1c7774f2a" rend="left">

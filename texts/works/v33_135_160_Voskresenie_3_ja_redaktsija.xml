@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v33_135_160_Voskresenie_3_ja_redaktsija">
-                    [Воскресение. 3-я редакция]. Tolstoy Digital
-                </title>
-                <title type="main">Воскресение.</title>
-                <title type="sub" resp="volume_editor">3-я редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="2fcda447-5dbd-496b-b5d1-21224f4b8a50">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Воскресение. 3-я редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 33
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">33</biblScope>
-                        <biblScope unit="page">135-160</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1899"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v33_135_160_Voskresenie_3_ja_redaktsija">
+     [Воскресение. 3-я редакция]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Воскресение.
+    </title>
+    <title resp="volume_editor" type="sub">
+     3-я редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="2fcda447-5dbd-496b-b5d1-21224f4b8a50">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Воскресение. 3-я редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 33
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       33
+      </biblScope>
+      <biblScope unit="page">
+       135-160
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1899"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_2">
     <p id="625908f4-9ec9-4a00-b91a-5173810b421e">
@@ -10171,215 +10183,218 @@
       .
      </p>
      <p id="71c5c35c-5c49-4d83-8583-2ae9dea2279a" rend="left noindent">
-      <del>Но
-      <choice>
-       <reg>
-        вот
-       </reg>
-       <orig>
-        вотъ
-       </orig>
-      </choice>
-      люди
-      <choice>
-       <reg>
-        лишат
-       </reg>
-       <orig>
-        лишатъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        человека
-       </reg>
-       <orig>
-        человѣка
-       </orig>
-      </choice>
-      свободы,
-      <choice>
-       <reg>
-        посадят
-       </reg>
-       <orig>
-        посадятъ
-       </orig>
-      </choice>
-      его
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <pb n="143"/>
-      тюрьму, иногда
-      <choice>
-       <reg>
-        закуют
-       </reg>
-       <orig>
-        закуютъ
-       </orig>
-      </choice>
-      его и
-      <choice>
-       <reg>
-        решают
-       </reg>
-       <orig>
-        рѣшаютъ
-       </orig>
-      </choice>
-      , что
-      <choice>
-       <reg>
-        такие-то
-       </reg>
-       <orig>
-        такiя-то
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        такие-то
-       </reg>
-       <orig>
-        такiя-то
-       </orig>
-      </choice>
-      потребности
-      <choice>
-       <reg>
-        человека
-       </reg>
-       <orig>
-        человѣка
-       </orig>
-      </choice>
-      должны быть удовлетворяемы, но
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        определении
-       </reg>
-       <orig>
-        опредѣленiи
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этих
-       </reg>
-       <orig>
-        этихъ
-       </orig>
-      </choice>
-      потребностей
-      <choice>
-       <reg>
-        ограничивают
-       </reg>
-       <orig>
-        ограничиваютъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        самым
-       </reg>
-       <orig>
-        самымъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        малым
-       </reg>
-       <orig>
-        малымъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        числом
-       </reg>
-       <orig>
-        числомъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        их
-       </reg>
-       <orig>
-        ихъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        приурочивают
-       </reg>
-       <orig>
-        прiурочиваютъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        удовлетворение
-       </reg>
-       <orig>
-        удовлетворенiе
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этих
-       </reg>
-       <orig>
-        этихъ
-       </orig>
-      </choice>
-      потребностей
-      <choice>
-       <reg>
-        к
-       </reg>
-       <orig>
-        къ
-       </orig>
-      </choice>
-      одному
-      <choice>
-       <reg>
-        определенному
-       </reg>
-       <orig>
-        опредѣленному
-       </orig>
-      </choice>
-      времени и
-      <choice>
-       <reg>
-        месту
-       </reg>
-       <orig>
-        мѣсту
-       </orig>
-      </choice>
-      .</del> «
+      <del>
+       Но
+       <choice>
+        <reg>
+         вот
+        </reg>
+        <orig>
+         вотъ
+        </orig>
+       </choice>
+       люди
+       <choice>
+        <reg>
+         лишат
+        </reg>
+        <orig>
+         лишатъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         человека
+        </reg>
+        <orig>
+         человѣка
+        </orig>
+       </choice>
+       свободы,
+       <choice>
+        <reg>
+         посадят
+        </reg>
+        <orig>
+         посадятъ
+        </orig>
+       </choice>
+       его
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <pb n="143"/>
+       тюрьму, иногда
+       <choice>
+        <reg>
+         закуют
+        </reg>
+        <orig>
+         закуютъ
+        </orig>
+       </choice>
+       его и
+       <choice>
+        <reg>
+         решают
+        </reg>
+        <orig>
+         рѣшаютъ
+        </orig>
+       </choice>
+       , что
+       <choice>
+        <reg>
+         такие-то
+        </reg>
+        <orig>
+         такiя-то
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         такие-то
+        </reg>
+        <orig>
+         такiя-то
+        </orig>
+       </choice>
+       потребности
+       <choice>
+        <reg>
+         человека
+        </reg>
+        <orig>
+         человѣка
+        </orig>
+       </choice>
+       должны быть удовлетворяемы, но
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         определении
+        </reg>
+        <orig>
+         опредѣленiи
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этих
+        </reg>
+        <orig>
+         этихъ
+        </orig>
+       </choice>
+       потребностей
+       <choice>
+        <reg>
+         ограничивают
+        </reg>
+        <orig>
+         ограничиваютъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         самым
+        </reg>
+        <orig>
+         самымъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         малым
+        </reg>
+        <orig>
+         малымъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         числом
+        </reg>
+        <orig>
+         числомъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         их
+        </reg>
+        <orig>
+         ихъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         приурочивают
+        </reg>
+        <orig>
+         прiурочиваютъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         удовлетворение
+        </reg>
+        <orig>
+         удовлетворенiе
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этих
+        </reg>
+        <orig>
+         этихъ
+        </orig>
+       </choice>
+       потребностей
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       одному
+       <choice>
+        <reg>
+         определенному
+        </reg>
+        <orig>
+         опредѣленному
+        </orig>
+       </choice>
+       времени и
+       <choice>
+        <reg>
+         месту
+        </reg>
+        <orig>
+         мѣсту
+        </orig>
+       </choice>
+       .
+      </del>
+      «
       <choice>
        <reg>
         Человеку
@@ -10999,7 +11014,8 @@
        </orig>
       </choice>
       корму, не страдая ужасно.
-     </p><p id="d030d856-4807-4e17-a93c-96d87da2e179" rend="left">
+     </p>
+     <p id="d030d856-4807-4e17-a93c-96d87da2e179" rend="left">
       И птица бьется, и корова
       <choice>
        <reg>
@@ -18229,163 +18245,166 @@
       * № 57 (рук. № 19).
      </h4>
      <p id="9933aec9-67bf-4052-b190-48170afca39c" rend="left">
-      И началась служба. <del>Стояли тысячи
-      <choice>
-       <reg>
-        измученных
-       </reg>
-       <orig>
-        измученныхъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        мучимых
-       </reg>
-       <orig>
-        мучимыхъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        мущин
-       </reg>
-       <orig>
-        мущинъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        женщин
-       </reg>
-       <orig>
-        женщинъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        лишенных
-       </reg>
-       <orig>
-        лишенныхъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        человеческого
-       </reg>
-       <orig>
-        человѣческаго
-       </orig>
-      </choice>
-      образа и
-      <choice>
-       <reg>
-        охраняемых
-       </reg>
-       <orig>
-        охраняемыхъ
-       </orig>
-      </choice>
-      людьми
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        мундирах
-       </reg>
-       <orig>
-        мундирахъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      тесаками, саблями и штыками, и для
-      <choice>
-       <reg>
-        утешения
-       </reg>
-       <orig>
-        утѣшенiя
-       </orig>
-      </choice>
-      совершалась
-      <choice>
-       <reg>
-        христианская
-       </reg>
-       <orig>
-        христiанская
-       </orig>
-      </choice>
-      молитва — церковная служба,
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      которой
-      <choice>
-       <reg>
-        им
-       </reg>
-       <orig>
-        имъ
-       </orig>
-      </choice>
-      , хотя и
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        некоторыми
-       </reg>
-       <orig>
-        нѣкоторыми
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        ограничениями
-       </reg>
-       <orig>
-        ограниченiями
-       </orig>
-      </choice>
-      , позволялось принять
-      <choice>
-       <reg>
-        участие
-       </reg>
-       <orig>
-        участiе
-       </orig>
-      </choice>
-      .</del>
+      И началась служба.
+      <del>
+       Стояли тысячи
+       <choice>
+        <reg>
+         измученных
+        </reg>
+        <orig>
+         измученныхъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         мучимых
+        </reg>
+        <orig>
+         мучимыхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мущин
+        </reg>
+        <orig>
+         мущинъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         женщин
+        </reg>
+        <orig>
+         женщинъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         лишенных
+        </reg>
+        <orig>
+         лишенныхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         человеческого
+        </reg>
+        <orig>
+         человѣческаго
+        </orig>
+       </choice>
+       образа и
+       <choice>
+        <reg>
+         охраняемых
+        </reg>
+        <orig>
+         охраняемыхъ
+        </orig>
+       </choice>
+       людьми
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мундирах
+        </reg>
+        <orig>
+         мундирахъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       тесаками, саблями и штыками, и для
+       <choice>
+        <reg>
+         утешения
+        </reg>
+        <orig>
+         утѣшенiя
+        </orig>
+       </choice>
+       совершалась
+       <choice>
+        <reg>
+         христианская
+        </reg>
+        <orig>
+         христiанская
+        </orig>
+       </choice>
+       молитва — церковная служба,
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       которой
+       <choice>
+        <reg>
+         им
+        </reg>
+        <orig>
+         имъ
+        </orig>
+       </choice>
+       , хотя и
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         некоторыми
+        </reg>
+        <orig>
+         нѣкоторыми
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ограничениями
+        </reg>
+        <orig>
+         ограниченiями
+        </orig>
+       </choice>
+       , позволялось принять
+       <choice>
+        <reg>
+         участие
+        </reg>
+        <orig>
+         участiе
+        </orig>
+       </choice>
+       .
+      </del>
       <ref target="#note233">
        233
       </ref>
@@ -18405,7 +18424,8 @@
         .
        </span>
       </note>
-     </p><p id="124d5d17-0832-4116-99c8-81d2f8591b66" rend="left noindent">
+     </p>
+     <p id="124d5d17-0832-4116-99c8-81d2f8591b66" rend="left noindent">
       Служба началась
       <choice>
        <reg>

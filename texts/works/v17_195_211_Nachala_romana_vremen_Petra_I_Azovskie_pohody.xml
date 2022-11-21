@@ -1,109 +1,121 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_195_211_Nachala_romana_vremen_Petra_I_Azovskie_pohody" resp="volume_editor">
-                    [«Начала» романа времен Петра I. Азовские походы]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Начало романа времен Петра I.</title>
-                <title type="sub" resp="volume_editor">Азовские походы</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="8fb1a776-daff-4b57-89a2-1ae7fb436793">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [«Начала» романа времен Петра I. Азовские походы]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">195-211</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1870-1873, 1879 гг.
-                </date>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_195_211_Nachala_romana_vremen_Petra_I_Azovskie_pohody">
+     [«Начала» романа времен Петра I. Азовские походы]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Начало романа времен Петра I.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Азовские походы
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="8fb1a776-daff-4b57-89a2-1ae7fb436793">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [«Начала» романа времен Петра I. Азовские походы]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       195-211
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1870-1873, 1879 гг.
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="718ef08f-fa27-4f85-96d0-d1922c5d5008">
@@ -192,31 +204,32 @@
         написано:
        </hi>
        <del>
-       <name placement="note" ref="589" type="person">
-        Анисья Тимофевна
-       </name>
-       много и горя и радости пережила на
-       <choice>
-        <reg>
-         своем
-        </reg>
-        <orig>
-         своемъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         веку
-        </reg>
-        <orig>
-         вѣку
-        </orig>
-       </choice>
-       старая матерая вдова
-       <name placement="note" ref="589" type="person">
-        Анисья Тимофевна Апраксина
-       </name>
-       . 18 Августа</del>
+        <name placement="note" ref="589" type="person">
+         Анисья Тимофевна
+        </name>
+        много и горя и радости пережила на
+        <choice>
+         <reg>
+          своем
+         </reg>
+         <orig>
+          своемъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          веку
+         </reg>
+         <orig>
+          вѣку
+         </orig>
+        </choice>
+        старая матерая вдова
+        <name placement="note" ref="589" type="person">
+         Анисья Тимофевна Апраксина
+        </name>
+        . 18 Августа
+       </del>
        <choice>
         <reg>
          в
@@ -225,29 +238,31 @@
          въ
         </orig>
        </choice>
-       1695 Вдова А. Т. Апраксина <del>мать царицы
-       <choice>
-        <reg>
-         <name placement="note" ref="8602" type="person">
-          Марфы
-         </name>
-        </reg>
-        <orig>
-         <name placement="note" ref="8602" type="person">
-          Марѳы
-         </name>
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         <name placement="note" ref="8602" type="person">
-          Матвевны
-         </name>
-        </reg>
-        <orig>
-         Матвѣвны
-        </orig>
-       </choice>
+       1695 Вдова А. Т. Апраксина
+       <del>
+        мать царицы
+        <choice>
+         <reg>
+          <name placement="note" ref="8602" type="person">
+           Марфы
+          </name>
+         </reg>
+         <orig>
+          <name placement="note" ref="8602" type="person">
+           Марѳы
+          </name>
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          <name placement="note" ref="8602" type="person">
+           Матвевны
+          </name>
+         </reg>
+         <orig>
+          Матвѣвны
+         </orig>
+        </choice>
        </del>
        <choice>
         <reg>
@@ -299,16 +314,18 @@
          сыномъ
         </orig>
        </choice>
-       А. М. <del>
-       <choice>
-        <reg>
-         Проехав
-        </reg>
-        <orig>
-         Проѣхавъ
-        </orig>
-       </choice>
-       слободы</del>
+       А. М.
+       <del>
+        <choice>
+         <reg>
+          Проехав
+         </reg>
+         <orig>
+          Проѣхавъ
+         </orig>
+        </choice>
+        слободы
+       </del>
       </span>
      </note>
      <choice>
@@ -544,31 +561,32 @@
         написано:
        </hi>
        <del>
-       <name placement="note" ref="589" type="person">
-        Анисья Тимофевна
-       </name>
-       много и горя и радости пережила на
-       <choice>
-        <reg>
-         своем
-        </reg>
-        <orig>
-         своемъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         веку
-        </reg>
-        <orig>
-         вѣку
-        </orig>
-       </choice>
-       старая матерая вдова
-       <name placement="note" ref="589" type="person">
-        Анисья Тимофевна Апраксина
-       </name>
-       . 18 Августа</del>
+        <name placement="note" ref="589" type="person">
+         Анисья Тимофевна
+        </name>
+        много и горя и радости пережила на
+        <choice>
+         <reg>
+          своем
+         </reg>
+         <orig>
+          своемъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          веку
+         </reg>
+         <orig>
+          вѣку
+         </orig>
+        </choice>
+        старая матерая вдова
+        <name placement="note" ref="589" type="person">
+         Анисья Тимофевна Апраксина
+        </name>
+        . 18 Августа
+       </del>
        <choice>
         <reg>
          в
@@ -577,29 +595,31 @@
          въ
         </orig>
        </choice>
-       1695 Вдова А. Т. Апраксина <del>мать царицы
-       <choice>
-        <reg>
-         <name placement="note" ref="8602" type="person">
-          Марфы
-         </name>
-        </reg>
-        <orig>
-         <name placement="note" ref="8602" type="person">
-          Марѳы
-         </name>
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         <name placement="note" ref="8602" type="person">
-          Матвевны
-         </name>
-        </reg>
-        <orig>
-         Матвѣвны
-        </orig>
-       </choice>
+       1695 Вдова А. Т. Апраксина
+       <del>
+        мать царицы
+        <choice>
+         <reg>
+          <name placement="note" ref="8602" type="person">
+           Марфы
+          </name>
+         </reg>
+         <orig>
+          <name placement="note" ref="8602" type="person">
+           Марѳы
+          </name>
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          <name placement="note" ref="8602" type="person">
+           Матвевны
+          </name>
+         </reg>
+         <orig>
+          Матвѣвны
+         </orig>
+        </choice>
        </del>
        <choice>
         <reg>
@@ -651,16 +671,18 @@
          сыномъ
         </orig>
        </choice>
-       А. М. <del>
-       <choice>
-        <reg>
-         Проехав
-        </reg>
-        <orig>
-         Проѣхавъ
-        </orig>
-       </choice>
-       слободы</del>
+       А. М.
+       <del>
+        <choice>
+         <reg>
+          Проехав
+         </reg>
+         <orig>
+          Проѣхавъ
+         </orig>
+        </choice>
+        слободы
+       </del>
       </span>
      </note>
      осталась беременна и
@@ -685,7 +707,8 @@
       Марфу
      </name>
      .
-    </p><p id="cfe4127c-c588-4001-ad63-f74c04056bb3" rend="left">
+    </p>
+    <p id="cfe4127c-c588-4001-ad63-f74c04056bb3" rend="left">
      Крестилъ дѣвочку Матвѣевъ, Артамонъ Сергѣевичъ и Лопухина боярыня. Вдова выростила дѣтей, только одинъ Никита умеръ, и дожила радости въ 1682 году. Когда овдовѣлъ Царь Ѳедоръ, на смотръ невѣстъ къ Царю повезли и ея дочь, 15 лѣтнюю ˂красавицу˃
      <name placement="text" ref="8602" type="person">
       Марфу
@@ -1879,78 +1902,82 @@
        дворцѣ
       </orig>
      </choice>
-     <del>и оттуда,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     слышно было, намеревался со
-     <choice>
-      <reg>
-       всеми
-      </reg>
-      <orig>
-       всѣми
-      </orig>
-     </choice>
-     войсками
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       торжеством
-      </reg>
-      <orig>
-       торжествомъ
-      </orig>
-     </choice>
-     вступить
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     Москву, когда соберутся
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     войска
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       под
-      </reg>
-      <orig>
-       подъ
-      </orig>
-     </choice>
-     Азова</del>. —
-    </p><p id="3452ada3-3c57-410a-a061-e0006b2a9ab9" rend="left">
+     <del>
+      и оттуда,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      слышно было, намеревался со
+      <choice>
+       <reg>
+        всеми
+       </reg>
+       <orig>
+        всѣми
+       </orig>
+      </choice>
+      войсками
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        торжеством
+       </reg>
+       <orig>
+        торжествомъ
+       </orig>
+      </choice>
+      вступить
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      Москву, когда соберутся
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      войска
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        под
+       </reg>
+       <orig>
+        подъ
+       </orig>
+      </choice>
+      Азова
+     </del>
+     . —
+    </p>
+    <p id="3452ada3-3c57-410a-a061-e0006b2a9ab9" rend="left">
      <choice>
       <reg>
        Старик
@@ -2347,16 +2374,18 @@
        родовитаго
       </orig>
      </choice>
-     дома <del>
-     <choice>
-      <reg>
-       Голицыных
-      </reg>
-      <orig>
-       Голицыныхъ
-      </orig>
-     </choice>
-     </del> и она
+     дома
+     <del>
+      <choice>
+       <reg>
+        Голицыных
+       </reg>
+       <orig>
+        Голицыныхъ
+       </orig>
+      </choice>
+     </del>
+     и она
      <choice>
       <reg>
        надеялась
@@ -2366,7 +2395,8 @@
       </orig>
      </choice>
      на заступу.
-    </p><p id="9b374094-6039-45b7-8cfe-39eb04d167f0" rend="left">
+    </p>
+    <p id="9b374094-6039-45b7-8cfe-39eb04d167f0" rend="left">
      У ней рука была у Царицы Натальи Кириловны, у
      <choice>
       <reg>
@@ -3058,34 +3088,38 @@
        говоръ
       </orig>
      </choice>
-     народа. <del>Во все
-     <choice>
-      <reg>
-       место
-      </reg>
-      <orig>
-       мѣсто
-      </orig>
-     </choice>
-     , сколько
-     <choice>
-      <reg>
-       глазом
-      </reg>
-      <orig>
-       глазомъ
-      </orig>
-     </choice>
-     окинуть, земля по
-     <choice>
-      <reg>
-       снегу
-      </reg>
-      <orig>
-       снѣгу
-      </orig>
-     </choice>
-     была устлана опилками, стружками.</del> Со
+     народа.
+     <del>
+      Во все
+      <choice>
+       <reg>
+        место
+       </reg>
+       <orig>
+        мѣсто
+       </orig>
+      </choice>
+      , сколько
+      <choice>
+       <reg>
+        глазом
+       </reg>
+       <orig>
+        глазомъ
+       </orig>
+      </choice>
+      окинуть, земля по
+      <choice>
+       <reg>
+        снегу
+       </reg>
+       <orig>
+        снѣгу
+       </orig>
+      </choice>
+      была устлана опилками, стружками.
+     </del>
+     Со
      <choice>
       <reg>
        всех
@@ -3145,7 +3179,8 @@
       </orig>
      </choice>
      смола. —
-    </p><p id="38f64bea-cc39-473e-8243-1b597fa5bb4a" rend="left">
+    </p>
+    <p id="38f64bea-cc39-473e-8243-1b597fa5bb4a" rend="left">
      Весна была
      <choice>
       <reg>
@@ -3859,7 +3894,7 @@
     <head n="level2" type="editorial">
      * № 20.
     </head>
-    <p id="92ad0e5d-2c6d-4007-a79a-3cc8c1fe7152" rend="center italic">
+    <head n="level2" type="chapter">
      <hi rend="italic">
       Старое и новое.
      </hi>
@@ -3882,7 +3917,7 @@
        Ссора Голицыныхъ съ Долгор[укими] изъ за Лефорта. Головинъ миритъ. Его мать. Къ ней ходятъ 3 сына Алексан., Ник., Иванъ, жена съ Абокумомъ — дура, соперничество съ Долгор[укимъ.]
       </span>
      </note>
-    </p>
+    </head>
     <p id="03178c95-2569-426c-84f4-f057df7475b4" rend="left">
      «То Царей мало что
      <choice>
@@ -3957,78 +3992,81 @@
        Москвѣ
       </orig>
      </choice>
-     не осталось. — Закатилася наша, солнушко, забубенная головушка. <del>
-     <choice>
-      <reg>
-       В
-      </reg>
-      <orig>
-       Въ
-      </orig>
-     </choice>
-     пятницу провожали. Подали
-     <choice>
-      <reg>
-       возок
-      </reg>
-      <orig>
-       возокъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Царский
-      </reg>
-      <orig>
-       Царскiй
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Посадил
-      </reg>
-      <orig>
-       Посадилъ
-      </orig>
-     </choice>
-     тута шута,
-     <choice>
-      <reg>
-       деньщиков
-      </reg>
-      <orig>
-       деньщиковъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       сам
-      </reg>
-      <orig>
-       самъ
-      </orig>
-     </choice>
-     ввалился
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     деньщиковы сани,
-     <choice>
-      <reg>
-       пошел
-      </reg>
-      <orig>
-       пошолъ
-      </orig>
-     </choice>
-     !</del> Теперь, я чаю,
+     не осталось. — Закатилася наша, солнушко, забубенная головушка.
+     <del>
+      <choice>
+       <reg>
+        В
+       </reg>
+       <orig>
+        Въ
+       </orig>
+      </choice>
+      пятницу провожали. Подали
+      <choice>
+       <reg>
+        возок
+       </reg>
+       <orig>
+        возокъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Царский
+       </reg>
+       <orig>
+        Царскiй
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Посадил
+       </reg>
+       <orig>
+        Посадилъ
+       </orig>
+      </choice>
+      тута шута,
+      <choice>
+       <reg>
+        деньщиков
+       </reg>
+       <orig>
+        деньщиковъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        сам
+       </reg>
+       <orig>
+        самъ
+       </orig>
+      </choice>
+      ввалился
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      деньщиковы сани,
+      <choice>
+       <reg>
+        пошел
+       </reg>
+       <orig>
+        пошолъ
+       </orig>
+      </choice>
+      !
+     </del>
+     Теперь, я чаю,
      <choice>
       <reg>
        уж
@@ -4115,7 +4153,8 @@
       </orig>
      </choice>
      ».
-    </p><p id="7841a341-4c3a-40ad-9d67-ca377e6bf0e1" rend="left">
+    </p>
+    <p id="7841a341-4c3a-40ad-9d67-ca377e6bf0e1" rend="left">
      <choice>
       <reg>
        Так
@@ -4848,24 +4887,26 @@
        старичокъ
       </orig>
      </choice>
-     , <del>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       седой
-      </reg>
-      <orig>
-       сѣдой
-      </orig>
-     </choice>
-     окладистой бородой,</del>
+     ,
+     <del>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        седой
+       </reg>
+       <orig>
+        сѣдой
+       </orig>
+      </choice>
+      окладистой бородой,
+     </del>
      <choice>
       <reg>
        сидел
@@ -5071,33 +5112,35 @@
        пьянъ
       </orig>
      </choice>
-     , но пьянство у него было тихое и веселое. <del>
-     <choice>
-      <reg>
-       Он
-      </reg>
-      <orig>
-       Онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       слушал
-      </reg>
-      <orig>
-       слушалъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       посмеивался
-      </reg>
-      <orig>
-       посмѣивался
-      </orig>
-     </choice>
-     .</del>
+     , но пьянство у него было тихое и веселое.
+     <del>
+      <choice>
+       <reg>
+        Он
+       </reg>
+       <orig>
+        Онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        слушал
+       </reg>
+       <orig>
+        слушалъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        посмеивался
+       </reg>
+       <orig>
+        посмѣивался
+       </orig>
+      </choice>
+      .
+     </del>
      <choice>
       <reg>
        Рядом
@@ -5279,7 +5322,8 @@
       </orig>
      </choice>
      налились кровью.
-    </p><p id="b455b80e-9de7-4f61-b447-60d8558b31a8" rend="left">
+    </p>
+    <p id="b455b80e-9de7-4f61-b447-60d8558b31a8" rend="left">
      — Да
      <choice>
       <reg>
@@ -6106,7 +6150,10 @@
      </choice>
      <add n="n194" stage="в подлиннике">
       <span data-class="paragraph" id="c32004bc-ec66-46b0-a384-5265176a4604" rend="left">
-       ходя <del>худ</del>
+       ходя
+       <del>
+        худ
+       </del>
        <choice>
         <reg>
          уж
@@ -6225,7 +6272,8 @@
       </orig>
      </choice>
      же отвернулся презрительно. —
-    </p><p id="2b5204d1-c620-45d5-bb01-7e1844fbf46b" rend="left">
+    </p>
+    <p id="2b5204d1-c620-45d5-bb01-7e1844fbf46b" rend="left">
      <choice>
       <reg>
        Хозяин
@@ -6556,77 +6604,80 @@
        Азовъ
       </orig>
      </choice>
-     . <del>На страстной начали
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Воронеже
-      </reg>
-      <orig>
-       Воронежѣ
-      </orig>
-     </choice>
-     грузить на суда пушки, ядра, бомбы,
-     <choice>
-      <reg>
-       порох
-      </reg>
-      <orig>
-       порохъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       свинец
-      </reg>
-      <orig>
-       свинецъ
-      </orig>
-     </choice>
-     , кули
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       овсом
-      </reg>
-      <orig>
-       овсомъ
-      </orig>
-     </choice>
-     , мукой, крупой, рыбу, соль, водку, сбитень, а
-     <choice>
-      <reg>
-       после
-      </reg>
-      <orig>
-       послѣ
-      </orig>
-     </choice>
-     Святой стали подходить войска. Садились на суда и плыли
-     <choice>
-      <reg>
-       вниз
-      </reg>
-      <orig>
-       внизъ
-      </orig>
-     </choice>
-     по Дону.</del>
+     .
+     <del>
+      На страстной начали
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Воронеже
+       </reg>
+       <orig>
+        Воронежѣ
+       </orig>
+      </choice>
+      грузить на суда пушки, ядра, бомбы,
+      <choice>
+       <reg>
+        порох
+       </reg>
+       <orig>
+        порохъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        свинец
+       </reg>
+       <orig>
+        свинецъ
+       </orig>
+      </choice>
+      , кули
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        овсом
+       </reg>
+       <orig>
+        овсомъ
+       </orig>
+      </choice>
+      , мукой, крупой, рыбу, соль, водку, сбитень, а
+      <choice>
+       <reg>
+        после
+       </reg>
+       <orig>
+        послѣ
+       </orig>
+      </choice>
+      Святой стали подходить войска. Садились на суда и плыли
+      <choice>
+       <reg>
+        вниз
+       </reg>
+       <orig>
+        внизъ
+       </orig>
+      </choice>
+      по Дону.
+     </del>
      <ref target="#note195">
       195
      </ref>
@@ -6752,7 +6803,8 @@
        ,
       </span>
      </note>
-    </p><p id="76a4a668-1b38-4061-a9c4-71162c4aad74" rend="left">
+    </p>
+    <p id="76a4a668-1b38-4061-a9c4-71162c4aad74" rend="left">
      <choice>
       <reg>
        Всех
@@ -7773,59 +7825,62 @@
        всякихъ
       </orig>
      </choice>
-     людей, <del>и
-     <choice>
-      <reg>
-       жен
-      </reg>
-      <orig>
-       женъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       детей
-      </reg>
-      <orig>
-       дѣтей
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     поселили
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Преображенском
-      </reg>
-      <orig>
-       Преображенскомъ
-      </orig>
-     </choice>
-     , а
-     <choice>
-      <reg>
-       самих
-      </reg>
-      <orig>
-       самихъ
-      </orig>
-     </choice>
-     ,</del>
+     людей,
+     <del>
+      и
+      <choice>
+       <reg>
+        жен
+       </reg>
+       <orig>
+        женъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        детей
+       </reg>
+       <orig>
+        дѣтей
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      поселили
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Преображенском
+       </reg>
+       <orig>
+        Преображенскомъ
+       </orig>
+      </choice>
+      , а
+      <choice>
+       <reg>
+        самих
+       </reg>
+       <orig>
+        самихъ
+       </orig>
+      </choice>
+      ,
+     </del>
      <choice>
       <reg>
        одели
@@ -8375,7 +8430,8 @@
        , кто перебувался, кашевары варили кашу.
       </span>
      </note>
-    </p><p id="b601e75a-45a6-414e-b95d-70138caef84c" rend="left">
+    </p>
+    <p id="b601e75a-45a6-414e-b95d-70138caef84c" rend="left">
      На
      <choice>
       <reg>
@@ -9241,14 +9297,14 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       вышел
-      </reg>
-      <orig>
-       вышелъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        вышел
+       </reg>
+       <orig>
+        вышелъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -9327,7 +9383,8 @@
       </orig>
      </choice>
      .
-    </p><p id="df56e293-7d46-4462-9b00-b64e302a84c7" rend="left">
+    </p>
+    <p id="df56e293-7d46-4462-9b00-b64e302a84c7" rend="left">
      — Алексе, —
      <choice>
       <reg>
@@ -12724,78 +12781,81 @@
        виднѣе
       </orig>
      </choice>
-     становилось. <del>
-     <choice>
-      <reg>
-       Народ
-      </reg>
-      <orig>
-       Народъ
-      </orig>
-     </choice>
-     можно было различать.
-     <choice>
-      <reg>
-       Один
-      </reg>
-      <orig>
-       Одинъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Генерал
-      </reg>
-      <orig>
-       Генералъ
-      </orig>
-     </choice>
-     уже
-     <choice>
-      <reg>
-       показал
-      </reg>
-      <orig>
-       показалъ
-      </orig>
-     </choice>
-     на
-     <choice>
-      <reg>
-       народ
-      </reg>
-      <orig>
-       народъ
-      </orig>
-     </choice>
-     на
-     <choice>
-      <reg>
-       палубе
-      </reg>
-      <orig>
-       палубѣ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       сказал
-      </reg>
-      <orig>
-       сказалъ
-      </orig>
-     </choice>
-     :
-     <choice>
-      <reg>
-       вон
-      </reg>
-      <orig>
-       вонъ
-      </orig>
-     </choice>
-     Царь.</del> Уже
+     становилось.
+     <del>
+      <choice>
+       <reg>
+        Народ
+       </reg>
+       <orig>
+        Народъ
+       </orig>
+      </choice>
+      можно было различать.
+      <choice>
+       <reg>
+        Один
+       </reg>
+       <orig>
+        Одинъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Генерал
+       </reg>
+       <orig>
+        Генералъ
+       </orig>
+      </choice>
+      уже
+      <choice>
+       <reg>
+        показал
+       </reg>
+       <orig>
+        показалъ
+       </orig>
+      </choice>
+      на
+      <choice>
+       <reg>
+        народ
+       </reg>
+       <orig>
+        народъ
+       </orig>
+      </choice>
+      на
+      <choice>
+       <reg>
+        палубе
+       </reg>
+       <orig>
+        палубѣ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        сказал
+       </reg>
+       <orig>
+        сказалъ
+       </orig>
+      </choice>
+      :
+      <choice>
+       <reg>
+        вон
+       </reg>
+       <orig>
+        вонъ
+       </orig>
+      </choice>
+      Царь.
+     </del>
+     Уже
      <choice>
       <reg>
        струг
@@ -13192,7 +13252,9 @@
        сталъ
       </orig>
      </choice>
-     <del>ясно</del>
+     <del>
+      ясно
+     </del>
      <choice>
       <reg>
        виден
@@ -13219,7 +13281,8 @@
       </orig>
      </choice>
      . Много стояло народа.
-    </p><p id="0b748331-fa71-4531-88d4-30a908065e1b" rend="left">
+    </p>
+    <p id="0b748331-fa71-4531-88d4-30a908065e1b" rend="left">
      —
      <choice>
       <reg>
@@ -13730,24 +13793,26 @@
      — Здорово.
     </p>
     <p id="b8b54ab4-5d91-4473-9d2c-5a87c9a71281" rend="left">
-     Царь <del>
-     <choice>
-      <reg>
-       подпрыгнул
-      </reg>
-      <orig>
-       подпрыгнулъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       вдруг
-      </reg>
-      <orig>
-       вдругъ
-      </orig>
-     </choice>
-     ,</del>
+     Царь
+     <del>
+      <choice>
+       <reg>
+        подпрыгнул
+       </reg>
+       <orig>
+        подпрыгнулъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        вдруг
+       </reg>
+       <orig>
+        вдругъ
+       </orig>
+      </choice>
+      ,
+     </del>
      <choice>
       <reg>
        бросил
@@ -13810,7 +13875,8 @@
       </orig>
      </choice>
      .
-    </p><p id="c7891ef6-357f-4806-bbae-a6f3604374ae" rend="left">
+    </p>
+    <p id="c7891ef6-357f-4806-bbae-a6f3604374ae" rend="left">
      <choice>
       <reg>
        Щепотев
@@ -14033,15 +14099,16 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       Александр
-      </reg>
-      <orig>
-       Александръ
-      </orig>
-     </choice>
-     </del>, молодой
+      <choice>
+       <reg>
+        Александр
+       </reg>
+       <orig>
+        Александръ
+       </orig>
+      </choice>
+     </del>
+     , молодой
      <choice>
       <reg>
        красавец
@@ -14294,7 +14361,8 @@
       </orig>
      </choice>
      на деньщика:
-    </p><p id="8e126596-c5a5-4173-a664-888bc59280e0" rend="left">
+    </p>
+    <p id="8e126596-c5a5-4173-a664-888bc59280e0" rend="left">
      — Куда
      <choice>
       <reg>
@@ -15969,93 +16037,96 @@
        отъискивая
       </orig>
      </choice>
-     глазами Царя. <del>Хоть и
-     <choice>
-      <reg>
-       мельком
-      </reg>
-      <orig>
-       мелькомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       видел
-      </reg>
-      <orig>
-       видѣлъ
-      </orig>
-     </choice>
-     Царя на носу, хоть и много стояло теперь
-     <choice>
-      <reg>
-       перед
-      </reg>
-      <orig>
-       передъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       ним
-      </reg>
-      <orig>
-       нимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       господ
-      </reg>
-      <orig>
-       господъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       бояр
-      </reg>
-      <orig>
-       бояръ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       генералов
-      </reg>
-      <orig>
-       генераловъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       Алексей
-      </reg>
-      <orig>
-       Алексѣй
-      </orig>
-     </choice>
-     сразу
-     <choice>
-      <reg>
-       увидал
-      </reg>
-      <orig>
-       увидалъ
-      </orig>
-     </choice>
-     , что Царя не было.</del>
+     глазами Царя.
+     <del>
+      Хоть и
+      <choice>
+       <reg>
+        мельком
+       </reg>
+       <orig>
+        мелькомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        видел
+       </reg>
+       <orig>
+        видѣлъ
+       </orig>
+      </choice>
+      Царя на носу, хоть и много стояло теперь
+      <choice>
+       <reg>
+        перед
+       </reg>
+       <orig>
+        передъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        ним
+       </reg>
+       <orig>
+        нимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        господ
+       </reg>
+       <orig>
+        господъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        бояр
+       </reg>
+       <orig>
+        бояръ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        генералов
+       </reg>
+       <orig>
+        генераловъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        Алексей
+       </reg>
+       <orig>
+        Алексѣй
+       </orig>
+      </choice>
+      сразу
+      <choice>
+       <reg>
+        увидал
+       </reg>
+       <orig>
+        увидалъ
+       </orig>
+      </choice>
+      , что Царя не было.
+     </del>
      <choice>
       <reg>
        Высокий
@@ -16149,17 +16220,22 @@
        плылъ
       </orig>
      </choice>
-     , такой тихой, легкой поступью <del>и
-     <choice>
-      <reg>
-       хотел
-      </reg>
-      <orig>
-       хотѣлъ
-      </orig>
-     </choice>
-     взять шляпу</del>.
-    </p><p id="4d7e2e3b-b445-44b5-a3d2-89aa9e3be92b" rend="left">
+     , такой тихой, легкой поступью
+     <del>
+      и
+      <choice>
+       <reg>
+        хотел
+       </reg>
+       <orig>
+        хотѣлъ
+       </orig>
+      </choice>
+      взять шляпу
+     </del>
+     .
+    </p>
+    <p id="4d7e2e3b-b445-44b5-a3d2-89aa9e3be92b" rend="left">
      — Ну
      <choice>
       <reg>
@@ -17527,24 +17603,27 @@
        малыхъ
       </orig>
      </choice>
-     , и <del>мягкость, не курчавость,
-     <choice>
-      <reg>
-       этих
-      </reg>
-      <orig>
-       этихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       волос
-      </reg>
-      <orig>
-       волосъ
-      </orig>
-     </choice>
-     </del>,
+     , и
+     <del>
+      мягкость, не курчавость,
+      <choice>
+       <reg>
+        этих
+       </reg>
+       <orig>
+        этихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        волос
+       </reg>
+       <orig>
+        волосъ
+       </orig>
+      </choice>
+     </del>
+     ,
      <ref target="#note215">
       215
      </ref>
@@ -17740,7 +17819,8 @@
       </orig>
      </choice>
      Царя на всегда. —
-    </p><p id="f4a75b95-c7a3-4fa1-8faa-99ee95d38d3c" rend="left">
+    </p>
+    <p id="f4a75b95-c7a3-4fa1-8faa-99ee95d38d3c" rend="left">
      <choice>
       <reg>
        В
@@ -18294,17 +18374,20 @@
        въ
       </orig>
      </choice>
-     ту же минуту <del>
-     <choice>
-      <reg>
-       сказал
-      </reg>
-      <orig>
-       сказалъ
-      </orig>
-     </choice>
-     :</del>
-    </p><p id="e2c1ade9-7baa-4f06-bcae-b23d225655a7" rend="left">
+     ту же минуту
+     <del>
+      <choice>
+       <reg>
+        сказал
+       </reg>
+       <orig>
+        сказалъ
+       </orig>
+      </choice>
+      :
+     </del>
+    </p>
+    <p id="e2c1ade9-7baa-4f06-bcae-b23d225655a7" rend="left">
      —
      <choice>
       <reg>
@@ -18944,23 +19027,24 @@
          какъ
         </orig>
        </choice>
-       <del>это часто
-       <choice>
-        <reg>
-         бывает
-        </reg>
-        <orig>
-         бываетъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         летом
-        </reg>
-        <orig>
-         лѣтомъ
-        </orig>
-       </choice>
+       <del>
+        это часто
+        <choice>
+         <reg>
+          бывает
+         </reg>
+         <orig>
+          бываетъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          летом
+         </reg>
+         <orig>
+          лѣтомъ
+         </orig>
+        </choice>
        </del>
       </span>
      </add>
@@ -19148,7 +19232,8 @@
       </orig>
      </choice>
      :
-    </p><p id="e54f1b25-f7d8-44b0-b475-7c2c77ea697d" rend="left">
+    </p>
+    <p id="e54f1b25-f7d8-44b0-b475-7c2c77ea697d" rend="left">
      —
      <choice>
       <reg>
@@ -20032,15 +20117,16 @@
         </orig>
        </choice>
        <del>
-       <choice>
-        <reg>
-         Михаилович
-        </reg>
-        <orig>
-         Михаиловичъ
-        </orig>
-       </choice>
-       </del> Посошковы, крестьяне села
+        <choice>
+         <reg>
+          Михаилович
+         </reg>
+         <orig>
+          Михаиловичъ
+         </orig>
+        </choice>
+       </del>
+       Посошковы, крестьяне села
        <choice>
         <reg>
          Покровского
@@ -20295,7 +20381,8 @@
        трещала пальба ружейная.
       </span>
      </note>
-    </p><p id="bbf203ad-77fd-4b73-969a-8afbaf31f8d4" rend="left">
+    </p>
+    <p id="bbf203ad-77fd-4b73-969a-8afbaf31f8d4" rend="left">
      Рано
      <choice>
       <reg>
@@ -20306,15 +20393,16 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     </del> воскресенье зазвонили во
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+     </del>
+     воскресенье зазвонили во
      <choice>
       <reg>
        всех
@@ -20427,7 +20515,8 @@
       </orig>
      </choice>
      и ружей.
-    </p><p id="0a3897d8-fcf6-4a5f-9354-1c7419434168" rend="left">
+    </p>
+    <p id="0a3897d8-fcf6-4a5f-9354-1c7419434168" rend="left">
      <choice>
       <reg>
        В
@@ -20782,15 +20871,16 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       палят
-      </reg>
-      <orig>
-       палятъ
-      </orig>
-     </choice>
-     </del>? —
+      <choice>
+       <reg>
+        палят
+       </reg>
+       <orig>
+        палятъ
+       </orig>
+      </choice>
+     </del>
+     ? —
      <choice>
       <reg>
        спросил
@@ -20827,7 +20917,8 @@
       </orig>
      </choice>
      пальбы.
-    </p><p id="88519b42-81c4-461a-8cbc-7c6fae721f26" rend="left">
+    </p>
+    <p id="88519b42-81c4-461a-8cbc-7c6fae721f26" rend="left">
      — У Царя гулянье.
      <choice>
       <reg>
@@ -20921,7 +21012,11 @@
        невысокiй
       </orig>
      </choice>
-     , <del>кремнястой,</del> сухой, рыжеватый,
+     ,
+     <del>
+      кремнястой,
+     </del>
+     сухой, рыжеватый,
      <choice>
       <reg>
        с
@@ -20930,7 +21025,11 @@
        съ
       </orig>
      </choice>
-     маленькой бородкой и <del>весь</del> конопатый.
+     маленькой бородкой и
+     <del>
+      весь
+     </del>
+     конопатый.
      <choice>
       <reg>
        Старший
@@ -21044,7 +21143,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="86a264ec-cde5-4486-8cd5-b2b61380af76" rend="left">
+    </p>
+    <p id="86a264ec-cde5-4486-8cd5-b2b61380af76" rend="left">
      —
      <choice>
       <reg>

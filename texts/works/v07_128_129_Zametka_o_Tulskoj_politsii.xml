@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_128_129_Zametka_o_Tulskoj_politsii" resp="volume_editor">
-                    [Заметка о Тульской полиции]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Заметка о Тульской полиции</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="ecf19d4e-4fc8-48f7-b54e-feb72d5e14c3">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Заметка о Тульской полиции]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">128-129</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1865"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v07_128_129_Zametka_o_Tulskoj_politsii">
+     [Заметка о Тульской полиции]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Заметка о Тульской полиции
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="ecf19d4e-4fc8-48f7-b54e-feb72d5e14c3">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Заметка о Тульской полиции]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       128-129
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1865"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="1f11d95b-0f36-42b5-aaad-ffadbad47fdf">
@@ -884,7 +894,10 @@
        извѣстiемъ
       </orig>
      </choice>
-     , что <del>воза</del>
+     , что
+     <del>
+      воза
+     </del>
      <choice>
       <reg>
        стоят
@@ -1031,7 +1044,8 @@
       </orig>
      </choice>
      дней.
-    </p><p id="c040be1a-d3d5-40ba-90b2-9a3d16eb70ae" rend="left">
+    </p>
+    <p id="c040be1a-d3d5-40ba-90b2-9a3d16eb70ae" rend="left">
      Посланный мой
      <choice>
       <reg>
@@ -1885,180 +1899,183 @@
      голода.
     </p>
     <p id="7cd8cb59-0ccf-4448-bc06-430cc49f49ff" rend="left">
-     <del>Но
-     <choice>
-      <reg>
-       невежественный
-      </reg>
-      <orig>
-       невѣжественный
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       человек
-      </reg>
-      <orig>
-       человѣкъ
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       понимает
-      </reg>
-      <orig>
-       понимаетъ
-      </orig>
-     </choice>
-     того, что первая обязанность гражданина уважать власти, власть полицейскую, административную и земскую. Ежели на
-     <choice>
-      <reg>
-       одном
-      </reg>
-      <orig>
-       одномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       самых
-      </reg>
-      <orig>
-       самыхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       бойких
-      </reg>
-      <orig>
-       бойкихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       трактов
-      </reg>
-      <orig>
-       трактовъ
-      </orig>
-     </choice>
-     [России, где скопляется по 200
-     <choice>
-      <reg>
-       подвод
-      </reg>
-      <orig>
-       подводъ
-      </orig>
-     </choice>
-     , найдено
-     <choice>
-      <reg>
-       нужным
-      </reg>
-      <orig>
-       нужнымъ
-      </orig>
-     </choice>
-     этими властями
-     <choice>
-      <reg>
-       иметь
-      </reg>
-      <orig>
-       имѣть
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       паром
-      </reg>
-      <orig>
-       паромъ
-      </orig>
-     </choice>
-     и перевозить по очереди
-     <choice>
-      <reg>
-       через
-      </reg>
-      <orig>
-       черезъ
-      </orig>
-     </choice>
-     4 дня, то мы должны уважать это
-     <choice>
-      <reg>
-       распоряжение
-      </reg>
-      <orig>
-       распоряженiе
-      </orig>
-     </choice>
-     и сознавать, что на то должны быть важные, не доступные нашему
-     <choice>
-      <reg>
-       понятию
-      </reg>
-      <orig>
-       понятiю
-      </orig>
-     </choice>
-     причины, и уважать власти.
-     <choice>
-      <reg>
-       Вполне
-      </reg>
-      <orig>
-       Вполнѣ
-      </orig>
-     </choice>
-     сознавая это, я
-     <choice>
-      <reg>
-       послал
-      </reg>
-      <orig>
-       послалъ
-      </orig>
-     </choice>
-     обратно моего
-     <choice>
-      <reg>
-       человека
-      </reg>
-      <orig>
-       человѣка
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     Тулу.</del>
-    </p><p id="c6fa3278-e182-4bb7-a3d7-2e3e9d4b2d0f" rend="left">
+     <del>
+      Но
+      <choice>
+       <reg>
+        невежественный
+       </reg>
+       <orig>
+        невѣжественный
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        человек
+       </reg>
+       <orig>
+        человѣкъ
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        понимает
+       </reg>
+       <orig>
+        понимаетъ
+       </orig>
+      </choice>
+      того, что первая обязанность гражданина уважать власти, власть полицейскую, административную и земскую. Ежели на
+      <choice>
+       <reg>
+        одном
+       </reg>
+       <orig>
+        одномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        самых
+       </reg>
+       <orig>
+        самыхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        бойких
+       </reg>
+       <orig>
+        бойкихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        трактов
+       </reg>
+       <orig>
+        трактовъ
+       </orig>
+      </choice>
+      [России, где скопляется по 200
+      <choice>
+       <reg>
+        подвод
+       </reg>
+       <orig>
+        подводъ
+       </orig>
+      </choice>
+      , найдено
+      <choice>
+       <reg>
+        нужным
+       </reg>
+       <orig>
+        нужнымъ
+       </orig>
+      </choice>
+      этими властями
+      <choice>
+       <reg>
+        иметь
+       </reg>
+       <orig>
+        имѣть
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        паром
+       </reg>
+       <orig>
+        паромъ
+       </orig>
+      </choice>
+      и перевозить по очереди
+      <choice>
+       <reg>
+        через
+       </reg>
+       <orig>
+        черезъ
+       </orig>
+      </choice>
+      4 дня, то мы должны уважать это
+      <choice>
+       <reg>
+        распоряжение
+       </reg>
+       <orig>
+        распоряженiе
+       </orig>
+      </choice>
+      и сознавать, что на то должны быть важные, не доступные нашему
+      <choice>
+       <reg>
+        понятию
+       </reg>
+       <orig>
+        понятiю
+       </orig>
+      </choice>
+      причины, и уважать власти.
+      <choice>
+       <reg>
+        Вполне
+       </reg>
+       <orig>
+        Вполнѣ
+       </orig>
+      </choice>
+      сознавая это, я
+      <choice>
+       <reg>
+        послал
+       </reg>
+       <orig>
+        послалъ
+       </orig>
+      </choice>
+      обратно моего
+      <choice>
+       <reg>
+        человека
+       </reg>
+       <orig>
+        человѣка
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      Тулу.
+     </del>
+    </p>
+    <p id="c6fa3278-e182-4bb7-a3d7-2e3e9d4b2d0f" rend="left">
      Но хотя легкомысленные и несовременные люди и
      <choice>
       <reg>

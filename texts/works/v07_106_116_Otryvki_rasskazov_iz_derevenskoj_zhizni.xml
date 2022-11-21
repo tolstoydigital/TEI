@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_106_116_Otryvki_rasskazov_iz_derevenskoj_zhizni" resp="volume_editor">
-                    [Отрывки рассказов из деревенской жизни]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Отрывки рассказов из деревенской жизни</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="5ac1ea55-6d87-442e-967e-58c04b4fce7f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Отрывки рассказов из деревенской жизни]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">106-116</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v07_106_116_Otryvki_rasskazov_iz_derevenskoj_zhizni">
+     [Отрывки рассказов из деревенской жизни]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Отрывки рассказов из деревенской жизни
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="5ac1ea55-6d87-442e-967e-58c04b4fce7f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Отрывки рассказов из деревенской жизни]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       106-116
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="06d9b42e-84b1-4d93-af54-353114442ee3">
@@ -124,7 +134,7 @@
     </head>
    </div>
    <div type="section" xml:id="h000012005001">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="strong">
       * 1.
      </hi>
@@ -1375,33 +1385,37 @@
        засмѣется
       </orig>
      </choice>
-     , <del>бывало,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       всем
-      </reg>
-      <orig>
-       всѣмъ
-      </orig>
-     </choice>
-     весело
-     <choice>
-      <reg>
-       станет
-      </reg>
-      <orig>
-       станетъ
-      </orig>
-     </choice>
-     ;</del> зубы
+     ,
+     <del>
+      бывало,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        всем
+       </reg>
+       <orig>
+        всѣмъ
+       </orig>
+      </choice>
+      весело
+      <choice>
+       <reg>
+        станет
+       </reg>
+       <orig>
+        станетъ
+       </orig>
+      </choice>
+      ;
+     </del>
+     зубы
      <choice>
       <reg>
        белые
@@ -1517,7 +1531,8 @@
       </orig>
      </choice>
      .
-    </p><p id="e3fd59dd-6a3a-4516-abdb-1ab0559d899d" rend="left">
+    </p>
+    <p id="e3fd59dd-6a3a-4516-abdb-1ab0559d899d" rend="left">
      <choice>
       <reg>
        Так
@@ -4781,7 +4796,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012005002">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="strong">
       ** 2.
      </hi>
@@ -6820,7 +6835,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012005003">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="strong">
       * 3.
      </hi>
@@ -6978,7 +6993,10 @@
        Одинъ
       </orig>
      </choice>
-     только <del>высокой, плечистый малый</del>
+     только
+     <del>
+      высокой, плечистый малый
+     </del>
      <choice>
       <reg>
        Лизун
@@ -7081,42 +7099,44 @@
        сѣлъ
       </orig>
      </choice>
-     на низкую завалину у избы, <del>
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     что
-     <choice>
-      <reg>
-       высокия
-      </reg>
-      <orig>
-       высокiя
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       колени
-      </reg>
-      <orig>
-       колѣни
-      </orig>
-     </choice>
-     его доходили почти до
-     <choice>
-      <reg>
-       плеч
-      </reg>
-      <orig>
-       плечъ
-      </orig>
-     </choice>
-     </del>,
+     на низкую завалину у избы,
+     <del>
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      что
+      <choice>
+       <reg>
+        высокия
+       </reg>
+       <orig>
+        высокiя
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        колени
+       </reg>
+       <orig>
+        колѣни
+       </orig>
+      </choice>
+      его доходили почти до
+      <choice>
+       <reg>
+        плеч
+       </reg>
+       <orig>
+        плечъ
+       </orig>
+      </choice>
+     </del>
+     ,
      <choice>
       <reg>
        взял
@@ -7578,7 +7598,8 @@
       </orig>
      </choice>
      : —
-    </p><p id="e8b7ea91-2388-49f0-acf7-76fb7e952881" rend="left">
+    </p>
+    <p id="e8b7ea91-2388-49f0-acf7-76fb7e952881" rend="left">
      — Коли ты
      <choice>
       <reg>
@@ -11076,7 +11097,7 @@
     </p>
    </div>
    <div type="section" xml:id="h000012005004">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="strong">
       * 4.
      </hi>
@@ -12496,34 +12517,36 @@
        Лизунъ
       </orig>
      </choice>
-     ! <del>
-     <choice>
-      <reg>
-       чорт
-      </reg>
-      <orig>
-       чортъ
-      </orig>
-     </choice>
-     тебя возьми, что рано
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     работы
-     <choice>
-      <reg>
-       сошел
-      </reg>
-      <orig>
-       сошелъ
-      </orig>
-     </choice>
-     , аль домой</del>
+     !
+     <del>
+      <choice>
+       <reg>
+        чорт
+       </reg>
+       <orig>
+        чортъ
+       </orig>
+      </choice>
+      тебя возьми, что рано
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      работы
+      <choice>
+       <reg>
+        сошел
+       </reg>
+       <orig>
+        сошелъ
+       </orig>
+      </choice>
+      , аль домой
+     </del>
      <choice>
       <reg>
        курвин
@@ -12600,16 +12623,19 @@
        кнутовищемъ
       </orig>
      </choice>
-     , — «то-то бы выпили, <del>умаялся
-     <choice>
-      <reg>
-       целый
-      </reg>
-      <orig>
-       цѣлый
-      </orig>
-     </choice>
-     день пахамши</del>
+     , — «то-то бы выпили,
+     <del>
+      умаялся
+      <choice>
+       <reg>
+        целый
+       </reg>
+       <orig>
+        цѣлый
+       </orig>
+      </choice>
+      день пахамши
+     </del>
      <choice>
       <reg>
        с
@@ -12619,9 +12645,10 @@
       </orig>
      </choice>
      работы-то».
-    </p></div>
+    </p>
+   </div>
    <div type="section" xml:id="h000012005005">
-    <head rend="center">
+    <head n="level2" type="chapter">
      <hi rend="strong">
       ** 5.
      </hi>

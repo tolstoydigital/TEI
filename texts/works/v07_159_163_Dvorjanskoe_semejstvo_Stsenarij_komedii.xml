@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_159_163_Dvorjanskoe_semejstvo_Stsenarij_komedii">
-                    [Сценарий комедии «Дворянское семейство»]. Tolstoy Digital
-                </title>
-                <title type="main">Дворянское семейство.</title>
-                <title type="sub">Сценарий комедии</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="ccf9fce3-bc47-4e89-93c6-39281c89decb">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Сценарий комедии «Дворянское семейство»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">159-163</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1856"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_159_163_Dvorjanskoe_semejstvo_Stsenarij_komedii">
+     [Сценарий комедии «Дворянское семейство»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дворянское семейство.
+    </title>
+    <title type="sub">
+     Сценарий комедии
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="ccf9fce3-bc47-4e89-93c6-39281c89decb">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Сценарий комедии «Дворянское семейство»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       159-163
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012019002">
     <p id="9432c86f-b4f6-4b8a-a491-8af6b0761775">
@@ -114,11 +126,15 @@
     <head n="level2" type="act">
      ДѢЙСТВІЕ 1-е.
     </head>
-    <p id="d23c0243-b0c0-4eb8-a998-edb7483325f0" rend="center">
+    <head n="level3" type="scene">
      Сцена 1-я.
-    </p>
+    </head>
     <p id="1063fa8a-d963-45d9-ad04-70ebbe369165" rend="left">
-     Княгиня и Иванъ Ильичъ за чаемъ говорятъ о Князѣ и <del>Валерьянѣ, о томъ, чтобы женить его</del> Анатольѣ. Иванъ Ильичь сплетничаетъ на Наталью и Пашеньку и ожидаетъ, что имъ будетъ плохо.
+     Княгиня и Иванъ Ильичъ за чаемъ говорятъ о Князѣ и
+     <del>
+      Валерьянѣ, о томъ, чтобы женить его
+     </del>
+     Анатольѣ. Иванъ Ильичь сплетничаетъ на Наталью и Пашеньку и ожидаетъ, что имъ будетъ плохо.
      <ref target="#note175">
       175
      </ref>
@@ -133,10 +149,11 @@
        .
       </span>
      </note>
-    </p><p id="9c8c3f18-804c-4fb3-a029-423802071f54" rend="center">
+    </p>
+    <head n="level3" type="scene">
      <pb n="160"/>
      Сцена 2-я.
-    </p>
+    </head>
     <p id="90537c38-1293-4ac9-8c15-6a6325e1b52c" rend="left">
      <choice>
       <reg>
@@ -187,9 +204,9 @@
      </choice>
      за него.
     </p>
-    <p id="c92dec4f-9515-41ce-a91f-ec1e8c3d79a8" rend="center">
+    <head n="level3" type="scene">
      Сцена 3-я.
-    </p>
+    </head>
     <p id="492b6047-ba3d-4bc0-b2c1-40fee31a956b" rend="left">
      <choice>
       <reg>
@@ -340,9 +357,9 @@
      </choice>
      мужиками&gt;.
     </p>
-    <p id="786bbcb9-bab0-4797-ab50-60f8f6bcbe80" rend="center">
+    <head n="level3" type="scene">
      Сцена 4-я.
-    </p>
+    </head>
     <p id="3359cd7e-ebbd-47f4-a183-97ec33cb1c21" rend="left">
      <choice original_editorial_correction="Кня[гиня]">
       <sic>
@@ -360,24 +377,25 @@
        уходитъ
       </orig>
      </choice>
-     . Володя <del>
-     <choice>
-      <reg>
-       скучен
-      </reg>
-      <orig>
-       скученъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       подозревает
-      </reg>
-      <orig>
-       подозрѣваетъ
-      </orig>
-     </choice>
+     . Володя
+     <del>
+      <choice>
+       <reg>
+        скучен
+       </reg>
+       <orig>
+        скученъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        подозревает
+       </reg>
+       <orig>
+        подозрѣваетъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -427,9 +445,10 @@
       </orig>
      </choice>
      на Княгиню.
-    </p><p id="5df51653-1574-474e-88f3-21c5bb6b9484" rend="center">
-     Сцена 5-я.
     </p>
+    <head n="level3" type="scene">
+     Сцена 5-я.
+    </head>
     <p id="333402bb-6c4e-41a1-a71e-05b0c78d33ad" rend="left">
      Володя
      <choice>
@@ -496,25 +515,28 @@
        уходятъ
       </orig>
      </choice>
-     ставить шары, Князь <del>
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     , злится на жену, на сына, на
-     <choice>
-      <reg>
-       мужиков
-      </reg>
-      <orig>
-       мужиковъ
-      </orig>
-     </choice>
-     , на Володю даже</del> —
+     ставить шары, Князь
+     <del>
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      , злится на жену, на сына, на
+      <choice>
+       <reg>
+        мужиков
+       </reg>
+       <orig>
+        мужиковъ
+       </orig>
+      </choice>
+      , на Володю даже
+     </del>
+     —
      <choice>
       <reg>
        скучает
@@ -550,9 +572,10 @@
       </orig>
      </choice>
      люди.
-    </p><p id="1af35d5c-ddfa-473e-bf98-676ca361ae29" rend="center">
-     Сцена 6-я.
     </p>
+    <head n="level3" type="scene">
+     Сцена 6-я.
+    </head>
     <p id="85e1d903-30b5-4454-b81a-309463e89ef9" rend="left">
      <choice>
       <reg>
@@ -591,9 +614,9 @@
      </choice>
      .
     </p>
-    <p id="74a220bf-cffb-4a8b-bb5a-c882c315c3fc" rend="center">
+    <head n="level3" type="scene">
      Сцена 7-я.
-    </p>
+    </head>
     <p id="51f54b79-c8e6-4d79-ba25-76bb4a2083e4" rend="left">
      (
      <choice>
@@ -637,7 +660,11 @@
        замѣчаетъ
       </orig>
      </choice>
-     его и <del>принимается бранить</del> кротко
+     его и
+     <del>
+      принимается бранить
+     </del>
+     кротко
      <choice>
       <reg>
        делает
@@ -672,33 +699,35 @@
       </corr>
      </choice>
      <del>
-     <choice>
-      <reg>
-       говорит
-      </reg>
-      <orig>
-       говоритъ
-      </orig>
-     </choice>
-     , что
-     <choice>
-      <reg>
-       отец
-      </reg>
-      <orig>
-       отецъ
-      </orig>
-     </choice>
-     его не
-     <choice>
-      <reg>
-       может
-      </reg>
-      <orig>
-       можетъ
-      </orig>
-     </choice>
-     понять</del>.
+      <choice>
+       <reg>
+        говорит
+       </reg>
+       <orig>
+        говоритъ
+       </orig>
+      </choice>
+      , что
+      <choice>
+       <reg>
+        отец
+       </reg>
+       <orig>
+        отецъ
+       </orig>
+      </choice>
+      его не
+      <choice>
+       <reg>
+        может
+       </reg>
+       <orig>
+        можетъ
+       </orig>
+      </choice>
+      понять
+     </del>
+     .
      <choice>
       <reg>
        Разговор
@@ -734,9 +763,10 @@
       </orig>
      </choice>
      .
-    </p><p id="1697ef03-f2fc-4bff-805c-77afed608796" rend="center">
-     Сцена 8-я.
     </p>
+    <head n="level3" type="scene">
+     Сцена 8-я.
+    </head>
     <p id="8a8d7451-3633-45fe-a03a-2329ac124f4a" rend="left">
      <choice original_editorial_correction="Валер[ьянъ]">
       <sic>
@@ -848,9 +878,9 @@
      </choice>
      .
     </p>
-    <p id="e83bc295-f1c4-4580-b524-9e4301aee0a6" rend="center">
+    <head n="level3" type="scene">
      Сцена 9-я.
-    </p>
+    </head>
     <p id="ed79c876-95a1-4e4e-b368-e4c698400959" rend="left">
      <hi rend="italic">
       <choice original_editorial_correction="К[нягиня]">
@@ -986,9 +1016,9 @@
      </choice>
      .
     </p>
-    <p id="bb2340b9-28be-4139-a178-6884ce1907e0" rend="center">
+    <head n="level3" type="scene">
      Сцена 10-я.
-    </p>
+    </head>
     <p id="163f1bf0-ebdb-4349-a496-10871e0f1fb1" rend="left">
      <choice original_editorial_correction="Ив[анъ]">
       <sic>
@@ -1151,10 +1181,10 @@
       </span>
      </note>
     </p>
-    <p id="7c28056f-5d28-40af-8b65-f01e9a6d9976" rend="center">
+    <head n="level3" type="scene">
      <pb n="161"/>
      Сцена 11-я.
-    </p>
+    </head>
     <p id="547aaa5a-d0fe-4d94-adfb-01949a03631f" rend="left">
      <choice>
       <reg>
@@ -1210,40 +1240,42 @@
        </choice>
       </corr>
      </choice>
-     . <del>
-     <choice original_editorial_correction="Вал[ерьянъ]">
-      <sic>
-       Вал
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Валерьян
-        </reg>
-        <orig>
-         Валерьянъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       счастлив
-      </reg>
-      <orig>
-       счастливъ
-      </orig>
-     </choice>
-     , откровенность его
-     <choice>
-      <reg>
-       оскорбляет
-      </reg>
-      <orig>
-       оскорбляетъ
-      </orig>
-     </choice>
-     брата.</del>
+     .
+     <del>
+      <choice original_editorial_correction="Вал[ерьянъ]">
+       <sic>
+        Вал
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Валерьян
+         </reg>
+         <orig>
+          Валерьянъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        счастлив
+       </reg>
+       <orig>
+        счастливъ
+       </orig>
+      </choice>
+      , откровенность его
+      <choice>
+       <reg>
+        оскорбляет
+       </reg>
+       <orig>
+        оскорбляетъ
+       </orig>
+      </choice>
+      брата.
+     </del>
      <choice original_editorial_correction="Ив[анъ]">
       <sic>
        Ив
@@ -1324,28 +1356,31 @@
        прiѣхалъ
       </orig>
      </choice>
-     за деньгами. <del>
-     <choice original_editorial_correction="Вал[ерьяну]">
-      <sic>
-       Вал
-      </sic>
-      <corr>
-       Валерьяну
-      </corr>
-     </choice>
-     кажется, что
-     <choice>
-      <reg>
-       таким
-      </reg>
-      <orig>
-       такимъ
-      </orig>
-     </choice>
-     и надо быть.</del>
-    </p><p id="d38c0cc9-1690-4643-9f7a-e3d25dd4ce89" rend="center">
-     Сцена 12-я.
+     за деньгами.
+     <del>
+      <choice original_editorial_correction="Вал[ерьяну]">
+       <sic>
+        Вал
+       </sic>
+       <corr>
+        Валерьяну
+       </corr>
+      </choice>
+      кажется, что
+      <choice>
+       <reg>
+        таким
+       </reg>
+       <orig>
+        такимъ
+       </orig>
+      </choice>
+      и надо быть.
+     </del>
     </p>
+    <head n="level3" type="scene">
+     Сцена 12-я.
+    </head>
     <p id="48cc3f38-f1ae-48ea-8074-dc06867a73f6" rend="left">
      <choice>
       <reg>
@@ -1514,9 +1549,9 @@
      </choice>
      .
     </p>
-    <p id="057d888e-0c43-4229-8532-a8361f76882f" rend="center">
+    <head n="level3" type="scene">
      Сцена 13-я.
-    </p>
+    </head>
     <p id="ce9e074f-8f48-4733-8c11-9580c351ffd4" rend="left">
      <choice original_editorial_correction="Вх[одятъ]">
       <sic>
@@ -1610,9 +1645,9 @@
      </choice>
      .
     </p>
-    <p id="434e0fa4-399c-4155-8c10-df49c8492f34" rend="center">
+    <head n="level3" type="scene">
      Сцена 14-я.
-    </p>
+    </head>
     <p id="9dc93b37-ee1a-4dae-9399-67dfe8adf9dd" rend="left">
      <choice original_editorial_correction="Анат[олій]">
       <sic>
@@ -1685,9 +1720,9 @@
      </choice>
      2-е. КОМНАТА ВОЛОДИ И КОНТОРА.
     </head>
-    <p id="9c54c260-f85a-4845-bc1c-b2e4570c140e" rend="center">
+    <head n="level3" type="scene">
      Сцена 1.
-    </p>
+    </head>
     <p id="aa114200-673e-4eb7-8cdb-85f368c06599" rend="left">
      <choice original_editorial_correction="В[олодя]">
       <sic>
@@ -1759,9 +1794,9 @@
      </choice>
      .
     </p>
-    <p id="7728fa9b-d49e-464a-b534-c14251ed2900" rend="center">
+    <head n="level3" type="scene">
      Сцена 2-я.
-    </p>
+    </head>
     <p id="c956d3b7-830f-450f-a206-2939205c86cc" rend="left">
      <hi rend="italic">
       Бабы и мужики
@@ -1884,9 +1919,9 @@
       </span>
      </note>
     </p>
-    <p id="7ff77896-ede9-4932-be03-bff8ea16f32f" rend="center">
+    <head n="level3" type="scene">
      Сцена 3-я.
-    </p>
+    </head>
     <p id="dc814007-06a5-4c94-be24-d2a5e6d73c2d" rend="left">
      Пашенька одна,
      <choice>
@@ -1953,9 +1988,9 @@
      </hi>
      .
     </p>
-    <p id="17703a19-a4a5-4bd2-a155-be8d2dd5f3c2" rend="center">
+    <head n="level3" type="scene">
      Сцена 4-я.
-    </p>
+    </head>
     <p id="57e5ea05-acb2-41b9-bc09-897917385f20" rend="left">
      <choice>
       <reg>
@@ -1991,9 +2026,9 @@
      </choice>
      ее.
     </p>
-    <p id="527d19f4-da2c-4e22-b9bf-0133f27bdfb5" rend="center">
+    <head n="level3" type="scene">
      Сцена 5-я.
-    </p>
+    </head>
     <p id="97d2b495-dc97-4072-af64-ee38e2588811" rend="left">
      <choice original_editorial_correction="В[олодя]">
       <sic>
@@ -2188,10 +2223,10 @@
      </choice>
      .
     </p>
-    <p id="6b9b21ab-6e9b-4f0e-a078-dfba2b70cd75" rend="center">
+    <head n="level3" type="scene">
      <pb n="162"/>
      Сцена 6-я.
-    </p>
+    </head>
     <p id="38782001-3206-4962-a6e2-fb12f5a1c80d" rend="left">
      <choice original_editorial_correction="Н[аталья]">
       <sic>
@@ -2218,28 +2253,31 @@
        разсказываетъ
       </orig>
      </choice>
-     про векселя и свои права. <del>
-     <choice>
-      <reg>
-       вот
-      </reg>
-      <orig>
-       вотъ
-      </orig>
-     </choice>
-     только умри
-     <choice>
-      <reg>
-       барин
-      </reg>
-      <orig>
-       баринъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="ca23e23b-32f0-446f-8940-5de65a418794" rend="center">
-     Сцена 7-я.
+     про векселя и свои права.
+     <del>
+      <choice>
+       <reg>
+        вот
+       </reg>
+       <orig>
+        вотъ
+       </orig>
+      </choice>
+      только умри
+      <choice>
+       <reg>
+        барин
+       </reg>
+       <orig>
+        баринъ
+       </orig>
+      </choice>
+      .
+     </del>
     </p>
+    <head n="level3" type="scene">
+     Сцена 7-я.
+    </head>
     <p id="5002ab42-c037-48fb-9cea-840c22d6ba9d" rend="left">
      <choice>
       <reg>
@@ -2257,7 +2295,10 @@
        декорацiи
       </orig>
      </choice>
-     <del>гостинная</del>.
+     <del>
+      гостинная
+     </del>
+     .
      <choice>
       <reg>
        Кабинет
@@ -2266,168 +2307,170 @@
        Кабинетъ
       </orig>
      </choice>
-     отца. <del>
-     <choice original_editorial_correction="К[нягин]я">
-      <sic>
-       Кя
-      </sic>
-      <corr>
-       Княгиня
-      </corr>
-     </choice>
-     и
-     <choice original_editorial_correction="Вал[ерьянъ]">
-      <sic>
-       Вал
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Валерьян
-        </reg>
-        <orig>
-         Валерьянъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     .
-     <choice original_editorial_correction="Вал[ерьянъ]">
-      <sic>
-       Вал
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Валерьян
-        </reg>
-        <orig>
-         Валерьянъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     не
-     <choice>
-      <reg>
-       отвечает
-      </reg>
-      <orig>
-       отвѣчаетъ
-      </orig>
-     </choice>
-     на вопросы.
-     <choice original_editorial_correction="Кня[гиня]">
-      <sic>
-       Кня
-      </sic>
-      <corr>
-       Княгиня
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       уговаривает
-      </reg>
-      <orig>
-       уговариваетъ
-      </orig>
-     </choice>
-     его жениться.
-     <choice original_editorial_correction="В[алерьянъ]">
-      <sic>
-       В
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Валерьян
-        </reg>
-        <orig>
-         Валерьянъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       говорит
-      </reg>
-      <orig>
-       говоритъ
-      </orig>
-     </choice>
-     , что довольно
-     <choice>
-      <reg>
-       одного
-      </reg>
-      <orig>
-       однаго
-      </orig>
-     </choice>
-     такого урода,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     ,
-     <choice original_editorial_correction="К[нягин]я">
-      <sic>
-       Кя
-      </sic>
-      <corr>
-       Княгиня
-      </corr>
-     </choice>
-     не
-     <choice>
-      <reg>
-       понимает
-      </reg>
-      <orig>
-       понимаетъ
-      </orig>
-     </choice>
-     его и
-     <choice>
-      <reg>
-       говорит
-      </reg>
-      <orig>
-       говоритъ
-      </orig>
-     </choice>
-     , что она богата,
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       знает
-      </reg>
-      <orig>
-       знаетъ
-      </orig>
-     </choice>
-     .</del>
+     отца.
+     <del>
+      <choice original_editorial_correction="К[нягин]я">
+       <sic>
+        Кя
+       </sic>
+       <corr>
+        Княгиня
+       </corr>
+      </choice>
+      и
+      <choice original_editorial_correction="Вал[ерьянъ]">
+       <sic>
+        Вал
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Валерьян
+         </reg>
+         <orig>
+          Валерьянъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      .
+      <choice original_editorial_correction="Вал[ерьянъ]">
+       <sic>
+        Вал
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Валерьян
+         </reg>
+         <orig>
+          Валерьянъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      не
+      <choice>
+       <reg>
+        отвечает
+       </reg>
+       <orig>
+        отвѣчаетъ
+       </orig>
+      </choice>
+      на вопросы.
+      <choice original_editorial_correction="Кня[гиня]">
+       <sic>
+        Кня
+       </sic>
+       <corr>
+        Княгиня
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        уговаривает
+       </reg>
+       <orig>
+        уговариваетъ
+       </orig>
+      </choice>
+      его жениться.
+      <choice original_editorial_correction="В[алерьянъ]">
+       <sic>
+        В
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Валерьян
+         </reg>
+         <orig>
+          Валерьянъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        говорит
+       </reg>
+       <orig>
+        говоритъ
+       </orig>
+      </choice>
+      , что довольно
+      <choice>
+       <reg>
+        одного
+       </reg>
+       <orig>
+        однаго
+       </orig>
+      </choice>
+      такого урода,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      ,
+      <choice original_editorial_correction="К[нягин]я">
+       <sic>
+        Кя
+       </sic>
+       <corr>
+        Княгиня
+       </corr>
+      </choice>
+      не
+      <choice>
+       <reg>
+        понимает
+       </reg>
+       <orig>
+        понимаетъ
+       </orig>
+      </choice>
+      его и
+      <choice>
+       <reg>
+        говорит
+       </reg>
+       <orig>
+        говоритъ
+       </orig>
+      </choice>
+      , что она богата,
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        знает
+       </reg>
+       <orig>
+        знаетъ
+       </orig>
+      </choice>
+      .
+     </del>
      <choice original_editorial_correction="А[натолій]">
       <sic>
        А
@@ -2571,9 +2614,10 @@
       </orig>
      </choice>
      .
-    </p><p id="35233a03-e205-4cf8-b145-fb02c9fca2f9" rend="center">
-     Сцена 8.
     </p>
+    <head n="level3" type="scene">
+     Сцена 8.
+    </head>
     <p id="2bdc262b-f554-48bf-950f-7ae6ac41c4a1" rend="left">
      <choice original_editorial_correction="А[натолій]">
       <sic>
@@ -2641,68 +2685,71 @@
        хохочетъ
       </orig>
      </choice>
-     <del>весело.
-     <choice original_editorial_correction="А[натолій]">
-      <sic>
-       А
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Анатолий
-        </reg>
-        <orig>
-         Анатолiй
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       объясняет
-      </reg>
-      <orig>
-       объясняетъ
-      </orig>
-     </choice>
-     ей свое положенье весь
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       долгах
-      </reg>
-      <orig>
-       долгахъ
-      </orig>
-     </choice>
-     , жена
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       ужасе
-      </reg>
-      <orig>
-       ужасѣ
-      </orig>
-     </choice>
-     </del>.
-    </p><p id="a9e0d75f-d8b8-4af6-90bd-81886b5f7a13" rend="center">
-     Сцена 9-я.
+     <del>
+      весело.
+      <choice original_editorial_correction="А[натолій]">
+       <sic>
+        А
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Анатолий
+         </reg>
+         <orig>
+          Анатолiй
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        объясняет
+       </reg>
+       <orig>
+        объясняетъ
+       </orig>
+      </choice>
+      ей свое положенье весь
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        долгах
+       </reg>
+       <orig>
+        долгахъ
+       </orig>
+      </choice>
+      , жена
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        ужасе
+       </reg>
+       <orig>
+        ужасѣ
+       </orig>
+      </choice>
+     </del>
+     .
     </p>
+    <head n="level3" type="scene">
+     Сцена 9-я.
+    </head>
     <p id="a4849283-537f-451a-975f-99978f7b39d1" rend="left">
      <choice>
       <reg>
@@ -2809,49 +2856,51 @@
        успѣшно
       </orig>
      </choice>
-     . <del>
-     <choice original_editorial_correction="К[нягин]я">
-      <sic>
-       Кя
-      </sic>
-      <corr>
-       Княгиня
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       намекает
-      </reg>
-      <orig>
-       намекаетъ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="К[няз]ю">
-      <sic>
-       Кю
-      </sic>
-      <corr>
-       Князю
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     злится и
-     <choice>
-      <reg>
-       оскорбляет
-      </reg>
-      <orig>
-       оскорбляетъ
-      </orig>
-     </choice>
-     ее.</del>
+     .
+     <del>
+      <choice original_editorial_correction="К[нягин]я">
+       <sic>
+        Кя
+       </sic>
+       <corr>
+        Княгиня
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        намекает
+       </reg>
+       <orig>
+        намекаетъ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="К[няз]ю">
+       <sic>
+        Кю
+       </sic>
+       <corr>
+        Князю
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      злится и
+      <choice>
+       <reg>
+        оскорбляет
+       </reg>
+       <orig>
+        оскорбляетъ
+       </orig>
+      </choice>
+      ее.
+     </del>
      <choice>
       <reg>
        Валерьян
@@ -2983,9 +3032,10 @@
       </orig>
      </choice>
      Старика.
-    </p><p id="f12d9df9-89b0-41bf-8738-575756639979" rend="center">
-     Сцена 9-я.
     </p>
+    <head n="level3" type="scene">
+     Сцена 9-я.
+    </head>
     <p id="91dafe44-e6c8-4a2e-9e9c-e62f20e2a8f8" rend="left">
      <choice>
       <reg>
@@ -3007,88 +3057,91 @@
        начинаетъ
       </orig>
      </choice>
-     сплетничать <del>и
-     <choice>
-      <reg>
-       рассказывать
-      </reg>
-      <orig>
-       разсказывать
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="В[алерь]янъ">
-      <sic>
-       Вянъ
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Валерьян
-        </reg>
-        <orig>
-         Валерьянъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       честен
-      </reg>
-      <orig>
-       честенъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       отдал
-      </reg>
-      <orig>
-       отдалъ
-      </orig>
-     </choice>
-     свою теткину часть, тогда
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="А[натолій]">
-      <sic>
-       А
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Анатолий
-        </reg>
-        <orig>
-         Анатолiй
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       прожил
-      </reg>
-      <orig>
-       прожилъ
-      </orig>
-     </choice>
-     ее давно.</del>
+     сплетничать
+     <del>
+      и
+      <choice>
+       <reg>
+        рассказывать
+       </reg>
+       <orig>
+        разсказывать
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="В[алерь]янъ">
+       <sic>
+        Вянъ
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Валерьян
+         </reg>
+         <orig>
+          Валерьянъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        честен
+       </reg>
+       <orig>
+        честенъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        отдал
+       </reg>
+       <orig>
+        отдалъ
+       </orig>
+      </choice>
+      свою теткину часть, тогда
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="А[натолій]">
+       <sic>
+        А
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Анатолий
+         </reg>
+         <orig>
+          Анатолiй
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        прожил
+       </reg>
+       <orig>
+        прожилъ
+       </orig>
+      </choice>
+      ее давно.
+     </del>
      <choice>
       <reg>
        Старик
@@ -3122,70 +3175,72 @@
       </corr>
      </choice>
      — только за Паше
-    </p><p id="769d5387-316b-4c62-aa1c-7daa83926b2b" rend="center">
-     Сцена 10.
     </p>
+    <head n="level3" type="scene">
+     Сцена 10.
+    </head>
     <p id="891bb6c4-cbb7-4baa-8bd0-61cdd35d61c0" rend="left">
      <del>
-     <choice>
-      <reg>
-       Входит
-      </reg>
-      <orig>
-       Входитъ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="Анат[олій]">
-      <sic>
-       Анат
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Анатолий
-        </reg>
-        <orig>
-         Анатолiй
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     ,
-     <choice original_editorial_correction="К[няз]ь">
-      <sic>
-       Кь
-      </sic>
-      <corr>
-       Князь
-      </corr>
-     </choice>
-     .
-     <choice original_editorial_correction="К[нягин]я">
-      <sic>
-       Кя
-      </sic>
-      <corr>
-       Княгиня
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       говорит
-      </reg>
-      <orig>
-       говоритъ
-      </orig>
-     </choice>
-     за сьна, Князь
-     <choice>
-      <reg>
-       ругает
-      </reg>
-      <orig>
-       ругаетъ
-      </orig>
-     </choice>
-     Анатолья.</del>
+      <choice>
+       <reg>
+        Входит
+       </reg>
+       <orig>
+        Входитъ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="Анат[олій]">
+       <sic>
+        Анат
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Анатолий
+         </reg>
+         <orig>
+          Анатолiй
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      ,
+      <choice original_editorial_correction="К[няз]ь">
+       <sic>
+        Кь
+       </sic>
+       <corr>
+        Князь
+       </corr>
+      </choice>
+      .
+      <choice original_editorial_correction="К[нягин]я">
+       <sic>
+        Кя
+       </sic>
+       <corr>
+        Княгиня
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        говорит
+       </reg>
+       <orig>
+        говоритъ
+       </orig>
+      </choice>
+      за сьна, Князь
+      <choice>
+       <reg>
+        ругает
+       </reg>
+       <orig>
+        ругаетъ
+       </orig>
+      </choice>
+      Анатолья.
+     </del>
      <ref target="#note178">
       178
      </ref>
@@ -3200,7 +3255,8 @@
        .
       </span>
      </note>
-    </p></div>
+    </p>
+   </div>
    <div type="section" xml:id="h000012019002003">
     <head n="level2" type="act">
      <choice>
@@ -3230,47 +3286,49 @@
      </choice>
      КНЯЗЯ.&gt;
     </head>
-    <p id="fe64c22c-46ee-4072-8fb5-49829fb035ba" rend="center">
+    <head n="level3" type="scene">
      Сцена 1-я.
-    </p>
+    </head>
     <p id="cf7ffd31-08ff-4202-a501-d3bb6f228a1c" rend="center">
      <del>
-     <choice>
-      <reg>
-       Анатолий
-      </reg>
-      <orig>
-       Анатолiй
-      </orig>
-     </choice>
-     и Князь.
-     <choice original_editorial_correction="А[натолій]">
-      <sic>
-       А
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Анатолий
-        </reg>
-        <orig>
-         Анатолiй
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       хочет
-      </reg>
-      <orig>
-       хочетъ
-      </orig>
-     </choice>
-     жениться.</del>
-    </p><p id="e2a339d3-9c4a-4460-897f-87a741ac924e" rend="center">
-     Сцена 1-я.
+      <choice>
+       <reg>
+        Анатолий
+       </reg>
+       <orig>
+        Анатолiй
+       </orig>
+      </choice>
+      и Князь.
+      <choice original_editorial_correction="А[натолій]">
+       <sic>
+        А
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Анатолий
+         </reg>
+         <orig>
+          Анатолiй
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        хочет
+       </reg>
+       <orig>
+        хочетъ
+       </orig>
+      </choice>
+      жениться.
+     </del>
     </p>
+    <head n="level3" type="scene">
+     Сцена 1-я.
+    </head>
     <p id="bf206667-b4cb-4a17-b24d-f396cd604b2e" rend="left">
      У
      <choice>
@@ -3331,10 +3389,10 @@
      </choice>
      и что вексёля отняли.
     </p>
-    <p id="9ddf4cc3-3159-47a9-a38e-2d6a1a1aa20c" rend="center">
+    <head n="level3" type="scene">
      <pb n="163"/>
      Сцена 2-я.
-    </p>
+    </head>
     <p id="f700974a-681b-424d-9284-17d5c768692c" rend="left">
      <choice original_editorial_correction="В[олодя]">
       <sic>
@@ -3545,9 +3603,9 @@
      </choice>
      .
     </p>
-    <p id="2d8c414f-ef62-45bf-877c-6a5e0a65df61" rend="center">
+    <head n="level3" type="scene">
      Сцена 4-я.
-    </p>
+    </head>
     <p id="4527b870-3e17-40dd-9247-d96a3d42acea" rend="left">
      <choice original_editorial_correction="А[натолій]">
       <sic>
@@ -3686,9 +3744,9 @@
      </choice>
      .
     </p>
-    <p id="c6dc99ba-365b-461d-913d-4bfdd5eba416" rend="center">
+    <head n="level3" type="scene">
      Сцена 5-я.
-    </p>
+    </head>
     <p id="c4c85585-5bc8-4b2e-b631-a78bd27c63cf" rend="left">
      <choice original_editorial_correction="Н[аталья]">
       <sic>
@@ -3765,9 +3823,12 @@
      </choice>
      .
     </p>
-    <p id="ef490553-4815-449b-af15-c38077c76483" rend="center">
-     <del>Сцена 6-я.</del>
-    </p><p id="4f99b955-9df2-4b71-bc9b-9d9629df4e16" rend="left">
+    <head n="level3" type="scene">
+     <del>
+      Сцена 6-я.
+     </del>
+    </head>
+    <p id="4f99b955-9df2-4b71-bc9b-9d9629df4e16" rend="left">
      <choice>
       <reg>
        Входит
@@ -3883,24 +3944,26 @@
        уходитъ
       </orig>
      </choice>
-     . <del>
-     <choice>
-      <reg>
-       Анатолий
-      </reg>
-      <orig>
-       Анатолiй
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       уезжает
-      </reg>
-      <orig>
-       уѣзжаетъ
-      </orig>
-     </choice>
-     </del>.
+     .
+     <del>
+      <choice>
+       <reg>
+        Анатолий
+       </reg>
+       <orig>
+        Анатолiй
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        уезжает
+       </reg>
+       <orig>
+        уѣзжаетъ
+       </orig>
+      </choice>
+     </del>
+     .
      <ref target="#note180">
       180
      </ref>
@@ -4103,7 +4166,8 @@
       </orig>
      </choice>
      .
-    </p></div>
+    </p>
+   </div>
   </body>
  </text>
 </TEI>

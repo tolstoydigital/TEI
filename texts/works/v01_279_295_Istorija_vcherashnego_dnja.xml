@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v01_279_295_Istorija_vcherashnego_dnja">
-                    История вчерашнего дня. Tolstoy Digital
-                </title>
-                <title type="main">История вчерашнего дня</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="cc7cb7d1-6c15-4df8-8695-28c253ee878d">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            История вчерашнего дня
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 1
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">1</biblScope>
-                        <biblScope unit="page">279-295</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1851"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v01_279_295_Istorija_vcherashnego_dnja">
+     История вчерашнего дня. Tolstoy Digital
+    </title>
+    <title type="main">
+     История вчерашнего дня
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="cc7cb7d1-6c15-4df8-8695-28c253ee878d">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       История вчерашнего дня
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 1
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       1
+      </biblScope>
+      <biblScope unit="page">
+       279-295
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1851"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <p id="da686f76-18c8-437b-acd9-7647fe5ad23b">
@@ -473,96 +483,100 @@
         типографчиковъ
        </orig>
       </choice>
-      напечатать. <del>С какой стороны ни посмотришь на душу
-      <choice>
-       <reg>
-        человеческую
-       </reg>
-       <orig>
-        человѣческую
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        везде
-       </reg>
-       <orig>
-        вездѣ
-       </orig>
-      </choice>
-      увидишь
-      <choice>
-       <reg>
-        беспредельность
-       </reg>
-       <orig>
-        безпредѣльность
-       </orig>
-      </choice>
-      и начнутся
-      <choice>
-       <reg>
-        спекулации
-       </reg>
-       <orig>
-        спекулацiи
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        которым
-       </reg>
-       <orig>
-        которымъ
-       </orig>
-      </choice>
-      конца
-      <choice>
-       <reg>
-        нет
-       </reg>
-       <orig>
-        нѣтъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        из
-       </reg>
-       <orig>
-        изъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        которых
-       </reg>
-       <orig>
-        которыхъ
-       </orig>
-      </choice>
-      ничего не
-      <choice>
-       <reg>
-        выходит
-       </reg>
-       <orig>
-        выходитъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        которых
-       </reg>
-       <orig>
-        которыхъ
-       </orig>
-      </choice>
-      я боюсь.</del> —
+      напечатать.
+      <del>
+       С какой стороны ни посмотришь на душу
+       <choice>
+        <reg>
+         человеческую
+        </reg>
+        <orig>
+         человѣческую
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         везде
+        </reg>
+        <orig>
+         вездѣ
+        </orig>
+       </choice>
+       увидишь
+       <choice>
+        <reg>
+         беспредельность
+        </reg>
+        <orig>
+         безпредѣльность
+        </orig>
+       </choice>
+       и начнутся
+       <choice>
+        <reg>
+         спекулации
+        </reg>
+        <orig>
+         спекулацiи
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         которым
+        </reg>
+        <orig>
+         которымъ
+        </orig>
+       </choice>
+       конца
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         которых
+        </reg>
+        <orig>
+         которыхъ
+        </orig>
+       </choice>
+       ничего не
+       <choice>
+        <reg>
+         выходит
+        </reg>
+        <orig>
+         выходитъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         которых
+        </reg>
+        <orig>
+         которыхъ
+        </orig>
+       </choice>
+       я боюсь.
+      </del>
+      —
       <choice>
        <reg>
         К
@@ -580,7 +594,8 @@
        </orig>
       </choice>
       . —
-     </p><p id="cb0f001b-2025-4e57-ae30-01d15433edfc" rend="left">
+     </p>
+     <p id="cb0f001b-2025-4e57-ae30-01d15433edfc" rend="left">
       <choice>
        <reg>
         Встал
@@ -12791,100 +12806,103 @@
       </note>
      </p>
      <p id="ea040e48-8a73-4c43-b000-ecae1bbee2e9" rend="left">
-      <del>«Морфей, прими меня
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      свои
-      <choice>
-       <reg>
-        объятия
-       </reg>
-       <orig>
-        объятiя
-       </orig>
-      </choice>
-      ». Это Божество,
-      <choice>
-       <reg>
-        которого
-       </reg>
-       <orig>
-        котораго
-       </orig>
-      </choice>
-      я охотно бы
-      <choice>
-       <reg>
-        сделался
-       </reg>
-       <orig>
-        сдѣлался
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        жрецом
-       </reg>
-       <orig>
-        жрецомъ
-       </orig>
-      </choice>
-      . А помнишь,
-      <choice>
-       <reg>
-        как
-       </reg>
-       <orig>
-        какъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        обиделась
-       </reg>
-       <orig>
-        обидѣлась
-       </orig>
-      </choice>
-      барыня, когда ей сказали: «Quand je suis passé chez vous, vous étiez encore dans les bras de Morphée.
-      <ref target="#note233">
-       233
-      </ref>
-      <note index="false" xml:id="note233">
-       <span data-class="paragraph" id="d79f4865-f9c5-4058-ba54-d84ff5de951d" rend="left">
-        <hi rend="sup">
-         <ref target="#backn233">
-          233
-         </ref>
-        </hi>
-        <hi rend="color_-65536">
-         [Когда я пришел к вам, вы были еще в объятиях Морфея.]
-        </hi>
-       </span>
-      </note>
-      на;
-      <pb n="292"/>
-      Верхомъ съ нимъ ѣздили. Славная была травля, какъ подлѣ станового Гельке атукнулъ и Налетъ ловилъ изъ за всѣхъ, да еще по
-      <choice original_editorial_correction="кόлот[и?]">
-       <sic>
-        кόлот
-       </sic>
-       <corr cert="low">
-        кόлоти
-       </corr>
-      </choice>
-      . Какъ Сережа злился. — Онъ у сестры. — Что за прелесть Маша — вотъ бы такую жену! Морфей на охотѣ
-      <unclear>
-       хорошъ
-      </unclear>
-      бы былъ, только нужно голому ѣздить, [а?] то можно найти и жену. — Пфу, какъ катитъ Saint Thomas — и за всѣхъ на угонкахъ уже барыня пошла; напрасно только вытягивается, а впрочемъ это хорошо dans les bras. Тутъ должно быть я совсѣмъ заснулъ.— Видѣлъ я, какъ хотѣлъ я догонять барыню, вдругъ — гора, я ее руками толкалъ, толкалъ, — свалилась; (подушку сбросилъ) и пріѣхалъ домой обѣдать. Не готово; отчего? — Василій куражится (это за перегородкой хозяйка спрашиваетъ, что за шу[мъ], и ей отвѣча[етъ] горнич[ная] дѣвка, я это слушалъ, потому и это приснилось). Василій пришелъ, только что хотѣли всѣ у него спросить, отчего не готово? видятъ — Василій въ камзолѣ и лента черезъ плечо; я испугался, сталъ на колѣни, плакалъ и цѣловалъ у него руки; мнѣ было такъ же пріятно, ежели бы я цѣловалъ руки у нее, — еще больше. Василій не обращалъ на меня вниманія и спросилъ: Заряжено? Кондитеръ Тульскій Дидрихсъ говоритъ: готово! — Ну, стрѣляй! — Дали залпъ. (Ставня стукнула) — и пошли Польской, я съ Василіемъ, который уже не Василій, а она. Вдругъ о ужасъ! я замѣчаю, что у меня панталоны такъ коротки, что видны голыя колѣни. Нельзя описать, какъ я страдалъ (раскрылись гол[ыя] [колѣни?]; я ихъ во снѣ долго не могъ закрыть, наконецъ закрылъ). Но тѣмъ не кончилось; идемъ мы Польской и — Королева Виртем[бергская] тутъ; вдругъ я пляшу казачка. Зачѣмъ? Не могу удержаться. Наконецъ принесли мнѣ шинель, сапоги; еще хуже: панталонъ вовсе нѣтъ. Не можетъ быть, чтобы это было на яву; вѣрно я сплю. Проснулся. — Я засыпалъ — думалъ, потомъ не могъ болѣе, сталъ воображать, но воображалъ связно, картинно, потомъ воображеніе заснуло, остались темныя представленія; потомъ и тѣло заснуло. Сонъ составляется изъ первого и послѣдняго впечатлѣнія.</del>
-     </p><p id="564613ed-9187-4ab5-bf45-8da23edf0e46" rend="left">
+      <del>
+       «Морфей, прими меня
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       свои
+       <choice>
+        <reg>
+         объятия
+        </reg>
+        <orig>
+         объятiя
+        </orig>
+       </choice>
+       ». Это Божество,
+       <choice>
+        <reg>
+         которого
+        </reg>
+        <orig>
+         котораго
+        </orig>
+       </choice>
+       я охотно бы
+       <choice>
+        <reg>
+         сделался
+        </reg>
+        <orig>
+         сдѣлался
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         жрецом
+        </reg>
+        <orig>
+         жрецомъ
+        </orig>
+       </choice>
+       . А помнишь,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         обиделась
+        </reg>
+        <orig>
+         обидѣлась
+        </orig>
+       </choice>
+       барыня, когда ей сказали: «Quand je suis passé chez vous, vous étiez encore dans les bras de Morphée.
+       <ref target="#note233">
+        233
+       </ref>
+       <note index="false" xml:id="note233">
+        <span data-class="paragraph" id="d79f4865-f9c5-4058-ba54-d84ff5de951d" rend="left">
+         <hi rend="sup">
+          <ref target="#backn233">
+           233
+          </ref>
+         </hi>
+         <hi rend="color_-65536">
+          [Когда я пришел к вам, вы были еще в объятиях Морфея.]
+         </hi>
+        </span>
+       </note>
+       на;
+       <pb n="292"/>
+       Верхомъ съ нимъ ѣздили. Славная была травля, какъ подлѣ станового Гельке атукнулъ и Налетъ ловилъ изъ за всѣхъ, да еще по
+       <choice original_editorial_correction="кόлот[и?]">
+        <sic>
+         кόлот
+        </sic>
+        <corr cert="low">
+         кόлоти
+        </corr>
+       </choice>
+       . Какъ Сережа злился. — Онъ у сестры. — Что за прелесть Маша — вотъ бы такую жену! Морфей на охотѣ
+       <unclear>
+        хорошъ
+       </unclear>
+       бы былъ, только нужно голому ѣздить, [а?] то можно найти и жену. — Пфу, какъ катитъ Saint Thomas — и за всѣхъ на угонкахъ уже барыня пошла; напрасно только вытягивается, а впрочемъ это хорошо dans les bras. Тутъ должно быть я совсѣмъ заснулъ.— Видѣлъ я, какъ хотѣлъ я догонять барыню, вдругъ — гора, я ее руками толкалъ, толкалъ, — свалилась; (подушку сбросилъ) и пріѣхалъ домой обѣдать. Не готово; отчего? — Василій куражится (это за перегородкой хозяйка спрашиваетъ, что за шу[мъ], и ей отвѣча[етъ] горнич[ная] дѣвка, я это слушалъ, потому и это приснилось). Василій пришелъ, только что хотѣли всѣ у него спросить, отчего не готово? видятъ — Василій въ камзолѣ и лента черезъ плечо; я испугался, сталъ на колѣни, плакалъ и цѣловалъ у него руки; мнѣ было такъ же пріятно, ежели бы я цѣловалъ руки у нее, — еще больше. Василій не обращалъ на меня вниманія и спросилъ: Заряжено? Кондитеръ Тульскій Дидрихсъ говоритъ: готово! — Ну, стрѣляй! — Дали залпъ. (Ставня стукнула) — и пошли Польской, я съ Василіемъ, который уже не Василій, а она. Вдругъ о ужасъ! я замѣчаю, что у меня панталоны такъ коротки, что видны голыя колѣни. Нельзя описать, какъ я страдалъ (раскрылись гол[ыя] [колѣни?]; я ихъ во снѣ долго не могъ закрыть, наконецъ закрылъ). Но тѣмъ не кончилось; идемъ мы Польской и — Королева Виртем[бергская] тутъ; вдругъ я пляшу казачка. Зачѣмъ? Не могу удержаться. Наконецъ принесли мнѣ шинель, сапоги; еще хуже: панталонъ вовсе нѣтъ. Не можетъ быть, чтобы это было на яву; вѣрно я сплю. Проснулся. — Я засыпалъ — думалъ, потомъ не могъ болѣе, сталъ воображать, но воображалъ связно, картинно, потомъ воображеніе заснуло, остались темныя представленія; потомъ и тѣло заснуло. Сонъ составляется изъ первого и послѣдняго впечатлѣнія.
+      </del>
+     </p>
+     <p id="564613ed-9187-4ab5-bf45-8da23edf0e46" rend="left">
       <choice>
        <reg>
         Мне

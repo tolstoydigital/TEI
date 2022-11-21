@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_319_323_Novyj_sud_v_ego_prilozhenii">
-                    Новый суд в его приложении. Tolstoy Digital
-                </title>
-                <title type="main">Новый суд в его приложении</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="41c6a1e5-1025-4134-9f67-8a0a431ccc7f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Новый суд в его приложении
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">319-323</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1872"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v17_319_323_Novyj_sud_v_ego_prilozhenii">
+     Новый суд в его приложении. Tolstoy Digital
+    </title>
+    <title type="main">
+     Новый суд в его приложении
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="41c6a1e5-1025-4134-9f67-8a0a431ccc7f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Новый суд в его приложении
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       319-323
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1872"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="d15c8a05-effd-4114-bb53-2f27b876f727">
@@ -383,15 +393,16 @@
        послѣднее
       </orig>
      </choice>
-     же время я <del>
-     <choice>
-      <reg>
-       на-боках
-      </reg>
-      <orig>
-       на-бокахъ
-      </orig>
-     </choice>
+     же время я
+     <del>
+      <choice>
+       <reg>
+        на-боках
+       </reg>
+       <orig>
+        на-бокахъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -1292,7 +1303,10 @@
        желанiи
       </orig>
      </choice>
-     <del>чтобы</del> его оставили
+     <del>
+      чтобы
+     </del>
+     его оставили
      <choice>
       <reg>
        в
@@ -1360,7 +1374,8 @@
       </orig>
      </choice>
      .
-    </p><p id="6955567f-28da-40b5-a502-33a48fb9f741" rend="left">
+    </p>
+    <p id="6955567f-28da-40b5-a502-33a48fb9f741" rend="left">
      <choice>
       <reg>
        Прежде
@@ -1462,131 +1477,59 @@
        новаго
       </orig>
      </choice>
-     Суда. <del>Ибо
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     бы ни старался
-     <choice>
-      <reg>
-       человек
-      </reg>
-      <orig>
-       человѣкъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       верить
-      </reg>
-      <orig>
-       вѣрить
-      </orig>
-     </choice>
-     наслово торжественному
-     <choice>
-      <reg>
-       восклицанию
-      </reg>
-      <orig>
-       восклицанiю
-      </orig>
-     </choice>
-     <choice original_editorial_correction="Суд[ебного]">
-      <sic>
-       Суд
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Судебного
-        </reg>
-        <orig>
-         Судебнаго
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     Пристава:
-     <choice>
-      <reg>
-       Суд
-      </reg>
-      <orig>
-       Судъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       идет
-      </reg>
-      <orig>
-       идетъ
-      </orig>
-     </choice>
-     !
-     <ref target="#note445">
-      445
-     </ref>
-     <note index="false" xml:id="note445">
-      <span data-class="paragraph" id="c4000726-5180-4f34-8695-71e1dfb61969" rend="left">
-       <choice original_editorial_correction="торжеств[енному]">
-        <sic>
-         торжеств
-        </sic>
-        <corr>
-         торжественному
-        </corr>
-       </choice>
-       виду
-       <choice original_editorial_correction="восседающ[его]">
-        <sic>
-         <choice>
-          <reg>
-           восседающ
-          </reg>
-          <orig>
-           возсѣдающ
-          </orig>
-         </choice>
-        </sic>
-        <corr>
-         <choice>
-          <reg>
-           восседающего
-          </reg>
-          <orig>
-           возсѣдающаго
-          </orig>
-         </choice>
-        </corr>
-       </choice>
-       на
-       <choice original_editorial_correction="возвышен[ии]">
-        <sic>
-         возвышен
-        </sic>
-        <corr>
-         <choice>
-          <reg>
-           возвышении
-          </reg>
-          <orig>
-           возвышенiи
-          </orig>
-         </choice>
-        </corr>
-       </choice>
-       Суда
-      </span>
-     </note>
-     и что это
-     <hi rend="italic">
+     Суда.
+     <del>
+      Ибо
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      бы ни старался
+      <choice>
+       <reg>
+        человек
+       </reg>
+       <orig>
+        человѣкъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        верить
+       </reg>
+       <orig>
+        вѣрить
+       </orig>
+      </choice>
+      наслово торжественному
+      <choice>
+       <reg>
+        восклицанию
+       </reg>
+       <orig>
+        восклицанiю
+       </orig>
+      </choice>
+      <choice original_editorial_correction="Суд[ебного]">
+       <sic>
+        Суд
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Судебного
+         </reg>
+         <orig>
+          Судебнаго
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      Пристава:
       <choice>
        <reg>
         Суд
@@ -1595,16 +1538,72 @@
         Судъ
        </orig>
       </choice>
-      ,
-     </hi>
-     <ref target="#note446">
-      446
-     </ref>
-     <note index="false" xml:id="note446">
-      <span data-class="paragraph" id="76c2092d-43d0-46b6-aeec-3f156b989b74" rend="left">
-       <hi rend="italic">
-        Слово:
-       </hi>
+      <choice>
+       <reg>
+        идет
+       </reg>
+       <orig>
+        идетъ
+       </orig>
+      </choice>
+      !
+      <ref target="#note445">
+       445
+      </ref>
+      <note index="false" xml:id="note445">
+       <span data-class="paragraph" id="c4000726-5180-4f34-8695-71e1dfb61969" rend="left">
+        <choice original_editorial_correction="торжеств[енному]">
+         <sic>
+          торжеств
+         </sic>
+         <corr>
+          торжественному
+         </corr>
+        </choice>
+        виду
+        <choice original_editorial_correction="восседающ[его]">
+         <sic>
+          <choice>
+           <reg>
+            восседающ
+           </reg>
+           <orig>
+            возсѣдающ
+           </orig>
+          </choice>
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            восседающего
+           </reg>
+           <orig>
+            возсѣдающаго
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        на
+        <choice original_editorial_correction="возвышен[ии]">
+         <sic>
+          возвышен
+         </sic>
+         <corr>
+          <choice>
+           <reg>
+            возвышении
+           </reg>
+           <orig>
+            возвышенiи
+           </orig>
+          </choice>
+         </corr>
+        </choice>
+        Суда
+       </span>
+      </note>
+      и что это
+      <hi rend="italic">
        <choice>
         <reg>
          Суд
@@ -1613,238 +1612,256 @@
          Судъ
         </orig>
        </choice>
-       <hi rend="italic">
-        дважды подчеркнуто автором.
-       </hi>
-      </span>
-     </note>
-     <hi rend="italic"/>
-     я невольно
-     <choice>
-      <reg>
-       видел
-      </reg>
-      <orig>
-       видѣлъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       этом
-      </reg>
-      <orig>
-       этомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Суде
-      </reg>
-      <orig>
-       Судѣ
-      </orig>
-     </choice>
-     очень хорошо
-     <choice>
-      <reg>
-       мне
-      </reg>
-      <orig>
-       мнѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       известных
-      </reg>
-      <orig>
-       извѣстныхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       господ
-      </reg>
-      <orig>
-       господъ
-      </orig>
-     </choice>
-     по
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     прошедшему и не
-     <choice>
-      <reg>
-       мог
-      </reg>
-      <orig>
-       могъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       никак
-      </reg>
-      <orig>
-       никакъ
-      </orig>
-     </choice>
-     помирить мое невольное
-     <choice original_editorial_correction="презрени[е]">
-      <sic>
-       презрени
-      </sic>
-      <corr>
-       презрение
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       лицам
-      </reg>
-      <orig>
-       лицамъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="уважение[м]">
-      <sic>
-       <choice>
-        <reg>
-         уважение
-        </reg>
-        <orig>
-         уваженiе
-        </orig>
-       </choice>
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         уважением
-        </reg>
-        <orig>
-         уваженiемъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     Суду. — Даже и самый
-     <choice>
-      <reg>
-       суд
-      </reg>
-      <orig>
-       судъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     что-то отвлеченное, не
-     <choice>
-      <reg>
-       мог
-      </reg>
-      <orig>
-       могъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мне
-      </reg>
-      <orig>
-       мнѣ
-      </orig>
-     </choice>
-     представляться иначе,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       жалким
-      </reg>
-      <orig>
-       жалкимъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       смешным
-      </reg>
-      <orig>
-       смѣшнымъ
-      </orig>
-     </choice>
-     , потому что я невольно
-     <choice>
-      <reg>
-       знал
-      </reg>
-      <orig>
-       зналъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       видел
-      </reg>
-      <orig>
-       видѣлъ
-      </orig>
-     </choice>
+       ,
+      </hi>
+      <ref target="#note446">
+       446
+      </ref>
+      <note index="false" xml:id="note446">
+       <span data-class="paragraph" id="76c2092d-43d0-46b6-aeec-3f156b989b74" rend="left">
+        <hi rend="italic">
+         Слово:
+        </hi>
+        <choice>
+         <reg>
+          Суд
+         </reg>
+         <orig>
+          Судъ
+         </orig>
+        </choice>
+        <hi rend="italic">
+         дважды подчеркнуто автором.
+        </hi>
+       </span>
+      </note>
+      <hi rend="italic"/>
+      я невольно
+      <choice>
+       <reg>
+        видел
+       </reg>
+       <orig>
+        видѣлъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        этом
+       </reg>
+       <orig>
+        этомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Суде
+       </reg>
+       <orig>
+        Судѣ
+       </orig>
+      </choice>
+      очень хорошо
+      <choice>
+       <reg>
+        мне
+       </reg>
+       <orig>
+        мнѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        известных
+       </reg>
+       <orig>
+        извѣстныхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        господ
+       </reg>
+       <orig>
+        господъ
+       </orig>
+      </choice>
+      по
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      прошедшему и не
+      <choice>
+       <reg>
+        мог
+       </reg>
+       <orig>
+        могъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        никак
+       </reg>
+       <orig>
+        никакъ
+       </orig>
+      </choice>
+      помирить мое невольное
+      <choice original_editorial_correction="презрени[е]">
+       <sic>
+        презрени
+       </sic>
+       <corr>
+        презрение
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        лицам
+       </reg>
+       <orig>
+        лицамъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="уважение[м]">
+       <sic>
+        <choice>
+         <reg>
+          уважение
+         </reg>
+         <orig>
+          уваженiе
+         </orig>
+        </choice>
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          уважением
+         </reg>
+         <orig>
+          уваженiемъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      Суду. — Даже и самый
+      <choice>
+       <reg>
+        суд
+       </reg>
+       <orig>
+        судъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      что-то отвлеченное, не
+      <choice>
+       <reg>
+        мог
+       </reg>
+       <orig>
+        могъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мне
+       </reg>
+       <orig>
+        мнѣ
+       </orig>
+      </choice>
+      представляться иначе,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        жалким
+       </reg>
+       <orig>
+        жалкимъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        смешным
+       </reg>
+       <orig>
+        смѣшнымъ
+       </orig>
+      </choice>
+      , потому что я невольно
+      <choice>
+       <reg>
+        знал
+       </reg>
+       <orig>
+        зналъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        видел
+       </reg>
+       <orig>
+        видѣлъ
+       </orig>
+      </choice>
      </del>
      <ref target="#note447">
       447
@@ -1856,7 +1873,8 @@
        </hi>
       </span>
      </note>
-    </p><p id="21763325-aa7b-4889-b59c-6ae53dca07b9" rend="left">
+    </p>
+    <p id="21763325-aa7b-4889-b59c-6ae53dca07b9" rend="left">
      А при
      <choice>
       <reg>
@@ -1946,78 +1964,81 @@
        важно
       </corr>
      </choice>
-     : <del>возможность
-     <choice>
-      <reg>
-       уважения
-      </reg>
-      <orig>
-       уваженiя
-      </orig>
-     </choice>
-     , или необходимость
-     <choice>
-      <reg>
-       презрения
-      </reg>
-      <orig>
-       презрѣнiя
-      </orig>
-     </choice>
-     очень
-     <choice>
-      <reg>
-       изменяют
-      </reg>
-      <orig>
-       измѣняютъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       положение
-      </reg>
-      <orig>
-       положенiе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       подсудимого
-      </reg>
-      <orig>
-       подсудимаго
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     особенности не
-     <choice>
-      <reg>
-       могущего
-      </reg>
-      <orig>
-       могущаго
-      </orig>
-     </choice>
-     себя считать
-     <choice>
-      <reg>
-       виновным
-      </reg>
-      <orig>
-       виновнымъ
-      </orig>
-     </choice>
+     :
+     <del>
+      возможность
+      <choice>
+       <reg>
+        уважения
+       </reg>
+       <orig>
+        уваженiя
+       </orig>
+      </choice>
+      , или необходимость
+      <choice>
+       <reg>
+        презрения
+       </reg>
+       <orig>
+        презрѣнiя
+       </orig>
+      </choice>
+      очень
+      <choice>
+       <reg>
+        изменяют
+       </reg>
+       <orig>
+        измѣняютъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        положение
+       </reg>
+       <orig>
+        положенiе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        подсудимого
+       </reg>
+       <orig>
+        подсудимаго
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      особенности не
+      <choice>
+       <reg>
+        могущего
+       </reg>
+       <orig>
+        могущаго
+       </orig>
+      </choice>
+      себя считать
+      <choice>
+       <reg>
+        виновным
+       </reg>
+       <orig>
+        виновнымъ
+       </orig>
+      </choice>
      </del>
-    </p><p id="396ad4fc-d148-476d-b768-acf792d1d482" rend="left">
+    </p>
+    <p id="396ad4fc-d148-476d-b768-acf792d1d482" rend="left">
      Ибо если, по несчастному
      <choice>
       <reg>
@@ -2957,7 +2978,10 @@
        ошибочныхъ
       </orig>
      </choice>
-     и <del>даже</del>
+     и
+     <del>
+      даже
+     </del>
      <choice>
       <reg>
        смешных
@@ -3416,7 +3440,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="a55aadb9-0748-4829-9ef8-fbd2caec6679" rend="left">
+    </p>
+    <p id="a55aadb9-0748-4829-9ef8-fbd2caec6679" rend="left">
      <choice>
       <reg>
        Дело
@@ -3431,7 +3456,10 @@
      </ref>
      <note index="false" xml:id="note455">
       <span data-class="paragraph" id="bd8226ff-b1f6-42cc-9aa9-efd9176f1939" rend="left">
-       <del>Б</del> Молодая
+       <del>
+        Б
+       </del>
+       Молодая
       </span>
      </note>
      Дѣвка нечестнаго поведенія вышла замужъ за стараго и некрасиваго вдовца, которому въ упрекъ ставила она и ея защ[итникъ] только то, что онъ былъ сопливый. Она въ праздникъ, послѣ того какъ мужъ при продажѣ пеньки пригласилъ ее выпить рюмку водочки, выбрала время, когда все затихло въ обѣдъ въ деревнѣ и мужъ заснулъ на лавкѣ убила его топоромъ, спрятала топоръ на гумнѣ и отперлась отъ преступления. Старшина уличилъ ее, она созналась и сознавалась на судебномъ слѣдствіи. Баба на видъ румяная, здоровая, съ грубымъ и жестокимъ выраженіе[мъ] лица, отвѣты ея всѣ просты, толковы и ясны. Допросы свидѣтелей о томъ, какая была погода, и вообще о предметахъ, не касающихся дѣла, продолжались долго.
@@ -3643,16 +3671,18 @@
        доказывалъ
       </orig>
      </choice>
-     <del>это
-     <choice>
-      <reg>
-       тем
-      </reg>
-      <orig>
-       тѣмъ
-      </orig>
-     </choice>
-     </del>, что два раза баба эта была одержима этой странной
+     <del>
+      это
+      <choice>
+       <reg>
+        тем
+       </reg>
+       <orig>
+        тѣмъ
+       </orig>
+      </choice>
+     </del>
+     , что два раза баба эта была одержима этой странной
      <choice>
       <reg>
        болезнью
@@ -3696,16 +3726,19 @@
        всѣ
       </orig>
      </choice>
-     признавали ее беременною <del>и
-     <choice>
-      <reg>
-       смеялись
-      </reg>
-      <orig>
-       смѣялись
-      </orig>
-     </choice>
-     </del>, но никто не
+     признавали ее беременною
+     <del>
+      и
+      <choice>
+       <reg>
+        смеялись
+       </reg>
+       <orig>
+        смѣялись
+       </orig>
+      </choice>
+     </del>
+     , но никто не
      <choice>
       <reg>
        видал
@@ -4828,7 +4861,8 @@
       </orig>
      </choice>
      .
-    </p><p id="9c3a0b75-ff33-4681-85ef-62208f6f2b13" rend="left">
+    </p>
+    <p id="9c3a0b75-ff33-4681-85ef-62208f6f2b13" rend="left">
      <ref target="#note457">
       457
      </ref>
@@ -5828,7 +5862,9 @@
        предварительныхъ
       </orig>
      </choice>
-     <del>были</del>
+     <del>
+      были
+     </del>
      <choice>
       <reg>
        следующия
@@ -6113,7 +6149,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="76574f08-e8dc-48b6-8919-b88972b73fc7" rend="left">
+    </p>
+    <p id="76574f08-e8dc-48b6-8919-b88972b73fc7" rend="left">
      Теперь мои
      <choice>
       <reg>

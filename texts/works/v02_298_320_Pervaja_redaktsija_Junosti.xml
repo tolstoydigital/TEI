@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v02_298_320_Pervaja_redaktsija_Junosti">
-                    [Первая редакция «Юности»]. Tolstoy Digital
-                </title>
-                <title type="main">Юность.</title>
-                <title type="sub" resp="volume_editor">Первая редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e2538276-2ae6-47a6-bc36-35e918152749">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Первая редакция «Юности»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 2
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">2</biblScope>
-                        <biblScope unit="page">298-320</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1855"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v02_298_320_Pervaja_redaktsija_Junosti">
+     [Первая редакция «Юности»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Юность.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Первая редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e2538276-2ae6-47a6-bc36-35e918152749">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Первая редакция «Юности»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 2
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       2
+      </biblScope>
+      <biblScope unit="page">
+       298-320
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1855"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012006">
     <p id="11cc4cd2-2221-44be-b8a6-df24129cf088">
@@ -427,32 +439,33 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       отец
-      </reg>
-      <orig>
-       отецъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Евлампий
-      </reg>
-      <orig>
-       Евлампiй
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       старичок
-      </reg>
-      <orig>
-       старичокъ
-      </orig>
-     </choice>
-     ,</del>
+      <choice>
+       <reg>
+        отец
+       </reg>
+       <orig>
+        отецъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Евлампий
+       </reg>
+       <orig>
+        Евлампiй
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        старичок
+       </reg>
+       <orig>
+        старичокъ
+       </orig>
+      </choice>
+      ,
+     </del>
      <choice>
       <reg>
        монах
@@ -742,7 +755,8 @@
       </orig>
      </choice>
      гвоздя. —
-    </p><p id="527ece86-d125-45e1-9ab9-021db2332589" rend="left">
+    </p>
+    <p id="527ece86-d125-45e1-9ab9-021db2332589" rend="left">
      «Позволь, я
      <choice>
       <reg>
@@ -11056,214 +11070,217 @@
      , ожидавшими очередь экзамена.
     </p>
     <p id="9f93c460-b5bd-477d-8d0b-66f38fedf644" rend="left">
-     <del>Я даже
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       большим
-      </reg>
-      <orig>
-       большимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       удовольствием
-      </reg>
-      <orig>
-       удовольствiемъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       заметил
-      </reg>
-      <orig>
-       замѣтилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       одного
-      </reg>
-      <orig>
-       однаго
-      </orig>
-     </choice>
-     — должно быть, семинариста —
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     всклокоченными волосами, отвисшей губой,
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       панталонах
-      </reg>
-      <orig>
-       панталонахъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       без
-      </reg>
-      <orig>
-       безъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       штрипок
-      </reg>
-      <orig>
-       штрипокъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       без
-      </reg>
-      <orig>
-       безъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       белья
-      </reg>
-      <orig>
-       бѣлья
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     обгрызанными до
-     <choice>
-      <reg>
-       заусенцов
-      </reg>
-      <orig>
-       заусенцовъ
-      </orig>
-     </choice>
-     ногтями.
-     <choice>
-      <reg>
-       Мне
-      </reg>
-      <orig>
-       Мнѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       приятно
-      </reg>
-      <orig>
-       прiятно
-      </orig>
-     </choice>
-     было
-     <choice>
-      <reg>
-       убедиться
-      </reg>
-      <orig>
-       убѣдиться
-      </orig>
-     </choice>
-     , что
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     уже
-     <choice>
-      <reg>
-       наверное
-      </reg>
-      <orig>
-       навѣрное
-      </orig>
-     </choice>
-     хуже меня, а несмотря на то,
-     <choice>
-      <reg>
-       самоуверенно
-      </reg>
-      <orig>
-       самоувѣренно
-      </orig>
-     </choice>
-     ступая стоптанными сапогами по паркету залу, гордо
-     <choice>
-      <reg>
-       выступил
-      </reg>
-      <orig>
-       выступилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       вперед
-      </reg>
-      <orig>
-       впередъ
-      </orig>
-     </choice>
-     экзаменоваться при
-     <choice>
-      <reg>
-       вызове
-      </reg>
-      <orig>
-       вызовѣ
-      </orig>
-     </choice>
-     «
-     <choice>
-      <reg>
-       Амфитеатров
-      </reg>
-      <orig>
-       Амѳитеатровъ
-      </orig>
-     </choice>
-     !»</del>
-    </p><p id="a135f0ef-0cfe-4eea-af84-e475470bf826" rend="left">
+     <del>
+      Я даже
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        большим
+       </reg>
+       <orig>
+        большимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        удовольствием
+       </reg>
+       <orig>
+        удовольствiемъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        заметил
+       </reg>
+       <orig>
+        замѣтилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        одного
+       </reg>
+       <orig>
+        однаго
+       </orig>
+      </choice>
+      — должно быть, семинариста —
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      всклокоченными волосами, отвисшей губой,
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        панталонах
+       </reg>
+       <orig>
+        панталонахъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        без
+       </reg>
+       <orig>
+        безъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        штрипок
+       </reg>
+       <orig>
+        штрипокъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        без
+       </reg>
+       <orig>
+        безъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        белья
+       </reg>
+       <orig>
+        бѣлья
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      обгрызанными до
+      <choice>
+       <reg>
+        заусенцов
+       </reg>
+       <orig>
+        заусенцовъ
+       </orig>
+      </choice>
+      ногтями.
+      <choice>
+       <reg>
+        Мне
+       </reg>
+       <orig>
+        Мнѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        приятно
+       </reg>
+       <orig>
+        прiятно
+       </orig>
+      </choice>
+      было
+      <choice>
+       <reg>
+        убедиться
+       </reg>
+       <orig>
+        убѣдиться
+       </orig>
+      </choice>
+      , что
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      уже
+      <choice>
+       <reg>
+        наверное
+       </reg>
+       <orig>
+        навѣрное
+       </orig>
+      </choice>
+      хуже меня, а несмотря на то,
+      <choice>
+       <reg>
+        самоуверенно
+       </reg>
+       <orig>
+        самоувѣренно
+       </orig>
+      </choice>
+      ступая стоптанными сапогами по паркету залу, гордо
+      <choice>
+       <reg>
+        выступил
+       </reg>
+       <orig>
+        выступилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        вперед
+       </reg>
+       <orig>
+        впередъ
+       </orig>
+      </choice>
+      экзаменоваться при
+      <choice>
+       <reg>
+        вызове
+       </reg>
+       <orig>
+        вызовѣ
+       </orig>
+      </choice>
+      «
+      <choice>
+       <reg>
+        Амфитеатров
+       </reg>
+       <orig>
+        Амѳитеатровъ
+       </orig>
+      </choice>
+      !»
+     </del>
+    </p>
+    <p id="a135f0ef-0cfe-4eea-af84-e475470bf826" rend="left">
      <choice>
       <reg>
        Тут
