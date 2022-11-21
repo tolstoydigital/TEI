@@ -1,108 +1,120 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v08_382_385_O_zadachah_pedagogiki" resp="volume_editor">
-                    [О задачах педагогики]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">О задачах педагогики.</title>
-                <title type="sub">«Образование — благо...»</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="de343115-2b5e-4ba2-94f6-ff2fe1038fbb">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [О задачах педагогики]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 8
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">8</biblScope>
-                        <biblScope unit="page">382-385</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#pedagogika" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v08_382_385_O_zadachah_pedagogiki">
+     [О задачах педагогики]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     О задачах педагогики.
+    </title>
+    <title type="sub">
+     «Образование — благо...»
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="de343115-2b5e-4ba2-94f6-ff2fe1038fbb">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [О задачах педагогики]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 8
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       8
+      </biblScope>
+      <biblScope unit="page">
+       382-385
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#pedagogika" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="d1257ae0-58d6-4cd6-be25-0e72fa538f3e">
@@ -216,7 +228,7 @@
      .
     </p>
     <p id="f6d11c6d-097a-4d63-a5af-ea79545a2e12" rend="left">
-     ИсторіяПедагогіи— двоякая. 1)Человѣкъразвиваетсясамъподъбезсознательнымъвліяніемълюдей и всегосуществующагои 2)человѣкъразвиваетсяподъсознательнымъвліяніемъдругихълюдей. —ПодъисторіейПедагогіиразумѣютъодно сознательноеразвитіе. Первая же, несуществующаяисторіяПедагогіибыла быболѣепоучительна:какъболѣеиболѣенепосредственно училсячеловѣкъизъжизни, котораяболѣеиболѣестановилась поучительна.Какънезависимоотъсознательнойпедагогіи, иногдаподъеявліяніемъ, иногдапротивуположно, иногда совершенно независимо, подвигалосьобразованіеи самаябезсознательнаяпедагогія,какъболѣеиболѣесъразличіемъобразованія,събыстротойсообщенія,съразвитіемъкнигопечатанія,съперемѣнойобразаправленійгосударственныхъицерковныхъ,болѣеиболѣепоучительны становились люди — являлись новые средства
+     Исторія Педагогіи— двоякая. 1)Человѣкъразвиваетсясамъподъбезсознательнымъвліяніемълюдей и всегосуществующагои 2)человѣкъразвиваетсяподъсознательнымъвліяніемъдругихълюдей. —ПодъисторіейПедагогіиразумѣютъодно сознательное развитіе. Первая же, несуществующаяисторіяПедагогіибыла быболѣепоучительна:какъболѣеиболѣенепосредственно училсячеловѣкъизъжизни, котораяболѣеиболѣестановилась поучительна.Какънезависимоотъсознательнойпедагогіи, иногдаподъеявліяніемъ, иногда противуположно, иногда совершенно независимо, подвигалосьобразованіеи самаябезсознательнаяпедагогія,какъболѣеиболѣесъразличіемъобразованія,събыстротойсообщенія,съразвитіемъкнигопечатанія,съперемѣнойобразаправленійгосударственныхъицерковныхъ,болѣеиболѣепоучительны становились люди — являлись новые средства
      <ref target="#note64">
       64
      </ref>
@@ -620,7 +632,9 @@
        Величайшiй
       </orig>
      </choice>
-     <del>абстрактный</del>
+     <del>
+      абстрактный
+     </del>
      <choice>
       <reg>
        философ
@@ -1697,14 +1711,14 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       образовательных
-      </reg>
-      <orig>
-       образовательныхъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        образовательных
+       </reg>
+       <orig>
+        образовательныхъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -1766,23 +1780,24 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       идеального
-      </reg>
-      <orig>
-       идеальнаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       человека
-      </reg>
-      <orig>
-       человѣка
-      </orig>
-     </choice>
-     </del>, независимо
+      <choice>
+       <reg>
+        идеального
+       </reg>
+       <orig>
+        идеальнаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        человека
+       </reg>
+       <orig>
+        человѣка
+       </orig>
+      </choice>
+     </del>
+     , независимо
      <choice>
       <reg>
        от
@@ -2070,7 +2085,10 @@
        религiознаго
       </orig>
      </choice>
-     требуется отечественное и реальное и <del>исключительно</del>
+     требуется отечественное и реальное и
+     <del>
+      исключительно
+     </del>
      <choice>
       <reg>
        орудием
@@ -2207,7 +2225,8 @@
      и всегда, наукой
      <pb n="384"/>
      отвлеченной,философской, а не исторической и опытной. —Педагогіявсе ещехочетъбытьтеоріей, все ещехочетъобразоватьчеловѣка, все носится ещесъидеалами, все еще нехочетънизойти или подняться на степень науки опытной, толькоизученіемъзаконовъсвоего объэкта получаю[щей]знаніевредныхъиполезныхъусловійобразованія. ЗадачейПедагогіибыло —образованіенаилучшагочеловѣка, задачейПедагогіидолжно бытьизученіечеловѣкаи, сообразнознаніюего,удовлетвореніеего потребностейобразованія. Необразованіечеловѣкавообще должно быть задачейПедагогіи, аобразованіенаилучшагоПринцаПрусскаговъ1860 году,имѣющагоубогагодядю, такого-то отца и находящагосявъПруссіиприеянастоящемъразвитіи, илиобразованіеНегравътакомъ-тоштатѣ,имѣющагозлагохозяина,слѣпуюмать и3-хъсестеръ.—Всѣэтиусловіязаконны и педагогическицѣлесообразны,ихъне только не нужно устранить, но нанихъбезсознательностроится всеобразов[аніе.]Такая задача невозможнабезъпомощи свободывыраженіяпедагогической потребности. Свобода жедаетънесомнѣнныяуказаніянаусловія,которыядолжны быть устранены, на потребности,которыядолжны найтиудовлетворенія.Доставленіеорудійнаибольшагокругадѣйствійвъжизни, какой быонънибылъ, есть единственная задачаПедагогіи.
-    </p><lb/>
+    </p>
+    <lb/>
     <p id="0937585f-ce78-4df8-8824-747751b6fa71" rend="normal left">
      <choice>
       <reg>

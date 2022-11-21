@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v01_103_166_Chetyre_epohi_razvitija" resp="volume_editor">
-                    [Четыре эпохи развития]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Четыре эпохи развития</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4aaad804-66d0-40de-8e58-7f685fcde612">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Четыре эпохи развития]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 1
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">1</biblScope>
-                        <biblScope unit="page">103-166</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1852"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v01_103_166_Chetyre_epohi_razvitija">
+     [Четыре эпохи развития]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Четыре эпохи развития
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4aaad804-66d0-40de-8e58-7f685fcde612">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Четыре эпохи развития]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 1
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       1
+      </biblScope>
+      <biblScope unit="page">
+       103-166
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <p id="2a2630d4-88db-419a-9644-002eb11dd256">
@@ -1231,154 +1241,157 @@
       его задушевной стороной.—
      </p>
      <p id="bc5dac91-7bc6-4645-9bc2-f8561fc15884" rend="left">
-      <del>У меня прежде еще были набросаны
-      <choice>
-       <reg>
-        некоторые
-       </reg>
-       <orig>
-        нѣкоторыя
-       </orig>
-      </choice>
-      сцены
-      <choice>
-       <reg>
-        из
-       </reg>
-       <orig>
-        изъ
-       </orig>
-      </choice>
-      моей жизни и
-      <choice>
-       <reg>
-        все
-       </reg>
-       <orig>
-        всѣ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        замечательные
-       </reg>
-       <orig>
-        замѣчательные
-       </orig>
-      </choice>
-      случаи
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      моей жизни, т.е.,
-      <choice>
-       <reg>
-        такие
-       </reg>
-       <orig>
-        такiя
-       </orig>
-      </choice>
-      случаи,
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        которых
-       </reg>
-       <orig>
-        которыхъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        перед
-       </reg>
-       <orig>
-        передъ
-       </orig>
-      </choice>
-      собою нужно было оправдаться.
-      <choice>
-       <reg>
-        Вот
-       </reg>
-       <orig>
-        Вотъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        из
-       </reg>
-       <orig>
-        изъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этих
-       </reg>
-       <orig>
-        этихъ
-       </orig>
-      </choice>
-      то
-      <choice>
-       <reg>
-        отрывков
-       </reg>
-       <orig>
-        отрывковъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        дополнениями
-       </reg>
-       <orig>
-        дополненiями
-       </orig>
-      </choice>
-      собственно [8] для
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      написанными, и составились эти записки.</del>
-     </p><p id="5e15c3cb-0572-464c-967d-158adebbe2d3" rend="left">
+      <del>
+       У меня прежде еще были набросаны
+       <choice>
+        <reg>
+         некоторые
+        </reg>
+        <orig>
+         нѣкоторыя
+        </orig>
+       </choice>
+       сцены
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       моей жизни и
+       <choice>
+        <reg>
+         все
+        </reg>
+        <orig>
+         всѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         замечательные
+        </reg>
+        <orig>
+         замѣчательные
+        </orig>
+       </choice>
+       случаи
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       моей жизни, т.е.,
+       <choice>
+        <reg>
+         такие
+        </reg>
+        <orig>
+         такiя
+        </orig>
+       </choice>
+       случаи,
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         которых
+        </reg>
+        <orig>
+         которыхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         перед
+        </reg>
+        <orig>
+         передъ
+        </orig>
+       </choice>
+       собою нужно было оправдаться.
+       <choice>
+        <reg>
+         Вот
+        </reg>
+        <orig>
+         Вотъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этих
+        </reg>
+        <orig>
+         этихъ
+        </orig>
+       </choice>
+       то
+       <choice>
+        <reg>
+         отрывков
+        </reg>
+        <orig>
+         отрывковъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         дополнениями
+        </reg>
+        <orig>
+         дополненiями
+        </orig>
+       </choice>
+       собственно [8] для
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       написанными, и составились эти записки.
+      </del>
+     </p>
+     <p id="5e15c3cb-0572-464c-967d-158adebbe2d3" rend="left">
       12 Августа 1833. —
       <choice>
        <reg>
@@ -39060,77 +39073,81 @@
       же. —
      </p>
      <p id="9a5b3bda-b9ad-4824-9665-548f9702b7b2" rend="left">
-      [63] <del>Что-то защемило у меня
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        сердце
-       </reg>
-       <orig>
-        сердцѣ
-       </orig>
-      </choice>
-      , когда
-      <choice>
-       <reg>
-        он
-       </reg>
-       <orig>
-        онъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нам
-       </reg>
-       <orig>
-        намъ
-       </orig>
-      </choice>
-      это
-      <choice>
-       <reg>
-        сказал
-       </reg>
-       <orig>
-        сказалъ
-       </orig>
-      </choice>
-      , и мысль моя
-      <choice>
-       <reg>
-        сейчас
-       </reg>
-       <orig>
-        сейчасъ
-       </orig>
-      </choice>
-      обратилась
-      <choice>
-       <reg>
-        к
-       </reg>
-       <orig>
-        къ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        матушке
-       </reg>
-       <orig>
-        матушкѣ
-       </orig>
-      </choice>
-      .</del>
-     </p><p id="fecad00e-ca0c-4388-9abd-79c3941565d2" rend="left">
+      [63]
+      <del>
+       Что-то защемило у меня
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         сердце
+        </reg>
+        <orig>
+         сердцѣ
+        </orig>
+       </choice>
+       , когда
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нам
+        </reg>
+        <orig>
+         намъ
+        </orig>
+       </choice>
+       это
+       <choice>
+        <reg>
+         сказал
+        </reg>
+        <orig>
+         сказалъ
+        </orig>
+       </choice>
+       , и мысль моя
+       <choice>
+        <reg>
+         сейчас
+        </reg>
+        <orig>
+         сейчасъ
+        </orig>
+       </choice>
+       обратилась
+       <choice>
+        <reg>
+         к
+        </reg>
+        <orig>
+         къ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         матушке
+        </reg>
+        <orig>
+         матушкѣ
+        </orig>
+       </choice>
+       .
+      </del>
+     </p>
+     <p id="fecad00e-ca0c-4388-9abd-79c3941565d2" rend="left">
       18
       <choice>
        <reg>
@@ -39909,18 +39926,20 @@
         болѣе
        </orig>
       </choice>
-      <del>даже;
-      <pb n="146"/>
-      по
-      <choice>
-       <reg>
-        спине
-       </reg>
-       <orig>
-        спинѣ
-       </orig>
-      </choice>
-      его</del>
+      <del>
+       даже;
+       <pb n="146"/>
+       по
+       <choice>
+        <reg>
+         спине
+        </reg>
+        <orig>
+         спинѣ
+        </orig>
+       </choice>
+       его
+      </del>
       <choice>
        <reg>
         заметно
@@ -40818,7 +40837,8 @@
         </hi>
        </span>
       </note>
-     </p><p id="98037ba6-8664-43c4-8f00-a4be3d53812b" rend="left">
+     </p>
+     <p id="98037ba6-8664-43c4-8f00-a4be3d53812b" rend="left">
       <choice>
        <reg>
         Налево
@@ -41366,8 +41386,12 @@
       доброй старушки. Она махнула сморщенной рукой и не могла больше говорить.
      </p>
      <p id="92da5257-21de-4ed1-8144-2ddce94133e0" rend="left">
-      Maman умерла въ ужасныхъ страданіяхъ. За что? Помню я, какъ на второй день взошелъ я въ гостиную. На столѣ стоялъ гробъ, в гробу лежала maman. Это было вечеромъ, свѣчи нагорѣли, одинъ дьячокъ сидѣлъ въ дальнемъ углу, и слышно было его однообразное и тихое чтеніе. Лицо было открыто. Я тихо отворилъ дверь, дьячокъ оглянулся, но продолжалъ читать. Мнѣ хотѣлось посмотрѣть еще разъ на нее. Неописанное чувство страху обуяло всего меня, нервы были разстроены, на щекахъ только-что высохли слезы, я подошелъ къ столу и сталъ смотрѣть, но я видѣлъ только свѣтъ, парчи, серебряные подсвѣчники. Я сталъ смотрѣть пристальнѣе, взоры мои устремлялись на то мѣсто, гдѣ должна была быть ея голова. Розовая подушка, чепчикъ, вѣнчикъ, и еще что-то бѣлое цвѣта воска, которое я принималъ то за лицо, то говорилъ себѣ, что это не можетъ быть — все сливалось вмѣстѣ, и ничего для меня не представляло. Я сталъ на стулъ, чтобы лучше разсмотрѣть, но и тутъ сначала я не вѣрилъ себѣ, что то желтоватое безцвѣтное мѣсто, на которомъ я сначала не могъ разобрать ничего, (мнѣ страшно было вѣрить) было ея лицо, но малу-по-малу я сталъ узнавать знакомыя милыя черты, сталъ [67] вглядываться въ нихъ, и, несмотря на то, что глазъ не было, что на одной щекѣ, подъ кожей, видно было черноватое пятно, складъ губъ, вытянувшіяся линіи щекъ, опущенныя вѣки, лобъ, на которомъ сгладились всѣ морщины, — все носило такой отпечатокъ величія спокойствія и спокойствія неземнаго, что я не могъ оторвать глазъ отъ него. — <del>Я смотрѣлъ, смотрѣлъ и долго смотрѣлъ, сколько времени, я не могъ бы сказать, потому что въ это время не было для меня времени, и о чемъ я думалъ, что я чувствовалъ, этаго описать нѣтъ силъ. Сначала, смотря на это лицо, съ которымъ соединялось столько дорогихъ воспоминаній, я воображалъ и вспоминалъ ее то въ томъ, то въ другомъ положеніи; воображеніе рисовало цвѣтущія жизнью и радостью картины, а передо мною лежала смерть. Воображеніе измучалось этой работой, которая безпрестанно разрушала дѣйствительность.</del>
-     </p><p id="5139de24-0975-4b0b-b33d-43bd631b467d" rend="left">
+      Maman умерла въ ужасныхъ страданіяхъ. За что? Помню я, какъ на второй день взошелъ я въ гостиную. На столѣ стоялъ гробъ, в гробу лежала maman. Это было вечеромъ, свѣчи нагорѣли, одинъ дьячокъ сидѣлъ въ дальнемъ углу, и слышно было его однообразное и тихое чтеніе. Лицо было открыто. Я тихо отворилъ дверь, дьячокъ оглянулся, но продолжалъ читать. Мнѣ хотѣлось посмотрѣть еще разъ на нее. Неописанное чувство страху обуяло всего меня, нервы были разстроены, на щекахъ только-что высохли слезы, я подошелъ къ столу и сталъ смотрѣть, но я видѣлъ только свѣтъ, парчи, серебряные подсвѣчники. Я сталъ смотрѣть пристальнѣе, взоры мои устремлялись на то мѣсто, гдѣ должна была быть ея голова. Розовая подушка, чепчикъ, вѣнчикъ, и еще что-то бѣлое цвѣта воска, которое я принималъ то за лицо, то говорилъ себѣ, что это не можетъ быть — все сливалось вмѣстѣ, и ничего для меня не представляло. Я сталъ на стулъ, чтобы лучше разсмотрѣть, но и тутъ сначала я не вѣрилъ себѣ, что то желтоватое безцвѣтное мѣсто, на которомъ я сначала не могъ разобрать ничего, (мнѣ страшно было вѣрить) было ея лицо, но малу-по-малу я сталъ узнавать знакомыя милыя черты, сталъ [67] вглядываться въ нихъ, и, несмотря на то, что глазъ не было, что на одной щекѣ, подъ кожей, видно было черноватое пятно, складъ губъ, вытянувшіяся линіи щекъ, опущенныя вѣки, лобъ, на которомъ сгладились всѣ морщины, — все носило такой отпечатокъ величія спокойствія и спокойствія неземнаго, что я не могъ оторвать глазъ отъ него. —
+      <del>
+       Я смотрѣлъ, смотрѣлъ и долго смотрѣлъ, сколько времени, я не могъ бы сказать, потому что въ это время не было для меня времени, и о чемъ я думалъ, что я чувствовалъ, этаго описать нѣтъ силъ. Сначала, смотря на это лицо, съ которымъ соединялось столько дорогихъ воспоминаній, я воображалъ и вспоминалъ ее то въ томъ, то въ другомъ положеніи; воображеніе рисовало цвѣтущія жизнью и радостью картины, а передо мною лежала смерть. Воображеніе измучалось этой работой, которая безпрестанно разрушала дѣйствительность.
+      </del>
+     </p>
+     <p id="5139de24-0975-4b0b-b33d-43bd631b467d" rend="left">
       Я
       <choice>
        <reg>
@@ -42197,123 +42221,126 @@
       которой мы всегда жили, моя мать?! Это ужасно!!
      </p>
      <p id="46b3d63f-55ad-4bf5-b599-71bea56df1f9" rend="left">
-      <del>Я говорю, что есть какое то
-      <choice>
-       <reg>
-        наслаждение
-       </reg>
-       <orig>
-        наслажденiе
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        горе
-       </reg>
-       <orig>
-        горѣ
-       </orig>
-      </choice>
-      . И
-      <choice>
-       <reg>
-        вот
-       </reg>
-       <orig>
-        вотъ
-       </orig>
-      </choice>
-      доказательство:
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      то время,
-      <choice>
-       <reg>
-        как
-       </reg>
-       <orig>
-        какъ
-       </orig>
-      </choice>
-      я
-      <choice>
-       <reg>
-        описывал
-       </reg>
-       <orig>
-        описывалъ
-       </orig>
-      </choice>
-      это
-      <choice>
-       <reg>
-        несчастие
-       </reg>
-       <orig>
-        несчастiе
-       </orig>
-      </choice>
-      , я
-      <choice>
-       <reg>
-        чувствовал
-       </reg>
-       <orig>
-        чувствовалъ
-       </orig>
-      </choice>
-      его не
-      <choice>
-       <reg>
-        слабее
-       </reg>
-       <orig>
-        слабѣе
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        как
-       </reg>
-       <orig>
-        какъ
-       </orig>
-      </choice>
-      тогда;
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      это доставляло какое то грустное
-      <choice>
-       <reg>
-        удовольствие
-       </reg>
-       <orig>
-        удовольствiе
-       </orig>
-      </choice>
-      . Но довольно.—</del>
-     </p><p id="f9524535-3d43-4e34-a00a-d61a241b8e4c" rend="left">
+      <del>
+       Я говорю, что есть какое то
+       <choice>
+        <reg>
+         наслаждение
+        </reg>
+        <orig>
+         наслажденiе
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         горе
+        </reg>
+        <orig>
+         горѣ
+        </orig>
+       </choice>
+       . И
+       <choice>
+        <reg>
+         вот
+        </reg>
+        <orig>
+         вотъ
+        </orig>
+       </choice>
+       доказательство:
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       то время,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       я
+       <choice>
+        <reg>
+         описывал
+        </reg>
+        <orig>
+         описывалъ
+        </orig>
+       </choice>
+       это
+       <choice>
+        <reg>
+         несчастие
+        </reg>
+        <orig>
+         несчастiе
+        </orig>
+       </choice>
+       , я
+       <choice>
+        <reg>
+         чувствовал
+        </reg>
+        <orig>
+         чувствовалъ
+        </orig>
+       </choice>
+       его не
+       <choice>
+        <reg>
+         слабее
+        </reg>
+        <orig>
+         слабѣе
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       тогда;
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       это доставляло какое то грустное
+       <choice>
+        <reg>
+         удовольствие
+        </reg>
+        <orig>
+         удовольствiе
+        </orig>
+       </choice>
+       . Но довольно.—
+      </del>
+     </p>
+     <p id="f9524535-3d43-4e34-a00a-d61a241b8e4c" rend="left">
       Планы отца
       <choice>
        <reg>

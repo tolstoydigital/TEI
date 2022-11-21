@@ -1,101 +1,113 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-            <title xml:id="v21_502_516_Novaja_azbuka">Азбука. Tolstoy Digital</title>
-            <title type="main">Новая азбука. Планы и варианты</title>
-            <author>Толстой Лев Николаевич</author>
-            <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
-                <name>
-                    Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                </name>
-             </respStmt>
-            <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
-            </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="3b05c894-b52c-48af-a249-aaaa3c69c626">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Новая азбука
-                        </title>
-                        </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений.
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">21</biblScope>
-                        <biblScope unit="page">502-516</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date when="1875"/>
-            </creation>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#kids" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-                <catRef ana="#not_included" target="included"/>
-                </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v21_502_516_Novaja_azbuka">
+     Азбука. Tolstoy Digital
+    </title>
+    <title type="main">
+     Новая азбука. Планы и варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="3b05c894-b52c-48af-a249-aaaa3c69c626">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Новая азбука
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       21
+      </biblScope>
+      <biblScope unit="page">
+       502-516
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1875"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#not_included" target="included"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_3">
     <p id="c1b302c4-e13c-4878-ad7c-4f25a179fb1c">
@@ -746,8 +758,13 @@
       </hi>
      </p>
      <p id="2fcac985-22c6-4881-85cb-d65943ea5bd1" rend="left">
-      Мать и дочь легли спать. Мать хотела спать. А дочь стала песни петь. Мать не знала, как ее унять. — И сказала: Оставь ты эту дурь. Я устала и хочу спать, а если ты хочешь петь, <del>то я</del> тебя запру в клеть. И тем не могла унять. Тогда мать свела дочь в клеть, заперла дверь, снаружи привалила к ней пень. Дочь не стала уже петь, а стала просить, чтоб ее пустить. — Но мать не отперла дочь во всю ночь.
-     </p></div>
+      Мать и дочь легли спать. Мать хотела спать. А дочь стала песни петь. Мать не знала, как ее унять. — И сказала: Оставь ты эту дурь. Я устала и хочу спать, а если ты хочешь петь,
+      <del>
+       то я
+      </del>
+      тебя запру в клеть. И тем не могла унять. Тогда мать свела дочь в клеть, заперла дверь, снаружи привалила к ней пень. Дочь не стала уже петь, а стала просить, чтоб ее пустить. — Но мать не отперла дочь во всю ночь.
+     </p>
+    </div>
     <div type="section" xml:id="h000018004005">
      <head rend="left">
       * № 5 (рук. № 7).
@@ -764,8 +781,15 @@
       </choice>
      </p>
      <p id="a3fd32d9-9a19-4e33-bfa2-0c033446f105" rend="left">
-      <del>Есть червь, и на черве есть шелк. И шелк так тонк, что ни одна <del>женщина</del> не может так тонко прясть.</del>
-     </p><p id="38298345-b4eb-4c5e-84ad-a15fa72239db" rend="left emptyline">
+      <del>
+       Есть червь, и на черве есть шелк. И шелк так тонк, что ни одна
+       <del>
+        женщина
+       </del>
+       не может так тонко прясть.
+      </del>
+     </p>
+     <p id="38298345-b4eb-4c5e-84ad-a15fa72239db" rend="left emptyline">
       <pb n="507"/>
      </p>
     </div>
@@ -785,8 +809,11 @@
       </choice>
      </p>
      <p id="2e3e3fd1-7f7f-49fd-95f8-b4479dedff72" rend="left">
-      <del>Жил в избе дед. Как пришла ночь, в избе стало темно, и в избу в окно влез вор. Не труди себя, вор, не ищи, что взять. У деда и днем не найти, что взять, у него ничего нет.</del>
-     </p></div>
+      <del>
+       Жил в избе дед. Как пришла ночь, в избе стало темно, и в избу в окно влез вор. Не труди себя, вор, не ищи, что взять. У деда и днем не найти, что взять, у него ничего нет.
+      </del>
+     </p>
+    </div>
     <div type="section" xml:id="h000018004007">
      <head rend="left">
       * № 7 (рук. № 7).
@@ -841,8 +868,11 @@
       </choice>
      </p>
      <p id="dc22be2d-a17a-4385-908c-9b38dfb22563" rend="left">
-      <del>Сидел старик, пил чай. Пришел внук, сказал: и мне дай. Старик чаю дал, и баранку дал, и сказал: Чай пей, наземь не лей. На чай дуй, а баранку жуй.</del>
-     </p></div>
+      <del>
+       Сидел старик, пил чай. Пришел внук, сказал: и мне дай. Старик чаю дал, и баранку дал, и сказал: Чай пей, наземь не лей. На чай дуй, а баранку жуй.
+      </del>
+     </p>
+    </div>
     <div type="section" xml:id="h000018004010">
      <head rend="left">
       * № 10 (рук. № 11).
@@ -859,8 +889,11 @@
       </choice>
      </p>
      <p id="3b72c0e2-ef20-499f-8c81-ee0960fee7a7" rend="left">
-      <del>Летел пчел рой и сел на дом мой, и стал у меня год целый мед белый.</del>
-     </p></div>
+      <del>
+       Летел пчел рой и сел на дом мой, и стал у меня год целый мед белый.
+      </del>
+     </p>
+    </div>
     <div type="section" xml:id="h000018004011">
      <head rend="left">
       * № 11 (рук. № 11).
@@ -899,8 +932,11 @@
       </choice>
      </p>
      <p id="283e5bb0-481d-41f4-97a9-84ee8366fd14" rend="left">
-      <del>У Миши и Тани была игра вот так: Они влили в таз воды. Взяли две щепки, и эти щепки были у них лодки. Они сели у таза и стали дуть на щепки. Ты дуй, и я буду дуть.</del>
-     </p></div>
+      <del>
+       У Миши и Тани была игра вот так: Они влили в таз воды. Взяли две щепки, и эти щепки были у них лодки. Они сели у таза и стали дуть на щепки. Ты дуй, и я буду дуть.
+      </del>
+     </p>
+    </div>
     <div type="section" xml:id="h000018004013">
      <head rend="left">
       * № 13 (рук. № 13).
@@ -917,8 +953,11 @@
       </choice>
      </p>
      <p id="16c28930-077c-41cf-8b66-2b4e3a5ffa21" rend="left">
-      <del>Жили на деревне два мужика. Пошли они вместе на работу. Работа была трудная — рубили дрова. Когда мужики пришли после работы на деревню, они делили барыши и спорили: одному мало было, другому мало было. Спорили три дня, и все мужики судили. Три дня работы не было. Лучше бы эти мужики всё время рубили дрова, а то много время прошло.</del>
-     </p></div>
+      <del>
+       Жили на деревне два мужика. Пошли они вместе на работу. Работа была трудная — рубили дрова. Когда мужики пришли после работы на деревню, они делили барыши и спорили: одному мало было, другому мало было. Спорили три дня, и все мужики судили. Три дня работы не было. Лучше бы эти мужики всё время рубили дрова, а то много время прошло.
+      </del>
+     </p>
+    </div>
     <div type="section" xml:id="h000018004014">
      <head rend="left">
       * № 14 (рук. №13).
@@ -958,8 +997,11 @@
      </p>
      <lb/>
      <p id="ddaa7b96-612c-43ad-98ee-c1ae33dda0bb" rend="left">
-      <del>Был Филя глупый. Сел на сук и взял пилу. Не пили, Филя, тот сук. А Филя: Ступай, мне не мешай. Глядь — Филя уж на земле. Ай. Ай. Ай.</del>
-     </p></div>
+      <del>
+       Был Филя глупый. Сел на сук и взял пилу. Не пили, Филя, тот сук. А Филя: Ступай, мне не мешай. Глядь — Филя уж на земле. Ай. Ай. Ай.
+      </del>
+     </p>
+    </div>
     <div type="section" xml:id="h000018004016">
      <head rend="left">
       * № 16 (рук. № 13).

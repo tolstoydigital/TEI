@@ -1,91 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v60_202_Neizvestnomu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо Неизвестному с 1 марта 1861 г. по 30 апреля 1861 г.</title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="69cb51aa-2ca2-4ef4-a28f-b2980439d287">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 60</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1949"/>
-                        </imprint>
-                        <biblScope unit="vol">60</biblScope>
-                        <biblScope unit="page">382-385</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <date notBefore="1861-03-01" notAfter="1861-04-30"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName/>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#not_sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">202</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="Neizvestnomu_202">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v60_202_Neizvestnomu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо Неизвестному с 1 марта 1861 г. по 30 апреля 1861 г.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="69cb51aa-2ca2-4ef4-a28f-b2980439d287">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 60
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1949"/>
+      </imprint>
+      <biblScope unit="vol">
+       60
+      </biblScope>
+      <biblScope unit="page">
+       382-385
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <date notAfter="1861-04-30" notBefore="1861-03-01"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName/>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#not_sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   202
+  </number>
+ </xenoData>
+ <text xml:id="Neizvestnomu_202" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <pb n="382"/>
@@ -103,28 +129,32 @@
      <note index="false" resp="volume_editor" xml:id="note1">
       Нассау — германское герцогство, существовавшее до 1886 г.
      </note>
-     — и мне страшно дать не только тебе и педагогическому миру — но страшно самому себе дать отчет в том убеждении, к которому я приведен всем виденным. <del>Я не могу высказать прямо это убеждение, ты бы засмеялся и перестал читать дальше. Я должен приготовить тебя. — Начал я свое путешествие с деревенских школ в Германии. В Насауском,
-     <ref target="#note2">
-      2
-     </ref>
-     <note index="false" resp="volume_editor" xml:id="note2">
-      Дармштадт — главный город великого герцогства Гессен.
-     </note>
-     в Дармштатском,
-     <ref target="#note3">
-      3
-     </ref>
-     <note index="false" resp="volume_editor" xml:id="note3">
-      Саксен-Мейнинген — герцогство и союзное государство Германии.
-     </note>
-     в Саксен Мейнингемском,
-     <ref target="#note4">
-      4
-     </ref>
-     <note index="false" resp="volume_editor" xml:id="note4">
-      [Вот он.]
-     </note>
-     где особенно славятся школы, и нашел везде одно и то же с малыми изменениями. Вот</del> Heraus damit.
+     — и мне страшно дать не только тебе и педагогическому миру — но страшно самому себе дать отчет в том убеждении, к которому я приведен всем виденным.
+     <del>
+      Я не могу высказать прямо это убеждение, ты бы засмеялся и перестал читать дальше. Я должен приготовить тебя. — Начал я свое путешествие с деревенских школ в Германии. В Насауском,
+      <ref target="#note2">
+       2
+      </ref>
+      <note index="false" resp="volume_editor" xml:id="note2">
+       Дармштадт — главный город великого герцогства Гессен.
+      </note>
+      в Дармштатском,
+      <ref target="#note3">
+       3
+      </ref>
+      <note index="false" resp="volume_editor" xml:id="note3">
+       Саксен-Мейнинген — герцогство и союзное государство Германии.
+      </note>
+      в Саксен Мейнингемском,
+      <ref target="#note4">
+       4
+      </ref>
+      <note index="false" resp="volume_editor" xml:id="note4">
+       [Вот он.]
+      </note>
+      где особенно славятся школы, и нашел везде одно и то же с малыми изменениями. Вот
+     </del>
+     Heraus damit.
      <ref target="#note5">
       5
      </ref>
@@ -156,7 +186,8 @@
       [Звуковой метод обучения грамоте]
      </note>
      —
-    </p><p id="7b984d1d-6707-4e83-a03d-be9f9bcab34c" rend="left">
+    </p>
+    <p id="7b984d1d-6707-4e83-a03d-be9f9bcab34c" rend="left">
      Вы приходите в протестантскую, в жидовскую, в католическую школу. В малолетнюю, взрослую, женскую или мужскую, классическую или научную, промышленную, всё равно — одну общую всем, неизменную черту определенности вы находите во всех этих школах. Положим, в первоначальной протестантской школе вы находите, что учитель имеет предписание не только насчет той последовательности предметов, которую он должен принять, числа часов, которые он должен посвятить молитве, каждому предмету и каждому упражнению, но вы видите, что даже те руководства, т. е. приемы, которые он может употреблять, определены и назначены вперед. Мало того, сам учитель образован в известной школе, семинарии, так что только эти известные приемы понятны для него. — Вы начинаете разбирать эти предписания и утвержденные руководства и находите для обучения чтению и письму иногда методу складов, иногда новую Lautir methode
      <ref target="#note7">
       7

@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_563_570_Nikolaj_Palkin_Varianty" resp="volume_editor">
-                    [Варианты к «Николаю Палкину»]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Николай Палкин.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="cb0443c7-0c1e-48a0-a228-743b2a7838ef">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты к «Николаю Палкину»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">563-570</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1886"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v26_563_570_Nikolaj_Palkin_Varianty">
+     [Варианты к «Николаю Палкину»]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Николай Палкин.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="cb0443c7-0c1e-48a0-a228-743b2a7838ef">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты к «Николаю Палкину»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       563-570
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1886"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013014">
     <p id="5be4f780-b3de-4aed-ac8d-6ce4f447352a">
@@ -2561,10 +2573,15 @@
          новыя
         </orig>
        </choice>
-       жестокости. <del>Люди эти</del>.
+       жестокости.
+       <del>
+        Люди эти
+       </del>
+       .
       </span>
      </note>
-    </p><p id="d7c73a67-81ca-49b8-8c7b-bd942f606cb7" rend="left">
+    </p>
+    <p id="d7c73a67-81ca-49b8-8c7b-bd942f606cb7" rend="left">
      То, что
      <choice>
       <reg>
@@ -8154,142 +8171,144 @@
           головахъ
          </orig>
         </choice>
-        людей. <del>
-        <choice>
-         <reg>
-          Всякий
-         </reg>
-         <orig>
-          Всякiй
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          человек
-         </reg>
-         <orig>
-          человѣкъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          знает
-         </reg>
-         <orig>
-          знаетъ
-         </orig>
-        </choice>
-        , что
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        нынче
-        <choice>
-         <reg>
-          жив
-         </reg>
-         <orig>
-          живъ
-         </orig>
-        </choice>
-        , завтра
-        <choice>
-         <reg>
-          умер
-         </reg>
-         <orig>
-          умеръ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          значит
-         </reg>
-         <orig>
-          значитъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          человек
-         </reg>
-         <orig>
-          человѣкъ
-         </orig>
-        </choice>
-        , что бы
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        не
-        <choice>
-         <reg>
-          делал
-         </reg>
-         <orig>
-          дѣлалъ
-         </orig>
-        </choice>
-        ,
-        <choice>
-         <reg>
-          он
-         </reg>
-         <orig>
-          онъ
-         </orig>
-        </choice>
-        не спасается
-        <choice>
-         <reg>
-          от
-         </reg>
-         <orig>
-          отъ
-         </orig>
-        </choice>
-        <choice>
-         <reg>
-          страданий
-         </reg>
-         <orig>
-          страданiй
-         </orig>
-        </choice>
-        и смерти,
-        <choice>
-         <reg>
-          знает
-         </reg>
-         <orig>
-          знаетъ
-         </orig>
-        </choice>
-        , что
-        <choice>
-         <reg>
-          Разум
-         </reg>
-         <orig>
-          Разумъ
-         </orig>
-        </choice>
+        людей.
+        <del>
+         <choice>
+          <reg>
+           Всякий
+          </reg>
+          <orig>
+           Всякiй
+          </orig>
+         </choice>
+         <choice>
+          <reg>
+           человек
+          </reg>
+          <orig>
+           человѣкъ
+          </orig>
+         </choice>
+         <choice>
+          <reg>
+           знает
+          </reg>
+          <orig>
+           знаетъ
+          </orig>
+         </choice>
+         , что
+         <choice>
+          <reg>
+           он
+          </reg>
+          <orig>
+           онъ
+          </orig>
+         </choice>
+         нынче
+         <choice>
+          <reg>
+           жив
+          </reg>
+          <orig>
+           живъ
+          </orig>
+         </choice>
+         , завтра
+         <choice>
+          <reg>
+           умер
+          </reg>
+          <orig>
+           умеръ
+          </orig>
+         </choice>
+         ,
+         <choice>
+          <reg>
+           значит
+          </reg>
+          <orig>
+           значитъ
+          </orig>
+         </choice>
+         <choice>
+          <reg>
+           человек
+          </reg>
+          <orig>
+           человѣкъ
+          </orig>
+         </choice>
+         , что бы
+         <choice>
+          <reg>
+           он
+          </reg>
+          <orig>
+           онъ
+          </orig>
+         </choice>
+         не
+         <choice>
+          <reg>
+           делал
+          </reg>
+          <orig>
+           дѣлалъ
+          </orig>
+         </choice>
+         ,
+         <choice>
+          <reg>
+           он
+          </reg>
+          <orig>
+           онъ
+          </orig>
+         </choice>
+         не спасается
+         <choice>
+          <reg>
+           от
+          </reg>
+          <orig>
+           отъ
+          </orig>
+         </choice>
+         <choice>
+          <reg>
+           страданий
+          </reg>
+          <orig>
+           страданiй
+          </orig>
+         </choice>
+         и смерти,
+         <choice>
+          <reg>
+           знает
+          </reg>
+          <orig>
+           знаетъ
+          </orig>
+         </choice>
+         , что
+         <choice>
+          <reg>
+           Разум
+          </reg>
+          <orig>
+           Разумъ
+          </orig>
+         </choice>
         </del>
        </del>
       </span>
      </note>
-    </p><p id="2c7aa749-e618-4459-b494-7d5545857386" rend="left">
+    </p>
+    <p id="2c7aa749-e618-4459-b494-7d5545857386" rend="left">
      <choice>
       <reg>
        Человек
@@ -8662,149 +8681,154 @@
        этаго
       </orig>
      </choice>
-     . <del>Мы
-     <choice>
-      <reg>
-       говорим
-      </reg>
-      <orig>
-       говоримъ
-      </orig>
-     </choice>
-     , что и
-     <choice>
-      <reg>
-       вер
-      </reg>
-      <orig>
-       вѣръ
-      </orig>
-     </choice>
-     много
-     <choice>
-      <reg>
-       разных
-      </reg>
-      <orig>
-       разныхъ
-      </orig>
-     </choice>
-     и нельзя знать, какая
-     <choice>
-      <reg>
-       вера
-      </reg>
-      <orig>
-       вѣра
-      </orig>
-     </choice>
-     истинная, какая ложная. Люди,
-     <choice>
-      <reg>
-       говорим
-      </reg>
-      <orig>
-       говоримъ
-      </orig>
-     </choice>
-     мы,
-     <choice>
-      <reg>
-       бродят
-      </reg>
-      <orig>
-       бродятъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       слепые
-      </reg>
-      <orig>
-       слѣпые
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       живут
-      </reg>
-      <orig>
-       живутъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       бродят
-      </reg>
-      <orig>
-       бродятъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       умирают
-      </reg>
-      <orig>
-       умираютъ
-      </orig>
-     </choice>
-     злы и глупы,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       слепые
-      </reg>
-      <orig>
-       слѣпые
-      </orig>
-     </choice>
-     , сами не
-     <choice>
-      <reg>
-       знают
-      </reg>
-      <orig>
-       знаютъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       зачем
-      </reg>
-      <orig>
-       зачѣмъ
-      </orig>
-     </choice>
      .
-     <choice>
-      <reg>
-       Так
-      </reg>
-      <orig>
-       Такъ
-      </orig>
-     </choice>
-     ли это?</del> Неужели это правда?
-    </p><p id="ae3a7b79-c5e9-4f38-bbf6-920f3ba15468" rend="left">
+     <del>
+      Мы
+      <choice>
+       <reg>
+        говорим
+       </reg>
+       <orig>
+        говоримъ
+       </orig>
+      </choice>
+      , что и
+      <choice>
+       <reg>
+        вер
+       </reg>
+       <orig>
+        вѣръ
+       </orig>
+      </choice>
+      много
+      <choice>
+       <reg>
+        разных
+       </reg>
+       <orig>
+        разныхъ
+       </orig>
+      </choice>
+      и нельзя знать, какая
+      <choice>
+       <reg>
+        вера
+       </reg>
+       <orig>
+        вѣра
+       </orig>
+      </choice>
+      истинная, какая ложная. Люди,
+      <choice>
+       <reg>
+        говорим
+       </reg>
+       <orig>
+        говоримъ
+       </orig>
+      </choice>
+      мы,
+      <choice>
+       <reg>
+        бродят
+       </reg>
+       <orig>
+        бродятъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        слепые
+       </reg>
+       <orig>
+        слѣпые
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        живут
+       </reg>
+       <orig>
+        живутъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        бродят
+       </reg>
+       <orig>
+        бродятъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        умирают
+       </reg>
+       <orig>
+        умираютъ
+       </orig>
+      </choice>
+      злы и глупы,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        слепые
+       </reg>
+       <orig>
+        слѣпые
+       </orig>
+      </choice>
+      , сами не
+      <choice>
+       <reg>
+        знают
+       </reg>
+       <orig>
+        знаютъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        зачем
+       </reg>
+       <orig>
+        зачѣмъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Так
+       </reg>
+       <orig>
+        Такъ
+       </orig>
+      </choice>
+      ли это?
+     </del>
+     Неужели это правда?
+    </p>
+    <p id="ae3a7b79-c5e9-4f38-bbf6-920f3ba15468" rend="left">
      <choice>
       <reg>
        Бог
@@ -8840,16 +8864,20 @@
        такъ
       </orig>
      </choice>
-     , что они <del>мучаются,
-     <choice>
-      <reg>
-       ищут
-      </reg>
-      <orig>
-       ищутъ
-      </orig>
-     </choice>
-     истину и</del> не
+     , что они
+     <del>
+      мучаются,
+      <choice>
+       <reg>
+        ищут
+       </reg>
+       <orig>
+        ищутъ
+       </orig>
+      </choice>
+      истину и
+     </del>
+     не
      <choice>
       <reg>
        могут
@@ -8886,16 +8914,20 @@
        нѣтъ
       </orig>
      </choice>
-     Бога, <del>люди сами собой
-     <choice>
-      <reg>
-       живут
-      </reg>
-      <orig>
-       живутъ
-      </orig>
-     </choice>
-     ,</del> то все
+     Бога,
+     <del>
+      люди сами собой
+      <choice>
+       <reg>
+        живут
+       </reg>
+       <orig>
+        живутъ
+       </orig>
+      </choice>
+      ,
+     </del>
+     то все
      <choice>
       <reg>
        в
@@ -9677,7 +9709,8 @@
       </span>
      </note>
      его.
-    </p><p id="83d7d908-ff6a-446a-9125-73b1264bee13" rend="left">
+    </p>
+    <p id="83d7d908-ff6a-446a-9125-73b1264bee13" rend="left">
      <choice>
       <reg>
        Ведь
@@ -9831,24 +9864,28 @@
        отдадутъ
       </orig>
      </choice>
-     никому. Но <del>горе
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       том
-      </reg>
-      <orig>
-       томъ
-      </orig>
-     </choice>
-     , что они</del> несчастные,
+     никому. Но
+     <del>
+      горе
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        том
+       </reg>
+       <orig>
+        томъ
+       </orig>
+      </choice>
+      , что они
+     </del>
+     несчастные,
      <choice>
       <reg>
        так
@@ -10340,7 +10377,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="253dd195-5e27-4984-8d7c-f0c170ea8f2e" rend="left">
+    </p>
+    <p id="253dd195-5e27-4984-8d7c-f0c170ea8f2e" rend="left">
      Что если бы
      <choice>
       <reg>

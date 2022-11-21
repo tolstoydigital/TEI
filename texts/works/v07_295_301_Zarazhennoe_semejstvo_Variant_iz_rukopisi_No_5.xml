@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_295_301_Zarazhennoe_semejstvo_Variant_iz_rukopisi_No_5">
-                    [Вариант из рукописи № 5 комедии «Зараженное семейство»]. Tolstoy Digital
-                </title>
-                <title type="main">Зараженное семейство.</title>
-                <title type="sub" resp="volume_editor">Вариант из рукописи № 5</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="1fe072f9-0330-479c-a4c0-9e03282fec31">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Вариант из рукописи № 5 комедии «Зараженное семейство»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">295-301</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1864"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_295_301_Zarazhennoe_semejstvo_Variant_iz_rukopisi_No_5">
+     [Вариант из рукописи № 5 комедии «Зараженное семейство»]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Зараженное семейство.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Вариант из рукописи № 5
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="1fe072f9-0330-479c-a4c0-9e03282fec31">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Вариант из рукописи № 5 комедии «Зараженное семейство»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       295-301
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1864"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012019007001">
     <p id="ac561e44-4608-4653-b530-0f60c289af13">
@@ -393,16 +405,20 @@
        полямъ
       </orig>
      </choice>
-     башмаки бить пошли, <del>травки
-     <choice>
-      <reg>
-       собирают
-      </reg>
-      <orig>
-       собираютъ
-      </orig>
-     </choice>
-     , для ученья все</del>. Бывало, у
+     башмаки бить пошли,
+     <del>
+      травки
+      <choice>
+       <reg>
+        собирают
+       </reg>
+       <orig>
+        собираютъ
+       </orig>
+      </choice>
+      , для ученья все
+     </del>
+     . Бывало, у
      <choice>
       <reg>
        старого
@@ -438,16 +454,19 @@
        книжкѣ
       </orig>
      </choice>
-     , <del>
-     <choice>
-      <reg>
-       посечет
-      </reg>
-      <orig>
-       посѣчетъ
-      </orig>
-     </choice>
-     и все</del>, а теперь по новому баклуши
+     ,
+     <del>
+      <choice>
+       <reg>
+        посечет
+       </reg>
+       <orig>
+        посѣчетъ
+       </orig>
+      </choice>
+      и все
+     </del>
+     , а теперь по новому баклуши
      <choice>
       <reg>
        бьют
@@ -701,7 +720,8 @@
       </orig>
      </choice>
      ; коли сгоните, я на мосту пойду просить Христа ради. —
-    </p><p id="fc6d4ad3-df7b-4375-852b-7d694b909c51" rend="left">
+    </p>
+    <p id="fc6d4ad3-df7b-4375-852b-7d694b909c51" rend="left">
      <hi rend="italic">
       М. В
      </hi>
@@ -769,16 +789,19 @@
        терпитъ
       </orig>
      </choice>
-     . Это не учитель, <del>а
-     <choice>
-      <reg>
-       иорник
-      </reg>
-      <orig>
-       iорникъ
-      </orig>
-     </choice>
-     </del>. Учитель
+     . Это не учитель,
+     <del>
+      а
+      <choice>
+       <reg>
+        иорник
+       </reg>
+       <orig>
+        iорникъ
+       </orig>
+      </choice>
+     </del>
+     . Учитель
      <choice>
       <reg>
        должен
@@ -869,7 +892,8 @@
       </corr>
      </choice>
      , встала, напилась, пошла гулять. Только и она испортится, помяните мое слово. —
-    </p><p id="d5014cf0-11f9-44cf-aa3c-11f1e4d42e98" rend="left">
+    </p>
+    <p id="d5014cf0-11f9-44cf-aa3c-11f1e4d42e98" rend="left">
      <hi rend="italic">
       М. В
      </hi>
@@ -1001,24 +1025,26 @@
       М. В.
      </hi>
      <del>
-     <choice>
-      <reg>
-       Ах
-      </reg>
-      <orig>
-       Ахъ
-      </orig>
-     </choice>
-     , няня, няня, какая же ты
-     <choice>
-      <reg>
-       яд
-      </reg>
-      <orig>
-       ядъ
-      </orig>
-     </choice>
-     стала.</del> Ну-ну-ну!
+      <choice>
+       <reg>
+        Ах
+       </reg>
+       <orig>
+        Ахъ
+       </orig>
+      </choice>
+      , няня, няня, какая же ты
+      <choice>
+       <reg>
+        яд
+       </reg>
+       <orig>
+        ядъ
+       </orig>
+      </choice>
+      стала.
+     </del>
+     Ну-ну-ну!
      <hi rend="italic">
       (
       <choice>
@@ -1086,20 +1112,24 @@
       </orig>
      </choice>
      странностями. —
-    </p><p id="bf25d7fa-1d8f-46af-a385-c21e0a70a761" rend="left">
+    </p>
+    <p id="bf25d7fa-1d8f-46af-a385-c21e0a70a761" rend="left">
      <hi rend="italic">
       Н.
      </hi>
-     <del>Я то
-     <choice>
-      <reg>
-       яд
-      </reg>
-      <orig>
-       ядъ
-      </orig>
-     </choice>
-     ?</del> Не могу.
+     <del>
+      Я то
+      <choice>
+       <reg>
+        яд
+       </reg>
+       <orig>
+        ядъ
+       </orig>
+      </choice>
+      ?
+     </del>
+     Не могу.
      <choice>
       <reg>
        Вот
@@ -1698,11 +1728,16 @@
       </orig>
      </choice>
      .
-    </p><p id="b093dbf5-3317-4a0e-ad89-22bdc1c88527" rend="left">
+    </p>
+    <p id="b093dbf5-3317-4a0e-ad89-22bdc1c88527" rend="left">
      <hi rend="italic">
       М В
      </hi>
-     . <del>Ну полно.</del> Мы
+     .
+     <del>
+      Ну полно.
+     </del>
+     Мы
      <choice>
       <reg>
        с
@@ -1754,7 +1789,8 @@
       </orig>
      </choice>
      .
-    </p><p id="c54b907c-545e-4c7d-bb28-4fb15e7aaccd" rend="left">
+    </p>
+    <p id="c54b907c-545e-4c7d-bb28-4fb15e7aaccd" rend="left">
      <hi rend="italic">
       Н.
      </hi>
@@ -1884,31 +1920,31 @@
       окну.)
      </hi>
      <del>
-     <choice>
-      <reg>
-       Вон
-      </reg>
-      <orig>
-       Вонъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       барин
-      </reg>
-      <orig>
-       баринъ
-      </orig>
-     </choice>
-     все у конторы
-     <choice>
-      <reg>
-       стоят
-      </reg>
-      <orig>
-       стоятъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        Вон
+       </reg>
+       <orig>
+        Вонъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        барин
+       </reg>
+       <orig>
+        баринъ
+       </orig>
+      </choice>
+      все у конторы
+      <choice>
+       <reg>
+        стоят
+       </reg>
+       <orig>
+        стоятъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -1969,23 +2005,26 @@
       </orig>
      </choice>
      прикажете. —
-    </p><p id="8910385d-ebb5-4eb2-b5ff-6d9e5b66cbed" rend="left">
+    </p>
+    <p id="8910385d-ebb5-4eb2-b5ff-6d9e5b66cbed" rend="left">
      <pb n="297"/>
     </p>
     <p id="6c708bbb-49a0-48dc-87a9-7c6d1b85e5bc" rend="left">
      <hi rend="italic">
       М. В.
      </hi>
-     <del>А что,
-     <choice>
-      <reg>
-       разве
-      </reg>
-      <orig>
-       развѣ
-      </orig>
-     </choice>
-     сердится?</del>
+     <del>
+      А что,
+      <choice>
+       <reg>
+        разве
+       </reg>
+       <orig>
+        развѣ
+       </orig>
+      </choice>
+      сердится?
+     </del>
      <choice>
       <reg>
        Ах
@@ -2003,54 +2042,62 @@
        какъ
       </orig>
      </choice>
-     это скучно. <del>И
-     <choice>
-      <reg>
-       рассердят
-      </reg>
-      <orig>
-       разсердятъ
-      </orig>
-     </choice>
-     его еще.</del>
-    </p><p id="5c64afb5-3b2c-48e4-9f7d-dcd524362edb" rend="left">
+     это скучно.
+     <del>
+      И
+      <choice>
+       <reg>
+        рассердят
+       </reg>
+       <orig>
+        разсердятъ
+       </orig>
+      </choice>
+      его еще.
+     </del>
+    </p>
+    <p id="5c64afb5-3b2c-48e4-9f7d-dcd524362edb" rend="left">
      <hi rend="italic">
       Н
      </hi>
-     . <del>Да
-     <choice>
-      <reg>
-       разве
-      </reg>
-      <orig>
-       развѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       без
-      </reg>
-      <orig>
-       безъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       этого
-      </reg>
-      <orig>
-       этаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       бывает
-      </reg>
-      <orig>
-       бываетъ
-      </orig>
-     </choice>
-     нынче.</del> Тоже хорошо хозяйство стало, могу сказать. — Все то раскрыто, все разгорожено.
+     .
+     <del>
+      Да
+      <choice>
+       <reg>
+        разве
+       </reg>
+       <orig>
+        развѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        без
+       </reg>
+       <orig>
+        безъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        этого
+       </reg>
+       <orig>
+        этаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        бывает
+       </reg>
+       <orig>
+        бываетъ
+       </orig>
+      </choice>
+      нынче.
+     </del>
+     Тоже хорошо хозяйство стало, могу сказать. — Все то раскрыто, все разгорожено.
      <choice>
       <reg>
        Нет
@@ -2156,7 +2203,8 @@
       </orig>
      </choice>
      жалость!
-    </p><p id="ba5c1cd1-ecd8-4522-b1d5-945b001ac330" rend="left">
+    </p>
+    <p id="ba5c1cd1-ecd8-4522-b1d5-945b001ac330" rend="left">
      <hi rend="italic">
       (Любочка
       <choice>
@@ -2414,51 +2462,53 @@
      <hi rend="italic">
       Н.
      </hi>
-     <del>Да,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     не сердиться то,
-     <choice>
-      <reg>
-       ведь
-      </reg>
-      <orig>
-       вѣдь
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       тут
-      </reg>
-      <orig>
-       тутъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       ангел
-      </reg>
-      <orig>
-       ангелъ
-      </orig>
-     </choice>
-     небесный и
-     <choice>
-      <reg>
-       тот
-      </reg>
-      <orig>
-       тотъ
-      </orig>
-     </choice>
-     ...</del>
+     <del>
+      Да,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      не сердиться то,
+      <choice>
+       <reg>
+        ведь
+       </reg>
+       <orig>
+        вѣдь
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        тут
+       </reg>
+       <orig>
+        тутъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        ангел
+       </reg>
+       <orig>
+        ангелъ
+       </orig>
+      </choice>
+      небесный и
+      <choice>
+       <reg>
+        тот
+       </reg>
+       <orig>
+        тотъ
+       </orig>
+      </choice>
+      ...
+     </del>
      <hi rend="italic">
       (
       <choice>
@@ -2498,7 +2548,8 @@
       </orig>
      </choice>
      она, золото-то новое.
-    </p></div>
+    </p>
+   </div>
    <div type="section" xml:id="h000012019007001001003">
     <head rend="title_level5 center">
      <choice>
@@ -2832,7 +2883,10 @@
      <hi rend="italic">
       М. В.
      </hi>
-     <del>Ну расфуфырилась, индюшка!</del> Какая ты глупая!
+     <del>
+      Ну расфуфырилась, индюшка!
+     </del>
+     Какая ты глупая!
      <hi rend="italic">
       (Няня
       <choice>
@@ -2845,7 +2899,8 @@
       </choice>
       .)
      </hi>
-    </p><p id="7f66f1c1-65ce-471d-b2d5-cbf9db41971d" rend="left">
+    </p>
+    <p id="7f66f1c1-65ce-471d-b2d5-cbf9db41971d" rend="left">
      <hi rend="italic">
       К. М. (
       <choice>
@@ -3086,28 +3141,31 @@
     </p>
     <p id="e5171622-27db-4a21-b431-fc8239388d89" rend="left">
      <del>
-     <hi rend="italic">
-      К. М.
-     </hi>
-     <choice>
-      <reg>
-       Затем
-      </reg>
-      <orig>
-       Затѣмъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       чтоб
-      </reg>
-      <orig>
-       чтобъ
-      </orig>
-     </choice>
-     не оскорблять</del> достоинство человека.
-    </p><p id="de430d60-ca91-45dc-8da4-d08e19a159dd" rend="left">
+      <hi rend="italic">
+       К. М.
+      </hi>
+      <choice>
+       <reg>
+        Затем
+       </reg>
+       <orig>
+        Затѣмъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        чтоб
+       </reg>
+       <orig>
+        чтобъ
+       </orig>
+      </choice>
+      не оскорблять
+     </del>
+     достоинство человека.
+    </p>
+    <p id="de430d60-ca91-45dc-8da4-d08e19a159dd" rend="left">
      <pb n="298"/>
      <hi rend="italic">
       (
@@ -3189,48 +3247,50 @@
       К. М.
      </hi>
      <del>
-     <choice>
-      <reg>
-       Историю
-      </reg>
-      <orig>
-       Исторiю
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       развития
-      </reg>
-      <orig>
-       развитiя
-      </orig>
-     </choice>
-     католичества
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       западном
-      </reg>
-      <orig>
-       западномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мире
-      </reg>
-      <orig>
-       мiрѣ
-      </orig>
-     </choice>
-     .</del> Статью очень хорошую о
+      <choice>
+       <reg>
+        Историю
+       </reg>
+       <orig>
+        Исторiю
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        развития
+       </reg>
+       <orig>
+        развитiя
+       </orig>
+      </choice>
+      католичества
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        западном
+       </reg>
+       <orig>
+        западномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мире
+       </reg>
+       <orig>
+        мiрѣ
+       </orig>
+      </choice>
+      .
+     </del>
+     Статью очень хорошую о
      <choice>
       <reg>
        первобытном
@@ -3279,7 +3339,8 @@
        .
       </span>
      </note>
-    </p><p id="c340b7c3-108e-412e-b594-6a09ccb07a29" rend="left">
+    </p>
+    <p id="c340b7c3-108e-412e-b594-6a09ccb07a29" rend="left">
      <hi rend="italic">
       М. В.
      </hi>
@@ -3555,15 +3616,17 @@
       М. В.
      </hi>
      <del>
-     <choice>
-      <reg>
-       Ах
-      </reg>
-      <orig>
-       Ахъ
-      </orig>
-     </choice>
-     , оставь меня.</del> Хорошо, я буду называть его
+      <choice>
+       <reg>
+        Ах
+       </reg>
+       <orig>
+        Ахъ
+       </orig>
+      </choice>
+      , оставь меня.
+     </del>
+     Хорошо, я буду называть его
      <choice>
       <reg>
        Александр
@@ -3673,7 +3736,8 @@
       </orig>
      </choice>
      .
-    </p><p id="e0a323b0-c393-4327-aa73-15863f3d8ae2" rend="left">
+    </p>
+    <p id="e0a323b0-c393-4327-aa73-15863f3d8ae2" rend="left">
      <hi rend="italic">
       С.
      </hi>
@@ -4549,60 +4613,62 @@
        названiя
       </orig>
      </choice>
-     : папаши и мамаши, и обрядность <del>
-     <choice>
-      <reg>
-       целованье
-      </reg>
-      <orig>
-       цѣлованье
-      </orig>
-     </choice>
-     ручки
-     <choice>
-      <reg>
-       перед
-      </reg>
-      <orig>
-       передъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       чаем
-      </reg>
-      <orig>
-       чаемъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       после
-      </reg>
-      <orig>
-       послѣ
-      </orig>
-     </choice>
-     чая, и они
-     <choice>
-      <reg>
-       находят
-      </reg>
-      <orig>
-       находятъ
-      </orig>
-     </choice>
-     это
-     <choice>
-      <reg>
-       глупым
-      </reg>
-      <orig>
-       глупымъ
-      </orig>
-     </choice>
-     </del>. Спросите
+     : папаши и мамаши, и обрядность
+     <del>
+      <choice>
+       <reg>
+        целованье
+       </reg>
+       <orig>
+        цѣлованье
+       </orig>
+      </choice>
+      ручки
+      <choice>
+       <reg>
+        перед
+       </reg>
+       <orig>
+        передъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        чаем
+       </reg>
+       <orig>
+        чаемъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        после
+       </reg>
+       <orig>
+        послѣ
+       </orig>
+      </choice>
+      чая, и они
+      <choice>
+       <reg>
+        находят
+       </reg>
+       <orig>
+        находятъ
+       </orig>
+      </choice>
+      это
+      <choice>
+       <reg>
+        глупым
+       </reg>
+       <orig>
+        глупымъ
+       </orig>
+      </choice>
+     </del>
+     . Спросите
      <choice>
       <reg>
        их
@@ -4666,7 +4732,8 @@
       </orig>
      </choice>
      думаете?
-    </p><p id="8a6235c2-a286-4d7e-b168-aa51c57bbab9" rend="left">
+    </p>
+    <p id="8a6235c2-a286-4d7e-b168-aa51c57bbab9" rend="left">
      <hi rend="italic">
       М.
      </hi>

@@ -1,101 +1,113 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-            <title xml:id="v21_412_424_Grammatika_dlja_selskoj_shkoly">Азбука. Tolstoy Digital</title>
-            <title type="main">Грамматика для сельских школ</title>
-            <author>Толстой Лев Николаевич</author>
-            <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
-                <name>
-                    Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                </name>
-             </respStmt>
-            <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
-            </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="c84612a0-13fc-4cad-8259-ee9450cef779">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Грамматика для сельской школы
-                        </title>
-                        </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений.
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">21</biblScope>
-                        <biblScope unit="page">412-424</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date from="1874" to="1875"/>
-            </creation>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#kids" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-                <catRef ana="#not_included" target="included"/>
-                </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v21_412_424_Grammatika_dlja_selskoj_shkoly">
+     Азбука. Tolstoy Digital
+    </title>
+    <title type="main">
+     Грамматика для сельских школ
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="c84612a0-13fc-4cad-8259-ee9450cef779">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Грамматика для сельской школы
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       21
+      </biblScope>
+      <biblScope unit="page">
+       412-424
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1874" to="1875"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#not_included" target="included"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_1">
     <p id="eaa06acf-93f0-45ec-bf4e-6bdbc5b261e7">
@@ -155,11 +167,21 @@
       <hi rend="italic">
        Собака
       </hi>
-      говорит: нет, <del>я тебя</del>
+      говорит: нет,
+      <del>
+       я тебя
+      </del>
       <hi rend="italic">
        не пущу
       </hi>
-      . Мне <del>хоть</del> сено <del>и</del>
+      . Мне
+      <del>
+       хоть
+      </del>
+      сено
+      <del>
+       и
+      </del>
       <hi rend="italic">
        не нужно
       </hi>
@@ -172,7 +194,8 @@
        быков сено беречь
       </hi>
       .
-     </p><p id="8630c9e0-1077-4e98-9735-3052e754926c" rend="left">
+     </p>
+     <p id="8630c9e0-1077-4e98-9735-3052e754926c" rend="left">
       Тут 45 слов. Одни слова по одному разу сказаны, а другие по два, по три и по 4 раза.
      </p>
      <p id="45fcdbed-035e-4c90-877a-ddee43c9f827" rend="left">
@@ -1160,8 +1183,37 @@
        Лисица сказала льву. От льва родится только один львенок, а от лисицы по 5 лисинят. За что же льву больше чести, чем лисице. А за то льва уважают больше, чем лисицу, что с одним львом 100 лисиц не справятся, и все знают обо льве, а никто не знает о лисице.
       </p>
       <p id="aa1ca214-246a-42f0-8580-646214c0a75f" rend="left">
-       Сколько разных перемен в слове львица <del>и лисица</del>: 1) львица <del>и лисица.</del> 2) от львицы <del>и лисицы</del>. 3) Львице <del>и лисице</del>. 4) Львицу <del>и лисицу.</del> 5) <del>Лисицею и</del> львицею. <del>6) Об львице и лисице.</del> 5 перемен.
-      </p><p id="6b7226ae-8e4e-4531-9502-8fa51655a2f7" rend="left">
+       Сколько разных перемен в слове львица
+       <del>
+        и лисица
+       </del>
+       : 1) львица
+       <del>
+        и лисица.
+       </del>
+       2) от львицы
+       <del>
+        и лисицы
+       </del>
+       . 3) Львице
+       <del>
+        и лисице
+       </del>
+       . 4) Львицу
+       <del>
+        и лисицу.
+       </del>
+       5)
+       <del>
+        Лисицею и
+       </del>
+       львицею.
+       <del>
+        6) Об львице и лисице.
+       </del>
+       5 перемен.
+      </p>
+      <p id="6b7226ae-8e4e-4531-9502-8fa51655a2f7" rend="left">
        Сколько разных перемен в слове
        <hi rend="italic">
         мужик?
@@ -1788,19 +1840,23 @@
       <hi rend="italic">
        Она, их, им, вы, я, вас, нее, себе, нам, ты, нас
       </hi>
-      — имена. <del>И слова:
-      <hi rend="italic">
-       наседка, скорлупа, цыплята, крылья
-      </hi>
-      — тоже имена. Слова: наседка, цыплята, крылья — настоящие имена, потому что можно сказать, как имя птице? — наседка, курица или орел, чиж, а нельзя сказать, что ее зовут
-      <hi rend="italic">
-       она
-      </hi>
-      или
-      <hi rend="italic">
-       я. Она, нас, им, вы, я, ты
-      </hi>
-      — говорится всякий раз вместо имени. Вместо того, чтобы сказать: наседка,</del> сказано
+      — имена.
+      <del>
+       И слова:
+       <hi rend="italic">
+        наседка, скорлупа, цыплята, крылья
+       </hi>
+       — тоже имена. Слова: наседка, цыплята, крылья — настоящие имена, потому что можно сказать, как имя птице? — наседка, курица или орел, чиж, а нельзя сказать, что ее зовут
+       <hi rend="italic">
+        она
+       </hi>
+       или
+       <hi rend="italic">
+        я. Она, нас, им, вы, я, ты
+       </hi>
+       — говорится всякий раз вместо имени. Вместо того, чтобы сказать: наседка,
+      </del>
+      сказано
       <hi rend="italic">
        она,
       </hi>
@@ -1809,7 +1865,8 @@
        их.
       </hi>
       Оттого эти слова называются местоимения. Местоимений главных четыре: я, ты, он, (она), оно, и они склоняются так же, как имена.
-     </p><p id="07cba4c4-622d-42e4-ae6e-a7136dc7d248" rend="left">
+     </p>
+     <p id="07cba4c4-622d-42e4-ae6e-a7136dc7d248" rend="left">
       И. я. Р. меня. Д. мне. В. меня. Т. мной. П. обо мне. Множественного: мы, нас, нам, нас,
       <choice original_editorial_correction="[нами,]">
        <sic/>
@@ -1866,7 +1923,11 @@
       Глаголы переменяются от того, что говорятся про прежнее, про теперешнее, про будущее, и переменяются по временам и еще по лицам, как местоимения.
      </p>
      <p id="1b8d58be-eeca-4a70-a8fb-9708dcd509e5" rend="left">
-      Всякий глагол можно сказать: 1) про себя, от своего лица — я ем; 2) про тебя — ты ешь; 3) про него или про нее — он ест. И то же самое, — если я не один, а нас много, то 1) про нас — мы едим, и не ты один, а вас <del>много,</del> 2) про
+      Всякий глагол можно сказать: 1) про себя, от своего лица — я ем; 2) про тебя — ты ешь; 3) про него или про нее — он ест. И то же самое, — если я не один, а нас много, то 1) про нас — мы едим, и не ты один, а вас
+      <del>
+       много,
+      </del>
+      2) про
       <choice original_editorial_correction="[вас]">
        <sic/>
        <corr>
@@ -1874,7 +1935,8 @@
        </corr>
       </choice>
       , вы едите, и не он один, а их много, 3) про них — они едят.
-     </p><p id="566b30fd-0003-435c-a02a-8f5f29e6cec7" rend="left">
+     </p>
+     <p id="566b30fd-0003-435c-a02a-8f5f29e6cec7" rend="left">
       Переменять глагол можно по временам, лицам и числам.
      </p>
      <p id="80d152e9-1e5f-4c48-8be6-a04a42d8c434" rend="left">
@@ -2027,18 +2089,36 @@
      </p>
      <lb/>
      <p id="192f0843-5715-4894-b0eb-fc118124f77b" rend="left">
-      <del>Я свиваю, я сижу, ты свиваешь, ты сидишь, он свивает</del>, она сидит.
-     </p><p id="cbd52747-86be-4b5d-8a0c-3b93047ffca9" rend="left">
-      <del>Мы свиваем, сидим, вы свиваете, сидите, они</del> свивают, сидят.
-     </p><lb/>
+      <del>
+       Я свиваю, я сижу, ты свиваешь, ты сидишь, он свивает
+      </del>
+      , она сидит.
+     </p>
+     <p id="cbd52747-86be-4b5d-8a0c-3b93047ffca9" rend="left">
+      <del>
+       Мы свиваем, сидим, вы свиваете, сидите, они
+      </del>
+      свивают, сидят.
+     </p>
+     <lb/>
      <p id="adac9e3c-1dd7-4956-9578-b8a16305b805" rend="centerline">
       Прошедшее
      </p>
      <lb/>
      <p id="4513a751-c36a-412b-801c-b1bbdca627c4" rend="left">
-      <del>Я</del> свил, сидел, <del>ты свил, сидел, он свил, сидел.</del>
-     </p><p id="89c70e7e-ed98-4748-bb76-56159fb99474" rend="left">
-      <del>Мы свили, сидели, вы свили, сидели, они свили,</del> сидели.
+      <del>
+       Я
+      </del>
+      свил, сидел,
+      <del>
+       ты свил, сидел, он свил, сидел.
+      </del>
+     </p>
+     <p id="89c70e7e-ed98-4748-bb76-56159fb99474" rend="left">
+      <del>
+       Мы свили, сидели, вы свили, сидели, они свили,
+      </del>
+      сидели.
       <ref target="#note118">
        118
       </ref>
@@ -2049,16 +2129,28 @@
         </hi>
        </span>
       </note>
-     </p><lb/>
+     </p>
+     <lb/>
      <p id="71ed0667-1f7d-4f87-ba27-6dee0d22efbe" rend="centerline">
       Будущее
      </p>
      <lb/>
      <p id="21257908-5e2a-4b0d-8d37-ed4353295ab2" rend="left">
-      <del>Я</del> совью, сяду, <del>ты совьешь, сядешь, он совьет, сядет.</del>
-     </p><p id="d7dd6209-6438-4990-b0dd-54dc0fad3bf6" rend="left">
-      <del>Мы</del> совьем, сядем, вы совьете, сядете, они совьют, сядут.
-     </p><p id="447c3b00-ec18-4893-beaf-5ac4a75946ab" rend="left">
+      <del>
+       Я
+      </del>
+      совью, сяду,
+      <del>
+       ты совьешь, сядешь, он совьет, сядет.
+      </del>
+     </p>
+     <p id="d7dd6209-6438-4990-b0dd-54dc0fad3bf6" rend="left">
+      <del>
+       Мы
+      </del>
+      совьем, сядем, вы совьете, сядете, они совьют, сядут.
+     </p>
+     <p id="447c3b00-ec18-4893-beaf-5ac4a75946ab" rend="left">
       Заметь, что во втором лице единственного настоящего и будущего пишется на конце
       <hi rend="italic">
        шь,
@@ -2337,7 +2429,11 @@
       </hi>
      </p>
      <p id="bba17658-4687-427b-a69e-d47b6b6020c9" rend="left">
-      Когда глагол стоит без лица, числа и рода так, что он не переменяется ни по лицам, ни по числам, то он <del>беспеременный</del> глагол без числа и рода (деепричастие).
+      Когда глагол стоит без лица, числа и рода так, что он не переменяется ни по лицам, ни по числам, то он
+      <del>
+       беспеременный
+      </del>
+      глагол без числа и рода (деепричастие).
       <hi rend="italic">
        Ходя
       </hi>
@@ -2345,7 +2441,8 @@
       <hi rend="italic">
        ходивши.
       </hi>
-     </p><p id="7737d364-a050-49e1-ac0b-5d38f17316a2" rend="left">
+     </p>
+     <p id="7737d364-a050-49e1-ac0b-5d38f17316a2" rend="left">
       Когда глагол стоит без лица, числа, рода и времени так, что он не переменяется ни по лицам, ни по числам, ни по временам, то он глагол без времени (неопределенное наклонение).
       <hi rend="italic">
        Ходить
@@ -2882,8 +2979,11 @@
       </hi>
      </p>
      <p id="3963d49a-1704-4845-b1bb-e4a3b509fe68" rend="left">
-      <del>Одни слова не переменяются, другие переменяются. — Слова переменяются для того, чтобы можно было соединять их в речи. Если бы слова не переменялись, их нельзя бы было связать вместе.</del>
-     </p><p id="1ae30d39-8839-4e0f-b1f3-6123017d0a5c" rend="left">
+      <del>
+       Одни слова не переменяются, другие переменяются. — Слова переменяются для того, чтобы можно было соединять их в речи. Если бы слова не переменялись, их нельзя бы было связать вместе.
+      </del>
+     </p>
+     <p id="1ae30d39-8839-4e0f-b1f3-6123017d0a5c" rend="left">
       <hi rend="italic">
        Рыбак рыбачил. Рыбка плавала. Рыбак поймал рыбку
       </hi>

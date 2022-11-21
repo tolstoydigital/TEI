@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v25_544_569_Chem_ljudi_zhivy_Varianty">
-                    Чем люди живы?. Tolstoy Digital
-                </title>
-                <title type="main">Чем люди живы?</title>
-                <title type="sub" resp="volume_editor">Вариант</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="cedbd6bc-8d31-4a2b-a2bc-97108ca88480">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Чем люди живы?
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 25
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1937"/>
-                        </imprint>
-                        <biblScope unit="volume">25</biblScope>
-                        <biblScope unit="page">544-569</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1885"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v25_544_569_Chem_ljudi_zhivy_Varianty">
+     Чем люди живы?. Tolstoy Digital
+    </title>
+    <title type="main">
+     Чем люди живы?
+    </title>
+    <title resp="volume_editor" type="sub">
+     Вариант
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="cedbd6bc-8d31-4a2b-a2bc-97108ca88480">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Чем люди живы?
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 25
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       25
+      </biblScope>
+      <biblScope unit="page">
+       544-569
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1885"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref48">
     <p id="51419995-840c-491b-ac4f-20923e4c6e51">
@@ -527,7 +539,10 @@
          съ
         </orig>
        </choice>
-       <del>полу</del>,
+       <del>
+        полу
+       </del>
+       ,
        <ref target="#note83">
         83
        </ref>
@@ -830,7 +845,8 @@
         </orig>
        </choice>
        .
-      </p><p id="1e1138f7-8d28-4ee5-a847-059341b53968" rend="left">
+      </p>
+      <p id="1e1138f7-8d28-4ee5-a847-059341b53968" rend="left">
        <choice>
         <reg>
          Полетел
@@ -1070,7 +1086,10 @@
          песокъ
         </orig>
        </choice>
-       о <del>край</del>
+       о
+       <del>
+        край
+       </del>
        <ref target="#note84">
         84
        </ref>
@@ -1086,7 +1105,8 @@
         </span>
        </note>
        берега моря.
-      </p><p id="68648eb2-3791-488d-8955-902852644f86" rend="left">
+      </p>
+      <p id="68648eb2-3791-488d-8955-902852644f86" rend="left">
        <pb n="545"/>
        <choice>
         <reg>
@@ -1244,7 +1264,10 @@
          сапожникъ
         </orig>
        </choice>
-       . Под<del>о</del>
+       . Под
+       <del>
+        о
+       </del>
        <choice>
         <reg>
          шел
@@ -1683,7 +1706,8 @@
         </orig>
        </choice>
        и брюхо кормить.
-      </p><p id="ea6c4f55-3f85-4356-8eeb-1228072c57d8" rend="left">
+      </p>
+      <p id="ea6c4f55-3f85-4356-8eeb-1228072c57d8" rend="left">
        <choice>
         <reg>
          Поглядел
@@ -2675,866 +2699,868 @@
       </head>
       <p id="683858af-77bf-4ea8-b560-5bca33b8e645" rend="left">
        <del>
-       <choice>
-        <reg>
-         Жил
-        </reg>
-        <orig>
-         Жилъ
-        </orig>
-       </choice>
-       у моря
-       <choice>
-        <reg>
-         муж
-        </reg>
-        <orig>
-         мужъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         с
-        </reg>
-        <orig>
-         съ
-        </orig>
-       </choice>
-       женою.
-       <choice>
-        <reg>
-         Поехал
-        </reg>
-        <orig>
-         Поѣхалъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         муж
-        </reg>
-        <orig>
-         мужъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         в
-        </reg>
-        <orig>
-         въ
-        </orig>
-       </choice>
-       море за рыбой. Нашла погода, взбугрилось море, подхватило лодку; и опрокинуло; ухватился
-       <choice>
-        <reg>
-         муж
-        </reg>
-        <orig>
-         мужъ
-        </orig>
-       </choice>
-       за обшивку и
-       <choice>
-        <reg>
-         ждет
-        </reg>
-        <orig>
-         ждетъ
-        </orig>
-       </choice>
-       смерти.
-       <choice>
-        <reg>
-         Призывает
-        </reg>
-        <orig>
-         Призываетъ
-        </orig>
-       </choice>
-       Господь Архангела. На море
-       <choice>
-        <reg>
-         человек
-        </reg>
-        <orig>
-         человѣкъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         тонет
-        </reg>
-        <orig>
-         тонетъ
-        </orig>
-       </choice>
-       , поди вынь
-       <choice>
-        <reg>
-         из
-        </reg>
-        <orig>
-         изъ
-        </orig>
-       </choice>
-       него душу. Спустился
-       <choice>
-        <reg>
-         Ангел
-        </reg>
-        <orig>
-         Ангелъ
-        </orig>
-       </choice>
-       на море,
-       <choice>
-        <reg>
-         видит
-        </reg>
-        <orig>
-         видитъ
-        </orig>
-       </choice>
-       , лодку валами
-       <choice>
-        <reg>
-         швыряет
-        </reg>
-        <orig>
-         швыряетъ
-        </orig>
-       </choice>
-       ,
-       <choice>
-        <reg>
-         мужик
-        </reg>
-        <orig>
-         мужикъ
-        </orig>
-       </choice>
-       за обшивку держится.
-       <choice>
-        <reg>
-         Окостенели
-        </reg>
-        <orig>
-         Окостенѣли
-        </orig>
-       </choice>
-       у мужика руки, оторвалась лодка, взмыла одна на волну, а
-       <choice>
-        <reg>
-         мужик
-        </reg>
-        <orig>
-         мужикъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         пошел
-        </reg>
-        <orig>
-         пошелъ
-        </orig>
-       </choice>
-       ко дну. Спустился
-       <choice>
-        <reg>
-         ангел
-        </reg>
-        <orig>
-         ангелъ
-        </orig>
-       </choice>
-       ,
-       <choice>
-        <reg>
-         вынул
-        </reg>
-        <orig>
-         вынулъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         из
-        </reg>
-        <orig>
-         изъ
-        </orig>
-       </choice>
-       мужика душу и
-       <choice>
-        <reg>
-         понес
-        </reg>
-        <orig>
-         понесъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       Богу.
-       <choice>
-        <reg>
-         Говорит
-        </reg>
-        <orig>
-         Говоритъ
-        </orig>
-       </choice>
-       Господь Ангелу: осталась у того мужа жена. Лети
-       <choice>
-        <reg>
-         в
-        </reg>
-        <orig>
-         въ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         город
-        </reg>
-        <orig>
-         городъ
-        </orig>
-       </choice>
-       , вынь и
-       <choice>
-        <reg>
-         из
-        </reg>
-        <orig>
-         изъ
-        </orig>
-       </choice>
-       ней душу. Спустился
-       <choice>
-        <reg>
-         Ангел
-        </reg>
-        <orig>
-         Ангелъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         в
-        </reg>
-        <orig>
-         въ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         город
-        </reg>
-        <orig>
-         городъ
-        </orig>
-       </choice>
-       ,
-       <choice>
-        <reg>
-         влетел
-        </reg>
-        <orig>
-         влетѣлъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         жене
-        </reg>
-        <orig>
-         женѣ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         в
-        </reg>
-        <orig>
-         въ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         дом
-        </reg>
-        <orig>
-         домъ
-        </orig>
-       </choice>
-       .
-       <choice>
-        <reg>
-         Видит
-        </reg>
-        <orig>
-         Видитъ
-        </orig>
-       </choice>
-       —
-       <choice>
-        <reg>
-         лежит
-        </reg>
-        <orig>
-         лежитъ
-        </orig>
-       </choice>
-       на кровати жена, родила двойни.
-       <ref target="#note85">
-        85
-       </ref>
-       <note index="false" xml:id="note85">
-        <span data-class="paragraph" id="31dc9c64-9963-4316-929a-3b87adf70033" rend="left">
-         <hi rend="italic">
-          На другой строке написано и не зачеркнуто:
-         </hi>
-         двойню.
-        </span>
-       </note>
-       Тяжко
-       <choice>
-        <reg>
-         жене
-        </reg>
-        <orig>
-         женѣ
-        </orig>
-       </choice>
-       ,
-       <choice>
-        <reg>
-         огнем
-        </reg>
-        <orig>
-         огнемъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         жжет
-        </reg>
-        <orig>
-         жжетъ
-        </orig>
-       </choice>
-       ее, головой
-       <choice>
-        <reg>
-         с
-        </reg>
-        <orig>
-         съ
-        </orig>
-       </choice>
-       стороны на сторону
-       <choice>
-        <reg>
-         перекидывает
-        </reg>
-        <orig>
-         перекидываетъ
-        </orig>
-       </choice>
-       , а
-       <choice>
-        <reg>
-         младенцов
-        </reg>
-        <orig>
-         младенцовъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         грудям
-        </reg>
-        <orig>
-         грудямъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         прижимает
-        </reg>
-        <orig>
-         прижимаетъ
-        </orig>
-       </choice>
-       . Младенцы
-       <choice>
-        <reg>
-         плавают
-        </reg>
-        <orig>
-         плаваютъ
-        </orig>
-       </choice>
-       у грудей,
-       <choice>
-        <reg>
-         чмокают
-        </reg>
-        <orig>
-         чмокаютъ
-        </orig>
-       </choice>
-       , во рту грудей не
-       <choice>
-        <reg>
-         удержат
-        </reg>
-        <orig>
-         удержатъ
-        </orig>
-       </choice>
-       . Увидала жена ангела. Господи, батюшка, не вели
-       <choice>
-        <reg>
-         из
-        </reg>
-        <orig>
-         изъ
-        </orig>
-       </choice>
-       меня души брать. Родила я
-       <choice>
-        <reg>
-         2х
-        </reg>
-        <orig>
-         2хъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         девочек
-        </reg>
-        <orig>
-         дѣвочекъ
-        </orig>
-       </choice>
-       . Не дай
-       <choice>
-        <reg>
-         ангельским
-        </reg>
-        <orig>
-         ангельскимъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         душкам
-        </reg>
-        <orig>
-         душкамъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         без
-        </reg>
-        <orig>
-         безъ
-        </orig>
-       </choice>
-       матушки завянуть, не
-       <choice>
-        <reg>
-         давал
-        </reg>
-        <orig>
-         давалъ
-        </orig>
-       </choice>
-       бы
-       <choice>
-        <reg>
-         их
-        </reg>
-        <orig>
-         ихъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         мне
-        </reg>
-        <orig>
-         мнѣ
-        </orig>
-       </choice>
-       . Дай
-       <choice>
-        <reg>
-         мне
-        </reg>
-        <orig>
-         мнѣ
-        </orig>
-       </choice>
-       сроку
-       <choice>
-        <reg>
-         их
-        </reg>
-        <orig>
-         ихъ
-        </orig>
-       </choice>
-       вскормить возрастить. Тогда возьми мою душеньку. Не
-       <choice>
-        <reg>
-         вынул
-        </reg>
-        <orig>
-         вынулъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         ангел
-        </reg>
-        <orig>
-         ангелъ
-        </orig>
-       </choice>
-       душу,
-       <choice>
-        <reg>
-         полетел
-        </reg>
-        <orig>
-         полетѣлъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         назад
-        </reg>
-        <orig>
-         назадъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       Богу.
-       <choice>
-        <reg>
-         Прилетел
-        </reg>
-        <orig>
-         Прилетѣлъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       Богу и
-       <choice>
-        <reg>
-         говорит
-        </reg>
-        <orig>
-         говоритъ
-        </orig>
-       </choice>
-       : родила та жена двойню.
-       <choice>
-        <reg>
-         Лежит
-        </reg>
-        <orig>
-         Лежитъ
-        </orig>
-       </choice>
-       одна на кровати, голову
-       <choice>
-        <reg>
-         с
-        </reg>
-        <orig>
-         съ
-        </orig>
-       </choice>
-       стороны на сторону
-       <choice>
-        <reg>
-         переметывает
-        </reg>
-        <orig>
-         переметываетъ
-        </orig>
-       </choice>
-       ,
-       <choice>
-        <reg>
-         младенцов
-        </reg>
-        <orig>
-         младенцовъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         грудям
-        </reg>
-        <orig>
-         грудямъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         прижимает
-        </reg>
-        <orig>
-         прижимаетъ
-        </orig>
-       </choice>
-       — младенцы по
-       <choice>
-        <reg>
-         грудям
-        </reg>
-        <orig>
-         грудямъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         плавают
-        </reg>
-        <orig>
-         плаваютъ
-        </orig>
-       </choice>
-       ,
-       <choice>
-        <reg>
-         сосков
-        </reg>
-        <orig>
-         сосковъ
-        </orig>
-       </choice>
-       не
-       <choice>
-        <reg>
-         удержат
-        </reg>
-        <orig>
-         удержатъ
-        </orig>
-       </choice>
-       . И
-       <choice>
-        <reg>
-         молит
-        </reg>
-        <orig>
-         молитъ
-        </orig>
-       </choice>
-       жена: Не бери ты, Господи, моей душеньки, не дай ты
-       <choice>
-        <reg>
-         замлеть
-        </reg>
-        <orig>
-         замлѣть
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         ангельским
-        </reg>
-        <orig>
-         ангельскимъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         душкам
-        </reg>
-        <orig>
-         душкамъ
-        </orig>
-       </choice>
-       . (Дай хоть вскормить, на ножки поставить, тогда возьми мою душеньку. Жаль
-       <choice>
-        <reg>
-         мне
-        </reg>
-        <orig>
-         мнѣ
-        </orig>
-       </choice>
-       стало
-       <choice>
-        <reg>
-         сирот
-        </reg>
-        <orig>
-         сиротъ
-        </orig>
-       </choice>
-       ),
-       <choice>
-        <reg>
-         как
-        </reg>
-        <orig>
-         какъ
-        </orig>
-       </choice>
-       они
-       <choice>
-        <reg>
-         проживут
-        </reg>
-        <orig>
-         проживутъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         без
-        </reg>
-        <orig>
-         безъ
-        </orig>
-       </choice>
-       отца матери прожить. Не
-       <choice>
-        <reg>
-         мог
-        </reg>
-        <orig>
-         могъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         из
-        </reg>
-        <orig>
-         изъ
-        </orig>
-       </choice>
-       родильницы души вынуть. И
-       <choice>
-        <reg>
-         сказал
-        </reg>
-        <orig>
-         сказалъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         Бог
-        </reg>
-        <orig>
-         Богъ
-        </orig>
-       </choice>
-       .
-       <choice>
-        <reg>
-         Без
-        </reg>
-        <orig>
-         Безъ
-        </orig>
-       </choice>
-       отца матери
-       <choice>
-        <reg>
-         проживут
-        </reg>
-        <orig>
-         проживутъ
-        </orig>
-       </choice>
-       ,
-       <choice>
-        <reg>
-         без
-        </reg>
-        <orig>
-         безъ
-        </orig>
-       </choice>
-       божьей милости не
-       <choice>
-        <reg>
-         проживут
-        </reg>
-        <orig>
-         проживутъ
-        </orig>
-       </choice>
-       . Поди вынь
-       <choice>
-        <reg>
-         из
-        </reg>
-        <orig>
-         изъ
-        </orig>
-       </choice>
-       родильницы душу.</del>
-      </p><p id="290481ee-b3ed-4098-a8d6-83688c6a9b5a" rend="subtitle centerline">
+        <choice>
+         <reg>
+          Жил
+         </reg>
+         <orig>
+          Жилъ
+         </orig>
+        </choice>
+        у моря
+        <choice>
+         <reg>
+          муж
+         </reg>
+         <orig>
+          мужъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        женою.
+        <choice>
+         <reg>
+          Поехал
+         </reg>
+         <orig>
+          Поѣхалъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          муж
+         </reg>
+         <orig>
+          мужъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        море за рыбой. Нашла погода, взбугрилось море, подхватило лодку; и опрокинуло; ухватился
+        <choice>
+         <reg>
+          муж
+         </reg>
+         <orig>
+          мужъ
+         </orig>
+        </choice>
+        за обшивку и
+        <choice>
+         <reg>
+          ждет
+         </reg>
+         <orig>
+          ждетъ
+         </orig>
+        </choice>
+        смерти.
+        <choice>
+         <reg>
+          Призывает
+         </reg>
+         <orig>
+          Призываетъ
+         </orig>
+        </choice>
+        Господь Архангела. На море
+        <choice>
+         <reg>
+          человек
+         </reg>
+         <orig>
+          человѣкъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          тонет
+         </reg>
+         <orig>
+          тонетъ
+         </orig>
+        </choice>
+        , поди вынь
+        <choice>
+         <reg>
+          из
+         </reg>
+         <orig>
+          изъ
+         </orig>
+        </choice>
+        него душу. Спустился
+        <choice>
+         <reg>
+          Ангел
+         </reg>
+         <orig>
+          Ангелъ
+         </orig>
+        </choice>
+        на море,
+        <choice>
+         <reg>
+          видит
+         </reg>
+         <orig>
+          видитъ
+         </orig>
+        </choice>
+        , лодку валами
+        <choice>
+         <reg>
+          швыряет
+         </reg>
+         <orig>
+          швыряетъ
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          мужик
+         </reg>
+         <orig>
+          мужикъ
+         </orig>
+        </choice>
+        за обшивку держится.
+        <choice>
+         <reg>
+          Окостенели
+         </reg>
+         <orig>
+          Окостенѣли
+         </orig>
+        </choice>
+        у мужика руки, оторвалась лодка, взмыла одна на волну, а
+        <choice>
+         <reg>
+          мужик
+         </reg>
+         <orig>
+          мужикъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          пошел
+         </reg>
+         <orig>
+          пошелъ
+         </orig>
+        </choice>
+        ко дну. Спустился
+        <choice>
+         <reg>
+          ангел
+         </reg>
+         <orig>
+          ангелъ
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          вынул
+         </reg>
+         <orig>
+          вынулъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          из
+         </reg>
+         <orig>
+          изъ
+         </orig>
+        </choice>
+        мужика душу и
+        <choice>
+         <reg>
+          понес
+         </reg>
+         <orig>
+          понесъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        Богу.
+        <choice>
+         <reg>
+          Говорит
+         </reg>
+         <orig>
+          Говоритъ
+         </orig>
+        </choice>
+        Господь Ангелу: осталась у того мужа жена. Лети
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          город
+         </reg>
+         <orig>
+          городъ
+         </orig>
+        </choice>
+        , вынь и
+        <choice>
+         <reg>
+          из
+         </reg>
+         <orig>
+          изъ
+         </orig>
+        </choice>
+        ней душу. Спустился
+        <choice>
+         <reg>
+          Ангел
+         </reg>
+         <orig>
+          Ангелъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          город
+         </reg>
+         <orig>
+          городъ
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          влетел
+         </reg>
+         <orig>
+          влетѣлъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          жене
+         </reg>
+         <orig>
+          женѣ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          дом
+         </reg>
+         <orig>
+          домъ
+         </orig>
+        </choice>
+        .
+        <choice>
+         <reg>
+          Видит
+         </reg>
+         <orig>
+          Видитъ
+         </orig>
+        </choice>
+        —
+        <choice>
+         <reg>
+          лежит
+         </reg>
+         <orig>
+          лежитъ
+         </orig>
+        </choice>
+        на кровати жена, родила двойни.
+        <ref target="#note85">
+         85
+        </ref>
+        <note index="false" xml:id="note85">
+         <span data-class="paragraph" id="31dc9c64-9963-4316-929a-3b87adf70033" rend="left">
+          <hi rend="italic">
+           На другой строке написано и не зачеркнуто:
+          </hi>
+          двойню.
+         </span>
+        </note>
+        Тяжко
+        <choice>
+         <reg>
+          жене
+         </reg>
+         <orig>
+          женѣ
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          огнем
+         </reg>
+         <orig>
+          огнемъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          жжет
+         </reg>
+         <orig>
+          жжетъ
+         </orig>
+        </choice>
+        ее, головой
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        стороны на сторону
+        <choice>
+         <reg>
+          перекидывает
+         </reg>
+         <orig>
+          перекидываетъ
+         </orig>
+        </choice>
+        , а
+        <choice>
+         <reg>
+          младенцов
+         </reg>
+         <orig>
+          младенцовъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          грудям
+         </reg>
+         <orig>
+          грудямъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          прижимает
+         </reg>
+         <orig>
+          прижимаетъ
+         </orig>
+        </choice>
+        . Младенцы
+        <choice>
+         <reg>
+          плавают
+         </reg>
+         <orig>
+          плаваютъ
+         </orig>
+        </choice>
+        у грудей,
+        <choice>
+         <reg>
+          чмокают
+         </reg>
+         <orig>
+          чмокаютъ
+         </orig>
+        </choice>
+        , во рту грудей не
+        <choice>
+         <reg>
+          удержат
+         </reg>
+         <orig>
+          удержатъ
+         </orig>
+        </choice>
+        . Увидала жена ангела. Господи, батюшка, не вели
+        <choice>
+         <reg>
+          из
+         </reg>
+         <orig>
+          изъ
+         </orig>
+        </choice>
+        меня души брать. Родила я
+        <choice>
+         <reg>
+          2х
+         </reg>
+         <orig>
+          2хъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          девочек
+         </reg>
+         <orig>
+          дѣвочекъ
+         </orig>
+        </choice>
+        . Не дай
+        <choice>
+         <reg>
+          ангельским
+         </reg>
+         <orig>
+          ангельскимъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          душкам
+         </reg>
+         <orig>
+          душкамъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          без
+         </reg>
+         <orig>
+          безъ
+         </orig>
+        </choice>
+        матушки завянуть, не
+        <choice>
+         <reg>
+          давал
+         </reg>
+         <orig>
+          давалъ
+         </orig>
+        </choice>
+        бы
+        <choice>
+         <reg>
+          их
+         </reg>
+         <orig>
+          ихъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          мне
+         </reg>
+         <orig>
+          мнѣ
+         </orig>
+        </choice>
+        . Дай
+        <choice>
+         <reg>
+          мне
+         </reg>
+         <orig>
+          мнѣ
+         </orig>
+        </choice>
+        сроку
+        <choice>
+         <reg>
+          их
+         </reg>
+         <orig>
+          ихъ
+         </orig>
+        </choice>
+        вскормить возрастить. Тогда возьми мою душеньку. Не
+        <choice>
+         <reg>
+          вынул
+         </reg>
+         <orig>
+          вынулъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          ангел
+         </reg>
+         <orig>
+          ангелъ
+         </orig>
+        </choice>
+        душу,
+        <choice>
+         <reg>
+          полетел
+         </reg>
+         <orig>
+          полетѣлъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          назад
+         </reg>
+         <orig>
+          назадъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        Богу.
+        <choice>
+         <reg>
+          Прилетел
+         </reg>
+         <orig>
+          Прилетѣлъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        Богу и
+        <choice>
+         <reg>
+          говорит
+         </reg>
+         <orig>
+          говоритъ
+         </orig>
+        </choice>
+        : родила та жена двойню.
+        <choice>
+         <reg>
+          Лежит
+         </reg>
+         <orig>
+          Лежитъ
+         </orig>
+        </choice>
+        одна на кровати, голову
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        стороны на сторону
+        <choice>
+         <reg>
+          переметывает
+         </reg>
+         <orig>
+          переметываетъ
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          младенцов
+         </reg>
+         <orig>
+          младенцовъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          грудям
+         </reg>
+         <orig>
+          грудямъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          прижимает
+         </reg>
+         <orig>
+          прижимаетъ
+         </orig>
+        </choice>
+        — младенцы по
+        <choice>
+         <reg>
+          грудям
+         </reg>
+         <orig>
+          грудямъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          плавают
+         </reg>
+         <orig>
+          плаваютъ
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          сосков
+         </reg>
+         <orig>
+          сосковъ
+         </orig>
+        </choice>
+        не
+        <choice>
+         <reg>
+          удержат
+         </reg>
+         <orig>
+          удержатъ
+         </orig>
+        </choice>
+        . И
+        <choice>
+         <reg>
+          молит
+         </reg>
+         <orig>
+          молитъ
+         </orig>
+        </choice>
+        жена: Не бери ты, Господи, моей душеньки, не дай ты
+        <choice>
+         <reg>
+          замлеть
+         </reg>
+         <orig>
+          замлѣть
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          ангельским
+         </reg>
+         <orig>
+          ангельскимъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          душкам
+         </reg>
+         <orig>
+          душкамъ
+         </orig>
+        </choice>
+        . (Дай хоть вскормить, на ножки поставить, тогда возьми мою душеньку. Жаль
+        <choice>
+         <reg>
+          мне
+         </reg>
+         <orig>
+          мнѣ
+         </orig>
+        </choice>
+        стало
+        <choice>
+         <reg>
+          сирот
+         </reg>
+         <orig>
+          сиротъ
+         </orig>
+        </choice>
+        ),
+        <choice>
+         <reg>
+          как
+         </reg>
+         <orig>
+          какъ
+         </orig>
+        </choice>
+        они
+        <choice>
+         <reg>
+          проживут
+         </reg>
+         <orig>
+          проживутъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          без
+         </reg>
+         <orig>
+          безъ
+         </orig>
+        </choice>
+        отца матери прожить. Не
+        <choice>
+         <reg>
+          мог
+         </reg>
+         <orig>
+          могъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          из
+         </reg>
+         <orig>
+          изъ
+         </orig>
+        </choice>
+        родильницы души вынуть. И
+        <choice>
+         <reg>
+          сказал
+         </reg>
+         <orig>
+          сказалъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          Бог
+         </reg>
+         <orig>
+          Богъ
+         </orig>
+        </choice>
+        .
+        <choice>
+         <reg>
+          Без
+         </reg>
+         <orig>
+          Безъ
+         </orig>
+        </choice>
+        отца матери
+        <choice>
+         <reg>
+          проживут
+         </reg>
+         <orig>
+          проживутъ
+         </orig>
+        </choice>
+        ,
+        <choice>
+         <reg>
+          без
+         </reg>
+         <orig>
+          безъ
+         </orig>
+        </choice>
+        божьей милости не
+        <choice>
+         <reg>
+          проживут
+         </reg>
+         <orig>
+          проживутъ
+         </orig>
+        </choice>
+        . Поди вынь
+        <choice>
+         <reg>
+          из
+         </reg>
+         <orig>
+          изъ
+         </orig>
+        </choice>
+        родильницы душу.
+       </del>
+      </p>
+      <p id="290481ee-b3ed-4098-a8d6-83688c6a9b5a" rend="subtitle centerline">
        ————
       </p>
      </div>
@@ -15634,16 +15660,19 @@
          колѣна
         </orig>
        </choice>
-       и <del>заливается
-       <choice>
-        <reg>
-         плачет
-        </reg>
-        <orig>
-         плачетъ
-        </orig>
-       </choice>
-       </del>.
+       и
+       <del>
+        заливается
+        <choice>
+         <reg>
+          плачет
+         </reg>
+         <orig>
+          плачетъ
+         </orig>
+        </choice>
+       </del>
+       .
        <choice>
         <reg>
          Человек
@@ -16292,7 +16321,8 @@
         </orig>
        </choice>
        тебя недобрые люди.
-      </p><p id="ee002f39-717d-4847-84bb-778f0f28c457" rend="left">
+      </p>
+      <p id="ee002f39-717d-4847-84bb-778f0f28c457" rend="left">
        И
        <choice>
         <reg>
@@ -21274,7 +21304,10 @@
          изъ
         </orig>
        </choice>
-       <del>выростка</del> a
+       <del>
+        выростка
+       </del>
+       a
        <choice>
         <reg>
          мне
@@ -21487,7 +21520,8 @@
         </orig>
        </choice>
        не рвались, не кривились. —
-      </p><p id="9fd3fcd3-0149-4708-811c-4c73e8165311" rend="left">
+      </p>
+      <p id="9fd3fcd3-0149-4708-811c-4c73e8165311" rend="left">
        <choice>
         <reg>
          Говорит
@@ -21589,16 +21623,18 @@
          глядитъ
         </orig>
        </choice>
-       <del>и не
-       <choice>
-        <reg>
-         знает
-        </reg>
-        <orig>
-         знаетъ
-        </orig>
-       </choice>
-       </del>, что сказать. Оглянулся
+       <del>
+        и не
+        <choice>
+         <reg>
+          знает
+         </reg>
+         <orig>
+          знаетъ
+         </orig>
+        </choice>
+       </del>
+       , что сказать. Оглянулся
        <choice>
         <reg>
          он
@@ -21818,7 +21854,8 @@
         </orig>
        </choice>
        . —
-      </p><p id="5bb6ad3a-5d77-4083-b75b-3ef9253add45" rend="left">
+      </p>
+      <p id="5bb6ad3a-5d77-4083-b75b-3ef9253add45" rend="left">
        И
        <choice>
         <reg>
@@ -23692,35 +23729,40 @@
          съ
         </orig>
        </choice>
-       купчихой пришли. <del>Скажи
-       <choice>
-        <reg>
-         мне
-        </reg>
-        <orig>
-         мнѣ
-        </orig>
-       </choice>
-       , отчего
-       <choice>
-        <reg>
-         так
-        </reg>
-        <orig>
-         такъ
-        </orig>
-       </choice>
-       . И
-       <choice>
-        <reg>
-         сказал
-        </reg>
-        <orig>
-         сказалъ
-        </orig>
-       </choice>
-       Михайла</del>.
-      </p><p id="a29c9d6a-0e7c-4a6c-845b-d0285d9db788" rend="left">
+       купчихой пришли.
+       <del>
+        Скажи
+        <choice>
+         <reg>
+          мне
+         </reg>
+         <orig>
+          мнѣ
+         </orig>
+        </choice>
+        , отчего
+        <choice>
+         <reg>
+          так
+         </reg>
+         <orig>
+          такъ
+         </orig>
+        </choice>
+        . И
+        <choice>
+         <reg>
+          сказал
+         </reg>
+         <orig>
+          сказалъ
+         </orig>
+        </choice>
+        Михайла
+       </del>
+       .
+      </p>
+      <p id="a29c9d6a-0e7c-4a6c-845b-d0285d9db788" rend="left">
        — Хорошо, я скажу
        <choice>
         <reg>
@@ -27256,33 +27298,35 @@
          онъ
         </orig>
        </choice>
-       , что <del>
-       <choice>
-        <reg>
-         людям
-        </reg>
-        <orig>
-         людямъ
-        </orig>
-       </choice>
-       одно нужно — любовь и жалость
-       <choice>
-        <reg>
-         в
-        </reg>
-        <orig>
-         въ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         людях
-        </reg>
-        <orig>
-         людяхъ
-        </orig>
-       </choice>
-       </del>. Купчиха
+       , что
+       <del>
+        <choice>
+         <reg>
+          людям
+         </reg>
+         <orig>
+          людямъ
+         </orig>
+        </choice>
+        одно нужно — любовь и жалость
+        <choice>
+         <reg>
+          в
+         </reg>
+         <orig>
+          въ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          людях
+         </reg>
+         <orig>
+          людяхъ
+         </orig>
+        </choice>
+       </del>
+       . Купчиха
        <choice>
         <reg>
          пожалела
@@ -27494,7 +27538,8 @@
         </orig>
        </choice>
        .
-      </p><p id="234f6393-3e64-4620-bbe9-c5f76ade0c94" rend="left">
+      </p>
+      <p id="234f6393-3e64-4620-bbe9-c5f76ade0c94" rend="left">
        И
        <choice>
         <reg>

@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_657_660_Pervaja_redaktsija_stati_Prazdnik_prosveschenija_12_janvarja">
-                    Первая редакция статьи «Праздник просвещения 12 января». Tolstoy Digital
-                </title>
-                <title type="main">Праздник просвещения 12 января.</title>
-                <title type="sub" resp="volume_editor">Первая редакция статьи</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="59a38f8a-d36e-407b-9b6a-53e79ce94d90">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Первая редакция статьи «Праздник просвещения 12 января»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">657-660</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1889"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v26_657_660_Pervaja_redaktsija_stati_Prazdnik_prosveschenija_12_janvarja">
+     Первая редакция статьи «Праздник просвещения 12 января». Tolstoy Digital
+    </title>
+    <title type="main">
+     Праздник просвещения 12 января.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Первая редакция статьи
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="59a38f8a-d36e-407b-9b6a-53e79ce94d90">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Первая редакция статьи «Праздник просвещения 12 января»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       657-660
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1889"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013">
     <p id="6cfb2dfa-29d2-44e3-84ef-f88ba17823e7">
@@ -935,16 +947,20 @@
        дѣтей
       </orig>
      </choice>
-     . <del>Начинаются
-     <choice>
-      <reg>
-       бессмысленные
-      </reg>
-      <orig>
-       безсмысленные
-      </orig>
-     </choice>
-     крикливые разговоры</del>.
+     .
+     <del>
+      Начинаются
+      <choice>
+       <reg>
+        бессмысленные
+       </reg>
+       <orig>
+        безсмысленные
+       </orig>
+      </choice>
+      крикливые разговоры
+     </del>
+     .
      <choice>
       <reg>
        Все
@@ -1063,7 +1079,11 @@
        крикливѣе
       </orig>
      </choice>
-     , громче, глаза слезятся, люди <del>то обнимаются</del>, то умиляются, то храбрятся, то обижаются —
+     , громче, глаза слезятся, люди
+     <del>
+      то обнимаются
+     </del>
+     , то умиляются, то храбрятся, то обижаются —
      <choice>
       <reg>
        все
@@ -1304,7 +1324,8 @@
       </orig>
      </choice>
      .
-    </p><p id="15603f88-1aff-4b8b-900e-33cf1870b589" rend="left">
+    </p>
+    <p id="15603f88-1aff-4b8b-900e-33cf1870b589" rend="left">
      <pb n="658"/>
      Что же это случилось? Ничего не случилось.
      <choice>
@@ -1927,16 +1948,18 @@
        образованiя
       </orig>
      </choice>
-     <del>собирается по
-     <choice>
-      <reg>
-       трактирам
-      </reg>
-      <orig>
-       трактирамъ
-      </orig>
-     </choice>
-     и</del>
+     <del>
+      собирается по
+      <choice>
+       <reg>
+        трактирам
+       </reg>
+       <orig>
+        трактирамъ
+       </orig>
+      </choice>
+      и
+     </del>
      <choice>
       <reg>
        празднует
@@ -2006,7 +2029,8 @@
       </orig>
      </choice>
      .
-    </p><p id="0117f601-f5e9-425e-a40e-60349851ad12" rend="left">
+    </p>
+    <p id="0117f601-f5e9-425e-a40e-60349851ad12" rend="left">
      <choice>
       <reg>
        Положим
@@ -2711,7 +2735,10 @@
        просятъ
       </orig>
      </choice>
-     прощенья <del>и всегда</del>
+     прощенья
+     <del>
+      и всегда
+     </del>
      <choice>
       <reg>
        чувствуют
@@ -2782,7 +2809,8 @@
       </orig>
      </choice>
      подвиги.
-    </p><p id="7d4479e3-83e9-41b4-9053-1b553e7592e7" rend="left">
+    </p>
+    <p id="7d4479e3-83e9-41b4-9053-1b553e7592e7" rend="left">
      <choice>
       <reg>
        Нет
@@ -3464,8 +3492,13 @@
        нравственными
       </corr>
      </choice>
-     , т. е. непогрѣшимыми. Ужасно то освобожденіе отъ всякихъ нравственныхъ простыхъ жизненныхъ требованій, которое допустило для себя во имя такъ называемого просвѣщенія извѣстное сословіе людей. Пользованіе проституціей <del>умѣренный развратъ</del>, роскошью всякаго рода, возбуждающія зрѣлища, театръ, обжорство, куреніе, пьянство, требованіе услугъ людей всякихъ сортовъ рабовъ, всякаго рода симонія, все это съ поразительной наивностью признается совершенно совмѣстнымъ съ хорошей нравственной жизнью.
-    </p><p id="02be3f90-2e5d-405a-9d54-d0cc684dbf4e" rend="left">
+     , т. е. непогрѣшимыми. Ужасно то освобожденіе отъ всякихъ нравственныхъ простыхъ жизненныхъ требованій, которое допустило для себя во имя такъ называемого просвѣщенія извѣстное сословіе людей. Пользованіе проституціей
+     <del>
+      умѣренный развратъ
+     </del>
+     , роскошью всякаго рода, возбуждающія зрѣлища, театръ, обжорство, куреніе, пьянство, требованіе услугъ людей всякихъ сортовъ рабовъ, всякаго рода симонія, все это съ поразительной наивностью признается совершенно совмѣстнымъ съ хорошей нравственной жизнью.
+    </p>
+    <p id="02be3f90-2e5d-405a-9d54-d0cc684dbf4e" rend="left">
      Какой нибудь особенный
      <choice>
       <reg>

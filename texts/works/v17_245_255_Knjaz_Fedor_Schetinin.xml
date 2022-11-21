@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_245_255_Knjaz_Fedor_Schetinin" resp="volume_editor">
-                    [Князь Федор Щетинин]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Князь Федор Щетинин</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="55388b04-9e33-4640-ad87-44d5042bf29a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Князь Федор Щетинин]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">245-255</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1877" to="1898"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_245_255_Knjaz_Fedor_Schetinin">
+     [Князь Федор Щетинин]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Князь Федор Щетинин
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="55388b04-9e33-4640-ad87-44d5042bf29a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Князь Федор Щетинин]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       245-255
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1877" to="1898"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011007">
     <p id="b7d5f55a-8db2-45d5-a5ef-664c847803a4">
@@ -992,7 +1002,10 @@
        смѣшенъ
       </orig>
      </choice>
-     <del>для большой массы</del>; а если были люди,
+     <del>
+      для большой массы
+     </del>
+     ; а если были люди,
      <choice>
       <reg>
        находившие
@@ -1324,7 +1337,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="47c199da-6ee9-41c9-a944-93da583fbf72" rend="left">
+    </p>
+    <p id="47c199da-6ee9-41c9-a944-93da583fbf72" rend="left">
      Войска — вся масса оживлялась, узнавая, что
      <choice>
       <reg>
@@ -2701,7 +2715,10 @@
        Командира
       </corr>
      </choice>
-     <del>Князя</del> Семена Щетинина,
+     <del>
+      Князя
+     </del>
+     Семена Щетинина,
      <choice>
       <reg>
        одного
@@ -2864,7 +2881,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="5830d0e5-6102-4184-a5cd-8c42f7ce7a74" rend="left">
+    </p>
+    <p id="5830d0e5-6102-4184-a5cd-8c42f7ce7a74" rend="left">
      Князь
      <choice>
       <reg>
@@ -3286,16 +3304,18 @@
        были
       </corr>
      </choice>
-     древняя <del>
-     <choice>
-      <reg>
-       фамилия
-      </reg>
-      <orig>
-       фамилiя
-      </orig>
-     </choice>
-     </del>,
+     древняя
+     <del>
+      <choice>
+       <reg>
+        фамилия
+       </reg>
+       <orig>
+        фамилiя
+       </orig>
+      </choice>
+     </del>
+     ,
      <choice>
       <reg>
        может
@@ -3795,7 +3815,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="5ca09ac1-aba1-47f3-9d36-93e712ee662d" rend="left">
+    </p>
+    <p id="5ca09ac1-aba1-47f3-9d36-93e712ee662d" rend="left">
      <choice>
       <reg>
        Он
@@ -4716,47 +4737,48 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       одном
-      </reg>
-      <orig>
-       одномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       южных
-      </reg>
-      <orig>
-       южныхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       городов
-      </reg>
-      <orig>
-       городовъ
-      </orig>
-     </choice>
-     </del> еще на
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        одном
+       </reg>
+       <orig>
+        одномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        южных
+       </reg>
+       <orig>
+        южныхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        городов
+       </reg>
+       <orig>
+        городовъ
+       </orig>
+      </choice>
+     </del>
+     еще на
      <choice>
       <reg>
        границе
@@ -4809,58 +4831,61 @@
        Острожскiй
       </orig>
      </choice>
-     . <del>
-     <choice>
-      <reg>
-       Штаб
-      </reg>
-      <orig>
-       Штабъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       войск
-      </reg>
-      <orig>
-       войскъ
-      </orig>
-     </choice>
-     находился
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       прелестном
-      </reg>
-      <orig>
-       прелестномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       южном
-      </reg>
-      <orig>
-       южномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       городе
-      </reg>
-      <orig>
-       городѣ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="f02ae982-c10d-49ab-8ea6-e186e2f1287d" rend="left">
+     .
+     <del>
+      <choice>
+       <reg>
+        Штаб
+       </reg>
+       <orig>
+        Штабъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        войск
+       </reg>
+       <orig>
+        войскъ
+       </orig>
+      </choice>
+      находился
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        прелестном
+       </reg>
+       <orig>
+        прелестномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        южном
+       </reg>
+       <orig>
+        южномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        городе
+       </reg>
+       <orig>
+        городѣ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="f02ae982-c10d-49ab-8ea6-e186e2f1287d" rend="left">
      <choice>
       <reg>
        Острожский
@@ -5024,7 +5049,10 @@
        лишенiй
       </orig>
      </choice>
-     и опасностей войны, была <del>для</del>
+     и опасностей войны, была
+     <del>
+      для
+     </del>
      <choice>
       <reg>
        молодых
@@ -5042,7 +5070,8 @@
       </orig>
      </choice>
      волшебно обворожительная.
-    </p><p id="a945aa5d-c2de-4ab1-a720-ea94f857fbfc" rend="left">
+    </p>
+    <p id="a945aa5d-c2de-4ab1-a720-ea94f857fbfc" rend="left">
      <choice>
       <reg>
        Красивейшия
@@ -6888,8 +6917,12 @@
      .
     </p>
     <p id="8fdbc687-f3c1-4a26-b665-6d47ee78d21f" rend="left">
-     — Позвольте, Князь. Я договорю прежде. Я бы молчалъ, но причина не въ службѣ, внѣ ея совсѣмъ видна. <del>И это низко.</del>
-    </p><p id="5a0e5096-b3ea-4d8e-aee7-2d4506dc890f" rend="left">
+     — Позвольте, Князь. Я договорю прежде. Я бы молчалъ, но причина не въ службѣ, внѣ ея совсѣмъ видна.
+     <del>
+      И это низко.
+     </del>
+    </p>
+    <p id="5a0e5096-b3ea-4d8e-aee7-2d4506dc890f" rend="left">
      — Какая причина,
      <choice>
       <reg>
@@ -7092,16 +7125,18 @@
        командиромъ
       </orig>
      </choice>
-     2-й <del>
-     <choice>
-      <reg>
-       пехотной
-      </reg>
-      <orig>
-       пѣхотной
-      </orig>
-     </choice>
-     </del> бригады.
+     2-й
+     <del>
+      <choice>
+       <reg>
+        пехотной
+       </reg>
+       <orig>
+        пѣхотной
+       </orig>
+      </choice>
+     </del>
+     бригады.
      <choice>
       <reg>
        Полковник
@@ -7110,15 +7145,16 @@
        Полковникъ
       </orig>
      </choice>
-     <del>и
-     <choice>
-      <reg>
-       флигель-адъютант
-      </reg>
-      <orig>
-       флигель-адъютантъ
-      </orig>
-     </choice>
+     <del>
+      и
+      <choice>
+       <reg>
+        флигель-адъютант
+       </reg>
+       <orig>
+        флигель-адъютантъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -7156,7 +7192,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="9dcee648-2395-47ad-96c2-8851e1fa27e3" rend="left">
+    </p>
+    <p id="9dcee648-2395-47ad-96c2-8851e1fa27e3" rend="left">
      Когда Князь
      <choice>
       <reg>
@@ -7530,7 +7567,9 @@
        Онъ
       </orig>
      </choice>
-     <del>долго</del>
+     <del>
+      долго
+     </del>
      <choice>
       <reg>
        ходил
@@ -7625,7 +7664,10 @@
        усъ
       </orig>
      </choice>
-     , <del>и</del>
+     ,
+     <del>
+      и
+     </del>
      <choice>
       <reg>
        кусал
@@ -7679,7 +7721,8 @@
       </orig>
      </choice>
      .
-    </p><p id="b3473cad-ced6-42c4-acdd-1be49d4f4cd5" rend="left">
+    </p>
+    <p id="b3473cad-ced6-42c4-acdd-1be49d4f4cd5" rend="left">
      И
      <choice>
       <reg>
@@ -7971,7 +8014,9 @@
        имъ
       </orig>
      </choice>
-     <del>его</del>
+     <del>
+      его
+     </del>
      <choice>
       <reg>
        крупным
@@ -8014,7 +8059,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="0d8565a6-4cab-4557-894b-6ccaa08477eb" rend="left">
+    </p>
+    <p id="0d8565a6-4cab-4557-894b-6ccaa08477eb" rend="left">
      <choice>
       <reg>
        Он
@@ -11012,15 +11058,16 @@
        Маiоръ
       </orig>
      </choice>
-     Князь <del>
-     <choice>
-      <reg>
-       Федор
-      </reg>
-      <orig>
-       Федоръ
-      </orig>
-     </choice>
+     Князь
+     <del>
+      <choice>
+       <reg>
+        Федор
+       </reg>
+       <orig>
+        Федоръ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -11084,7 +11131,8 @@
       </orig>
      </choice>
      . —
-    </p><p id="abe643b7-1a85-410c-af64-48e47b3933f2" rend="left">
+    </p>
+    <p id="abe643b7-1a85-410c-af64-48e47b3933f2" rend="left">
      Слова эти для
      <choice>
       <reg>
@@ -11833,7 +11881,11 @@
        вдругъ
       </orig>
      </choice>
-     задрожало внизу, багровая краска покрыла все лицо, до выпуклости <del>кости</del> на
+     задрожало внизу, багровая краска покрыла все лицо, до выпуклости
+     <del>
+      кости
+     </del>
+     на
      <choice>
       <reg>
        глазах
@@ -11869,7 +11921,8 @@
       </orig>
      </choice>
      голову.
-    </p><p id="c8eb1d47-d6e0-4331-bc53-5b535abd07f0" rend="left">
+    </p>
+    <p id="c8eb1d47-d6e0-4331-bc53-5b535abd07f0" rend="left">
      —
      <choice>
       <reg>
@@ -11939,24 +11992,26 @@
     </p>
     <p id="d16b8142-a381-43d8-a888-285ebfd1a70e" rend="left">
      <del>
-     <choice>
-      <reg>
-       Он
-      </reg>
-      <orig>
-       Онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       прочел
-      </reg>
-      <orig>
-       прочелъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="516b0c6f-412f-40da-bf76-ec6f858f3a1f" rend="left">
+      <choice>
+       <reg>
+        Он
+       </reg>
+       <orig>
+        Онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        прочел
+       </reg>
+       <orig>
+        прочелъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="516b0c6f-412f-40da-bf76-ec6f858f3a1f" rend="left">
      —... А
      <choice>
       <reg>
@@ -12646,8 +12701,12 @@
      ————
     </p>
     <p id="f7d533a2-2512-4bb4-99e6-26ff07fbfaed" rend="left">
-     <del>Мальчик</del> Губы завиваются внутри
-    </p></div>
+     <del>
+      Мальчик
+     </del>
+     Губы завиваются внутри
+    </p>
+   </div>
    <div type="section" xml:id="h000011007006">
     <head n="level2" type="editorial">
      № 5.
@@ -12815,24 +12874,26 @@
        <hi rend="italic">
         у Толстого сноска:
        </hi>
-       <del>1
-       <choice>
-        <reg>
-         брат
-        </reg>
-        <orig>
-         братъ
-        </orig>
-       </choice>
-       <choice original_editorial_correction="дел[атель]">
-        <sic>
-         дел
-        </sic>
-        <corr>
-         делатель
-        </corr>
-       </choice>
-       Барятинской. Сестра за</del>
+       <del>
+        1
+        <choice>
+         <reg>
+          брат
+         </reg>
+         <orig>
+          братъ
+         </orig>
+        </choice>
+        <choice original_editorial_correction="дел[атель]">
+         <sic>
+          дел
+         </sic>
+         <corr>
+          делатель
+         </corr>
+        </choice>
+        Барятинской. Сестра за
+       </del>
        <choice>
         <reg>
          делателем
@@ -12841,16 +12902,19 @@
          дѣлателемъ
         </orig>
        </choice>
-       . <del>
-       <choice>
-        <reg>
-         Женат
-        </reg>
-        <orig>
-         Женатъ
-        </orig>
-       </choice>
-       на Барятин.</del> Барят. и
+       .
+       <del>
+        <choice>
+         <reg>
+          Женат
+         </reg>
+         <orig>
+          Женатъ
+         </orig>
+        </choice>
+        на Барятин.
+       </del>
+       Барят. и
        <choice>
         <reg>
          брат
@@ -12896,7 +12960,8 @@
        ученый.
       </span>
      </note>
-    </p><p id="c32b89d3-1163-449a-871f-70a14612554c" rend="left">
+    </p>
+    <p id="c32b89d3-1163-449a-871f-70a14612554c" rend="left">
      <choice>
       <reg>
        Брат
@@ -12914,22 +12979,22 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       под
-      </reg>
-      <orig>
-       подъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       судом
-      </reg>
-      <orig>
-       судомъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        под
+       </reg>
+       <orig>
+        подъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        судом
+       </reg>
+       <orig>
+        судомъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -12988,7 +13053,8 @@
       </orig>
      </choice>
      .
-    </p><p id="d58b1234-164a-4cfd-9e13-b2cf4e9bbb24" rend="left">
+    </p>
+    <p id="d58b1234-164a-4cfd-9e13-b2cf4e9bbb24" rend="left">
      Сашу у сирены.
      <ref target="#note329">
       329

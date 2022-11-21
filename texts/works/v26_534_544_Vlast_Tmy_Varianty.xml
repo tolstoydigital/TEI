@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_534_544_Vlast_Tmy_Varianty">
-                    Власть тьмы. Варианты. Tolstoy Digital
-                </title>
-                <title type="main">Власть тьмы, или Коготок увяз, всей птичке пропасть.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="1e18c902-df75-4eb0-98c2-cfb31b3b4129">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Власть тьмы. Варианты
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">534-544</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1886"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v26_534_544_Vlast_Tmy_Varianty">
+     Власть тьмы. Варианты. Tolstoy Digital
+    </title>
+    <title type="main">
+     Власть тьмы, или Коготок увяз, всей птичке пропасть.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="1e18c902-df75-4eb0-98c2-cfb31b3b4129">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Власть тьмы. Варианты
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       534-544
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1886"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013010002">
     <p id="39765877-64d3-41fc-865d-8b3e6cb4bed3">
@@ -7364,7 +7376,11 @@
       </choice>
       .)
      </hi>
-     Пересилила! <del>Осилила. Все одно: пить — умереть, не пить — умереть.</del> Микита,
+     Пересилила!
+     <del>
+      Осилила. Все одно: пить — умереть, не пить — умереть.
+     </del>
+     Микита,
      <choice>
       <reg>
        хозяин
@@ -7478,12 +7494,17 @@
        ...
       </corr>
      </choice>
-    </p><p id="8274ed41-3e74-4d71-88c6-d7802667424b" rend="left">
+    </p>
+    <p id="8274ed41-3e74-4d71-88c6-d7802667424b" rend="left">
      <hi rend="italic">
       Никита.
      </hi>
-     <del>На возьми.</del> Ты чего?
-    </p><p id="d98f3a96-4244-417e-9510-97217c56120b" rend="left">
+     <del>
+      На возьми.
+     </del>
+     Ты чего?
+    </p>
+    <p id="d98f3a96-4244-417e-9510-97217c56120b" rend="left">
      <hi rend="italic">
       <choice>
        <reg>
@@ -7512,200 +7533,204 @@
        крестъ
       </orig>
      </choice>
-     . А ты что скучаешь? Ты не скучай, <del>эка, о
-     <choice>
-      <reg>
-       чем
-      </reg>
-      <orig>
-       чемъ
-      </orig>
-     </choice>
-     толковать.
-     <choice>
-      <reg>
-       Двор
-      </reg>
-      <orig>
-       Дворъ
-      </orig>
-     </choice>
-     то твой. Дерьмо, дерьмо — невидаль. Все дерьмо, нечего думать. Все одно, что
-     <choice>
-      <reg>
-       богат
-      </reg>
-      <orig>
-       богатъ
-      </orig>
-     </choice>
-     , что
-     <choice>
-      <reg>
-       беден
-      </reg>
-      <orig>
-       бѣденъ
-      </orig>
-     </choice>
-     , что
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     бабой, что
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       девкой
-      </reg>
-      <orig>
-       дѣвкой
-      </orig>
-     </choice>
-     жить. Что
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       остроге
-      </reg>
-      <orig>
-       острогѣ
-      </orig>
-     </choice>
-     , что на
-     <choice>
-      <reg>
-       воле
-      </reg>
-      <orig>
-       волѣ
-      </orig>
-     </choice>
-     — все одно.
-     <choice>
-      <reg>
-       Везде
-      </reg>
-      <orig>
-       Вездѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       живут
-      </reg>
-      <orig>
-       живутъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       везде
-      </reg>
-      <orig>
-       вездѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мрут
-      </reg>
-      <orig>
-       мрутъ
-      </orig>
-     </choice>
-     . Эка дерьмо,
-     <choice>
-      <reg>
-       свадьба
-      </reg>
-      <orig>
-       сватьба
-      </orig>
-     </choice>
-     , ты не тужи. А за сапоги спасибо, пропью у
-     <choice>
-      <reg>
-       Федорыча
-      </reg>
-      <orig>
-       Ѳедорыча
-      </orig>
-     </choice>
-     . Ты на меня гляди. Зарекся не пить, не стану пить.
-     <choice>
-      <reg>
-       Ан
-      </reg>
-      <orig>
-       Анъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       выпил
-      </reg>
-      <orig>
-       выпилъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Выпил
-      </reg>
-      <orig>
-       Выпилъ
-      </orig>
-     </choice>
-     , a
-     <choice>
-      <reg>
-       мне
-      </reg>
-      <orig>
-       мнѣ
-      </orig>
-     </choice>
-     весело, легко на
-     <choice>
-      <reg>
-       душе
-      </reg>
-      <orig>
-       душѣ
-      </orig>
-     </choice>
-     . Потому
-     <choice>
-      <reg>
-       выпил
-      </reg>
-      <orig>
-       выпилъ
-      </orig>
-     </choice>
-     . А то скучать?</del> Ты чего скучаешь? Гляди на меня. Я радуюсь.
+     . А ты что скучаешь? Ты не скучай,
+     <del>
+      эка, о
+      <choice>
+       <reg>
+        чем
+       </reg>
+       <orig>
+        чемъ
+       </orig>
+      </choice>
+      толковать.
+      <choice>
+       <reg>
+        Двор
+       </reg>
+       <orig>
+        Дворъ
+       </orig>
+      </choice>
+      то твой. Дерьмо, дерьмо — невидаль. Все дерьмо, нечего думать. Все одно, что
+      <choice>
+       <reg>
+        богат
+       </reg>
+       <orig>
+        богатъ
+       </orig>
+      </choice>
+      , что
+      <choice>
+       <reg>
+        беден
+       </reg>
+       <orig>
+        бѣденъ
+       </orig>
+      </choice>
+      , что
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      бабой, что
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        девкой
+       </reg>
+       <orig>
+        дѣвкой
+       </orig>
+      </choice>
+      жить. Что
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        остроге
+       </reg>
+       <orig>
+        острогѣ
+       </orig>
+      </choice>
+      , что на
+      <choice>
+       <reg>
+        воле
+       </reg>
+       <orig>
+        волѣ
+       </orig>
+      </choice>
+      — все одно.
+      <choice>
+       <reg>
+        Везде
+       </reg>
+       <orig>
+        Вездѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        живут
+       </reg>
+       <orig>
+        живутъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        везде
+       </reg>
+       <orig>
+        вездѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мрут
+       </reg>
+       <orig>
+        мрутъ
+       </orig>
+      </choice>
+      . Эка дерьмо,
+      <choice>
+       <reg>
+        свадьба
+       </reg>
+       <orig>
+        сватьба
+       </orig>
+      </choice>
+      , ты не тужи. А за сапоги спасибо, пропью у
+      <choice>
+       <reg>
+        Федорыча
+       </reg>
+       <orig>
+        Ѳедорыча
+       </orig>
+      </choice>
+      . Ты на меня гляди. Зарекся не пить, не стану пить.
+      <choice>
+       <reg>
+        Ан
+       </reg>
+       <orig>
+        Анъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        выпил
+       </reg>
+       <orig>
+        выпилъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Выпил
+       </reg>
+       <orig>
+        Выпилъ
+       </orig>
+      </choice>
+      , a
+      <choice>
+       <reg>
+        мне
+       </reg>
+       <orig>
+        мнѣ
+       </orig>
+      </choice>
+      весело, легко на
+      <choice>
+       <reg>
+        душе
+       </reg>
+       <orig>
+        душѣ
+       </orig>
+      </choice>
+      . Потому
+      <choice>
+       <reg>
+        выпил
+       </reg>
+       <orig>
+        выпилъ
+       </orig>
+      </choice>
+      . А то скучать?
+     </del>
+     Ты чего скучаешь? Гляди на меня. Я радуюсь.
      <choice>
       <reg>
        Именья
@@ -7749,7 +7774,11 @@
        охъ
       </orig>
      </choice>
-     я. <del>Радуюсь.</del> Ты думаешь, я кто? Царю
+     я.
+     <del>
+      Радуюсь.
+     </del>
+     Ты думаешь, я кто? Царю
      <choice>
       <reg>
        верой-правдой
@@ -7792,16 +7821,20 @@
        билетъ
       </orig>
      </choice>
-     пропью, ничего не останется. <del>Потому я
-     <choice>
-      <reg>
-       заблудящий
-      </reg>
-      <orig>
-       заблудящiй
-      </orig>
-     </choice>
-     .</del> Сирота я, и
+     пропью, ничего не останется.
+     <del>
+      Потому я
+      <choice>
+       <reg>
+        заблудящий
+       </reg>
+       <orig>
+        заблудящiй
+       </orig>
+      </choice>
+      .
+     </del>
+     Сирота я, и
      <choice>
       <reg>
        пожалеть
@@ -7886,12 +7919,17 @@
       </choice>
       .)
      </hi>
-     <del>Жалко! Давай возжи-то, Я снесу.</del>
-    </p><p id="8d35585c-b22b-42b4-93bf-58628664ce8d" rend="left">
+     <del>
+      Жалко! Давай возжи-то, Я снесу.
+     </del>
+    </p>
+    <p id="8d35585c-b22b-42b4-93bf-58628664ce8d" rend="left">
      <hi rend="italic">
       Никита.
      </hi>
-     <del>Бери.</del>
+     <del>
+      Бери.
+     </del>
      <hi rend="italic">
       (
       <choice>
@@ -7923,38 +7961,41 @@
       </orig>
      </choice>
      . Врешь.
-    </p><p id="996d81e0-3d61-4baf-adf5-270f3055195e" rend="left">
+    </p>
+    <p id="996d81e0-3d61-4baf-adf5-270f3055195e" rend="left">
      <del>
-     <hi rend="italic">
+      <hi rend="italic">
+       <choice>
+        <reg>
+         Митрич
+        </reg>
+        <orig>
+         Митричъ
+        </orig>
+       </choice>
+       .
+      </hi>
       <choice>
        <reg>
-        Митрич
+        Чтож
        </reg>
        <orig>
-        Митричъ
+        Чтожъ
        </orig>
       </choice>
-      .
-     </hi>
-     <choice>
-      <reg>
-       Чтож
-      </reg>
-      <orig>
-       Чтожъ
-      </orig>
-     </choice>
-     сапоги то
-     <choice>
-      <reg>
-       снял
-      </reg>
-      <orig>
-       снялъ
-      </orig>
-     </choice>
-     ? Меня нарядить хочешь? Давай, я пропью. За твое здоровье пропью.</del>
-    </p><p id="59b1057e-567a-4dad-839a-cc6917af0a2b" rend="left">
+      сапоги то
+      <choice>
+       <reg>
+        снял
+       </reg>
+       <orig>
+        снялъ
+       </orig>
+      </choice>
+      ? Меня нарядить хочешь? Давай, я пропью. За твое здоровье пропью.
+     </del>
+    </p>
+    <p id="59b1057e-567a-4dad-839a-cc6917af0a2b" rend="left">
      <hi rend="italic">
       Никита.
      </hi>

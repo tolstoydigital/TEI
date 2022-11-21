@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_172_180_Svobodnaja_ljubov">
-                    Свободная любовь. Tolstoy Digital
-                </title>
-                <title type="main">Свободная любовь</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="79ef27f6-b5d9-4866-94c3-8e005b270909">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Свободная любовь
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">172-180</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1856"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_172_180_Svobodnaja_ljubov">
+     Свободная любовь. Tolstoy Digital
+    </title>
+    <title type="main">
+     Свободная любовь
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="79ef27f6-b5d9-4866-94c3-8e005b270909">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Свободная любовь
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       172-180
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="134bbccb-b9d5-4b4d-a389-d5650863ee24">
@@ -255,12 +265,17 @@
         </orig>
        </choice>
       </hi>
-      ,еямужъ,подъ40лѣтъ<del>былъразбитъпараличомъ, оченьтолстъилѣнивъ</del>.
-     </p><p id="9cd14858-ec84-40ae-a0c0-23325c099904" rend="left">
+      ,ея мужъ,подъ40лѣтъ
+      <del>
+       былъразбитъпараличомъ, оченьтолстъилѣнивъ
+      </del>
+      .
+     </p>
+     <p id="9cd14858-ec84-40ae-a0c0-23325c099904" rend="left">
       <hi rend="Razradka">
        3) Капитолина Андревна
       </hi>
-      ,еясестра,дѣвица25лѣтъ,одѣваетсятакже странно,какъи старшая сестра.
+      ,ея сестра,дѣвица25лѣтъ,одѣвается также странно,какъ и старшая сестра.
      </p>
      <p id="a0660a27-0b39-47ea-aced-e9e1caa34668" rend="left">
       <hi rend="Razradka">
@@ -902,32 +917,36 @@
         диваномъ
        </orig>
       </choice>
-      медвежья шкура. <del>На
-      <choice>
-       <reg>
-        маленьком
-       </reg>
-       <orig>
-        маленькомъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        диване
-       </reg>
-       <orig>
-        диванѣ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        лежит
-       </reg>
-       <orig>
-        лежитъ
-       </orig>
-      </choice>
-      ньюфундланская собака</del>. В углу
+      медвежья шкура.
+      <del>
+       На
+       <choice>
+        <reg>
+         маленьком
+        </reg>
+        <orig>
+         маленькомъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         диване
+        </reg>
+        <orig>
+         диванѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         лежит
+        </reg>
+        <orig>
+         лежитъ
+        </orig>
+       </choice>
+       ньюфундланская собака
+      </del>
+      . В углу
       <choice>
        <reg>
         клетка
@@ -953,7 +972,8 @@
        </orig>
       </choice>
       .
-     </p></div>
+     </p>
+    </div>
    </div>
    <div type="section" xml:id="h000012019005002002">
     <head rend="title_level4 center">
@@ -1053,9 +1073,13 @@
      </hi>
      . —
      <hi rend="italic">
-      <del>Подлњнеянастолѣстоитъбутылка вина</del>.
+      <del>
+       Подлњнеянастолѣстоитъбутылка вина
+      </del>
+      .
      </hi>
-    </p><p id="3ea5bde0-b38c-4e66-8e5d-23d1f08afd84" rend="left">
+    </p>
+    <p id="3ea5bde0-b38c-4e66-8e5d-23d1f08afd84" rend="left">
      Милый дикарь... мой Теверино... да, я не шутя люблю его и всему
      <choice>
       <reg>
@@ -2689,17 +2713,21 @@
        нѣжности
       </orig>
      </choice>
-     ... <del>Я не могу и не хочу для кого бы то ни было
-     <choice>
-      <reg>
-       стеснять
-      </reg>
-      <orig>
-       стѣснять
-      </orig>
-     </choice>
-     себя.</del>
-    </p><p id="ebbf6891-fedb-482f-b06c-edb87e386cc7" rend="Razradka center">
+     ...
+     <del>
+      Я не могу и не хочу для кого бы то ни было
+      <choice>
+       <reg>
+        стеснять
+       </reg>
+       <orig>
+        стѣснять
+       </orig>
+      </choice>
+      себя.
+     </del>
+    </p>
+    <p id="ebbf6891-fedb-482f-b06c-edb87e386cc7" rend="Razradka center">
      <choice>
       <reg>
        Щурин
@@ -2983,25 +3011,29 @@
        этомъ
       </orig>
      </choice>
-     — <del>у
-     <choice>
-      <reg>
-       вас
-      </reg>
-      <orig>
-       васъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       дети
-      </reg>
-      <orig>
-       дѣти
-      </orig>
-     </choice>
-     , Лили.</del>
-    </p><p id="b748a654-9012-4916-b339-8bdc67de48ed" rend="center">
+     —
+     <del>
+      у
+      <choice>
+       <reg>
+        вас
+       </reg>
+       <orig>
+        васъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        дети
+       </reg>
+       <orig>
+        дѣти
+       </orig>
+      </choice>
+      , Лили.
+     </del>
+    </p>
+    <p id="b748a654-9012-4916-b339-8bdc67de48ed" rend="center">
      <hi rend="Razradka">
       <choice>
        <reg>
@@ -3893,26 +3925,30 @@
        зачѣмъ
       </orig>
      </choice>
-     вы выписали сюда эту Ольгу? <del>Опять какое нибудь
-     <choice>
-      <reg>
-       благоразумие
-      </reg>
-      <orig>
-       благоразумiе
-      </orig>
-     </choice>
-     ? Отошлите ее
-     <choice>
-      <reg>
-       назад
-      </reg>
-      <orig>
-       назадъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="a0800872-56ee-4299-9520-3987ce0600a0" rend="Razradka center">
+     вы выписали сюда эту Ольгу?
+     <del>
+      Опять какое нибудь
+      <choice>
+       <reg>
+        благоразумие
+       </reg>
+       <orig>
+        благоразумiе
+       </orig>
+      </choice>
+      ? Отошлите ее
+      <choice>
+       <reg>
+        назад
+       </reg>
+       <orig>
+        назадъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="a0800872-56ee-4299-9520-3987ce0600a0" rend="Razradka center">
      <choice>
       <reg>
        Щурин
@@ -3924,8 +3960,12 @@
      .
     </p>
     <p id="a039c62d-2d53-4c41-b0cc-9636d9d26ace" rend="left">
-     <del>И точно, опять этаго требуетъ благоразуміе.</del>Какъмнѣэто ни больно, но я второй разъ долженъ противорѣчить вамъ, Лили. — Олинька добраядѣвушка, правдапровинціялка, отсталая, но онамнѣближайшая родня, она сирота, и главное, ежели бы неея3 тысячивъгодъ, явасъувѣряю, чтонамъбыужънельзя было больше оставатьсявъМосквѣ.
-    </p><p id="76bb811b-58fb-4a0b-8cbf-2c635e2730d5" rend="Razradka center">
+     <del>
+      И точно, опять этаго требуетъ благоразуміе.
+     </del>
+     Какъмнѣэто ни больно, но я второй разъ долженъ противорѣчить вамъ, Лили. — Олинька добрая дѣвушка, правда провинціялка, отсталая, но онамнѣближайшая родня, она сирота, и главное, ежели бы неея3 тысячивъгодъ, явасъувѣряю, чтонамъбыужънельзя было больше оставатьсявъМосквѣ.
+    </p>
+    <p id="76bb811b-58fb-4a0b-8cbf-2c635e2730d5" rend="Razradka center">
      <choice>
       <reg>
        Лидия
@@ -4101,7 +4141,7 @@
       </choice>
      </hi>
      <hi rend="italic">
-      (протягивая руку, которую Масловскойцѣлуетъ, садясь уеяногъна диванњ).
+      (протягивая руку, которую Масловской цѣлуетъ, садясь уеяногъна диванњ).
      </hi>
     </p>
     <p id="36563e74-6caa-436f-ba7f-10de39db2728" rend="left">
@@ -7546,7 +7586,7 @@
       </orig>
      </choice>
      <hi rend="italic">
-      (ставитъсвою ногу подлњея
+      (ставитъ свою ногу подлњ ея
      </hi>
      ), да, малы. —
     </p>

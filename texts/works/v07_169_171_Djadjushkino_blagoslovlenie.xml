@@ -1,106 +1,116 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_169_171_Djadjushkino_blagoslovlenie">
-                    Дядюшкино благословление. Tolstoy Digital
-                </title>
-                <title type="main">Дядюшкино благословление</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="83059774-04c1-43f6-ae91-d1cb641ba2cc">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Дядюшкино благословление
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">169-171</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1856"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_169_171_Djadjushkino_blagoslovlenie">
+     Дядюшкино благословление. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дядюшкино благословление
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="83059774-04c1-43f6-ae91-d1cb641ba2cc">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Дядюшкино благословление
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       169-171
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1856"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="fc4941a4-d685-4ae2-adc0-11c2132e3a2f">
@@ -317,7 +327,7 @@
         </orig>
        </choice>
       </hi>
-      ,еямужъ,за-сорокъ,одѣтъмодно иумѣренно, толстый, добродушныйхолерикъ.
+      ,ея мужъ,за-сорокъ,одѣтъ модно и умѣренно, толстый, добродушный холерикъ.
      </p>
      <p id="d2ac23c0-f261-41de-a03a-cc52548249e6" rend="left">
       <hi rend="Razradka">
@@ -954,7 +964,7 @@
      двери.
     </p>
     <p id="066a5bcc-fa2a-4331-b4fb-c7ccc6b63cae" rend="center">
-     ЯВЛЕНІЕI.
+     ЯВЛЕНІЕ I.
     </p>
     <p id="5df3e66d-8333-4844-9a7f-6edff65970f8" rend="left">
      <choice>
@@ -1063,7 +1073,7 @@
      Старику.
     </p>
     <p id="1c8be8d8-4a70-447d-9388-a3d8503d64fa" rend="center">
-     ЯВЛЕНІЕII.
+     ЯВЛЕНІЕ II.
     </p>
     <p id="b365b5ef-ca6e-45ae-bcfb-ab90739080c8" rend="left">
      <choice>
@@ -1168,10 +1178,10 @@
      III.
     </p>
     <p id="4ef32abb-4e73-4d89-8efd-c38087474685" rend="left">
-     Входитъмужъ.Онъговоритъ, что въ нынѣшнемъ вѣкѣ это такъ,онъпонимаетъ, но зачѣмъ неглижировать старика,онънуженъ. —Лидіяговоритъ, чтоонъправъ, чтоонълучшійеядругъ, но все таки она страдаетъ и отъ любви къ Грузинскому Князю иотъревности.Такъвыдать еезамужъза брата,братъдуракъ, только хочетъ жениться, она тоже влюблена, кажется.Притомъ же вмѣстѣ ѣхать за границу,ихъдѣлаплохи.
+     Входитъ мужъ.Онъ говоритъ, что въ нынѣшнемъ вѣкѣ это такъ,онъ понимаетъ, но зачѣмъ неглижировать старика,онъ нуженъ. —Лидія говоритъ, чтоонъправъ, чтоонълучшійеядругъ, но все таки она страдаетъ и отъ любви къ Грузинскому Князю иотъревности.Такъ выдать еезамужъза брата,братъ дуракъ, только хочетъ жениться, она тоже влюблена, кажется.Притомъ же вмѣстѣ ѣхать за границу,ихъдѣлаплохи.
     </p>
     <p id="cf9c41af-57a7-495b-9c9d-63c31df3bc77" rend="center">
-     ЯВЛЕНІЕIV.
+     ЯВЛЕНІЕ IV.
     </p>
     <p id="35f9768d-9932-49fc-8019-2c464550aa6c" rend="left">
      <choice>
@@ -1300,50 +1310,52 @@
     </p>
     <p id="33a5b7c5-ff86-4eaa-9e5b-bef857151952" rend="left">
      <del>
-     <choice>
-      <reg>
-       Их
-      </reg>
-      <orig>
-       Ихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       оставляют
-      </reg>
-      <orig>
-       оставляютъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       одних
-      </reg>
-      <orig>
-       однихъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     открывается
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     любви.</del>
-    </p><p id="8e6bfda7-35bc-418d-abd5-3f51b0857077" rend="left">
+      <choice>
+       <reg>
+        Их
+       </reg>
+       <orig>
+        Ихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        оставляют
+       </reg>
+       <orig>
+        оставляютъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        одних
+       </reg>
+       <orig>
+        однихъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      открывается
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      любви.
+     </del>
+    </p>
+    <p id="8e6bfda7-35bc-418d-abd5-3f51b0857077" rend="left">
      <choice>
       <reg>
        Приезжает
@@ -1458,7 +1470,7 @@
      , хотя только знать.
     </p>
     <p id="944306da-879c-4e3a-ab78-8ec9e09ede5f" rend="center">
-     ЯВЛЕНІЕVI.
+     ЯВЛЕНІЕ VI.
     </p>
     <p id="b7509fef-5d82-4e01-bbcf-42c6b01d1293" rend="left">
      <choice>
@@ -1573,8 +1585,13 @@
      ЯВЛЕНИЕ VII.
     </p>
     <p id="4d10aaea-2bd4-429f-b47d-ba3412db94c2" rend="left">
-     Входитъ Грузинскій Князь,Лидія выгоняетъ всѣхъ и хочетъ объяснять емуЖоржъЗандъи что О[льга]выходитъзамужъ,онъ<del>еебьетъеяоружіемъи</del>говоритъ: онамнѣмила и вы противная,2-хъженщинънельзя любить.
-    </p></div>
+     Входитъ Грузинскій Князь,Лидія выгоняетъ всѣхъ и хочетъ объяснять емуЖоржъЗандъи что О[льга]выходитъ замужъ,онъ
+     <del>
+      еебьетъеяоружіемъи
+     </del>
+     говоритъ: онамнѣмила и вы противная,2-хъженщинънельзя любить.
+    </p>
+   </div>
    <div type="section" xml:id="h000012019004003">
     <head n="level2" type="act">
      <choice>
@@ -1841,7 +1858,7 @@
      .
     </p>
     <p id="2a810859-41fe-405c-95a0-7e5146a52e17" rend="center">
-     ЯВЛЕНІЕIV.
+     ЯВЛЕНІЕ IV.
     </p>
     <p id="7277a71d-d200-4c8e-b0de-a17c61de8bb2" rend="left">
      Она
@@ -1929,7 +1946,10 @@
        прiѣхать
       </orig>
      </choice>
-     . <del>Пр</del>
+     .
+     <del>
+      Пр
+     </del>
      <choice>
       <reg>
        говорит
@@ -2138,87 +2158,89 @@
        оружiемъ
       </orig>
      </choice>
-     . <del>
-     <choice>
-      <reg>
-       Старик
-      </reg>
-      <orig>
-       Старикъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       увлекает
-      </reg>
-      <orig>
-       увлекаетъ
-      </orig>
-     </choice>
-     ее и
-     <choice>
-      <reg>
-       всех
-      </reg>
-      <orig>
-       всѣхъ
-      </orig>
-     </choice>
      .
-     <choice>
-      <reg>
-       Муж
-      </reg>
-      <orig>
-       Мужъ
-      </orig>
-     </choice>
-     остается
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     Ольгой,
-     <choice>
-      <reg>
-       спрашивает
-      </reg>
-      <orig>
-       спрашиваетъ
-      </orig>
-     </choice>
-     , отчего она
-     <choice>
-      <reg>
-       переменилась
-      </reg>
-      <orig>
-       перемѣнилась
-      </orig>
-     </choice>
-     , о
-     <choice>
-      <reg>
-       деньгах
-      </reg>
-      <orig>
-       деньгахъ
-      </orig>
-     </choice>
-     , она
-     <choice>
-      <reg>
-       говорит
-      </reg>
-      <orig>
-       говоритъ
-      </orig>
-     </choice>
-     ему.</del>
+     <del>
+      <choice>
+       <reg>
+        Старик
+       </reg>
+       <orig>
+        Старикъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        увлекает
+       </reg>
+       <orig>
+        увлекаетъ
+       </orig>
+      </choice>
+      ее и
+      <choice>
+       <reg>
+        всех
+       </reg>
+       <orig>
+        всѣхъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Муж
+       </reg>
+       <orig>
+        Мужъ
+       </orig>
+      </choice>
+      остается
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      Ольгой,
+      <choice>
+       <reg>
+        спрашивает
+       </reg>
+       <orig>
+        спрашиваетъ
+       </orig>
+      </choice>
+      , отчего она
+      <choice>
+       <reg>
+        переменилась
+       </reg>
+       <orig>
+        перемѣнилась
+       </orig>
+      </choice>
+      , о
+      <choice>
+       <reg>
+        деньгах
+       </reg>
+       <orig>
+        деньгахъ
+       </orig>
+      </choice>
+      , она
+      <choice>
+       <reg>
+        говорит
+       </reg>
+       <orig>
+        говоритъ
+       </orig>
+      </choice>
+      ему.
+     </del>
      <choice>
       <reg>
        Лидия
@@ -2273,7 +2295,8 @@
       </orig>
      </choice>
      его.
-    </p><p id="9cd4764b-10ab-4bfe-8844-5a7659409efa" rend="center">
+    </p>
+    <p id="9cd4764b-10ab-4bfe-8844-5a7659409efa" rend="center">
      <choice>
       <reg>
        Конец
