@@ -1,106 +1,122 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-            <title xml:id="v21_370_376_Zvezdy_Esli_posmotrish_nochju">Азбука. Tolstoy Digital</title>
-            <title type="main">Звезды. «Если посмотришь ночью...»</title>
-            <title type="sub">Рассказ, не вошедший в  «Азбуку»</title>
-            <title type="bibl">Толстой Л. Н. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 21. М.: Гос. изд. «Художественная литература», . С. </title>
-            <author>Толстой Лев Николаевич</author>
-            <respStmt>
-                <resp>Идея, постановка задач, руководство</resp>
-                <name>
-                    Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                </name>
-             </respStmt>
-            <respStmt>
-                <resp>
-                    Подготовка TEI/XML
-                </resp>
-                <name>
-                    Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
-                </name>
-            </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="5ff0253f-5de0-4bae-9113-bd723b15bc80">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Звезды. «Если посмотришь ночью...»
-                        </title>
-                        <title level="s">
-                            Произведения, написанные для «Азбуки» и не включенные в нее
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений.
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">21</biblScope>
-                        <biblScope unit="page">370-376</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc> 
-        <profileDesc>
-            <creation>
-                <date when="1872"/>
-            </creation>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#kids" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-                <catRef ana="#included" target="included"/>
-                </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v21_370_376_Zvezdy_Esli_posmotrish_nochju">
+     Азбука. Tolstoy Digital
+    </title>
+    <title type="main">
+     Звезды. «Если посмотришь ночью...»
+    </title>
+    <title type="sub">
+     Рассказ, не вошедший в  «Азбуку»
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 21. М.: Гос. изд. «Художественная литература», . С.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="5ff0253f-5de0-4bae-9113-bd723b15bc80">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Звезды. «Если посмотришь ночью...»
+      </title>
+      <title level="s">
+       Произведения, написанные для «Азбуки» и не включенные в нее
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       21
+      </biblScope>
+      <biblScope unit="page">
+       370-376
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1872"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#kids" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#included" target="included"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h001">
     <p id="c2c51d0f-9377-4408-b6e1-9e47c6adf497">
@@ -113,12 +129,6 @@
      Если посмотришь ночью подольше на звезды, то увидишь что все звезды ходят. Есть звезды приметные, и всякий их знает. Есть Высожары (кучка звезд), есть Медведица (ее называют тоже Коромыслом), есть Петров крест (зимний), есть Треугольник. Заметить какую-нибудь кучку звезд и смотреть на них всю ночь. Откуда и куда они ходят? Если смотреть на Медведицу, то увидишь, что она идет со всеми звездами в одну сторону по небу, как по своду, сначала поднимается выше и выше над головами, а потом станет спускаться и зайдет. Если приметить по какой-нибудь примете, куда зашла Медведица, то стань на другую ночь на том же месте, правой рукой к тому месту, где зашла, а лицом к полудню и смотри другие
      <hi style="opdelimiter">
       звезды
-     </hi>
-     <hi style="opnumber">
-      370
-     </hi>
-     <hi style="npnumber">
-      371
      </hi>
      <pb n="371"/>
      <hi style="npdelimiter">
@@ -146,12 +156,6 @@
      большие трубы
      <hi style="opdelimiter">
       звезды
-     </hi>
-     <hi style="opnumber">
-      371
-     </hi>
-     <hi style="npnumber">
-      372
      </hi>
      <pb n="372"/>
      <hi style="npdelimiter">
@@ -193,12 +197,6 @@
      <hi style="opdelimiter">
       то
      </hi>
-     <hi style="opnumber">
-      372
-     </hi>
-     <hi style="npnumber">
-      373
-     </hi>
      <pb n="373"/>
      <hi style="npdelimiter">
       так
@@ -235,12 +233,6 @@
      <hi style="opdelimiter">
       тухнут,
      </hi>
-     <hi style="opnumber">
-      373
-     </hi>
-     <hi style="npnumber">
-      374
-     </hi>
      <pb n="374"/>
      <hi style="npdelimiter">
       а
@@ -269,12 +261,6 @@
      Если из Москвы ехать на полдни, к Одессе, и на каждой станции замечать за звездами на севере и на юге, то увидишь, что чем
      <hi style="opdelimiter">
       дальше
-     </hi>
-     <hi style="opnumber">
-      374
-     </hi>
-     <hi style="npnumber">
-      375
      </hi>
      <pb n="375"/>
      <hi style="npdelimiter">
@@ -310,14 +296,8 @@
      <hi style="opdelimiter">
       солнце?
      </hi>
-     <hi style="opnumber">
-      375
-     </hi>
     </p>
     <p id="e7c5c247-5c85-44d9-b0df-c211fff3396f" rend="left">
-     <hi style="npnumber">
-      376
-     </hi>
      <pb n="376"/>
      <hi style="npdelimiter">
       Если

@@ -1,98 +1,110 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v54_392_399_Opisanie_rukopisej_Dnevnika_i_Zapisnyh_k">
-                    Комментарии. Tolstoy Digital
-                </title>
-                <title type="main">Дневники и Записные книжки 1900—1903 гг. Описание рукописей Толстого</title>
-                <title type="bibl">Серебровская Е. С. Описание рукописей Дневника и Записных книжек Толстого 1900—1903 гг. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 54. М.: Гос. изд. «Художественная литература», 1935. С. </title>
-                <author>К. С. Шохоp-Tроцкий</author>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                         Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="63f55d3a-03da-48bc-b146-b4cb17b09f74">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Описание рукописей Дневника и Записных книжек Толстого 1900—1903 гг.
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 54
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">54</biblScope>
-                        <biblScope unit="page">392-399</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass> 
-                <catRef ana="#comments" target="type"/>
-                <catRef ana="#comments_diaries" target="comments_type"/>
-                <catRef ana="#comments_notes" target="comments_type"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v54_392_399_Opisanie_rukopisej_Dnevnika_i_Zapisnyh_k">
+     Комментарии. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневники и Записные книжки 1900—1903 гг. Описание рукописей Толстого
+    </title>
+    <title type="bibl">
+     Серебровская Е. С. Описание рукописей Дневника и Записных книжек Толстого 1900—1903 гг. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 54. М.: Гос. изд. «Художественная литература», 1935. С.
+    </title>
+    <author>
+     К. С. Шохоp-Tроцкий
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="63f55d3a-03da-48bc-b146-b4cb17b09f74">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Описание рукописей Дневника и Записных книжек Толстого 1900—1903 гг.
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 54
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       54
+      </biblScope>
+      <biblScope unit="page">
+       392-399
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass>
+    <catRef ana="#comments" target="type"/>
+    <catRef ana="#comments_diaries" target="comments_type"/>
+    <catRef ana="#comments_notes" target="comments_type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div id="ref18" type="section">
     <pb n="392"/>
@@ -135,9 +147,6 @@
      ч. 142, 143—151 и 152 (на обороте задней обложки клеенчатой тетради). Сверх того, при этой тетради имеются: один полулист почтовой бумаги малого формата (относится к стр. 4) и один полулист почтовой бумага обычного формата, подклеенный к стр. 26 (относится к стр. 27). — Все страницы этой тетради заполнены Толстым собственноручно, за исключением немногих записей, внесенных в нее рукой Николая Леонидовича Оболенского (ч. 11), рукой Марии Львовны Оболенской (ч. 11, 12—15, и ч. 16) и рукой Александры Львовны Толстой (ч. 16, ч. 17, ч. 115, 116—123 и ч. 124). Кроме того, рукой Юлии Ивановны Игумновой вписаны в некоторых местах исправления и вставки (стр. 34, 35 и 37), сделанные Толстым в копии (см. ниже — IV).
     </p>
     <p id="3c5336e0-f355-4e89-b417-fbe7e1a36486" rend="left emptyline">
-     <hi rend="opnumber">
-      392
-     </hi>
      <pb n="393"/>
     </p>
     <p id="e6d2a376-a60a-4fc5-9f33-d08ea208bf87" rend="left emptyline"/>
@@ -225,9 +234,6 @@
      <hi rend="opdelimiter">
       Степанова.
      </hi>
-     <hi rend="opnumber">
-      393
-     </hi>
     </p>
     <p id="14a7528e-1202-4db5-a51c-ca1b6a6505bf" rend="left">
      <pb n="394"/>
@@ -300,9 +306,6 @@
      <hi rend="opdelimiter">
       на
      </hi>
-     <hi rend="opnumber">
-      394
-     </hi>
      <pb n="395"/>
      <hi rend="npdelimiter">
       стр.
@@ -367,9 +370,6 @@
      <hi rend="opdelimiter">
       записи
      </hi>
-     <hi rend="opnumber">
-      395
-     </hi>
      <pb n="396"/>
      <hi rend="npdelimiter">
       1—25
@@ -408,9 +408,6 @@
      и внесены рукой М. Л. Оболенской. — Стр. 4, 12—388 (с 7 января по 13
      <hi rend="opdelimiter">
       июля
-     </hi>
-     <hi rend="opnumber">
-      396
      </hi>
      <pb n="397"/>
      <hi rend="npdelimiter">
@@ -531,9 +528,6 @@
      <hi rend="opdelimiter">
       очевидной
      </hi>
-     <hi rend="opnumber">
-      397
-     </hi>
      <pb n="398"/>
      <hi rend="npdelimiter">
       связи
@@ -598,9 +592,6 @@
      На обороте, на правой половине сложенного вдвое листа, — список художественных сюжетов, рукой Толстого. Нумерация сюжетов
      <hi rend="opdelimiter">
       слева
-     </hi>
-     <hi rend="opnumber">
-      398
      </hi>
      <pb n="399"/>
      <hi rend="npdelimiter">
@@ -672,4 +663,5 @@
     </p>
    </div>
   </body>
- </text></TEI>
+ </text>
+</TEI>
