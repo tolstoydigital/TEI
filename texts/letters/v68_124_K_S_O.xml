@@ -1,93 +1,125 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v68_124_K_S_O">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо К.С.О. с 14 июля 1895 г. по 26 июля 1895 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо К.С.О., 14 июля 1895 г. — 26 июля 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 68. М.: Гос. изд. «Художественная литература», 1954. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="37b72412-660d-4c4f-9d4c-450315ca88c3">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Л.Н.</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 68</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="vol">68</biblScope>
-                        <biblScope unit="page">122-122</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л.Н. Толстой. Полное собрание сочинений</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Ясная Поляна</placeName>
-                    <date notBefore="1895-07-14" notAfter="1895-07-26"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="5892">К. С. О.</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">124</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="K.S.O._124">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v68_124_K_S_O">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо К.С.О. с 14 июля 1895 г. по 26 июля 1895 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо К.С.О., 14 июля 1895 г. — 26 июля 1895 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 68. М.: Гос. изд. «Художественная литература», 1954. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="37b72412-660d-4c4f-9d4c-450315ca88c3">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Л.Н.
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 68
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="vol">
+       68
+      </biblScope>
+      <biblScope unit="page">
+       122-122
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Ясная Поляна
+     </placeName>
+     <date notAfter="1895-07-26" notBefore="1895-07-14"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="5892">
+      К. С. О.
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   124
+  </number>
+ </xenoData>
+ <text xml:id="K.S.O._124" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <pb n="122"/>
