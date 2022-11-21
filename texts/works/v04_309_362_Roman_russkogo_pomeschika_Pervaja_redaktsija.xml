@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v04_309_362_Roman_russkogo_pomeschika_Pervaja_redaktsija">
-                    «Роман русского помещика». [Первая редакция]. Tolstoy Digital
-                </title>
-                <title type="main">Роман русского помещика.</title>
-                <title type="sub" resp="volume_editor">Первая редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="1786a37a-fa1a-4d0b-92f3-9876a07cbdb4">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            «Роман русского помещика». [Первая редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 4
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">4</biblScope>
-                        <biblScope unit="page">309-362</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1854"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v04_309_362_Roman_russkogo_pomeschika_Pervaja_redaktsija">
+     «Роман русского помещика». [Первая редакция]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Роман русского помещика.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Первая редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="1786a37a-fa1a-4d0b-92f3-9876a07cbdb4">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       «Роман русского помещика». [Первая редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 4
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       4
+      </biblScope>
+      <biblScope unit="page">
+       309-362
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1854"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013002">
     <p id="7f2ece4d-9563-4cfa-98f0-f1302e481188">
@@ -2205,70 +2217,73 @@
        парусинномъ
       </orig>
      </choice>
-     пальто. <del>
-     <choice>
-      <reg>
-       Может
-      </reg>
-      <orig>
-       Можетъ
-      </orig>
-     </choice>
-     быть, даже
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     раскаивался
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       том
-      </reg>
-      <orig>
-       томъ
-      </orig>
-     </choice>
-     , что
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     долго
-     <choice>
-      <reg>
-       поджидал
-      </reg>
-      <orig>
-       поджидалъ
-      </orig>
-     </choice>
-     такого
-     <choice>
-      <reg>
-       непышного
-      </reg>
-      <orig>
-       непышнаго
-      </orig>
-     </choice>
-     Князя.</del>
-    </p><p id="f64196b9-4921-4f36-80cb-966f493c561d" rend="left">
+     пальто.
+     <del>
+      <choice>
+       <reg>
+        Может
+       </reg>
+       <orig>
+        Можетъ
+       </orig>
+      </choice>
+      быть, даже
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      раскаивался
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        том
+       </reg>
+       <orig>
+        томъ
+       </orig>
+      </choice>
+      , что
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      долго
+      <choice>
+       <reg>
+        поджидал
+       </reg>
+       <orig>
+        поджидалъ
+       </orig>
+      </choice>
+      такого
+      <choice>
+       <reg>
+        непышного
+       </reg>
+       <orig>
+        непышнаго
+       </orig>
+      </choice>
+      Князя.
+     </del>
+    </p>
+    <p id="f64196b9-4921-4f36-80cb-966f493c561d" rend="left">
      —
      <choice>
       <reg>
@@ -2933,8 +2948,12 @@
       </orig>
      </choice>
      <pb n="312"/>
-     стариковъ, старухъ и крикливыхъ дѣтей причащались Святыхъ тайнъ. Г-жа Михайлова выставляла нижнюю губку и очень мило морщилась, когда грудные младенцы кричали около нея. Она удивлялась, какъ глупъ этотъ народъ: зачѣмъ носить дѣтей въ церковь? Развѣ грудной ребенокъ можетъ понимать что нибудь. Только другимъ мѣшаютъ. Вотъ ея нервы, напримѣръ, никакъ не выдерживаютъ этаго крика. <del>Г-жа Михайлова, у которой ея собственный ребенокъ оставался дома на рукахъ кормилицы, не принимала въ соображенье, что у крестьянскихъ женщинъ не бываетъ кормилицъ, и что онѣ кормятъ своихъ дѣтей и на работѣ и въ церкви.</del>
-    </p><p id="87e013b4-0173-471c-b2aa-c369827b9f0c" rend="left">
+     стариковъ, старухъ и крикливыхъ дѣтей причащались Святыхъ тайнъ. Г-жа Михайлова выставляла нижнюю губку и очень мило морщилась, когда грудные младенцы кричали около нея. Она удивлялась, какъ глупъ этотъ народъ: зачѣмъ носить дѣтей въ церковь? Развѣ грудной ребенокъ можетъ понимать что нибудь. Только другимъ мѣшаютъ. Вотъ ея нервы, напримѣръ, никакъ не выдерживаютъ этаго крика.
+     <del>
+      Г-жа Михайлова, у которой ея собственный ребенокъ оставался дома на рукахъ кормилицы, не принимала въ соображенье, что у крестьянскихъ женщинъ не бываетъ кормилицъ, и что онѣ кормятъ своихъ дѣтей и на работѣ и въ церкви.
+     </del>
+    </p>
+    <p id="87e013b4-0173-471c-b2aa-c369827b9f0c" rend="left">
      <choice>
       <reg>
        Священник
@@ -5765,8 +5784,12 @@
      по всей Руси много найдется.
     </p>
     <p id="385cfaba-3111-4e36-ad89-9da9186bc15f" rend="left">
-     И досадно то, что они всѣ носятъ на себѣ самый чистый русскій характеръ, въ которомъ привыкъ видѣть много добраго и роднаго. Больно смотрѣть, какъ иностранные артисты, дѣвки, магазинщики, художники за вещи, не имѣющія никакой положительной цѣнности, получаютъ черезъ руки нашихъ помѣщиковъ трудомъ и потомъ добытыя кровныя деньги русскаго народа, и, самодовольно посмѣиваясь, увозятъ ихъ за море, къ своимъ соотечественникамъ. Но, по крайней мѣрѣ, тутъ можемъ мы обвинять европейское вліяніе, можемъ утѣшать себя мыслью, что люди эти спекулировали на счетъ нашихъ маленькихъ страстишекъ, въ особенности на счетъ подлѣйшей и обыкновеннѣйшей изъ нихъ — на счетъ тщеславія. Мы можемъ утѣшать себя мыслью, что, разрабатывая тщеславіе, они наказываютъ его. Но каково же видѣть Алешекъ и Купріяшекъ, успѣшно разрабатывающихъ незаслуженную нищету и невинную простоту народа, которыя однѣ причиною удачи ихъ спекуляцій. <del>Алешки и Купріяшки, не въ томъ, такъ въ другомъ видѣ всегда будутъ существовать, но развѣ не отъ помѣщиковъ зависитъ ограничить кругъ ихъ преступной дѣятельности?</del>
-    </p><p id="edcb3213-ef86-4a3d-85ec-8dcb47c8ca0a" rend="left">
+     И досадно то, что они всѣ носятъ на себѣ самый чистый русскій характеръ, въ которомъ привыкъ видѣть много добраго и роднаго. Больно смотрѣть, какъ иностранные артисты, дѣвки, магазинщики, художники за вещи, не имѣющія никакой положительной цѣнности, получаютъ черезъ руки нашихъ помѣщиковъ трудомъ и потомъ добытыя кровныя деньги русскаго народа, и, самодовольно посмѣиваясь, увозятъ ихъ за море, къ своимъ соотечественникамъ. Но, по крайней мѣрѣ, тутъ можемъ мы обвинять европейское вліяніе, можемъ утѣшать себя мыслью, что люди эти спекулировали на счетъ нашихъ маленькихъ страстишекъ, въ особенности на счетъ подлѣйшей и обыкновеннѣйшей изъ нихъ — на счетъ тщеславія. Мы можемъ утѣшать себя мыслью, что, разрабатывая тщеславіе, они наказываютъ его. Но каково же видѣть Алешекъ и Купріяшекъ, успѣшно разрабатывающихъ незаслуженную нищету и невинную простоту народа, которыя однѣ причиною удачи ихъ спекуляцій.
+     <del>
+      Алешки и Купріяшки, не въ томъ, такъ въ другомъ видѣ всегда будутъ существовать, но развѣ не отъ помѣщиковъ зависитъ ограничить кругъ ихъ преступной дѣятельности?
+     </del>
+    </p>
+    <p id="edcb3213-ef86-4a3d-85ec-8dcb47c8ca0a" rend="left">
      —
      <choice>
       <reg>
@@ -19863,185 +19886,188 @@
      старушонка, жалостно потряхивая головой.
     </p>
     <p id="69dd41ce-299c-4d39-92d0-8ae666c120a7" rend="left">
-     <del>Учрежденное
-     <choice>
-      <reg>
-       Князем
-      </reg>
-      <orig>
-       Княземъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     такой любовью и надеждою на
-     <choice>
-      <reg>
-       несомненную
-      </reg>
-      <orig>
-       несомнѣнную
-      </orig>
-     </choice>
-     пользу деревенское
-     <choice>
-      <reg>
-       заведение
-      </reg>
-      <orig>
-       заведенiе
-      </orig>
-     </choice>
-     для
-     <choice>
-      <reg>
-       подаяния
-      </reg>
-      <orig>
-       подаянiя
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       простых
-      </reg>
-      <orig>
-       простыхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       медицинских
-      </reg>
-      <orig>
-       медицинскихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       средств
-      </reg>
-      <orig>
-       средствъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       больным
-      </reg>
-      <orig>
-       больнымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       крестьянам
-      </reg>
-      <orig>
-       крестьянамъ
-      </orig>
-     </choice>
-     не могло принести пользы
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       этом
-      </reg>
-      <orig>
-       этомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       случае
-      </reg>
-      <orig>
-       случаѣ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       которого
-      </reg>
-      <orig>
-       котораго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     не только не
-     <choice>
-      <reg>
-       предполагал
-      </reg>
-      <orig>
-       предполагалъ
-      </orig>
-     </choice>
-     , но и даже понять не
-     <choice>
-      <reg>
-       мог
-      </reg>
-      <orig>
-       могъ
-      </orig>
-     </choice>
-     хорошенько. Это озадачило его,
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       поспешил
-      </reg>
-      <orig>
-       поспѣшилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       переменить
-      </reg>
-      <orig>
-       перемѣнить
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       разговор
-      </reg>
-      <orig>
-       разговоръ
-      </orig>
-     </choice>
-     </del>.
-    </p><p id="b2150b99-abb4-4246-b52b-093f1c5c17f4" rend="left">
+     <del>
+      Учрежденное
+      <choice>
+       <reg>
+        Князем
+       </reg>
+       <orig>
+        Княземъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      такой любовью и надеждою на
+      <choice>
+       <reg>
+        несомненную
+       </reg>
+       <orig>
+        несомнѣнную
+       </orig>
+      </choice>
+      пользу деревенское
+      <choice>
+       <reg>
+        заведение
+       </reg>
+       <orig>
+        заведенiе
+       </orig>
+      </choice>
+      для
+      <choice>
+       <reg>
+        подаяния
+       </reg>
+       <orig>
+        подаянiя
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        простых
+       </reg>
+       <orig>
+        простыхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        медицинских
+       </reg>
+       <orig>
+        медицинскихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        средств
+       </reg>
+       <orig>
+        средствъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        больным
+       </reg>
+       <orig>
+        больнымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        крестьянам
+       </reg>
+       <orig>
+        крестьянамъ
+       </orig>
+      </choice>
+      не могло принести пользы
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        этом
+       </reg>
+       <orig>
+        этомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        случае
+       </reg>
+       <orig>
+        случаѣ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        которого
+       </reg>
+       <orig>
+        котораго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      не только не
+      <choice>
+       <reg>
+        предполагал
+       </reg>
+       <orig>
+        предполагалъ
+       </orig>
+      </choice>
+      , но и даже понять не
+      <choice>
+       <reg>
+        мог
+       </reg>
+       <orig>
+        могъ
+       </orig>
+      </choice>
+      хорошенько. Это озадачило его,
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        поспешил
+       </reg>
+       <orig>
+        поспѣшилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        переменить
+       </reg>
+       <orig>
+        перемѣнить
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        разговор
+       </reg>
+       <orig>
+        разговоръ
+       </orig>
+      </choice>
+     </del>
+     .
+    </p>
+    <p id="b2150b99-abb4-4246-b52b-093f1c5c17f4" rend="left">
      <pb n="328"/>
     </p>
    </div>
@@ -20252,8 +20278,11 @@
      </note>
     </p>
     <p id="aa619da0-7662-4128-97da-ff970626f82a" rend="left">
-     <del>За столомъ была широкая лавка, покрытая рогожей и овчинами, около нея и подъ ней стояли свѣтецъ, кадушки, ушатъ, ведра, ухватъ. Противуположную сторону занимали почернѣвшая большая смрадная печь и полати.</del>
-    </p><p id="acd3aa76-5d2e-43d1-a745-70672c4ba1d2" rend="left">
+     <del>
+      За столомъ была широкая лавка, покрытая рогожей и овчинами, около нея и подъ ней стояли свѣтецъ, кадушки, ушатъ, ведра, ухватъ. Противуположную сторону занимали почернѣвшая большая смрадная печь и полати.
+     </del>
+    </p>
+    <p id="acd3aa76-5d2e-43d1-a745-70672c4ba1d2" rend="left">
      <choice>
       <reg>
        Неровные
@@ -34779,15 +34808,16 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       интересного
-      </reg>
-      <orig>
-       интереснаго
-      </orig>
-     </choice>
-     </del> ни Графа богача соблазнителя
+      <choice>
+       <reg>
+        интересного
+       </reg>
+       <orig>
+        интереснаго
+       </orig>
+      </choice>
+     </del>
+     ни Графа богача соблазнителя
      <choice>
       <reg>
        в
@@ -35978,7 +36008,8 @@
       </orig>
      </choice>
      блестящую фуражку.
-    </p><p id="4c034cf3-6ed8-465f-877a-f61e43b8f9ca" rend="left">
+    </p>
+    <p id="4c034cf3-6ed8-465f-877a-f61e43b8f9ca" rend="left">
      —
      <choice>
       <reg>
@@ -37341,26 +37372,30 @@
        значитъ
       </orig>
      </choice>
-     словами, а не розгами. <del>Сказать ему, что, ежели
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     не исправится, то его
-     <choice>
-      <reg>
-       накажут
-      </reg>
-      <orig>
-       накажутъ
-      </orig>
-     </choice>
-     , а не бить.</del>
-    </p><p id="4c52978b-8a7b-4a8d-8be8-19f3c8b98564" rend="left">
+     словами, а не розгами.
+     <del>
+      Сказать ему, что, ежели
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      не исправится, то его
+      <choice>
+       <reg>
+        накажут
+       </reg>
+       <orig>
+        накажутъ
+       </orig>
+      </choice>
+      , а не бить.
+     </del>
+    </p>
+    <p id="4c52978b-8a7b-4a8d-8be8-19f3c8b98564" rend="left">
      — По нашему, по деревенскому, не
      <choice>
       <reg>
@@ -46169,50 +46204,53 @@
        немъ
       </orig>
      </choice>
-     рубаха пестрая, набойчатая и сапоги, <del>сапоги
-     <choice>
-      <reg>
-       резкая
-      </reg>
-      <orig>
-       рѣзкая
-      </orig>
-     </choice>
-     черта
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мужицком
-      </reg>
-      <orig>
-       мужицкомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       быте
-      </reg>
-      <orig>
-       бытѣ
-      </orig>
-     </choice>
-     — они всегда что нибудь да
-     <choice>
-      <reg>
-       значат
-      </reg>
-      <orig>
-       значатъ
-      </orig>
-     </choice>
-     </del> но, несмотря на сходство
+     рубаха пестрая, набойчатая и сапоги,
+     <del>
+      сапоги
+      <choice>
+       <reg>
+        резкая
+       </reg>
+       <orig>
+        рѣзкая
+       </orig>
+      </choice>
+      черта
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мужицком
+       </reg>
+       <orig>
+        мужицкомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        быте
+       </reg>
+       <orig>
+        бытѣ
+       </orig>
+      </choice>
+      — они всегда что нибудь да
+      <choice>
+       <reg>
+        значат
+       </reg>
+       <orig>
+        значатъ
+       </orig>
+      </choice>
+     </del>
+     но, несмотря на сходство
      <choice>
       <reg>
        с
@@ -46284,7 +46322,8 @@
       </orig>
      </choice>
      пасконная рубаха и лапти.
-    </p><p id="d15e1b7a-ed77-4cae-b97a-74c0a7a1d78d" rend="left">
+    </p>
+    <p id="d15e1b7a-ed77-4cae-b97a-74c0a7a1d78d" rend="left">
      —
      <choice>
       <reg>

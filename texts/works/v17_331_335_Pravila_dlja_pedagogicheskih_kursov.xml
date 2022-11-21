@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_331_335_Pravila_dlja_pedagogicheskih_kursov">
-                    Правила для педагогических курсов. Tolstoy Digital
-                </title>
-                <title type="main">Правила для педагогических курсов</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="2ad05436-4859-48bb-bc4f-0bd1faf3eab1">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Правила для педагогических курсов
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">331-335</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1874"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#pedagogika" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v17_331_335_Pravila_dlja_pedagogicheskih_kursov">
+     Правила для педагогических курсов. Tolstoy Digital
+    </title>
+    <title type="main">
+     Правила для педагогических курсов
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="2ad05436-4859-48bb-bc4f-0bd1faf3eab1">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Правила для педагогических курсов
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       331-335
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1874"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#pedagogika" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011012">
     <p id="579f4ec8-e60c-4cc5-9d89-82110c8d7ba4">
@@ -485,17 +495,20 @@
        школахъ
       </orig>
      </choice>
-     <del>Тульской
-     <choice>
-      <reg>
-       губернии
-      </reg>
-      <orig>
-       губернiи
-      </orig>
-     </choice>
-     </del>.
-    </p><p id="b6531fd6-5a38-40a7-a233-81dcd60f44d4" rend="left">
+     <del>
+      Тульской
+      <choice>
+       <reg>
+        губернии
+       </reg>
+       <orig>
+        губернiи
+       </orig>
+      </choice>
+     </del>
+     .
+    </p>
+    <p id="b6531fd6-5a38-40a7-a233-81dcd60f44d4" rend="left">
      3. Для
      <choice>
       <reg>
@@ -590,7 +603,11 @@
        Педагогическiе
       </orig>
      </choice>
-     курсы <del>и народное училище</del> содержатся на
+     курсы
+     <del>
+      и народное училище
+     </del>
+     содержатся на
      <choice>
       <reg>
        иждивении
@@ -626,50 +643,53 @@
       </orig>
      </choice>
      .
-    </p><p id="1ba8c8be-33a6-4469-8c7a-be1400f18f34" rend="left">
-     5. <del>
-     <choice>
-      <reg>
-       В
-      </reg>
-      <orig>
-       Въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       педагогических
-      </reg>
-      <orig>
-       педагогическихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       курсах
-      </reg>
-      <orig>
-       курсахъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       состоит
-      </reg>
-      <orig>
-       состоитъ
-      </orig>
-     </choice>
-     ...
-     <choice>
-      <reg>
-       человек
-      </reg>
-      <orig>
-       человѣкъ
-      </orig>
-     </choice>
-     учащихся.</del>
+    </p>
+    <p id="1ba8c8be-33a6-4469-8c7a-be1400f18f34" rend="left">
+     5.
+     <del>
+      <choice>
+       <reg>
+        В
+       </reg>
+       <orig>
+        Въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        педагогических
+       </reg>
+       <orig>
+        педагогическихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        курсах
+       </reg>
+       <orig>
+        курсахъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        состоит
+       </reg>
+       <orig>
+        состоитъ
+       </orig>
+      </choice>
+      ...
+      <choice>
+       <reg>
+        человек
+       </reg>
+       <orig>
+        человѣкъ
+       </orig>
+      </choice>
+      учащихся.
+     </del>
      <ref target="#note460">
       460
      </ref>
@@ -716,7 +736,8 @@
       </orig>
      </choice>
      50.
-    </p><p id="e40fecb9-9c1e-4103-a618-89d15a72bc71" rend="left">
+    </p>
+    <p id="e40fecb9-9c1e-4103-a618-89d15a72bc71" rend="left">
      6.
      <choice>
       <reg>
@@ -744,14 +765,14 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       трех
-      </reg>
-      <orig>
-       трехъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        трех
+       </reg>
+       <orig>
+        трехъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -803,15 +824,16 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       трех
-      </reg>
-      <orig>
-       трехъ
-      </orig>
-     </choice>
-     </del> двухгодичный, по одному году
+      <choice>
+       <reg>
+        трех
+       </reg>
+       <orig>
+        трехъ
+       </orig>
+      </choice>
+     </del>
+     двухгодичный, по одному году
      <choice>
       <reg>
        в
@@ -836,24 +858,27 @@
        классѣ
       </orig>
      </choice>
-     . <del>
-     <choice>
-      <reg>
-       Впрочем
-      </reg>
-      <orig>
-       Впрочемъ
-      </orig>
-     </choice>
-     </del> для <del>
-     <choice>
-      <reg>
-       некоторых
-      </reg>
-      <orig>
-       нѣкоторыхъ
-      </orig>
-     </choice>
+     .
+     <del>
+      <choice>
+       <reg>
+        Впрочем
+       </reg>
+       <orig>
+        Впрочемъ
+       </orig>
+      </choice>
+     </del>
+     для
+     <del>
+      <choice>
+       <reg>
+        некоторых
+       </reg>
+       <orig>
+        нѣкоторыхъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -923,87 +948,91 @@
        курсовъ
       </orig>
      </choice>
-     ; <del>но
-     <choice>
-      <reg>
-       воспитанникам
-      </reg>
-      <orig>
-       воспитанникамъ
-      </orig>
-     </choice>
-     , оказавшимся
-     <choice>
-      <reg>
-       через
-      </reg>
-      <orig>
-       черезъ
-      </orig>
-     </choice>
-     три года
-     <choice>
-      <reg>
-       учения
-      </reg>
-      <orig>
-       ученiя
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       вполне
-      </reg>
-      <orig>
-       вполнѣ
-      </orig>
-     </choice>
-     приготовленными для самостоятельной учительской
-     <choice>
-      <reg>
-       деятельности
-      </reg>
-      <orig>
-       дѣятельности
-      </orig>
-     </choice>
-     , дозволяется оставаться
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       заведении
-      </reg>
-      <orig>
-       заведенiи
-      </orig>
-     </choice>
-     еще
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       год
-      </reg>
-      <orig>
-       годъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="d6efba4e-a81c-4f87-981c-45435c581a8f" rend="left">
+     ;
+     <del>
+      но
+      <choice>
+       <reg>
+        воспитанникам
+       </reg>
+       <orig>
+        воспитанникамъ
+       </orig>
+      </choice>
+      , оказавшимся
+      <choice>
+       <reg>
+        через
+       </reg>
+       <orig>
+        черезъ
+       </orig>
+      </choice>
+      три года
+      <choice>
+       <reg>
+        учения
+       </reg>
+       <orig>
+        ученiя
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        вполне
+       </reg>
+       <orig>
+        вполнѣ
+       </orig>
+      </choice>
+      приготовленными для самостоятельной учительской
+      <choice>
+       <reg>
+        деятельности
+       </reg>
+       <orig>
+        дѣятельности
+       </orig>
+      </choice>
+      , дозволяется оставаться
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        заведении
+       </reg>
+       <orig>
+        заведенiи
+       </orig>
+      </choice>
+      еще
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        год
+       </reg>
+       <orig>
+        годъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="d6efba4e-a81c-4f87-981c-45435c581a8f" rend="left">
      7.
      <ref target="#note461">
       461
@@ -1152,111 +1181,114 @@
      .
     </p>
     <p id="ac7b98f4-43ef-40f0-997c-799ce7e52bdc" rend="left">
-     10. <del>
-     <choice>
-      <reg>
-       Граф
-      </reg>
-      <orig>
-       Графъ
-      </orig>
-     </choice>
-     Л. Н. Толстой
-     <choice>
-      <reg>
-       имеет
-      </reg>
-      <orig>
-       имѣетъ
-      </orig>
-     </choice>
-     бдительный
-     <choice>
-      <reg>
-       надзор
-      </reg>
-      <orig>
-       надзоръ
-      </orig>
-     </choice>
-     за воспитанниками
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нравственном
-      </reg>
-      <orig>
-       нравственномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       отношении
-      </reg>
-      <orig>
-       отношенiи
-      </orig>
-     </choice>
-     не только
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       стенах
-      </reg>
-      <orig>
-       стѣнахъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       заведения
-      </reg>
-      <orig>
-       заведенiя
-      </orig>
-     </choice>
-     , но и
-     <choice>
-      <reg>
-       вне
-      </reg>
-      <orig>
-       внѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     , по
-     <choice>
-      <reg>
-       мере
-      </reg>
-      <orig>
-       мѣрѣ
-      </orig>
-     </choice>
-     возможности.</del>
-    </p><p id="254ec6ca-22da-48c0-9ada-ef9e9c0eefac" rend="left">
+     10.
+     <del>
+      <choice>
+       <reg>
+        Граф
+       </reg>
+       <orig>
+        Графъ
+       </orig>
+      </choice>
+      Л. Н. Толстой
+      <choice>
+       <reg>
+        имеет
+       </reg>
+       <orig>
+        имѣетъ
+       </orig>
+      </choice>
+      бдительный
+      <choice>
+       <reg>
+        надзор
+       </reg>
+       <orig>
+        надзоръ
+       </orig>
+      </choice>
+      за воспитанниками
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нравственном
+       </reg>
+       <orig>
+        нравственномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        отношении
+       </reg>
+       <orig>
+        отношенiи
+       </orig>
+      </choice>
+      не только
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        стенах
+       </reg>
+       <orig>
+        стѣнахъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        заведения
+       </reg>
+       <orig>
+        заведенiя
+       </orig>
+      </choice>
+      , но и
+      <choice>
+       <reg>
+        вне
+       </reg>
+       <orig>
+        внѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      , по
+      <choice>
+       <reg>
+        мере
+       </reg>
+       <orig>
+        мѣрѣ
+       </orig>
+      </choice>
+      возможности.
+     </del>
+    </p>
+    <p id="254ec6ca-22da-48c0-9ada-ef9e9c0eefac" rend="left">
      11.
      <ref target="#note462">
       462
@@ -1601,66 +1633,69 @@
      .
     </p>
     <p id="1d597098-efb1-4e27-b389-7b12b4998ea3" rend="left">
-     14. Преподаватели обязаны: <del>а.,
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       целию
-      </reg>
-      <orig>
-       цѣлiю
-      </orig>
-     </choice>
-     чисто педагогическою, на сколько
-     <choice>
-      <reg>
-       им
-      </reg>
-      <orig>
-       имъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       позволяет
-      </reg>
-      <orig>
-       позволяетъ
-      </orig>
-     </choice>
-     время, присутствовать на
-     <choice>
-      <reg>
-       уроках
-      </reg>
-      <orig>
-       урокахъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       другого
-      </reg>
-      <orig>
-       другаго
-      </orig>
-     </choice>
-     ; б.</del>
+     14. Преподаватели обязаны:
+     <del>
+      а.,
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        целию
+       </reg>
+       <orig>
+        цѣлiю
+       </orig>
+      </choice>
+      чисто педагогическою, на сколько
+      <choice>
+       <reg>
+        им
+       </reg>
+       <orig>
+        имъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        позволяет
+       </reg>
+       <orig>
+        позволяетъ
+       </orig>
+      </choice>
+      время, присутствовать на
+      <choice>
+       <reg>
+        уроках
+       </reg>
+       <orig>
+        урокахъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        другого
+       </reg>
+       <orig>
+        другаго
+       </orig>
+      </choice>
+      ; б.
+     </del>
      <ref target="#note464">
       464
      </ref>
@@ -1809,70 +1844,74 @@
        классовъ
       </orig>
      </choice>
-     ; <del>в.,
-     <choice>
-      <reg>
-       содействовать
-      </reg>
-      <orig>
-       содѣйствовать
-      </orig>
-     </choice>
-     графу
-     <name placement="text" ref="13883" type="person">
-      Л. Н. Толстому
-     </name>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нравственном
-      </reg>
-      <orig>
-       нравственномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       надзоре
-      </reg>
-      <orig>
-       надзорѣ
-      </orig>
-     </choice>
-     за воспитанниками и
-     <choice>
-      <reg>
-       вне
-      </reg>
-      <orig>
-       внѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       стен
-      </reg>
-      <orig>
-       стѣнъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       заведения
-      </reg>
-      <orig>
-       заведенiя
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="19f2d5a1-b78a-43fe-855a-afe54225ec52" rend="left">
+     ;
+     <del>
+      в.,
+      <choice>
+       <reg>
+        содействовать
+       </reg>
+       <orig>
+        содѣйствовать
+       </orig>
+      </choice>
+      графу
+      <name placement="text" ref="13883" type="person">
+       Л. Н. Толстому
+      </name>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нравственном
+       </reg>
+       <orig>
+        нравственномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        надзоре
+       </reg>
+       <orig>
+        надзорѣ
+       </orig>
+      </choice>
+      за воспитанниками и
+      <choice>
+       <reg>
+        вне
+       </reg>
+       <orig>
+        внѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        стен
+       </reg>
+       <orig>
+        стѣнъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        заведения
+       </reg>
+       <orig>
+        заведенiя
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="19f2d5a1-b78a-43fe-855a-afe54225ec52" rend="left">
      15.
      <choice>
       <reg>
@@ -2219,33 +2258,37 @@
        отомъ
       </orig>
      </choice>
-     ; <del>б.,
-     <choice>
-      <reg>
-       Определение
-      </reg>
-      <orig>
-       Опредѣленiе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       наград
-      </reg>
-      <orig>
-       наградъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       наказаний
-      </reg>
-      <orig>
-       наказанiй
-      </orig>
-     </choice>
-     ;</del> в.,
+     ;
+     <del>
+      б.,
+      <choice>
+       <reg>
+        Определение
+       </reg>
+       <orig>
+        Опредѣленiе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        наград
+       </reg>
+       <orig>
+        наградъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        наказаний
+       </reg>
+       <orig>
+        наказанiй
+       </orig>
+      </choice>
+      ;
+     </del>
+     в.,
      <choice>
       <reg>
        Увольнение
@@ -2648,7 +2691,8 @@
       </orig>
      </choice>
      .
-    </p><p id="ef83436e-0b28-4404-83a6-09178fa650a7" rend="left">
+    </p>
+    <p id="ef83436e-0b28-4404-83a6-09178fa650a7" rend="left">
      18.
      <choice>
       <reg>
@@ -3594,101 +3638,104 @@
      воинской повинности воспользоваться льготой, определенною п. 4 ст. 56 Устава о воинской повинности.
     </p>
     <p id="2bd841c4-4105-421d-9e45-396f93aefa6c" rend="left">
-     <del>22. Воспитанники
-     <choice>
-      <reg>
-       педагогических
-      </reg>
-      <orig>
-       педагогическихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       курсов
-      </reg>
-      <orig>
-       курсовъ
-      </orig>
-     </choice>
-     освобождаются на все время
-     <choice>
-      <reg>
-       пребывания
-      </reg>
-      <orig>
-       пребыванiя
-      </orig>
-     </choice>
-     своего
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       заведении
-      </reg>
-      <orig>
-       заведенiи
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       от
-      </reg>
-      <orig>
-       отъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       лежащих
-      </reg>
-      <orig>
-       лежащихъ
-      </orig>
-     </choice>
-     на
-     <choice>
-      <reg>
-       них
-      </reg>
-      <orig>
-       нихъ
-      </orig>
-     </choice>
-     повинностей,
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       том
-      </reg>
-      <orig>
-       томъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       числе
-      </reg>
-      <orig>
-       числѣ
-      </orig>
-     </choice>
-     и военной.</del>
-    </p><p id="a8f2fcd3-65a6-4181-9565-43a80d17d612" rend="left">
+     <del>
+      22. Воспитанники
+      <choice>
+       <reg>
+        педагогических
+       </reg>
+       <orig>
+        педагогическихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        курсов
+       </reg>
+       <orig>
+        курсовъ
+       </orig>
+      </choice>
+      освобождаются на все время
+      <choice>
+       <reg>
+        пребывания
+       </reg>
+       <orig>
+        пребыванiя
+       </orig>
+      </choice>
+      своего
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        заведении
+       </reg>
+       <orig>
+        заведенiи
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        от
+       </reg>
+       <orig>
+        отъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        лежащих
+       </reg>
+       <orig>
+        лежащихъ
+       </orig>
+      </choice>
+      на
+      <choice>
+       <reg>
+        них
+       </reg>
+       <orig>
+        нихъ
+       </orig>
+      </choice>
+      повинностей,
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        том
+       </reg>
+       <orig>
+        томъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        числе
+       </reg>
+       <orig>
+        числѣ
+       </orig>
+      </choice>
+      и военной.
+     </del>
+    </p>
+    <p id="a8f2fcd3-65a6-4181-9565-43a80d17d612" rend="left">
      23.
      <ref target="#note467">
       467
@@ -4097,16 +4144,18 @@
        младшаго
       </orig>
      </choice>
-     , <del>
-     <choice>
-      <reg>
-       среднего
-      </reg>
-      <orig>
-       средняго
-      </orig>
-     </choice>
-     </del> и
+     ,
+     <del>
+      <choice>
+       <reg>
+        среднего
+       </reg>
+       <orig>
+        средняго
+       </orig>
+      </choice>
+     </del>
+     и
      <choice>
       <reg>
        старшего
@@ -4157,102 +4206,109 @@
       </orig>
      </choice>
      .
-    </p><p id="42af4414-d9a0-433e-b69a-4e05c2eb341b" rend="left">
-     26. <del>
-     <choice>
-      <reg>
-       Курс
-      </reg>
-      <orig>
-       Курсъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       младшего
-      </reg>
-      <orig>
-       младшаго
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       среднего
-      </reg>
-      <orig>
-       средняго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       классов
-      </reg>
-      <orig>
-       классовъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       теоретический
-      </reg>
-      <orig>
-       теоретическiй
-      </orig>
-     </choice>
-     ;</del> Воспитанники <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нем
-      </reg>
-      <orig>
-       немъ
-      </orig>
-     </choice>
-     только учатся;
-     <choice>
-      <reg>
-       курс
-      </reg>
-      <orig>
-       курсъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       старшего
-      </reg>
-      <orig>
-       старшаго
-      </orig>
-     </choice>
-     класса
-     <choice>
-      <reg>
-       теоретико-практический
-      </reg>
-      <orig>
-       теоретико-практическiй
-      </orig>
-     </choice>
-     ; воспитанники
-     <choice>
-      <reg>
-       этого
-      </reg>
-      <orig>
-       этаго
-      </orig>
-     </choice>
-     класса</del> не только учатся сами, но и постепенно
+    </p>
+    <p id="42af4414-d9a0-433e-b69a-4e05c2eb341b" rend="left">
+     26.
+     <del>
+      <choice>
+       <reg>
+        Курс
+       </reg>
+       <orig>
+        Курсъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        младшего
+       </reg>
+       <orig>
+        младшаго
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        среднего
+       </reg>
+       <orig>
+        средняго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        классов
+       </reg>
+       <orig>
+        классовъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        теоретический
+       </reg>
+       <orig>
+        теоретическiй
+       </orig>
+      </choice>
+      ;
+     </del>
+     Воспитанники
+     <del>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нем
+       </reg>
+       <orig>
+        немъ
+       </orig>
+      </choice>
+      только учатся;
+      <choice>
+       <reg>
+        курс
+       </reg>
+       <orig>
+        курсъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        старшего
+       </reg>
+       <orig>
+        старшаго
+       </orig>
+      </choice>
+      класса
+      <choice>
+       <reg>
+        теоретико-практический
+       </reg>
+       <orig>
+        теоретико-практическiй
+       </orig>
+      </choice>
+      ; воспитанники
+      <choice>
+       <reg>
+        этого
+       </reg>
+       <orig>
+        этаго
+       </orig>
+      </choice>
+      класса
+     </del>
+     не только учатся сами, но и постепенно
      <ref target="#note470">
       470
      </ref>
@@ -4349,14 +4405,14 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -4392,7 +4448,8 @@
       </orig>
      </choice>
      .
-    </p><p id="624d1b4d-33c3-4c0a-ae03-35ef2a04c47b" rend="left">
+    </p>
+    <p id="624d1b4d-33c3-4c0a-ae03-35ef2a04c47b" rend="left">
      27.
      <choice>
       <reg>
@@ -5373,15 +5430,16 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       старшего
-      </reg>
-      <orig>
-       старшаго
-      </orig>
-     </choice>
-     класса</del>
+      <choice>
+       <reg>
+        старшего
+       </reg>
+       <orig>
+        старшаго
+       </orig>
+      </choice>
+      класса
+     </del>
      <choice>
       <reg>
        в
@@ -5459,42 +5517,46 @@
        указанiю
       </orig>
      </choice>
-     . <del>Ученики
-     <choice>
-      <reg>
-       народного
-      </reg>
-      <orig>
-       народнаго
-      </orig>
-     </choice>
-     училища занимаются 20-ть
-     <choice>
-      <reg>
-       часов
-      </reg>
-      <orig>
-       часовъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       неделю
-      </reg>
-      <orig>
-       недѣлю
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="d7c695bd-038e-47c5-8771-e14a43446b8b" rend="left">
+     .
+     <del>
+      Ученики
+      <choice>
+       <reg>
+        народного
+       </reg>
+       <orig>
+        народнаго
+       </orig>
+      </choice>
+      училища занимаются 20-ть
+      <choice>
+       <reg>
+        часов
+       </reg>
+       <orig>
+        часовъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        неделю
+       </reg>
+       <orig>
+        недѣлю
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="d7c695bd-038e-47c5-8771-e14a43446b8b" rend="left">
      33. Число
      <choice>
       <reg>
@@ -5790,76 +5852,79 @@
     </p>
     <p id="0b12f635-75ae-4f23-b55b-8d0a11f2da48" rend="center">
      <hi rend="Razradka">
-      <del>Таблица числа
-      <choice>
-       <reg>
-        недельных
-       </reg>
-       <orig>
-        недѣльныхъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        уроков
-       </reg>
-       <orig>
-        уроковъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        педагогических
-       </reg>
-       <orig>
-        педагогическихъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        курсах
-       </reg>
-       <orig>
-        курсахъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        народном
-       </reg>
-       <orig>
-        народномъ
-       </orig>
-      </choice>
-      при
-      <choice>
-       <reg>
-        них
-       </reg>
-       <orig>
-        нихъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        училище
-       </reg>
-       <orig>
-        училищѣ
-       </orig>
-      </choice>
-      .</del>
+      <del>
+       Таблица числа
+       <choice>
+        <reg>
+         недельных
+        </reg>
+        <orig>
+         недѣльныхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         уроков
+        </reg>
+        <orig>
+         уроковъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         педагогических
+        </reg>
+        <orig>
+         педагогическихъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         курсах
+        </reg>
+        <orig>
+         курсахъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         народном
+        </reg>
+        <orig>
+         народномъ
+        </orig>
+       </choice>
+       при
+       <choice>
+        <reg>
+         них
+        </reg>
+        <orig>
+         нихъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         училище
+        </reg>
+        <orig>
+         училищѣ
+        </orig>
+       </choice>
+       .
+      </del>
      </hi>
-    </p><p id="399a3613-7ecc-43cc-ab4b-59a24b641b23" rend="center">
+    </p>
+    <p id="399a3613-7ecc-43cc-ab4b-59a24b641b23" rend="center">
      Предметы
      <choice>
       <reg>

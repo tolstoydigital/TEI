@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_300_318_Truzhdajuschiesja_i_obremenennye" resp="volume_editor">
-                    [Труждающиеся и обремененные]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Труждающиеся и обремененные</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4efe2eb3-d40a-4fd2-8526-dc2700117739">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Труждающиеся и обремененные]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">300-318</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1879"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_300_318_Truzhdajuschiesja_i_obremenennye">
+     [Труждающиеся и обремененные]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Труждающиеся и обремененные
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4efe2eb3-d40a-4fd2-8526-dc2700117739">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Труждающиеся и обремененные]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       300-318
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1879"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011009">
     <p id="394533bb-b813-412e-b8be-35bb57d64fba">
@@ -441,16 +451,20 @@
        разсвѣта
       </orig>
      </choice>
-     . <del>Думали, что она жива не
-     <choice>
-      <reg>
-       будет
-      </reg>
-      <orig>
-       будетъ
-      </orig>
-     </choice>
-     .</del> Мамка Княгинина и бабка
+     .
+     <del>
+      Думали, что она жива не
+      <choice>
+       <reg>
+        будет
+       </reg>
+       <orig>
+        будетъ
+       </orig>
+      </choice>
+      .
+     </del>
+     Мамка Княгинина и бабка
      <choice>
       <reg>
        Федотовна
@@ -599,7 +613,8 @@
       </orig>
      </choice>
      или смерти.
-    </p><p id="15e627ee-f569-4efb-9430-47ab8c72c32c" rend="left">
+    </p>
+    <p id="15e627ee-f569-4efb-9430-47ab8c72c32c" rend="left">
      Уже
      <choice>
       <reg>
@@ -1020,15 +1035,17 @@
      и крупной.
     </p>
     <p id="5eb80c81-670c-470c-ba83-9e3a2983cdb6" rend="left">
-     Ребенку <del>дали молитву, свой крестовый старый
-     <choice>
-      <reg>
-       Княгинин
-      </reg>
-      <orig>
-       Княгининъ
-      </orig>
-     </choice>
+     Ребенку
+     <del>
+      дали молитву, свой крестовый старый
+      <choice>
+       <reg>
+        Княгинин
+       </reg>
+       <orig>
+        Княгининъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -1248,7 +1265,8 @@
       </orig>
      </choice>
      .
-    </p><p id="6d43b756-6ce4-4248-aad2-76d884d717c9" rend="left">
+    </p>
+    <p id="6d43b756-6ce4-4248-aad2-76d884d717c9" rend="left">
      <choice>
       <reg>
        Ребенок
@@ -2057,17 +2075,20 @@
        былъ
       </orig>
      </choice>
-     не <del>
-     <choice>
-      <reg>
-       знатен
-      </reg>
-      <orig>
-       знатенъ
-      </orig>
-     </choice>
-     </del>.
-    </p><p id="e07b15bc-93bd-4fd9-90fb-0ff10979146c" rend="left pages2">
+     не
+     <del>
+      <choice>
+       <reg>
+        знатен
+       </reg>
+       <orig>
+        знатенъ
+       </orig>
+      </choice>
+     </del>
+     .
+    </p>
+    <p id="e07b15bc-93bd-4fd9-90fb-0ff10979146c" rend="left pages2">
      <pb n="302"/>
     </p>
    </div>
@@ -2333,23 +2354,24 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       селе
-      </reg>
-      <orig>
-       селѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Вяземском
-      </reg>
-      <orig>
-       Вяземскомъ
-      </orig>
-     </choice>
-     </del> отставной
+      <choice>
+       <reg>
+        селе
+       </reg>
+       <orig>
+        селѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Вяземском
+       </reg>
+       <orig>
+        Вяземскомъ
+       </orig>
+      </choice>
+     </del>
+     отставной
      <ref target="#note385">
       385
      </ref>
@@ -2851,7 +2873,8 @@
        .
       </span>
      </note>
-    </p><p id="98cdad33-c312-4f58-a6b6-ee7f66a653ac" rend="left">
+    </p>
+    <p id="98cdad33-c312-4f58-a6b6-ee7f66a653ac" rend="left">
      <choice>
       <reg>
        В
@@ -3101,7 +3124,11 @@
        Ѳедотовна
       </span>
      </note>
-     мать Князя Николая Иваныча, урожденная Княжна Мордкина, была <del>еще</del> жива и уже 15-й
+     мать Князя Николая Иваныча, урожденная Княжна Мордкина, была
+     <del>
+      еще
+     </del>
+     жива и уже 15-й
      <choice>
       <reg>
        год
@@ -3140,8 +3167,13 @@
        </hi>
       </span>
      </note>
-     монастырѣ въ Хотьковѣ. И къ ней въ монастырь ѣздили Князь cъ Княгиней. И у нея застали они Юродиваго Васю<del>тку</del>. Вася полюбилъ Княгиню, погладилъ ее по головѣ и велѣлъ ей молиться ангелу своему и тутъ же сказалъ: «Будетъ сынъ, будетъ Вася, да не видать тебѣ его. А ты не тужи, Николашка увидитъ, да и то зажмурится, чтобъ не видать. Тебѣ лучше будетъ, лучше. Молись ангелу». —
-    </p><p id="1a24783d-8d5a-4e7f-bf21-046415069765" rend="left">
+     монастырѣ въ Хотьковѣ. И къ ней въ монастырь ѣздили Князь cъ Княгиней. И у нея застали они Юродиваго Васю
+     <del>
+      тку
+     </del>
+     . Вася полюбилъ Княгиню, погладилъ ее по головѣ и велѣлъ ей молиться ангелу своему и тутъ же сказалъ: «Будетъ сынъ, будетъ Вася, да не видать тебѣ его. А ты не тужи, Николашка увидитъ, да и то зажмурится, чтобъ не видать. Тебѣ лучше будетъ, лучше. Молись ангелу». —
+    </p>
+    <p id="1a24783d-8d5a-4e7f-bf21-046415069765" rend="left">
      Князь и Княгиня часто
      <choice>
       <reg>
@@ -3204,7 +3236,11 @@
        ихъ
       </orig>
      </choice>
-     богомолья Княгиня родила сына Василья <del>и радости не было конца</del>. Князь Николай
+     богомолья Княгиня родила сына Василья
+     <del>
+      и радости не было конца
+     </del>
+     . Князь Николай
      <choice>
       <reg>
        Иваныч
@@ -3623,16 +3659,19 @@
        лѣтъ
       </orig>
      </choice>
-     ). <del>И
-     <choice>
-      <reg>
-       дом
-      </reg>
-      <orig>
-       домъ
-      </orig>
-     </choice>
-     нельзя было оставить.</del>
+     ).
+     <del>
+      И
+      <choice>
+       <reg>
+        дом
+       </reg>
+       <orig>
+        домъ
+       </orig>
+      </choice>
+      нельзя было оставить.
+     </del>
      <choice>
       <reg>
        Он
@@ -4388,7 +4427,8 @@
       </orig>
      </choice>
      прошло; но оно не прошло, а только приближалось.
-    </p><p id="3d7e10f5-7771-4cc8-9486-7ae9a903693a" rend="left">
+    </p>
+    <p id="3d7e10f5-7771-4cc8-9486-7ae9a903693a" rend="left">
      Князь
      <choice>
       <reg>
@@ -4822,129 +4862,131 @@
     </p>
     <p id="89462a1b-3997-463b-8e30-bfd170ad439f" rend="left">
      <del>
-     <choice>
-      <reg>
-       В
-      </reg>
-      <orig>
-       Въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       селе
-      </reg>
-      <orig>
-       селѣ
-      </orig>
-     </choice>
-     , по
-     <choice>
-      <reg>
-       обе
-      </reg>
-      <orig>
-       обѣ
-      </orig>
-     </choice>
-     стороны
-     <choice>
-      <reg>
-       реки
-      </reg>
-      <orig>
-       рѣки
-      </orig>
-     </choice>
-     жили мужики
-     <choice>
-      <reg>
-       боярские
-      </reg>
-      <orig>
-       боярскiе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       двух
-      </reg>
-      <orig>
-       двухъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       господ
-      </reg>
-      <orig>
-       господъ
-      </orig>
-     </choice>
-     . Большая часть, 73 двора были прежде Князя
-     <choice>
-      <reg>
-       Вяземского
-      </reg>
-      <orig>
-       Вяземскаго
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       от
-      </reg>
-      <orig>
-       отъ
-      </orig>
-     </choice>
-     него перешли его дочери Ртищевой,
-     <choice>
-      <reg>
-       от
-      </reg>
-      <orig>
-       отъ
-      </orig>
-     </choice>
-     Ртищевой уже перешли
-     <choice>
-      <reg>
-       внуке
-      </reg>
-      <orig>
-       внукѣ
-      </orig>
-     </choice>
-     его,
-     <choice>
-      <reg>
-       Княгине
-      </reg>
-      <orig>
-       Княгинѣ
-      </orig>
-     </choice>
-     Горчаковой, и
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     1757 году были
-     <choice>
-      <reg>
-       Горчаковские
-      </reg>
-      <orig>
-       Горчаковскiе
-      </orig>
-     </choice>
-     .</del> 8
+      <choice>
+       <reg>
+        В
+       </reg>
+       <orig>
+        Въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        селе
+       </reg>
+       <orig>
+        селѣ
+       </orig>
+      </choice>
+      , по
+      <choice>
+       <reg>
+        обе
+       </reg>
+       <orig>
+        обѣ
+       </orig>
+      </choice>
+      стороны
+      <choice>
+       <reg>
+        реки
+       </reg>
+       <orig>
+        рѣки
+       </orig>
+      </choice>
+      жили мужики
+      <choice>
+       <reg>
+        боярские
+       </reg>
+       <orig>
+        боярскiе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        двух
+       </reg>
+       <orig>
+        двухъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        господ
+       </reg>
+       <orig>
+        господъ
+       </orig>
+      </choice>
+      . Большая часть, 73 двора были прежде Князя
+      <choice>
+       <reg>
+        Вяземского
+       </reg>
+       <orig>
+        Вяземскаго
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        от
+       </reg>
+       <orig>
+        отъ
+       </orig>
+      </choice>
+      него перешли его дочери Ртищевой,
+      <choice>
+       <reg>
+        от
+       </reg>
+       <orig>
+        отъ
+       </orig>
+      </choice>
+      Ртищевой уже перешли
+      <choice>
+       <reg>
+        внуке
+       </reg>
+       <orig>
+        внукѣ
+       </orig>
+      </choice>
+      его,
+      <choice>
+       <reg>
+        Княгине
+       </reg>
+       <orig>
+        Княгинѣ
+       </orig>
+      </choice>
+      Горчаковой, и
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      1757 году были
+      <choice>
+       <reg>
+        Горчаковские
+       </reg>
+       <orig>
+        Горчаковскiе
+       </orig>
+      </choice>
+      .
+     </del>
+     8
      <choice>
       <reg>
        дворов
@@ -5007,7 +5049,8 @@
       </orig>
      </choice>
      были однодворцы и назывались Пашутинской слободой.
-    </p><p id="3375193d-d4aa-489b-83b1-3f9bf06d6c5b" rend="left">
+    </p>
+    <p id="3375193d-d4aa-489b-83b1-3f9bf06d6c5b" rend="left">
      &lt;
      <choice>
       <reg>
@@ -5371,15 +5414,16 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     </del> молодой
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+     </del>
+     молодой
      <choice>
       <reg>
        сад
@@ -5596,50 +5640,53 @@
          ѣхать
         </orig>
        </choice>
-       домой. Было это Петровками, стояли жары. <del>
-       <choice>
-        <reg>
-         Накануне
-        </reg>
-        <orig>
-         Наканунѣ
-        </orig>
-       </choice>
-       гостей было много.
-       <choice>
-        <reg>
-         Приезжали
-        </reg>
-        <orig>
-         Прiѣзжали
-        </orig>
-       </choice>
-       проститься
-       <choice>
-        <reg>
-         с
-        </reg>
-        <orig>
-         съ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         почетным
-        </reg>
-        <orig>
-         почетнымъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         гостем
-        </reg>
-        <orig>
-         гостемъ
-        </orig>
-       </choice>
-       .</del> Большая половина осталась ночевать и потому Князь
+       домой. Было это Петровками, стояли жары.
+       <del>
+        <choice>
+         <reg>
+          Накануне
+         </reg>
+         <orig>
+          Наканунѣ
+         </orig>
+        </choice>
+        гостей было много.
+        <choice>
+         <reg>
+          Приезжали
+         </reg>
+         <orig>
+          Прiѣзжали
+         </orig>
+        </choice>
+        проститься
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          почетным
+         </reg>
+         <orig>
+          почетнымъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          гостем
+         </reg>
+         <orig>
+          гостемъ
+         </orig>
+        </choice>
+        .
+       </del>
+       Большая половина осталась ночевать и потому Князь
        <choice>
         <reg>
          Роман
@@ -5829,7 +5876,11 @@
          прiѣзжiе
         </orig>
        </choice>
-       люди <del>зашли на деревню,</del> сами поужинали. За
+       люди
+       <del>
+        зашли на деревню,
+       </del>
+       сами поужинали. За
        <choice>
         <reg>
          ужином
@@ -6156,7 +6207,10 @@
          отъ
         </orig>
        </choice>
-       бани <del>да не</del>
+       бани
+       <del>
+        да не
+       </del>
        <choice>
         <reg>
          к
@@ -6165,24 +6219,28 @@
          къ
         </orig>
        </choice>
-       гумну, <del>а
-       <choice>
-        <reg>
-         лесом
-        </reg>
-        <orig>
-         лѣсомъ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       Ледовому</del>.
+       гумну,
+       <del>
+        а
+        <choice>
+         <reg>
+          лесом
+         </reg>
+         <orig>
+          лѣсомъ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        Ледовому
+       </del>
+       .
       </span>
       <span data-class="paragraph" id="b6cfd873-4da9-493e-8ec8-b58644f8aed4" rend="left">
        — Эй, что за
@@ -6246,7 +6304,14 @@
          побѣжала
         </orig>
        </choice>
-       , <del>только</del> красная понева и <del>пятки,</del>
+       ,
+       <del>
+        только
+       </del>
+       красная понева и
+       <del>
+        пятки,
+       </del>
        <choice>
         <reg>
          босые
@@ -6377,16 +6442,18 @@
        .
       </span>
       <span data-class="paragraph" id="e54ee928-69b7-4b33-a70b-5188c83e74cd" rend="left">
-       — Эй ты, косоглазый, держи, ты <del>
-       <choice>
-        <reg>
-         легок
-        </reg>
-        <orig>
-         легокъ
-        </orig>
-       </choice>
-       </del>. И яй, —
+       — Эй ты, косоглазый, держи, ты
+       <del>
+        <choice>
+         <reg>
+          легок
+         </reg>
+         <orig>
+          легокъ
+         </orig>
+        </choice>
+       </del>
+       . И яй, —
        <choice>
         <reg>
          гаркнул
@@ -6774,7 +6841,11 @@
        <unclear>
         отдернула
        </unclear>
-       его руку и, не переставая, то визжала, то рѣвѣла, то закатывалась. <del>Но онъ</del> былъ цѣпокъ и держалъ ее. Вырываясь, она упала и уронила его съ собой, но онъ все не пускалъ ее. Но барахтаясь на землѣ, онъ вдругъ почувствовалъ жгучую боль въ рукѣ. Она подвела его замершія на ея рукахъ руки ко рту и, пригнувшись къ нимъ, забрала его палецъ въ зубы и, перебирая его къ кореннымъ зубамъ, откусила его.
+       его руку и, не переставая, то визжала, то рѣвѣла, то закатывалась.
+       <del>
+        Но онъ
+       </del>
+       былъ цѣпокъ и держалъ ее. Вырываясь, она упала и уронила его съ собой, но онъ все не пускалъ ее. Но барахтаясь на землѣ, онъ вдругъ почувствовалъ жгучую боль въ рукѣ. Она подвела его замершія на ея рукахъ руки ко рту и, пригнувшись къ нимъ, забрала его палецъ въ зубы и, перебирая его къ кореннымъ зубамъ, откусила его.
       </span>
       <span data-class="paragraph" id="5115d0e2-2a89-4182-a710-7319ee3cc52b" rend="left">
        — Собака! —
@@ -6822,33 +6893,35 @@
          запоръ
         </orig>
        </choice>
-       <del>и
-       <choice>
-        <reg>
-         побежала
-        </reg>
-        <orig>
-         побѣжала
-        </orig>
-       </choice>
-       опять
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         воротам
-        </reg>
-        <orig>
-         воротамъ
-        </orig>
-       </choice>
-       </del>. Но у
+       <del>
+        и
+        <choice>
+         <reg>
+          побежала
+         </reg>
+         <orig>
+          побѣжала
+         </orig>
+        </choice>
+        опять
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          воротам
+         </reg>
+         <orig>
+          воротамъ
+         </orig>
+        </choice>
+       </del>
+       . Но у
        <choice>
         <reg>
          ворот
@@ -6975,7 +7048,11 @@
        .
       </span>
       <span data-class="paragraph" id="6756ad2c-acde-4364-af3f-32d2006f6852" rend="left">
-       — <del>Не уйдешь, сука!</del> —
+       —
+       <del>
+        Не уйдешь, сука!
+       </del>
+       —
       </span>
       <span data-class="paragraph" id="561c1a4b-9db3-4e9a-b8d5-0f4a424b9e2a" rend="left">
        И
@@ -7030,33 +7107,36 @@
          головѣ
         </orig>
        </choice>
-       , и <del>
-       <choice>
-        <reg>
-         тотчас
-        </reg>
-        <orig>
-         тотчасъ
-        </orig>
-       </choice>
-       же,
-       <choice>
-        <reg>
-         подлезая
-        </reg>
-        <orig>
-         подлѣзая
-        </orig>
-       </choice>
-       <choice>
-        <reg>
-         под
-        </reg>
-        <orig>
-         подъ
-        </orig>
-       </choice>
-       перекладину, выскочила за ворота,</del> и
+       , и
+       <del>
+        <choice>
+         <reg>
+          тотчас
+         </reg>
+         <orig>
+          тотчасъ
+         </orig>
+        </choice>
+        же,
+        <choice>
+         <reg>
+          подлезая
+         </reg>
+         <orig>
+          подлѣзая
+         </orig>
+        </choice>
+        <choice>
+         <reg>
+          под
+         </reg>
+         <orig>
+          подъ
+         </orig>
+        </choice>
+        перекладину, выскочила за ворота,
+       </del>
+       и
        <choice>
         <reg>
          побежала
@@ -7828,7 +7908,8 @@
       </orig>
      </choice>
      младенца.
-    </p><p id="18999841-30e9-40ab-a24f-63efa1a864e8" rend="center">
+    </p>
+    <p id="18999841-30e9-40ab-a24f-63efa1a864e8" rend="center">
      ————
     </p>
     <p id="02c86b77-d916-4ca7-b5e1-e3fa69d9ca1a" rend="center">
@@ -9000,15 +9081,17 @@
          пилъ
         </orig>
        </choice>
-       чай <del>и
-       <choice>
-        <reg>
-         курил
-        </reg>
-        <orig>
-         курилъ
-        </orig>
-       </choice>
+       чай
+       <del>
+        и
+        <choice>
+         <reg>
+          курил
+         </reg>
+         <orig>
+          курилъ
+         </orig>
+        </choice>
        </del>
        <choice>
         <reg>
@@ -9230,16 +9313,18 @@
          бѣдности
         </orig>
        </choice>
-       <del>своей и слабости
-       <choice>
-        <reg>
-         к
-        </reg>
-        <orig>
-         къ
-        </orig>
-       </choice>
-       </del> вину
+       <del>
+        своей и слабости
+        <choice>
+         <reg>
+          к
+         </reg>
+         <orig>
+          къ
+         </orig>
+        </choice>
+       </del>
+       вину
        <choice>
         <reg>
          без
@@ -9347,7 +9432,11 @@
        жилъ
       </orig>
      </choice>
-     не пышно и <del>далеко</del> не по княжески, не
+     не пышно и
+     <del>
+      далеко
+     </del>
+     не по княжески, не
      <choice>
       <reg>
        так
@@ -9909,16 +9998,18 @@
      <name placement="text" ref="3711" type="person">
       Ивана Романыча
      </name>
-     . Да <del>
-     <choice>
-      <reg>
-       вот
-      </reg>
-      <orig>
-       вотъ
-      </orig>
-     </choice>
-     </del> теперь
+     . Да
+     <del>
+      <choice>
+       <reg>
+        вот
+       </reg>
+       <orig>
+        вотъ
+       </orig>
+      </choice>
+     </del>
+     теперь
      <choice>
       <reg>
        <name placement="text" ref="3711" type="person">
@@ -10492,24 +10583,25 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     1750
-     <choice>
-      <reg>
-       годах
-      </reg>
-      <orig>
-       годахъ
-      </orig>
-     </choice>
-     </del>, что они еле еле
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      1750
+      <choice>
+       <reg>
+        годах
+       </reg>
+       <orig>
+        годахъ
+       </orig>
+      </choice>
+     </del>
+     , что они еле еле
      <add n="n403" stage="в подлиннике">
       <span data-class="paragraph" id="8cca87cb-0ef4-42a5-9548-d0d720449d4c" rend="left">
        ели ели
@@ -10641,7 +10733,11 @@
        какомъ
       </orig>
      </choice>
-     они и сами были, <del>т. е.</del> держаться на
+     они и сами были,
+     <del>
+      т. е.
+     </del>
+     держаться на
      <choice>
       <reg>
        воде
@@ -10753,142 +10849,155 @@
        озлобленiи
       </orig>
      </choice>
-     и даже <del>
-     <choice>
-      <reg>
-       затаенном
-      </reg>
-      <orig>
-       затаенномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       презрении
-      </reg>
-      <orig>
-       презрѣнiи
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     власти</del> Царской и новой Императорской власти. <del>
-     <choice>
-      <reg>
-       Дед
-      </reg>
-      <orig>
-       Дѣдъ
-      </orig>
-     </choice>
-     его,
-     <choice>
-      <reg>
-       которого
-      </reg>
-      <orig>
-       котораго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       помнил
-      </reg>
-      <orig>
-       помнилъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       обрит
-      </reg>
-      <orig>
-       обритъ
-      </orig>
-     </choice>
-     по
-     <choice>
-      <reg>
-       приказанию
-      </reg>
-      <orig>
-       приказанiю
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       распутного
-      </reg>
-      <orig>
-       распутнаго
-      </orig>
-     </choice>
-     Царя Петра и никогда не
-     <choice>
-      <reg>
-       мог
-      </reg>
-      <orig>
-       могъ
-      </orig>
-     </choice>
-     простить ему не столько
-     <choice>
-      <reg>
-       этого
-      </reg>
-      <orig>
-       этаго
-      </orig>
-     </choice>
-     , сколько всей распутной и <del>безбожной его жизни</del>.
-     <choice>
-      <reg>
-       Отец
-      </reg>
-      <orig>
-       Отецъ
-      </orig>
-     </choice>
-     , Князь
-     <choice>
-      <reg>
-       Иван
-      </reg>
-      <orig>
-       Иванъ
-      </orig>
-     </choice>
-     <pb n="309"/>
-     Ѳедоровичъ, провелъ всю свою жизнь въ своей Каширской деревнѣ, и тамъ воспитывался и Князь Николай Иванычъ съ братьями въ отвращеніи къ двору и власти, перешедшей отъ безбожнаго <del>и распутнаго злодѣя</del>
-     <name placement="text" ref="10703" type="person">
-      Петра
-     </name>
-     къ чухонской шлюхѣ и Менщикову и потомъ къ Нѣмкѣ Аннѣ Ивановнѣ и ея любовнику. Войдя въ возрастъ, его отдали въ службу, отъ которой деньгами и подарками матери, любившей его больше всѣхъ дѣтей, онъ скоро избавился и 20 лѣтъ</del>
-    </p><p id="61d81d46-37c4-4979-818b-836c95a742ac" rend="left">
+     и даже
+     <del>
+      <choice>
+       <reg>
+        затаенном
+       </reg>
+       <orig>
+        затаенномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        презрении
+       </reg>
+       <orig>
+        презрѣнiи
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      власти
+     </del>
+     Царской и новой Императорской власти.
+     <del>
+      <choice>
+       <reg>
+        Дед
+       </reg>
+       <orig>
+        Дѣдъ
+       </orig>
+      </choice>
+      его,
+      <choice>
+       <reg>
+        которого
+       </reg>
+       <orig>
+        котораго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        помнил
+       </reg>
+       <orig>
+        помнилъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        обрит
+       </reg>
+       <orig>
+        обритъ
+       </orig>
+      </choice>
+      по
+      <choice>
+       <reg>
+        приказанию
+       </reg>
+       <orig>
+        приказанiю
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        распутного
+       </reg>
+       <orig>
+        распутнаго
+       </orig>
+      </choice>
+      Царя Петра и никогда не
+      <choice>
+       <reg>
+        мог
+       </reg>
+       <orig>
+        могъ
+       </orig>
+      </choice>
+      простить ему не столько
+      <choice>
+       <reg>
+        этого
+       </reg>
+       <orig>
+        этаго
+       </orig>
+      </choice>
+      , сколько всей распутной и
+      <del>
+       безбожной его жизни
+      </del>
+      .
+      <choice>
+       <reg>
+        Отец
+       </reg>
+       <orig>
+        Отецъ
+       </orig>
+      </choice>
+      , Князь
+      <choice>
+       <reg>
+        Иван
+       </reg>
+       <orig>
+        Иванъ
+       </orig>
+      </choice>
+      <pb n="309"/>
+      Ѳедоровичъ, провелъ всю свою жизнь въ своей Каширской деревнѣ, и тамъ воспитывался и Князь Николай Иванычъ съ братьями въ отвращеніи къ двору и власти, перешедшей отъ безбожнаго
+      <del>
+       и распутнаго злодѣя
+      </del>
+      <name placement="text" ref="10703" type="person">
+       Петра
+      </name>
+      къ чухонской шлюхѣ и Менщикову и потомъ къ Нѣмкѣ Аннѣ Ивановнѣ и ея любовнику. Войдя въ возрастъ, его отдали въ службу, отъ которой деньгами и подарками матери, любившей его больше всѣхъ дѣтей, онъ скоро избавился и 20 лѣтъ
+     </del>
+    </p>
+    <p id="61d81d46-37c4-4979-818b-836c95a742ac" rend="left">
      Несмотря однако на
      <choice>
       <reg>
@@ -11172,15 +11281,16 @@
        въ
       </orig>
      </choice>
-     1745 году, <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
+     1745 году,
+     <del>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -11407,7 +11517,8 @@
       </orig>
      </choice>
      и дослужился до поручьичьего чина.
-    </p><p id="1f6bf704-05b1-4911-8d63-606af2b7a72d" rend="left">
+    </p>
+    <p id="1f6bf704-05b1-4911-8d63-606af2b7a72d" rend="left">
      <choice>
       <reg>
        В
@@ -11517,200 +11628,204 @@
        дѣвицѣ
       </orig>
      </choice>
-     Ртищевой. <del>Тогда началась война
-     <choice>
-      <reg>
-       7-летняя
-      </reg>
-      <orig>
-       7-лѣтняя
-      </orig>
-     </choice>
-     , а
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     отставку выдти нельзя было. И
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       оставив
-      </reg>
-      <orig>
-       оставивъ
-      </orig>
-     </choice>
-     у матери молодую жену, Князь опять
-     <choice>
-      <reg>
-       поехал
-      </reg>
-      <orig>
-       поѣхалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       полк
-      </reg>
-      <orig>
-       полкъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       ходил
-      </reg>
-      <orig>
-       ходилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       поход
-      </reg>
-      <orig>
-       походъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Пруссию
-      </reg>
-      <orig>
-       Пруссiю
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       где
-      </reg>
-      <orig>
-       гдѣ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       ранен
-      </reg>
-      <orig>
-       раненъ
-      </orig>
-     </choice>
-     пулей
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     ногу при
-     <choice>
-      <reg>
-       Егерсдорфе
-      </reg>
-      <orig>
-       Егерсдорфѣ
-      </orig>
-     </choice>
-     ,
-     <add n="n406" stage="в подлиннике">
-      <span data-class="paragraph" id="c31dd7b4-d55a-4f9c-b959-59bb99574f25" rend="left">
-       <choice>
-        <reg>
-         Егередорфе
-        </reg>
-        <orig>
-         Егередорфѣ
-        </orig>
-       </choice>
-      </span>
-     </add>
-     и тогда за раной
-     <choice>
-      <reg>
-       вышел
-      </reg>
-      <orig>
-       вышелъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     отставку и
-     <choice>
-      <reg>
-       приехал
-      </reg>
-      <orig>
-       прiѣхалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     деревню.</del> И
+     Ртищевой.
+     <del>
+      Тогда началась война
+      <choice>
+       <reg>
+        7-летняя
+       </reg>
+       <orig>
+        7-лѣтняя
+       </orig>
+      </choice>
+      , а
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      отставку выдти нельзя было. И
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        оставив
+       </reg>
+       <orig>
+        оставивъ
+       </orig>
+      </choice>
+      у матери молодую жену, Князь опять
+      <choice>
+       <reg>
+        поехал
+       </reg>
+       <orig>
+        поѣхалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        полк
+       </reg>
+       <orig>
+        полкъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        ходил
+       </reg>
+       <orig>
+        ходилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        поход
+       </reg>
+       <orig>
+        походъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Пруссию
+       </reg>
+       <orig>
+        Пруссiю
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        где
+       </reg>
+       <orig>
+        гдѣ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        ранен
+       </reg>
+       <orig>
+        раненъ
+       </orig>
+      </choice>
+      пулей
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      ногу при
+      <choice>
+       <reg>
+        Егерсдорфе
+       </reg>
+       <orig>
+        Егерсдорфѣ
+       </orig>
+      </choice>
+      ,
+      <add n="n406" stage="в подлиннике">
+       <span data-class="paragraph" id="c31dd7b4-d55a-4f9c-b959-59bb99574f25" rend="left">
+        <choice>
+         <reg>
+          Егередорфе
+         </reg>
+         <orig>
+          Егередорфѣ
+         </orig>
+        </choice>
+       </span>
+      </add>
+      и тогда за раной
+      <choice>
+       <reg>
+        вышел
+       </reg>
+       <orig>
+        вышелъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      отставку и
+      <choice>
+       <reg>
+        приехал
+       </reg>
+       <orig>
+        прiѣхалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      деревню.
+     </del>
+     И
      <choice>
       <reg>
        стал
@@ -11849,7 +11964,8 @@
       </orig>
      </choice>
      Чернскую деревню, материну, доставшуюся ему. —
-    </p><p id="11f4b575-4d0b-43a6-adf3-7dc5fcf6fc7a" rend="left">
+    </p>
+    <p id="11f4b575-4d0b-43a6-adf3-7dc5fcf6fc7a" rend="left">
      Теперь, когда у него родился 1-й
      <choice>
       <reg>
@@ -12806,7 +12922,10 @@
        велъ
       </orig>
      </choice>
-     жизнь строгую <del>и богобоязненную</del>
+     жизнь строгую
+     <del>
+      и богобоязненную
+     </del>
      <ref target="#note409">
       409
      </ref>
@@ -13534,7 +13653,11 @@
        . —
       </span>
       <span data-class="paragraph" id="a7ee6e3d-656d-4dc0-a555-fd13d421e350" rend="left">
-       Князь Николай Иванычъ былъ очень огорченъ и недоволенъ. Онъ любилъ жить такъ, чтобы все честно, смирно, тихо было. А тутъ такая пакость у него на дворѣ сдѣлалась. Смущала его мысль о томъ, что не виноватъ ли въ этомъ братъ меньшой Павлушка, жившій у него съ учителемъ, и свои дѣвки, и еще смущало то, какъ жена <del>и</del> свояченя на это посмотрятъ: особенно боялся онъ жены, зная ея горячій и вздорный нравъ. Начнетъ добиваться и тутъ заспоритъ и вздоръ сдѣлаетъ.
+       Князь Николай Иванычъ былъ очень огорченъ и недоволенъ. Онъ любилъ жить такъ, чтобы все честно, смирно, тихо было. А тутъ такая пакость у него на дворѣ сдѣлалась. Смущала его мысль о томъ, что не виноватъ ли въ этомъ братъ меньшой Павлушка, жившій у него съ учителемъ, и свои дѣвки, и еще смущало то, какъ жена
+       <del>
+        и
+       </del>
+       свояченя на это посмотрятъ: особенно боялся онъ жены, зная ея горячій и вздорный нравъ. Начнетъ добиваться и тутъ заспоритъ и вздоръ сдѣлаетъ.
       </span>
       <span data-class="paragraph" id="b2fd7ca7-ab56-4b48-a04c-16e1f48a5c56" rend="left">
        Когда
@@ -14209,7 +14332,10 @@
          Марѳушка
         </orig>
        </choice>
-       . Кривошея <del>?</del>
+       . Кривошея
+       <del>
+        ?
+       </del>
        <choice>
         <reg>
          девка
@@ -14348,7 +14474,8 @@
        во всем повинилась.
       </span>
      </note>
-    </p><p id="a88771a3-759f-4c63-b910-864d2f5d4371" rend="left">
+    </p>
+    <p id="a88771a3-759f-4c63-b910-864d2f5d4371" rend="left">
      <pb n="311"/>
      Собою Князь
      <choice>
@@ -14898,8 +15025,13 @@
       </orig>
      </choice>
      <pb n="312"/>
-     черномъ и вела жизнь монашескую, была худая, строгая; рѣдко говорила и никогда не смѣялась. Кромѣ нея и ея попа и старуш<del>ки</del> жили въ домѣ Павелъ съ учителемъ, старичокъ у Князя и двѣ сиротки.
-    </p><p id="f58617f7-7525-46af-8bce-8a08061a3411" rend="center">
+     черномъ и вела жизнь монашескую, была худая, строгая; рѣдко говорила и никогда не смѣялась. Кромѣ нея и ея попа и старуш
+     <del>
+      ки
+     </del>
+     жили въ домѣ Павелъ съ учителемъ, старичокъ у Князя и двѣ сиротки.
+    </p>
+    <p id="f58617f7-7525-46af-8bce-8a08061a3411" rend="center">
      III.
      <add n="n411" stage="в подлиннике">
       <span data-class="paragraph" id="ecc5a0d0-0b95-42e3-8f74-28fa2a23a1f7" rend="left">
@@ -15529,16 +15661,18 @@
        онъ
       </orig>
      </choice>
-     <del>ненавидя
-     <choice>
-      <reg>
-       немцов
-      </reg>
-      <orig>
-       нѣмцовъ
-      </orig>
-     </choice>
-     </del>, по смерти своего родителя
+     <del>
+      ненавидя
+      <choice>
+       <reg>
+        немцов
+       </reg>
+       <orig>
+        нѣмцовъ
+       </orig>
+      </choice>
+     </del>
+     , по смерти своего родителя
      <choice>
       <reg>
        в
@@ -15633,25 +15767,27 @@
        съ
       </orig>
      </choice>
-     братьями вотчину — село Вяземское <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     300
-     <choice>
-      <reg>
-       душ
-      </reg>
-      <orig>
-       душъ
-      </orig>
-     </choice>
-     </del>,
+     братьями вотчину — село Вяземское
+     <del>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      300
+      <choice>
+       <reg>
+        душ
+       </reg>
+       <orig>
+        душъ
+       </orig>
+      </choice>
+     </del>
+     ,
      <choice>
       <reg>
        в
@@ -15890,7 +16026,8 @@
       </orig>
      </choice>
      малую часть для
-    </p><p id="d2c0260a-1850-4862-b217-0048aff08c00" rend="left" xml:id="i4"/>
+    </p>
+    <p id="d2c0260a-1850-4862-b217-0048aff08c00" rend="left" xml:id="i4"/>
     <p id="5be12842-ea1c-450b-8194-976170f291c2">
      <pb n="313"/>
     </p>
@@ -15953,15 +16090,16 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       Хотьков
-      </reg>
-      <orig>
-       Хотьковъ
-      </orig>
-     </choice>
-     </del> монастырь
+      <choice>
+       <reg>
+        Хотьков
+       </reg>
+       <orig>
+        Хотьковъ
+       </orig>
+      </choice>
+     </del>
+     монастырь
      <choice>
       <reg>
        под
@@ -15988,7 +16126,8 @@
       </orig>
      </choice>
      .
-    </p><p id="1cb9d462-f7f1-4de9-b17a-cf908f36cccb" rend="left">
+    </p>
+    <p id="1cb9d462-f7f1-4de9-b17a-cf908f36cccb" rend="left">
      «
      <choice>
       <reg>
@@ -16389,7 +16528,10 @@
        въ
       </orig>
      </choice>
-     свое село Вяземское. Княгиня была женщина здоровая, добрая, <del>хотя и горячая,</del>
+     свое село Вяземское. Княгиня была женщина здоровая, добрая,
+     <del>
+      хотя и горячая,
+     </del>
      <choice>
       <reg>
        именье
@@ -16407,32 +16549,36 @@
        нихъ
       </orig>
      </choice>
-     было достаточное <del>и
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       каждым
-      </reg>
-      <orig>
-       каждымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       годом
-      </reg>
-      <orig>
-       годомъ
-      </orig>
-     </choice>
-     увеличивалось по степенной жизни и разумному хозяйству Князя Николая Ивановича.</del> Родные братья и двоюродные любили и уважали
+     было достаточное
+     <del>
+      и
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        каждым
+       </reg>
+       <orig>
+        каждымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        годом
+       </reg>
+       <orig>
+        годомъ
+       </orig>
+      </choice>
+      увеличивалось по степенной жизни и разумному хозяйству Князя Николая Ивановича.
+     </del>
+     Родные братья и двоюродные любили и уважали
      <choice>
       <reg>
        старшего
@@ -16509,77 +16655,81 @@
        деревнѣ
       </orig>
      </choice>
-     . <del>И во
-     <choice>
-      <reg>
-       всех
-      </reg>
-      <orig>
-       всѣхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       делах
-      </reg>
-      <orig>
-       дѣлахъ
-      </orig>
-     </choice>
-     ему
-     <choice>
-      <reg>
-       бывал
-      </reg>
-      <orig>
-       бывалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       успех
-      </reg>
-      <orig>
-       успѣхъ
-      </orig>
-     </choice>
-     за
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     эти первые 10
-     <choice>
-      <reg>
-       лет
-      </reg>
-      <orig>
-       лѣтъ
-      </orig>
-     </choice>
-     деревенской жизни,
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     1752 по 1762
-     <choice>
-      <reg>
-       год
-      </reg>
-      <orig>
-       годъ
-      </orig>
-     </choice>
-     .</del> И
+     .
+     <del>
+      И во
+      <choice>
+       <reg>
+        всех
+       </reg>
+       <orig>
+        всѣхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        делах
+       </reg>
+       <orig>
+        дѣлахъ
+       </orig>
+      </choice>
+      ему
+      <choice>
+       <reg>
+        бывал
+       </reg>
+       <orig>
+        бывалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        успех
+       </reg>
+       <orig>
+        успѣхъ
+       </orig>
+      </choice>
+      за
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      эти первые 10
+      <choice>
+       <reg>
+        лет
+       </reg>
+       <orig>
+        лѣтъ
+       </orig>
+      </choice>
+      деревенской жизни,
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      1752 по 1762
+      <choice>
+       <reg>
+        год
+       </reg>
+       <orig>
+        годъ
+       </orig>
+      </choice>
+      .
+     </del>
+     И
      <choice>
       <reg>
        сам
@@ -16761,7 +16911,8 @@
       </orig>
      </choice>
      .
-    </p><p id="5863b83d-b455-4023-b7b3-080f1e20df83" rend="left">
+    </p>
+    <p id="5863b83d-b455-4023-b7b3-080f1e20df83" rend="left">
      <choice>
       <reg>
        Перемена
@@ -16988,7 +17139,11 @@
        Богъ
       </orig>
      </choice>
-     сына <del>Михаила</del>, но
+     сына
+     <del>
+      Михаила
+     </del>
+     , но
      <choice>
       <reg>
        ребенок
@@ -17014,7 +17169,11 @@
        потомъ
       </orig>
      </choice>
-     родилась дочь <del>Наталья</del>.
+     родилась дочь
+     <del>
+      Наталья
+     </del>
+     .
      <choice>
       <reg>
        Потом
@@ -17401,7 +17560,8 @@
       </orig>
      </choice>
      это было темно. —
-    </p><p id="3ee1029f-2d5a-4dde-9848-21efcf57283d" rend="left">
+    </p>
+    <p id="3ee1029f-2d5a-4dde-9848-21efcf57283d" rend="left">
      Это было
      <choice>
       <reg>
@@ -17428,14 +17588,14 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       Хатьковском
-      </reg>
-      <orig>
-       Хатьковскомъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        Хатьковском
+       </reg>
+       <orig>
+        Хатьковскомъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -17967,7 +18127,8 @@
       </orig>
      </choice>
      ».
-    </p><p id="b9531a82-9adf-42a2-936e-c1c3e97de811" rend="left">
+    </p>
+    <p id="b9531a82-9adf-42a2-936e-c1c3e97de811" rend="left">
      —
      <choice>
       <reg>
@@ -19202,41 +19363,44 @@
        —младенецъ
       </orig>
      </choice>
-     , <del>голый,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     есть,
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       дерюжке
-      </reg>
-      <orig>
-       дерюжкѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       завернут
-      </reg>
-      <orig>
-       завернутъ
-      </orig>
-     </choice>
-     </del>.
+     ,
+     <del>
+      голый,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      есть,
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        дерюжке
+       </reg>
+       <orig>
+        дерюжкѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        завернут
+       </reg>
+       <orig>
+        завернутъ
+       </orig>
+      </choice>
+     </del>
+     .
      <choice>
       <reg>
        Калмык
@@ -19490,7 +19654,8 @@
       </orig>
      </choice>
      не было.
-    </p><p id="2746db6f-7e56-4d8b-b553-bc62a556ff13" rend="left">
+    </p>
+    <p id="2746db6f-7e56-4d8b-b553-bc62a556ff13" rend="left">
      &lt;Ни&gt; креста на
      <choice>
       <reg>
@@ -20841,7 +21006,11 @@
        кричитъ
       </orig>
      </choice>
-     . И <del>сама</del> до двора
+     . И
+     <del>
+      сама
+     </del>
+     до двора
      <choice>
       <reg>
        добежала
@@ -21043,7 +21212,11 @@
        мнѣ
       </orig>
      </choice>
-     . — Я испугалась, <del>перекрестилась</del> и ну
+     . — Я испугалась,
+     <del>
+      перекрестилась
+     </del>
+     и ну
      <choice>
       <reg>
        бежать
@@ -21078,16 +21251,20 @@
        къ
       </orig>
      </choice>
-     барскому двору. <del>А
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     за мной.</del> Оглянулась, а
+     барскому двору.
+     <del>
+      А
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      за мной.
+     </del>
+     Оглянулась, а
      <choice>
       <reg>
        он
@@ -21140,7 +21317,8 @@
       </orig>
      </choice>
      домой». —
-    </p><p id="54ff69b0-3426-4c38-82c9-85f4f407987a" rend="left">
+    </p>
+    <p id="54ff69b0-3426-4c38-82c9-85f4f407987a" rend="left">
      Все это она
      <choice>
       <reg>
@@ -21251,303 +21429,306 @@
      головой.
     </p>
     <p id="26d5ab66-3ee8-4861-ae60-dcefcc7b80c2" rend="left">
-     <del>Волостный голова
-     <choice>
-      <reg>
-       велел
-      </reg>
-      <orig>
-       велѣлъ
-      </orig>
-     </choice>
-     отвести ее старику домой и ребенка
-     <choice>
-      <reg>
-       велел
-      </reg>
-      <orig>
-       велѣлъ
-      </orig>
-     </choice>
-     взять
-     <choice>
-      <reg>
-       от
-      </reg>
-      <orig>
-       отъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Земского
-      </reg>
-      <orig>
-       Земскаго
-      </orig>
-     </choice>
+     <del>
+      Волостный голова
+      <choice>
+       <reg>
+        велел
+       </reg>
+       <orig>
+        велѣлъ
+       </orig>
+      </choice>
+      отвести ее старику домой и ребенка
+      <choice>
+       <reg>
+        велел
+       </reg>
+       <orig>
+        велѣлъ
+       </orig>
+      </choice>
+      взять
+      <choice>
+       <reg>
+        от
+       </reg>
+       <orig>
+        отъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Земского
+       </reg>
+       <orig>
+        Земскаго
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Старик
+       </reg>
+       <orig>
+        Старикъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      волостной
+      <choice>
+       <reg>
+        избе
+       </reg>
+       <orig>
+        избѣ
+       </orig>
+      </choice>
+      все
+      <choice>
+       <reg>
+        молчал
+       </reg>
+       <orig>
+        молчалъ
+       </orig>
+      </choice>
+      и ничего не
+      <choice>
+       <reg>
+        сказал
+       </reg>
+       <orig>
+        сказалъ
+       </orig>
+      </choice>
+      ни дочери, ни
+      <choice>
+       <reg>
+        голове
+       </reg>
+       <orig>
+        головѣ
+       </orig>
+      </choice>
+      и молча
+      <choice>
+       <reg>
+        отвел
+       </reg>
+       <orig>
+        отвелъ
+       </orig>
+      </choice>
+      дочь домой и
+      <choice>
+       <reg>
+        привязал
+       </reg>
+       <orig>
+        привязалъ
+       </orig>
+      </choice>
+      ее
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сохе
+       </reg>
+       <orig>
+        сохѣ
+       </orig>
+      </choice>
+      на
+      <choice>
+       <reg>
+        дворе
+       </reg>
+       <orig>
+        дворѣ
+       </orig>
+      </choice>
+      . И матери
+      <choice>
+       <reg>
+        велел
+       </reg>
+       <orig>
+        велѣлъ
+       </orig>
+      </choice>
+      уйти и не выходить
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      нему,
+      <choice>
+       <reg>
+        потом
+       </reg>
+       <orig>
+        потомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        взял
+       </reg>
+       <orig>
+        взялъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        кнут
+       </reg>
+       <orig>
+        кнутъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        бил
+       </reg>
+       <orig>
+        билъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        кнутом
+       </reg>
+       <orig>
+        кнутомъ
+       </orig>
+      </choice>
+      дочь до
+      <choice>
+       <reg>
+        тех
+       </reg>
+       <orig>
+        тѣхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        пор
+       </reg>
+       <orig>
+        поръ
+       </orig>
+      </choice>
+      , что она кричать перестала. Тогда
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        кликнул
+       </reg>
+       <orig>
+        кликнулъ
+       </orig>
+      </choice>
+      старуху,
+      <choice>
+       <reg>
+        пособил
+       </reg>
+       <orig>
+        пособилъ
+       </orig>
+      </choice>
+      ей отвязать
+      <choice original_editorial_correction="затянувшие[ся]">
+       <sic>
+        затянувшие
+       </sic>
+       <corr>
+        затянувшиеся
+       </corr>
+      </choice>
+      узлы,
+      <choice>
+       <reg>
+        запрег
+       </reg>
+       <orig>
+        запрегъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        телегу
+       </reg>
+       <orig>
+        телѣгу
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        насыпал
+       </reg>
+       <orig>
+        насыпалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        овес
+       </reg>
+       <orig>
+        овесъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        поехал
+       </reg>
+       <orig>
+        поѣхалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сеять
+       </reg>
+       <orig>
+        сѣять
+       </orig>
+      </choice>
+     </del>
      .
-     <choice>
-      <reg>
-       Старик
-      </reg>
-      <orig>
-       Старикъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     волостной
-     <choice>
-      <reg>
-       избе
-      </reg>
-      <orig>
-       избѣ
-      </orig>
-     </choice>
-     все
-     <choice>
-      <reg>
-       молчал
-      </reg>
-      <orig>
-       молчалъ
-      </orig>
-     </choice>
-     и ничего не
-     <choice>
-      <reg>
-       сказал
-      </reg>
-      <orig>
-       сказалъ
-      </orig>
-     </choice>
-     ни дочери, ни
-     <choice>
-      <reg>
-       голове
-      </reg>
-      <orig>
-       головѣ
-      </orig>
-     </choice>
-     и молча
-     <choice>
-      <reg>
-       отвел
-      </reg>
-      <orig>
-       отвелъ
-      </orig>
-     </choice>
-     дочь домой и
-     <choice>
-      <reg>
-       привязал
-      </reg>
-      <orig>
-       привязалъ
-      </orig>
-     </choice>
-     ее
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сохе
-      </reg>
-      <orig>
-       сохѣ
-      </orig>
-     </choice>
-     на
-     <choice>
-      <reg>
-       дворе
-      </reg>
-      <orig>
-       дворѣ
-      </orig>
-     </choice>
-     . И матери
-     <choice>
-      <reg>
-       велел
-      </reg>
-      <orig>
-       велѣлъ
-      </orig>
-     </choice>
-     уйти и не выходить
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     нему,
-     <choice>
-      <reg>
-       потом
-      </reg>
-      <orig>
-       потомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       взял
-      </reg>
-      <orig>
-       взялъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       кнут
-      </reg>
-      <orig>
-       кнутъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       бил
-      </reg>
-      <orig>
-       билъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       кнутом
-      </reg>
-      <orig>
-       кнутомъ
-      </orig>
-     </choice>
-     дочь до
-     <choice>
-      <reg>
-       тех
-      </reg>
-      <orig>
-       тѣхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       пор
-      </reg>
-      <orig>
-       поръ
-      </orig>
-     </choice>
-     , что она кричать перестала. Тогда
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       кликнул
-      </reg>
-      <orig>
-       кликнулъ
-      </orig>
-     </choice>
-     старуху,
-     <choice>
-      <reg>
-       пособил
-      </reg>
-      <orig>
-       пособилъ
-      </orig>
-     </choice>
-     ей отвязать
-     <choice original_editorial_correction="затянувшие[ся]">
-      <sic>
-       затянувшие
-      </sic>
-      <corr>
-       затянувшиеся
-      </corr>
-     </choice>
-     узлы,
-     <choice>
-      <reg>
-       запрег
-      </reg>
-      <orig>
-       запрегъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       телегу
-      </reg>
-      <orig>
-       телѣгу
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       насыпал
-      </reg>
-      <orig>
-       насыпалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       овес
-      </reg>
-      <orig>
-       овесъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       поехал
-      </reg>
-      <orig>
-       поѣхалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сеять
-      </reg>
-      <orig>
-       сѣять
-      </orig>
-     </choice>
-     </del>.
-    </p><p id="aed79988-206e-4ccd-92a7-d1f1b0a9623f" rend="left">
+    </p>
+    <p id="aed79988-206e-4ccd-92a7-d1f1b0a9623f" rend="left">
      Князь
      <name placement="text" ref="3715" type="person">
       Николай
@@ -21628,8 +21809,17 @@
        половиной
       </span>
      </add>
-     все уже узнали <del>отъ калмыченка и промежду много было смѣху надъ Княземъ Павломъ, какъ ему мальчика дѣвка подкинула.</del> Старушка Княгиня <del>монахиня</del> сказала сыну и невѣсткѣ, что мальчишку этаго можетъ на счастье подкинули, что его отдавать не надо, а записать за собой, что онъ можетъ быть слугой будетъ ея крестнику, а что только надо грѣхъ прикрыть.
-    </p><p id="b7ebedec-c754-424b-926e-826f789bc183" rend="left">
+     все уже узнали
+     <del>
+      отъ калмыченка и промежду много было смѣху надъ Княземъ Павломъ, какъ ему мальчика дѣвка подкинула.
+     </del>
+     Старушка Княгиня
+     <del>
+      монахиня
+     </del>
+     сказала сыну и невѣсткѣ, что мальчишку этаго можетъ на счастье подкинули, что его отдавать не надо, а записать за собой, что онъ можетъ быть слугой будетъ ея крестнику, а что только надо грѣхъ прикрыть.
+    </p>
+    <p id="b7ebedec-c754-424b-926e-826f789bc183" rend="left">
      Князь
      <choice>
       <reg>
@@ -22210,15 +22400,17 @@
      матери.
     </p>
     <p id="4051ae45-32bb-4477-b800-9be5c6281937" rend="left">
-     После <del>Князя
-     <choice>
-      <reg>
-       Василия
-      </reg>
-      <orig>
-       Василiя
-      </orig>
-     </choice>
+     После
+     <del>
+      Князя
+      <choice>
+       <reg>
+        Василия
+       </reg>
+       <orig>
+        Василiя
+       </orig>
+      </choice>
      </del>
      <name placement="text" ref="3714" type="person">
       Михаилы
@@ -22296,25 +22488,29 @@
        молодаго
       </orig>
      </choice>
-     попа Евграфа <del>и привезли
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     Москвы по
-     <choice>
-      <reg>
-       желанию
-      </reg>
-      <orig>
-       желанiю
-      </orig>
-     </choice>
-     Княгини Француза Жубера</del> и, чтобы не скучно было ему одному учиться,
+     попа Евграфа
+     <del>
+      и привезли
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      Москвы по
+      <choice>
+       <reg>
+        желанию
+       </reg>
+       <orig>
+        желанiю
+       </orig>
+      </choice>
+      Княгини Француза Жубера
+     </del>
+     и, чтобы не скучно было ему одному учиться,
      <choice>
       <reg>
        с
@@ -22415,7 +22611,15 @@
        всѣхъ
       </orig>
      </choice>
-     детей и <del>добротой</del> и <del>еще больше</del> остротой
+     детей и
+     <del>
+      добротой
+     </del>
+     и
+     <del>
+      еще больше
+     </del>
+     остротой
      <choice>
       <reg>
        к
@@ -22781,129 +22985,133 @@
        Василiй
       </orig>
      </choice>
-     . <del>Девяти
-     <choice>
-      <reg>
-       лет
-      </reg>
-      <orig>
-       лѣтъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     уже
-     <choice>
-      <reg>
-       читал
-      </reg>
-      <orig>
-       читалъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       писал
-      </reg>
-      <orig>
-       писалъ
-      </orig>
-     </choice>
-     по французски, и
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     часто
-     <choice>
-      <reg>
-       говорил
-      </reg>
-      <orig>
-       говорилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       своим
-      </reg>
-      <orig>
-       своимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Эрнест
-      </reg>
-      <orig>
-       Эрнестъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Егорычем
-      </reg>
-      <orig>
-       Егорычемъ
-      </orig>
-     </choice>
-     , что Князь Николай
-     <choice>
-      <reg>
-       Иванович
-      </reg>
-      <orig>
-       Ивановичъ
-      </orig>
-     </choice>
-     , мало
-     <choice>
-      <reg>
-       знавший
-      </reg>
-      <orig>
-       знавшiй
-      </orig>
-     </choice>
-     по французски,
-     <choice>
-      <reg>
-       уж
-      </reg>
-      <orig>
-       ужъ
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       понимал
-      </reg>
-      <orig>
-       понималъ
-      </orig>
-     </choice>
-     его.</del>
-    </p><p id="4f0b0091-72a8-4239-a376-b6c57e738830" rend="left">
+     .
+     <del>
+      Девяти
+      <choice>
+       <reg>
+        лет
+       </reg>
+       <orig>
+        лѣтъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      уже
+      <choice>
+       <reg>
+        читал
+       </reg>
+       <orig>
+        читалъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        писал
+       </reg>
+       <orig>
+        писалъ
+       </orig>
+      </choice>
+      по французски, и
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      часто
+      <choice>
+       <reg>
+        говорил
+       </reg>
+       <orig>
+        говорилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        своим
+       </reg>
+       <orig>
+        своимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Эрнест
+       </reg>
+       <orig>
+        Эрнестъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Егорычем
+       </reg>
+       <orig>
+        Егорычемъ
+       </orig>
+      </choice>
+      , что Князь Николай
+      <choice>
+       <reg>
+        Иванович
+       </reg>
+       <orig>
+        Ивановичъ
+       </orig>
+      </choice>
+      , мало
+      <choice>
+       <reg>
+        знавший
+       </reg>
+       <orig>
+        знавшiй
+       </orig>
+      </choice>
+      по французски,
+      <choice>
+       <reg>
+        уж
+       </reg>
+       <orig>
+        ужъ
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        понимал
+       </reg>
+       <orig>
+        понималъ
+       </orig>
+      </choice>
+      его.
+     </del>
+    </p>
+    <p id="4f0b0091-72a8-4239-a376-b6c57e738830" rend="left">
      Девяти же лѣтъ Васиньку возили къ бабушкѣ, и ему очень полюбилось у нея. Полюбилась ему тишина, чистота кельи, доброта и ласка бабушки и добрыхъ старушекъ монахинь и великолѣпіе службъ. Тишину движеній монахинь, выходившихъ съ клироса и становившихся полукругомъ, ихъ поклоны игуменье и
      <ref target="#note436">
       436
@@ -22919,7 +23127,11 @@
        </hi>
       </span>
      </note>
-     ихъ стройное пѣніе. Бабушка же и Гавриловна, ея послушница, и другія монахини полюбили мальчика, такъ что не могли нарадоваться на него. Бабушка не отпускала отъ себя внука и по зимамъ маленькій Князекъ больше жилъ въ монастырѣ, чѣмъ дома. Монахини и учили его. Княгиня мать <del>поторопилась уехать домой, потому</del>, что боялась того, чего желала бабушка, чтобы мальчикъ не слишкомъ полюбилъ эту
+     ихъ стройное пѣніе. Бабушка же и Гавриловна, ея послушница, и другія монахини полюбили мальчика, такъ что не могли нарадоваться на него. Бабушка не отпускала отъ себя внука и по зимамъ маленькій Князекъ больше жилъ въ монастырѣ, чѣмъ дома. Монахини и учили его. Княгиня мать
+     <del>
+      поторопилась уехать домой, потому
+     </del>
+     , что боялась того, чего желала бабушка, чтобы мальчикъ не слишкомъ полюбилъ эту
      <ref target="#note437">
       437
      </ref>
@@ -22980,7 +23192,8 @@
       </orig>
      </choice>
      монашество.
-    </p></div>
+    </p>
+   </div>
   </body>
  </text>
 </TEI>

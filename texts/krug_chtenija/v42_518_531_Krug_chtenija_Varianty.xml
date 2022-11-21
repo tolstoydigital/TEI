@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v42_518_531_Krug_chtenija_Varianty">
-                    Круг Чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения. Божеское и человеческое</title>
-                <title type="sub">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4d02442f-4720-4ce7-ae05-515a78cc2425">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Варианты
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">42</biblScope>
-                        <biblScope unit="page">518-531</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1906"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#not_publ" target="published"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#Tolstoy" target="author"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v42_518_531_Krug_chtenija_Varianty">
+     Круг Чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения. Божеское и человеческое
+    </title>
+    <title type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4d02442f-4720-4ce7-ae05-515a78cc2425">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Варианты
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       42
+      </biblScope>
+      <biblScope unit="page">
+       518-531
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1906"/>
+   </creation>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#not_publ" target="published"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000007009">
     <p id="124c378c-74ef-4cd0-bff6-0cb9c8240b69">
@@ -511,9 +523,12 @@
      и продолжал писать
      <ref target="#note214">
       214
-     </ref><note index="false" xml:id="note214">
+     </ref>
+     <note index="false" xml:id="note214">
       <span data-class="paragraph" id="8ea9199e-e5af-4b49-9853-59ed2db42171" rend="left">
-       <del>успокоившись немного</del>
+       <del>
+        успокоившись немного
+       </del>
       </span>
      </note>
      : «Мне объявили приговор», — писал он. То, что он сам написал про это, сделало то, что он поверил, что это будет. И это ужаснуло его. Он встал, походил по камере и, живо вспомнив о горе матери, опять сел писать.
@@ -581,7 +596,11 @@
      «Люди? Что мне до людей, о том, что они думают обо мне? Важно то, что я об них думаю, что я к ним чувствую. А я только добра хочу им. Всем, и этому городовому и этому кузнецу».
     </p>
     <p id="6c77baca-1909-45a8-afd4-2f0c68b361d6" rend="left">
-     Когда колесница въехала на Сенную площадь, и Светлогуба поразил любимый им с детства запах сена и конского навоза, он живо перенесся к счастливому времени детства <del>лошадей, кучеров</del>, беспричинной радости жизни. Такая волна молодой, бодрой, радостной жизни хлынула ему в душу, что, вспомнив то, что его ожидает, он вдруг ослабел.
+     Когда колесница въехала на Сенную площадь, и Светлогуба поразил любимый им с детства запах сена и конского навоза, он живо перенесся к счастливому времени детства
+     <del>
+      лошадей, кучеров
+     </del>
+     , беспричинной радости жизни. Такая волна молодой, бодрой, радостной жизни хлынула ему в душу, что, вспомнив то, что его ожидает, он вдруг ослабел.
      <ref target="#note216">
       216
      </ref>
@@ -592,7 +611,8 @@
        </del>
       </span>
      </note>
-    </p><p id="a27c9a24-0816-49cd-a1fc-9ff00e5dd9b0" rend="left">
+    </p>
+    <p id="a27c9a24-0816-49cd-a1fc-9ff00e5dd9b0" rend="left">
      И Светлогуб вернулся к тому состоянию, в котором он был ночью и опять весь погрузился в себя и в желание до последней минуты жить во всю силу жизни. И он забыл про себя и опять все люди, которых он видел, стали милы ему.
     </p>
     <p id="e56119ad-5f01-4e9a-a22e-53b7c853f835" rend="left">
@@ -686,18 +706,29 @@
      * № 13 (рук. № 39, к гл. XIII).
     </head>
     <p id="674c1acd-202b-45cd-a0ac-6b094dd657a0" rend="left">
-     Меженецкий давно уже ненавидел царя, министров, губернаторов, богачей, купцов, дворян, попов, ненавидел <del>возненавидел</del> теперь и этот идиотский народ с своей верой в присягу, царя
+     Меженецкий давно уже ненавидел царя, министров, губернаторов, богачей, купцов, дворян, попов, ненавидел
+     <del>
+      возненавидел
+     </del>
+     теперь и этот идиотский народ с своей верой в присягу, царя
      <ref target="#note218">
       218
-     </ref><note index="false" xml:id="note218">
+     </ref>
+     <note index="false" xml:id="note218">
       <span data-class="paragraph" id="e5664e56-2fc2-4e71-89c4-e3c675238cb7" rend="left">
-       <del>в Иверские</del>
+       <del>
+        в Иверские
+       </del>
       </span>
      </note>
      и в каких-то агнцев, но больше всего возненавидел этих новых людей, с такой уверенностью решающих все вопросы.
-    </p><p id="8ee05b3a-949d-469d-b374-065a67177404" rend="left">
-     <del>«Правители — мерзавцы, народ — идиоты, и эти отвратительные наглые тупицы Романы с своими друзьями. И ужасно, ужасно и глупо, — сказал он себе и злобно рассмеялся горлом. — Жизнь погублена. Да, погублена из-за этих мерзавцев и идиотов».</del>
-    </p></div>
+    </p>
+    <p id="8ee05b3a-949d-469d-b374-065a67177404" rend="left">
+     <del>
+      «Правители — мерзавцы, народ — идиоты, и эти отвратительные наглые тупицы Романы с своими друзьями. И ужасно, ужасно и глупо, — сказал он себе и злобно рассмеялся горлом. — Жизнь погублена. Да, погублена из-за этих мерзавцев и идиотов».
+     </del>
+    </p>
+   </div>
   </body>
  </text>
 </TEI>

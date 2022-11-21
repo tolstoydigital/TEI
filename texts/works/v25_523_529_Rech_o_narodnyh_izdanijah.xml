@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v25_523_529_Rech_o_narodnyh_izdanijah" resp="volume_editor">
-                    [Речь о народных изданиях]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Речь о народных изданиях</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="98e620c2-9311-449d-b715-9ff541c514d1">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Речь о народных изданиях]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 25
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1937"/>
-                        </imprint>
-                        <biblScope unit="volume">25</biblScope>
-                        <biblScope unit="page">523-529</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1883"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v25_523_529_Rech_o_narodnyh_izdanijah">
+     [Речь о народных изданиях]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Речь о народных изданиях
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="98e620c2-9311-449d-b715-9ff541c514d1">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Речь о народных изданиях]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 25
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       25
+      </biblScope>
+      <biblScope unit="page">
+       523-529
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1883"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref42">
     <p id="65db7760-b1f0-4db8-a1d8-bf3584658519">
@@ -958,16 +968,19 @@
        лишеннымъ
       </orig>
      </choice>
-     его. <del>
-     <choice>
-      <reg>
-       С
-      </reg>
-      <orig>
-       Съ
-      </orig>
-     </choice>
-     другой стороны</del> и
+     его.
+     <del>
+      <choice>
+       <reg>
+        С
+       </reg>
+       <orig>
+        Съ
+       </orig>
+      </choice>
+      другой стороны
+     </del>
+     и
      <pb n="524"/>
      <choice>
       <reg>
@@ -1509,7 +1522,8 @@
        для народа.
       </span>
      </note>
-    </p><p id="ea0bb718-d8fb-4721-aa92-d1e32311ee56" rend="left">
+    </p>
+    <p id="ea0bb718-d8fb-4721-aa92-d1e32311ee56" rend="left">
      Только этими тремя причинами можно объяснить
      <choice>
       <reg>
@@ -1917,7 +1931,10 @@
        настроенiю
       </orig>
      </choice>
-     , а прямо <del>и большею частью бездарно и глупо</del>
+     , а прямо
+     <del>
+      и большею частью бездарно и глупо
+     </del>
      <choice>
       <reg>
        передают
@@ -2053,76 +2070,80 @@
        умеръ
       </orig>
      </choice>
-     счастливый и т. п. <del>Надо передать народу
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       книге
-      </reg>
-      <orig>
-       книгѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       те
-      </reg>
-      <orig>
-       тѣ
-      </orig>
-     </choice>
-     основы, то
-     <choice>
-      <reg>
-       учение
-      </reg>
-      <orig>
-       ученiе
-      </orig>
-     </choice>
-     , которое
-     <choice>
-      <reg>
-       приводит
-      </reg>
-      <orig>
-       приводитъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     такому
-     <choice>
-      <reg>
-       настроению
-      </reg>
-      <orig>
-       настроенiю
-      </orig>
-     </choice>
-     , а не самое
-     <choice>
-      <reg>
-       настроение
-      </reg>
-      <orig>
-       настроенiе
-      </orig>
-     </choice>
-     .</del> Ошибка
+     счастливый и т. п.
+     <del>
+      Надо передать народу
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        книге
+       </reg>
+       <orig>
+        книгѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        те
+       </reg>
+       <orig>
+        тѣ
+       </orig>
+      </choice>
+      основы, то
+      <choice>
+       <reg>
+        учение
+       </reg>
+       <orig>
+        ученiе
+       </orig>
+      </choice>
+      , которое
+      <choice>
+       <reg>
+        приводит
+       </reg>
+       <orig>
+        приводитъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      такому
+      <choice>
+       <reg>
+        настроению
+       </reg>
+       <orig>
+        настроенiю
+       </orig>
+      </choice>
+      , а не самое
+      <choice>
+       <reg>
+        настроение
+       </reg>
+       <orig>
+        настроенiе
+       </orig>
+      </choice>
+      .
+     </del>
+     Ошибка
      <choice>
       <reg>
        всех
@@ -2164,66 +2185,68 @@
        томъ
       </orig>
      </choice>
-     , что <del>
-     <choice>
-      <reg>
-       известное
-      </reg>
-      <orig>
-       извѣстное
-      </orig>
-     </choice>
-     такое или иное
-     <choice>
-      <reg>
-       религиозное
-      </reg>
-      <orig>
-       религiозное
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       настроение
-      </reg>
-      <orig>
-       настроенiе
-      </orig>
-     </choice>
-     , вытекающее
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       чтения
-      </reg>
-      <orig>
-       чтенiя
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       священного
-      </reg>
-      <orig>
-       священнаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Писания
-      </reg>
-      <orig>
-       Писанiя
-      </orig>
-     </choice>
-     ,</del>
+     , что
+     <del>
+      <choice>
+       <reg>
+        известное
+       </reg>
+       <orig>
+        извѣстное
+       </orig>
+      </choice>
+      такое или иное
+      <choice>
+       <reg>
+        религиозное
+       </reg>
+       <orig>
+        религiозное
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        настроение
+       </reg>
+       <orig>
+        настроенiе
+       </orig>
+      </choice>
+      , вытекающее
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        чтения
+       </reg>
+       <orig>
+        чтенiя
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        священного
+       </reg>
+       <orig>
+        священнаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Писания
+       </reg>
+       <orig>
+        Писанiя
+       </orig>
+      </choice>
+      ,
+     </del>
      <choice>
       <reg>
        может
@@ -2532,7 +2555,8 @@
       </orig>
      </choice>
      .
-    </p><p id="99ae52ee-56a1-4ff4-963a-40039d0cc063" rend="left">
+    </p>
+    <p id="99ae52ee-56a1-4ff4-963a-40039d0cc063" rend="left">
      Другой
      <choice>
       <reg>
@@ -2624,16 +2648,19 @@
        изданiя
       </orig>
      </choice>
-     — Весельчаки разные, <del>
-     <choice>
-      <reg>
-       стихотворные
-      </reg>
-      <orig>
-       стихотворныя
-      </orig>
-     </choice>
-     пакости</del>,
+     — Весельчаки разные,
+     <del>
+      <choice>
+       <reg>
+        стихотворные
+       </reg>
+       <orig>
+        стихотворныя
+       </orig>
+      </choice>
+      пакости
+     </del>
+     ,
      <hi rend="italic">
       <choice>
        <reg>
@@ -3267,7 +3294,11 @@
        нимъ
       </orig>
      </choice>
-     . А они, <del>голодные</del>, —
+     . А они,
+     <del>
+      голодные
+     </del>
+     , —
      <choice>
       <reg>
        девственны
@@ -3477,17 +3508,21 @@
        какъ
       </orig>
      </choice>
-     для ребенка годится только самая лучшая <del>и
-     <choice>
-      <reg>
-       нежная
-      </reg>
-      <orig>
-       нѣжная
-      </orig>
-     </choice>
-     </del> пища.
-    </p><p id="078c0834-611c-48bf-9ef8-d3ee4fdc1f97" rend="left">
+     для ребенка годится только самая лучшая
+     <del>
+      и
+      <choice>
+       <reg>
+        нежная
+       </reg>
+       <orig>
+        нѣжная
+       </orig>
+      </choice>
+     </del>
+     пища.
+    </p>
+    <p id="078c0834-611c-48bf-9ef8-d3ee4fdc1f97" rend="left">
      <pb n="526"/>
      <choice>
       <reg>
@@ -3727,7 +3762,11 @@
        намъ
       </orig>
      </choice>
-     кажется, <del>что</del> это самая настоящая пища, а
+     кажется,
+     <del>
+      что
+     </del>
+     это самая настоящая пища, а
      <choice>
       <reg>
        он
@@ -3808,7 +3847,8 @@
       </orig>
      </choice>
      .
-    </p><p id="615cd19e-7587-4ab8-8c73-d6075266a098" rend="left">
+    </p>
+    <p id="615cd19e-7587-4ab8-8c73-d6075266a098" rend="left">
      Всегда ли это
      <choice>
       <reg>
@@ -7465,95 +7505,98 @@
      ?
     </p>
     <p id="579013b9-a8be-4411-a42c-69b8ed015fc9" rend="left">
-     <del>Прежде всего, сообщая
-     <choice>
-      <reg>
-       друг
-      </reg>
-      <orig>
-       другъ
-      </orig>
-     </choice>
-     другу
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       те
-      </reg>
-      <orig>
-       тѣ
-      </orig>
-     </choice>
-     мысли и
-     <choice>
-      <reg>
-       знания
-      </reg>
-      <orig>
-       знанiя
-      </orig>
-     </choice>
-     <pb n="529"/>
-     <choice>
-      <reg>
-       великих
-      </reg>
-      <orig>
-       великихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       умов
-      </reg>
-      <orig>
-       умовъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       которые
-      </reg>
-      <orig>
-       которыя
-      </orig>
-     </choice>
-     были, излагая
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     книги
-     <choice>
-      <reg>
-       доступным
-      </reg>
-      <orig>
-       доступнымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       языком
-      </reg>
-      <orig>
-       языкомъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="760c3a2b-2bef-441d-ae83-29853aa1a7f7" rend="left">
+     <del>
+      Прежде всего, сообщая
+      <choice>
+       <reg>
+        друг
+       </reg>
+       <orig>
+        другъ
+       </orig>
+      </choice>
+      другу
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        те
+       </reg>
+       <orig>
+        тѣ
+       </orig>
+      </choice>
+      мысли и
+      <choice>
+       <reg>
+        знания
+       </reg>
+       <orig>
+        знанiя
+       </orig>
+      </choice>
+      <pb n="529"/>
+      <choice>
+       <reg>
+        великих
+       </reg>
+       <orig>
+        великихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        умов
+       </reg>
+       <orig>
+        умовъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        которые
+       </reg>
+       <orig>
+        которыя
+       </orig>
+      </choice>
+      были, излагая
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      книги
+      <choice>
+       <reg>
+        доступным
+       </reg>
+       <orig>
+        доступнымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        языком
+       </reg>
+       <orig>
+        языкомъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="760c3a2b-2bef-441d-ae83-29853aa1a7f7" rend="left">
      <ref target="#note79">
       79
      </ref>

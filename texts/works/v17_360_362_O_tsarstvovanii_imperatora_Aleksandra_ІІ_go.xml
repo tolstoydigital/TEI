@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_360_362_O_tsarstvovanii_imperatora_Aleksandra_ІІ_go" resp="volume_editor">
-                    [О царствовании императора Александра ІІ-го]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">О царствовании императора Александра ІІ-го</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="f20978b0-287c-4e50-8285-335df0e86d66">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [О царствовании императора Александра ІІ-го]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">360-362</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1877"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#polit_social" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_360_362_O_tsarstvovanii_imperatora_Aleksandra_ІІ_go">
+     [О царствовании императора Александра ІІ-го]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     О царствовании императора Александра ІІ-го
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="f20978b0-287c-4e50-8285-335df0e86d66">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [О царствовании императора Александра ІІ-го]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       360-362
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1877"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#polit_social" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011020">
     <p id="933f8a38-0f7a-4d37-98a0-d5f72b649322">
@@ -115,98 +125,100 @@
     </p>
     <p id="ac919104-b76d-49d2-969b-0f75f9cca5f8" rend="left">
      <del>
-     <choice>
-      <reg>
-       С
-      </reg>
-      <orig>
-       Съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       началом
-      </reg>
-      <orig>
-       началомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нового
-      </reg>
-      <orig>
-       новаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нынешнего
-      </reg>
-      <orig>
-       нынѣшняго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       царствования
-      </reg>
-      <orig>
-       царствованiя
-      </orig>
-     </choice>
-     началось и новое царство,
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       называемого
-      </reg>
-      <orig>
-       называемаго
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       общественного
-      </reg>
-      <orig>
-       общественнаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мнения
-      </reg>
-      <orig>
-       мнѣнiя
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       России
-      </reg>
-      <orig>
-       Россiи
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="25e32b75-1998-4f0e-855c-d84a86c85397" rend="left">
+      <choice>
+       <reg>
+        С
+       </reg>
+       <orig>
+        Съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        началом
+       </reg>
+       <orig>
+        началомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нового
+       </reg>
+       <orig>
+        новаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нынешнего
+       </reg>
+       <orig>
+        нынѣшняго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        царствования
+       </reg>
+       <orig>
+        царствованiя
+       </orig>
+      </choice>
+      началось и новое царство,
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        называемого
+       </reg>
+       <orig>
+        называемаго
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        общественного
+       </reg>
+       <orig>
+        общественнаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мнения
+       </reg>
+       <orig>
+        мнѣнiя
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        России
+       </reg>
+       <orig>
+        Россiи
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="25e32b75-1998-4f0e-855c-d84a86c85397" rend="left">
      Правительство
      <choice>
       <reg>
@@ -1119,7 +1131,11 @@
      </choice>
      , пишущих,
      <pb n="361"/>
-     мнѣніе образованной толпы, (я не называю мнѣніе этихъ людей обществен[нымъ] мнѣніемъ по причинамъ, которыя я объясню послѣ) была та самая война, во время которой произошла перемѣна царствованія. Насколько только возможно было въ приличныхъ формахъ, не оскорбляя сына Николая, осуждать его дѣйствія въ этой войнѣ, онѣ осуждались образованной толпой въ разговорахъ, рѣчахъ, въ печати. Не доставало словъ, чтобы выразить всю глупую гордость и вмѣстѣ тупость, нераспорядительность прежняго правительства въ этой войнѣ. Стоитъ вспомнить только, какъ бывшій сидѣлецъ кабаковъ Кокоревъ, отъ имени Первопрестольн[ой] Бѣлок[аменной] Москвы привѣтствовалъ севастопольск[ихъ] воиновъ и осуждалъ прежнее правительство. Войну прекратили, всѣ признали и всѣ говорили, что эта война была грубая и жалкая ошибка деспотическаго, одурѣвшаго правительства, что мы начали войну безъ дорогъ, безъ устройства для ранены[хъ], для продовольствія, и что мы опозорились этой войной, и что намъ надо учиться. — Задлеръ укралъ провіантъ, до Севастополя не было дороги, Меньшиковъ проигралъ Альминское сраженіе. Теперь <del>только</del>, когда прошло 20
+     мнѣніе образованной толпы, (я не называю мнѣніе этихъ людей обществен[нымъ] мнѣніемъ по причинамъ, которыя я объясню послѣ) была та самая война, во время которой произошла перемѣна царствованія. Насколько только возможно было въ приличныхъ формахъ, не оскорбляя сына Николая, осуждать его дѣйствія въ этой войнѣ, онѣ осуждались образованной толпой въ разговорахъ, рѣчахъ, въ печати. Не доставало словъ, чтобы выразить всю глупую гордость и вмѣстѣ тупость, нераспорядительность прежняго правительства въ этой войнѣ. Стоитъ вспомнить только, какъ бывшій сидѣлецъ кабаковъ Кокоревъ, отъ имени Первопрестольн[ой] Бѣлок[аменной] Москвы привѣтствовалъ севастопольск[ихъ] воиновъ и осуждалъ прежнее правительство. Войну прекратили, всѣ признали и всѣ говорили, что эта война была грубая и жалкая ошибка деспотическаго, одурѣвшаго правительства, что мы начали войну безъ дорогъ, безъ устройства для ранены[хъ], для продовольствія, и что мы опозорились этой войной, и что намъ надо учиться. — Задлеръ укралъ провіантъ, до Севастополя не было дороги, Меньшиковъ проигралъ Альминское сраженіе. Теперь
+     <del>
+      только
+     </del>
+     , когда прошло 20
      <ref target="#note557">
       557
      </ref>
@@ -1824,7 +1840,8 @@
       </orig>
      </choice>
      права. —
-    </p><p id="6be06abf-4726-42a9-aaac-78eee44b6cd2" rend="left">
+    </p>
+    <p id="6be06abf-4726-42a9-aaac-78eee44b6cd2" rend="left">
      <pb n="362"/>
      <choice>
       <reg>

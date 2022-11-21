@@ -1,107 +1,119 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_118_119_Son_Pervaja_redaktsija">
-                    Сон [Первая редакция]. Tolstoy Digital
-                </title>
-                <title type="main">Сон.</title>
-                <title type="sub" resp="volume_editor">Первая редакция</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="b5f2d059-b646-4017-a6d7-904ac83f4298">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Сон [Первая редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">118-119</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1868"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_118_119_Son_Pervaja_redaktsija">
+     Сон [Первая редакция]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Сон.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Первая редакция
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="b5f2d059-b646-4017-a6d7-904ac83f4298">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Сон [Первая редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       118-119
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1868"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="7ab7ec68-a276-4805-8d59-973314ceb6a4">
@@ -209,24 +221,27 @@
        колѣнами
       </orig>
      </choice>
-     жались <del>
-     <choice>
-      <reg>
-       разгоряченные
-      </reg>
-      <orig>
-       разгоряченныя
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       внимательные
-      </reg>
-      <orig>
-       внимательныя
-      </orig>
-     </choice>
-     головы</del> лица и,
+     жались
+     <del>
+      <choice>
+       <reg>
+        разгоряченные
+       </reg>
+       <orig>
+        разгоряченныя
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        внимательные
+       </reg>
+       <orig>
+        внимательныя
+       </orig>
+      </choice>
+      головы
+     </del>
+     лица и,
      <choice>
       <reg>
        как
@@ -253,16 +268,20 @@
        виднѣлись
       </orig>
      </choice>
-     головы <del>во
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     стороны</del>... — На
+     головы
+     <del>
+      во
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      стороны
+     </del>
+     ... — На
      <choice>
       <reg>
        мне
@@ -323,24 +342,25 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       которые
-      </reg>
-      <orig>
-       которыя
-      </orig>
-     </choice>
-     я
-     <choice>
-      <reg>
-       делал
-      </reg>
-      <orig>
-       дѣлалъ
-      </orig>
-     </choice>
-     </del>. Я
+      <choice>
+       <reg>
+        которые
+       </reg>
+       <orig>
+        которыя
+       </orig>
+      </choice>
+      я
+      <choice>
+       <reg>
+        делал
+       </reg>
+       <orig>
+        дѣлалъ
+       </orig>
+      </choice>
+     </del>
+     . Я
      <choice>
       <reg>
        говорил
@@ -384,34 +404,37 @@
        зналъ
       </orig>
      </choice>
-     прежде. Толпа радостно понимала меня. <del>Я
-     <choice>
-      <reg>
-       сам
-      </reg>
-      <orig>
-       самъ
-      </orig>
-     </choice>
-     удивлялся и восхищался
-     <choice>
-      <reg>
-       тем
-      </reg>
-      <orig>
-       тѣмъ
-      </orig>
-     </choice>
-     , что я
-     <choice>
-      <reg>
-       говорил
-      </reg>
-      <orig>
-       говорилъ
-      </orig>
-     </choice>
-     ; мысли</del>
+     прежде. Толпа радостно понимала меня.
+     <del>
+      Я
+      <choice>
+       <reg>
+        сам
+       </reg>
+       <orig>
+        самъ
+       </orig>
+      </choice>
+      удивлялся и восхищался
+      <choice>
+       <reg>
+        тем
+       </reg>
+       <orig>
+        тѣмъ
+       </orig>
+      </choice>
+      , что я
+      <choice>
+       <reg>
+        говорил
+       </reg>
+       <orig>
+        говорилъ
+       </orig>
+      </choice>
+      ; мысли
+     </del>
      <choice>
       <reg>
        Неистощимым
@@ -506,7 +529,10 @@
        твердъ
       </orig>
      </choice>
-     и <del>необычайно</del>
+     и
+     <del>
+      необычайно
+     </del>
      <choice>
       <reg>
        прекрасен
@@ -588,49 +614,52 @@
        на меня.
       </span>
      </note>
-     <del>Когда я невольно, но сознательно
-     <choice>
-      <reg>
-       возвышал
-      </reg>
-      <orig>
-       возвышалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       голос
-      </reg>
-      <orig>
-       голосъ
-      </orig>
-     </choice>
-     , вся толпа вздрагивала,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       человек
-      </reg>
-      <orig>
-       человѣкъ
-      </orig>
-     </choice>
-     .</del> Когда я
+     <del>
+      Когда я невольно, но сознательно
+      <choice>
+       <reg>
+        возвышал
+       </reg>
+       <orig>
+        возвышалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        голос
+       </reg>
+       <orig>
+        голосъ
+       </orig>
+      </choice>
+      , вся толпа вздрагивала,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        человек
+       </reg>
+       <orig>
+        человѣкъ
+       </orig>
+      </choice>
+      .
+     </del>
+     Когда я
      <choice>
       <reg>
        замолкал
@@ -639,7 +668,11 @@
        замолкалъ
       </orig>
      </choice>
-     , толпа <del>робко</del> отдыхая переводила дыханье. Когда я
+     , толпа
+     <del>
+      робко
+     </del>
+     отдыхая переводила дыханье. Когда я
      <choice>
       <reg>
        хотел
@@ -775,50 +808,54 @@
      <unclear>
       покорности
      </unclear>
-     и восторга <del>но я не
-     <choice>
-      <reg>
-       замечал
-      </reg>
-      <orig>
-       замѣчалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       самих
-      </reg>
-      <orig>
-       самихъ
-      </orig>
-     </choice>
-     . Они были для меня частями
-     <choice>
-      <reg>
-       одного
-      </reg>
-      <orig>
-       однаго
-      </orig>
-     </choice>
-     лица,
-     <choice>
-      <reg>
-       покоренного
-      </reg>
-      <orig>
-       покореннаго
-      </orig>
-     </choice>
-     мною</del>.
+     и восторга
+     <del>
+      но я не
+      <choice>
+       <reg>
+        замечал
+       </reg>
+       <orig>
+        замѣчалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        самих
+       </reg>
+       <orig>
+        самихъ
+       </orig>
+      </choice>
+      . Они были для меня частями
+      <choice>
+       <reg>
+        одного
+       </reg>
+       <orig>
+        однаго
+       </orig>
+      </choice>
+      лица,
+      <choice>
+       <reg>
+        покоренного
+       </reg>
+       <orig>
+        покореннаго
+       </orig>
+      </choice>
+      мною
+     </del>
+     .
      <choice>
       <reg>
        Все
@@ -1121,8 +1158,13 @@
      <unclear>
       накоторыхъготовились
      </unclear>
-     слезы. Вовзглядѣеябыла <del>насмѣшка</del> жалость и любовь, наустахъбыла легкая улыбка.Въэтомъмгновенномъвзглядѣя всепрочелъ, и всемнѣстало ясно. Она не понимала того, что яговорилъ, не могла и нехотѣлапонимать. Она нежалѣлаотомъ, что непонимаетъ, aжалѣламеня. Носълюбовнымъсожалѣньемъслушала мои слова. Она не презирала ни меня, ни толпу, ни моего восторга; она была проста, спокойна...
-    </p><p id="7d0b43f9-a71a-4216-b015-3ccb389b3fea" rend="left">
+     слезы. Вовзглядѣеябыла
+     <del>
+      насмѣшка
+     </del>
+     жалость и любовь, наустахъбыла легкая улыбка.Въэтомъмгновенномъвзглядѣя всепрочелъ, и всемнѣстало ясно. Она не понимала того, что яговорилъ, не могла и нехотѣлапонимать. Она нежалѣлаотомъ, что непонимаетъ, aжалѣламеня. Носълюбовнымъсожалѣньемъслушала мои слова. Она не презирала ни меня, ни толпу, ни моего восторга; она была проста, спокойна...
+    </p>
+    <p id="7d0b43f9-a71a-4216-b015-3ccb389b3fea" rend="left">
      Все
      <choice>
       <reg>
@@ -1236,7 +1278,11 @@
        отъ
       </orig>
      </choice>
-     меня <del>и ни разу не оглянулась</del>. Я
+     меня
+     <del>
+      и ни разу не оглянулась
+     </del>
+     . Я
      <choice>
       <reg>
        звал
@@ -1370,7 +1416,8 @@
       </orig>
      </choice>
      . —
-    </p></div>
+    </p>
+   </div>
   </body>
  </text>
 </TEI>

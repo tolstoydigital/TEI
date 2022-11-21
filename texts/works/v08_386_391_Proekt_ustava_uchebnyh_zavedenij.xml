@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v08_386_391_Proekt_ustava_uchebnyh_zavedenij" resp="volume_editor">
-                    [Проект устава учебных заведений]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Проект устава учебных заведений</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d53f0468-39bb-4d6d-abd2-fbc823540c43">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Проект устава учебных заведений]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 8
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">8</biblScope>
-                        <biblScope unit="page">386-391</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1872"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#pedagogika" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v08_386_391_Proekt_ustava_uchebnyh_zavedenij">
+     [Проект устава учебных заведений]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Проект устава учебных заведений
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d53f0468-39bb-4d6d-abd2-fbc823540c43">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Проект устава учебных заведений]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 8
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       8
+      </biblScope>
+      <biblScope unit="page">
+       386-391
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1872"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#pedagogika" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="1fd5b260-02ff-4e9d-8aa1-01e362afe592">
@@ -590,50 +600,51 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       подразделяется
-      </reg>
-      <orig>
-       подраздѣляется
-      </orig>
-     </choice>
-     на науки
-     <choice>
-      <reg>
-       историческия
-      </reg>
-      <orig>
-       историческiя
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       математическия
-      </reg>
-      <orig>
-       математическiя
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       естественные
-      </reg>
-      <orig>
-       естественныя
-      </orig>
-     </choice>
-     </del>, и
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        подразделяется
+       </reg>
+       <orig>
+        подраздѣляется
+       </orig>
+      </choice>
+      на науки
+      <choice>
+       <reg>
+        историческия
+       </reg>
+       <orig>
+        историческiя
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        математическия
+       </reg>
+       <orig>
+        математическiя
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        естественные
+       </reg>
+       <orig>
+        естественныя
+       </orig>
+      </choice>
+     </del>
+     , и
      <choice>
       <reg>
        чем
@@ -2418,25 +2429,29 @@
        ихъ
       </orig>
      </choice>
-     слабость. <del> — Самое первоначальное
-     <choice>
-      <reg>
-       образование
-      </reg>
-      <orig>
-       образованiе
-      </orig>
-     </choice>
-     ничего не
-     <choice>
-      <reg>
-       подразделяет
-      </reg>
-      <orig>
-       подраздѣляетъ
-      </orig>
-     </choice>
-     и возможно только тогда</del> и,
+     слабость.
+     <del>
+      — Самое первоначальное
+      <choice>
+       <reg>
+        образование
+       </reg>
+       <orig>
+        образованiе
+       </orig>
+      </choice>
+      ничего не
+      <choice>
+       <reg>
+        подразделяет
+       </reg>
+       <orig>
+        подраздѣляетъ
+       </orig>
+      </choice>
+      и возможно только тогда
+     </del>
+     и,
      <choice>
       <reg>
        к
@@ -2754,16 +2769,18 @@
        будетъ
       </orig>
      </choice>
-     скучный <del>
-     <choice>
-      <reg>
-       зубрильщик
-      </reg>
-      <orig>
-       зубрильщикъ
-      </orig>
-     </choice>
-     </del>,
+     скучный
+     <del>
+      <choice>
+       <reg>
+        зубрильщик
+       </reg>
+       <orig>
+        зубрильщикъ
+       </orig>
+      </choice>
+     </del>
+     ,
      <choice>
       <reg>
        педант
@@ -2962,33 +2979,35 @@
        университетѣ
       </orig>
      </choice>
-     ; <del>
-     <choice>
-      <reg>
-       один
-      </reg>
-      <orig>
-       одинъ
-      </orig>
-     </choice>
-     же учитель
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       семинарии
-      </reg>
-      <orig>
-       семинарiи
-      </orig>
-     </choice>
-     </del>.
+     ;
+     <del>
+      <choice>
+       <reg>
+        один
+       </reg>
+       <orig>
+        одинъ
+       </orig>
+      </choice>
+      же учитель
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        семинарии
+       </reg>
+       <orig>
+        семинарiи
+       </orig>
+      </choice>
+     </del>
+     .
      <choice>
       <reg>
        Могут
@@ -3014,7 +3033,10 @@
        учителѣ
       </orig>
      </choice>
-     <del>много</del> все
+     <del>
+      много
+     </del>
+     все
      <choice>
       <reg>
        зависит
@@ -3947,7 +3969,8 @@
       </orig>
      </choice>
      § 19—20 и программу § 137.
-    </p><p id="d5c19af5-6b96-4fb2-a5e4-682d516a5185" rend="left">
+    </p>
+    <p id="d5c19af5-6b96-4fb2-a5e4-682d516a5185" rend="left">
      <choice original_editorial_correction="У[чебныя]">
       <sic>
        У
@@ -4334,14 +4357,14 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       забитых
-      </reg>
-      <orig>
-       забитыхъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        забитых
+       </reg>
+       <orig>
+        забитыхъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -4863,7 +4886,8 @@
       </corr>
      </choice>
      ступенью образованья.
-    </p><p id="1d7948af-a7b4-4dea-852c-2045670b5b05" rend="normal left">
+    </p>
+    <p id="1d7948af-a7b4-4dea-852c-2045670b5b05" rend="normal left">
      <hi rend="italic">
       Грамотность
      </hi>
@@ -4932,7 +4956,11 @@
        городскими
       </corr>
      </choice>
-     ,потомъужь окончательноубѣждались, чтопервоначальныяшколы не должны быть школами грамотности, а школами,въкоторыхъдолжны бытьлучшіедѣятели(нетакіе,которыхъза наградупереводятъвъв[ысшія]) и школами, накоторыядолжно быть обращено преимущественноевниманіе.Изъвсегосказаннагополагаю что можносдѣлатьслѣдующеезаключеніе. <del>Всѣ</del>учебныяз[аведенія]не должны бытьподраздѣляемына
+     ,потомъужь окончательноубѣждались, чтопервоначальныяшколы не должны быть школами грамотности, а школами,въкоторыхъдолжны бытьлучшіедѣятели(нетакіе,которыхъза наградупереводятъвъв[ысшія]) и школами, накоторыядолжно быть обращено преимущественноевниманіе.Изъвсегосказаннагополагаю что можносдѣлатьслѣдующеезаключеніе.
+     <del>
+      Всѣ
+     </del>
+     учебныяз[аведенія]не должны бытьподраздѣляемына
      <hi rend="italic">
       ш
      </hi>
@@ -5494,7 +5522,8 @@
       </orig>
      </choice>
      ничего?
-    </p><p id="1ede40e0-f7b0-43b1-962c-524ade271938" rend="left">
+    </p>
+    <p id="1ede40e0-f7b0-43b1-962c-524ade271938" rend="left">
      <choice>
       <reg>
        Отвечу
@@ -6190,7 +6219,10 @@
        дѣйствiями
       </orig>
      </choice>
-     <del>собирало средства</del>,
+     <del>
+      собирало средства
+     </del>
+     ,
      <choice>
       <reg>
        отыскивало
@@ -6372,7 +6404,8 @@
       </orig>
      </choice>
      края.
-    </p><p id="d7806fb9-17a6-47e0-973c-7a4a7dbdb885" rend="normal left">
+    </p>
+    <p id="d7806fb9-17a6-47e0-973c-7a4a7dbdb885" rend="normal left">
      <choice>
       <reg>
        Устав
@@ -6710,22 +6743,23 @@
       </orig>
      </choice>
      <del>
-     <choice original_editorial_correction="Предс[ѣдателя]">
-      <sic>
-       Предс
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Председателя
-        </reg>
-        <orig>
-         Предсѣдателя
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     </del>,
+      <choice original_editorial_correction="Предс[ѣдателя]">
+       <sic>
+        Предс
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Председателя
+         </reg>
+         <orig>
+          Предсѣдателя
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+     </del>
+     ,
      <choice>
       <reg>
        Членов
@@ -6753,7 +6787,8 @@
       </orig>
      </choice>
      .
-    </p><p id="b8e0afe4-b919-45f8-839b-9f684a0efae8" rend="normal left">
+    </p>
+    <p id="b8e0afe4-b919-45f8-839b-9f684a0efae8" rend="normal left">
      6) Члены
      <choice>
       <reg>

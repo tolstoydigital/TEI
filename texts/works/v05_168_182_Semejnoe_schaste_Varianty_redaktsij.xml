@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v05_168_182_Semejnoe_schaste_Varianty_redaktsij">
-                    [Семейное счастье. Варианты редакций]. Tolstoy Digital
-                </title>
-                <title type="main">Семейное счастье.</title>
-                <title type="sub" resp="volume_editor">Варианты из первоначальных редакций</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d40dc68c-ee21-400d-9965-b871ab597dd2">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Семейное счастье. Варианты редакций]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 5
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">5</biblScope>
-                        <biblScope unit="page">168-182</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1859"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#roman" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_168_182_Semejnoe_schaste_Varianty_redaktsij">
+     [Семейное счастье. Варианты редакций]. Tolstoy Digital
+    </title>
+    <title type="main">
+     Семейное счастье.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты из первоначальных редакций
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d40dc68c-ee21-400d-9965-b871ab597dd2">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Семейное счастье. Варианты редакций]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       168-182
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1859"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#roman" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref9">
     <p id="cf3f803c-40cb-42da-8368-6713912d445a">
@@ -228,24 +240,27 @@
         сѣренькое
        </orig>
       </choice>
-      платье, <del>
-      <choice>
-       <reg>
-        посмотрелась
-       </reg>
-       <orig>
-        посмотрѣлась
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      зеркало</del> и пошла
+      платье,
+      <del>
+       <choice>
+        <reg>
+         посмотрелась
+        </reg>
+        <orig>
+         посмотрѣлась
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       зеркало
+      </del>
+      и пошла
       <choice>
        <reg>
         вниз
@@ -348,25 +363,29 @@
         урокъ
        </orig>
       </choice>
-      , собрала свои давно нетроганные бумаги, <del>записала свой
-      <choice>
-       <reg>
-        дневник
-       </reg>
-       <orig>
-        дневникъ
-       </orig>
-      </choice>
-      , проиграла
-      <choice>
-       <reg>
-        все
-       </reg>
-       <orig>
-        всѣ
-       </orig>
-      </choice>
-      этюды</del>, разыграла новую сонату и потащила
+      , собрала свои давно нетроганные бумаги,
+      <del>
+       записала свой
+       <choice>
+        <reg>
+         дневник
+        </reg>
+        <orig>
+         дневникъ
+        </orig>
+       </choice>
+       , проиграла
+       <choice>
+        <reg>
+         все
+        </reg>
+        <orig>
+         всѣ
+        </orig>
+       </choice>
+       этюды
+      </del>
+      , разыграла новую сонату и потащила
       <choice>
        <reg>
         всех
@@ -419,7 +438,8 @@
        </orig>
       </choice>
       .
-     </p><p id="1ecd8b48-7ff0-4ddf-8fff-d727de6d60d5" rend="left">
+     </p>
+     <p id="1ecd8b48-7ff0-4ddf-8fff-d727de6d60d5" rend="left">
       — Слышала: Сережа
       <choice>
        <reg>
@@ -531,16 +551,20 @@
         котораго
        </orig>
       </choice>
-      я привыкла любить <del>и уважать,
-      <choice>
-       <reg>
-        как
-       </reg>
-       <orig>
-        какъ
-       </orig>
-      </choice>
-      отца или дядю</del>. Сережа
+      я привыкла любить
+      <del>
+       и уважать,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       отца или дядю
+      </del>
+      . Сережа
       <choice>
        <reg>
         был
@@ -775,51 +799,55 @@
       <hi rend="italic">
        ты
       </hi>
-      , <del>Лизанька и
-      <choice>
-       <reg>
-        фиялочка
-       </reg>
-       <orig>
-        фiялочка
-       </orig>
-      </choice>
-      .
-      <choice>
-       <reg>
-        Он
-       </reg>
-       <orig>
-        Онъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        находил
-       </reg>
-       <orig>
-        находилъ
-       </orig>
-      </choice>
-      , что я похожа
-      <choice>
-       <reg>
-        лицом
-       </reg>
-       <orig>
-        лицомъ
-       </orig>
-      </choice>
-      на
-      <choice>
-       <reg>
-        фиалку
-       </reg>
-       <orig>
-        фiалку
-       </orig>
-      </choice>
-      .</del> Только 3 года тому
+      ,
+      <del>
+       Лизанька и
+       <choice>
+        <reg>
+         фиялочка
+        </reg>
+        <orig>
+         фiялочка
+        </orig>
+       </choice>
+       .
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         находил
+        </reg>
+        <orig>
+         находилъ
+        </orig>
+       </choice>
+       , что я похожа
+       <choice>
+        <reg>
+         лицом
+        </reg>
+        <orig>
+         лицомъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         фиалку
+        </reg>
+        <orig>
+         фiалку
+        </orig>
+       </choice>
+       .
+      </del>
+      Только 3 года тому
       <choice>
        <reg>
         назад
@@ -896,7 +924,8 @@
        </orig>
       </choice>
       говорить вы.
-     </p></div>
+     </p>
+    </div>
     <div type="section">
      <head n="level2" type="editorial">
       * № 2 (I ред.)
@@ -1047,95 +1076,98 @@
         видѣть
        </orig>
       </choice>
-      . <del>Мы не спали
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      Машей до
-      <choice>
-       <reg>
-        трех
-       </reg>
-       <orig>
-        трехъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        часов
-       </reg>
-       <orig>
-        часовъ
-       </orig>
-      </choice>
-      утра и все говорили о
-      <choice>
-       <reg>
-        нем
-       </reg>
-       <orig>
-        немъ
-       </orig>
-      </choice>
-      . Она тоже страстно любила его и говорила, что
-      <choice>
-       <reg>
-        нет
-       </reg>
-       <orig>
-        нѣтъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        подобного
-       </reg>
-       <orig>
-        подобнаго
-       </orig>
-      </choice>
-      ему
-      <choice>
-       <reg>
-        человека
-       </reg>
-       <orig>
-        человѣка
-       </orig>
-      </choice>
-      на
-      <choice>
-       <reg>
-        свете
-       </reg>
-       <orig>
-        свѣтѣ
-       </orig>
-      </choice>
-      . Отлично жить на
-      <choice>
-       <reg>
-        свете
-       </reg>
-       <orig>
-        свѣтѣ
-       </orig>
-      </choice>
-      ! Да, тогда отлично было жить на
-      <choice>
-       <reg>
-        свете
-       </reg>
-       <orig>
-        свѣтѣ
-       </orig>
-      </choice>
-      ....</del>
+      .
+      <del>
+       Мы не спали
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       Машей до
+       <choice>
+        <reg>
+         трех
+        </reg>
+        <orig>
+         трехъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         часов
+        </reg>
+        <orig>
+         часовъ
+        </orig>
+       </choice>
+       утра и все говорили о
+       <choice>
+        <reg>
+         нем
+        </reg>
+        <orig>
+         немъ
+        </orig>
+       </choice>
+       . Она тоже страстно любила его и говорила, что
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         подобного
+        </reg>
+        <orig>
+         подобнаго
+        </orig>
+       </choice>
+       ему
+       <choice>
+        <reg>
+         человека
+        </reg>
+        <orig>
+         человѣка
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         свете
+        </reg>
+        <orig>
+         свѣтѣ
+        </orig>
+       </choice>
+       . Отлично жить на
+       <choice>
+        <reg>
+         свете
+        </reg>
+        <orig>
+         свѣтѣ
+        </orig>
+       </choice>
+       ! Да, тогда отлично было жить на
+       <choice>
+        <reg>
+         свете
+        </reg>
+        <orig>
+         свѣтѣ
+        </orig>
+       </choice>
+       ....
+      </del>
       <choice>
        <reg>
         Он
@@ -1292,69 +1324,72 @@
         привычекъ
        </orig>
       </choice>
-      не нравились ему. <del>Я любила
-      <choice>
-       <reg>
-        соседей
-       </reg>
-       <orig>
-        сосѣдей
-       </orig>
-      </choice>
-      , наряды,
-      <choice>
-       <reg>
-        свет
-       </reg>
-       <orig>
-        свѣтъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        которого
-       </reg>
-       <orig>
-        котораго
-       </orig>
-      </choice>
-      не видала, любила изящество,
-      <choice>
-       <reg>
-        внешность
-       </reg>
-       <orig>
-        внѣшность
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        аристократизм
-       </reg>
-       <orig>
-        аристократизмъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        он
-       </reg>
-       <orig>
-        онъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        презирал
-       </reg>
-       <orig>
-        презиралъ
-       </orig>
-      </choice>
-      все это.</del>
+      не нравились ему.
+      <del>
+       Я любила
+       <choice>
+        <reg>
+         соседей
+        </reg>
+        <orig>
+         сосѣдей
+        </orig>
+       </choice>
+       , наряды,
+       <choice>
+        <reg>
+         свет
+        </reg>
+        <orig>
+         свѣтъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         которого
+        </reg>
+        <orig>
+         котораго
+        </orig>
+       </choice>
+       не видала, любила изящество,
+       <choice>
+        <reg>
+         внешность
+        </reg>
+        <orig>
+         внѣшность
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         аристократизм
+        </reg>
+        <orig>
+         аристократизмъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         презирал
+        </reg>
+        <orig>
+         презиралъ
+        </orig>
+       </choice>
+       все это.
+      </del>
       <choice>
        <reg>
         Он
@@ -1517,7 +1552,10 @@
         послѣ
        </orig>
       </choice>
-      <del>передумывая</del> я
+      <del>
+       передумывая
+      </del>
+      я
       <choice>
        <reg>
         замечала
@@ -1570,7 +1608,11 @@
         мѣсяца
        </orig>
       </choice>
-      я <del>перестала любить, что любила, начинала любить новое</del> и на Машу, на
+      я
+      <del>
+       перестала любить, что любила, начинала любить новое
+      </del>
+      и на Машу, на
       <choice>
        <reg>
         наших
@@ -1744,7 +1786,10 @@
         сдѣлались
        </orig>
       </choice>
-      для меня радостью. Учить <del>хорошо, основательно</del>
+      для меня радостью. Учить
+      <del>
+       хорошо, основательно
+      </del>
       <choice>
        <reg>
         музыкальные
@@ -1892,7 +1937,10 @@
         совсѣмъ
        </orig>
       </choice>
-      <del>иначе, лучше я стала фразировать</del> другою становилась теперь та музыка, которую я играла прежде. Маша стала для меня
+      <del>
+       иначе, лучше я стала фразировать
+      </del>
+      другою становилась теперь та музыка, которую я играла прежде. Маша стала для меня
       <choice>
        <reg>
         другим
@@ -2305,7 +2353,8 @@
        </orig>
       </choice>
       .
-     </p><p id="1565c5e4-f57c-4fae-b20f-3254a216affc" rend="left">
+     </p>
+     <p id="1565c5e4-f57c-4fae-b20f-3254a216affc" rend="left">
       <ref target="#note54">
        54
       </ref>
@@ -2449,33 +2498,36 @@
         говорилъ
        </orig>
       </choice>
-      со мной про себя. <del>
-      <choice>
-       <reg>
-        Он
-       </reg>
-       <orig>
-        Онъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        был
-       </reg>
-       <orig>
-        былъ
-       </orig>
-      </choice>
-      предводитель нашего
-      <choice>
-       <reg>
-        уезда
-       </reg>
-       <orig>
-        уѣзда
-       </orig>
-      </choice>
-      и</del> Я знала по
+      со мной про себя.
+      <del>
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       предводитель нашего
+       <choice>
+        <reg>
+         уезда
+        </reg>
+        <orig>
+         уѣзда
+        </orig>
+       </choice>
+       и
+      </del>
+      Я знала по
       <choice>
        <reg>
         деревенским
@@ -2641,16 +2693,20 @@
         говорилъ
        </orig>
       </choice>
-      : «полноте, пожалуйста, <del>болтать
-      <choice>
-       <reg>
-        вздор
-       </reg>
-       <orig>
-        вздоръ
-       </orig>
-      </choice>
-      и</del> притворяться, что
+      : «полноте, пожалуйста,
+      <del>
+       болтать
+       <choice>
+        <reg>
+         вздор
+        </reg>
+        <orig>
+         вздоръ
+        </orig>
+       </choice>
+       и
+      </del>
+      притворяться, что
       <choice>
        <reg>
         вам
@@ -2694,7 +2750,8 @@
        </orig>
       </choice>
       .
-     </p><p id="a51325e5-8b27-4205-904e-91d4124ff0bf" rend="left">
+     </p>
+     <p id="a51325e5-8b27-4205-904e-91d4124ff0bf" rend="left">
       <ref target="#note55">
        55
       </ref>
@@ -2830,110 +2887,113 @@
         какъ
        </orig>
       </choice>
-      будто дразнить меня. <del>Родинку на
-      <choice>
-       <reg>
-        щеке
-       </reg>
-       <orig>
-        щекѣ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        он
-       </reg>
-       <orig>
-        онъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        называл
-       </reg>
-       <orig>
-        называлъ
-       </orig>
-      </choice>
-      мушищей и
-      <choice>
-       <reg>
-        уверял
-       </reg>
-       <orig>
-        увѣрялъ
-       </orig>
-      </choice>
-      , что усы
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      скоро придется брить
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        мылом
-       </reg>
-       <orig>
-        мыломъ
-       </orig>
-      </choice>
-      . Красивые туалеты или куафюры
-      <choice>
-       <reg>
-        новые
-       </reg>
-       <orig>
-        новыя
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        которые
-       </reg>
-       <orig>
-        которыя
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      шли, казалось, возбуждали
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нем
-       </reg>
-       <orig>
-        немъ
-       </orig>
-      </choice>
-      отвращенье.</del>
+      будто дразнить меня.
+      <del>
+       Родинку на
+       <choice>
+        <reg>
+         щеке
+        </reg>
+        <orig>
+         щекѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         называл
+        </reg>
+        <orig>
+         называлъ
+        </orig>
+       </choice>
+       мушищей и
+       <choice>
+        <reg>
+         уверял
+        </reg>
+        <orig>
+         увѣрялъ
+        </orig>
+       </choice>
+       , что усы
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       скоро придется брить
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мылом
+        </reg>
+        <orig>
+         мыломъ
+        </orig>
+       </choice>
+       . Красивые туалеты или куафюры
+       <choice>
+        <reg>
+         новые
+        </reg>
+        <orig>
+         новыя
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         которые
+        </reg>
+        <orig>
+         которыя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       шли, казалось, возбуждали
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нем
+        </reg>
+        <orig>
+         немъ
+        </orig>
+       </choice>
+       отвращенье.
+      </del>
       <choice>
        <reg>
         Один
@@ -2967,16 +3027,20 @@
         надѣла
        </orig>
       </choice>
-      новое ярко-голубое платье, очень открытое на груди, <del>и
-      <choice>
-       <reg>
-        красные
-       </reg>
-       <orig>
-        красныя
-       </orig>
-      </choice>
-      ленты</del> и
+      новое ярко-голубое платье, очень открытое на груди,
+      <del>
+       и
+       <choice>
+        <reg>
+         красные
+        </reg>
+        <orig>
+         красныя
+        </orig>
+       </choice>
+       ленты
+      </del>
+      и
       <choice>
        <reg>
         переменила
@@ -3587,7 +3651,8 @@
        </orig>
       </choice>
       .
-     </p><p id="1e55cbb5-3458-46aa-8c89-e8f8925bddec" rend="left">
+     </p>
+     <p id="1e55cbb5-3458-46aa-8c89-e8f8925bddec" rend="left">
       <pb n="172"/>
       — A! Лизавета Александровна! здраствуйте, —
       <choice>
@@ -3701,24 +3766,28 @@
         возненавидѣли
        </orig>
       </choice>
-      ее за это сизое платье <del>я и поговорить не
-      <choice>
-       <reg>
-        смел
-       </reg>
-       <orig>
-        смѣлъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        целый
-       </reg>
-       <orig>
-        цѣлый
-       </orig>
-      </choice>
-      день</del>, и самой ей неловко было, да и не красиво. То ли
+      ее за это сизое платье
+      <del>
+       я и поговорить не
+       <choice>
+        <reg>
+         смел
+        </reg>
+        <orig>
+         смѣлъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         целый
+        </reg>
+        <orig>
+         цѣлый
+        </orig>
+       </choice>
+       день
+      </del>
+      , и самой ей неловко было, да и не красиво. То ли
       <choice>
        <reg>
         дело
@@ -3780,8 +3849,21 @@
        </orig>
       </choice>
       . —
-     </p><p id="c0671a2a-2cb6-487c-a768-bc9642ac4260" rend="left">
-      Я только улыбалась и молчала. Маша видѣла, что я нравлюсь ему, и рѣшительно не понимала, что это значило. Какъ не любить, чтобы женщина, которую любишь, выказывалась въ самомъ выгодномъ свѣтѣ? А я уже понимала, чего ему надо. Ему нужно было вѣрить, что во мнѣ нѣтъ кокетства, чтобы <del>сильнѣе</del> любить меня, и когда я поняла это, во мнѣ и тѣни не осталось кокетства нарядовъ, причесокъ, движеній. Правда, явилось тогда во мнѣ бѣлыми нитками шитое кокетство — простота, тогда, когда еще не могло быть простоты. И онъ вѣрилъ, что во мнѣ не было кокетства, а были простота и воспріимчивость, которыхъ ему хотѣлось во мнѣ. <del>Какъ часто въ это время я видѣла, какъ онъ приходилъ въ восторгъ отъ своихъ собственныхъ мыслей, которыя я ему высказывала по своему, какъ онъ наивно радовался на самаго себя, видя, воображая, что радуется на меня. Однако</del> Женщина не можетъ перестать быть кокеткой, когда ее любятъ, не можетъ не желать поддерживать обмана, состоящаго въ томъ убѣжденіи, что она лучшая женщина въ мірѣ, и я невольно обманывала его. Но и въ этомъ какъ онъ высоко поднялъ меня отъ того, что я была прежде. Какъ легче мнѣ было и достойнѣе — я чувствовала — выказывать лучшія стороны своей души, чѣмъ тѣла. Мои волосы, руки, мои привычки, какія бы онѣ не были, хорошія или дурныя, мнѣ казалось, что онъ всѣ зналъ и сразу оцѣнилъ своимъ проницательнымъ взглядомъ, такъ что я ничего кромѣ желанія обмана, ломанья не могла прибавить къ своей красотѣ, душу же мою онъ не зналъ, потому что онъ любилъ ее, потому что въ то самое время она росла и развивалась, и тутъ-то я могла и обманывала его. Притомъ какъ мнѣ легко стало, когда я ясно поняла это. Эти смущенье, стѣсненность движеній совсѣмъ изчезли во мнѣ, какъ и въ немъ. Я чувствовала, что спереди ли, съ боку, сидя или ходя онъ видѣлъ меня, съ волосами кверху или книзу, — онъ зналъ всю меня <del>(и мнѣ чуялось, любилъ меня какой я была) я не могла ни на одинъ волосъ крѣпче привязать его. Но за то</del> Я даже не знаю, была ли бы рада, ежели бы онъ вдругъ сказалъ мнѣ, что у меня глаза стали лучше. Зато какъ отрадно и свѣтло на душѣ становилось мнѣ,
+     </p>
+     <p id="c0671a2a-2cb6-487c-a768-bc9642ac4260" rend="left">
+      Я только улыбалась и молчала. Маша видѣла, что я нравлюсь ему, и рѣшительно не понимала, что это значило. Какъ не любить, чтобы женщина, которую любишь, выказывалась въ самомъ выгодномъ свѣтѣ? А я уже понимала, чего ему надо. Ему нужно было вѣрить, что во мнѣ нѣтъ кокетства, чтобы
+      <del>
+       сильнѣе
+      </del>
+      любить меня, и когда я поняла это, во мнѣ и тѣни не осталось кокетства нарядовъ, причесокъ, движеній. Правда, явилось тогда во мнѣ бѣлыми нитками шитое кокетство — простота, тогда, когда еще не могло быть простоты. И онъ вѣрилъ, что во мнѣ не было кокетства, а были простота и воспріимчивость, которыхъ ему хотѣлось во мнѣ.
+      <del>
+       Какъ часто въ это время я видѣла, какъ онъ приходилъ въ восторгъ отъ своихъ собственныхъ мыслей, которыя я ему высказывала по своему, какъ онъ наивно радовался на самаго себя, видя, воображая, что радуется на меня. Однако
+      </del>
+      Женщина не можетъ перестать быть кокеткой, когда ее любятъ, не можетъ не желать поддерживать обмана, состоящаго въ томъ убѣжденіи, что она лучшая женщина въ мірѣ, и я невольно обманывала его. Но и въ этомъ какъ онъ высоко поднялъ меня отъ того, что я была прежде. Какъ легче мнѣ было и достойнѣе — я чувствовала — выказывать лучшія стороны своей души, чѣмъ тѣла. Мои волосы, руки, мои привычки, какія бы онѣ не были, хорошія или дурныя, мнѣ казалось, что онъ всѣ зналъ и сразу оцѣнилъ своимъ проницательнымъ взглядомъ, такъ что я ничего кромѣ желанія обмана, ломанья не могла прибавить къ своей красотѣ, душу же мою онъ не зналъ, потому что онъ любилъ ее, потому что въ то самое время она росла и развивалась, и тутъ-то я могла и обманывала его. Притомъ какъ мнѣ легко стало, когда я ясно поняла это. Эти смущенье, стѣсненность движеній совсѣмъ изчезли во мнѣ, какъ и въ немъ. Я чувствовала, что спереди ли, съ боку, сидя или ходя онъ видѣлъ меня, съ волосами кверху или книзу, — онъ зналъ всю меня
+      <del>
+       (и мнѣ чуялось, любилъ меня какой я была) я не могла ни на одинъ волосъ крѣпче привязать его. Но за то
+      </del>
+      Я даже не знаю, была ли бы рада, ежели бы онъ вдругъ сказалъ мнѣ, что у меня глаза стали лучше. Зато какъ отрадно и свѣтло на душѣ становилось мнѣ,
       <pb n="173"/>
       когда пристально вглядываясь
       <choice>
@@ -3993,7 +4075,8 @@
        </orig>
       </choice>
       читаю.
-     </p><p id="44820e67-eeec-4bd7-8ac7-fbdca1ee55ea" rend="left">
+     </p>
+     <p id="44820e67-eeec-4bd7-8ac7-fbdca1ee55ea" rend="left">
       И
       <choice>
        <reg>
@@ -6686,16 +6769,19 @@
         вздоромъ
        </orig>
       </choice>
-      — плясками, тряпками, романами и главное кокет<del>
-      <choice>
-       <reg>
-        ством
-       </reg>
-       <orig>
-        ствомъ
-       </orig>
-      </choice>
-      и всякой дрянью</del>. И
+      — плясками, тряпками, романами и главное кокет
+      <del>
+       <choice>
+        <reg>
+         ством
+        </reg>
+        <orig>
+         ствомъ
+        </orig>
+       </choice>
+       и всякой дрянью
+      </del>
+      . И
       <choice>
        <reg>
         в
@@ -6808,7 +6894,8 @@
        </orig>
       </choice>
       все кокетство.
-     </p><p id="ef78b7e5-5a3b-488a-8f3d-ad6f612cd36f" rend="left">
+     </p>
+     <p id="ef78b7e5-5a3b-488a-8f3d-ad6f612cd36f" rend="left">
       — Что такое кокетство? — спросила Соня.
      </p>
      <p id="ea54faf0-e54e-4451-a9a8-c1ae2179cf95" rend="left">
@@ -7385,16 +7472,46 @@
         къ
        </orig>
       </choice>
-      дню моего рожденья. <del>Никогда ни прежде, ни
-      <choice>
-       <reg>
-        после
-       </reg>
-       <orig>
-        послѣ
-       </orig>
-      </choice>
-      , я не
+      дню моего рожденья.
+      <del>
+       Никогда ни прежде, ни
+       <choice>
+        <reg>
+         после
+        </reg>
+        <orig>
+         послѣ
+        </orig>
+       </choice>
+       , я не
+       <choice>
+        <reg>
+         говела
+        </reg>
+        <orig>
+         говѣла
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       искренно и
+       <choice>
+        <reg>
+         добросовестно
+        </reg>
+        <orig>
+         добросовѣстно
+        </orig>
+       </choice>
+       .
+      </del>
+      Я
       <choice>
        <reg>
         говела
@@ -7403,33 +7520,11 @@
         говѣла
        </orig>
       </choice>
-      <choice>
-       <reg>
-        так
-       </reg>
-       <orig>
-        такъ
-       </orig>
-      </choice>
-      искренно и
-      <choice>
-       <reg>
-        добросовестно
-       </reg>
-       <orig>
-        добросовѣстно
-       </orig>
-      </choice>
-      .</del> Я
-      <choice>
-       <reg>
-        говела
-       </reg>
-       <orig>
-        говѣла
-       </orig>
-      </choice>
-      для своей души <del>для Бога</del>, но отчего не признаться — и,
+      для своей души
+      <del>
+       для Бога
+      </del>
+      , но отчего не признаться — и,
       <choice>
        <reg>
         надеюсь
@@ -7573,7 +7668,8 @@
         притворную
        </span>
       </note>
-     </p></div>
+     </p>
+    </div>
     <div type="section">
      <head rend="title_level3 left">
       * № 7 (1 ред.).
@@ -9548,7 +9644,10 @@
         нагнувъ
        </orig>
       </choice>
-      голову и <del>молился, я чувствовала это</del>
+      голову и
+      <del>
+       молился, я чувствовала это
+      </del>
       <choice>
        <reg>
         в
@@ -9574,7 +9673,11 @@
         такъ
        </orig>
       </choice>
-      знала, было искреннее <del>глубокое</del> чувство. Отходя
+      знала, было искреннее
+      <del>
+       глубокое
+      </del>
+      чувство. Отходя
       <choice>
        <reg>
         от
@@ -9602,7 +9705,8 @@
        </orig>
       </choice>
       нему и взяла его за руку.
-     </p><p id="bb5b301e-5dbf-4d8d-89a5-f9304781d7e2" rend="left">
+     </p>
+     <p id="bb5b301e-5dbf-4d8d-89a5-f9304781d7e2" rend="left">
       — Я вами довольна, мой
       <choice>
        <reg>
@@ -9687,23 +9791,24 @@
        </orig>
       </choice>
       <del>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        лучшем
-       </reg>
-       <orig>
-        лучшемъ
-       </orig>
-      </choice>
-      </del>. Вы мой
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         лучшем
+        </reg>
+        <orig>
+         лучшемъ
+        </orig>
+       </choice>
+      </del>
+      . Вы мой
       <choice>
        <reg>
         ангел
@@ -9713,7 +9818,8 @@
        </orig>
       </choice>
       хранитель.
-     </p><p id="72acad33-b896-4771-a798-66d66421c1ee" rend="left">
+     </p>
+     <p id="72acad33-b896-4771-a798-66d66421c1ee" rend="left">
       — Не говорите
       <choice>
        <reg>
@@ -9946,25 +10052,29 @@
         вашъ
        </orig>
       </choice>
-      , я вами думаю, я вами люблю. <del>Теперь
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      вами молюсь и
-      <choice>
-       <reg>
-        верю
-       </reg>
-       <orig>
-        вѣрю
-       </orig>
-      </choice>
-      и буду молиться.</del> Я чувствую, что
+      , я вами думаю, я вами люблю.
+      <del>
+       Теперь
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       вами молюсь и
+       <choice>
+        <reg>
+         верю
+        </reg>
+        <orig>
+         вѣрю
+        </orig>
+       </choice>
+       и буду молиться.
+      </del>
+      Я чувствую, что
       <choice>
        <reg>
         мне
@@ -9990,16 +10100,19 @@
         васъ
        </orig>
       </choice>
-      <del>и
-      <choice>
-       <reg>
-        без
-       </reg>
-       <orig>
-        безъ
-       </orig>
-      </choice>
-      молитвы.</del> Я чувствую,
+      <del>
+       и
+       <choice>
+        <reg>
+         без
+        </reg>
+        <orig>
+         безъ
+        </orig>
+       </choice>
+       молитвы.
+      </del>
+      Я чувствую,
       <choice>
        <reg>
         как
@@ -10059,7 +10172,8 @@
        </orig>
       </choice>
       становится.
-     </p><p id="a0dbe78b-88a6-45d8-8577-22846e83dded" rend="left">
+     </p>
+     <p id="a0dbe78b-88a6-45d8-8577-22846e83dded" rend="left">
       — И оставайтесь
       <choice>
        <reg>
@@ -10421,369 +10535,371 @@
         дѣдѣ
        </orig>
       </choice>
-      . <del>
-      <choice>
-       <reg>
-        Кабинет
-       </reg>
-       <orig>
-        Кабинетъ
-       </orig>
-      </choice>
-      его
-      <choice>
-       <reg>
-        был
-       </reg>
-       <orig>
-        былъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        кабинет
-       </reg>
-       <orig>
-        кабинетъ
-       </orig>
-      </choice>
-      его отца и
-      <choice>
-       <reg>
-        деда
-       </reg>
-       <orig>
-        дѣда
-       </orig>
-      </choice>
-      , еще
-      <choice>
-       <reg>
-        дедовская
-       </reg>
-       <orig>
-        дѣдовская
-       </orig>
-      </choice>
-      , кожанная мебель
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      гвоздиками стояла
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нем
-       </reg>
-       <orig>
-        немъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        висели
-       </reg>
-       <orig>
-        висѣли
-       </orig>
-      </choice>
-      портреты его отца,
-      <choice>
-       <reg>
-        деда
-       </reg>
-       <orig>
-        дѣда
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        прадеда
-       </reg>
-       <orig>
-        прадѣда
-       </orig>
-      </choice>
-      и охотничьи гравюры,
-      <choice>
-       <reg>
-        привезенные
-       </reg>
-       <orig>
-        привезенныя
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        дедом
-       </reg>
-       <orig>
-        дѣдомъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        из
-       </reg>
-       <orig>
-        изъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        Англии
-       </reg>
-       <orig>
-        Англiи
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        отцом
-       </reg>
-       <orig>
-        отцомъ
-       </orig>
-      </choice>
-      его
-      <choice>
-       <reg>
-        обделанные
-       </reg>
-       <orig>
-        обдѣланныя
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      рамки. Шкапы
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      книгами
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        библиотеке
-       </reg>
-       <orig>
-        библiотекѣ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        рядом
-       </reg>
-       <orig>
-        рядомъ
-       </orig>
-      </choice>
-      были наполнены —
-      <choice>
-       <reg>
-        один
-       </reg>
-       <orig>
-        одинъ
-       </orig>
-      </choice>
-      философскими энциклопедическими книгами
-      <choice>
-       <reg>
-        деда
-       </reg>
-       <orig>
-        дѣда
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        кожанных
-       </reg>
-       <orig>
-        кожанныхъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        переплетах
-       </reg>
-       <orig>
-        переплетахъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      золотыми
-      <choice>
-       <reg>
-        обрезами
-       </reg>
-       <orig>
-        обрѣзами
-       </orig>
-      </choice>
-      , другой непереплетенными и
-      <choice>
-       <reg>
-        неразрезанными
-       </reg>
-       <orig>
-        неразрѣзанными
-       </orig>
-      </choice>
-      историческими книгами отца и
-      <choice>
-       <reg>
-        третий
-       </reg>
-       <orig>
-        третiй
-       </orig>
-      </choice>
-      его книгами.
-      <choice>
-       <reg>
-        В
-       </reg>
-       <orig>
-        Въ
-       </orig>
-      </choice>
-      гостиной постарому стояла
-      <choice>
-       <reg>
-        симметрично
-       </reg>
-       <orig>
-        симетрично
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        дедовская
-       </reg>
-       <orig>
-        дѣдовская
-       </orig>
-      </choice>
-      мебель и
-      <choice>
-       <reg>
-        висели
-       </reg>
-       <orig>
-        висѣли
-       </orig>
-      </choice>
-      два
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        золотых
-       </reg>
-       <orig>
-        золотыхъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        рамах
-       </reg>
-       <orig>
-        рамахъ
-       </orig>
-      </choice>
-      зеркала, картина
-      <choice>
-       <reg>
-        снятия
-       </reg>
-       <orig>
-        снятiя
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      креста,
-      <choice>
-       <reg>
-        всеми
-       </reg>
-       <orig>
-        всѣми
-       </orig>
-      </choice>
-      принимаемая за Тицьяна, и два портрета
-      <choice>
-       <reg>
-        бабушек
-       </reg>
-       <orig>
-        бабушекъ
-       </orig>
-      </choice>
-      </del>.
+      .
+      <del>
+       <choice>
+        <reg>
+         Кабинет
+        </reg>
+        <orig>
+         Кабинетъ
+        </orig>
+       </choice>
+       его
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         кабинет
+        </reg>
+        <orig>
+         кабинетъ
+        </orig>
+       </choice>
+       его отца и
+       <choice>
+        <reg>
+         деда
+        </reg>
+        <orig>
+         дѣда
+        </orig>
+       </choice>
+       , еще
+       <choice>
+        <reg>
+         дедовская
+        </reg>
+        <orig>
+         дѣдовская
+        </orig>
+       </choice>
+       , кожанная мебель
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       гвоздиками стояла
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нем
+        </reg>
+        <orig>
+         немъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         висели
+        </reg>
+        <orig>
+         висѣли
+        </orig>
+       </choice>
+       портреты его отца,
+       <choice>
+        <reg>
+         деда
+        </reg>
+        <orig>
+         дѣда
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         прадеда
+        </reg>
+        <orig>
+         прадѣда
+        </orig>
+       </choice>
+       и охотничьи гравюры,
+       <choice>
+        <reg>
+         привезенные
+        </reg>
+        <orig>
+         привезенныя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         дедом
+        </reg>
+        <orig>
+         дѣдомъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         из
+        </reg>
+        <orig>
+         изъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Англии
+        </reg>
+        <orig>
+         Англiи
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         отцом
+        </reg>
+        <orig>
+         отцомъ
+        </orig>
+       </choice>
+       его
+       <choice>
+        <reg>
+         обделанные
+        </reg>
+        <orig>
+         обдѣланныя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       рамки. Шкапы
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       книгами
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         библиотеке
+        </reg>
+        <orig>
+         библiотекѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         рядом
+        </reg>
+        <orig>
+         рядомъ
+        </orig>
+       </choice>
+       были наполнены —
+       <choice>
+        <reg>
+         один
+        </reg>
+        <orig>
+         одинъ
+        </orig>
+       </choice>
+       философскими энциклопедическими книгами
+       <choice>
+        <reg>
+         деда
+        </reg>
+        <orig>
+         дѣда
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         кожанных
+        </reg>
+        <orig>
+         кожанныхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         переплетах
+        </reg>
+        <orig>
+         переплетахъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       золотыми
+       <choice>
+        <reg>
+         обрезами
+        </reg>
+        <orig>
+         обрѣзами
+        </orig>
+       </choice>
+       , другой непереплетенными и
+       <choice>
+        <reg>
+         неразрезанными
+        </reg>
+        <orig>
+         неразрѣзанными
+        </orig>
+       </choice>
+       историческими книгами отца и
+       <choice>
+        <reg>
+         третий
+        </reg>
+        <orig>
+         третiй
+        </orig>
+       </choice>
+       его книгами.
+       <choice>
+        <reg>
+         В
+        </reg>
+        <orig>
+         Въ
+        </orig>
+       </choice>
+       гостиной постарому стояла
+       <choice>
+        <reg>
+         симметрично
+        </reg>
+        <orig>
+         симетрично
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         дедовская
+        </reg>
+        <orig>
+         дѣдовская
+        </orig>
+       </choice>
+       мебель и
+       <choice>
+        <reg>
+         висели
+        </reg>
+        <orig>
+         висѣли
+        </orig>
+       </choice>
+       два
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         золотых
+        </reg>
+        <orig>
+         золотыхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         рамах
+        </reg>
+        <orig>
+         рамахъ
+        </orig>
+       </choice>
+       зеркала, картина
+       <choice>
+        <reg>
+         снятия
+        </reg>
+        <orig>
+         снятiя
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       креста,
+       <choice>
+        <reg>
+         всеми
+        </reg>
+        <orig>
+         всѣми
+        </orig>
+       </choice>
+       принимаемая за Тицьяна, и два портрета
+       <choice>
+        <reg>
+         бабушек
+        </reg>
+        <orig>
+         бабушекъ
+        </orig>
+       </choice>
+      </del>
+      .
       <choice>
        <reg>
         Отцом
@@ -10792,7 +10908,11 @@
         Отцомъ
        </orig>
       </choice>
-      его старая мебель была <del>отполирована за ново</del> и обита
+      его старая мебель была
+      <del>
+       отполирована за ново
+      </del>
+      и обита
       <choice>
        <reg>
         штофом
@@ -12099,7 +12219,8 @@
        </orig>
       </choice>
       то время, когда я не знала его.
-     </p></div>
+     </p>
+    </div>
     <div type="section">
      <head n="level2" type="editorial">
       * № 10 (II ред.).
@@ -12606,67 +12727,70 @@
         разочарованiя
        </orig>
       </choice>
-      , <del>
-      <choice>
-       <reg>
-        смешанное
-       </reg>
-       <orig>
-        смѣшанное
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      гордостью,
-      <choice>
-       <reg>
-        сожалением
-       </reg>
-       <orig>
-        сожалѣнiемъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        сознанием
-       </reg>
-       <orig>
-        сознанiемъ
-       </orig>
-      </choice>
-      необходимости
-      <choice>
-       <reg>
-        некоторой
-       </reg>
-       <orig>
-        нѣкоторой
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        притворно-официяльной
-       </reg>
-       <orig>
-        притворно-офицiяльной
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нежности
-       </reg>
-       <orig>
-        нѣжности
-       </orig>
-      </choice>
-      .</del> Сгорая
+      ,
+      <del>
+       <choice>
+        <reg>
+         смешанное
+        </reg>
+        <orig>
+         смѣшанное
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       гордостью,
+       <choice>
+        <reg>
+         сожалением
+        </reg>
+        <orig>
+         сожалѣнiемъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         сознанием
+        </reg>
+        <orig>
+         сознанiемъ
+        </orig>
+       </choice>
+       необходимости
+       <choice>
+        <reg>
+         некоторой
+        </reg>
+        <orig>
+         нѣкоторой
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         притворно-официяльной
+        </reg>
+        <orig>
+         притворно-офицiяльной
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нежности
+        </reg>
+        <orig>
+         нѣжности
+        </orig>
+       </choice>
+       .
+      </del>
+      Сгорая
       <choice>
        <reg>
         от
@@ -12903,7 +13027,8 @@
        </orig>
       </choice>
       стало ужасно больно и страшно.
-     </p><p id="9d777c71-a3f6-49f4-9193-abddb17a3568" rend="left">
+     </p>
+     <p id="9d777c71-a3f6-49f4-9193-abddb17a3568" rend="left">
       —
       <choice>
        <reg>

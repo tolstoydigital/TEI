@@ -1,107 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_149_151_Ubijtsa_zheny" resp="volume_editor">
-                    [Убийца жены]. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Убийца жены</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="45bbe2b8-82c0-4c93-a073-5531f0508173">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Убийца жены]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">149-151</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1869"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v07_149_151_Ubijtsa_zheny">
+     [Убийца жены]. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Убийца жены
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="45bbe2b8-82c0-4c93-a073-5531f0508173">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Убийца жены]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       149-151
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1869"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="ec8701c4-b61b-4dd7-83fe-52638344fb6a">
@@ -130,31 +140,32 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       том
-      </reg>
-      <orig>
-       томъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       положении
-      </reg>
-      <orig>
-       положенiи
-      </orig>
-     </choice>
-     </del>, было
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        том
+       </reg>
+       <orig>
+        томъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        положении
+       </reg>
+       <orig>
+        положенiи
+       </orig>
+      </choice>
+     </del>
+     , было
      <choice>
       <reg>
        сделано
@@ -676,7 +687,8 @@
       </orig>
      </choice>
      и давило его.
-    </p><p id="fff8250f-52be-4ccb-b1fc-4c29df610280" rend="left">
+    </p>
+    <p id="fff8250f-52be-4ccb-b1fc-4c29df610280" rend="left">
      Одна
      <choice>
       <reg>
@@ -2070,7 +2082,10 @@
           убилъ
          </orig>
         </choice>
-        <del>его</del> [? ]
+        <del>
+         его
+        </del>
+        [? ]
         <hi rend="italic">
          Слово:
         </hi>
@@ -2082,8 +2097,13 @@
       </span>
      </note>
      Судите.
-    </p><p id="4da35fc2-4570-4304-9472-301a26c3a731" rend="left">
-     — Вы <del>взволнованы</del>,
+    </p>
+    <p id="4da35fc2-4570-4304-9472-301a26c3a731" rend="left">
+     — Вы
+     <del>
+      взволнованы
+     </del>
+     ,
      <choice>
       <reg>
        в
@@ -2222,7 +2242,8 @@
       </orig>
      </choice>
      .
-    </p><p id="4eb332f8-30fa-45ae-848d-bfbd6a7d4df8" rend="left">
+    </p>
+    <p id="4eb332f8-30fa-45ae-848d-bfbd6a7d4df8" rend="left">
      —
      <choice>
       <reg>
@@ -3334,23 +3355,23 @@
       </orig>
      </choice>
      <del>
-     <choice>
-      <reg>
-       разделся
-      </reg>
-      <orig>
-       раздѣлся
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       полез
-      </reg>
-      <orig>
-       полѣзъ
-      </orig>
-     </choice>
+      <choice>
+       <reg>
+        разделся
+       </reg>
+       <orig>
+        раздѣлся
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        полез
+       </reg>
+       <orig>
+        полѣзъ
+       </orig>
+      </choice>
      </del>
      <choice>
       <reg>
@@ -3361,7 +3382,8 @@
       </orig>
      </choice>
      воду.
-    </p></div>
+    </p>
+   </div>
   </body>
  </text>
 </TEI>

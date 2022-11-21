@@ -1,106 +1,118 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v29_295_324_Hozjain_i_rabotnik_Varianty">
-                    Хозяин и работник. Tolstoy Digital
-                </title>
-                <title type="main">Хозяин и работник.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="6e37b411-21ff-41ae-8a3e-fb642406cad0">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Хозяин и работник
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 29
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="volume">29</biblScope>
-                        <biblScope unit="page">295-324</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1894" to="1895"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v29_295_324_Hozjain_i_rabotnik_Varianty">
+     Хозяин и работник. Tolstoy Digital
+    </title>
+    <title type="main">
+     Хозяин и работник.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="6e37b411-21ff-41ae-8a3e-fb642406cad0">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Хозяин и работник
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 29
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="volume">
+       29
+      </biblScope>
+      <biblScope unit="page">
+       295-324
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1894" to="1895"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_3">
     <p id="c3983f44-afa1-40b9-b4c4-b55e7f0c68b4">
@@ -1693,8 +1705,11 @@
        № 2 (рук. № 9).
       </head>
       <p id="8dff7bb0-df0e-458d-a954-d300b5b562d2" rend="left">
-       <del>Он всю свою жизнь прожил в людях. Жил онпрежде до железной дороги в ямщиках, потом жил в кучерах и вдворниках.</del>
-      </p><p id="9d40f800-0a2a-4fe6-b787-2c1de0cc2679" rend="left">
+       <del>
+        Он всю свою жизнь прожил в людях. Жил онпрежде до железной дороги в ямщиках, потом жил в кучерах и вдворниках.
+       </del>
+      </p>
+      <p id="9d40f800-0a2a-4fe6-b787-2c1de0cc2679" rend="left">
        Никита был человек смирный, добродушный, ловкийна работу,
        <ref target="#note57">
         57
@@ -1947,10 +1962,13 @@
        № 6 (рук. № 9).
       </head>
       <p id="ac21aba6-0319-454b-a31e-e3d9e8a31ce5" rend="left">
-       <del>Ну вот и ладно. А ты смотри, хозяина-топриветь, как должно. — Ну, ты уж скажешь, — сказала смеяськухарка, ласково ударяя его по спине, очевидно что-тоособенное понявшая
-       <pb n="307"/>
-       вэтих словах. — А то как же, угости, как должно! — сказалНикита и, похлопывая рукавицами друг об друга, выбежал наулицу.</del>
-      </p><p id="a9fc4583-075b-4e67-8893-4f0091fbbf95" rend="left">
+       <del>
+        Ну вот и ладно. А ты смотри, хозяина-топриветь, как должно. — Ну, ты уж скажешь, — сказала смеяськухарка, ласково ударяя его по спине, очевидно что-тоособенное понявшая
+        <pb n="307"/>
+        вэтих словах. — А то как же, угости, как должно! — сказалНикита и, похлопывая рукавицами друг об друга, выбежал наулицу.
+       </del>
+      </p>
+      <p id="a9fc4583-075b-4e67-8893-4f0091fbbf95" rend="left">
        — Ты бы, дядя Никита, ноги-то перебул бы, —сказала кухарка, — а то сапоги худые. Никита остановился, какбы вспомнив. Надо бы... Ну да сойдет и так. Недалече. И онпошел к двери.
       </p>
      </div>
@@ -2309,76 +2327,80 @@
        </choice>
        бродили расчеты,барыши, которых он ожидал от всех ведущихся им дел, вперемежку с воспоминаниями о последнем дне праздника,расчетами на удачную, выгодную покупку леса и соображениями отом, где он, какое это поле, какой овраг и какая тут ближняядеревня, как и когда ему удастся добраться до Горячкина. Ну,губернские не поедут, подумал он. А то как проморгаешь такое
        <pb n="310"/>
-       дело,беда. <del>Как бы не замерз мужик-то, одежонка плоха. Ответишь,пожалуй. Ну да ведь это кого другого замотают. А меня
-       <choice original_editorial_correction="Мих[аил]">
-        <sic>
-         Мих
-        </sic>
-        <corr>
-         Михаил
-        </corr>
-       </choice>
-       <choice original_editorial_correction="Вас[ильич]">
-        <sic>
-         Вас
-        </sic>
-        <corr>
-         Васильич
-        </corr>
-       </choice>
-       оправит.
-       <choice original_editorial_correction="Мих[аил]">
-        <sic>
-         Мих
-        </sic>
-        <corr>
-         Михаил
-        </corr>
-       </choice>
-       <choice original_editorial_correction="Вас[ильич]">
-        <sic>
-         Вас
-        </sic>
-        <corr>
-         Васильич
-        </corr>
-       </choice>
-       был становой, знакомый
-       <choice original_editorial_correction="Вас[илия]">
-        <sic>
-         Вас
-        </sic>
-        <corr>
-         Василия
-        </corr>
-       </choice>
-       <choice original_editorial_correction="Андр[еича]">
-        <sic>
-         Андр
-        </sic>
-        <corr>
-         Андреича
-        </corr>
-       </choice>
-       , и нынче даже бывший у него в гостях ипивший его мадеру. И
-       <choice original_editorial_correction="В[асилий]">
-        <sic>
-         В
-        </sic>
-        <corr>
-         Василий
-        </corr>
-       </choice>
-       <choice original_editorial_correction="А[ндреич]">
-        <sic>
-         А
-        </sic>
-        <corr>
-         Андреич
-        </corr>
-       </choice>
-       опять вспомнил осебе, о своих достоинствах, и ему стало радостно.</del>
-      </p></div>
+       дело,беда.
+       <del>
+        Как бы не замерз мужик-то, одежонка плоха. Ответишь,пожалуй. Ну да ведь это кого другого замотают. А меня
+        <choice original_editorial_correction="Мих[аил]">
+         <sic>
+          Мих
+         </sic>
+         <corr>
+          Михаил
+         </corr>
+        </choice>
+        <choice original_editorial_correction="Вас[ильич]">
+         <sic>
+          Вас
+         </sic>
+         <corr>
+          Васильич
+         </corr>
+        </choice>
+        оправит.
+        <choice original_editorial_correction="Мих[аил]">
+         <sic>
+          Мих
+         </sic>
+         <corr>
+          Михаил
+         </corr>
+        </choice>
+        <choice original_editorial_correction="Вас[ильич]">
+         <sic>
+          Вас
+         </sic>
+         <corr>
+          Васильич
+         </corr>
+        </choice>
+        был становой, знакомый
+        <choice original_editorial_correction="Вас[илия]">
+         <sic>
+          Вас
+         </sic>
+         <corr>
+          Василия
+         </corr>
+        </choice>
+        <choice original_editorial_correction="Андр[еича]">
+         <sic>
+          Андр
+         </sic>
+         <corr>
+          Андреича
+         </corr>
+        </choice>
+        , и нынче даже бывший у него в гостях ипивший его мадеру. И
+        <choice original_editorial_correction="В[асилий]">
+         <sic>
+          В
+         </sic>
+         <corr>
+          Василий
+         </corr>
+        </choice>
+        <choice original_editorial_correction="А[ндреич]">
+         <sic>
+          А
+         </sic>
+         <corr>
+          Андреич
+         </corr>
+        </choice>
+        опять вспомнил осебе, о своих достоинствах, и ему стало радостно.
+       </del>
+      </p>
+     </div>
      <div type="section">
       <head rend="title_level4 left left">
        № 17 (рук. № 3).
@@ -2608,24 +2630,26 @@
       </head>
       <p id="ccd75fc8-7339-4395-a66b-3184c769f29a" rend="left">
        <del>
-       <choice original_editorial_correction="Вас[илий]">
-        <sic>
-         Вас
-        </sic>
-        <corr>
-         Василий
-        </corr>
-       </choice>
-       <choice original_editorial_correction="А[ндреич]">
-        <sic>
-         А
-        </sic>
-        <corr>
-         Андреич
-        </corr>
-       </choice>
-       между тем тоженеподвижно лежал в санях и чувствовал, как снег насыпается нанего. Ему было не холодно, но в душе у него была тревога. Емубыло страшно. Чтобы успокоить себя и забыть о своем положении,он стал перебирать то, что обыкновенно больше всего занималоего. Стал он думать о своем достатке. Это была его любимаямысль. Начал он почти с ничего.</del>
-      </p><p id="4f540f3f-297f-468e-aeda-f7590f5504de" rend="left">
+        <choice original_editorial_correction="Вас[илий]">
+         <sic>
+          Вас
+         </sic>
+         <corr>
+          Василий
+         </corr>
+        </choice>
+        <choice original_editorial_correction="А[ндреич]">
+         <sic>
+          А
+         </sic>
+         <corr>
+          Андреич
+         </corr>
+        </choice>
+        между тем тоженеподвижно лежал в санях и чувствовал, как снег насыпается нанего. Ему было не холодно, но в душе у него была тревога. Емубыло страшно. Чтобы успокоить себя и забыть о своем положении,он стал перебирать то, что обыкновенно больше всего занималоего. Стал он думать о своем достатке. Это была его любимаямысль. Начал он почти с ничего.
+       </del>
+      </p>
+      <p id="4f540f3f-297f-468e-aeda-f7590f5504de" rend="left">
        Отец оставил ему только рушку и плохой дворишкапостоялый. В 15 лет после родителя он не только не опустилдела, но так поднял, что у него вся округа в руках была, какговорили ему мужики: мы ведь в плену у тебя,
        <choice original_editorial_correction="В[асилий]">
         <sic>
@@ -2991,7 +3015,11 @@
        <ref id="muhortyj" target="slovar">
         Мухортый
        </ref>
-       спустился, и вот и оглобли и платоктреплется на них, а вот <del>и Никита</del> и наполовину ужезанесенные снегом сани.
+       спустился, и вот и оглобли и платоктреплется на них, а вот
+       <del>
+        и Никита
+       </del>
+       и наполовину ужезанесенные снегом сани.
        <choice original_editorial_correction="В[асилий]">
         <sic>
          В
@@ -3009,7 +3037,8 @@
         </corr>
        </choice>
        обрадовался, точноон домой приехал и вся опасность миновала. Микит, — закричалон, — Микит. Но Никита не шевелился. — Микита, где ты? Подотводом его не было. И опять он ужаснулся и усумнился, не восне ли всё это, не сон ли это, от которого можно проснуться.Микит, — заорал он диким голосом. И губы его дрожали, и зубыщелкали. И вдруг к радости его в санях зашевелилось иподнялась сначала спина, потом голова Никиты.
-      </p><p id="0cd1ddc7-f4fd-41ff-9f6d-6351ff8f0080" rend="left">
+      </p>
+      <p id="0cd1ddc7-f4fd-41ff-9f6d-6351ff8f0080" rend="left">
        —
        <choice>
         <reg>
@@ -3589,16 +3618,19 @@
        № 26 (рук. № 5).
       </head>
       <p id="f74eb4dc-9a60-49e3-8c7f-cec8263f97fd" rend="left">
-       <del>Тот ужас смерти,
-       <choice original_editorial_correction="к[оторый]">
-        <sic>
-         к
-        </sic>
-        <corr>
-         который
-        </corr>
-       </choice>
-       он испытывалсейчас, он перенес на Никиту, и ему так жалко стало этогодоброго, покорного мужика, что он забыл о себе только думал онем.</del> В санях зашевелилось.—Ну, слава тебе, господи, —проговорил
+       <del>
+        Тот ужас смерти,
+        <choice original_editorial_correction="к[оторый]">
+         <sic>
+          к
+         </sic>
+         <corr>
+          который
+         </corr>
+        </choice>
+        он испытывалсейчас, он перенес на Никиту, и ему так жалко стало этогодоброго, покорного мужика, что он забыл о себе только думал онем.
+       </del>
+       В санях зашевелилось.—Ну, слава тебе, господи, —проговорил
        <choice original_editorial_correction="В[асилий]">
         <sic>
          В
@@ -3659,7 +3691,8 @@
         </corr>
        </choice>
        встал на отвод, расправил шубу и лег наНикиту, покрыв его своим телом.
-      </p></div>
+      </p>
+     </div>
      <div type="section">
       <head rend="title_level4 left left">
        № 27 (рук. № 9).
