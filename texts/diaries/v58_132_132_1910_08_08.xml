@@ -1,100 +1,114 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v58_132_132_1910_08_08">
-                    Дневники и записные книжки. Tolstoy Digital
-                </title>
-                <title type="main">Дневник для одного себя</title>
-                <title type="sub">, 8 августа 1910 г.</title>
-                <title type="bibl">Толстой Л. Н. Дневник для одного себя // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 58. М.: Гос. изд. «Художественная литература», 1934. С. </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="b1eaf717-f3d1-4fb4-a5c2-c1df3df0e033">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Дневник для одного себя
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 58
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1934"/>
-                        </imprint>
-                        <biblScope unit="volume">58</biblScope>
-                        <biblScope unit="page">132-132</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1910-08-08"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#diaries" target="type"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v58_132_132_1910_08_08">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник для одного себя
+    </title>
+    <title type="sub">
+     , 8 августа 1910 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Дневник для одного себя // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 58. М.: Гос. изд. «Художественная литература», 1934. С.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="b1eaf717-f3d1-4fb4-a5c2-c1df3df0e033">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Дневник для одного себя
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 58
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1934"/>
+      </imprint>
+      <biblScope unit="volume">
+       58
+      </biblScope>
+      <biblScope unit="page">
+       132-132
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1910-08-08"/>
+   </creation>
+   <textClass>
+    <catRef ana="#diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <p id="1bc1a939-7a95-4579-a3d3-de2f9a00e3fb">
     <pb n="132"/>
@@ -250,7 +264,9 @@
       У меня пропала
      </note>
     </p>
-    <p id="2fc96e86-ff1b-4324-91fd-94730063b20e" style="left"><metamark function="line"/></p>
+    <p id="2fc96e86-ff1b-4324-91fd-94730063b20e" style="left">
+     <metamark function="line"/>
+    </p>
     <p id="bc99bffb-9183-4070-907d-52dbeda4d14c" style="left">
      <hi>
       Я
@@ -291,7 +307,9 @@
       .
      </hi>
     </p>
-    <p id="fb633d33-ffef-4ec4-a7e3-0509659f0e66" style="left"><metamark function="line"/></p>
+    <p id="fb633d33-ffef-4ec4-a7e3-0509659f0e66" style="left">
+     <metamark function="line"/>
+    </p>
     <p id="ac948745-3e01-4e70-9d03-21163e0e63eb" style="left">
      Опять тоже
      <choice>

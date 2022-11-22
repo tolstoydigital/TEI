@@ -1,100 +1,114 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v57_014_016_1909_01_20">
-                    Дневники и записные книжки. Tolstoy Digital
-                </title>
-                <title type="main">Дневник</title>
-                <title type="sub">, 20 января 1909 г.</title>
-                <title type="bibl">Толстой Л. Н. [Дневник 1909 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 57. М.: Гос. изд. «Художественная литература», 1952. С. </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="6083f123-9651-4904-8664-66474a162ef1">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           [Дневник 1909 г.]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 57
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1952"/>
-                        </imprint>
-                        <biblScope unit="volume">57</biblScope>
-                        <biblScope unit="page">14-16</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1909-01-20"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#diaries" target="type"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v57_014_016_1909_01_20">
+     Дневники и записные книжки. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник
+    </title>
+    <title type="sub">
+     , 20 января 1909 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Дневник 1909 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 57. М.: Гос. изд. «Художественная литература», 1952. С.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="6083f123-9651-4904-8664-66474a162ef1">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1909 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 57
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       57
+      </biblScope>
+      <biblScope unit="page">
+       14-16
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1909-01-20"/>
+   </creation>
+   <textClass>
+    <catRef ana="#diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <p id="ebae91bb-7694-4432-8f02-32abebf4ff30">
     <pb n="14"/>
@@ -104,13 +118,12 @@
      <dateline>
       <date resp="editor" when="1909-01-20">
        <hi>
-        [20 января 1909
+        [20 января 1909.
        </hi>
       </date>
      </dateline>
     </opener>
     <p id="eb16cf40-2f27-43b5-aeaa-36509077862a" rend="left">
-     .
      <hi>
       Я
      </hi>
@@ -296,7 +309,9 @@
     <p id="861a9900-b14c-4ff7-9f23-8963008b0aed" style="left">
      Мне всегда жалки эти люди, и я рад этому чувству.
     </p>
-    <p id="b68294c4-fae4-40d4-85ba-2bc7bae4bae4" style="subtitle centerline"><metamark function="line"/></p>
+    <p id="b68294c4-fae4-40d4-85ba-2bc7bae4bae4" style="subtitle centerline">
+     <metamark function="line"/>
+    </p>
     <p id="98cecd78-890a-4168-8066-ca86c5b81381" style="left">
      Кончаю тетрадь, думал, что не допишу, а вот прошло 2
      <hi rend="superscript">
@@ -320,7 +335,9 @@
      </choice>
      ночью дня три тому назад: почувствовал близость, совсем близость смерти, сейчас, и было спокойно, хорошо, ни радостно, ни грустно, ни страшно.
     </p>
-    <p id="52d59b38-b8f0-49ea-8707-55434dbaf01c" style="subtitle centerline"><metamark function="line"/></p>
+    <p id="52d59b38-b8f0-49ea-8707-55434dbaf01c" style="subtitle centerline">
+     <metamark function="line"/>
+    </p>
    </div>
   </body>
  </text>

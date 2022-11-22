@@ -1,97 +1,109 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v21_633_645_Vtoraja_russkaja_kniga_dlja_chtenija">
-                    Комментарии. Tolstoy Digital
-                </title>
-                <title type="main">«Вторая русская книга для чтения». Комментарий</title>
-                <title type="bibl">Цявловский М. А. «Вторая русская книга для чтения» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 21. М.: Гос. изд. «Художественная литература», 1957. С. </title>
-                <author>В. С. Спиридонов</author>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                         Подготовка TEI/XML
-                    </resp>
-                    <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
-                    </name>                                 
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="491e08da-269d-460d-87f1-27e4494ef3db">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            «Вторая русская книга для чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 21
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">21</biblScope>
-                        <biblScope unit="page">633-645</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л.Н. Толстой. Полное собрание сочинений.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass> 
-                <catRef ana="#comments" target="type"/>
-                <catRef ana="#comments_works" target="comments_type"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v21_633_645_Vtoraja_russkaja_kniga_dlja_chtenija">
+     Комментарии. Tolstoy Digital
+    </title>
+    <title type="main">
+     «Вторая русская книга для чтения». Комментарий
+    </title>
+    <title type="bibl">
+     Цявловский М. А. «Вторая русская книга для чтения» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 21. М.: Гос. изд. «Художественная литература», 1957. С.
+    </title>
+    <author>
+     В. С. Спиридонов
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML
+     </resp>
+     <name>
+      Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="491e08da-269d-460d-87f1-27e4494ef3db">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI, исправлены некоторые ошибки распознавания. Текстам, написанным в дореформенной орфографии, сопоставлены их версии в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       «Вторая русская книга для чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 21
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       21
+      </biblScope>
+      <biblScope unit="page">
+       633-645
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л.Н. Толстой. Полное собрание сочинений.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass>
+    <catRef ana="#comments" target="type"/>
+    <catRef ana="#comments_works" target="comments_type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div id="ref20" type="section">
     <pb n="633"/>
@@ -128,9 +140,6 @@
      Сохранились автограф статьи и верстка с поправками Толстого и H. Н. Страхова (рук. №№ 4 и 21). Автограф написан в два приема. Первоначально он был более краток и заканчивался так: «Когда я был маленький, я срывал эти травки потихоньку, чтобы не разлить росу, и выпивал эту воду. И эта роса очень вкусна». Затем,
      <hi rend="opdelimiter">
       исправляя,
-     </hi>
-     <hi rend="opnumber">
-      633
      </hi>
      <pb n="634"/>
      <hi rend="npdelimiter">
@@ -211,9 +220,6 @@
      Переработка индийской басни во французском переводе: «Le marchand et son bâton» («Купец и его палка») из сборника «Les avadânas, contes et apologues, indiens», t. I, Paris 1859, стр. 127—130). Сохранились автограф с заглавием: «Счастье»; и верстка с. небольшими исправлениями Толстого (рук. №№ 4 и 21). Текст верстки существенно отличается от текста автографа и представляет собой вторую редакцию перевода. Первая редакция басни печатается в отделе вариантов «Азбуки» под № 26.
     </p>
     <p id="d8a4a583-7002-4da0-b59c-463e9334c119" rend="left emptyline">
-     <hi rend="opnumber">
-      634
-     </hi>
      <pb n="635"/>
     </p>
     <lb/>
@@ -286,9 +292,6 @@
      Переработка в рассказ одного из примеров, приведенных в статье В. И. Даля «Русская сметливость» (ср. «Два сорока бывальщинок для крестьян: Соч; Владимира Даля», II, СПб. 1862, стр. 59—60). Сохранились автограф рассказа без заглавия и верстка с поправками Толстого (рук. №№ 4 и 21). Перед текстом автографа имеется помета Толстого: «с. ф. т.», которая означала: «сказки—фантастическое—точное».
     </p>
     <p id="b60b4620-ab77-4f2c-bf6a-059560ea8296" rend="left emptyline">
-     <hi rend="opnumber">
-      635
-     </hi>
      <pb n="636"/>
     </p>
     <lb/>
@@ -375,9 +378,6 @@
      Источник этого рассказа неизвестен. Сохранились две рукописи, написанные рукой В. В. Нагорновой: одна неполная, из которой сохранился лист с последними шестью строками, без авторской правки; другая полная, с большими исправлениями Толстого. Кроме того, имеется верстка. Текст верстки значительно разнится от текста рукописи (рук. №№ 4 и 21).
     </p>
     <p id="7a277ab7-fca1-407c-b8b0-de9ec1c634e1" rend="left emptyline">
-     <hi rend="opnumber">
-      636
-     </hi>
      <pb n="637"/>
     </p>
     <lb/>
@@ -447,9 +447,6 @@
      Мы все остановились. Я спросил у мальчика, как это случилось? Он сказал мне, что из оврага выскочил большой волк, схватил ягненка, зарезал его и тотчас же отдал его нести молодому волку. Волки, как и люди, своих детей учат. Старый волк для науки отдал ягненка нести своему детищу. А как увидал, что его догоняют, сейчас сам подхватил и
      <hi rend="opdelimiter">
       понес.
-     </hi>
-     <hi rend="opnumber">
-      637
      </hi>
     </p>
     <p id="1c6e0318-010d-438b-b8f4-517aed89144e" rend="left">
@@ -530,9 +527,6 @@
      <hi rend="opdelimiter">
       рассказа,
      </hi>
-     <hi rend="opnumber">
-      638
-     </hi>
      <pb n="639"/>
      <hi rend="npdelimiter">
       написанная
@@ -593,9 +587,6 @@
      Текст автографа печатается в отделе вариантов «Азбуки» под № 21.
     </p>
     <p id="4ddb9111-825a-4cb2-add2-30a2e47f4f88" rend="left emptyline">
-     <hi rend="opnumber">
-      639
-     </hi>
      <pb n="640"/>
     </p>
     <lb/>
@@ -663,9 +654,6 @@
      <hi rend="opdelimiter">
       автографа,
      </hi>
-     <hi rend="opnumber">
-      640
-     </hi>
      <pb n="641"/>
      <hi rend="npdelimiter">
       как
@@ -719,9 +707,6 @@
      Первоначально Толстой написал статью под заглавием «Теплород» и на другом листе добавление к ней. В конце добавления, на полях, намечены темы такого
      <hi rend="opdelimiter">
       рода:
-     </hi>
-     <hi rend="opnumber">
-      641
      </hi>
     </p>
     <p id="49ab4599-693d-4761-afda-d9a7e57dab6c" rend="left">
@@ -801,9 +786,6 @@
      <hi rend="opdelimiter">
       перечеркнул,
      </hi>
-     <hi rend="opnumber">
-      642
-     </hi>
      <pb n="643"/>
      <hi rend="npdelimiter">
       по
@@ -870,9 +852,6 @@
      Вольный перевод главы ХІV и начала главы XV третьей книги второй части «Истории» Геродота. Сохранились список перевода,
      <hi rend="opdelimiter">
       написанный
-     </hi>
-     <hi rend="opnumber">
-      643
      </hi>
      <pb n="644"/>
      <hi rend="npdelimiter">
@@ -964,9 +943,6 @@
      <hi rend="opdelimiter">
       мастер.
      </hi>
-     <hi rend="opnumber">
-      644
-     </hi>
     </p>
     <p id="8e249799-9b73-4a3f-a96d-50aea1396689" rend="left">
      <pb n="645"/>
@@ -997,4 +973,5 @@
     </p>
    </div>
   </body>
- </text></TEI>
+ </text>
+</TEI>
