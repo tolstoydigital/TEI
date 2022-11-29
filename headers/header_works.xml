@@ -2,12 +2,14 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
-             <titleStmt>                
-                <title xml:id="{file_id_R}">
-                    Комментарии. Tolstoy Digital
+            <titleStmt>
+                <title xml:id="{id}">
+                    {digital_title_O}. Tolstoy Digital
                 </title>
-                <title type="main">{title_G}</title>
-                <author>{author_L}</author>
+                <title type="main">{title_Y}</title>
+                <title type="sub">{subtitle_AA}</title>
+                <title type="bibl">{bibliography}</title>
+                <author>Толстой Лев Николаевич</author>             
                 <respStmt>
                     <resp>Идея, постановка задач, руководство</resp>
                     <name>
@@ -16,7 +18,7 @@
                  </respStmt>
                 <respStmt>
                     <resp>
-                         Подготовка TEI/XML
+                        Подготовка TEI/XML
                     </resp>
                     <name>
                         Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
@@ -29,7 +31,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -51,12 +53,12 @@
                             Толстой Лев Николаевич
                          </author>
                         <title level="a">
-                            {title90_H}
+                            {digital_title_O}
                         </title>
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений. Том {volume_C}
+                            Полное собрание сочинений. Том {volume_B}
                         </title>
                         <imprint>
                             <pubPlace>
@@ -65,10 +67,10 @@
                             <publisher>
                                 Государственное издательство «Художественная литература»
                             </publisher>
-                            <date when="{date_D}"/>
+                            <date>{published_date_AL}</date>
                         </imprint>
-                        <biblScope unit="volume">{volume_C}</biblScope>
-                        <biblScope unit="page">{start_page_I}-{end_page_J}</biblScope>
+                        <biblScope unit="volume">{volume_B}</biblScope>
+                        <biblScope unit="page">{start_page_P}-{end_page_Q}</biblScope>
                     </monogr>
                     <series>
                         <title level="s">
@@ -80,40 +82,35 @@
         </fileDesc>
         <encodingDesc>
             <classDecl>
-                <taxonomy>
-                    <category ana="comments">
-                        <catDesc>комментарии</catDesc>
-                    </category>
-                    <category ana="comments_works">
-                        <catDesc>комментарии к произведениям</catDesc>
-                    </category> 
-                    <category ana="comments_letters">
-                        <catDesc>комментарии к письмам</catDesc>
-                    </category> 
-                    <category ana="comments_diaries">
-                        <catDesc>комментарии к дневникам</catDesc>
-                    </category> 
-                    <category ana="comments_notes">
-                        <catDesc>комментарии к записным книжкам</catDesc>
-                    </category>
-                    <category ana="global">
-                        <catDesc>общие комментарии</catDesc>
-                    </category>
-                    <category ana="chrono">
-                        <catDesc>хронологические комментарии</catDesc>
-                    </category>
-                </taxonomy>
+                <xi:include href="../../reference/taxonomy.xml"/>
             </classDecl>
-        </encodingDesc> 
-        <profileDesc>                 
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date>
+                    {date_L}
+                </date>
+             </creation>
+            <langUsage> 
+                <language ident="{language_K}"/>
+            </langUsage>
             <textClass> 
-                <catRef target="type" ana="comments"/>
-           </textClass>
-            <textClass>
-{comments_type_E}
-           </textClass>
+                <catRef ana="#works" target="type"/>
+                <catRef ana="#{main_AH}" target="work_main"/>
+                <catRef ana="#{sphere_E}" target="sphere" />
+                <catRef ana="#{genre_AQ}" target="genre" />
+                <catRef ana="#{genre_drugoe_AG}" target="genre" />
+                <catRef ana="#{finished_D}" target="finished" />
+                <catRef ana="#{topic_AR}" target="topic" />
+                <catRef ana="#{topic_AS}" target="topic" />
+                <catRef ana="#{topic_AT}" target="topic"/>
+                <catRef ana="#{topic_AU}" target="topic"/>
+                <catRef ana="#{topic_AV}" target="topic"/>
+                <catRef ana="#{published_AY}" target="published"/>
+            </textClass>
         </profileDesc>
     </teiHeader>
-    {text}</TEI>
+    {text}
+</TEI>
    
     

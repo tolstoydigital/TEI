@@ -4,11 +4,11 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="{id}">
-                    Дневники и записные книжки. Tolstoy Digital
+                    Комментарии. Tolstoy Digital
                 </title>
-                <title type="main">{title_N}</title>
-                <title type="sub">{title_T}</title>
-                <author>Толстой Лев Николаевич</author>             
+                <title type="main">{title_G}</title>
+                <title type="bibl">{bibliography}</title>
+                <author>{author_L}</author>
                 <respStmt>
                     <resp>Идея, постановка задач, руководство</resp>
                     <name>
@@ -17,10 +17,10 @@
                  </respStmt>
                 <respStmt>
                     <resp>
-                        Подготовка TEI/XML
+                         Подготовка TEI/XML
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
                     </name>                                 
                 </respStmt>
                     <funder>
@@ -30,7 +30,7 @@
             <publicationStmt>               
                 <publisher>
                     <orgName>
-                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                        Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
                     </orgName>
                 </publisher>
                 <availability>
@@ -38,7 +38,7 @@
                         Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
                     </p>
                 </availability>
-                <date>2015-2022</date>
+                <date from="2015" to="2022"/>
             </publicationStmt>
             <notesStmt>
                 <note>
@@ -52,12 +52,12 @@
                             Толстой Лев Николаевич
                          </author>
                         <title level="a">
-                           {title_M}
+                            {title90_H}
                         </title>
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений. Том {volume}
+                          Полное собрание сочинений. Том {volume_C}
                         </title>
                         <imprint>
                             <pubPlace>
@@ -66,10 +66,10 @@
                             <publisher>
                                 Государственное издательство «Художественная литература»
                             </publisher>
-                            <date>{date_L}</date>
+                            <date when="{date_D}"/>
                         </imprint>
-                        <biblScope unit="volume">{volume}</biblScope>
-                        <biblScope unit="page">{start_page_E}-{end_page_F}</biblScope>
+                        <biblScope unit="volume">{volume_C}</biblScope>
+                        <biblScope unit="page">{start_page_I}-{end_page_J}</biblScope>
                     </monogr>
                     <series>
                         <title level="s">
@@ -81,23 +81,16 @@
         </fileDesc>
         <encodingDesc>
             <classDecl>
-                <taxonomy>
-                    <category ana="diaries">
-                        <catDesc>дневники</catDesc>
-                    </category>                                  
-                </taxonomy>
+                <xi:include href="../../reference/taxonomy.xml"/>
             </classDecl>
-        </encodingDesc> 
+        </encodingDesc>
         <profileDesc>
-            <creation>
-                {date_H}
-         </creation>          
             <textClass> 
-                <catRef target="type" ana="diaries"/>
+                <catRef ana="#comments" target="type"/>
+{comments_type_E}
            </textClass>
         </profileDesc>
     </teiHeader>
-    {text}
-</TEI>
+    {text}</TEI>
    
     
