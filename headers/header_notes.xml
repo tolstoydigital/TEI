@@ -4,11 +4,10 @@
         <fileDesc>
              <titleStmt>                
                 <title xml:id="{id}">
-                    Азбука. Tolstoy Digital
+                    Дневники и записные книжки. Tolstoy Digital
                 </title>
-                <title type="main">{title_K}</title>
-                    
-                <title type="sub">{subtitle_M}</title>
+                <title type="main">{title_N}</title>
+                <title type="bibl">{bibliography}</title>
                 <author>Толстой Лев Николаевич</author>             
                 <respStmt>
                     <resp>Идея, постановка задач, руководство</resp>
@@ -21,7 +20,7 @@
                         Подготовка TEI/XML
                     </resp>
                     <name>
-                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров
+                        Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Дарья Аракелова
                     </name>                                 
                 </respStmt>
                     <funder>
@@ -39,7 +38,7 @@
                         Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
                     </p>
                 </availability>
-                <date>2015-2022</date>
+                <date from="2015" to="2022"/>
             </publicationStmt>
             <notesStmt>
                 <note>
@@ -53,15 +52,12 @@
                             Толстой Лев Николаевич
                          </author>
                         <title level="a">
-                           {title_as_in_90_B}
-                        </title>
-                        <title level="s">
-                            {title_level_s_F}
+                           {title_J}
                         </title>
                     </analytic>
                     <monogr>
                         <title level="m">
-                          Полное собрание сочинений.
+                          Полное собрание сочинений. Том {volume}
                         </title>
                         <imprint>
                             <pubPlace>
@@ -70,10 +66,10 @@
                             <publisher>
                                 Государственное издательство «Художественная литература»
                             </publisher>
-                            <date>1957</date>     	 
+                            <date>{date_T}</date>
                         </imprint>
                         <biblScope unit="volume">{volume}</biblScope>
-                        <biblScope unit="page">{start_page_D}-{end_page_E}</biblScope>
+                        <biblScope unit="page">{start_page_E}-{end_page_F}</biblScope>
                     </monogr>
                     <series>
                         <title level="s">
@@ -85,64 +81,19 @@
         </fileDesc>
         <encodingDesc>
             <classDecl>
-                <taxonomy>
-                    <category ana="works">
-                        <catDesc>произведения</catDesc>
-                    </category> 
-                    <category ana="fiction">
-                        <catDesc>художественные произведения</catDesc>
-                    </category> 
-                    <category ana="nonfiction">
-                        <catDesc>художественные произведения</catDesc>
-                    </category> 
-                    <category ana="kids">
-                        <catDesc>произведения для детей</catDesc>
-                    </category>
-                    <category ana="statja">
-                        <catDesc>статья</catDesc>
-                    </category>
-                    <category ana="pedagogika">
-                        <catDesc>педагогика</catDesc>
-                    </category>
-                    <category ana="publ">
-                        <catDesc>опубликованное при жизни</catDesc>
-                    </category>
-                    <category ana="nonpubl">
-                        <catDesc>не было опубликовано при жизни</catDesc>
-                     </category>
-                    <category ana="finished">
-                        <catDesc>законченные произведения</catDesc>
-                    </category>
-                    <category ana="not_finished">
-                         <catDesc>незаконченные произведения</catDesc>
-                    </category>
-                    <category ana="included">
-                       <catDesc>включено в одну из Азбук или Книг для чтения</catDesc>
-                    </category>
-                    <category ana="notincluded">
-                        <catDesc>не было включено в Азбуки или Книги для чтения</catDesc>
-                    </category>
-                </taxonomy>
+                <xi:include href="../../reference/taxonomy.xml"/>
             </classDecl>
-        </encodingDesc> 
+        </encodingDesc>
         <profileDesc>
             <creation>
-                <date>
-                    {date_N}
-                </date>
-         </creation>          
+                {date_H}
+         </creation>
             <textClass> 
-                <catRef target="type" ana="works"/>
-                <catRef target="sphere" ana="{sphere_R}"/>
-                <catRef target="genre" ana="{genre_Q}"/>
-                <catRef target="finished" ana="{finished_S}"/>
-                <catRef target="published" ana="{published_U}"/>
-                <catRef target="included" ana="{included_H}"/>
-                <catRef target="topic" ana="{topic_V}"/>
+                <catRef ana="#notes" target="type"/>
            </textClass>
         </profileDesc>
     </teiHeader>
-   {text}
+    {text}
 </TEI>
    
     

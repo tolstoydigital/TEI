@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:id="{file_id_W}">
+                <title xml:id="{id}">
                     Письма и документы. Tolstoy Digital
                 </title>
                 <title type="main">{title_V}</title>
+                <title type="bibl">{bibliography}</title>
                 <respStmt>
                     <resp>Идея, постановка задач, руководство</resp>
                     <name>
@@ -59,7 +60,12 @@
                 </biblStruct>
                 <bibl>{first_publ_J}</bibl>
             </sourceDesc>
-        </fileDesc>       
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sending">
@@ -74,6 +80,10 @@
             <langUsage>
                 <language ident="{language_Z}"/>
             </langUsage>
+            <textClass>
+                <catRef ana="#letters" target="type" />
+                <catRef ana="#{sent_E}" target="sent"/>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <xenoData><number type="in a volume">{letter_number_C}</number></xenoData>
