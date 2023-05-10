@@ -244,11 +244,12 @@ def change_tags(root: etree._Element) -> None:
 
         # для фронта удаляем when и заменяем на from и to
         if 'when' in tag.attrib:
-            first_year = tag.attrib['when']
-            year = first_year.split('-')[0]
+            date = tag.attrib['when']
             tag.attrib.pop('when')
-            tag.set('from', first_year)
-            tag.set('to', f'{year}-12-31')
+            # year = first_year.split('-')[0]
+            tag.set('from', date)
+            # tag.set('to', f'{year}-12-31') # это вызывало ошибку на фронте, вместо этого ставим ту же дату
+            tag.set('to', date)
 
         if 'from' in tag.attrib:
             first_year = tag.attrib['from']
