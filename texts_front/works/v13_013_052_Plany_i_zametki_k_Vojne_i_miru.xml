@@ -14,13 +14,25 @@
         </respStmt>
         <respStmt>
           <resp> Подготовка TEI/XML: </resp>
-          <name>Мария Картышева, Евгений Можаев, Даниил Скоринкин, Елена Сидорова, Вероника Файнберг, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров, Никита Северин, Елена Северина</name>
+          <name>Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров</name>
+        </respStmt>
+        <respStmt>
+          <resp> Подготовка метаданных: </resp>
+          <name>Мария Картышева, Вероника Файнберг</name>
+        </respStmt>
+        <respStmt>
+          <resp> Разметка имен собственных: </resp>
+          <name>Никита Северин, Елена Северина</name>
+        </respStmt>
+        <respStmt>
+          <resp> Исправление древнегреческого текста: </resp>
+          <name>Ольга Алиева</name>
         </respStmt>
         <funder> Проект «Слово Толстого» </funder>
       </titleStmt>
       <publicationStmt>
         <publisher>
-          <orgName>Центр Digital Humanities НИУ ВШЭ, Научно-образовательный союз «Родное Слово», проект «Слово Толстого» </orgName>
+          <orgName>Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого» </orgName>
         </publisher>
         <availability>
           <p id="d80dbac5-cc69-4988-8f37-a248b67009d1">Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa) </p>
@@ -78,7 +90,7 @@
         <p id="4d0cc281-8728-45a4-88ef-1007fb1f2eea">
           <pb n="13"></pb>
         </p>
-        <p id="2edc1d50-154e-4975-b38a-163704b7d25e">
+        <p id="fac086ec-8665-4791-937b-b416056ef741">
           <span class="h1" resp="volume_editor">
             <hi>ПЛАНЫ И ЗАМЕТКИ К «ВОЙНЕ И МИРУ» </hi>
           </span>
@@ -1349,19 +1361,23 @@
           <choice original_editorial_correction="П[авловна]">
             <sic>П</sic>
             <corr>Павловна</corr>
-          </choice> помалчивает о победе.</p>
-        <p id="39a3eb00-950c-48ff-890a-5ff63ac7d3c9">&lt;Тильзит. </p>
-        <p id="052019e6-ccb8-4869-ab8f-bd6e11f05bba">1) Обед Багратиона. Ростов, <choice original_editorial_correction="Долох[ов]">
+          </choice> помалчивает о победе. </p>
+        <p id="39a3eb00-950c-48ff-890a-5ff63ac7d3c9">
+          <span type="reconstructed" class="del">Тильзит.</span>
+        </p>
+        <p id="052019e6-ccb8-4869-ab8f-bd6e11f05bba"> 1) Обед Багратиона. Ростов, <choice original_editorial_correction="Долох[ов]">
             <sic>Долох</sic>
             <corr>Долохов</corr>
           </choice>, Pierre. </p>
-        <p id="16f98442-4a47-4062-ab0e-e92538b3edad">2) <choice original_editorial_correction="К[нязь]">
-            <sic>К</sic>
-            <corr>Князь</corr>
-          </choice> Андрей <choice original_editorial_correction="жена[т]">
-            <sic>жена</sic>
-            <corr>женат</corr>
-          </choice> в 1806.&gt; </p>
+        <p id="16f98442-4a47-4062-ab0e-e92538b3edad">
+          <span class="del">2)<choice original_editorial_correction="К[нязь]">
+              <sic> К</sic>
+              <corr>Князь</corr>
+            </choice> Андрей <choice original_editorial_correction="жена[т]">
+              <sic>жена</sic>
+              <corr>женат</corr>
+            </choice> в 1806. </span>
+        </p>
         <p id="d950e16d-7e1b-40aa-ba9e-f1c135170e57">3) <choice original_editorial_correction="К[нязь]">
             <sic>К</sic>
             <corr>Князь</corr>
@@ -3865,25 +3881,31 @@
             <sic>Кн</sic>
             <corr>Княжна</corr>
           </choice> Марья, Nicolas в Туле. </p>
-        <p id="776e54cb-ebf9-410b-b0b1-d07c98024101">5) &lt;Ярославль. <choice original_editorial_correction="Кн[язь]">
-            <sic>Кн</sic>
-            <corr>Князь</corr>
-          </choice> Андрей, ожидания <choice original_editorial_correction="кн[яжны]">
-            <sic>кн</sic>
-            <corr>княжны</corr>
-          </choice> Марьи. </p>
+        <p id="776e54cb-ebf9-410b-b0b1-d07c98024101">5) <span type="reconstructed" class="del">Ярославль.<choice original_editorial_correction="Кн[язь]">
+              <sic> Кн</sic>
+              <corr>Князь</corr>
+            </choice> Андрей, ожидания <choice original_editorial_correction="кн[яжны]">
+              <sic>кн</sic>
+              <corr>княжны</corr>
+            </choice> Марьи. </span>
+        </p>
         <p id="ef4ea11d-037e-46fe-a81b-f5c16089b902">6) Жертва <choice original_editorial_correction="кн[язя]">
             <sic>кн</sic>
             <corr>князя</corr>
           </choice> Андрея <span class="del">и смерть</span>. </p>
-        <p id="62cf3ca1-45b9-4138-8ccb-aa638e5b13af">7) Пьер на Девичьем поле.&gt; </p>
-        <span class="h2">3-я часть. </span>
+        <p id="62cf3ca1-45b9-4138-8ccb-aa638e5b13af">
+          <span class="del">7) Пьер на Девичьем поле.</span>
+        </p>
+        <span class="h2"> 3-я часть. </span>
         <p id="8621589a-6116-43f7-b83c-98b09f23322c">1) Общий обзор, партизаны, отступление. </p>
-        <p id="f0e9f582-1706-43ec-b397-85c32f0ce021">2) &lt;Пончини в Ярославле. </p>
-        <p id="92738473-432b-4cfc-be21-400c39a57a14">Смерть <choice original_editorial_correction="кн[язя]">
-            <sic>кн</sic>
-            <corr>князя</corr>
-          </choice> Андрея.&gt; </p>
+        <p id="f0e9f582-1706-43ec-b397-85c32f0ce021">2) <span type="reconstructed" class="del">Пончини в Ярославле.</span>
+        </p>
+        <p id="92738473-432b-4cfc-be21-400c39a57a14">
+          <span class="del"> Смерть<choice original_editorial_correction="кн[язя]">
+              <sic> кн</sic>
+              <corr>князя</corr>
+            </choice> Андрея. </span>
+        </p>
         <p id="a5d3d2eb-d319-4db6-9906-741cd8b85de5">3) Денисов, Петя. </p>
         <p id="cf46019d-b502-402a-8fbe-39f22eca6d94">4) Выручка Пьера. </p>
         <p id="d87ac7e1-e072-442c-91c3-a521cc475890">
@@ -4981,41 +5003,45 @@
               <corr>
                 <name placement="text" ref="9541" type="person">Наполеон</name>
               </corr>
-            </choice> с ними.</span>
+            </choice> с ними. </span>
         </p>
-        <p id="559eec68-7479-45ad-a13b-7f60174a52ae">&lt;От <choice original_editorial_correction="В[язьмы]">
-            <sic>В</sic>
-            <corr>Вязьмы</corr>
-          </choice> не в трех <choice original_editorial_correction="к[олоннах]">
-            <sic>к</sic>
-            <corr>колоннах</corr>
-          </choice>, а в одной. Жюно. Заставляет караулить вестфальцев и <choice original_editorial_correction="застрел[ил]">
-            <sic>застрел</sic>
-            <corr>застрелил</corr>
-          </choice> солдата за фляжку. </p>
+        <p id="559eec68-7479-45ad-a13b-7f60174a52ae">
+          <span type="reconstructed" class="del">От<choice original_editorial_correction="В[язьмы]">
+              <sic> В</sic>
+              <corr>Вязьмы</corr>
+            </choice> не в трех <choice original_editorial_correction="к[олоннах]">
+              <sic>к</sic>
+              <corr>колоннах</corr>
+            </choice>, а в одной. Жюно. Заставляет караулить вестфальцев и <choice original_editorial_correction="застрел[ил]">
+              <sic>застрел</sic>
+              <corr>застрелил</corr>
+            </choice> солдата за фляжку. </span>
+        </p>
         <p id="8fb58573-2bd9-445f-8b06-1ea358ad8e37">22 октября 13 С и снег. В <choice original_editorial_correction="См[оленске]">
             <sic>См</sic>
             <corr>Смоленске</corr>
           </choice> грабеж. Мале. </p>
         <p id="694fc960-33a7-40fa-bdf3-f150f48daee5">
-          <choice original_editorial_correction="Нап[олеон]">
-            <sic>Нап</sic>
-            <corr>Наполеон</corr>
-          </choice>, выступая из Смоленска, понятия не имел о положении <choice original_editorial_correction="К[утузова]">
-            <sic>К</sic>
-            <corr>
-              <name placement="text" ref="7484" type="person">Кутузова</name>
-            </corr>
-          </choice>, врозь идут, и <choice original_editorial_correction="предп[олагал]">
-            <sic>предп </sic>
-            <corr>предполагал </corr>
-          </choice>
-          <choice original_editorial_correction="К[утузова]">
-            <sic>К</sic>
-            <corr>
-              <name placement="text" ref="7484" type="person">Кутузова</name>
-            </corr>
-          </choice> в Витебске.&gt; </p>
+          <span class="del">
+            <choice original_editorial_correction="Нап[олеон]">
+              <sic>Нап</sic>
+              <corr>Наполеон</corr>
+            </choice>, выступая из Смоленска, понятия не имел о положении <choice original_editorial_correction="К[утузова]">
+              <sic>К</sic>
+              <corr>
+                <name placement="text" ref="7484" type="person">Кутузова</name>
+              </corr>
+            </choice>, врозь идут, и <choice original_editorial_correction="предп[олагал]">
+              <sic>предп </sic>
+              <corr>предполагал </corr>
+            </choice>
+            <choice original_editorial_correction="К[утузова]">
+              <sic>К</sic>
+              <corr>
+                <name placement="text" ref="7484" type="person">Кутузова</name>
+              </corr>
+            </choice> в Витебске. </span>
+        </p>
         <p id="92a721cb-04f3-4e5c-9630-f208a3be7722">Упреки <choice original_editorial_correction="Кут[узову]">
             <sic>Кут</sic>
             <corr>Кутузову</corr>
