@@ -8,6 +8,8 @@ import requests
 import tqdm
 import urllib.parse
 
+from tolstoy_bio.domain.document_name import DocumentName
+from tolstoy_bio.tolstaya_letters.scripts.utils import generate_name
 from tolstoy_bio.utilities.beautiful_soup import BeautifulSoupUtils
 from tolstoy_bio.utilities.feb.provider import FebHtmlProvider
 from tolstoy_bio.utilities.io import IoUtils
@@ -93,37 +95,31 @@ class TolstayaLetterFebHtmlToTeiXmlConverter:
         output = self.replace_byte_nbsp_with_entity_code(output)
         return IoUtils.save_textual_data(output, path)
     
-    def generate_xml_filename(self):
+    def generate_document_id(self) -> DocumentName:
         """
         Генерация имени XML-файла.
 
-        Выполнять строго после конвертации HTML в TEI,
-        т. е. после выполнения convert_to_tei()
+        Выполнять строго последним шагом конвертации HTML в TEI
         """
         creation_element = self.tei_soup.find("creation")
         creation_date_element = creation_element.find("date")
 
-        scope = "tolstaya-s-a-letters"
-
         start_date_iso = creation_date_element.attrs.get("when", None) or creation_date_element.attrs.get("from", None)
         assert start_date_iso is not None, "Failed to parse start date ISO"
 
-        iso_components = start_date_iso.split('-')
-        
-        year, month, start_day, end_day = None, None, None, None
+        end_date_iso = creation_date_element.attrs.get('to', None) or start_date_iso
+        name = generate_name(start_date_iso, end_date_iso)
 
-        if len(iso_components) == 3:
-            year, month, start_day = iso_components
-        elif len(iso_components) == 2:
-            year, month = iso_components
-        else:
-            raise RuntimeError(f"Unexpected number of ISO components: {iso_components}")
+        title_element = self.tei_soup.find('title')
+        title_element.insert_after(self.tei_soup.new_tag("title", attrs={
+            'xml:id': name.to_string(),
+        }))
 
-        if 'to' in creation_date_element.attrs:
-            end_day = creation_date_element.attrs['to'].split('-')[-1]
-
-        day = f"{start_day}-{end_day}" if end_day else start_day
-        return f"{scope}_{year}_{month}_{day}"
+    def get_document_id(self):
+        title = self.tei_soup.find('title', attrs={'xml:id': True})
+        document_id = title.attrs.get('xml:id')
+        assert document_id, 'Failed to find document ID'
+        return document_id
     
     @staticmethod
     def replace_byte_nbsp_with_entity_code(content: str) -> str:
@@ -168,6 +164,7 @@ class TolstayaLetterFebHtmlToTeiXmlConverter:
             # self.clear_class_attributes,
             self.transform_id_attributes,
             self.transform_links,
+            self.generate_document_id,
         ]
 
         for transform in transformations:
@@ -232,6 +229,8 @@ class TolstayaLetterFebHtmlToTeiXmlConverter:
 
         if self.source_url == "http://feb-web.ru/feb/tolstoy/critics/tpt/tpt2312-.htm?cmd=p":
             date_element = '<date when="1885-04" />'
+        elif self.source_url == 'http://feb-web.ru/feb/tolstoy/critics/tpt/tpt28031.htm?cmd=p':
+            date_element = f'<date from="1910-10-28" to="1910-11-01" />'
         else:
             iso_start_date, iso_end_date = self.get_start_and_end_date_as_iso()
 

@@ -61,7 +61,7 @@ class BeautifulSoupUtils:
         target_tag_names = set(tag_names)
 
         while parent:
-            if isinstance(element, bs4.Tag) and parent.name in target_tag_names:
+            if isinstance(parent, bs4.Tag) and parent.name in target_tag_names:
                 return True
             
             parent = parent.parent
