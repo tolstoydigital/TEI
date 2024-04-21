@@ -245,7 +245,8 @@ class GoldenweiserIntermediateMarkupGenerator:
 
     def mark_up_dates(self):
         '''
-        Размечает даты внутри <i>-элементов как <susp> или <date>
+        Размечает даты внутри <i>-элементов как <susp> или <dateline>
+        плюс находит и размечает все внутритекстовые даты как <date>
         '''
         highlighted_elements = self.xml_soup.find_all('i')
 
@@ -270,33 +271,32 @@ class GoldenweiserIntermediateMarkupGenerator:
 
         for susp_after_p in self.xml_soup.find_all('suspAfterP'):
             if susp_after_p.text.strip().endswith('.'):
-                susp_after_p.name = 'date'
+                susp_after_p.name = 'dateline'
             else:
                 susp_after_p.name = 'susp'
 
         assert (content_length_before_transformations := len(self.xml_soup_to_string())) == content_length_before_transformations, f'Content length has changed after the transformation. Was {content_length_before_transformations}, become {content_length_before_transformations}'
 
-        # TODO: доделать разметку дат вне <i>-тегов
+        date_pattern = self._get_date_regular_expression()
+        DATE_START_MARKER = '%DATE_START%'
+        DATE_END_MARKER = '%DATE_END%'
+
+        for text in self.xml_soup.find_all(text=True):
+            text.string.replace_with(date_pattern.sub(rf'{DATE_START_MARKER}\1{DATE_END_MARKER}', text.string))
         
-        # date_pattern = self._get_date_regular_expression()
-
-        # for text in self.xml_soup.find_all(text=True):
-        #     if BeautifulSoupUtils.has_parent_with_tag_name(text, 'date', 'susp'):
-        #         continue
-            
-        #     if match := date_pattern.search(text.string):
-        #         start_index = match.start()
-        #         end_index = match.end()
-
-        #         wrapper = self.xml_soup.new_tag("suspre")
-        #         wrapper.string = match.group
-
-        #         text.replace_with(date_pattern.sub(r'<suspre>\0</suspre>', text.string))
+        content = self.xml_soup_to_string()
+        content = content.replace(DATE_START_MARKER, '<date>')
+        content = content.replace(DATE_END_MARKER, '</date>')
+        self.string_to_xml_soup(content)
 
     def _get_date_regular_expression(self):
         full_month = '|'.join(MONTH_NAMES_IN_GENETIVE_CASE)
+        shortened_month_with_dot = '|'.join([rf'{month}\.' for month in SHORTENED_MONTH_NAMES])
         shortened_month = '|'.join(SHORTENED_MONTH_NAMES)
-        return re.compile(rf'(\d\d?(-(о?го|о?е|о?му))?\s+({full_month}|{shortened_month}))', flags=re.IGNORECASE)
+        separator = r'(,?\s+|\sи(ли)?\s+)'
+        year = r'(\d{4}|\d{2})(-(о?го|ы?[йе]|о?му))?(\s+г(од\w?|г?\.?)?)?'
+        day_with_ending = r'(([0-3]\d|[1-9])(-(о?го|о?е|о?му))?)'
+        return re.compile(rf'({day_with_ending}({separator}{day_with_ending})*\s+({full_month}|{shortened_month_with_dot}|{shortened_month})(\s+{year})?)', flags=re.IGNORECASE)
 
     def mark_up_letters_mentioning(self):
         '''

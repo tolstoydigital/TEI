@@ -32,11 +32,10 @@ def process_documents():
             document = TolstayaLetterFebHtmlToTeiXmlConverter.from_path(file_path)
             document.convert_to_tei()
 
-            target_file_name = document.generate_xml_filename()
-
+            target_file_name = document.get_document_id()
             assert target_file_name not in saved_filenames, f'The XML document with filename "{target_file_name}" has already been created before'
 
-            saving_path = os.path.abspath(os.path.join(__file__, f'../../../data/xml/{folder_name}/{target_file_name}.xml'))
+            saving_path = os.path.abspath(os.path.join(__file__, f'../../../data/xml/{target_file_name}.xml'))
             document.save_to_file(saving_path)
 
             saved_filenames.add(target_file_name)
