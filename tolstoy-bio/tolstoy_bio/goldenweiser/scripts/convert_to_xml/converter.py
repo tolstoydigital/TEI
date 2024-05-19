@@ -110,31 +110,40 @@ class GoldenweiserIntermediateMarkupGenerator:
         Добавляет мета-шапку <teiHeader>
         '''
         tei_header = bs4.BeautifulSoup(f'''
-            <teiHeader>
-                <fileDesc>     
-                <titleStmt>
-                    <title>Вблизи Толстого. (Записки за пятнадцать лет)</title>
-                    <title xml:id="goldenweiser-diaries_1896_1910"/>
-                </titleStmt>
-                <sourceDesc>
-                    <biblStruct>
-                    <analytic>
-                        <author>Александр Борисович Гольденвейзер</author>
-                    </analytic>
-                    </biblStruct>         
-                </sourceDesc>
-                </fileDesc>
-                <profileDesc>
-                    <creation>
-                        <date from="1896" to="1910" />
-                    </creation>
-                    <textClass>
-                        <catRef ana="#diaries" target="type" />
-                    </textClass>
-                </profileDesc>  
-            </teiHeader>''', 'xml')
+            <root xmlns:xi="http://www.w3.org/2001/XInclude">
+                <teiHeader>
+                    <fileDesc>     
+                        <titleStmt>
+                            <title>Вблизи Толстого. (Записки за пятнадцать лет)</title>
+                            <title xml:id="goldenweiser-diaries_1896_1910"/>
+                        </titleStmt>
+                        <sourceDesc>
+                            <biblStruct>
+                                <analytic>
+                                    <author ref="3589" type="person">Александр Борисович Гольденвейзер</author>
+                                </analytic>
+                            </biblStruct>         
+                        </sourceDesc>
+                    </fileDesc>
+                    <encodingDesc>
+                        <classDecl>
+                            <xi:include href="../../../../../reference/taxonomy.xml"/>
+                        </classDecl>
+                    </encodingDesc>
+                    <profileDesc>
+                        <creation>
+                            <date from="1896" to="1910"/>
+                        </creation>
+                        <textClass>
+                            <catRef ana="#materials" target="library"/>
+                            <catRef ana="#testimonies" target="type"/>
+                            <catRef ana="#diaries_materials" target="testimonies_type"/>
+                        </textClass>
+                    </profileDesc>  
+                </teiHeader>
+            </root>''', 'xml')
         
-        self.xml_soup.find('TEI').insert(0, tei_header)
+        self.xml_soup.find('head').replace_with(tei_header.find("teiHeader"))
 
     def delete_source_html_body_wrapper(self):
         '''
@@ -148,7 +157,7 @@ class GoldenweiserIntermediateMarkupGenerator:
         Удаляет все пустые элементы кроме пустых абзацев:
         они далее будут использоваться для нормализации абзацев
         '''
-        elements = self.xml_soup.find_all()
+        elements = self.xml_soup.find("body").find_all()
 
         for element in elements:
             if not element.name == 'p' and not element.text.strip():
