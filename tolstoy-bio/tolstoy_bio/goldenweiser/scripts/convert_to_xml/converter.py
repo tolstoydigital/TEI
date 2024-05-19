@@ -5,6 +5,7 @@ import bs4
 from tqdm import tqdm
 from tolstoy_bio.utilities.array import ArrayUtils
 from tolstoy_bio.utilities.beautiful_soup import BeautifulSoupUtils
+from tolstoy_bio.utilities.dates import DateUtils
 from tolstoy_bio.utilities.io import IoUtils
 
 
@@ -58,6 +59,7 @@ class GoldenweiserIntermediateMarkupGenerator:
             self.fix_detached_day_labels,
             self.fix_paragraph_continuations_merged_into_days,
             self.mark_up_dates,
+            self.assign_iso_dates_to_dateline_dates,
             self.mark_up_letters_mentioning,
             self.mark_up_headings,
         ]
@@ -255,12 +257,6 @@ class GoldenweiserIntermediateMarkupGenerator:
 
             if re.search(r'\d', content):
                 element.wrap(self.xml_soup.new_tag("susp"))
-        
-        for year in self.xml_soup.find_all('year'):
-            next_sibling = BeautifulSoupUtils.get_next_tag_sibling(year)
-
-            if next_sibling and next_sibling.name == 'susp':
-                next_sibling.name = 'date'
 
         content = self.xml_soup_to_string()
         content_length_before_transformations = len(content)
@@ -289,14 +285,55 @@ class GoldenweiserIntermediateMarkupGenerator:
         content = content.replace(DATE_END_MARKER, '</date>')
         self.string_to_xml_soup(content)
 
+        # разметка <dateline> рядом с <year>
+        content = self.xml_soup_to_string()
+        content = re.sub(r'\s+', ' ', content)
+        content = re.sub(r'</year> <susp>(.*?)</susp>', r'</year> <dateline>\1</dateline>', content)
+        self.string_to_xml_soup(content)
+
     def _get_date_regular_expression(self):
         full_month = '|'.join(MONTH_NAMES_IN_GENETIVE_CASE)
         shortened_month_with_dot = '|'.join([rf'{month}\.' for month in SHORTENED_MONTH_NAMES])
         shortened_month = '|'.join(SHORTENED_MONTH_NAMES)
         separator = r'(,?\s+|\sи(ли)?\s+)'
         year = r'(\d{4}|\d{2})(-(о?го|ы?[йе]|о?му))?(\s+г(од\w?|г?\.?)?)?'
-        day_with_ending = r'(([0-3]\d|[1-9])(-(о?го|о?е|о?му))?)'
+        day_with_ending = r'(([0-3]\d|[1-9]|ii?)(-(о?го|о?е|о?му))?)'
         return re.compile(rf'({day_with_ending}({separator}{day_with_ending})*\s+({full_month}|{shortened_month_with_dot}|{shortened_month})(\s+{year})?)', flags=re.IGNORECASE)
+    
+    def assign_iso_dates_to_dateline_dates(self):
+        elements = self.xml_soup.find_all()
+
+        current_year = None
+
+        for element in elements:
+            if element.name == "year":
+                current_year = element.text.strip()
+            
+            if current_year is not None and element.name == "dateline":
+                date_element = element.find("date")
+
+                assert date_element, "Failed to locate the date element inside a dateline."
+
+                date_label = date_element.text.strip()
+                date = DateUtils.convert_russian_day_month_label_to_date(date_label)
+
+                assert date, "Failed to parse the date inside a dateline."
+
+                date.year = int(current_year)
+                date_element.attrs["when"] = date.to_iso()
+
+        # Дополнительная разметка первого года-исключения
+        years = self.xml_soup.find_all("year")
+        exceptional_year = "1896"
+
+        for element in years:
+            if element.text.strip() == exceptional_year:
+                element.name = "date"
+                element.attrs["when"] = exceptional_year
+                dateline_wrapper = element.wrap(self.xml_soup.new_tag('dateline'))
+                dateline_wrapper.wrap(self.xml_soup.new_tag('year'))
+
+                break
 
     def mark_up_letters_mentioning(self):
         '''
