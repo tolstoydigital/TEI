@@ -21,6 +21,7 @@ def postprocess():
     add_letters_materials_cat_ref()
     add_link_to_taxonomy()
     add_author_id()
+    add_author_id_with_nested_person_tag()
 
 
 def get_entry_documents_paths():
@@ -149,11 +150,36 @@ def add_author_id():
         content = IoUtils.read_as_text(path)
         soup = bs4.BeautifulSoup(content, "xml")
         author = soup.find("author")
+
+        if "ref" in author.attrs:
+            continue
         
         author.attrs = {
             "ref": "13844",
             "type": "person",
         }
+
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def add_author_id_with_nested_person_tag():
+    documents_paths = get_entry_documents_paths()
+
+    for path in tqdm(documents_paths):
+        content = IoUtils.read_as_text(path)
+        soup = bs4.BeautifulSoup(content, "xml")
+        element = soup.find("author")
+
+        if element.find("person"):
+            continue
+
+        element.name = "person"
+        
+        element.attrs = {
+            "ref": "13844"
+        }
+        
+        element.wrap(soup.new_tag("author"))
 
         IoUtils.save_textual_data(soup.prettify(), path)
 
