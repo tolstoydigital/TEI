@@ -2,8 +2,15 @@ from typing import Callable
 
 import bs4
 
+from tolstoy_bio.utilities.io import IoUtils
+
 
 class BeautifulSoupUtils:
+    @staticmethod
+    def create_soup_from_file(file_path: str, parser: str, encoding: str = None) -> bs4.BeautifulSoup:
+        file_contents = IoUtils.read_as_text(file_path, encoding)
+        return bs4.BeautifulSoup(file_contents, parser)
+
     @staticmethod
     def get_next_tag_sibling(element: bs4.BeautifulSoup) -> bs4.Tag | None:
         output = element.next_sibling
