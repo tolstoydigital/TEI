@@ -13,6 +13,7 @@ VOLUME_XML_DOCUMENT_PATH = os.path.join(ROOT_DIR, "../data/xml/by_volume")
 def main():
     postprocess()
 
+
 def postprocess():
     remove_initial_cat_ref()
     add_material_cat_ref()
@@ -20,12 +21,16 @@ def postprocess():
     add_diaries_materials_cat_ref()
     add_link_to_taxonomy()
     add_author_id()
+    add_author_id_with_nested_person_tag()
+
 
 def get_entry_documents_paths():
     return IoUtils.get_folder_contents_paths(ENTRY_XML_DOCUMENT_PATH)
 
+
 def get_volume_documents_paths():
     return IoUtils.get_folder_contents_paths(VOLUME_XML_DOCUMENT_PATH)
+
 
 def get_all_documents_paths():
     return [
@@ -156,11 +161,36 @@ def add_author_id():
         content = IoUtils.read_as_text(path)
         soup = bs4.BeautifulSoup(content, "xml")
         author = soup.find("author")
+
+        if "ref" in author.attrs:
+            continue
         
         author.attrs = {
             "ref": "13844",
             "type": "person",
         }
+
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def add_author_id_with_nested_person_tag():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths):
+        content = IoUtils.read_as_text(path)
+        soup = bs4.BeautifulSoup(content, "xml")
+        element = soup.find("author")
+
+        if element.find("person"):
+            continue
+
+        element.name = "person"
+        
+        element.attrs = {
+            "ref": "13844"
+        }
+        
+        element.wrap(soup.new_tag("author"))
 
         IoUtils.save_textual_data(soup.prettify(), path)
 

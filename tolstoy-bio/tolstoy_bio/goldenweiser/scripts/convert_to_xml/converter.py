@@ -120,7 +120,11 @@ class GoldenweiserIntermediateMarkupGenerator:
                         <sourceDesc>
                             <biblStruct>
                                 <analytic>
-                                    <author ref="3589" type="person">Александр Борисович Гольденвейзер</author>
+                                    <author>
+                                        <person ref="3589">
+                                            Александр Борисович Гольденвейзер
+                                        </person>
+                                    </author>
                                 </analytic>
                             </biblStruct>         
                         </sourceDesc>
