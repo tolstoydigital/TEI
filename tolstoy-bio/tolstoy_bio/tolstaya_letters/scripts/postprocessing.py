@@ -15,13 +15,14 @@ def main():
 
 
 def postprocess():
-    remove_initial_cat_ref()
-    add_material_cat_ref()
-    add_testimony_type_cat_ref()
-    add_letters_materials_cat_ref()
-    add_link_to_taxonomy()
-    add_author_id()
-    add_author_id_with_nested_person_tag()
+    # remove_initial_cat_ref()
+    # add_material_cat_ref()
+    # add_testimony_type_cat_ref()
+    # add_letters_materials_cat_ref()
+    # add_link_to_taxonomy()
+    # add_author_id()
+    # add_author_id_with_nested_person_tag()
+    add_title_main()
 
 
 def get_entry_documents_paths():
@@ -180,6 +181,31 @@ def add_author_id_with_nested_person_tag():
         }
         
         element.wrap(soup.new_tag("author"))
+
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def add_title_main():
+    documents_paths = get_entry_documents_paths()
+
+    for path in tqdm(documents_paths):
+        content = IoUtils.read_as_text(path)
+        soup = bs4.BeautifulSoup(content, "xml")
+
+        if soup.find("title", attrs={
+            "type": "main"
+        }):
+            continue
+
+        title_main = soup.new_tag("title", attrs={
+            "type": "main"
+        })
+
+        title_main.append(soup.new_string("Толстая С.А. Письма к Л.Н. Толстому"))
+
+        title_stmt = soup.find("titleStmt")
+        title = title_stmt.find("title")
+        title.insert_after(title_main)
 
         IoUtils.save_textual_data(soup.prettify(), path)
 
