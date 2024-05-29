@@ -4,6 +4,21 @@ import re
 from tolstoy_bio.utilities.number import NumberUtils
 
 
+RUSSIAN_FULL_MONTH_LABELS = [
+    "январь",
+    "февраль",
+    "март",
+    "апрель",
+    "май",
+    "июнь",
+    "июль",
+    "август",
+    "сентябрь",
+    "октябрь",
+    "ноябрь",
+    "декабрь"
+]
+
 RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE = [
     "января",
     "февраля",
@@ -41,6 +56,17 @@ class Date:
     year: int = None
     month: int = None
     day: int = None
+
+    @classmethod
+    def from_tei_date(cls, tei_date: str):
+        match = re.match(r"^(\d{4})(-(\d{2})(-(\d{2}))?)?$", tei_date)
+        [year, _, month, __, day] = match.groups()
+        
+        return cls(
+            year=int(year),
+            month=int(month) if month else None,
+            day=int(day) if day else None,
+        )
 
     def to_iso(self) -> str | None:
         if self.year and self.month and self.day:
