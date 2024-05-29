@@ -25,10 +25,11 @@ def postprocess():
     # add_link_to_taxonomy()
     # # add_author_id()
     # add_author_id_with_nested_person_tag()
-    add_biodata_title()
-    add_catref_literature_biotopic()
-    convert_creation_date_to_calendar_format()
-    add_editor_date()
+    # add_biodata_title()
+    # add_catref_literature_biotopic()
+    # convert_creation_date_to_calendar_format()
+    # add_editor_date()
+    mark_up_openers()
 
 
 def get_entry_documents_paths():
@@ -319,6 +320,23 @@ def add_editor_date():
         editor_date_label = TolstoyDigitalUtils.format_date_range(start_date_iso, end_date_iso)
         editor_date.append(soup.new_string(editor_date_label))
         creation_element.append(editor_date)
+
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def mark_up_openers():
+    documents_paths = get_entry_documents_paths()
+
+    for path in tqdm(documents_paths):
+        content = IoUtils.read_as_text(path)
+        soup = bs4.BeautifulSoup(content, "xml")
+
+        if soup.find("opener"):
+            continue
+
+        body = soup.find("body")
+        date = body.find("date")
+        date.wrap(soup.new_tag("opener"))
 
         IoUtils.save_textual_data(soup.prettify(), path)
 
