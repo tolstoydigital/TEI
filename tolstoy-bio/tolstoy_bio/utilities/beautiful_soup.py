@@ -75,3 +75,9 @@ class BeautifulSoupUtils:
 
         return False
         
+    @staticmethod
+    def set_inner_text(element: bs4.BeautifulSoup, content: str):
+        if element.string:
+            element.string.replace_with(content)
+        else:
+            element.append(content)
