@@ -4,6 +4,7 @@ import os
 import bs4
 from tqdm import tqdm
 
+from tolstoy_bio.utilities.beautiful_soup import BeautifulSoupUtils
 from tolstoy_bio.utilities.dates import DateUtils
 from tolstoy_bio.utilities.io import IoUtils
 from tolstoy_bio.utilities.tolsoy_digital import TolstoyDigitalUtils
@@ -12,6 +13,7 @@ from tolstoy_bio.utilities.tolsoy_digital import TolstoyDigitalUtils
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 ENTRY_XML_DOCUMENT_PATH = os.path.join(ROOT_DIR, "../data/xml/by_entry")
 YEARLY_XML_DOCUMENT_PATH = os.path.join(ROOT_DIR, "../data/xml/by_year")
+VOLUME_XML_DOCUMENT_PATH = os.path.join(ROOT_DIR, "../data/xml/by_volume")
 
 def main():
     postprocess()
@@ -29,7 +31,8 @@ def postprocess():
     # add_catref_literature_biotopic()
     # convert_creation_date_to_calendar_format()
     # add_editor_date()
-    mark_up_openers()
+    # mark_up_openers()
+    remove_nested_ps_in_notes()
 
 
 def get_entry_documents_paths():
@@ -40,10 +43,22 @@ def get_year_documents_paths():
     return IoUtils.get_folder_contents_paths(YEARLY_XML_DOCUMENT_PATH)
 
 
+def get_volume_documents_paths():
+    return IoUtils.get_folder_contents_paths(VOLUME_XML_DOCUMENT_PATH)
+
+
 def get_all_documents_paths():
     return [
         *get_entry_documents_paths(), 
         *get_year_documents_paths(),
+    ]
+
+
+def get_all_documents_paths_with_volumes():
+    return [
+        *get_entry_documents_paths(), 
+        *get_year_documents_paths(),
+        *get_volume_documents_paths(),
     ]
 
 
@@ -337,6 +352,20 @@ def mark_up_openers():
         body = soup.find("body")
         date = body.find("date")
         date.wrap(soup.new_tag("opener"))
+
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def remove_nested_ps_in_notes():
+    documents_paths = get_all_documents_paths_with_volumes()
+
+    for path in tqdm(documents_paths, desc="remove_nested_ps_in_notes"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        soup = TolstoyDigitalUtils.process_nested_paragraph_tags_inside_notes(soup)
+
+        if TolstoyDigitalUtils.has_nested_paragraph_tags(soup):
+            print(path)
+            raise AssertionError("Document still has nested <p> tags ")
 
         IoUtils.save_textual_data(soup.prettify(), path)
 
