@@ -30,7 +30,9 @@ def postprocess():
     # convert_creation_date_to_calendar_format()
     # add_editor_date()
     # mark_up_openers()
-    remove_nested_ps_in_notes()
+    # remove_nested_ps_in_notes()
+    wrap_unparagraphed_heads_to_p()
+    add_paragraph_ids()
 
 
 def get_entry_documents_paths():
@@ -357,6 +359,40 @@ def remove_nested_ps_in_notes():
             print(path)
             raise AssertionError("Document still has nested <p> tags ")
 
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def wrap_unparagraphed_heads_to_p():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths, desc="wrap_unparagraphed_heads_to_p"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        heads = soup.find_all("head")
+
+        for head in heads:
+            if BeautifulSoupUtils.has_parent_with_tag_name(head, "p"):
+                continue
+
+            if head.find("p") is not None:
+                if len(head.find_all("p", recursive=False)) == 1:
+                    head.find("p").unwrap()
+
+                    if head.find("p") is not None:
+                        raise AssertionError("<head> has deep <p> tags as children")
+                else:
+                    raise AssertionError("<head> has multiple direct <p> tag children")
+                
+            head.wrap(soup.new_tag("p"))
+    
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def add_paragraph_ids():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths, desc="add_paragraph_ids"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        TolstoyDigitalUtils.add_unique_ids_to_paragraphs(soup)
         IoUtils.save_textual_data(soup.prettify(), path)
 
 
