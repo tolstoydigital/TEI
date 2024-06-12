@@ -1,8 +1,10 @@
 import os
+import re
 
 import bs4
 from tqdm import tqdm
 
+from tolstoy_bio.utilities.beautiful_soup import BeautifulSoupUtils
 from tolstoy_bio.utilities.io import IoUtils
 from tolstoy_bio.utilities.tolsoy_digital import TolstoyDigitalUtils
 
@@ -23,11 +25,12 @@ def postprocess():
     # add_link_to_taxonomy()
     # add_author_id()
     # add_author_id_with_nested_person_tag()
-    add_biodata_title()
-    add_catref_literature_biotopic()
-    convert_creation_date_to_calendar_format()
-    add_editor_date()
-    mark_up_openers()
+    # add_biodata_title()
+    # add_catref_literature_biotopic()
+    # convert_creation_date_to_calendar_format()
+    # add_editor_date()
+    # mark_up_openers()
+    remove_nested_ps_in_notes()
 
 
 def get_entry_documents_paths():
@@ -339,6 +342,20 @@ def mark_up_openers():
         body = soup.find("body")
         date = body.find("date")
         date.wrap(soup.new_tag("opener"))
+
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def remove_nested_ps_in_notes():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths, desc="remove_nested_ps_in_notes"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        soup = TolstoyDigitalUtils.process_nested_paragraph_tags_inside_notes(soup)
+
+        if TolstoyDigitalUtils.has_nested_paragraph_tags(soup):
+            print(path)
+            raise AssertionError("Document still has nested <p> tags ")
 
         IoUtils.save_textual_data(soup.prettify(), path)
 
