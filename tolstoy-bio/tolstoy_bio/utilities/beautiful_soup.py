@@ -81,3 +81,9 @@ class BeautifulSoupUtils:
             element.string.replace_with(content)
         else:
             element.append(content)
+
+    @staticmethod
+    def inline_prettify(soup: bs4.BeautifulSoup) -> str:
+        prettified_soup = soup.prettify()
+        stripped_lines = [line.strip() for line in prettified_soup.split("\n")]
+        return "".join(stripped_lines)
