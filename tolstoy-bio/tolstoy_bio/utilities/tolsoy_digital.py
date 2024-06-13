@@ -1,7 +1,12 @@
 from datetime import datetime
 import re
+from uuid import uuid4
+
+import bs4
 
 from tolstoy_bio.utilities.dates import RUSSIAN_FULL_MONTH_LABELS, RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE, Date
+from tolstoy_bio.utilities.io import IoUtils
+from tolstoy_bio.utilities.beautiful_soup import BeautifulSoupUtils
 
 
 class TolstoyDigitalUtils:
@@ -69,3 +74,37 @@ class TolstoyDigitalUtils:
             return f"{start_date.day} {start_month} {start_date.year} — {end_date.day} {end_month} {end_date.year}"
         
         raise ValueError(f"Unexpected date range from {start_date_iso} to {end_date_iso}");
+
+    @staticmethod
+    def process_nested_paragraph_tags_inside_notes(document_soup: bs4.BeautifulSoup) -> bs4.BeautifulSoup:
+        stringified_soup = BeautifulSoupUtils.inline_prettify(document_soup)
+
+        def process_paragraph_tags(match: re.Match):
+            string = match.group()
+            string = re.sub("<p .*?>|<p>", r"<span>", string)
+            string = re.sub("</p>", r"</span><lb/>", string)
+            return string
+
+        stringified_soup = re.sub(r"<note .*?</note>", process_paragraph_tags, stringified_soup, flags=re.DOTALL)
+        stringified_soup = re.sub(r"<lb/></note>", "</note>", stringified_soup)
+
+        return bs4.BeautifulSoup(stringified_soup, "xml")
+
+    @staticmethod
+    def has_nested_paragraph_tags(soup: bs4.BeautifulSoup) -> bool:
+        for p in soup.find_all("p"):
+            if p.find("p"):
+                return True
+        
+        return False
+    
+    @classmethod
+    def add_unique_ids_to_paragraphs(cls, soup: bs4.BeautifulSoup) -> None:
+        ps = soup.find_all("p")
+
+        for p in ps:
+            cls.add_unique_id_to_tag(p)
+
+    @staticmethod
+    def add_unique_id_to_tag(tag: bs4.Tag) -> None:
+        tag.attrs["id"] = uuid4()

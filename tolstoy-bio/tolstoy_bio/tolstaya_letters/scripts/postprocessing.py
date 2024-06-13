@@ -3,12 +3,14 @@ import os
 import bs4
 from tqdm import tqdm
 
+from tolstoy_bio.utilities.beautiful_soup import BeautifulSoupUtils
 from tolstoy_bio.utilities.io import IoUtils
 from tolstoy_bio.utilities.tolsoy_digital import TolstoyDigitalUtils
 
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 ENTRY_XML_DOCUMENT_PATH = os.path.join(ROOT_DIR, "../data/xml")
+VOLUME_XML_DOCUMENT_PATH = os.path.join(ROOT_DIR, "../data/tolstaya-s-a-letters.xml")
 
 
 def main():
@@ -24,14 +26,26 @@ def postprocess():
     # # add_author_id()
     # # add_author_id_with_nested_person_tag()
     # add_title_main()
-    add_biodata_title()
-    add_catref_literature_biotopic()
-    convert_creation_date_to_calendar_format()
-    add_editor_date()
+    # add_biodata_title()
+    # add_catref_literature_biotopic()
+    # convert_creation_date_to_calendar_format()
+    # add_editor_date()
+    wrap_unparagraphed_heads_to_p()
+    wrap_unparagraphed_openers_to_p()
+    wrap_unparagraphed_closers_to_p()
+    wrap_unparagraphed_signeds_to_p()
+    add_paragraph_ids()
 
 
 def get_entry_documents_paths():
     return IoUtils.get_folder_contents_paths(ENTRY_XML_DOCUMENT_PATH)
+
+
+def get_all_documents_paths():
+    return [
+        *get_entry_documents_paths(),
+        VOLUME_XML_DOCUMENT_PATH
+    ]
 
 
 def remove_initial_cat_ref():
@@ -332,6 +346,91 @@ def add_editor_date():
         editor_date.append(soup.new_string(editor_date_label))
         creation_element.append(editor_date)
 
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def wrap_unparagraphed_heads_to_p():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths, desc="wrap_unparagraphed_heads_to_p"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        heads = soup.find_all("head")
+
+        for head in heads:
+            if BeautifulSoupUtils.has_parent_with_tag_name(head, "p"):
+                continue
+
+            if head.find("p") is not None:
+                raise AssertionError("<head> has <p> as children")
+            
+            head.wrap(soup.new_tag("p"))
+    
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def wrap_unparagraphed_openers_to_p():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths, desc="wrap_unparagraphed_openers_to_p"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        openers = soup.find_all("opener")
+
+        for opener in openers:
+            if BeautifulSoupUtils.has_parent_with_tag_name(opener, "p"):
+                continue
+
+            if opener.find("p") is not None:
+                raise AssertionError("<opener> has <p> as children")
+            
+            opener.wrap(soup.new_tag("p"))
+    
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def wrap_unparagraphed_closers_to_p():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths, desc="wrap_unparagraphed_closers_to_p"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        elements = soup.find_all("closer")
+
+        for element in elements:
+            if BeautifulSoupUtils.has_parent_with_tag_name(element, "p"):
+                continue
+
+            if element.find("p") is not None:
+                raise AssertionError("<closer> has <p> as children")
+            
+            element.wrap(soup.new_tag("p"))
+    
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def wrap_unparagraphed_signeds_to_p():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths, desc="wrap_unparagraphed_signeds_to_p"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        elements = soup.find_all("signed")
+
+        for element in elements:
+            if BeautifulSoupUtils.has_parent_with_tag_name(element, "p"):
+                continue
+
+            if element.find("p") is not None:
+                raise AssertionError("<signed> has <p> as children")
+            
+            element.wrap(soup.new_tag("p"))
+    
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def add_paragraph_ids():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths, desc="add_paragraph_ids"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        TolstoyDigitalUtils.add_unique_ids_to_paragraphs(soup)
         IoUtils.save_textual_data(soup.prettify(), path)
 
 
