@@ -1,422 +1,586 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v40_334_338_Izbrannye_mysli_Monteske">
-                    Избранные мысли Монтескье. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Избранные мысли Монтескье</title>
-                <title type="bibl">Толстой Л. Н. Избранные мысли Монтескье // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 40. М.: Гос. изд. «Художественная литература», 1956. С. 334–338.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="48bf3b43-37b2-4cfd-b059-e5f7ec5b6cea">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Избранные мысли Монтескье
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 40
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="volume">40</biblScope>
-                        <biblScope unit="page">334-338</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1907"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v40_334_338_Izbrannye_mysli_Monteske">
+     Избранные мысли Монтескье. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Избранные мысли Монтескье
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Избранные мысли Монтескье // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 40. М.: Гос. изд. «Художественная литература», 1956. С. 334–338.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="48bf3b43-37b2-4cfd-b059-e5f7ec5b6cea">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Избранные мысли Монтескье
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 40
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="volume">
+       40
+      </biblScope>
+      <biblScope unit="page">
+       334-338
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1907"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000005013">
     <p id="fe4f6fac-e244-49f1-a375-0e7221ccf9bb">
      <pb n="334"/>
     </p>
-    <head n="level1">
-     ИЗБРАННЫЕ МЫСЛИ МОНТЕСКЬЕ
-    </head>
-    <head n="level2" type="editorial">
-     <hi rend="italic">
-      <choice original_editorial_correction="[Перевод с французского Л. Н. Толстого]">
-       <sic/>
-       <corr>
-        Перевод с французского
-        <name placement="text" ref="13883" type="person">
-         Л. Н. Толстого
-        </name>
-       </corr>
-      </choice>
-     </hi>
-    </head>
-    <lb/>
-    <head n="level2" type="chapter">
-     1
-    </head>
+    <p id="ba16ffc9-83f9-48d1-b030-bb8f34fe4471">
+     <head n="level1">
+      ИЗБРАННЫЕ МЫСЛИ МОНТЕСКЬЕ
+     </head>
+    </p>
+    <p id="5880d619-38c7-4780-abec-ebad7d6b1b23">
+     <head n="level2" type="editorial">
+      <hi rend="italic">
+       <choice original_editorial_correction="[Перевод с французского Л. Н. Толстого]">
+        <sic/>
+        <corr>
+         Перевод с французского
+         <name placement="text" ref="13883" type="person">
+          Л. Н. Толстого
+         </name>
+        </corr>
+       </choice>
+      </hi>
+     </head>
+    </p>
+    <p id="d567cd9e-1769-4af9-997c-7f6d20796e5e">
+     <lb/>
+    </p>
+    <p id="ed586fb5-ba17-45f5-959b-7d92ce0dab1b">
+     <head n="level2" type="chapter">
+      1
+     </head>
+    </p>
     <p id="97762d41-2282-4eb9-bf89-852c1d1c9e96">
      Не могу объяснить себе, почему властители с такой легкостью воображают, что они — всё, и почему народы так легко верят, что они — ничто.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     2
-    </head>
+    <p id="3ae568d5-0b4d-454e-87d4-4e0842fc44cf">
+     <lb/>
+    </p>
+    <p id="2cf3f720-b225-4190-b32d-2244b2541d90">
+     <head n="level2" type="chapter">
+      2
+     </head>
+    </p>
     <p id="e25c10f5-60d7-4ecf-8b69-1d1f94ebe7cd">
      Любить чтение значит любить менять часы скуки, которые всякий испытывает, на часы большого наслаждения.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     3
-    </head>
+    <p id="737a0a40-9ac5-4910-93c2-db647c32c607">
+     <lb/>
+    </p>
+    <p id="38df2093-fe00-4dbc-b534-b74b18b9cd9a">
+     <head n="level2" type="chapter">
+      3
+     </head>
+    </p>
     <p id="b80c916e-0c78-448e-afa6-366cd931e161">
      Несчастное положение людей! Едва ум достиг зрелости, тело уже начинает слабеть.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     4
-    </head>
+    <p id="094df4a9-c554-4c1d-af32-c425e11f82f7">
+     <lb/>
+    </p>
+    <p id="6f97efc2-33d4-491f-a1c7-8545fadfa4cd">
+     <head n="level2" type="chapter">
+      4
+     </head>
+    </p>
     <p id="28c54bea-775f-4d4d-bb20-82f99deeb235">
      Человек, хорошо пишущий, никогда не пишет так, как пишут другие, но так, как он сам пишет: по этой же причине бывает и то, что человек, говорящий дурно, неправильно, говорит хорошо.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     5
-    </head>
+    <p id="84d89275-15db-4158-bb88-8fe45c85d2ea">
+     <lb/>
+    </p>
+    <p id="911f69e0-9fe9-47f6-a91f-d59f849b2b0d">
+     <head n="level2" type="chapter">
+      5
+     </head>
+    </p>
     <p id="fcc263a8-3f53-492d-88e6-859ad8c76063">
      У сильных мира — удовольствия, у народа — радость.
     </p>
     <p id="3cd48063-d75a-49c0-a1d5-1eff962c50d3">
      <pb n="335"/>
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     6
-    </head>
+    <p id="bd3deb59-fa1f-4e45-a64f-9aed3229e83b">
+     <lb/>
+    </p>
+    <p id="f4573e5b-a3f0-497f-9f3a-06b4dcdb3caa">
+     <head n="level2" type="chapter">
+      6
+     </head>
+    </p>
     <p id="78a8f6a8-c0e1-4764-90dc-9bdf99275e14">
      Я раз сказал одному человеку: «Стыдитесь! У вас чувства, как у вельможи».
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     7
-    </head>
+    <p id="a50e6521-b996-446f-b214-ac4d8b292599">
+     <lb/>
+    </p>
+    <p id="d8d5c2c6-92a6-4e22-8c6c-8735ccb5eb4a">
+     <head n="level2" type="chapter">
+      7
+     </head>
+    </p>
     <p id="b670072f-ecb8-47b1-a932-70a50949ebf6">
      М. так слащав, что, глядя на него, мне всегда представляется шелковичный червь, тянущий свою нить.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     8
-    </head>
+    <p id="65a3c990-dbf0-478d-a986-3d6e3ee66201">
+     <lb/>
+    </p>
+    <p id="ae0cf147-99c1-4066-913c-8356bf2595f9">
+     <head n="level2" type="chapter">
+      8
+     </head>
+    </p>
     <p id="2b733fb0-6943-4dd8-bb99-457dd7b2901b">
      Если гоняешься за умом, то чаще всего поймаешь глупость.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     9
-    </head>
+    <p id="61591d16-96af-40a0-9321-62c9de9ca087">
+     <lb/>
+    </p>
+    <p id="6b748f6e-4829-42d7-b06d-90258b578320">
+     <head n="level2" type="chapter">
+      9
+     </head>
+    </p>
     <p id="304f4005-0918-44fd-aaae-793e0f576144">
      Как мало промежутка между временем, когда человек слишком молод и когда он уже слишком стар!
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     10
-    </head>
+    <p id="7e3554db-e143-443a-a779-598c9c34f6e0">
+     <lb/>
+    </p>
+    <p id="f5f93ee1-938b-47b3-8e08-e715e2694222">
+     <head n="level2" type="chapter">
+      10
+     </head>
+    </p>
     <p id="ca076237-a918-44a5-9630-9877d4d46eb4">
      Надо много учиться, чтобы знать хоть немного.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     11
-    </head>
+    <p id="a132b9c9-1853-41f1-a295-00c79b5e804d">
+     <lb/>
+    </p>
+    <p id="ec53754c-c8ca-47ed-8158-6e74c72b1946">
+     <head n="level2" type="chapter">
+      11
+     </head>
+    </p>
     <p id="97d0502f-ab38-4470-af89-99f597089ae2">
      Я люблю мужиков: они недостаточно учены, чтобы рассуждать превратно.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     12
-    </head>
+    <p id="e060702b-885b-4b41-ac2f-d623fd39420a">
+     <lb/>
+    </p>
+    <p id="ffb60047-25fc-4b7b-98d7-ee15b1253ad4">
+     <head n="level2" type="chapter">
+      12
+     </head>
+    </p>
     <p id="a4af27ca-f6af-4796-a698-3adccaff9ad5">
      Следовало бы непрерывную праздность поместить среди мучений ада, а ее поместили в число блаженств рая.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     13
-    </head>
+    <p id="8a7a98f1-cf43-44df-928f-bd86fade0f9e">
+     <lb/>
+    </p>
+    <p id="be7f33a3-a458-4fa7-9547-0cd6f7b0a82a">
+     <head n="level2" type="chapter">
+      13
+     </head>
+    </p>
     <p id="c7477265-60ad-49df-b763-59191706a417">
      Часто ораторы наверстывают длиною то, чего не хватает у них в глубину.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     14
-    </head>
+    <p id="bc46b3e7-f2c7-4452-83c5-561c572b0bbd">
+     <lb/>
+    </p>
+    <p id="8de46f32-2d74-4921-8c55-c54f04aabe20">
+     <head n="level2" type="chapter">
+      14
+     </head>
+    </p>
     <p id="68e0763d-97b9-45c3-a163-b4d9aaaf3040">
      М. говаривал о великих умах, затерявшихся среди других людей: «Они подобны купцам, которые до самой своей смерти товара не развертывали».
     </p>
     <p id="4a3c243c-94ef-4743-8688-1b0bfc12cff6">
      <pb n="336"/>
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     15
-    </head>
+    <p id="26a20ab8-9c27-4376-8480-c07c42e52a6e">
+     <lb/>
+    </p>
+    <p id="37c2be02-b14c-46ba-ad6e-89f4c19a8036">
+     <head n="level2" type="chapter">
+      15
+     </head>
+    </p>
     <p id="112947d3-8241-4ce6-8736-b9a20177b95b">
      Не следует законами достигать того, чего можно достигнуть улучшением нравов.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     16
-    </head>
+    <p id="b598f7d4-f3f6-4479-9edf-ad595d7020c6">
+     <lb/>
+    </p>
+    <p id="a640dbaa-a963-4f10-be24-287ff9304192">
+     <head n="level2" type="chapter">
+      16
+     </head>
+    </p>
     <p id="ba076dc1-b7e9-4eb3-a3de-743a9127f4f7">
      Властителям никогда не следует оправдываться: они всегда бывают слишком сильны, когда решают, и слишком слабы, когда рассуждают. Им надо поступать разумно, а рассуждать как можно меньше.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     17
-    </head>
+    <p id="21c04d8b-769e-4729-b4b8-2ad3492c22fe">
+     <lb/>
+    </p>
+    <p id="b2a07f44-6377-4505-8b8e-1fd33da8096a">
+     <head n="level2" type="chapter">
+      17
+     </head>
+    </p>
     <p id="62576336-f8aa-4417-945f-647aa0c623af">
      Я не раз замечал, что для успеха в свете надо быть мудрым, но вид иметь взбалмошный.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     18
-    </head>
+    <p id="3dc528e5-ff07-469c-8363-8ca25e836e43">
+     <lb/>
+    </p>
+    <p id="a66d0166-bac1-4a4f-9f5a-52781c3c343e">
+     <head n="level2" type="chapter">
+      18
+     </head>
+    </p>
     <p id="b7d69dd9-b1dc-496f-9d0c-54a035e6d4dc">
      Если бы желать только быть счастливым, то этого скоро можно достигнуть. Но люди желают обыкновенно быть счастливее других, а это почти невозможно, потому что мы считаем других всегда более счастливыми, чем они на самом деле.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     19
-    </head>
+    <p id="1b119262-5a13-4d7a-9ac4-ad5964834315">
+     <lb/>
+    </p>
+    <p id="75cbe7ef-a985-4e61-a935-7210b39ee624">
+     <head n="level2" type="chapter">
+      19
+     </head>
+    </p>
     <p id="d05eead6-acb0-4165-a7ac-953903a8dd37">
      Обыкновенно боятся отступления в речи, а я думаю, что те, которые умело делают отступления, подобны длинноруким, — они больше могут захватывать.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     20
-    </head>
+    <p id="abb07196-0d5f-4f67-97a4-9db4e46ef1ef">
+     <lb/>
+    </p>
+    <p id="31da78a6-eef4-46ec-92e8-1743c7f46c71">
+     <head n="level2" type="chapter">
+      20
+     </head>
+    </p>
     <p id="0a205b54-920b-4884-bf06-acbdd728d769">
      В хорошем поступке есть всегда и доброта и сила для его совершения.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     21
-    </head>
+    <p id="6eb58cf4-a6f2-4654-9dc6-6f34da5679f2">
+     <lb/>
+    </p>
+    <p id="88739a19-4d04-40d6-9c29-ce5808e93d39">
+     <head n="level2" type="chapter">
+      21
+     </head>
+    </p>
     <p id="c79421c5-9666-4d40-993f-41ba0676be51">
      Народ порядочен в своих вкусах, но не в своих нравах.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     22
-    </head>
+    <p id="b857706d-b59a-4b27-a596-b400d04b3fd0">
+     <lb/>
+    </p>
+    <p id="a351bd93-7946-4d9d-8ec9-294086a153a1">
+     <head n="level2" type="chapter">
+      22
+     </head>
+    </p>
     <p id="8bb09527-56ec-4bc5-baa3-d121d67652cc">
      История — это ряд выдуманных событий по поводу действительно совершившихся.
     </p>
     <p id="331876fe-86af-4f21-ab27-1dd43db725a9">
      <pb n="337"/>
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     23
-    </head>
+    <p id="500a08fc-80d5-436f-a674-d011c13ab489">
+     <lb/>
+    </p>
+    <p id="e28c6e8c-0da1-43f5-ad78-a7aab8fe98ab">
+     <head n="level2" type="chapter">
+      23
+     </head>
+    </p>
     <p id="eec5657f-c5a0-469a-9ffd-125c9490b633">
      Сначала произведения дают славу автору, а потом уже автор дает славу своим произведениям.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     24
-    </head>
+    <p id="7aa092e7-f697-4959-801e-debfa3ba8cfd">
+     <lb/>
+    </p>
+    <p id="c5952974-d606-4e11-82cf-dbdef5043a3e">
+     <head n="level2" type="chapter">
+      24
+     </head>
+    </p>
     <p id="d62085f8-4f19-420f-bfe6-ee1061e5e6fc">
      В книгах люди всегда лучше, чем в жизни: это оттого, что всякий автор, возвышая добродетель, хочет выставить себя лучше, чем он есть. Авторы как театральные герои.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     25
-    </head>
+    <p id="23ffb463-9946-470c-a195-e1d716f61585">
+     <lb/>
+    </p>
+    <p id="2bb8293b-ac15-4a16-b40f-65791fcbc74b">
+     <head n="level2" type="chapter">
+      25
+     </head>
+    </p>
     <p id="7f0619f3-649d-4f70-9781-300a5dd164d5">
      Трудно себе представить, до какой низкой цены в наше время пала похвала.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     26
-    </head>
+    <p id="fbb0600c-a7dc-44d6-804d-a27e56e09196">
+     <lb/>
+    </p>
+    <p id="d58e66c9-5d2c-494d-8ff0-99ee93e521db">
+     <head n="level2" type="chapter">
+      26
+     </head>
+    </p>
     <p id="2b0082c1-b79c-4ef8-be02-c35533248a7e">
      Мы никогда не можем рассчитать своих расходов оттого, что всегда знаем, что мы что-то должны сделать, и никогда не знаем, что именно.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     27
-    </head>
+    <p id="1a2b7110-64a0-4b8d-8f69-cfa115aa6a4f">
+     <lb/>
+    </p>
+    <p id="1683d735-2cd1-4da8-874e-1c496a1cee7d">
+     <head n="level2" type="chapter">
+      27
+     </head>
+    </p>
     <p id="419d50dc-152b-47e4-91bc-fe23237f9ba8">
      Я не люблю мелких почетных званий. Они, так сказать, определяют вам цену, тогда как без них никто не мог сказать, чего вы стоите.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     28
-    </head>
+    <p id="2cc26040-afc9-4c29-a14e-c49e6a8222f9">
+     <lb/>
+    </p>
+    <p id="6057e06a-a6f8-4632-bfa2-f3c2dd5938fd">
+     <head n="level2" type="chapter">
+      28
+     </head>
+    </p>
     <p id="e2a27fac-c8f0-4735-8958-eabf14d55e93">
      Всё потеряно в том царстве, где выгоднее угождать, чем исполнять свой долг.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     29
-    </head>
+    <p id="739ad29b-b1b9-4493-8f2a-5c1213d7d054">
+     <lb/>
+    </p>
+    <p id="128c3348-3ae1-4dca-b566-cd7b68a53e9f">
+     <head n="level2" type="chapter">
+      29
+     </head>
+    </p>
     <p id="3090f5c3-9949-4ec4-ab4d-5684355bfb8f">
      Глупцам всегда всё удается потому, что, не будучи в состоянии понимать, когда их смелость становится безумием, они ни перед чем не останавливаются.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     30
-    </head>
+    <p id="0559873a-7652-4a18-91c3-6583ddd6ce13">
+     <lb/>
+    </p>
+    <p id="f24ca253-f0ee-47f5-be65-1039703a5f0a">
+     <head n="level2" type="chapter">
+      30
+     </head>
+    </p>
     <p id="db3e8985-1079-4919-85c5-6cf5ce2e40b8">
      Различия между людьми совершенно ничтожны: у одних подагра, у других каменная болезнь; одни умирают, другие накануне смерти. В вечности у них одна и та же душа, отличаются же эти души друг от друга лишь в продолжение четверти часа, т. е. пока они соединены с телами.
     </p>
     <p id="de3d511b-656c-45ee-89cc-18bcc3c2d047">
      <pb n="338"/>
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     31
-    </head>
+    <p id="8c440321-2968-4bad-9726-e7a3c44c402e">
+     <lb/>
+    </p>
+    <p id="60e8714d-78fe-4904-8bf7-6141f204e5f0">
+     <head n="level2" type="chapter">
+      31
+     </head>
+    </p>
     <p id="d790133c-d007-4ce2-b8ab-ffe6b61c45f2">
      Где бы я ни встречал зависть, я всегда с особенным удовольствием дразню ее, — я всегда хвалю перед завистником тех, которые затмевают его.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     32
-    </head>
+    <p id="62c349af-ebbb-49e7-84f0-21051efb258a">
+     <lb/>
+    </p>
+    <p id="08f60eb4-1a83-4210-aa84-0a7f209ceb4b">
+     <head n="level2" type="chapter">
+      32
+     </head>
+    </p>
     <p id="81d265f0-eab0-4c1f-bbee-3cb1f5b1ecbb">
      Героизм, не противоречащий доброй нравственности, мало трогает людей: только героизм, который разрушает нравственность, вызывает в людях и удивление и восторг.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     33
-    </head>
+    <p id="fc20dccf-3030-44a7-a599-871b87964274">
+     <lb/>
+    </p>
+    <p id="e0c91b47-b735-4e28-b9ff-de3dbf62cc8c">
+     <head n="level2" type="chapter">
+      33
+     </head>
+    </p>
     <p id="59960d38-3513-42e5-9b6e-7bb5987aad37">
      Насмешка, это — речь в пользу своего ума и против своего сердца.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     34
-    </head>
+    <p id="1d94dcd0-467b-4cf3-8086-f896ec881e9d">
+     <lb/>
+    </p>
+    <p id="0656ce3d-68cf-4959-bce7-1cf21d421eeb">
+     <head n="level2" type="chapter">
+      34
+     </head>
+    </p>
     <p id="1f0a1611-f4f1-4b41-b1a9-e86b4d650498">
      Праздные люди всегда большие говоруны. Чем меньше думаешь, тем больше говоришь: таким образом, женщины говорят больше мужчин, — вследствие своей праздности им не приходится думать. Народ, где тон дают женщины, народ болтливый.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     35
-    </head>
+    <p id="eeb8b483-0f5e-4bd1-9ede-a16f918f535c">
+     <lb/>
+    </p>
+    <p id="c0f9ac64-2fe9-4dcc-b781-0161b4bdc465">
+     <head n="level2" type="chapter">
+      35
+     </head>
+    </p>
     <p id="e18d9293-5993-47b4-a40d-e73339379311">
      Есть пороки, которые происходят от недостатка самоуважения. Есть и такие, которые происходят от избытка его.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     36
-    </head>
+    <p id="bb19a07b-a032-4acf-8bba-787cfe90844c">
+     <lb/>
+    </p>
+    <p id="633dc1af-36d8-4226-ae7f-fce4d34d93b9">
+     <head n="level2" type="chapter">
+      36
+     </head>
+    </p>
     <p id="2f57756c-5fc9-4062-b861-83b1e47f410d">
      Наблюдения, это — история естественных наук. Системы естественных наук, это — их басни и легенды.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     37
-    </head>
+    <p id="745991ce-f082-45de-81c7-60f987433146">
+     <lb/>
+    </p>
+    <p id="4bf4ba69-ecef-4168-90d5-6c3ceb7c00ad">
+     <head n="level2" type="chapter">
+      37
+     </head>
+    </p>
     <p id="9d993720-bf10-4249-970a-c9060fcbda43">
      Есть три судилища, решения которых никогда не сходятся: суд государственный, суд чести, суд веры.
     </p>

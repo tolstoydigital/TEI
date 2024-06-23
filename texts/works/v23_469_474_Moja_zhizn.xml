@@ -1,155 +1,177 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v23_469_474_Moja_zhizn">
-                    Моя жизнь. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Моя жизнь</title>
-                <title type="bibl">Толстой Л. Н. Моя жизнь // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 23. М.: Гос. изд. «Художественная литература», 1957. С. 469–474.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="581e5022-f4a4-487a-9ee2-e84cd7c0fc59">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Моя жизнь
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 23
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">23</biblScope>
-                        <biblScope unit="page">469-474</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1878"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#autobio" target="topic"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v23_469_474_Moja_zhizn">
+     Моя жизнь. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Моя жизнь
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Моя жизнь // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 23. М.: Гос. изд. «Художественная литература», 1957. С. 469–474.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="581e5022-f4a4-487a-9ee2-e84cd7c0fc59">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Моя жизнь
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 23
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       23
+      </biblScope>
+      <biblScope unit="page">
+       469-474
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1878"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#autobio" target="topic"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000009">
     <p id="b50b5380-df49-406c-84f6-42bf0704b9b1">
      <pb n="469"/>
     </p>
-    <lb/>
-    <lb/>
-    <lb/>
-    <head rend="center">
-     <hi rend="strong">
-      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
-     </hi>
+    <p id="0576502a-1ed2-48ee-b329-a16b019b4d91">
      <lb/>
-     <hi rend="strong">
-      И НЕОКОНЧЕННОЕ.
-     </hi>
-    </head>
+    </p>
+    <p id="d5c7bf16-d358-4492-a8f0-0953e16f9bdc">
+     <lb/>
+    </p>
+    <p id="935727ad-7744-4305-b15d-40f6c3aff4b3">
+     <lb/>
+    </p>
+    <p id="0bca4152-c183-4fb5-b059-c006e52868e2">
+     <head rend="center">
+      <hi rend="strong">
+       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
+      </hi>
+      <lb/>
+      <hi rend="strong">
+       И НЕОКОНЧЕННОЕ.
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000009001">
-    <head n="level1">
-     МОЯ ЖИЗНЬ
-    </head>
+    <p id="c1f4aa73-7f53-44eb-8ca4-e2a76df5f9fb">
+     <head n="level1">
+      МОЯ ЖИЗНЬ
+     </head>
+    </p>
     <div>
      <p id="257e3624-0723-4687-ad62-d9e827511ea5">
       5 мая 1878. — Я родился в Ясной Поляне, Тульской губернии Крапивенского уезда, 1828 года 28 августа. — Это первое и последнее замечание, которое я делаю о своей жизни не из своих воспоминаний
@@ -184,9 +206,11 @@
     </div>
    </div>
    <div type="section" xml:id="h000009001002">
-    <head n="level2" type="chapter">
-     С 1828 по 1833
-    </head>
+    <p id="63c6f844-052c-4845-9184-f1f28782e6f1">
+     <head n="level2" type="chapter">
+      С 1828 по 1833
+     </head>
+    </p>
     <p id="70462960-7b7a-4913-9655-d314c529c934">
      Вот первые мои воспоминания
      <del>
@@ -240,7 +264,9 @@
       </span>
      </note>
      я опять вступлю в то состояние смерти, от которого не будет воспоминаний, выразимых словами. Разве я не жил тогда, эти первые года, когда учился смотреть, слушать, понимать, говорить, спал, сосал грудь и целовал грудь, и смеялся, и радовал мою мать? Я жил, и блаженно жил. Разве не тогда я приобретал всё то, чем я теперь живу, и приобретал так много, так быстро что во всю остальную жизнь я не приобрел и
-     <num type="fraction" value="1/100">1/100</num>
+     <num type="fraction" value="1/100">
+      1/100
+     </num>
      того. От пятилетнего ребенка до меня только шаг. А от новорожденного
      <pb n="471"/>
      до пятилетнего страшное
@@ -352,9 +378,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009001003">
-    <head n="level2" type="chapter">
-     1833—1834
-    </head>
+    <p id="c9a8aadc-086e-4d5c-8dc5-c589cf3298fc">
+     <head n="level2" type="chapter">
+      1833—1834
+     </head>
+    </p>
     <p id="63cdb9e2-604e-49e8-bbee-35ed1495880d">
      Воспоминаний уже много. Вызывая одни другие, они встают в моем воображении,
      <del>

@@ -1,154 +1,174 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v04_003_017_Sevastopol_v_dekabre_mesjatse">
-                    Севастополь в декабре месяце. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Севастополь в декабре месяце</title>
-                <title type="bibl">Толстой Л. Н. Севастополь в декабре месяце // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 4. М.: Гос. изд. «Художественная литература», 1935. С. 3–17.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e4c2660b-e729-4eca-9c33-4877d27d0e65">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Севастополь в декабре месяце
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 4
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">4</biblScope>
-                        <biblScope unit="page">3-17</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1855"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v04_003_017_Sevastopol_v_dekabre_mesjatse">
+     Севастополь в декабре месяце. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Севастополь в декабре месяце
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Севастополь в декабре месяце // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 4. М.: Гос. изд. «Художественная литература», 1935. С. 3–17.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e4c2660b-e729-4eca-9c33-4877d27d0e65">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Севастополь в декабре месяце
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 4
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       4
+      </biblScope>
+      <biblScope unit="page">
+       3-17
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1855"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000010">
     <p id="e41b5072-40db-410d-b20d-ce57cb5952f0">
      <pb n="3"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      СЕВАСТОПОЛЬСКИЕ РАССКАЗЫ
-     </hi>
-    </head>
+    <p id="70e65c42-265b-4199-8098-90a800814b92">
+     <head rend="center">
+      <hi rend="strong">
+       СЕВАСТОПОЛЬСКИЕ РАССКАЗЫ
+      </hi>
+     </head>
+    </p>
     <div>
-     <lb/>
+     <p id="ac0238e9-ee05-439d-8a7b-caa712cd8566">
+      <lb/>
+     </p>
      <p id="a874fd72-a1d6-407e-956d-ca9754ba0f74" rend="center">
       (1855—1856)
      </p>
     </div>
    </div>
    <div type="section" xml:id="h000010002">
-    <head n="level1">
-     **** СЕВАСТОПОЛЬ В ДЕКАБРЕ МЕСЯЦЕ.
-    </head>
-    <lb/>
+    <p id="386262a6-b2af-4fce-8190-b99b5bf8d159">
+     <head n="level1">
+      **** СЕВАСТОПОЛЬ В ДЕКАБРЕ МЕСЯЦЕ.
+     </head>
+    </p>
+    <p id="5c873243-5adc-4427-bdc0-9438f527555b">
+     <lb/>
+    </p>
     <p id="b68493e0-5678-48ef-aeb1-ee1ff9eacd67">
      Утренняя заря только что начинает окрашивать небосклон над Сапун-горою; темно-синяя поверхность моря уже сбросила с себя сумрак ночи и ждет первого луча, чтобы заиграть веселым блеском; с бухты несет холодом и туманом; снега нет — всё черно, но утренний резкий мороз хватает за лицо и трещит под ногами, и далекий неумолкаемый гул моря, изредка прерываемый раскатистыми выстрелами в Севастополе, один нарушает тишину утра. На кораблях глухо бьет 8-я стклянка.
     </p>
@@ -445,7 +465,9 @@
      <pb n="17"/>
      туч, покрывающих небо, и вдруг багряным светом осветило лиловые тучи, зеленоватое море, покрытое кораблями и лодками, колыхаемое ровной широкой зыбью, и белые строения города, и народ, движущийся по улицам. По воде разносятся звуки какого-то старинного вальса, который играет полковая музыка на бульваре, и звуки выстрелов с бастионов, которые странно вторят им.
     </p>
-    <lb/>
+    <p id="f9459ea9-d7ca-4f87-8954-c099e4fd749c">
+     <lb/>
+    </p>
     <p id="86b5c03d-2a36-4a55-825d-51d3ce3198f9">
      Севастополь.
      <lb/>

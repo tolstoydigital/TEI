@@ -1,144 +1,158 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v01_103_166_Chetyre_epohi_razvitija" resp="volume_editor">
-                    [Четыре эпохи развития]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Четыре эпохи развития</title>
-                <title type="bibl">Толстой Л. Н. [Четыре эпохи развития] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 1. М.: Гос. изд. «Художественная литература», 1935. С. 103–166.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4aaad804-66d0-40de-8e58-7f685fcde612">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Четыре эпохи развития]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 1
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">1</biblScope>
-                        <biblScope unit="page">103-166</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1852"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v01_103_166_Chetyre_epohi_razvitija">
+     [Четыре эпохи развития]. Произведения. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Четыре эпохи развития
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Четыре эпохи развития] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 1. М.: Гос. изд. «Художественная литература», 1935. С. 103–166.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4aaad804-66d0-40de-8e58-7f685fcde612">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Четыре эпохи развития]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 1
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       1
+      </biblScope>
+      <biblScope unit="page">
+       103-166
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <p id="2a2630d4-88db-419a-9644-002eb11dd256">
      <pb n="103"/>
     </p>
     <div type="section">
-     <head xml:id="h36">
-      *I.
-      <lb/>
-      [ЧЕТЫРЕ ЭПОХИ РАЗВИТИЯ.]
-     </head>
+     <p id="0a8f576e-7e1a-485c-81fb-bda3d9ccae36">
+      <head xml:id="h36">
+       *I.
+       <lb/>
+       [ЧЕТЫРЕ ЭПОХИ РАЗВИТИЯ.]
+      </head>
+     </p>
      <p id="171160c6-4775-4dd4-8bb9-fc3bb7c40fc0">
       [1]
       <ref target="#note51">
@@ -165,444 +179,444 @@
       </note>
      </p>
      <p id="10c02f9b-02a8-4ea1-be41-1aa93097a5e9">
-         <del type='reconstructed'>
-      <choice>
-       <reg>
-        Впрочем
-       </reg>
-       <orig>
-        Впрочемъ
-       </orig>
-      </choice>
-      , я
-      <choice>
-       <reg>
-        так
-       </reg>
-       <orig>
-        такъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        был
-       </reg>
-       <orig>
-        былъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        откровенен
-       </reg>
-       <orig>
-        откровененъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этих
-       </reg>
-       <orig>
-        этихъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        записках
-       </reg>
-       <orig>
-        запискахъ
-       </orig>
-      </choice>
-      во
-      <choice>
-       <reg>
-        всех
-       </reg>
-       <orig>
-        всѣхъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        слабостях
-       </reg>
-       <orig>
-        слабостяхъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        своих
-       </reg>
-       <orig>
-        своихъ
-       </orig>
-      </choice>
-      , что я думаю, не
-      <choice>
-       <reg>
-        решился
-       </reg>
-       <orig>
-        рѣшился
-       </orig>
-      </choice>
-      бы прямо бросить
-      <choice>
-       <reg>
-        их
-       </reg>
-       <orig>
-        ихъ
-       </orig>
-      </choice>
-      на
-      <choice>
-       <reg>
-        суждения
-       </reg>
-       <orig>
-        сужденія
-       </orig>
-      </choice>
-      толпы. — Хотя я
-      <choice>
-       <reg>
-        убежден
-       </reg>
-       <orig>
-        убѣжденъ
-       </orig>
-      </choice>
-      , что я не;
-      <pb n="104"/>
-      хуже большей части людей; но я могу показаться
-      <choice>
-       <reg>
-        самым
-       </reg>
-       <orig>
-        самымъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        ничтожным
-       </reg>
-       <orig>
-        ничтожнымъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        человеком
-       </reg>
-       <orig>
-        человѣкомъ
-       </orig>
-      </choice>
-      , потому что
-      <choice>
-       <reg>
-        был
-       </reg>
-       <orig>
-        былъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        откровенен
-       </reg>
-       <orig>
-        откровененъ
-       </orig>
-      </choice>
-      . Скрытность есть наклонность скрывать
-      <choice>
-       <reg>
-        дурные
-       </reg>
-       <orig>
-        дурныя
-       </orig>
-      </choice>
-      качества и выказывать
-      <choice>
-       <reg>
-        хорошия
-       </reg>
-       <orig>
-        хорошія
-       </orig>
-      </choice>
-      , откровенность — наклонность выказывать
-      <choice>
-       <reg>
-        дурные
-       </reg>
-       <orig>
-        дурныя
-       </orig>
-      </choice>
-      и скрывать
-      <choice>
-       <reg>
-        хорошия
-       </reg>
-       <orig>
-        хорошія
-       </orig>
-      </choice>
-      ; скрывать
-      <choice>
-       <reg>
-        хорошия
-       </reg>
-       <orig>
-        хорошія
-       </orig>
-      </choice>
-      качества есть скромность, [2] выказывать
-      <choice>
-       <reg>
-        хорошия
-       </reg>
-       <orig>
-        хорошія
-       </orig>
-      </choice>
-      хвастовство,
-      <choice>
-       <reg>
-        тщеславие
-       </reg>
-       <orig>
-        тщеславіе
-       </orig>
-      </choice>
-      . — Будьте же
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        исповедником
-       </reg>
-       <orig>
-        исповѣдникомъ
-       </orig>
-      </choice>
-      и судьею,
-      <choice>
-       <reg>
-        поверяюсь
-       </reg>
-       <orig>
-        повѣряюсь
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        вам
-       </reg>
-       <orig>
-        вамъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этих
-       </reg>
-       <orig>
-        этихъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        записках
-       </reg>
-       <orig>
-        запискахъ
-       </orig>
-      </choice>
-      . Лучше я не
-      <choice>
-       <reg>
-        мог
-       </reg>
-       <orig>
-        могъ
-       </orig>
-      </choice>
-      выбрать, потому что
-      <choice>
-       <reg>
-        нет
-       </reg>
-       <orig>
-        нѣтъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        человека
-       </reg>
-       <orig>
-        человѣка
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        которого
-       </reg>
-       <orig>
-        котораго
-       </orig>
-      </choice>
-      бы я
-      <choice>
-       <reg>
-        любил
-       </reg>
-       <orig>
-        любилъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        уважал
-       </reg>
-       <orig>
-        уважалъ
-       </orig>
-      </choice>
-      больше
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      .
-         </del>
+      <del type="reconstructed">
+       <choice>
+        <reg>
+         Впрочем
+        </reg>
+        <orig>
+         Впрочемъ
+        </orig>
+       </choice>
+       , я
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         откровенен
+        </reg>
+        <orig>
+         откровененъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этих
+        </reg>
+        <orig>
+         этихъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         записках
+        </reg>
+        <orig>
+         запискахъ
+        </orig>
+       </choice>
+       во
+       <choice>
+        <reg>
+         всех
+        </reg>
+        <orig>
+         всѣхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         слабостях
+        </reg>
+        <orig>
+         слабостяхъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         своих
+        </reg>
+        <orig>
+         своихъ
+        </orig>
+       </choice>
+       , что я думаю, не
+       <choice>
+        <reg>
+         решился
+        </reg>
+        <orig>
+         рѣшился
+        </orig>
+       </choice>
+       бы прямо бросить
+       <choice>
+        <reg>
+         их
+        </reg>
+        <orig>
+         ихъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         суждения
+        </reg>
+        <orig>
+         сужденія
+        </orig>
+       </choice>
+       толпы. — Хотя я
+       <choice>
+        <reg>
+         убежден
+        </reg>
+        <orig>
+         убѣжденъ
+        </orig>
+       </choice>
+       , что я не;
+       <pb n="104"/>
+       хуже большей части людей; но я могу показаться
+       <choice>
+        <reg>
+         самым
+        </reg>
+        <orig>
+         самымъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ничтожным
+        </reg>
+        <orig>
+         ничтожнымъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         человеком
+        </reg>
+        <orig>
+         человѣкомъ
+        </orig>
+       </choice>
+       , потому что
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         откровенен
+        </reg>
+        <orig>
+         откровененъ
+        </orig>
+       </choice>
+       . Скрытность есть наклонность скрывать
+       <choice>
+        <reg>
+         дурные
+        </reg>
+        <orig>
+         дурныя
+        </orig>
+       </choice>
+       качества и выказывать
+       <choice>
+        <reg>
+         хорошия
+        </reg>
+        <orig>
+         хорошія
+        </orig>
+       </choice>
+       , откровенность — наклонность выказывать
+       <choice>
+        <reg>
+         дурные
+        </reg>
+        <orig>
+         дурныя
+        </orig>
+       </choice>
+       и скрывать
+       <choice>
+        <reg>
+         хорошия
+        </reg>
+        <orig>
+         хорошія
+        </orig>
+       </choice>
+       ; скрывать
+       <choice>
+        <reg>
+         хорошия
+        </reg>
+        <orig>
+         хорошія
+        </orig>
+       </choice>
+       качества есть скромность, [2] выказывать
+       <choice>
+        <reg>
+         хорошия
+        </reg>
+        <orig>
+         хорошія
+        </orig>
+       </choice>
+       хвастовство,
+       <choice>
+        <reg>
+         тщеславие
+        </reg>
+        <orig>
+         тщеславіе
+        </orig>
+       </choice>
+       . — Будьте же
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         исповедником
+        </reg>
+        <orig>
+         исповѣдникомъ
+        </orig>
+       </choice>
+       и судьею,
+       <choice>
+        <reg>
+         поверяюсь
+        </reg>
+        <orig>
+         повѣряюсь
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вам
+        </reg>
+        <orig>
+         вамъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этих
+        </reg>
+        <orig>
+         этихъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         записках
+        </reg>
+        <orig>
+         запискахъ
+        </orig>
+       </choice>
+       . Лучше я не
+       <choice>
+        <reg>
+         мог
+        </reg>
+        <orig>
+         могъ
+        </orig>
+       </choice>
+       выбрать, потому что
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         человека
+        </reg>
+        <orig>
+         человѣка
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         которого
+        </reg>
+        <orig>
+         котораго
+        </orig>
+       </choice>
+       бы я
+       <choice>
+        <reg>
+         любил
+        </reg>
+        <orig>
+         любилъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         уважал
+        </reg>
+        <orig>
+         уважалъ
+        </orig>
+       </choice>
+       больше
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       .
+      </del>
      </p>
      <p id="ed3d801d-a5e5-4f18-bdf7-db5e7b4b997d" rend="right right">
-         <del type='reconstructed'>
-      Г. Л. Н.
-         </del>
+      <del type="reconstructed">
+       Г. Л. Н.
+      </del>
      </p>
      <p id="0b86bd99-1b8a-4807-b72d-2af73ba3bdb6">
-         <del type='reconstructed'>
-      Кажется,
-      <choice>
-       <reg>
-        как
-       </reg>
-       <orig>
-        какъ
-       </orig>
-      </choice>
-      выгодна скрытность и
-      <choice>
-       <reg>
-        как
-       </reg>
-       <orig>
-        какъ
-       </orig>
-      </choice>
-      невыгодна откровенность; но откровенность есть хорошая наклонность, которую нельзя скрыть, и эта наклонность
-      <choice>
-       <reg>
-        так
-       </reg>
-       <orig>
-        такъ
-       </orig>
-      </choice>
-      хороша, что она
-      <choice>
-       <reg>
-        выкупает
-       </reg>
-       <orig>
-        выкупаетъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      кажется,
-      <choice>
-       <reg>
-        все
-       </reg>
-       <orig>
-        всѣ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        дурные
-       </reg>
-       <orig>
-        дурныя
-       </orig>
-      </choice>
-      .&gt;
-      <ref target="#note52">
-       52
-      </ref>
-      <note index="false" xml:id="note52">
-       <span data-class="paragraph" id="f5ed6ba7-8bc8-436a-a876-d12d151b19b7">
-        <hi rend="sup">
-         <ref target="#backn52">
-          52
-         </ref>
-        </hi>
-        <hi rend="italic">
-         <hi rend="color_-65536">
-          С начала до этого слова зачеркнуто поперек текста одной чертой.
+      <del type="reconstructed">
+       Кажется,
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       выгодна скрытность и
+       <choice>
+        <reg>
+         как
+        </reg>
+        <orig>
+         какъ
+        </orig>
+       </choice>
+       невыгодна откровенность; но откровенность есть хорошая наклонность, которую нельзя скрыть, и эта наклонность
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       хороша, что она
+       <choice>
+        <reg>
+         выкупает
+        </reg>
+        <orig>
+         выкупаетъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       кажется,
+       <choice>
+        <reg>
+         все
+        </reg>
+        <orig>
+         всѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         дурные
+        </reg>
+        <orig>
+         дурныя
+        </orig>
+       </choice>
+       .&gt;
+       <ref target="#note52">
+        52
+       </ref>
+       <note index="false" xml:id="note52">
+        <span data-class="paragraph" id="f5ed6ba7-8bc8-436a-a876-d12d151b19b7">
+         <hi rend="sup">
+          <ref target="#backn52">
+           52
+          </ref>
          </hi>
-        </hi>
-       </span>
-      </note>
-         </del>
+         <hi rend="italic">
+          <hi rend="color_-65536">
+           С начала до этого слова зачеркнуто поперек текста одной чертой.
+          </hi>
+         </hi>
+        </span>
+       </note>
+      </del>
      </p>
      <p id="99b16bd1-9390-435c-a590-f856ecb0de91">
       Вы не знали моей матери и исторіи ея. Она урожденная Княжна Б...., дочь Князя Иванъ Андрѣича Б. и племянница Князя Семена и Петра, которыхъ кто не зналъ или по крайней мѣрѣ не слыхалъ о нихъ. Воспитаніе ея и положеніе въ свѣтѣ были самыя блестящія во всѣхъ отношеніяхъ. Она вышла замужъ за князя Д.........., человѣка глупаго, грубаго и необразованнаго. Не знаю, что было поводомъ къ этой сватьбѣ; никто мнѣ не могъ объяснить этого. Я не зналъ и никогда не видалъ Князя Д., но знаю, что maman не любила его. Она прожила съ нимъ три мѣсяца и оставила его, или онъ оставилъ ее, не знаю, только знаю, что они разошлись.
@@ -1038,7 +1052,9 @@
        </orig>
       </choice>
       больше 1
-      <num type="fraction" value="1/2">1/2</num>
+      <num type="fraction" value="1/2">
+       1/2
+      </num>
       <choice>
        <reg>
         миллиона
@@ -1478,7 +1494,9 @@
        </orig>
       </choice>
       7
-      <num type="fraction" value="1/2">1/2</num>
+      <num type="fraction" value="1/2">
+       1/2
+      </num>
       <choice>
        <reg>
         часов
@@ -2650,7 +2668,9 @@
         </hi>
        </span>
       </note>
-      <num type="fraction" value="1/2">1/2</num>
+      <num type="fraction" value="1/2">
+       1/2
+      </num>
       вы встали,
       <choice>
        <reg>
@@ -16740,7 +16760,9 @@
        </orig>
       </choice>
       1
-      <num type="fraction" value="1/2">1/2</num>
+      <num type="fraction" value="1/2">
+       1/2
+      </num>
       пуда. Я еще маленькая подслушала ночью,
       <choice>
        <reg>
@@ -30049,9 +30071,11 @@
       </choice>
       на глаза, но ненадолго.
      </p>
-     <head n="level2" type="part">
-      ВТОРАЯ ЧАСТЬ.
-     </head>
+     <p id="a2661893-cc6f-484f-9b99-c4d11bcbd813">
+      <head n="level2" type="part">
+       ВТОРАЯ ЧАСТЬ.
+      </head>
+     </p>
      <p id="00fff9a5-8031-4950-8120-89a4de1c1f23">
       <choice>
        <reg>
@@ -36136,331 +36160,334 @@
       </note>
      </p>
      <p id="7ff3ac64-6e30-47be-8edb-eba125a3bcbc">
-      <del type="reconstructed">Милые мои друзья и
-      <choice>
-       <reg>
-        дети
-       </reg>
-       <orig>
-        дѣти
-       </orig>
-      </choice>
-      Володенька М. и Васенька. Не ожидайте
-      <choice>
-       <reg>
-        найти
-       </reg>
-       <orig>
-        найдти
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этом
-       </reg>
-       <orig>
-        этомъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        письме
-       </reg>
-       <orig>
-        письмѣ
-       </orig>
-      </choice>
-      радости и
-      <choice>
-       <reg>
-        утешения
-       </reg>
-       <orig>
-        утѣшенія
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        напротив
-       </reg>
-       <orig>
-        напротивъ
-       </orig>
-      </choice>
-      , оно для
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        будет
-       </reg>
-       <orig>
-        будетъ
-       </orig>
-      </choice>
-      очень грустно.
-      <choice>
-       <reg>
-        Вас
-       </reg>
-       <orig>
-        Васъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нет
-       </reg>
-       <orig>
-        нѣтъ
-       </orig>
-      </choice>
-      у меня, и
-      <choice>
-       <reg>
-        нет
-       </reg>
-       <orig>
-        нѣтъ
-       </orig>
-      </choice>
-      у меня
-      <choice>
-       <reg>
-        веселых
-       </reg>
-       <orig>
-        веселыхъ
-       </orig>
-      </choice>
-      мыслей, — но мысль моя всегда
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      вами:
-      <choice>
-       <reg>
-        нет
-       </reg>
-       <orig>
-        нѣтъ
-       </orig>
-      </choice>
-      часу,
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      который бы я
-      <choice>
-       <reg>
-        несколько
-       </reg>
-       <orig>
-        нѣсколько
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        раз
-       </reg>
-       <orig>
-        разъ
-       </orig>
-      </choice>
-      не думала о
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        нет
-       </reg>
-       <orig>
-        нѣтъ
-       </orig>
-      </choice>
-      ночи,
-      <choice>
-       <reg>
-        чтоб
-       </reg>
-       <orig>
-        чтобъ
-       </orig>
-      </choice>
-      я не
-      <choice>
-       <reg>
-        видела
-       </reg>
-       <orig>
-        видѣла
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      во
-      <choice>
-       <reg>
-        сне
-       </reg>
-       <orig>
-        снѣ
-       </orig>
-      </choice>
-      . Всякую минуту,
-      <choice>
-       <reg>
-        где
-       </reg>
-       <orig>
-        гдѣ
-       </orig>
-      </choice>
-      бы я не была,
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      все кажется,
-      <choice>
-       <reg>
-        вот
-       </reg>
-       <orig>
-        вотъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        вбегут
-       </reg>
-       <orig>
-        вбѣгутъ
-       </orig>
-      </choice>
-      мои шалуны; но вспомню, что
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нет
-       </reg>
-       <orig>
-        нѣтъ
-       </orig>
-      </choice>
-      , и одно
-      <choice>
-       <reg>
-        воображение
-       </reg>
-       <orig>
-        воображеніе
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        рисует
-       </reg>
-       <orig>
-        рисуетъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      ;
-      <pb n="143"/>
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      , какими вы были и какими вы будете, но
-      <choice>
-       <reg>
-        может
-       </reg>
-       <orig>
-        можетъ
-       </orig>
-      </choice>
-      быть оттого, что я одна, или оттого, что нездорова,
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      страшно за
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      . —
-     </del></p><p id="b02b9c4c-7de5-43ee-8e2e-f753647f4ac2">
+      <del type="reconstructed">
+       Милые мои друзья и
+       <choice>
+        <reg>
+         дети
+        </reg>
+        <orig>
+         дѣти
+        </orig>
+       </choice>
+       Володенька М. и Васенька. Не ожидайте
+       <choice>
+        <reg>
+         найти
+        </reg>
+        <orig>
+         найдти
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этом
+        </reg>
+        <orig>
+         этомъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         письме
+        </reg>
+        <orig>
+         письмѣ
+        </orig>
+       </choice>
+       радости и
+       <choice>
+        <reg>
+         утешения
+        </reg>
+        <orig>
+         утѣшенія
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         напротив
+        </reg>
+        <orig>
+         напротивъ
+        </orig>
+       </choice>
+       , оно для
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         будет
+        </reg>
+        <orig>
+         будетъ
+        </orig>
+       </choice>
+       очень грустно.
+       <choice>
+        <reg>
+         Вас
+        </reg>
+        <orig>
+         Васъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+       у меня, и
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+       у меня
+       <choice>
+        <reg>
+         веселых
+        </reg>
+        <orig>
+         веселыхъ
+        </orig>
+       </choice>
+       мыслей, — но мысль моя всегда
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       вами:
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+       часу,
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       который бы я
+       <choice>
+        <reg>
+         несколько
+        </reg>
+        <orig>
+         нѣсколько
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         раз
+        </reg>
+        <orig>
+         разъ
+        </orig>
+       </choice>
+       не думала о
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+       ночи,
+       <choice>
+        <reg>
+         чтоб
+        </reg>
+        <orig>
+         чтобъ
+        </orig>
+       </choice>
+       я не
+       <choice>
+        <reg>
+         видела
+        </reg>
+        <orig>
+         видѣла
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       во
+       <choice>
+        <reg>
+         сне
+        </reg>
+        <orig>
+         снѣ
+        </orig>
+       </choice>
+       . Всякую минуту,
+       <choice>
+        <reg>
+         где
+        </reg>
+        <orig>
+         гдѣ
+        </orig>
+       </choice>
+       бы я не была,
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       все кажется,
+       <choice>
+        <reg>
+         вот
+        </reg>
+        <orig>
+         вотъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вбегут
+        </reg>
+        <orig>
+         вбѣгутъ
+        </orig>
+       </choice>
+       мои шалуны; но вспомню, что
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нет
+        </reg>
+        <orig>
+         нѣтъ
+        </orig>
+       </choice>
+       , и одно
+       <choice>
+        <reg>
+         воображение
+        </reg>
+        <orig>
+         воображеніе
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         рисует
+        </reg>
+        <orig>
+         рисуетъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       ;
+       <pb n="143"/>
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       , какими вы были и какими вы будете, но
+       <choice>
+        <reg>
+         может
+        </reg>
+        <orig>
+         можетъ
+        </orig>
+       </choice>
+       быть оттого, что я одна, или оттого, что нездорова,
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       страшно за
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       . —
+      </del>
+     </p>
+     <p id="b02b9c4c-7de5-43ee-8e2e-f753647f4ac2">
       Слушайте меня,
       <choice>
        <reg>
@@ -37480,384 +37507,386 @@
       </choice>
       .
      </p>
-     <p id="f7a11007-af93-4ad4-b086-5855a17409f7"><del>
-      <choice>
-       <reg>
-        Он
-       </reg>
-       <orig>
-        Онъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        послал
-       </reg>
-       <orig>
-        послалъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нам
-       </reg>
-       <orig>
-        намъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        вам
-       </reg>
-       <orig>
-        вамъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        крест
-       </reg>
-       <orig>
-        крестъ
-       </orig>
-      </choice>
-      , который мы должны нести
-      <choice>
-       <reg>
-        без
-       </reg>
-       <orig>
-        безъ
-       </orig>
-      </choice>
-      ропота, и
-      <choice>
-       <reg>
-        надеяться
-       </reg>
-       <orig>
-        надѣяться
-       </orig>
-      </choice>
-      на Его
-      <choice>
-       <reg>
-        бесконечную
-       </reg>
-       <orig>
-        безконечную
-       </orig>
-      </choice>
-      милость.
-      <choice>
-       <reg>
-        Он
-       </reg>
-       <orig>
-        Онъ
-       </orig>
-      </choice>
-      не
-      <choice>
-       <reg>
-        накажет
-       </reg>
-       <orig>
-        накажетъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      .
-      <choice>
-       <reg>
-        Так
-       </reg>
-       <orig>
-        Такъ
-       </orig>
-      </choice>
-      много
-      <choice>
-       <reg>
-        злых
-       </reg>
-       <orig>
-        злыхъ
-       </orig>
-      </choice>
-      и
-      <choice>
-       <reg>
-        нечувствительных
-       </reg>
-       <orig>
-        нечувствительныхъ
-       </orig>
-      </choice>
-      людей, что нашлись бы и
-      <choice>
-       <reg>
-        может
-       </reg>
-       <orig>
-        можетъ
-       </orig>
-      </choice>
-      найдутся люди, которые
-      <choice>
-       <reg>
-        опишут
-       </reg>
-       <orig>
-        опишутъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        вам
-       </reg>
-       <orig>
-        вамъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        так
-       </reg>
-       <orig>
-        такъ
-       </orig>
-      </choice>
-      ваше
-      <choice>
-       <reg>
-        положение
-       </reg>
-       <orig>
-        положеніе
-       </orig>
-      </choice>
-      , что
-      <choice>
-       <reg>
-        вам
-       </reg>
-       <orig>
-        вамъ
-       </orig>
-      </choice>
-      больно
-      <choice>
-       <reg>
-        будет
-       </reg>
-       <orig>
-        будетъ
-       </orig>
-      </choice>
-      подумать о
-      <choice>
-       <reg>
-        нем
-       </reg>
-       <orig>
-        немъ
-       </orig>
-      </choice>
-      . Не слушайте никого и знайте и помните только то, что во
-      <choice>
-       <reg>
-        всем
-       </reg>
-       <orig>
-        всемъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        определение
-       </reg>
-       <orig>
-        опредѣленіе
-       </orig>
-      </choice>
-      свыше, и что, ежели бы можно было, то мать ваша
-      <choice>
-       <reg>
-        сейчас
-       </reg>
-       <orig>
-        сейчасъ
-       </orig>
-      </choice>
-      отдала бы свою жизнь, чтобы избавить
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        от
-       </reg>
-       <orig>
-        отъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этого
-       </reg>
-       <orig>
-        этаго
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        положения
-       </reg>
-       <orig>
-        положенія
-       </orig>
-      </choice>
-      . Я нездорова, и кто
-      <choice>
-       <reg>
-        знает
-       </reg>
-       <orig>
-        знаетъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        может
-       </reg>
-       <orig>
-        можетъ
-       </orig>
-      </choice>
-      я
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      больше не увижу. Теперь я спокойна, вы [и] чувства;
-      <pb n="144"/>
-      ваши ко
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      не
-      <choice>
-       <reg>
-        изменятся
-       </reg>
-       <orig>
-        измѣнятся
-       </orig>
-      </choice>
-      . Прощайте, друзья мои, Ангелы мои.
-      <choice>
-       <reg>
-        Нежно
-       </reg>
-       <orig>
-        Нѣжно
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        нежно
-       </reg>
-       <orig>
-        нѣжно
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        целую
-       </reg>
-       <orig>
-        цѣлую
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      и молю Бога, чтобы
-      <choice>
-       <reg>
-        он
-       </reg>
-       <orig>
-        онъ
-       </orig>
-      </choice>
-      не
-      <choice>
-       <reg>
-        оставил
-       </reg>
-       <orig>
-        оставилъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        вас
-       </reg>
-       <orig>
-        васъ
-       </orig>
-      </choice>
-      . Прощайте,
-      <choice>
-       <reg>
-        дети
-       </reg>
-       <orig>
-        дѣти
-       </orig>
-      </choice>
-      .</del>
+     <p id="f7a11007-af93-4ad4-b086-5855a17409f7">
+      <del>
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         послал
+        </reg>
+        <orig>
+         послалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нам
+        </reg>
+        <orig>
+         намъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         вам
+        </reg>
+        <orig>
+         вамъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         крест
+        </reg>
+        <orig>
+         крестъ
+        </orig>
+       </choice>
+       , который мы должны нести
+       <choice>
+        <reg>
+         без
+        </reg>
+        <orig>
+         безъ
+        </orig>
+       </choice>
+       ропота, и
+       <choice>
+        <reg>
+         надеяться
+        </reg>
+        <orig>
+         надѣяться
+        </orig>
+       </choice>
+       на Его
+       <choice>
+        <reg>
+         бесконечную
+        </reg>
+        <orig>
+         безконечную
+        </orig>
+       </choice>
+       милость.
+       <choice>
+        <reg>
+         Он
+        </reg>
+        <orig>
+         Онъ
+        </orig>
+       </choice>
+       не
+       <choice>
+        <reg>
+         накажет
+        </reg>
+        <orig>
+         накажетъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       .
+       <choice>
+        <reg>
+         Так
+        </reg>
+        <orig>
+         Такъ
+        </orig>
+       </choice>
+       много
+       <choice>
+        <reg>
+         злых
+        </reg>
+        <orig>
+         злыхъ
+        </orig>
+       </choice>
+       и
+       <choice>
+        <reg>
+         нечувствительных
+        </reg>
+        <orig>
+         нечувствительныхъ
+        </orig>
+       </choice>
+       людей, что нашлись бы и
+       <choice>
+        <reg>
+         может
+        </reg>
+        <orig>
+         можетъ
+        </orig>
+       </choice>
+       найдутся люди, которые
+       <choice>
+        <reg>
+         опишут
+        </reg>
+        <orig>
+         опишутъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вам
+        </reg>
+        <orig>
+         вамъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       ваше
+       <choice>
+        <reg>
+         положение
+        </reg>
+        <orig>
+         положеніе
+        </orig>
+       </choice>
+       , что
+       <choice>
+        <reg>
+         вам
+        </reg>
+        <orig>
+         вамъ
+        </orig>
+       </choice>
+       больно
+       <choice>
+        <reg>
+         будет
+        </reg>
+        <orig>
+         будетъ
+        </orig>
+       </choice>
+       подумать о
+       <choice>
+        <reg>
+         нем
+        </reg>
+        <orig>
+         немъ
+        </orig>
+       </choice>
+       . Не слушайте никого и знайте и помните только то, что во
+       <choice>
+        <reg>
+         всем
+        </reg>
+        <orig>
+         всемъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         определение
+        </reg>
+        <orig>
+         опредѣленіе
+        </orig>
+       </choice>
+       свыше, и что, ежели бы можно было, то мать ваша
+       <choice>
+        <reg>
+         сейчас
+        </reg>
+        <orig>
+         сейчасъ
+        </orig>
+       </choice>
+       отдала бы свою жизнь, чтобы избавить
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         от
+        </reg>
+        <orig>
+         отъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этого
+        </reg>
+        <orig>
+         этаго
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         положения
+        </reg>
+        <orig>
+         положенія
+        </orig>
+       </choice>
+       . Я нездорова, и кто
+       <choice>
+        <reg>
+         знает
+        </reg>
+        <orig>
+         знаетъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         может
+        </reg>
+        <orig>
+         можетъ
+        </orig>
+       </choice>
+       я
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       больше не увижу. Теперь я спокойна, вы [и] чувства;
+       <pb n="144"/>
+       ваши ко
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       не
+       <choice>
+        <reg>
+         изменятся
+        </reg>
+        <orig>
+         измѣнятся
+        </orig>
+       </choice>
+       . Прощайте, друзья мои, Ангелы мои.
+       <choice>
+        <reg>
+         Нежно
+        </reg>
+        <orig>
+         Нѣжно
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         нежно
+        </reg>
+        <orig>
+         нѣжно
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         целую
+        </reg>
+        <orig>
+         цѣлую
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       и молю Бога, чтобы
+       <choice>
+        <reg>
+         он
+        </reg>
+        <orig>
+         онъ
+        </orig>
+       </choice>
+       не
+       <choice>
+        <reg>
+         оставил
+        </reg>
+        <orig>
+         оставилъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         вас
+        </reg>
+        <orig>
+         васъ
+        </orig>
+       </choice>
+       . Прощайте,
+       <choice>
+        <reg>
+         дети
+        </reg>
+        <orig>
+         дѣти
+        </orig>
+       </choice>
+       .
+      </del>
       <ref target="#note87">
        87
       </ref>
@@ -37875,7 +37904,8 @@
         </hi>
        </span>
       </note>
-     </p><p id="dfa42e84-a313-4a22-96fe-1c51d2c51ede">
+     </p>
+     <p id="dfa42e84-a313-4a22-96fe-1c51d2c51ede">
       <choice>
        <reg>
         К
@@ -37962,345 +37992,349 @@
      </p>
      <p id="268e759d-a6aa-4284-9052-2154139553a0">
       <del type="reconstructed">
-      <choice>
-       <reg>
-        Ответ
-       </reg>
-       <orig>
-        Отвѣтъ
-       </orig>
-      </choice>
-      Володи. —
-     </del></p><p id="988c5c02-0c96-421c-b5d7-c11f28631fa5" rend="center">
+       <choice>
+        <reg>
+         Ответ
+        </reg>
+        <orig>
+         Отвѣтъ
+        </orig>
+       </choice>
+       Володи. —
+      </del>
+     </p>
+     <p id="988c5c02-0c96-421c-b5d7-c11f28631fa5" rend="center">
       Милая maman! —
      </p>
-     <p id="d82885d4-efda-42f6-843e-5d858b878026"><del>
-      Письмо твое огорчило меня не
-      <choice>
-       <reg>
-        тем
-       </reg>
-       <orig>
-        тѣмъ
-       </orig>
-      </choice>
-      , что ты
-      <choice>
-       <reg>
-        нам
-       </reg>
-       <orig>
-        намъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нем
-       </reg>
-       <orig>
-        немъ
-       </orig>
-      </choice>
-      объявила (я
-      <choice>
-       <reg>
-        уж
-       </reg>
-       <orig>
-        ужъ
-       </orig>
-      </choice>
-      это прежде
-      <choice>
-       <reg>
-        знал
-       </reg>
-       <orig>
-        зналъ
-       </orig>
-      </choice>
-      ), но
-      <choice>
-       <reg>
-        тем
-       </reg>
-       <orig>
-        тѣмъ
-       </orig>
-      </choice>
-      , что ты говорила про это —
-      <choice>
-       <reg>
-        тебе
-       </reg>
-       <orig>
-        тебѣ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        верно
-       </reg>
-       <orig>
-        вѣрно
-       </orig>
-      </choice>
-      это больно. Прежде, еще когда я не
-      <choice>
-       <reg>
-        знал
-       </reg>
-       <orig>
-        зналъ
-       </orig>
-      </choice>
-      этого, но многое
-      <choice>
-       <reg>
-        мне
-       </reg>
-       <orig>
-        мнѣ
-       </orig>
-      </choice>
-      казалось
-      <choice>
-       <reg>
-        странным
-       </reg>
-       <orig>
-        страннымъ
-       </orig>
-      </choice>
-      , я не
-      <choice>
-       <reg>
-        спрашивал
-       </reg>
-       <orig>
-        спрашивалъ
-       </orig>
-      </choice>
-      у тебя
-      <choice>
-       <reg>
-        об
-       </reg>
-       <orig>
-        объ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этом
-       </reg>
-       <orig>
-        этомъ
-       </orig>
-      </choice>
-      , потому что
-      <choice>
-       <reg>
-        предчувствовал
-       </reg>
-       <orig>
-        предчувствовалъ
-       </orig>
-      </choice>
-      , не знаю, почему, что
-      <choice>
-       <reg>
-        тебе
-       </reg>
-       <orig>
-        тебѣ
-       </orig>
-      </choice>
-      больно
-      <choice>
-       <reg>
-        будет
-       </reg>
-       <orig>
-        будетъ
-       </orig>
-      </choice>
-      говорить. Я не понимаю,
-      <choice>
-       <reg>
-        зачем
-       </reg>
-       <orig>
-        зачѣмъ
-       </orig>
-      </choice>
-      [62] ты написала
-      <choice>
-       <reg>
-        нам
-       </reg>
-       <orig>
-        намъ
-       </orig>
-      </choice>
-      это. — Неужели ты думала, что
-      <choice>
-       <reg>
-        нам
-       </reg>
-       <orig>
-        намъ
-       </orig>
-      </choice>
-      когда нибудь
-      <choice>
-       <reg>
-        придет
-       </reg>
-       <orig>
-        придетъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      голову судить тебя. Я
-      <choice>
-       <reg>
-        отвечаю
-       </reg>
-       <orig>
-        отвѣчаю
-       </orig>
-      </choice>
-      за себя и за
-      <choice>
-       <reg>
-        братьев
-       </reg>
-       <orig>
-        братьевъ
-       </orig>
-      </choice>
-      , что не только судить
-      <choice>
-       <reg>
-        с
-       </reg>
-       <orig>
-        съ
-       </orig>
-      </choice>
-      другими
-      <choice>
-       <reg>
-        об
-       </reg>
-       <orig>
-        объ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этом
-       </reg>
-       <orig>
-        этомъ
-       </orig>
-      </choice>
-      , но и
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      голову никогда
-      <choice>
-       <reg>
-        нам
-       </reg>
-       <orig>
-        намъ
-       </orig>
-      </choice>
-      не
-      <choice>
-       <reg>
-        придет
-       </reg>
-       <orig>
-        придетъ
-       </orig>
-      </choice>
-      между собою
-      <choice>
-       <reg>
-        рассуждать
-       </reg>
-       <orig>
-        разсуждать
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        об
-       </reg>
-       <orig>
-        объ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этом
-       </reg>
-       <orig>
-        этомъ
-       </orig>
-      </choice>
-      . Мы тебя
-      <choice>
-       <reg>
-        любим
-       </reg>
-       <orig>
-        любимъ
-       </orig>
-      </choice>
-      ,
-      <choice>
-       <reg>
-        так
-       </reg>
-       <orig>
-        такъ
-       </orig>
-      </choice>
-      чего же
-      <choice>
-       <reg>
-        нам
-       </reg>
-       <orig>
-        намъ
-       </orig>
-      </choice>
-      больше. — </del>
+     <p id="d82885d4-efda-42f6-843e-5d858b878026">
+      <del>
+       Письмо твое огорчило меня не
+       <choice>
+        <reg>
+         тем
+        </reg>
+        <orig>
+         тѣмъ
+        </orig>
+       </choice>
+       , что ты
+       <choice>
+        <reg>
+         нам
+        </reg>
+        <orig>
+         намъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         нем
+        </reg>
+        <orig>
+         немъ
+        </orig>
+       </choice>
+       объявила (я
+       <choice>
+        <reg>
+         уж
+        </reg>
+        <orig>
+         ужъ
+        </orig>
+       </choice>
+       это прежде
+       <choice>
+        <reg>
+         знал
+        </reg>
+        <orig>
+         зналъ
+        </orig>
+       </choice>
+       ), но
+       <choice>
+        <reg>
+         тем
+        </reg>
+        <orig>
+         тѣмъ
+        </orig>
+       </choice>
+       , что ты говорила про это —
+       <choice>
+        <reg>
+         тебе
+        </reg>
+        <orig>
+         тебѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         верно
+        </reg>
+        <orig>
+         вѣрно
+        </orig>
+       </choice>
+       это больно. Прежде, еще когда я не
+       <choice>
+        <reg>
+         знал
+        </reg>
+        <orig>
+         зналъ
+        </orig>
+       </choice>
+       этого, но многое
+       <choice>
+        <reg>
+         мне
+        </reg>
+        <orig>
+         мнѣ
+        </orig>
+       </choice>
+       казалось
+       <choice>
+        <reg>
+         странным
+        </reg>
+        <orig>
+         страннымъ
+        </orig>
+       </choice>
+       , я не
+       <choice>
+        <reg>
+         спрашивал
+        </reg>
+        <orig>
+         спрашивалъ
+        </orig>
+       </choice>
+       у тебя
+       <choice>
+        <reg>
+         об
+        </reg>
+        <orig>
+         объ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этом
+        </reg>
+        <orig>
+         этомъ
+        </orig>
+       </choice>
+       , потому что
+       <choice>
+        <reg>
+         предчувствовал
+        </reg>
+        <orig>
+         предчувствовалъ
+        </orig>
+       </choice>
+       , не знаю, почему, что
+       <choice>
+        <reg>
+         тебе
+        </reg>
+        <orig>
+         тебѣ
+        </orig>
+       </choice>
+       больно
+       <choice>
+        <reg>
+         будет
+        </reg>
+        <orig>
+         будетъ
+        </orig>
+       </choice>
+       говорить. Я не понимаю,
+       <choice>
+        <reg>
+         зачем
+        </reg>
+        <orig>
+         зачѣмъ
+        </orig>
+       </choice>
+       [62] ты написала
+       <choice>
+        <reg>
+         нам
+        </reg>
+        <orig>
+         намъ
+        </orig>
+       </choice>
+       это. — Неужели ты думала, что
+       <choice>
+        <reg>
+         нам
+        </reg>
+        <orig>
+         намъ
+        </orig>
+       </choice>
+       когда нибудь
+       <choice>
+        <reg>
+         придет
+        </reg>
+        <orig>
+         придетъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       голову судить тебя. Я
+       <choice>
+        <reg>
+         отвечаю
+        </reg>
+        <orig>
+         отвѣчаю
+        </orig>
+       </choice>
+       за себя и за
+       <choice>
+        <reg>
+         братьев
+        </reg>
+        <orig>
+         братьевъ
+        </orig>
+       </choice>
+       , что не только судить
+       <choice>
+        <reg>
+         с
+        </reg>
+        <orig>
+         съ
+        </orig>
+       </choice>
+       другими
+       <choice>
+        <reg>
+         об
+        </reg>
+        <orig>
+         объ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этом
+        </reg>
+        <orig>
+         этомъ
+        </orig>
+       </choice>
+       , но и
+       <choice>
+        <reg>
+         в
+        </reg>
+        <orig>
+         въ
+        </orig>
+       </choice>
+       голову никогда
+       <choice>
+        <reg>
+         нам
+        </reg>
+        <orig>
+         намъ
+        </orig>
+       </choice>
+       не
+       <choice>
+        <reg>
+         придет
+        </reg>
+        <orig>
+         придетъ
+        </orig>
+       </choice>
+       между собою
+       <choice>
+        <reg>
+         рассуждать
+        </reg>
+        <orig>
+         разсуждать
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         об
+        </reg>
+        <orig>
+         объ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этом
+        </reg>
+        <orig>
+         этомъ
+        </orig>
+       </choice>
+       . Мы тебя
+       <choice>
+        <reg>
+         любим
+        </reg>
+        <orig>
+         любимъ
+        </orig>
+       </choice>
+       ,
+       <choice>
+        <reg>
+         так
+        </reg>
+        <orig>
+         такъ
+        </orig>
+       </choice>
+       чего же
+       <choice>
+        <reg>
+         нам
+        </reg>
+        <orig>
+         намъ
+        </orig>
+       </choice>
+       больше. —
+      </del>
       <ref target="#note88">
        88
       </ref>
@@ -38318,7 +38352,8 @@
         </hi>
        </span>
       </note>
-     </p><p id="76fa3c83-3486-4f52-890a-5ccfb91f4618">
+     </p>
+     <p id="76fa3c83-3486-4f52-890a-5ccfb91f4618">
       На другое же утро отецъ заѣхалъ къ намъ въ пансіонъ. Я это время сочинялъ отвѣтъ на грустное письмо, которое получили наканунѣ отъ maman, въ которомъ она намъ описывала наше положеніе незаконныхъ дѣтей, но описывала его такъ, какъ могла только это сдѣлать мать, чтобы не оскорбить нашего самолюбія, но только заставить насъ полюбить ее еще больше (и такъ какъ съ любовью, по крайней мѣрѣ во мнѣ, всегда неразлучно чувство страданія) и жалѣть ее еще больше. Я прежде уже зналъ это, Володя тоже, но мы сами, по догадкамъ отыскивая рѣшенія нѣкоторыхъ вопросовъ какъ-то: почему Петруша К[озловскій] живетъ особенно отъ насъ, почему и на адресахъ папа было «Высокоблагородію», а на адресахъ maman «Ея Сиятельству» и т. д., узнавъ все, что узнаетъ мальчикъ отъ 12 до;
       <pb n="145"/>
       15
@@ -61155,13 +61190,17 @@
       </choice>
       ни одну и ни разу не споткнувшись.
      </p>
-    <metamark function="line"/>
+     <p id="d2986bf2-6ee2-4668-b3b8-34092e7cd08c">
+      <metamark function="line"/>
+     </p>
      <p id="f2effd0c-fa92-475f-8f11-89aab254a612" rend="center">
       <figure>
        <graphic rend="alt:" url="./img/i000014000000.png" xml:id="i3"/>
       </figure>
      </p>
-     <lb/>
+     <p id="35a82fbb-f6bc-4a4e-a960-fdc3561484a5">
+      <lb/>
+     </p>
     </div>
    </div>
   </body>

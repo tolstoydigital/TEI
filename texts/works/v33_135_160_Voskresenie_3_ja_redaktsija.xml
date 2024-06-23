@@ -1,146 +1,164 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v33_135_160_Voskresenie_3_ja_redaktsija">
-                    [Воскресение. 3-я редакция]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Воскресение.</title>
-                <title type="sub" resp="volume_editor">3-я редакция</title>
-                <title type="bibl">Толстой Л. Н. [Воскресение. 3-я редакция] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 33. М.: Гос. изд. «Художественная литература», 1935. С. 135–160.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="2fcda447-5dbd-496b-b5d1-21224f4b8a50">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Воскресение. 3-я редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 33
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">33</biblScope>
-                        <biblScope unit="page">135-160</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1899"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#novel" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v33_135_160_Voskresenie_3_ja_redaktsija">
+     [Воскресение. 3-я редакция]. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Воскресение.
+    </title>
+    <title resp="volume_editor" type="sub">
+     3-я редакция
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Воскресение. 3-я редакция] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 33. М.: Гос. изд. «Художественная литература», 1935. С. 135–160.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="2fcda447-5dbd-496b-b5d1-21224f4b8a50">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Воскресение. 3-я редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 33
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       33
+      </biblScope>
+      <biblScope unit="page">
+       135-160
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1899"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#novel" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_2">
     <p id="625908f4-9ec9-4a00-b91a-5173810b421e">
      <pb n="135"/>
     </p>
-    <h3 id="h7">
-     3-я РЕДАКЦИЯ
-    </h3>
+    <p id="d895577d-6267-4fc9-94e4-febfa90a1e9f">
+     <h3 id="h7">
+      3-я РЕДАКЦИЯ
+     </h3>
+    </p>
     <div type="section">
-     <h4>
-      * № 48 (рук. № 14).
-     </h4>
+     <p id="31dab7f6-9198-47d5-9478-9fc34686c5c4">
+      <h4>
+       * № 48 (рук. № 14).
+      </h4>
+     </p>
      <p id="934f8018-a11e-4e15-b11e-b54896483cf8">
       Опять она
       <choice>
@@ -825,9 +843,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 49 (рук. № 14).
-     </h4>
+     <p id="d039e84f-ec91-4341-8f78-4c26266fb7f0">
+      <h4>
+       * № 49 (рук. № 14).
+      </h4>
+     </p>
      <p id="d621511a-6a09-46ac-a05e-179380126cec">
       <choice>
        <reg>
@@ -1624,9 +1644,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 50 (рук. № 19).
-     </h4>
+     <p id="1112276d-af74-4fc9-9d65-64781a2fda8e">
+      <h4>
+       * № 50 (рук. № 19).
+      </h4>
+     </p>
      <p id="d218067e-42fd-48b2-ab71-08807a2a6a15">
       Катюша влюбилась
       <choice>
@@ -1806,9 +1828,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 51 (рук. № 19).
-     </h4>
+     <p id="04120e69-d4c1-4b0c-9962-4a1db5ede441">
+      <h4>
+       * № 51 (рук. № 19).
+      </h4>
+     </p>
      <p id="98f3d321-82b7-4768-b024-9a20c963686e">
       Но
       <choice>
@@ -2168,9 +2192,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 52 (рук. № 14).
-     </h4>
+     <p id="c35c5875-c014-4463-99ec-b42b98a8f7b8">
+      <h4>
+       ** № 52 (рук. № 14).
+      </h4>
+     </p>
      <p id="98bc1ef6-f4c5-48f2-bb26-b6a83c7f46cb">
       За эти два года
       <choice>
@@ -5761,9 +5787,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 53 (рук. № 19).
-     </h4>
+     <p id="81405f9b-511a-4c8d-80bb-0eda0d6742e3">
+      <h4>
+       * № 53 (рук. № 19).
+      </h4>
+     </p>
      <p id="01c22a08-4257-4e87-af52-2cf219eb46ff">
       <choice>
        <reg>
@@ -6269,9 +6297,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 54 (рук. № 14).
-     </h4>
+     <p id="64c4bee4-60c2-4cf0-a412-e7b6796ec647">
+      <h4>
+       * № 54 (рук. № 14).
+      </h4>
+     </p>
      <p id="76e4cb71-66de-41be-b832-a753b61a7965">
       <choice>
        <reg>
@@ -7225,12 +7255,16 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 55 (рук. № 20).
-     </h4>
-     <head n="level2" type="chapter">
-      Глава 29.
-     </head>
+     <p id="9f4e2a0f-f820-49b5-a3f1-8063a4aa5bd9">
+      <h4>
+       * № 55 (рук. № 20).
+      </h4>
+     </p>
+     <p id="0245f875-7deb-466a-a2a8-6956282123b7">
+      <head n="level2" type="chapter">
+       Глава 29.
+      </head>
+     </p>
      <p id="a4624c47-bb71-43c2-9213-756b62d88eb9">
       Неожиданно
       <choice>
@@ -8489,12 +8523,16 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 56 (рук. № 15).
-     </h4>
-     <head n="level2" type="chapter">
-      12.
-     </head>
+     <p id="7abc89b3-216e-4c2a-b144-a928a5d767ca">
+      <h4>
+       ** № 56 (рук. № 15).
+      </h4>
+     </p>
+     <p id="3d7a736e-8bc0-4864-938e-cabf86802a4b">
+      <head n="level2" type="chapter">
+       12.
+      </head>
+     </p>
      <p id="fc488e9f-a896-4e0b-9393-b50725628e42">
       По
       <choice>
@@ -18254,9 +18292,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 57 (рук. № 19).
-     </h4>
+     <p id="6d718d34-5dc0-4fe3-82e2-0639784a1715">
+      <h4>
+       * № 57 (рук. № 19).
+      </h4>
+     </p>
      <p id="9933aec9-67bf-4052-b190-48170afca39c">
       И началась служба.
       <del>
@@ -22949,9 +22989,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 58 (рук. № 19).
-     </h4>
+     <p id="cc18bc47-3550-4e12-91dd-28b43842f20b">
+      <h4>
+       * № 58 (рук. № 19).
+      </h4>
+     </p>
      <p id="65705437-a059-48cc-a511-ca444525dfd1">
       <choice>
        <reg>
@@ -25783,9 +25825,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 59 (рук. № 18).
-     </h4>
+     <p id="05429e9d-414b-4205-a4c8-cbb58412a53d">
+      <h4>
+       * № 59 (рук. № 18).
+      </h4>
+     </p>
      <p id="1f25f419-935a-422f-93da-bfc9d2b2fa21">
       <choice>
        <reg>
@@ -26540,9 +26584,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 60 (рук. № 18).
-     </h4>
+     <p id="0c1e5cc4-8736-4edd-a31e-e23cd2effe85">
+      <h4>
+       * № 60 (рук. № 18).
+      </h4>
+     </p>
      <p id="62bb0ddb-e3a1-413e-a0bd-a1efc7fd558f">
       —
       <choice>
@@ -27054,9 +27100,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 61 (рук. №№ 18, 23).
-     </h4>
+     <p id="a52ad9fa-3e79-47f5-bbb0-65479879f08f">
+      <h4>
+       ** № 61 (рук. №№ 18, 23).
+      </h4>
+     </p>
      <p id="af768e46-0a7a-493d-a5b0-203777d2fe91">
       До
       <choice>
@@ -32433,9 +32481,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 62 (рук. № 19).
-     </h4>
+     <p id="b3b347e7-e1b8-4219-b34c-72c64b4b7691">
+      <h4>
+       ** № 62 (рук. № 19).
+      </h4>
+     </p>
      <p id="293d8a44-31dd-451d-9bc3-fab7b1353068">
       Результаты
       <choice>

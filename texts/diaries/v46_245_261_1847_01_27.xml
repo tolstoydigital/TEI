@@ -1,157 +1,180 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v46_245_261_1847_01_27">
-                    Дневники. Tolstoy Digital
-                </title>
-                <title type="main">Журнал ежедневных занятий,</title>
-                <title type="sub">27 января 1847 г. — 7 июня 1847 г.</title>
-                <title type="bibl">Толстой Л. Н. [Журнал ежедневных занятий]. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 46. М.: Гос. изд. «Художественная литература», 1937. С. </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="092c59de-b48f-4d7a-a05c-a1d17ec2ba2f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           [Журнал ежедневных занятий].
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 46
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1937"/>
-                        </imprint>
-                        <biblScope unit="volume">46</biblScope>
-                        <biblScope unit="page">245-261</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1847-01-27"/>
-         </creation>          
-            <langUsage>
-  <language ident="ru-petr1708"/>
-</langUsage><textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#diaries" target="type"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v46_245_261_1847_01_27">
+     Дневники. Tolstoy Digital
+    </title>
+    <title type="main">
+     Журнал ежедневных занятий,
+    </title>
+    <title type="sub">
+     27 января 1847 г. — 7 июня 1847 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Журнал ежедневных занятий]. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 46. М.: Гос. изд. «Художественная литература», 1937. С.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="092c59de-b48f-4d7a-a05c-a1d17ec2ba2f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Журнал ежедневных занятий].
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 46
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       46
+      </biblScope>
+      <biblScope unit="page">
+       245-261
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1847-01-27"/>
+   </creation>
+   <langUsage>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h001">
-    <pb n="245"/>
-    <head rend="title_level2 center">
-     I.
-     <lb/>
-     <choice original_editorial_correction="[ЖУРНАЛ ЕЖЕДНЕВНЫХ ЗАНЯТИЙ]">
-      <sic/>
-      <corr>
-       ЖУРНАЛ ЕЖЕДНЕВНЫХ ЗАНЯТИЙ
-      </corr>
-     </choice>
-    </head>
+    <p id="03a8ef41-111e-447d-aa55-175d597fcc77">
+     <pb n="245"/>
+    </p>
+    <p id="90e8043e-eebc-407e-b2c3-0c18829ed60c">
+     <head rend="title_level2 center">
+      I.
+      <lb/>
+      <choice original_editorial_correction="[ЖУРНАЛ ЕЖЕДНЕВНЫХ ЗАНЯТИЙ]">
+       <sic/>
+       <corr>
+        ЖУРНАЛ ЕЖЕДНЕВНЫХ ЗАНЯТИЙ
+       </corr>
+      </choice>
+     </head>
+    </p>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="editor" when="1847-01-07">
-        [27 января — 7 июня 1847 г.]
-       </date>
-      </dateline>
-     </opener>
+     <p id="1f97011f-5a62-425e-9881-fa8422f4713d">
+      <opener>
+       <dateline>
+        <date resp="editor" when="1847-01-07">
+         [27 января — 7 июня 1847 г.]
+        </date>
+       </dateline>
+      </opener>
+     </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847--">
-        1847 года.
-       </date>
-      </dateline>
-     </opener>
+     <p id="e9cb370f-83d0-4ab1-913e-b36cdaa25b8f">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847--">
+         1847 года.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell rend="middle">
@@ -459,7 +482,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="40021201-8921-4a8e-8073-4a713f24d387">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -576,7 +601,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="dc033c97-b1a8-4e17-b54e-10a8022b61dd">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -697,7 +724,9 @@
        </cell>
       </row>
      </table>
-     <lb/>
+     <p id="559caf05-da4e-4b4d-a4c4-b9bea3b4397b">
+      <lb/>
+     </p>
      <table>
       <row>
        <cell>
@@ -731,10 +760,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="d685160a-af19-459c-b78f-a6b6e86444ad">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="47958d66-4c90-4c65-a5ed-bbba4306fc74">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -783,7 +816,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="68b2d51b-f080-412d-8c5c-ea33630e357c">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="0a70e885-a097-4df3-817b-5852fcf18d1d">
@@ -839,28 +874,34 @@
       </row>
       <row>
        <cell>
-        <opener>
-         <dateline>
-          <date resp="LNT" when="1847-01-29">
-           29
-           <choice original_editorial_correction="Янв[аря]">
-            <sic>
-             Янв
-            </sic>
-            <corr>
-             Января
-            </corr>
-           </choice>
-           . Среда.
-          </date>
-         </dateline>
-        </opener>
+        <p id="b3029d65-bebe-4e42-8b4f-8824e1b61848">
+         <opener>
+          <dateline>
+           <date resp="LNT" when="1847-01-29">
+            29
+            <choice original_editorial_correction="Янв[аря]">
+             <sic>
+              Янв
+             </sic>
+             <corr>
+              Января
+             </corr>
+            </choice>
+            . Среда.
+           </date>
+          </dateline>
+         </opener>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="03c0758f-e221-44c1-85d8-e5a03c55f93f">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="4f45ba51-8344-4446-82f8-e67a7659cfd2">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -1029,10 +1070,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="1afec0ac-4d30-4072-856d-b03b1d8859eb">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="2909402c-2532-4ce5-a293-3bcea0b75215">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -1296,22 +1341,26 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-02-01">
-        1 Февраля. Ничего —
-       </date>
-      </dateline>
-     </opener>
+     <p id="70d91518-dc57-4eb5-84c9-7e93c424503a">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-02-01">
+         1 Февраля. Ничего —
+        </date>
+       </dateline>
+      </opener>
+     </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-02-02">
-        2 Февраля. Ничего
-       </date>
-      </dateline>
-     </opener>
+     <p id="6d494829-13ca-4138-86e4-6832d944380d">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-02-02">
+         2 Февраля. Ничего
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="5a7fa435-9f80-4fe7-b7dc-a42515475b09" rend="subtitle centerline">
       <choice>
        <reg>
@@ -1467,10 +1516,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="e4979f7e-8e9d-4ea9-951a-26572f850fd6">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="62e70d5d-62b0-4d7a-ba12-5911c40f4a89">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -1503,7 +1556,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="803fe278-34e3-437b-9dbc-792503ee8824">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="0e016568-a18d-40ef-9f36-c053bd5092ce">
@@ -1542,10 +1597,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="ef86913f-68fd-4bbe-b809-22c2f9793499">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="23a2b402-2867-4540-b294-062c557798b7">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -1571,10 +1630,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="f9d90f59-b59d-4d94-bd47-a5e6e9a61486">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="2cb1125e-786c-49de-bfcc-fe98fc423d02">
+         <lb/>
+        </p>
        </cell>
       </row>
      </table>
@@ -1583,21 +1646,23 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-02-04">
-        <choice>
-         <reg>
-          Вторник
-         </reg>
-         <orig>
-          Вторникъ
-         </orig>
-        </choice>
-        4 Февраля.
-       </date>
-      </dateline>
-     </opener>
+     <p id="d366e9c7-33b1-4163-b093-6969226f4610">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-02-04">
+         <choice>
+          <reg>
+           Вторник
+          </reg>
+          <orig>
+           Вторникъ
+          </orig>
+         </choice>
+         4 Февраля.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -1615,7 +1680,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="d9cd4e1e-f2b1-4cd3-a144-014cfb59d5d6">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="d293564e-c228-496f-a702-33df69f56e86">
@@ -1638,7 +1705,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="7fec4ea3-c516-4e8a-b624-aba6d5551223">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="dd515bf0-1b3b-44a5-9435-4b72e191605a">
@@ -1924,22 +1993,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-02-05">
-        Среда 5
-        <choice original_editorial_correction="Фев[раля]">
-         <sic>
-          Фев
-         </sic>
-         <corr>
-          Февраля
-         </corr>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="855ca676-414c-4c23-8245-ec60f185da24">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-02-05">
+         Среда 5
+         <choice original_editorial_correction="Фев[раля]">
+          <sic>
+           Фев
+          </sic>
+          <corr>
+           Февраля
+          </corr>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -2431,19 +2502,21 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-02-08">
-        8 Февраля Пятница.
-        <ref target="#note1111">
-         1111
-        </ref>
-        <note index="false" xml:id="note1111">
-         Описка, вместо: Суббота.
-        </note>
-       </date>
-      </dateline>
-     </opener>
+     <p id="3bc5728a-a901-464a-80d8-6bb8ff65088a">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-02-08">
+         8 Февраля Пятница.
+         <ref target="#note1111">
+          1111
+         </ref>
+         <note index="false" xml:id="note1111">
+          Описка, вместо: Суббота.
+         </note>
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -2483,7 +2556,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="99fd5e93-f15b-46eb-8706-c413b7dbcbc0">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="c5aefc93-0cdf-4796-ad87-ddb6215a5ad9">
@@ -2603,7 +2678,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="4ae5a2e5-5799-4c05-88aa-1a7e58cab0c3">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="f1b1e8fd-9a20-430d-a756-9bc4ea20ad98">
@@ -2636,22 +2713,28 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="35b109e5-c2ab-4857-9a5a-c96d0ee2e16e">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="3bb1bbfd-645f-465c-91cb-f231227a25c5">
+         <lb/>
+        </p>
        </cell>
       </row>
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-02-09">
-        9 Февраля.
-       </date>
-      </dateline>
-     </opener>
+     <p id="5bd545dd-1ae8-47b5-8eb5-44657f988086">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-02-09">
+         9 Февраля.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="35994f90-17fe-416f-b820-a68128bb693b" rend="subtitle centerline">
       Воскресенье.
      </p>
@@ -2816,13 +2899,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-02-10">
-        10 Февраля. —
-       </date>
-      </dateline>
-     </opener>
+     <p id="63774bd2-c450-4295-abf3-36118b734dc8">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-02-10">
+         10 Февраля. —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -2862,7 +2947,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="67c47562-028b-4349-b0c7-7d893be97b05">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -2875,7 +2962,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="1aa65b03-8473-4da9-b837-d3ff22fff2fe">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -2900,7 +2989,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="2bac9193-63b7-4c20-9f1b-cc93cdd72a24">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -2918,7 +3009,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="e653c62c-bb2e-4f70-921b-a402906c7dd9">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -2936,7 +3029,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="c86f162d-b77a-4b72-b7d5-ba76bb9cfd65">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -2954,7 +3049,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="0649dcb7-6e61-4d76-baf8-4fe83a93a83e">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -3006,29 +3103,31 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-03">
-        Марта 3-го
-        <ref target="#note1112">
-         1112
-        </ref>
-        <note index="false" xml:id="note1112">
-         <del>
-          <choice>
-           <reg>
-            Вторник
-           </reg>
-           <orig>
-            Вторникъ
-           </orig>
-          </choice>
-          .
-         </del>
-        </note>
-       </date>
-      </dateline>
-     </opener>
+     <p id="3abcbd62-ae84-4dbb-bf4f-3b600d5d7030">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-03">
+         Марта 3-го
+         <ref target="#note1112">
+          1112
+         </ref>
+         <note index="false" xml:id="note1112">
+          <del>
+           <choice>
+            <reg>
+             Вторник
+            </reg>
+            <orig>
+             Вторникъ
+            </orig>
+           </choice>
+           .
+          </del>
+         </note>
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -3201,16 +3300,18 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-05">
-        <hi>
-         Марта 5 Среда
-        </hi>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="0e2994fa-ff24-4529-a4df-cf4ed9692ee3">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-05">
+         <hi>
+          Марта 5 Среда
+         </hi>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -3234,7 +3335,9 @@
         </p>
        </cell>
        <cell rend="middle" rowspan="8">
-        <lb/>
+        <p id="c905b41c-60c1-4aa6-9ee3-7c5846130eae">
+         <lb/>
+        </p>
         <p id="0445388d-63f8-4002-a98c-2bc4db9ca150">
          Все
          <choice>
@@ -3348,16 +3451,18 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-06">
-        <hi>
-         Марта 6 Четвергь
-        </hi>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="0eedb7cf-eed0-4b03-a3b4-42d179b22a3b">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-06">
+         <hi>
+          Марта 6 Четвергь
+         </hi>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -3519,13 +3624,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-07">
-        Марта 7 Пятница.
-       </date>
-      </dateline>
-     </opener>
+     <p id="4c83606e-3ab9-4fde-9658-09c52cf77cd4">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-07">
+         Марта 7 Пятница.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -3630,7 +3737,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="02a850e1-6084-4f27-8143-7e53cdf7009c">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="8fc26150-5180-4dd6-a3b8-3ac42625b83c">
@@ -3690,13 +3799,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-10">
-        10 Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="4102b083-00e5-4188-9998-434b8eb66ddd">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-10">
+         10 Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="02cdc0fc-7c8f-402e-ac8e-0e4404e0ecce" rend="subtitle centerline">
       <hi>
        <choice>
@@ -3812,13 +3923,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-11">
-        11 Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="af603842-27a9-4e6c-a05c-4018f7072d5d">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-11">
+         11 Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="88a15309-000c-4853-9357-130697411242" rend="subtitle centerline">
       <choice>
        <reg>
@@ -3835,13 +3948,15 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-12">
-        Середа. 12 марта. —
-       </date>
-      </dateline>
-     </opener>
+     <p id="b81bc5fc-cbd0-4113-be83-40ff856b124a">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-12">
+         Середа. 12 марта. —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -3945,24 +4060,26 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="editor" when="1847-03-20">
-        <choice>
-         <reg>
-          Четверток
-         </reg>
-         <orig>
-          Четвертокъ
-         </orig>
-        </choice>
-        —
-        <hi>
-         [13 или 20 марта.]
-        </hi>
-       </date>
-      </dateline>
-     </opener>
+     <p id="9ce51bc3-3b87-47f1-9641-e69fe3a49140">
+      <opener>
+       <dateline>
+        <date resp="editor" when="1847-03-20">
+         <choice>
+          <reg>
+           Четверток
+          </reg>
+          <orig>
+           Четвертокъ
+          </orig>
+         </choice>
+         —
+         <hi>
+          [13 или 20 марта.]
+         </hi>
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -4024,16 +4141,18 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="editor" when="1847-03-21">
-        Пятница.
-        <hi>
-         [14 или 21 марта.]
-        </hi>
-       </date>
-      </dateline>
-     </opener>
+     <p id="5b10833a-f861-48cc-acb8-992411156e17">
+      <opener>
+       <dateline>
+        <date resp="editor" when="1847-03-21">
+         Пятница.
+         <hi>
+          [14 или 21 марта.]
+         </hi>
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -4105,25 +4224,27 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-23">
-        22
-        <ref target="#note1115">
-         1115
-        </ref>
-        <note index="false" resp="LNT" xml:id="note1115">
-         <choice>
-          <sic>
-           23
-          </sic>
-          <corr/>
-         </choice>
-        </note>
-        Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="a114fac7-bad3-4425-8c22-b35f00b6c1bc">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-23">
+         22
+         <ref target="#note1115">
+          1115
+         </ref>
+         <note index="false" resp="LNT" xml:id="note1115">
+          <choice>
+           <sic>
+            23
+           </sic>
+           <corr/>
+          </choice>
+         </note>
+         Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -4207,13 +4328,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-23">
-        23 Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="8e4e4950-3325-4823-a1ea-3fec2ab23b4f">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-23">
+         23 Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -4268,13 +4391,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-24">
-        24 Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="4751e81e-172c-4820-91a7-0037917ea3d0">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-24">
+         24 Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -4346,13 +4471,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-25">
-        25 Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="41f90ecf-5aa0-4b93-9197-9471ae7df689">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-25">
+         25 Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="c547f501-5f17-45ad-8b60-d41cd02b83cc" rend="subtitle centerline">
       <choice>
        <reg>
@@ -4456,19 +4583,21 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-26">
-        26
-        <choice original_editorial_correction="[Марта.]">
-         <sic/>
-         <corr>
-          Марта.
-         </corr>
-        </choice>
-       </date>
-      </dateline>
-     </opener>
+     <p id="cfee821f-ec70-48bb-856f-770ce10d4309">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-26">
+         26
+         <choice original_editorial_correction="[Марта.]">
+          <sic/>
+          <corr>
+           Марта.
+          </corr>
+         </choice>
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="f30adaed-23a0-4a71-9421-1738f128bac0" rend="subtitle centerline">
       Середа.
      </p>
@@ -4488,7 +4617,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="9ad7e56c-1cec-42a6-9dfa-220fda80ea19">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="9fcd9d14-0a4f-4d4d-9658-b4b98f22fcb4">
@@ -4511,7 +4642,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="d0b7e3ac-22b3-4cc8-91d9-24cd9f1ae793">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="4dd28b2a-d04a-49f8-b7ef-01a459ddaecc">
@@ -4580,21 +4713,23 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-27">
-        27
-        <hi>
-         <choice original_editorial_correction="[Марта.]">
-          <sic/>
-          <corr>
-           Марта.
-          </corr>
-         </choice>
-        </hi>
-       </date>
-      </dateline>
-     </opener>
+     <p id="ab762b67-b031-40b2-9415-f0028ac87694">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-27">
+         27
+         <hi>
+          <choice original_editorial_correction="[Марта.]">
+           <sic/>
+           <corr>
+            Марта.
+           </corr>
+          </choice>
+         </hi>
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="e244bc31-4343-4d4b-a15e-3780acb4131c" rend="subtitle centerline">
       <choice>
        <reg>
@@ -4622,7 +4757,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="1dc94221-dc0c-4717-959e-b5f9c5e8fc95">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="c6b2d303-eabd-4cff-b8cb-6a535cc5e888">
@@ -4645,7 +4782,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="176c3503-a750-46fb-bbd9-95041ac5dd46">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="a1d4f3fa-e71f-46b7-b42e-4605cead38ce">
@@ -4668,7 +4807,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="49f9baf9-2cda-42cc-8ab5-38f108f6f029">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="4414a7e5-cbb5-4f5e-bb9b-dfc2b4d90ad5">
@@ -4716,21 +4857,23 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-28">
-        28
-        <hi>
-         <choice original_editorial_correction="[Марта.]">
-          <sic/>
-          <corr>
-           Марта.
-          </corr>
-         </choice>
-        </hi>
-       </date>
-      </dateline>
-     </opener>
+     <p id="a57e2d61-67ca-4059-89d6-09f80cf05307">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-28">
+         28
+         <hi>
+          <choice original_editorial_correction="[Марта.]">
+           <sic/>
+           <corr>
+            Марта.
+           </corr>
+          </choice>
+         </hi>
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="f585d5a0-8002-4f70-a71f-4de1237aa7ce" rend="subtitle centerline">
       Пятница.
      </p>
@@ -4888,13 +5031,15 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-29">
-        29 Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="34129fff-4504-4cfb-8001-e60357b158a3">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-29">
+         29 Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -4911,7 +5056,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="9261c60c-6600-4523-82ed-9f5d1abb3e33">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="665125f3-89a3-447c-a7a1-c45347147643">
@@ -4933,7 +5080,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="9e8c7ce3-fdef-490f-8672-d7c897581131">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="727262ef-cbba-4aa3-abcc-cc90ed1b5c43">
@@ -5003,13 +5152,15 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-30">
-        30 Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="a307ebab-1220-438b-bea7-05ef79d9d792">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-30">
+         30 Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -5133,13 +5284,15 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-03-31">
-        31 Марта.
-       </date>
-      </dateline>
-     </opener>
+     <p id="a350f401-a3f9-4bff-b420-b077b76a3b19">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-03-31">
+         31 Марта.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -5243,22 +5396,24 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-01">
-        1
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="9256eb78-7e41-40b4-98b7-bd58d1193188">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-01">
+         1
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -5398,22 +5553,24 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-02">
-        2
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="907ed820-b8e8-4d6b-9381-11dc24496381">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-02">
+         2
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="2aef8773-8997-4591-8c71-7660be1bfc78" rend="subtitle centerline">
       Среда —
      </p>
@@ -5425,7 +5582,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="32939f47-9d70-464c-928e-0ab611cd58c3">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="056262ea-56a9-4212-bc94-7df310379ded">
@@ -5523,22 +5682,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-03">
-        3.
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="fe2161cf-2fab-4414-9a51-c462d68e0fc3">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-03">
+         3.
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="e34d2e91-a85c-47ea-9110-9a2d11c9c82f" rend="subtitle centerline">
       <choice>
        <reg>
@@ -5715,22 +5876,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-04">
-        4
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="2908f81e-120e-40b3-a863-0f91c0c83d76">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-04">
+         4
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="12a9fbcc-2b7e-4c70-9029-c2d8d761a96f" rend="subtitle centerline">
       Пятница. —
      </p>
@@ -5877,22 +6040,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-05">
-        5
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="8a5c6a79-b248-4199-aa9e-5cecc0738708">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-05">
+         5
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="4fd8dbd1-3030-475a-b90e-157c7d80c288" rend="subtitle centerline">
       Суббота —
      </p>
@@ -6047,22 +6212,24 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-06">
-        6
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="b45c4807-4a8d-4b6f-8910-7d3c714168dc">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-06">
+         6
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -6113,7 +6280,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="59e063f0-b77d-49f0-9729-b521fedd3d16">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="8e43d1b9-88e5-43d5-a5c2-b7d0984cac17">
@@ -6208,51 +6377,57 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="be8bb9ed-4437-4066-9ec8-38a746956379">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <opener>
-         <dateline>
-          <date resp="LNT" when="1847-04-06">
-           <choice>
-            <reg>
-             нет
-            </reg>
-            <orig>
-             нѣтъ
-            </orig>
-           </choice>
-           .
-           <ref target="#note1117">
-            1117
-           </ref>
-           <note index="false" xml:id="note1117">
-            На полях записей съ 3 по 6 апреля проба пера: Богъ со Послѣдняя плохо не совсѣмъ...... Б S Богъ.
-           </note>
-          </date>
-         </dateline>
-        </opener>
+        <p id="fc1d0a19-4530-4cd3-9450-508067f1302a">
+         <opener>
+          <dateline>
+           <date resp="LNT" when="1847-04-06">
+            <choice>
+             <reg>
+              нет
+             </reg>
+             <orig>
+              нѣтъ
+             </orig>
+            </choice>
+            .
+            <ref target="#note1117">
+             1117
+            </ref>
+            <note index="false" xml:id="note1117">
+             На полях записей съ 3 по 6 апреля проба пера: Богъ со Послѣдняя плохо не совсѣмъ...... Б S Богъ.
+            </note>
+           </date>
+          </dateline>
+         </opener>
+        </p>
        </cell>
       </row>
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-07">
-        7
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="c92f5b61-3213-41cf-87da-b57fb7a49c7f">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-07">
+         7
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="4c479673-c665-4a53-baed-a5f3820a22d4" rend="subtitle centerline">
       <choice>
        <reg>
@@ -6279,7 +6454,9 @@
         </p>
        </cell>
        <cell rend="middle" rowspan="3">
-        <lb/>
+        <p id="95b1fb22-6843-45da-b883-4b95d5fb630c">
+         <lb/>
+        </p>
         <p id="f8f1b14f-e6f7-47a6-95bf-d26302852142">
          <choice>
           <reg>
@@ -6334,10 +6511,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="3d2beb8f-d942-48bd-96d0-8ac65071f62f">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="69921011-591a-4bc3-9ab5-869a4d1d2455">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -6393,22 +6574,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-08">
-        8
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="5a54b18f-00f5-493f-9c1d-b61687a1c67e">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-08">
+         8
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="29a1c9c8-fc7a-4be2-a51e-e3f2f94d39eb" rend="subtitle centerline">
       <choice>
        <reg>
@@ -6435,27 +6618,29 @@
         </p>
        </cell>
        <cell rend="middle" rowspan="6">
-        <opener>
-         <dateline>
-          <date resp="LNT" when="1847-04-09">
-           <choice>
-            <reg>
-             исполнил
-            </reg>
-            <orig>
-             исполнилъ
-            </orig>
-           </choice>
-           .
-           <ref target="#note1118">
-            1118
-           </ref>
-           <note index="false" xml:id="note1118">
-            Это слово, скобка и далее с 9 апреля и до конца этих записей — написано карандашом.
-           </note>
-          </date>
-         </dateline>
-        </opener>
+        <p id="652e610c-c83c-4456-8a85-ce61540731ef">
+         <opener>
+          <dateline>
+           <date resp="LNT" when="1847-04-09">
+            <choice>
+             <reg>
+              исполнил
+             </reg>
+             <orig>
+              исполнилъ
+             </orig>
+            </choice>
+            .
+            <ref target="#note1118">
+             1118
+            </ref>
+            <note index="false" xml:id="note1118">
+             Это слово, скобка и далее с 9 апреля и до конца этих записей — написано карандашом.
+            </note>
+           </date>
+          </dateline>
+         </opener>
+        </p>
        </cell>
       </row>
       <row>
@@ -6541,22 +6726,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-09">
-        9
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="a016f288-da19-42b5-aa32-6df069207fe4">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-09">
+         9
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="13099ac2-9a4c-4747-a61f-0eabd600be0f" rend="subtitle centerline">
       <hi>
        Среда.
@@ -6681,24 +6868,26 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-10">
-        <hi>
-         10
-         <choice>
-          <reg>
-           Апреля
-          </reg>
-          <orig>
-           Апрѣля
-          </orig>
-         </choice>
-        </hi>
-        . —
-       </date>
-      </dateline>
-     </opener>
+     <p id="3697a4b4-116a-4c1f-9fb3-e29ffccba92a">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-10">
+         <hi>
+          10
+          <choice>
+           <reg>
+            Апреля
+           </reg>
+           <orig>
+            Апрѣля
+           </orig>
+          </choice>
+         </hi>
+         . —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -6747,7 +6936,9 @@
         </p>
        </cell>
        <cell rend="middle" rowspan="7">
-        <lb/>
+        <p id="e131dc76-1098-4811-9b0c-05350f770b34">
+         <lb/>
+        </p>
         <p id="f530adb9-1f30-4699-884b-a28f9136dcc2">
          Все
          <choice>
@@ -6840,22 +7031,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-11">
-        11
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        . Пятница. —
-       </date>
-      </dateline>
-     </opener>
+     <p id="1f8ac3d5-0b78-4477-8d04-c955e9cc6e47">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-11">
+         11
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         . Пятница. —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell rend="middle" rowspan="2">
@@ -7003,22 +7196,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-12">
-        12
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        . Суббота. —
-       </date>
-      </dateline>
-     </opener>
+     <p id="5c99abcb-89c9-47ee-8518-9ea8e060aa7a">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-12">
+         12
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         . Суббота. —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell rend="middle" rowspan="2">
@@ -7111,7 +7306,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="a6aa062e-d12b-41cd-be4d-1a7f5aefb28b">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="99445626-c106-41d6-a106-ebb42ac9996e">
@@ -7250,22 +7447,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-13">
-        13
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        . Воскресенье.
-       </date>
-      </dateline>
-     </opener>
+     <p id="1ab9c67a-1982-4267-a426-6c05601c9940">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-13">
+         13
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         . Воскресенье.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -7374,22 +7573,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-14">
-        14
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="7a994a80-2e9b-4dee-8676-48f20ee1ed9f">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-14">
+         14
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -7430,31 +7631,37 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="1efd42c0-3b70-49a6-a9dd-e4e01faf1579">
+         <lb/>
+        </p>
        </cell>
        <cell rend="middle">
-        <lb/>
+        <p id="5a776573-7aae-49a6-b916-7ebec835baef">
+         <lb/>
+        </p>
        </cell>
       </row>
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-15">
-        15
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        . —
-       </date>
-      </dateline>
-     </opener>
+     <p id="fbca89ac-6a7c-46b6-bf42-a19df6e63474">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-15">
+         15
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         . —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="6b1861d4-eb50-43d5-ae05-e5d1ee36cdb0" rend="subtitle centerline">
       <choice>
        <reg>
@@ -7583,22 +7790,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-16">
-        16
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="b9812553-93bb-4d37-abca-caa3da765bc4">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-16">
+         16
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -7809,22 +8018,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-17">
-        17
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        . —
-       </date>
-      </dateline>
-     </opener>
+     <p id="7e9e5d8f-7762-44ea-ba59-8d47329ed557">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-17">
+         17
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         . —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="cbfe9eef-253a-47f6-a184-aff7ed1293af" rend="subtitle centerline">
       <choice>
        <reg>
@@ -7975,22 +8186,24 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-18">
-        18
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        . —
-       </date>
-      </dateline>
-     </opener>
+     <p id="39007415-db71-4521-bdb1-255ae3e90271">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-18">
+         18
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         . —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="77df87a0-bf43-4210-8afc-c02cbf1b09eb" rend="subtitle centerline">
       Пятница.
      </p>
@@ -8136,22 +8349,24 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-04-19">
-        19 —
-        <choice>
-         <reg>
-          Апреля
-         </reg>
-         <orig>
-          Апрѣля
-         </orig>
-        </choice>
-        . —
-       </date>
-      </dateline>
-     </opener>
+     <p id="21b8f5e1-9d07-4566-8ba2-44ee0b9a769e">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-04-19">
+         19 —
+         <choice>
+          <reg>
+           Апреля
+          </reg>
+          <orig>
+           Апрѣля
+          </orig>
+         </choice>
+         . —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="5495ea15-567f-47f8-b4a6-b90ac0cccc98" rend="subtitle centerline">
       Суббота. —
      </p>
@@ -8355,13 +8570,15 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-05-01">
-        1 — Мая. —
-       </date>
-      </dateline>
-     </opener>
+     <p id="a6cca9c3-f495-4a8b-b5cc-65086e8e6d61">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-05-01">
+         1 — Мая. —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="f8822ae6-9055-430c-9b32-9d8d1ac06b16" rend="subtitle centerline">
       <choice>
        <reg>
@@ -8455,13 +8672,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-05-02">
-        2 — Мая.
-       </date>
-      </dateline>
-     </opener>
+     <p id="5a4a99fc-8b58-4eed-b0e9-06e7a39d3022">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-05-02">
+         2 — Мая.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="1c302e61-7895-44a0-9178-f9ff9f89f440" rend="subtitle centerline">
       <hi>
        Пятница
@@ -8477,13 +8696,15 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-05-03">
-        3 — Мая.
-       </date>
-      </dateline>
-     </opener>
+     <p id="6049136f-4256-485a-a730-481bc54510a4">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-05-03">
+         3 — Мая.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <p id="f097a88e-6c34-4dae-a1a4-2ffd6d2a371f" rend="subtitle centerline">
       Суббота. —
      </p>
@@ -8683,13 +8904,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-05-04">
-        Воскресенье 4 Мая.
-       </date>
-      </dateline>
-     </opener>
+     <p id="8e5311e0-4811-4528-b098-f6d02fafcb80">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-05-04">
+         Воскресенье 4 Мая.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -8873,27 +9096,29 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-05-08">
-        <choice>
-         <reg>
-          Четверток
-         </reg>
-         <orig>
-          Четвертокъ
-         </orig>
-        </choice>
-        <ref target="#note1126">
-         1126
-        </ref>
-        <note index="false" xml:id="note1126">
-         Написано поверх слова: Пятница.
-        </note>
-        8 Мая.
-       </date>
-      </dateline>
-     </opener>
+     <p id="f1fd450c-dae0-4061-9e0c-d2cf03fc154b">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-05-08">
+         <choice>
+          <reg>
+           Четверток
+          </reg>
+          <orig>
+           Четвертокъ
+          </orig>
+         </choice>
+         <ref target="#note1126">
+          1126
+         </ref>
+         <note index="false" xml:id="note1126">
+          Написано поверх слова: Пятница.
+         </note>
+         8 Мая.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell>
@@ -8909,7 +9134,9 @@
         </p>
        </cell>
        <cell rend="middle" rowspan="6">
-        <lb/>
+        <p id="260ac6b0-e801-4c81-aa07-1b0d4f95a283">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -9015,13 +9242,15 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-05-18">
-        18 Мая.
-       </date>
-      </dateline>
-     </opener>
+     <p id="ac8b6896-ddf4-40cd-ae4b-c1bc2370e0b6">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-05-18">
+         18 Мая.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell rend="middle">
@@ -9137,13 +9366,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-05-20">
-        20 Мая.
-       </date>
-      </dateline>
-     </opener>
+     <p id="b81c650b-1d93-4bb1-b30c-c91a456ac285">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-05-20">
+         20 Мая.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell rend="middle">
@@ -9259,13 +9490,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-06-02">
-        2 — Іюня. —
-       </date>
-      </dateline>
-     </opener>
+     <p id="0aa25e0c-12d9-4d43-9696-d19998959a56">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-06-02">
+         2 — Іюня. —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell valign="bottom">
@@ -9479,38 +9712,42 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="editor" when="1847-06-03">
-        3 Іюня
-        <unclear>
-         <choice>
-          <reg>
-           жил
-          </reg>
-          <orig>
-           жилъ
-          </orig>
-         </choice>
-        </unclear>
-        <unclear>
-         прилежно
-        </unclear>
-       </date>
-      </dateline>
-     </opener>
+     <p id="df2c6348-40bc-45f0-9420-84ea209abad7">
+      <opener>
+       <dateline>
+        <date resp="editor" when="1847-06-03">
+         3 Іюня
+         <unclear>
+          <choice>
+           <reg>
+            жил
+           </reg>
+           <orig>
+            жилъ
+           </orig>
+          </choice>
+         </unclear>
+         <unclear>
+          прилежно
+         </unclear>
+        </date>
+       </dateline>
+      </opener>
+     </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-06-04">
-        <hi>
-         4 Іюня середа
-        </hi>
-        . —
-       </date>
-      </dateline>
-     </opener>
+     <p id="19c5d99c-a18d-4ae2-8353-caba91f00366">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-06-04">
+         <hi>
+          4 Іюня середа
+         </hi>
+         . —
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell valign="bottom">
@@ -9519,10 +9756,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="c9a47941-976b-411c-8879-c360ae391bc6">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="2b3d852f-6c53-44f4-aba3-0b3e3b98b13f">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -9624,10 +9865,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="121c9376-9036-4410-8cc2-3b0fb3cf171f">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="a366c695-9a20-4459-9707-b9c1df47dfcf">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -9637,10 +9882,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="497a8183-4a7c-48d4-94aa-dac3c369e3b9">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="886a3e0c-6a45-4b1b-9d2d-c430f1a8d5df">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -9725,13 +9974,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-06-05">
-        5 Іюня.
-       </date>
-      </dateline>
-     </opener>
+     <p id="3c27a35b-ea62-41c3-9afe-cedec029a9ff">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-06-05">
+         5 Іюня.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell valign="bottom">
@@ -9748,7 +9999,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="10c61db9-96ba-4f8a-991e-533648bde228">
+         <lb/>
+        </p>
        </cell>
        <cell valign="bottom">
         <p id="50d5b1d3-2a0b-48bc-ae37-8cab91c8854c">
@@ -9781,7 +10034,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="8bded079-0337-494f-9da2-5f1ee3d2bed1">
+         <lb/>
+        </p>
        </cell>
        <cell>
         <p id="01dc8792-bf7f-429f-95df-7fc15c754496">
@@ -9796,10 +10051,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="2fda66a7-13c0-4a9c-bb4f-cb2576ac5db7">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="bdff80a7-ff5f-479f-a564-c581d206def9">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -9839,7 +10098,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="df3880ce-ff93-4491-96c4-78dd1049993f">
+         <lb/>
+        </p>
        </cell>
        <cell valign="bottom">
         <p id="66c2899f-f7dd-4e1d-ad89-83cd4d11ecea">
@@ -9861,7 +10122,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="2695f3f0-498f-4cfe-8be0-73f1a068d3d5">
+         <lb/>
+        </p>
        </cell>
        <cell valign="bottom">
         <p id="d6330683-c3b4-4ad6-b006-a51cbc588d07">
@@ -9883,10 +10146,14 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="19a2c19b-f920-4d9c-a528-6f500ae035c9">
+         <lb/>
+        </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="ff72e5f5-b377-442e-9743-5c5bf073db65">
+         <lb/>
+        </p>
        </cell>
       </row>
       <row>
@@ -9919,7 +10186,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="4a765426-f894-4cf0-a908-54c0ecc07f6f">
+         <lb/>
+        </p>
        </cell>
        <cell valign="bottom">
         <p id="153478b6-6606-4762-960c-15d57708556c">
@@ -9941,7 +10210,9 @@
         </p>
        </cell>
        <cell>
-        <lb/>
+        <p id="a6791587-8ef8-46ae-ba83-756fa6c462ed">
+         <lb/>
+        </p>
        </cell>
        <cell rend="middle">
         <p id="f293537d-e7ab-4ae4-8bc3-43de715a6939">
@@ -10032,13 +10303,15 @@
      </table>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-06-06">
-        6 Іюня.
-       </date>
-      </dateline>
-     </opener>
+     <p id="d3de0ce8-630d-41e2-bb70-21e118dc6a40">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-06-06">
+         6 Іюня.
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell valign="bottom">
@@ -10139,16 +10412,18 @@
      </p>
     </div>
     <div type="entry">
-     <opener>
-      <dateline>
-       <date resp="LNT" when="1847-06-07">
-        <hi>
-         7 Іюня
-        </hi>
-        .
-       </date>
-      </dateline>
-     </opener>
+     <p id="7772bbef-4c1e-4b02-a608-84ba6374da3f">
+      <opener>
+       <dateline>
+        <date resp="LNT" when="1847-06-07">
+         <hi>
+          7 Іюня
+         </hi>
+         .
+        </date>
+       </dateline>
+      </opener>
+     </p>
      <table>
       <row>
        <cell valign="bottom">
@@ -10243,8 +10518,12 @@
        </cell>
       </row>
      </table>
-     <lb/>
-     <metamark function="line"/>
+     <p id="ba62243d-ab97-4a85-8c8c-aac084e1ffd0">
+      <lb/>
+     </p>
+     <p id="cff526e8-aef9-4a3b-ab15-0f1d9f4db004">
+      <metamark function="line"/>
+     </p>
     </div>
    </div>
   </body>

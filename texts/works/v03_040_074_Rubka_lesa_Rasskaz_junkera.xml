@@ -1,154 +1,172 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v03_040_074_Rubka_lesa_Rasskaz_junkera">
-                    Рубка леса. Рассказ юнкера. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Рубка леса.</title>
-                <title type="sub">Рассказ юнкера</title>
-                <title type="bibl">Толстой Л. Н. Рубка леса. Рассказ юнкера // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 3. М.: Гос. изд. «Художественная литература», 1935. С. 40–74.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="e3493043-3c61-4aff-b181-b29a7f43c1fe">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Рубка леса. Рассказ юнкера
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 3
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">3</biblScope>
-                        <biblScope unit="page">40-74</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1854"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v03_040_074_Rubka_lesa_Rasskaz_junkera">
+     Рубка леса. Рассказ юнкера. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Рубка леса.
+    </title>
+    <title type="sub">
+     Рассказ юнкера
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Рубка леса. Рассказ юнкера // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 3. М.: Гос. изд. «Художественная литература», 1935. С. 40–74.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="e3493043-3c61-4aff-b181-b29a7f43c1fe">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Рубка леса. Рассказ юнкера
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 3
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       3
+      </biblScope>
+      <biblScope unit="page">
+       40-74
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1854"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000010">
     <p id="3ee963ac-944f-435d-b56a-4815ae27d00a">
      <pb n="40"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      ПРОИЗВЕДЕНИЯ
-     </hi>
-     <lb/>
-     <hi rend="strong" style="font-size: 0.85em;">
-      1852—1856 гг.
-     </hi>
-    </head>
+    <p id="d861486d-1eb7-4fff-a41b-bbe3cf4a9b2e">
+     <head rend="center">
+      <hi rend="strong">
+       ПРОИЗВЕДЕНИЯ
+      </hi>
+      <lb/>
+      <hi rend="strong" style="font-size: 0.85em;">
+       1852—1856 гг.
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000010002">
-    <head n="level1">
-     РУБКА ЛЕСА.
-     <lb/>
-     РАССКАЗ ЮНКЕРА.
-    </head>
+    <p id="0bc014d9-8077-44af-94f6-9ccf5ab7bb89">
+     <head n="level1">
+      РУБКА ЛЕСА.
+      <lb/>
+      РАССКАЗ ЮНКЕРА.
+     </head>
+    </p>
     <div>
      <p id="4e42b6d7-d467-4421-a84b-dee59b6e9398" rend="center">
       (1852—1854)
@@ -156,9 +174,11 @@
     </div>
    </div>
    <div type="section" xml:id="h000010002002">
-    <head n="level2" type="chapter">
-     I.
-    </head>
+    <p id="b34179ec-2351-4b6c-a590-156c78842d15">
+     <head n="level2" type="chapter">
+      I.
+     </head>
+    </p>
     <p id="837847c7-f623-44f9-9bb0-32edf7d7dac9">
      В середине зимы 185. года дивизион нашей батареи стоял в отряде в Большой Чечне. Вечером 14-го февраля, узнав, что взвод, которым я командовал за отсутствием офицера, назначен в завтрашней колонне на рубку леса, и с вечера же получив и передав нужные приказания, я раньше обыкновенного отправился в свою палатку и, не имея дурной привычки нагревать ее горячими углями, не раздеваясь, лег на свою построенную на колышках постель, надвинул на глаза попаху, закутался в шубу и заснул тем особенным, крепким и тяжелым сном, которым спится в минуты тревоги и беспокойства перед опасностью. Ожидание дела на завтра привело меня в это состояние.
     </p>
@@ -248,9 +268,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002003">
-    <head n="level2" type="chapter">
-     II.
-    </head>
+    <p id="dce3cf71-ec7f-418e-8236-e932ce044ba0">
+     <head n="level2" type="chapter">
+      II.
+     </head>
+    </p>
     <p id="9adc1bab-2090-4076-a567-9eb222a31cc0">
      В России есть три преобладающие типа солдат, под которые подходят солдаты всех войск: кавказских, армейских, гвардейских, пехотных, кавалерийских, артиллерийских и т. д.
     </p>
@@ -301,9 +323,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002004">
-    <head n="level2" type="chapter">
-     III.
-    </head>
+    <p id="a03751a1-be0c-4741-ab84-b926d1a2a05d">
+     <head n="level2" type="chapter">
+      III.
+     </head>
+    </p>
     <p id="b3b66ccc-f94e-4536-b9a8-0c7d17fa9da5">
      Кроме Веленчука, около костра грелись еще пять человек солдат моего взвода.
     </p>
@@ -372,9 +396,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002005">
-    <head n="level2" type="chapter">
-     IV.
-    </head>
+    <p id="90494a01-b1c7-4bba-a8e8-165ac9bdea58">
+     <head n="level2" type="chapter">
+      IV.
+     </head>
+    </p>
     <p id="c6420172-b22b-4a63-81de-d2523db79e0c">
      — Эх-ма! трубку забыл. Вот горе-то, братцы мои! — повторил Веленчук.
     </p>
@@ -488,9 +514,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002006">
-    <head n="level2" type="chapter">
-     V.
-    </head>
+    <p id="1603ce3a-c225-4d5c-abf4-1db435e165d4">
+     <head n="level2" type="chapter">
+      V.
+     </head>
+    </p>
     <p id="51a0741b-da52-43e6-b2e0-170b9cc190e6">
      Светлый круг солнца, просвечивающий сквозь молочно-белый туман, уже поднялся довольно высоко; серо-лиловый горизонт постепенно расширялся и хотя гораздо дальше, но также резко ограничивался обманчивою белою стеною тумана.
     </p>
@@ -577,9 +605,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002007">
-    <head n="level2" type="chapter">
-     VI.
-    </head>
+    <p id="6053f994-cd1a-45c8-9106-15d26807816f">
+     <head n="level2" type="chapter">
+      VI.
+     </head>
+    </p>
     <p id="ef0d2b14-2cee-498f-ae2d-15498ccfb17f">
      Оставив солдат рассуждать о том, как татары ускакали, когда увидели гранату, и зачем они тут ездили, и много ли их еще в лесу есть, я отошел с ротным командиром за несколько шагов и сел под деревом, ожидая разогревавшихся битков, которые он предложил мне. Ротный командир Болхов был один из офицеров, называемых в полку
      <hi rend="italic">
@@ -692,9 +722,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002008">
-    <head n="level2" type="chapter">
-     VII.
-    </head>
+    <p id="b72b8ddb-af24-4850-ad1b-0ddcf2d81ad6">
+     <head n="level2" type="chapter">
+      VII.
+     </head>
+    </p>
     <p id="138aa912-0b3d-4757-aeb3-a7b482f6465d">
      Неприятель, действительно, поставил два орудия на том месте, где разъезжали татары, и каждые минут 20 или 30 посылал по выстрелу в наших рубщиков. Мой взвод выдвинули вперед на поляну и приказали отвечать ему. В опушке леса показался дымок, слышались выстрел, свист, и ядро падало сзади или впереди нас. Снаряды неприятеля ложились счастливо, и потери не было.
     </p>
@@ -745,9 +777,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002009">
-    <head n="level2" type="chapter">
-     VIII.
-    </head>
+    <p id="3be22447-ba33-4848-89ce-d9d459b2aa8e">
+     <head n="level2" type="chapter">
+      VIII.
+     </head>
+    </p>
     <p id="ac65b79a-392c-438d-a7c7-c97faf03136c">
      Каждый бывший в деле, верно, испытывал то странное, хотя и не логическое, но сильное чувство отвращения от того места, на котором был убит или ранен кто-нибудь. Этому чувству заметно поддались в первую минуту мои солдаты, когда нужно было поднять Веленчука и перенести его на подъехавшую повозку. Жданов сердито подошел к раненому, несмотря на усилившийся крик его, взял под мышки и поднял его. «Чтò стали? берись!» крикнул он, и тотчас же раненого окружили человек десять, даже ненужных, помощников. Но едва сдвинули его с места, как Веленчук начал кричать ужасно и рваться.
     </p>
@@ -802,9 +836,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002010">
-    <head n="level2" type="chapter">
-     IX.
-    </head>
+    <p id="cfcd4ab8-8027-474e-82bb-cce192634653">
+     <head n="level2" type="chapter">
+      IX.
+     </head>
+    </p>
     <p id="a028522e-52d8-45e5-bdf4-0bf3b1d39ccc">
      — Ты куда? Вернись! Куда ты идешь? — закричал я рекрутику, который, положив под мышку свой запасный
      <ref id="pal'nik" target="slovar">
@@ -833,7 +869,9 @@
     <p id="ae03067b-1b78-4cc9-bb72-cce8fc6fe92c">
      Он с удивлением посмотрел на меня, потом хладнокровно повернулся, надел шапку и пошел к своему месту.
     </p>
-    <metamark function="line"/>
+    <p id="c88aac30-7101-4026-ac10-f533061fbcc8">
+     <metamark function="line"/>
+    </p>
     <p id="4e80feaf-5dae-4085-93c0-7730c725c24c">
      Дело вообще было счастливо: казаки, слышно было, сделали славную атаку и взяли три татарских тела; пехота запаслась дровами и потеряла всего человек шесть ранеными; в артиллерии выбыли из строя всего один Веленчук и две лошади. Зато вырубили леса версты на три и очистили место так, что его узнать нельзя было: вместо прежде видневшейся сплошной опушки леса открывалась огромная поляна, покрытая дымящимися кострами и двигавшимися к лагерю кавалерией и пехотой. Несмотря на то, что неприятель не переставал преследовать нас артиллерийским и ружейным огнем до самой речки с кладбищем, которую мы переходили утром, отступление сделано было счастливо. Уже я начинал мечтать о щах и бараньем боке с кашей, ожидавших меня в лагере, когда пришло известие, что генерал приказал построить на речке редут и оставить в нем до завтра 3-й батальон К. полка и взвод 4-х-батарейной. Повозки и дровами и ранеными, казаки, артиллерия, пехота с ружьями и дровами на плечах, — все с шумом и песнями прошли мимо нас. На всех лицах видны были одушевление и удовольствие, внушенные минувшей опасностью и надеждой на отдых. Только мы с 3-м батальоном должны были ожидать этих приятных чувств еще до завтра.
     </p>
@@ -842,9 +880,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002011">
-    <head n="level2" type="chapter">
-     X.
-    </head>
+    <p id="afbd713b-9f25-416e-bde1-93a0bb96117f">
+     <head n="level2" type="chapter">
+      X.
+     </head>
+    </p>
     <p id="1475a16e-46b1-48cc-a402-4e7e39092611">
      Покуда мы, артиллеристы, хлопотали около орудий: расставляли передки, ящики, разбивали коновязь, пехота уже составила ружья, разложила костры, построила из сучьев и кукурузной соломы балаганчики и варила кашицу.
     </p>
@@ -897,9 +937,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002012">
-    <head n="level2" type="chapter">
-     XI.
-    </head>
+    <p id="53b49b0e-ad05-4743-aef8-bca168c1de40">
+     <head n="level2" type="chapter">
+      XI.
+     </head>
+    </p>
     <p id="82c0053a-2937-4ed7-b365-6cc206f4805d">
      В это время послышался снаружи голос батальонного командира: «с кем это вы, Николай Федорыч?»
     </p>
@@ -1065,9 +1107,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002013">
-    <head n="level2" type="chapter">
-     XII.
-    </head>
+    <p id="e278fbcb-1f96-413b-bb8a-86f27b58ebea">
+     <head n="level2" type="chapter">
+      XII.
+     </head>
+    </p>
     <p id="95eb5629-0ae2-4aaa-a6a8-b5a635010430">
      Предположение мое тотчас же подтвердилось. Капитан Крафт попросил водки, назвав ее
      <hi rend="italic">
@@ -1208,9 +1252,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010002014">
-    <head n="level2" type="chapter">
-     XIII.
-    </head>
+    <p id="4f90c615-8128-4e0c-b818-6b601d2dd1cc">
+     <head n="level2" type="chapter">
+      XIII.
+     </head>
+    </p>
     <p id="3b32415b-5aa2-4329-a54d-c112aa80d9b3">
      Уже была темная ночь, и только костры тускло освещали лагерь, когда я, окончив уборку, подошел к своим солдатам. Большой пень, тлея, лежал на углях. Вокруг него сидели только трое: Антонов, поворачивавший в огне котелок, в котором варился
      <hi rend="italic">
@@ -1376,11 +1422,15 @@
     <p id="a7a7d763-6e61-4205-b81c-562630375e20">
      Антонов перестал петь, Жданов встал, вздохнул, перешагнул через бревно и побрел к орудиям.
     </p>
-    <lb/>
+    <p id="7cd2e9cb-c5e3-45c3-8526-a1cfd82614bf">
+     <lb/>
+    </p>
     <p id="86a4963a-28bd-48c0-b361-2101d50d83be" rend="petit">
      15 июня 1855 г.
     </p>
-    <metamark function="line"/>
+    <p id="d3f2c2cd-e5dc-4eab-81c2-6ec2635d09b5">
+     <metamark function="line"/>
+    </p>
    </div>
   </body>
  </text>

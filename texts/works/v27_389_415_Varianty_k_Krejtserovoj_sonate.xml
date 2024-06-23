@@ -1,155 +1,175 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v27_389_415_Varianty_k_Krejtserovoj_sonate">
-                    Варианты к «Крейцеровой сонате». Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Крейцерова соната.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <title type="bibl">Толстой Л. Н. Варианты к «Крейцеровой сонате» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 27. М.: Гос. изд. «Художественная литература», 1936. С. 389–415.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="770f9c66-49f6-49df-b0b3-0b06d548803a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Варианты к «Крейцеровой сонате»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 27
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">27</biblScope>
-                        <biblScope unit="page">389-415</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1887" to="1889"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v27_389_415_Varianty_k_Krejtserovoj_sonate">
+     Варианты к «Крейцеровой сонате». Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Крейцерова соната.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Варианты к «Крейцеровой сонате» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 27. М.: Гос. изд. «Художественная литература», 1936. С. 389–415.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="770f9c66-49f6-49df-b0b3-0b06d548803a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Варианты к «Крейцеровой сонате»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 27
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       27
+      </biblScope>
+      <biblScope unit="page">
+       389-415
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1887" to="1889"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000014">
     <p id="869d7ebd-dbd4-478d-8afc-659cceb2c6c0">
      <pb n="389"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
-     </hi>
-    </head>
+    <p id="f4f7253f-0102-4e63-80b0-a0bf11646a24">
+     <head rend="center">
+      <hi rend="strong">
+       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
+      </hi>
+     </head>
+    </p>
     <p id="ea8b093d-776f-41d2-be60-dc8cb85fdc6c"/>
    </div>
    <div type="section" xml:id="h000014004">
-    <head n="level1" type="editorial">
-     [ВАРИАНТЫ К «КРЕЙЦЕРОВОЙ СОНАТЕ».]
-    </head>
+    <p id="a60a6801-7aae-497e-b4c6-5a70b502c650">
+     <head n="level1" type="editorial">
+      [ВАРИАНТЫ К «КРЕЙЦЕРОВОЙ СОНАТЕ».]
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000014004001">
-    <head n="level2" type="editorial">
-     * № 1.
-    </head>
+    <p id="dcbfca8b-e837-4f6c-b7cc-e3d1b9caa05e">
+     <head n="level2" type="editorial">
+      * № 1.
+     </head>
+    </p>
     <p id="ca425834-0c8d-44bf-82ac-45e52a8e634e">
      — Да, сколько теперь
      <choice>
@@ -822,9 +842,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004002">
-    <head n="level2" type="editorial">
-     **№ 2.
-    </head>
+    <p id="0befcb23-f3ac-4e2b-a06a-9902c5acf52b">
+     <head n="level2" type="editorial">
+      **№ 2.
+     </head>
+    </p>
     <p id="e2f5189f-ad0f-4244-83e1-4701ee4fdb83">
      <choice>
       <reg>
@@ -2275,9 +2297,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004003">
-    <head n="level2" type="editorial">
-     * № 3.
-    </head>
+    <p id="23b26c3a-7e89-443a-a650-c70337983cb3">
+     <head n="level2" type="editorial">
+      * № 3.
+     </head>
+    </p>
     <p id="cdf4e80a-f8b4-4f36-9421-e9ffe8caf006">
      <choice>
       <reg>
@@ -2663,9 +2687,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004004">
-    <head n="level2" type="editorial">
-     * № 4.
-    </head>
+    <p id="99ad8d23-9fac-4c2a-a53a-091f433c1a5f">
+     <head n="level2" type="editorial">
+      * № 4.
+     </head>
+    </p>
     <p id="0674714b-62df-4a39-bfcc-7cbf39751814">
      «Но
      <choice>
@@ -3082,9 +3108,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004005">
-    <head n="level2" type="editorial">
-     ** № 5.
-    </head>
+    <p id="52806f14-1b98-4ce4-b429-131532959e04">
+     <head n="level2" type="editorial">
+      ** № 5.
+     </head>
+    </p>
     <p id="0f2c5796-21e9-46be-b7be-3005c6ecd162">
      — Да отчего же
      <choice>
@@ -7858,9 +7886,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004006">
-    <head n="level2" type="editorial">
-     * № 6.
-    </head>
+    <p id="059fba88-3739-4aa4-84d5-b838a52f39ae">
+     <head n="level2" type="editorial">
+      * № 6.
+     </head>
+    </p>
     <p id="d36ef2a7-c458-43d3-8385-7ae62c62bf37">
      — Ну а какже, когда любви
      <choice>
@@ -9081,9 +9111,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004007">
-    <head n="level2" type="editorial">
-     * № 7.
-    </head>
+    <p id="1675dd0e-a055-4794-bac9-cb9490e48654">
+     <head n="level2" type="editorial">
+      * № 7.
+     </head>
+    </p>
     <p id="907896bf-c4a5-4ece-ab41-a10e23284929">
      —
      <choice>
@@ -9443,9 +9475,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004008">
-    <head n="level2" type="editorial">
-     ** № 8.
-    </head>
+    <p id="446bf08f-b8e5-46af-ace7-8844ede79bf7">
+     <head n="level2" type="editorial">
+      ** № 8.
+     </head>
+    </p>
     <p id="e407038d-9980-49cf-a1ea-06b5d15abdf0">
      <del>
       Помню,
@@ -10121,9 +10155,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004009">
-    <head n="level2" type="editorial">
-     * № 9.
-    </head>
+    <p id="17cc2d11-0029-41a3-8eda-31c2f26e920d">
+     <head n="level2" type="editorial">
+      * № 9.
+     </head>
+    </p>
     <p id="ff64556a-4f61-490d-a86f-ff77b71357cb">
      Все
      <choice>
@@ -10765,9 +10801,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004010">
-    <head n="level2" type="editorial">
-     ** № 10.
-    </head>
+    <p id="c5875951-d562-45e0-ba55-2aedb52b8426">
+     <head n="level2" type="editorial">
+      ** № 10.
+     </head>
+    </p>
     <p id="363afea5-2f94-4da2-80b1-e573c121c0f1">
      — Главная ложь, главный
      <choice>
@@ -11896,9 +11934,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004011">
-    <head n="level2" type="editorial">
-     ** № 11
-    </head>
+    <p id="677027a6-7ea4-4896-914d-d02faa6a19af">
+     <head n="level2" type="editorial">
+      ** № 11
+     </head>
+    </p>
     <p id="211d75e8-3dc7-47ae-8bba-312b1bf08fcd">
      — Такъ я жилъ, развратничалъ, воображая, что я чуть не святой и живу честной семейной жизнью. Жена моя была женщина, какъ я ее теперь понимаю, женщина самая средняя. Если была у нея особенность выдающаяся, то это было
      <ref target="#note153">
@@ -12068,9 +12108,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004012">
-    <head n="level2" type="editorial">
-     ** № 12.
-    </head>
+    <p id="5d095342-0738-4061-8278-e7236f2ab006">
+     <head n="level2" type="editorial">
+      ** № 12.
+     </head>
+    </p>
     <p id="514907eb-1ede-4b2f-ae41-b8f9afa006cd">
      Главное то дѣло въ томъ, что всѣ мущины — я помню чувство къ моему лучшему другу — я знаю какъ смотрятъ на женщинъ. И я смотрѣлъ такъ и понимаю, что можно смотрѣть, но только не на мою жену. Завидовать мнѣ даже я не позволяю. А еще мучало меня то, что она при другихъ мущинахъ говорила то, что она, бывало, говорила мнѣ, или то, чего, я знаю, она не думала, и я видѣлъ, что слова ея ничего не значатъ, что и слова ея, какъ и одежда, — это только средство заманить, понравиться. Единственный отдыхъ въ этомъ отношеніи бывалъ мнѣ, когда она беременѣла и потомъ когда кормила. Слѣдующаго ребенка, несмотря на запрещеніе мерзавцевъ, она сама стала кормить и выкормила прекрасно. И послѣ этаго ребенка всѣхъ остальныхъ. И вотъ началась та почти одинаковая наша семейная жизнь съ рожденіемъ и воспитаніемъ дѣтей, которая продолжалась 10 лѣтъ, больше — 12 лѣтъ. Со стороны, я увѣренъ, что жизнь наша представлялась счастливой, но мы знали, что это было. Это не только не была счастливая жизнь, это былъ адъ. Адъ потому, что мы, просто говоря, ненавидѣли другъ друга и не признавались себѣ въ этомъ и не нарушали семейной связи. Я много разъ замѣчалъ, что невѣрные супруги гораздо лучше живутъ. И это просто отъ того, что они уже не грѣшатъ
      <pb n="401"/>
@@ -12189,12 +12231,16 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004013">
-    <head n="level2" type="editorial">
-     ** № 13.
-    </head>
-    <head n="level2" type="chapter">
-     XXII.
-    </head>
+    <p id="1682dc04-3476-4c36-aad0-2ef1075dc365">
+     <head n="level2" type="editorial">
+      ** № 13.
+     </head>
+    </p>
+    <p id="a6a74973-a05a-4be4-b3d8-de5af4bda09f">
+     <head n="level2" type="chapter">
+      XXII.
+     </head>
+    </p>
     <p id="88b2c7a9-3d33-4d98-b9c8-061003c52dbb">
      —
      <choice>
@@ -14175,10 +14221,14 @@
      </choice>
      что-то необыкновенное.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     XXIII.
-    </head>
+    <p id="89aae801-3c12-4d4e-a959-f10c9aeefadc">
+     <lb/>
+    </p>
+    <p id="8b6f2b95-355a-47ef-9162-23814db4d8f6">
+     <head n="level2" type="chapter">
+      XXIII.
+     </head>
+    </p>
     <p id="e3515594-148c-4d6a-899c-5ae571c0bb43">
      Ну, поѣхали утромъ. Все бы хорошо, но что-то въ ея улыбкѣ, ея взглядѣ, ея жестахъ, въ ея движеніяхъ — что-то сдержанно радостное и таинственное. Но о бѣломъ медвѣдѣ не велѣно думать, такъ и проводилъ ихъ.
     </p>
@@ -15291,10 +15341,14 @@
     <p id="b4615059-a209-42fd-a950-b5eb7ac66133">
      Какъ, отчего это сдѣлалось? Но несмотря на все это, что я передумывалъ, на меня нашло внѣшнее спокойствіе. Онѣ почти ничего не замѣтили. Такъ, я дурно спалъ — было достаточное объясненіе.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     XXIV.
-    </head>
+    <p id="703f30fa-7ad7-447a-8a7b-6d1bfae0622a">
+     <lb/>
+    </p>
+    <p id="014ccead-d2b7-4f88-9404-332d693721d9">
+     <head n="level2" type="chapter">
+      XXIV.
+     </head>
+    </p>
     <p id="c9806701-0650-4c75-b1bd-36a949ebf4da">
      — И
      <choice>
@@ -15764,10 +15818,14 @@
      </choice>
      ...
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     XXV.
-    </head>
+    <p id="c41ef9b4-f181-4bb4-af9d-6ea285802c02">
+     <lb/>
+    </p>
+    <p id="3fe59431-7080-4c49-a91b-5df6a5c971f1">
+     <head n="level2" type="chapter">
+      XXV.
+     </head>
+    </p>
     <p id="68b6eb9a-c92d-4387-8385-2ed4890ef343">
      <choice>
       <reg>
@@ -16495,10 +16553,14 @@
      </choice>
      скрыть....
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     XXVI.
-    </head>
+    <p id="fea45d0b-fee1-47b3-8e5d-8634f24e734d">
+     <lb/>
+    </p>
+    <p id="705e2158-2d51-4426-a256-d69c198fc8c3">
+     <head n="level2" type="chapter">
+      XXVI.
+     </head>
+    </p>
     <p id="7af956df-62ea-46dd-9d5b-a0d3f9d225cd">
      Да, чѣмъ страстнѣе были ея ласки, тѣмъ злѣе была моя ненависть и тѣмъ тверже устанавливалось мое рѣшеніе. Она продолжала вѣрить мерзавцамъ, она спорила, пока еще я спорилъ о томъ, что благоразумнѣе посвятить себя тѣмъ дѣтямъ, которыя есть, чѣмъ рожать вновь, что тутъ грѣха нѣтъ, и ни на минуту не сдавалась. Но тутъ она вдругъ забыла это и согласилась со мной. Я уже было забылъ все, я былъ побѣжденъ нѣгой страсти, но тутъ уже была очевидность. Я отошелъ отъ нея и пошелъ къ двери.
     </p>
@@ -16612,10 +16674,14 @@
     <p id="8f5406bb-c539-4a96-abd6-669620566e81">
      Но я не слушалъ ее, я слушалъ свои слова. Я говорилъ, что убью, и убью, и какъ это сдѣлалось, я не знаю. Она поднялась ко мнѣ, увидавъ ножъ и желая схватить меня за руки, но я вырвалъ руку и запустилъ кинжалъ снизу и почувствовалъ, что онъ пошелъ кверху. Она упала, схватила за руку меня, я вырвалъ кинжалъ руками. Кровь хлынула... Мнѣ мерзко стало отъ крови ея. И чтобы мерзость стала больше еще, чтобы все потонуло въ мерзости, я кулакомъ ударилъ ее по лицу. Она упала.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     XXVII.
-    </head>
+    <p id="71ee95e8-de02-43c8-b770-596f8baf4e2f">
+     <lb/>
+    </p>
+    <p id="fd17c055-ad9f-4525-a5ef-d289d9df3431">
+     <head n="level2" type="chapter">
+      XXVII.
+     </head>
+    </p>
     <p id="9fff8891-69b5-4943-8c0d-06a9f1dbe5b5">
      Я
      <choice>
@@ -16977,10 +17043,14 @@
      </choice>
      этой минуты, я проснулся....
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     XXVIII.
-    </head>
+    <p id="4b883501-a127-412e-8c10-e3f21b479dd8">
+     <lb/>
+    </p>
+    <p id="2eea0594-ef6d-4760-a1aa-f14ec2461a5b">
+     <head n="level2" type="chapter">
+      XXVIII.
+     </head>
+    </p>
     <p id="527b2c01-1d0a-498e-be35-7d1e1584f8df">
      Она умерла, меня судили...
     </p>
@@ -17095,9 +17165,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004014">
-    <head n="level2" type="editorial">
-     ** № 14.
-    </head>
+    <p id="257ffb01-3ee2-40f0-b10c-40245c2e6781">
+     <head n="level2" type="editorial">
+      ** № 14.
+     </head>
+    </p>
     <p id="309e4214-6985-4af3-89db-f440d2c29275">
      Только что
      <choice>
@@ -17255,105 +17327,111 @@
      , — сказала дама.
     </p>
     <p id="fd6068ab-a143-4f9e-81f7-f2eb176366eb">
-     — <del type="reconstructed">
-     <choice>
-      <reg>
-       Положим
-      </reg>
-      <orig>
-       Положимъ
-      </orig>
-     </choice>
-     , —
-     <choice>
-      <reg>
-       сказал
-      </reg>
-      <orig>
-       сказалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       адвокат
-      </reg>
-      <orig>
-       адвокатъ
-      </orig>
-     </choice>
-     , — но согласитесь, что при его
-     <choice>
-      <reg>
-       взгляде
-      </reg>
-      <orig>
-       взглядѣ
-      </orig>
-     </choice>
-     легче
-     <choice>
-      <reg>
-       определение
-      </reg>
-      <orig>
-       опредѣленіе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       отношений
-      </reg>
-      <orig>
-       отношеній
-      </orig>
-     </choice>
-     .
-    </del></p><p id="345c952f-2e0a-48bd-a78f-dbf9fd8652f5"><del>
-     — Легче, но за то это
-     <choice>
-      <reg>
-       отношение
-      </reg>
-      <orig>
-       отношеніе
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       диких
-      </reg>
-      <orig>
-       дикихъ
-      </orig>
-     </choice>
-     . Держать
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       рабстве
-      </reg>
-      <orig>
-       рабствѣ
-      </orig>
-     </choice>
-     женщину, которая уже не
-     <choice>
-      <reg>
-       любит
-      </reg>
-      <orig>
-       любитъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="5a55ad9e-9172-4e19-9632-9a31095fb9aa" rend="left pages_p">
+     —
+     <del type="reconstructed">
+      <choice>
+       <reg>
+        Положим
+       </reg>
+       <orig>
+        Положимъ
+       </orig>
+      </choice>
+      , —
+      <choice>
+       <reg>
+        сказал
+       </reg>
+       <orig>
+        сказалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        адвокат
+       </reg>
+       <orig>
+        адвокатъ
+       </orig>
+      </choice>
+      , — но согласитесь, что при его
+      <choice>
+       <reg>
+        взгляде
+       </reg>
+       <orig>
+        взглядѣ
+       </orig>
+      </choice>
+      легче
+      <choice>
+       <reg>
+        определение
+       </reg>
+       <orig>
+        опредѣленіе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        отношений
+       </reg>
+       <orig>
+        отношеній
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="345c952f-2e0a-48bd-a78f-dbf9fd8652f5">
+     <del>
+      — Легче, но за то это
+      <choice>
+       <reg>
+        отношение
+       </reg>
+       <orig>
+        отношеніе
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        диких
+       </reg>
+       <orig>
+        дикихъ
+       </orig>
+      </choice>
+      . Держать
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        рабстве
+       </reg>
+       <orig>
+        рабствѣ
+       </orig>
+      </choice>
+      женщину, которая уже не
+      <choice>
+       <reg>
+        любит
+       </reg>
+       <orig>
+        любитъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="5a55ad9e-9172-4e19-9632-9a31095fb9aa" rend="left pages_p">
      <pb n="407"/>
     </p>
     <p id="84ff2bc4-0da3-40f9-b8e1-d4c5811d6ab3">
@@ -19570,24 +19648,36 @@
      </choice>
      .
     </p>
-    <lb/>
+    <p id="6d0b0a0c-44f4-4924-859f-51757484425b">
+     <lb/>
+    </p>
     <p id="c03af837-152b-4474-bc69-4448b745c7ff" rend="left pages_p">
      <pb n="409"/>
     </p>
     <p id="b33d18c6-f035-434f-a1af-36a9259c79c4" xml:id="i3"/>
     <div rend="image">
      <figure>
-      <graphic rend="alt:" url="./img/imgf8a4daa38f09405ca4e83ad0f828ab79.png"/>
+      <p id="62b737f9-2fbf-449c-a9d8-c78e8f051955">
+       <graphic rend="alt:" url="./img/imgf8a4daa38f09405ca4e83ad0f828ab79.png"/>
+      </p>
      </figure>
     </div>
-    <lb/>
+    <p id="d55cb069-48e8-44ce-acf3-cbbb7f97453b">
+     <lb/>
+    </p>
     <div rend="image">
      <figure>
-      <graphic rend="alt:" url="./img/b00006786.png"/>
+      <p id="4f1680d5-c9df-451e-b1c1-a835ff35cf73">
+       <graphic rend="alt:" url="./img/b00006786.png"/>
+      </p>
      </figure>
     </div>
-    <lb/>
-    <lb/>
+    <p id="c1b75e92-b000-4ff8-a807-85e52cf2ad10">
+     <lb/>
+    </p>
+    <p id="8557a2f9-d449-488d-a71a-2cad400cc5f1">
+     <lb/>
+    </p>
     <p id="81bd0d69-12e8-4605-8c3f-32818b6845e1">
      — Да, если есть честные по
      <choice>
@@ -21432,9 +21522,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004015">
-    <head n="level2" type="editorial">
-     ** № 15.
-    </head>
+    <p id="1ff0d9db-2be2-4d7f-8671-a06f9edad81e">
+     <head n="level2" type="editorial">
+      ** № 15.
+     </head>
+    </p>
     <p id="45a7b037-dfff-472f-a198-8dcdeb212bb7">
      Женщина нашего
      <choice>
@@ -22078,9 +22170,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004016">
-    <head n="level2" type="editorial">
-     ** № 16.
-    </head>
+    <p id="122d7a31-5f28-4121-8ba5-9d828c1d991b">
+     <head n="level2" type="editorial">
+      ** № 16.
+     </head>
+    </p>
     <p id="397213c4-e6d7-4fe3-bfe3-f59d94856cf0">
      Всякая
      <choice>
@@ -22462,9 +22556,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004017">
-    <head n="level2" type="editorial">
-     **№ 17.
-    </head>
+    <p id="fc45b0e6-4538-465f-8d77-21e0591949d8">
+     <head n="level2" type="editorial">
+      **№ 17.
+     </head>
+    </p>
     <p id="69b7ed68-dc1c-4fd9-bdbb-b983a13bb1f5">
      — Вася, опомнись, что ты? Что
      <choice>
@@ -23609,10 +23705,14 @@
      </choice>
      стало гадко, но еще не жалко.
     </p>
-    <lb/>
-    <head n="level2" type="chapter">
-     XX.....
-    </head>
+    <p id="2720941a-1bf9-4df8-9b28-5782948cc2ec">
+     <lb/>
+    </p>
+    <p id="6708a312-4665-4866-ae61-8fd5b08a173e">
+     <head n="level2" type="chapter">
+      XX.....
+     </head>
+    </p>
     <p id="c8207ed5-a284-46e7-972c-f0a557603395">
      Жалко
      <choice>
@@ -25241,9 +25341,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004018">
-    <head n="level2" type="editorial">
-     * № 18.
-    </head>
+    <p id="b6d98539-9974-4a94-ba32-706ec261f6ff">
+     <head n="level2" type="editorial">
+      * № 18.
+     </head>
+    </p>
     <p id="29afcb07-80f1-4650-ba80-6cebf455296f">
      — Надо
      <choice>
@@ -25667,519 +25769,542 @@
     </p>
    </div>
    <div type="section" xml:id="h000014004019">
-    <head n="level2" type="editorial">
-     * № 19.
-    </head>
+    <p id="a055e24c-5623-4338-be57-faf346041f8b">
+     <head n="level2" type="editorial">
+      * № 19.
+     </head>
+    </p>
     <p id="1a530f4f-0df4-419b-b445-84d7eb225aa0">
-     <del type="reconstructed">Возвращаюсь я
-     <choice>
-      <reg>
-       раз
-      </reg>
-      <orig>
-       разъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мужского
-      </reg>
-      <orig>
-       мужскаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       обеда
-      </reg>
-      <orig>
-       обѣда
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Сидит
-      </reg>
-      <orig>
-       Сидитъ
-      </orig>
-     </choice>
-     она
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     дядей
-     <choice>
-      <reg>
-       моим
-      </reg>
-      <orig>
-       моимъ
-      </orig>
-     </choice>
-     <ref target="#note167">
-      167
-     </ref>
-     <note index="false" xml:id="note167">
-      <span data-class="paragraph" id="242e0d09-8696-4ea9-8536-51a4f6767bbd">
-       и
+     <del type="reconstructed">
+      Возвращаюсь я
+      <choice>
+       <reg>
+        раз
+       </reg>
+       <orig>
+        разъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мужского
+       </reg>
+       <orig>
+        мужскаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        обеда
+       </reg>
+       <orig>
+        обѣда
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Сидит
+       </reg>
+       <orig>
+        Сидитъ
+       </orig>
+      </choice>
+      она
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      дядей
+      <choice>
+       <reg>
+        моим
+       </reg>
+       <orig>
+        моимъ
+       </orig>
+      </choice>
+      <ref target="#note167">
+       167
+      </ref>
+      <note index="false" xml:id="note167">
+       <span data-class="paragraph" id="242e0d09-8696-4ea9-8536-51a4f6767bbd">
+        и
+        <choice>
+         <reg>
+          с
+         </reg>
+         <orig>
+          съ
+         </orig>
+        </choice>
+        своей кузиной.
+       </span>
+      </note>
+      и
+      <choice>
+       <reg>
+        молодым
+       </reg>
+       <orig>
+        молодымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        следователем
+       </reg>
+       <orig>
+        слѣдователемъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        добрым
+       </reg>
+       <orig>
+        добрымъ
+       </orig>
+      </choice>
+      , не
+      <choice>
+       <reg>
+        опасным
+       </reg>
+       <orig>
+        опаснымъ
+       </orig>
+      </choice>
+      юношей, который часто
+      <choice>
+       <reg>
+        бывал
+       </reg>
+       <orig>
+        бывалъ
+       </orig>
+      </choice>
+      у
+      <choice>
+       <reg>
+        нас
+       </reg>
+       <orig>
+        насъ
+       </orig>
+      </choice>
+      и которого я почти не
+      <choice>
+       <reg>
+        ревновал
+       </reg>
+       <orig>
+        ревновалъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Сидят
+       </reg>
+       <orig>
+        Сидятъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        играют
+       </reg>
+       <orig>
+        играютъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        винт
+       </reg>
+       <orig>
+        винтъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Дети
+       </reg>
+       <orig>
+        Дѣти
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        уж
+       </reg>
+       <orig>
+        ужъ
+       </orig>
+      </choice>
+      уложены спать.
+      <choice>
+       <reg>
+        Старший
+       </reg>
+       <orig>
+        Старшій
+       </orig>
+      </choice>
+      ,
+      <ref target="#note168">
+       168
+      </ref>
+      <note index="false" xml:id="note168">
+       <span data-class="paragraph" id="87a14889-ab66-45c5-91fb-8c7ddc90bd85">
+        Николинька.
+       </span>
+      </note>
+      Вася,
+      <choice>
+       <reg>
+        тот
+       </reg>
+       <orig>
+        тотъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        которого
+       </reg>
+       <orig>
+        котораго
+       </orig>
+      </choice>
+      кормила кормилица (ему было десять
+      <choice>
+       <reg>
+        лет
+       </reg>
+       <orig>
+        лѣтъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        приготовительном
+       </reg>
+       <orig>
+        приготовительномъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        классе
+       </reg>
+       <orig>
+        классѣ
+       </orig>
+      </choice>
+      ),
+      <choice>
+       <reg>
+        потом
+       </reg>
+       <orig>
+        потомъ
+       </orig>
+      </choice>
+      <ref target="#note169">
+       169
+      </ref>
+      <note index="false" xml:id="note169">
+       <span data-class="paragraph" id="8721f800-b456-4a09-8e76-bac3c46e40ab">
+        Маня.
+       </span>
+      </note>
+      Лиза, 8
+      <choice>
+       <reg>
+        лет
+       </reg>
+       <orig>
+        лѣтъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        девочка
+       </reg>
+       <orig>
+        дѣвочка
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        потом
+       </reg>
+       <orig>
+        потомъ
+       </orig>
+      </choice>
+      Ваня и Митя и Анночка,
+      <choice>
+       <reg>
+        последняя
+       </reg>
+       <orig>
+        послѣдняя
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        двух
+       </reg>
+       <orig>
+        двухъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        лет
+       </reg>
+       <orig>
+        лѣтъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="7f37cac8-20ab-4c48-a575-05ceeb027f1f">
+     <del type="reconstructed">
+      Я
+      <choice>
+       <reg>
+        сел
+       </reg>
+       <orig>
+        сѣлъ
+       </orig>
+      </choice>
+      за нее, а она, по
+      <choice>
+       <reg>
+        просьбе
+       </reg>
+       <orig>
+        просьбѣ
+       </orig>
+      </choice>
+      дяди,
+      <choice>
+       <reg>
+        села
+       </reg>
+       <orig>
+        сѣла
+       </orig>
+      </choice>
+      за
+      <choice>
+       <reg>
+        фортепиано
+       </reg>
+       <orig>
+        фортепіано
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="f7559c22-cbc3-4c13-b08d-88be41165878">
+     <del type="reconstructed">
+      <del>
+       —
        <choice>
         <reg>
-         с
+         Ах
         </reg>
         <orig>
-         съ
+         Ахъ
         </orig>
        </choice>
-       своей кузиной.
-      </span>
-     </note>
-     и
-     <choice>
-      <reg>
-       молодым
-      </reg>
-      <orig>
-       молодымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       следователем
-      </reg>
-      <orig>
-       слѣдователемъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       добрым
-      </reg>
-      <orig>
-       добрымъ
-      </orig>
-     </choice>
-     , не
-     <choice>
-      <reg>
-       опасным
-      </reg>
-      <orig>
-       опаснымъ
-      </orig>
-     </choice>
-     юношей, который часто
-     <choice>
-      <reg>
-       бывал
-      </reg>
-      <orig>
-       бывалъ
-      </orig>
-     </choice>
-     у
-     <choice>
-      <reg>
-       нас
-      </reg>
-      <orig>
-       насъ
-      </orig>
-     </choice>
-     и которого я почти не
-     <choice>
-      <reg>
-       ревновал
-      </reg>
-      <orig>
-       ревновалъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Сидят
-      </reg>
-      <orig>
-       Сидятъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       играют
-      </reg>
-      <orig>
-       играютъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       винт
-      </reg>
-      <orig>
-       винтъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Дети
-      </reg>
-      <orig>
-       Дѣти
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       уж
-      </reg>
-      <orig>
-       ужъ
-      </orig>
-     </choice>
-     уложены спать.
-     <choice>
-      <reg>
-       Старший
-      </reg>
-      <orig>
-       Старшій
-      </orig>
-     </choice>
-     ,
-     <ref target="#note168">
-      168
-     </ref>
-     <note index="false" xml:id="note168">
-      <span data-class="paragraph" id="87a14889-ab66-45c5-91fb-8c7ddc90bd85">
-       Николинька.
-      </span>
-     </note>
-     Вася,
-     <choice>
-      <reg>
-       тот
-      </reg>
-      <orig>
-       тотъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       которого
-      </reg>
-      <orig>
-       котораго
-      </orig>
-     </choice>
-     кормила кормилица (ему было десять
-     <choice>
-      <reg>
-       лет
-      </reg>
-      <orig>
-       лѣтъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       приготовительном
-      </reg>
-      <orig>
-       приготовительномъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       классе
-      </reg>
-      <orig>
-       классѣ
-      </orig>
-     </choice>
-     ),
-     <choice>
-      <reg>
-       потом
-      </reg>
-      <orig>
-       потомъ
-      </orig>
-     </choice>
-     <ref target="#note169">
-      169
-     </ref>
-     <note index="false" xml:id="note169">
-      <span data-class="paragraph" id="8721f800-b456-4a09-8e76-bac3c46e40ab">
-       Маня.
-      </span>
-     </note>
-     Лиза, 8
-     <choice>
-      <reg>
-       лет
-      </reg>
-      <orig>
-       лѣтъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       девочка
-      </reg>
-      <orig>
-       дѣвочка
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       потом
-      </reg>
-      <orig>
-       потомъ
-      </orig>
-     </choice>
-     Ваня и Митя и Анночка,
-     <choice>
-      <reg>
-       последняя
-      </reg>
-      <orig>
-       послѣдняя
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       двух
-      </reg>
-      <orig>
-       двухъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       лет
-      </reg>
-      <orig>
-       лѣтъ
-      </orig>
-     </choice>
-     .
-    </del></p><p id="7f37cac8-20ab-4c48-a575-05ceeb027f1f"><del type="reconstructed">
-     Я
-     <choice>
-      <reg>
-       сел
-      </reg>
-      <orig>
-       сѣлъ
-      </orig>
-     </choice>
-     за нее, а она, по
-     <choice>
-      <reg>
-       просьбе
-      </reg>
-      <orig>
-       просьбѣ
-      </orig>
-     </choice>
-     дяди,
-     <choice>
-      <reg>
-       села
-      </reg>
-      <orig>
-       сѣла
-      </orig>
-     </choice>
-     за
-     <choice>
-      <reg>
-       фортепиано
-      </reg>
-      <orig>
-       фортепіано
-      </orig>
-     </choice>
-     .
-    </del></p><p id="f7559c22-cbc3-4c13-b08d-88be41165878"><del type="reconstructed"><del>
-     —
-     <choice>
-      <reg>
-       Ах
-      </reg>
-      <orig>
-       Ахъ
-      </orig>
-     </choice>
-     да, —
-     <choice>
-      <reg>
-       говорит
-      </reg>
-      <orig>
-       говоритъ
-      </orig>
-     </choice>
-     она, —
-     <choice>
-      <reg>
-       приезжал
-      </reg>
-      <orig>
-       прiѣзжалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Трухачевский
-      </reg>
-      <orig>
-       Трухачевскій
-      </orig>
-     </choice>
-     , я не приняла его.</del>
-    </del></p></div>
+       да, —
+       <choice>
+        <reg>
+         говорит
+        </reg>
+        <orig>
+         говоритъ
+        </orig>
+       </choice>
+       она, —
+       <choice>
+        <reg>
+         приезжал
+        </reg>
+        <orig>
+         прiѣзжалъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Трухачевский
+        </reg>
+        <orig>
+         Трухачевскій
+        </orig>
+       </choice>
+       , я не приняла его.
+      </del>
+     </del>
+    </p>
+   </div>
    <div type="section" xml:id="h000014004020">
-    <head n="level2" type="editorial">
-     * № 20.
-    </head>
+    <p id="e944f073-66cc-4f3b-9389-148e0c4bce41">
+     <head n="level2" type="editorial">
+      * № 20.
+     </head>
+    </p>
     <p id="d05113c5-8e20-4fb9-89b7-7e6713a0b1d5">
-     <del type="reconstructed">Все, что я
-     <choice>
-      <reg>
-       делал
-      </reg>
-      <orig>
-       дѣлалъ
-      </orig>
-     </choice>
-     , я
-     <choice>
-      <reg>
-       делал
-      </reg>
-      <orig>
-       дѣлалъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     большой точностью, не торопливостью и ловкостью,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     это
-     <choice>
-      <reg>
-       делают
-      </reg>
-      <orig>
-       дѣлаютъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       звери
-      </reg>
-      <orig>
-       звѣри
-      </orig>
-     </choice>
-     и люди
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     моменты
-     <choice>
-      <reg>
-       физического
-      </reg>
-      <orig>
-       физическаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       возбуждения
-      </reg>
-      <orig>
-       возбужденія
-      </orig>
-     </choice>
-     .
-    </del></p><p id="97acec39-2cce-4955-beb1-b32d3d737df2"><del>
-     Я послушалъ у двери гостиной. Были слышны голоса, и по звуку этихъ голосовъ ничего нельзя было заключить. Но заключеніе, какое мнѣ нужно было, уже было сдѣлано. Ничто теперь ужъ не могло разувѣрить меня въ ея виновности. Теперь, разбирая мои чувства, я могу опредѣлить ихъ такъ. Я былъ виноватъ въ своемъ животномъ и безчеловѣчномъ отношеніи къ женѣ. Я чувствовалъ эту свою вину въ глубинѣ души, но чтобы не признавать свою вину, мнѣ нужна была ея виновность: отъ этаго этотъ мучительный восторгъ, который я испытывалъ при всякомъ поводѣ, который она мнѣ подавала, обвинять ее. Отъ этаго же желаніе ея вины и ни на чемъ не основанная увѣренность въ ея дѣйствительности. Увѣренность замѣнялась злобой противъ нея и всѣмъ тѣмъ, что возбуждало ее.</del>
-    </p><lb/>
+     <del type="reconstructed">
+      Все, что я
+      <choice>
+       <reg>
+        делал
+       </reg>
+       <orig>
+        дѣлалъ
+       </orig>
+      </choice>
+      , я
+      <choice>
+       <reg>
+        делал
+       </reg>
+       <orig>
+        дѣлалъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      большой точностью, не торопливостью и ловкостью,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      это
+      <choice>
+       <reg>
+        делают
+       </reg>
+       <orig>
+        дѣлаютъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        звери
+       </reg>
+       <orig>
+        звѣри
+       </orig>
+      </choice>
+      и люди
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      моменты
+      <choice>
+       <reg>
+        физического
+       </reg>
+       <orig>
+        физическаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        возбуждения
+       </reg>
+       <orig>
+        возбужденія
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="97acec39-2cce-4955-beb1-b32d3d737df2">
+     <del>
+      Я послушалъ у двери гостиной. Были слышны голоса, и по звуку этихъ голосовъ ничего нельзя было заключить. Но заключеніе, какое мнѣ нужно было, уже было сдѣлано. Ничто теперь ужъ не могло разувѣрить меня въ ея виновности. Теперь, разбирая мои чувства, я могу опредѣлить ихъ такъ. Я былъ виноватъ въ своемъ животномъ и безчеловѣчномъ отношеніи къ женѣ. Я чувствовалъ эту свою вину въ глубинѣ души, но чтобы не признавать свою вину, мнѣ нужна была ея виновность: отъ этаго этотъ мучительный восторгъ, который я испытывалъ при всякомъ поводѣ, который она мнѣ подавала, обвинять ее. Отъ этаго же желаніе ея вины и ни на чемъ не основанная увѣренность въ ея дѣйствительности. Увѣренность замѣнялась злобой противъ нея и всѣмъ тѣмъ, что возбуждало ее.
+     </del>
+    </p>
+    <p id="756b82d6-eec4-44da-9924-f7b356324326">
+     <lb/>
+    </p>
    </div>
   </body>
  </text>

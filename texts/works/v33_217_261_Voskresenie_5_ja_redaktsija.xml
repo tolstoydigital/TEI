@@ -1,146 +1,164 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v33_217_261_Voskresenie_5_ja_redaktsija">
-                    [Воскресение. 5-я редакция]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Воскресение.</title>
-                <title type="sub" resp="volume_editor">5-я редакция</title>
-                <title type="bibl">Толстой Л. Н. [Воскресение. 5-я редакция] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 33. М.: Гос. изд. «Художественная литература», 1935. С. 217–261.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="573d9513-1f42-48bd-9c8d-2de84b091e88">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Воскресение. 5-я редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 33
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">33</biblScope>
-                        <biblScope unit="page">217-261</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1899"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#novel" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v33_217_261_Voskresenie_5_ja_redaktsija">
+     [Воскресение. 5-я редакция]. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Воскресение.
+    </title>
+    <title resp="volume_editor" type="sub">
+     5-я редакция
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Воскресение. 5-я редакция] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 33. М.: Гос. изд. «Художественная литература», 1935. С. 217–261.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="573d9513-1f42-48bd-9c8d-2de84b091e88">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Воскресение. 5-я редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 33
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       33
+      </biblScope>
+      <biblScope unit="page">
+       217-261
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1899"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#novel" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_4">
     <p id="811dbaf7-cd1d-40e7-9bdb-4cd6454440dc">
      <pb n="217"/>
     </p>
-    <h3 id="h9">
-     5-я РЕДАКЦИЯ.
-    </h3>
+    <p id="16660869-9e48-4538-acb7-9e6e32b9eb48">
+     <h3 id="h9">
+      5-я РЕДАКЦИЯ.
+     </h3>
+    </p>
     <div type="section">
-     <h4>
-      * № 93 (кор. № 27).
-     </h4>
+     <p id="dab5221a-5633-4449-a06f-0e5997c94601">
+      <h4>
+       * № 93 (кор. № 27).
+      </h4>
+     </p>
      <p id="c626d5fa-0a9b-4b5e-9b65-e8b7fa4557f3">
       <choice>
        <reg>
@@ -354,9 +372,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 94 (кор. № 27).
-     </h4>
+     <p id="83e7f971-da6b-4c34-ac9c-a569458d1da1">
+      <h4>
+       * № 94 (кор. № 27).
+      </h4>
+     </p>
      <p id="60248b02-2d2c-43ac-8ab2-81d67c669a94">
       Маслова уже много
       <choice>
@@ -1143,12 +1163,16 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 95 (кор. № 27).
-     </h4>
-     <head n="level2" type="chapter">
-      XX.
-     </head>
+     <p id="e085dca7-4a42-437d-94c4-2af1b40fcdcf">
+      <h4>
+       * № 95 (кор. № 27).
+      </h4>
+     </p>
+     <p id="4dd55046-1831-4154-97df-58188778bccb">
+      <head n="level2" type="chapter">
+       XX.
+      </head>
+     </p>
      <p id="809b0bf1-0636-4530-a620-b0545f09de8b">
       —
       <choice>
@@ -3851,9 +3875,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 96 (кор. № 27).
-     </h4>
+     <p id="f22b59cd-089f-46f5-8d12-40bf249d8566">
+      <h4>
+       * № 96 (кор. № 27).
+      </h4>
+     </p>
      <p id="acf6a251-6c91-4cce-9c9c-d5e9af48296a">
       Все то, что
       <choice>
@@ -4181,9 +4207,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 97 (кор. №27).
-     </h4>
+     <p id="3620a409-ed61-4e42-98a4-8c4a8d162dd4">
+      <h4>
+       * № 97 (кор. №27).
+      </h4>
+     </p>
      <p id="363faf78-d8d7-4f8d-9b85-7a4c141ee7ef">
       — Да это еще что — эти за
       <choice original_editorial_correction="[без]письменность">
@@ -4658,9 +4686,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 98 (кор. № 27).
-     </h4>
+     <p id="91e225a5-014f-4a40-bbf5-7e1d55146eb5">
+      <h4>
+       * № 98 (кор. № 27).
+      </h4>
+     </p>
      <p id="d42a4bf5-6089-4724-8131-b360b761b481">
       Вернувшись рано
       <choice>
@@ -5905,9 +5935,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 99 (кор. № 27).
-     </h4>
+     <p id="5f232932-0de2-46bd-a20c-5da15b55296b">
+      <h4>
+       * № 99 (кор. № 27).
+      </h4>
+     </p>
      <p id="f2f9905c-0f74-41ba-a5dd-27a011f72aa0">
       <choice>
        <reg>
@@ -7602,9 +7634,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 100 (кор. № 27).
-     </h4>
+     <p id="9bd3423e-8fcc-4f83-bd89-e8615d7cda4f">
+      <h4>
+       * № 100 (кор. № 27).
+      </h4>
+     </p>
      <p id="81600162-8819-4488-be67-087e4ab22025">
       Смотритель
       <choice>
@@ -9049,9 +9083,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 101 (кор. № 27).
-     </h4>
+     <p id="97f9c4b6-d55e-4993-8949-0cdd65201a6a">
+      <h4>
+       * № 101 (кор. № 27).
+      </h4>
+     </p>
      <p id="5d0451d6-98e6-4e8e-a3ae-d5d41bb3bb5d">
       — А еще я
       <choice>
@@ -9422,9 +9458,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 102 (кор. № 27).
-     </h4>
+     <p id="9a9d4603-2445-4a25-b025-f01e3f9ba987">
+      <h4>
+       * № 102 (кор. № 27).
+      </h4>
+     </p>
      <p id="bd78b7bb-06ab-4881-a495-4612165cb8e6">
       <choice>
        <reg>
@@ -10646,9 +10684,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * №103 (кор. №27).
-     </h4>
+     <p id="e64c473a-224b-4bf4-a57a-faf9ef71a1eb">
+      <h4>
+       * №103 (кор. №27).
+      </h4>
+     </p>
      <p id="ae5be41c-ef3c-4d74-b315-9e3e0d02dab5">
       По
       <choice>
@@ -11047,13 +11087,15 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 104 (кор.
-      <hi rend="italic">
-       №
-      </hi>
-      27).
-     </h4>
+     <p id="5b499e0d-ba67-4685-9f13-d303be051f33">
+      <h4>
+       * № 104 (кор.
+       <hi rend="italic">
+        №
+       </hi>
+       27).
+      </h4>
+     </p>
      <p id="2cceba64-5d61-4751-9ef4-632e1b9953dd">
       Обязанность его
       <choice>
@@ -11318,9 +11360,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 105 (кор. № 27).
-     </h4>
+     <p id="3b416bef-f8b0-4eb9-81bf-6971a705361b">
+      <h4>
+       * № 105 (кор. № 27).
+      </h4>
+     </p>
      <p id="b8f9dfb8-f197-408c-85b0-5f128275eb77">
       <choice>
        <reg>
@@ -12231,12 +12275,16 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 106 (кор. № 21).
-     </h4>
-     <head n="level2" type="chapter">
-      LXXXII.
-     </head>
+     <p id="920d2757-bcde-4316-9859-8e7590da1348">
+      <h4>
+       ** № 106 (кор. № 21).
+      </h4>
+     </p>
+     <p id="1e43af59-8a56-403b-8ab5-c050aaa3158d">
+      <head n="level2" type="chapter">
+       LXXXII.
+      </head>
+     </p>
      <p id="f87c0148-d2bf-4807-a2a1-839986c3ea15">
       Первое чувство Нехлюдова, когда
       <choice>
@@ -15827,9 +15875,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 107 (кор. № 27).
-     </h4>
+     <p id="8b3c79ea-3a11-4c02-af6b-ff44c908ba9c">
+      <h4>
+       ** № 107 (кор. № 27).
+      </h4>
+     </p>
      <p id="dbdc7b8b-ccc5-483b-b938-318c41f8e492">
       <choice>
        <reg>
@@ -19378,15 +19428,19 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      <hi rend="italic">
-       **
-      </hi>
-      № 108 (кор. № 27).
-     </h4>
-     <head n="level2" type="chapter">
-      XCIII.
-     </head>
+     <p id="af5b20fb-3d32-4514-9013-8e1a31eec817">
+      <h4>
+       <hi rend="italic">
+        **
+       </hi>
+       № 108 (кор. № 27).
+      </h4>
+     </p>
+     <p id="c6f5325a-434b-4099-a39e-3073553d551d">
+      <head n="level2" type="chapter">
+       XCIII.
+      </head>
+     </p>
      <p id="ccd6dfa2-3d28-47ff-873e-a2220deca7d2">
       Прошло четыре
       <choice>
@@ -26619,9 +26673,11 @@
       </choice>
       .
      </p>
-     <head n="level2" type="chapter">
-      XCV.
-     </head>
+     <p id="4d319a63-ee68-4d27-b0c3-a4e52f04a9b6">
+      <head n="level2" type="chapter">
+       XCV.
+      </head>
+     </p>
      <p id="f2eaa908-256d-42c1-a562-388007274b5e">
       Но и
       <choice>
@@ -27948,9 +28004,13 @@
       <pb n="241"/>
      </p>
      <div type="image" xml:id="i3">
-      <img alt="Автотипия страницы рукописи (автографа) третьей редакции «Воскресения»" class="image" src="./img/i000022800000.png"/>
+      <p id="67d7a43c-d13a-4c96-a0ac-ed232a6a28bf">
+       <img alt="Автотипия страницы рукописи (автографа) третьей редакции «Воскресения»" class="image" src="./img/i000022800000.png"/>
+      </p>
      </div>
-     <lb/>
+     <p id="7f42d3d9-8cee-4a76-993f-e84d1a65675d">
+      <lb/>
+     </p>
      <p id="ff646855-e326-4702-a340-74db38b5fe75">
       юношу Семенова.
       <ref target="#note396">
@@ -30279,9 +30339,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 109 (кор. № 27).
-     </h4>
+     <p id="6d22555f-a771-4cfa-b2a8-4a6ee26fdc93">
+      <h4>
+       ** № 109 (кор. № 27).
+      </h4>
+     </p>
      <p id="6837acc7-8173-4e68-9b7f-1253ffb4570f">
       Странно сказать, самые тяжело наказанные
       <choice>
@@ -31934,12 +31996,16 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 110 (кор. № 27).
-     </h4>
-     <head n="level2" type="chapter">
-      ХСVІІІ.
-     </head>
+     <p id="89768a46-9e3d-408b-a130-d8d3c1867af5">
+      <h4>
+       * № 110 (кор. № 27).
+      </h4>
+     </p>
+     <p id="ef2bd03d-1842-4647-93bf-d64563097b0d">
+      <head n="level2" type="chapter">
+       ХСVІІІ.
+      </head>
+     </p>
      <p id="f0df83e7-b5f5-4102-81b4-c6e46cf20616">
       Было 5
       <choice>
@@ -36022,9 +36088,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 111 (кор. № 27).
-     </h4>
+     <p id="b58bab8e-5347-42f6-a88a-5012136645ec">
+      <h4>
+       * № 111 (кор. № 27).
+      </h4>
+     </p>
      <p id="5fd0b021-3145-485d-a265-90fd20a3fe0a">
       <choice>
        <reg>
@@ -37310,9 +37378,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 112 (кор. № 27).
-     </h4>
+     <p id="d0e2e043-d4c5-4df1-8382-01a24a7ec772">
+      <h4>
+       ** № 112 (кор. № 27).
+      </h4>
+     </p>
      <p id="dd1621c7-387b-48b4-a6ca-365f1085e192">
       — Ну
       <choice>
@@ -39248,7 +39318,9 @@
        </orig>
       </choice>
       2
-      <num type="fraction" value="1/2">1/2</num>
+      <num type="fraction" value="1/2">
+       1/2
+      </num>
       <choice>
        <reg>
         месяца
@@ -39264,35 +39336,39 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 113 (кор. № 27)
-     </h4>
-     <head n="level2" type="chapter">
-      <choice original_editorial_correction="Слѣд[ующая]">
-       <sic>
-        Слѣд
-       </sic>
-       <corr>
-        <choice>
-         <reg>
-          Следующая
-         </reg>
-         <orig>
-          Слѣдующая
-         </orig>
-        </choice>
-       </corr>
-      </choice>
-      <choice original_editorial_correction="гл[ава]">
-       <sic>
-        гл
-       </sic>
-       <corr>
-        глава
-       </corr>
-      </choice>
-      .
-     </head>
+     <p id="c0322762-ae11-4637-99f2-8f4d06d404ac">
+      <h4>
+       ** № 113 (кор. № 27)
+      </h4>
+     </p>
+     <p id="a7d354d8-7e7c-450b-97dc-a3a8599d779f">
+      <head n="level2" type="chapter">
+       <choice original_editorial_correction="Слѣд[ующая]">
+        <sic>
+         Слѣд
+        </sic>
+        <corr>
+         <choice>
+          <reg>
+           Следующая
+          </reg>
+          <orig>
+           Слѣдующая
+          </orig>
+         </choice>
+        </corr>
+       </choice>
+       <choice original_editorial_correction="гл[ава]">
+        <sic>
+         гл
+        </sic>
+        <corr>
+         глава
+        </corr>
+       </choice>
+       .
+      </head>
+     </p>
      <p id="dd69ee8c-f493-439b-9dc6-3c9873225d55">
       Начался
       <choice>
@@ -42996,9 +43072,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 114 (кор. № 27).
-     </h4>
+     <p id="c15d045e-07f3-4b1e-bbc4-08e78f72e872">
+      <h4>
+       * № 114 (кор. № 27).
+      </h4>
+     </p>
      <p id="97abefea-bdf5-4b0c-84f4-074723dac550">
       <choice>
        <reg>
@@ -43602,9 +43680,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 115 (кор. № 27).
-     </h4>
+     <p id="9366fe41-4133-4315-99b4-3116fbf032f7">
+      <h4>
+       ** № 115 (кор. № 27).
+      </h4>
+     </p>
      <p id="b72a6242-d08b-43fb-97fb-81d2fd5a17b6">
       <choice>
        <reg>
@@ -48557,93 +48637,95 @@
      </p>
      <p id="49980074-3fbb-4c22-a646-c346718196b9">
       <del type="reconstructed">
-      <choice>
-       <reg>
-        Нехлюдов
-       </reg>
-       <orig>
-        Нехлюдовъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        видел
-       </reg>
-       <orig>
-        видѣлъ
-       </orig>
-      </choice>
-      , что
-      <choice>
-       <reg>
-        человек
-       </reg>
-       <orig>
-        человѣкъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        этот
-       </reg>
-       <orig>
-        этотъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        был
-       </reg>
-       <orig>
-        былъ
-       </orig>
-      </choice>
-      на
-      <choice>
-       <reg>
-        пороге
-       </reg>
-       <orig>
-        порогѣ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        раскаяния
-       </reg>
-       <orig>
-        раскаянія
-       </orig>
-      </choice>
-      , но
-      <choice>
-       <reg>
-        суд
-       </reg>
-       <orig>
-        судъ
-       </orig>
-      </choice>
-      , арестантство, каторга
-      <choice>
-       <reg>
-        помешали
-       </reg>
-       <orig>
-        помѣшали
-       </orig>
-      </choice>
-      —
-      <choice>
-       <reg>
-        расстроили
-       </reg>
-       <orig>
-        разстроили
-       </orig>
-      </choice>
-      его.
-     </del></p><p id="43db5622-1309-4608-ba00-dc3eb8b1e146">
+       <choice>
+        <reg>
+         Нехлюдов
+        </reg>
+        <orig>
+         Нехлюдовъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         видел
+        </reg>
+        <orig>
+         видѣлъ
+        </orig>
+       </choice>
+       , что
+       <choice>
+        <reg>
+         человек
+        </reg>
+        <orig>
+         человѣкъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         этот
+        </reg>
+        <orig>
+         этотъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       на
+       <choice>
+        <reg>
+         пороге
+        </reg>
+        <orig>
+         порогѣ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         раскаяния
+        </reg>
+        <orig>
+         раскаянія
+        </orig>
+       </choice>
+       , но
+       <choice>
+        <reg>
+         суд
+        </reg>
+        <orig>
+         судъ
+        </orig>
+       </choice>
+       , арестантство, каторга
+       <choice>
+        <reg>
+         помешали
+        </reg>
+        <orig>
+         помѣшали
+        </orig>
+       </choice>
+       —
+       <choice>
+        <reg>
+         расстроили
+        </reg>
+        <orig>
+         разстроили
+        </orig>
+       </choice>
+       его.
+      </del>
+     </p>
+     <p id="43db5622-1309-4608-ba00-dc3eb8b1e146">
       <choice>
        <reg>
         В
@@ -48747,42 +48829,44 @@
       </choice>
       и все больше и больше ожесточался.
      </p>
-     <p id="234b35b2-b2fd-4d15-a378-82b83377178f"><del>
-      Теперь
-      <choice>
-       <reg>
-        Федоров
-       </reg>
-       <orig>
-        Ѳедоровъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        был
-       </reg>
-       <orig>
-        былъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        совсем
-       </reg>
-       <orig>
-        совсѣмъ
-       </orig>
-      </choice>
-      другой
-      <choice>
-       <reg>
-        человек
-       </reg>
-       <orig>
-        человѣкъ
-       </orig>
-      </choice>
-      .</del>
+     <p id="234b35b2-b2fd-4d15-a378-82b83377178f">
+      <del>
+       Теперь
+       <choice>
+        <reg>
+         Федоров
+        </reg>
+        <orig>
+         Ѳедоровъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         был
+        </reg>
+        <orig>
+         былъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         совсем
+        </reg>
+        <orig>
+         совсѣмъ
+        </orig>
+       </choice>
+       другой
+       <choice>
+        <reg>
+         человек
+        </reg>
+        <orig>
+         человѣкъ
+        </orig>
+       </choice>
+       .
+      </del>
       <ref target="#note423">
        423
       </ref>
@@ -48802,22 +48886,27 @@
         .
        </span>
       </note>
-     </p></div>
+     </p>
+    </div>
     <div type="section">
-     <h4>
-      * № 116 (кор. № 27).
-     </h4>
-     <head n="level2" type="chapter">
-      <choice>
-       <reg>
-        Следующая
-       </reg>
-       <orig>
-        Слѣдующая
-       </orig>
-      </choice>
-      глава.
-     </head>
+     <p id="8326a1fa-c066-45c5-be8a-d099028d327f">
+      <h4>
+       * № 116 (кор. № 27).
+      </h4>
+     </p>
+     <p id="0cfe7169-7b2c-4926-b985-f695e969de8e">
+      <head n="level2" type="chapter">
+       <choice>
+        <reg>
+         Следующая
+        </reg>
+        <orig>
+         Слѣдующая
+        </orig>
+       </choice>
+       глава.
+      </head>
+     </p>
      <p id="61f943b9-b812-4060-ba86-36d361cc0215">
       <choice>
        <reg>
@@ -50639,9 +50728,11 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      * № 117 (кор. № 27).
-     </h4>
+     <p id="ec853440-69d0-4ad2-a3c2-7e82ecabb409">
+      <h4>
+       * № 117 (кор. № 27).
+      </h4>
+     </p>
      <p id="f4ee1f61-a676-4ebb-bfd1-9c6e1a159fd5">
       <choice>
        <reg>
@@ -51788,20 +51879,24 @@
      </p>
     </div>
     <div type="section">
-     <h4>
-      ** № 118 (кор. № 27).
-     </h4>
-     <head n="level2" type="chapter">
-      <choice>
-       <reg>
-        Эпилог
-       </reg>
-       <orig>
-        Эпилогъ
-       </orig>
-      </choice>
-      .
-     </head>
+     <p id="c98f2e2c-852c-4f3d-aad3-dc11ce71e73e">
+      <h4>
+       ** № 118 (кор. № 27).
+      </h4>
+     </p>
+     <p id="489fd988-874a-46e1-8189-e38163ecb3b4">
+      <head n="level2" type="chapter">
+       <choice>
+        <reg>
+         Эпилог
+        </reg>
+        <orig>
+         Эпилогъ
+        </orig>
+       </choice>
+       .
+      </head>
+     </p>
      <p id="051fdf9d-31b4-45d5-baeb-a80834c95b4c">
       <choice>
        <reg>
@@ -53480,9 +53575,13 @@
       <pb n="261"/>
      </p>
      <div type="image" xml:id="i4">
-      <img alt="Автотипия одной из ранних корректур печатавшегося в «Ниве» текста «Воскресения»" class="image" src="./img/i000024560000.png"/>
+      <p id="1343c179-c4fc-49fc-9de4-b9a1f9df84b1">
+       <img alt="Автотипия одной из ранних корректур печатавшегося в «Ниве» текста «Воскресения»" class="image" src="./img/i000024560000.png"/>
+      </p>
      </div>
-     <lb/>
+     <p id="b3f88a8d-d4eb-4e36-92f5-00cd3f0381d2">
+      <lb/>
+     </p>
      <p id="aed3a932-fd0b-453a-bf21-d4a859207092">
       столько
       <choice>
@@ -53785,7 +53884,9 @@
       </choice>
       Маслову.
      </p>
-    <metamark function="line"/>
+     <p id="be15e795-93f5-49b2-86ad-aede914f406c">
+      <metamark function="line"/>
+     </p>
      <p id="a88976a6-67d4-488f-a590-5657b6ea50e8">
       Катюша вышла
       <choice>

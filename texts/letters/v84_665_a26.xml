@@ -1,129 +1,163 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v84_665_a26">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо С.А.Толстой от 26 октября 1896 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо С. А. Толстой, 26 октября 1896 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 84. М.: Гос. изд. «Художественная литература», 1949. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="53dec99d-24ec-4196-9e8f-6f97a0c59d93">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 84</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1949"/>
-                        </imprint>
-                        <biblScope unit="vol">84</biblScope>
-                        <biblScope unit="page">266-268</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl/>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Ясная Поляна</placeName>
-                    <date when="1896-10-26"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="13844">Толстая Софья Андреевна, рожд. Берс</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">665</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="a26_665">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v84_665_a26">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо С.А.Толстой от 26 октября 1896 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо С. А. Толстой, 26 октября 1896 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 84. М.: Гос. изд. «Художественная литература», 1949. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="53dec99d-24ec-4196-9e8f-6f97a0c59d93">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 84
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1949"/>
+      </imprint>
+      <biblScope unit="vol">
+       84
+      </biblScope>
+      <biblScope unit="page">
+       266-268
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl/>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Ясная Поляна
+     </placeName>
+     <date when="1896-10-26"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="13844">
+      Толстая Софья Андреевна, рожд. Берс
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   665
+  </number>
+ </xenoData>
+ <text xml:id="a26_665" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
-    <pb n="266"/>
-    <opener index="false">
-     665.1896 г. Октября 26. Я. П.
-    </opener>
+    <p id="8a0ef8bc-9a45-47e1-8cdd-510b97afb3c4">
+     <pb n="266"/>
+    </p>
+    <p id="55138958-eb05-47a0-954c-0f8690dd6cc2">
+     <opener index="false">
+      665.1896 г. Октября 26. Я. П.
+     </opener>
+    </p>
     <p id="dbc9e8a4-77f0-446a-866a-14470b63b5b3">
      От тебя еще не было ни одного письма, милый друг Соня, а я пишу уже третье. Я знаю, что ты не виновата, но мне приятно самому себе похвастаться своим чувством к тебе. Не переставая думаю о тебе, и так хочется влить в тебя спокойствие и уверенность, которые сам чувствую в жизни и
      <choice original_editorial_correction="кот[орых]">
@@ -213,7 +247,9 @@
     <p id="4497e878-f1ec-4044-a3be-b062314d0649" rend="right">
      Л. Т.
     </p>
-    <lb/>
+    <p id="02c9b262-830a-4ad8-a21d-1d7835818938">
+     <lb/>
+    </p>
     <p id="94726959-c133-4c2f-a420-7ef7205724f5">
      Раздумал посылать письмо
      <choice original_editorial_correction="Андр[юше]">
@@ -243,7 +279,9 @@
       Письмо это опубликовано в юбилейном сборнике «Лев Николаевич Толстой», Гиз, 1928, стр. 67—69.
      </note>
     </p>
-    <lb/>
+    <p id="22249c19-9c2d-41dc-ac6d-3092181a150c">
+     <lb/>
+    </p>
     <p id="af2897f0-6b36-43a4-8a40-e33961cb66ce">
      <hi>
       На конверте:

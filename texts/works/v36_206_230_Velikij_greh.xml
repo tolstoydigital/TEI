@@ -1,141 +1,155 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v36_206_230_Velikij_greh">
-                    Великий грех. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Великий грех</title>
-                <title type="bibl">Толстой Л. Н. Великий грех // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 36. М.: Гос. изд. «Художественная литература», 1936. С. 206–230.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="171e37e2-595d-4dd3-b311-61005c415060">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Великий грех
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 36
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">36</biblScope>
-                        <biblScope unit="page">206-230</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1905"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#statja" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#philosophy_religion" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v36_206_230_Velikij_greh">
+     Великий грех. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Великий грех
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Великий грех // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 36. М.: Гос. изд. «Художественная литература», 1936. С. 206–230.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="171e37e2-595d-4dd3-b311-61005c415060">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Великий грех
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 36
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       36
+      </biblScope>
+      <biblScope unit="page">
+       206-230
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1905"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#statja" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#philosophy_religion" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000014006">
     <p id="1976a2d2-0648-4c87-87a5-57a3710f44e3">
      <pb n="206"/>
     </p>
-    <head n="level1">
-     ВЕЛИКИЙ ГРЕХ.
-    </head>
+    <p id="e70c5b90-6bbb-4f66-89d3-8f4a311e25a1">
+     <head n="level1">
+      ВЕЛИКИЙ ГРЕХ.
+     </head>
+    </p>
     <div>
      <p id="5086d1fe-970c-4756-b446-25d8109819e6">
       Россия переживает важное, долженствующее иметь громадные последствия время.
@@ -156,9 +170,11 @@
     </div>
    </div>
    <div type="section" xml:id="h000014006002">
-    <head n="level2" type="chapter">
-     I.
-    </head>
+    <p id="8e3631a5-7a91-462c-820c-10868df43444">
+     <head n="level2" type="chapter">
+      I.
+     </head>
+    </p>
     <p id="6bf3b973-75d4-4fc9-b88f-d00fa9c9fefd">
      Иду в вербную субботу по большой дороге в Тулу. Народ обозами едет на базар, с телегами, курами, лошадьми, коровами (некоторых коров везли на телегах — так они худы). Сморщенная старушка ведет худую, облезшую корову. Я знаю старуху и спрашиваю, зачем ведет корову.
     </p>
@@ -306,9 +322,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014006003">
-    <head n="level2" type="chapter">
-     II.
-    </head>
+    <p id="b5a129c6-a9b0-4959-90ab-e67a7e36c153">
+     <head n="level2" type="chapter">
+      II.
+     </head>
+    </p>
     <p id="b5401ded-5964-41d0-ab69-06320ffb1414">
      «Что такое человек? — говорит
      <name placement="text" ref="4371" type="person">
@@ -388,9 +406,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014006004">
-    <head n="level2" type="chapter">
-     III.
-    </head>
+    <p id="291044c5-34da-4819-b315-ecba2d3e83e0">
+     <head n="level2" type="chapter">
+      III.
+     </head>
+    </p>
     <p id="a5e8088f-50bf-4ce6-ade0-41ed2d0e96a0">
      Было людоедство, были человеческие жертвы, была религиозная проституция, были убийства слабых детей и девочек, была кровавая месть, были убиения целых населений, судебные пытки, четвертования, сжигания на кострах, кнут, были на нашей памяти исчезнувшие
      <ref id="shpicruten" target="slovar">
@@ -462,9 +482,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014006005">
-    <head n="level2" type="chapter">
-     IV.
-    </head>
+    <p id="5e707b8f-33a5-4b61-a4a8-6ba360694ac5">
+     <head n="level2" type="chapter">
+      IV.
+     </head>
+    </p>
     <p id="c66266e6-abfb-43ae-917f-3b4e0bb10252">
      С учением
      <name placement="text" ref="4371" type="person">
@@ -517,9 +539,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014006006">
-    <head n="level2" type="chapter">
-     V.
-    </head>
+    <p id="e482554f-75ed-459e-9c49-a932c2602e8d">
+     <head n="level2" type="chapter">
+      V.
+     </head>
+    </p>
     <p id="375c1964-7c2e-42ea-b573-7273813666d5">
      Люди загнали в загородку стадо коров, молочными произведениями которых они кормятся. Коровы подъели и сбили корм в загородке, голодают, пережевали себе хвосты, мычат и ревут, просясь из-за загородки на пастбище. Но люди, питающиеся молоком коров, устроили вокруг ограды мятные, красильные, табачные плантации, развели цветы, устроили скаковой круг, парк, лаун-теннис и не выпускают коров, чтобы они не испортили их устройство. Но коровы ревут, худеют, и люди начинают бояться, чтобы коровы не перестали доиться, я придумывают различные средства улучшения коровьего положения. Они придумывают навесы над коровами, вводят обтирание коров мокрыми щетками, золотят им рога, изменяют часы доения, заботятся о призоре и лечении больных и старых коров, придумывают новые усовершенствованные приемы
      <pb n="220"/>
@@ -564,9 +588,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014006007">
-    <head n="level2" type="chapter">
-     VI.
-    </head>
+    <p id="6981a14d-a68a-4b93-899e-62f5776f04df">
+     <head n="level2" type="chapter">
+      VI.
+     </head>
+    </p>
     <p id="b7117f20-cc33-4a7a-94d3-b294bacf9a92">
      «Горе вам, книжники и фарисеи, лицемеры, что уподобляетесь окрашенным гробам, которые снаружи кажутся красивыми, а внутри полны костей мертвых и всякой нечистоты.
     </p>
@@ -601,9 +627,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014006008">
-    <head n="level2" type="chapter">
-     VII.
-    </head>
+    <p id="eb7dfae4-41fd-41c8-8724-f6a4c7251232">
+     <head n="level2" type="chapter">
+      VII.
+     </head>
+    </p>
     <p id="33c5de23-4625-4107-8a32-e8469273ee61">
      Из всех необходимых изменений форм общественной жизни е
      <hi rend="italic">
@@ -644,9 +672,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014006009">
-    <head n="level2" type="chapter">
-     VIII.
-    </head>
+    <p id="29f74b09-def9-49e5-9255-10dc608bf79f">
+     <head n="level2" type="chapter">
+      VIII.
+     </head>
+    </p>
     <p id="b40be399-e9a7-488b-8186-a463d94a0cee">
      «Великие общественные преобразования, — говорит
      <name placement="text" ref="8249" type="person">
@@ -670,9 +700,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014006010">
-    <head n="level2" type="chapter">
-     IX.
-    </head>
+    <p id="deffe0a1-eacf-40a8-8209-7e4c5d437e5f">
+     <head n="level2" type="chapter">
+      IX.
+     </head>
+    </p>
     <p id="8c509515-378e-4507-a0de-9354fbf0725d">
      «Общественная реформа — писал
      <name placement="text" ref="4371" type="person">
@@ -760,7 +792,9 @@
     <p id="69f1ecc5-65ae-45cd-a235-3189023a616b">
      Хочется мне думать, что мы, русские паразиты, вскормленные и получившие досуг для умственной работы трудами народа, поймем наш грех и независимо от своей личной выгоды, во имя правды, которая осуждает нас, постараемся развязать его.
     </p>
-    <metamark function="line"/>
+    <p id="ff9447cd-9331-4640-bb67-0d3108cbb586">
+     <metamark function="line"/>
+    </p>
    </div>
   </body>
  </text>

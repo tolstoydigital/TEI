@@ -1,147 +1,165 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v03_218_240_Nabeg_Varianty_iz_rukopisnyh_redaktsij">
-                    [Варианты из рукописных редакций «Набега»]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Набег. Рассказ волонтера.</title>
-                <title type="sub" resp="volume_editor">Варианты из рукописных редакций</title>
-                <title type="bibl">Толстой Л. Н. [Варианты из рукописных редакций «Набега»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 3. М.: Гос. изд. «Художественная литература», 1935. С. 218–240.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="b8247748-46ba-4e1e-889b-85b6e79663ac">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты из рукописных редакций «Набега»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 3
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">3</biblScope>
-                        <biblScope unit="page">218-240</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1852"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v03_218_240_Nabeg_Varianty_iz_rukopisnyh_redaktsij">
+     [Варианты из рукописных редакций «Набега»]. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Набег. Рассказ волонтера.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты из рукописных редакций
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Варианты из рукописных редакций «Набега»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 3. М.: Гос. изд. «Художественная литература», 1935. С. 218–240.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="b8247748-46ba-4e1e-889b-85b6e79663ac">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты из рукописных редакций «Набега»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 3
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       3
+      </biblScope>
+      <biblScope unit="page">
+       218-240
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1852"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012002">
     <p id="b37e15c3-0d68-4e2a-acce-43c477f9e051">
      <pb n="218"/>
     </p>
-    <head n="level1" type="editorial">
-     ВАРИАНТЫ ИЗ РУКОПИСНЫХ РЕДАКЦИЙ «НАБЕГА».
-    </head>
+    <p id="6faabe0a-7fff-406c-8ea8-445295d93dad">
+     <head n="level1" type="editorial">
+      ВАРИАНТЫ ИЗ РУКОПИСНЫХ РЕДАКЦИЙ «НАБЕГА».
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000012002001">
-    <head>
-     * № 1 (І ред.).
-    </head>
+    <p id="96075bf4-ed01-4704-91e6-3895290b1d04">
+     <head>
+      * № 1 (І ред.).
+     </head>
+    </p>
     <p id="623fe98a-6616-401f-8f56-65bdde9989de">
      «Очень
      <choice>
@@ -1710,9 +1728,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002002">
-    <head>
-     * № 2 (I ред.).
-    </head>
+    <p id="3bf781ab-9430-41ba-95e0-dd836659e070">
+     <head>
+      * № 2 (I ред.).
+     </head>
+    </p>
     <p id="4f6cee2d-89b0-4c12-9d1c-a2f78e615743">
      <choice>
       <reg>
@@ -2091,9 +2111,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002003">
-    <head>
-     * № 3 (I ред.).
-    </head>
+    <p id="7e8a8a3e-682d-4a59-acb2-c2f8b481f863">
+     <head>
+      * № 3 (I ред.).
+     </head>
+    </p>
     <p id="e2a0d8f3-53ce-48e3-a355-43443956c9bd">
      <choice>
       <reg>
@@ -2417,9 +2439,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002004">
-    <head>
-     * № 4 (I ред.).
-    </head>
+    <p id="71103144-bc18-482d-93d8-6b01d3774d5a">
+     <head>
+      * № 4 (I ред.).
+     </head>
+    </p>
     <p id="4ffd47ad-a70f-4623-bb20-9408d1d85fcc">
      <choice>
       <reg>
@@ -3186,9 +3210,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002005">
-    <head>
-     * № 5 (I ред.).
-    </head>
+    <p id="016ce6ff-03e3-4d29-9406-63ebebba0f13">
+     <head>
+      * № 5 (I ред.).
+     </head>
+    </p>
     <p id="fbc84595-6d74-409e-add5-43879a7338b5">
      <choice>
       <reg>
@@ -10690,45 +10716,57 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002006">
-    <head>
-     * № 6 (II ред.).
-    </head>
-    <head n="level1" type="draft">
-     <hi rend="Razradka">
-      <choice>
-       <reg>
-        Рассказ
-       </reg>
-       <orig>
-        Разсказъ
-       </orig>
-      </choice>
-      волонтера
-     </hi>
-     .
-    </head>
+    <p id="5b32dec0-6e29-4d53-97bf-8d1eef976a95">
+     <head>
+      * № 6 (II ред.).
+     </head>
+    </p>
+    <p id="4beebf95-ad57-4604-a87a-b8f622b687e0">
+     <head n="level1" type="draft">
+      <hi rend="Razradka">
+       <choice>
+        <reg>
+         Рассказ
+        </reg>
+        <orig>
+         Разсказъ
+        </orig>
+       </choice>
+       волонтера
+      </hi>
+      .
+     </head>
+    </p>
     <epigraph>
      <cit>
       <quote>
        <p id="c8df9fb9-afbf-4687-a942-91de99eb73e4">
-        <del type="reconstructed">Храбрость есть наука того, чего
-       </del></p><p id="8ecfbeb4-8862-40f9-8e66-002d0dee1fb6">
+        <del type="reconstructed">
+         Храбрость есть наука того, чего
+        </del>
+       </p>
+       <p id="8ecfbeb4-8862-40f9-8e66-002d0dee1fb6">
         нужно и чего не нужно бояться. —
        </p>
-       <p id="dcdc4bf2-2b54-4e98-a790-ba8490b376ed"><del>
-        <choice>
-         <reg>
-          Платон
-         </reg>
-         <orig>
-          Платонъ
-         </orig>
-        </choice>
-        .</del>
-       </p></quote>
+       <p id="dcdc4bf2-2b54-4e98-a790-ba8490b376ed">
+        <del>
+         <choice>
+          <reg>
+           Платон
+          </reg>
+          <orig>
+           Платонъ
+          </orig>
+         </choice>
+         .
+        </del>
+       </p>
+      </quote>
      </cit>
     </epigraph>
-    <lb/>
+    <p id="e43d82f9-0e8b-42eb-8e40-361894604744">
+     <lb/>
+    </p>
     <p id="922c541e-0934-4c0f-afaf-5085f9d0d4d0">
      «Я
      <choice>
@@ -13243,9 +13281,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002007">
-    <head>
-     * № 7 (III ред.).
-    </head>
+    <p id="8cab27d5-baf5-45bb-b0f1-6b29c7092e0f">
+     <head>
+      * № 7 (III ред.).
+     </head>
+    </p>
     <p id="93db376e-b217-4428-b24d-5ab988523e62">
      <choice>
       <reg>
@@ -15903,9 +15943,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002008">
-    <head>
-     *№ 8 (III ред.).
-    </head>
+    <p id="d54b23cf-70a6-45fd-a8ef-3d738224a461">
+     <head>
+      *№ 8 (III ред.).
+     </head>
+    </p>
     <p id="ee6d6247-7f5d-460f-8727-236e4ffb09f6">
      «
      <choice>
@@ -17186,9 +17228,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002009">
-    <head>
-     ** 9 (III ред.).
-    </head>
+    <p id="aa776f61-016f-4828-a461-949dcce47045">
+     <head>
+      ** 9 (III ред.).
+     </head>
+    </p>
     <p id="b9bc6f22-fd51-4f23-ab51-145d35df08a8">
      <choice>
       <reg>
@@ -17425,9 +17469,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002010">
-    <head>
-     * № 10 (III ред.).
-    </head>
+    <p id="61ef7d70-3093-418a-9e36-93f29437d39e">
+     <head>
+      * № 10 (III ред.).
+     </head>
+    </p>
     <p id="9bc9c130-a3d2-4949-a1de-8384876497b0">
      Мы молча
      <choice>
@@ -17639,9 +17685,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002011">
-    <head>
-     * № 11 (III ред.).
-    </head>
+    <p id="cf4bcda5-8cc1-4535-a650-53b715385127">
+     <head>
+      * № 11 (III ред.).
+     </head>
+    </p>
     <p id="aa11d0d4-7a54-4696-ad6d-1fb01742d580">
      «И куда
      <choice>
@@ -18150,9 +18198,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002012">
-    <head>
-     * № 12 (III ред.).
-    </head>
+    <p id="c2145d12-8e00-4c21-970a-4c7a2be6d7fd">
+     <head>
+      * № 12 (III ред.).
+     </head>
+    </p>
     <p id="7af7407e-4ec4-44e6-aefd-40d6051be5c1">
      <del>
       Батальонный
@@ -18367,9 +18417,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002013">
-    <head>
-     * № 13 (III ред.).
-    </head>
+    <p id="aab90e17-7e51-4853-9aaf-8952132f2740">
+     <head>
+      * № 13 (III ред.).
+     </head>
+    </p>
     <p id="7fd96c3b-9118-4e0f-a354-912035a71c12">
      <choice>
       <reg>
@@ -19121,9 +19173,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002014">
-    <head>
-     * № 14 (III ред.).
-    </head>
+    <p id="7635a247-233a-4c7a-b760-5e9485ed1985">
+     <head>
+      * № 14 (III ред.).
+     </head>
+    </p>
     <p id="74a9f37f-4cf7-4cef-ae8b-cd18f4e3f37e">
      <choice>
       <reg>
@@ -20917,9 +20971,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002015">
-    <head>
-     ** № 15 (III ред.).
-    </head>
+    <p id="d3d2e878-18f4-4c68-ba4d-77ad1df64b20">
+     <head>
+      ** № 15 (III ред.).
+     </head>
+    </p>
     <p id="07ace86a-ac0b-4a84-a43a-eebded67f368">
      Карета застучала дальше, а
      <choice>
@@ -21551,9 +21607,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002016">
-    <head>
-     ** № 16 (III ред.).
-    </head>
+    <p id="77cae44f-f0f1-4b59-a621-18b922ae175c">
+     <head>
+      ** № 16 (III ред.).
+     </head>
+    </p>
     <p id="872b4906-3eda-43c8-8421-a31670029c75">
      Я люблю ночь. Никакое самолюбивое
      <choice>
@@ -23143,9 +23201,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002017">
-    <head>
-     * № 17 (III ред.).
-    </head>
+    <p id="219732d6-2d76-4b3c-b6fc-c0f03378ddb4">
+     <head>
+      * № 17 (III ред.).
+     </head>
+    </p>
     <p id="dadfd3fe-ee5d-4646-bcbf-4c0f0b902b1e">
      «Скажите пожалуйста, что это за огоньки?»
      <choice>
@@ -24509,9 +24569,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002018">
-    <head>
-     ** № 18 (III ред.).
-    </head>
+    <p id="06944779-8e06-4c20-9a8d-9e0d3e43d97f">
+     <head>
+      ** № 18 (III ред.).
+     </head>
+    </p>
     <p id="610b0418-e123-48b7-b927-acbb37c899f1">
      <choice>
       <reg>
@@ -24767,9 +24829,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002019">
-    <head>
-     ** № 19 (III ред.).
-    </head>
+    <p id="a10a70f9-685d-4872-8333-31018ac54e65">
+     <head>
+      ** № 19 (III ред.).
+     </head>
+    </p>
     <p id="b6583099-6a37-4fee-b9d8-10289dacf891">
      «Ну
      <choice>
@@ -24939,9 +25003,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002020">
-    <head>
-     ** № 20 (III ред.).
-    </head>
+    <p id="19b6f17d-49b0-4ab4-b372-db377c423b94">
+     <head>
+      ** № 20 (III ред.).
+     </head>
+    </p>
     <p id="5170080f-0217-4bf5-baf0-75d2b015dbed">
      <choice>
       <reg>
@@ -25085,9 +25151,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002021">
-    <head>
-     ** № 21 (III ред.).
-    </head>
+    <p id="39533689-53f7-44e8-839d-82bdf2c30f75">
+     <head>
+      ** № 21 (III ред.).
+     </head>
+    </p>
     <p id="7cce5319-7bae-4cac-88c5-c41649293ef4">
      <choice>
       <reg>
@@ -25761,9 +25829,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002022">
-    <head>
-     ** № 22 (III ред.).
-    </head>
+    <p id="41ec42c6-5e67-4cb6-8897-b1aba0bed0b0">
+     <head>
+      ** № 22 (III ред.).
+     </head>
+    </p>
     <p id="28889d7b-fd5a-4c45-858c-3ee29df85742">
      Солнце бросало багровые лучи на
      <choice>
@@ -26306,9 +26376,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002023">
-    <head n="level2" type="editorial">
-     * № 23.
-    </head>
+    <p id="0fc6d829-60da-48ac-8f5b-4042fe9508eb">
+     <head n="level2" type="editorial">
+      * № 23.
+     </head>
+    </p>
     <p id="09b0574f-b05b-411b-9b8a-ffbaa5ee4a1d">
      «Храбрость есть наука того: чего должно и чего не должно бояться»,
      <choice>
@@ -28138,9 +28210,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002024">
-    <head n="level2" type="editorial">
-     ** № 24.
-    </head>
+    <p id="47e4ab7a-c1f2-4c9e-a8f6-d3f7fa2d63ae">
+     <head n="level2" type="editorial">
+      ** № 24.
+     </head>
+    </p>
     <p id="100075b4-1a8f-4986-91da-7787cda6f4a2">
      <choice>
       <reg>
@@ -28820,7 +28894,9 @@
     <p id="007b3148-04ec-4e78-a307-65773d6d60b7">
      А! и ты трепещешь, и ты боишься? да и кто не боится неправды!
     </p>
-    <metamark function="line"/>
+    <p id="38f7b785-b0aa-44a0-97b6-cee4685022c3">
+     <metamark function="line"/>
+    </p>
    </div>
   </body>
  </text>

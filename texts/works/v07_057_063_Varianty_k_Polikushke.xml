@@ -1,157 +1,175 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_057_063_Varianty_k_Polikushke">
-                    [Варианты к «Поликушке»]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Поликушка.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <title type="bibl">Толстой Л. Н. [Варианты к «Поликушке»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 57–63.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="163d9e1e-d841-4724-bc2d-2e187494123a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Варианты к «Поликушке»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">57-63</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v07_057_063_Varianty_k_Polikushke">
+     [Варианты к «Поликушке»]. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Поликушка.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Варианты к «Поликушке»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 57–63.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="163d9e1e-d841-4724-bc2d-2e187494123a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Варианты к «Поликушке»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       57-63
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012001">
     <p id="7ea28ce9-5f1b-4402-908e-41b824aa0347">
      <pb n="57"/>
     </p>
-    <head n="level1" type="editorial">
-     <hi rend="strong">
-      <hi rend="italic">
-       [ВАРИАНТЫ К
+    <p id="b6cff0d0-856a-473f-b8d9-652573db582e">
+     <head n="level1" type="editorial">
+      <hi rend="strong">
+       <hi rend="italic">
+        [ВАРИАНТЫ К
+       </hi>
+       <hi rend="italic">
+        «
+       </hi>
+       <hi rend="italic">
+        ПОЛИКУШКЕ».]
+       </hi>
       </hi>
-      <hi rend="italic">
-       «
-      </hi>
-      <hi rend="italic">
-       ПОЛИКУШКЕ».]
-      </hi>
-     </hi>
-    </head>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000012001001">
-    <head>
-     * № 1.
-    </head>
+    <p id="2ad92c34-8f8c-410f-a8a6-a6548dcde1a2">
+     <head>
+      * № 1.
+     </head>
+    </p>
     <p id="93efb8a8-ba7f-47e0-8fb9-9cc2ab132703">
      <hi rend="italic">
       После слов:
@@ -1029,9 +1047,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001002">
-    <head>
-     * № 2.
-    </head>
+    <p id="a4123cdc-2e71-4bb8-bf47-c6e484c897ea">
+     <head>
+      * № 2.
+     </head>
+    </p>
     <p id="62b95399-88f6-428a-bb0f-c3cb3e11593c">
      <hi rend="italic">
       После слов:
@@ -1728,9 +1748,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001003">
-    <head>
-     * № 3.
-    </head>
+    <p id="5dafcc3b-e87b-4df7-8fb1-9c021c00b6ce">
+     <head>
+      * № 3.
+     </head>
+    </p>
     <p id="2ab3671d-c30a-442d-935c-207668eaa4b4">
      <hi rend="italic">
       После слов:
@@ -2157,9 +2179,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001004">
-    <head>
-     * № 4.
-    </head>
+    <p id="42848e11-b357-4d0b-ba2a-cc1de2ddd98f">
+     <head>
+      * № 4.
+     </head>
+    </p>
     <p id="9f879eef-7204-48d5-ad0a-59db80a3c0e2">
      <hi rend="italic">
       После слов:
@@ -2295,9 +2319,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001005">
-    <head>
-     * № 5.
-    </head>
+    <p id="04780ab5-50a8-474c-b08e-f16b812964df">
+     <head>
+      * № 5.
+     </head>
+    </p>
     <p id="507a3eab-04b2-4b78-95d5-eff1512074f9">
      <hi rend="italic">
       После слов:
@@ -3665,7 +3691,9 @@
        Черезъ
       </orig>
      </choice>
-     <num type="fraction" value="1/4">1/4</num>
+     <num type="fraction" value="1/4">
+      1/4
+     </num>
      часа
      <choice>
       <reg>

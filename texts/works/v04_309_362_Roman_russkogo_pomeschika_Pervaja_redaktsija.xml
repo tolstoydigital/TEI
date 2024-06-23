@@ -1,172 +1,192 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v04_309_362_Roman_russkogo_pomeschika_Pervaja_redaktsija">
-                    «Роман русского помещика». [Первая редакция]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Роман русского помещика.</title>
-                <title type="sub" resp="volume_editor">Первая редакция</title>
-                <title type="bibl">Толстой Л. Н. «Роман русского помещика». [Первая редакция] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 4. М.: Гос. изд. «Художественная литература», 1935. С. 309–362.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="1786a37a-fa1a-4d0b-92f3-9876a07cbdb4">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            «Роман русского помещика». [Первая редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 4
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">4</biblScope>
-                        <biblScope unit="page">309-362</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1854"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#novel" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v04_309_362_Roman_russkogo_pomeschika_Pervaja_redaktsija">
+     «Роман русского помещика». [Первая редакция]. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Роман русского помещика.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Первая редакция
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. «Роман русского помещика». [Первая редакция] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 4. М.: Гос. изд. «Художественная литература», 1935. С. 309–362.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="1786a37a-fa1a-4d0b-92f3-9876a07cbdb4">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       «Роман русского помещика». [Первая редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 4
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       4
+      </biblScope>
+      <biblScope unit="page">
+       309-362
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1854"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#novel" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013002">
     <p id="7f2ece4d-9563-4cfa-98f0-f1302e481188">
      <pb n="309"/>
     </p>
-    <head n="level1">
-     <hi rend="italic">
-      <hi rend="underline" style="text-decoration:underline;">
-       «РОМАН РУССКОГО ПОМЕЩИКА».
+    <p id="19355d66-a823-4304-bc84-1e8fe7b04349">
+     <head n="level1">
+      <hi rend="italic">
+       <hi rend="underline" style="text-decoration:underline;">
+        «РОМАН РУССКОГО ПОМЕЩИКА».
+       </hi>
       </hi>
-     </hi>
-    </head>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000013002001">
-    <head rend="center">
-     I.
-     <lb/>
-     [ПЕРВАЯ РЕДАКЦИЯ.]
-    </head>
+    <p id="8c7b95d0-a2bf-4fe9-964a-b7f32792f43b">
+     <head rend="center">
+      I.
+      <lb/>
+      [ПЕРВАЯ РЕДАКЦИЯ.]
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000013002001001">
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      Глава
-     </hi>
-     1.
-     <hi rend="Razradka">
-      <choice>
-       <reg>
-        Обедня
-       </reg>
-       <orig>
-        Обѣдня
-       </orig>
-      </choice>
-     </hi>
-     .
-    </head>
+    <p id="3e97b67a-e183-4204-9ce2-bc8e4ccc1b11">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       Глава
+      </hi>
+      1.
+      <hi rend="Razradka">
+       <choice>
+        <reg>
+         Обедня
+        </reg>
+        <orig>
+         Обѣдня
+        </orig>
+       </choice>
+      </hi>
+      .
+     </head>
+    </p>
     <p id="54cc73fc-ad1f-46d1-b7aa-556a2af1635c">
      <choice>
       <reg>
@@ -3955,35 +3975,37 @@
     </p>
    </div>
    <div type="section" xml:id="h000013002001002">
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      Глава
-     </hi>
-     2.
-     <hi rend="Razradka">
-      <choice>
-       <reg>
-        Шкалик
-       </reg>
-       <orig>
-        <ref id="shkalik" target="slovar">
-         Шкаликъ
-        </ref>
-       </orig>
-      </choice>
-     </hi>
-     .
-     <ref target="#note86">
-      86
-     </ref>
-     <note index="false" xml:id="note86">
-      <span data-class="paragraph" id="1d94d2c7-ec71-45a1-b265-0c50d510be40">
-       <hi rend="italic">
-        Позднейшая помета Толстого.
-       </hi>
-      </span>
-     </note>
-    </head>
+    <p id="87177604-16d9-4d3d-a7d4-b1f176bef326">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       Глава
+      </hi>
+      2.
+      <hi rend="Razradka">
+       <choice>
+        <reg>
+         Шкалик
+        </reg>
+        <orig>
+         <ref id="shkalik" target="slovar">
+          Шкаликъ
+         </ref>
+        </orig>
+       </choice>
+      </hi>
+      .
+      <ref target="#note86">
+       86
+      </ref>
+      <note index="false" xml:id="note86">
+       <span data-class="paragraph" id="1d94d2c7-ec71-45a1-b265-0c50d510be40">
+        <hi rend="italic">
+         Позднейшая помета Толстого.
+        </hi>
+       </span>
+      </note>
+     </head>
+    </p>
     <p id="ff5875fc-562d-49c6-b49f-39e496204286">
      Сойдя
      <choice>
@@ -7426,36 +7448,38 @@
     </p>
    </div>
    <div type="section" xml:id="h000013002001003">
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      Глава
-     </hi>
-     [3].
-     <hi rend="Razradka">
-      Кляузное
-      <choice>
-       <reg>
-        дело
-       </reg>
-       <orig>
-        дѣло
-       </orig>
-      </choice>
-     </hi>
-     <hi rend="italic">
-      .
-     </hi>
-     <ref target="#note87">
-      87
-     </ref>
-     <note index="false" xml:id="note87">
-      <span data-class="paragraph" id="0885c602-5d3b-4ddf-86c5-ca2127c2f2f6">
-       <hi rend="italic">
-        Позднейшая помета Толстого.
-       </hi>
-      </span>
-     </note>
-    </head>
+    <p id="68341b8e-1f89-4a99-9d77-3afb94a4fd15">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       Глава
+      </hi>
+      [3].
+      <hi rend="Razradka">
+       Кляузное
+       <choice>
+        <reg>
+         дело
+        </reg>
+        <orig>
+         дѣло
+        </orig>
+       </choice>
+      </hi>
+      <hi rend="italic">
+       .
+      </hi>
+      <ref target="#note87">
+       87
+      </ref>
+      <note index="false" xml:id="note87">
+       <span data-class="paragraph" id="0885c602-5d3b-4ddf-86c5-ca2127c2f2f6">
+        <hi rend="italic">
+         Позднейшая помета Толстого.
+        </hi>
+       </span>
+      </note>
+     </head>
+    </p>
     <p id="ad476394-562b-4d39-8202-8d3b9c65e852">
      На прошлой недѣлѣ 5 хабаровскихъ бабъ ходили въ казенную засѣку за грибами. Набравъ по лукошкѣ, часу въ 10-мъ онѣ, возвращаясь домой черезъ шкаликовскую долину (онъ снималъ ее отъ казны), присѣли отдохнуть около стоговъ. По шкаликовской долинѣ, занимающей продолговатое пространство въ нѣсколько десятинъ, между старымъ казеннымъ лѣсомъ, молодымъ березникомъ и хабаровскимъ озимымъ полемъ, течетъ чуть видная, чуть слышная рѣчка Сорочка. На одномъ изъ ея изгибовъ расли 3 развѣсистыя березы, а между березами стояли стога стараго сѣна и вмѣстѣ съ ними кидали по утрамъ причудливую лиловую тѣнь черезъ рѣчку на мокрую отъ росы шкаликовскую траву. Тутъ-то полдничали и спали бабы. Тонкая сочная трава растетъ около рѣчки, но ближе къ темнымъ дубамъ, стоящимъ на опушкѣ лѣса, она сначала превращается въ осоку и глухую зарость, а еще ближе къ лѣсу только кое-гдѣ тонкими былинками пробивается сквозь сухія листья, жолуди, сучья, каряжникъ, которые сотни лѣтъ сбрасываетъ съ себя дремучій лѣсъ и кидаетъ на сырую землю. Лѣсъ идетъ въ гору и чѣмъ дальше, тѣмъ суровѣе; изрѣдка попадаются голые стволы осинъ, съ подсохшими снизу сучьями и круглой, высоко трепещущей, зеленой верхушкой; кое-гдѣ скрипитъ отъ вѣтра нагнувшаяся двойная береза надъ сырымъ оврагомъ, въ которомъ, придавивъ орѣховый и осиновый подростокъ, съ незапамятныхъ временъ, гніетъ покрытое мохомъ свалившееся дерево. Но когда смотришь съ долины, видны только зеленыя макушки высокихъ деревъ, все выше и выше, все синѣе и синѣе. И конца не видать. — Березникъ, лѣсокъ незавидный, нешто, нешто, слѣга, а то и оглобля не выйдетъ. — Трава тоже пустая, тонкая, рѣдкая, косой не захватишь по ней.
      <ref id="shkalik" target="slovar">
@@ -9855,26 +9879,28 @@
     </p>
    </div>
    <div type="section" xml:id="h000013002001004">
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      Глава
-     </hi>
-     [4].
-     <hi rend="Razradka">
-      Примиренье
-     </hi>
-     .
-     <ref target="#note89">
-      89
-     </ref>
-     <note index="false" xml:id="note89">
-      <span data-class="paragraph" id="2d7fc986-cc15-4878-9957-899edfcdb3b0">
-       <hi rend="italic">
-        Позднейшая помета Толстого.
-       </hi>
-      </span>
-     </note>
-    </head>
+    <p id="63778f25-1065-4eb3-9aaf-624928351865">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       Глава
+      </hi>
+      [4].
+      <hi rend="Razradka">
+       Примиренье
+      </hi>
+      .
+      <ref target="#note89">
+       89
+      </ref>
+      <note index="false" xml:id="note89">
+       <span data-class="paragraph" id="2d7fc986-cc15-4878-9957-899edfcdb3b0">
+        <hi rend="italic">
+         Позднейшая помета Толстого.
+        </hi>
+       </span>
+      </note>
+     </head>
+    </p>
     <p id="0a99afba-c950-44d2-9716-9c4b4f22693d">
      <choice>
       <reg>
@@ -11488,34 +11514,36 @@
     </p>
    </div>
    <div type="section" xml:id="h000013002001005">
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      Глава
-     </hi>
-     [5].
-     <hi rend="Razradka">
-      Умный
-      <choice>
-       <reg>
-        человек
-       </reg>
-       <orig>
-        человѣкъ
-       </orig>
-      </choice>
-     </hi>
-     .
-     <ref target="#note90">
-      90
-     </ref>
-     <note index="false" xml:id="note90">
-      <span data-class="paragraph" id="cd5fb4cf-f16e-4f73-93ce-bff97ba9a08d">
-       <hi rend="italic">
-        Позднейшая помета Толстого.
-       </hi>
-      </span>
-     </note>
-    </head>
+    <p id="87dd7a47-528b-4bee-9d46-9703187d8c03">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       Глава
+      </hi>
+      [5].
+      <hi rend="Razradka">
+       Умный
+       <choice>
+        <reg>
+         человек
+        </reg>
+        <orig>
+         человѣкъ
+        </orig>
+       </choice>
+      </hi>
+      .
+      <ref target="#note90">
+       90
+      </ref>
+      <note index="false" xml:id="note90">
+       <span data-class="paragraph" id="cd5fb4cf-f16e-4f73-93ce-bff97ba9a08d">
+        <hi rend="italic">
+         Позднейшая помета Толстого.
+        </hi>
+       </span>
+      </note>
+     </head>
+    </p>
     <p id="b6ea5535-1e91-47f6-81e5-9ba8df5da2a4">
      <ref id="shkalik" target="slovar">
       Шкаликъ
@@ -14925,34 +14953,36 @@
     </p>
    </div>
    <div type="section" xml:id="h000013002001006">
-    <head rend="center">
-     <hi rend="Razradka">
-      Глава
-     </hi>
-     [6].
-     <hi rend="Razradka">
-      <choice>
-       <reg>
-        Размышления
-       </reg>
-       <orig>
-        Размышленія
-       </orig>
-      </choice>
-      Князя
-     </hi>
-     .
-     <ref target="#note92">
-      92
-     </ref>
-     <note index="false" xml:id="note92">
-      <span data-class="paragraph" id="e31cae7f-baa6-43e6-94d9-cbb462aeeb73">
-       <hi rend="italic">
-        Позднейшая помета Толстого.
-       </hi>
-      </span>
-     </note>
-    </head>
+    <p id="d1767f16-195c-4ba6-81ac-6d7d15967be1">
+     <head rend="center">
+      <hi rend="Razradka">
+       Глава
+      </hi>
+      [6].
+      <hi rend="Razradka">
+       <choice>
+        <reg>
+         Размышления
+        </reg>
+        <orig>
+         Размышленія
+        </orig>
+       </choice>
+       Князя
+      </hi>
+      .
+      <ref target="#note92">
+       92
+      </ref>
+      <note index="false" xml:id="note92">
+       <span data-class="paragraph" id="e31cae7f-baa6-43e6-94d9-cbb462aeeb73">
+        <hi rend="italic">
+         Позднейшая помета Толстого.
+        </hi>
+       </span>
+      </note>
+     </head>
+    </p>
     <p id="472cd01f-9619-4c42-8be0-63226169ba0f">
      Юный князь скорыми шагами
      <choice>
@@ -16367,38 +16397,40 @@
     </p>
    </div>
    <div type="section" xml:id="h000013002001007">
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      Глава.
-      <choice>
-       <reg>
-        Иван
-       </reg>
-       <orig>
-        Иванъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        Чурис
-       </reg>
-       <orig>
-        Чурисъ
-       </orig>
-      </choice>
-     </hi>
-     .
-     <ref target="#note93">
-      93
-     </ref>
-     <note index="false" xml:id="note93">
-      <span data-class="paragraph" id="19e0654d-cfc3-4438-82a8-ca4ec62d2540">
-       <hi rend="italic">
-        Позднейшая помета Толстого.
-       </hi>
-      </span>
-     </note>
-    </head>
+    <p id="33470007-0fd2-40b6-8cb5-a3d7763191ce">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       Глава.
+       <choice>
+        <reg>
+         Иван
+        </reg>
+        <orig>
+         Иванъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         Чурис
+        </reg>
+        <orig>
+         Чурисъ
+        </orig>
+       </choice>
+      </hi>
+      .
+      <ref target="#note93">
+       93
+      </ref>
+      <note index="false" xml:id="note93">
+       <span data-class="paragraph" id="19e0654d-cfc3-4438-82a8-ca4ec62d2540">
+        <hi rend="italic">
+         Позднейшая помета Толстого.
+        </hi>
+       </span>
+      </note>
+     </head>
+    </p>
     <p id="b0a30365-a6fa-4ed1-a957-082a8660396f">
      Подходя
      <choice>
@@ -20087,22 +20119,24 @@
     </p>
    </div>
    <div type="section" xml:id="h000013002001008">
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      Глава 7. Его изба
-     </hi>
-     .
-     <ref target="#note94">
-      94
-     </ref>
-     <note index="false" xml:id="note94">
-      <span data-class="paragraph" id="068b1da0-a19b-4e6e-8a8b-e83188049404">
-       <hi rend="italic">
-        Позднейшая помета Толстого.
-       </hi>
-      </span>
-     </note>
-    </head>
+    <p id="34b28aaa-7dfc-4181-9164-d7f35858fd63">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       Глава 7. Его изба
+      </hi>
+      .
+      <ref target="#note94">
+       94
+      </ref>
+      <note index="false" xml:id="note94">
+       <span data-class="paragraph" id="068b1da0-a19b-4e6e-8a8b-e83188049404">
+        <hi rend="italic">
+         Позднейшая помета Толстого.
+        </hi>
+       </span>
+      </note>
+     </head>
+    </p>
     <p id="918155f6-3edd-45b6-bcab-095418dbd986">
      &lt;
      <choice>
@@ -29946,22 +29980,24 @@
     </p>
    </div>
    <div type="section" xml:id="h000013002001009">
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      Глава. Юхванка Мудреной
-     </hi>
-     .
-     <ref target="#note97">
-      97
-     </ref>
-     <note index="false" xml:id="note97">
-      <span data-class="paragraph" id="956eb979-9a19-44e8-ba25-e7ef6d332765">
-       <hi rend="italic">
-        Позднейшая помета Толстого.
-       </hi>
-      </span>
-     </note>
-    </head>
+    <p id="c4713d1b-d2e6-483c-b53d-d52a9d04638e">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       Глава. Юхванка Мудреной
+      </hi>
+      .
+      <ref target="#note97">
+       97
+      </ref>
+      <note index="false" xml:id="note97">
+       <span data-class="paragraph" id="956eb979-9a19-44e8-ba25-e7ef6d332765">
+        <hi rend="italic">
+         Позднейшая помета Толстого.
+        </hi>
+       </span>
+      </note>
+     </head>
+    </p>
     <p id="6fe5d264-a225-4dad-abab-5e1c8dee1f1e">
      «Юхванка мудреный
      <choice>
@@ -35130,7 +35166,9 @@
       </orig>
      </choice>
      много
-     <num type="fraction" value="9/10">9/10</num>
+     <num type="fraction" value="9/10">
+      9/10
+     </num>
      нашего
      <choice>
       <reg>
@@ -47491,7 +47529,9 @@
       </orig>
      </choice>
      солнушко прошло
-     <num type="fraction" value="1/4">1/4</num>
+     <num type="fraction" value="1/4">
+      1/4
+     </num>
      пути и весело играло на
      <choice>
       <reg>
@@ -54418,7 +54458,9 @@
      </choice>
      .
     </p>
-    <metamark function="line"/>
+    <p id="57bc5d04-adea-433d-b2d8-47208b497197">
+     <metamark function="line"/>
+    </p>
     <p id="fcb3f5cf-3073-4213-b0f9-0d74b477d504">
      Старый ломберный штучный
      <choice>
@@ -54764,9 +54806,11 @@
     <p id="5595ecdd-a39f-4b57-8aa0-b5bf7338f5d5"/>
    </div>
    <div type="section" xml:id="h000013002001010">
-    <head n="level2" type="editorial">
-     [ВТОРАЯ ЧАСТЬ.]
-    </head>
+    <p id="aa5ece39-1c4f-4fa3-933f-45e5b6dacf3f">
+     <head n="level2" type="editorial">
+      [ВТОРАЯ ЧАСТЬ.]
+     </head>
+    </p>
     <p id="536032d4-eb7d-4e62-977e-f7310732e0c7">
      <choice>
       <reg>

@@ -1,155 +1,173 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_256_257_Dekabristy_Plany">
-                    Декабристы. Планы. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Декабристы.</title>
-                <title type="sub" resp="volume_editor">Планы</title>
-                <title type="bibl">Толстой Л. Н. Декабристы. Планы // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 256–257.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d14a520b-2b8c-4ccb-9108-d2b9fc9a8be4">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Декабристы. Планы
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">256-257</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1863, 1877—1879
-                </date>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#novel" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v17_256_257_Dekabristy_Plany">
+     Декабристы. Планы. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Декабристы.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Планы
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Декабристы. Планы // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 256–257.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d14a520b-2b8c-4ccb-9108-d2b9fc9a8be4">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Декабристы. Планы
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       256-257
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1863, 1877—1879
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#novel" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="09400bbe-901f-4198-aa30-ff3f5dfd65b1">
      <pb n="256"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
-     </hi>
-     <lb/>
-     <hi rend="strong">
-      И НЕОКОНЧЕННОЕ
-     </hi>
-    </head>
+    <p id="93e05936-3ce8-420e-a5bb-0c918dfebf4c">
+     <head rend="center">
+      <hi rend="strong">
+       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
+      </hi>
+      <lb/>
+      <hi rend="strong">
+       И НЕОКОНЧЕННОЕ
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000011008">
-    <head rend="center">
-     ДЕКАБРИСТЫ.
-    </head>
+    <p id="9085b769-ddcf-4fd9-a533-43972bf1dc09">
+     <head rend="center">
+      ДЕКАБРИСТЫ.
+     </head>
+    </p>
     <div>
      <p id="09a36dca-af83-4a0f-9a1e-30f4d8d1cf5b" rend="center">
       (1863, 1877—1879 гг.)
@@ -157,12 +175,16 @@
     </div>
    </div>
    <div type="section" xml:id="h000011008002">
-    <head rend="center">
-     ПЛАНЫ.
-    </head>
-    <head n="level2" type="chapter">
-     I.
-    </head>
+    <p id="6189b24a-3169-4fb3-86b5-b2a8aefc8466">
+     <head rend="center">
+      ПЛАНЫ.
+     </head>
+    </p>
+    <p id="91148e2e-1d31-4ca4-942d-27300059f1ae">
+     <head n="level2" type="chapter">
+      I.
+     </head>
+    </p>
     <p id="6db8ea9b-68d4-406a-a356-99368b9bef3c">
      <choice>
       <reg>
@@ -388,7 +410,9 @@
      </choice>
      Погодину.
     </p>
-    <metamark function="line"/>
+    <p id="87132fdc-e9af-4311-bb5a-cd92c8160763">
+     <metamark function="line"/>
+    </p>
     <p id="8f2db8cf-fe2f-41e3-8bfa-bc30f73c2715">
      <choice>
       <reg>
@@ -483,9 +507,11 @@
     <p id="7feb92bd-f3e0-43b6-b7f7-7873b2f825fe" rend="center">
      Борисовка
     </p>
-    <head n="level3">
-     1.
-    </head>
+    <p id="4c063c8f-7240-45fe-8aea-397ee6c86f61">
+     <head n="level3">
+      1.
+     </head>
+    </p>
     <p id="76701885-15ab-4c8c-811f-606f7df6956c">
      Во
      <choice>
@@ -683,7 +709,9 @@
       </orig>
      </choice>
     </p>
-    <metamark function="line"/>
+    <p id="2aaa691c-839f-4553-9f73-50044502cc38">
+     <metamark function="line"/>
+    </p>
     <p id="b9510b93-e81d-4478-9cf6-a8dba6f6e274" rend="pages2">
      <pb n="257"/>
     </p>
@@ -764,7 +792,9 @@
      </choice>
      .
     </p>
-    <metamark function="line"/>
+    <p id="1e7b6520-6543-4a81-a5d5-9236519c5611">
+     <metamark function="line"/>
+    </p>
     <p id="5538644d-5b2f-49d9-b6b9-e33d7b65f780">
      <del>
       <choice>
@@ -821,7 +851,9 @@
      </choice>
      .
     </p>
-    <metamark function="line"/>
+    <p id="230b19c2-460a-4610-93fd-08788a5d0f4b">
+     <metamark function="line"/>
+    </p>
     <p id="b90b4d4e-44a9-4e48-9a79-68f15bc9a888">
      Государь
      <choice>
@@ -853,7 +885,9 @@
       </orig>
      </choice>
     </p>
-    <metamark function="line"/>
+    <p id="32ef6754-c801-41fe-b83a-20fb670a0a07">
+     <metamark function="line"/>
+    </p>
     <p id="c765227c-748f-4a15-a16c-5d03d03969a5">
      <choice>
       <reg>
@@ -930,7 +964,9 @@
       </choice>
      </del>
     </p>
-    <metamark function="line"/>
+    <p id="bbe8b5d0-99fc-4acf-882e-d67b3081ee91">
+     <metamark function="line"/>
+    </p>
     <p id="e02c80c2-b2bc-4f28-9c26-45e72f0d8db4">
      <choice>
       <reg>
@@ -1045,9 +1081,11 @@
       </span>
      </note>
     </p>
-    <head n="level2" type="chapter">
-     III
-    </head>
+    <p id="f13a3b1d-7ae5-4a61-bbb4-4cca675fb061">
+     <head n="level2" type="chapter">
+      III
+     </head>
+    </p>
     <p id="b2ab1a7f-19d1-428a-b168-84d51d4c3f09">
      1817 весной.
      <choice>
@@ -1311,9 +1349,11 @@
       </corr>
      </choice>
     </p>
-    <head n="level2" type="chapter">
-     IV.
-    </head>
+    <p id="3ce31ba2-5598-4707-8ff5-a3880997f3c7">
+     <head n="level2" type="chapter">
+      IV.
+     </head>
+    </p>
     <p id="4714c3e8-33b7-4414-a781-782c62fb3866">
      1825-й
      <choice>
@@ -1458,7 +1498,9 @@
     <p id="d84687d0-a6e3-4d64-8281-9cbe87528522">
      Деревня — монахи. —
     </p>
-    <metamark function="line"/>
+    <p id="e2dd6f63-8ede-4a77-b2a0-a0a39aebc809">
+     <metamark function="line"/>
+    </p>
    </div>
   </body>
  </text>
