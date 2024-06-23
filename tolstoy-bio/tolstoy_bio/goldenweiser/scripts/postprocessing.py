@@ -13,7 +13,7 @@ VOLUME_XML_DOCUMENT_PATH = os.path.join(ROOT_DIR, "../data/xml/goldenweiser-diar
 def main():
     # wrap_unparagraphed_heads_to_p()
     # add_ids()
-    # add_iso_to_dateline_dates()
+    add_iso_to_dateline_dates()
     wrap_datelines_into_openers()
 
 
@@ -40,6 +40,10 @@ def add_ids():
 
 
 def add_iso_to_dateline_dates():
+    """
+    Fixes one wrong date as well.
+    """
+    
     MONTH_LABEL_TO_NUMBER = {
         'января': '01',
         'февраля': '02',
@@ -62,6 +66,8 @@ def add_iso_to_dateline_dates():
     soup = BeautifulSoupUtils.create_soup_from_file(VOLUME_XML_DOCUMENT_PATH, "xml")
     datelines = soup.find_all("dateline")
 
+    # Mark up dates without years
+
     for dateline in datelines:
         date = dateline.find("date")
         label = date.text.strip().lower()
@@ -79,6 +85,8 @@ def add_iso_to_dateline_dates():
         else:
             raise AssertionError(f"Unexpected date format encountered: {label}")
     
+    # Mark up years as well
+
     current_year = None
 
     for tag in soup.find_all():
@@ -93,7 +101,21 @@ def add_iso_to_dateline_dates():
 
             if "YYYY" in date.attrs.get("when", ""):
                 date.attrs["when"] = date.attrs["when"].replace("YYYY", current_year)
+    
+    # Change erroneous datelines to <susp>
 
+    july_9th_1901_seen = False
+
+    for dateline in soup.find_all("dateline"):
+        date = dateline.find("date")
+        when = date.attrs.get("when", "")
+
+        if when == "1901-07-09":
+            if july_9th_1901_seen:
+                dateline.name = "susp"
+                break
+            else:
+                july_9th_1901_seen = True
     
     IoUtils.save_textual_data(soup.prettify(), VOLUME_XML_DOCUMENT_PATH)
 
@@ -104,6 +126,9 @@ def wrap_datelines_into_openers():
     datelines = soup.find_all("dateline")
 
     for dateline in datelines:
+        if BeautifulSoupUtils.has_parent_with_tag_name(dateline, "opener"):
+            continue
+
         if dateline.parent.name == "year":
             dateline.parent.wrap(soup.new_tag("opener"))
         elif dateline.find("date").text.strip() == "17 августа 1922 г.":
