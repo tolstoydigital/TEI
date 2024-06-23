@@ -13,7 +13,8 @@ VOLUME_XML_DOCUMENT_PATH = os.path.join(ROOT_DIR, "../data/xml/goldenweiser-diar
 def main():
     # wrap_unparagraphed_heads_to_p()
     # add_ids()
-    add_iso_to_dateline_dates()
+    # add_iso_to_dateline_dates()
+    wrap_datelines_into_openers()
 
 
 def wrap_unparagraphed_heads_to_p():
@@ -94,6 +95,22 @@ def add_iso_to_dateline_dates():
                 date.attrs["when"] = date.attrs["when"].replace("YYYY", current_year)
 
     
+    IoUtils.save_textual_data(soup.prettify(), VOLUME_XML_DOCUMENT_PATH)
+
+
+def wrap_datelines_into_openers():
+    soup = BeautifulSoupUtils.create_soup_from_file(VOLUME_XML_DOCUMENT_PATH, "xml")
+
+    datelines = soup.find_all("dateline")
+
+    for dateline in datelines:
+        if dateline.parent.name == "year":
+            dateline.parent.wrap(soup.new_tag("opener"))
+        elif dateline.find("date").text.strip() == "17 августа 1922 г.":
+            continue
+        else:
+            dateline.wrap(soup.new_tag("opener"))
+
     IoUtils.save_textual_data(soup.prettify(), VOLUME_XML_DOCUMENT_PATH)
 
 
