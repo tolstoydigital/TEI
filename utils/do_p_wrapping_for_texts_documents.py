@@ -262,7 +262,7 @@ def traverse_xml_documents(folder_path: str, *, verbose: bool = False):
             yield os.path.join(path, filename)
 
 
-def get_uuid_generator() -> set[str]:
+def get_uuid_generator() -> UuidGenerator:
     """
     Собирает все UUID элементов texts-документов
     и возвращает генератор UUID.
