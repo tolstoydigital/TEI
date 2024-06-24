@@ -1,139 +1,155 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v51_046_046_1890_05_26_2">
-                    Дневники. Tolstoy Digital
-                </title>
-                <title type="main">Дневник,</title>
-                <title type="sub">26 мая 1890 г.</title>
-                <title type="bibl">Толстой Л. Н. [Дневник 1890 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 51. М.: Гос. изд. «Художественная литература», 1952. С. </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="98e7895e-e0b3-45a9-be76-fb6e059e24c5">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           [Дневник 1890 г.]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 51
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1952"/>
-                        </imprint>
-                        <biblScope unit="volume">51</biblScope>
-                        <biblScope unit="page">46-46</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1890-05-26"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#diaries" target="type"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v51_046_046_1890_05_26_2">
+     Дневники. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник,
+    </title>
+    <title type="sub">
+     26 мая 1890 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Дневник 1890 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 51. М.: Гос. изд. «Художественная литература», 1952. С.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="98e7895e-e0b3-45a9-be76-fb6e059e24c5">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1890 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 51
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       51
+      </biblScope>
+      <biblScope unit="page">
+       46-46
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1890-05-26"/>
+   </creation>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <p id="53bfde95-c02c-43f1-97bb-8abaea73e62e">
     <pb n="46"/>
    </p>
    <div n="v51_n91" type="entry">
-    <opener>
-     <dateline>
-      <date resp="editor" when="1890-05-26">
-       <hi>
-        [26 мая.]
-       </hi>
-      </date>
-     </dateline>
-    </opener>
+    <p id="9e62956f-21e7-4063-bd2d-7e5f7b6bb350">
+     <opener>
+      <dateline>
+       <date resp="editor" when="1890-05-26">
+        <hi>
+         [26 мая.]
+        </hi>
+       </date>
+      </dateline>
+     </opener>
+    </p>
     <p id="9ef059f9-c6ce-43e9-8762-ae527fde11db">
      Жив. Утром нашел Н. Ге старшего. Он едет в
      <choice original_editorial_correction="П[е]т[ербург]">

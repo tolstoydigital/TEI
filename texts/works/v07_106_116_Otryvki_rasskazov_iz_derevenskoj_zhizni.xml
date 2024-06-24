@@ -1,161 +1,179 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_106_116_Otryvki_rasskazov_iz_derevenskoj_zhizni" resp="volume_editor">
-                    [Отрывки рассказов из деревенской жизни]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Отрывки рассказов из деревенской жизни</title>
-                <title type="bibl">Толстой Л. Н. [Отрывки рассказов из деревенской жизни] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 106–116.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="5ac1ea55-6d87-442e-967e-58c04b4fce7f">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Отрывки рассказов из деревенской жизни]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">106-116</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v07_106_116_Otryvki_rasskazov_iz_derevenskoj_zhizni">
+     [Отрывки рассказов из деревенской жизни]. Произведения. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Отрывки рассказов из деревенской жизни
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Отрывки рассказов из деревенской жизни] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 106–116.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="5ac1ea55-6d87-442e-967e-58c04b4fce7f">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Отрывки рассказов из деревенской жизни]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       106-116
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="06d9b42e-84b1-4d93-af54-353114442ee3">
      <pb n="106"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
-     </hi>
-    </head>
+    <p id="1117cecd-c88a-4508-916a-5319ef7c7941">
+     <head rend="center">
+      <hi rend="strong">
+       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000012005">
-    <head rend="center center">
-     <hi rend="strong">
-      III.
-     </hi>
-     <lb/>
-     <hi rend="strong">
-      [ОТРЫВКИ РАССКАЗОВ ИЗ ДЕРЕВЕНСКОЙ ЖИЗНИ.]
-     </hi>
-    </head>
+    <p id="7d15e26a-ad11-400c-91c9-dcec674a8899">
+     <head rend="center center">
+      <hi rend="strong">
+       III.
+      </hi>
+      <lb/>
+      <hi rend="strong">
+       [ОТРЫВКИ РАССКАЗОВ ИЗ ДЕРЕВЕНСКОЙ ЖИЗНИ.]
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000012005001">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      * 1.
-     </hi>
-    </head>
+    <p id="d9877e05-543c-4778-9d94-9fde85ce2a2f">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       * 1.
+      </hi>
+     </head>
+    </p>
     <p id="10ed98da-139d-4a88-939d-281f41cd011a">
      Все
      <choice>
@@ -1097,7 +1115,9 @@
     </p>
     <div rend="image">
      <figure>
-      <graphic rend="alt:" url="./img/b00001053.png"/>
+      <p id="f2f1be26-4ee5-4f35-8b90-0dce07ca8923">
+       <graphic rend="alt:" url="./img/b00001053.png"/>
+      </p>
      </figure>
     </div>
     <p id="0bd83590-e948-431a-b4cb-46d048d69a12"/>
@@ -4813,11 +4833,13 @@
     </p>
    </div>
    <div type="section" xml:id="h000012005002">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      ** 2.
-     </hi>
-    </head>
+    <p id="af216689-8cef-445d-beb7-a91099b4f416">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       ** 2.
+      </hi>
+     </head>
+    </p>
     <p id="79993bad-95e9-4a6a-a623-3fc391752975">
      «Али давно не
      <choice>
@@ -6852,11 +6874,13 @@
     </p>
    </div>
    <div type="section" xml:id="h000012005003">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      * 3.
-     </hi>
-    </head>
+    <p id="2ebe97bf-04be-4ade-81f3-ee3f80df9045">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       * 3.
+      </hi>
+     </head>
+    </p>
     <p id="2158414a-fd54-4138-8238-6f321cb63720">
      Прежде
      <choice>
@@ -11114,11 +11138,13 @@
     </p>
    </div>
    <div type="section" xml:id="h000012005004">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      * 4.
-     </hi>
-    </head>
+    <p id="7e0fcd5c-2505-4dc9-8263-23aa6e9cb7d5">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       * 4.
+      </hi>
+     </head>
+    </p>
     <p id="e5394266-9767-4dc4-8174-a521be153275">
      <choice>
       <reg>
@@ -12665,11 +12691,13 @@
     </p>
    </div>
    <div type="section" xml:id="h000012005005">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      ** 5.
-     </hi>
-    </head>
+    <p id="e15f5864-92c7-4477-ace6-ed15b9c2b90d">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       ** 5.
+      </hi>
+     </head>
+    </p>
     <p id="c0c5e993-c041-46a0-9d34-d4504d874d77">
      Это было
      <choice>

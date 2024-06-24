@@ -1,168 +1,192 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v34_401_403_Zapisi_PI_Birjukova_so_slov_Tolstogo" resp="volume_editor">
-                    Приложение. Записи П. И. Бирюкова со слов Толстого (1905). Произведения. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Записи П. И. Бирюкова со слов Толстого</title>
-                <title type="bibl">Толстой Л. Н. Приложение. Записи П. И. Бирюкова со слов Толстого (1905) // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 34. М.: Гос. изд. «Художественная литература», 1952. С. 401–403.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="5a2e6b04-12ec-4d37-a334-c54acab121f5">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Приложение. Записи П. И. Бирюкова со слов Толстого (1905)
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 34
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1952"/>
-                        </imprint>
-                        <biblScope unit="volume">34</biblScope>
-                        <biblScope unit="page">401-403</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1905"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#autobio" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v34_401_403_Zapisi_PI_Birjukova_so_slov_Tolstogo">
+     Приложение. Записи П. И. Бирюкова со слов Толстого (1905). Произведения. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Записи П. И. Бирюкова со слов Толстого
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Приложение. Записи П. И. Бирюкова со слов Толстого (1905) // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 34. М.: Гос. изд. «Художественная литература», 1952. С. 401–403.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="5a2e6b04-12ec-4d37-a334-c54acab121f5">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Приложение. Записи П. И. Бирюкова со слов Толстого (1905)
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 34
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       34
+      </biblScope>
+      <biblScope unit="page">
+       401-403
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1905"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#autobio" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000003">
     <p id="58aa7f7a-1af4-4693-b790-36677316f690">
      <pb n="401"/>
     </p>
-    <head rend="title_level1 center center">
-     <hi rend="strong">
-      ПРОИЗВЕДЕНИЯ
-     </hi>
+    <p id="f2d62ff0-67ef-4ac1-b9cd-2f2d241e25ad">
+     <head rend="title_level1 center center">
+      <hi rend="strong">
+       ПРОИЗВЕДЕНИЯ
+      </hi>
+      <lb/>
+      <hi rend="strong">
+       1900—1903
+      </hi>
+     </head>
+    </p>
+    <p id="e0964331-e3db-4452-9d97-88281917d9d3">
      <lb/>
-     <hi rend="strong">
-      1900—1903
-     </hi>
-    </head>
-    <lb/>
+    </p>
    </div>
    <div type="section" xml:id="h000003003">
-    <head rend="title_level1 center">
-     <hi rend="strong">
-      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
-     </hi>
-    </head>
+    <p id="7796ad8d-3985-4270-bd08-888b227649a2">
+     <head rend="title_level1 center">
+      <hi rend="strong">
+       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000003003008">
-    <head rend="title_level2 center">
-     ПРИЛОЖЕНИЕ
-    </head>
-    <div type="section">
-     <head rend="title_level3 center">
-      ЗАПИСИ П. И. БИРЮКОВА СО СЛОВ Л. Н. ТОЛСТОГО
+    <p id="d305faf7-e167-43d0-bf11-a5e077f9db07">
+     <head rend="title_level2 center">
+      ПРИЛОЖЕНИЕ
      </head>
-     <div type="section">
-      <head rend="title_level4 center">
-       1
+    </p>
+    <div type="section">
+     <p id="1faab222-a03f-48bf-a96a-a132cbdfe69b">
+      <head rend="title_level3 center">
+       ЗАПИСИ П. И. БИРЮКОВА СО СЛОВ Л. Н. ТОЛСТОГО
       </head>
+     </p>
+     <div type="section">
+      <p id="66ee1639-89c1-4fcc-b0b8-d6ea43d61a78">
+       <head rend="title_level4 center">
+        1
+       </head>
+      </p>
       <p id="6581129f-fde6-4a5d-86c2-b41a4b0e4c9d">
        В 37 году зимой повезли нас в Москву. Поездка совершалась на долгих: на своих и на мужицких лошадях в семи возках. Возок бабушки был отдельный, с особенными приспособлениями, и для того, чтобы она не боялась, на отводах возка почти всё время стояли два камердинера папеньки. В Серпухове, где была третья или четвертая стоянка (старая не шоссейная дорога шла по совсем другим деревням, тут были деревни Вошаны, Липецы...), нельзя было въехать на постоялый двор через каменные под сводами ворота от широты отводов, и тогда надо было выводить бабушку из возка с улицы в горницу... В Москве мы жили на Плющихе в доме Щербачева. Дом и теперь еще стоит на дворе под косым углом к улице. Нам сделали городские платья и, к неудовольствию моему, чуйки. Должно быть, это такая была мода для детей, но мне это казалось унизительно. Смутно помню эту первую зиму в Москве. Ходили гулять с
        <name placement="text" ref="11657" type="person">
@@ -222,9 +246,11 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 center">
-       2
-      </head>
+      <p id="ad2b2bea-7748-49d4-8d8d-28404f8ff10c">
+       <head rend="title_level4 center">
+        2
+       </head>
+      </p>
       <p id="17234f0d-7582-4849-9951-b2e54dec2e15">
        Смерть отца была одним из самых сильных впечатлений детства
        <name placement="text" ref="13883" type="person">
@@ -316,7 +342,9 @@
       <p id="613844b2-57b0-4d97-9fc7-e058ccc64826">
        Это было одно из событий, которое много содействовало тому уважению и любви к народу, которое смолоду начал испытывать Лев Николаевич.
       </p>
-      <lb/>
+      <p id="bb76f194-61aa-4f7b-a888-9be394e679d5">
+       <lb/>
+      </p>
      </div>
     </div>
    </div>

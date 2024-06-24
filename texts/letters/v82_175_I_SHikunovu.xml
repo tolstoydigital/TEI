@@ -1,129 +1,163 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v82_175_I_SHikunovu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо И. Шикунову от 4 сентября 1910 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо И. Шикунову, 4 сентября 1910 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 82. М.: Гос. изд. «Художественная литература», 1956. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="7ea9a800-a805-4115-8d5e-070d46cb015a">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 82</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="vol">82</biblScope>
-                        <biblScope unit="page">134-136</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl/>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Кочеты</placeName>
-                    <date when="1910-09-04"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="15623">Шикунов Иона Михайлович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">175</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="I.SHikunovu_175">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v82_175_I_SHikunovu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо И. Шикунову от 4 сентября 1910 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо И. Шикунову, 4 сентября 1910 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 82. М.: Гос. изд. «Художественная литература», 1956. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="7ea9a800-a805-4115-8d5e-070d46cb015a">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 82
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="vol">
+       82
+      </biblScope>
+      <biblScope unit="page">
+       134-136
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl/>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Кочеты
+     </placeName>
+     <date when="1910-09-04"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="15623">
+      Шикунов Иона Михайлович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   175
+  </number>
+ </xenoData>
+ <text xml:id="I.SHikunovu_175" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
-    <pb n="134"/>
-    <opener index="false">
-     *175. И. Шикунову.1910 г. Сентября 4. Кочеты.
-    </opener>
+    <p id="4e1099a8-6b27-4bae-a996-9804bd857b12">
+     <pb n="134"/>
+    </p>
+    <p id="138a7f61-9735-4e77-85f7-239fc18db6de">
+     <opener index="false">
+      *175. И. Шикунову.1910 г. Сентября 4. Кочеты.
+     </opener>
+    </p>
     <p id="78636ab0-2fc9-4c42-9241-9e5c20fa40a5" rend="right">
      Иону Шикунову.
     </p>

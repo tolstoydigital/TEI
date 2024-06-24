@@ -1,146 +1,164 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v05_168_182_Semejnoe_schaste_Varianty_redaktsij">
-                    [Семейное счастье. Варианты редакций]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Семейное счастье.</title>
-                <title type="sub" resp="volume_editor">Варианты из первоначальных редакций</title>
-                <title type="bibl">Толстой Л. Н. [Семейное счастье. Варианты редакций] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 5. М.: Гос. изд. «Художественная литература», 1935. С. 168–182.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d40dc68c-ee21-400d-9965-b871ab597dd2">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Семейное счастье. Варианты редакций]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 5
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="volume">5</biblScope>
-                        <biblScope unit="page">168-182</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1859"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#novel" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v05_168_182_Semejnoe_schaste_Varianty_redaktsij">
+     [Семейное счастье. Варианты редакций]. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Семейное счастье.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты из первоначальных редакций
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Семейное счастье. Варианты редакций] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 5. М.: Гос. изд. «Художественная литература», 1935. С. 168–182.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d40dc68c-ee21-400d-9965-b871ab597dd2">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Семейное счастье. Варианты редакций]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 5
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="volume">
+       5
+      </biblScope>
+      <biblScope unit="page">
+       168-182
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1859"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#novel" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ref9">
     <p id="cf3f803c-40cb-42da-8368-6713912d445a">
      <pb n="168"/>
     </p>
-    <head rend="title_level2 center">
-     СЕМЕЙНОЕ СЧАСТИЕ.
-    </head>
-    <div type="section">
-     <head n="level2" type="editorial">
-      * № 1 (I ред.).
+    <p id="819e77af-722c-4cf7-bd92-a0b234226ce0">
+     <head rend="title_level2 center">
+      СЕМЕЙНОЕ СЧАСТИЕ.
      </head>
+    </p>
+    <div type="section">
+     <p id="5e4c0d05-8878-4a05-98a3-bef04e499e4d">
+      <head n="level2" type="editorial">
+       * № 1 (I ред.).
+      </head>
+     </p>
      <p id="22d7a4d0-66d0-4d44-b49d-1c89203a453e">
       <choice>
        <reg>
@@ -943,9 +961,11 @@
      </p>
     </div>
     <div type="section">
-     <head n="level2" type="editorial">
-      * № 2 (I ред.)
-     </head>
+     <p id="3fb85b02-9d81-4264-a754-154c0b8f0563">
+      <head n="level2" type="editorial">
+       * № 2 (I ред.)
+      </head>
+     </p>
      <p id="db662ea7-c517-46dc-ba7f-b268acfa617b">
       Я до
       <choice>
@@ -4455,9 +4475,11 @@
      </p>
     </div>
     <div type="section">
-     <head n="level2" type="editorial">
-      * № 3 (I ред.).
-     </head>
+     <p id="c707850b-6b2d-49a0-95ff-1b6a274be721">
+      <head n="level2" type="editorial">
+       * № 3 (I ред.).
+      </head>
+     </p>
      <p id="455a4000-8e38-4b9e-b2d7-60d35c50c588">
       Но хотя я не
       <choice>
@@ -4806,9 +4828,11 @@
      </p>
     </div>
     <div type="section">
-     <head n="level2" type="editorial">
-      * № 4 (I ред.).
-     </head>
+     <p id="8d5aa260-0c0f-4d6b-92de-f2c104e56300">
+      <head n="level2" type="editorial">
+       * № 4 (I ред.).
+      </head>
+     </p>
      <p id="7911393b-df0a-4d76-b4ee-811a0962528d">
       — Какже, неужели вы никогда не говорили: — Я
       <choice>
@@ -6248,9 +6272,11 @@
      </p>
     </div>
     <div type="section">
-     <head n="level2" type="editorial">
-      * № 5 (I ред.).
-     </head>
+     <p id="de1b2112-943e-404c-9921-ea1ed0434ee4">
+      <head n="level2" type="editorial">
+       * № 5 (I ред.).
+      </head>
+     </p>
      <p id="17a14d4e-04c9-4aad-8ac7-49e04381e1ed">
       — Какже, неужели вы никогда не говорили: — Я
       <choice>
@@ -7302,10 +7328,14 @@
      <p id="57903bec-2c23-418c-a957-b2756ae7291f" xml:id="loi3"/>
      <div rend="image">
       <figure>
-       <graphic rend="alt:" url="./img/b00001528.png"/>
+       <p id="bdb868f0-8423-4683-b610-48995797d1c6">
+        <graphic rend="alt:" url="./img/b00001528.png"/>
+       </p>
       </figure>
      </div>
-     <lb/>
+     <p id="b3be89cf-0e19-4492-ad6a-847c6bc2d8ff">
+      <lb/>
+     </p>
      <p id="7eaf819f-1339-4282-adac-10f4be380950">
       Я
       <choice>
@@ -7363,9 +7393,11 @@
      </p>
     </div>
     <div type="section">
-     <head n="level2" type="editorial">
-      * № 6 (I ред.).
-     </head>
+     <p id="6d5141f2-239d-4ac6-ab34-a53872c48996">
+      <head n="level2" type="editorial">
+       * № 6 (I ред.).
+      </head>
+     </p>
      <p id="cfd209f7-e0e3-465a-8bec-13bcf11b8853">
       <choice>
        <reg>
@@ -7687,9 +7719,11 @@
      </p>
     </div>
     <div type="section">
-     <head rend="title_level3 left">
-      * № 7 (1 ред.).
-     </head>
+     <p id="c5a69fd3-4cd1-487b-860c-b1e071772b13">
+      <head rend="title_level3 left">
+       * № 7 (1 ред.).
+      </head>
+     </p>
      <p id="26a49c73-3ad1-4c54-9c65-c64e6a64499d">
       &lt;
       <choice>
@@ -9297,9 +9331,11 @@
      </p>
     </div>
     <div type="section">
-     <head n="level2" type="editorial">
-      * № 8 (I ред.)
-     </head>
+     <p id="b826abd2-60f1-495e-bd35-a00cf09dbca6">
+      <head n="level2" type="editorial">
+       * № 8 (I ред.)
+      </head>
+     </p>
      <p id="8235bd0b-bf07-43e8-84a8-cb3832b7d7c1">
       <choice>
        <reg>
@@ -10320,9 +10356,11 @@
      </p>
     </div>
     <div type="section">
-     <head n="level2" type="editorial">
-      * № 9 (II ред.).
-     </head>
+     <p id="bf0e2328-3134-4f9c-907c-fc4208fa93cd">
+      <head n="level2" type="editorial">
+       * № 9 (II ред.).
+      </head>
+     </p>
      <p id="c8276ee1-6849-406c-8205-216ee1d499b3">
       <choice>
        <reg>
@@ -12238,9 +12276,11 @@
      </p>
     </div>
     <div type="section">
-     <head n="level2" type="editorial">
-      * № 10 (II ред.).
-     </head>
+     <p id="8c6e2dbd-07e8-4df7-ad5b-3f41eec72af4">
+      <head n="level2" type="editorial">
+       * № 10 (II ред.).
+      </head>
+     </p>
      <p id="eac8f4c3-f662-4cc3-a8fc-fb36dd3bc00a">
       Все время мое
       <choice>

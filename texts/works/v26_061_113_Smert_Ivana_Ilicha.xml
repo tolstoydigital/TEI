@@ -1,156 +1,174 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_061_113_Smert_Ivana_Ilicha">
-                    Смерть Ивана Ильича. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Смерть Ивана Ильича</title>
-                <title type="bibl">Толстой Л. Н. Смерть Ивана Ильича // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С. 61–113.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="3fd5d48f-7fa5-4ec9-8d86-dd5e342c265e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Смерть Ивана Ильича
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">61-113</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1886"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v26_061_113_Smert_Ivana_Ilicha">
+     Смерть Ивана Ильича. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Смерть Ивана Ильича
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Смерть Ивана Ильича // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С. 61–113.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="3fd5d48f-7fa5-4ec9-8d86-dd5e342c265e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Смерть Ивана Ильича
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       61-113
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1886"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000010">
     <p id="242b3e64-58df-4a59-a425-fb3b99ca01e5">
      <pb n="61"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      ХУДОЖЕСТВЕННЫЕ ПРОИЗВЕДЕНИЯ
-     </hi>
-     <lb/>
-     <hi rend="strong">
-      1885—1889.
-     </hi>
-    </head>
+    <p id="17572791-8faa-4144-bb23-9478ed9a662d">
+     <head rend="center">
+      <hi rend="strong">
+       ХУДОЖЕСТВЕННЫЕ ПРОИЗВЕДЕНИЯ
+      </hi>
+      <lb/>
+      <hi rend="strong">
+       1885—1889.
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000010003">
-    <head n="level1">
-     СМЕРТЬ ИВАНА ИЛЬИЧА.
-    </head>
+    <p id="58078d2a-c635-40f8-a9aa-9212f80a43bd">
+     <head n="level1">
+      СМЕРТЬ ИВАНА ИЛЬИЧА.
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000010003001">
-    <head n="level2" type="chapter">
-     I.
-    </head>
+    <p id="9ecc3a08-741a-4103-93c7-e40feff4f5be">
+     <head n="level2" type="chapter">
+      I.
+     </head>
+    </p>
     <p id="bc887987-b904-4bbf-9786-d98fd55554c7">
      В большом здании судебных учреждений во время перерыва заседания по делу Мельвинских члены и прокурор сошлись в кабинете Ивана Егоровича Шебек, и зашел разговор о знаменитом красовском деле. Федор Васильевич разгорячился, доказывая неподсудность, Иван Егорович стоял на своем, Петр же Иванович, не вступив сначала в спор, не принимал в нем участия и просматривал только что поданные Ведомости.
     </p>
@@ -284,7 +302,9 @@
     </p>
     <p id="3f47edec-0e90-4b78-b0f0-c3a2b8ab96ad">
      — Да, — прошептала она, — до последней минуты. Он простился с нами за
-     <num type="fraction" value="1/4">1/4</num>
+     <num type="fraction" value="1/4">
+      1/4
+     </num>
      часа до смерти и еще просил увести Володю.
     </p>
     <p id="d33faba5-6db2-4ece-b287-26d93a9c3dec">
@@ -328,9 +348,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003002">
-    <head n="level2" type="chapter">
-     II.
-    </head>
+    <p id="1b9430fb-359c-40fb-9af3-4abf79963cd2">
+     <head n="level2" type="chapter">
+      II.
+     </head>
+    </p>
     <p id="79a16841-ee3e-4ba6-abed-5ce762ea034a">
      Прошедшая история жизни Ивана Ильича была самая простая и обыкновенная и самая ужасная.
     </p>
@@ -486,9 +508,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003003">
-    <head n="level2" type="chapter">
-     III.
-    </head>
+    <p id="b0d2e80d-1d53-459f-8dac-b01046ef1424">
+     <head n="level2" type="chapter">
+      III.
+     </head>
+    </p>
     <p id="ab5d202b-2ba9-446b-8d46-cbdfd0c7cfeb">
      Так шла жизнь Ивана Ильича в продолжение 17 лет со времени женитьбы. Он был уже старым прокурором, отказавшимся от некоторых перемещений, ожидая более желательного места, когда неожиданно случилось одно неприятное обстоятельство, совсем было нарушившее его спокойствие жизни. Иван Ильич ждал места председателя в университетском городе, но Гоппе забежал как-то вперед и получил это место. Иван Ильич раздражился, стал делать упреки и поссорился с ним и с ближайшим начальством; к нему стали холодны и в следующем назначении его опять обошли.
     </p>
@@ -587,9 +611,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003004">
-    <head n="level2" type="chapter">
-     IV.
-    </head>
+    <p id="fd9e8e46-76bf-443a-bb99-f1c531e2c7b3">
+     <head n="level2" type="chapter">
+      IV.
+     </head>
+    </p>
     <p id="977ac307-2af8-4b49-b74a-0cd81c20feb4">
      Все были здоровы. Нельзя было назвать нездоровьем то, что Иван Ильич говорил иногда, что у него странный вкус во рту и что-то неловко в левой стороне живота.
     </p>
@@ -698,9 +724,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003005">
-    <head n="level2" type="chapter">
-     V.
-    </head>
+    <p id="6435a426-42a4-4a93-b335-1d5741b581ce">
+     <head n="level2" type="chapter">
+      V.
+     </head>
+    </p>
     <p id="a34fb7e0-93bd-4e58-baec-42cf5d18d71a">
      Так шло месяц и два. Перед новым годом приехал в их город его шурин и остановился у них. Иван Ильич был в суде. Прасковья Федоровна ездила за покупками. Войдя к себе в кабинет, он застал там шурина, здорового сангвиника, самого раскладывающего чемодан. Он поднял голову на шаги Ивана Ильича и поглядел на него секунду молча. Этот взгляд всё открыл Ивану Ильичу. Шурин раскрыл рот, чтоб ахнуть, и удержался. Это движение подтвердило всё.
     </p>
@@ -815,9 +843,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003006">
-    <head n="level2" type="chapter">
-     VI.
-    </head>
+    <p id="c42b607a-0095-4903-9542-82fbc1198bfc">
+     <head n="level2" type="chapter">
+      VI.
+     </head>
+    </p>
     <p id="eace6aba-e9ec-4120-94d9-7d28946e7969">
      Иван Ильич видел, что он умирает, и был в постоянном отчаянии.
     </p>
@@ -924,9 +954,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003007">
-    <head n="level2" type="chapter">
-     VII.
-    </head>
+    <p id="55dd62c8-8431-4507-84ae-84e0f5703a10">
+     <head n="level2" type="chapter">
+      VII.
+     </head>
+    </p>
     <p id="cddfdca8-d502-497a-a999-0ed8e2d4ed4e">
      Как это сделалось на 3-м месяце болезни Ивана Ильича, нельзя было сказать, потому что это делалось шаг за шагом, незаметно, но сделалось то, что и жена, и дочь, и сын его, и прислуга, и знакомые, и доктора, и, главное, он сам — знали, что весь интерес в нем для других состоит только в том, скоро ли, наконец, он опростает место, освободит живых от стеснения, производимого его присутствием, и сам освободится от своих страданий.
     </p>
@@ -1043,9 +1075,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003008">
-    <head n="level2" type="chapter">
-     VIII.
-    </head>
+    <p id="4149c660-6d2e-45e9-a519-6af9743075ba">
+     <head n="level2" type="chapter">
+      VIII.
+     </head>
+    </p>
     <p id="becb3c3b-4f1e-4e05-9943-ff0be18ad4b4">
      Было утро. Потому только было утро, что Герасим ушел и пришел Петр-лакей, потушил свечи, открыл одну гардину и стал потихоньку убирать. Утро ли, вечер ли был, пятница, воскресенье ли было — всё было всё равно, всё было одно и то же: ноющая, ни на мгновение не утихающая, мучительная боль; сознание безнадежно всё уходящей, но всё не ушедшей еще жизни; надвигающаяся всё та же страшная ненавистная смерть, которая одна была действительность, и всё та же ложь. Какие же тут дни, недели и часы дня?
     </p>
@@ -1261,9 +1295,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003009">
-    <head n="level2" type="chapter">
-     IX.
-    </head>
+    <p id="be29520b-3cf1-40c0-8849-359948193d30">
+     <head n="level2" type="chapter">
+      IX.
+     </head>
+    </p>
     <p id="eefaa2ca-0885-4d4c-9b4b-70330af156b3">
      Поздно ночью вернулась жена. Она вошла на цыпочках, но он услыхал ее: открыл глаза и поспешно закрыл опять. Она хотела услать Герасима и сама сидеть с ним. Он открыл глаза и сказал: — Нет. Иди.
     </p>
@@ -1344,9 +1380,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003010">
-    <head n="level2" type="chapter">
-     X.
-    </head>
+    <p id="587eeec5-0f94-4850-b113-65a993dcb576">
+     <head n="level2" type="chapter">
+      X.
+     </head>
+    </p>
     <p id="287219ca-a7f5-4705-9e07-d5112d670036">
      Прошло еще две недели. Иван Ильич уже не вставал с дивана. Он не хотел лежать в постели и лежал на диване. И, лежа почти всё время лицом к стене, он одиноко страдал всё те же не разрешающиеся страдания и одиноко думал всё ту же неразрешающуюся думу. Что это? Неужели правда, что смерть? И внутренний голос отвечал: да, правда. Зачем эти муки? И голос отвечал: а так, ни зачем. Дальше и кроме этого ничего не было.
     </p>
@@ -1368,9 +1406,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003011">
-    <head n="level2" type="chapter">
-     XI.
-    </head>
+    <p id="4ae389d8-74a1-46f1-91ee-290347b7ee9d">
+     <head n="level2" type="chapter">
+      XI.
+     </head>
+    </p>
     <p id="3df8e91a-83a2-4cff-9981-7db6741fdf90">
      Так прошло две недели. В эти недели случилось желанное для Ивана Ильича и его жены событие: Петрищев сделал формальное предложение. Это случилось вечером. На другой день Прасковья Федоровна вошла к мужу, обдумывая, как объявить ему о предложении Федора Петровича, но в эту самую ночь с Иваном Ильичем свершилась новая перемена к худшему. Прасковья Федоровна застала его на том же диване, но в новом положении. Он лежал навзничь, стонал и смотрел перед собою остановившимся взглядом.
     </p>
@@ -1466,9 +1506,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000010003012">
-    <head n="level2" type="chapter">
-     XII.
-    </head>
+    <p id="1c928f09-76f7-4549-9fe9-c38ab3824abe">
+     <head n="level2" type="chapter">
+      XII.
+     </head>
+    </p>
     <p id="a9d9c3ad-2f59-4d71-b0fe-39662dd98ac6">
      С этой минуты начался тот, три дня не перестававший крик, который так был ужасен, что нельзя было за двумя дверями без ужаса слышать его. В ту минуту, как он ответил жене, он понял, что он пропал, что возврата нет, что пришел конец, совсем конец, а сомнение так и не разрешено, так и остается сомнением.
     </p>
@@ -1528,11 +1570,15 @@
     <p id="81bb05b7-5d28-4f25-a575-4da88f85318f">
      Он втянул в себя воздух, остановился на половине вздоха, потянулся и умер.
     </p>
-    <lb/>
+    <p id="0fc2be78-f55c-4949-81f4-c302a9bbfb64">
+     <lb/>
+    </p>
     <p id="d00cd9d6-4ba5-4a7e-9921-34487cede0c2">
      25 марта 1886 г.
     </p>
-    <metamark function="line"/>
+    <p id="2e4e7ed6-7250-4ff3-9423-f2c44628bd71">
+     <metamark function="line"/>
+    </p>
    </div>
   </body>
  </text>

@@ -1,156 +1,176 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v31_203_210_Otets_Sergij_Plany_i_varianty">
-                    Отец Сергий. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Отец Сергий.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <title type="bibl">Толстой Л. Н. Отец Сергий // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 31. М.: Гос. изд. «Художественная литература», 1954. С. 203–210.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="eada9dce-d587-4d6c-89ee-e74e276bed51">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Отец Сергий
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 31
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="volume">31</biblScope>
-                        <biblScope unit="page">203-210</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date>
-                    1890, 1891, 1895 и 1898
-                </date>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v31_203_210_Otets_Sergij_Plany_i_varianty">
+     Отец Сергий. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Отец Сергий.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Отец Сергий // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 31. М.: Гос. изд. «Художественная литература», 1954. С. 203–210.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="eada9dce-d587-4d6c-89ee-e74e276bed51">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Отец Сергий
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 31
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="volume">
+       31
+      </biblScope>
+      <biblScope unit="page">
+       203-210
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>
+     1890, 1891, 1895 и 1898
+    </date>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000014">
     <p id="09e80de9-6a43-4522-b87b-66dca57bec19">
      <pb n="203"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      ПЛАНЫ И ВАРИАНТЫ
-     </hi>
-    </head>
+    <p id="0e71657e-efa1-4d9a-b3b1-3692b579289c">
+     <head rend="center">
+      <hi rend="strong">
+       ПЛАНЫ И ВАРИАНТЫ
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000014001">
-    <head n="level1">
-     ОТЕЦ СЕРГИЙ
-    </head>
+    <p id="b92e10ca-6044-4c45-82fa-006a16b38f32">
+     <head n="level1">
+      ОТЕЦ СЕРГИЙ
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000014001001">
-    <head rend=" left left">
-     № 1 (рук. № 1).
-    </head>
+    <p id="9cc931d7-ec22-4a5d-8689-a754d9437954">
+     <head rend=" left left">
+      № 1 (рук. № 1).
+     </head>
+    </p>
     <p id="f8fc6e84-e034-46b2-9002-d05312bd6d40">
      Ну вот вам история. Надо поскорее рассказать, а то забуду: Служил в сороковых годах в гвардейском кавалерийском полку воспитанник Пажеского корпуса князь Касатский-Ростовцев. Он был красив, молод, не беден, и любим товарищами и начальством. Жизнь он вел не распутную, как все, а всё собирался жениться. И выбрал он девушку, но накануне сватьбы он узнал, что девушка эта обманывала его, а была любовницей важного лица, и ее выдавали за него замуж, чтобы прикрыть грех. Он отказался. Девушка заболела и через год умерла в чахотке. Она любила его. Он был при ее смерти. Она каялась ему и просила его прощения. А он чувствовал себя виноватым перед ней. Когда она умерла, он стал думать иначе о жизни и смерти. Он еще смолоду, 18 лет, был очень набожен и хотел идти в монахи. Тогда его уговорили родные делать, как все, служить, и он поступил в полк. Теперь он вернулся к тем мыслям и чувствам, которые были в нем тогда, но теперь уже он не сомневался в том, что он был прав, когда хотел думать не о теле и мирской жизни, а о душе и о боге, и решил выйти в отставку и посвятить свою жизнь служению богу. Он так и сделал. Отца у него не было. Мать сама была набожна и, хотя отговаривала сына, боясь того, чтобы он не раскаялся в своем намерении, в душе одобряла его. Касатский-Ростовцев вышел в отставку, отрекся от мира и поступил в монастырь, известный строгостью жизни братии. Ему тогда только минуло 30 лет. Первое время ему очень трудно было в монастыре.
      <del>
@@ -359,9 +379,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014001002">
-    <head rend=" left left">
-     * № 2 (рук. № 2).
-    </head>
+    <p id="408a841b-84e4-4773-82b2-8a4b2765481a">
+     <head rend=" left left">
+      * № 2 (рук. № 2).
+     </head>
+    </p>
     <p id="37ab294c-bedc-4f29-b1e7-3d05d921db78">
      В сороковых годах в гвардейском кавалерийском полку служил князь Степан Касатский-Ростовцев. Он был красив, молод и не беден; он имел 300 душ крестьян, с которых получал, за вычетом того, что платилось в ломбард, 5600 рублей доходу, что позволяло ему жить безбедно с его скромными вкусами. Вкусы у него были скромные, сравнительно с его товарищами, для которых всякого рода разврат, пьянство, игра, буйство, побои и главное распущенность половая, всякого рода соблазны невинных девиц, посещение распутных дам и прелюбодеяния с чужими женами составляли предметы похвальбы. Касатский выделялся от своих товарищей относительной чистотой своей жизни. Товарищи называли его красной девицей, несмотря на то, что он был далеко не невинность, и добродушно смеялись над ним. Но относились к нему добродушно, а не зло, потому что любили его за то, что он был добрый товарищ и необыкновенно твердый в делах чести, которые он понимал так же, как понимали ее военные люди того, да и всякого времени. Несмотря, на древнюю фамилию, Касатский-Ростовцев не принадлежал к высшему обществу. Он не принадлежал и к низшему, но не принадлежал, не был как дома, у себя, в высшем обществе. Происходило это от того, что воспитывался он один матерью вдовою, и что отец его не занимал важных придворных должностей, и не было у него ни дядей, ни дедов при дворе, и вместе с тем и он [и] его мать были горды, не заискивали сближения, с так называемым высшим обществом, которое составляется из 1) людей знатных, богатых и придворных, 2) из людей придворных и потому богатых, 3) из людей богатых и подделывающихся к первым, и из бедных ловких, подделывающихся к 1 и 2-м.
     </p>
@@ -401,9 +423,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014001003">
-    <head rend=" left left">
-     * № 3 (рук. № 5).
-    </head>
+    <p id="93c253b4-6557-49e0-af77-7890b6e2cdb4">
+     <head rend=" left left">
+      * № 3 (рук. № 5).
+     </head>
+    </p>
     <p id="4946b850-45e6-4f12-9554-d0ddf5fb03e0">
      Кроме того он был красив,
      <del>
@@ -460,9 +484,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014001004">
-    <head rend=" left left">
-     * № 4 (рук. № 2).
-    </head>
+    <p id="5a77172e-b204-4ceb-bf98-d44e8960e1c3">
+     <head rend=" left left">
+      * № 4 (рук. № 2).
+     </head>
+    </p>
     <p id="c9e9746a-7623-4b23-98ce-21abc44b908b">
      [
      <hi rend="italic">
@@ -483,9 +509,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014001005">
-    <head rend=" left left">
-     * № 5 (рук. № 2).
-    </head>
+    <p id="03414653-35a7-4fd1-a3be-43d0d4b53580">
+     <head rend=" left left">
+      * № 5 (рук. № 2).
+     </head>
+    </p>
     <p id="3cd546d4-98ef-4243-a1ee-2fe5075c3179">
      [
      <hi rend="italic">
@@ -510,9 +538,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014001006">
-    <head rend=" left left">
-     * № 6 (рук. № 2).
-    </head>
+    <p id="6b05f143-bcbf-4d5d-952f-818e9e82c271">
+     <head rend=" left left">
+      * № 6 (рук. № 2).
+     </head>
+    </p>
     <p id="9886bfd1-693f-4770-91f9-c6756c6b6d4d">
      [
      <hi rend="italic">
@@ -534,9 +564,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000014001007">
-    <head rend=" left left">
-     № 7 (рук. № 2).
-    </head>
+    <p id="40afe1a1-0379-4c31-b967-9c4aba0bb377">
+     <head rend=" left left">
+      № 7 (рук. № 2).
+     </head>
+    </p>
     <p id="4853d8a9-3a9e-4e8a-a100-2c645bbce02d">
      На рассвете он вышел на крыльцо. Неужели всё это было? Отец придет. Она расскажет. Она дьявол. Да что ж я сделаю? Вот он тот топор, которым я рубил палец. Он схватил топор и вбежал в келью. Она лежала раскинувшись и спала. Он подошел,
      <pb n="210"/>

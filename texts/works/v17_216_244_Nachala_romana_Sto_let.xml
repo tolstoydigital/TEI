@@ -1,142 +1,158 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_216_244_Nachala_romana_Sto_let">
-                    [«Начала» романа «Сто лет»]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Сто лет.</title>
-                <title type="sub" resp="volume_editor">Начала романа</title>
-                <title type="bibl">Толстой Л. Н. [«Начала» романа «Сто лет»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 216–244.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d015378f-1582-4ffd-95d6-c9f5c4b1c97c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [«Начала» романа «Сто лет»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">216-244</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date from="1877" to="1897"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#novel" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v17_216_244_Nachala_romana_Sto_let">
+     [«Начала» романа «Сто лет»]. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Сто лет.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Начала романа
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [«Начала» романа «Сто лет»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 216–244.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d015378f-1582-4ffd-95d6-c9f5c4b1c97c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [«Начала» романа «Сто лет»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       216-244
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date from="1877" to="1897"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#novel" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011006002">
     <p id="d7c67947-1932-4011-a83e-d1184aada332">
      <pb n="216"/>
     </p>
-    <head n="level1" type="editorial">
-     [«НАЧАЛА» РОМАНА «СТО ЛЕТ».]
-    </head>
+    <p id="bed846b6-3414-4a37-91fc-e49d6173f6a8">
+     <head n="level1" type="editorial">
+      [«НАЧАЛА» РОМАНА «СТО ЛЕТ».]
+     </head>
+    </p>
     <div>
      <p id="07c67d9a-a54c-49a2-aac9-badb0448be37" rend="center Razradka">
       (1877—1879 гг.)
@@ -144,9 +160,11 @@
     </div>
    </div>
    <div type="section" xml:id="h000011006002002">
-    <head n="level2" type="editorial">
-     * № 26.
-    </head>
+    <p id="4c606c28-daab-4729-a502-98fc40cb884d">
+     <head n="level2" type="editorial">
+      * № 26.
+     </head>
+    </p>
     <p id="ae01ec80-e99c-4f09-9dd9-9ad901f95a27" rend="center Razradka">
      Карней
      <choice>
@@ -7448,9 +7466,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006002003">
-    <head n="level2" type="editorial">
-     * № 27.
-    </head>
+    <p id="cc35beab-c9f3-45d3-afc1-ec8df6d43e0d">
+     <head n="level2" type="editorial">
+      * № 27.
+     </head>
+    </p>
     <p id="f63e94e2-f21a-4804-96c3-d6b8a358a464">
      Тому
      <choice>
@@ -12355,9 +12375,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006002004">
-    <head n="level2" type="editorial">
-     * № 28.
-    </head>
+    <p id="23febefc-8b1c-4855-b858-41cc5f412f74">
+     <head n="level2" type="editorial">
+      * № 28.
+     </head>
+    </p>
     <p id="a7bd5146-ab89-4160-ba3a-4f179662aa6b">
      <choice>
       <reg>
@@ -13975,219 +13997,226 @@
        происхожденіе
       </orig>
      </choice>
-     . <del type="reconstructed">И оно не
-     <choice>
-      <reg>
-       может
-      </reg>
-      <orig>
-       можетъ
-      </orig>
-     </choice>
-     не быть передаваемо, потому что
-     <choice>
-      <reg>
-       без
-      </reg>
-      <orig>
-       безъ
-      </orig>
-     </choice>
-     него нельзя воспитывать ребенка.
-    </del></p><p id="772cbbd8-1b24-4b55-9afc-f16d88de7f75"><del>
-     (Когда
-     <choice>
-      <reg>
-       объяснение
-      </reg>
-      <orig>
-       объясненіе
-      </orig>
-     </choice>
-     это не дается,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       несомненное
-      </reg>
-      <orig>
-       несомнѣнное
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       знание
-      </reg>
-      <orig>
-       знаніе
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       имеющее
-      </reg>
-      <orig>
-       имѣющее
-      </orig>
-     </choice>
-     сверхъестественное
-     <choice>
-      <reg>
-       происхождение
-      </reg>
-      <orig>
-       происхожденіе
-      </orig>
-     </choice>
-     , то оно доказывается и объясняется, и тогда оно становится наукой —
-     <choice>
-      <reg>
-       философией
-      </reg>
-      <orig>
-       философіей
-      </orig>
-     </choice>
-     .) Но
-     <choice>
-      <reg>
-       так
-      </reg>
-      <orig>
-       такъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     ребенку и
-     <choice>
-      <reg>
-       юноше
-      </reg>
-      <orig>
-       юношѣ
-      </orig>
-     </choice>
-     нельзя передать
-     <choice>
-      <reg>
-       философского
-      </reg>
-      <orig>
-       философскаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       учения
-      </reg>
-      <orig>
-       ученія
-      </orig>
-     </choice>
-     , не насилуя его, ибо по нетвердости своего ума и
-     <choice>
-      <reg>
-       диалектики
-      </reg>
-      <orig>
-       діалектики
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     , не будучи
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       силах
-      </reg>
-      <orig>
-       силахъ
-      </orig>
-     </choice>
-     отрицать,
-     <choice>
-      <reg>
-       примет
-      </reg>
-      <orig>
-       приметъ
-      </orig>
-     </choice>
-     всякое [
-     <choice>
-      <reg>
-       учение
-      </reg>
-      <orig>
-       ученіе
-      </orig>
-     </choice>
-     ], то
-     <choice>
-      <reg>
-       философия
-      </reg>
-      <orig>
-       философія
-      </orig>
-     </choice>
-     никогда не могла быть передаваема и не передавалась
-     <choice>
-      <reg>
-       растущим
-      </reg>
-      <orig>
-       растущимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       поколениям
-      </reg>
-      <orig>
-       поколѣніямъ
-      </orig>
-     </choice>
-     , а всегда передавалась
-     <choice>
-      <reg>
-       вера
-      </reg>
-      <orig>
-       вѣра
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="248fbe0c-6f6a-4879-9e4d-d6107603d98b">
+     .
+     <del type="reconstructed">
+      И оно не
+      <choice>
+       <reg>
+        может
+       </reg>
+       <orig>
+        можетъ
+       </orig>
+      </choice>
+      не быть передаваемо, потому что
+      <choice>
+       <reg>
+        без
+       </reg>
+       <orig>
+        безъ
+       </orig>
+      </choice>
+      него нельзя воспитывать ребенка.
+     </del>
+    </p>
+    <p id="772cbbd8-1b24-4b55-9afc-f16d88de7f75">
+     <del>
+      (Когда
+      <choice>
+       <reg>
+        объяснение
+       </reg>
+       <orig>
+        объясненіе
+       </orig>
+      </choice>
+      это не дается,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        несомненное
+       </reg>
+       <orig>
+        несомнѣнное
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        знание
+       </reg>
+       <orig>
+        знаніе
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        имеющее
+       </reg>
+       <orig>
+        имѣющее
+       </orig>
+      </choice>
+      сверхъестественное
+      <choice>
+       <reg>
+        происхождение
+       </reg>
+       <orig>
+        происхожденіе
+       </orig>
+      </choice>
+      , то оно доказывается и объясняется, и тогда оно становится наукой —
+      <choice>
+       <reg>
+        философией
+       </reg>
+       <orig>
+        философіей
+       </orig>
+      </choice>
+      .) Но
+      <choice>
+       <reg>
+        так
+       </reg>
+       <orig>
+        такъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      ребенку и
+      <choice>
+       <reg>
+        юноше
+       </reg>
+       <orig>
+        юношѣ
+       </orig>
+      </choice>
+      нельзя передать
+      <choice>
+       <reg>
+        философского
+       </reg>
+       <orig>
+        философскаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        учения
+       </reg>
+       <orig>
+        ученія
+       </orig>
+      </choice>
+      , не насилуя его, ибо по нетвердости своего ума и
+      <choice>
+       <reg>
+        диалектики
+       </reg>
+       <orig>
+        діалектики
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      , не будучи
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        силах
+       </reg>
+       <orig>
+        силахъ
+       </orig>
+      </choice>
+      отрицать,
+      <choice>
+       <reg>
+        примет
+       </reg>
+       <orig>
+        приметъ
+       </orig>
+      </choice>
+      всякое [
+      <choice>
+       <reg>
+        учение
+       </reg>
+       <orig>
+        ученіе
+       </orig>
+      </choice>
+      ], то
+      <choice>
+       <reg>
+        философия
+       </reg>
+       <orig>
+        философія
+       </orig>
+      </choice>
+      никогда не могла быть передаваема и не передавалась
+      <choice>
+       <reg>
+        растущим
+       </reg>
+       <orig>
+        растущимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        поколениям
+       </reg>
+       <orig>
+        поколѣніямъ
+       </orig>
+      </choice>
+      , а всегда передавалась
+      <choice>
+       <reg>
+        вера
+       </reg>
+       <orig>
+        вѣра
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="248fbe0c-6f6a-4879-9e4d-d6107603d98b">
      <choice>
       <reg>
        Везде
@@ -15992,263 +16021,265 @@
     </p>
     <p id="16b68252-7439-4b5f-94e8-776500638e4e">
      <del type="reconstructed">
-     <choice>
-      <reg>
-       Бывают
-      </reg>
-      <orig>
-       Бываютъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     жизни
-     <choice>
-      <reg>
-       отдельных
-      </reg>
-      <orig>
-       отдѣльныхъ
-      </orig>
-     </choice>
-     людей времена, когда [
-     <choice>
-      <reg>
-       человек
-      </reg>
-      <orig>
-       человѣкъ
-      </orig>
-     </choice>
-     ]
-     <add n="n249" stage="в подлиннике">
-      <span data-class="paragraph" id="5c81bdfc-463c-4526-8d48-cb2957e972ba">
-       <choice>
-        <reg>
-         он
-        </reg>
-        <orig>
-         онъ
-        </orig>
-       </choice>
-      </span>
-     </add>
-     отдается
-     <choice>
-      <reg>
-       одним
-      </reg>
-      <orig>
-       однимъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       страстям
-      </reg>
-      <orig>
-       страстямъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       забывает
-      </reg>
-      <orig>
-       забываетъ
-      </orig>
-     </choice>
-     смерть,
-     <choice>
-      <reg>
-       бывает
-      </reg>
-      <orig>
-       бываетъ
-      </orig>
-     </choice>
-     , что
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       вспоминает
-      </reg>
-      <orig>
-       вспоминаетъ
-      </orig>
-     </choice>
-     ее и не
-     <choice>
-      <reg>
-       находит
-      </reg>
-      <orig>
-       находитъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       объяснения
-      </reg>
-      <orig>
-       объясненія
-      </orig>
-     </choice>
-     жизни,
-     <choice>
-      <reg>
-       верований
-      </reg>
-      <orig>
-       вѣрованій
-      </orig>
-     </choice>
-     , или
-     <choice>
-      <reg>
-       находит
-      </reg>
-      <orig>
-       находитъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       такие
-      </reg>
-      <orig>
-       такія
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       которые
-      </reg>
-      <orig>
-       которыя
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       более
-      </reg>
-      <orig>
-       болѣе
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       удовлетворяют
-      </reg>
-      <orig>
-       удовлетворяютъ
-      </orig>
-     </choice>
-     его и
-     <choice>
-      <reg>
-       ищет
-      </reg>
-      <orig>
-       ищетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       новые
-      </reg>
-      <orig>
-       новыя
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       находит
-      </reg>
-      <orig>
-       находитъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       их
-      </reg>
-      <orig>
-       ихъ
-      </orig>
-     </choice>
-     или смиряясь возвращается
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       прежним
-      </reg>
-      <orig>
-       прежнимъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Бывает
-      </reg>
-      <orig>
-       Бываетъ
-      </orig>
-     </choice>
-     , что
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     борется всю жизнь, то отдаваясь
-     <choice>
-      <reg>
-       страстям
-      </reg>
-      <orig>
-       страстямъ
-      </orig>
-     </choice>
-     , то
-     <choice>
-      <reg>
-       вере
-      </reg>
-      <orig>
-       вѣрѣ
-      </orig>
-     </choice>
-     .
-    </del></p><p id="ef442fec-7688-405f-a9a0-232b10219ee5">
+      <choice>
+       <reg>
+        Бывают
+       </reg>
+       <orig>
+        Бываютъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      жизни
+      <choice>
+       <reg>
+        отдельных
+       </reg>
+       <orig>
+        отдѣльныхъ
+       </orig>
+      </choice>
+      людей времена, когда [
+      <choice>
+       <reg>
+        человек
+       </reg>
+       <orig>
+        человѣкъ
+       </orig>
+      </choice>
+      ]
+      <add n="n249" stage="в подлиннике">
+       <span data-class="paragraph" id="5c81bdfc-463c-4526-8d48-cb2957e972ba">
+        <choice>
+         <reg>
+          он
+         </reg>
+         <orig>
+          онъ
+         </orig>
+        </choice>
+       </span>
+      </add>
+      отдается
+      <choice>
+       <reg>
+        одним
+       </reg>
+       <orig>
+        однимъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        страстям
+       </reg>
+       <orig>
+        страстямъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        забывает
+       </reg>
+       <orig>
+        забываетъ
+       </orig>
+      </choice>
+      смерть,
+      <choice>
+       <reg>
+        бывает
+       </reg>
+       <orig>
+        бываетъ
+       </orig>
+      </choice>
+      , что
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        вспоминает
+       </reg>
+       <orig>
+        вспоминаетъ
+       </orig>
+      </choice>
+      ее и не
+      <choice>
+       <reg>
+        находит
+       </reg>
+       <orig>
+        находитъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        объяснения
+       </reg>
+       <orig>
+        объясненія
+       </orig>
+      </choice>
+      жизни,
+      <choice>
+       <reg>
+        верований
+       </reg>
+       <orig>
+        вѣрованій
+       </orig>
+      </choice>
+      , или
+      <choice>
+       <reg>
+        находит
+       </reg>
+       <orig>
+        находитъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        такие
+       </reg>
+       <orig>
+        такія
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        которые
+       </reg>
+       <orig>
+        которыя
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        более
+       </reg>
+       <orig>
+        болѣе
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        удовлетворяют
+       </reg>
+       <orig>
+        удовлетворяютъ
+       </orig>
+      </choice>
+      его и
+      <choice>
+       <reg>
+        ищет
+       </reg>
+       <orig>
+        ищетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        новые
+       </reg>
+       <orig>
+        новыя
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        находит
+       </reg>
+       <orig>
+        находитъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        их
+       </reg>
+       <orig>
+        ихъ
+       </orig>
+      </choice>
+      или смиряясь возвращается
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        прежним
+       </reg>
+       <orig>
+        прежнимъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Бывает
+       </reg>
+       <orig>
+        Бываетъ
+       </orig>
+      </choice>
+      , что
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      борется всю жизнь, то отдаваясь
+      <choice>
+       <reg>
+        страстям
+       </reg>
+       <orig>
+        страстямъ
+       </orig>
+      </choice>
+      , то
+      <choice>
+       <reg>
+        вере
+       </reg>
+       <orig>
+        вѣрѣ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="ef442fec-7688-405f-a9a0-232b10219ee5">
      <choice>
       <reg>
        С
@@ -16751,144 +16782,147 @@
      </choice>
      правильность и законченность.
     </p>
-    <p id="ac374f36-5de4-499f-ada5-2218f03f3cfd"><del>
-     <choice>
-      <reg>
-       Так
-      </reg>
-      <orig>
-       Такъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       последния
-      </reg>
-      <orig>
-       послѣднія
-      </orig>
-     </choice>
-     два
-     <choice>
-      <reg>
-       столетия
-      </reg>
-      <orig>
-       столѣтія
-      </orig>
-     </choice>
-     жизни
-     <choice>
-      <reg>
-       русского
-      </reg>
-      <orig>
-       русскаго
-      </orig>
-     </choice>
-     народа при
-     <choice>
-      <reg>
-       бесконечно
-      </reg>
-      <orig>
-       безконечно
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       разнообразных
-      </reg>
-      <orig>
-       разнообразныхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       положениях
-      </reg>
-      <orig>
-       положеніяхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       отдельных
-      </reg>
-      <orig>
-       отдѣльныхъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       лиц
-      </reg>
-      <orig>
-       лицъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     вопросу о
-     <choice>
-      <reg>
-       вере
-      </reg>
-      <orig>
-       вѣрѣ
-      </orig>
-     </choice>
-     , во
-     <choice>
-      <reg>
-       всем
-      </reg>
-      <orig>
-       всемъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       народе
-      </reg>
-      <orig>
-       народѣ
-      </orig>
-     </choice>
-     за это время ясно выразилось одно продолжительное и
-     <choice>
-      <reg>
-       определенно
-      </reg>
-      <orig>
-       опредѣленно
-      </orig>
-     </choice>
-     ясное
-     <choice>
-      <reg>
-       движение
-      </reg>
-      <orig>
-       движеніе
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="b74d9101-6936-4b6e-a7cd-8675aa2b8e97">
+    <p id="ac374f36-5de4-499f-ada5-2218f03f3cfd">
+     <del>
+      <choice>
+       <reg>
+        Так
+       </reg>
+       <orig>
+        Такъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        последния
+       </reg>
+       <orig>
+        послѣднія
+       </orig>
+      </choice>
+      два
+      <choice>
+       <reg>
+        столетия
+       </reg>
+       <orig>
+        столѣтія
+       </orig>
+      </choice>
+      жизни
+      <choice>
+       <reg>
+        русского
+       </reg>
+       <orig>
+        русскаго
+       </orig>
+      </choice>
+      народа при
+      <choice>
+       <reg>
+        бесконечно
+       </reg>
+       <orig>
+        безконечно
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        разнообразных
+       </reg>
+       <orig>
+        разнообразныхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        положениях
+       </reg>
+       <orig>
+        положеніяхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        отдельных
+       </reg>
+       <orig>
+        отдѣльныхъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        лиц
+       </reg>
+       <orig>
+        лицъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      вопросу о
+      <choice>
+       <reg>
+        вере
+       </reg>
+       <orig>
+        вѣрѣ
+       </orig>
+      </choice>
+      , во
+      <choice>
+       <reg>
+        всем
+       </reg>
+       <orig>
+        всемъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        народе
+       </reg>
+       <orig>
+        народѣ
+       </orig>
+      </choice>
+      за это время ясно выразилось одно продолжительное и
+      <choice>
+       <reg>
+        определенно
+       </reg>
+       <orig>
+        опредѣленно
+       </orig>
+      </choice>
+      ясное
+      <choice>
+       <reg>
+        движение
+       </reg>
+       <orig>
+        движеніе
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="b74d9101-6936-4b6e-a7cd-8675aa2b8e97">
      И
      <choice>
       <reg>
@@ -17064,7 +17098,9 @@
       </span>
      </note>
     </p>
-    <metamark function="line"/>
+    <p id="d0be2a25-a244-430b-bf3f-f6e4e62d91d1">
+     <metamark function="line"/>
+    </p>
     <p id="a116672a-9f12-4480-8e27-c065ac6f0a1b">
      Судить людей я не буду. Я буду описывать только
      <add n="n251" stage="в подлиннике">
@@ -20892,20 +20928,24 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006002005">
-    <head n="level2" type="editorial">
-     * № 29.
-    </head>
-    <head n="level2" type="chapter">
-     <choice>
-      <reg>
-       Конспект
-      </reg>
-      <orig>
-       Конспектъ
-      </orig>
-     </choice>
-     .
-    </head>
+    <p id="e392a3bd-1586-4595-8ce4-02d48c4d0e66">
+     <head n="level2" type="editorial">
+      * № 29.
+     </head>
+    </p>
+    <p id="70ab3577-f0ce-440a-ae8e-3a0737868987">
+     <head n="level2" type="chapter">
+      <choice>
+       <reg>
+        Конспект
+       </reg>
+       <orig>
+        Конспектъ
+       </orig>
+      </choice>
+      .
+     </head>
+    </p>
     <p id="4a68054b-9a92-4c36-8cea-a83385d12874">
      <hi rend="italic">
       <choice>
@@ -20969,7 +21009,9 @@
     <p id="49fe04bc-e271-4276-a71f-698b39832603">
      Забыть смерть можно, отдаваясь страстямъ, возбуждая ихъ. Смыслъ жизни, не уничтожаемый смертью — вѣра и подчиненіе ея ученію своей жизни. Въ борьбѣ между этими двумя направленіями воли — весь смыслъ и интересъ какъ всякой частной жизни, такъ и жизни народовъ.
     </p>
-    <metamark function="line"/>
+    <p id="2189f063-d675-49c1-af49-3cfb18a6a3f7">
+     <metamark function="line"/>
+    </p>
     <p id="afadb2a1-b281-46af-a170-7001bdb6f238">
      Хочу описать эту борьбу за 100
      <ref target="#note264">
@@ -21268,10 +21310,14 @@
      </choice>
      .
     </p>
-    <metamark function="line"/>
-    <head n="level2" type="chapter">
-     I часть. I Глава.
-    </head>
+    <p id="d2d689e4-4de0-4a6d-8569-ea90c1de01c0">
+     <metamark function="line"/>
+    </p>
+    <p id="2a73b901-cfa1-4cdc-ba83-c79cde013263">
+     <head n="level2" type="chapter">
+      I часть. I Глава.
+     </head>
+    </p>
     <p id="5677df71-9367-4c64-b34e-a5568cc29394">
      <choice>
       <reg>
@@ -26273,7 +26319,9 @@
      </choice>
      разбираться.
     </p>
-    <metamark function="line"/>
+    <p id="d1873fef-f438-42ab-b153-cbbc05a62251">
+     <metamark function="line"/>
+    </p>
     <p id="871a03ed-66d5-4245-a12a-e6760e1ad425">
      Оставшись одна,
      <choice>
@@ -28230,9 +28278,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006002006">
-    <head n="level2" type="editorial">
-     № 30.
-    </head>
+    <p id="fd54b6db-8659-41dd-af5b-71b3272d5ecd">
+     <head n="level2" type="editorial">
+      № 30.
+     </head>
+    </p>
     <p id="efc538fc-c047-460e-bd9f-f8e753fbb7f0">
      <choice>
       <reg>
@@ -30843,9 +30893,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006002007">
-    <head n="level2" type="editorial">
-     *№ 31.
-    </head>
+    <p id="1e906572-1510-42ab-9da7-ef899772755c">
+     <head n="level2" type="editorial">
+      *№ 31.
+     </head>
+    </p>
     <p id="4a87df40-adca-4f0d-a506-a239f0df2a97">
      156
      <choice>
@@ -32162,9 +32214,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006002008">
-    <head n="level2" type="editorial">
-     * № 32.
-    </head>
+    <p id="d88a0b4d-10da-457e-ad4b-97a3082b9809">
+     <head n="level2" type="editorial">
+      * № 32.
+     </head>
+    </p>
     <p id="a4c32dc7-b33f-4e24-9dbf-9fdb00bcdb89">
      <choice>
       <reg>
@@ -32376,12 +32430,16 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006002009">
-    <head n="level2" type="editorial">
-     * № 33.
-    </head>
-    <head n="level2" type="chapter">
-     1.
-    </head>
+    <p id="5974def7-959f-4fa1-ac6a-538bd42fcd2d">
+     <head n="level2" type="editorial">
+      * № 33.
+     </head>
+    </p>
+    <p id="c6f7e09e-a83f-4114-8a6c-06169b102489">
+     <head n="level2" type="chapter">
+      1.
+     </head>
+    </p>
     <p id="40f729e9-2dd2-4801-af9d-578770592c9e">
      <choice>
       <reg>
@@ -33818,7 +33876,9 @@
      </choice>
      иногда, когда приказывала матушка или бабушка.
     </p>
-    <metamark function="line"/>
+    <p id="86822a80-da9e-44ae-9834-58e3b7148ed7">
+     <metamark function="line"/>
+    </p>
    </div>
   </body>
  </text>

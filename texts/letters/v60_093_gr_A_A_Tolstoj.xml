@@ -1,133 +1,167 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v60_093_gr_A_A_Tolstoj">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо гр. А. А. Толстой с 18 октября 1857 г. по 20 октября 1857 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо гр. А. А. Толстой, 18 октября 1857 г. — 20 октября 1857 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="86b371a1-40fb-4b67-90a1-56c678444cc7">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 60</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1949"/>
-                        </imprint>
-                        <biblScope unit="vol">60</biblScope>
-                        <biblScope unit="page">228-231</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl/>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date notBefore="1857-10-18" notAfter="1857-10-20"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="13812">Толстая Александра Андреевна</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">93</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="gr.A.A.Tolstoj_93">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v60_093_gr_A_A_Tolstoj">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо гр. А. А. Толстой с 18 октября 1857 г. по 20 октября 1857 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо гр. А. А. Толстой, 18 октября 1857 г. — 20 октября 1857 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="86b371a1-40fb-4b67-90a1-56c678444cc7">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 60
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1949"/>
+      </imprint>
+      <biblScope unit="vol">
+       60
+      </biblScope>
+      <biblScope unit="page">
+       228-231
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl/>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date notAfter="1857-10-20" notBefore="1857-10-18"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="13812">
+      Толстая Александра Андреевна
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   93
+  </number>
+ </xenoData>
+ <text xml:id="gr.A.A.Tolstoj_93" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
-    <pb n="228"/>
-    <opener index="false">
-     93.
-     <name placement="text" ref="13812" type="person">
-      Гр. А. А. Толстой
-     </name>
-     .1857 г. Октября 18—20? Москва.
-    </opener>
+    <p id="53d483b7-337e-4b30-ae0f-6376ed823042">
+     <pb n="228"/>
+    </p>
+    <p id="96f37060-6970-4ccb-a3d5-28463f5ab9cf">
+     <opener index="false">
+      93.
+      <name placement="text" ref="13812" type="person">
+       Гр. А. А. Толстой
+      </name>
+      .1857 г. Октября 18—20? Москва.
+     </opener>
+    </p>
     <p id="e51f46d7-7580-4da2-ae27-8ec0634f5dea" rend="Obrashenie">
      Милая бабушка!
     </p>
@@ -179,10 +213,14 @@
      </note>
      череп:
     </p>
-    <lb/>
+    <p id="1e4e5931-e3cb-434c-83c6-85b6aab76402">
+     <lb/>
+    </p>
     <div rend="image">
      <figure>
-      <graphic url="./img/b00002367.png"/>
+      <p id="48ac6f24-b683-40dd-b320-fd781f96f17f">
+       <graphic url="./img/b00002367.png"/>
+      </p>
      </figure>
     </div>
     <p class="left" id="407c1094-d5e9-44f3-b0fe-854ddf07e831">
@@ -193,10 +231,14 @@
     </p>
     <div rend="image">
      <figure>
-      <graphic url="./img/b00002370.png"/>
+      <p id="93dba3de-60ae-4b25-9911-3bb1ea4ed3cb">
+       <graphic url="./img/b00002370.png"/>
+      </p>
      </figure>
     </div>
-    <lb/>
+    <p id="435f1396-3e47-4e36-99d6-0ef4897699ed">
+     <lb/>
+    </p>
     <p id="569f540e-059e-45b9-aee2-dc9b5c31e46d">
      и наоборот, когда дождик, дурной желудок, правда пожмут левую, тоже коридор весь загораживается.
     </p>
@@ -205,10 +247,14 @@
     </p>
     <div rend="image">
      <figure>
-      <graphic url="./img/b00002374.png"/>
+      <p id="182e2877-84ae-4a67-82b6-975b883cf1cb">
+       <graphic url="./img/b00002374.png"/>
+      </p>
      </figure>
     </div>
-    <lb/>
+    <p id="d90be02f-9a23-4268-a5f7-5ca0995b969f">
+     <lb/>
+    </p>
     <p id="f6bb3bdc-1d59-4089-a8cd-316671855f85" rend="emptyline">
      <pb n="230"/>
     </p>
@@ -217,10 +263,14 @@
     </p>
     <div rend="image">
      <figure>
-      <graphic url="./img/b00002378.png"/>
+      <p id="d2d1f1c8-07e9-43c8-b12a-7201ea6ab126">
+       <graphic url="./img/b00002378.png"/>
+      </p>
      </figure>
     </div>
-    <lb/>
+    <p id="98ca9845-77c5-446c-a04b-f6938b1d5b40">
+     <lb/>
+    </p>
     <p id="faf2634f-516c-4b41-a447-48db42f85503">
      Итак, едучи верхом, пружина хорошего расположения пожалась, и ящики выскочили все. В том числе и ваш ящик. Потом стали убираться понемногу, а ваш ящик, Бог знает по какому праву, выскочил весь, — стал поперек в коридоре и загородил всю дорогу. Так что весьма долго я им одним занимался и всё ехал и мысленно писал вам предлинное письмо. Но, приехав домой, в коридор надо было пропустить новые штуки, именно вопрос о том, как рассудить подравшегося мужика с женой, вопрос о покупке лесу и т. п., и эти вопросы самым грубым манером полезли напролом в коридор. Ежели бы я не успел запрятать в свое место ваш ящик, они бы сломали его. Одним словом, в этот же день я начал писать вам письмо, но уж не писалось, и я так и бросил его.
     </p>

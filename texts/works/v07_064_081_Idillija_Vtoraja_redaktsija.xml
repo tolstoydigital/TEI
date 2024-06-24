@@ -1,559 +1,583 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v07_064_081_Idillija_Vtoraja_redaktsija" resp="volume_editor">
-                    [Идиллия. Вторая редакция]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Идиллия.</title>
-                <title type="sub" resp="volume_editor">Вторая редакция</title>
-                <title type="bibl">Толстой Л. Н. [Идиллия. Вторая редакция] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 64–81.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="bfbeb55b-6aa6-43a1-bd8c-d9622f0c06d6">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Идиллия. Вторая редакция]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 7
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">7</biblScope>
-                        <biblScope unit="page">64-81</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v07_064_081_Idillija_Vtoraja_redaktsija">
+     [Идиллия. Вторая редакция]. Произведения. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Идиллия.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Вторая редакция
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Идиллия. Вторая редакция] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 7. М.: Гос. изд. «Художественная литература», 1936. С. 64–81.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="bfbeb55b-6aa6-43a1-bd8c-d9622f0c06d6">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Идиллия. Вторая редакция]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 7
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       7
+      </biblScope>
+      <biblScope unit="page">
+       64-81
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012">
     <p id="90c28f3a-c4d0-4b09-bd86-c5af1a553245">
      <pb n="64"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
-     </hi>
-    </head>
+    <p id="abd51d38-9e33-4cf9-8c90-12332e0883a6">
+     <head rend="center">
+      <hi rend="strong">
+       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000012002">
-    <head rend="center">
-     <hi rend="strong">
-      ** [ИДИЛЛИЯ.]
-     </hi>
-    </head>
+    <p id="fd03a19c-20b1-4540-961f-537ba0420650">
+     <head rend="center">
+      <hi rend="strong">
+       ** [ИДИЛЛИЯ.]
+      </hi>
+     </head>
+    </p>
     <div>
      <p id="c0442c93-1cd1-4216-8fa6-b23c9be5e547" rend="center">
       <hi rend="italic">
        [ВТОРАЯ РЕДАКЦИЯ]
       </hi>
      </p>
-     <head n="level1">
-      ОНО ЗАРАБОТКИ ХОРОШО, ДА И
-      <choice>
-       <reg>
-        ГРЕХ
-       </reg>
-       <orig>
-        ГРѢХЪ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        БЫВАЕТ
-       </reg>
-       <orig>
-        БЫВАЕТЪ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        ОТ
-       </reg>
-       <orig>
-        ОТЪ
-       </orig>
-      </choice>
-      ТОГО.
-     </head>
+     <p id="7912da00-4fef-4039-9096-646d8a485961">
+      <head n="level1">
+       ОНО ЗАРАБОТКИ ХОРОШО, ДА И
+       <choice>
+        <reg>
+         ГРЕХ
+        </reg>
+        <orig>
+         ГРѢХЪ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         БЫВАЕТ
+        </reg>
+        <orig>
+         БЫВАЕТЪ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         ОТ
+        </reg>
+        <orig>
+         ОТЪ
+        </orig>
+       </choice>
+       ТОГО.
+      </head>
+     </p>
     </div>
    </div>
    <div type="section" xml:id="h000012002002">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      1.
-     </hi>
-    </head>
+    <p id="cf3dbc01-f3f4-4eb1-9a47-8a8fbf515ca5">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       1.
+      </hi>
+     </head>
+    </p>
     <p id="94432861-5b85-4ed5-b1c9-60555ef6fe01">
      <del type="reconstructed">
-     <choice>
-      <reg>
-       Петр
-      </reg>
-      <orig>
-       Петръ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Евстратьич
-      </reg>
-      <orig>
-       Евстратьичъ
-      </orig>
-     </choice>
-     теперь большой
-     <choice>
-      <reg>
-       человек
-      </reg>
-      <orig>
-       человѣкъ
-      </orig>
-     </choice>
-     —
-     <choice>
-      <reg>
-       управляющий
-      </reg>
-      <orig>
-       управляющій
-      </orig>
-     </choice>
-     . Легко сказать,
-     <choice>
-      <reg>
-       над
-      </reg>
-      <orig>
-       надъ
-      </orig>
-     </choice>
-     двумя деревнями
-     <choice>
-      <reg>
-       начальник
-      </reg>
-      <orig>
-       начальникъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       барин
-      </reg>
-      <orig>
-       баринъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       повелевает
-      </reg>
-      <orig>
-       повелѣваетъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Один
-      </reg>
-      <orig>
-       Одинъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сын
-      </reg>
-      <orig>
-       сынъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       купцах
-      </reg>
-      <orig>
-       купцахъ
-      </orig>
-     </choice>
-     , другой
-     <choice>
-      <reg>
-       чиновник
-      </reg>
-      <orig>
-       чиновникъ
-      </orig>
-     </choice>
-     , за дочерью,
-     <choice>
-      <reg>
-       сказывают
-      </reg>
-      <orig>
-       сказываютъ
-      </orig>
-     </choice>
-     , 5 000
-     <choice>
-      <reg>
-       приданого
-      </reg>
-      <orig>
-       приданаго
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       дал
-      </reg>
-      <orig>
-       далъ
-      </orig>
-     </choice>
-     ; да и
-     <choice>
-      <reg>
-       сам
-      </reg>
-      <orig>
-       самъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       живет
-      </reg>
-      <orig>
-       живетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       холе
-      </reg>
-      <orig>
-       холѣ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       барин
-      </reg>
-      <orig>
-       баринъ
-      </orig>
-     </choice>
-     , каждый
-     <choice>
-      <reg>
-       год
-      </reg>
-      <orig>
-       годъ
-      </orig>
-     </choice>
-     деньги
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     Москву
-     <choice>
-      <reg>
-       посылают
-      </reg>
-      <orig>
-       посылаютъ
-      </orig>
-     </choice>
-     . — А такой же
-     <choice>
-      <reg>
-       наш
-      </reg>
-      <orig>
-       нашъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       брат
-      </reg>
-      <orig>
-       братъ
-      </orig>
-     </choice>
-     —
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       мужиков
-      </reg>
-      <orig>
-       мужиковъ
-      </orig>
-     </choice>
-     взялся, Евстрата Трегубова
-     <choice>
-      <reg>
-       сын
-      </reg>
-      <orig>
-       сынъ
-      </orig>
-     </choice>
-     . Да и не Евстрата
-     <choice>
-      <reg>
-       сын
-      </reg>
-      <orig>
-       сынъ
-      </orig>
-     </choice>
-     оно;
-     <choice>
-      <reg>
-       ведь
-      </reg>
-      <orig>
-       вѣдь
-      </orig>
-     </choice>
-     только по
-     <choice>
-      <reg>
-       сказкам
-      </reg>
-      <orig>
-       сказкамъ
-      </orig>
-     </choice>
-     числится
-     <choice>
-      <reg>
-       Евстратовым
-      </reg>
-      <orig>
-       Евстратовымъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сыном
-      </reg>
-      <orig>
-       сыномъ
-      </orig>
-     </choice>
-     , а настоящее
-     <choice>
-      <reg>
-       дело
-      </reg>
-      <orig>
-       дѣло
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       вот
-      </reg>
-      <orig>
-       вотъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     было. —
-     <choice>
-      <reg>
-       Известно
-      </reg>
-      <orig>
-       Извѣстно
-      </orig>
-     </choice>
-     , чей бы
-     <choice>
-      <reg>
-       бычок
-      </reg>
-      <orig>
-       бычокъ
-      </orig>
-     </choice>
-     не
-     <choice>
-      <reg>
-       скакал
-      </reg>
-      <orig>
-       скакалъ
-      </orig>
-     </choice>
-     , а теля то наше.
-    </del></p><p id="5047c6f0-c45b-48fc-a2aa-92a38891debb">
+      <choice>
+       <reg>
+        Петр
+       </reg>
+       <orig>
+        Петръ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Евстратьич
+       </reg>
+       <orig>
+        Евстратьичъ
+       </orig>
+      </choice>
+      теперь большой
+      <choice>
+       <reg>
+        человек
+       </reg>
+       <orig>
+        человѣкъ
+       </orig>
+      </choice>
+      —
+      <choice>
+       <reg>
+        управляющий
+       </reg>
+       <orig>
+        управляющій
+       </orig>
+      </choice>
+      . Легко сказать,
+      <choice>
+       <reg>
+        над
+       </reg>
+       <orig>
+        надъ
+       </orig>
+      </choice>
+      двумя деревнями
+      <choice>
+       <reg>
+        начальник
+       </reg>
+       <orig>
+        начальникъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        барин
+       </reg>
+       <orig>
+        баринъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        повелевает
+       </reg>
+       <orig>
+        повелѣваетъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Один
+       </reg>
+       <orig>
+        Одинъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сын
+       </reg>
+       <orig>
+        сынъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        купцах
+       </reg>
+       <orig>
+        купцахъ
+       </orig>
+      </choice>
+      , другой
+      <choice>
+       <reg>
+        чиновник
+       </reg>
+       <orig>
+        чиновникъ
+       </orig>
+      </choice>
+      , за дочерью,
+      <choice>
+       <reg>
+        сказывают
+       </reg>
+       <orig>
+        сказываютъ
+       </orig>
+      </choice>
+      , 5 000
+      <choice>
+       <reg>
+        приданого
+       </reg>
+       <orig>
+        приданаго
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        дал
+       </reg>
+       <orig>
+        далъ
+       </orig>
+      </choice>
+      ; да и
+      <choice>
+       <reg>
+        сам
+       </reg>
+       <orig>
+        самъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        живет
+       </reg>
+       <orig>
+        живетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        холе
+       </reg>
+       <orig>
+        холѣ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        барин
+       </reg>
+       <orig>
+        баринъ
+       </orig>
+      </choice>
+      , каждый
+      <choice>
+       <reg>
+        год
+       </reg>
+       <orig>
+        годъ
+       </orig>
+      </choice>
+      деньги
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      Москву
+      <choice>
+       <reg>
+        посылают
+       </reg>
+       <orig>
+        посылаютъ
+       </orig>
+      </choice>
+      . — А такой же
+      <choice>
+       <reg>
+        наш
+       </reg>
+       <orig>
+        нашъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        брат
+       </reg>
+       <orig>
+        братъ
+       </orig>
+      </choice>
+      —
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        мужиков
+       </reg>
+       <orig>
+        мужиковъ
+       </orig>
+      </choice>
+      взялся, Евстрата Трегубова
+      <choice>
+       <reg>
+        сын
+       </reg>
+       <orig>
+        сынъ
+       </orig>
+      </choice>
+      . Да и не Евстрата
+      <choice>
+       <reg>
+        сын
+       </reg>
+       <orig>
+        сынъ
+       </orig>
+      </choice>
+      оно;
+      <choice>
+       <reg>
+        ведь
+       </reg>
+       <orig>
+        вѣдь
+       </orig>
+      </choice>
+      только по
+      <choice>
+       <reg>
+        сказкам
+       </reg>
+       <orig>
+        сказкамъ
+       </orig>
+      </choice>
+      числится
+      <choice>
+       <reg>
+        Евстратовым
+       </reg>
+       <orig>
+        Евстратовымъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сыном
+       </reg>
+       <orig>
+        сыномъ
+       </orig>
+      </choice>
+      , а настоящее
+      <choice>
+       <reg>
+        дело
+       </reg>
+       <orig>
+        дѣло
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        вот
+       </reg>
+       <orig>
+        вотъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      было. —
+      <choice>
+       <reg>
+        Известно
+       </reg>
+       <orig>
+        Извѣстно
+       </orig>
+      </choice>
+      , чей бы
+      <choice>
+       <reg>
+        бычок
+       </reg>
+       <orig>
+        бычокъ
+       </orig>
+      </choice>
+      не
+      <choice>
+       <reg>
+        скакал
+       </reg>
+       <orig>
+        скакалъ
+       </orig>
+      </choice>
+      , а теля то наше.
+     </del>
+    </p>
+    <p id="5047c6f0-c45b-48fc-a2aa-92a38891debb">
      И мудреное
      <choice>
       <reg>
@@ -683,248 +707,251 @@
      </choice>
      .
     </p>
-    <p id="ffcdf1ac-354e-4e1d-bd94-0f3e7cbba2e4"><del>
-     Что молодость то
-     <choice>
-      <reg>
-       значит
-      </reg>
-      <orig>
-       значитъ
-      </orig>
-     </choice>
-     . Теперь бы бабушка Маланька сама себя не узнала, какой она была
-     <choice>
-      <reg>
-       лет
-      </reg>
-      <orig>
-       лѣтъ
-      </orig>
-     </choice>
-     40 тому. Тогда ее не бабушкой звали, а — Маланька Дунаиха, за то что она первая хороводница, плясунья, игрица первая по
-     <choice>
-      <reg>
-       деревне
-      </reg>
-      <orig>
-       деревнѣ
-      </orig>
-     </choice>
-     была.
-     <choice>
-      <reg>
-       Худого
-      </reg>
-      <orig>
-       Худаго
-      </orig>
-     </choice>
-     за ней и тогда, до
-     <choice>
-      <reg>
-       этого
-      </reg>
-      <orig>
-       этаго
-      </orig>
-     </choice>
-     случая, ничего не было, только веселая бой-баба была.
-     <choice>
-      <reg>
-       Из
-      </reg>
-      <orig>
-       Изъ
-      </orig>
-     </choice>
-     деревни она была не
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     нашей, а
-     <choice>
-      <reg>
-       из
-      </reg>
-      <orig>
-       изъ
-      </orig>
-     </choice>
-     Малевки,
-     <choice>
-      <reg>
-       сосватал
-      </reg>
-      <orig>
-       сосваталъ
-      </orig>
-     </choice>
-     ее
-     <choice>
-      <reg>
-       Евстратов
-      </reg>
-      <orig>
-       Евстратовъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       отец
-      </reg>
-      <orig>
-       отецъ
-      </orig>
-     </choice>
-     за сына, по знакомству ли, или что
-     <choice>
-      <reg>
-       невест
-      </reg>
-      <orig>
-       невѣстъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       своих
-      </reg>
-      <orig>
-       своихъ
-      </orig>
-     </choice>
-     не было, только чужая она.
-     <choice>
-      <reg>
-       Старик
-      </reg>
-      <orig>
-       Старикъ
-      </orig>
-     </choice>
-     еще
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       поре
-      </reg>
-      <orig>
-       порѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     , на сына другую землю
-     <choice>
-      <reg>
-       принял
-      </reg>
-      <orig>
-       принялъ
-      </orig>
-     </choice>
-     и
-     <choice>
-      <reg>
-       жил
-      </reg>
-      <orig>
-       жилъ
-      </orig>
-     </choice>
-     исправно; лошадей
-     <choice>
-      <reg>
-       голов
-      </reg>
-      <orig>
-       головъ
-      </orig>
-     </choice>
-     8 было
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     жеребятами,
-     <choice>
-      <reg>
-       две
-      </reg>
-      <orig>
-       двѣ
-      </orig>
-     </choice>
-     коровы, пчелки были (и теперь у
-     <choice>
-      <reg>
-       них
-      </reg>
-      <orig>
-       нихъ
-      </orig>
-     </choice>
-     ведется та же порода). Барщина была по Божьему, му́ки не было; свекровь хозяйка настоящая была, одна за
-     <choice>
-      <reg>
-       троих
-      </reg>
-      <orig>
-       троихъ
-      </orig>
-     </choice>
-     работала;
-     <choice>
-      <reg>
-       кроме
-      </reg>
-      <orig>
-       кромѣ
-      </orig>
-     </choice>
-     того солдатка, ихняя сестра,
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     ними жила, подсобляла.
-     <choice>
-      <reg>
-       Так
-      </reg>
-      <orig>
-       Такъ
-      </orig>
-     </choice>
-     что молодайка нужды не видала.</del>
-    </p><p id="f04764b1-f9d3-43ad-a92f-a2c5334afb7f">
+    <p id="ffcdf1ac-354e-4e1d-bd94-0f3e7cbba2e4">
+     <del>
+      Что молодость то
+      <choice>
+       <reg>
+        значит
+       </reg>
+       <orig>
+        значитъ
+       </orig>
+      </choice>
+      . Теперь бы бабушка Маланька сама себя не узнала, какой она была
+      <choice>
+       <reg>
+        лет
+       </reg>
+       <orig>
+        лѣтъ
+       </orig>
+      </choice>
+      40 тому. Тогда ее не бабушкой звали, а — Маланька Дунаиха, за то что она первая хороводница, плясунья, игрица первая по
+      <choice>
+       <reg>
+        деревне
+       </reg>
+       <orig>
+        деревнѣ
+       </orig>
+      </choice>
+      была.
+      <choice>
+       <reg>
+        Худого
+       </reg>
+       <orig>
+        Худаго
+       </orig>
+      </choice>
+      за ней и тогда, до
+      <choice>
+       <reg>
+        этого
+       </reg>
+       <orig>
+        этаго
+       </orig>
+      </choice>
+      случая, ничего не было, только веселая бой-баба была.
+      <choice>
+       <reg>
+        Из
+       </reg>
+       <orig>
+        Изъ
+       </orig>
+      </choice>
+      деревни она была не
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      нашей, а
+      <choice>
+       <reg>
+        из
+       </reg>
+       <orig>
+        изъ
+       </orig>
+      </choice>
+      Малевки,
+      <choice>
+       <reg>
+        сосватал
+       </reg>
+       <orig>
+        сосваталъ
+       </orig>
+      </choice>
+      ее
+      <choice>
+       <reg>
+        Евстратов
+       </reg>
+       <orig>
+        Евстратовъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        отец
+       </reg>
+       <orig>
+        отецъ
+       </orig>
+      </choice>
+      за сына, по знакомству ли, или что
+      <choice>
+       <reg>
+        невест
+       </reg>
+       <orig>
+        невѣстъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        своих
+       </reg>
+       <orig>
+        своихъ
+       </orig>
+      </choice>
+      не было, только чужая она.
+      <choice>
+       <reg>
+        Старик
+       </reg>
+       <orig>
+        Старикъ
+       </orig>
+      </choice>
+      еще
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        поре
+       </reg>
+       <orig>
+        порѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      , на сына другую землю
+      <choice>
+       <reg>
+        принял
+       </reg>
+       <orig>
+        принялъ
+       </orig>
+      </choice>
+      и
+      <choice>
+       <reg>
+        жил
+       </reg>
+       <orig>
+        жилъ
+       </orig>
+      </choice>
+      исправно; лошадей
+      <choice>
+       <reg>
+        голов
+       </reg>
+       <orig>
+        головъ
+       </orig>
+      </choice>
+      8 было
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      жеребятами,
+      <choice>
+       <reg>
+        две
+       </reg>
+       <orig>
+        двѣ
+       </orig>
+      </choice>
+      коровы, пчелки были (и теперь у
+      <choice>
+       <reg>
+        них
+       </reg>
+       <orig>
+        нихъ
+       </orig>
+      </choice>
+      ведется та же порода). Барщина была по Божьему, му́ки не было; свекровь хозяйка настоящая была, одна за
+      <choice>
+       <reg>
+        троих
+       </reg>
+       <orig>
+        троихъ
+       </orig>
+      </choice>
+      работала;
+      <choice>
+       <reg>
+        кроме
+       </reg>
+       <orig>
+        кромѣ
+       </orig>
+      </choice>
+      того солдатка, ихняя сестра,
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      ними жила, подсобляла.
+      <choice>
+       <reg>
+        Так
+       </reg>
+       <orig>
+        Такъ
+       </orig>
+      </choice>
+      что молодайка нужды не видала.
+     </del>
+    </p>
+    <p id="f04764b1-f9d3-43ad-a92f-a2c5334afb7f">
      По старинному порядку, выдали ее
      <choice>
       <reg>
@@ -2871,11 +2898,13 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002003">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      2.
-     </hi>
-    </head>
+    <p id="de298c27-1ec5-4c5f-aa30-3798c27d2f26">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       2.
+      </hi>
+     </head>
+    </p>
     <p id="f1adfecb-95e8-45b6-94d6-bae77ee7262a">
      <del>
       Между
@@ -7437,11 +7466,13 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002004">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      3.
-     </hi>
-    </head>
+    <p id="8ad725a3-1544-4594-8b8b-ba44fe87ffc9">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       3.
+      </hi>
+     </head>
+    </p>
     <p id="a20997b3-3e9f-4434-8352-c16e7ce077bf">
      <choice>
       <reg>
@@ -13613,11 +13644,13 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002005">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      4.
-     </hi>
-    </head>
+    <p id="1f0e0425-a2bb-46ca-8a62-5d016ed88fbb">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       4.
+      </hi>
+     </head>
+    </p>
     <p id="b73deb3f-e29e-40ae-aecf-e46d22c87e8d">
      <choice>
       <reg>
@@ -17598,11 +17631,13 @@
     </p>
    </div>
    <div type="section" xml:id="h000012002006">
-    <head n="level2" type="chapter">
-     <hi rend="strong">
-      5.
-     </hi>
-    </head>
+    <p id="d0086f93-02bb-46ae-b665-afd6046edb6c">
+     <head n="level2" type="chapter">
+      <hi rend="strong">
+       5.
+      </hi>
+     </head>
+    </p>
     <p id="6ef1c62b-0971-4c48-96a3-1d13a4dbebe5">
      Пришла домой,
      <choice>

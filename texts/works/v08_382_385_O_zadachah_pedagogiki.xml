@@ -1,149 +1,165 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v08_382_385_O_zadachah_pedagogiki" resp="volume_editor">
-                    [О задачах педагогики]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">О задачах педагогики.</title>
-                <title type="sub">«Образование — благо...»</title>
-                <title type="bibl">Толстой Л. Н. [О задачах педагогики] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 8. М.: Гос. изд. «Художественная литература», 1936. С. 382–385.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="de343115-2b5e-4ba2-94f6-ff2fe1038fbb">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [О задачах педагогики]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 8
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">8</biblScope>
-                        <biblScope unit="page">382-385</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#nonfiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#pedagogika" target="topic"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v08_382_385_O_zadachah_pedagogiki">
+     [О задачах педагогики]. Произведения. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     О задачах педагогики.
+    </title>
+    <title type="sub">
+     «Образование — благо...»
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [О задачах педагогики] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 8. М.: Гос. изд. «Художественная литература», 1936. С. 382–385.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="de343115-2b5e-4ba2-94f6-ff2fe1038fbb">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [О задачах педагогики]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 8
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       8
+      </biblScope>
+      <biblScope unit="page">
+       382-385
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#nonfiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#pedagogika" target="topic"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="d1257ae0-58d6-4cd6-be25-0e72fa538f3e">
      <pb n="382"/>
     </p>
-    <head rend="center margin_16px_0px_4px_0px notindent">
-     <hi rend="strong">
-      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
-     </hi>
-     <lb/>
-     <hi rend="strong">
-      И НЕОКОНЧЕННОЕ.
-     </hi>
-    </head>
+    <p id="c417936d-9d88-49e3-84ee-517f63508709">
+     <head rend="center margin_16px_0px_4px_0px notindent">
+      <hi rend="strong">
+       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
+      </hi>
+      <lb/>
+      <hi rend="strong">
+       И НЕОКОНЧЕННОЕ.
+      </hi>
+     </head>
+    </p>
     <div>
      <p id="e3399a6e-06d4-404d-a165-c03399f14ed1">
       <hi rend="italic">
@@ -153,9 +169,11 @@
     </div>
    </div>
    <div type="section" xml:id="h000011003">
-    <head rend="center margin_16px_0px_4px_0px notindent">
-     *[О ЗАДАЧАХ ПЕДАГОГИИ.]
-    </head>
+    <p id="45f61c9f-1c3f-4ebc-8b20-358693e4f40f">
+     <head rend="center margin_16px_0px_4px_0px notindent">
+      *[О ЗАДАЧАХ ПЕДАГОГИИ.]
+     </head>
+    </p>
     <p id="d47b3a1b-9b63-44a8-accc-7efb7877de3f" rend="center">
      I.
     </p>
@@ -675,7 +693,9 @@
        мнѣ
       </orig>
      </choice>
-     <num type="fraction" value="1/1000">1/1000</num>
+     <num type="fraction" value="1/1000">
+      1/1000
+     </num>
      доли
      <choice>
       <reg>
@@ -2235,7 +2255,9 @@
      <pb n="384"/>
      отвлеченной,философской, а не исторической и опытной. —Педагогіявсе ещехочетъбытьтеоріей, все ещехочетъобразоватьчеловѣка, все носится ещесъидеалами, все еще нехочетънизойти или подняться на степень науки опытной, толькоизученіемъзаконовъсвоего объэкта получаю[щей]знаніевредныхъиполезныхъусловійобразованія. ЗадачейПедагогіибыло —образованіенаилучшагочеловѣка, задачейПедагогіидолжно бытьизученіечеловѣкаи, сообразнознаніюего,удовлетвореніеего потребностейобразованія. Необразованіечеловѣкавообще должно быть задачейПедагогіи, аобразованіенаилучшагоПринцаПрусскаговъ1860 году,имѣющагоубогагодядю, такого-то отца и находящагосявъПруссіиприеянастоящемъразвитіи, илиобразованіеНегравътакомъ-тоштатѣ,имѣющагозлагохозяина,слѣпуюмать и3-хъсестеръ.—Всѣэтиусловіязаконны и педагогическицѣлесообразны,ихъне только не нужно устранить, но нанихъбезсознательностроится всеобразов[аніе.]Такая задача невозможнабезъпомощи свободывыраженіяпедагогической потребности. Свобода жедаетънесомнѣнныяуказаніянаусловія,которыядолжны быть устранены, на потребности,которыядолжны найтиудовлетворенія.Доставленіеорудійнаибольшагокругадѣйствійвъжизни, какой быонънибылъ, есть единственная задачаПедагогіи.
     </p>
-    <lb/>
+    <p id="68599dda-a2dc-4734-97e4-4c347aeb2297">
+     <lb/>
+    </p>
     <p id="0937585f-ce78-4df8-8824-747751b6fa71">
      <choice>
       <reg>
@@ -2843,7 +2865,9 @@
      </choice>
      . —
     </p>
-    <lb/>
+    <p id="e13d17d8-cc41-4162-b664-da977a7f1d3c">
+     <lb/>
+    </p>
     <p id="6c7ce5a5-0f07-4e09-9ea8-5612a5babf37">
      <ref target="#note71">
       71
@@ -3095,7 +3119,9 @@
      </choice>
      .
     </p>
-    <lb/>
+    <p id="522e6d80-2fed-49dd-afd0-0b7d2d224e84">
+     <lb/>
+    </p>
     <p id="75f1af28-6a65-4505-a653-5d1ddebae2a4">
      <choice original_editorial_correction="Нап[олеонъ]">
       <sic>
@@ -3159,7 +3185,9 @@
       </orig>
      </choice>
     </p>
-    <lb/>
+    <p id="8e2b14b6-7fdf-48f4-b074-e921d4d0c776">
+     <lb/>
+    </p>
     <table>
      <row>
       <cell>
@@ -3242,12 +3270,18 @@
        </p>
       </cell>
       <cell>
-       <lb/>
+       <p id="349d0e67-e022-42a7-8332-e0f3bed43fd6">
+        <lb/>
+       </p>
       </cell>
      </row>
     </table>
-    <lb/>
-    <metamark function="line"/>
+    <p id="55191007-d3b1-46cd-aac4-3f51113acbc0">
+     <lb/>
+    </p>
+    <p id="8df016cd-f292-4e02-baa1-332ac54bcbe8">
+     <metamark function="line"/>
+    </p>
    </div>
   </body>
  </text>

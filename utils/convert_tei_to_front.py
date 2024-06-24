@@ -23,7 +23,9 @@ XMLNS = 'http://www.tei-c.org/ns/1.0'
 
 
 def is_descendant_of_p(tag: etree._Element, tag_type='p') -> bool:
-    """Also used for <l>"""
+    """
+    Проверяет, имеет ли тег родителя с тегом tag_type (по умолчанию <p>).
+    """
     for parent in tag.iterancestors():
         if parent.tag.replace(f'{{{XMLNS}}}', '') == tag_type:
             return True
@@ -31,12 +33,19 @@ def is_descendant_of_p(tag: etree._Element, tag_type='p') -> bool:
 
 
 def get_p_ancestor(tag: etree._Element, tag_type='p') -> etree.Element:
+    """
+    Возвращает родителя с тегом tag_type (по умолчанию <p>)
+    """
     for parent in tag.iterancestors():
         if parent.tag.replace(f'{{{XMLNS}}}', '') == tag_type:
             return parent
 
 
 def get_all_uuids(path: Path) -> set[str]:
+    """
+    Собирает p@id и l@id у всех XML-документов в папке path
+    плюс все category@uuid из taxonomy.xml.
+    """
     ids = set()
     ids_list = []
     for path, dirs, files in os.walk(path):
@@ -70,6 +79,9 @@ def get_all_uuids(path: Path) -> set[str]:
 
 
 def generate_new_uuid(uuids: set[str]) -> str:
+    """
+    Генерирует uuidv4, уникальный относительно множества uuids
+    """
     while True:
         uuid = str(uuid4())
         if uuid not in uuids:
@@ -78,7 +90,12 @@ def generate_new_uuid(uuids: set[str]) -> str:
 
 
 def wrap_tag_in_p(tag: etree._Element, uuids: set[str], root: etree._Element) -> None:
-    """лажа с индентацией"""
+    """
+    Оборачивает тег tag в <p> с атрибутом id, равным uuidv4,
+    уникальному относительно множества uuids.
+
+    TODO: разобраться с проблемой индентации
+    """
 
     def get_indentation_level(tag, root, uuid):
         """неправильно работает (но не принципиально)"""
@@ -105,6 +122,11 @@ def wrap_tag_in_p(tag: etree._Element, uuids: set[str], root: etree._Element) ->
 
 
 def wrap_unwrapped_tags_in_p_tag(root: etree._Element, uuids: set[str]) -> None:
+    """
+    Оборачивает в p@id=uuidv4 все теги 
+    кроме 'p', 'l', 'lg', 'noteGrp', 'div', 'table', 'cit', 'row', 'cell', 'tr', 'td', 'div1', 'bibl',
+    если они не прямые потомки <body> или <noteGrp> и при этом не вложены ни в <p>, ни в <l>.
+    """
     body_tag = root.xpath('//ns:body', namespaces={'ns': XMLNS})[0]
     for tag in body_tag.iterdescendants():
         tag_name = tag.tag.replace(f'{{{XMLNS}}}', '')
@@ -120,7 +142,9 @@ def wrap_unwrapped_tags_in_p_tag(root: etree._Element, uuids: set[str]) -> None:
 
 
 def add_uuids_to_existing_p_and_l(root: etree._Element, uuids: set[str]) -> None:
-    """добавить uuid где не было"""
+    """
+    Добавляет @id=uuidv4 всем тегам <p> и <l>, если этого атрибута не было изначально.
+    """
     tags = root.xpath('//ns:p', namespaces={'ns': XMLNS})
     tags.extend(root.xpath('//ns:l', namespaces={'ns': XMLNS}))
     for tag in tags:
@@ -378,6 +402,11 @@ def check_paragraphs(root: etree._Element) -> bool:
 
 
 def change_epigraphs(root: etree._Element) -> None:
+    """
+    Извлекает все <p ...@attrs>[content]</p> из <epigraph>,
+    заменяет их на <p ...@attrs><span class="epigraph">[content]</span></p>
+    и заменяет <epigraph> на последовательность извлечённых <p>-тегов.
+    """
     for epigraph_tag in root.xpath('//ns:epigraph', namespaces={'ns': XMLNS}):
         future_spans = []
         for tag in epigraph_tag.iterdescendants():
@@ -448,6 +477,9 @@ def replace_self_closing_tags(root: etree._Element) -> None:
 
 
 def fix_roman_digits_in_page_range(root: etree._Element) -> None:
+    """
+    Заменяет римские цифры на арабские в biblScope@unit="page"
+    """
     pages_tag = root.xpath('//ns:biblScope[@unit="page"]', namespaces={'ns': XMLNS})[0]
     first, last = pages_tag.text.strip().split('-')
     if not first.isnumeric() or not last.isnumeric():

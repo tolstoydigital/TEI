@@ -1,147 +1,165 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v20_003_013_Plany_i_zametki_k_Anne_Kareninoj">
-                    Планы и заметки к «Анне Карениной». Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Анна Каренина.</title>
-                <title type="sub" resp="volume_editor">Планы и заметки</title>
-                <title type="bibl">Толстой Л. Н. Планы и заметки к «Анне Карениной» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 20. М.: Гос. изд. «Художественная литература», 1939. С. 3–13.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="ef127dec-53c7-484c-baa9-33dbf8278810">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Планы и заметки к «Анне Карениной»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 20
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1939"/>
-                        </imprint>
-                        <biblScope unit="volume">20</biblScope>
-                        <biblScope unit="page">3-13</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1878"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#novel" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v20_003_013_Plany_i_zametki_k_Anne_Kareninoj">
+     Планы и заметки к «Анне Карениной». Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Анна Каренина.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Планы и заметки
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Планы и заметки к «Анне Карениной» // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 20. М.: Гос. изд. «Художественная литература», 1939. С. 3–13.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="ef127dec-53c7-484c-baa9-33dbf8278810">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Планы и заметки к «Анне Карениной»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 20
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1939"/>
+      </imprint>
+      <biblScope unit="volume">
+       20
+      </biblScope>
+      <biblScope unit="page">
+       3-13
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1878"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#novel" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000009002">
     <p id="484cd0b8-1de0-4b5e-89d7-51183251b87f">
      <pb n="3"/>
     </p>
-    <head n="level1" type="editorial">
-     ПЛАНЫ И ЗАМЕТКИ К «АННЕ КАРЕНИНОЙ».
-    </head>
+    <p id="2b3aba6c-1d72-4083-9a7a-f0f8f781145b">
+     <head n="level1" type="editorial">
+      ПЛАНЫ И ЗАМЕТКИ К «АННЕ КАРЕНИНОЙ».
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000009002001">
-    <head>
-     * № 1 (рук. № 1).
-    </head>
+    <p id="d1552b9d-049e-4422-9132-227dc5573d6f">
+     <head>
+      * № 1 (рук. № 1).
+     </head>
+    </p>
     <p id="a2b2cd0a-f048-4460-935b-d0cafc0cf230">
      <choice>
       <reg>
@@ -240,9 +258,11 @@
      </choice>
      Гагина.
     </p>
-    <head n="level2" type="part">
-     1 часть.
-    </head>
+    <p id="9c3e6c4c-13f0-4b58-b355-525e4c7a25b2">
+     <head n="level2" type="part">
+      1 часть.
+     </head>
+    </p>
     <p id="a4c0e866-2b0d-4291-958a-94ee4b624060">
      <hi rend="italic">
       1 глава.
@@ -601,9 +621,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="part">
-     2 часть.
-    </head>
+    <p id="8b51a233-84cf-47d2-b51d-4398061bb11c">
+     <head n="level2" type="part">
+      2 часть.
+     </head>
+    </p>
     <p id="be48ee1e-2d41-4890-ac0c-68c4441345cc">
      <hi rend="italic">
       1 глава.
@@ -874,122 +896,124 @@
     </p>
     <p id="a989b1f3-1097-4667-aad1-2abbcab8ea13">
      <del type="reconstructed">
-     <hi rend="italic">
-      3 глава.
-     </hi>
-     <choice>
-      <reg>
-       Читает
-      </reg>
-      <orig>
-       Читаетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       все
-      </reg>
-      <orig>
-       всѣ
-      </orig>
-     </choice>
-     романы,
-     <choice>
-      <reg>
-       изучает
-      </reg>
-      <orig>
-       изучаетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       вопрос
-      </reg>
-      <orig>
-       вопросъ
-      </orig>
-     </choice>
-     . Все невозможно.
-     <choice>
-      <reg>
-       Едет
-      </reg>
-      <orig>
-       Ѣдетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       Троице
-      </reg>
-      <orig>
-       Троицѣ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       встреча
-      </reg>
-      <orig>
-       встрѣча
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нигилистом
-      </reg>
-      <orig>
-       нигилистомъ
-      </orig>
-     </choice>
-     , его
-     <pb n="4"/>
-     <choice>
-      <reg>
-       утешение
-      </reg>
-      <orig>
-       утѣшеніе
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Говеет
-      </reg>
-      <orig>
-       Говѣетъ
-      </orig>
-     </choice>
-     . Телеграма. Я умираю, прошу прощенье.
-     <choice>
-      <reg>
-       Приезжай
-      </reg>
-      <orig>
-       Прiѣзжай
-      </orig>
-     </choice>
-     .
-    </del></p><p id="0344804d-c188-4cc7-8364-e4ffd8462e55">
+      <hi rend="italic">
+       3 глава.
+      </hi>
+      <choice>
+       <reg>
+        Читает
+       </reg>
+       <orig>
+        Читаетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        все
+       </reg>
+       <orig>
+        всѣ
+       </orig>
+      </choice>
+      романы,
+      <choice>
+       <reg>
+        изучает
+       </reg>
+       <orig>
+        изучаетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        вопрос
+       </reg>
+       <orig>
+        вопросъ
+       </orig>
+      </choice>
+      . Все невозможно.
+      <choice>
+       <reg>
+        Едет
+       </reg>
+       <orig>
+        Ѣдетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        Троице
+       </reg>
+       <orig>
+        Троицѣ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        встреча
+       </reg>
+       <orig>
+        встрѣча
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нигилистом
+       </reg>
+       <orig>
+        нигилистомъ
+       </orig>
+      </choice>
+      , его
+      <pb n="4"/>
+      <choice>
+       <reg>
+        утешение
+       </reg>
+       <orig>
+        утѣшеніе
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Говеет
+       </reg>
+       <orig>
+        Говѣетъ
+       </orig>
+      </choice>
+      . Телеграма. Я умираю, прошу прощенье.
+      <choice>
+       <reg>
+        Приезжай
+       </reg>
+       <orig>
+        Прiѣзжай
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="0344804d-c188-4cc7-8364-e4ffd8462e55">
      <hi rend="italic">
       3 глава.
      </hi>
@@ -1113,96 +1137,103 @@
      </choice>
      , что это невозможно.
     </p>
-    <p id="3340a7dc-03fd-4daa-9729-563057d0df05"><del>
-     <hi rend="italic">
-      6-я глава.
-     </hi>
-     <choice original_editorial_correction="Ст[епан]">
-      <sic>
-       Ст
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Степан
-        </reg>
-        <orig>
-         Степанъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice original_editorial_correction="Арк[адьич]">
-      <sic>
-       Арк
-      </sic>
-      <corr>
-       <choice>
-        <reg>
-         Аркадьич
-        </reg>
-        <orig>
-         Аркадьичъ
-        </orig>
-       </choice>
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       предлагает
-      </reg>
-      <orig>
-       предлагаетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       развод
-      </reg>
-      <orig>
-       разводъ
-      </orig>
-     </choice>
-     .
-     <choice>
-      <reg>
-       Последняя
-      </reg>
-      <orig>
-       Послѣдняя
-      </orig>
-     </choice>
-     тщетная [?],
-     <choice>
-      <reg>
-       он
-      </reg>
-      <orig>
-       онъ
-      </orig>
-     </choice>
-     соглашается и
-     <choice>
-      <reg>
-       уезжает
-      </reg>
-      <orig>
-       уѣзжаетъ
-      </orig>
-     </choice>
-     .</del>
-    </p><head n="level2" type="part">
-     &lt;3-я часть.&gt;
-    </head>
+    <p id="3340a7dc-03fd-4daa-9729-563057d0df05">
+     <del>
+      <hi rend="italic">
+       6-я глава.
+      </hi>
+      <choice original_editorial_correction="Ст[епан]">
+       <sic>
+        Ст
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Степан
+         </reg>
+         <orig>
+          Степанъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice original_editorial_correction="Арк[адьич]">
+       <sic>
+        Арк
+       </sic>
+       <corr>
+        <choice>
+         <reg>
+          Аркадьич
+         </reg>
+         <orig>
+          Аркадьичъ
+         </orig>
+        </choice>
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        предлагает
+       </reg>
+       <orig>
+        предлагаетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        развод
+       </reg>
+       <orig>
+        разводъ
+       </orig>
+      </choice>
+      .
+      <choice>
+       <reg>
+        Последняя
+       </reg>
+       <orig>
+        Послѣдняя
+       </orig>
+      </choice>
+      тщетная [?],
+      <choice>
+       <reg>
+        он
+       </reg>
+       <orig>
+        онъ
+       </orig>
+      </choice>
+      соглашается и
+      <choice>
+       <reg>
+        уезжает
+       </reg>
+       <orig>
+        уѣзжаетъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="3683ac77-3dd9-446b-b2ae-a72e9e489286">
+     <head n="level2" type="part">
+      &lt;3-я часть.&gt;
+     </head>
+    </p>
     <p id="db0882fe-d091-4d04-8348-1e987f912b78">
      <hi rend="italic">
       6 глава.
      </hi>
      Ст[епанъ] Арк[адьичъ] устроиваетъ по просьбѣ Г[агина] и Н[ана], и А[лексѣй А[лександровичъ] соглашается подставить др[угую] щеку.
     </p>
-    <head n="level2" type="part">
-     3 часть.
-    </head>
+    <p id="b742987f-b132-4686-9fab-b48edfdc6fa4">
+     <head n="level2" type="part">
+      3 часть.
+     </head>
+    </p>
     <p id="dad1ed6c-3f09-4931-b670-04542d0f186b">
      <hi rend="italic">
       1 глава.
@@ -1602,9 +1633,11 @@
      </hi>
      Установилось; онъ въ свѣтѣ, она дома, ея отчаяніе.
     </p>
-    <head n="level2" type="part">
-     4-я часть.
-    </head>
+    <p id="8836d600-8628-45e9-990d-08c6777069af">
+     <head n="level2" type="part">
+      4-я часть.
+     </head>
+    </p>
     <p id="d92becb9-b9bf-4ce3-93b8-b1dc01607824">
      <hi rend="italic">
       1 глава.
@@ -2116,9 +2149,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002002">
-    <head>
-     * № 2 (рук. № 1).
-    </head>
+    <p id="dfeb2f79-87f4-412f-af4f-1055670a1d20">
+     <head>
+      * № 2 (рук. № 1).
+     </head>
+    </p>
     <p id="0b4d0d86-a02a-4193-b4ad-50a2dc38a2e5">
      1 Она
      <choice original_editorial_correction="отврат[ительная]">
@@ -2599,12 +2634,16 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002003">
-    <head>
-     * № 3 (рук. № 1).
-    </head>
-    <head n="level2" type="editorial">
-     1.
-    </head>
+    <p id="e6bfa868-9b74-4ccd-b74a-4623f2c0f97e">
+     <head>
+      * № 3 (рук. № 1).
+     </head>
+    </p>
+    <p id="25f06890-e101-4d7f-bb89-16699dd23d48">
+     <head n="level2" type="editorial">
+      1.
+     </head>
+    </p>
     <p id="f3ad56dc-35fe-4869-bb6c-f6e754d6d6c5">
      Ссора
      <choice original_editorial_correction="Об[лонского]">
@@ -2680,9 +2719,11 @@
     <p id="9c81f84f-3968-4f99-b52a-879095450335">
      <pb n="6"/>
     </p>
-    <head n="level2" type="editorial">
-     2.
-    </head>
+    <p id="d527d1fb-b06a-43fa-b691-f11a6708ce4d">
+     <head n="level2" type="editorial">
+      2.
+     </head>
+    </p>
     <p id="2ef8d113-4def-4de3-a97d-798b70cda79c">
      <choice>
       <reg>
@@ -2762,9 +2803,11 @@
      </choice>
      деревню.
     </p>
-    <head n="level2" type="editorial">
-     3.
-    </head>
+    <p id="bf5c9f33-e54c-4e0f-afb8-523b6c1cc752">
+     <head n="level2" type="editorial">
+      3.
+     </head>
+    </p>
     <p id="5b45f092-45e8-4d23-9bfe-becfdda55d78">
      Свершилось.
      <choice>
@@ -2831,9 +2874,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="editorial">
-     4.
-    </head>
+    <p id="4c74d9e0-9707-48e3-9b55-23311d5e5c6e">
+     <head n="level2" type="editorial">
+      4.
+     </head>
+    </p>
     <p id="05b79fa0-caff-4388-a9e4-ef747848bfd4">
      <choice original_editorial_correction="Ал[ексей]">
       <sic>
@@ -2933,9 +2978,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="editorial">
-     5.
-    </head>
+    <p id="fc13ce3d-341a-4e84-88de-8b022bfcd15d">
+     <head n="level2" type="editorial">
+      5.
+     </head>
+    </p>
     <p id="cb13f46b-fd6e-46d8-8178-f1f8f18d7852">
      <choice>
       <reg>
@@ -2989,9 +3036,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="editorial">
-     6.
-    </head>
+    <p id="abe14a4e-45e9-4221-a774-058c54cd667d">
+     <head n="level2" type="editorial">
+      6.
+     </head>
+    </p>
     <p id="dcaf81f5-0409-487c-b7e2-61e85b1178e2">
      <choice>
       <reg>
@@ -3079,9 +3128,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="editorial">
-     7.
-    </head>
+    <p id="102eca94-b548-4c8b-90d5-1b2822eef742">
+     <head n="level2" type="editorial">
+      7.
+     </head>
+    </p>
     <p id="a874356c-bc3f-4c88-a9e9-034dba030099">
      <choice>
       <reg>
@@ -3153,9 +3204,11 @@
      </choice>
      и смерть ребенка.
     </p>
-    <head n="level2" type="editorial">
-     &lt;7.
-    </head>
+    <p id="41812b02-b13e-4c1d-ba84-bab3021619c5">
+     <head n="level2" type="editorial">
+      &lt;7.
+     </head>
+    </p>
     <p id="536bb7f8-57e2-4413-98d8-c8a8872bf19d">
      Ложа,
      <choice>
@@ -3251,9 +3304,11 @@
      </choice>
      .&gt;
     </p>
-    <head n="level2" type="editorial">
-     8.
-    </head>
+    <p id="138eb138-8d02-4834-8be2-3289f7672464">
+     <head n="level2" type="editorial">
+      8.
+     </head>
+    </p>
     <p id="44b7277a-4499-442a-aa85-c888cd102575">
      <choice>
       <reg>
@@ -3308,9 +3363,11 @@
      </choice>
      Кити. Мать. Смерть.&gt;
     </p>
-    <head n="level2" type="editorial">
-     8.
-    </head>
+    <p id="4bfb938d-c262-4c8e-bf11-aba037e777ca">
+     <head n="level2" type="editorial">
+      8.
+     </head>
+    </p>
     <p id="cbb1934d-8fe1-4ac1-8577-8a3b6edb77a3">
      Левины и Алабины
      <choice>
@@ -3435,12 +3492,16 @@
      </del>
      .
     </p>
-    <head n="level2" type="part">
-     4-я часть.
-    </head>
-    <head n="level2" type="editorial">
-     1.
-    </head>
+    <p id="eb765b95-3b3c-4586-89b3-2bb20885b493">
+     <head n="level2" type="part">
+      4-я часть.
+     </head>
+    </p>
+    <p id="c5819e1c-0de5-4a51-a696-6d2850359c6b">
+     <head n="level2" type="editorial">
+      1.
+     </head>
+    </p>
     <p id="6f0d99b9-0177-4ca4-a9b4-466ddc595987">
      <choice original_editorial_correction="А[лексей]">
       <sic>
@@ -3556,9 +3617,11 @@
      </choice>
      , сестра.
     </p>
-    <head n="level2" type="editorial">
-     2.
-    </head>
+    <p id="8780d5f7-697e-4cb9-a6a9-1157530dd120">
+     <head n="level2" type="editorial">
+      2.
+     </head>
+    </p>
     <p id="7b89eb4f-55af-47a1-9534-3829bb89e2fd">
      <del>
       <choice>
@@ -3649,9 +3712,11 @@
     <p id="e03d97e0-8b32-496b-b80d-9f31f69c06a7">
      <pb n="7"/>
     </p>
-    <head n="level2" type="editorial">
-     3.
-    </head>
+    <p id="9fcc2f00-a3e7-4ddf-a24c-53f2d7e068cf">
+     <head n="level2" type="editorial">
+      3.
+     </head>
+    </p>
     <p id="edde17d8-200e-44cb-b952-d8eccd1bfc5d">
      <choice original_editorial_correction="Орд[ынцев]">
       <sic>
@@ -3812,9 +3877,11 @@
       оба мужа.
      </hi>
     </p>
-    <head n="level2" type="editorial">
-     4.
-    </head>
+    <p id="2d4e1a72-06e3-42fc-b20f-4ee7f6055e5b">
+     <head n="level2" type="editorial">
+      4.
+     </head>
+    </p>
     <p id="ed7f9369-d69a-496b-9b1b-03ed282b8dd9">
      <choice>
       <reg>
@@ -3876,9 +3943,11 @@
      </choice>
      домой — нигилисты. Сцена.
     </p>
-    <head n="level2" type="editorial">
-     5.
-    </head>
+    <p id="73a7bd64-b170-4cdc-aeaf-5ad3bb8c3338">
+     <head n="level2" type="editorial">
+      5.
+     </head>
+    </p>
     <p id="07dfede2-e89e-478a-bf42-4880844e680e">
      Мать,
      <choice>
@@ -3927,9 +3996,11 @@
      </choice>
      Грабе.
     </p>
-    <head n="level2" type="editorial">
-     6.
-    </head>
+    <p id="a0b8e185-7e34-49c9-bbf7-babd56710a05">
+     <head n="level2" type="editorial">
+      6.
+     </head>
+    </p>
     <p id="cdacd56f-424f-4130-b756-5043e6792ddf">
      <choice>
       <reg>
@@ -3983,9 +4054,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="editorial">
-     7.
-    </head>
+    <p id="6c4ebc10-695a-48ca-8c43-b2a45af63c1e">
+     <head n="level2" type="editorial">
+      7.
+     </head>
+    </p>
     <p id="a617dc78-9bcb-4a42-bb70-c433df4f71f2">
      <del>
       Смерть.
@@ -4001,9 +4074,11 @@
      </choice>
      дома.
     </p>
-    <head n="level2" type="editorial">
-     8.
-    </head>
+    <p id="ccd406a2-98ac-4e78-b690-3d0ecb247fc2">
+     <head n="level2" type="editorial">
+      8.
+     </head>
+    </p>
     <p id="a1d2efe3-743a-48eb-b759-2d635e88c2fc">
      Ордынцевы и
      <choice>
@@ -4055,9 +4130,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="editorial">
-     9.
-    </head>
+    <p id="36b4b9de-f059-4660-9120-1fed832cfb97">
+     <head n="level2" type="editorial">
+      9.
+     </head>
+    </p>
     <p id="c39c14c5-3d84-4b7b-bae4-0cf9d421c21f">
      <choice>
       <reg>
@@ -4071,14 +4148,18 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002004">
-    <head>
-     * № 4 (рук. № 1).
-    </head>
-    <head n="level2" type="part">
-     <hi rend="italic">
-      1 часть.
-     </hi>
-    </head>
+    <p id="82f33665-755a-48b7-830e-3b397fa9b7e5">
+     <head>
+      * № 4 (рук. № 1).
+     </head>
+    </p>
+    <p id="f7ce93ef-1fc5-41c1-9a4b-2a016bcf9ca6">
+     <head n="level2" type="part">
+      <hi rend="italic">
+       1 часть.
+      </hi>
+     </head>
+    </p>
     <p id="99e6ffc9-1ed2-47d7-b0fb-0baa005590bf">
      1 гл.
      <choice original_editorial_correction="Ст[епан]">
@@ -4616,10 +4697,12 @@
       </span>
      </note>
     </p>
-    <head n="level2" type="part">
-     <pb n="8"/>
-     &lt;2 часть.&gt;
-    </head>
+    <p id="714f0a4e-d58d-4a3a-82c7-12f5e5d12158">
+     <head n="level2" type="part">
+      <pb n="8"/>
+      &lt;2 часть.&gt;
+     </head>
+    </p>
     <p id="250db446-2066-46a4-b24e-273d141410ce">
      1 гл.
      <choice>
@@ -5094,9 +5177,11 @@
      </del>
      — Признанье мужу.
     </p>
-    <head n="level2" type="part">
-     3 часть.
-    </head>
+    <p id="fe443876-ab55-4f99-bd9a-2375dbf281c1">
+     <head n="level2" type="part">
+      3 часть.
+     </head>
+    </p>
     <p id="c25e42ec-4456-42d5-8263-f51d0c59c73f">
      1 гл. Въ Петерб[ургѣ] встрѣч[аетъ] мужа. Объяснен[іе] между
      <choice original_editorial_correction="любо[вниками?]">
@@ -5281,11 +5366,13 @@
      </choice>
      .
     </p>
-    <head n="level2" type="part">
-     <hi rend="italic">
-      III часть.
-     </hi>
-    </head>
+    <p id="5f9b896f-97a2-4705-953a-78c8c5172df1">
+     <head n="level2" type="part">
+      <hi rend="italic">
+       III часть.
+      </hi>
+     </head>
+    </p>
     <p id="c64151ec-a000-426a-a98c-bc1dea108fc4">
      8 гл. Роды.
     </p>
@@ -5337,9 +5424,11 @@
     <p id="c9b01878-7ef5-4554-98e6-99ce2091b207">
      10 гл. Возобновило любовь.
     </p>
-    <head n="level2" type="part">
-     &lt;4 часть.
-    </head>
+    <p id="3f606607-311a-43db-af06-05808bf1a368">
+     <head n="level2" type="part">
+      &lt;4 часть.
+     </head>
+    </p>
     <p id="0f47f432-d677-4fa3-944d-4b2e9dbfe01b">
      1 гл.
      <choice original_editorial_correction="Ст[епан]">
@@ -5436,9 +5525,11 @@
     <p id="4d8cb151-27df-40c7-806b-b55d2c12facc">
      3-я глава.&gt;
     </p>
-    <head n="level2" type="part">
-     4-я часть.
-    </head>
+    <p id="f4c7e5c2-decd-4308-b72c-304a508e4f19">
+     <head n="level2" type="part">
+      4-я часть.
+     </head>
+    </p>
     <p id="f3c6214f-207c-4f6c-afae-d516091eba8e">
      <del>
       1 гл.
@@ -5673,10 +5764,12 @@
      </choice>
      .
     </p>
-    <head n="level2" type="part">
-     <pb n="9"/>
-     IV часть.
-    </head>
+    <p id="ca3ab563-ab69-4742-944d-8647c9ccb708">
+     <head n="level2" type="part">
+      <pb n="9"/>
+      IV часть.
+     </head>
+    </p>
     <p id="b0b1e12c-5075-4ada-8715-0613361e224e">
      <del>
       6 гл.
@@ -5829,9 +5922,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="part">
-     5 часть.
-    </head>
+    <p id="259037a7-6bee-4982-92f5-46fe109e7008">
+     <head n="level2" type="part">
+      5 часть.
+     </head>
+    </p>
     <p id="652c0f82-085d-43a5-a4d5-fb044a1e2e2f">
      1 гл.
      <choice original_editorial_correction="А[лексей]">
@@ -6134,9 +6229,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002005">
-    <head>
-     * № 5 (рук. № 1).
-    </head>
+    <p id="7ee560cd-e070-482b-a7e4-528865cffea7">
+     <head>
+      * № 5 (рук. № 1).
+     </head>
+    </p>
     <p id="5bf8588e-e81d-4e68-9ac8-c2072c6af625">
      Не
      <choice>
@@ -6495,9 +6592,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002006">
-    <head>
-     * № 6 (рук. № 1).
-    </head>
+    <p id="ca9253cb-5410-4ef1-af86-5fddffa2c495">
+     <head>
+      * № 6 (рук. № 1).
+     </head>
+    </p>
     <p id="af92aa4a-821e-416f-a5ed-70902ce62881">
      Она гордится
      <choice>
@@ -6758,9 +6857,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002007">
-    <head>
-     * № 7 (рук. № 1).
-    </head>
+    <p id="2baca02f-b305-441d-a6f8-5bcfc5d71348">
+     <head>
+      * № 7 (рук. № 1).
+     </head>
+    </p>
     <p id="09431db8-022b-483e-bf79-8d6d58ffdad7">
      Кити ужасно
      <choice>
@@ -7016,9 +7117,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002008">
-    <head>
-     * № 8 (рук. №.1).
-    </head>
+    <p id="50e84078-d648-4e74-8f0c-910d6b0d7cdf">
+     <head>
+      * № 8 (рук. №.1).
+     </head>
+    </p>
     <p id="c2a7910e-0cc4-47e1-a8bf-b8c09fb66567">
      <choice original_editorial_correction="Вр[онский]">
       <sic>
@@ -7212,9 +7315,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002009">
-    <head>
-     * № 9 (рук. № 1).
-    </head>
+    <p id="280fdc6d-3175-46af-ab5a-a3463482fce1">
+     <head>
+      * № 9 (рук. № 1).
+     </head>
+    </p>
     <p id="dc9846ce-bca5-4605-9bfd-dec8ad02d1d0">
      1) Начать
      <choice>
@@ -7471,9 +7576,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002010">
-    <head>
-     * № 10 (рук. № 1).
-    </head>
+    <p id="7502e02b-31b8-41a0-9ca3-f0e19850a077">
+     <head>
+      * № 10 (рук. № 1).
+     </head>
+    </p>
     <p id="a46d0c9c-6244-44ec-b1b6-c73f21a7fbc6">
      <choice>
       <reg>
@@ -7737,9 +7844,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002011">
-    <head>
-     * № 11 (рук. №38).
-    </head>
+    <p id="4c64fa92-659c-49c6-aeff-01c05eb142e6">
+     <head>
+      * № 11 (рук. №38).
+     </head>
+    </p>
     <p id="f1038ecf-162e-4e35-98d2-417b401f0397">
      Во
      <choice>
@@ -8065,9 +8174,11 @@
      </choice>
      .
     </p>
-    <head n="level2" type="part">
-     3 часть.
-    </head>
+    <p id="1acfc7bc-861f-4dd8-8a44-3eda67fec273">
+     <head n="level2" type="part">
+      3 часть.
+     </head>
+    </p>
     <p id="7c4af134-8fdb-4ebe-b361-1cf597caeadc">
      <choice>
       <reg>
@@ -8209,9 +8320,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002012">
-    <head>
-     * № 12 (рук. № 96).
-    </head>
+    <p id="a5c2f454-7cfe-48ed-bf2f-22b96cedc384">
+     <head>
+      * № 12 (рук. № 96).
+     </head>
+    </p>
     <p id="5cdf1a74-be16-46e4-b17e-9252376aade4">
      <del>
       <choice>
@@ -8492,9 +8605,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000009002013">
-    <head>
-     * № 13 (рук. № 101).
-    </head>
+    <p id="0fc1f816-af19-4674-8e09-5b1aa1021a2a">
+     <head>
+      * № 13 (рук. № 101).
+     </head>
+    </p>
     <p id="440f7f6f-6b01-4185-8779-85fae648e372">
      <choice original_editorial_correction="Слав[янский]">
       <sic>
@@ -8957,7 +9072,9 @@
      </choice>
      .
     </p>
-    <metamark function="line"/>
+    <p id="23722d09-3a3b-4a1e-83d6-6f01c308e1ba">
+     <metamark function="line"/>
+    </p>
     <p id="0e2f5349-a599-469c-8206-728d1248c905">
      Хозяйство Левина продолжало занимать его,
      <choice>

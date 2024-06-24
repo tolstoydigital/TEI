@@ -1,142 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v17_300_318_Truzhdajuschiesja_i_obremenennye" resp="volume_editor">
-                    [Труждающиеся и обремененные]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Труждающиеся и обремененные</title>
-                <title type="bibl">Толстой Л. Н. [Труждающиеся и обремененные] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 300–318.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="4efe2eb3-d40a-4fd2-8526-dc2700117739">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Труждающиеся и обремененные]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 17
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">17</biblScope>
-                        <biblScope unit="page">300-318</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1879"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v17_300_318_Truzhdajuschiesja_i_obremenennye">
+     [Труждающиеся и обремененные]. Произведения. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Труждающиеся и обремененные
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Труждающиеся и обремененные] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 300–318.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="4efe2eb3-d40a-4fd2-8526-dc2700117739">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Труждающиеся и обремененные]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 17
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       17
+      </biblScope>
+      <biblScope unit="page">
+       300-318
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1879"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011009">
     <p id="394533bb-b813-412e-b8be-35bb57d64fba">
      <pb n="300"/>
     </p>
-    <head n="level1" type="editorial">
-     * [ТРУЖДАЮЩИЕСЯ И ОБРЕМЕНЕННЫЕ.]
-    </head>
+    <p id="6e0e8bd7-c666-4fa9-903f-e1c85258ad3b">
+     <head n="level1" type="editorial">
+      * [ТРУЖДАЮЩИЕСЯ И ОБРЕМЕНЕННЫЕ.]
+     </head>
+    </p>
     <div>
      <p id="b38ce361-6555-4f47-950d-9d71027067ac" rend="center">
       (1879 г.)
@@ -144,26 +158,32 @@
     </div>
    </div>
    <div type="section" xml:id="h000011009002">
-    <head n="level2" type="editorial">
-     № 1.
-    </head>
-    <head n="level2" type="chapter">
-     <hi rend="Razradka">
-      1757
-      <choice>
-       <reg>
-        год
-       </reg>
-       <orig>
-        годъ
-       </orig>
-      </choice>
-      .
-     </hi>
-    </head>
-    <head n="level2" type="editorial">
-     1.
-    </head>
+    <p id="8eeedcd6-d961-471d-9c55-bcbe4cf15b43">
+     <head n="level2" type="editorial">
+      № 1.
+     </head>
+    </p>
+    <p id="9582b990-8447-4e7e-8f8c-57f9ad0422f1">
+     <head n="level2" type="chapter">
+      <hi rend="Razradka">
+       1757
+       <choice>
+        <reg>
+         год
+        </reg>
+        <orig>
+         годъ
+        </orig>
+       </choice>
+       .
+      </hi>
+     </head>
+    </p>
+    <p id="5601b738-750b-4d8f-a138-68771cff9149">
+     <head n="level2" type="editorial">
+      1.
+     </head>
+    </p>
     <p id="347ec880-5aec-4d0f-9c7f-3ed1ef2b1e4a">
      Князь
      <choice>
@@ -2110,9 +2130,11 @@
     </p>
    </div>
    <div type="section" xml:id="h000011009003">
-    <head n="level2" type="editorial">
-     № 2.
-    </head>
+    <p id="2f0b8d59-73eb-40d3-aa8f-11e4c6253f44">
+     <head n="level2" type="editorial">
+      № 2.
+     </head>
+    </p>
     <p id="f79d4321-bf62-4b51-8107-9d7f68b81738" rend="center">
      <hi rend="Razradka">
       Терентий
@@ -2128,9 +2150,11 @@
      </hi>
      —
     </p>
-    <head n="level2" type="editorial">
-     1.
-    </head>
+    <p id="ccc343e8-acb4-4e6d-8902-f77fd16a01d6">
+     <head n="level2" type="editorial">
+      1.
+     </head>
+    </p>
     <p id="f31028ce-aa56-47fd-b102-c720ffb97f03">
      <ref target="#note383">
       383
@@ -4574,12 +4598,16 @@
     </p>
    </div>
    <div type="section" xml:id="h000011009004">
-    <head n="level2" type="editorial">
-     №№ 3—4.
-    </head>
-    <head n="level2" type="editorial">
-     1.
-    </head>
+    <p id="12a356db-e869-4fe0-ab67-7cb55008a7c8">
+     <head n="level2" type="editorial">
+      №№ 3—4.
+     </head>
+    </p>
+    <p id="7d6cca0d-c9e0-4556-98fc-193c1abcc048">
+     <head n="level2" type="editorial">
+      1.
+     </head>
+    </p>
     <p id="06149583-d691-421b-8fca-27583b129404">
      Село Вяземское
      <choice>
@@ -5069,148 +5097,153 @@
     </p>
     <p id="3375193d-d4aa-489b-83b1-3f9bf06d6c5b">
      <del type="reconstructed">
-     <choice>
-      <reg>
-       В
-      </reg>
-      <orig>
-       Въ
-      </orig>
-     </choice>
-     ближней
-     <choice>
-      <reg>
-       стороне
-      </reg>
-      <orig>
-       сторонѣ
-      </orig>
-     </choice>
-     у церкви была Горчаковская усадьба, и
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     ней
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     1757 [году]
-     <choice>
-      <reg>
-       жил
-      </reg>
-      <orig>
-       жилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       сам
-      </reg>
-      <orig>
-       самъ
-      </orig>
-     </choice>
-     Князь
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     Княгиней и
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     тещей Матрёной
-     <choice>
-      <reg>
-       Федоровной
-      </reg>
-      <orig>
-       Ѳедоровной
-      </orig>
-     </choice>
-     Ртищевой. У церкви же жили два попа,
-     <choice>
-      <reg>
-       дьякон
-      </reg>
-      <orig>
-       дьяконъ
-      </orig>
-     </choice>
-     , дьячки. —
-    </del></p><p id="fa1dc3fa-7533-45b5-a1cb-57170d86cc8c"><del>
-     За
-     <choice>
-      <reg>
-       рекой
-      </reg>
-      <orig>
-       рѣкой
-      </orig>
-     </choice>
-     жила Скуратова, вдова, Пулхерья Ивановна. Писаревы не жили, а
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       господском
-      </reg>
-      <orig>
-       господскомъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       дворишке
-      </reg>
-      <orig>
-       дворишкѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       жил
-      </reg>
-      <orig>
-       жилъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       прикащик
-      </reg>
-      <orig>
-       прикащикъ
-      </orig>
-     </choice>
-     . —</del>
-    </p><p id="649f561b-e140-4b24-bc11-2dd2bcc983b2">
+      <choice>
+       <reg>
+        В
+       </reg>
+       <orig>
+        Въ
+       </orig>
+      </choice>
+      ближней
+      <choice>
+       <reg>
+        стороне
+       </reg>
+       <orig>
+        сторонѣ
+       </orig>
+      </choice>
+      у церкви была Горчаковская усадьба, и
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      ней
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      1757 [году]
+      <choice>
+       <reg>
+        жил
+       </reg>
+       <orig>
+        жилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        сам
+       </reg>
+       <orig>
+        самъ
+       </orig>
+      </choice>
+      Князь
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      Княгиней и
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      тещей Матрёной
+      <choice>
+       <reg>
+        Федоровной
+       </reg>
+       <orig>
+        Ѳедоровной
+       </orig>
+      </choice>
+      Ртищевой. У церкви же жили два попа,
+      <choice>
+       <reg>
+        дьякон
+       </reg>
+       <orig>
+        дьяконъ
+       </orig>
+      </choice>
+      , дьячки. —
+     </del>
+    </p>
+    <p id="fa1dc3fa-7533-45b5-a1cb-57170d86cc8c">
+     <del>
+      За
+      <choice>
+       <reg>
+        рекой
+       </reg>
+       <orig>
+        рѣкой
+       </orig>
+      </choice>
+      жила Скуратова, вдова, Пулхерья Ивановна. Писаревы не жили, а
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        господском
+       </reg>
+       <orig>
+        господскомъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        дворишке
+       </reg>
+       <orig>
+        дворишкѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        жил
+       </reg>
+       <orig>
+        жилъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        прикащик
+       </reg>
+       <orig>
+        прикащикъ
+       </orig>
+      </choice>
+      . —
+     </del>
+    </p>
+    <p id="649f561b-e140-4b24-bc11-2dd2bcc983b2">
      <choice>
       <reg>
        Барский
@@ -7924,7 +7957,9 @@
      </choice>
      младенца.
     </p>
-    <metamark function="line"/>
+    <p id="345a1793-e68d-4b34-b10f-d3675b0f789f">
+     <metamark function="line"/>
+    </p>
     <p id="02c86b77-d916-4ca7-b5e1-e3fa69d9ca1a" rend="center">
      <pb n="306"/>
     </p>
@@ -8987,9 +9022,11 @@
      </note>
      Сама она была баба не молодая, и молока у нея въ грудяхъ мало было. Пока она подкидыша держала, закричалъ ея Мишка. Она положила подкидыша въ шубу и пошла, достала на загнеткѣ горшокъ вчерашній съ кашей, наскребла тупикомъ каши, принесла молока и, набравъ въ ротъ каши и молока, нажевала, изо рта накормила своего Мишутку, дала ему груди побаловаться и потомъ уложила въ одну зыбку и подкидыша и Мишку и велѣла Аксюткѣ качать, а сама, взявъ коромысло и ведра, пошла за водой. —
     </p>
-    <head n="level2" type="chapter">
-     II.
-    </head>
+    <p id="9b8329b0-1248-467e-84a7-53c4d1b28914">
+     <head n="level2" type="chapter">
+      II.
+     </head>
+    </p>
     <p id="a896f517-a8bf-46e0-b98a-3c47f34b289f">
      <ref target="#note401">
       401
@@ -15195,20 +15232,24 @@
     </p>
    </div>
    <div type="section" xml:id="h000011009005">
-    <head n="level2" type="editorial">
-     ** № 5.
-    </head>
-    <head n="level1" type="editorial">
-     <choice>
-      <reg>
-       Труждающиеся
-      </reg>
-      <orig>
-       Труждающіеся
-      </orig>
-     </choice>
-     и обремененные.
-    </head>
+    <p id="a8bdee39-98a0-4cb6-b1f2-6a921462f15c">
+     <head n="level2" type="editorial">
+      ** № 5.
+     </head>
+    </p>
+    <p id="aac7b168-1da8-4565-845c-e26e4fe5cef5">
+     <head n="level1" type="editorial">
+      <choice>
+       <reg>
+        Труждающиеся
+       </reg>
+       <orig>
+        Труждающіеся
+       </orig>
+      </choice>
+      и обремененные.
+     </head>
+    </p>
     <epigraph>
      <cit>
       <quote>
@@ -16046,7 +16087,9 @@
     </p>
     <div rend="image">
      <figure>
-      <graphic rend="alt:" url="./img/b00002542.png"/>
+      <p id="5ceeea6c-d1fc-4cbe-b9ad-2e2c504b7bb3">
+       <graphic rend="alt:" url="./img/b00002542.png"/>
+      </p>
      </figure>
     </div>
     <p id="02adf332-2b51-435b-a647-1a4d67419a03">
@@ -22096,274 +22139,279 @@
     </p>
     <p id="0706cf59-d76a-4b1f-ab4b-925b10f581f5">
      <del type="reconstructed">
-     <choice>
-      <reg>
-       Федот
-      </reg>
-      <orig>
-       Ѳедотъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       поблагодарил
-      </reg>
-      <orig>
-       поблагодарилъ
-      </orig>
-     </choice>
-     Князя и, молча вздыхая,
-     <choice>
-      <reg>
-       пошел
-      </reg>
-      <orig>
-       пошелъ
-      </orig>
-     </choice>
-     домой; за мальчика не
-     <choice>
-      <reg>
-       стоял
-      </reg>
-      <orig>
-       стоялъ
-      </orig>
-     </choice>
-     , a
-     <choice>
-      <reg>
-       девку
-      </reg>
-      <orig>
-       дѣвку
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       обещал
-      </reg>
-      <orig>
-       обѣщалъ
-      </orig>
-     </choice>
-     отдать
-     <choice>
-      <reg>
-       замуж
-      </reg>
-      <orig>
-       замужъ
-      </orig>
-     </choice>
-     зa вдовца Игната.
-     <choice>
-      <reg>
-       Игнат
-      </reg>
-      <orig>
-       Игнатъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       был
-      </reg>
-      <orig>
-       былъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       бедный
-      </reg>
-      <orig>
-       бѣдный
-      </orig>
-     </choice>
-     смирный
-     <choice>
-      <reg>
-       мужик
-      </reg>
-      <orig>
-       мужикъ
-      </orig>
-     </choice>
-     и прежде еще
-     <choice>
-      <reg>
-       сватал
-      </reg>
-      <orig>
-       сваталъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       девку
-      </reg>
-      <orig>
-       дѣвку
-      </orig>
-     </choice>
-     . Князь
-     <choice>
-      <reg>
-       послал
-      </reg>
-      <orig>
-       послалъ
-      </orig>
-     </choice>
-     за
-     <choice>
-      <reg>
-       Игнатом
-      </reg>
-      <orig>
-       Игнатомъ
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       обещал
-      </reg>
-      <orig>
-       обѣщалъ
-      </orig>
-     </choice>
-     ему кобылу, и
-     <choice>
-      <reg>
-       Игнат
-      </reg>
-      <orig>
-       Игнатъ
-      </orig>
-     </choice>
-     согласился взять
-     <choice>
-      <reg>
-       девку
-      </reg>
-      <orig>
-       дѣвку
-      </orig>
-     </choice>
-     и отдать мальчика.
-    </del></p><p id="a4411815-9e1f-4c47-9b51-ed289b354c84"><del>
-     Мальчика окрестили
-     <choice>
-      <reg>
-       Васильем
-      </reg>
-      <orig>
-       Васильемъ
-      </orig>
-     </choice>
-     же.
-     <choice>
-      <reg>
-       Калмык
-      </reg>
-      <orig>
-       Калмыкъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       с
-      </reg>
-      <orig>
-       съ
-      </orig>
-     </choice>
-     Земчихой были восприемниками, и
-     <choice>
-      <reg>
-       мальчик
-      </reg>
-      <orig>
-       мальчикъ
-      </orig>
-     </choice>
-     остался на
-     <choice>
-      <reg>
-       попечении
-      </reg>
-      <orig>
-       попеченіи
-      </orig>
-     </choice>
-     у
-     <pb n="318"/>
-     Земчихи. Она выпаивала его на соске. Аришка ходила
-     <choice>
-      <reg>
-       проведывать
-      </reg>
-      <orig>
-       провѣдывать
-      </orig>
-     </choice>
-     . A
-     <choice>
-      <reg>
-       девка
-      </reg>
-      <orig>
-       дѣвка
-      </orig>
-     </choice>
-     скоро выздоровела, и
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     осени ее просватали за вдовца Игната
-     <choice>
-      <reg>
-       в
-      </reg>
-      <orig>
-       въ
-      </orig>
-     </choice>
-     той же деревне Пашутиной и
-     <choice>
-      <reg>
-       к
-      </reg>
-      <orig>
-       къ
-      </orig>
-     </choice>
-     <choice original_editorial_correction="Пок[рову]">
-      <sic>
-       Пок
-      </sic>
-      <corr>
-       Покрову
-      </corr>
-     </choice>
-     она вышла
-     <choice>
-      <reg>
-       замуж
-      </reg>
-      <orig>
-       замужъ
-      </orig>
-     </choice>
-     .</del>
-    </p><p id="f39de9dc-9c7f-44f8-a35b-d4c7a5cd2467">
+      <choice>
+       <reg>
+        Федот
+       </reg>
+       <orig>
+        Ѳедотъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        поблагодарил
+       </reg>
+       <orig>
+        поблагодарилъ
+       </orig>
+      </choice>
+      Князя и, молча вздыхая,
+      <choice>
+       <reg>
+        пошел
+       </reg>
+       <orig>
+        пошелъ
+       </orig>
+      </choice>
+      домой; за мальчика не
+      <choice>
+       <reg>
+        стоял
+       </reg>
+       <orig>
+        стоялъ
+       </orig>
+      </choice>
+      , a
+      <choice>
+       <reg>
+        девку
+       </reg>
+       <orig>
+        дѣвку
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        обещал
+       </reg>
+       <orig>
+        обѣщалъ
+       </orig>
+      </choice>
+      отдать
+      <choice>
+       <reg>
+        замуж
+       </reg>
+       <orig>
+        замужъ
+       </orig>
+      </choice>
+      зa вдовца Игната.
+      <choice>
+       <reg>
+        Игнат
+       </reg>
+       <orig>
+        Игнатъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        был
+       </reg>
+       <orig>
+        былъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        бедный
+       </reg>
+       <orig>
+        бѣдный
+       </orig>
+      </choice>
+      смирный
+      <choice>
+       <reg>
+        мужик
+       </reg>
+       <orig>
+        мужикъ
+       </orig>
+      </choice>
+      и прежде еще
+      <choice>
+       <reg>
+        сватал
+       </reg>
+       <orig>
+        сваталъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        девку
+       </reg>
+       <orig>
+        дѣвку
+       </orig>
+      </choice>
+      . Князь
+      <choice>
+       <reg>
+        послал
+       </reg>
+       <orig>
+        послалъ
+       </orig>
+      </choice>
+      за
+      <choice>
+       <reg>
+        Игнатом
+       </reg>
+       <orig>
+        Игнатомъ
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        обещал
+       </reg>
+       <orig>
+        обѣщалъ
+       </orig>
+      </choice>
+      ему кобылу, и
+      <choice>
+       <reg>
+        Игнат
+       </reg>
+       <orig>
+        Игнатъ
+       </orig>
+      </choice>
+      согласился взять
+      <choice>
+       <reg>
+        девку
+       </reg>
+       <orig>
+        дѣвку
+       </orig>
+      </choice>
+      и отдать мальчика.
+     </del>
+    </p>
+    <p id="a4411815-9e1f-4c47-9b51-ed289b354c84">
+     <del>
+      Мальчика окрестили
+      <choice>
+       <reg>
+        Васильем
+       </reg>
+       <orig>
+        Васильемъ
+       </orig>
+      </choice>
+      же.
+      <choice>
+       <reg>
+        Калмык
+       </reg>
+       <orig>
+        Калмыкъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        с
+       </reg>
+       <orig>
+        съ
+       </orig>
+      </choice>
+      Земчихой были восприемниками, и
+      <choice>
+       <reg>
+        мальчик
+       </reg>
+       <orig>
+        мальчикъ
+       </orig>
+      </choice>
+      остался на
+      <choice>
+       <reg>
+        попечении
+       </reg>
+       <orig>
+        попеченіи
+       </orig>
+      </choice>
+      у
+      <pb n="318"/>
+      Земчихи. Она выпаивала его на соске. Аришка ходила
+      <choice>
+       <reg>
+        проведывать
+       </reg>
+       <orig>
+        провѣдывать
+       </orig>
+      </choice>
+      . A
+      <choice>
+       <reg>
+        девка
+       </reg>
+       <orig>
+        дѣвка
+       </orig>
+      </choice>
+      скоро выздоровела, и
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      осени ее просватали за вдовца Игната
+      <choice>
+       <reg>
+        в
+       </reg>
+       <orig>
+        въ
+       </orig>
+      </choice>
+      той же деревне Пашутиной и
+      <choice>
+       <reg>
+        к
+       </reg>
+       <orig>
+        къ
+       </orig>
+      </choice>
+      <choice original_editorial_correction="Пок[рову]">
+       <sic>
+        Пок
+       </sic>
+       <corr>
+        Покрову
+       </corr>
+      </choice>
+      она вышла
+      <choice>
+       <reg>
+        замуж
+       </reg>
+       <orig>
+        замужъ
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="f39de9dc-9c7f-44f8-a35b-d4c7a5cd2467">
      Глава 2-я.
      <choice>
       <reg>

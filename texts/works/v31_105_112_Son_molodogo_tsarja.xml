@@ -1,147 +1,163 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v31_105_112_Son_molodogo_tsarja">
-                    Сон молодого царя. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Сон молодого царя</title>
-                <title type="bibl">Толстой Л. Н. Сон молодого царя // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 31. М.: Гос. изд. «Художественная литература», 1954. С. 105–112.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="57e30608-1575-4866-85e6-ebb84a038008">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Сон молодого царя
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 31
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="volume">31</biblScope>
-                        <biblScope unit="page">105-112</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1894"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#rasskaz" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v31_105_112_Son_molodogo_tsarja">
+     Сон молодого царя. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Сон молодого царя
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Сон молодого царя // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 31. М.: Гос. изд. «Художественная литература», 1954. С. 105–112.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="57e30608-1575-4866-85e6-ebb84a038008">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Сон молодого царя
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 31
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="volume">
+       31
+      </biblScope>
+      <biblScope unit="page">
+       105-112
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1894"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#rasskaz" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013">
     <p id="811cd843-f377-4cc4-80ae-76fc889303c4">
      <pb n="105"/>
     </p>
-    <head rend="center">
-     <hi rend="strong">
-      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
-     </hi>
-    </head>
+    <p id="fd146c5f-96ff-40e4-97fb-5f67e89abcfb">
+     <head rend="center">
+      <hi rend="strong">
+       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ И НЕОКОНЧЕННОЕ
+      </hi>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000013001">
-    <head n="level1">
-     СОН МОЛОДОГО ЦАРЯ
-    </head>
+    <p id="d3a05c9f-b5aa-4a4a-a817-4376f3b9f2b3">
+     <head n="level1">
+      СОН МОЛОДОГО ЦАРЯ
+     </head>
+    </p>
     <p id="068e6b19-a352-4c19-9de0-1bc20e86f390">
      Молодой царь только что вступил на царство. Пять недель он не переставая работал так, как работают цари, выслушивая доклады, подписывая бумаги, принимая послов и представляющихся сановников и делая смотры войскам. И он устал и, как измученный в жару путешественник жаждет воды и отдохновения, жаждал хоть одного дня без представлений, речей, смотров, хоть нескольких часов свободы и простой человеческой жизни, которые он мог бы прожить для себя с молодой красавицей, умной женой, с которой он обвенчался только месяц тому назад.
     </p>
@@ -408,7 +424,9 @@
     </p>
     <p id="a8d84da1-d2b9-4bda-86d9-7a8f32fd296e">
      — Но что же мне делать? — с отчаянием вскрикнул царь. — Ведь я не хочу никого мучать, сечь, развращать, убивать, — я хочу добра всем людям; если я себе хочу счастья, то я не меньше счастья желаю всем людям. И неужели я ответствен за всё то, что делается моим именем. Что же мне делать? Как мне избавиться от этой ответственности? Что мне делать? Не может быть, чтобы я был ответствен за всё это. Если бы я чувствовал себя ответственным за
-     <num type="fraction" value="1/100">1/100</num>
+     <num type="fraction" value="1/100">
+      1/100
+     </num>
      я сейчас же застрелился [бы], потому что так жить нельзя. Чем я могу прекратить всё это зло? Оно связано с существованием государства. А я стою во главе его. Как мне быть? Убить себя? Или уйти? Но тогда я не исполню своей обязанности. Боже мой, боже мой, помоги мне.
     </p>
     <p id="f948f4ab-5224-4450-b8d5-992b126afeca">

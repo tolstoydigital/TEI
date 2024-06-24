@@ -1,129 +1,165 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v81_001_F_Vasilenko">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо Ф. Василенко от 2 января 1910 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо Ф. Василенко, 2 января 1910 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 81. М.: Гос. изд. «Художественная литература», 1956. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="63ca5269-9418-4ca8-bf5b-6f8ca06ffe26">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 81</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1956"/>
-                        </imprint>
-                        <biblScope unit="vol">81</biblScope>
-                        <biblScope unit="page">11-11</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Ясная Поляна</placeName>
-                    <date when="1910-01-02"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="2272">Василенко Федор Павлович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">1</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="F.Vasilenko_1">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v81_001_F_Vasilenko">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо Ф. Василенко от 2 января 1910 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо Ф. Василенко, 2 января 1910 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 81. М.: Гос. изд. «Художественная литература», 1956. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="63ca5269-9418-4ca8-bf5b-6f8ca06ffe26">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 81
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1956"/>
+      </imprint>
+      <biblScope unit="vol">
+       81
+      </biblScope>
+      <biblScope unit="page">
+       11-11
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Ясная Поляна
+     </placeName>
+     <date when="1910-01-02"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="2272">
+      Василенко Федор Павлович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   1
+  </number>
+ </xenoData>
+ <text xml:id="F.Vasilenko_1" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
-    <pb n="11"/>
-    <opener index="false">
-     * 1. Ф. Василенко.1910 г. Января 2. Я. П.
-    </opener>
+    <p id="44d107f5-cdcf-476c-9bf8-b5224e44ab30">
+     <pb n="11"/>
+    </p>
+    <p id="2f4bb4bd-81cd-4018-af65-8865d01a1fd0">
+     <opener index="false">
+      * 1. Ф. Василенко.1910 г. Января 2. Я. П.
+     </opener>
+    </p>
     <p id="954a8405-349e-4358-b99f-1cf35591463a">
      Рад
      <choice original_editorial_correction="б[ыл]">

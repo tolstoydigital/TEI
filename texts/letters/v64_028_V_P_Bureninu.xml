@@ -1,133 +1,167 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v64_028_V_P_Bureninu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо В. П. Буренину с 1 февраля 1887 г. по 25 февраля 1887 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо В. П. Буренину, 1 февраля 1887 г. — 25 февраля 1887 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 64. М.: Гос. изд. «Художественная литература», 1953. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="639c5d62-5ce3-4528-b036-a4fd5e086d8d">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 64</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1953"/>
-                        </imprint>
-                        <biblScope unit="vol">64</biblScope>
-                        <biblScope unit="page">15-20</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl/>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date notBefore="1887-02-01" notAfter="1887-02-25"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="2064">Буренин Виктор Петрович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">28</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="V__P__Bureninu_28">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v64_028_V_P_Bureninu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо В. П. Буренину с 1 февраля 1887 г. по 25 февраля 1887 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо В. П. Буренину, 1 февраля 1887 г. — 25 февраля 1887 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 64. М.: Гос. изд. «Художественная литература», 1953. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="639c5d62-5ce3-4528-b036-a4fd5e086d8d">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 64
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="vol">
+       64
+      </biblScope>
+      <biblScope unit="page">
+       15-20
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl/>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date notAfter="1887-02-25" notBefore="1887-02-01"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="2064">
+      Буренин Виктор Петрович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   28
+  </number>
+ </xenoData>
+ <text xml:id="V__P__Bureninu_28" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
-    <pb n="15"/>
-    <opener index="false">
-     28.
-     <name placement="text" ref="2064" type="person">
-      В. П. Буренину
-     </name>
-     .1887 г. Февраля 1—25. Москва.
-    </opener>
+    <p id="97ca5a09-d804-43fb-9c8f-428d695ecac9">
+     <pb n="15"/>
+    </p>
+    <p id="17c15828-bd94-4965-8a9e-e0f0b11fe830">
+     <opener index="false">
+      28.
+      <name placement="text" ref="2064" type="person">
+       В. П. Буренину
+      </name>
+      .1887 г. Февраля 1—25. Москва.
+     </opener>
+    </p>
     <p id="dd3d214d-def2-421e-b573-b4926742886a" rend="Obrashenie">
      <name placement="text" ref="2064" type="person">
       Виктор Петрович
@@ -183,11 +217,13 @@
      </name>
      .
     </p>
-    <head rend="center">
-     <hi>
-      Черновое.
-     </hi>
-    </head>
+    <p id="47866a66-f0e6-411d-94ab-cd43d84cd60f">
+     <head rend="center">
+      <hi>
+       Черновое.
+      </hi>
+     </head>
+    </p>
     <p id="5e01500f-2360-4f3f-aa8e-45776087439d" rend="subtitle centerline">
      N. N.
     </p>
@@ -328,7 +364,9 @@
     <p id="9b1d9ccc-bdf9-4171-9b1b-654da3bd7660">
      Поверьте, что эти слова не укор и не поучение. Укорять я не могу никого, потому что сам грешил 1000 раз в том, в чем предполагаю ваш грех; а учить не могу человека, в разумности и нравственности которого уверен так же, как и в своей. А мне кажется, что со стороны иногда виднее ошибки другого. И если мы видим ошибки друг друга, портящие нашу жизнь, почему нам не помогать друг другу, указывая их?
     </p>
-    <lb/>
+    <p id="41426a9d-7357-466d-b3c1-1b8b08f9cf4d">
+     <lb/>
+    </p>
     <p id="d1873ee3-910c-4d31-9f5d-5e8740ec15fc">
      <hi>
       Черновой вариант окончания.

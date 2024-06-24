@@ -1,140 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v52_010_012_1891_02_16">
-                    Дневники. Tolstoy Digital
-                </title>
-                <title type="main">Дневник,</title>
-                <title type="sub">16 февраля 1891 г.</title>
-                <title type="bibl">Толстой Л. Н. [Дневник 1891 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 52. М.: Гос. изд. «Художественная литература», 1952. С. </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="7bef78aa-bbf6-4693-8d29-ed1fcc4c8555">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           [Дневник 1891 г.]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 52
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1952"/>
-                        </imprint>
-                        <biblScope unit="volume">52</biblScope>
-                        <biblScope unit="page">10-12</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1891-02-16"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#diaries" target="type"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v52_010_012_1891_02_16">
+     Дневники. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник,
+    </title>
+    <title type="sub">
+     16 февраля 1891 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Дневник 1891 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 52. М.: Гос. изд. «Художественная литература», 1952. С.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="7bef78aa-bbf6-4693-8d29-ed1fcc4c8555">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1891 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 52
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       52
+      </biblScope>
+      <biblScope unit="page">
+       10-12
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1891-02-16"/>
+   </creation>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <p id="7654c2fa-9466-4518-99da-0ac7015c47d0">
     <pb n="10"/>
    </p>
    <div n="v52_n22" type="entry">
-    <opener>
-     <dateline>
-      <date resp="LNT" when="1891-02-16">
-       Сейчас, нынче
-       <hi>
-        16 Ф. Я. П. 91,
-       </hi>
-      </date>
-     </dateline>
-    </opener>
+    <p id="a0ea28da-5498-42cb-9f7c-427996ee266e">
+     <opener>
+      <dateline>
+       <date resp="LNT" when="1891-02-16">
+        Сейчас, нынче
+        <hi>
+         16 Ф. Я. П. 91,
+        </hi>
+       </date>
+      </dateline>
+     </opener>
+    </p>
     <p id="ad37655c-e4d6-43d7-9794-c355c1dc947b">
      зашел к Василью с разбитыми зубами, нечистота и рубах и воздуха и холод — главное, вонь — поразили меня, хотя я знаю это давно. Да, на слова либерала,
      <choice original_editorial_correction="кот[орый]">
@@ -308,46 +324,53 @@
      </choice>
      легенда), и от сына пошел род, как песок морской, так надо быть готовым сжечь, уничтожить всё, что затеял и любишь. —
     </p>
-    <p id="5a0a8e50-3cdd-4715-9e9b-c31fb8debdc4" style="left"><del type="reconstructed"><hi>
-     </hi>
-     4) Свобода воли, говорится, в том, чтобы сознательно и свободно содействовать предустановленному порядку, закону. —
-    </del></p><p id="496dc53a-ec10-48ad-9058-0e3553bd347e" style="left"><del>
-     Я бы сказал: свобода воли состоит в том, чтобы не делать или делать то, что должно: быть пустоцветом или плодом. Свобода только в выборе между
-     <choice original_editorial_correction="пустоцвет[ом]">
-      <sic>
-       пустоцвет
-      </sic>
-      <corr>
-       пустоцветом
-      </corr>
-     </choice>
-     или плодом.
-     <choice original_editorial_correction="Пустоцв[ет]">
-      <sic>
-       Пустоцв
-      </sic>
-      <corr>
-       Пустоцвет
-      </corr>
-     </choice>
-     <choice original_editorial_correction="долж[ен]">
-      <sic>
-       долж
-      </sic>
-      <corr>
-       должен
-      </corr>
-     </choice>
-     <choice original_editorial_correction="б[ыть]">
-      <sic>
-       б
-      </sic>
-      <corr>
-       быть
-      </corr>
-     </choice>
-     , и плод должен быть. И со стороны глядя на жизнь человеческую, как и на всякую жизнь, все совершается по законам, но из себя глядя как человеку, так и...</del>
-    </p><p id="14441058-7179-4de3-b459-85b9b493f42b" style="left">
+    <p id="5a0a8e50-3cdd-4715-9e9b-c31fb8debdc4" style="left">
+     <del type="reconstructed">
+      <hi>
+      </hi>
+      4) Свобода воли, говорится, в том, чтобы сознательно и свободно содействовать предустановленному порядку, закону. —
+     </del>
+    </p>
+    <p id="496dc53a-ec10-48ad-9058-0e3553bd347e" style="left">
+     <del>
+      Я бы сказал: свобода воли состоит в том, чтобы не делать или делать то, что должно: быть пустоцветом или плодом. Свобода только в выборе между
+      <choice original_editorial_correction="пустоцвет[ом]">
+       <sic>
+        пустоцвет
+       </sic>
+       <corr>
+        пустоцветом
+       </corr>
+      </choice>
+      или плодом.
+      <choice original_editorial_correction="Пустоцв[ет]">
+       <sic>
+        Пустоцв
+       </sic>
+       <corr>
+        Пустоцвет
+       </corr>
+      </choice>
+      <choice original_editorial_correction="долж[ен]">
+       <sic>
+        долж
+       </sic>
+       <corr>
+        должен
+       </corr>
+      </choice>
+      <choice original_editorial_correction="б[ыть]">
+       <sic>
+        б
+       </sic>
+       <corr>
+        быть
+       </corr>
+      </choice>
+      , и плод должен быть. И со стороны глядя на жизнь человеческую, как и на всякую жизнь, все совершается по законам, но из себя глядя как человеку, так и...
+     </del>
+    </p>
+    <p id="14441058-7179-4de3-b459-85b9b493f42b" style="left">
      Всё чепуха. Свободы не может быть в конечном, свобода только в бесконечном. Есть в человеке бесконечное — он свободен, нет — он вещь. В процессе движения духа совершенствование есть бесконечно малое движение — оно-то и свободно — и оно-то бесконечно велико по своим последствиям,
      <choice original_editorial_correction="п[отому]">
       <sic>

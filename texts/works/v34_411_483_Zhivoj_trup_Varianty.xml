@@ -1,156 +1,180 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v34_411_483_Zhivoj_trup_Varianty">
-                    Живой труп. Варианты. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Живой труп.</title>
-                <title type="sub" resp="volume_editor">Варианты</title>
-                <title type="bibl">Толстой Л. Н. Живой труп. Варианты // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 34. М.: Гос. изд. «Художественная литература», 1952. С. 411–483.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="67e0625f-1f66-4610-ba19-42a6a154dcc2">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            Живой труп. Варианты
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 34
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1952"/>
-                        </imprint>
-                        <biblScope unit="volume">34</biblScope>
-                        <biblScope unit="page">411-483</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1900"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v34_411_483_Zhivoj_trup_Varianty">
+     Живой труп. Варианты. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Живой труп.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Варианты
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Живой труп. Варианты // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 34. М.: Гос. изд. «Художественная литература», 1952. С. 411–483.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="67e0625f-1f66-4610-ba19-42a6a154dcc2">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Живой труп. Варианты
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 34
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1952"/>
+      </imprint>
+      <biblScope unit="volume">
+       34
+      </biblScope>
+      <biblScope unit="page">
+       411-483
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1900"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="ad_hoc_1">
     <p id="0c220469-0726-40f6-b3a3-c3c6dcbee47b">
      <pb n="411"/>
     </p>
-    <head n="level1" type="draft">
-     «ЖИВОЙ ТРУП»
-    </head>
-    <div type="section">
-     <head rend="title_level3 center">
-      ВАРИАНТЫ
+    <p id="59ad24d4-d662-4e68-b6c1-c3fa1cd9af04">
+     <head n="level1" type="draft">
+      «ЖИВОЙ ТРУП»
      </head>
-     <div type="section">
-      <head rend="title_level4 left left">
-       * № 1 (рук. № 5).
+    </p>
+    <div type="section">
+     <p id="a745a08a-9ee0-4f9b-bc05-41ca433b2487">
+      <head rend="title_level3 center">
+       ВАРИАНТЫ
       </head>
+     </p>
+     <div type="section">
+      <p id="9087c143-34f1-4bfd-a5a7-516f553dd32c">
+       <head rend="title_level4 left left">
+        * № 1 (рук. № 5).
+       </head>
+      </p>
       <div>
-       <head n="level1" type="draft">
-        ТРУП
-       </head>
-       <head n="level2" type="act">
-        ДЕЙСТВУЮЩИЕ ЛИЦА
-       </head>
+       <p id="e7c9ebcf-1cbf-4f22-b8d9-bd02841b34b8">
+        <head n="level1" type="draft">
+         ТРУП
+        </head>
+       </p>
+       <p id="0a9cbde4-70f3-41c6-b048-c96ec30ef1a8">
+        <head n="level2" type="act">
+         ДЕЙСТВУЮЩИЕ ЛИЦА
+        </head>
+       </p>
        <p id="167869ad-c444-420e-bff8-2ed5af8080f8">
         <hi rend="spacing">
          Марья Васильевна Крюкова
@@ -205,15 +229,19 @@
        </p>
       </div>
       <div type="section">
-       <head n="level2" type="act">
-        ДЕЙСТВИЕ ПЕРВОЕ.
-       </head>
+       <p id="d3326811-e5fd-4cc1-b167-8064ab62019f">
+        <head n="level2" type="act">
+         ДЕЙСТВИЕ ПЕРВОЕ.
+        </head>
+       </p>
        <p id="f4befe6a-9dd2-4651-a1bf-e8a7ec94b141" rend="subtitle centerline">
         Уютная богатая гостиная. Две двери.
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ I.
-       </head>
+       <p id="72057d75-355a-44fa-a162-fa5a13fa7f35">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ I.
+        </head>
+       </p>
        <p id="afb0c361-b2b9-4d31-b2a2-5139ddd80f6a" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -243,14 +271,16 @@
        <p id="afafc2c6-885d-40a9-a9ba-0a408af05fdb">
         <pb n="412"/>
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ II.
-         </corr>
-        </choice>
-       </head>
+       <p id="f9c6d34d-247d-45ea-9221-57c173594edc">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ II.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="ef3c07b6-4782-4d5c-8b8e-21d499c1f346" rend="subtitle centerline">
         Выходит
         <hi rend="spacing">
@@ -449,14 +479,16 @@
         </hi>
         Возьмите, няня голубушка. Ну что, ты была вчера у Зверевых?
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ IV.
-         </corr>
-        </choice>
-       </head>
+       <p id="15c17021-5e21-4877-b417-dc5926c04eee">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ IV.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="2fe9e02f-3857-4db2-93e3-ee88e7f7cb77" rend="subtitle centerline">
         <hi rend="spacing">
          Лиза, Марья Васильевна
@@ -829,14 +861,16 @@
        <p id="7edfd790-618d-49dc-be71-e15239e0374f">
         Я уверена.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ V.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ V.
-         </corr>
-        </choice>
-       </head>
+       <p id="6d7fb7e4-ffc8-45b9-a17c-ac4cf0726a51">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ V.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ V.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="5f295c4f-2074-4dac-b396-18feb22b25d7" rend="subtitle centerline">
         <hi rend="spacing">
          Горничная
@@ -890,14 +924,16 @@
          (Уходит.)
         </hi>
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ VI.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ VI.
-         </corr>
-        </choice>
-       </head>
+       <p id="93bb85e3-72df-4f0e-872d-a9f594120a11">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ VI.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ VI.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="64b7ce85-980e-4802-bed0-cd84eaf909c2" rend="subtitle centerline">
         <hi rend="spacing">
          Марья Васильевна
@@ -1029,15 +1065,17 @@
          (Подходит и целует ее руку.)
         </hi>
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ
-        <choice original_editorial_correction="[VII.]">
-         <sic/>
-         <corr>
-          VII.
-         </corr>
-        </choice>
-       </head>
+       <p id="7714c6da-ad0d-46ce-94c1-264534c1fe72">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ
+         <choice original_editorial_correction="[VII.]">
+          <sic/>
+          <corr>
+           VII.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="aab5fe89-c49b-44b0-a2cc-e43feff1beaa" rend="subtitle centerline">
         <hi rend="spacing">
          Лиза, Марья Васильевна, Каренин
@@ -1287,17 +1325,21 @@
         </hi>
         .
        </p>
-       <head n="level3" type="scene">
-        КАРТИНА 2-я
-       </head>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ I.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ I.
-         </corr>
-        </choice>
-       </head>
+       <p id="5b9fb6d1-49a7-4640-b89f-5dff8d06fc1a">
+        <head n="level3" type="scene">
+         КАРТИНА 2-я
+        </head>
+       </p>
+       <p id="84a03b82-78ac-4684-99d4-080dab5d90ad">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ I.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ I.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="7f129ba3-dfa3-4ebf-a79e-1ae533a3c8a0" rend="subtitle centerline">
         Комната у цыган. Хор поет цыганскую песню (Романс).
         <hi rend="spacing">
@@ -1407,14 +1449,16 @@
        <p id="1c8d0682-2f21-45aa-84eb-f18f0ea72516">
         И зачем может доходить человек до этого восторга, а не может продолжать его. Ах, хорошо! Хорошо тебе? Ну поцелуй.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ II.
-         </corr>
-        </choice>
-       </head>
+       <p id="50a88c8c-585b-4e62-8678-5a4cc96d8a05">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ II.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="cc956623-e46c-4759-828d-bbe3c221f0dc" rend="subtitle centerline">
         <hi rend="spacing">
          Те же
@@ -1677,14 +1721,16 @@
        <p id="01dccdac-2b60-4a9e-81a4-f7f917dd86cf" rend="subtitle centerline">
         Цыгане сходятся и начинают петь, во время песни Каренин уходит.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ IV.
-         </corr>
-        </choice>
-       </head>
+       <p id="17a615ab-8419-46fa-9514-ee00d5810487">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ IV.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="bf2832b1-34db-4ca5-b15c-c67528c5eccd" rend="subtitle centerline">
         <hi rend="spacing">
          Те же
@@ -1787,12 +1833,16 @@
        </p>
       </div>
       <div type="section">
-       <head n="level2" type="act">
-        ДЕЙСТВИЕ 2.
-       </head>
-       <head n="level2" type="act">
-        ДЕЙСТВУЮЩИЕ ЛИЦА.
-       </head>
+       <p id="ac65654a-c141-480a-872d-ecc6ad9e5fee">
+        <head n="level2" type="act">
+         ДЕЙСТВИЕ 2.
+        </head>
+       </p>
+       <p id="0c2248bd-199c-48e2-abca-d904f3da3ddb">
+        <head n="level2" type="act">
+         ДЕЙСТВУЮЩИЕ ЛИЦА.
+        </head>
+       </p>
        <p id="e5431a8a-25a0-4ffe-816e-36de0050d968">
         <hi rend="spacing">
          Кн. Абрезков
@@ -1838,20 +1888,24 @@
         </hi>
         .
        </p>
-       <head n="level3" type="scene">
-        <choice original_editorial_correction="[КАРТИНА 1.]">
-         <sic/>
-         <corr>
-          КАРТИНА 1.
-         </corr>
-        </choice>
-       </head>
+       <p id="bf1c70ed-3b60-431d-a8da-fa28878b1233">
+        <head n="level3" type="scene">
+         <choice original_editorial_correction="[КАРТИНА 1.]">
+          <sic/>
+          <corr>
+           КАРТИНА 1.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="0db1480c-a64d-4066-a8c1-c15ef34b0816" rend="subtitle centerline">
         Кабинет Анны Дмитриевны. Роскошно скромный, полон сувениров.
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ I.
-       </head>
+       <p id="2f58b53f-956a-4133-90fa-5f10852375fc">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ I.
+        </head>
+       </p>
        <p id="353dcec8-3f08-4b7a-8a2d-51d8a76e6075" rend="subtitle centerline">
         <hi rend="spacing">
          Анна Дмитриевна
@@ -1890,9 +1944,11 @@
         </hi>
         .
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ II.
-       </head>
+       <p id="33b1803e-ba5c-408c-a94d-3b51b0e3a1f4">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ II.
+        </head>
+       </p>
        <p id="11a14464-8e40-45a5-86dc-296179e166bc" rend="subtitle centerline">
         <hi rend="spacing">
          Князь Абрезков
@@ -2355,14 +2411,16 @@
          </corr>
         </choice>
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ IV.
-         </corr>
-        </choice>
-       </head>
+       <p id="f99e7445-1bae-4696-a666-4acf56fb8ac6">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ IV.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="cfc301f4-a0e0-4160-9c32-897a725167f5" rend="subtitle centerline">
         <hi rend="spacing">
          Марья Дмитриевна, Абрезков
@@ -2448,15 +2506,17 @@
        <p id="1c86b5ba-3859-4d27-9348-2a0f64b06b87">
         Как вы все против меня.
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ
-        <choice original_editorial_correction="[V.]">
-         <sic/>
-         <corr>
-          V.
-         </corr>
-        </choice>
-       </head>
+       <p id="5d019e9d-3453-4654-9292-289f28585d6a">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ
+         <choice original_editorial_correction="[V.]">
+          <sic/>
+          <corr>
+           V.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="40f0f444-d59d-4976-bfc7-4f8b22aa9697" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -2670,14 +2730,16 @@
         </choice>
         прощается с обеими женщинами и уходит.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ VI.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ VI.
-         </corr>
-        </choice>
-       </head>
+       <p id="dde1e924-0f15-4250-a16b-a7a1561c787b">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ VI.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ VI.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="f688401c-57a0-4d28-bae9-02433282eb47" rend="subtitle centerline">
         <hi rend="spacing">
          Анна Дмитриевна, Лиза
@@ -2802,14 +2864,16 @@
        <p id="4f788c57-860e-48af-afa3-4862436fbc3e">
         Ах, как это всё тяжело. Но всё будем любить друг друга и бог поможет нам найти то, что мы хотим.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ VII.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ VII.
-         </corr>
-        </choice>
-       </head>
+       <p id="f80e9c34-6cb1-4152-979e-97f9378bbc63">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ VII.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ VII.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="a5d8544c-efbe-411b-90e8-9cd57dab73c9" rend="subtitle centerline">
         <hi rend="spacing">
          Виктор
@@ -2868,20 +2932,24 @@
          </span>
         </note>
        </p>
-       <head n="level3" type="scene">
-        КАРТИНА 2-я.
-       </head>
+       <p id="a9209d16-8bc4-4068-b64f-3d65a933f236">
+        <head n="level3" type="scene">
+         КАРТИНА 2-я.
+        </head>
+       </p>
        <p id="41bd40a2-966b-44f2-8364-8e35aaae5f72" rend="subtitle centerline">
         Номер в гостинице.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ I.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ I.
-         </corr>
-        </choice>
-       </head>
+       <p id="70c53bc1-9b67-4d07-ac3d-43c767d61121">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ I.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ I.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="ee7213ee-37bc-4b79-acb8-2c48028303c9">
         <hi rend="spacing">
          Федя
@@ -2904,14 +2972,16 @@
        <p id="0c527f4e-77dc-472b-8622-d7eee85dc6bb" rend="subtitle centerline">
         За дверью раздается фортепьяно и пение.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ II.
-         </corr>
-        </choice>
-       </head>
+       <p id="d96a9f4d-f6ec-44b5-b0f0-1c5bc0dea1e1">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ II.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="3140b21b-32f0-4bc7-9627-974999cefd46" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -3123,14 +3193,16 @@
        <p id="1e4ea78b-777b-474b-9722-7dcd65ce2453">
         Нет, брат, этим я не грешен. Кроме Маши никого.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ IV.
-         </corr>
-        </choice>
-       </head>
+       <p id="57132b2d-8b44-4ef4-80f0-f006a6c91625">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ IV.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="016a5e52-5822-4420-9818-ceb07140a040" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -3245,14 +3317,16 @@
        <p id="f4acbccc-7296-4b39-9875-3d5f0739cfaf">
         Так и надо. Вот это так.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ V.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ V.
-         </corr>
-        </choice>
-       </head>
+       <p id="f38e5c2d-ed75-4805-bfcd-2926c0f29a1b">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ V.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ V.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="dae3a9a1-0100-4920-a82a-b5b561fea691" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -3281,14 +3355,16 @@
        <p id="3ccda338-23ed-4265-bec3-e067a124e0ef">
         Зови, зови.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ VI.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ VI.
-         </corr>
-        </choice>
-       </head>
+       <p id="2900c996-376e-4c8d-8680-29f056782326">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ VI.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ VI.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="d8c3ff76-85af-46b8-82a0-0e1884ddf4a1" rend="subtitle centerline">
         <hi rend="spacing">
          Федя, Афросимов, Маша
@@ -3452,9 +3528,11 @@
        </p>
       </div>
       <div type="section">
-       <head n="level2" type="act">
-        ДЕЙСТВИЕ 3.
-       </head>
+       <p id="59c6a610-ed5c-41de-8b58-e0fa658762eb">
+        <head n="level2" type="act">
+         ДЕЙСТВИЕ 3.
+        </head>
+       </p>
        <p id="82c1c98f-abf2-4192-b7ee-ca509b031fca" rend="subtitle centerline">
         Квартира скромная, постель, письменный стол, диван. Федя сидит один за столом и пишет. Откидывается. Думает. Опять пишет. Перечитывает. Улыбается.
        </p>
@@ -3608,23 +3686,31 @@
        <p id="d456ccd4-019f-47c7-837e-063cf7fceb2b">
         Очень мне нужна твоя лисица. Чорт с ней. Если бы ты меня любил, ты бы не бросал место. Сто рублей в месяц всё жить можно. А то что, лисицу какую-то. И зачем я тебя полюбила.
        </p>
-       <lb/>
+       <p id="4ac378d8-c4b9-4ab9-9edc-6c4d4eab9a82">
+        <lb/>
+       </p>
        <p id="f64f21d2-21b4-4071-9493-72c8e5c4ad46">
         <pb n="436"/>
        </p>
       </div>
      </div>
      <div type="section">
-      <head rend="title_level4 left left">
-       * № 2 (рук. № 7).
-      </head>
+      <p id="c95815e7-c4f0-4c28-b791-28b36a2e14bb">
+       <head rend="title_level4 left left">
+        * № 2 (рук. № 7).
+       </head>
+      </p>
       <div>
-       <head n="level1" type="draft">
-        ТРУП.
-       </head>
-       <head n="level2" type="act">
-        ДЕЙСТВУЮЩИЕ ЛИЦА.
-       </head>
+       <p id="a8fbd7de-5e66-4df2-9411-f93b633507a5">
+        <head n="level1" type="draft">
+         ТРУП.
+        </head>
+       </p>
+       <p id="3b188459-03c4-4d0d-a766-400187ea310b">
+        <head n="level2" type="act">
+         ДЕЙСТВУЮЩИЕ ЛИЦА.
+        </head>
+       </p>
        <p id="8d78671a-547f-489f-b38e-cba55d39de45">
         <hi rend="spacing">
          Марья Васильевна Крюкова
@@ -3651,9 +3737,11 @@
        </p>
       </div>
       <div type="section">
-       <head n="level2" type="act">
-        ДЕЙСТВИЕ 1.
-       </head>
+       <p id="baad2d35-c866-4285-ab3f-c00edc1326d9">
+        <head n="level2" type="act">
+         ДЕЙСТВИЕ 1.
+        </head>
+       </p>
        <p id="98dc5d7b-feaa-4441-b4cb-18ef3d2fe96f" rend="subtitle centerline">
         <del>
          Сцена перегорожена: маленькая комната, спальня, кроватка детская с ребенком, горит ночник. Другая часть: гостиная, кабинет дамский, диван, ширмочки, письменный стол, шифоньер, много портретов. В спальне сидит
@@ -3687,9 +3775,11 @@
          Уютная гостиная. Две двери — одна отворена.
         </del>
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ I.
-       </head>
+       <p id="b858acd7-55e0-4a98-a6c1-94b3e1ab3c5a">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ I.
+        </head>
+       </p>
        <p id="5b9f30e7-b67c-434c-9ac2-32437b67667f" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -3716,14 +3806,16 @@
          (Ждет. Идет к другой двери.)
         </hi>
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ II.
-         </corr>
-        </choice>
-       </head>
+       <p id="03a7f1db-a24d-4e2a-8483-9cdd6cbef80a">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ II.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="c68e9249-10de-40bf-beaa-0e2eaf0b7d80" rend="subtitle centerline">
         <hi rend="spacing">
          Няня
@@ -3892,15 +3984,17 @@
        <p id="eb48ae82-3abc-4c66-83ea-88e2d9400d03">
         Вот те и не может быть. Деньги присланы от брата — проценты. Ох, непутевый человек!
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ II.
-         </corr>
-        </choice>
-        .
-       </head>
+       <p id="c9931a72-6f15-473c-b7a0-6f3658d2c5d3">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ II.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ II.
+          </corr>
+         </choice>
+         .
+        </head>
+       </p>
        <p id="90fc6839-7933-43d8-8143-313446c41e22" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -4175,14 +4269,16 @@
        <p id="6f64b642-3bd3-43bd-909b-fb91370e82e1">
         Я уверена.
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ IV.
-         </corr>
-        </choice>
-       </head>
+       <p id="fc241eea-6240-4cfe-8af7-7ef11a1b81a5">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ IV.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ IV.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="19c2481b-061c-44cc-93dc-cede7b6844e3" rend="subtitle centerline">
         <hi rend="spacing">
          Горничная
@@ -4232,14 +4328,16 @@
          (Уходит.)
         </hi>
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ V.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ V.
-         </corr>
-        </choice>
-       </head>
+       <p id="d8d3f42a-f493-410e-acbf-fe931c7e3df5">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ V.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ V.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="fa672566-adc1-4125-983f-ed13013500dd" rend="subtitle centerline">
         <hi rend="spacing">
          Марья Васильевна
@@ -4354,14 +4452,16 @@
          (подходит и целует ее руку).
         </hi>
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ VI.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ VI.
-         </corr>
-        </choice>
-       </head>
+       <p id="420e7735-ee64-49f2-9f71-5821a6510397">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ VI.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ VI.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="b21f381b-f519-499a-917c-687e1d565176" rend="subtitle centerline spacing">
         Лиза.
        </p>
@@ -4497,14 +4597,16 @@
          (Целует руку, уходит.)
         </hi>
        </p>
-       <head n="level3" type="yavlenie">
-        <choice original_editorial_correction="[ЯВЛЕНИЕ VII.]">
-         <sic/>
-         <corr>
-          ЯВЛЕНИЕ VII.
-         </corr>
-        </choice>
-       </head>
+       <p id="38a3cd5c-6e88-4bf3-bba4-81642dc337d0">
+        <head n="level3" type="yavlenie">
+         <choice original_editorial_correction="[ЯВЛЕНИЕ VII.]">
+          <sic/>
+          <corr>
+           ЯВЛЕНИЕ VII.
+          </corr>
+         </choice>
+        </head>
+       </p>
        <p id="1f392ab1-7e77-47e2-a973-84388190d413" rend="subtitle centerline">
         <hi rend="spacing">
          Лиза, Марья Васильевна
@@ -4582,9 +4684,11 @@
        <p id="7f9d0d4a-b199-4453-a775-1fe08b5cbc6b">
         <pb n="445"/>
        </p>
-       <head n="level3" type="scene">
-        &lt;КАРТИНА&gt; 2-я.
-       </head>
+       <p id="d2782711-670b-42d9-8fa5-1ba51dff470a">
+        <head n="level3" type="scene">
+         &lt;КАРТИНА&gt; 2-я.
+        </head>
+       </p>
        <p id="46440866-a854-463e-9782-efcf0a576498" rend="subtitle centerline">
         Комната у цыган. Хор поет цыганскую песню.
         <hi rend="spacing">
@@ -5119,9 +5223,11 @@
        </p>
       </div>
       <div type="section">
-       <head n="level2" type="act">
-        &lt;ДЕЙСТВИЕ 3-ье.
-       </head>
+       <p id="2c532f0d-ff7c-4467-9dc6-7174c3dd8808">
+        <head n="level2" type="act">
+         &lt;ДЕЙСТВИЕ 3-ье.
+        </head>
+       </p>
        <p id="cbcce814-6574-477a-8e9f-8f9147411c5d" rend="subtitle centerline">
         <hi rend="spacing">
          Федя
@@ -5437,13 +5543,17 @@
       </div>
      </div>
      <div type="section">
-      <head rend="title_level4 left left">
-       * № 3 (рук. № 8).
-      </head>
-      <div type="section">
-       <head n="level2" type="act">
-        &lt;ДЕЙСТВИЕ 1-е.
+      <p id="e45ccb19-1b3d-46fe-8d2a-cbf86374681a">
+       <head rend="title_level4 left left">
+        * № 3 (рук. № 8).
        </head>
+      </p>
+      <div type="section">
+       <p id="d1de551e-c299-4073-a06c-ce0ebbdfd11e">
+        <head n="level2" type="act">
+         &lt;ДЕЙСТВИЕ 1-е.
+        </head>
+       </p>
        <p id="8f310648-25d3-4555-bea7-48bd8a144cfd" rend="subtitle centerline">
         Сцена представляет кабинет дамский: мягкая мебель, письменный стол, портреты и веера.
         <hi rend="spacing">
@@ -5605,16 +5715,22 @@
       </div>
      </div>
      <div type="section">
-      <head rend="title_level4 left left">
-       * № 4 (рук. №№ 9 и 5).
-      </head>
+      <p id="dd4c2214-735a-42f5-8968-67cea1e68d83">
+       <head rend="title_level4 left left">
+        * № 4 (рук. №№ 9 и 5).
+       </head>
+      </p>
       <div type="section">
-       <head n="level2" type="act">
-        ДЕЙСТВИЕ ПЕРВОЕ.
-       </head>
-       <head n="level3" type="scene">
-        КАРТИНА 1-я.
-       </head>
+       <p id="8e442e65-5d25-47be-a1ae-c78885ad13d8">
+        <head n="level2" type="act">
+         ДЕЙСТВИЕ ПЕРВОЕ.
+        </head>
+       </p>
+       <p id="3e8cf7cf-57b7-418c-8454-6e8445b7b7bf">
+        <head n="level3" type="scene">
+         КАРТИНА 1-я.
+        </head>
+       </p>
        <p id="67063fc9-0aea-4589-9358-6da8a3c11e4b" rend="subtitle centerline">
         <hi rend="spacing">
          Анна Павловна
@@ -6850,22 +6966,26 @@
       </div>
      </div>
      <div type="section">
-      <head rend="title_level4 left left">
-       * № 5 (рук. № 10).
-      </head>
-      <div type="section">
-       <head n="level2" type="act">
-        &lt;
-        <choice original_editorial_correction="Д[ЕЙСТВИЕ]">
-         <sic>
-          Д
-         </sic>
-         <corr>
-          ДЕЙСТВИЕ
-         </corr>
-        </choice>
-        1.
+      <p id="8e359425-bc6f-48f2-a30e-9428d0116c68">
+       <head rend="title_level4 left left">
+        * № 5 (рук. № 10).
        </head>
+      </p>
+      <div type="section">
+       <p id="b2762d0a-32e0-4bb0-8454-7ee611477e4f">
+        <head n="level2" type="act">
+         &lt;
+         <choice original_editorial_correction="Д[ЕЙСТВИЕ]">
+          <sic>
+           Д
+          </sic>
+          <corr>
+           ДЕЙСТВИЕ
+          </corr>
+         </choice>
+         1.
+        </head>
+       </p>
        <p id="051a24c5-f921-4ccb-8b9e-20049862f451" rend="subtitle centerline">
         Сидят за чаем
         <hi rend="spacing">
@@ -7130,16 +7250,22 @@
       </div>
      </div>
      <div type="section">
-      <head rend="title_level4 left left">
-       * № 6 (рук. № 11).
-      </head>
+      <p id="edcc47e7-b478-4cc4-a847-e9ce3c37100f">
+       <head rend="title_level4 left left">
+        * № 6 (рук. № 11).
+       </head>
+      </p>
       <div type="section">
-       <head n="level2" type="act">
-        ДЕЙСТВИЕ 1.
-       </head>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ 1.
-       </head>
+       <p id="a8d373b4-0f9f-4a9e-849e-2c7d0730f21b">
+        <head n="level2" type="act">
+         ДЕЙСТВИЕ 1.
+        </head>
+       </p>
+       <p id="28e31ad4-1ef3-4a35-b355-f5cb38de8a43">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ 1.
+        </head>
+       </p>
        <p id="32657e31-c111-44a3-b544-e76463c42b5c" rend="subtitle centerline">
         <ref target="#note265">
          265
@@ -7367,9 +7493,11 @@
        <p id="e468eb19-e8be-45cf-a344-290ba5be6f7c">
         <pb n="468"/>
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ 2.
-       </head>
+       <p id="5b29b289-cde0-4422-a56d-e01cd1898fba">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ 2.
+        </head>
+       </p>
        <p id="df123209-3b00-489c-8bca-4ad301f92ce5" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -7483,9 +7611,11 @@
        <p id="ff2279ae-a6b9-45e2-adf6-78a5f4694d5e">
         <pb n="469"/>
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ 3.
-       </head>
+       <p id="1e4e56a0-7210-4b3a-9491-af2bb9cbd01c">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ 3.
+        </head>
+       </p>
        <p id="4c5f16d0-b458-4798-8a0d-939816ec63f9" rend="subtitle centerline">
         <hi rend="spacing">
          Анна
@@ -8082,9 +8212,11 @@
       </div>
      </div>
      <div type="section">
-      <head rend="title_level4 left left">
-       *№ 7 (рук. № 5).
-      </head>
+      <p id="441f1f8b-be30-4b08-9e2f-2849c38391ea">
+       <head rend="title_level4 left left">
+        *№ 7 (рук. № 5).
+       </head>
+      </p>
       <p id="8d04bb21-3684-42d2-94e7-bb93b4b5a1df" rend="subtitle centerline spacing">
        Лиза
       </p>
@@ -8322,26 +8454,32 @@
       </p>
      </div>
      <div type="section">
-      <head rend="title_level4 left left">
-       * № 8 (рук. № 14).
-      </head>
-      <div>
-       <head n="level1" type="draft">
-        ЖИВОЙ ТРУП.
+      <p id="6a4aef40-c1fe-4f44-b188-56fc1ed4f093">
+       <head rend="title_level4 left left">
+        * № 8 (рук. № 14).
        </head>
+      </p>
+      <div>
+       <p id="953676b8-026a-4c70-a960-b7be84ca61d8">
+        <head n="level1" type="draft">
+         ЖИВОЙ ТРУП.
+        </head>
+       </p>
       </div>
       <div type="section">
-       <head n="level2" type="act">
-        <choice original_editorial_correction="ДЕЙСТВ[ИЕ]">
-         <sic>
-          ДЕЙСТВ
-         </sic>
-         <corr>
-          ДЕЙСТВИЕ
-         </corr>
-        </choice>
-        1.
-       </head>
+       <p id="e8f12b2e-3509-4206-b86a-740fdb0537ee">
+        <head n="level2" type="act">
+         <choice original_editorial_correction="ДЕЙСТВ[ИЕ]">
+          <sic>
+           ДЕЙСТВ
+          </sic>
+          <corr>
+           ДЕЙСТВИЕ
+          </corr>
+         </choice>
+         1.
+        </head>
+       </p>
        <p id="70afbc3a-c046-4d3a-8173-72527b85484a" rend="subtitle centerline">
         Анна Павловна, полная, седая дама в корсете. Саша, энергичная, ласковая девушка, просто одетая.
         <hi rend="spacing">
@@ -8610,9 +8748,11 @@
        <p id="41428dcb-85ca-406e-bf2c-a684f656a235">
         Знаем мы эту дружбу, только бы не было препятствий.
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ.
-       </head>
+       <p id="fd91a156-a533-4d18-818a-2fd34661ce47">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ.
+        </head>
+       </p>
        <p id="39b18968-1161-4ce0-9e66-a62688add8f1" rend="subtitle centerline">
         Входит
         <hi rend="spacing">
@@ -8755,9 +8895,11 @@
        <p id="d168e97b-36ed-4263-b8a0-0f66e6ab7ab1">
         <pb n="479"/>
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ.
-       </head>
+       <p id="6951e6ce-89fd-4e8b-bd8a-41e49a5c9ef4">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ.
+        </head>
+       </p>
        <p id="4fdb7ba1-9fc8-4fa0-b86a-0f655659e6fa" rend="subtitle centerline">
         <hi rend="spacing">
          Анна
@@ -8793,9 +8935,11 @@
        <p id="e5b7ae6b-5016-4d41-83dd-6277c57cbed4" rend="subtitle centerline">
         Горничная проходит во внутреннюю дверь.
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ.
-       </head>
+       <p id="54d75bda-3923-477f-9fb0-270a02c548ae">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ.
+        </head>
+       </p>
        <p id="6437211a-2534-42ea-9509-2edaa8062892" rend="subtitle centerline">
         <hi rend="spacing">
          Анна Павловна, Виктор Каренин
@@ -8926,9 +9070,11 @@
         </hi>
         .
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ.
-       </head>
+       <p id="7b0976ba-d3f4-4074-a4d4-c7a3b175d990">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ.
+        </head>
+       </p>
        <p id="5f32f8be-6804-4b07-b958-52db608d6150" rend="subtitle centerline spacing">
         Анна Павловна.
        </p>
@@ -8980,9 +9126,11 @@
        <p id="c5a39831-11b1-4381-a2d4-7824ab05e88a" rend="subtitle centerline">
         Уходит с Сашей.
        </p>
-       <head n="level3" type="yavlenie">
-        ЯВЛЕНИЕ.
-       </head>
+       <p id="31722a6b-f1ad-4412-87e3-160f8136abbb">
+        <head n="level3" type="yavlenie">
+         ЯВЛЕНИЕ.
+        </head>
+       </p>
        <p id="3e147441-4573-410e-a3a9-1a22f4243866" rend="subtitle centerline spacing">
         Лиза.
        </p>
@@ -9269,7 +9417,9 @@
         </hi>
         .
        </p>
-       <lb/>
+       <p id="eeffe8b6-dbcb-4397-bfca-e9bdb24df45a">
+        <lb/>
+       </p>
       </div>
      </div>
     </div>

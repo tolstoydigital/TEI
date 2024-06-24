@@ -1,143 +1,159 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v26_488_500_Dramaticheskaja_obrabotka_legendy_ob_Aggee" resp="volume_editor">
-                    [Драматическая обработка легенды об Аггее]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Драматическая обработка легенды об Аггее</title>
-                <title type="bibl">Толстой Л. Н. [Драматическая обработка легенды об Аггее] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С. 488–500.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="1a3bff39-58eb-4a11-812b-e7269fa0ac4d">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Драматическая обработка легенды об Аггее]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 26
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">26</biblScope>
-                        <biblScope unit="page">488-500</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1886"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#drama" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v26_488_500_Dramaticheskaja_obrabotka_legendy_ob_Aggee">
+     [Драматическая обработка легенды об Аггее]. Произведения. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Драматическая обработка легенды об Аггее
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Драматическая обработка легенды об Аггее] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 26. М.: Гос. изд. «Художественная литература», 1936. С. 488–500.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="1a3bff39-58eb-4a11-812b-e7269fa0ac4d">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Драматическая обработка легенды об Аггее]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 26
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       26
+      </biblScope>
+      <biblScope unit="page">
+       488-500
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1886"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#drama" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000013005">
     <p id="88108f4e-1e1d-4044-afec-053dea996801">
      <pb n="488"/>
     </p>
-    <head n="level1" type="editorial">
-     **[ДРАМАТИЧЕСКАЯ ОБРАБОТКА ЛЕГЕНДЫ ОБ АГГЕЕ.]
-    </head>
-    <head n="level3" type="scene">
-     I КАРТИНА.
-    </head>
+    <p id="1c54d7ea-7786-4f8e-84c2-43821f5632b8">
+     <head n="level1" type="editorial">
+      **[ДРАМАТИЧЕСКАЯ ОБРАБОТКА ЛЕГЕНДЫ ОБ АГГЕЕ.]
+     </head>
+    </p>
+    <p id="0e3ab4ae-5f2f-4847-868e-8953d9089630">
+     <head n="level3" type="scene">
+      I КАРТИНА.
+     </head>
+    </p>
     <p id="8a2a5388-24ba-476a-80c7-914b494df4b5" rend="center">
      У дверей церкви. Стоятъ
      <span class="Razradka">
@@ -145,9 +161,11 @@
      </span>
      съ носилками, дожидаются пана и его жену.
     </p>
-    <head n="level2" type="editorial">
-     СЦЕНА 1-я.
-    </head>
+    <p id="0ccd3e45-9be9-4c16-9365-d29f56eb2a42">
+     <head n="level2" type="editorial">
+      СЦЕНА 1-я.
+     </head>
+    </p>
     <p id="7a4192c4-347e-446f-b204-6359fa3348c2" rend="center">
      1-й, 2-й и 3-й
      <span class="Razradka">
@@ -208,9 +226,11 @@
      </hi>
      Батюшки, что такое? Небо чистое, а громъ гремитъ.
     </p>
-    <head n="level3" type="yavlenie">
-     СЦЕНА 2-я.
-    </head>
+    <p id="49f72b47-a849-41fc-91a4-c05bedf1e8a8">
+     <head n="level3" type="yavlenie">
+      СЦЕНА 2-я.
+     </head>
+    </p>
     <p id="4ce716ae-2867-4db3-8061-1907a41cd733">
      Выбѣгаетъ изъ дверей церкви дворовый человѣкъ.
     </p>
@@ -257,9 +277,11 @@
      <sup/>
      Вышелъ Дьяконъ Евангеліе читать. Дочиталъ до того мѣста, гдѣ сказано: «Обаче горе вамъ богатымъ, яко отстоите утѣшенія вашего. Горе вамъ, насыщенніи нынѣ, яко взалчете; горе вамъ смѣющимся нынѣ, яко возрыдаете и восплачете». Какъ крикнетъ панъ: «Врешь, давай сюда книгу!» Ухватилъ книгу, сталъ рвать. Какъ только рванулъ, загремѣлъ громъ. Я и выбѣжалъ.
     </p>
-    <head n="level3" type="yavlenie">
-     СЦЕНА 3-я.
-    </head>
+    <p id="eb239fab-40cc-4bd6-a3d5-4346425cf179">
+     <head n="level3" type="yavlenie">
+      СЦЕНА 3-я.
+     </head>
+    </p>
     <p id="6497ed82-03af-4870-b990-642141a4849b" rend="center">
      Выходитъ панъ и зa нимъ народъ.
     </p>
@@ -298,19 +320,25 @@
      </hi>
      .
     </p>
-    <metamark function="line"/>
-    <head n="level3" type="scene">
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     2-я.
-    </head>
+    <p id="0c1d8c84-863e-4e27-b0a6-69b2497bef68">
+     <metamark function="line"/>
+    </p>
+    <p id="186b9ea4-65cc-425b-b11d-4ba5211dda85">
+     <head n="level3" type="scene">
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      2-я.
+     </head>
+    </p>
     <p id="1a9c28a5-1e0b-4b2a-8f3f-6d3d810e9fd6" rend="center">
      Лѣсъ. Трубятъ въ рога.
     </p>
-    <head n="level3" type="yavlenie">
-     1-я СЦЕНА.
-    </head>
+    <p id="5b3e224c-d985-40a0-b6ba-aebb6314c705">
+     <head n="level3" type="yavlenie">
+      1-я СЦЕНА.
+     </head>
+    </p>
     <p id="4995170e-5c78-4633-a1c6-b397a9616df6" rend="center">
      <span class="Razradka">
       Два
@@ -441,9 +469,11 @@
       (Уходятъ.)
      </hi>
     </p>
-    <head n="level3" type="yavlenie">
-     2-я СЦЕНА.
-    </head>
+    <p id="e7861c97-8862-495e-96d3-0ecd6a81faa7">
+     <head n="level3" type="yavlenie">
+      2-я СЦЕНА.
+     </head>
+    </p>
     <p id="c90ce4c2-86f0-4055-acbd-4a6da8d68f5a" rend="center">
      Пробѣгаетъ олень, становится за кустомъ. Выбѣгаетъ
      <span class="Razradka">
@@ -470,22 +500,28 @@
       Занавѣсъ.
      </hi>
     </p>
-    <metamark function="line"/>
+    <p id="e5b49f54-a74b-49c7-b385-054ef21b313f">
+     <metamark function="line"/>
+    </p>
     <p id="9c92cbd7-a6ec-430d-bfb3-b829e0548edb" rend="pages2">
      <pb n="491"/>
     </p>
-    <head n="level3" type="scene">
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     3-я.
-    </head>
+    <p id="dbb9d43c-c766-4a68-b043-ff52e7a8a3c0">
+     <head n="level3" type="scene">
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      3-я.
+     </head>
+    </p>
     <p id="f1d146c5-cd37-4142-899a-45caae4ea5ec" rend="center">
      Темный лѣсъ.
     </p>
-    <head n="level3" type="yavlenie">
-     1-я СЦЕНА.
-    </head>
+    <p id="71e91e28-2590-473a-b531-6a68cae72cb8">
+     <head n="level3" type="yavlenie">
+      1-я СЦЕНА.
+     </head>
+    </p>
     <p id="4ebe35b0-3f17-4e62-afed-67cc9358912b" rend="center">
      <span class="Razradka">
       Панъ
@@ -512,9 +548,11 @@
       (Уходитъ.)
      </hi>
     </p>
-    <head n="level3" type="yavlenie">
-     2-я СЦЕНА.
-    </head>
+    <p id="ebc47b97-f282-454d-8567-739a8ac26542">
+     <head n="level3" type="yavlenie">
+      2-я СЦЕНА.
+     </head>
+    </p>
     <p id="813ad5db-020f-46aa-a16d-02f4ffacf617" rend="center">
      Приходятъ
      <span class="Razradka">
@@ -626,9 +664,11 @@
     <p id="02fbbf14-9c2a-47d9-a8b6-753e782d631c">
      Ааааа!.. Черти!.. Выворочу все вамъ! Аааа!
     </p>
-    <head n="level3" type="yavlenie">
-     СЦЕНА 3-я.
-    </head>
+    <p id="940e3c7c-77d0-476f-b2f1-28e1bd46ad46">
+     <head n="level3" type="yavlenie">
+      СЦЕНА 3-я.
+     </head>
+    </p>
     <p id="39af778a-f6e0-400e-adbe-a7d0e423b955" rend="center">
      <span class="Razradka">
       Разбойники
@@ -829,17 +869,23 @@
      </hi>
      .
     </p>
-    <metamark function="line"/>
-    <head n="level3" type="scene">
-     4-я
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     .
-    </head>
-    <head n="level3" type="yavlenie">
-     1-я СЦЕНА.
-    </head>
+    <p id="8e632d72-4b46-491a-9340-c00753002a0a">
+     <metamark function="line"/>
+    </p>
+    <p id="d4bee48e-0aa5-47e4-808f-6a21be57c163">
+     <head n="level3" type="scene">
+      4-я
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      .
+     </head>
+    </p>
+    <p id="a632ef78-0d9d-415f-97c5-b1a62b5fc213">
+     <head n="level3" type="yavlenie">
+      1-я СЦЕНА.
+     </head>
+    </p>
     <p id="61d202da-52c7-46ff-86c9-e559cf7bda97" rend="center">
      Утро. Лѣсъ.
      <span class="Razradka">
@@ -853,9 +899,11 @@
      </span>
      . Ой, ой, ой! Руки мои затекли. Ой! Погоди жъ, все вымѣщу. Желѣзными прутьями пороть буду. Ой, спина! Избили всю. Ну, расплатитесь вы! Я васъ! Да, доберусь. Ой, ой! Во рту пересохло. Въ подвалы засажу. Заморю.
     </p>
-    <head n="level3" type="yavlenie">
-     2-я СЦЕНА.
-    </head>
+    <p id="f464d622-0e87-4d2f-8c56-6b07d129a8c9">
+     <head n="level3" type="yavlenie">
+      2-я СЦЕНА.
+     </head>
+    </p>
     <p id="f283654b-c406-4c2a-a0d0-0da8767aa111" rend="center">
      <span class="Razradka">
       Пастухи
@@ -1052,9 +1100,11 @@
       (Поднимаетъ кнутъ и толкаетъ. Панъ падаетъ. Пастухи уходятъ. Панъ лежитъ и стонетъ.)
      </hi>
     </p>
-    <head n="level3" type="yavlenie">
-     СЦЕНА 3-я.
-    </head>
+    <p id="42452c1f-f627-4e51-aecb-b39d6824449f">
+     <head n="level3" type="yavlenie">
+      СЦЕНА 3-я.
+     </head>
+    </p>
     <p id="88da5354-68b4-4f3e-b6ed-4461a59f2270" rend="center">
      Приходятъ
      <span class="Razradka">
@@ -1177,14 +1227,18 @@
      </hi>
      .
     </p>
-    <metamark function="line"/>
-    <head n="level3" type="scene">
-     5-я
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     .
-    </head>
+    <p id="56a1a692-e04c-453b-b0ac-906ac7bcb548">
+     <metamark function="line"/>
+    </p>
+    <p id="b7038491-34bc-4e21-a333-8ff11fe04751">
+     <head n="level3" type="scene">
+      5-я
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      .
+     </head>
+    </p>
     <p id="dbe32f06-b3fb-4799-9b44-992d9c03b6d2" rend="center">
      Въ избѣ у мужика.
      <span class="Razradka">
@@ -1317,20 +1371,26 @@
      </hi>
      .
     </p>
-    <metamark function="line"/>
+    <p id="8e502dc5-4b64-46b0-86a4-03b4789c79a0">
+     <metamark function="line"/>
+    </p>
     <p id="2b94693f-ef9c-45b9-a5c5-44b119c7e3f7" rend="pages2">
      <pb n="497"/>
     </p>
-    <head n="level3" type="scene">
-     6-я
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     .
-    </head>
-    <head n="level2" type="editorial">
-     [СЦЕНА 1-я.]
-    </head>
+    <p id="551fd4c5-6232-4cc0-8348-b7c048f9e530">
+     <head n="level3" type="scene">
+      6-я
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      .
+     </head>
+    </p>
+    <p id="84688abc-e7a7-41f2-9295-241d6d593483">
+     <head n="level2" type="editorial">
+      [СЦЕНА 1-я.]
+     </head>
+    </p>
     <p id="a59f274b-4c65-486c-b551-c3c063f129b9" rend="center">
      На дворѣ.
      <span class="Razradka">
@@ -1405,9 +1465,11 @@
     <p id="868ba275-8441-4c94-a98a-98e2283e128f">
      И того не можешь. Замучалась я съ тобой
     </p>
-    <head n="level3" type="yavlenie">
-     СЦЕНА 2-я.
-    </head>
+    <p id="2eb0a1fe-fffb-4775-9ae5-f83cd0c4f34e">
+     <head n="level3" type="yavlenie">
+      СЦЕНА 2-я.
+     </head>
+    </p>
     <p id="9de2dcb7-20d3-4d59-b46f-631324cf2d80" rend="center">
      <span class="Razradka">
       Панъ
@@ -1458,16 +1520,22 @@
      </hi>
      .
     </p>
-    <metamark function="line"/>
-    <head n="level3" type="scene">
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     7-я.
-    </head>
-    <head n="level3" type="yavlenie">
-     1-я СЦЕНА.
-    </head>
+    <p id="da8cf159-e7cb-47f1-b879-5019e42d1442">
+     <metamark function="line"/>
+    </p>
+    <p id="40e1f276-04ab-4cbb-8951-d2f2b1958bea">
+     <head n="level3" type="scene">
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      7-я.
+     </head>
+    </p>
+    <p id="66b50fc4-50d0-4b22-ab92-2b9a7e21f6be">
+     <head n="level3" type="yavlenie">
+      1-я СЦЕНА.
+     </head>
+    </p>
     <p id="d2a8b6ae-f451-402f-acc9-fba01cea6e43" rend="center">
      Село. Приходить
      <span class="Razradka">
@@ -1525,9 +1593,11 @@
       (Захлопываетъ окно.)
      </hi>
     </p>
-    <head n="level3" type="yavlenie">
-     СЦЕНА 2-я.
-    </head>
+    <p id="d11ee35b-ddbf-429c-958c-70ca6dc85598">
+     <head n="level3" type="yavlenie">
+      СЦЕНА 2-я.
+     </head>
+    </p>
     <p id="2eed29cf-5b5e-4dc7-8949-370a2fb2ee19">
      Приходятъ два нищихъ — слѣпой и безрукій, подходятъ къ окну.
     </p>
@@ -1645,12 +1715,14 @@
       (Нищіе поднимаются и съ паномъ уходятъ.)
      </hi>
     </p>
-    <head n="level3" type="scene">
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     8-я.
-    </head>
+    <p id="08dcce8f-53ac-4647-a2d9-f75b170a5660">
+     <head n="level3" type="scene">
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      8-я.
+     </head>
+    </p>
     <p id="7f32d0d5-c348-48fd-b12a-5f3360035e6c" rend="center">
      Панскій дворъ. Дворня нарядная. Играютъ на балалайкахъ, пляшутъ. Въ ворота входятъ
      <span class="Razradka">
@@ -1796,13 +1868,17 @@
      </hi>
      .
     </p>
-    <metamark function="line"/>
-    <head n="level3" type="scene">
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     9-я.
-    </head>
+    <p id="f5ad7a46-e6d7-49d9-9771-e6dfd528f9fb">
+     <metamark function="line"/>
+    </p>
+    <p id="4bedb0a7-2487-48a9-bcd5-b9fc9992e55c">
+     <head n="level3" type="scene">
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      9-я.
+     </head>
+    </p>
     <p id="6469dafb-c83a-4a1a-9193-3acf92eb9b61">
      Палата царская. Сидитъ
      <span class="Razradka">
@@ -1860,12 +1936,14 @@
       (Панъ переодѣвается. Жена входитъ и обнимаетъ его, и слуги кланяются.)
      </hi>
     </p>
-    <head n="level3" type="scene">
-     <span class="Razradka">
-      КАРТИНА
-     </span>
-     10-я.
-    </head>
+    <p id="fe4d27c8-4939-4d73-8f8a-3a591e5d8501">
+     <head n="level3" type="scene">
+      <span class="Razradka">
+       КАРТИНА
+      </span>
+      10-я.
+     </head>
+    </p>
     <p id="004782f6-fcbf-4e85-8742-551419a83d8d">
      Большой столъ великолѣпный. Сидятъ
      <span class="Razradka">

@@ -1,142 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v90_109_110_Zametki_k_romanu_o_russkih_bogatyrjah" resp="volume_editor">
-                    [Заметки к роману о русских богатырях]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main" resp="volume_editor">Заметки к роману о русских богатырях</title>
-                <title type="bibl">Толстой Л. Н. [Заметки к роману о русских богатырях] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 90. М.: Гос. изд. «Художественная литература», 1958. С. 109–110.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d1852e28-0e91-4cdf-b9c3-51530189d453">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Заметки к роману о русских богатырях]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 90
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1958"/>
-                        </imprint>
-                        <biblScope unit="volume">90</biblScope>
-                        <biblScope unit="page">109-110</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1870"/>
-             </creation>
-            <langUsage> 
-                <language ident="ru"/>
-            </langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#main" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#otryvok" target="genre"/>
-                <catRef ana="#drugoe" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title resp="volume_editor" xml:id="v90_109_110_Zametki_k_romanu_o_russkih_bogatyrjah">
+     [Заметки к роману о русских богатырях]. Произведения. Tolstoy Digital
+    </title>
+    <title resp="volume_editor" type="main">
+     Заметки к роману о русских богатырях
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Заметки к роману о русских богатырях] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 90. М.: Гос. изд. «Художественная литература», 1958. С. 109–110.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d1852e28-0e91-4cdf-b9c3-51530189d453">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Заметки к роману о русских богатырях]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 90
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1958"/>
+      </imprint>
+      <biblScope unit="volume">
+       90
+      </biblScope>
+      <biblScope unit="page">
+       109-110
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1870"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#main" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#otryvok" target="genre"/>
+    <catRef ana="#drugoe" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h001">
     <p id="fda28fda-34f9-466e-a382-c38187978750">
      <pb n="109"/>
     </p>
     <p id="16e12d39-0e70-4191-a0f3-259b8ae2f3e0"/>
-    <head n="level2" type="chapter">
-     ИЛЬЯ
-    </head>
+    <p id="66328234-ec67-4af0-903a-334d7ca15595">
+     <head n="level2" type="chapter">
+      ИЛЬЯ
+     </head>
+    </p>
     <p id="e5e9006c-72ed-4c70-8b78-dd8b82ef2afe">
      1. Приобретение силы — отдают в университет. Он слабеет от оторванности, а то бы мир перевернул.
     </p>
@@ -404,9 +418,11 @@
      </choice>
      мысли; опять вызывает его, и он дает свои основы жизни и исчезает.
     </p>
-    <head n="level2" type="chapter">
-     ДОБРЫНЯ
-    </head>
+    <p id="1680fc07-e854-436a-a152-b65497a3b2b7">
+     <head n="level2" type="chapter">
+      ДОБРЫНЯ
+     </head>
+    </p>
     <p id="fb20e0d9-cd48-4b08-941a-d54eaa83ac6f">
      1)
      <choice original_editorial_correction="Д[обрыня]">
@@ -481,24 +497,26 @@
      </choice>
      .
     </p>
-    <head n="level2" type="chapter">
-     <choice original_editorial_correction="В[АСИЛИЙ]">
-      <sic>
-       В
-      </sic>
-      <corr>
-       ВАСИЛИЙ
-      </corr>
-     </choice>
-     <choice original_editorial_correction="Б[УСЛАЕВ]">
-      <sic>
-       Б
-      </sic>
-      <corr>
-       БУСЛАЕВ
-      </corr>
-     </choice>
-    </head>
+    <p id="8b33dcb2-366e-4459-a011-1bfa49f556d6">
+     <head n="level2" type="chapter">
+      <choice original_editorial_correction="В[АСИЛИЙ]">
+       <sic>
+        В
+       </sic>
+       <corr>
+        ВАСИЛИЙ
+       </corr>
+      </choice>
+      <choice original_editorial_correction="Б[УСЛАЕВ]">
+       <sic>
+        Б
+       </sic>
+       <corr>
+        БУСЛАЕВ
+       </corr>
+      </choice>
+     </head>
+    </p>
     <p id="2c0d3b3e-db9d-475e-9f12-845ca1165aa5">
      1) Пьяница.
      <choice original_editorial_correction="А[мельфа]">
@@ -528,24 +546,26 @@
     <p id="ede2c582-4012-4cc0-ba99-1ac34c8557a8">
      <pb n="110"/>
     </p>
-    <head n="level2" type="chapter">
-     <choice original_editorial_correction="А[ЛЕША]">
-      <sic>
-       А
-      </sic>
-      <corr>
-       АЛЕША
-      </corr>
-     </choice>
-     <choice original_editorial_correction="П[ОПОВИЧ]">
-      <sic>
-       П
-      </sic>
-      <corr>
-       ПОПОВИЧ
-      </corr>
-     </choice>
-    </head>
+    <p id="ab30cd06-4ed6-427d-8d5d-2a2b194f4762">
+     <head n="level2" type="chapter">
+      <choice original_editorial_correction="А[ЛЕША]">
+       <sic>
+        А
+       </sic>
+       <corr>
+        АЛЕША
+       </corr>
+      </choice>
+      <choice original_editorial_correction="П[ОПОВИЧ]">
+       <sic>
+        П
+       </sic>
+       <corr>
+        ПОПОВИЧ
+       </corr>
+      </choice>
+     </head>
+    </p>
     <p id="430c8292-01ae-4821-b478-395a05a94c03">
      1)
      <choice original_editorial_correction="Б[ой]">
@@ -603,24 +623,26 @@
      </choice>
      .
     </p>
-    <head n="level2" type="chapter">
-     <choice original_editorial_correction="М[ИХАЙЛО]">
-      <sic>
-       М
-      </sic>
-      <corr>
-       МИХАЙЛО
-      </corr>
-     </choice>
-     <choice original_editorial_correction="П[ОТЫК]">
-      <sic>
-       П
-      </sic>
-      <corr>
-       ПОТЫК
-      </corr>
-     </choice>
-    </head>
+    <p id="6a324287-a46d-42f9-bcb4-0f41667c7a5c">
+     <head n="level2" type="chapter">
+      <choice original_editorial_correction="М[ИХАЙЛО]">
+       <sic>
+        М
+       </sic>
+       <corr>
+        МИХАЙЛО
+       </corr>
+      </choice>
+      <choice original_editorial_correction="П[ОТЫК]">
+       <sic>
+        П
+       </sic>
+       <corr>
+        ПОТЫК
+       </corr>
+      </choice>
+     </head>
+    </p>
     <p id="1d7a803f-f630-40f0-9492-eba39a12633b">
      1) Гуляка, соблазнен
      <choice original_editorial_correction="Л[ебедью]">
@@ -701,24 +723,26 @@
      </choice>
      с ней уединяется и исцеляет ее.
     </p>
-    <head n="level2" type="chapter">
-     <choice original_editorial_correction="И[ВАН]">
-      <sic>
-       И
-      </sic>
-      <corr>
-       ИВАН
-      </corr>
-     </choice>
-     <choice original_editorial_correction="Г[ОДИНОВИЧ]">
-      <sic>
-       Г
-      </sic>
-      <corr>
-       ГОДИНОВИЧ
-      </corr>
-     </choice>
-    </head>
+    <p id="59d8611f-3c53-447b-b915-be521b016b33">
+     <head n="level2" type="chapter">
+      <choice original_editorial_correction="И[ВАН]">
+       <sic>
+        И
+       </sic>
+       <corr>
+        ИВАН
+       </corr>
+      </choice>
+      <choice original_editorial_correction="Г[ОДИНОВИЧ]">
+       <sic>
+        Г
+       </sic>
+       <corr>
+        ГОДИНОВИЧ
+       </corr>
+      </choice>
+     </head>
+    </p>
     <p id="1c2e07c3-07f2-47d0-9592-d048a90087e5">
      1) Охотник конный.
     </p>
@@ -734,9 +758,11 @@
      </choice>
      и измена ее для старого богача и убийство.
     </p>
-    <head n="level2" type="chapter">
-     ДАН[ИЛА ЛОВЧАНИН]
-    </head>
+    <p id="c147c08c-9171-4e55-b7f6-153d8aa9f708">
+     <head n="level2" type="chapter">
+      ДАН[ИЛА ЛОВЧАНИН]
+     </head>
+    </p>
     <p id="859ba897-9a2a-4b12-bc31-6a4778d84348">
      Жена его, свояченица
      <choice original_editorial_correction="Добр[ыни]">
@@ -760,24 +786,26 @@
      </choice>
      .
     </p>
-    <head n="level2" type="chapter">
-     <choice original_editorial_correction="Ч[УРИЛА]">
-      <sic>
-       Ч
-      </sic>
-      <corr>
-       ЧУРИЛА
-      </corr>
-     </choice>
-     <choice original_editorial_correction="П[ЛЕНКОВИЧ]">
-      <sic>
-       П
-      </sic>
-      <corr>
-       ПЛЕНКОВИЧ
-      </corr>
-     </choice>
-    </head>
+    <p id="e77df844-c244-46c3-93e1-d2f9da88fb72">
+     <head n="level2" type="chapter">
+      <choice original_editorial_correction="Ч[УРИЛА]">
+       <sic>
+        Ч
+       </sic>
+       <corr>
+        ЧУРИЛА
+       </corr>
+      </choice>
+      <choice original_editorial_correction="П[ЛЕНКОВИЧ]">
+       <sic>
+        П
+       </sic>
+       <corr>
+        ПЛЕНКОВИЧ
+       </corr>
+      </choice>
+     </head>
+    </p>
     <p id="9515bda7-6e06-4f56-a611-119298157388">
      <ref target="#note27">
       27
@@ -804,21 +832,31 @@
      </name>
      насмерть убивает его нравственно.
     </p>
-    <metamark function="line"/>
-    <head n="level2" type="chapter">
-     ДЮК
-    </head>
+    <p id="e0155ac4-3e79-47fd-9ec1-8be652603e42">
+     <metamark function="line"/>
+    </p>
+    <p id="2eae3631-2208-4523-9f69-1e633cac0fc0">
+     <head n="level2" type="chapter">
+      ДЮК
+     </head>
+    </p>
     <p id="0f2304d8-6281-4bbb-a07f-331ada0d778f" rend="subtitle centerline">
      Лорд
     </p>
     <p id="896330dd-0d2b-4c99-b449-5078890ced21" rend="subtitle centerline">
      Калики-Митинька
     </p>
-    <metamark function="line"/>
-    <head n="level2" type="chapter">
-     МИКУЛУШКА-МУЖИК
-    </head>
-    <metamark function="line"/>
+    <p id="f6443efd-548c-49f6-8728-ef163af1afd7">
+     <metamark function="line"/>
+    </p>
+    <p id="7487ba3d-265d-40d7-bda8-944c7c625f7d">
+     <head n="level2" type="chapter">
+      МИКУЛУШКА-МУЖИК
+     </head>
+    </p>
+    <p id="63a02f64-6696-43d7-887d-1ef460382589">
+     <metamark function="line"/>
+    </p>
     <p id="246d2c83-987e-4061-918f-7a62c9114c7c"/>
    </div>
   </body>

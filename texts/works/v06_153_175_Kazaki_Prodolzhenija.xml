@@ -1,162 +1,180 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v06_153_175_Kazaki_Prodolzhenija">
-                    [Продолжения повести «Казаки»]. Произведения. Tolstoy Digital
-                </title>
-                <title type="main">Казаки.</title>
-                <title type="sub" resp="volume_editor">Продолжения повести</title>
-                <title type="bibl">Толстой Л. Н. [Продолжения повести «Казаки»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 6. М.: Гос. изд. «Художественная литература», 1936. С. 153–175.</title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="169da81d-cdc9-4911-8488-ae6c4a553bb2">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                            [Продолжения повести «Казаки»]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений. Том 6
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1936"/>
-                        </imprint>
-                        <biblScope unit="volume">6</biblScope>
-                        <biblScope unit="page">153-175</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1862"/>
-             </creation>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#ver" target="work_main"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#povest" target="genre"/>
-                <catRef ana="#not_finished" target="finished"/>
-                <catRef ana="#not_publ" target="published"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v06_153_175_Kazaki_Prodolzhenija">
+     [Продолжения повести «Казаки»]. Произведения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Казаки.
+    </title>
+    <title resp="volume_editor" type="sub">
+     Продолжения повести
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Продолжения повести «Казаки»] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 6. М.: Гос. изд. «Художественная литература», 1936. С. 153–175.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="169da81d-cdc9-4911-8488-ae6c4a553bb2">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Продолжения повести «Казаки»]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 6
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1936"/>
+      </imprint>
+      <biblScope unit="volume">
+       6
+      </biblScope>
+      <biblScope unit="page">
+       153-175
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1862"/>
+   </creation>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#ver" target="work_main"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#povest" target="genre"/>
+    <catRef ana="#not_finished" target="finished"/>
+    <catRef ana="#not_publ" target="published"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000012001">
     <p id="e70a828c-a1c8-459c-a51d-c570ba49f44f">
      <pb n="153"/>
     </p>
-    <head rend="center">
-     *I.
-     <choice original_editorial_correction="[ПРОДОЛЖЕНИЯ ПОВЕСТИ]">
-      <sic/>
-      <corr>
-       ПРОДОЛЖЕНИЯ ПОВЕСТИ
-      </corr>
-     </choice>
-     .
-     <ref target="#note34">
-      34
-     </ref>
-     <note index="false" xml:id="note34">
-      <span data-class="paragraph" id="0e5190cc-4b07-4c25-bf52-d728ba97d078">
-       Трудно допустить, чтобы Толстой мог тут думать о Елизавете Ксаверьевне Воронцовой (1792—1880) — жене наместника, уже по ее возрасту; вероятно перед ним вставал образ жены сына наместника, той самой Марьи Васильевны, которую он позднее показал нам в «Хаджи-Мурате».
-      </span>
-     </note>
-    </head>
+    <p id="eaaa8e7b-181d-4490-b3fa-4e689effff7e">
+     <head rend="center">
+      *I.
+      <choice original_editorial_correction="[ПРОДОЛЖЕНИЯ ПОВЕСТИ]">
+       <sic/>
+       <corr>
+        ПРОДОЛЖЕНИЯ ПОВЕСТИ
+       </corr>
+      </choice>
+      .
+      <ref target="#note34">
+       34
+      </ref>
+      <note index="false" xml:id="note34">
+       <span data-class="paragraph" id="0e5190cc-4b07-4c25-bf52-d728ba97d078">
+        Трудно допустить, чтобы Толстой мог тут думать о Елизавете Ксаверьевне Воронцовой (1792—1880) — жене наместника, уже по ее возрасту; вероятно перед ним вставал образ жены сына наместника, той самой Марьи Васильевны, которую он позднее показал нам в «Хаджи-Мурате».
+       </span>
+      </note>
+     </head>
+    </p>
    </div>
    <div type="section" xml:id="h000012001001">
-    <head n="level2" type="editorial">
-     *A.
-    </head>
+    <p id="08383010-890c-428e-9da4-82a67454057c">
+     <head n="level2" type="editorial">
+      *A.
+     </head>
+    </p>
     <p id="ccecbb17-d680-4821-a2e6-4e81e1da55f0">
      Прошло два года
      <choice>
@@ -5165,20 +5183,24 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001002">
-    <head n="level2" type="editorial">
-     *Б.
-    </head>
-    <head n="level1" type="draft">
-     <choice>
-      <reg>
-       БЕГЛЕЦ
-      </reg>
-      <orig>
-       БѢГЛЕЦЪ
-      </orig>
-     </choice>
-     .
-    </head>
+    <p id="3972cfd7-a7a1-42a7-8b42-8d51124337ab">
+     <head n="level2" type="editorial">
+      *Б.
+     </head>
+    </p>
+    <p id="03a60fed-01d1-42ac-bd9c-5d8103339f8e">
+     <head n="level1" type="draft">
+      <choice>
+       <reg>
+        БЕГЛЕЦ
+       </reg>
+       <orig>
+        БѢГЛЕЦЪ
+       </orig>
+      </choice>
+      .
+     </head>
+    </p>
     <p id="152d37d3-19fb-43cb-bd06-0d56f994c82a" rend="right">
      <choice>
       <reg>
@@ -5190,9 +5212,11 @@
      </choice>
      . 1 Сентября. 1860.
     </p>
-    <head n="level2" type="chapter">
-     Глава.
-    </head>
+    <p id="2d4cf7d2-a7d8-43c0-b0c2-678b3c18ba01">
+     <head n="level2" type="chapter">
+      Глава.
+     </head>
+    </p>
     <p id="0d4258eb-34d8-46ba-8f11-d744d1f987a2">
      Господа, вернувшись
      <choice>
@@ -11194,18 +11218,24 @@
     </p>
    </div>
    <div type="section" xml:id="h000012001003">
-    <head n="level2" type="editorial">
-     *В.
-    </head>
-    <head n="level2" type="part">
-     ЧАСТЬ 3-я.
-    </head>
+    <p id="ff33c27a-4bd6-47c8-bfe0-9593c1aa0432">
+     <head n="level2" type="editorial">
+      *В.
+     </head>
+    </p>
+    <p id="4549e69c-8386-4ddf-b640-b3b998192e97">
+     <head n="level2" type="part">
+      ЧАСТЬ 3-я.
+     </head>
+    </p>
     <p id="4e62af45-26e5-4ef6-837b-4450f71f3ba3" rend="right">
      15 Февраля 1862 г.
     </p>
-    <head n="level2" type="chapter">
-     Глава 1-я.
-    </head>
+    <p id="84d62aae-3ee0-4783-b69c-b43b32914dbf">
+     <head n="level2" type="chapter">
+      Глава 1-я.
+     </head>
+    </p>
     <p id="42320c1c-0882-426b-a773-593668cdfc82">
      Прошло три года
      <choice>
@@ -12651,7 +12681,9 @@
      <lb/>
     </p>
     <div type="image">
-     <img alt="" src="./img/b00001700.png"/>
+     <p id="58634b6d-836f-498e-a1b7-c5cb90487b98">
+      <img alt="" src="./img/b00001700.png"/>
+     </p>
     </div>
     <p id="383335ef-0531-488c-81eb-5e505ced70b8">
      <lb/>
@@ -19702,9 +19734,11 @@
      </choice>
      я буду дома!»
     </p>
-    <head n="level2" type="chapter">
-     Глава 3-я.
-    </head>
+    <p id="280f0a00-9665-4ec1-9199-1f08fcc7b18f">
+     <head n="level2" type="chapter">
+      Глава 3-я.
+     </head>
+    </p>
     <p id="f777bd31-7de2-49c7-8f9f-91816b664753">
      <choice>
       <reg>

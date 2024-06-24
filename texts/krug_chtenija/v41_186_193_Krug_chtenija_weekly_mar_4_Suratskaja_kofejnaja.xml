@@ -1,141 +1,157 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v41_186_193_Krug_chtenija_weekly_mar_4_Suratskaja_kofejnaja">
-                    Круг чтения. Tolstoy Digital
-                </title>
-                <title type="main">Круг чтения. Март</title>
-                <title type="sub">Суратская кофейная. Перевод Л.Н.Толстого</title>
-                <title type="bibl">Толстой Л. Н. Круг чтения // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 41. М.: Гос. изд. «Художественная литература», 1957. С. </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                 </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                            
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d5a4c974-e9a8-4390-9eee-34cfb5fbdc50">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           Суратская кофейная. Перевод Л.Н.Толстого
-                        </title>
-                        <title level="s">
-                            «Круг чтения»
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                            Полное собрание сочинений: в 90 тт. 
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1957"/>
-                        </imprint>
-                        <biblScope unit="volume">41</biblScope>
-                        <biblScope unit="page">186-193</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1906"/>
-         </creation>          
-            <textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#works" target="type"/>
-                <catRef ana="#fiction" target="sphere"/>
-                <catRef ana="#publ" target="published"/>
-                <catRef ana="#finished" target="finished"/>
-                <catRef ana="#sbornik" target="genre"/>
-                <catRef ana="#Tolstoy-editor" target="author"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v41_186_193_Krug_chtenija_weekly_mar_4_Suratskaja_kofejnaja">
+     Круг чтения. Tolstoy Digital
+    </title>
+    <title type="main">
+     Круг чтения. Март
+    </title>
+    <title type="sub">
+     Суратская кофейная. Перевод Л.Н.Толстого
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Круг чтения // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 41. М.: Гос. изд. «Художественная литература», 1957. С.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d5a4c974-e9a8-4390-9eee-34cfb5fbdc50">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       Суратская кофейная. Перевод Л.Н.Толстого
+      </title>
+      <title level="s">
+       «Круг чтения»
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений: в 90 тт.
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1957"/>
+      </imprint>
+      <biblScope unit="volume">
+       41
+      </biblScope>
+      <biblScope unit="page">
+       186-193
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1906"/>
+   </creation>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#works" target="type"/>
+    <catRef ana="#fiction" target="sphere"/>
+    <catRef ana="#publ" target="published"/>
+    <catRef ana="#finished" target="finished"/>
+    <catRef ana="#sbornik" target="genre"/>
+    <catRef ana="#Tolstoy-editor" target="author"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="weekly" when="--3-24" xml:id="h000010004028001">
     <p id="72d1b5d9-4cc7-4241-8980-e0fdf062e876">
      <pb n="186"/>
     </p>
-    <head rend="center">
-     СУРАТСКАЯ КОФЕЙНАЯ
-    </head>
+    <p id="83b0da58-a88b-40f1-b4fe-c042851c1f6f">
+     <head rend="center">
+      СУРАТСКАЯ КОФЕЙНАЯ
+     </head>
+    </p>
     <p id="b5dc0c0e-643f-4328-a0bc-336c2f7f854a">
      Была в индийском городе Сурате кофейная. И сходились туда из разных земель проезжие и иностранцы и часто беседовали.
     </p>
@@ -231,7 +247,9 @@
      Китаец, ученик Конфуция, закрыл глаза, подумал и потом, открыв их, выпростал руки из широких рукавов своей одежды, сложил их на груди и заговорил тихим и спокойным голосом.
     </p>
     <div1>
-    <metamark function="line"/>
+     <p id="b129f08b-cac3-4094-99ea-937b49570682">
+      <metamark function="line"/>
+     </p>
      <p id="c239ad69-6e84-4bcd-9a2a-8f654bdfa37b">
       — Господа, — сказал он, — мне кажется, что самолюбие людей более всего другого мешает их согласию в деле веры. Если вы потрудитесь меня выслушать, я объясню вам это примером.
      </p>
@@ -332,7 +350,9 @@
      </p>
     </div1>
     <div1>
-    <metamark function="line"/>
+     <p id="aaf9e85f-f355-4cbc-be44-f774082a7b32">
+      <metamark function="line"/>
+     </p>
      <p id="1987820c-cec9-457e-ba98-8df62771bff2">
       — Да, заблуждения и несогласия людей в вере — от самолюбия, — продолжал китаец, ученик Конфуция. — Что с солнцем, то же и с богом. Каждому человеку хочется, чтобы у него был свой особенный бог или, по крайней мере, бог его родной земли. Каждый народ хочет заключить в своем храме того, кого не может объять весь мир.
      </p>
