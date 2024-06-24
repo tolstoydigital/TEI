@@ -74,6 +74,18 @@ class BeautifulSoupUtils:
             parent = parent.parent
 
         return False
+    
+    @classmethod
+    def get_closest_ancestor_with_tag_name(cls, element: bs4.BeautifulSoup, tag_name: str) -> bs4.Tag:
+        ancestor = element.parent
+
+        while ancestor:
+            if isinstance(ancestor, bs4.Tag) and ancestor.name == tag_name:
+                return ancestor
+            
+            ancestor = ancestor.parent
+
+        return None
         
     @staticmethod
     def set_inner_text(element: bs4.BeautifulSoup, content: str):

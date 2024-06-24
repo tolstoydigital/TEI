@@ -1,3 +1,5 @@
+import collections
+from copy import deepcopy
 import dataclasses
 
 
@@ -32,3 +34,21 @@ class DocumentNameGenerator:
 
     def generate(self, start_date: str, end_date: str = None, postfix: str = None):
         return DocumentName(self.scope, start_date, end_date, postfix)
+
+
+class UniqueDocumentNameGenerator(DocumentNameGenerator):
+    def __init__(self, scope: str):
+        super().__init__(scope)
+        self.name_counts = collections.defaultdict(int)
+
+    def generate(self, start_date: str, end_date: str = None):
+        name = DocumentName(self.scope, start_date, end_date)
+        name_string = name.to_string()
+
+        self.name_counts[name_string] += 1
+        name_count = self.name_counts[name_string]
+
+        if name_count > 1:
+            name.postfix = str(name_count)
+
+        return name
