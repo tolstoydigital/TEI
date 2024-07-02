@@ -1,183 +1,163 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title resp="volume_editor" xml:id="v17_195_211_Nachala_romana_vremen_Petra_I_Azovskie_pohody">
-     [«Начала» романа времен Петра I. Азовские походы]. Произведения. Tolstoy Digital
-    </title>
-    <title resp="volume_editor" type="main">
-     Начало романа времен Петра I.
-    </title>
-    <title resp="volume_editor" type="sub">
-     Азовские походы
-    </title>
-    <title type="bibl">
-     Толстой Л. Н. [«Начала» романа времен Петра I. Азовские походы] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 195–211.
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство:
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML:
-     </resp>
-     <name>
-      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка метаданных:
-     </resp>
-     <name>
-      Мария Картышева, Вероника Файнберг
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Разметка имен собственных:
-     </resp>
-     <name>
-      Никита Северин, Елена Северина
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Исправление древнегреческого текста:
-     </resp>
-     <name>
-      Ольга Алиева
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="8fb1a776-daff-4b57-89a2-1ae7fb436793">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015" to="2022"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       [«Начала» романа времен Петра I. Азовские походы]
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 17
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date when="1936"/>
-      </imprint>
-      <biblScope unit="volume">
-       17
-      </biblScope>
-      <biblScope unit="page">
-       195-211
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date>
-     1870-1873, 1879 гг.
-    </date>
-   </creation>
-   <langUsage>
-    <language ident="ru"/>
-    <language ident="ru-petr1708"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#tolstoy_heritage" target="library"/>
-    <catRef ana="#works" target="type"/>
-    <catRef ana="#main" target="work_main"/>
-    <catRef ana="#fiction" target="sphere"/>
-    <catRef ana="#novel" target="genre"/>
-    <catRef ana="#not_finished" target="finished"/>
-    <catRef ana="#not_publ" target="published"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="v17_195_211_Nachala_romana_vremen_Petra_I_Azovskie_pohody" resp="volume_editor">
+                    [«Начала» романа времен Петра I. Азовские походы]. Произведения. Tolstoy Digital
+                </title>
+                <title type="main" resp="volume_editor">Начало романа времен Петра I.</title>
+                <title type="sub" resp="volume_editor">Азовские походы</title>
+                <title type="bibl">Толстой Л. Н. [«Начала» романа времен Петра I. Азовские походы] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 195–211.</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство:</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="8fb1a776-daff-4b57-89a2-1ae7fb436793">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015" to="2022"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            [«Начала» романа времен Петра I. Азовские походы]
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том 17
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1936"/>
+                        </imprint>
+                        <biblScope unit="volume">17</biblScope>
+                        <biblScope unit="page">195-211</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date>
+                    1870-1873, 1879 гг.
+                </date>
+             </creation>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
+            <textClass> 
+                <catRef ana="#tolstoy_heritage" target="library"/>
+                <catRef ana="#works" target="type"/>
+                <catRef ana="#main" target="work_main"/>
+                <catRef ana="#fiction" target="sphere"/>
+                <catRef ana="#novel" target="genre"/>
+                <catRef ana="#not_finished" target="finished"/>
+                <catRef ana="#not_publ" target="published"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="718ef08f-fa27-4f85-96d0-d1922c5d5008">
      <pb n="195"/>
     </p>
-    <p id="86cded75-2207-490e-b6ca-a3b011bef819">
-     <head rend="center">
-      <hi rend="strong">
-       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
-      </hi>
-      <lb/>
-      <hi rend="strong">
-       И НЕОКОНЧЕННОЕ
-      </hi>
-     </head>
-    </p>
+    <head rend="center">
+     <hi rend="strong">
+      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
+     </hi>
+     <lb/>
+     <hi rend="strong">
+      И НЕОКОНЧЕННОЕ
+     </hi>
+    </head>
    </div>
    <div type="section" xml:id="h000011006">
-    <p id="d16ff290-0ca6-417a-8902-300cf6b5e135">
-     <head rend="center">
-      РОМАНЫ ИЗ ЭПОХИ КОНЦА XVII — НАЧАЛА XIX В.
-     </head>
-    </p>
+    <head rend="center">
+     РОМАНЫ ИЗ ЭПОХИ КОНЦА XVII — НАЧАЛА XIX В.
+    </head>
    </div>
    <div type="section" xml:id="h000011006001">
-    <p id="2f585e40-61ca-445b-889a-0f4e17b1ddb8">
-     <head n="level1" type="editorial">
-      <hi rend="italic">
-       *,
-      </hi>
-      ** [«НАЧАЛА» РОМАНА ВРЕМЕН ПЕТРА I.]
-     </head>
-    </p>
+    <head n="level1" type="editorial">
+     <hi rend="italic">
+      *,
+     </hi>
+     ** [«НАЧАЛА» РОМАНА ВРЕМЕН ПЕТРА I.]
+    </head>
     <div>
      <p id="5ecd8646-7f6b-4a28-9ddc-1dd0c2d8e65c" rend="center">
       (1870—1873, 1879 гг.)
@@ -185,20 +165,16 @@
     </div>
    </div>
    <div type="section" xml:id="h000011006001005">
-    <p id="e1758f9d-345a-4258-a331-2fd2719e66bc">
-     <head rend="center">
-      Г.
-      <lb/>
-      [АЗОВСКИЕ ПОХОДЫ.]
-     </head>
-    </p>
+    <head rend="center">
+     Г.
+     <lb/>
+     [АЗОВСКИЕ ПОХОДЫ.]
+    </head>
    </div>
    <div type="section" xml:id="h000011006001005001">
-    <p id="4e9480ae-b14c-4f34-a5ab-d5113e191e17">
-     <head n="level2" type="editorial">
-      * № 17
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     * № 17
+    </head>
     <p id="48248835-523b-4108-8840-fdf5cebe504b">
      <choice>
       <reg>
@@ -1746,11 +1722,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001005002">
-    <p id="43f3de13-0068-4460-8ca5-58dd748e1c27">
-     <head n="level2" type="editorial">
-      * № 18.
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     * № 18.
+    </head>
     <p id="4bfa5d89-b9be-472b-9cd4-2732a8db58ce">
      <ref target="#note188">
       188
@@ -2766,16 +2740,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001005003">
-    <p id="f9dbf54f-ef98-4ce5-8e87-281b04f0fbad">
-     <head n="level2" type="editorial">
-      * № 19.
-     </head>
-    </p>
-    <p id="8ccf53e8-c37f-4e89-8983-2fd3dedccb02">
-     <head n="level2" type="chapter">
-      I.
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     * № 19.
+    </head>
+    <head n="level2" type="chapter">
+     I.
+    </head>
     <p id="742489c2-144c-4d4a-94ab-e5c6a8e5ad66">
      Весь великой
      <choice>
@@ -3936,37 +3906,33 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001005004">
-    <p id="32feddcd-7c2b-4e03-a550-535585ef0210">
-     <head n="level2" type="editorial">
-      * № 20.
-     </head>
-    </p>
-    <p id="7d03e441-d9e1-4438-bd6f-cab82ecd56a9">
-     <head n="level2" type="chapter">
-      <hi rend="italic">
-       Старое и новое.
-      </hi>
-      <ref target="#note191">
-       191
-      </ref>
-      <note index="false" xml:id="note191">
-       <span data-class="paragraph" id="6dad0a61-082d-48b9-9026-4c442680250c">
-        <hi rend="italic">
-         Против слов:
-        </hi>
-        Старое и новое,
-        <hi rend="italic">
-         кончая:
-        </hi>
-        у нас,
-        <hi rend="italic">
-         на полях написано:
-        </hi>
-        Ссора Голицыныхъ съ Долгор[укими] изъ за Лефорта. Головинъ миритъ. Его мать. Къ ней ходятъ 3 сына Алексан., Ник., Иванъ, жена съ Абокумомъ — дура, соперничество съ Долгор[укимъ.]
-       </span>
-      </note>
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     * № 20.
+    </head>
+    <head n="level2" type="chapter">
+     <hi rend="italic">
+      Старое и новое.
+     </hi>
+     <ref target="#note191">
+      191
+     </ref>
+     <note index="false" xml:id="note191">
+      <span data-class="paragraph" id="6dad0a61-082d-48b9-9026-4c442680250c">
+       <hi rend="italic">
+        Против слов:
+       </hi>
+       Старое и новое,
+       <hi rend="italic">
+        кончая:
+       </hi>
+       у нас,
+       <hi rend="italic">
+        на полях написано:
+       </hi>
+       Ссора Голицыныхъ съ Долгор[укими] изъ за Лефорта. Головинъ миритъ. Его мать. Къ ней ходятъ 3 сына Алексан., Ник., Иванъ, жена съ Абокумомъ — дура, соперничество съ Долгор[укимъ.]
+      </span>
+     </note>
+    </head>
     <p id="03178c95-2569-426c-84f4-f057df7475b4">
      «То Царей мало что
      <choice>
@@ -6533,11 +6499,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001005005">
-    <p id="b69d00d9-148e-4747-ad0e-434795b15284">
-     <head n="level2" type="editorial">
-      * № 21.
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     * № 21.
+    </head>
     <p id="b37b68f1-9be0-4ff8-8d14-6ab5be3b2ca1" rend="center">
      1.
     </p>
@@ -11273,61 +11237,58 @@
      </choice>
      солдату Николаю Мельникову.
      <hi rend="italic">
-     </hi>
-     <del type="reconstructed">
-      <choice>
-       <reg>
-        Мельников
-       </reg>
-       <orig>
-        Мельниковъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        как
-       </reg>
-       <orig>
-        какъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        раз
-       </reg>
-       <orig>
-        разъ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        нес
-       </reg>
-       <orig>
-        несъ
-       </orig>
-      </choice>
-      вино
-      <choice>
-       <reg>
-        в
-       </reg>
-       <orig>
-        въ
-       </orig>
-      </choice>
-      <choice>
-       <reg>
-        чашке
-       </reg>
-       <orig>
-        чашкѣ
-       </orig>
-      </choice>
-      .
-     </del>
-    </p>
-    <p id="ca042984-426b-42df-9460-a25b03ce5b87">
+      </hi><del type="reconstructed">
+     <choice>
+      <reg>
+       Мельников
+      </reg>
+      <orig>
+       Мельниковъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       как
+      </reg>
+      <orig>
+       какъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       раз
+      </reg>
+      <orig>
+       разъ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       нес
+      </reg>
+      <orig>
+       несъ
+      </orig>
+     </choice>
+     вино
+     <choice>
+      <reg>
+       в
+      </reg>
+      <orig>
+       въ
+      </orig>
+     </choice>
+     <choice>
+      <reg>
+       чашке
+      </reg>
+      <orig>
+       чашкѣ
+      </orig>
+     </choice>
+     .</del>
+    </p><p id="ca042984-426b-42df-9460-a25b03ce5b87">
      —
      <choice>
       <reg>
@@ -11756,9 +11717,7 @@
        въ
       </orig>
      </choice>
-     <num type="fraction" value="1/2">
-      1/2
-     </num>
+     <num type="fraction" value="1/2">1/2</num>
      <choice>
       <reg>
        версте
@@ -15210,16 +15169,12 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001005006">
-    <p id="56d8825e-6620-40dd-9830-db909e11be0a">
-     <head n="level2" type="editorial">
-      ** № 22.
-     </head>
-    </p>
-    <p id="b1ef3198-fc95-44a3-90c5-7a01a9b5c5e6">
-     <head n="level2" type="chapter">
-      II.
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     ** № 22.
+    </head>
+    <head n="level2" type="chapter">
+     II.
+    </head>
     <p id="df27b864-3d4b-4e20-8d3e-f68f62ca447a">
      Когда
      <choice>
@@ -19978,11 +19933,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011006001005007">
-    <p id="a3498beb-1954-4c47-a8e1-06dc387044f7">
-     <head>
-      * № 23.
-     </head>
-    </p>
+    <head>
+     * № 23.
+    </head>
     <p id="46f8958e-fb88-40d6-b119-0b5800f1029b">
      7205 года, февраля 13 день
      <choice>
