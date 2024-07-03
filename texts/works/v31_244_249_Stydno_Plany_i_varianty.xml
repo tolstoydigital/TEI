@@ -1,179 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title xml:id="v31_244_249_Stydno_Plany_i_varianty">
-     Стыдно. Произведения. Tolstoy Digital
-    </title>
-    <title type="main">
-     Стыдно.
-    </title>
-    <title resp="volume_editor" type="sub">
-     Варианты
-    </title>
-    <title type="bibl">
-     Толстой Л. Н. Стыдно // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 31. М.: Гос. изд. «Художественная литература», 1954. С. 244–249.
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство:
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML:
-     </resp>
-     <name>
-      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка метаданных:
-     </resp>
-     <name>
-      Мария Картышева, Вероника Файнберг
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Разметка имен собственных:
-     </resp>
-     <name>
-      Никита Северин, Елена Северина
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Исправление древнегреческого текста:
-     </resp>
-     <name>
-      Ольга Алиева
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="a40dc680-fd68-45a1-be9a-d32dc76a6eab">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015" to="2022"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       Стыдно
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 31
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date when="1954"/>
-      </imprint>
-      <biblScope unit="volume">
-       31
-      </biblScope>
-      <biblScope unit="page">
-       244-249
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date when="1895"/>
-   </creation>
-   <langUsage>
-    <language ident="ru"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#tolstoy_heritage" target="library"/>
-    <catRef ana="#works" target="type"/>
-    <catRef ana="#ver" target="work_main"/>
-    <catRef ana="#nonfiction" target="sphere"/>
-    <catRef ana="#statja" target="genre"/>
-    <catRef ana="#not_finished" target="finished"/>
-    <catRef ana="#polit_social" target="topic"/>
-    <catRef ana="#not_publ" target="published"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="v31_244_249_Stydno_Plany_i_varianty">
+                    Стыдно. Произведения. Tolstoy Digital
+                </title>
+                <title type="main">Стыдно.</title>
+                <title type="sub" resp="volume_editor">Варианты</title>
+                <title type="bibl">Толстой Л. Н. Стыдно // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 31. М.: Гос. изд. «Художественная литература», 1954. С. 244–249.</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство:</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="a40dc680-fd68-45a1-be9a-d32dc76a6eab">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015" to="2022"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            Стыдно
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том 31
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1954"/>
+                        </imprint>
+                        <biblScope unit="volume">31</biblScope>
+                        <biblScope unit="page">244-249</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1895"/>
+             </creation>
+            <langUsage> 
+                <language ident="ru"/>
+            </langUsage>
+            <textClass> 
+                <catRef ana="#tolstoy_heritage" target="library"/>
+                <catRef ana="#works" target="type"/>
+                <catRef ana="#ver" target="work_main"/>
+                <catRef ana="#nonfiction" target="sphere"/>
+                <catRef ana="#statja" target="genre"/>
+                <catRef ana="#not_finished" target="finished"/>
+                <catRef ana="#polit_social" target="topic"/>
+                <catRef ana="#not_publ" target="published"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000014">
     <p id="766e4095-73c6-46dc-a571-b8987d139f07">
      <pb n="244"/>
     </p>
-    <p id="04f4c5eb-939d-45ff-ba52-5c87d3d30115">
-     <head rend="center">
-      <hi rend="strong">
-       ПЛАНЫ И ВАРИАНТЫ
-      </hi>
-     </head>
-    </p>
+    <head rend="center">
+     <hi rend="strong">
+      ПЛАНЫ И ВАРИАНТЫ
+     </hi>
+    </head>
    </div>
    <div type="section" xml:id="h000014005">
-    <p id="e69115b1-3233-47f3-bb31-8fbe2f6830db">
-     <head n="level1" type="draft">
-      СТЫДНО
-     </head>
-    </p>
+    <head n="level1" type="draft">
+     СТЫДНО
+    </head>
    </div>
    <div type="section" xml:id="h000014005001">
-    <p id="562cc86a-6ae2-47ae-b848-e725217375f4">
-     <head rend=" left left">
-      * № 1 (рук. № 1).
-     </head>
-    </p>
-    <p id="6839d0f0-7ce2-4b35-a582-91b44144e4d2">
-     <head n="level1" type="draft">
-      &lt;ПОРУГАНИЕ ЧЕЛОВЕЧЕСКОГО ДОСТОИНСТВА&gt; ВОЗВРАЩЕНИЕ К ЗВЕРИНОМУ ОБРАЗУ
-     </head>
-    </p>
+    <head rend=" left left">
+     * № 1 (рук. № 1).
+    </head>
+    <head n="level1" type="draft">
+     &lt;ПОРУГАНИЕ ЧЕЛОВЕЧЕСКОГО ДОСТОИНСТВА&gt; ВОЗВРАЩЕНИЕ К ЗВЕРИНОМУ ОБРАЗУ
+    </head>
     <p id="7e4c99e9-fd13-4509-9656-49898ee3d1ef">
      <ref target="#note132">
       132
@@ -390,11 +368,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000014005002">
-    <p id="376b459f-bc2b-4c5f-92a0-5a7c76f1358b">
-     <head rend=" left left">
-      * № 2 (рук. № 2).
-     </head>
-    </p>
+    <head rend=" left left">
+     * № 2 (рук. № 2).
+    </head>
     <p id="ec55f690-9428-4ade-b3ab-16b40acdceac">
      Самые же либеральные люди нашего времени подают прошения и адресы о том, что может быть нездорово стегание по ягодицам или что нельзя ли ограничить стегание по ягодицам одним не кончившим курс в начальном училище или освободить подошедших под манифест.
     </p>
@@ -441,11 +417,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000014005003">
-    <p id="1bd4f051-727e-424f-9539-7ce070b1c062">
-     <head rend=" left left">
-      * № 3 (рук. № 6).
-     </head>
-    </p>
+    <head rend=" left left">
+     * № 3 (рук. № 6).
+    </head>
     <p id="c3bb3bc8-78e9-4e04-b311-16c2c1f9c2a1">
      Очевидно, это дикое наказание выбрано только потому, что люди, взявшиеся быть учителями других людей, по дикости своей сами недавно употребляли это наказание над своими детьми и бывшими рабами. И по этой своей дикости они пожелали употреблять это наказание и над тем сословием русского народа, трудами которого они живут и держится русское государство. И дикое наказание это введено было в закон.
     </p>

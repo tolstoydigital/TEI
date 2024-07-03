@@ -1,202 +1,176 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title xml:id="v45_499_517_Put_zhizni_Varianty">
-     Путь жизни. Произведения. Tolstoy Digital
-    </title>
-    <title type="main">
-     Путь жизни
-    </title>
-    <title resp="volume_editor" type="sub">
-     Варианты
-    </title>
-    <title type="bibl">
-     Толстой Л. Н. Путь жизни // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 45. М.: Гос. изд. «Художественная литература», 1956. С. 499–517.
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство:
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML:
-     </resp>
-     <name>
-      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка метаданных:
-     </resp>
-     <name>
-      Мария Картышева, Вероника Файнберг
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Разметка имен собственных:
-     </resp>
-     <name>
-      Никита Северин, Елена Северина
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Исправление древнегреческого текста:
-     </resp>
-     <name>
-      Ольга Алиева
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="698cd512-6ac5-4942-bfec-43d7a8ffaaa1">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015" to="2022"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       Путь жизни
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 45
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date when="1956"/>
-      </imprint>
-      <biblScope unit="volume">
-       45
-      </biblScope>
-      <biblScope unit="page">
-       499-517
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date from="1907" to="1910"/>
-   </creation>
-   <langUsage>
-    <language ident="ru"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#tolstoy_heritage" target="library"/>
-    <catRef ana="#works" target="type"/>
-    <catRef ana="#ver" target="work_main"/>
-    <catRef ana="#nonfiction" target="sphere"/>
-    <catRef ana="#sbornik" target="genre"/>
-    <catRef ana="#not_finished" target="finished"/>
-    <catRef ana="#philosophy_religion" target="topic"/>
-    <catRef ana="#not_publ" target="published"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="v45_499_517_Put_zhizni_Varianty">
+                    Путь жизни. Произведения. Tolstoy Digital
+                </title>
+                <title type="main">Путь жизни</title>
+                <title type="sub" resp="volume_editor">Варианты</title>
+                <title type="bibl">Толстой Л. Н. Путь жизни // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 45. М.: Гос. изд. «Художественная литература», 1956. С. 499–517.</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство:</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="698cd512-6ac5-4942-bfec-43d7a8ffaaa1">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015" to="2022"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            Путь жизни
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том 45
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1956"/>
+                        </imprint>
+                        <biblScope unit="volume">45</biblScope>
+                        <biblScope unit="page">499-517</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date from="1907" to="1910"/>
+             </creation>
+            <langUsage> 
+                <language ident="ru"/>
+            </langUsage>
+            <textClass> 
+                <catRef ana="#tolstoy_heritage" target="library"/>
+                <catRef ana="#works" target="type"/>
+                <catRef ana="#ver" target="work_main"/>
+                <catRef ana="#nonfiction" target="sphere"/>
+                <catRef ana="#sbornik" target="genre"/>
+                <catRef ana="#not_finished" target="finished"/>
+                <catRef ana="#philosophy_religion" target="topic"/>
+                <catRef ana="#not_publ" target="published"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011002">
     <p id="6b20cfee-fda1-4941-9bbc-9bb50804df7c">
      <pb n="499"/>
     </p>
-    <p id="70bacbeb-6bae-46f3-a7ff-ce7facf34369">
-     <head n="level1">
-      «ПУТЬ ЖИЗНИ»
-     </head>
-    </p>
+    <head n="level1">
+     «ПУТЬ ЖИЗНИ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002001">
-    <p id="4d0cedbf-4314-4e34-9d88-bf2aa40b7979">
-     <head n="level2" type="editorial">
-      К главе I «О ВЕРЕ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе I «О ВЕРЕ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002001001">
-    <p id="f5934704-08d0-4190-a4c8-1f0d6da0bfea">
-     <head n="level3" type="editorial">
-      * № 1
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 1
+    </head>
     <p id="91ee25f3-932b-44b4-9bc6-ef1a36de9ddd">
      В том, что люди знают о начале всего, о боге, есть всегда то, чего нельзя выразить словами. Это-то, то самое, чего нельзя выразить словами, и есть то, во что мы верим.
     </p>
    </div>
    <div type="section" xml:id="h000011002001002">
-    <p id="337257dc-4e8b-43f3-9584-604e3dca0006">
-     <head n="level3" type="editorial">
-      * № 2
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 2
+    </head>
     <p id="85af5b1c-7584-4763-a642-b2b84e75ae30">
      Раб делает волю хозяина из страха перед хозяином, сын — из любви к отцу. Истинная вера делает нас из рабов божьих сынами его.
     </p>
    </div>
    <div type="section" xml:id="h000011002001003">
-    <p id="e7ac3179-7f2d-4497-9504-fc40d56c5d1e">
-     <head n="level3" type="editorial">
-      * № 3
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 3
+    </head>
     <p id="32078721-5ed7-4655-9714-410eadfa002a">
      Истинная вера не есть вера в определенные догматы, а вера в то, что всё, что происходит, — нужно. Нам показано ясно, что делать, но не показано, что из этого выйдет. Есть прелесть в этом доверии: заставляют меня что-то делать, не говорят — зачем, но меня любят, и я люблю и делаю. Вера тут сливается с любовью. Надежда вносит что-то грубое, противное и вере и любви понятие.
     </p>
    </div>
    <div type="section" xml:id="h000011002001004">
-    <p id="0338869b-60c1-47f4-bdc1-675fc7164555">
-     <head n="level3" type="editorial">
-      * № 4
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 4
+    </head>
     <p id="14fe67cd-0e53-4efa-94e8-485b1fa50111">
      «Что такое я? Что должен я делать? И что меня ожидает?» Это — три главные для человека вопроса. Из этих вопросов главный — средний: что делать? потому что, если человек узнает, что ему делать, то он узнает и что он такое и на что он может надеяться.
     </p>
@@ -205,11 +179,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001005">
-    <p id="56099467-3667-4b1c-bf37-2c694eea4870">
-     <head n="level3" type="editorial">
-      * № 5
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 5
+    </head>
     <p id="4cf9529b-002c-481f-ac0a-af2e11dfcb09">
      Если ты в жизни чего-нибудь боишься, то это значит, что ты не знаешь того бога, который живет в тебе. Если бы ты знал его,
      <pb n="500"/>
@@ -224,11 +196,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001006">
-    <p id="a4c1ff51-1683-4dc5-bf52-253389a71776">
-     <head n="level3" type="editorial">
-      * № 6
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 6
+    </head>
     <p id="82bba4dd-7778-4a65-b0ed-165cd2a74d27">
      Если кто сомневается в боге и не знает, есть ли бог или нет его, тот еще не совсем отрекся от бога и может найти его. Но тот, кто на слово поверил тому, что ему сказали
      <ref target="#note6">
@@ -246,21 +216,17 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001007">
-    <p id="65c1a3b0-8889-4fba-8a08-f68f67641ad1">
-     <head n="level3" type="editorial">
-      * № 7
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 7
+    </head>
     <p id="f7c9d7bd-7f30-44ed-ac0a-c18bc7c6022b">
      Главная разница между истинной верой и ложной — та, что при ложной вере человек хочет, чтобы бог за его жертвы и молитвы угождал ему, человеку. При истинной же вере человек хочет только одного: самому научиться угождать богу.
     </p>
    </div>
    <div type="section" xml:id="h000011002001008">
-    <p id="f4b2417d-0501-485f-88d7-8dfc01784bfc">
-     <head n="level3" type="editorial">
-      * № 8
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 8
+    </head>
     <p id="ec3ae1f2-32f2-43d3-b657-9fea191628ca">
      Когда человек держится веры только потому, что все так же верят, и когда он иногда исполняет, а иногда и не исполняет того, чего требует его вера, то это уже не вера, а притворство, лицемерие.
      <ref target="#note7">
@@ -277,11 +243,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001009">
-    <p id="c75f749f-511d-4b1c-84d8-7f72373eb594">
-     <head n="level3" type="editorial">
-      * № 9
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 9
+    </head>
     <p id="f34391b3-eb6b-4c96-91c6-564175ee95ca">
      Какое безумие думать, что словами и пением можно восхвалить бога.
     </p>
@@ -299,11 +263,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002001010">
-    <p id="75cbcbcc-aaa4-4fa8-a479-7d6acd0e7b31">
-     <head n="level3" type="editorial">
-      * № 10
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 10
+    </head>
     <p id="f6b43302-528d-4f19-9d40-98d0f84e3c33">
      Религия состоит в том, чтобы знать, что всё то хорошее, что делает человек, он делает только потому, что в нем живет бог. Человек религиозный знает, что всё хорошее, что он делает, делается не им, а
      <hi rend="italic">
@@ -318,18 +280,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002">
-    <p id="6f32f6dd-06b5-4b3a-8048-9e4dff6b8d22">
-     <head n="level2" type="editorial">
-      К главе II «ДУША»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе II «ДУША»
+    </head>
    </div>
    <div type="section" xml:id="h000011002002001">
-    <p id="a0bb3fac-d3c1-4f54-9789-e317c71a0e65">
-     <head n="level3" type="editorial">
-      * № 11
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 11
+    </head>
     <p id="aba548ea-0b9d-4f3d-9994-fe33a5aacbc2">
      Если человек думает, что всё, что он видит вокруг себя, весь бесконечный мир, точно существует, то как же ему не думать и того, что действительно существует и то, посредством чего он познаёт всё, что есть: то духовное начало, какое живет в нем — свою душу.
     </p>
@@ -339,31 +297,25 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002002">
-    <p id="8e46a8fd-7b33-46d4-bd70-5bdc07f7891b">
-     <head n="level3" type="editorial">
-      * № 12
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 12
+    </head>
     <p id="7d23aeaf-006b-45f2-bba6-42d15611fd0f">
      Вещественный мир для нас только оттого такой, каким мы его знаем, что у нас такие, а не другие чувства: зрение, слух, осязание, и такой, а не иной способ мышления. Для существ с другими, чем наши, чувствами и с другими, чем наши, свойствами познания, он будет совсем другой. Так, что
     </p>
    </div>
    <div type="section" xml:id="h000011002002003">
-    <p id="2f8749e5-eb7a-463c-9d65-c9825aa8d5ac">
-     <head n="level3" type="editorial">
-      * № 13
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 13
+    </head>
     <p id="0b4fdeb5-3a16-47ad-9bea-dbb5baefe063">
      Божественная сила живет в человеке, и человеку дано знать это.
     </p>
    </div>
    <div type="section" xml:id="h000011002002004">
-    <p id="0e89c803-b49b-4e58-8919-e8029d9261b3">
-     <head n="level3" type="editorial">
-      * № 14
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 14
+    </head>
     <p id="da8d3ace-7a46-46a9-b163-7014ab3354b0">
      Я для бога — другой он. Он во мне находит то, что вечно будет подобно ему.
     </p>
@@ -381,61 +333,49 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002005">
-    <p id="fdd327ed-7ab5-4a90-8007-ec3c7528b09c">
-     <head n="level3" type="editorial">
-      * № 15
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 15
+    </head>
     <p id="4d78ee10-8a54-4fc7-88ea-aae4f4bc82ed">
      Когда тебе плохо, не ищи утешения нигде, кроме как в себе самом. В тебе то, что сильнее всего на свете.
     </p>
    </div>
    <div type="section" xml:id="h000011002002006">
-    <p id="af84e3ec-6858-4e29-9a10-5035da440286">
-     <head n="level3" type="editorial">
-      * № 16
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 16
+    </head>
     <p id="98a01cf5-d79b-4a8c-90bf-55a79057ec5d">
      Чем больше ищешь бога, тем всё меньше и меньше ты можешь умом понять его, и вместе с тем он всё больше и больше сливается с тобой в душе твоей.
     </p>
    </div>
    <div type="section" xml:id="h000011002002007">
-    <p id="e4ef65ce-f801-46e5-b069-8c2d36b9540d">
-     <head n="level3" type="editorial">
-      * № 17
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 17
+    </head>
     <p id="cdb914d0-d3cb-4afd-8070-ed48dd8d99ef">
      Если делать только по расчетам о том, что выйдет из моего дела, то никогда не будешь уверен, хорошо или дурно ты поступаешь. Можно быть уверенным в том, что поступаешь так, как должно, что выйдет только хорошее из того, что ты делаешь, только тогда, когда ты делаешь не по расчету, а для души.
     </p>
    </div>
    <div type="section" xml:id="h000011002002008">
-    <p id="3540a11d-66b9-4440-a8ed-08252a54b6cf">
-     <head n="level3" type="editorial">
-      * № 18
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 18
+    </head>
     <p id="fe2c2228-e461-4f0a-b79a-0f2210429cf7">
      Для того, чтобы понимать жизнь, надо сводить всё телесное к духовному.
     </p>
    </div>
    <div type="section" xml:id="h000011002002009">
-    <p id="b79aebe5-cbce-45cb-b4c1-8fef66dfc53f">
-     <head n="level3" type="editorial">
-      * № 19
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 19
+    </head>
     <p id="9dd4c4eb-be57-4ff7-a7bb-4d29863be62d">
      Когда человек не знает того, что он живет не телом, а духом, он всего боится. Но стоит человеку узнать то, что жизнь его не в теле, а в духе, и ему уже нечего бояться, потому что никто не может сделать ничего дурного душе человека.
     </p>
    </div>
    <div type="section" xml:id="h000011002002010">
-    <p id="be62c3d4-d6ee-446a-bc00-34947ceb8a94">
-     <head n="level3" type="editorial">
-      * № 20
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 20
+    </head>
     <p id="d53adf55-8766-41f3-9912-e119c3bc9b06">
      Человек только тогда свободен, когда он понимает себя не как тело, а как душу.
     </p>
@@ -444,11 +384,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002002011">
-    <p id="f76e8445-faac-4727-8490-1a9de3871c5a">
-     <head n="level3" type="editorial">
-      * № 21
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 21
+    </head>
     <p id="7bf4efe6-9f8e-482a-9873-99c815b078d8">
      Часто говорят, что трудно познать духовное. Это неправда: трудно познать телесное, духовное же то, про что мы говорим
      <hi rend="italic">
@@ -458,28 +396,22 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003">
-    <p id="0744e1fc-dc92-42b3-af9e-627259991465">
-     <head n="level2" type="editorial">
-      К главе III «ОДНА ДУША ВО ВСЕХ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе III «ОДНА ДУША ВО ВСЕХ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002003001">
-    <p id="21a6e7d7-0793-4e65-b87f-32d259efbf23">
-     <head n="level3" type="editorial">
-      * № 22
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 22
+    </head>
     <p id="3107f4f6-6721-4228-98d5-df0db55d6306">
      Если человек кажется нам дурным, противным, надо думать и говорить себе так: человек этот противен мне, но противно в нем его тело, его голос, его речи, его дела; душа же его точно такая же, как и моя. В нем живет тот же дух, какой живет и во мне, и потому буду искать в человеке этом не то дурное, что отделяет меня от него, а то хорошее, что в нас обоих одно и то же.
     </p>
    </div>
    <div type="section" xml:id="h000011002003002">
-    <p id="f59350f0-f50f-4076-a90b-4d26ddbfe917">
-     <head n="level3" type="editorial">
-      * № 23
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 23
+    </head>
     <p id="b0ebbbb8-c647-4a42-b4af-6d607acb8411">
      Помню, что кто-то сказал мне, что в каждом человеке есть много и очень хорошего и очень человеколюбивого, и много очень дурного и недоброжелательного, и смотря по тому, как расположен человек, проявляется то одно, то другое. Это совершенно верно.
     </p>
@@ -514,11 +446,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003003">
-    <p id="f533229c-55ca-4c2f-a316-69e3e92d51ac">
-     <head n="level3" type="editorial">
-      * № 24
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 24
+    </head>
     <p id="ba1fbba5-cccb-47f4-8f9b-00d6651312e9">
      Мы сознаем не только тот дух, который живет в нас, но сознаем и тот дух, который живет во всех существах. Мы мало того,
      <pb n="503"/>
@@ -526,71 +456,57 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003004">
-    <p id="711cd5c3-a6a8-42b7-acc5-9c6983462f11">
-     <head n="level3" type="editorial">
-      * № 25
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 25
+    </head>
     <p id="32383c12-6af3-42a0-87b5-9ec197d7587d">
      Мы знаем, что тот же самый дух, который живет в нас и во всех людях, живет и в животных, по той же жалости, которую мы испытываем, когда видим смерть или страдания животных. Они хотя и дальняя, но все-таки родня нам.
     </p>
    </div>
    <div type="section" xml:id="h000011002003005">
-    <p id="843f36e6-6e23-4ff6-8541-e81d6fc50aa3">
-     <head n="level3" type="editorial">
-      * № 26
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 26
+    </head>
     <p id="cc642491-42c9-403c-89f7-57590100e391">
      Вполне понятен становится нам тот божественный дух, которым мы живем, только тогда, когда мы любим ближних.
     </p>
    </div>
    <div type="section" xml:id="h000011002003006">
-    <p id="e75586e3-4507-415f-96f9-a8a2799d1855">
-     <head n="level3" type="editorial">
-      * № 27
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 27
+    </head>
     <p id="cff5401d-af03-41c3-8cb2-a69f3e44ac92">
      Если человек живет для души и помнит, что такая же душа живет и в других людях, то такой человек не станет ни обижать других людей, ни властвовать над ними, ни враждовать с ними, а будет только любить всякого человека.
     </p>
    </div>
    <div type="section" xml:id="h000011002003007">
-    <p id="02f9cb80-5ed0-47f8-8909-666134223ece">
-     <head n="level3" type="editorial">
-      * № 28
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 28
+    </head>
     <p id="9ea4fad7-67ea-458e-9b0a-66dd402e86b3">
      Жизнь людей бывает тяжелая только оттого, что они не знают, что та душа, которая живет в каждом из них, живет и во всех людях. От этого вражда людей между собою, от этого одни богаты, другие бедны, одни хозяева, другие работники; от этого зависть и злоба, от этого все мучения людские.
     </p>
    </div>
    <div type="section" xml:id="h000011002003008">
-    <p id="042546d3-57bc-4a1f-b7aa-e7a636151b63">
-     <head n="level3" type="editorial">
-      * № 29
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 29
+    </head>
     <p id="52f9528c-f073-4a5d-a067-b76d5da2834a">
      Тело человека хочет добра себе одному, и люди поддаются этому обману. А как только человек живет для себя одного, он расходится с людьми и с самим собою и не получает того добра, которого ищет.
     </p>
    </div>
    <div type="section" xml:id="h000011002003009">
-    <p id="7f18a5e7-b2b3-4f09-9a51-3237dd2da8b0">
-     <head n="level3" type="editorial">
-      * № 30
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 30
+    </head>
     <p id="7fec58d3-aba4-4f41-806d-4769cf345df2">
      Во всех душах живет один и тот же дух божий, и дух этот соединяет людей. Эта истина проповедуется во всех верах. И истину эту знает каждый человек не одним только разумом, но всем существом своим.
     </p>
    </div>
    <div type="section" xml:id="h000011002003010">
-    <p id="d34f88ab-36aa-4371-962a-1760dcb28134">
-     <head n="level3" type="editorial">
-      * № 31
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 31
+    </head>
     <p id="6b2c387a-29d1-42a2-8b03-660fb18709bf">
      Если люди знают всё то, что можно узнать через наши пять чувств, но не знают того духа, который живет в вещах, они ничего не знают.
     </p>
@@ -613,21 +529,17 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003011">
-    <p id="5416d304-d6d5-4271-8790-820ac83b0ea6">
-     <head n="level3" type="editorial">
-      * № 32
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 32
+    </head>
     <p id="9d55c21f-f1bb-4f6a-a6c0-4c4a071ce24e">
      Нельзя найти следов земного происхождения душ. В душах нет ничего составного, ничего, что могло бы возникнуть или образоваться на земле; нет ничего похожего ни на воду, ни на огонь. Ни в воде, ни в воздухе, ни в огне нет ничего такого, что могло бы думать, помнить прошлое, заглядывать в будущее и понимать то, что надо делать в настоящем. Стало быть, есть в человеке то, что отличает его от всего вещественного, это-то, что отличает человека от всего вещественного, мы и называем духом божиим.
     </p>
    </div>
    <div type="section" xml:id="h000011002003012">
-    <p id="dc4beceb-4e4a-42f6-ab91-c6d1e06af156">
-     <head n="level3" type="editorial">
-      * № 33
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 33
+    </head>
     <p id="cd7ed9e4-50c2-42a9-92e6-62864fbefbb1">
      Убедить другого человека можно только его же собственными мыслями. Точно так же и привлечь человека к добру можно только тем добром, какое есть в нем. Так что мы всегда знаем, что то, что есть в нашей душе, есть и в душе всякого человека.
     </p>
@@ -638,48 +550,38 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002003013">
-    <p id="42db4ebb-65c1-4724-b9cc-2af5eddcffd8">
-     <head n="level3" type="editorial">
-      * № 34
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 34
+    </head>
     <p id="649f1364-e89b-4e98-a4d7-8ee7d837631f">
      Если человек думает, что жизнь в нем одном, и живет только для себя, то жизнь такого человека бывает тяжелая. Стоит такому человеку понять, что то, чем он живет, одно во всех людях, и он начинает жить не для себя одного, а для других, и он узнает радость своей любви к людям и их любовь к себе, и жизнь такого человека вместо тяжелой станет радостной.
     </p>
    </div>
    <div type="section" xml:id="h000011002004">
-    <p id="f43d6a98-3d12-40e9-9cb3-ee9a9fcd73e9">
-     <head n="level2" type="editorial">
-      К главе IV «БОГ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе IV «БОГ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002004001">
-    <p id="0d2f95f5-d01e-430f-9c02-4fc3065e9d0f">
-     <head n="level3" type="editorial">
-      * № 35
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 35
+    </head>
     <p id="019f5087-2c66-4cfc-9e00-4b147bd04233">
      У каждого человека бывают такие мысли, такие чувства, такое душевное состояние, которое хочется передать другим. Но тотчас же чувствуется, что передать это другому невозможно. Невозможно потому, что другой человек не поймет того, что во мне делается. А передать нужно. Кому же передать? Богу.
     </p>
    </div>
    <div type="section" xml:id="h000011002004002">
-    <p id="99b21f37-6b9c-45b7-b71e-76c117ed5dda">
-     <head n="level3" type="editorial">
-      * № 36
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 36
+    </head>
     <p id="8efbb475-1949-4183-a698-aa08bb92df23">
      Когда ты сознаешь себя отдельным существом, ты сознаешь себя человеком. Когда же ты сознаешь себя как всё, то ты сознаешь себя богом. В человеке есть оба сознания.
     </p>
    </div>
    <div type="section" xml:id="h000011002004003">
-    <p id="fe16e12a-3050-46ce-8a74-18fc9689e4c4">
-     <head n="level3" type="editorial">
-      * № 37
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 37
+    </head>
     <p id="b49f0cf3-b45e-41df-8c51-cc31e07b15ee">
      «Я понимаю, что значит: любить ближнего, и понимаю, как хороша была бы жизнь, если бы мы все любили ближнего, но не понимаю, что значит любить бога и как это можно любить что-то непонятное и неизвестное». Так думают и говорят многие, не понимая того, что, не любя бога, нельзя любить противного нам ближнего. Любить ближнего, всякого, какими бы они ни были, можно только тогда, когда любишь в нем того бога, который живет и во мне и во всяком человеке.
     </p>
@@ -688,11 +590,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002004004">
-    <p id="cf90d40b-e012-4f46-898e-e383f486bc66">
-     <head rend=" left left">
-      * № 38
-     </head>
-    </p>
+    <head rend=" left left">
+     * № 38
+    </head>
     <p id="8a05dd66-294f-4700-b8c4-71212a67b490">
      Познать бога можно или умом,
      <ref target="#note8">
@@ -722,38 +622,30 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002004005">
-    <p id="ed4e230a-a3a4-4dc4-b90b-4c46cc7c4f87">
-     <head rend=" left left">
-      * № 39
-     </head>
-    </p>
+    <head rend=" left left">
+     * № 39
+    </head>
     <p id="d2360e4b-a5a7-4af3-98d8-33d247edf839">
      Почитать и познавать бога можно только тем, чтобы исполнять то, чего он хочет от нас. Хочет же он от нас доброй жизни. И потому, только когда живем доброй жизнью, мы познаем бога. Без доброй жизни нельзя познать бога.
     </p>
    </div>
    <div type="section" xml:id="h000011002004006">
-    <p id="2f36b7ce-15a3-487e-993f-b4c756a9e794">
-     <head n="level3" type="editorial">
-      * № 40
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 40
+    </head>
     <p id="58284ff6-e6d1-44d2-aaf5-c7f13cade3c2">
      Бог — это дух. Мы можем чувствовать его в себе, но определять бога словами, говорить о том, какой он сам по себе, и глупо и вредно.
     </p>
    </div>
    <div type="section" xml:id="h000011002005">
-    <p id="4824cff4-f455-46cf-a873-3a7fdb384d8c">
-     <head n="level2" type="editorial">
-      К главе V «ЛЮБОВЬ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе V «ЛЮБОВЬ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002005001">
-    <p id="9b33d581-1c75-4255-9ea0-e4b0b787a3ec">
-     <head n="level3" type="editorial">
-      * № 41
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 41
+    </head>
     <p id="9d9dbf17-33c7-4b7a-97b5-3c1f766624cb">
      Любить бога значит любить совершенство добродетели, любить ближнего значит любить
      <hi rend="italic">
@@ -763,31 +655,25 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005002">
-    <p id="4904f1a3-b45d-4d55-aab6-dc681999e698">
-     <head n="level3" type="editorial">
-      * № 42
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 42
+    </head>
     <p id="2e882887-33c7-4130-a954-8ea3e8628d9c">
      Недаром сказано, что весь закон в том, чтобы любить бога и ближнего. Ближний может быть и не быть. Но бог всегда есть, и потому человек один в пустыне, в тюрьме, может исполнять закон любви. Может один сам с собой в мыслях делать угодное ему.
     </p>
    </div>
    <div type="section" xml:id="h000011002005003">
-    <p id="b7aa05ad-e329-4369-b7ac-7a6d58dc4ad9">
-     <head n="level3" type="editorial">
-      * № 43
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 43
+    </head>
     <p id="6332669c-a49c-4719-be79-6045d34814dd">
      Сходятся люди по-настоящему не с тем, с кем хотят сойтись, а сходятся по-настоящему только с теми, которые, так же как и они, идут к богу.
     </p>
    </div>
    <div type="section" xml:id="h000011002005004">
-    <p id="0b03c9cb-e8ce-4225-9002-462ea24e5b90">
-     <head n="level3" type="editorial">
-      * № 44
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 44
+    </head>
     <p id="dede97ad-c0a7-4256-bc05-dd7126e60379">
      Что будет от того, что человек признает своим
      <hi rend="italic">
@@ -800,11 +686,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005005">
-    <p id="0dbc8707-12d4-428e-97bc-03008529df1c">
-     <head n="level3" type="editorial">
-      * № 45
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 45
+    </head>
     <p id="e56afbef-4891-463a-b407-27256bd44927">
      Для того же, чтобы научится любить людей неприятных нам, надо прежде всего удерживаться от всякого недоброго слова
      <pb n="506"/>
@@ -812,21 +696,17 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005006">
-    <p id="3ec57ba3-69b1-46b9-9eff-1556efc0f10f">
-     <head n="level3" type="editorial">
-      * № 46
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 46
+    </head>
     <p id="ff68adaa-121f-497e-9989-c35e5785f2e6">
      Росток любви, как и всякий росток, сначала нежный и слабый, входит в силу, только когда разрастется. И как всякому растению нужнее всего свет солнца, так и ростку любви нужнее всего свет разума.
     </p>
    </div>
    <div type="section" xml:id="h000011002005007">
-    <p id="b8a9faee-e000-4fc0-808c-fff0b906bdc8">
-     <head n="level3" type="editorial">
-      * № 47
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 47
+    </head>
     <p id="f809677b-b9c1-4f24-9772-dbd7ac8c77e9">
      Чем дальше живет человек, тем слышнее становится ему голос души. Голос этот говорит ему, что кроме того блага, какое нужно ему для своего отдельного тела, ему нужно благо и для того духа божия, который живет
      <ref target="#note10">
@@ -844,11 +724,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005008">
-    <p id="5296ccbe-5901-4b7c-855f-141178630732">
-     <head n="level3" type="editorial">
-      * № 48
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 48
+    </head>
     <p id="9713b01e-4ad3-46a2-932c-8498cff23a1d">
      В древние времена все люди жили раздельно, и чем дальше назад, тем раздельнее. Маленькие царства, княжества, даже семейства, всё жили врозь и часто жили и умирали, не зная ничего друг про друга. Не было ни дорог, ни парового сообщения, ни телеграфов, ни печати, ни книг. Но чем дальше живут люди, тем всё больше и больше узнают они друг про друга и тем всё легче и легче могут соединяться.
      <ref target="#note11">
@@ -866,11 +744,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005009">
-    <p id="a9f23b0f-2e4d-4958-a8fd-b16efcc62321">
-     <head n="level3" type="editorial">
-      * № 49
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 49
+    </head>
     <p id="9c777a41-d303-41d5-8924-a4733ed6eff9">
      Всякий человек хочет добра себе, своему телу, но разум человека показывает ему, что всем людям нужно то же самое и что это добро добывается только борьбой всех со всеми. А при такой борьбе не может быть добра. Так что добро мог бы добыть человек только тогда, когда оно добывалось бы без борьбы.
     </p>
@@ -879,11 +755,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005010">
-    <p id="b5bf17d4-1dbc-4d1b-90c4-29183ae15de4">
-     <head n="level3" type="editorial">
-      * № 50
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 50
+    </head>
     <p id="f5b1faaf-40d1-4be7-b649-34a5968a05b3">
      Если ожидаешь за любовь награды от людей, то эта любовь не настоящая. Настоящая любовь всегда такая, что дает благо
      <pb n="507"/>
@@ -891,31 +765,25 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005011">
-    <p id="dddf8816-8fff-4eb8-be82-e7ef080dfa73">
-     <head n="level3" type="editorial">
-      * № 51
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 51
+    </head>
     <p id="74b1eb51-b80f-4475-bc14-c263165837f6">
      Люди жалуются на то, что жизнь их трудная. А жизнь их трудная только оттого, что они, вместо того чтобы соединяться и всё делать сообща — миром, все живут и работают порознь. А соединиться могут люди только в том, чего хочет один и тот же во всех дух божий. Только положи люди те силы, которые они кладут теперь каждый порознь на то, чего им хочется, на то, чтобы жить для души, и они все сойдутся и всё станет им легким , и жизнь станет не трудная, а радостная.
     </p>
    </div>
    <div type="section" xml:id="h000011002005012">
-    <p id="fc2db376-b195-4046-8376-464dea2fd3c9">
-     <head n="level3" type="editorial">
-      * № 52
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 52
+    </head>
     <p id="5fa4709c-e656-45f5-8a85-ab393cc04edb">
      Если не знаешь, хорошо или дурно то, что делаешь, то только спроси себя, что не нарушится ли от того, что ты делаешь, любовь людей к людям. Если нарушится — дело наверно дурное, и не надо делать его.
     </p>
    </div>
    <div type="section" xml:id="h000011002005013">
-    <p id="c2edfbf2-5042-406f-a913-f8c984564106">
-     <head n="level3" type="editorial">
-      * № 53
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 53
+    </head>
     <p id="2e234c41-1b53-49c3-b708-c906318aecba">
      Любовь делает то, что там, где было горе, делается благодушие, где были упреки, делается прощение, где была ненависть, делается умиление. И если человек возрастит в себе любовь, то эти переходы от тяжелого и дурного к радостному и доброму делаются без усилия сами собою.
     </p>
@@ -926,21 +794,17 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002005014">
-    <p id="4976b506-dc76-493a-b981-35a674f4bb73">
-     <head n="level3" type="editorial">
-      * № 54
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 54
+    </head>
     <p id="cfcc2213-09c9-4cfb-81aa-d54c3c957e50">
      Для любви нет смерти, нет непонятного и нет зла.
     </p>
    </div>
    <div type="section" xml:id="h000011002005015">
-    <p id="b058810d-f50a-46eb-b6cf-e093c0794978">
-     <head n="level3" type="editorial">
-      * № 55
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 55
+    </head>
     <p id="8b142adb-c08f-4818-93b2-59303cfa70a5">
      Есть два рода любви:
     </p>
@@ -963,18 +827,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006">
-    <p id="1a39ce65-cbc0-4a12-9257-e67cb4c2d62b">
-     <head n="level2" type="editorial">
-      К главе VI «ГРЕХИ, СОБЛАЗНЫ, СУЕВЕРИЯ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе VI «ГРЕХИ, СОБЛАЗНЫ, СУЕВЕРИЯ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002006001">
-    <p id="2e286242-81a0-4dcf-89a6-f71de863a9c8">
-     <head n="level3" type="editorial">
-      * № 56
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 56
+    </head>
     <p id="0eb7411d-7eb8-439e-822d-9f44af369d3d">
      Тело должно служить душе. Но часто бывает то, что под влиянием страсти душа человека делается слугою тела. И тогда человек делает не то, что хорошо для него, ошибается, делает грехи.
     </p>
@@ -983,71 +843,57 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006002">
-    <p id="c7a043fc-51fa-4072-8366-615f7e7a2fa3">
-     <head n="level3" type="editorial">
-      * № 57
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 57
+    </head>
     <p id="670a8674-5a11-455f-b74c-209717b1657e">
      Грех значит ошибка, т. е. то, что человек хочет сделать лучше, а делает хуже. Такую ошибку делает человек, когда думает получить благо, отдаваясь своим похотям.
     </p>
    </div>
    <div type="section" xml:id="h000011002006003">
-    <p id="909e6736-8e2d-40cb-8f1c-8f474cc33625">
-     <head n="level3" type="editorial">
-      * № 58
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 58
+    </head>
     <p id="83229f34-db0b-4c26-a5f6-78a5c8108d17">
      Хорошо человеку, когда он, живя среди грешных людей, не видит их грехов, а видит только свои.
     </p>
    </div>
    <div type="section" xml:id="h000011002006004">
-    <p id="70a6e216-c194-427a-9e38-a65983f5fe8e">
-     <head n="level3" type="editorial">
-      * № 59
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 59
+    </head>
     <p id="c9ca0fa5-93e3-401b-97a1-17dbf14dc0e9">
      Если человек не победит грех, а отдастся ему, он попадет в соблазн. А победить соблазны труднее, чем грехи. От соблазнов же попадешь и в суеверие; а освобождение от суеверия еще труднее. Суеверия же приводят к ложной вере, освобождение от которой труднее всего.
     </p>
    </div>
    <div type="section" xml:id="h000011002006005">
-    <p id="6bcb6092-f4b3-4189-a5ff-3550f67d59f6">
-     <head n="level3" type="editorial">
-      * № 60
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 60
+    </head>
     <p id="0288ff3b-f2ff-48bd-a279-ef2288e7ac3c">
      Если бы не было темноты, мы бы не знали ни света, ни разных цветов. Также если бы не было грехов, соблазнов, суеверий и лжеучений, мы не знали бы ни праведности, ни добродетели.
     </p>
    </div>
    <div type="section" xml:id="h000011002006006">
-    <p id="f6c34bf0-40aa-4d17-adbf-8529550fa2af">
-     <head n="level3" type="editorial">
-      * № 61
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 61
+    </head>
     <p id="38f5efd0-81d0-44e8-b0b7-cdd77bca387d">
      Если человеку, погрязшему в соблазны, укажут на его грехи, он только рассердится на тех, кто указывает их ему, — так что к прежним грехам прибавится еще новый.
     </p>
    </div>
    <div type="section" xml:id="h000011002006007">
-    <p id="74f120b1-3131-4319-a689-ca46e0206cc1">
-     <head n="level3" type="editorial">
-      * № 62
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 62
+    </head>
     <p id="3feff3a4-fa6a-423e-aeeb-9e0b078ff6b5">
      Не будь грехов, соблазнов и ложных вер, все люди любили бы друг друга, и на земле было бы царство божие.
     </p>
    </div>
    <div type="section" xml:id="h000011002006008">
-    <p id="1a19b772-b361-4950-8f22-ddaf5bb4c2c4">
-     <head n="level3" type="editorial">
-      * № 63
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 63
+    </head>
     <p id="95f7aee5-f41e-472e-9390-f7462daa11d0">
      <hi rend="italic">
       Грехи
@@ -1074,11 +920,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002006009">
-    <p id="71e1b064-60a4-4a71-a109-366cb5b5b4a9">
-     <head n="level3" type="editorial">
-      * № 64
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 64
+    </head>
     <p id="e350fc2c-8961-43be-8b61-00c0a7ba6a09">
      Бывает трудно освободиться от грехов больше всего оттого, что соблазны поддерживают грехи.
     </p>
@@ -1087,18 +931,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002007">
-    <p id="032fb6fa-aade-4a9f-b501-4375720ce785">
-     <head n="level2" type="editorial">
-      К главе VII «ИЗЛИШЕСТВО»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе VII «ИЗЛИШЕСТВО»
+    </head>
    </div>
    <div type="section" xml:id="h000011002007001">
-    <p id="964abe97-d1d8-4bd2-981d-8a44b7bd41b9">
-     <head n="level3" type="editorial">
-      * № 65
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 65
+    </head>
     <p id="9013333c-1bf1-4590-b0b5-cb30f08cfe80">
      Грех служения телу в том, что люди, вместо того чтобы освободить душу от тела, полагают силы души на угождение телу.
      <ref target="#note12">
@@ -1115,28 +955,22 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002007002">
-    <p id="59fec2a9-5640-4803-b5b7-a59d50389121">
-     <head n="level3" type="editorial">
-      * № 66
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 66
+    </head>
     <p id="bdee5fd0-4599-4bd3-ab5e-99e12329ef54">
      Когда веселятся небогатые, они веселятся все вместе, и веселье бывает настоящее. Когда же веселятся богатые, то одни веселятся, а другие готовят увеселения, не участвуют в них и с завистью и злобой смотрят на веселящихся. Какое же это веселье?
     </p>
    </div>
    <div type="section" xml:id="h000011002008">
-    <p id="bcd1c6b9-9be2-4592-8bb7-7e36095f3890">
-     <head n="level2" type="editorial">
-      К главе VIII «ПОЛОВАЯ ПОХОТЬ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе VIII «ПОЛОВАЯ ПОХОТЬ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002008001">
-    <p id="2bf7f707-f483-4cc6-8e47-16fc3f998611">
-     <head n="level3" type="editorial">
-      * № 67
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 67
+    </head>
     <p id="b9a2ad4d-0703-4921-9caf-24a29197d7c2">
      Только отдайся человек половой распущенности, и он невольно и неизбежно втянется и во все пороки и так искалечит свою жизнь, что вместо той мирной, блаженной, любовной жизни, какая нам предназначена и возможна на земле, будет жить во всегдашней ненависти, разврате, отчаянии, которые сделают жизнь такой ужасной, что для того, чтобы забыться, он не переставая будет искать развлечения, будет не переставая одурманивать себя табаком, вином, заглушая всеми силами свою совесть и разум.
     </p>
@@ -1156,31 +990,25 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002008002">
-    <p id="c1199702-e391-4cb1-bedc-44757ba53c87">
-     <head n="level3" type="editorial">
-      * № 68
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 68
+    </head>
     <p id="f25db302-dbde-44e3-ada9-1602d833373a">
      Смысл полового общения есть продолжение рода. И потому половое общение только тогда не противно закону бога, когда цель его — рождение и воспитание детей. Цель же эта достигается наилучшим образом только при участии в воспитании обоих родителей. И потому всегда во всех религиозно-нравственных учениях требовалось от людей, вступающих в половое общение, неразрывности брака.
     </p>
    </div>
    <div type="section" xml:id="h000011002008003">
-    <p id="8ceebaf9-c5da-42e0-a361-35a6e1ba05cc">
-     <head n="level3" type="editorial">
-      * № 69
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 69
+    </head>
     <p id="153189cd-9e49-4ad3-948a-0595de445596">
      Если мужчина и женщина сходятся по плоти только ради удовольствия, а не думают о детях, что составляет единственное оправдание брака, то такие люди будут всегда так же голодны духовно, как бы телесно были голодны люди, которые не переставая пахали бы, но не сеяли.
     </p>
    </div>
    <div type="section" xml:id="h000011002008004">
-    <p id="cc65f0d1-a245-482d-8317-b4c4b7c1535b">
-     <head n="level3" type="editorial">
-      * № 70
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 70
+    </head>
     <p id="803cdc2f-4db5-491c-99cf-50c3f862602d">
      Грех блуда в том, что люди, предаваясь блудной похоти, губят души свои, тех, с кем они совершают грех, и тех детей, которые рождаются от их греха.
     </p>
@@ -1189,48 +1017,38 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002008005">
-    <p id="9791bc22-070b-4a7c-91ae-2755d94295e2">
-     <head n="level3" type="editorial">
-      * № 71
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 71
+    </head>
     <p id="a4a06b15-1d76-4b7b-9d21-c59221fb2f34">
      Влюбленные друг в друга чистые юноша и девушка всегда смотрят с отвращением на половые отношения. Так что влюбление удерживает от разврата молодых людей в самые трудные для воздержания годы от 16 до 20 лет. Тут и место влюблению. Когда же влюбляются взрослые стареющие люди, и особенно после брака, то такое влюбление только отвратительно.
     </p>
    </div>
    <div type="section" xml:id="h000011002009">
-    <p id="8a202726-57a5-48a2-9a7f-cc62c3db8bc2">
-     <head n="level2" type="editorial">
-      К главе IX «ТУНЕЯДСТВО»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе IX «ТУНЕЯДСТВО»
+    </head>
    </div>
    <div type="section" xml:id="h000011002009001">
-    <p id="70be66b7-fef3-4a5f-b13e-2a81f17aaa1b">
-     <head n="level3" type="editorial">
-      * № 72
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 72
+    </head>
     <p id="ea58e937-8f7c-471e-a678-be18c992acf0">
      Грех тунеядства в том, что, вместо того чтобы кормиться своими трудами, человек норовит так или иначе — обманом, хитростью или насилием, заставлять других делать то, что ему для своей жизни нужно.
     </p>
    </div>
    <div type="section" xml:id="h000011002009002">
-    <p id="531bb2c2-a8ff-469f-ac0e-31a403785790">
-     <head n="level3" type="editorial">
-      * № 73
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 73
+    </head>
     <p id="a3195d7e-24a5-40dc-b800-5976fb36799d">
      Нельзя радоваться рождению детей у богатых людей — разводятся дармоеды.
     </p>
    </div>
    <div type="section" xml:id="h000011002009003">
-    <p id="fb087540-6b79-4118-b335-07c5ef92925c">
-     <head n="level3" type="editorial">
-      * № 74
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 74
+    </head>
     <p id="cf980ee4-9b42-403e-9662-88da2fcc56ad">
      Нельзя освободить себя от ручного труда без потери умственной силы — способности понимать истину. Все ошибки и пороки наших писателей — их излишняя утонченность, женственность, меланхоличность, — всё это от болезненных привычек писательского сословия. Пускай книга будет не так хороша, но только бы тот, кто пишет книгу, был бы способнее и лучше и не был бы, как это бывает теперь, таким самым человеком, каким он не советует быть людям в своей книге.
     </p>
@@ -1241,31 +1059,25 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002009004">
-    <p id="f0cd206b-9ff1-4c5e-8c77-1b4d0b2dc6a0">
-     <head n="level3" type="editorial">
-      * № 75
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 75
+    </head>
     <p id="9f1e9d33-817f-4e79-9dba-a3327e44e1d7">
      Пройдите по большому городу и посмотрите на то, что продается в лучших магазинах. Всё это такие вещи, без которых можно обойтись. А между тем всё это добывается тяжелыми, часто губительными трудами миллионов рабочих. Если бы люди только понимали всё то зло, которое они делают тем, что требуют этих вещей.
     </p>
    </div>
    <div type="section" xml:id="h000011002009005">
-    <p id="fc83797f-a22e-44d1-9265-67e7d900472c">
-     <head n="level3" type="editorial">
-      * № 76
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 76
+    </head>
     <p id="b36f763e-304e-40ac-8076-27b57b4bf6c7">
      Нет ничего дурного в увеселениях. Но нехороши такие увеселения, когда для приготовления их нужен труд многих людей, и таких, которые не участвуют в них.
     </p>
    </div>
    <div type="section" xml:id="h000011002009006">
-    <p id="817acd2f-ffcd-41cc-93d8-e8d8ed09bc15">
-     <head n="level3" type="editorial">
-      * № 77
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 77
+    </head>
     <p id="3755265e-47bd-47ec-aba0-f4e08010243d">
      Служение самому себе: приготовление себе пищи, убирание своего жилища, приготовление одежды и др., все такие дела считаются богатыми людьми неважными. А между тем для совестливого человека нет более важных дел.
     </p>
@@ -1274,45 +1086,35 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002010">
-    <p id="2fe393c5-4ac0-4ee3-98ff-9fb61a075e15">
-     <head n="level2" type="editorial">
-      К главе X «КОРЫСТОЛЮБИЕ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе X «КОРЫСТОЛЮБИЕ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002010001">
-    <p id="386d44e0-3984-4475-aea6-89bf3bf541da">
-     <head n="level3" type="editorial">
-      * № 78
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 78
+    </head>
     <p id="289eaeee-faa0-4f3d-baef-c6ac141cef12">
      Тот, кто признает своею собственностью только произведения своего труда, не может быть и не бывает богат. Богат бывает только тот, кто тем или иным способом присвоил себе труды других людей. Тот же, кто, присвояя себе труды других людей, становится богатым, этим самым отделяет себя от других людей. В этом грех богатства.
     </p>
    </div>
    <div type="section" xml:id="h000011002010002">
-    <p id="713eafb5-8b2b-47a7-9387-e45a6c8b3c18">
-     <head n="level3" type="editorial">
-      * № 79
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 79
+    </head>
     <p id="8884756c-84dd-42f4-8509-ba443e823aa9">
      Грех сребролюбия в том, что люди отнимают у других людей труды их.
     </p>
    </div>
    <div type="section" xml:id="h000011002011">
-    <p id="a5a80a17-ec4f-49ae-8b0b-3c1291734c80">
-     <head n="level2" type="editorial">
-      К главе XI «ГНЕВ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XI «ГНЕВ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002011001">
-    <p id="2f017e55-5e31-4049-8de3-b7a756a24a14">
-     <head n="level3" type="editorial">
-      * № 80
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 80
+    </head>
     <p id="4f9012e9-768e-4547-8503-e81b0830700e">
      Для того, чтобы не сердиться на людей, надо, во-первых, в мыслях один на один с собою, не позволять себе думать дурно о человеке, не перечислять себе его недостатки, не обвинять его, а, напротив, стараться отыскивать его достоинства и свои вины перед ним, не говоря уже о том, чтобы никогда с другими не говорить о нем дурно.
     </p>
@@ -1321,35 +1123,27 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002012">
-    <p id="2dd5b267-f74a-4b53-9254-c1f15c271e1f">
-     <head n="level2" type="editorial">
-      К главе XII «ГОРДОСТЬ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XII «ГОРДОСТЬ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002012001">
-    <p id="260d2b8f-4f17-45ee-a7f6-8b2fae79311d">
-     <head n="level3" type="editorial">
-      * № 81
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 81
+    </head>
     <p id="6cec49e2-88d0-462d-8b04-8f43ffbde547">
      Грехи роскоши, тунеядства, блуда, гнева, всё это грехи тела, но есть и грехи ума. Один из таких грехов — это грех гордости, возвышения себя над другими людьми. Гордый человек думает, что жизнь его станет лучше оттого, что он выделит себя от других, будет считать себя лучше их. А выходит напротив — жизнь такого человека становится не лучше, а хуже.
     </p>
    </div>
    <div type="section" xml:id="h000011002013">
-    <p id="ccb6c2cb-1f26-4e13-a680-b8e2f5671ca5">
-     <head n="level2" type="editorial">
-      К главе XV «НАКАЗАНИЕ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XV «НАКАЗАНИЕ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002013001">
-    <p id="8345263c-8c32-467e-ad4e-ced3a7e622d4">
-     <head n="level3" type="editorial">
-      * № 82
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 82
+    </head>
     <p id="ebd94a0d-9c68-4fea-ac5f-6d529ab64463">
      Говорят, что война, смертная казнь и всякие кровопролития не могут прекратиться, пока люди не перестанут бороться друг с другом, и не только сомневаются в том, чтобы это когда-нибудь случилось, но уверяют, что борьба есть необходимое условие жизни и потому никогда не может прекратиться. Вывод из этого тот, что если борьба есть закон природы, то всякое мое участие в борьбе не только не дурно, но законно и потому хорошо.
     </p>
@@ -1361,21 +1155,17 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002013002">
-    <p id="27596b7f-b392-4981-8628-3a972d216152">
-     <head n="level3" type="editorial">
-      * № 83
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 83
+    </head>
     <p id="c846a738-5a44-48b9-8736-838af1d3d424">
      Часто то зло, которое делают люди, считается ими не только необходимым, неизбежным, но справедливым. Таково суеверие наказания.
     </p>
    </div>
    <div type="section" xml:id="h000011002013003">
-    <p id="688c8c5d-e937-4548-bbc7-90495b1ef40a">
-     <head n="level3" type="editorial">
-      * № 84
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 84
+    </head>
     <p id="e36e23c6-96fb-4c89-86e3-11bca87c89a1">
      Собака огрызнется, когда ей сделают больно, лошадь брыкнет; то же делает и человек, когда живет одной животной жизнью. Но кроме
      <choice original_editorial_correction="[того]">
@@ -1399,38 +1189,30 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002014">
-    <p id="f208ddc1-dfdd-460e-be60-582bdaa55136">
-     <head n="level2" type="editorial">
-      К главе XVI «ТЩЕСЛАВИЕ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XVI «ТЩЕСЛАВИЕ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002014001">
-    <p id="fe66e2f0-ba2d-4e32-af85-503162477de5">
-     <head n="level3" type="editorial">
-      * № 85
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 85
+    </head>
     <p id="390f5986-97b4-4838-957c-57d21eb8909a">
      Мы слишком легко подчиняемся той жизни, которой живут все вокруг нас, от этого жизнь наша бывает скучная и бесполезная и для себя и для других.
     </p>
    </div>
    <div type="section" xml:id="h000011002014002">
-    <p id="f0e204b0-acdf-4bd2-8d1a-74cadad9a006">
-     <head n="level3" type="editorial">
-      * № 86
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 86
+    </head>
     <p id="c9153414-1f7c-4236-b637-5fbb71492b9e">
      Тщеславие, забота о славе людской, больше всего мешает свободным духовным движениям и потому больше всего тяготит душу человека, а между тем избавиться от этого соблазна особенно трудно. И потому надо с особенным усилием бороться с ним.
     </p>
    </div>
    <div type="section" xml:id="h000011002014003">
-    <p id="e130d689-06d4-4ebf-923e-a0b338911b1e">
-     <head n="level3" type="editorial">
-      * № 87
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 87
+    </head>
     <p id="f1cfa29b-60c9-4d02-a5f7-5050822d31ec">
      Грех тщеславия — заботы о славе людской, в том, что люди не делают того, что им по совести, по душе
      <choice original_editorial_correction="[надо бы сделать]">
@@ -1443,11 +1225,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002014004">
-    <p id="b8a52624-4564-48d3-b2ad-e3ab9e3a3f04">
-     <head n="level3" type="editorial">
-      * № 88
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 88
+    </head>
     <p id="23ed9db3-1893-4df6-9f8b-c10913fea4ee">
      Горе вам, если все будут говорить о вас хорошо, — сказал Христос.
     </p>
@@ -1459,55 +1239,43 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002015">
-    <p id="b2e47125-f342-4bf9-820c-3663a24ca5ab">
-     <head n="level2" type="editorial">
-      К главе XVIII «ЛОЖНАЯ ВЕРА»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XVIII «ЛОЖНАЯ ВЕРА»
+    </head>
    </div>
    <div type="section" xml:id="h000011002015001">
-    <p id="a185c9ce-916e-4c4c-9976-67747a2d73a9">
-     <head n="level3" type="editorial">
-      * № 89
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 89
+    </head>
     <p id="325da879-974d-444f-b40e-33abc3d2fbd1">
      Из всех суеверий самое вредное то, что были такие люди, которые чудесными средствами узнали самый настоящий закон бога и что поэтому надо верить всему тому, что они сказали, или, скорее, тому, что говорят другие люди про то, что они сказали. Это самое вредное суеверие. Другое суеверие, немного менее, чем это, но тоже очень вредное, это то, чтобы верить, что есть такие люди, которые, собравшись и согласившись вместе и называя себя церковью, знают всю самую настоящую истину о законе бога.
     </p>
    </div>
    <div type="section" xml:id="h000011002016">
-    <p id="56603955-5f5d-4f00-ac6e-a003e0db703a">
-     <head n="level2" type="editorial">
-      К главе XXI «ЖИЗНЬ В НАСТОЯЩЕМ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXI «ЖИЗНЬ В НАСТОЯЩЕМ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002016001">
-    <p id="14615c0d-77dc-464e-b5da-d74028b27264">
-     <head n="level3" type="editorial">
-      * № 90
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 90
+    </head>
     <p id="0c25c298-b571-48e8-8444-a2a5e5f3a3d1">
      Как удивительно то, что бесконечность пространства и времени приводят часто как доказательство силы человеческого разума, тогда как нет более явного доказательства слабости, узкости человеческого разума, как именно то, что человек не может иначе ничего себе представить, как только в пространстве и во времени, тогда как пространство и время, по существу своему, противны требованиям разума, — противны тем, что не могут быть мыслимы иначе, как бесконечными, а бесконечность есть бессмыслица, так как время должно указывать пределы последовательности, а пространство — пределы расположения вещей, а между тем ни то, ни другое не имеет пределов.
     </p>
    </div>
    <div type="section" xml:id="h000011002016002">
-    <p id="5828777d-f4ea-40d2-8947-3d861ff336d1">
-     <head n="level3" type="editorial">
-      * № 91
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 91
+    </head>
     <p id="3dc1c17d-4020-421a-ad11-8ceb41165b1c">
      Удивительно, как мы привыкли к самообману о том, что мы особенные, отделенные от всего мира существа. Жизнь заставляет нас всякую минуту чувствовать нашу связь и зависимость от мира, чувствовать свою общность со всем миром, и мы все-таки верим, что мы, наше отдельное я, что-то такое, во имя чего можно жить. А между тем когда ясно поймешь этот самообман, то удивляешься, как мог я не видеть того, что я не отдельное существо, а временное и пространственное проявление в настоящем непостижимого мне невременного и непространственного начала, дающего жизнь всему существующему.
     </p>
    </div>
    <div type="section" xml:id="h000011002016003">
-    <p id="fb041985-8752-4659-86c6-0a44ea3475a4">
-     <head n="level3" type="editorial">
-      * № 92
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 92
+    </head>
     <p id="23fceba6-e02d-4e0b-b475-aeb9f2131424">
      Жизнь человека в том, чтобы освобождаться от грехов, соблазнов, суеверий, лжеучений и обманов. Освобождается человек от этого только сейчас, не в прошедшем, не в будущем, а в настоящем. Так что телом человек живет во времени, душа же его, хоть и связана с телом, живет не в настоящем, не в будущем, а без времени.
     </p>
@@ -1516,45 +1284,35 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002017">
-    <p id="4d33a378-3fb6-422a-81ee-8ac246697ff6">
-     <head n="level2" type="editorial">
-      К главе XXII «НЕДЕЛАНИЕ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXII «НЕДЕЛАНИЕ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002017001">
-    <p id="8a31a31e-a2ed-44e4-9b5f-6f7b1ef8b615">
-     <head n="level3" type="editorial">
-      * № 93
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 93
+    </head>
     <p id="3df69cc4-5035-4306-b69e-07c677bfdb88">
      Усилия для освобождения себя от грехов, соблазнов, суеверий и лжеучений все всегда не такие, что человек должен что-нибудь сделать, а всегда такие, что ему надо только воздержаться: не делать, не говорить, не думать, не верить.
     </p>
    </div>
    <div type="section" xml:id="h000011002017002">
-    <p id="c56632af-4688-45f5-ba66-ea8742e0f5ee">
-     <head n="level3" type="editorial">
-      * № 94
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 94
+    </head>
     <p id="a8dedd39-d9f8-45d3-a12e-57256992621e">
      Главное усилие для доброй жизни не в том, чтобы делать какие-нибудь особенные, нужные для души внешние дела. Такие дела не всегда в нашей власти. Главное усилие только в том, чтобы не делать тех дел, которые противны воле бога, нашей совести и любви. И в воздержании от этих дел ничто нам помешать на может.
     </p>
    </div>
    <div type="section" xml:id="h000011002018">
-    <p id="ad7e1880-8f85-4f6d-afa5-23e6a5f1fdd6">
-     <head n="level2" type="editorial">
-      К главе XXIII.«СЛОВО»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXIII.«СЛОВО»
+    </head>
    </div>
    <div type="section" xml:id="h000011002018001">
-    <p id="b62e8cab-0089-4f33-a499-2c49e8fed340">
-     <head n="level3" type="editorial">
-      * № 95
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 95
+    </head>
     <p id="e1b46261-2f21-4070-81ff-fd0442b01c2e">
      Из всех дел людских есть одно такое, для которого не нужно никакого телесного труда, но которое очень бывает важно для тех, кто его делают. Дело это разговоры — речь.
     </p>
@@ -1563,45 +1321,35 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002019">
-    <p id="a3c499e1-3384-48be-b597-a340e0026b29">
-     <head n="level2" type="editorial">
-      К главе XXIV «МЫСЛЬ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXIV «МЫСЛЬ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002019001">
-    <p id="1e401fee-6970-448e-bef4-d518e3d502fd">
-     <head n="level3" type="editorial">
-      * № 96
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 96
+    </head>
     <p id="c9d2d8c3-e5af-4bfb-9d85-379f27a6d5ea">
      Для того, чтобы человеку освободиться от всего того, что мешает проявлению в нем духа божия, от грехов, соблазнов, суеверий и обманов, — ему нужно прежде всего делать усилия мысли для того, чтобы отгонять всё то, что мешает любви к богу и ближнему.
     </p>
    </div>
    <div type="section" xml:id="h000011002019002">
-    <p id="d2739c24-30b0-4dfd-8f36-1acefb6bcdc4">
-     <head n="level3" type="editorial">
-      * № 97
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 97
+    </head>
     <p id="6fa64bb0-bb9d-407e-bbf3-2ec8a9e493f1">
      Для того, чтобы человеку иметь силы воздерживаться в поступках и словах, ему нужно прежде всего приучить себя к усилию мысли для того, чтобы отгонять всё то, что мешает проявлению любви божией.
     </p>
    </div>
    <div type="section" xml:id="h000011002020">
-    <p id="52bdd194-c07a-4234-9056-9df7d98b3fcb">
-     <head n="level2" type="editorial">
-      К главе XXV «САМООТРЕЧЕНИЕ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXV «САМООТРЕЧЕНИЕ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002020001">
-    <p id="103d3deb-5657-456d-8086-9d49ed16db0e">
-     <head n="level3" type="editorial">
-      * № 98
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 98
+    </head>
     <p id="37aa3ff6-9dd4-49f3-93af-bd4b9378608e">
      Главная причина тех заблуждении, по которым человек полагает свое благо в удовлетворении похотей тела, не в самих потребностях тела (потребности тела — необходимые условия телесной жизни), а в том, что человек полагает свое благо в
      <pb n="515"/>
@@ -1609,95 +1357,75 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002021">
-    <p id="ff2a8bad-e519-4f9b-b47f-9ee11c800c2c">
-     <head n="level2" type="editorial">
-      К главе XXVI «СМИРЕНИЕ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXVI «СМИРЕНИЕ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002021001">
-    <p id="ae16a5b6-8b3f-48c5-b57a-ca14b9bbb2a4">
-     <head n="level3" type="editorial">
-      * № 99
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 99
+    </head>
     <p id="c6eaa31b-950f-4e7a-9c5d-7919222e99f0">
      Люди оправдываются в грехах своих всегда тем, что, будучи по своему рождению и свойствам выше других людей, они не могут подчиняться общим всем нравственным законам. И потому избавление от соблазнов в смирении.
     </p>
    </div>
    <div type="section" xml:id="h000011002021002">
-    <p id="23c99b71-aa63-4df2-9c35-cea71daeafe4">
-     <head n="level3" type="editorial">
-      * № 100
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 100
+    </head>
     <p id="72ced118-747c-444c-a9ab-f18a719723ae">
      Человек хочет быть лучше других людей. А между тем человек становится лучше только в той мере, в какой он познает свое единство с другими людьми, и потому, желая быть лучше, он этим самым становится хуже.
     </p>
    </div>
    <div type="section" xml:id="h000011002022">
-    <p id="4962aa18-124c-4a27-8770-49a2363ed43a">
-     <head n="level2" type="editorial">
-      К главе XXVII «ПРАВДИВОСТЬ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXVII «ПРАВДИВОСТЬ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002022001">
-    <p id="4ed14137-b578-44ef-914b-db2cd5f00536">
-     <head n="level3" type="editorial">
-      * № 101
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 101
+    </head>
     <p id="390791a1-3bf9-4556-aedc-2e3fd30f03e5">
      Истиной может быть признано только то, что не противоречит требованиям общего всем людям разума. И потому для познания истины человеку нужно прежде всего доверие к своему разуму и любовь к правде. Только признание высшего суда разума уничтожает суеверие.
     </p>
    </div>
    <div type="section" xml:id="h000011002022002">
-    <p id="20620557-e5cd-4907-b55e-d31694130c23">
-     <head n="level3" type="editorial">
-      * № 102
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 102
+    </head>
     <p id="399017e5-262b-4ac2-bb51-d84f91bccee0">
      Люди обманывают друг друга, обманывают и сами себя. Спасает от обманов только любовь к правде.
     </p>
    </div>
    <div type="section" xml:id="h000011002022003">
-    <p id="c2bbb0e1-d013-44b2-b178-713b7d920258">
-     <head n="level3" type="editorial">
-      * № 103
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 103
+    </head>
     <p id="80b68eab-47e4-4fff-abe7-a08c62d306bc">
      Только тот не поддается суевериям, кто знает божественность своей души и признает истинным только то. что согласно с ней.
     </p>
    </div>
    <div type="section" xml:id="h000011002022004">
-    <p id="dc6467cb-5e1c-4287-9e88-e3fb564c0a49">
-     <head n="level3" type="editorial">
-      * № 104
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 104
+    </head>
     <p id="d2c28c2e-4ed5-4aa5-845e-87974492eb2b">
      Человек, признающий божественность своей души, не может не проверить разумом всех тех учений, которые признаются людьми несомненной истиной.
     </p>
    </div>
    <div type="section" xml:id="h000011002022005">
-    <p id="ec2ab118-aaa5-478c-b7b3-bd9471f50ab8">
-     <head n="level3" type="editorial">
-      * № 105
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 105
+    </head>
     <p id="9e14468d-91c5-48d0-a8d5-332c2afba0bc">
      Для того, чтобы не подпасть обману, надо ничего не брать на веру, а всё, что нам выдают за истину, проверить своим разумом. В этом состоит свобода мысли.
     </p>
    </div>
    <div type="section" xml:id="h000011002022006">
-    <p id="8fbbd9b5-5a2b-419f-a196-36645af397d9">
-     <head n="level3" type="editorial">
-      * № 106
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 106
+    </head>
     <p id="5734d5a4-e766-47dc-8dca-4a92ab086c7c">
      Человек, сознавая свою душу, сознает бога.
     </p>
@@ -1706,21 +1434,17 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002022007">
-    <p id="f56dc11c-673e-4c06-bc79-5e30218ffb7e">
-     <head n="level3" type="editorial">
-      * № 107
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 107
+    </head>
     <p id="bbdb4bab-04f9-4e84-ab69-4d28d11b1b02">
      Ты сомневаешься только до тех пор, пока слушаешь голос тела. Голос души один истинен, один он не обманет. Слушайся одного его.
     </p>
    </div>
    <div type="section" xml:id="h000011002022008">
-    <p id="08256f50-3e9d-4302-a150-ca87522898ad">
-     <head n="level3" type="editorial">
-      * № 108
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 108
+    </head>
     <p id="1460067c-71d5-40d8-a0d7-bdd697c243b5">
      Для того, чтобы усилие в борьбе с грехами, соблазнами и суевериями было успешно, нужно иметь ясное представление о том, какое душевное состояние противодействует им, уничтожает грехи. Человечество всегда боролось и борется с грехами, и мудрые люди всех народов указывали и указывают людям те душевные состояния, которые должны установить в себе люди для успешной борьбы с грехами. Есть четыре душевные состояния, при которых человек не
      <choice original_editorial_correction="[может]">
@@ -1733,55 +1457,43 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002023">
-    <p id="27fe4479-1510-4606-8a87-7fd1114ef3e0">
-     <head n="level2" type="editorial">
-      К главе XXVIII «ЗЛО»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXVIII «ЗЛО»
+    </head>
    </div>
    <div type="section" xml:id="h000011002023001">
-    <p id="866351bf-7bc8-44d8-85bb-f2467b9f43f3">
-     <head n="level3" type="editorial">
-      * № 109
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 109
+    </head>
     <p id="5a591c6e-3d27-485d-ad34-ac68e6d80124">
      Жизнь человеческая есть стремление к благу. И то, к чему стремится человек в своей жизни, дается ему, если он только понимает ее; если он только понимает, что жизнь и истинное благо жизни есть только освобождение духовного начала от плена тела.
     </p>
    </div>
    <div type="section" xml:id="h000011002023002">
-    <p id="4f577132-73c2-4972-950f-1769dd074a57">
-     <head n="level3" type="editorial">
-      * № 110
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 110
+    </head>
     <p id="794a7a1f-3c4c-4092-a795-b5c720c2f9bc">
      Часто люди, придя в уныние или раздражение, не только не воздерживаются, но еще любуются на свое состояние, даже гордятся им. Это всё равно как, выпустив вожжи от лошади, которая несет тебя, хлестать ее.
     </p>
    </div>
    <div type="section" xml:id="h000011002023003">
-    <p id="bbe65a6c-e676-4847-addd-3976c856b4ca">
-     <head n="level3" type="editorial">
-      * № 111
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 111
+    </head>
     <p id="d1e42e31-4a05-40b4-8aea-2991c53c54ec">
      Мучения, страдания испытывает только тот, кто, отделив себя от жизни мира, не видит тех своих грехов, которыми он вносил страдания в мир, и потому, считая себя невиноватым, возмущается против тех страданий, которые он несет за свои грехи в грехах мира и, кроме того, такие страдания, которые нужны ему же для его духовного блага.
     </p>
    </div>
    <div type="section" xml:id="h000011002024">
-    <p id="5a9d9aec-fbe5-4a8a-b3b8-849779c2cbea">
-     <head n="level2" type="editorial">
-      К главе XXIX «СМЕРТЬ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXIX «СМЕРТЬ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002024001">
-    <p id="694d5d0e-e59b-4add-be0b-b8b35162faeb">
-     <head n="level3" type="editorial">
-      * № 112
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 112
+    </head>
     <p id="31c86655-8815-4f5e-aae7-2de3cfd2b2dd">
      Тело человека рождается и умирает. Душа же
      <ref target="#note13">
@@ -1806,11 +1518,9 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002024002">
-    <p id="b8f61c0a-89c3-449c-a193-94367369b244">
-     <head n="level3" type="editorial">
-      * № 113
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 113
+    </head>
     <p id="5c0f1a30-00a7-46d8-b26a-682635a21178">
      Человек знает про свое тело, что оно родилось, знает и то, что оно умрет, но про душу свою, про свое
      <hi rend="italic">
@@ -1828,28 +1538,22 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002024003">
-    <p id="059072f0-b127-479a-93c9-30eaa6b2072e">
-     <head n="level3" type="editorial">
-      * № 114
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 114
+    </head>
     <p id="576bf388-73a4-46ce-a09e-7a5cecbd42d7">
      Моя душа, мое духовное существо есть, оно одно есть, оно не родилось и потому не может и умереть.
     </p>
    </div>
    <div type="section" xml:id="h000011002025">
-    <p id="7f946bbb-fbd6-422d-ae10-2eb69ec0acb7">
-     <head n="level2" type="editorial">
-      К главе XXX «ПОСЛЕ СМЕРТИ»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXX «ПОСЛЕ СМЕРТИ»
+    </head>
    </div>
    <div type="section" xml:id="h000011002025001">
-    <p id="4c7adb76-a20e-4843-8473-0e1b66cda47a">
-     <head n="level3" type="editorial">
-      * № 115
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 115
+    </head>
     <p id="acecd993-0c1a-4d84-bf0e-c68420d899c8">
      Как ни желательно бессмертие личности, его нет и не может быть, потому что личность
      <ref target="#note14">
@@ -1867,21 +1571,17 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002025002">
-    <p id="6500adc5-91ba-4353-966f-4e9bbd9067ad">
-     <head n="level3" type="editorial">
-      * № 116
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 116
+    </head>
     <p id="51fadbaf-f383-47c0-8d69-71fbc4253abe">
      Есть ли будущая жизнь? Будущая — не знаю. Знаю, что есть то духовное начало, по воле которого я вступил в эту временную жизнь и живу в ней. Знаю, что есть бог. Знаю, что кончится эта моя временная жизнь по воле его. Так что: я по воле его вошел в эту жизнь, по его же воле выйду из нее. Какого же еще надо ответа?
     </p>
    </div>
    <div type="section" xml:id="h000011002025003">
-    <p id="42adc25a-8361-4dc2-bed0-1f0ef8b7bace">
-     <head n="level3" type="editorial">
-      * № 117
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 117
+    </head>
     <p id="0dd13fc8-5cb2-4c9c-85c0-f0668b2fa47f">
      Есть ли будущая жизнь? Будущая — не знаю. Знаю, что то духовное начало, которым живу я, и
      <hi rend="italic">
@@ -1895,18 +1595,14 @@
     </p>
    </div>
    <div type="section" xml:id="h000011002026">
-    <p id="02b24775-bfa2-418d-a295-d64afde4566c">
-     <head n="level2" type="editorial">
-      К главе XXXI «ЖИЗНЬ —БЛАГО»
-     </head>
-    </p>
+    <head n="level2" type="editorial">
+     К главе XXXI «ЖИЗНЬ —БЛАГО»
+    </head>
    </div>
    <div type="section" xml:id="h000011002026001">
-    <p id="87026add-1570-4085-b19a-106848cf3a0d">
-     <head n="level3" type="editorial">
-      * № 118
-     </head>
-    </p>
+    <head n="level3" type="editorial">
+     * № 118
+    </head>
     <p id="b4e40939-070f-47e0-85d2-2bd953c09bed">
      Всё — благо; зла нет. Зло только кажется во времени. Не было бы времени, и не было бы зла. Это как в белом храме нет черного и темного, — черное и темное только кажется от расстояния. Также только для умственного взора, рассматривающего предметы во времени, кажется, что есть зло. Для истинной жизни в настоящем нет и не может быть зла.
     </p>

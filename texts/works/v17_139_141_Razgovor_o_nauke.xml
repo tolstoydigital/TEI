@@ -1,172 +1,154 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title resp="volume_editor" xml:id="v17_139_141_Razgovor_o_nauke">
-     [Разговор о науке]. Произведения. Tolstoy Digital
-    </title>
-    <title resp="volume_editor" type="main">
-     Разговор о науке.
-    </title>
-    <title type="sub">
-     «4 июня. Ник. Николаевич был позван к соседу...»
-    </title>
-    <title type="bibl">
-     Толстой Л. Н. [Разговор о науке] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 139–141.
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство:
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML:
-     </resp>
-     <name>
-      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка метаданных:
-     </resp>
-     <name>
-      Мария Картышева, Вероника Файнберг
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Разметка имен собственных:
-     </resp>
-     <name>
-      Никита Северин, Елена Северина
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Исправление древнегреческого текста:
-     </resp>
-     <name>
-      Ольга Алиева
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="a279c1a5-03f1-4df2-bac7-222d83b57259">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015" to="2022"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       [Разговор о науке]
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 17
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date when="1936"/>
-      </imprint>
-      <biblScope unit="volume">
-       17
-      </biblScope>
-      <biblScope unit="page">
-       139-141
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date from="1875" to="1876"/>
-   </creation>
-   <langUsage>
-    <language ident="ru"/>
-    <language ident="ru-petr1708"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#tolstoy_heritage" target="library"/>
-    <catRef ana="#works" target="type"/>
-    <catRef ana="#main" target="work_main"/>
-    <catRef ana="#fiction" target="sphere"/>
-    <catRef ana="#otryvok" target="genre"/>
-    <catRef ana="#drugoe" target="genre"/>
-    <catRef ana="#not_finished" target="finished"/>
-    <catRef ana="#not_publ" target="published"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="v17_139_141_Razgovor_o_nauke" resp="volume_editor">
+                    [Разговор о науке]. Произведения. Tolstoy Digital
+                </title>
+                <title type="main" resp="volume_editor">Разговор о науке.</title>
+                <title type="sub">«4 июня. Ник. Николаевич был позван к соседу...»</title>
+                <title type="bibl">Толстой Л. Н. [Разговор о науке] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 17. М.: Гос. изд. «Художественная литература», 1936. С. 139–141.</title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство:</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="a279c1a5-03f1-4df2-bac7-222d83b57259">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015" to="2022"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                            [Разговор о науке]
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                            Полное собрание сочинений. Том 17
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1936"/>
+                        </imprint>
+                        <biblScope unit="volume">17</biblScope>
+                        <biblScope unit="page">139-141</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date from="1875" to="1876"/>
+             </creation>
+            <langUsage>
+  <language ident="ru"/>
+  <language ident="ru-petr1708"/>
+</langUsage>
+            <textClass> 
+                <catRef ana="#tolstoy_heritage" target="library"/>
+                <catRef ana="#works" target="type"/>
+                <catRef ana="#main" target="work_main"/>
+                <catRef ana="#fiction" target="sphere"/>
+                <catRef ana="#otryvok" target="genre"/>
+                <catRef ana="#drugoe" target="genre"/>
+                <catRef ana="#not_finished" target="finished"/>
+                <catRef ana="#not_publ" target="published"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h000011">
     <p id="60b7230d-4a2b-4894-a6b0-21b33794577c">
      <pb n="139"/>
     </p>
-    <p id="8f0c2f90-df32-4df4-85f1-b1dca9a85f9c">
-     <head rend="center">
-      <hi rend="strong">
-       НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
-      </hi>
-      <lb/>
-      <hi rend="strong">
-       И НЕОКОНЧЕННОЕ
-      </hi>
-     </head>
-    </p>
+    <head rend="center">
+     <hi rend="strong">
+      НЕОПУБЛИКОВАННОЕ, НЕОТДЕЛАННОЕ
+     </hi>
+     <lb/>
+     <hi rend="strong">
+      И НЕОКОНЧЕННОЕ
+     </hi>
+    </head>
    </div>
    <div type="section" xml:id="h000011003">
-    <p id="ef94d411-e650-43f3-9a33-4d51516c8372">
-     <head n="level1" type="editorial">
-      ** [РАЗГОВОР О НАУКЕ.]
-     </head>
-    </p>
+    <head n="level1" type="editorial">
+     ** [РАЗГОВОР О НАУКЕ.]
+    </head>
     <p id="e2327594-6245-4959-ac91-9aeb40aea946" rend="center">
      (1875—1876 гг.)
     </p>
@@ -1148,9 +1130,7 @@
       </orig>
      </choice>
      , a
-     <num type="fraction" value="9/10">
-      9/10
-     </num>
+     <num type="fraction" value="9/10">9/10</num>
      рода
      <choice>
       <reg>
@@ -2290,9 +2270,7 @@
      </choice>
      шахматы.
     </p>
-    <p id="1dfb81a2-bed1-42b4-92a7-54a087b1e67d">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

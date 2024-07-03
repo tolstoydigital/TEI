@@ -1,175 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title xml:id="v54_124_125_1902_02">
-     Дневники. Tolstoy Digital
-    </title>
-    <title type="main">
-     Дневник,
-    </title>
-    <title type="sub">
-     февраля 1902 г.
-    </title>
-    <title type="bibl">
-     Толстой Л. Н. [Дневник 1902 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 54. М.: Гос. изд. «Художественная литература», 1935. С.
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство:
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML:
-     </resp>
-     <name>
-      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка метаданных:
-     </resp>
-     <name>
-      Мария Картышева, Вероника Файнберг
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Разметка имен собственных:
-     </resp>
-     <name>
-      Никита Северин, Елена Северина
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Исправление древнегреческого текста:
-     </resp>
-     <name>
-      Ольга Алиева
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="ba06d354-aeb9-46b2-9e03-8eac35e695ae">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015" to="2022"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       [Дневник 1902 г.]
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 54
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date when="1935"/>
-      </imprint>
-      <biblScope unit="volume">
-       54
-      </biblScope>
-      <biblScope unit="page">
-       124-125
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date when="1902-02-01"/>
-   </creation>
-   <langUsage>
-    <language ident="ru-petr1708"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#tolstoy_heritage" target="library"/>
-    <catRef ana="#diaries" target="type"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+             <titleStmt>                
+                <title xml:id="v54_124_125_1902_02">
+                    Дневники. Tolstoy Digital
+                </title>
+                <title type="main">Дневник,</title>
+                <title type="sub">февраля 1902 г.</title>
+                <title type="bibl">Толстой Л. Н. [Дневник 1902 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 54. М.: Гос. изд. «Художественная литература», 1935. С. </title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство:</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                             
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="ba06d354-aeb9-46b2-9e03-8eac35e695ae">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015" to="2022"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                           [Дневник 1902 г.]
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                          Полное собрание сочинений. Том 54
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1935"/>
+                        </imprint>
+                        <biblScope unit="volume">54</biblScope>
+                        <biblScope unit="page">124-125</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1902-02-01"/>
+         </creation>          
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
+                <catRef ana="#tolstoy_heritage" target="library"/>
+                <catRef ana="#diaries" target="type"/>
+           </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <p id="bca0e9cc-078d-4b6e-acf4-ab6d2dd38350">
     <pb n="124"/>
    </p>
    <div n="v54_n127" type="entry">
-    <p id="cafda38c-a8c4-45b3-bdba-35443c7536d3">
-     <opener>
-      <dateline>
-       <date resp="editor" when="1902-02">
-        <hi>
-         [Февраль.]
-         <ref target="#note607">
-          607
-         </ref>
-         <note exclude="true" index="false" resp="volume_editor" xml:id="note607">
-          <hi>
-           В шестой строке первой мысли Толстым позднее собственноручно вставлены слова:
-          </hi>
-          о
-          <choice>
-           <reg>
-            мертвых
-           </reg>
-           <orig>
-            мертвыхъ
-           </orig>
-          </choice>
-         </note>
-        </hi>
-       </date>
-      </dateline>
-     </opener>
-    </p>
+    <opener>
+     <dateline>
+      <date resp="editor" when="1902-02">
+       <hi>
+        [Февраль.]
+        <ref target="#note607">
+         607
+        </ref>
+        <note exclude="true" index="false" resp="volume_editor" xml:id="note607">
+         <hi>
+          В шестой строке первой мысли Толстым позднее собственноручно вставлены слова:
+         </hi>
+         о
+         <choice>
+          <reg>
+           мертвых
+          </reg>
+          <orig>
+           мертвыхъ
+          </orig>
+         </choice>
+        </note>
+       </hi>
+      </date>
+     </dateline>
+    </opener>
     <p id="614b9def-4927-426b-9d18-592c12179686" style="left">
      1) De mortuis aut bene aut nihil,
      <ref target="#note608">
@@ -499,9 +482,7 @@
       12 Февраля 1902. 1 ч. дня.
      </hi>
     </p>
-    <p id="c7bb437c-23f5-4187-b172-4e2f04b6df4d">
-     <metamark function="line"/>
-    </p>
+    <metamark function="line"/>
    </div>
   </body>
  </text>

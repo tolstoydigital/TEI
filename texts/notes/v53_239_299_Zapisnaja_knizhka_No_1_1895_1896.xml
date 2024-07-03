@@ -1,154 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title xml:id="v53_239_299_Zapisnaja_knizhka_No_1_1895_1896">
-     Записные книжки. Tolstoy Digital
-    </title>
-    <title type="main">
-     Записная книжка № 1, 1895–1896 гг.
-    </title>
-    <title type="bibl">
-     Толстой Л. Н. [Записная книжка № 1, 1895–1896 гг.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 53. М.: Гос. изд. «Художественная литература», 1953. С.
-    </title>
-    <author>
-     Толстой Лев Николаевич
-    </author>
-    <respStmt>
-     <resp>
-      Идея, постановка задач, руководство:
-     </resp>
-     <name>
-      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка TEI/XML:
-     </resp>
-     <name>
-      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Подготовка метаданных:
-     </resp>
-     <name>
-      Мария Картышева, Вероника Файнберг
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Разметка имен собственных:
-     </resp>
-     <name>
-      Никита Северин, Елена Северина
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      Исправление древнегреческого текста:
-     </resp>
-     <name>
-      Ольга Алиева
-     </name>
-    </respStmt>
-    <funder>
-     Проект «Слово Толстого»
-    </funder>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
-     <orgName>
-      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-     </orgName>
-    </publisher>
-    <availability>
-     <p id="9a04f211-7e6b-46a8-9ff1-09bea71a97dc">
-      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-     </p>
-    </availability>
-    <date from="2015" to="2022"/>
-   </publicationStmt>
-   <notesStmt>
-    <note>
-     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
-    </note>
-   </notesStmt>
-   <sourceDesc>
-    <biblStruct>
-     <analytic>
-      <author>
-       Толстой Лев Николаевич
-      </author>
-      <title level="a">
-       [Записная книжка № 1, 1895–1896 гг.]
-      </title>
-     </analytic>
-     <monogr>
-      <title level="m">
-       Полное собрание сочинений. Том 53
-      </title>
-      <imprint>
-       <pubPlace>
-        Москва
-       </pubPlace>
-       <publisher>
-        Государственное издательство «Художественная литература»
-       </publisher>
-       <date when="1953"/>
-      </imprint>
-      <biblScope unit="volume">
-       53
-      </biblScope>
-      <biblScope unit="page">
-       239-299
-      </biblScope>
-     </monogr>
-     <series>
-      <title level="s">
-       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-      </title>
-     </series>
-    </biblStruct>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <classDecl>
-    <xi:include href="../../reference/taxonomy.xml"/>
-   </classDecl>
-  </encodingDesc>
-  <profileDesc>
-   <creation>
-    <date from="1895" to="1896"/>
-   </creation>
-   <langUsage>
-    <language ident="ru-petr1708"/>
-   </langUsage>
-   <textClass>
-    <catRef ana="#tolstoy_heritage" target="library"/>
-    <catRef ana="#notes" target="type"/>
-   </textClass>
-  </profileDesc>
- </teiHeader>
- <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+             <titleStmt>                
+                <title xml:id="v53_239_299_Zapisnaja_knizhka_No_1_1895_1896">
+                    Записные книжки. Tolstoy Digital
+                </title>
+                <title type="main">Записная книжка № 1, 1895–1896 гг.</title>
+                <title type="bibl">Толстой Л. Н. [Записная книжка № 1, 1895–1896 гг.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 53. М.: Гос. изд. «Художественная литература», 1953. С. </title>
+                <author>Толстой Лев Николаевич</author>             
+                <respStmt>
+                    <resp>Идея, постановка задач, руководство:</resp>
+                    <name>
+                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                    </name> 
+                 </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>                              
+                </respStmt>
+                    <funder>
+                        Проект «Слово Толстого»
+                    </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p id="9a04f211-7e6b-46a8-9ff1-09bea71a97dc">
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015" to="2022"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                           [Записная книжка № 1, 1895–1896 гг.]
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                          Полное собрание сочинений. Том 53
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1953"/>
+                        </imprint>
+                        <biblScope unit="volume">53</biblScope>
+                        <biblScope unit="page">239-299</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date from="1895" to="1896"/>
+         </creation>
+            <langUsage>
+  <language ident="ru-petr1708"/>
+</langUsage><textClass> 
+                <catRef ana="#tolstoy_heritage" target="library"/>
+                <catRef ana="#notes" target="type"/>
+           </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div type="section" xml:id="h001">
     <p id="021960ff-2846-4a3c-93f2-cf236a256397">
      <pb n="239"/>
     </p>
-    <p id="8f334b9c-8606-47ae-a79e-fcb71da9f8c5">
-     <head rend="center">
-      [ЗАПИСНАЯ КНИЖКА № 1, 1895—1896 гг.]
-     </head>
-    </p>
+    <head rend="center">
+     [ЗАПИСНАЯ КНИЖКА № 1, 1895—1896 гг.]
+    </head>
     <div type="entry">
      <div>
-      <p id="814f5fb5-9679-4178-9b96-66a00148b7e2">
-       <lb/>
-      </p>
+      <lb/>
       <table>
        <row>
         <cell>
@@ -241,9 +224,7 @@
         Ср. Дневник 1895 г 21 февраля, 3 и 12 марта, 2.
        </note>
       </p>
-      <p id="ba1a49ed-1b8a-4ac2-b3bd-b81e14bfd2a5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="140db2ba-645a-48e1-8ea2-82ae8c78edbb">
        Природа производит лучших и видя, что они не готовы, берет их назад — Ваничка.
        <ref target="#note206">
@@ -253,9 +234,7 @@
         Ср. Дневник 1895 г., 12 марта, 3.
        </note>
       </p>
-      <p id="3674f88e-a07c-49e1-8928-5e57869c1cbf">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d1d4371a-aca4-4318-bd82-c250f0d41b26">
        Она говорила: Он меня спасал от моей злобы.
        <ref target="#note207">
@@ -265,9 +244,7 @@
         Ср. там же, 4.
        </note>
       </p>
-      <p id="d7fdd9cc-7688-40e6-bcce-d79b0ac7993d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e9f799e4-d72b-4806-99b7-b5e08e7d1ac0">
        Наслаждение простить, простить
        <choice original_editorial_correction="виноват[ого]">
@@ -302,9 +279,7 @@
         Ср. Дневник 1895 г, 12 марта, 3.
        </note>
       </p>
-      <p id="83c4d4eb-ef56-4745-b00c-76bd937bb036">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="7cfb1863-70fa-4aed-9f1f-4921b63d00ba">
        Жить всегда так, как будто рядом умирает любимый ребенок. Он и умирает всегда. Умираю и я.
        <ref target="#note210">
@@ -314,9 +289,7 @@
         Ср. там же, 6.
        </note>
       </p>
-      <p id="8c2fe4f5-0196-49bb-af6b-b18ee849ea23">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="741aa10f-9bca-42a6-889c-722750528cae">
        Искусство не есть ли радость жизни без соблазна?
        <ref target="#note211">
@@ -326,15 +299,11 @@
         Ср. там же, 9.
        </note>
       </p>
-      <p id="5769ff99-3741-401c-9189-679a863edaf4">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d6b717f0-d16a-4af5-8bf0-cc86d174ebe6">
        Всё увеличивающиеся бедность и недовольство рабочих.
       </p>
-      <p id="d5496889-ba9a-4a22-bce5-b3ecd7d29440">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="39cc464b-e70d-4a17-acc1-0b3080a53961">
        Подобие подобия —
        <choice original_editorial_correction="искусств[о]">
@@ -347,9 +316,7 @@
        </choice>
        .
       </p>
-      <p id="e078b9cb-3044-41f0-8550-f9f6114859f9">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c56d48df-51d0-45e6-b8b3-dbaa9d2e9f4a">
        Надо понять служебное значение своей жизни, что я орган.
        <ref target="#note212">
@@ -359,9 +326,7 @@
         Ср. там же, 10.
        </note>
       </p>
-      <p id="883b5a6e-d9ab-41be-b3a7-932b00789570">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1204b2f5-b3a5-4e7c-9636-1785d983ea20">
        Дети — люди серьезные.
        <ref target="#note213">
@@ -371,9 +336,7 @@
         Ср. там же, 7.
        </note>
       </p>
-      <p id="f2eb6518-fd3a-421e-ab86-1029effe031c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8ff54af9-0409-4734-846e-3c46058b1caf">
        Смотреть, как на ребенка.
        <ref target="#note214">
@@ -383,9 +346,7 @@
         Ср. там же, 8.
        </note>
       </p>
-      <p id="4aa08c6a-6466-4ea4-a527-acae23d9d7a7">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="922c347e-d0c4-44f4-9aae-9a23e00faa47">
        И не могу ли чем служить?
        <ref target="#note215">
@@ -416,9 +377,7 @@
         Ср. там же, 11.
        </note>
       </p>
-      <p id="12479118-755d-49f6-8c53-4763c978a0b1">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c8ad6561-df02-4df0-9aea-94371e6e2e6b">
        Le défie
        <ref target="#note217">
@@ -435,9 +394,7 @@
         Ср. там же, 11
        </note>
       </p>
-      <p id="e24a6518-d588-41f6-887d-8e9a96cea8f2">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d8abc5e8-0dd3-454d-84f2-d4704844a5f4">
        Иосиф Пашков у
        <choice original_editorial_correction="Сухар[евой]">
@@ -483,9 +440,7 @@
         Ср. Дневник 1895 г., 27 марта, 1.
        </note>
       </p>
-      <p id="427ffb7b-2b0f-4782-9a2d-2dec8fd4f20e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="aa705fe7-dc12-48fa-9e46-d50cf5ba37ba">
        Если есть страдание, то был эгоизм.
        <ref target="#note220">
@@ -495,9 +450,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="57ae9e2e-6c7a-4b9c-9654-2494f7bfe65b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="597eb547-d29f-4011-964b-18fbcd900759">
        Время есть движение к совершенству, к Богу.
        <ref target="#note221">
@@ -507,9 +460,7 @@
         Ср. там же, 3.
        </note>
       </p>
-      <p id="dae3a09d-e21d-4069-8dc8-d52d85647d3e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="dcfcb4f5-0b38-4f75-b850-eab4568c6d4f">
        Пространство есть предел моего я.
        <ref target="#note222">
@@ -528,9 +479,7 @@
         Ср. там же, 5.
        </note>
       </p>
-      <p id="8da5afb2-910a-4224-b7f4-3fb29269cd27">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="50578bee-5fe0-476e-be11-239d11e8bb41">
        Не душу свою тратить для сохранения и увеличения
        <choice original_editorial_correction="жив[отной]">
@@ -572,9 +521,7 @@
         Ср. там же, 6 и 7.
        </note>
       </p>
-      <p id="273404d6-ca19-4dd7-9634-6a2c4a981c66">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="cffea8f6-965d-46a0-83ff-b16d0565003d">
        Спасение души есть спасение себя от соблазнов.
       </p>
@@ -593,15 +540,11 @@
       <p id="b7efff2f-6ed1-495c-8835-489672a2a3ef">
        Так во всем: из бессознательного переходит в сознательное.
       </p>
-      <p id="72ea6b9a-1b4b-402e-969c-4a83b640bcb4">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c6ca95ed-e976-4fba-b6f9-f8bb52d5b9b9">
        Спросить версию Черткова. Биографию Рёскина.
       </p>
-      <p id="9604ff19-2c55-45e1-8367-81ac4925d2d7">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="94e4c6fd-cea0-4319-8d27-b71acf92a07e">
        Наследственность государей доказывает, что нам не нужны их достоинства.
        <ref target="#note226">
@@ -611,9 +554,7 @@
         Ср. там же, 9.
        </note>
       </p>
-      <p id="db824038-35b6-499d-9a35-9051b7996ca1">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e7ae30cc-1e1d-48da-b616-52dfcf5eb044">
        Если бы быть последовательным, то вся жизнь есть мука от смертей прошедших, настоящих,
        <hi style="opdelimiter">
@@ -639,9 +580,7 @@
         Ср. Дневник 1895 г., 27 марта, 11.
        </note>
       </p>
-      <p id="93ce410b-2f4d-41d7-9811-6f7e87603fa6">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="088a4d08-57be-4122-82f5-4228b7f5782a">
        Один из главных соблазнов это представление о том, что мы стоим, тогда как мы течем.
        <ref target="#note229">
@@ -651,9 +590,7 @@
         Ср. там же, 12.
        </note>
       </p>
-      <p id="0fa3df9d-5417-46c0-a7d9-70da217fdce5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d7b23a20-f50e-4fd0-bf5b-d2af4df636fd">
        Я спрашивал себя: зачем дети мрут? Потом я решил для себя, что цель жизни есть увеличение любви в себе и других. И в этом и ответ на вопрос: зачем мрут дети.
        <ref target="#note230">
@@ -663,9 +600,7 @@
         Ср. там же, 13.
        </note>
       </p>
-      <p id="d33c3b83-9406-4801-998e-0f574608f855">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1c92b181-2013-4914-b80f-4387d31b8033">
        Прежде чем любить, нужно знать, знать то божеское, что можно и нельзя не любить.
        <ref target="#note231">
@@ -675,9 +610,7 @@
         Ср. там же, 14.
        </note>
       </p>
-      <p id="13154b78-6cd2-42eb-a260-cec9f88faa6b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="97c64572-f03d-41e8-b752-7c0219e09993">
        Видеть это божеское в людях, значит уже наполовину любить. А это божеское есть во всех людях, во всем.
        <ref target="#note232">
@@ -687,9 +620,7 @@
         Ср. там же, 15.
        </note>
       </p>
-      <p id="0a2c0243-05f8-4c60-b3dd-8d80fed33ca2">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0f288433-5173-4f1c-bbc4-8a25bd2a7a54">
        Безумие
        <choice original_editorial_correction="наследственно[сти]">
@@ -708,9 +639,7 @@
         Ср. там же, 16.
        </note>
       </p>
-      <p id="9fb6f0f8-b7ec-4304-94bf-cfaa985faad5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ad00758b-79ca-4b6c-ad53-6502951853ed">
        Ах, кабы жить только для того, чтобы делать наилучшее, наиболее должное,
        <choice original_editorial_correction="предоставл[яя]">
@@ -729,9 +658,7 @@
         Ср. там же, 17.
        </note>
       </p>
-      <p id="9237ea07-88d9-4c0f-ad8a-2a88b33952b3">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="daf51818-4700-4636-831f-216aaf3b958b">
        Верно, сказал глупость.
        <choice original_editorial_correction="Хоз[яин]">
@@ -759,9 +686,7 @@
         Ср. там же, 18.
        </note>
       </p>
-      <p id="95914c99-a836-4d48-b364-41996294576a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b6e8f1e9-b3fd-4002-8aa4-cce988e6515e">
        Жить по-Божьи значит тратить свою жизнь для блага мира. Как тратить?
        <hi style="opdelimiter">
@@ -790,9 +715,7 @@
         Ср. Дневник 1895 г., 27 марта, 18.
        </note>
       </p>
-      <p id="8c856759-ac36-493b-be1b-2b4f5008db9c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8d13f7f3-1501-4def-a3c5-fc57d49a240b">
        Хвалить других за их
        <choice original_editorial_correction="божеств[енные]">
@@ -828,9 +751,7 @@
         Ср. там же, 19.
        </note>
       </p>
-      <p id="88c23c45-c057-44a5-858d-4d091d356c09">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="9fd513d5-568b-4600-bbaf-87b97a1b5c99">
        Тратить свою жизнь на то, чтобы увеличить в мире любовь — единение — разменивать свое мясо на духовное единение.
        <ref target="#note239">
@@ -840,9 +761,7 @@
         Ср. Дневник 1895 г., 6 апреля, 1.
        </note>
       </p>
-      <p id="5ff81115-9246-425d-8395-f57f49515746">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="6fb7318f-2628-46b4-b1cc-64cbcd1ea2a4">
        1) Жить для Бога, 2) жить по-
        <choice original_editorial_correction="Бож[ьи]">
@@ -855,15 +774,11 @@
        </choice>
        , 3) проявлять Бога.
       </p>
-      <p id="20778be8-bbfc-40d0-88bc-6a3371f0170b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="adafdb9f-2f76-4457-a1aa-3ee6475539d1">
        Рост любви не есть цель, а есть свойство жизни — само собой.
       </p>
-      <p id="7452252b-a6a4-4ddd-a8ce-00d7fa4c3d83">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="882693a3-3a40-42e9-b86b-f6eecc400a23">
        Единение только в познании истины — в познании Бога. Прежде любви познай Бога.
        <ref target="#note240">
@@ -873,9 +788,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="0cc9bc64-ee36-47bd-be87-239ebf6e0a56">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c6680828-6e0a-4bcd-bd2a-db73555144a2">
        Познать Бога —
        <choice original_editorial_correction="позна[ть]">
@@ -894,9 +807,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="b61d630e-8016-4126-bce6-62b6d7e77713">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5de2aa22-c7e2-4636-8d11-279f5ab56dd4">
        Жить по-Божьи — значит жить для блага мира. Благо мира в единении. Для единения — познание истины, Бога.
        <ref target="#note242">
@@ -906,9 +817,7 @@
         Ср. там же, 3.
        </note>
       </p>
-      <p id="6a3a54b1-1838-4e27-970f-1028ef3e4ecf">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d109bea2-010e-4580-be90-2bccf38b98ce">
        Не значит ли жить по-Божьи — давать жизнь другим?
        <ref target="#note243">
@@ -918,9 +827,7 @@
         Ср. там же, 4.
        </note>
       </p>
-      <p id="d7b4ed22-3634-4e9c-909b-f3968e7cf7e5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="910b5354-cd0d-43e7-9d2e-c50251879d89">
        Как только любовь плотская дает
        <choice original_editorial_correction="плотск[ую]">
@@ -957,9 +864,7 @@
         Ср. там же, 5.
        </note>
       </p>
-      <p id="1ef0a3e9-fdc1-470f-ba38-33fe25e46312">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="a0df3ce4-cbda-4e65-bb4d-2318b83f77cb">
        <choice original_editorial_correction="Дмитр[ий]">
         <sic>
@@ -990,9 +895,7 @@
        </choice>
        больнице.
       </p>
-      <p id="85a346a8-ab93-42f7-9099-a62f5a3c58c8">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="01a969a4-ff06-4c69-b313-7c82e0f62f19">
        <choice original_editorial_correction="Ив[ану]">
         <sic>
@@ -1021,9 +924,7 @@
        </choice>
        .
       </p>
-      <p id="1e7fb945-8e74-43c8-9253-43b0f10423a2">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="6797d7b9-a875-406e-b082-90d562dcfd95">
        Утешиться может только тогда, когда поймет, что жизнь в содержании, а не в сосуде.
       </p>
@@ -1036,9 +937,7 @@
         Ср. Дневник 1895 г., 6 апреля, 6.
        </note>
       </p>
-      <p id="791acbb7-5a3d-42e9-be6d-4e6fcc5f10ee">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="790ddf96-bbb6-4e68-a80b-22af5f065d66">
        Жизнь для Бога — увеличение любви.
       </p>
@@ -1060,9 +959,7 @@
         Ср. там же, 7.
        </note>
       </p>
-      <p id="29afe03e-43d3-4cf1-b30b-55d13a0a1e46">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="287615ce-6982-4048-91ae-abc6c66c14c8">
        Вся задача в том, чтобы переставить: долг поставить
        <choice original_editorial_correction="преж[де]">
@@ -1117,9 +1014,7 @@
         Ср. там же, 9.
        </note>
       </p>
-      <p id="1d877264-4e9e-4505-8b92-7c77a6555107">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="71becda6-37c7-4ef6-a80a-517339d78e02">
        1) Благо, 2) Благо — только в служении, 3) служение — в увеличении любви, 4) Любовь увеличивается
        <choice original_editorial_correction="любовь[ю]">
@@ -1138,9 +1033,7 @@
         Ср. там же, 10.
        </note>
       </p>
-      <p id="30ce0803-2270-408c-a500-c353a0b4a91b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d05ce892-eb34-414f-aa47-0ca6eb9ca354">
        Вера Ивановна — религиозная язычница.
        <ref target="#note250">
@@ -1150,9 +1043,7 @@
         Ср. там же, 11.
        </note>
       </p>
-      <p id="bb92a04c-0707-4618-8d5d-6aebf9ae7dff">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="29c358ab-dfcf-409f-96cd-28f66394c3e1">
        В статье: Религия и нравственность я выразился не точно: Религия есть отношение к Богу невидимому, вытекающее из отношения к миру.
        <ref target="#note251">
@@ -1162,9 +1053,7 @@
         Ср. там же, 11.
        </note>
       </p>
-      <p id="0953d5f3-5447-4b4f-a862-24d40f4573b5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="041c18b6-5245-4a66-a934-36d2c3db671a">
        Очень легко знать, что добро, что зло — само по себе, что должно и что не должно; но очень трудно знать, что добро и зло и что должно и не должно для людей, запутавшихся в добре и
        <hi style="opdelimiter">
@@ -1199,9 +1088,7 @@
         Ср. Дневник 1895 г., 6 апреля, 13.
        </note>
       </p>
-      <p id="1bacc7f0-9991-4c2e-a422-40dba6ecdead">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0402d49e-ac83-4aa5-804b-8fa0cc67d7a3">
        Переход от хорошенького к прекрасному.
        <ref target="#note254">
@@ -1211,9 +1098,7 @@
         Ср. там же, 14.
        </note>
       </p>
-      <p id="abb95539-0949-4496-a3b6-8e13aeec15f0">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e86fd285-199e-4409-930e-1448c632a228">
        Действовать, познавать, любить.
        <ref target="#note255">
@@ -1223,9 +1108,7 @@
         Ср. Дневник 1895 г., 10 апреля, 1.
        </note>
       </p>
-      <p id="13e7faf9-36c1-4509-9187-7013f332105e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="20d41990-7c97-4eac-b74e-39d35caa6255">
        <choice original_editorial_correction="Челов[ек]">
         <sic>
@@ -1270,9 +1153,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="b9e4f2b0-aba5-4993-bc61-9c9df3632feb">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="42c3358f-5398-457e-a334-a5f7c74a56e8">
        Шел, и вдруг меня с
        <choice original_editorial_correction="чрезвыч[айной]">
@@ -1300,26 +1181,20 @@
         Ср. Дневник 1895 г., 14 апреля, 1.
        </note>
       </p>
-      <p id="05f67018-0e70-4b44-ac06-f051a70c8fb0">
-       <metamark function="line"/>
-      </p>
-      <p id="9658d3d3-89e8-4736-8bd5-641733cbaa51">
-       <opener>
-        <dateline>
-         <date notAfter="1896-04-11" notBefore="1895-04-11" resp="LNT" when="-04-11">
-          <hi>
-           11 апреля.
-          </hi>
-         </date>
-        </dateline>
-       </opener>
-      </p>
+      <metamark function="line"/>
+      <opener>
+       <dateline>
+        <date notAfter="1896-04-11" notBefore="1895-04-11" resp="LNT" when="-04-11">
+         <hi>
+          11 апреля.
+         </hi>
+        </date>
+       </dateline>
+      </opener>
       <p id="6af17e3d-3a2e-4069-95bb-c8525a938040">
        Московский Окружной Суд.
       </p>
-      <p id="f83cb565-16cb-45f9-91b8-aaf5f66dcd15">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="df7ff037-3877-4f8e-805b-0bc336730b39">
        Заявления о
        <choice original_editorial_correction="неявка[х]">
@@ -1347,9 +1222,7 @@
       <p id="aba5ebac-59cf-4605-a1af-1bf78e8a798b">
        Права и обязанности.
       </p>
-      <p id="68247a1f-d939-422a-a992-e2a043704fb3">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="28aaad77-968d-48fb-b181-3171854291b7">
        Права и милость в судах...
        <choice original_editorial_correction="ред[ко]">
@@ -1370,9 +1243,7 @@
        </choice>
        милость. Не правда
       </p>
-      <p id="842a4ec8-3452-4b1f-8f87-8897c963052c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="59030ae6-5924-411c-90a8-61fc534f9fa5">
        1) Вход
        <choice original_editorial_correction="подсуди[мых]">
@@ -1411,9 +1282,7 @@
       <p id="7d75b89f-1ff4-4521-be68-2fd7d0c1ce5f">
        7) Речь председателя]
       </p>
-      <p id="2c5c0f82-e117-4c70-be87-9fd252e98033">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e4c2f7d1-511a-4a4c-b47b-47946a0c41ef">
        Опять ввод подсудимых и судей.
       </p>
@@ -1520,9 +1389,7 @@
       <p id="44104804-a9ee-46bb-9d82-6baed1877329">
        Не имеет ничего против?
       </p>
-      <p id="7d86619d-ef79-42e5-a1a4-2f4a6940a5e4">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2452d093-9604-40c0-a194-e760347cf53f">
        К присяге
       </p>
@@ -1695,21 +1562,15 @@
        </hi>
        показывает смело.
       </p>
-      <p id="81685726-5140-4c77-a906-8b4030f5e85e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="85cb5258-ea8f-4bf4-af0a-f68f4994d3e3">
        Каким путем они их стали?
       </p>
-      <p id="a8a7bdc3-1b82-4c7d-8992-a65c90127bf9">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="a961524f-df67-4b0e-b26d-364b2f9b35bc">
        Сядьте.
       </p>
-      <p id="30d4e2bf-46e3-4bb8-8c41-29f928f2117b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="bcb868b8-6df7-45ae-bcf3-0c931eb758d9">
        Чтение осмотра при дворниках —
        <choice original_editorial_correction="кре[стьянин]">
@@ -1730,15 +1591,11 @@
        </choice>
        -то, такой-то волости и т. д.
       </p>
-      <p id="5d935013-4480-4352-8e93-62aa12b3d061">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="330e59d3-15df-4ded-9bee-2b5eda335efb">
        6 месяцев под стражей.
       </p>
-      <p id="419a3db7-d0d2-4110-af02-9635379091ed">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c7bcbf7a-b06f-48cd-930a-bda5c24e30f5">
        Речь прокурора.
       </p>
@@ -1803,9 +1660,7 @@
        </choice>
        .
       </p>
-      <p id="47f3b9bb-e650-438d-b000-592a24181855">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="17421b35-301e-4601-8b17-22a9f94b3f16">
        Постановка
        <choice original_editorial_correction="вопрос[ов]">
@@ -1847,9 +1702,7 @@
        </choice>
        тайно похитил и т. д.
       </p>
-      <p id="1a3843a0-d680-4d2a-a9c9-38a18e2aaa28">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="54f219d7-8e53-431e-a1c1-603c0a779269">
        Речь
        <choice original_editorial_correction="председ[ателя]">
@@ -1862,9 +1715,7 @@
        </choice>
        к присяжным — резюме.
       </p>
-      <p id="b0fce0bf-0336-443d-9b6a-b84a2257a0a9">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3dba6cfa-9043-44e3-81d7-ca5426023de7">
        <choice original_editorial_correction="предс[едатель]">
         <sic>
@@ -1879,9 +1730,7 @@
       <p id="c199310c-4322-4257-9c13-dd067c51d507">
        Жандарм усовещивает?
       </p>
-      <p id="d4720fd8-77a5-42ec-ad73-116169027f84">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3e060c6f-8060-405f-a1e7-5598a273f02f">
        Звонок и
        <choice original_editorial_correction="сабл[и]">
@@ -1894,15 +1743,11 @@
        </choice>
        .
       </p>
-      <p id="dd4465db-0559-425d-92e0-1bc06afde53d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="401eb880-aa81-4b33-ba8d-c42fb113bec9">
        Написать Страхову.
       </p>
-      <p id="2ea5af52-1039-4808-bc7d-cf82db0a38cd">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="59cca86f-6138-4210-87a6-cf19b6a50a45">
        Чем ближе я становился к Богу, тем больше возбуждал негодование людей.
        <ref target="#note260">
@@ -1912,9 +1757,7 @@
         Ср. Дневник 1895 г.,14 апреля, 2.
        </note>
       </p>
-      <p id="8918f29e-83d6-4e9b-a1f4-218918019ca2">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="943c7095-ba38-4833-b2e7-6d784264dfee">
        Воспитанник
        <choice original_editorial_correction="Кузм[инских]">
@@ -1936,9 +1779,7 @@
        </choice>
        .
       </p>
-      <p id="37be8a39-d0b7-4d47-9ed1-977ec9c870b3">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1cab1d97-92b1-4382-8030-463aa69c2187">
        Анюта
        <hi style="opdelimiter">
@@ -1958,15 +1799,11 @@
         Ср. Дневник 1895 г., 14 апреля, 3.
        </note>
       </p>
-      <p id="71e091ab-d6a5-4c2f-a628-6ee63619e0dd">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e15fe690-8f9b-4478-a1fd-6b3715913a96">
        Федотова, Шаховская.
       </p>
-      <p id="3e2379e5-9e6c-4b8c-b2ea-8cdbf95a5750">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1f07c4b6-6a36-48f5-b852-06f5d1b2925b">
        Мысли сердца.
        <ref target="#note262">
@@ -1976,15 +1813,11 @@
         Ср. Дневник 1895 г., 14 апреля, 3.
        </note>
       </p>
-      <p id="60509ab3-dfdc-447e-a563-350b35f55f39">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5e8c5a67-739b-45d3-8083-e7e95882f889">
        Вильна. Б[ольшая?] улица, д. Машковых Никол. Арсен. Вершинский.
       </p>
-      <p id="f6d40cb0-e29c-43a7-b83b-696c1e762654">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="4cc20919-f2e6-49d5-8cfa-ed5659ba0f04">
        Любовь есть проявление в себе (сознание) Бога и потому стремление соединиться с Богом в других, вызывать Его.
        <ref target="#note263">
@@ -1994,9 +1827,7 @@
         Ср. Дневник 1895 г., 25 апреля, 1.
        </note>
       </p>
-      <p id="019c3097-4258-4c6b-bcc4-1fa1b0766409">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="22fe67a1-65a7-41b0-a8a4-0885cb40b21e">
        Доктор Резвов. Врач. 52. — Сперанские номера по Долгоруковскому переулку,
        <choice original_editorial_correction="уг[ол]">
@@ -2009,21 +1840,15 @@
        </choice>
        Тверской.
       </p>
-      <p id="2f797bf9-33fc-4c2e-8b73-dd1e77e1e618">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0c18e84d-d846-4790-abe7-da3abf170116">
        Дашков просится в капельдинеры.
       </p>
-      <p id="0f78424f-c835-46c6-946b-931fded9e3f2">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="4b4eadaa-90a0-46b3-b896-7f8da9be8d99">
        Страхову об Заменгофе.
       </p>
-      <p id="e43d39d6-e7f5-44e9-85ac-aae9dfc0b27b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="7bb5b8bc-3484-4f4a-b785-afcf4615e446">
        Птичек выпустить на могилке — памятник. Желание приурочить к
        <choice original_editorial_correction="простр[анству]">
@@ -2042,9 +1867,7 @@
         Ср. Дневник 1895 г., 28 апреля, 1.
        </note>
       </p>
-      <p id="081fc02d-5dcf-4f55-b492-38c4db08a6ad">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5ab1f54d-3a24-43a8-b993-722aac2ce927">
        Три есть средства содействовать уничтожению страданий рабочих:
       </p>
@@ -2072,9 +1895,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="b6d38c2d-45cc-46ab-8e68-5509162620da">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="953a5943-fc47-4eeb-90cf-eec92f69fbf5">
        Задача жизни: любовно исповедывать истину.
       </p>
@@ -2090,9 +1911,7 @@
         Ср. Дневник 1895 г. 7, мая, 1.
        </note>
       </p>
-      <p id="3a644387-c00c-4724-9ef1-678ff5cd453a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="48d4ec7f-3644-4646-8670-2e12f6f0072b">
        <pb n="249"/>
        <hi style="npdelimiter">
@@ -2109,20 +1928,16 @@
        </choice>
        Яковлевич] Ейленгорн.
       </p>
-      <p id="7789f1d9-6b21-4392-9f6f-8af5a357f850">
-       <metamark function="line"/>
-      </p>
-      <p id="f4637469-9672-4514-bb98-84482694ef81">
-       <opener>
-        <dateline>
-         <date notAfter="1896-05-07" notBefore="1895-05-07" resp="LNT" when="-05-07">
-          <hi>
-           7 Мая
-          </hi>
-         </date>
-        </dateline>
-       </opener>
-      </p>
+      <metamark function="line"/>
+      <opener>
+       <dateline>
+        <date notAfter="1896-05-07" notBefore="1895-05-07" resp="LNT" when="-05-07">
+         <hi>
+          7 Мая
+         </hi>
+        </date>
+       </dateline>
+      </opener>
       <p id="7aa178e6-f466-4618-a3dd-b93ad5abb557">
        Девицу.
       </p>
@@ -2143,15 +1958,11 @@
       <p id="ffc218e9-ac2c-433d-852a-a6766e875e42">
        Назарова.
       </p>
-      <p id="ea433aaf-406f-4cf4-88bb-305899332c51">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="a1c2126b-f610-4e9d-921c-68a44f3c36ac">
        Положение ведь такое: один царь.
       </p>
-      <p id="7b388b5c-881b-44bd-b238-fe4bfa26b52f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2a7166bd-734e-4789-ab18-8f67fcbc45e6">
        Себя беречь, где не можешь служить.
        <ref target="#note267">
@@ -2161,9 +1972,7 @@
         Ср. Дневник 1895 г., 15 мая, 1.
        </note>
       </p>
-      <p id="643d0ff2-8e65-4671-9687-ca662805af3f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="bc3d1038-6b9b-4e53-8c12-ef3e14360675">
        Тщеславие и славолюбие.
        <ref target="#note268">
@@ -2173,9 +1982,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="c3759410-ef35-4e6b-94b0-b0bf08928f0c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="bcc95c88-029a-43be-bc20-a1558d58c230">
        Города Мстиславля Могилевск. губ. у дочери
        <choice original_editorial_correction="отст[авного]">
@@ -2247,9 +2054,7 @@
       <p id="912da8ce-da3d-4372-9415-506e1ab12a8a">
        Поместить куда-нибудь.
       </p>
-      <p id="d4cc1124-bddf-4bb2-a6b4-d5cd7debf524">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3976d2d3-76cc-4883-8ab2-610c2acd049c">
        На старости лет уменьшается
        <choice original_editorial_correction="умств[енная]">
@@ -2313,9 +2118,7 @@
         Ср. Дневник 1895 г., 29 мая, 1.
        </note>
       </p>
-      <p id="43e2e7b5-2207-4a7a-b86b-0e5b88c32766">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e0dd0cc6-40a6-4891-b0de-f2136ea77f33">
        Специализация есть произведение рабства. Предела специализации нет. Она должна быть свободна. А то люди вступили на путь специализации и поддерживают ее скрытым
        <hi style="opdelimiter">
@@ -2341,9 +2144,7 @@
         Ср. Дневник 1895 г., 29 мая, 3.
        </note>
       </p>
-      <p id="697f4548-732a-44bf-9cc7-95167cb99665">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="687f8740-4f7d-444b-8c3c-dc5501dd2b8c">
        Не понимает и не верит.
        <ref target="#note273">
@@ -2353,27 +2154,19 @@
         Ср. там же, 4.
        </note>
       </p>
-      <p id="bf252003-4738-4274-938d-ba2a79e91fce">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c1642799-8012-4867-b8cd-256956218a60">
        Она противна и ничего не понимает.
       </p>
-      <p id="abd56c7d-b159-48f6-9b95-a6b9bb97c53b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="82d2b0a2-f88a-4203-851f-fd14ad82b5d1">
        Дормидону мальчика к Сытину.
       </p>
-      <p id="3147956b-06f9-47cc-8eb2-3ca58f607515">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8480b36c-fc2f-4c50-a335-04eb5458a925">
        Женщину к Снегиреву.
       </p>
-      <p id="9013cf11-a1a8-4166-b7cf-905926539d73">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="21e3c0af-15ee-4228-a771-60cb15cdbca6">
        Братски строить
        <choice original_editorial_correction="Египет[скую]">
@@ -2392,9 +2185,7 @@
         Ср. Дневник 1895 г., 4 июня, 1.
        </note>
       </p>
-      <p id="07e80642-a96b-412d-81ec-71022436bf97">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="418816f2-1b59-434c-a002-ff6440c4def5">
        <hi>
         На память
@@ -2440,9 +2231,7 @@
         Ср. Дневник 1895 г., 4 июня.
        </note>
       </p>
-      <p id="8ccf3337-5e70-49e0-be28-2e2ad65c09e9">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3a739d26-db68-4622-9b8f-c4989bdbbcf4">
        Петр Трофимович Дехтерев. У
        <choice original_editorial_correction="Крутицк[их]">
@@ -2455,15 +2244,11 @@
        </choice>
        казарм против церкви Успенья д. Дехтерева.
       </p>
-      <p id="c4ed6157-701a-4677-9525-b48ed10c3998">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="77e4b534-c283-41a1-9294-3365e1459784">
        Прислать фотографию. 156. Аларчин мост.
       </p>
-      <p id="8a357856-cd58-45d7-bb0a-88d15cd59a9d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f9b2e2eb-8a71-44f5-9226-2928f2c17019">
        Начинает уничтожаться реальность; прощупывается сквозь
        <choice original_editorial_correction="ложн[ые]">
@@ -2500,9 +2285,7 @@
         Ср. Дневник 1895 г., 8 июня.
        </note>
       </p>
-      <p id="5ab87fbb-ef27-4261-a907-cebdc37415dd">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5758ae97-4b5d-4a96-854c-8fe367efbf20">
        Заповеди Христа не правила, а указания соблазном.
        <ref target="#note278">
@@ -2512,23 +2295,19 @@
         Ср. Дневник 1895 г., 13 июня, 1.
        </note>
       </p>
-      <p id="1569dbcd-a4a6-4747-abbd-1de829e09a45">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3ce30ea8-0d5d-4400-b3ff-e310c37bfedb" rend="pages2">
        <pb n="251"/>
       </p>
-      <p id="af68bf79-2d62-4be3-a82b-2413a00d1d63">
-       <opener>
-        <dateline>
-         <date notAfter="1896-06-12" notBefore="1895-06-12" resp="editor" when="-06-12">
-          <hi>
-           [12 июня.]
-          </hi>
-         </date>
-        </dateline>
-       </opener>
-      </p>
+      <opener>
+       <dateline>
+        <date notAfter="1896-06-12" notBefore="1895-06-12" resp="editor" when="-06-12">
+         <hi>
+          [12 июня.]
+         </hi>
+        </date>
+       </dateline>
+      </opener>
       <p id="111d11d6-d513-44cf-afd2-b7b3fb48eaea">
        Отношения с людьми только тогда хороши, когда в них вступаешь через Бога, т. е.
        <choice original_editorial_correction="поду[маешь]">
@@ -2547,9 +2326,7 @@
         Ср. Дневник 1895 г., 12 июня.
        </note>
       </p>
-      <p id="acea4e25-f879-4378-bb42-68f597fb5582">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f8436af6-d96c-4cbc-8b82-8f17c91be578">
        Конкретные науки, в
        <choice original_editorial_correction="противупол[ожиость]">
@@ -2575,9 +2352,7 @@
         Ср. Дневник 1895 г., 13 июня, 2.
        </note>
       </p>
-      <p id="411ac5ab-7723-472a-a587-24910e5e439b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="cd6b3b76-80de-4cda-be03-a8ad9b642425">
        Мы не можем, не должны знать будущего — это незнание есть условие
        <ref target="#note281">
@@ -2618,9 +2393,7 @@
         <gap quantity="1" reason="illegible" unit="word"/>
        </hi>
       </p>
-      <p id="67a0c381-8d2a-442e-af7c-2dd70f55862e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="825a7493-330c-4e4f-93b7-b38d779d2b26">
        Законодатели затем избраны, чтобы предотвратить самоуправство, драки; а они сами дерутся — дрались во
        <choice original_editorial_correction="Франц[ии]">
@@ -2657,33 +2430,23 @@
         Ср. Дневник 1895 г., 28 июня, 2.
        </note>
       </p>
-      <p id="475c60b8-9032-47e7-954a-a93fee24c80c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="cdaa9829-ea41-43b3-805b-b476c3f40772">
        Дмитрий Федорович из Тросны просит помочь на избу. Жвакин.
       </p>
-      <p id="1ac46de7-8399-4421-9e4f-f539e8dab373">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="eae2a9db-05a9-438d-92f4-7b0a94cfa572">
        Пираговка. Михаил Аникеев просит помочь на избу.
       </p>
-      <p id="79b313d8-94e8-4fa5-8c6e-acdf1612a066">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="17c38c90-ef1e-41ab-b08b-76b650defd4d">
        Прасковья Рыженкова просит помочь на подати.
       </p>
-      <p id="78c32914-328c-4b1b-aa9d-7cfdd8d766cf">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="04d21d3e-3340-4e44-8132-bda750b691af">
        Акулинину лесу на избу.
       </p>
-      <p id="f47defc9-ece2-4d00-acd0-4c342c35418c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="dc529362-741c-4513-be46-40ab09ea5454">
        Антон
        <choice original_editorial_correction="Федот[ов]">
@@ -2724,9 +2487,7 @@
         .
        </hi>
       </p>
-      <p id="ed655b03-f142-471c-8e72-a5e23fb5065a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b76a9bc9-34c1-4daf-9a10-e1dca0158aa9">
        <pb n="252"/>
        <hi>
@@ -2743,9 +2504,7 @@
         Ср. Дневник 1895 г., 28 июня, 3.
        </note>
       </p>
-      <p id="15a0d426-554b-4096-8538-0b021de9a35a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="cf301567-a020-4128-bf6f-b730a4f71b84">
        Письмо Herron’y:
        <choice original_editorial_correction="влива[ет]">
@@ -2776,15 +2535,11 @@
        </choice>
        .
       </p>
-      <p id="a33e9f99-4b1e-42ef-b868-9a3168880a03">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="926a72bb-9c4f-4768-a567-9de5423f2a62">
        Присягу принимает просто, не думая.
       </p>
-      <p id="1432f874-f239-44e8-b9c4-84f2799aef55">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d6cfe2b8-a2f6-4563-95c2-bd710f8b8777">
        <choice original_editorial_correction="Дугин[ской]">
         <sic>
@@ -2796,15 +2551,11 @@
        </choice>
        волости Чернского уезда.
       </p>
-      <p id="3cef304f-2d67-4a8b-b9bd-a344f26c5809">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e910e737-6777-4cab-95cd-25bc2624a811">
        Сидит за поджог, девочка 10 лет.
       </p>
-      <p id="b4df1aed-783e-4b6e-afab-b3e2afd8af92">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b00ef4f9-61c9-40da-94c6-1f6cf9ed34ff">
        Взыскивают 46
        <choice original_editorial_correction="р[ублей]">
@@ -2825,9 +2576,7 @@
        </choice>
        издержки. Ничего нет. Продадут ли дом?
       </p>
-      <p id="2a42e9e8-92cb-4a9d-885e-efc8cba26578">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="bd7151e9-f5f8-4d28-a18e-52ed6c2ad6f7">
        Искусство и наука рабские.
        <ref target="#note285">
@@ -2837,21 +2586,15 @@
         Ср. там же, 4.
        </note>
       </p>
-      <p id="48875144-e2aa-4e72-b7ac-ebb7e275c8e0">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="eaa3b76a-e0e0-450d-b4aa-18d35e7b868e">
        Точно смерть на Любке.
       </p>
-      <p id="a788de4b-2ed7-4244-ae41-9d4edb6d1a7d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1fae2d72-f429-41eb-b726-80caf54ecc27">
        Она и не она.
       </p>
-      <p id="5d6e2d0d-2cf9-4936-b889-63836be75220">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ce52d1c8-7ad8-443b-a6ea-083c41a029c7">
        Только та и любовь,
        <choice original_editorial_correction="кот[орая]">
@@ -2864,15 +2607,11 @@
        </choice>
        не получает награды: Нехлюдов бьется о том, чтобы она поняла свое положение и его. И — награда.
       </p>
-      <p id="ed6afb8f-7203-42e3-bc23-e16a20ffa859">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5392ea25-2c66-4eae-9692-7caefe6bdf15">
        Она читает Тургенева.
       </p>
-      <p id="d44e194f-34a8-4fb5-82e1-c39e25f3dc89">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d663d4a1-cea5-4626-9494-63ed59cbc36a">
        Он приезжает в настроении
        <choice original_editorial_correction="com[m]e">
@@ -2891,9 +2630,7 @@
         [светской подтянутости.]
        </note>
       </p>
-      <p id="fd05ae71-12ca-45de-8898-b5d97b07699d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="19e24b36-c544-4622-b98f-db7f9017e0be">
        У него va-et-vient
        <ref target="#note287">
@@ -2910,18 +2647,14 @@
         светского.
        </hi>
       </p>
-      <p id="3c5bf69c-41bc-48eb-aada-d5848bf19acb">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d74c8e39-3a8a-4f3e-b72f-d42edacecd73">
        Елькина Игнат Муратов взыскивают, сидит в
        <hi style="opdelimiter">
         зàмке.
        </hi>
       </p>
-      <p id="40472ebf-40fc-4e9d-a056-2abc0cf421a7">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="25bbfb21-36e4-415b-8970-2c4ffc81a665">
        <pb n="253"/>
        <hi style="npdelimiter">
@@ -2947,15 +2680,11 @@
        </choice>
        значения происходит от того же — от предположения, что предмет религии не есть предмет науки.
       </p>
-      <p id="2863be94-eaf9-4d0a-b246-c5671bf5f5d2">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="709bf4c9-1923-4253-87cf-172195d8f777">
        «Ну узнала! Ну так что ж?» — Не хочет вспоминать то время — считает себя погибшей.
       </p>
-      <p id="485857f7-0a21-4850-98ed-94dff8b27a0b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b7125ade-d2c1-4dce-b017-161c0ee5fa28">
        «Что ж, проведать
        <choice original_editorial_correction="приш[ли]">
@@ -3011,15 +2740,11 @@
        </hi>
        и т. п.
       </p>
-      <p id="82a58d57-9382-4d1e-aa5e-fcda76d9cc09">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="7311d3b3-5371-45f7-87e2-47f85d68da04">
        Как же мне жениться, когда я женат?
       </p>
-      <p id="79125774-52d5-4524-ad26-9b1f9e328234">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0365057a-0505-4e0a-bbb3-c04374e8ad56">
        Но хотела я
        <choice original_editorial_correction="вспомин[ать]">
@@ -3045,21 +2770,15 @@
        </choice>
        я теперь.
       </p>
-      <p id="85532fe0-6343-41c4-9135-c63adccd0b9f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c0153234-506d-4eb6-a73c-4dc00f74c641">
        (Я не помню. Ничего не помню.)
       </p>
-      <p id="92de150e-36b4-4a98-8079-21dfc578fe5a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e54608f4-ab51-4465-89bc-7c0332d5a3f6">
        чия. (?) Отчего ж вы вызываете?
       </p>
-      <p id="a2357cbd-249f-4788-80a5-a7e64ce4ef80">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ce68e6c1-da19-4b1c-934e-9e48ef70b4f0">
        Городенские
        <choice original_editorial_correction="погорель[цы]">
@@ -3072,15 +2791,11 @@
        </choice>
        .
       </p>
-      <p id="43399496-d553-445e-b32f-092242c88fb5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8649f577-4d81-4336-9315-1b22b3d46f5f">
        Павел Акимов.
       </p>
-      <p id="3d7a7041-76be-41db-855d-8c18d50ad925">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="26820f30-1f64-4119-a370-0a350e59416a">
        Алексей
        <choice original_editorial_correction="Аким[ов]">
@@ -3093,9 +2808,7 @@
        </choice>
        .
       </p>
-      <p id="5814f572-e1f2-419f-abff-87dccb3a2dc8">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="7dfff15a-f065-4b87-8bdd-077cb58dc53e">
        Самообман земства —
        <choice original_editorial_correction="ремесл[енная]">
@@ -3108,9 +2821,7 @@
        </choice>
        школа, лавка, больница, мать устроила.
       </p>
-      <p id="f2ec5e8b-6085-490a-a5c0-3339e8f73efa">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b733f0c6-7778-48d7-9cc4-c078b9dbf396">
        Спросить у Давыдова: 1) Порядок суда.
       </p>
@@ -3123,9 +2834,7 @@
         брак?
        </hi>
       </p>
-      <p id="5d247cce-5f65-48aa-9fee-bc7aa556c413">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="841c460b-f48e-4615-aeda-c6897422d23e">
        <pb n="254"/>
        <hi style="npdelimiter">
@@ -3139,9 +2848,7 @@
         Ср. Дневник 1895 г., 4 июля, 1.
        </note>
       </p>
-      <p id="a5342abb-cdc0-491e-b474-6ca2114e2e55">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2193fc72-d798-4a51-9d7d-8c4f9ef19c97">
        Нижегород. губ.,
        <choice original_editorial_correction="Лукояновс[кого]">
@@ -3168,9 +2875,7 @@
         Запись рукой неизвестного.
        </note>
       </p>
-      <p id="710ee488-eefe-4f04-aade-3a3807afd55e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5af5fa21-73da-41c2-b122-1e7fed65140e">
        Для борьбы с соблазнами нужно уяснение сознания — расширение
        <choice original_editorial_correction="концентрическ[их]">
@@ -3189,9 +2894,7 @@
         Ср. Дневник 1895 г., 4 июля, 2.
        </note>
       </p>
-      <p id="b8d31c41-34ce-463c-b903-b8022369c44d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="65e982be-1706-485c-a907-d46a4f4ce39f">
        Догель о велосипедах, вранье ученых.
        <ref target="#note292">
@@ -3201,21 +2904,15 @@
         Ср. там же, 3.
        </note>
       </p>
-      <p id="7e9bf961-ea42-4eaa-a160-7b47373c64a1">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3d427b93-faa0-4f0a-a76c-24714f458a10">
        В деревне явно рабство.
       </p>
-      <p id="409b358d-e417-45c4-b7ba-f3ce6f0a3085">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="87e6c00c-3d74-46d8-848b-5e1e24a4ac66">
        На покосе берет в трясущиеся руки ягоду.
       </p>
-      <p id="78d69b63-7ad5-41b5-b47d-949b8383e312">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3e99dbe3-36b1-49ec-b4c1-cf025963596c">
        Во мне есть то, что держит все вместе: разум и
        <choice original_editorial_correction="люб[овь]">
@@ -3228,9 +2925,7 @@
        </choice>
        .
       </p>
-      <p id="ff1ce7a3-8bab-412d-a0f6-1e7613ad4a58">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="bdec8571-a300-4163-a530-2507800af7f7">
        В детстве моем
        <choice original_editorial_correction="води[ли]">
@@ -3249,9 +2944,7 @@
         Ср. Дневник 1895 г., 12 июля, 1.
        </note>
       </p>
-      <p id="5aa54c38-d6f1-49d7-9e90-07277510d1fb">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="a2560ac6-9fd6-4762-87ba-98784f4e2b58">
        Сказано и в повести, в
        <choice original_editorial_correction="кот[ором]">
@@ -3282,9 +2975,7 @@
        </choice>
        .
       </p>
-      <p id="1562214b-f9f3-49a6-aa00-52f81c918d67">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="cc746ef5-5eab-4b09-b01e-0698e5baba28">
        1) Имя, отчество,
        <choice original_editorial_correction="фам[илия]">
@@ -3303,9 +2994,7 @@
       <p id="b40cd597-3a4a-45ca-b989-a6566340e716">
        3) Не был ли под судом? —
       </p>
-      <p id="a10e8911-8873-4ed0-b933-15bf9b220761">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8e16a37e-16bf-4255-aaf7-fff29e35694e">
        Все ли свидетели явились?
        <choice original_editorial_correction="Судеб[ный]">
@@ -3326,9 +3015,7 @@
        </choice>
        .
       </p>
-      <p id="96650959-b332-4f19-ac96-114f377954cf">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b4ffae9f-362c-4c10-8408-29cd75b6078e">
        Удаление свидетелей.
       </p>
@@ -3373,15 +3060,11 @@
        </choice>
        .
       </p>
-      <p id="06f3da53-3a25-484e-852d-b255580ce2a4">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d19c5e3c-c67c-4ffe-9cbd-05f4b6ed42a6">
        Отвод их.
       </p>
-      <p id="acb5c8d8-65ce-4aef-9c59-0f8eff5196fc">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ed22512f-5fed-4cd4-842c-8327a421d713">
        Выбираются по жребию 12
        <choice original_editorial_correction="ч[еловек]">
@@ -3394,15 +3077,11 @@
        </choice>
        .
       </p>
-      <p id="351a0bdd-fb9d-4f16-8ac7-1e81b48ac819">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="13c819fa-eb84-4c65-9be8-b3a770bdf07b">
        Присяга. Еврей.
       </p>
-      <p id="107ab064-6db5-4b7d-bb87-796dfe3dd674">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="efafadbd-3299-46e6-acec-5bc4ca73da13">
        Разъяснение прав, спрашивать через
        <choice original_editorial_correction="предс[едателя]">
@@ -3441,9 +3120,7 @@
        </choice>
        .
       </p>
-      <p id="a8515ed5-2e8b-42b7-989b-12ea1cdb71eb">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="9ef3f78c-7f7f-448b-b2b0-ae669246b67c">
        Уходят избирать старшину (на
        <choice original_editorial_correction="возвыш[ении]">
@@ -3456,9 +3133,7 @@
        </choice>
        ).
       </p>
-      <p id="d4c7eec9-f5f2-4f64-b1c1-6d0ce6658969">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ae7d9e4e-e154-47ce-9177-15ceadd8d226">
        Чтение
        <choice original_editorial_correction="обвинитель[ного]">
@@ -3479,15 +3154,11 @@
        </choice>
        .
       </p>
-      <p id="a82286e3-288f-444a-8b1f-3dfcce15a58b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="051cce86-5f0d-4c25-9031-c5726d70554b">
        Вопрос — признает ли он себя виновным.
       </p>
-      <p id="a1a7f07d-f97d-4c19-8223-3fd934234ed7">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="859e5400-64f4-4b31-9d3d-6cfc4909d3e0">
        Признает себя
        <choice original_editorial_correction="винов[ным]">
@@ -3517,15 +3188,11 @@
        </choice>
        : расскажи, как было дело.
       </p>
-      <p id="772212aa-72c0-4204-9ded-132149d2ded6">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="61491420-5805-4cc5-9858-dfc6f11198ff">
        Эксперт.
       </p>
-      <p id="b24933de-00cb-4dea-8950-b1943992384e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="7f9b6666-5e06-443c-a1d7-9a79457d33fb">
        Вводятся свидетели.
       </p>
@@ -3579,9 +3246,7 @@
        </choice>
        .
       </p>
-      <p id="1da36d40-8fb0-4bb0-8f73-18cfd16c5d7a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="997d4445-9321-46a0-a7b5-5eb8c02cc09a">
        Прошу прочесть
        <choice original_editorial_correction="одобр[ительное]">
@@ -3603,9 +3268,7 @@
        </choice>
        оконченным.
       </p>
-      <p id="fefce0ad-70f4-411c-89bc-20d2d669d54c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="9483dd25-88ea-4159-980a-efd1eceb346e">
        Изложение дела. —
       </p>
@@ -3630,27 +3293,19 @@
       <p id="ef3601a8-861b-4cc9-ac14-01ea3263e726" rend="pages2">
        <pb n="256"/>
       </p>
-      <p id="e285aa19-02d2-4b2a-a530-6a1ca6f1813c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5ed1f591-2ea6-490e-85ce-abe9167b7055">
        Опять защитники.
       </p>
-      <p id="4366129a-adbe-4b19-80dd-68a88da8088d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b591b7a8-098d-4d7b-9272-6b6f83a79439">
        Подсудимые.
       </p>
-      <p id="498a0115-572b-4809-8a87-6d68de1da94e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="675153f0-9409-444b-9dd4-a155c8c728c7">
        Читаются вопросы.
       </p>
-      <p id="9ba1686a-b3f2-4028-81bb-1a878158d20d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="59ba07e6-800b-442a-91dd-4443c9e902b9">
        Защитник просит.
       </p>
@@ -3678,27 +3333,21 @@
        </choice>
        резюме. —
       </p>
-      <p id="84e1a3f3-67e9-4f4d-af89-f9daf5a7d3ce">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="aa5d1076-2da6-4870-9310-00abe843b3c6">
        Объяснение: что есть убийство — какое.
       </p>
       <p id="d76392cb-4689-4e51-b399-d752f924cf09">
        «Состав преступления».
       </p>
-      <p id="49a543e1-5e69-4e73-a5dc-ed4ec7e47869">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f7c2be29-94fc-412e-9ee9-6d9993eed1e2">
        Учить их, как решать. Не забудьте право —
       </p>
       <p id="c25f4ed9-ac3a-4250-970e-60cc22369ca2">
        Вручаю вам присяжный лист.
       </p>
-      <p id="48577efe-e0d2-4548-9f00-eed96c6f9dfe">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="35ba6208-29fb-4deb-b553-c5ff1301bccc">
        <choice original_editorial_correction="Предс[едатель]">
         <sic>
@@ -3730,9 +3379,7 @@
        </choice>
        садится и читает.
       </p>
-      <p id="9956b109-479f-4e50-930a-d6708c5f980b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f102114b-c1e2-415b-a21d-59ee73989466">
        Села Хотуши,
        <choice original_editorial_correction="крестьян[ин]">
@@ -3762,9 +3409,7 @@
        </choice>
        .
       </p>
-      <p id="c6ac9c31-c334-46c5-af00-c68aa7570024">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="91884136-c449-47c6-bd36-2473a4420a63">
        К
        <choice original_editorial_correction="Кон[евской]">
@@ -3813,15 +3458,11 @@
        </choice>
        не делать.
       </p>
-      <p id="43437468-0dbf-4a06-b161-c18a9a9d7a3f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="964beb4e-7072-4c6f-b2b1-6ae7ad8b6d54">
        Два настроения у Катюши.
       </p>
-      <p id="5c41d92a-0cb8-420c-ad5b-7a152ce190ef">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="165fc05a-e116-4052-952a-53e012629fe9">
        Василий [?]
        <choice original_editorial_correction="Иван[ович]">
@@ -3840,9 +3481,7 @@
       <p id="457d14e5-a463-4b2e-a166-a149c6a847ef">
        Калмыков просит места на заводе, просит у Черткова.
       </p>
-      <p id="4c358b9f-e066-48d5-9ab3-49e65580081f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0a3ee40b-cacd-415c-8a6a-ad542ed354a5">
        <choice original_editorial_correction="Остроженск[ая]">
         <sic>
@@ -3864,9 +3503,7 @@
        </hi>
        — очень беден, в Городне.
       </p>
-      <p id="90910f71-8147-4aea-aebb-832aa263af28">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d9fa5f07-57c4-46a1-a39f-5a7882376379">
        1) Заходит туча, в избе. Баба глядит в окно, говорит: батюшка, царь небесный, сень — заходит.
        <ref target="#note295">
@@ -3876,9 +3513,7 @@
         Ср. Дневник 1895 г., 5 августа, 1.
        </note>
       </p>
-      <p id="b5eebb46-e954-4bd2-8113-c80af3cac7fc">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="808d5be8-7d84-4156-9ac0-778ef4180592">
        2) В чем прогресс? Прогресс
        <choice original_editorial_correction="чел[овечества]">
@@ -3915,9 +3550,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="1ec2902a-74ff-4575-9677-f2692117d326">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="a0ecd52e-b357-49e1-b014-e27ac176138e">
        3) Главное, что наука тогда только наука, когда она учит тому, что должно быть, а не тому, что хорошо то,
        <choice original_editorial_correction="ч[то]">
@@ -3967,9 +3600,7 @@
         .
        </del>
       </p>
-      <p id="6e70464c-d950-4029-817d-3946b241edec">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1e427158-2a9f-41b4-a103-28b5f42534ef">
        Самсон просит на
        <choice original_editorial_correction="похор[оны]">
@@ -3982,9 +3613,7 @@
        </choice>
        .
       </p>
-      <p id="48473b50-f61e-4a48-8c98-9ac9ef9d8b28">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="85781655-20b4-4c84-9534-298132bc47cd">
        4) Биофоры —
        <choice original_editorial_correction="склад[ываются]">
@@ -4013,9 +3642,7 @@
        </note>
        —
       </p>
-      <p id="da3bc33b-45df-4af3-968b-451e1950fefb">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b78e3f65-9cf1-4e46-8a44-746e599bd078">
        5) По Кидду выходит, что главный двигатель человечества религия. Религию же нельзя познать теми средствами,
        <choice original_editorial_correction="к[оторые]">
@@ -4049,9 +3676,7 @@
         Ср. там же, 6.
        </note>
       </p>
-      <p id="f4a3019d-6ccf-4cbb-8318-69b45b267332">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="dea4fe6f-e4bc-49c1-acdd-cf056749a733">
        6) Семейная жизнь та, какой идеал
        <ref target="#note301">
@@ -4088,9 +3713,7 @@
       <p id="580e1fdf-0434-4f2a-9b82-048c681fbf64" rend="pages2">
        <pb n="258"/>
       </p>
-      <p id="25f5301f-4916-4a8e-b9e6-796a53f03885">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="cac7591d-d0d0-4897-a842-45f30be48a81">
        7) Сознание свободы есть сама жизнь — сам Бог в нас. Его то не признают матерьялисты.
        <ref target="#note303">
@@ -4100,9 +3723,7 @@
         Ср. Дневник 1895 г., 5 августа, 8.
        </note>
       </p>
-      <p id="e406d4de-190f-4061-8049-ab93489bc6d5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="a762e705-929b-41ff-84ba-6c2903dbf320">
        8)
        <hi>
@@ -4133,9 +3754,7 @@
         Ср. там же, 9.
        </note>
       </p>
-      <p id="7a86458a-7107-4dbf-aea6-428cecc1b998">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="a8542356-b8b8-47bd-bb4f-3950791980d5">
        9) Религия хороша бы всякая, если бы не было
        <choice original_editorial_correction="настоящ[ей]">
@@ -4154,9 +3773,7 @@
         Ср. там же, 10.
        </note>
       </p>
-      <p id="b21e4a53-2708-4619-a007-f64a67a3022b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c1bb9639-3631-4bc7-b390-ed4e2e62b976">
        10)
        <choice original_editorial_correction="Духовн[ая]">
@@ -4193,9 +3810,7 @@
         Ср. там же, 11.
        </note>
       </p>
-      <p id="6651c20f-7fdf-456d-83e4-3fcdab711029">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b74f0835-3463-4df8-9e38-81f30badec97">
        Наталья Серегина.
       </p>
@@ -4208,9 +3823,7 @@
         Ср. там же, 12.
        </note>
       </p>
-      <p id="35791c0b-559b-4a60-9289-052fd01da4f9">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b5d63994-4881-470a-bb38-bf547f7d6362">
        12) Вспоминаю Машу, Леву, эту царственность молодости — им всё возможно, в них Бог,
        <choice original_editorial_correction="к[оторый]">
@@ -4247,15 +3860,11 @@
         Ср. Дневник 1895 г., 7 сентября, 1.
        </note>
       </p>
-      <p id="43d545ce-5ca9-4631-8a63-4c688c87db6e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8d1cf137-06f3-4d9a-9cbc-ec82ae269223">
        Почтовая ул., д. Власова.
       </p>
-      <p id="1c8f61f4-1208-4ea2-b470-ca13b06469ae">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5d610a15-7aed-4caf-b8b2-4d1d41aa60e9">
        Среди борьбы
        <choice original_editorial_correction="противуполо[жное]">
@@ -4308,9 +3917,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="f44450db-583f-434b-ad7b-965f86df3f09">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1cf28864-0634-48cd-82a3-8911c09c1bc3">
        Борьба выделяет сильнейших,
        <choice original_editorial_correction="сильней[шие]">
@@ -4383,18 +3990,14 @@
         Ср. Дневник 1895 г., 7 сентября, 4.
        </note>
       </p>
-      <p id="0dfa4d30-0e45-4fd5-80e8-4244eb9226cd">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2cb903df-899d-4250-81a8-04f093c2ae24">
        Платоновы —
        <unclear>
         земля
        </unclear>
       </p>
-      <p id="c160841e-dd8b-43d9-aeef-d53e0ee1737d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="745f5c6a-b92f-40df-9bd8-5e54ea24b8f1">
        Стоит раз озлиться и не можешь расстаться с своей злостью. Стоит ему забраться в душу и не выгонишь.
        <ref target="#note312">
@@ -4404,21 +4007,15 @@
         Ср. там же, 5.
        </note>
       </p>
-      <p id="00ee488c-b9a3-4d6c-ac74-ad7dd7b6f9b1">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="9ed18d60-f2c9-4d8c-9947-4134f4bdfd0c">
        Викулин просит на погорелое.
       </p>
-      <p id="00e878c1-2da2-446e-8331-13eb36495598">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="792a215a-6e7e-4620-ada4-538c9d0b4ad1">
        Колоколовой землю отбивают 28 Августа.
       </p>
-      <p id="e4cc81cf-8c6b-46fb-b55f-3692d01b4d33">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="15554c53-c470-4c9c-bcaa-cdfd7139c47c">
        Надо прежде приучить себя к любви, и потом изменить жизнь. И надо прежде изменить жизнь. С двух концов va et vient:
        <ref target="#note313">
@@ -4435,15 +4032,11 @@
         Ср. Дневник 1896 г., 7 сентября, 6.
        </note>
       </p>
-      <p id="828112af-fbae-4aeb-894e-ffc670047b4d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2897785a-d9be-425d-9c84-c4ee984b4c6f">
        Тросненское общество у Яблочкина.
       </p>
-      <p id="9126e4c4-e482-452d-9d34-4d49bbe0f9a4">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f1eb820c-1d6c-434e-a92c-84abe282e32d">
        Сейчас ехал верхом и молился. И говорил себе: ничего не хочу, кроме исполнения Его воли. И думаю: Какой я зато хороший. —
       </p>
@@ -4456,9 +4049,7 @@
         Ср. там же, 7.
        </note>
       </p>
-      <p id="102ac049-abbd-4a78-b73a-35d44f025056">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8df8c52d-92b9-49f5-a8c6-5c5c531d4767">
        И невольно
        <choice original_editorial_correction="захохот[ал]">
@@ -4522,9 +4113,7 @@
       <p id="c2567e6f-c40b-44ad-b387-b81dd86d2163">
        5) в овраге.
       </p>
-      <p id="77ea210a-1893-491b-b756-2e6c050f1cfc">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="4c5f202e-006b-4ebe-94f2-a13f4dcb2c9c">
        6, 7) Два тополя с
        <choice original_editorial_correction="лев[ой]">
@@ -4566,9 +4155,7 @@
        </choice>
        .
       </p>
-      <p id="ffd760e1-516a-41e7-82db-d33e19fdd29b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ca8915c5-7410-4fb8-8e2f-fef4aaa37e67">
        10) В Заказе на
        <choice original_editorial_correction="ка[наве]">
@@ -4597,9 +4184,7 @@
       <p id="33867744-8b97-4c7c-9d45-375a4a543470">
        14) Осина в овраге,
       </p>
-      <p id="d5afd3ea-a257-4e03-b113-d753446d314f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f6a96044-b6a0-41ee-a017-68ca21935b28">
        15) Сшибок на левой стороне,
        <choice original_editorial_correction="навер[ху]">
@@ -4618,9 +4203,7 @@
       <p id="1c6e72c4-7ec4-425f-b399-5b1246c45b8a">
        17) Сшибок березовый.
       </p>
-      <p id="9ee44717-ae1d-48eb-8ac5-b4e1f2d7e505">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f1359249-db2a-44d0-9d7c-365d9bd8f7a3">
        18) без макушки к посадке.
       </p>
@@ -4639,9 +4222,7 @@
         оврагу,
        </hi>
       </p>
-      <p id="5b636836-315a-44de-9cb6-eb9484c34723">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ee98c96d-ff43-4e02-b0a0-a267b0066b7d">
        20) Вяз, у
        <choice original_editorial_correction="купальн[ой]">
@@ -4669,9 +4250,7 @@
        </ref>
        .
       </p>
-      <p id="82a81142-da1c-43c1-832f-7fd3c5ed9bbc">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="59b831fd-5f84-4c73-8496-4c85c7d3b677">
        Что же касается до насилия над
        <choice original_editorial_correction="язык[ом]">
@@ -4766,9 +4345,7 @@
        </choice>
        патриотизма. —
       </p>
-      <p id="6c2f0255-da7a-4a70-9cca-dc728be35984">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <div class="poem petit poem">
        <div class="stanza left">
         <p id="f467bc03-917f-4086-9e81-706db33b8ba6" rend="v">
@@ -4850,9 +4427,7 @@
         [«Песня Гаспара Гаузера.
        </note>
       </p>
-      <p id="452acfc4-7b4f-4a10-a952-e0c425b953f4">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b94e9f89-503f-4215-8347-a829b5700f86">
        Забота об
        <choice original_editorial_correction="индивидуа[льности]">
@@ -4924,9 +4499,7 @@
         Ср. Дневник 1895 г., 7 сентября, 8.
        </note>
       </p>
-      <p id="c7bdbc61-c8c2-4e03-8788-6b54a472fc9a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ccee4ea0-48f8-4d4b-ba1b-bde536910e5d" rend="pages2">
        <pb n="262"/>
       </p>
@@ -4952,9 +4525,7 @@
         Ср. Дневник 1895 г., 22 сентября, 1.
        </note>
       </p>
-      <p id="ac5175f6-c919-43f2-bec2-17e1ac86d09a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1caaaa34-3b45-4beb-b829-bd327b1751e9">
        Бочаров из Городны просит еще
        <choice original_editorial_correction="погоре[льцам]">
@@ -4967,15 +4538,11 @@
        </choice>
        .
       </p>
-      <p id="eda5e19f-d8a3-4a8a-aeb2-658d3eba64d9">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="4a21450d-5302-427a-b35f-3465bf7d7ab1">
        Казанцев просится на место к Буланже.
       </p>
-      <p id="7dc6dc82-121e-4796-9218-2e9bf3f07b14">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="51896ddf-33f9-43f7-980c-f20274d7f1b1">
        Слово есть
        <choice original_editorial_correction="единств[енное]">
@@ -4988,9 +4555,7 @@
        </choice>
        орудие.
       </p>
-      <p id="9bc7d128-290e-449f-af63-ffd436b6bcef">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="fb7afcc5-41f1-4365-8eb0-47582446b4a3">
        2) Нельзя говорить с человеком, принявши что-либо на веру.
        <ref target="#note320">
@@ -5000,9 +4565,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="d80f3eb5-86f4-4fd3-8488-ff9397054ba4">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="578ac0e3-59bc-435a-8a4f-4a9c554677d0">
        3) Недовольство — трение — признак движения.
        <ref target="#note321">
@@ -5012,9 +4575,7 @@
         Ср. там же, 3.
        </note>
       </p>
-      <p id="5bf23d7b-6fd9-4d4f-b558-e7f0ed0f9ac6">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="117e9ead-bc58-4802-b733-2d90417a75af">
        4) Когда сомнение в Боге, тогда подымаешься на высшую ступень.
        <ref target="#note322">
@@ -5024,9 +4585,7 @@
         Ср. там же, 4.
        </note>
       </p>
-      <p id="86cece05-afa3-4f69-980f-538babca929e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="21757246-f383-4c1a-8f39-56dced4380ba">
        Королёва из Городны просит на бедность, муж больной.
       </p>
@@ -5057,23 +4616,19 @@
         Ср. там же, 6.
        </note>
       </p>
-      <p id="ef3b5f60-22f4-4c89-a004-076792074095">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="aacc175a-70e7-4803-9c20-4031c51a2e54">
        Сравнение жизни с охотой.
       </p>
-      <p id="502cfa2d-9ab8-43d6-a8a2-f5e067563bfa">
-       <opener>
-        <dateline>
-         <date notAfter="1896-09-21" notBefore="1895-09-21" resp="editor" when="-09-21">
-          <hi>
-           21 [?] сентября.
-          </hi>
-         </date>
-        </dateline>
-       </opener>
-      </p>
+      <opener>
+       <dateline>
+        <date notAfter="1896-09-21" notBefore="1895-09-21" resp="editor" when="-09-21">
+         <hi>
+          21 [?] сентября.
+         </hi>
+        </date>
+       </dateline>
+      </opener>
       <p id="4b70f68b-7fcc-4015-bcdc-e8316996662e">
        То, что описываемые в этой записке факты собраны со слов одной стороны, только гонимых, а не гонимых и гонителей, не уменьшает достоверности сообщенных фактов. Гонимым незачем было скрывать то, что они делали, они
        <hi style="opdelimiter">
@@ -5112,9 +4667,7 @@
        </choice>
        .
       </p>
-      <p id="bfbeb594-9a4d-44a2-a857-c58d8a877e15">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f5e6c8ab-6e9b-4238-b7fb-688c67e6d66f">
        Ряхин
        <ref target="#note326">
@@ -5139,9 +4692,7 @@
        </choice>
        масла.
       </p>
-      <p id="7a032632-7f96-4445-ba12-4a9a7a1743f9">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0c8e7ffe-d2e9-4247-9dd2-fd48ffde3475">
        Удивляешься на премудрость устройства мира — гриб на дереве живет. А ведь это только премудрость моего разума, всё это распределяющего.
        <ref target="#note327">
@@ -5151,9 +4702,7 @@
         Ср. Дневник 1895 г., 24 сентября.
        </note>
       </p>
-      <p id="16e2f945-9c0a-4131-b04f-74b3caaad47e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d87ac906-7aff-4425-94e0-11673791f3a0">
        О пропаже билета Андреяна Лаврушина, потеряли билет — Гранат, Кочетов.
       </p>
@@ -5171,9 +4720,7 @@
         чувства, а от невозможности всего другого.
        </del>
       </p>
-      <p id="4cff5e93-5a3b-48a4-8eeb-826636ec76c5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ef64b412-7f0f-48f0-a641-2acdf5c30a54">
        Просить.
        <choice original_editorial_correction="Констант[ин]">
@@ -5214,15 +4761,11 @@
        </choice>
        полка Газенкампф.
       </p>
-      <p id="f4ab817c-6ff4-4f37-ab8b-f2e713a25abf">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="948403d8-4397-4a32-9909-4b08c802672d">
        У Красеньких. На смарку.
       </p>
-      <p id="1931d085-758f-45da-8cd9-0b1e5fd7a6e5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b748d13f-5d0a-4a2d-957e-ce0ddda18814">
        Переноситься в
        <choice original_editorial_correction="собеседн[ика]">
@@ -5235,15 +4778,11 @@
        </choice>
        , и всегда — любя.
       </p>
-      <p id="7cfec4bc-54c9-41dd-985b-ff0b531ac630">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="cfafb88a-3e66-4c1b-9ce7-d4216c0eeb84">
        Михеев усадьба на два подлубочка.
       </p>
-      <p id="a363d5f6-1071-4022-a50f-fac4f195aff2">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d06bb04b-c51c-48ea-9e09-3b234e372a3c">
        Женщинам двигать, а мущинам давать направление.
        <ref target="#note328">
@@ -5256,9 +4795,7 @@
       <p id="137f7661-d114-42d6-8b6c-b80e1f3d50dc" rend="pages2">
        <pb n="264"/>
       </p>
-      <p id="8a1ca45f-a66c-4220-b050-f6d0a2f72b54">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="7c0e85c3-d1cf-4d57-9a45-59f31d700672">
        Есть что-то такое: содержание, матерьял жизни, сама жизнь есть всё Бог. В этом всем
        <hi>
@@ -5291,9 +4828,7 @@
         Ср. Дневник 1895 г., 24 октября, 1.
        </note>
       </p>
-      <p id="d48472ab-c0d9-4c18-99d1-5ff70f17e585">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0539436b-7db4-4d2c-98ba-043148e88289">
        Как только разум откинет соблазны (благо низшего порядка), так
        <choice original_editorial_correction="челов[ек]">
@@ -5329,9 +4864,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="e73fcef6-97f2-4188-a694-6e249eac2acb">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="c8a297ef-b67c-4ea9-8d12-90f7bb91c98d">
        1) Как скоро
        <choice original_editorial_correction="чел[овек]">
@@ -5375,9 +4908,7 @@
         Ср. Дневник 1895 г., 25 октября, 1.
        </note>
       </p>
-      <p id="86c660fb-b127-492d-af68-e207dc20cd0f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b51954e4-a654-48ee-95f0-0222fc68fdde">
        1)
        <choice original_editorial_correction="Собл[азн]">
@@ -5434,9 +4965,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="49a894e1-f69b-45f0-8460-b23b33742524">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="cf62037f-aa86-435f-8438-571cc72586de">
        Консерватизм от лени — нежелание двигаться.
        <ref target="#note333">
@@ -5446,9 +4975,7 @@
         Ср. там же, 3 и 8.
        </note>
       </p>
-      <p id="88d6dcf3-30f6-4521-b394-b43120f10847">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0efd9878-ef1d-4293-bddc-140cac531580">
        Чем
        <choice original_editorial_correction="представит[ельнее]">
@@ -5467,9 +4994,7 @@
         Ср. там же, 7.
        </note>
       </p>
-      <p id="f0ad715d-75f9-4d38-b2f9-1b8cf39cd97d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="7e4a5290-58a5-4866-9513-370a7f3e1c31">
        Неделание важнее, чем я думал. Когда движешься —
        <choice original_editorial_correction="двига[ешься]">
@@ -5488,9 +5013,7 @@
         Ср. там же, 4.
        </note>
       </p>
-      <p id="5d12266f-f2a8-43b7-b4cf-c52b2f4f1130">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="139a5809-f542-4abb-a053-d205456e64e6">
        <choice original_editorial_correction="Катер[ина]">
         <sic>
@@ -5514,9 +5037,7 @@
       <p id="30aa8071-1aaa-4a1d-98a0-47923d62e57e" rend="pages2">
        <pb n="265"/>
       </p>
-      <p id="058d7415-00fe-498a-b59b-de8c07ba83be">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="889a5f06-fb62-42a4-8b4b-d609566db76e">
        Евграф [?] Сорочин ищет землю снять в
        <choice original_editorial_correction="лес[у]">
@@ -5529,21 +5050,15 @@
        </choice>
        .
       </p>
-      <p id="f780dee8-12db-42f5-8d4a-76be19393698">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d1c94769-18cf-42aa-916e-16b8512f5de5">
        Юрьево — железная дорога проходит —
       </p>
-      <p id="9e8f04fd-333a-442b-8766-0963d8ea5a3d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="bc7f962a-3fb3-41b6-ba51-ba06e7831680" rend="petit">
        Хатунка. М. В. Булыгину.
       </p>
-      <p id="538b5220-d4bd-4c65-8056-7284437b216a">
-       <lb/>
-      </p>
+      <lb/>
       <p id="5af01fc5-16d1-4231-8db7-d535a1755ab1" rend="petit">
        1) «Так что ж нам делать?»
       </p>
@@ -5662,9 +5177,7 @@
        </note>
        .
       </p>
-      <p id="4278dbea-989a-4261-b388-2b89f80966af">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="fba7d256-7a92-4acf-8641-4b749bf6c8a5">
        Любовь дает разум. Смирение дает любовь.
        <ref target="#note339">
@@ -5684,9 +5197,7 @@
        </choice>
        .
       </p>
-      <p id="4fb1f795-00dd-44fd-9c1c-57e90273608c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="71d47d03-a4a1-4a4a-91fe-3db3e54ec2e4">
        Идет жизнь животная, и вдруг в нее кинут разум.
        <ref target="#note340">
@@ -5696,9 +5207,7 @@
         Ср. там же, 3.
        </note>
       </p>
-      <p id="5c10a094-e459-4f6f-a3a0-1bc5c9f4d174">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="73fb26b7-0c39-41ed-a71e-c4412d22366c">
        <choice original_editorial_correction="Пашковск[ая?]">
         <sic>
@@ -5719,15 +5228,11 @@
        </choice>
        просит.
       </p>
-      <p id="0e03d9d0-140b-41b3-9b3b-397598098f1e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ba200968-f546-428a-ba2e-db302aacf8e9">
        Комитет —
       </p>
-      <p id="528be366-d2eb-4c0e-81e2-498801f46953">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="fd0f2061-da21-4da8-8c1e-89561e2c0685">
        Значение
        <choice original_editorial_correction="убийств[а]">
@@ -5743,9 +5248,7 @@
       <p id="9e48efc0-c83b-44f6-a5bc-6a246344bad2" rend="pages2">
        <pb n="266"/>
       </p>
-      <p id="5ecae78e-734b-46ae-8f44-32edc710b80b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="9f914ba3-1019-45b7-abcd-5cea6dd57ad2">
        Павел Пахомов Ермаков живет в Киеве, узнать —
        <del>
@@ -5768,15 +5271,11 @@
        </choice>
        мать.
       </p>
-      <p id="ef37b319-5e95-45d2-9499-34a8b0ba62a6">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="b739f333-4c77-418e-a373-eb1fd852c0c1">
        Три момента: 1) сознание отчаяния, погибели, 2) сознание посланничества и 3) что то, чего искал, то приложится.
       </p>
-      <p id="ad48fb79-84d5-41ec-a0c7-edc733782a97">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e981a6fc-5edc-4c2a-9457-ef6168cdfe52">
        Харьковские студенты Дидрихсон и
        <unclear>
@@ -5793,9 +5292,7 @@
        </choice>
        Царство Божие внутри вас и Что же нам делать?
       </p>
-      <p id="33d849d7-3164-4750-b692-b2f567ab2726">
-       <lb/>
-      </p>
+      <lb/>
       <p id="3ff30924-c469-40ab-83a4-df3c1ad481d6">
        <hi style="petit">
         и Открытое письмо Попова.
@@ -5807,15 +5304,11 @@
         Приписано рукой Е. И. Попова.
        </note>
       </p>
-      <p id="554ff20b-01c3-4c93-9e66-71d87756b6e8">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="201fa2d2-fcfe-435f-94f0-2e55bf7908f0">
        Афонька. Квартира в его избе.
       </p>
-      <p id="c4197458-b9c1-47e9-a553-9d87bf736b3e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="204aff95-fa30-48c4-ab6c-911e2dc5f2b4">
        Tout comprendre c’est tout pardonner.
        <ref target="#note342">
@@ -5828,9 +5321,7 @@
       <p id="061e272b-91a4-4015-8f26-e8895d601438">
        Тимофей Ростовцев взыскание 300 р. просит разложить на года.
       </p>
-      <p id="e9d59b06-339b-4e90-9583-789eb8f7b011">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="92b48151-4d32-474d-a459-65e1bd795ec5">
        Почему верит в личного Бога.
        <ref target="#note343">
@@ -5840,9 +5331,7 @@
         Ср. там же, 3.
        </note>
       </p>
-      <p id="3e3fbed1-193f-4319-ba94-3f63e0793437">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="5a77dcdf-0af8-4fd3-903b-406a287d21bd">
        Если поверит во что-нибудь, то нет веры. Первое перестает верить в
        <hi>
@@ -5855,9 +5344,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="94367727-92d8-4203-aa98-7b7d91a3c0a9">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="92eea26a-0667-41c4-a49f-8a5fce77195f">
        Хочется жандармов, значит, хочется не работать, а чтоб за тебя работали.
        <ref target="#note345">
@@ -5867,9 +5354,7 @@
         Ср. Дневник 1895 г., 7 декабря, 1.
        </note>
       </p>
-      <p id="08133717-004b-49b7-9faf-ae2dfacbc021">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3edf5562-f592-4fa1-b76d-63430af6f96a">
        Извращают разум с детства и заменяют потом
        <hi>
@@ -5883,9 +5368,7 @@
         Ср. там же, 2.
        </note>
       </p>
-      <p id="3df31716-a276-4021-ad83-372b40d66b13">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="fb0a0d6e-126a-4c1b-9443-7b5fe865050b">
        Книг
        <choice original_editorial_correction="Мар[ье]">
@@ -5909,9 +5392,7 @@
       <p id="211cb25d-5d2b-4dc7-90fe-53d3419d2481" rend="pages2">
        <pb n="267"/>
       </p>
-      <p id="a59b0e21-bebf-4133-8d6d-b68713854950">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="17b12514-4195-4c0b-8edc-a82d79a6acd1">
        Насилие освобождает
        <ref target="#note347">
@@ -5922,9 +5403,7 @@
        </note>
        —
       </p>
-      <p id="61db4dfa-0c32-4ba0-905e-62d8e773ab13">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="dd2718ef-e1ef-4596-bb64-77a2ca595f5f">
        Или идолопоклонство или матерьялизм.
        <ref target="#note348">
@@ -5943,9 +5422,7 @@
         Ср. там же, 5.
        </note>
       </p>
-      <p id="4ef40751-3314-47ee-93d7-65ae4cff0a55">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="ccdccad7-c49e-4ea2-a208-a0aef9860692">
        Наглость —
       </p>
@@ -6017,9 +5494,7 @@
       <p id="cd6a159d-3f00-46fe-8c0c-2f3c06b17bfa">
        Халаты редки. 8° — больше не бывает.
       </p>
-      <p id="c89250f0-8da2-44cc-a6da-a7e68261c774">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="4bdef1a8-0122-406e-98b0-bc2b7e7fee8d">
        28
        <choice original_editorial_correction="надз[ирателей]">
@@ -6068,9 +5543,7 @@
        </choice>
        .
       </p>
-      <p id="f11e9784-50dc-48e0-a473-5c9f8398925f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2108c4c5-c29b-418e-97b6-955cc3e17d7d">
        <choice original_editorial_correction="Жертвов[аний]">
         <sic>
@@ -6089,9 +5562,7 @@
         10
        </sub>
       </p>
-      <p id="70dadfa6-9739-470b-9f89-4e82dd32da24">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="f493de9b-4f47-4d43-af61-0bbd11fff3f2">
        Хлеб идет на
        <choice original_editorial_correction="свин[ей]">
@@ -6112,15 +5583,11 @@
        </choice>
        .
       </p>
-      <p id="c2aeeb9b-4ccd-4921-ad3e-759f514dbcb6">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="0b89c44c-0d41-4390-aa7d-c0d1670570af">
        Работы — польза. —
       </p>
-      <p id="0a84b351-a29f-4b55-a0ee-9e8b5e7ddc40">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3b14b8fa-5010-418e-ab4e-49be954547bb">
        Любить то,
        <choice original_editorial_correction="ч[то]">
@@ -6155,9 +5622,7 @@
         Ср. Дневник 1895 г., 7 декабря, 9.
        </note>
       </p>
-      <p id="4a982b1c-5220-467b-8596-2cf61da59af5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2e0e642d-bc97-4f18-9d09-0ff9c4c36bc4">
        Кубики.
        <ref target="#note354">
@@ -6167,9 +5632,7 @@
         Ср. Дневник 1895 г., 7 декабря, 9.
        </note>
       </p>
-      <p id="92b9e993-90d4-4124-845b-f1b1575d894b">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2f62591f-132e-44b9-b75e-b7cb41d07464">
        Дана возможность понять то, что нужно в этом мире.
        <ref target="#note355">
@@ -6179,9 +5642,7 @@
         Ср. Дневник 1895 г., 7 декабря, 9.
        </note>
       </p>
-      <p id="27ebe158-7a82-48ac-9ef3-6c721c7d2347">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="a582bc96-6ac7-4fb0-b932-787c09d918dd">
        Есть жизнь бессознательная и жизнь сознательная — т. е. любовь, бессознательная к себе, и любовь сознательная, увеличивающаяся в объеме от развития сознания.
        <ref target="#note356">
@@ -6191,15 +5652,11 @@
         Ср. Дневник 1895 г., 7 декабря, 9.
        </note>
       </p>
-      <p id="a4f79fe8-8aad-41cd-89b8-6d1c31c225e5">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="9b8173e4-3430-4a24-8337-3647c60f070e">
        Алексей Васильев просится в учителя.
       </p>
-      <p id="cdd49571-e733-4812-8aab-7d61aa02036e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="2954c4a4-875d-4e54-b784-356f14f51e99">
        Бога
        <choice original_editorial_correction="почувствов[ал]">
@@ -6227,9 +5684,7 @@
         Ср. там же, 10.
        </note>
       </p>
-      <p id="803e185d-d241-4b44-a4dd-9663fe39cf4c">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="73039d23-6f35-4845-937d-8c90292d6438">
        На
        <choice original_editorial_correction="Долгор[уковской]">
@@ -6242,9 +5697,7 @@
        </choice>
        д. Зимина. Испол. Александр. Сабалеев. Ищет места.
       </p>
-      <p id="1a55a634-079b-45ff-8fee-52d37613375f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="77f32799-53c8-4819-896a-07e703a59b68">
        Нельзя заснуть.
        <ref target="#note358">
@@ -6254,9 +5707,7 @@
         Ср. Дневник 1895 г., 23 декабря, 3.
        </note>
       </p>
-      <p id="3f5e0024-e374-4cd3-a193-1ff6e650a93d">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d71928b4-b7ab-420d-baef-88e19a42634a">
        перестать.
        <ref target="#note359">
@@ -6266,26 +5717,20 @@
         Ср. Дневник 1895 г., 23 декабря, 3.
        </note>
       </p>
-      <p id="4cc3e448-12a6-4ec7-a746-7224575cda9c">
-       <metamark function="line"/>
-      </p>
-      <p id="fd361006-6d7b-4122-ab1f-ddc8f0c71fea">
-       <opener>
-        <dateline>
-         <date notAfter="1896-11-28" notBefore="1895-11-28" resp="editor" when="-11-28">
-          <hi>
-           [28 ноября. Малый театр.]
-          </hi>
-         </date>
-        </dateline>
-       </opener>
-      </p>
+      <metamark function="line"/>
+      <opener>
+       <dateline>
+        <date notAfter="1896-11-28" notBefore="1895-11-28" resp="editor" when="-11-28">
+         <hi>
+          [28 ноября. Малый театр.]
+         </hi>
+        </date>
+       </dateline>
+      </opener>
       <p id="41df147f-a965-461f-86bf-7d613a6d02b1">
        У двери Марина.
       </p>
-      <p id="cfb40fca-a095-4172-b512-f702729cdeea">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d55e9146-e804-4d2c-82be-5b31cdfa5ba6">
        Белье на
        <choice original_editorial_correction="кором[ысле]">
@@ -6298,9 +5743,7 @@
        </choice>
        .
       </p>
-      <p id="c0055a11-1a33-441a-8069-9e7863e6c17a">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="70563d31-08cb-4348-8e60-9e6d93eaf04d">
        <choice original_editorial_correction="Отворачиват[ься]">
         <sic>
@@ -6312,9 +5755,7 @@
        </choice>
        не надо.
       </p>
-      <p id="2ce802ff-7c0c-4a2b-98c2-9af58887f0bc">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="49474da8-b8fc-418b-8cd8-e7f9d21b83c4">
        На
        <unclear>
@@ -6322,9 +5763,7 @@
        </unclear>
        не надо.
       </p>
-      <p id="1556fa8f-e07a-4b7c-ada2-a67bde70dea6">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8cebcc61-4e75-497c-b7a2-9e2f83ca8c8b">
        Не надо
        <choice original_editorial_correction="лож[ки]">
@@ -6346,9 +5785,7 @@
        </choice>
        .
       </p>
-      <p id="02c6093b-2959-4208-80e1-945e038b68fd">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="373010db-f1b4-4e9a-85ad-80fa46d7d5d4">
        Никита:
       </p>
@@ -6372,9 +5809,7 @@
        </choice>
        .
       </p>
-      <p id="91975670-7807-415e-8946-4fe2beb76484">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="db559111-f702-4a34-a156-fe4d4213f9ba">
        <choice original_editorial_correction="Кафта[н]">
         <sic>
@@ -6386,30 +5821,22 @@
        </choice>
        отчищать.
       </p>
-      <p id="724e9b59-ba43-47cc-b901-165317c84b54">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="adcce010-9e60-4566-9b7b-e8705306f5f9" rend="pages2">
        <pb n="269"/>
       </p>
       <p id="48cbebab-e770-4e36-a98f-fd7ef6b95819">
        Приговор.
       </p>
-      <p id="1784ba99-07c9-4e86-af83-4a6f3b522e06">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="6529629e-3513-4449-8338-41d861a21925">
        Кума входит.
       </p>
-      <p id="bd27421f-fa86-4276-9b50-4c1ffc7d0afa">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="91dbd21d-3deb-47aa-b073-a0205cd44c65">
        Митрич: громче.
       </p>
-      <p id="d34dd998-481e-4552-93ba-9bb41c3b02ad">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="d43af5c8-a9d5-49c6-9430-470f08e026db">
        Всё
        <choice original_editorial_correction="постав[лено]">
@@ -6422,15 +5849,11 @@
        </choice>
        иначе.
       </p>
-      <p id="0474cd1e-10c9-4fde-8139-18e1b60a7d78">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="e95463e2-7c71-4390-9927-0e5eab10fbc5">
        Анисья подает.
       </p>
-      <p id="2dca0e38-6253-499d-aef8-e5cd0fc750d6">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="58a3c956-7ed8-47fb-95aa-c111954ab523">
        Митрич сидит
        <choice original_editorial_correction="пр[ямо?]">
@@ -6464,9 +5887,7 @@
        </choice>
        башни.
       </p>
-      <p id="426939f2-be84-430c-b326-792d50205423">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="efdc4196-022c-4e1b-8d26-e9d20c911c61">
        Разум дан на то, чтобы познать, что любить, а не на то, чтобы увеличить данную
        <choice original_editorial_correction="любо[вь]">
@@ -6485,9 +5906,7 @@
         Ср. Дневник 1895 г. 7 декабря, 11.
        </note>
       </p>
-      <p id="d89874f4-f0f3-4ef5-ac76-ad27e8bf9a6f">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="45fd7158-fd7b-4025-8bcc-cf6774c8d075">
        Искусство началось с игры, так и осталось игрою.
        <ref target="#note362">
@@ -6506,9 +5925,7 @@
         Ср. там же, 12.
        </note>
       </p>
-      <p id="b8ecbf1b-c374-4e17-a312-47132d77f51f">
-       <lb/>
-      </p>
+      <lb/>
       <p id="9b5e6096-ca97-4ff8-b630-fc2b6ac5db99" rend="petit">
        <del>
         Петр Булахов взял «Книгу о жизни». Адрес: Москва, 3-я Мещанская, Торговый дом Каверин
@@ -6520,18 +5937,12 @@
         Петр Алексеевич Булахов взял «Евангелие» и «Дрожяшна», Христианство и патриотизм. Адрес: Москва, 3-я Мещанская, Торговый дом Каверин.
        </del>
       </p>
-      <p id="ee5d4fcb-1467-427e-a234-ecacc87b6ad9">
-       <lb/>
-      </p>
-      <p id="a58b0207-e256-41cb-b32e-5cbb836b86ce">
-       <metamark function="line"/>
-      </p>
+      <lb/>
+      <metamark function="line"/>
       <p id="ec34d97e-f428-4733-9f41-a2ae83b27a93" rend="petit">
        Тверской бульвар, дом Кочегарова, Ник. Мих. Сомову.
       </p>
-      <p id="895b0754-79db-4d18-9b36-fcfc9d3af017">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="eb682e52-4490-4a1d-8735-e30ce2cf89ab">
        Всё более
        <choice original_editorial_correction="отвращ[ается?]">
@@ -6570,9 +5981,7 @@
        </choice>
        .
       </p>
-      <p id="9aa60a14-4c3a-4052-a42e-835fe451471e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="64e36b6d-34e1-4a82-ba68-ee79c9e207f1">
        <choice original_editorial_correction="М[уравьев]">
         <sic>
@@ -6668,9 +6077,7 @@
       <p id="72ba5b61-f43b-42b4-8b67-0b87e4b4db42">
        Нельзя говорить.
       </p>
-      <p id="104d2748-c0d5-4a26-b458-9cf8a611e17e">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="8dcfd98c-bd2d-4632-bec4-7bf035659561">
        Всё зло мира от признания себя или совокупности целью...
        <ref target="#note364">
@@ -6680,9 +6087,7 @@
         Ср. Дневник 1895 г., 23 декабря, 1.
        </note>
       </p>
-      <p id="7af56758-69d3-4daf-9591-b8a980908d04">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="1fb9768f-bc0a-4813-9ad7-0fdf433d69d7">
        Подал нищему, вспомнил кто я? и тотчас все весы переменились.
        <ref target="#note365">
@@ -6692,9 +6097,7 @@
         Ср. там же, 2
        </note>
       </p>
-      <p id="f38003fe-58a9-4d8d-beb4-3e3b30f66d46">
-       <metamark function="line"/>
-      </p>
+      <metamark function="line"/>
       <p id="3e827b1d-eab3-417d-8bd5-89fb685bf452" rend="petit">
        Петр Булахов взял книгу «В чем моя вера», «Палкин»
       </p>
@@ -6719,9 +6122,7 @@
         Вся запись рукою Булахова.
        </note>
       </p>
-      <p id="b956720f-0649-4e32-aef5-b86427336eee">
-       <lb/>
-      </p>
+      <lb/>
      </div>
      <p id="25ead167-594e-41fe-ac2b-7524962c9f5a">
       Но скажут, что же, не нужно делать
@@ -6805,15 +6206,11 @@
       </choice>
       , и ответ будет один и жизнь будет одна.
      </p>
-     <p id="04e27a05-19f7-47c6-9b5f-b780891d2f11">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a5483b7d-dba5-4f5a-af76-e33ed295c122">
       Всякий прав.
      </p>
-     <p id="b8f39949-3eaf-4ce5-9b9f-2611fb62a707">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="0d6a21c9-f3ad-4d6d-af87-43f665fb9b03">
       Талант, когда
       <choice original_editorial_correction="чувствуе[тся]">
@@ -6832,9 +6229,7 @@
        Ср. Дневник 1896 г., 23 января, 1.
       </note>
      </p>
-     <p id="c7c41b4b-fbd9-40d9-9c13-84e20df7811d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="21ac443a-acff-48c9-a09d-76dd51e0bfdb">
       И тут зная, что это мой закон, закон всей жизни
       <choice original_editorial_correction="челов[еческой]">
@@ -6907,9 +6302,7 @@
       </choice>
       других.
      </p>
-     <p id="1c0b65f5-9bc4-418c-ab61-ddd68ce10da9">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="79acae4f-f2ab-423e-8ab3-a851562dfdb3">
       <choice original_editorial_correction="Гранатн[ый]">
        <sic>
@@ -6929,9 +6322,7 @@
       </choice>
       , Зерщикова[?]
      </p>
-     <p id="e61b0a03-0ffb-4904-9df7-67fd3b68fa9f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b2b06acf-0bd9-4f06-abbf-7d53e2c22725">
       Наука будет другая, лучшая, когда будут выбираться из 100
       <choice original_editorial_correction="м[иллионов]">
@@ -6944,9 +6335,7 @@
       </choice>
       , а не из одного.
      </p>
-     <p id="1c57a646-15d9-4846-ac15-be4dfb8c6ff8">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="99841a02-25ec-424d-8a62-7d4972ca859c">
       Как только принести разум, так соблазн отводит его от
       <choice original_editorial_correction="истин[ного]">
@@ -6965,9 +6354,7 @@
        Ср. Дневник 1896 г., 23 января, 4.
       </note>
      </p>
-     <p id="f5db1988-81b0-4fd8-8ba2-3e185f67f939">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="5183adbf-26d2-4965-b3cc-09af853ca8a4">
       Я
       <choice original_editorial_correction="инстинктив[но]">
@@ -6986,9 +6373,7 @@
        Ср. Дневник 1896 г., 14 февраля.
       </note>
      </p>
-     <p id="1a5a3af4-69cd-4607-838b-201e5efd3edd">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6098b09a-3bbe-4a1c-b837-2d63466e4966">
       <choice original_editorial_correction="Искусс[тво]">
        <sic>
@@ -7033,9 +6418,7 @@
       </choice>
       . Топор не так — вокруг. Край к себе.
      </p>
-     <p id="c00617ce-6299-4d0e-a26f-e9838cb37293">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8b52f313-90e5-4f4f-853c-c7201d1ec017" rend="petit">
       Алексей Иванов Волгин.
       <choice original_editorial_correction="Великолуц[кий]">
@@ -7088,9 +6471,7 @@
        Записано, очевидно, рукой Волгина.
       </note>
      </p>
-     <p id="a1aa8697-09c3-4513-bcb7-5d22e6c3b41b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6d225eb8-d9b4-449f-a70c-279eaa69323b">
       Два arts искусства.
       <ref target="#note372">
@@ -7100,15 +6481,11 @@
        Ср. Дневник 1896 г., 23 января, 2, и 27 февраля, 1.
       </note>
      </p>
-     <p id="ce2c0179-3f86-4f1a-b74c-cf9b081bea91">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="78ab3c25-f229-44cb-b686-0058833f0955">
       Рассуждают правильно только, когда хочется — ум слуга.
      </p>
-     <p id="04b8e75f-e153-45c2-97c2-12a600a177e9">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="16b24f0c-be88-4da2-baa1-80520a0dd34a">
       Смотреть на жизнь, как на веселый, совокупный переезд
       <hi>
@@ -7121,9 +6498,7 @@
        Ср. Дневник 1896 г., 26 января и 13 февраля, 1.
       </note>
      </p>
-     <p id="9b7f62d8-6e2c-4040-830f-54dff27b2776">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6519ff84-d6e8-4f9c-8631-4b43ff4bb262">
       Доказательство Бога то, что знаю чувства другого.
       <ref target="#note374">
@@ -7136,9 +6511,7 @@
      <p id="8968e58b-c2ba-4b9a-a510-1a018b061ab2" rend="pages2">
       <pb n="272"/>
      </p>
-     <p id="322c9673-ac0b-4271-aa9c-3d8d45ea03ca">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="26df595a-f6dd-4748-a544-60734b7ce52c">
       Самоубийство — простор. История
       <hi>
@@ -7151,9 +6524,7 @@
        Ср. Дневник 1896 г., 13 февраля, 3.
       </note>
      </p>
-     <p id="e787579f-31d0-42f9-a924-fc77f40d8d5a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2cad510b-3193-404e-9e05-b7c8b2b38604">
       Желает верить и
       <choice original_editorial_correction="пот[ому]">
@@ -7172,9 +6543,7 @@
        Ср. там же, 4.
       </note>
      </p>
-     <p id="697031d8-1a7c-4ad5-a65b-d23a1706c656">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2ad8b34e-464a-49be-91f3-e617e452e868">
       Два искусства.
       <choice original_editorial_correction="Иску[сство]">
@@ -7193,9 +6562,7 @@
        Ср. Дневник 1896 г., 27 февраля, 1.
       </note>
      </p>
-     <p id="5784bc8c-5347-4fb0-be9c-6619a59ae212">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9de367ce-875c-4de9-ad03-da94a577c69e">
       Разговор с
       <choice original_editorial_correction="Рачинск[им]">
@@ -7224,15 +6591,11 @@
       </note>
       Мы говорили, что отстают евреи.
      </p>
-     <p id="db4318c8-23ba-44d8-a493-ea3a9b4780d7">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9c0400db-7212-4cbc-a91d-d3b8fffd89a7" rend="petit">
       Из Рагожеской фабрика Алексеева столяр и слесарь два брата родные взяли Книгу Царство Божие 11 марта.
      </p>
-     <p id="7a9b34ec-6ad6-433c-8bf1-ce544b0cf46c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="44df45ac-13ac-43ac-a4a3-4e2a5b3eaf95">
       Благо только для всех.
       <ref target="#note379">
@@ -7259,9 +6622,7 @@
      <p id="657cc4bd-f8e6-4a49-93da-40bb32e50354">
       Роды —
      </p>
-     <p id="099815af-0017-441f-a1b9-0af5b1b51494">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b3dcab9a-9e0c-4a86-a018-fc05c32d82be">
       1) Как водят конвойные?
      </p>
@@ -7304,9 +6665,7 @@
       </choice>
       женщины?
      </p>
-     <p id="3a983b13-1b40-4091-a77b-44cb9a2d9101">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="34c05d5c-55cf-44f0-b6a4-e2434cc28cae">
       <choice original_editorial_correction="Подпол[ковник]">
        <sic>
@@ -7321,9 +6680,7 @@
      <p id="b9ffc283-ff07-4df6-bd55-22fd37c3f643">
       А. И. Ярыжкина. Одесса, Канатная ул., д. Ливитского.
      </p>
-     <p id="1cd81150-3f59-49f9-b1aa-dd2d68fe3b78">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="aa83ba35-8c85-4e7b-a375-d64287eb3260">
       Искусство есть
       <choice original_editorial_correction="прояв[ление]">
@@ -7353,9 +6710,7 @@
      <p id="e1c01380-738e-4c39-a7a4-2ba35779ddb4" rend="pages2">
       <pb n="273"/>
      </p>
-     <p id="60cb8336-76be-4caf-98dd-01e16757d11d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1d54d471-7e29-473a-8a16-2d87bde42cb9">
       Суеверие, как рак, если не все вычищено, разрастется.
       <ref target="#note381">
@@ -7365,9 +6720,7 @@
        Ср. Дневник 1896 г., 27 февраля, 5.
       </note>
      </p>
-     <p id="a04226f2-b9fa-4e15-8bef-7a0b3a08a86e">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="7365fc0c-b32e-4d1c-9eef-02215ec4b58b">
       Дают свидание.
      </p>
@@ -7380,9 +6733,7 @@
        Можно прочесть: старостиха
       </note>
      </p>
-     <p id="0b02b974-a960-4d7b-bd16-f41006bcc15b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1247571e-8ff3-44f3-8415-578e3753f6ad">
       1)
       <choice original_editorial_correction="Начал[ьник]">
@@ -7420,9 +6771,7 @@
        </corr>
       </choice>
      </p>
-     <p id="b2f4be10-be75-4030-84d3-13b3188bcf95">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1a96de06-9a4a-4d8e-8cf5-3c177d4adfb9">
       Петр Алексеевич Булахов взял В чем вера?
       <ref target="#note384">
@@ -7432,9 +6781,7 @@
        В чем вера? вписано Толстым над зачеркнутым, написанным рукой Булахова: Царство Божие внутри вас.
       </note>
      </p>
-     <p id="09206880-9613-4a13-bf42-1d9016fa54ca">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="39906c47-357c-4b17-9061-7009b9fc80d5">
       Взял Краткое изложение Евангелия Николай Александрович Свидерекий. Малая Бронная, д. Гирша, кв. 20.
      </p>
@@ -7464,9 +6811,7 @@
        Ср. Дневник 1896 г., 27 февраля, 6.
       </note>
      </p>
-     <p id="cbc7d2ec-67c7-4a88-b31d-33c6db7e3f91">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4ad5406e-6c29-4215-939b-c6b9582ffc1e">
       Лечим симптомы болезни, и это главное препятствие лечению самой болезни.
       <ref target="#note387">
@@ -7476,9 +6821,7 @@
        Ср. там же, 7.
       </note>
      </p>
-     <p id="6edaacb2-fec5-4414-be11-5470b1da35a0">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1bbd3436-4137-4ca6-bfcd-64c49e83ae49">
       Corneille об
       <choice original_editorial_correction="иску[сстве]">
@@ -7496,9 +6839,7 @@
        Ср. Дневник 1896 г., 6 марта, 1.
       </note>
      </p>
-     <p id="096571fd-c37e-4b42-b116-e332492cadff">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="0863453d-ba4a-4092-b20d-93da1e20127e">
       Наследственность есть, но до каких пределов допускать ее действие? Так же, как влияние
       <choice original_editorial_correction="физич[еского]">
@@ -7535,9 +6876,7 @@
        Ср. там же, 2.
       </note>
      </p>
-     <p id="6312e3d2-4455-40aa-ad57-19165a41aac8">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b5322ff2-d40a-42a3-80d0-787c8ff1f19a">
       <hi>
        [6 марша 1896 г.
@@ -7593,9 +6932,7 @@
        Ср. Дневник 1896 г., 6 марта, 3.
       </note>
      </p>
-     <p id="e03d6084-7d59-48c4-b322-6f9aad716ede">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="51795fb7-a59b-4108-a633-c6d61d75b764">
       У нас в литературе и жизни принято плакаться на стеснения, губившие жизнь, и высокие мысли. Да мысли-то не было настоящей. Это всё самообман. Если бы
       <choice original_editorial_correction="Гран[овский]">
@@ -7892,9 +7229,7 @@
        Ср. Дневник 1896 г., 17 мая, 3.
       </note>
      </p>
-     <p id="c7ba398a-868e-4815-8d5a-b98dca345a76">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="c085c6c6-42fb-4bd5-9214-2388b98d7282">
       Разум есть орудие для познания истины — поверка, критика.
       <ref target="#note395">
@@ -7916,9 +7251,7 @@
       </choice>
       .
      </p>
-     <p id="91e7da7c-2201-4ac5-8ef8-b9e3b5910fd5">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="5b1397de-fd4a-4c52-9ee0-10e23516ddc7">
       Человеку кажется, что он животное, также, как кажется, что он стоит, а солнце ходит.
       <ref target="#note396">
@@ -7928,9 +7261,7 @@
        Ср. там же, 5.
       </note>
      </p>
-     <p id="aa6f0b65-4f76-4ef5-81a0-941c49272c9b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3c776efa-5588-490e-8195-ff55e65f37d7">
       Петр Булахов взял книги: 2-й том
       <choice original_editorial_correction="Еванг[елия]">
@@ -7943,9 +7274,7 @@
       </choice>
       и письма. Свет Азии, всеобщая история.
      </p>
-     <p id="dda68318-9085-41c3-ad7f-41d3683a108c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="0f53782d-3ffd-4a26-a082-3ece1d54b3ec">
       18) Есть доброта,
       <choice original_editorial_correction="к[оторая]">
@@ -7967,9 +7296,7 @@
      <p id="2a2a7039-bfc3-45f2-adf9-c235c39212fc" rend="pages2">
       <pb n="276"/>
      </p>
-     <p id="18521730-e11b-48ce-9ba6-d0a6e316302e">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="02bcdd50-415b-4ff3-8dcd-5fb52b83070d">
       17) Зачем же лишать христианство
       <choice original_editorial_correction="убедительно[сти]">
@@ -7988,9 +7315,7 @@
        Ср. Дневник 1896 г., 17 мая, 7.
       </note>
      </p>
-     <p id="38250c73-9af8-4594-a3d3-8843a099bc14">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="55ca6061-9dce-4f87-bd2f-049457402265">
       16) Природа, Бог экономны своими силами. Для того, чтобы установить
       <choice original_editorial_correction="Ц[арство]">
@@ -8026,9 +7351,7 @@
        Ср. там же, 8.
       </note>
      </p>
-     <p id="8ff71001-6602-4ecb-88f8-ab13d182898f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1962a27c-b202-4b05-8cb2-ba73586ec11d" rend="petit">
       1) Изложения Евангелий,
      </p>
@@ -8041,33 +7364,25 @@
      <p id="ce02ead5-1e72-41a5-a181-0dd9c10ce03a" rend="petit">
       4) Сочинение Бондарева.
      </p>
-     <p id="204dccb6-85eb-4e1b-a132-0b4bbe666fa9">
-      <lb/>
-     </p>
+     <lb/>
      <p id="b3f71952-cacf-4485-aa6e-23c9f34e933a">
       Взял Новиков.
      </p>
-     <p id="0a069cd3-402d-4127-9bf4-84ceca4ca035">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
     </div>
-    <p id="4d088abc-54ab-46da-9955-76150ad88e87">
-     <head rend="center">
-      [1896]
-     </head>
-    </p>
+    <head rend="center">
+     [1896]
+    </head>
     <div type="entry">
-     <p id="041ae216-feb3-4b50-9104-1d2a7c0bed48">
-      <opener>
-       <dateline>
-        <date notAfter="1896-03-22" notBefore="1895-03-22" resp="LNT" when="-03-22">
-         <hi>
-          22 марта
-         </hi>
-        </date>
-       </dateline>
-      </opener>
-     </p>
+     <opener>
+      <dateline>
+       <date notAfter="1896-03-22" notBefore="1895-03-22" resp="LNT" when="-03-22">
+        <hi>
+         22 марта
+        </hi>
+       </date>
+      </dateline>
+     </opener>
      <p id="27048f9d-c423-4516-9b6a-361286beccd9">
       Взял «Die Religion des Geistes»
       <ref target="#note400">
@@ -8087,9 +7402,7 @@
        Ср. Дневник 1896 г., 17 мая, 9.
       </note>
      </p>
-     <p id="c5407096-ec90-407f-96ae-88b8332db18b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2b1e37da-0d81-4653-a3c6-927e4495cd5f">
       15) Перенести свое
       <hi>
@@ -8103,9 +7416,7 @@
        Ср. там же, 10.
       </note>
      </p>
-     <p id="1da16596-70c1-4923-bad0-6f90e4dbffcf">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8dd9ca55-f862-4cb7-ab8e-885b47ce86af">
       Евдокия
       <choice original_editorial_correction="Ильини[чна]">
@@ -8125,9 +7436,7 @@
        </corr>
       </choice>
      </p>
-     <p id="c705ff27-05e5-4128-a32c-80fc0d44c515">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2cf07912-dc57-4a29-9ff7-70dbc3ac67f1">
       Как узнаешь, что это делаешь
       <choice original_editorial_correction="боль[но]">
@@ -8146,9 +7455,7 @@
        Ср. там же, 11.
       </note>
      </p>
-     <p id="ac05a9ac-981f-4507-aded-5c6be29f08a9">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f21fdfa8-9f2d-436f-bde2-c84e8d87a554">
       Соблазн это утверждение, что ты можешь нарушить любовь для
       <choice original_editorial_correction="болыше[го]">
@@ -8211,9 +7518,7 @@
        Ср. Дневник 1896 г., 17 мая, 13.
       </note>
      </p>
-     <p id="49b67979-e9eb-4654-ae74-a52c14c2ee78">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="d1889f67-1343-4fd4-ba92-0fc2ae6ffc80">
       <del>
        Устранять всё то
@@ -8309,9 +7614,7 @@
        Ср. там же, 14.
       </note>
      </p>
-     <p id="56f99944-dc15-4f3e-ac78-44182da50662">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="79bc6c18-094f-408a-9c8d-69ea53aef25f">
       Если не ищут счастия, то не отнимают его друг у друга.
       <ref target="#note408">
@@ -8321,9 +7624,7 @@
        Ср. там же, 15.
       </note>
      </p>
-     <p id="006249e7-d126-498f-b3ce-aa5f2d9d11db">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2eedc0b9-e8ce-4690-97cb-feade3de39d0">
       Признав собою Бога — почувствует желание добра, т. е. блага всех.
       <ref target="#note409">
@@ -8333,9 +7634,7 @@
        Ср. там же, 15.
       </note>
      </p>
-     <p id="9aaaa649-72b2-43b9-a893-0fab4e67f821">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="72103d7c-0e4d-4d69-ac52-b1208ff18a47">
       Что же делать для того,
       <choice original_editorial_correction="чт[обы]">
@@ -8372,9 +7671,7 @@
        Ср. там же, 15.
       </note>
      </p>
-     <p id="e30320b9-e7a8-44a5-b24e-ad99cc60e302">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="952c4aa0-66ca-4ced-93db-0a501bf8c365">
       Нет смысла
       <choice original_editorial_correction="жиз[ни]">
@@ -8402,9 +7699,7 @@
        Ср. там же, 16.
       </note>
      </p>
-     <p id="ccab963f-c0bf-4df5-89d5-333140bc8671">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="59d71b0c-c568-4ea7-a4eb-7169fa97a170">
       Студент Валентин Сперанский взял 11 апреля книгу 11 regno di Dio е in voi
       <ref target="#note412">
@@ -8418,9 +7713,7 @@
      <p id="3ae1fc23-91e8-4549-9867-91f290807dfe">
       Адрес: Солянка, Воспитательный Дом, Николаевское женское училище, кв. Емельянова.
      </p>
-     <p id="1684875d-0945-475b-9241-6054ae257457">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9bd55438-caff-4311-afcf-6a22446a8f27">
       Человеку кажется, что это обман от того, что он считает собою не то, что он есть.
       <choice original_editorial_correction="Хр[истианское]">
@@ -8520,9 +7813,7 @@
        Ср. Дневник 1896 г., 17 мая, 17.
       </note>
      </p>
-     <p id="63384bc2-2c85-4498-8f0e-6e2afb11e6fe">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a92956b5-0a26-4162-a9ea-ef25d80c445a">
       В чем же состоит дело Божие?
      </p>
@@ -8539,9 +7830,7 @@
       </note>
       —
      </p>
-     <p id="d7114564-df3a-43c4-8f51-7036cd684d1a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3ddbd3b1-c618-4a5c-8427-50cad5829739">
       13) Насилие не может ни ослабить, ни усилить духовное движение.
       <ref target="#note415">
@@ -8551,9 +7840,7 @@
        Ср. там же, 18.
       </note>
      </p>
-     <p id="8a64a527-fcc1-4a03-bf45-7b837e48ca8c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="19592538-ec86-44fb-bffd-d74776b506ea">
       12) Дело в том: полагаешь ли ты свою жизнь в дровах,
       <choice original_editorial_correction="к[оторые]">
@@ -8581,9 +7868,7 @@
        Ср. там же, 19.
       </note>
      </p>
-     <p id="080f8a8d-8e87-421b-8136-e14b920ae104">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ec050813-bb7d-4327-9d8d-9d9e21dc9698">
       Кейзер
       <ref target="#note417">
@@ -8594,9 +7879,7 @@
       </note>
       ищет места.
      </p>
-     <p id="dc1c9d61-211f-4f3e-8f5a-6e2a1fdd5c93">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3ca9e726-89d2-4655-bdf6-6b5e417e05ae">
       11) Искусство микроскоп — дает новые радости жизни.
       <ref target="#note418">
@@ -8606,9 +7889,7 @@
        Ср. Дневник 1896 г., 17 мая, 20.
       </note>
      </p>
-     <p id="3457ff69-7798-4df9-810e-70a274663f25">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ab039a65-4295-4f68-8007-f9cb24a9eb3c">
       Как проявляется воля Божья?
       <ref target="#note419">
@@ -8618,9 +7899,7 @@
        Ср. там же, 21.
       </note>
      </p>
-     <p id="cce715d3-f70e-45c6-a3c4-7ea008469fd5">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="fa7ac07f-e33b-4a68-bfa0-f9289d441c87">
       1) содействие к
       <choice original_editorial_correction="установлен[ию]">
@@ -8658,9 +7937,7 @@
        Ср. там же, 21.
       </note>
      </p>
-     <p id="5b866568-c81a-4a67-840d-9832237a285d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ce9bd40d-c234-4cf9-b57f-5f13ff55ca29">
       10) Чувствую силу и потому мягкость.
       <ref target="#note421">
@@ -8673,9 +7950,7 @@
      <p id="e5fd191c-117a-4276-82a6-1b32f827f2a7" rend="pages2">
       <pb n="279"/>
      </p>
-     <p id="afabf10b-da90-4556-ad6d-95ad12d1f77d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <table>
       <row>
        <cell>
@@ -8722,9 +7997,7 @@
        </cell>
       </row>
      </table>
-     <p id="de4bf277-44d2-445a-b4cd-0963e4a8742a">
-      <lb/>
-     </p>
+     <lb/>
      <p id="5ed90a79-8b65-4317-8721-96c7fbb28834" rend="petit">
       Кутьин. Жительство имею Москва,
       <choice original_editorial_correction="Мещ[анской]">
@@ -8745,9 +8018,7 @@
       </choice>
       3-го участка у Крестовской заставы, Переяславская улица, дом Прокофья Никитина.
      </p>
-     <p id="ec28cdf6-15bc-4cf5-98cf-3f89efe84230">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="79fe02fd-dc30-4b10-97de-d9879db6b997">
       Служишь Богу так или иначе: бессознательно или сознательно. Разница только в том, что при раздвоении можно перейти вперед, но не назад.
       <ref target="#note422">
@@ -8775,21 +8046,15 @@
      <p id="70763185-f17e-4c70-94a6-298b2d14dddd">
       В зал выходят в 8—11. В 12 чай, в 2 — обед, в 4 чай, в 7 ужин.
      </p>
-     <p id="8250292a-bcd2-4919-b960-7d0c3bcccd42">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="581c7f91-281a-40a6-9424-1ae3c7f87fc7">
       Висенштейн — Хилков
      </p>
-     <p id="af6a6a19-9f0a-407a-a864-bc6a5f78e788">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ddfeddfd-1b9d-4344-a813-943a981b3827">
       Липицы. Семизоровы.
      </p>
-     <p id="3e47a778-23a2-404a-9aad-a4667d4df338">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b6206d2f-7de2-4e22-837e-13a9dcf3dee8">
       8) Обман в том, чтобы 1) считать орудие собою.
       <ref target="#note423">
@@ -8799,15 +8064,11 @@
        Ср. там же, 24.
       </note>
      </p>
-     <p id="c708f3f0-51ed-48d7-8c7d-880b62216d33">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="d144d0f6-8924-4a93-9174-adabc65b7792">
       7) Соблазн в том, чтобы придумать себе дела, кроме служения.
      </p>
-     <p id="7ed870e6-52db-4c19-85c5-fba13fcf2955">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8c14db10-690a-4b51-bcd1-d55c535e1166">
       6) Природа, Бог экономна. Ему
       <choice original_editorial_correction="нуж[но]">
@@ -8826,9 +8087,7 @@
        Ср. там же, 25.
       </note>
      </p>
-     <p id="791e06d2-c1ac-4399-92ca-841234824005">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e8f3eaa4-ffad-44ac-b356-b6d012f9ba46">
       5) Если свет начался и кончится, то можно придумать смысл жизни, но при
       <choice original_editorial_correction="бесконечн[ом]">
@@ -8856,9 +8115,7 @@
        Ср. там же, 26.
       </note>
      </p>
-     <p id="bde12583-92b7-431d-8bf7-9313cdde8235">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="baa5b3b5-23ef-4034-88e5-6aa07b4636fc">
       К
       <choice original_editorial_correction="Конев[ской]">
@@ -8883,9 +8140,7 @@
      <p id="7f5cf028-16a1-41c2-9686-9a4726da92a2" rend="pages2">
       <pb n="280"/>
      </p>
-     <p id="40b84667-f014-4727-98b6-21f064a4a626">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="237398d5-4efd-4c1f-a38e-be7714ecef45">
       4) Кто живет
       <choice original_editorial_correction="духовн[ой]">
@@ -8904,9 +8159,7 @@
        Ср. Дневник 1896 г., 17 мая, 28.
       </note>
      </p>
-     <p id="5cab7af7-f190-450a-abec-6a1585edfed3">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="65d53947-d316-43b6-86cd-394b0db8a7e3">
       3) Я сначала отдельные желания,
      </p>
@@ -8925,18 +8178,14 @@
       </choice>
       .
      </p>
-     <p id="ec1ca59d-be42-4416-a479-10ba990f5666">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4588cbd6-69bd-44f9-8534-06dabe86519a">
       2) Тело человека орудие его деятельности. Самосохранение тела = бережению орудия.
      </p>
      <p id="1526e6a4-355b-484e-ab71-9219b8f6df53">
       1) Как человек чувствует всякий толчок по орудию, так и человек — свое тело.
      </p>
-     <p id="ea492f3b-fe5d-4504-b49c-3db77c125533">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a124cc1d-4c05-49ee-83d2-a06d849d3089">
       Начать с того, как в древности
       <choice original_editorial_correction="понима[ли]">
@@ -8949,9 +8198,7 @@
       </choice>
       жизнь и ее блага и бессмертие личное.
      </p>
-     <p id="4ae33561-a4fb-4f62-adff-bd1431f73738">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1124d521-4458-4e4d-8250-3d4bb6137b02">
       Семен Грузнов замерз, — подали прошение на
       <choice original_editorial_correction="жел[езную]">
@@ -8964,15 +8211,11 @@
       </choice>
       дорогу.
      </p>
-     <p id="8e7c2684-75b5-4969-a345-3db5ce761c97">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="66ca2399-ce26-441a-92a5-b2af9a9bce01">
       Пузанов — задохся в газе.
      </p>
-     <p id="e1f7592d-50cf-4bb8-af41-a020a5f414a3">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a1af1df5-c07d-4f47-a0bb-e284e350812e">
       Это
       <choice original_editorial_correction="б[ыло]">
@@ -8991,9 +8234,7 @@
        Ср. там же, 29.
       </note>
      </p>
-     <p id="e540fb25-4043-4747-8108-3adbb5f37089">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="35617a1f-f05e-468f-9489-c25d435e789d">
       О коронации.
       <ref target="#note429">
@@ -9003,9 +8244,7 @@
        Ср. там же, 31.
       </note>
      </p>
-     <p id="9a610844-65f0-4fd6-a9d0-04aebc9f9aea">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6e4c9900-351c-400d-b014-8a65c4f3d1ca">
       Воображать, что одна
       <choice original_editorial_correction="стан[ция]">
@@ -9024,9 +8263,7 @@
        Ср. там же, 30.
       </note>
      </p>
-     <p id="891a067d-0170-420a-bf1e-c11fb8dcb988">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="d677b680-9910-4f6b-9f47-410d85868391">
       Зло есть только то благо, действие
       <choice original_editorial_correction="кот[орого]">
@@ -9045,9 +8282,7 @@
        Ср. Дневник 1896 г., 28 мая, 1.
       </note>
      </p>
-     <p id="57f0edab-358f-4b30-a349-94494158b030">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="7ecce903-e4dc-4d13-941d-eff0cb735146">
       Если музыкант требует от
       <choice original_editorial_correction="стихотворе[ния]">
@@ -9087,9 +8322,7 @@
      <p id="960a4ce6-a3d9-4549-96aa-2f9fc9473393" rend="pages2">
       <pb n="281"/>
      </p>
-     <p id="487d3180-5b34-422e-b57f-6f9476c0f635">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f6a62fae-d200-40c2-a4ec-7ac8e6bd29b2">
       Я думал, что когда умрет
       <choice original_editorial_correction="челов[ек]">
@@ -9108,9 +8341,7 @@
        Ср. Дневник 1896 г., 28 мая, 5.
       </note>
      </p>
-     <p id="50c2a062-f98d-4a26-bb7e-2fcff3e13456">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="10559701-9732-40a3-a915-f5d97495ba8c">
       Представить себе самое сложное, запутанное дело, в
       <choice original_editorial_correction="к[отором]">
@@ -9147,9 +8378,7 @@
        Ср. там же, 3.
       </note>
      </p>
-     <p id="140a791c-870c-4866-aede-a3571fe516f2">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="c560dd9b-4157-4761-8d92-3eb6f77b1f03">
       Ошибка (грех) есть употребление разума на достижение блага себе в ущерб
       <choice original_editorial_correction="друг[им]">
@@ -9176,9 +8405,7 @@
        Ср. там же, 4.
       </note>
      </p>
-     <p id="8dd5e8dc-ab1f-4ef5-a99e-25fdb41e8a77">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="7b7c15eb-0bd6-4a82-bf22-3aa9550bef4c">
       Петр Капылов в остроге в Серпухове узнать — Свидетели:
       <ref target="#note436">
@@ -9208,15 +8435,11 @@
      <p id="64c29f30-a921-4202-9b90-f3b18e40ceae">
       Объездчик Тарас.
      </p>
-     <p id="3f74a577-8f38-4b55-a71c-77f53e5c38eb">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b3e3931e-0632-4715-b2b8-ed30ab739d98">
       О деньгах горелых, Житовская.
      </p>
-     <p id="e473a7ec-17d7-490d-88cf-f29c1d0dbeca">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4fb4197d-80cb-4902-8a47-43b47b301dfe">
       Давыдову
       <ref target="#note437">
@@ -9269,9 +8492,7 @@
        дороги.
       </hi>
      </p>
-     <p id="d3ed9960-d0bd-46f0-896a-1323f61d9d9c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="653f1484-55a6-4a22-8974-8f3d030cd596" rend="petit">
       <pb n="282"/>
       <hi style="npdelimiter">
@@ -9312,9 +8533,7 @@
       </choice>
       .
      </p>
-     <p id="dc925e69-5f4f-4cc1-832f-0497c5b83fb1">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a2553384-e9db-4c9e-9e7d-024779843407" rend="petit">
       Николай Петрович Ровский — на новой
       <choice original_editorial_correction="Двор[янской]">
@@ -9373,21 +8592,15 @@
        Запись рукой М. Л. Толстой.
       </note>
      </p>
-     <p id="c4fec786-34bf-4d40-a22d-b3a67d950c87">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4fc9408c-4765-4745-93d6-57d1f5e812a7">
       Кожуховское
      </p>
-     <p id="f58eda25-b382-4600-b0d0-30ca53c4a745">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="08843ec4-6fd9-4ace-b5a3-963c2fb4c607">
       Абрамов Иван в сумашедшем доме.
      </p>
-     <p id="9da6d98d-3d42-4b0c-9da5-dbb4f7340b58">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ffcfeba7-6d6f-45f4-988d-30e105018373">
       К Тихону Св.
       <unclear>
@@ -9413,15 +8626,11 @@
       </choice>
       велит какому святому.
      </p>
-     <p id="d6d09c87-f2ab-4870-9002-83382eb5de1f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ab9c7b75-978e-4dc2-bbc4-f20e5e11047f">
       Скуратовская — Мерзлов Егор.
      </p>
-     <p id="a869e35e-3dfa-4fa3-928f-8e74c9277947">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="577874ab-005b-4de9-9c2c-dec05518f9c1">
       Арсеньев просит
       <ref target="#note440">
@@ -9443,15 +8652,11 @@
       </choice>
       .
      </p>
-     <p id="4f240eb8-bce5-4807-9c8e-2d784ca07444">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="40945e17-d9be-41a8-8c11-e4dd114026d0">
       Мостовская, Красикова вдова просит.
      </p>
-     <p id="b482b77c-6876-4c04-a390-013d557e273a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3d3f3bd7-0c11-4539-831f-9b57ffc2febd">
       Человек живет прежней жизнью, не зная, что через них живет Бог. В новой жизни они знают это.
       <ref target="#note441">
@@ -9461,9 +8666,7 @@
        Ср. Дневник 1896 г., 8 июня, 1.
       </note>
      </p>
-     <p id="75f806b7-8696-40ee-a779-5c781fbb6cc0">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="335dbb8e-7211-4962-926e-f6cd4ccbfa49">
       Письмо
       <choice original_editorial_correction="Евг[ения]">
@@ -9484,15 +8687,11 @@
       </choice>
       ,
      </p>
-     <p id="9e553783-fa90-4c16-859a-c0dc21196cf9">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="36ab32b3-581d-4788-9d9c-0795507a202d">
       О слитке серебра.
      </p>
-     <p id="e1e9c4f0-cb7e-48dc-83c2-34e61ccd267a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8d07a583-9754-44f9-aaf7-d8e16a1430e5">
       Ровский взял 4 большие
       <choice original_editorial_correction="еванг[елия]">
@@ -9505,30 +8704,22 @@
       </choice>
       .
      </p>
-     <p id="6f75079b-b9e2-411a-84b6-ad1f5b52f6c9">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f878420d-eef8-45dd-9235-d1d2b44060fd">
       Крыльдово — вдова Аксинья Левчина.
      </p>
      <p id="68cf52d2-ec05-478e-88af-8216ef660b3a" rend="pages2">
       <pb n="283"/>
      </p>
-     <p id="98da0835-b48b-49e2-8f51-fa73fcebbfd8">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2aa95ba3-1857-496b-8f55-0ecff42a5f6b">
       Дрова — Чертковым.
      </p>
-     <p id="f020d181-227e-4cb8-9d1b-edbcf2f7d9c8">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="14cb5b30-a9a8-4608-806b-327b7116f7e8">
       Готовые слова.
      </p>
-     <p id="46f4aa6f-e73d-4834-9c03-0f611f5e213c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ff089042-9c1a-402b-805d-c2690f9e9813">
       Не по хорошу мил, а по милу хорош.
       <ref target="#note442">
@@ -9566,9 +8757,7 @@
       </choice>
       .
      </p>
-     <p id="ffc287cb-a819-414e-8894-2d3be6ca23ef">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="986a1f93-d2b0-4a29-9a27-7f2358fc0b6f">
       Если же пал, то будет стараться не пасть в другой раз и будет разумом искать средства
       <hi>
@@ -9576,9 +8765,7 @@
       </hi>
       пасть.
      </p>
-     <p id="7b1cbe8e-b898-4d1f-9b74-503ddd596af8">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6da591ea-c19d-4e74-84bb-8ff88ff93af9">
       Какое смешное заблуждение думать, что мир есть только тот,
       <choice original_editorial_correction="к[аким]">
@@ -9627,9 +8814,7 @@
        Ср. Дневник 1896 г., 30 июля, 13.
       </note>
      </p>
-     <p id="145ed1d1-36a4-411a-b9fb-da23cf972763">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e90f8f6d-2418-45ba-8fa3-1934c1e04599">
       Свободен тот, кому никто и ничто не может помешать сделать того, что он хочет.
       <ref target="#note444">
@@ -9639,9 +8824,7 @@
        Ср. там же, 15.
       </note>
      </p>
-     <p id="3ec7755c-366f-4495-becd-0cdc2a7572f0">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a3e684ae-c718-4d77-90c9-9ff4f0bbb14d">
       Клюев
      </p>
@@ -9656,9 +8839,7 @@
        </corr>
       </choice>
      </p>
-     <p id="b2d59339-7e4a-4c7a-b404-3f092d980cfd">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="d30410bc-721c-4875-a74d-62cb72731fe6">
       Отчего люди бывают неблагодарны.
       <ref target="#note445">
@@ -9668,9 +8849,7 @@
        Ср. там же, 14.
       </note>
      </p>
-     <p id="f5cccb00-4a5d-4759-be30-76b54ad94f0b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2abd0a4e-b6d6-4f4f-9ffd-9461c1328d08">
       Разговор с
       <choice original_editorial_correction="Серг[еем]">
@@ -9697,15 +8876,11 @@
        Ср. там же, 13.
       </note>
      </p>
-     <p id="48a125ad-e007-443f-8dfe-9beb929ef155">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="80e3359e-3ab5-491c-af0e-4535957fb2c5">
       Победить любовью.
      </p>
-     <p id="a6a0b402-d838-4218-8114-1e68366d5749">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b23c47c7-5e55-4b48-b4a5-aa236199ae3e">
       Балы и празднества, если допустить, то надо подчинить строжайшему контролю.
       <ref target="#note447">
@@ -9718,9 +8893,7 @@
      <p id="c29e8412-8aeb-4864-8306-b1c68f8fa43c" rend="pages2">
       <pb n="284"/>
      </p>
-     <p id="2bfd0a87-952c-48a7-ab69-c49e6e25df2a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="41c508f2-2753-4eb2-be81-46611d45310c">
       Христос и Кант.
       <ref target="#note448">
@@ -9731,9 +8904,7 @@
       </note>
       —
      </p>
-     <p id="6a8e8cb7-991b-491e-ab09-e0349ee4122c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6ba2651b-61cb-4cae-84d7-d53808c903fc">
       Ничто не
       <choice original_editorial_correction="успокаив[ается]">
@@ -9762,9 +8933,7 @@
        Ср. там же, 9.
       </note>
      </p>
-     <p id="c2d5af5f-1a97-4ae2-83a7-c4489758636c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="378a9a6e-58e7-4f31-948f-7cdf18d4fac4">
       Если бы были одни грехи, то, зная
       <choice original_editorial_correction="соб[лазны]">
@@ -9889,9 +9058,7 @@
        Ср, там же, 7.
       </note>
      </p>
-     <p id="8b0662d2-dc26-4ea9-bbdd-dd076808857b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ac6a26a4-db0f-490d-9f04-a94288a9a2cc">
       Соблазны —
       <choice original_editorial_correction="стар[ые]">
@@ -9904,9 +9071,7 @@
       </choice>
       девы.
      </p>
-     <p id="f9131deb-61a8-4b65-aaf4-8c85de3175cc">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="485a4f1e-2104-467d-acc3-793ddf3bca3a">
       Есть две молитвы: в
       <choice original_editorial_correction="клет[и]">
@@ -9934,9 +9099,7 @@
        Ср, там же, 7.
       </note>
      </p>
-     <p id="8a27645d-3c3d-4e9e-89d2-d0c46c8d691b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9a9c9802-4145-45ba-b267-43b1ec5fda6a">
       Любовь половая подъем для животного, падение для человека.
       <ref target="#note453">
@@ -9946,9 +9109,7 @@
        Ср. там же, 6.
       </note>
      </p>
-     <p id="43b70f4a-5c91-4679-8d04-e3f64882a31b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="0bc947ac-91dc-4e34-afb8-db154c10c4b5">
       Прокофья Рыженкова в Озерках — Тросне.
       <choice original_editorial_correction="Зах[ар]">
@@ -9969,9 +9130,7 @@
       </choice>
       Давыдкин.
      </p>
-     <p id="d10d4fa3-4a23-44a3-86ef-ea7eeb628280">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6a5a7518-ae32-424e-85a7-66da3417099d">
       <choice original_editorial_correction="Харит[он]">
        <sic>
@@ -9991,9 +9150,7 @@
       </choice>
       , лошадь увели.
      </p>
-     <p id="61d5072a-0fd3-413d-ac5a-b04ad18444b5">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="7ac5652a-c4bf-4224-9ec8-0e600b831413">
       Как только думаю о себе — мука. О ней — легко.
       <ref target="#note454">
@@ -10006,9 +9163,7 @@
      <p id="40b41acb-6f71-4bc1-904f-09c2e6f4e896" rend="pages2">
       <pb n="285"/>
      </p>
-     <p id="c7ca5228-6df5-45d8-88d4-45a960a17c15">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="012ded74-971c-43c4-af1c-49953fa43537">
       <choice original_editorial_correction="Духов[ное]">
        <sic>
@@ -10034,9 +9189,7 @@
        Ср. Дневник 1896 г., 19 июля, 3.
       </note>
      </p>
-     <p id="3c0a3bd2-f3a5-439e-b10a-315c8add9d6d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="60f80bfc-a4bd-480f-b229-e908ee409324">
       Тип Мани и
       <unclear>
@@ -10076,9 +9229,7 @@
        Ср. там же, 1.
       </note>
      </p>
-     <p id="fc29fb7c-20b6-4987-b3f6-ea884dfe8d6c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ea5a98f5-88cb-4d03-90cb-a1e187960261">
       1) Хаджи Мурат.
      </p>
@@ -10114,9 +9265,7 @@
      <p id="6b1ba6ae-d94a-42c7-86ce-b1b5fc9f03ea">
       6) Пришел умирать домой.
      </p>
-     <p id="5b48fd06-9815-4a1b-bf82-929787a00c6f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9b187859-6c88-4866-8167-a74356ec5c9c">
       Молитва к личному Богу не
       <choice original_editorial_correction="п[отому]">
@@ -10170,9 +9319,7 @@
        Ср. Дневник 1896 г., 30 июля, 16.
       </note>
      </p>
-     <p id="639075d7-fe1f-4ac6-a8b0-95d00282c4eb">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8d057f92-0ac3-4422-8e81-8f7390cf116c">
       Особенное средство борьбы с
       <choice original_editorial_correction="грех[ом]">
@@ -10185,9 +9332,7 @@
       </choice>
       — молитва.
      </p>
-     <p id="e1bf70f3-4df6-4b3b-8b04-8b730dca644a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a4fd1e0a-30ce-4ae4-afa5-1980d8e29ccf">
       <choice original_editorial_correction="Обыкн[овенное]">
        <sic>
@@ -10208,21 +9353,15 @@
       </choice>
       .
      </p>
-     <p id="c35a8d78-2cb3-4cdf-8e3b-4ae6866816cd">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="085dae9c-f0da-42c3-8e83-35729915a498">
       Потому нужно особенное средство, что грех общий.
      </p>
-     <p id="64b75986-a1ff-4c53-afbb-9f6737efca3f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="77f2a695-60ba-4eae-a904-427c3c4de298">
       Грех надо останавливать, когда начинается — отруби руку. Поэтому-то и нужна молитва ежечасная.
      </p>
-     <p id="5a53b656-6aa7-4dfa-87e9-0345d8907aa0">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a4e5e150-b91c-4d26-857b-3688dc6e9499">
       <choice original_editorial_correction="Эстетич[еское]">
        <sic>
@@ -10273,9 +9412,7 @@
      <p id="01349600-602b-4557-9c3b-c433e8a79b2c" rend="pages2">
       <pb n="286"/>
      </p>
-     <p id="7a8d1be6-1ccd-41c5-8de9-3736eea59009">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="c576c8dd-ff4e-4ca9-b668-d1ab34845515">
       Ложь перед другими далеко не так важна, как ложь перед собой. Ложь перед другим есть только маленькое
       <choice original_editorial_correction="проявлен[ие]">
@@ -10303,9 +9440,7 @@
        Ср. там же, 19.
       </note>
      </p>
-     <p id="30751c9a-07be-4529-a03d-3000cedfdbf7">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3c2eb212-f9b2-477e-9826-3ab97d9ad343">
       Не может жить человек, если не будет считать кого-нибудь безгрешным: себя или Бога.
       <ref target="#note462">
@@ -10315,9 +9450,7 @@
        Ср. там же 20.
       </note>
      </p>
-     <p id="d92e01ee-5dfb-458d-9fa0-aef260321e7c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8c9033ed-2e5b-4c55-a4fd-4966a9a721d3">
       Для чего, зачем со мной связалось так, что коверкает, извращает всю мою жизнь существо, очень похожее на
       <choice original_editorial_correction="челове[ка]">
@@ -10345,15 +9478,11 @@
        Ср. там же, 21.
       </note>
      </p>
-     <p id="f5c2f0a2-90e8-4a21-b784-4d4761705d1f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="83c3f362-4d00-4519-9ae2-32696db5a860" rend="center">
       не списано 30 Июль.
      </p>
-     <p id="5197e5d4-d4c5-44d6-a7c1-72cd8943e0c3">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="aa2e8ce0-3ded-4be1-ac58-628025d394ae">
       Вера в разум. Неверие в разум источник всего зла.
       <ref target="#note464">
@@ -10363,9 +9492,7 @@
        Ср. Дневник 1896 г., 31 июля, 1.
       </note>
      </p>
-     <p id="425c5f17-0fab-4045-9c85-54f19d258b4d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f27d4c02-88a3-4e7f-bebb-69fe9b352607">
       Чтобы указать правду, надо новую ложь.
       <ref target="#note465">
@@ -10384,9 +9511,7 @@
        Ср. там же, 3.
       </note>
      </p>
-     <p id="88f62d92-3e72-422b-8a8d-bf2e97bf5d25">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="98cafe2c-f634-4fb0-ae33-8cf38e89a484">
       Любовь к Богу.
       <ref target="#note467">
@@ -10396,9 +9521,7 @@
        Ср. там же, 4.
       </note>
      </p>
-     <p id="5de38b96-649a-480e-8afd-8ad9f64d7e13">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="7321dfae-ffa3-4b46-b013-c000a5b49cbe">
       Думал, что не почувствую, не узнаю нового, совсем нового. Нынче узнал: любовь к Богу Отцу, ко Всему, чего я часть.
       <ref target="#note468">
@@ -10408,9 +9531,7 @@
        Ср. там же, 4.
       </note>
      </p>
-     <p id="8ed81c34-cbbd-423c-9f37-078b6d28d8bb">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2bd3ca4d-046f-4d00-8951-65097348603b">
       Красота, истина, добро.
       <ref target="#note469">
@@ -10420,9 +9541,7 @@
        Ср. там же, 5.
       </note>
      </p>
-     <p id="08a5ca60-fcda-47e0-a164-07aa3e42b893">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="d05898a7-5d1e-4624-bdd2-d9658bf40201">
       Что я помню, то — не добро, а только то добро, чего я не помню, то делал через меня Бог.
       <ref target="#note470">
@@ -10435,9 +9554,7 @@
      <p id="a2262016-86fa-42fb-96ed-5969ddba9bc3" rend="pages2">
       <pb n="287"/>
      </p>
-     <p id="6859ef0f-b4eb-4d00-807e-44eb6ba4049d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="79d3a146-6739-4a43-9d19-d72b2c975dda">
       Кому отдали сапоги?
       <ref target="#note471">
@@ -10465,9 +9582,7 @@
        Ср. Дневник 1896 г., 14 сентября, 1.
       </note>
      </p>
-     <p id="ee34efd4-e96a-44ac-ba95-805d5a3fb32c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="fd5b3e11-49aa-4fd6-b5e5-43689984f705">
       Усачев
       <ref target="#note473">
@@ -10478,9 +9593,7 @@
       </note>
       —
      </p>
-     <p id="c916caaa-aa9b-4a4a-8186-21e2baf74ede">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="48d6e2ab-a301-4430-b816-0ede1374d0f7">
       2) Для того, чтобы любить, надо быть ослепленным. Без ослепления можно любить только Бога, или жалеть, что значит любить Богом.
       <ref target="#note474">
@@ -10499,9 +9612,7 @@
        Ср. там же, 3.
       </note>
      </p>
-     <p id="2a7c0bc2-886a-406e-808b-a70febf4a9af">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="62f851ba-c0ef-481a-a478-0d872f76cb4b">
       4) Чем глупее и
       <choice original_editorial_correction="безнравс[твеннее]">
@@ -10529,9 +9640,7 @@
        Ср. там же, 4.
       </note>
      </p>
-     <p id="30460b41-21f6-4ecc-8e91-f254e2047014">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="25420587-6798-465f-b4c1-9163997c6570">
       <choice original_editorial_correction="Воспитательн[ый]">
        <sic>
@@ -10543,15 +9652,11 @@
       </choice>
       дом.
      </p>
-     <p id="ae6cec9a-8b88-4c0e-860f-b93186dd6546">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="06588211-2e27-427a-ac9d-62ef18c00095">
       Бежал в 40.
      </p>
-     <p id="55d96ce7-3dfb-4b05-a29b-faa1877cf294">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f0307895-cfe4-4e1c-9249-6b650f9a8a69">
       5) Декорация для
       <choice original_editorial_correction="мужик[ов]">
@@ -10570,9 +9675,7 @@
        Ср. там же, 5.
       </note>
      </p>
-     <p id="25a2f515-e21b-48a5-b68b-4cfd69b4bf12">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="d75b07b3-e381-42ca-8f08-679d781bf346">
       6) Мы все влечемся ко всему и друг к другу, как части одного. — Только уродливые явления разделяют нас — наши углы.
       <ref target="#note478">
@@ -10582,9 +9685,7 @@
        Ср. там же, 6.
       </note>
      </p>
-     <p id="92865194-0221-4af6-b7ef-392ef2ecb89c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="38385a6d-3d6b-4bda-bb52-eae58f1ddb8b">
       7) Одно из самых сильных средств гипнотизации это наряд: нарядиться в военного, в монаха, в б....
       <ref target="#note479">
@@ -10594,9 +9695,7 @@
        Ср. там же, 7.
       </note>
      </p>
-     <p id="7066d836-a113-43a9-96ee-fe8521f45f6a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4d58693a-cfd3-47ae-87bd-24015dc1ea96">
       8) Персиянинов повесился.
       <ref target="#note480">
@@ -10606,9 +9705,7 @@
        Ср. там же, 8.
       </note>
      </p>
-     <p id="32875e68-d3f9-499b-958c-5a58806b169d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b0724fed-b174-41eb-a211-22a97cdae8d9">
       9) Подменила ребенка.
       <ref target="#note481">
@@ -10621,9 +9718,7 @@
      <p id="eb6941f7-4e7f-4fe6-b1c3-8c2141acfa2a" rend="pages2">
       <pb n="288"/>
      </p>
-     <p id="6abad32e-b75b-46ae-962c-61077832cc81">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4f086abc-dda8-4995-a79c-6d4bb7984cfb">
       <hi>
        С двух сторон обходят.
@@ -10667,9 +9762,7 @@
       </choice>
       , и Алла.
      </p>
-     <p id="d774f5f0-1db1-4b75-bdf9-b9051c21a69b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e0dc1ff5-a2f1-4af3-88c4-cf80e1c3ccd5">
       10) Пока: Когда, что мучает, как хорошо сказать: пока еще жив, пока она жива.
       <ref target="#note482">
@@ -10679,15 +9772,11 @@
        Ср. Дневник 1896 г., 14 сентября, 9.
       </note>
      </p>
-     <p id="20cb659f-812e-425a-867c-8a759bcbfb05">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="35cb6e47-2288-480f-b7eb-30237d9ddd39">
       На своем языке.
      </p>
-     <p id="b68a258a-fba2-4d88-8bda-2ef5b5783780">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="c0267365-ee30-4a8c-8fdc-a11defe8577d">
       11) Хотел сказать, что я ей благодарен. Нет, думаю, она припишет это к своим достоинствам: Человек, оправдывающий себя — сосуд, закрытый крышкой герметически и ничего в себя не пропускающий...
       <choice original_editorial_correction="Смирить[ся]">
@@ -10706,9 +9795,7 @@
        Ср. там же, 10.
       </note>
      </p>
-     <p id="87518c2d-347d-4eb4-b630-f173c82fb535">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e67723af-926e-45e0-af7a-7f822a710399">
       12) Варварство мешает единению, также мешает единению и слишком большая утонченность.
       <ref target="#note484">
@@ -10718,9 +9805,7 @@
        Ср. там же, 11.
       </note>
      </p>
-     <p id="e25e25ca-bc89-444f-a858-829df498c0ca">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e9450494-dbbb-4e16-871a-98e83078c000">
       13) Человек это орудие
       <choice original_editorial_correction="Бож[ие]">
@@ -10757,9 +9842,7 @@
        Ср. там же, 12.
       </note>
      </p>
-     <p id="911441a3-85d4-4ceb-9cb8-05d90ffe78b4">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="cdef297f-f8b5-4166-a200-257fbdb8753e">
       Потерял глаз. Слесарь. Спросить у Давыдова.
       <choice original_editorial_correction="Конст[антин]">
@@ -10772,36 +9855,26 @@
       </choice>
       Белоусов.
      </p>
-     <p id="2b46a356-f042-4080-8547-cd6b9ae86700">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="7eb22a62-ab99-4da0-9afe-7a746f1c6d59">
       Лесу бабе.
      </p>
-     <p id="6112e2d1-7606-4d26-aa21-d0085423f517">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a9b57724-b421-444f-9752-2f327cf4ee14">
       Варлам —
      </p>
-     <p id="eec2960d-70a7-4479-bdfe-7b4cf52ba965">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="50f5a192-c3b0-4447-8625-cec0a5d2bd41">
       Некрасов.
      </p>
-     <p id="0d349b48-aef5-4b08-8f07-b26a12e50fa0">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="d403a285-24f3-448a-955d-71e384281a78">
       Арефий.
      </p>
      <p id="29cdf9b6-3fdb-4cef-b049-c19faf747090" rend="pages2">
       <pb n="289"/>
      </p>
-     <p id="49f073fa-7edb-47f0-bfa5-6e3e81084293">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b2ad0e9d-1cd5-4962-b7af-7aebded0fb09">
       <choice original_editorial_correction="Григор[ий]">
        <sic>
@@ -10862,9 +9935,7 @@
       </choice>
       .
      </p>
-     <p id="866807ba-168f-4f51-87e3-0fe8d598429f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="84b4f9a7-da51-4e9f-b0ca-7298605673bc">
       14) Деспотизм
       <choice original_editorial_correction="выгод[ен]">
@@ -10891,9 +9962,7 @@
        Ср. Дневник 1896 г., 14 сентября, 13.
       </note>
      </p>
-     <p id="caf3bd9c-589b-488b-943c-cc0f870548ed">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="bec0d234-eb1b-4a76-a88e-041bd4d83871">
       Можно ли воротить брата
       <choice original_editorial_correction="умерше[го]">
@@ -10906,15 +9975,11 @@
       </choice>
       из солдат?
      </p>
-     <p id="484f1f57-eaa3-4ddd-973b-12cdedd67d0f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="fcc5ccdb-14eb-4b61-9cb9-c436c1321da6">
       Пеньков просит об купчей. —
      </p>
-     <p id="2682f630-5810-4e25-b85c-c0be8d4bc22a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="be4a79ac-92f4-4947-af99-72e8d0f819aa">
       <hi>
        Фекла
@@ -10925,9 +9990,7 @@
        Анна
       </hi>
      </p>
-     <p id="51904e1c-f062-48b9-85be-9f94940371d7">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e35c13d6-6693-421a-9f06-5d7c5e72bc0f">
       Озерская, Прасковья
       <choice original_editorial_correction="Рыженк[ова]">
@@ -10940,9 +10003,7 @@
       </choice>
       просит сруб. —
      </p>
-     <p id="90379f99-2bf4-4240-96a3-0b38735e9cbe">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6b61fc2c-e8c5-4398-a5cf-873835649156">
       15) Вопрос о Боге внешнем — решается
       <choice original_editorial_correction="происхожден[ием]">
@@ -10961,21 +10022,15 @@
        Ср. там же, 14.
       </note>
      </p>
-     <p id="3efe1e3c-a09b-41fc-b28f-5fd5ba95e9eb">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e4efbbb0-410e-416e-bc54-454ed199a64e">
       Клюев Григорий.
      </p>
-     <p id="7c1005bf-7639-4527-a25f-186f8f23e3d6">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9eab0031-2249-4ab3-9497-e04bcaebc63e">
       Егор Бышонков.
      </p>
-     <p id="75e8fd59-9206-445e-892d-28e112267ed1">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4ee5d0f3-1818-482b-8949-9aa33746a71f">
       16) Отделить свое
       <hi>
@@ -10998,9 +10053,7 @@
        Ср. там же, 15.
       </note>
      </p>
-     <p id="9e45e7bd-cd78-40b1-87c7-ca42035fd18a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="08392c40-92cd-4bd1-8bbd-a9f6df978da1">
       Страдает не
       <hi>
@@ -11153,9 +10206,7 @@
        Ср. Дневник 1896 г., 20 октября, 10: г) и д).
       </note>
      </p>
-     <p id="39e5cb03-061f-420d-9e73-bd2a7db88bbb">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="af123230-a0e3-4893-b60c-c4d5c48debd7">
       Мужикам
       <ref id="slega" target="slovar">
@@ -11163,9 +10214,7 @@
       </ref>
       .
      </p>
-     <p id="84914d4e-1f6e-465e-a6f6-4eaa64eb9549">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1067b2fe-99a9-4e7b-a226-157f6f4a9b56">
       1) Свой нарочный обдумал.
      </p>
@@ -11202,9 +10251,7 @@
       </sup>
       прирож. общест.
      </p>
-     <p id="ec0e353a-02ff-4b08-80f2-05cd74c2d15f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4918b78f-939e-4b70-a3c2-4d6789038081">
       Алена
       <choice original_editorial_correction="Деменск[ая]">
@@ -11216,24 +10263,18 @@
        </corr>
       </choice>
      </p>
-     <p id="de2ccd66-da02-4bc9-9a85-a91486a7e83c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a1cfda51-157c-4223-89b0-28ea0523d1c9">
       Аксинья
       <unclear>
        Левичева
       </unclear>
      </p>
-     <p id="64ac83a7-1235-4825-864a-a11fb476ae33">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e5b47465-f017-40b8-b724-b394f7cbb8bf">
       Подсчитать книги.
      </p>
-     <p id="0a7cdf52-c7c2-475d-b6b2-9c12180f8c92">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3c4bde85-4b66-41e3-8ee4-aa2ad526e9c6">
       Ефрему Серегину — кирпичу.
      </p>
@@ -11258,15 +10299,11 @@
       </choice>
       .
      </p>
-     <p id="783f88c3-8390-4591-9199-44ed1e79ddbc">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="931da18a-f4a1-456c-aab7-1e4217d514b5">
       Авдотья Пчелкина вдова в Прилепах.
      </p>
-     <p id="5ccf1339-4e68-436a-956a-7af121d01f14">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="984e1892-f5ea-428c-b494-db22ead4d68a" rend="petit">
       K. Tokutomi
      </p>
@@ -11279,21 +10316,15 @@
        Запись рукой Токутоми.
       </note>
      </p>
-     <p id="25690c35-7051-47c7-ad70-d3ea5cf34a4e">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3c59cadc-6d6b-4e71-8abb-1f82bc709194">
       Брошюра Неверовского — истребление Аварских ханов 1847 г.
      </p>
-     <p id="1319b143-2a35-4865-9612-23c62ec484aa">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="436303a1-1d16-42e7-92d0-ac7f0c3329b7">
       Сальников просит погорелый.
      </p>
-     <p id="70c48a5c-00a3-44e9-89ee-8e7abb030c93">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="5b37ba3c-233a-45d7-bc33-c7515fa79ba9">
       Наука — грубый матерьялизм.
       <ref target="#note498">
@@ -11304,9 +10335,7 @@
       </note>
       —
      </p>
-     <p id="0aa142c9-8cc5-4fbb-84b8-3ac0a9c0fa1a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="10d054a0-8878-4091-acc0-04b77ba45b5e">
       Искусство —
       <choice original_editorial_correction="чу[вство]">
@@ -11322,9 +10351,7 @@
      <p id="834ff8c6-3d15-4f20-9210-bef3f737c967" rend="pages2">
       <pb n="291"/>
      </p>
-     <p id="9958e5c1-bd12-417e-9bd3-c88d15d80b19">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="120dc019-2734-4f0b-93ce-0755e6d8d767">
       Никифорову —
      </p>
@@ -11348,9 +10375,7 @@
       </choice>
       просит.
      </p>
-     <p id="432b43c7-5961-4eee-aabc-23c7baea2035">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="098dad70-39aa-4492-8a0f-31cb968ce970">
       Фекла из
       <choice original_editorial_correction="Хмелев[ого]">
@@ -11363,9 +10388,7 @@
       </choice>
       просит помочь.
      </p>
-     <p id="f937992b-4bfd-4345-b033-1fe03aac2a39">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="16d3728e-4b21-4a10-b872-c2c88f238b0e">
       Искусство, дойдя до совершенства, делается космополитическим — всем доступным.
       <ref target="#note499">
@@ -11375,9 +10398,7 @@
        Ср. Дневник 1896 г., 6 ноября, 2, и 20 октября, 6.
       </note>
      </p>
-     <p id="9b449f6b-69b6-4d88-a441-757635e98fa3">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9355d29a-0bda-4394-a5f7-42e6c58551b1">
       Утонченность в искусстве и сила искусства — всегда диаметрально
       <choice>
@@ -11396,9 +10417,7 @@
        Ср. Дневник 1896 г., 6 ноября, 3, и 20 октября, 4.
       </note>
      </p>
-     <p id="dfc7a985-d4cc-4487-b7f5-efcadee47f95">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9ec0280a-be9f-4fd8-b010-5e3af4973187">
       Консерватизм в том..........
       <ref target="#note501">
@@ -11408,9 +10427,7 @@
        Ср. Дневник 1896 г., 6 ноября, 4.
       </note>
      </p>
-     <p id="89dd0b5f-2876-49d3-b6ba-cce59f9a26ff">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="c87cecd3-71e6-4f28-9201-fb6255d525d8">
       Филип
       <choice original_editorial_correction="Дмитр[иев?]">
@@ -11431,15 +10448,11 @@
       </choice>
       на балку.
      </p>
-     <p id="e0074185-39eb-4b82-8ae0-34dc7f5681f7">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ae531bdf-c06c-4147-a2df-de10b45339e6">
       Как я глупый поправляю себя умного.
      </p>
-     <p id="31b42bc1-31e9-444c-b09d-38b4db580094">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="693c4e28-3779-4ef9-b71e-80a75bee9c6e">
       Семен Ульянов просит
       <choice original_editorial_correction="женит[ься]">
@@ -11452,9 +10465,7 @@
       </choice>
       .
      </p>
-     <p id="bfd8ae5a-92ec-4282-912e-e442b1900eb2">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="74523488-8dd2-464e-a402-a00a2e9e4eff">
       Леон Петров Корякин,
       <choice original_editorial_correction="Окружн[ой]">
@@ -11476,15 +10487,11 @@
       </choice>
       1896 № 270 р. 70.
      </p>
-     <p id="584231bb-130c-444e-9cd7-77b729a2ff7d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6c1214ea-3b0e-410e-a809-93598344b2c8">
       Адриану Новикову место — — —
      </p>
-     <p id="0ac7302b-3930-498c-9600-4f5b4ccf8d1e">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="cc113055-48a9-4c7d-b166-0cc76ceafb5b">
       Тула.
       <choice original_editorial_correction="Штыков[ая]">
@@ -11497,9 +10504,7 @@
       </choice>
       ул. д. Ермаковой. Ив. Новикову.
      </p>
-     <p id="12356645-252e-4c18-82d1-7e821f133d56">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e9becc0b-39d7-4969-bfbe-7839106708f8">
       Вдова из Воздремы Марья
       <choice original_editorial_correction="Федор[овна]">
@@ -11521,15 +10526,11 @@
       </choice>
       помощь —
      </p>
-     <p id="e57c48cb-69ed-419b-8408-a72b0f9cceac">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a49a75fc-3446-45ac-8cb0-367594fcce25">
       Лука Степанов в Мясоедове.
      </p>
-     <p id="386399b6-a395-45d0-88c0-ffb3ca0af360">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3e213179-1923-45c6-9dae-7a7b6beb9776">
       Как дойдет, так
       <choice original_editorial_correction="красноре[чие]">
@@ -11550,9 +10551,7 @@
        </corr>
       </choice>
      </p>
-     <p id="07d2486b-ce71-4c9a-ba57-41b8e0c98cfb">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="14149c5f-740a-4061-bbe1-c8e6fea89042">
       Гюль-салим, Мариам
       <hi>
@@ -11588,9 +10587,7 @@
      <p id="b34974e9-021d-4216-a98e-57dafa882016">
       Автуры.
      </p>
-     <p id="9e397137-29cb-4624-9f08-be470332827a">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="12252730-bfb6-429c-8a50-4963bff6fc1d">
       Отчего приятно, успокоительно пахать (?)
       <choice original_editorial_correction="П[отому]">
@@ -11626,15 +10623,11 @@
        Ср. Дневник 1896 г., 20 октября, 7, и 2 ноября.
       </note>
      </p>
-     <p id="a7f5ecb4-f3a6-4a0b-a1b4-c8739bf27d98">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="88297624-d54b-44f6-b310-8ca07d86686f">
       Олсуфьеву о Новикове старшине.
      </p>
-     <p id="0e153a63-c429-4190-a3f5-41f51dd747f3">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="df40eff1-6671-4c43-bff3-ad4a724c53c2">
       Михеев Сергей
       <choice original_editorial_correction="крестьян[ин]">
@@ -11654,15 +10647,11 @@
        </corr>
       </choice>
      </p>
-     <p id="26836497-052a-4971-b086-81ce021d50ac">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ef7f5b37-417e-4fc9-9fbe-124b36329426" rend="center">
       <graphic url="TEI/images/vol53_b00003216.png"/>
      </p>
-     <p id="7965c665-6dbb-4ffd-8928-5ba47d4f8546">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e2e42e57-8044-40b6-9023-9787d0eb42d5" rend="pages2">
       <pb n="293"/>
      </p>
@@ -11673,9 +10662,7 @@
       </ref>
       в газе — к Давыдову.
      </p>
-     <p id="463ed149-dd85-4869-8e56-f8ad817f1644">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4f2686ca-ca94-44d4-89c6-4b65174b9f33">
       Книги для
       <choice original_editorial_correction="чтен[ия]">
@@ -11688,9 +10675,7 @@
       </choice>
       Булыгиной.
      </p>
-     <p id="4ade720d-3305-496b-aba5-dda5bcfb2fe7">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6b6607cb-1c71-43ca-a09e-f8f48e78d4fe">
       Бог — один.
       <ref target="#note504">
@@ -11700,9 +10685,7 @@
        Ср. Дневник 1896 г., 16 ноября, 1.
       </note>
      </p>
-     <p id="b3063cf1-99b9-497e-86f3-2e917c82558b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ca41a8b4-73bb-48ff-9728-89faf4b4904b">
       Всё, но не в том виде,
       <choice original_editorial_correction="п[отому]">
@@ -11768,9 +10751,7 @@
        Ср. Дневник 1896 г., 22 ноября, 2.
       </note>
      </p>
-     <p id="567beac5-883c-4c8e-b1d0-bd678faefed5">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f2c34f86-d313-407b-8672-34e6ff9a027f">
       Испытывают болезненные эмоции и от Вагнера — я такие испытываю от
       <choice original_editorial_correction="Бетхов[ена]">
@@ -11807,9 +10788,7 @@
        Ср. Дневник 1896 г., 20 декабря, 2
       </note>
      </p>
-     <p id="40af984d-5d5e-403a-ba88-d0b91715d42f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1f548d9e-204a-4b33-a435-7c39bfb9c4ef">
       Все
       <choice original_editorial_correction="притворяют[ся]">
@@ -11822,15 +10801,11 @@
       </choice>
       , только дать им ход.
      </p>
-     <p id="92d4895c-5b71-4143-b347-a8c44fd9efa0">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f8384945-5cdd-425f-a3b2-4933fb25ad54">
       Гастева Прохора просит на бедность.
      </p>
-     <p id="296daa68-b54b-4e18-b7cc-bba3e8136b44">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b09137bb-852e-4dee-a88b-34ee794352f7">
       Маня научила меня — жизнь только подвиг — дело делать в себе и вне себя.
       <ref target="#note508">
@@ -11840,9 +10815,7 @@
        Ср. Дневник 1896 г., 27 ноября, 2.
       </note>
      </p>
-     <p id="3882c0ea-b8bb-46b1-be07-faf86e66ae35">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b2cd72b3-2d69-4724-bb9e-61724af0db37">
       Эгоизм искусства — безумие.
       <ref target="#note509">
@@ -11852,9 +10825,7 @@
        Ср. там же, 3.
       </note>
      </p>
-     <p id="a8bea137-3b0f-4e0a-8eea-27611b0ff5f8">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="fc9193fd-4718-4d2b-bd43-6d8cb0f8857b">
       Сенсуалисты — самоограничение для целей психологии, но не годится для мировоззрения.
       <ref target="#note510">
@@ -11864,9 +10835,7 @@
        Ср. Дневник 1896 г., 20 декабря, 3.
       </note>
      </p>
-     <p id="016eb59a-24b0-4e34-8c12-f8674d91691b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4fb070a2-0093-4b40-8b8f-a960817c8af3">
       Авторитеты в искусстве.
       <ref target="#note511">
@@ -11879,9 +10848,7 @@
      <p id="6f6de7cd-1fdf-4379-8a9e-08979ce2c69c" rend="pages2">
       <pb n="294"/>
      </p>
-     <p id="54f52652-f8b7-4d9d-91b7-9eef7656799f">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f4fbab02-7058-4f8c-bf88-8b09a32aae4c">
       Это не история музыки
       <choice original_editorial_correction="п[отому]">
@@ -11918,9 +10885,7 @@
        Ср. Дневник 1896 г., 20 декабря, 5.
       </note>
      </p>
-     <p id="7886d7c8-5a44-4c5b-9f50-ad69c049b283">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="f0ac721a-dd37-4909-85e9-3b688418319e">
       Чувствуя свое бессилие в своем искусстве, музыка прибегает к описаниям, контрапункту, фуге, иллюстрации.
       <ref target="#note513">
@@ -11931,9 +10896,7 @@
       </note>
       —
      </p>
-     <p id="970e6c69-a9c5-4228-b293-1a4f9679ff97">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1c81a980-a555-4c6f-8800-3080ddbbb9de">
       Потому было хорошо в церкви, что в церкви оно
       <choice original_editorial_correction="б[ыло]">
@@ -11988,9 +10951,7 @@
        Ср. там же, 8.
       </note>
      </p>
-     <p id="b1f940ad-a321-4e05-8b3c-686059dd6cbe">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="bacafcdf-4eb5-4e9a-9d3d-41e512f9002b">
       История музыки написана по тому плану, чтобы показать, как она дошла до теперешнего безобразия.
       <ref target="#note516">
@@ -12000,9 +10961,7 @@
        Ср. там же, 9.
       </note>
      </p>
-     <p id="df832a12-e44c-4d53-9841-0206a51baf27">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="3c021144-283c-4fe4-9fc6-425aad0ed647">
       Вера в авторитеты делает то, что ошибки авторитетов берут за образцы.
       <ref target="#note517">
@@ -12012,9 +10971,7 @@
        Ср. там же, 10.
       </note>
      </p>
-     <p id="a77e660e-1e2e-44e0-90aa-5bfa87de98ae">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="e754cbd5-37bd-45a2-978e-34ec92818e8f">
       Ария Баха — как слова могут ей
       <choice original_editorial_correction="отвеч[ать]">
@@ -12033,9 +10990,7 @@
        Ср. там же, 11.
       </note>
      </p>
-     <p id="3c5dd42a-5308-4ce2-9754-3fb861ca0728">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="087ad4bb-f25a-4404-bf61-83e885cadb6c">
       <choice original_editorial_correction="Антифо[ния]">
        <sic>
@@ -12092,9 +11047,7 @@
      <p id="6a14f8f4-54c7-4579-ad80-5b4a88001e77">
       4) Песня. Опера. Кантата.
      </p>
-     <p id="77ee5f5e-6692-487c-b437-a8fd0770c3e6">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="66c3b2da-2ba0-4544-8a87-64cd339961b3">
       Не могу верить, чтобы их уже не было.
       <ref target="#note519">
@@ -12104,9 +11057,7 @@
        Ср. там же, 12.
       </note>
      </p>
-     <p id="5527f010-c3d5-499e-b98c-0d57ec5512d7">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="fae8d7d4-d307-471a-9c1b-b064c70ed65d">
       <hi>
        Харибда и Сцилла:
@@ -12124,9 +11075,7 @@
      <p id="2623f25d-31f2-43af-9d1b-0382d59e5317" rend="pages2">
       <pb n="295"/>
      </p>
-     <p id="3a8926d0-3ec5-49d1-ab78-0af24faf6371">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9c802e92-d3d1-4c06-a2af-7fccd367cd6b">
       У греков (
       <choice original_editorial_correction="искусствен[ность]">
@@ -12203,9 +11152,7 @@
       </choice>
       , башкиры.
      </p>
-     <p id="59931c6a-285f-41e3-87a4-6fe085f8cfcb">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="30027e6b-bade-47d3-8560-0f69fbfde3d3">
       В поэзии народной готовятся Крестовые походы, потом реформации.
       <ref target="#note522">
@@ -12233,9 +11180,7 @@
        Ср. там же, 15.
       </note>
      </p>
-     <p id="8546b103-6fe7-4178-b3c1-2009847f58ff">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="65e7efa9-7a0f-432c-a344-b400eb59c2a7">
       Во всех искусствах выражается борьба
       <choice original_editorial_correction="языч[ества]">
@@ -12257,9 +11202,7 @@
       </choice>
       .
      </p>
-     <p id="7741f45a-a4eb-4bae-a6f1-2efe8ed9d8c1">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="b234b23c-ff1a-4245-952b-8c8df80357a3">
       Требования
       <choice original_editorial_correction="христ[ианства]">
@@ -12296,9 +11239,7 @@
        Ср. Дневник 1896 г., 20 декабря, 16.
       </note>
      </p>
-     <p id="6a61c9b7-9258-4978-8988-e7425a4f5f25">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="247ff39f-5519-498e-9ed9-b1590d1f324e">
       Причины
       <choice original_editorial_correction="уничтожен[ия]">
@@ -12325,9 +11266,7 @@
        Ср. там же, 17.
       </note>
      </p>
-     <p id="2a99162b-6326-4cad-9b0a-872cf05c53af">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ad9be122-4709-4f05-8fd3-00618691189a">
       Почувствовал тоску по своей
       <choice original_editorial_correction="лично[сти]">
@@ -12346,9 +11285,7 @@
        Ср. Дневник 1896 г., 15 декабря.
       </note>
      </p>
-     <p id="2b3ed948-4097-4343-bf6f-e67ac7a2d745">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="66ef59e5-cada-4d23-bb70-3369f2021168">
       И
       <choice original_editorial_correction="перегород[ки]">
@@ -12375,9 +11312,7 @@
        Ср. Дневник 1896 г., 20 декабря, 18.
       </note>
      </p>
-     <p id="072f97a6-74b6-4588-a55b-80eb57eb23e6">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="ac35d6f0-47ab-4d6d-b556-35ad8a048bc7" rend="petit">
       Арбат. Спасопесковский пер. дом Страховых, кв. № 12. Тимашев — Беринг.
       <ref target="#note529">
@@ -12387,18 +11322,14 @@
        Написано неизвестной рукой.
       </note>
      </p>
-     <p id="8b3c8f9d-be04-41ed-a54e-713b5dc5bb68">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="d566aab2-f6b7-41c7-b635-dc3059e51dc9">
       После смерти по важности и прежде смерти по времени нет ничего важнее, безвозвратнее брака.
      </p>
      <p id="588b17ea-826d-4a4d-919c-f64311af3a3f" rend="pages2">
       <pb n="296"/>
      </p>
-     <p id="495612a9-ef97-4bf2-be62-9a89948b7eb4">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="7043a3b6-d20d-454f-b7e1-f32f35d33635">
       И так же, как смерть только тогда хорошо, когда она неизбежна, а всякая нарочная смерть так же, как и нарочный брак, зло.
       <ref target="#note530">
@@ -12408,9 +11339,7 @@
        Ср. Дневник 1896 г., 20 декабря, 19.
       </note>
      </p>
-     <p id="92426e69-2495-4e69-8563-75a42033def3">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="497f3271-d4aa-42a7-b59a-75445c024b05">
       Ренегатство происходит от того, что делалось для людей, а не для себя и для Бога. От того же и как будто охлаждение,
       <choice original_editorial_correction="к[оторое]">
@@ -12456,9 +11385,7 @@
        Ср. там же, 21.
       </note>
      </p>
-     <p id="921df22c-343e-4df6-ac57-567d3b0fa250">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="11606688-a2b4-42d3-ba80-5d1e5b222641">
       Мельницкий Петр Федорович взял
       <choice original_editorial_correction="Царст[во]">
@@ -12499,9 +11426,7 @@
       </choice>
       область Кагызман.
      </p>
-     <p id="aa45ca5e-88e3-4d01-9992-7e06d1503ce8">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="32ab9329-a477-47ae-b038-619f57c16af4">
       В Хунзахе
       <choice original_editorial_correction="стар[ый]">
@@ -12522,9 +11447,7 @@
       </choice>
       дворец обращен в казарму.
      </p>
-     <p id="dc83b6e5-c085-4902-a04a-7c0976fbd488">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="9e11a593-bb0b-43de-9622-d63451198878">
       <choice original_editorial_correction="Турлучн[ый]">
        <sic>
@@ -12545,27 +11468,19 @@
       </choice>
       глиной.
      </p>
-     <p id="25178d73-ea3f-42d9-ad26-50a705229100">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="59ca02ba-b962-4670-b1c2-006afa4ac98e">
       Саманный кирпич.
      </p>
-     <p id="eefd8354-ede6-4c02-9386-0e9d7034e1a4">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="28c89059-ad26-49ac-9a3e-3919963c1bf0">
       С матерью ходил за дровами.
      </p>
-     <p id="87907d57-2548-44d5-95e3-6ac89fe4139d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="840d060c-561f-4f05-9f08-86f643299fdb">
       Требование русских властей чинить дорогу.
      </p>
-     <p id="689fd637-e7a1-4a0c-a83c-67f4a67b20bf">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="efc5beb3-4fcc-4346-af16-7ad98a66e942">
       25 — проповеди Кази Муллы.
      </p>
@@ -12622,9 +11537,7 @@
      <p id="66ae13d6-b012-4378-8c76-0612d04818a0" rend="pages2">
       <pb n="297"/>
      </p>
-     <p id="d3fe3f17-95e4-40a0-a5e0-cd5983705a9d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="c29c5e60-d1db-4075-813b-6501c4c2142f">
       Ахмет Хан Аварский,
       <choice original_editorial_correction="генер[ал]">
@@ -12649,24 +11562,18 @@
      <p id="5cb96129-4ee3-4c38-971a-9fa574404adf">
       Гасан, брат Ахмет Хана.
      </p>
-     <p id="378b772b-2112-46a0-b56c-f30782254b6b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="48e5bb67-3ee1-49da-ac37-d2ee146297fa">
       Ходит в каракуле во время жатвы.
      </p>
-     <p id="c20ae3e2-5755-4ffa-a78c-b41a2519dab6">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2e577185-798d-4d06-8390-2ea036f7db3e">
       Папаха, новый воротник.
      </p>
      <p id="66e5e441-fa41-492a-babe-e805fdd61a28">
       Приносят траву, сушат на крыше и там же спят.
      </p>
-     <p id="4a4d4f07-7c2b-49db-8526-4004f6aa0af5">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8a61e43f-6382-4f4b-ab05-de63143c0261">
       У женщин желтые штаны и красные,
       <choice original_editorial_correction="сафьян[ные]">
@@ -12679,18 +11586,14 @@
       </choice>
       сапоги.
      </p>
-     <p id="04d980aa-5588-400f-a060-01b7be64562b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="738f60e5-2364-439f-b811-27724e5e1a31">
       Перетаскивают снопы.
      </p>
      <p id="9e653245-b01d-49ea-94ed-975199be6a6f" rend="center">
       <graphic url="TEI/images/vol53_b00003328.png"/>
      </p>
-     <p id="58c375e0-39e1-4732-bb84-d63f852fc3e1">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="26c76fe2-5a18-467a-a8f8-b965fb2b21c7">
       Даллай —
       <choice original_editorial_correction="весела[я]">
@@ -12711,9 +11614,7 @@
       </choice>
       песня.
      </p>
-     <p id="4728ba21-0b55-40de-a64e-c3271f5254c3">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="97997ed3-56b4-4046-9119-7fa33b6c3c0a">
       Из ущелья выходит пар и разошелся по горам — видны только
       <choice original_editorial_correction="верши[ны]">
@@ -12726,15 +11627,11 @@
       </choice>
       , а потом скрылись вершины.
      </p>
-     <p id="1ea620f0-76a0-4d45-bc57-a3f2e4f5badf">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="c96a30d2-6bbb-4172-ab24-6870f2fa47b9">
       Злые собаки. Улашин.
      </p>
-     <p id="3e812831-b7c4-43e2-93df-cbddd0f4c9b8">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8674da99-606f-418b-ac7d-63a7b12b8490">
       Красные шаровары,
       <choice original_editorial_correction="желт[ые]">
@@ -12747,15 +11644,11 @@
       </choice>
       сапоги, серосиние бешметы с красным лестовиком, обшитые на груди монетами, и платок на голове, обвязанный по-египетски.
      </p>
-     <p id="28bb8e3f-8d13-4df0-817a-052c036d9cdc">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="a62d112f-a863-4cf9-acc2-6264982b8a5f">
       Для народа.
      </p>
-     <p id="aa5cc15a-4ec9-45e8-b0df-862ca09d637d">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="09882afb-e6b3-48f7-9c01-ce133f302940">
       Всё от солдатства и ни на что оно не нужно.
       <ref target="#note533">
@@ -12765,9 +11658,7 @@
        Ср. Дневник 1897 г., 5 января, 1.
       </note>
      </p>
-     <p id="78e8c0ec-eef9-476c-a48c-5b1392c80485">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="2fb64fb5-9281-43e1-a2e7-28445c46fcb1">
       Но не это важно, а важно то, что губишь душу.
       <ref target="#note534">
@@ -12780,9 +11671,7 @@
      <p id="21556ebe-5e6f-4f4c-9542-278ae899984b" rend="pages2">
       <pb n="298"/>
      </p>
-     <p id="984541d3-2b92-4b2e-b0e2-39d343c26f1c">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="96263071-fdce-43ed-9968-de866c1e3b4c">
       Записки сумашедшего: Сыновность Богу, братство. И полное сумашествие.
       <ref target="#note535">
@@ -12792,9 +11681,7 @@
        Ср. Дневник 1896 г., 26 декабря, и 1897 г., 5 января, 2.
       </note>
      </p>
-     <p id="8146f71c-c7d4-46e3-aeb9-e5bf5bafbb46">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="515dd056-1797-4d3a-8fc1-bc77e885e6de">
       Краснов взял Патриотизм или мир, письмо Кросби, письмо
       <choice original_editorial_correction="Попо[ва]">
@@ -12825,9 +11712,7 @@
        Ср. Дневник 1897 г., 5 января, 3.
       </note>
      </p>
-     <p id="d5b24d3c-6181-4817-acdb-abebb2b63800">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="0885887d-e0cd-4749-a363-d0a522b06a33">
       Кристал
       <choice original_editorial_correction="сложит[ся]">
@@ -12855,9 +11740,7 @@
        Ср. там же, 4.
       </note>
      </p>
-     <p id="ea5cf320-5184-4484-844a-ab0fc637dec2">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="1df97d77-5c9a-44cf-8679-512b70f0182f">
       Предисловие к Шпиру.
      </p>
@@ -12879,9 +11762,7 @@
        Ср. там же, 5.
       </note>
      </p>
-     <p id="a32bba9a-2ea4-4692-a373-c3c903884e08">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="4acacde8-56ef-4236-b079-7f174953451f">
       С другой стороны: зрение и слух дают мне иллюзию человека — в зеркале. Я подхожу и трогаю, и третье чувство осязания исправило ошибку —
       <choice original_editorial_correction="разруши[ло]">
@@ -12927,18 +11808,14 @@
        Ср. там же, 5.
       </note>
      </p>
-     <p id="e51f7dcd-bf14-4be8-b84d-277645605984">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="8426ceda-feb4-4362-9f1f-38f388e0f05b">
       Медоусов Евангелие и Хельчицкого.
      </p>
      <p id="2b7a86af-011c-4031-9226-2b8dd4698198" rend="pages2">
       <pb n="299"/>
      </p>
-     <p id="23c5d6fa-e629-4b8d-987b-cfd4eb61db87">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="6ec8df3b-074c-4c9c-96ec-2045bea9f3d1">
       Разница
       <choice original_editorial_correction="христианск[ого]">
@@ -12984,9 +11861,7 @@
        Ср. Дневник 1897 г., 5 января, 6.
       </note>
      </p>
-     <p id="de947271-4b0d-4276-ac6c-7d5870c01bc2">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="c5a82e04-e264-437c-b0a5-763e3261af12">
       Влад. Федор.
       <choice original_editorial_correction="Лазур[ский]">
@@ -13013,9 +11888,7 @@
      <p id="fe2e7ea2-1c9a-455e-91f3-1eb3dfd36ff4">
       L’Anarchie
      </p>
-     <p id="abfb3df2-44bb-4ff0-a8bc-0cdcca22aa8b">
-      <metamark function="line"/>
-     </p>
+     <metamark function="line"/>
      <p id="37a4323e-1559-4751-88bf-bc1644998440">
       <choice original_editorial_correction="Вороб[ьева]">
        <sic>
