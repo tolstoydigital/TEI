@@ -5,6 +5,7 @@ import re
 from uuid import uuid4
 from pprint import pprint
 
+import bs4
 from lxml import etree
 import roman
 from tqdm import tqdm
@@ -358,7 +359,7 @@ def change_tags(root: etree._Element) -> None:
 
     # ref around notes to a
     ref_tags = [t for t in root.xpath('//ns:ref', namespaces={'ns': XMLNS})
-                if 'target' in t.attrib and t.attrib['target'].startswith('#note')]
+                if 'target' in t.attrib and 'note' in t.attrib['target']]
     for tag in ref_tags:
         ref_id = tag.attrib['target'].strip('#')
         tag.tag = 'a'
@@ -729,6 +730,31 @@ def fix_spaces_in_neighbour_texts(left_text: str, right_text: str,
     return left_text, right_text
 
 
+def make_page_per_letter(content: str) -> str:
+    soup = bs4.BeautifulSoup(content, 'xml')
+
+    for page_marker in soup.find_all('pb'):
+        assert not page_marker.text.strip(), '<pb> has contents in it'
+        page_marker.decompose()
+
+    current_page = 1
+    
+    for letter in soup.find_all('div', attrs={'type': 'letter'}):
+        page_marker = soup.new_tag('pb', attrs={'n': current_page})
+        letter.insert(0, page_marker)
+        current_page += 1
+    
+    modified_content = soup.prettify()
+    
+    etree.fromstring(modified_content.encode())
+
+    marked_pages = [page_marker.attrs['n'] for page_marker in soup.find_all('pb')]
+    number_of_letters = len(soup.find_all('div', attrs={'type': 'letter'}))
+    assert marked_pages == list(range(1, number_of_letters + 1)), 'Weird page number ordering'
+
+    return modified_content
+
+
 def main():
     uuids = get_all_uuids(REPO_TEXTS_PATH)
     rare_words_ids = get_ids_from_catalogue(DICTIONARY_PATH, r'<word xml:id="(.*?)">')
@@ -745,10 +771,18 @@ def main():
             
             if not filename.endswith('.xml'):
                 continue
-            
-            with open(Path(path, filename), 'rb') as file:
-                parser = etree.XMLParser(recover=True)
-                root = etree.fromstring(file.read(), parser)
+
+            parser = etree.XMLParser(recover=True)
+
+            if filename == 'tolstaya-s-a-letters.xml':
+                with open(Path(path, filename), 'r') as file:
+                    file_content = file.read()
+                    file_content = make_page_per_letter(file_content)
+                    root = etree.fromstring(file_content.encode(), parser)
+            else:
+                with open(Path(path, filename), 'rb') as file:
+                    parser = etree.XMLParser(recover=True)
+                    root = etree.fromstring(file.read(), parser)
 
             add_uuids_to_existing_p_and_l(root, uuids)
             fix_roman_digits_in_page_range(root)
