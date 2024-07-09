@@ -20,6 +20,7 @@ def main():
     # add_iso_to_dateline_dates()
     # wrap_datelines_into_openers()
     add_biodata_title()
+    add_bibl_title()
     add_catref_literature_biotopic()
     convert_creation_date_to_calendar_format()
     add_editor_date()
@@ -184,6 +185,28 @@ def add_biodata_title():
         biodata_title.append(soup.new_string("Записки А. Б. Гольденвейзера"))
 
         title_stmt.append(biodata_title)
+
+        IoUtils.save_textual_data(soup.prettify(), path)
+
+
+def add_bibl_title():
+    documents_paths = get_all_documents_paths()
+
+    for path in tqdm(documents_paths):
+        content = IoUtils.read_as_text(path)
+        soup = bs4.BeautifulSoup(content, "xml")
+
+        if soup.find("title", attrs={
+            "type": "bibl",
+        }):
+            continue
+
+        id_title = soup.find("title", attrs={"xml:id": True})
+        assert id_title, f"<title @xml:id> not found in {path}"
+
+        bibl_title = soup.new_tag("title", attrs={"type": "bibl"})
+        bibl_title.append(soup.new_string("Гольденвейзер А. Б. Вблизи Толстого. Воспоминания (Записки за пятнадцать лет). М.: Захаров, 2002."))
+        id_title.insert_after(bibl_title)
 
         IoUtils.save_textual_data(soup.prettify(), path)
 
