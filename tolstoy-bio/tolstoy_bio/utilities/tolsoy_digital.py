@@ -16,7 +16,10 @@ class TolstoyDigitalUtils:
     def check_if_two_dates_have_two_week_gap_or_more(cls, iso_date_1: str, iso_date_2: str) -> bool:
         if iso_date_1 == iso_date_2 and cls.check_if_date_has_no_day(iso_date_1):
             return True
-
+        
+        if cls.check_if_date_is_year_only(iso_date_1) and cls.check_if_date_is_year_only(iso_date_2):
+            return True
+        
         date_1 = datetime.fromisoformat(iso_date_1)
         date_2 = datetime.fromisoformat(iso_date_2)
         delta = date_2 - date_1
@@ -27,10 +30,17 @@ class TolstoyDigitalUtils:
     def check_if_date_has_no_day(iso_date):
         return bool(re.match(r"^\d{4}-\d{2}$", iso_date))
     
+    @staticmethod
+    def check_if_date_is_year_only(iso_date):
+        return bool(re.match(r"^\d{4}$", iso_date))
+    
     @classmethod
     def get_period_label_given_two_dates(cls, iso_date_1: str, iso_date_2: str) -> str:
         if iso_date_1 == iso_date_2 and cls.check_if_date_has_no_day(iso_date_1):
             return "weekly"
+        
+        if cls.check_if_date_is_year_only(iso_date_1) and cls.check_if_date_is_year_only(iso_date_2):
+            return "monthly" if iso_date_1 == iso_date_2 else "yearly"
 
         date_1 = datetime.fromisoformat(iso_date_1)
         date_2 = datetime.fromisoformat(iso_date_2)
@@ -48,14 +58,17 @@ class TolstoyDigitalUtils:
 
         if start_date_iso == end_date_iso:
             year = start_date.year
+            month = start_date.month
             day = start_date.day
 
             if day:
-                month = RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE[start_date.month - 1]
-                return f"{day} {month} {year}"
+                month_label = RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE[month - 1]
+                return f"{day} {month_label} {year}"
+            elif month:
+                month_label = RUSSIAN_FULL_MONTH_LABELS[month - 1].upper()
+                return f"{month_label} {year}"
             else:
-                month = RUSSIAN_FULL_MONTH_LABELS[start_date.month - 1].upper()
-                return f"{month} {year}"
+                return f"{year}"
             
         end_date = Date.from_tei_date(end_date_iso)
 
@@ -72,6 +85,9 @@ class TolstoyDigitalUtils:
             start_month = RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE[start_date.month - 1]
             end_month = RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE[end_date.month - 1]
             return f"{start_date.day} {start_month} {start_date.year} — {end_date.day} {end_month} {end_date.year}"
+        
+        if start_date.year != end_date.year and not start_date.month and not end_date.month:
+            return f"{start_date.year} — {end_date.year}"
         
         raise ValueError(f"Unexpected date range from {start_date_iso} to {end_date_iso}");
 
