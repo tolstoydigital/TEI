@@ -755,11 +755,23 @@ def make_page_per_letter(content: str) -> str:
     return modified_content
 
 
+def remove_invalid_xml_ids(content: str) -> tuple[str, int]:
+    nc_name_pattern = re.compile(r"^[a-zа-яё][a-zа-яё0-9_.-]*$")
+
+    def processor(match: re.Match):
+        value = match.group(1)
+        return match.group(0) if nc_name_pattern.match(value) else ""
+
+    return re.subn(r'\sxml:id="(.*?)"', processor, content)
+
+
 def main():
     uuids = get_all_uuids(REPO_TEXTS_PATH)
     rare_words_ids = get_ids_from_catalogue(DICTIONARY_PATH, r'<word xml:id="(.*?)">')
     person_ids = get_ids_from_catalogue(PERSON_LIST_PATH, r'<person id="(.*?)">')
     taxonomy, new_taxonomy = txnm.get_taxonomy_as_dict(TAXONOMY_PATH), txnm.get_taxonomy_as_dict(NEW_TAXONOMY_PATH)
+
+    total_xml_id_fix_count = 0
 
     for path, _, files in os.walk(REPO_TEXTS_PATH):
         for filename in tqdm(files):
@@ -781,7 +793,6 @@ def main():
                     root = etree.fromstring(file_content.encode(), parser)
             else:
                 with open(Path(path, filename), 'rb') as file:
-                    parser = etree.XMLParser(recover=True)
                     root = etree.fromstring(file.read(), parser)
 
             add_uuids_to_existing_p_and_l(root, uuids)
@@ -803,15 +814,18 @@ def main():
             text = etree.tostring(root, encoding='unicode')
             text = f"<?xml version='1.0' encoding='UTF-8'?>\n{text}"
 
+            text, xml_id_fix_count = remove_invalid_xml_ids(text)
+            total_xml_id_fix_count += xml_id_fix_count
+
             # check that xml is valid
-            parser = etree.XMLParser(recover=True)
-            etree.fromstring(text.encode(), parser)
+            etree.fromstring(text.encode())
 
             saving_path = RESULT_PATH / Path(*Path(path).parts[2:], filename)
             saving_path.parent.mkdir(parents=True, exist_ok=True)
             saving_path.write_text(text)
     
     validate()
+    print(f'Number of invalid xml:id removals: {total_xml_id_fix_count}')
 
 
 def validate():
