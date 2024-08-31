@@ -192,7 +192,6 @@ class RecordProcessor:
         source_element = source_elements[0]
         tei_header.append(deepcopy(source_element))
 
-        # TODO: согласовать обработку случаев, где контент _Comment разделён на абзацы через пустую строку.
         comment_elements = self.source_soup.find_all("_Comment")
         assert len(comment_elements) == 1, f"Zero or more than one <_Comment> has been found in {self.record.source_path} at position {self.record.index}"
         
@@ -245,11 +244,20 @@ class RecordProcessor:
         id_title = self.output_soup.new_tag("title", attrs={'xml:id': self.document_id})
         title_stmt.append(id_title)
 
-        bibl_title = self.output_soup.new_tag("title", attrs={'type': 'bibl'})
-        bibl_title.append(self.output_soup.new_string("Гусев Н. Н. Летопись жизни и творчества Льва Николаевича Толстого: в 2 тт. М.: Гослитиздат, 1958–1960."))
+        bibl_title = self._build_bibl_title()
         title_stmt.append(bibl_title)
 
+        biodata_title = self.output_soup.new_tag("title", attrs={'type': 'biodata'})
+        biodata_title.append(self.output_soup.new_string("Летопись жизни и творчества Л.Н. Толстого. Н.Н. Гусев"))
+        title_stmt.append(biodata_title)
+
         return title_stmt
+    
+    def _build_bibl_title(self) -> bs4.Tag:
+        bibl_title = self.output_soup.new_tag("title", attrs={'type': 'bibl'})
+        bibl_title_text = f"Гусев Н. Н. Летопись жизни и творчества Льва Николаевича Толстого: в 2 тт. Т. {self.volume_number}. М.: Гослитиздат, 1958–1960."
+        bibl_title.append(self.output_soup.new_string(bibl_title_text))
+        return bibl_title
 
     def _build_source_desc(self) -> bs4.Tag:
         source_desc = self.output_soup.new_tag("sourceDesc")
