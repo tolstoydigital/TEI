@@ -11,6 +11,7 @@ from tolstoy_bio.utilities.dates import RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CA
 from .record import Record
 from .date_elements_builder import DateElementsBuilder
 from .date_elements_builder_2 import DateProcessor, Date, DateRange
+from .record_id_manager import RecordIdManager
 
 
 TEMPLATE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "template.xml")
@@ -78,11 +79,12 @@ class RecordDateParser:
 
 
 class RecordProcessor:
-    def __init__(self, record: Record):
+    def __init__(self, record: Record, record_id_manager: RecordIdManager):
         self.record = record
         self.source_soup = deepcopy(record.soup)
         self.output_soup = BeautifulSoupUtils.create_soup_from_file(TEMPLATE_PATH, "xml")
         self.date_parser = RecordDateParser(record)
+        self.record_id_manager = record_id_manager
 
     @cached_property
     def fragment_filename(self) -> str:
@@ -139,8 +141,8 @@ class RecordProcessor:
         element = elements[0]
         return re.sub(r"\s+", " ", element.text.strip())
 
-    @lru_cache
-    def generate_id(self):
+    @cached_property
+    def document_id(self):
         # if True:
         #     fragment_name = os.path.basename(self.record.source_path).replace(".xml", "")
         #     return f"gusev_v1_{fragment_name}_{self.record.index}"
@@ -154,29 +156,9 @@ class RecordProcessor:
             self.date_parser.get_last_date_as_tei().replace("-", "_"),
         ]
 
-        return "_".join(components)
+        return self.record_id_manager.generate_based_on("_".join(components)) 
     
     def convert_to_tei(self, saving_path: str) -> None:
-        date = self.date_label
-
-        from tolstoy_bio.utilities.dates import RUSSIAN_FULL_MONTH_LABELS, RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE, RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE_TO_MONTH_NUMBER
-
-        nm = f"({'|'.join(RUSSIAN_FULL_MONTH_LABELS)})"
-        gm = f"({'|'.join(RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE)})"
-        m = f"({'|'.join([*RUSSIAN_FULL_MONTH_LABELS, *RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE])})"
-
-
-
-
-
-        date = re.sub(rf"{m}", "M", date, flags=re.I)
-        date = re.sub(r"\d{1,2}", "D", date, flags=re.I)
-        date = re.sub(r"\d{4}", "Y", date, flags=re.I)
-        date = re.sub(r"\(\?\)", "Q", date, flags=re.I)
-
-
-
-        
         self._build_tei_stub()
         self._build_tei_header()
         self._format_and_save_tei(saving_path)
@@ -244,13 +226,13 @@ class RecordProcessor:
 
         main_title = self.output_soup.new_tag("title", attrs={'type': 'main'})
         main_title.append(self.output_soup.new_string("Гусев Н.Н. Летопись жизни и творчества Л.Н. Толстого"))
+        title_stmt.append(main_title)
 
-
+        id_title = self.output_soup.new_tag("title", attrs={'xml:id': self.document_id})
+        title_stmt.append(id_title)
 
         bibl_title = self.output_soup.new_tag("title", attrs={'type': 'bibl'})
         bibl_title.append(self.output_soup.new_string("Гусев Н. Н. Летопись жизни и творчества Льва Николаевича Толстого: в 2 тт. М.: Гослитиздат, 1958–1960."))
-
-        title_stmt.append(main_title)
         title_stmt.append(bibl_title)
 
         return title_stmt

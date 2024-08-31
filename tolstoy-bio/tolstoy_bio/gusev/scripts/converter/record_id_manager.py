@@ -10,4 +10,6 @@ class RecordIdManager:
     def generate_based_on(self, value: str):
         self.id_counter[value] += 1
         count = self.id_counter[value]
-        return value if count == 1 else f"{value}_{count}"
+
+        # TODO: согласовать логику добавления уникальных индексов
+        return value if count == 1 else f"{value}_{count - 1}"

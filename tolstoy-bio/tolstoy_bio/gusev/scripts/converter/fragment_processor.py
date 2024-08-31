@@ -24,8 +24,6 @@ class FragmentProcessor:
         ]
 
         for record in records_entities:
-            record_processor = RecordProcessor(record)
-            record_id = record_processor.generate_id()
-            record_filename = self.record_id_manager.generate_based_on(record_id)
-            saving_path = os.path.join(saving_repository_path, f"{record_filename}.xml")
+            record_processor = RecordProcessor(record, self.record_id_manager)
+            saving_path = os.path.join(saving_repository_path, f"{record_processor.document_id}.xml")
             record_processor.convert_to_tei(saving_path)
