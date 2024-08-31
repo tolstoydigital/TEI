@@ -195,10 +195,24 @@ class RecordProcessor:
         # TODO: согласовать обработку случаев, где контент _Comment разделён на абзацы через пустую строку.
         comment_elements = self.source_soup.find_all("_Comment")
         assert len(comment_elements) == 1, f"Zero or more than one <_Comment> has been found in {self.record.source_path} at position {self.record.index}"
+        
         if comment_elements:
             comment_element = deepcopy(comment_elements[0])
             comment_element.name = "note"
             comment_element.attrs = {"type": "comment"}
+
+            comment_text = comment_element.text.strip()
+
+            if comment_text:
+                comment_paragraphs = re.split(r"\s*\n{2,}\s*", comment_text)
+                comment_paragraphs = [re.sub(r"\s+", " ", text) for text in comment_paragraphs]
+
+                comment_element.clear()
+                for paragraph in comment_paragraphs:
+                    comment_paragraph = self.output_soup.new_tag("p")
+                    comment_paragraph.append(self.output_soup.new_string(paragraph))
+                    comment_element.append(comment_paragraph)
+
             tei_body.append(comment_element)
 
     def _build_tei_header(self) -> None:
