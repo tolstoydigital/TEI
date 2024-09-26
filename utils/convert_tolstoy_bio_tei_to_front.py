@@ -780,6 +780,9 @@ def main():
 
             if '__pycache__' in path:
                 continue
+
+            if "gusev" in path:
+                continue
             
             if not filename.endswith('.xml'):
                 continue
