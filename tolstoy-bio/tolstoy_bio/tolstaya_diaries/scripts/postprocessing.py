@@ -31,8 +31,9 @@ def postprocess():
     # add_editor_date()
     # mark_up_openers()
     # remove_nested_ps_in_notes()
-    wrap_unparagraphed_heads_to_p()
-    add_paragraph_ids()
+    # wrap_unparagraphed_heads_to_p()
+    # add_paragraph_ids()
+    update_title_biodata()
 
 
 def get_entry_documents_paths():
@@ -395,6 +396,22 @@ def add_paragraph_ids():
         TolstoyDigitalUtils.add_unique_ids_to_paragraphs(soup)
         IoUtils.save_textual_data(soup.prettify(), path)
 
+
+def update_title_biodata():
+    documents_paths = get_all_documents_paths()
+    
+    for path in tqdm(documents_paths, desc="update_title_biodata"):
+        soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
+        biodata_titles = soup.find_all("title", attrs={"type": "biodata"})
+
+        for biodata_title in biodata_titles:
+            biodata_title.string.replace_with({
+                "Дневник Софьи Андреевны Толстой": "Дневник С. А. Толстой",
+                "Ежедневник Софьи Андреевны": "Ежедневник С. А. Толстой"
+            }[biodata_title.text.strip()])
+        
+        IoUtils.save_textual_data(soup.prettify(), path)
+    
 
 if __name__ == '__main__':
     main()
