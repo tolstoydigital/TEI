@@ -2,8 +2,8 @@ from collections import defaultdict
 from functools import cached_property
 import os
 import re
-import shutil
 import sys
+from uuid import uuid4
 
 import pandas as pd
 from tqdm import tqdm
@@ -21,6 +21,14 @@ class DocumentFetcher:
 
     def get_path_by_filename(self, filename: str) -> str:
         return os.path.join(self._repository_path, filename)
+
+    def get_filenames(self) -> list[str]:
+        return IoUtils.get_folder_contents_names(self._repository_path)
+
+    def get_paths_with_id(self, id_: str) -> list[str]:
+        filenames = self.get_filenames()
+        filenames_with_id = [filename for filename in filenames if id_ in filename]
+        return [self.get_path_by_filename(filename) for filename in filenames_with_id]
 
 
 def preprocess_date(date: str) -> str:
@@ -114,7 +122,7 @@ def main():
 
         IoUtils.save_textual_data(document_soup.prettify(), document_path)
 
-    new_paths = set()
+    new_ids = set()
 
     for filename in tqdm(
         filename_to_start_dates.keys(),
@@ -129,7 +137,6 @@ def main():
 
         filename_parts = filename.replace(".xml", "").split("_")
         filename_stem = filename_parts[:4]
-        filename_postfix = filename_parts[-1] if len(filename_parts) == 11 else None
 
         new_filename_parts = [
             *filename_stem,
@@ -137,31 +144,62 @@ def main():
             latest_date.replace("-", "_"),
         ]
 
-        if filename_postfix:
-            new_filename_parts.append(filename_postfix)
-
         new_id = "_".join(new_filename_parts)
-        new_filename = f"{new_id}.xml"
+
+        new_ids.add(new_id)
+
+        new_filename = f"{new_id}_{uuid4()}.xml"
 
         original_path = document_fetcher.get_path_by_filename(filename)
         new_path = os.path.join(os.path.dirname(original_path), new_filename)
 
-        if new_path in new_paths:
-            print(original_path)
-            print(new_path)
-            print()
+        os.rename(original_path, new_path)
 
-        new_paths.add(new_path)
+    for new_id in tqdm(new_ids, desc="Handling duplicates"):
+        paths_with_new_id = document_fetcher.get_paths_with_id(new_id)
 
-        document_soup = BeautifulSoupUtils.create_soup_from_file(original_path, "xml")
+        for path_with_new_id in paths_with_new_id:
+            soup = BeautifulSoupUtils.create_soup_from_file(path_with_new_id, "xml")
+            source_link = soup.find("link")
+            source_link_target = source_link.attrs["target"]
+            volume_index, fragment_index = re.findall(r"\d+", source_link_target)
+            record_index = source_link.attrs["n"]
+
+            document_index = "_".join(
+                [
+                    index.zfill(4)
+                    for index in (volume_index, fragment_index, record_index)
+                ]
+            )
+
+            new_filename = f"{new_id}_{document_index}.xml"
+            new_path = document_fetcher.get_path_by_filename(new_filename)
+            os.rename(path_with_new_id, new_path)
+
+        paths_with_new_id = document_fetcher.get_paths_with_id(new_id)
+
+        for index, path_with_new_id in enumerate(sorted(paths_with_new_id)):
+            document_id = new_id if index == 0 else f"{new_id}_{index}"
+            new_filename = f"{document_id}.xml"
+            new_path = document_fetcher.get_path_by_filename(new_filename)
+            os.rename(path_with_new_id, new_path)
+
+    for filename in tqdm(
+        document_fetcher.get_filenames(), desc="Updating <title @xml:id>"
+    ):
+        path = document_fetcher.get_path_by_filename(filename)
+
+        document_soup = BeautifulSoupUtils.create_soup_from_file(path, "xml")
         id_title_elements = document_soup.find_all("title", {"xml:id": True})
-        assert (n := len(id_title_elements)) == 1, f"Unexpected number of <title @xml:id> elements: {n}"
-        id_title_element = id_title_elements[0]
-        id_title_element.attrs["xml:id"] = new_id
-        IoUtils.save_textual_data(document_soup.prettify(), original_path)
 
-        shutil.copy(original_path, new_path)
-        os.remove(original_path)
+        assert (
+            n := len(id_title_elements)
+        ) == 1, f"Unexpected number of <title @xml:id> elements: {n}"
+
+        id_title_element = id_title_elements[0]
+        id_title_element.attrs["xml:id"] = filename.replace(".xml", "")
+
+        IoUtils.save_textual_data(document_soup.prettify(), path)
 
 
 if __name__ == "__main__":
