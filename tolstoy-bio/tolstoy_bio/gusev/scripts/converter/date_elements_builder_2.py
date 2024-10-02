@@ -50,7 +50,14 @@ class Date:
                  ):
         self.year = self._encode_year(year)
         self.month = self._encode_month(month)
-        self.day = None if day is None else int(day)
+
+        if day is None:
+            self.day = None
+        elif int(day) == 37:
+            self.day = 31
+        else:
+            self.day = int(day)
+
         self.is_uncertain = is_uncertain
 
         if self.month is None and self.day is not None:

@@ -1,6 +1,7 @@
 import os
 
 from tolstoy_bio.utilities.beautiful_soup import BeautifulSoupUtils
+from tolstoy_bio.global_postprocessing.calendar_period_rules_update import update_document_calendar_period_tags
 from .record import Record
 from .record_processor import RecordProcessor
 from .record_id_manager import RecordIdManager
@@ -27,3 +28,4 @@ class FragmentProcessor:
             record_processor = RecordProcessor(record, self.record_id_manager)
             saving_path = os.path.join(saving_repository_path, f"{record_processor.document_id}.xml")
             record_processor.convert_to_tei(saving_path)
+            update_document_calendar_period_tags(saving_path)

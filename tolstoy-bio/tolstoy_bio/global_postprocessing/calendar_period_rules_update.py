@@ -133,6 +133,8 @@ def update_document_calendar_period_tags(document_path: str) -> None:
                 calendar_tag.attrs["to"]
             ) = "1905-12-31"
 
+            calendar_tag.attrs["cert"] = "medium"
+
         assert (
             start_date_string and end_date_string
         ), f"Failed to parse dates in {document_path}"

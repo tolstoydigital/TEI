@@ -218,6 +218,11 @@ class RecordProcessor:
         tei_header = self.output_soup.find("teiHeader")
         tei_header.clear()
 
+        source_tag = self.output_soup.new_tag("link")
+        source_tag.attrs["target"] = f"{self.fragment_filename}.xml"
+        source_tag.attrs["n"] = f"{self.record.index + 1}"
+        tei_header.append(source_tag)
+
         file_desc = self._build_file_desc()
         profile_desc = self._build_profile_desc()
 
