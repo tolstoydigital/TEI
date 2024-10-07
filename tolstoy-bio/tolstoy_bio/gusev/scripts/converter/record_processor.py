@@ -104,9 +104,11 @@ class RecordProcessor:
         start_page_element = start_page_elements[0]
         start_page_text = start_page_element.text.strip()
 
-        # TODO: обработать невалидные значения, например в "Данные_Том_2_Фрагмент_18.xml"
-        if self.fragment_filename not in ["Данные_Том_2_Фрагмент_18", "Данные_Том_2_Фрагмент_19"]:
+        try:
             assert re.match(r"^\d+$", start_page_text), f"Unexpected start page number format: {start_page_text} - in {self.record.source_path} at position {self.record.index}"
+        except:
+            start_page_text = self.end_page_number
+            print(f'Invalid start page number format "{start_page_text}" found at "{self.fragment_filename}".')
 
         return start_page_text
     
