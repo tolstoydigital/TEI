@@ -267,12 +267,14 @@ def change_tags(root: etree._Element) -> None:
         # теги с нестандартными периодами в виде текста
         if tag.text is not None:
             years = [i.group() for i in re.finditer(r'\d{4}', tag.text)]
-            years.sort(key=int)
-            from_year = f'{years[0]}-01-01'
-            to_year = f'{years[-1]}-12-31'
-            tag.set('from', from_year)
-            tag.set('to', to_year)
-            tag.text = None
+
+            if years:
+                years.sort(key=int)
+                from_year = f'{years[0]}-01-01'
+                to_year = f'{years[-1]}-12-31'
+                tag.set('from', from_year)
+                tag.set('to', to_year)
+                tag.text = None
 
         # для фронта удаляем when и заменяем на from и to
         if 'when' in tag.attrib:
@@ -302,10 +304,12 @@ def change_tags(root: etree._Element) -> None:
         for attr in ['from', 'to']:
             if attr in tag.attrib and re.search(r'^\d{4}-\d\d-\d\d$', tag.attrib[attr]) is None:
                 print(tag.attrib, get_title_id_from_root(root))
-        left_date = tag.attrib['from']
-        right_date = tag.attrib['to']
-        if left_date > right_date:
-            print(left_date, right_date, get_title_id_from_root(root))
+        
+        if 'from' in tag.attrib:
+            left_date = tag.attrib['from']
+            right_date = tag.attrib['to']
+            if left_date > right_date:
+                print(left_date, right_date, get_title_id_from_root(root))
 
     # cell tags to td
     cell_tags = root.xpath('//ns:cell', namespaces={'ns': XMLNS})
@@ -501,7 +505,18 @@ def fix_roman_digits_in_page_range(root: etree._Element) -> None:
         return
     
     pages_tag = pages_tags[0]
-    first, last = pages_tag.text.strip().split('-')
+    range = pages_tag.text.strip().split('-')
+
+    if len(range) == 0:
+        return
+    
+    if len(range) == 1:
+        value = range[0]
+        pages_tag.text = value if value.isnumeric() else roman.fromRoman(value)
+        return
+
+    first, last = range
+
     if not first.isnumeric() or not last.isnumeric():
         first = first if first.isnumeric() else roman.fromRoman(first)
         last = last if last.isnumeric() else roman.fromRoman(last)
@@ -596,7 +611,12 @@ def find_tag_of_nearest_right_text(tag: etree._Element, root: etree._Element) ->
 
 
 def change_taxonomy_path(root: etree._Element) -> None:
-    tag = root.xpath('//ns:include', namespaces={'ns': 'http://www.w3.org/2001/XInclude'})[0]
+    tags = root.xpath('//ns:include', namespaces={'ns': 'http://www.w3.org/2001/XInclude'})
+
+    if len(tags) == 0:
+        return
+    
+    tag = tags[0]
     tag.set('href', tag.attrib['href'].replace('taxonomy', 'taxonomy_front'))
 
 
@@ -781,7 +801,7 @@ def main():
             if '__pycache__' in path:
                 continue
 
-            if "gusev" in path:
+            if "gusev/data/source" in path:
                 continue
             
             if not filename.endswith('.xml'):
@@ -798,20 +818,24 @@ def main():
                 with open(Path(path, filename), 'rb') as file:
                     root = etree.fromstring(file.read(), parser)
 
-            add_uuids_to_existing_p_and_l(root, uuids)
-            fix_roman_digits_in_page_range(root)
-            change_epigraphs(root)
-            delete_old_orthography(root)
-            remove_tag_if_id_not_in_catalogue(root, rare_words_ids, 'ref', '@target="slovar"', 'id')
-            remove_tag_if_id_not_in_catalogue(root, person_ids, 'name', '@type="person"', 'ref')
-            wrap_unwrapped_tags_in_p_tag(root, uuids)
-            change_tags(root)
-            change_catrefs_to_catrefs_front(root, taxonomy, new_taxonomy)
-            change_taxonomy_path(root)
-            replace_self_closing_tags(root)
-            fill_empty_sic_with_asterisks(root)
-            remove_spaces_in_root(root)  # inside text/tail (not edges)
-            fix_spaces_in_root(root)
+            try:
+                add_uuids_to_existing_p_and_l(root, uuids)
+                fix_roman_digits_in_page_range(root)
+                change_epigraphs(root)
+                delete_old_orthography(root)
+                remove_tag_if_id_not_in_catalogue(root, rare_words_ids, 'ref', '@target="slovar"', 'id')
+                remove_tag_if_id_not_in_catalogue(root, person_ids, 'name', '@type="person"', 'ref')
+                wrap_unwrapped_tags_in_p_tag(root, uuids)
+                change_tags(root)
+                change_catrefs_to_catrefs_front(root, taxonomy, new_taxonomy)
+                change_taxonomy_path(root)
+                replace_self_closing_tags(root)
+                fill_empty_sic_with_asterisks(root)
+                remove_spaces_in_root(root)  # inside text/tail (not edges)
+                fix_spaces_in_root(root)
+            except Exception as e:
+                print(f"{path}/{filename}")
+                raise e
 
             etree.indent(root)
             text = etree.tostring(root, encoding='unicode')
