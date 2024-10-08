@@ -104,9 +104,11 @@ class RecordProcessor:
         start_page_element = start_page_elements[0]
         start_page_text = start_page_element.text.strip()
 
-        # TODO: обработать невалидные значения, например в "Данные_Том_2_Фрагмент_18.xml"
-        if self.fragment_filename not in ["Данные_Том_2_Фрагмент_18", "Данные_Том_2_Фрагмент_19"]:
+        try:
             assert re.match(r"^\d+$", start_page_text), f"Unexpected start page number format: {start_page_text} - in {self.record.source_path} at position {self.record.index}"
+        except:
+            start_page_text = self.end_page_number
+            print(f'Invalid start page number format "{start_page_text}" found at "{self.fragment_filename}".')
 
         return start_page_text
     
@@ -217,6 +219,11 @@ class RecordProcessor:
     def _build_tei_header(self) -> None:
         tei_header = self.output_soup.find("teiHeader")
         tei_header.clear()
+
+        source_tag = self.output_soup.new_tag("link")
+        source_tag.attrs["target"] = f"{self.fragment_filename}.xml"
+        source_tag.attrs["n"] = f"{self.record.index + 1}"
+        tei_header.append(source_tag)
 
         file_desc = self._build_file_desc()
         profile_desc = self._build_profile_desc()
