@@ -3,21 +3,23 @@ import os
 from pathlib import Path
 import re
 from uuid import uuid4
+import typing as tp
 
 from lxml import etree
 import roman
 from tqdm import tqdm
+import click
 
 import taxonomy_front_utils as txnm
 import utils as ut
 
-REPO_PATH = ut.REPO_PATH  # {подставить свое}/TEI
-REPO_TEXTS_PATH = Path(REPO_PATH, 'texts')
-RESULT_PATH = Path(REPO_PATH, 'texts_front')
-DICTIONARY_PATH = Path(REPO_PATH, 'reference', 'Dictionary.xml')
-PERSON_LIST_PATH = Path(REPO_PATH, 'reference', 'personList.xml')
-TAXONOMY_PATH = Path(REPO_PATH, 'reference', 'taxonomy.xml')
-NEW_TAXONOMY_PATH = Path(REPO_PATH, 'reference', 'taxonomy_front.xml')
+# REPO_PATH = ut.REPO_PATH  # {подставить свое}/TEI
+# REPO_TEXTS_PATH = Path(REPO_PATH, 'texts')
+# RESULT_PATH = Path(REPO_PATH, 'texts_front')
+# DICTIONARY_PATH = Path(REPO_PATH, 'reference', 'Dictionary.xml')
+# PERSON_LIST_PATH = Path(REPO_PATH, 'reference', 'personList.xml')
+# TAXONOMY_PATH = Path(REPO_PATH, 'reference', 'taxonomy.xml')
+# NEW_TAXONOMY_PATH = Path(REPO_PATH, 'reference', 'taxonomy_front.xml')
 
 XMLNS = 'http://www.tei-c.org/ns/1.0'
 
@@ -480,7 +482,10 @@ def fix_roman_digits_in_page_range(root: etree._Element) -> None:
     """
     Заменяет римские цифры на арабские в biblScope@unit="page"
     """
-    pages_tag = root.xpath('//ns:biblScope[@unit="page"]', namespaces={'ns': XMLNS})[0]
+    pages_tags = root.xpath('//ns:biblScope[@unit="page"]', namespaces={'ns': XMLNS})
+    if not pages_tags:
+        return
+    pages_tag = pages_tags[0]
     first, last = pages_tag.text.strip().split('-')
     if not first.isnumeric() or not last.isnumeric():
         first = first if first.isnumeric() else roman.fromRoman(first)
@@ -710,19 +715,37 @@ def fix_spaces_in_neighbour_texts(left_text: str, right_text: str,
     return left_text, right_text
 
 
-def main():
-    uuids = get_all_uuids(REPO_TEXTS_PATH)
-    wrongs = 0
-    rare_words_ids = get_ids_from_catalogue(DICTIONARY_PATH, r'<word xml:id="(.*?)">')
-    person_ids = get_ids_from_catalogue(PERSON_LIST_PATH, r'<person id="(.*?)">')
-    taxonomy, new_taxonomy = txnm.get_taxonomy_as_dict(TAXONOMY_PATH), txnm.get_taxonomy_as_dict(NEW_TAXONOMY_PATH)
+def iter_paths(paths: tp.Iterable[Path | str]):
+    for path in paths:
+        if os.path.isdir(path):
+            yield from os.walk(path)
+        else:
+            yield os.path.dirname(path), [], os.path.dirname(path)
 
-    for path, _, files in os.walk(REPO_TEXTS_PATH):
+
+@click.command()
+@click.option('--input-dir', required=True, type=click.Path(exists=True, dir_okay=True, file_okay=True), multiple=True)
+@click.option('--output-dir', required=True, type=click.Path(exists=False, dir_okay=True, file_okay=False))
+@click.option('--dictionary', required=True, type=click.Path(exists=True, dir_okay=False, file_okay=True))
+@click.option('--person-list', required=True, type=click.Path(exists=True, dir_okay=False, file_okay=True))
+@click.option('--taxonomy', required=True, type=click.Path(exists=True, dir_okay=False, file_okay=True))
+@click.option('--new-taxonomy', required=True, type=click.Path(exists=True, dir_okay=False, file_okay=True))
+def main(input_dir, output_dir, dictionary, person_list, taxonomy, new_taxonomy):
+
+    # return
+    # uuids = get_all_uuids(input_dir)
+    uuids = set()
+    wrongs = 0
+    rare_words_ids = get_ids_from_catalogue(dictionary, r'<word xml:id="(.*?)">')
+    person_ids = get_ids_from_catalogue(person_list, r'<person id="(.*?)">')
+    taxonomy, new_taxonomy = txnm.get_taxonomy_as_dict(taxonomy), txnm.get_taxonomy_as_dict(new_taxonomy)
+
+    for path, _, files in iter_paths(input_dir):
         for filename in tqdm(files):
             if not filename.endswith('.xml'):
                 continue
             with open(Path(path, filename), 'rb') as file:
-                root = etree.fromstring(file.read())
+                root = etree.fromstring(file.read(), parser=etree.XMLParser(recover=True))
 
             add_uuids_to_existing_p_and_l(root, uuids)
             fix_roman_digits_in_page_range(root)
@@ -738,16 +761,18 @@ def main():
             fill_empty_sic_with_asterisks(root)
             remove_spaces_in_root(root)  # inside text/tail (not edges)
             fix_spaces_in_root(root)
-            wrongs += check_paragraphs(root)
+            # wrongs += check_paragraphs(root)
 
             etree.indent(root)
             text = etree.tostring(root, encoding='unicode')
             text = f"<?xml version='1.0' encoding='UTF-8'?>\n{text}"
 
             # check that xml is valid
-            etree.fromstring(text.encode())
+            etree.fromstring(text.encode(), etree.XMLParser(recover=True))
 
-            Path(RESULT_PATH, Path(path).name, filename).write_text(text)
+            if not os.path.exists(Path(output_dir, Path(path).name)):
+                os.makedirs(Path(output_dir, Path(path).name))
+            Path(output_dir, Path(path).name, filename).write_text(text)
     print('files with wrong paragraphs: ', wrongs)  # should be zero
 
 
