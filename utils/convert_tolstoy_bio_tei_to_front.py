@@ -785,6 +785,16 @@ def remove_invalid_xml_ids(content: str) -> tuple[str, int]:
     return re.subn(r'\sxml:id="(.*?)"', processor, content)
 
 
+def remove_p_inside_span_class_note(text: str):
+    def replace(match: re.Match) -> str:
+        content = match.group(1)
+        content = content.replace("<p ", '<span data-class="paragraph" ')
+        content = content.replace("</p>", '</span>')
+        return f'<span class="note">{content}</span>'
+
+    return re.sub(r'<span class="note">(.*?)</span>', replace, text, flags=re.DOTALL | re.MULTILINE)
+
+
 def main():
     uuids = get_all_uuids(REPO_TEXTS_PATH)
     rare_words_ids = get_ids_from_catalogue(DICTIONARY_PATH, r'<word xml:id="(.*?)">')
@@ -843,6 +853,9 @@ def main():
 
             text, xml_id_fix_count = remove_invalid_xml_ids(text)
             total_xml_id_fix_count += xml_id_fix_count
+
+            if "gusev" in path:
+                text = remove_p_inside_span_class_note(text)
 
             # check that xml is valid
             etree.fromstring(text.encode())
