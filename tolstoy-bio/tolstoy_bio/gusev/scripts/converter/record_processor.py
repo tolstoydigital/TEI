@@ -166,8 +166,8 @@ class RecordProcessor:
         components = [
             "gusev",
             f"v{self.volume_number}",
-            str(self.start_page_number),
-            str(self.end_page_number),
+            str(self.start_page_number).zfill(3),
+            str(self.end_page_number).zfill(3),
             self.date_parser.get_first_date_as_tei().replace("-", "_"),
             self.date_parser.get_last_date_as_tei().replace("-", "_"),
         ]
