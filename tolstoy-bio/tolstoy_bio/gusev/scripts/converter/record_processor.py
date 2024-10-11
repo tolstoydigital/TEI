@@ -7,9 +7,7 @@ import bs4
 
 from tolstoy_bio.utilities.beautiful_soup import BeautifulSoupUtils
 from tolstoy_bio.utilities.io import IoUtils
-from tolstoy_bio.utilities.dates import RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE, RUSSIAN_FULL_MONTH_LABELS_IN_GENETIVE_CASE_TO_MONTH_NUMBER
 from .record import Record
-from .date_elements_builder import DateElementsBuilder
 from .date_elements_builder_2 import DateProcessor, Date, DateRange
 from .record_id_manager import RecordIdManager
 
@@ -107,8 +105,8 @@ class RecordProcessor:
         try:
             assert re.match(r"^\d+$", start_page_text), f"Unexpected start page number format: {start_page_text} - in {self.record.source_path} at position {self.record.index}"
         except:
+            print(f'Invalid start page number format "{start_page_text}" found at "{self.fragment_filename}". Replacing with the end page "{self.end_page_number}"...')
             start_page_text = self.end_page_number
-            print(f'Invalid start page number format "{start_page_text}" found at "{self.fragment_filename}".')
 
         return start_page_text
     
@@ -142,13 +140,29 @@ class RecordProcessor:
         
         element = elements[0]
         return re.sub(r"\s+", " ", element.text.strip())
+    
+    @cached_property
+    def record_id(self):
+        tag_name = "_RecordId"
+
+        elements = self.source_soup.find_all(tag_name)
+        assert len(elements) == 1, f"Unexpected number of <{tag_name}> elements: {len(elements)} - in {self.record.source_path} at position {self.record.index}"
+        
+        element = elements[0]
+        return re.sub(r"\s+", " ", element.text.strip())
+    
+    @cached_property
+    def event_text(self):
+        tag_name = "_Event"
+
+        elements = self.source_soup.find_all(tag_name)
+        assert len(elements) == 1, f"Unexpected number of <{tag_name}> elements: {len(elements)} - in {self.record.source_path} at position {self.record.index}"
+        
+        element = elements[0]
+        return re.sub(r"\s+", " ", element.text.strip())
 
     @cached_property
     def document_id(self):
-        # if True:
-        #     fragment_name = os.path.basename(self.record.source_path).replace(".xml", "")
-        #     return f"gusev_v1_{fragment_name}_{self.record.index}"
-        
         components = [
             "gusev",
             f"v{self.volume_number}",
@@ -194,6 +208,10 @@ class RecordProcessor:
         source_element = source_elements[0]
         tei_header.append(deepcopy(source_element))
 
+        event_text_element = self.output_soup.new_tag("p")
+        event_text_element.append(self.output_soup.new_string(self.event_text))
+        tei_body.append(event_text_element)
+
         comment_elements = self.source_soup.find_all("_Comment")
         assert len(comment_elements) == 1, f"Zero or more than one <_Comment> has been found in {self.record.source_path} at position {self.record.index}"
         
@@ -222,7 +240,7 @@ class RecordProcessor:
 
         source_tag = self.output_soup.new_tag("link")
         source_tag.attrs["target"] = f"{self.fragment_filename}.xml"
-        source_tag.attrs["n"] = f"{self.record.index + 1}"
+        source_tag.attrs["n"] = f"{self.record.index + 1}_{self.record_id}"
         tei_header.append(source_tag)
 
         file_desc = self._build_file_desc()
@@ -361,9 +379,7 @@ class RecordProcessor:
         
         config = self.date_parser.parsed_components
 
-        # TODO
-        if config is None:
-            return creation
+        assert config, "Failed to parse date components"
         
         # editor date
         editor_date = self.output_soup.new_tag("date", attrs={"type": "editor"})
