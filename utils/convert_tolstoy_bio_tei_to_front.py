@@ -778,21 +778,49 @@ def make_page_per_letter(content: str) -> str:
 def remove_invalid_xml_ids(content: str) -> tuple[str, int]:
     nc_name_pattern = re.compile(r"^[a-zа-яё][a-zа-яё0-9_.-]*$")
 
+    fix_count = 0
+
     def processor(match: re.Match):
         value = match.group(1)
-        return match.group(0) if nc_name_pattern.match(value) else ""
 
-    return re.subn(r'\sxml:id="(.*?)"', processor, content)
+        if nc_name_pattern.match(value):
+            return match.group(0)
+        
+        fix_count += 1
+        return ""
+
+    return re.sub(r'\sxml:id="(.*?)"', processor, content), fix_count
 
 
-def remove_p_inside_span_class_note(text: str):
-    def replace(match: re.Match) -> str:
-        content = match.group(1)
-        content = content.replace("<p ", '<span data-class="paragraph" ')
-        content = content.replace("</p>", '</span>')
-        return f'<span class="note">{content}</span>'
+def handle_gusev_record(path: str) -> str:
+    with open(path, "r") as file:
+        text = file.read()
+    
+    soup = bs4.BeautifulSoup(text, "xml")
 
-    return re.sub(r'<span class="note">(.*?)</span>', replace, text, flags=re.DOTALL | re.MULTILINE)
+    if code_date := soup.find("date", attrs={"type": "code"}):
+        code_date.decompose()
+
+    if raw_date := soup.find("date", attrs={"type": "raw"}):
+        raw_date.decompose()
+
+    bodies = soup.find_all("body")
+    assert len(bodies) == 1, f"Unexpected number of bodies: {len(bodies)}"
+    body = bodies[0]
+
+    note_comment = body.find("note", attrs={"type": "comment"})
+    note_comment.name = "span"
+    note_comment.attrs = {"class": "note"}
+    note_comment.wrap(soup.new_tag("p"))
+
+    for note_comment_p in note_comment.find_all("p"):
+        note_comment_p.name = "span"
+        note_comment_p.attrs = {"data-class": "paragraph"}
+
+    for body_p in body.find_all("p"):
+        body_p.attrs["id"] = uuid4()
+
+    return soup.prettify().replace('<span class="note"/>', '<span class="note"></span>')
 
 
 def main():
@@ -817,45 +845,45 @@ def main():
             if not filename.endswith('.xml'):
                 continue
 
-            parser = etree.XMLParser(recover=True)
-
-            if filename == 'tolstaya-s-a-letters.xml':
-                with open(Path(path, filename), 'r') as file:
-                    file_content = file.read()
-                    file_content = make_page_per_letter(file_content)
-                    root = etree.fromstring(file_content.encode(), parser)
+            if "gusev" in path:
+                text = handle_gusev_record(os.path.join(path, filename))
             else:
-                with open(Path(path, filename), 'rb') as file:
-                    root = etree.fromstring(file.read(), parser)
+                parser = etree.XMLParser(recover=True)
 
-            try:
-                add_uuids_to_existing_p_and_l(root, uuids)
-                fix_roman_digits_in_page_range(root)
-                change_epigraphs(root)
-                delete_old_orthography(root)
-                remove_tag_if_id_not_in_catalogue(root, rare_words_ids, 'ref', '@target="slovar"', 'id')
-                remove_tag_if_id_not_in_catalogue(root, person_ids, 'name', '@type="person"', 'ref')
-                wrap_unwrapped_tags_in_p_tag(root, uuids)
-                change_tags(root)
-                change_catrefs_to_catrefs_front(root, taxonomy, new_taxonomy)
-                change_taxonomy_path(root)
-                replace_self_closing_tags(root)
-                fill_empty_sic_with_asterisks(root)
-                remove_spaces_in_root(root)  # inside text/tail (not edges)
-                fix_spaces_in_root(root)
-            except Exception as e:
-                print(f"{path}/{filename}")
-                raise e
+                if filename == 'tolstaya-s-a-letters.xml':
+                    with open(Path(path, filename), 'r') as file:
+                        file_content = file.read()
+                        file_content = make_page_per_letter(file_content)
+                        root = etree.fromstring(file_content.encode(), parser)
+                else:
+                    with open(Path(path, filename), 'rb') as file:
+                        root = etree.fromstring(file.read(), parser)
 
-            etree.indent(root)
-            text = etree.tostring(root, encoding='unicode')
-            text = f"<?xml version='1.0' encoding='UTF-8'?>\n{text}"
+                try:
+                    add_uuids_to_existing_p_and_l(root, uuids)
+                    fix_roman_digits_in_page_range(root)
+                    change_epigraphs(root)
+                    delete_old_orthography(root)
+                    remove_tag_if_id_not_in_catalogue(root, rare_words_ids, 'ref', '@target="slovar"', 'id')
+                    remove_tag_if_id_not_in_catalogue(root, person_ids, 'name', '@type="person"', 'ref')
+                    wrap_unwrapped_tags_in_p_tag(root, uuids)
+                    change_tags(root)
+                    change_catrefs_to_catrefs_front(root, taxonomy, new_taxonomy)
+                    change_taxonomy_path(root)
+                    replace_self_closing_tags(root)
+                    fill_empty_sic_with_asterisks(root)
+                    remove_spaces_in_root(root)  # inside text/tail (not edges)
+                    fix_spaces_in_root(root)
+                except Exception as e:
+                    print(f"{path}/{filename}")
+                    raise e
+
+                etree.indent(root)
+                text = etree.tostring(root, encoding='unicode')
+                text = f"<?xml version='1.0' encoding='UTF-8'?>\n{text}"
 
             text, xml_id_fix_count = remove_invalid_xml_ids(text)
             total_xml_id_fix_count += xml_id_fix_count
-
-            if "gusev" in path:
-                text = remove_p_inside_span_class_note(text)
 
             # check that xml is valid
             etree.fromstring(text.encode())
