@@ -21,6 +21,11 @@ class DocumentFetcher:
 
     def get_path_by_filename(self, filename: str) -> str:
         return os.path.join(self._repository_path, filename)
+    
+    def get_path_by_unpadded_filename(self, filename: str) -> str:
+        scope, volume, start_page, end_page, *rest = filename.split("_")
+        restored_filename = "_".join([scope, volume, start_page.zfill(3), end_page.zfill(3), *rest])
+        return os.path.join(self._repository_path, restored_filename)
 
     def get_filenames(self) -> list[str]:
         return IoUtils.get_folder_contents_names(self._repository_path)
@@ -77,8 +82,9 @@ def main():
         technical_date_period_label = preprocess(row["@period"])
         technical_date_certainty_label = preprocess(row["cert"])
 
-        document_filename = f"{document_id}.xml"
-        document_path = document_fetcher.get_path_by_filename(document_filename)
+        unpadded_document_filename = f"{document_id}.xml"
+        document_path = document_fetcher.get_path_by_unpadded_filename(unpadded_document_filename)
+        document_filename = os.path.basename(document_path)
         document_soup = BeautifulSoupUtils.create_soup_from_file(document_path, "xml")
 
         editor_date_element = document_soup.find("date", {"type": "editor"})
