@@ -12,7 +12,7 @@ BIBLLIST_BIO_PATH = os.path.join(
 )
 
 
-ADRESSANT = "Толстой Л. Н."
+ADRESSANT = "Л. Н. Толстой."
 
 
 def main():
