@@ -798,11 +798,15 @@ def handle_gusev_record(path: str) -> str:
     
     soup = bs4.BeautifulSoup(text, "xml")
 
+    # Remove utility codes for dates
+
     if code_date := soup.find("date", attrs={"type": "code"}):
         code_date.decompose()
 
     if raw_date := soup.find("date", attrs={"type": "raw"}):
         raw_date.decompose()
+
+    # Replace <note type="comment"/> with <span class="note"/>
 
     bodies = soup.find_all("body")
     assert len(bodies) == 1, f"Unexpected number of bodies: {len(bodies)}"
@@ -811,16 +815,40 @@ def handle_gusev_record(path: str) -> str:
     note_comment = body.find("note", attrs={"type": "comment"})
     note_comment.name = "span"
     note_comment.attrs = {"class": "note"}
+
+    # Wrap <span class="note"> inside <p>
+
     note_comment.wrap(soup.new_tag("p"))
+
+    # Replace nested <p> within <p> with <span data-class="paragraph"/>
 
     for note_comment_p in note_comment.find_all("p"):
         note_comment_p.name = "span"
         note_comment_p.attrs = {"data-class": "paragraph"}
 
+    # Add uuids to <p>
+
     for body_p in body.find_all("p"):
         body_p.attrs["id"] = uuid4()
 
-    return soup.prettify().replace('<span class="note"/>', '<span class="note"></span>')
+    # Remove <bibl> milestones
+
+    milestones = soup.find_all("milestone")
+    for milestone in milestones:
+        milestone.decompose()
+
+    soup.smooth()
+
+    # Transform XML-like self-closing tags syntax to HTML-like
+
+    content = soup.prettify().replace('<span class="note"/>', '<span class="note"></span>')
+
+    # Assertions
+
+    assert content.count("milestone") == 0, "Milestone elements are left."
+    assert content.count("&lt;bibl&gt;") == 0 and content.count("&lt;/bibl&gt;") == 0, f"Stringified bibl tags are left in {path}"
+
+    return content
 
 
 def main():
