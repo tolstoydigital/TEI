@@ -104,3 +104,14 @@ class BeautifulSoupUtils:
     def decompose(*elements: list[bs4.Tag]) -> None:
         for element in elements:
             element.decompose()
+
+    @staticmethod
+    def find_if_single_or_fail(soup: bs4.BeautifulSoup, *args, **kwargs) -> bs4.Tag:
+        elements = list(soup.find_all(*args, **kwargs))
+
+        if len(elements) != 1:
+            raise ValueError(
+                f"Expected exactly one element matching {args}, {kwargs}, found {len(elements)}"
+            )
+
+        return elements[0]
