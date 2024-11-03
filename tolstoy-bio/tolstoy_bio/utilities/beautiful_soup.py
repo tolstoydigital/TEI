@@ -99,3 +99,8 @@ class BeautifulSoupUtils:
         prettified_soup = soup.prettify()
         stripped_lines = [line.strip() for line in prettified_soup.split("\n")]
         return "".join(stripped_lines)
+    
+    @staticmethod
+    def decompose(*elements: list[bs4.Tag]) -> None:
+        for element in elements:
+            element.decompose()
