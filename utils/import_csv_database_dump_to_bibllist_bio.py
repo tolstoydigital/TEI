@@ -1,3 +1,29 @@
+"""
+Скрипт для импорта CSV-дампа изменённых сущностей-документов bibllist_bio
+из БД в локальный файл bibllist_bio.xml
+
+Перед запуском:
+- из корня проекта перейти в папку utils ("cd utils");
+- проверить, что версия Python не ниже 3.11.5;
+- установить зависимости ("pip3 install beautifulsoup4 pandas tqdm").
+
+Стандартная команда для запуска скрипта,
+python3 import_csv_database_dump_to_bibllist_bio.py --dump DUMP_PATH
+где DUMP_PATH – путь к CSV-файлу-дампу в двойных кавычках.
+
+По умолчанию скрипт обновляет все поля.
+Если обновить нужно определённое подмножество полей,
+то к команде для запуска скрипта нужно добавить флаг --fields FIELDS,
+где FIELDS – список названий полей, которые нужно обновить,
+заключённых в двойные кавычки и разделённых пробелом.
+
+Названия полей соответствуют названиям полей класса DocumentMetadata.
+
+Если обновить нужно технические даты,
+лучше не забывать указывать и поле под календарные настройки, т. е.
+python3 import_csv_database_dump_to_bibllist_bio.py --dump DUMP_PATH --fields "related_works_ids" "calendar_settings"
+"""
+
 from argparse import ArgumentParser
 from ast import literal_eval
 import codecs
@@ -12,11 +38,6 @@ from typing import Iterator, Self
 import bs4
 import pandas as pd
 from tqdm import tqdm
-import logging
-
-
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
 
 
 class RepositoryUtils:
@@ -78,7 +99,7 @@ class BeautifulSoupUtils:
 
     @staticmethod
     def get_empty_soup(parser: str = None) -> bs4.BeautifulSoup:
-        return bs4.BeautifulSoup(parser=parser)
+        return bs4.BeautifulSoup(features=parser)
 
     @classmethod
     def create_tag(cls: Self, parser: str = None, *args, **kwargs) -> bs4.Tag:
@@ -317,8 +338,9 @@ class RelatedItem:
 
         if fields_to_update is None or "technical_dates" in fields_to_update:
             self._set_technical_dates(metadata.technical_dates)
-            # TODO: handle is_in_calendar
-            # TODO: handle time_span_type
+
+        if fields_to_update is None or "calendar_settings" in fields_to_update:
+            self._set_calendar_settings(metadata.calendar_settings)
 
         if fields_to_update is None or "related_persons_ids" in fields_to_update:
             self._set_relations(metadata.related_persons_ids, RelationType.PERSON)
@@ -328,8 +350,14 @@ class RelatedItem:
 
         if fields_to_update is None or "related_locations_ids" in fields_to_update:
             self._set_relations(metadata.related_locations_ids, RelationType.LOCATION)
+
+        if fields_to_update is None or "related_sources_ids" in fields_to_update:
             # TODO: add placeholder if it doesn't exist
-            # self.set_relations(metadata.related_sources_ids, RelationType.SOURCE)
+            raise NotImplemented(
+                "Please implement a placeholder before setting source relations."
+            )
+
+            self.set_relations(metadata.related_sources_ids, RelationType.SOURCE)
 
     def _set_opener_text(self, text: str) -> None:
         opener = self._soup.find("opener")
@@ -341,8 +369,18 @@ class RelatedItem:
 
     def _set_editor_date_text(self, text: str) -> None:
         editor_date = self._soup.find("date", {"type": "editor"})
-        BeautifulSoupUtils.set_inner_text
         self._update_element_text(editor_date, text)
+
+    def _set_calendar_settings(self, settings: CalendarSettings) -> None:
+        first_technical_date = self._soup.find("date", {"calendar": True})
+        first_technical_date.attrs["calendar"] = (
+            "FALSE" if settings.is_in_calendar else "TRUE"
+        )
+
+        if settings.time_span_type:
+            first_technical_date.attrs["period"] = settings.time_span_type
+        elif "period" in first_technical_date.attrs:
+            del first_technical_date.attrs["period"]
 
     def _set_relations(
         self, relation_ids: list[str], relation_type: RelationType
@@ -355,6 +393,7 @@ class RelatedItem:
             BeautifulSoupUtils.replace_sequence_of_tags(
                 existing_relations, [placeholder]
             )
+
             return
 
         new_relations = [
@@ -435,7 +474,7 @@ class BibllistBio:
         fields_to_update: set[str] | None = None,
     ) -> None:
         if len(new_metadata) == 0:
-            logger.info("No new data.")
+            print("No new data.")
             return
 
         target_items_ids = set(
@@ -451,7 +490,6 @@ class BibllistBio:
         ]
 
         target_related_items_by_document_id: dict[str, RelatedItem] = {}
-        # related_item_ids: list[str] = []
 
         for target_item in tqdm(
             target_items, "Identifying target <relatedItem> elements"
@@ -468,14 +506,6 @@ class BibllistBio:
 
                 target_related_items_by_document_id[document_id] = related_item
 
-            # target_related_items_by_document_id.update(related_items_by_document_id)
-            # related_item_ids.extend(related_items_by_document_id.keys())
-
-        # logger.info("Validating bibllist_bio metadata...")
-
-        # if duplicates := ListUtils.get_duplicates(related_item_ids):
-        #     raise AssertionError(f"Duplicate related items found: {duplicates}")
-
         new_metadata_by_document_id = DocumentMetadataUtils.hash_by_id(new_metadata)
 
         if any(
@@ -488,15 +518,29 @@ class BibllistBio:
                 if document_id not in target_related_items_by_document_id
             ]
 
-            raise AssertionError(
-                f"Not all related items were found: missing " f"{', '.join(missing_ids)}."
+            warning_message = (
+                f"Not all related items were found: missing "
+                f"{', '.join(missing_ids)}."
             )
+
+            print(warning_message)
+
+            continuation_decision = "placeholder"
+
+            while continuation_decision.lower() not in ["", "y", "n"]:
+                continuation_decision = input("Continue anyway? (y/N): ").strip() or "N"
+
+            if continuation_decision != "y":
+                raise KeyError(warning_message)
 
         for document_id, new_metadata in tqdm(
             new_metadata_by_document_id.items(),
             "Updating <relatedItem> elements",
             len(new_metadata_by_document_id),
         ):
+            if document_id not in target_related_items_by_document_id:
+                continue
+
             related_item = target_related_items_by_document_id[document_id]
             related_item.update(new_metadata, fields_to_update)
 
@@ -522,9 +566,6 @@ class DatabaseDumpCsvParser:
         entries: list[DocumentMetadata] = []
 
         for _, row in tqdm(df.iterrows(), "Parsing the dump", len(df)):
-            if not row["works"]:
-                continue
-
             entry = DocumentMetadata(
                 technical_dates=self._parse_technical_dates(row["dates"]),
                 editor_date_text=row["hrdate"],
@@ -546,7 +587,7 @@ class DatabaseDumpCsvParser:
 
             entries.append(entry)
 
-        logger.info("Validating database dump data...")
+        print("Validating database dump data...")
         DocumentMetadataUtils.assert_no_duplicates(entries)
 
         return entries
@@ -609,7 +650,7 @@ class DatabaseDumpCsvParser:
 
 
 def main():
-    logger.info("Parsing arguments...")
+    print("Parsing arguments...")
 
     cli = ArgumentParser()
     cli.add_argument("--dump", type=str, default=None)
@@ -626,9 +667,9 @@ def main():
         set(arguments.fields) if arguments.fields else None
     )
 
-    logger.info("Arguments parsed.\n")
-    logger.info(f"Database dump path: {database_dump_path}")
-    logger.info(
+    print("Arguments parsed.\n")
+    print(f"Database dump path: {database_dump_path}")
+    print(
         f"Fields to update: {', '.join(fields_to_update) if fields_to_update else 'all'}\n"
     )
 
@@ -646,12 +687,11 @@ def import_dump_to_bibllist_bio(
     bibllist_bio = BibllistBio(bibllist_bio_path)
     bibllist_bio.update_related_items(new_metadata, fields_to_update)
 
-    logger.info("Saving bibllist_bio.xml...")
+    print("Saving bibllist_bio.xml...")
+
     bibllist_bio.save()
 
-    logger.info(
-        "bibllist_bio.xml has been successfully synchronized with the database dump!"
-    )
+    print("Done!")
 
 
 if __name__ == "__main__":
