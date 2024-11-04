@@ -1,4 +1,5 @@
 import codecs
+import json
 import os
 
 
@@ -31,6 +32,14 @@ class IoUtils:
         target_encoding = encoding or cls.DEFAULT_TEXT_ENCODING
         with codecs.open(path, 'w', encoding=target_encoding) as file:
             file.write(content)
+
+    @staticmethod
+    def save_as_json(data, path: str, *, indent: int | None = None) -> None:
+        directory = os.path.dirname(path)
+        os.makedirs(directory, exist_ok=True)
+
+        with open(path, "w") as file:
+            json.dump(data, file, ensure_ascii=False, indent=indent)
 
     @classmethod
     def get_folder_contents_names(cls, folder_path: str, ignore_hidden=True) -> list[str]:
