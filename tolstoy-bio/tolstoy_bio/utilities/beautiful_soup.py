@@ -120,6 +120,7 @@ class BeautifulSoupUtils:
     def has_only_navigable_string(tag: bs4.Tag) -> bool:
         children = list(tag.children)
         return len(children) == 1 and children[0] is tag.string
+    
 
     @classmethod
     def get_first_navigable_string(
