@@ -13,7 +13,7 @@ BIBLLIST_BIO_PATH = os.path.join(
 )
 
 
-REPORT_DUMP_PATH = os.path.join(os.path.dirname(__file__), "report.json")
+REPORT_DUMP_PATH = os.path.join(os.path.dirname(__file__), "tolstoy-letter-openers-addressees-trimming-report.json")
 
 
 EXCEPTIONAL_OPENER_TEXT_UPDATES = {
