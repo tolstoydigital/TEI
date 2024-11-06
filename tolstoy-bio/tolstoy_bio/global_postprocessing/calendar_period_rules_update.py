@@ -87,10 +87,10 @@ class DateRange:
 
         dates_delta = self.get_dates_delta()
 
-        if dates_delta <= timedelta(days=5):
+        if dates_delta <= timedelta(days=2):
             return DatePeriod.DAILY
 
-        if timedelta(days=5) < dates_delta <= timedelta(days=31):
+        if timedelta(days=2) < dates_delta <= timedelta(days=31):
             return DatePeriod.WEEKLY
 
         if timedelta(days=31) < dates_delta <= timedelta(days=365):
