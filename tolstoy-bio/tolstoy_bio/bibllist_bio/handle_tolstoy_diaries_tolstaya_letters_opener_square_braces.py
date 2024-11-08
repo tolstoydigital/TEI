@@ -96,8 +96,9 @@ class TeiDocument:
         filename = os.path.basename(self._path)
         return filename.replace(".xml", "")
 
-    def load(self):
+    def load(self) -> bs4.BeautifulSoup:
         self._soup = BeautifulSoupUtils.create_soup_from_file(self._path, "xml")
+        return self._soup
 
     def _with_loading(func):
         @wraps(func)
@@ -130,11 +131,10 @@ class TeiDocument:
             BeautifulSoupUtils.prettify_and_save(soup, self._path)
             return
 
-        if self._soup:
-            BeautifulSoupUtils.prettify_and_save(self._soup, self._path)
-            return
+        if not self._soup:
+            self.load()
 
-        return
+        BeautifulSoupUtils.prettify_and_save(self._soup, self._path)
 
 
 class DocumentRepository:
@@ -186,7 +186,7 @@ def remove_braces_from_bibllist_bio_openers():
                 continue
 
             updated_opener_text = re.sub(r"[\[\]]", "", opener_text)
-            updated_opener_text = re.sub(r"\s+", " ", opener_text)
+            updated_opener_text = re.sub(r"\s+", " ", updated_opener_text)
             related_item.set_opener_text(updated_opener_text)
 
     print("Saving bibllist_bio.xml...")
@@ -286,7 +286,22 @@ def validate_xml_or_fail(content: str) -> None:
     XmlUtils.validate_xml_or_fail(content_to_validate)
 
 
+# def reformat_tolstoy_diaries():
+#     """
+#     Script to prettify Tolstoy's diaries
+#     for easier manual validation using Git
+#     """
+#     tolstoy_diaries_repository = TolstoyDiariesRepository()
+
+#     for document in tqdm(
+#         list(tolstoy_diaries_repository.get_documents()),
+#         "Reformatting Tolstoy's diaries",
+#     ):
+#         document.save()
+
+
 def main():
+    # reformat_tolstoy_diaries()
     remove_braces_from_bibllist_bio_openers()
     replace_square_braces_with_tags()
 
