@@ -1,127 +1,142 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-             <titleStmt>                
-                <title xml:id="v55_042_044_1904_06_02">
-                    Дневники. Tolstoy Digital
-                </title>
-                <title type="main">Дневник,</title>
-                <title type="sub">2 июня 1904 г.</title>
-                <title type="bibl">Толстой Л. Н. [Дневник 1904 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 55. М.: Гос. изд. «Художественная литература», 1937. С. </title>
-                <author>Толстой Лев Николаевич</author>             
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name> 
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>                             
-                </respStmt>
-                    <funder>
-                        Проект «Слово Толстого»
-                    </funder>
-            </titleStmt>     
-            <publicationStmt>               
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="dbe67094-1ecf-44a0-a4d8-c012679ff58d">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-            <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>
-                            Толстой Лев Николаевич
-                         </author>
-                        <title level="a">
-                           [Дневник 1904 г.]
-                        </title>
-                    </analytic>
-                    <monogr>
-                        <title level="m">
-                          Полное собрание сочинений. Том 55
-                        </title>
-                        <imprint>
-                            <pubPlace>
-                                Москва
-                            </pubPlace>
-                            <publisher>
-                                Государственное издательство «Художественная литература»
-                            </publisher>
-                            <date when="1937"/>
-                        </imprint>
-                        <biblScope unit="volume">55</biblScope>
-                        <biblScope unit="page">42-44</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">
-                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
-                        </title>
-                    </series>
-                </biblStruct>
-            </sourceDesc>         
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <creation>
-                <date when="1904-06-02"/>
-         </creation>          
-            <langUsage>
-  <language ident="ru-petr1708"/>
-</langUsage><textClass> 
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#diaries" target="type"/>
-           </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v55_042_044_1904_06_02">
+     Дневники. Tolstoy Digital
+    </title>
+    <title type="main">
+     Дневник,
+    </title>
+    <title type="sub">
+     2 июня 1904 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. [Дневник 1904 г.] // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 55. М.: Гос. изд. «Художественная литература», 1937. С.
+    </title>
+    <author>
+     Толстой Лев Николаевич
+    </author>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="dbe67094-1ecf-44a0-a4d8-c012679ff58d">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+      <title level="a">
+       [Дневник 1904 г.]
+      </title>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 55
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1937"/>
+      </imprint>
+      <biblScope unit="volume">
+       55
+      </biblScope>
+      <biblScope unit="page">
+       42-44
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date when="1904-06-02"/>
+   </creation>
+   <langUsage>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#diaries" target="type"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <p id="441abe5c-3a0b-44b9-b8c7-b7521cb2e122">
     <pb n="42"/>
@@ -139,8 +154,7 @@
       </hi>
      </dateline>
     </opener>
-    <p id="3f763f05-8822-4753-b182-2cc2d1931be2">
-    </p>
+    <p id="3f763f05-8822-4753-b182-2cc2d1931be2"/>
     <p id="5571361b-0485-45b1-8886-0997fccd129a" style="left">
      Вчера
      <choice>
@@ -1880,302 +1894,309 @@
      можно начать.)
     </p>
     <p id="37e7840d-b9c4-4541-9596-7143ad7ae48f" style="left">
-     <del type="reconstructed">3) Время есть
-     <choice>
-      <reg>
-       тот
-      </reg>
-      <orig>
-       тотъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       предел
-      </reg>
-      <orig>
-       предѣлъ
-      </orig>
-     </choice>
-     ,
-     <choice original_editorial_correction="к[оторый]">
-      <sic>
-       к
-      </sic>
-      <corr>
-       который
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       скрывает
-      </reg>
-      <orig>
-       скрываетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       от
-      </reg>
-      <orig>
-       отъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нас
-      </reg>
-      <orig>
-       насъ
-      </orig>
-     </choice>
-     наше
-     <ref target="#note195">
-      195
-     </ref>
-     <note exclude="true" index="false" resp="volume_editor" xml:id="note195">
-      <hi>
-       Зачеркнуто:
-      </hi>
-      единство со
+     <del type="reconstructed">
+      3) Время есть
       <choice>
        <reg>
-        всем
+        тот
        </reg>
        <orig>
-        всѣмъ
+        тотъ
        </orig>
       </choice>
       <choice>
        <reg>
-        миром
+        предел
        </reg>
        <orig>
-        міромъ
+        предѣлъ
        </orig>
       </choice>
-     </note>
-     <choice>
-      <reg>
-       расширение
-      </reg>
-      <orig>
-       расширеніе
-      </orig>
-     </choice>
-     ,
-     <choice>
-      <reg>
-       наш
-      </reg>
-      <orig>
-       нашъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       рост
-      </reg>
-      <orig>
-       ростъ
-      </orig>
-     </choice>
-     и
-     <choice original_editorial_correction="кот[орый]">
-      <sic>
-       кот
-      </sic>
-      <corr>
-       который
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       дает
-      </reg>
-      <orig>
-       даетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       нам
-      </reg>
-      <orig>
-       намъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       вследствии
-      </reg>
-      <orig>
-       вслѣдствіи
-      </orig>
-     </choice>
-     этого
-     <choice>
-      <reg>
-       иллюзию
-      </reg>
-      <orig>
-       иллюзію
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       самодеятельности
-      </reg>
-      <orig>
-       самодѣятельности
-      </orig>
-     </choice>
-     , свободы. По
-     <choice>
-      <reg>
-       мере
-      </reg>
-      <orig>
-       мѣрѣ
-      </orig>
-     </choice>
-     того,
-     <choice>
-      <reg>
-       как
-      </reg>
-      <orig>
-       какъ
-      </orig>
-     </choice>
-     я
-     <ref target="#note196">
-      196
-     </ref>
-     <note exclude="true" index="false" resp="volume_editor" xml:id="note196">
-      <hi>
-       Зачеркнуто:
-      </hi>
-      расту
-     </note>
-     расширяю свое
-     <choice>
-      <reg>
-       сознание
-      </reg>
-      <orig>
-       сознаніе
-      </orig>
-     </choice>
-     , я сознаю его (да, сознаю
-     <choice>
-      <reg>
-       сознание
-      </reg>
-      <orig>
-       сознаніе
-      </orig>
-     </choice>
-     ), и
-     <choice>
-      <reg>
-       мне
-      </reg>
-      <orig>
-       мнѣ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       от
-      </reg>
-      <orig>
-       отъ
-      </orig>
-     </choice>
-     того, что мое
-     <choice>
-      <reg>
-       сознание
-      </reg>
-      <orig>
-       сознаніе
-      </orig>
-     </choice>
-     открывается
-     <choice>
-      <reg>
-       мне
-      </reg>
-      <orig>
-       мнѣ
-      </orig>
-     </choice>
-     , кажется, что я
-     <choice>
-      <reg>
-       сам
-      </reg>
-      <orig>
-       самъ
-      </orig>
-     </choice>
-     это
-     <choice>
-      <reg>
-       делаю
-      </reg>
-      <orig>
-       дѣлаю
-      </orig>
-     </choice>
+      ,
+      <choice original_editorial_correction="к[оторый]">
+       <sic>
+        к
+       </sic>
+       <corr>
+        который
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        скрывает
+       </reg>
+       <orig>
+        скрываетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        от
+       </reg>
+       <orig>
+        отъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нас
+       </reg>
+       <orig>
+        насъ
+       </orig>
+      </choice>
+      наше
+      <ref target="#note195">
+       195
+      </ref>
+      <note exclude="true" index="false" resp="volume_editor" xml:id="note195">
+       <hi>
+        Зачеркнуто:
+       </hi>
+       единство со
+       <choice>
+        <reg>
+         всем
+        </reg>
+        <orig>
+         всѣмъ
+        </orig>
+       </choice>
+       <choice>
+        <reg>
+         миром
+        </reg>
+        <orig>
+         міромъ
+        </orig>
+       </choice>
+      </note>
+      <choice>
+       <reg>
+        расширение
+       </reg>
+       <orig>
+        расширеніе
+       </orig>
+      </choice>
+      ,
+      <choice>
+       <reg>
+        наш
+       </reg>
+       <orig>
+        нашъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        рост
+       </reg>
+       <orig>
+        ростъ
+       </orig>
+      </choice>
+      и
+      <choice original_editorial_correction="кот[орый]">
+       <sic>
+        кот
+       </sic>
+       <corr>
+        который
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        дает
+       </reg>
+       <orig>
+        даетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        нам
+       </reg>
+       <orig>
+        намъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        вследствии
+       </reg>
+       <orig>
+        вслѣдствіи
+       </orig>
+      </choice>
+      этого
+      <choice>
+       <reg>
+        иллюзию
+       </reg>
+       <orig>
+        иллюзію
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        самодеятельности
+       </reg>
+       <orig>
+        самодѣятельности
+       </orig>
+      </choice>
+      , свободы. По
+      <choice>
+       <reg>
+        мере
+       </reg>
+       <orig>
+        мѣрѣ
+       </orig>
+      </choice>
+      того,
+      <choice>
+       <reg>
+        как
+       </reg>
+       <orig>
+        какъ
+       </orig>
+      </choice>
+      я
+      <ref target="#note196">
+       196
+      </ref>
+      <note exclude="true" index="false" resp="volume_editor" xml:id="note196">
+       <hi>
+        Зачеркнуто:
+       </hi>
+       расту
+      </note>
+      расширяю свое
+      <choice>
+       <reg>
+        сознание
+       </reg>
+       <orig>
+        сознаніе
+       </orig>
+      </choice>
+      , я сознаю его (да, сознаю
+      <choice>
+       <reg>
+        сознание
+       </reg>
+       <orig>
+        сознаніе
+       </orig>
+      </choice>
+      ), и
+      <choice>
+       <reg>
+        мне
+       </reg>
+       <orig>
+        мнѣ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        от
+       </reg>
+       <orig>
+        отъ
+       </orig>
+      </choice>
+      того, что мое
+      <choice>
+       <reg>
+        сознание
+       </reg>
+       <orig>
+        сознаніе
+       </orig>
+      </choice>
+      открывается
+      <choice>
+       <reg>
+        мне
+       </reg>
+       <orig>
+        мнѣ
+       </orig>
+      </choice>
+      , кажется, что я
+      <choice>
+       <reg>
+        сам
+       </reg>
+       <orig>
+        самъ
+       </orig>
+      </choice>
+      это
+      <choice>
+       <reg>
+        делаю
+       </reg>
+       <orig>
+        дѣлаю
+       </orig>
+      </choice>
+      .
+     </del>
+    </p>
+    <p id="c102fce9-bb47-465f-8271-a856f6125b04" style="left">
+     <del>
+      Пространство же есть
+      <choice>
+       <reg>
+        тот
+       </reg>
+       <orig>
+        тотъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        предел
+       </reg>
+       <orig>
+        предѣлъ
+       </orig>
+      </choice>
+      ,
+      <choice original_editorial_correction="к[оторый]">
+       <sic>
+        к
+       </sic>
+       <corr>
+        который
+       </corr>
+      </choice>
+      <choice>
+       <reg>
+        скрывает
+       </reg>
+       <orig>
+        скрываетъ
+       </orig>
+      </choice>
+      <choice>
+       <reg>
+        от
+       </reg>
+       <orig>
+        отъ
+       </orig>
+      </choice>
+      меня м
+     </del>
      .
-    </del></p><p id="c102fce9-bb47-465f-8271-a856f6125b04" style="left"><del>
-     Пространство же есть
-     <choice>
-      <reg>
-       тот
-      </reg>
-      <orig>
-       тотъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       предел
-      </reg>
-      <orig>
-       предѣлъ
-      </orig>
-     </choice>
-     ,
-     <choice original_editorial_correction="к[оторый]">
-      <sic>
-       к
-      </sic>
-      <corr>
-       который
-      </corr>
-     </choice>
-     <choice>
-      <reg>
-       скрывает
-      </reg>
-      <orig>
-       скрываетъ
-      </orig>
-     </choice>
-     <choice>
-      <reg>
-       от
-      </reg>
-      <orig>
-       отъ
-      </orig>
-     </choice>
-     меня м</del>.
-    </p><p id="7089b745-4587-414a-83fc-56a8ba0fe07c" style="left">
+    </p>
+    <p id="7089b745-4587-414a-83fc-56a8ba0fe07c" style="left">
      (Не вышло, а должно вытти).
     </p>
     <p id="40430428-926d-49e0-871b-513de9a66475" style="left">
