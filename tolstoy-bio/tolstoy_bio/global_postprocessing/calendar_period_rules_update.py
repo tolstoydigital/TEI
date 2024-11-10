@@ -117,6 +117,9 @@ def traverse_documents():
             if not filename.endswith(".xml"):
                 continue
 
+            if "gusev/data/source" in folder_path:
+                continue
+
             yield os.path.join(folder_path, filename)
 
 
