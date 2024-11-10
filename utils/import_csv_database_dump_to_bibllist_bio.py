@@ -142,6 +142,17 @@ class BeautifulSoupUtils:
         element.clear()
         element.append(cls.create_string(text))
 
+    @staticmethod
+    def find_if_single_or_fail(soup: bs4.BeautifulSoup, *args, **kwargs) -> bs4.Tag:
+        elements = list(soup.find_all(*args, **kwargs))
+
+        if len(elements) != 1:
+            raise ValueError(
+                f"Expected exactly one element matching {args}, {kwargs}, found {len(elements)}"
+            )
+
+        return elements[0]
+
 
 class DateUtils:
     DATE_STRING_REGEX: str = r"\d{4}-\d{2}-\d{2}"
@@ -314,6 +325,9 @@ class RelatedItem:
     def __str__(self):
         return self._soup.prettify()
 
+    def get_soup(self) -> bs4.BeautifulSoup:
+        return self._soup
+
     def get_id(self) -> str:
         return self._soup.find("ref", {"xml:id": True}).attrs["xml:id"].strip()
 
@@ -352,12 +366,7 @@ class RelatedItem:
             self._set_relations(metadata.related_locations_ids, RelationType.LOCATION)
 
         if fields_to_update is None or "related_sources_ids" in fields_to_update:
-            # TODO: add placeholder if it doesn't exist
-            raise NotImplemented(
-                "Please implement a placeholder before setting source relations."
-            )
-
-            self.set_relations(metadata.related_sources_ids, RelationType.SOURCE)
+            self._set_relations(metadata.related_sources_ids, RelationType.SOURCE)
 
     def _set_opener_text(self, text: str) -> None:
         opener = self._soup.find("opener")
@@ -372,7 +381,12 @@ class RelatedItem:
         self._update_element_text(editor_date, text)
 
     def _set_calendar_settings(self, settings: CalendarSettings) -> None:
-        first_technical_date = self._soup.find("date", {"calendar": True})
+        first_technical_date = self._soup.find("date", {"from": True, "to": True})
+
+        assert (
+            first_technical_date
+        ), f"Failed to find technical dates at {self.get_id()}, {self._soup.prettify()}"
+
         first_technical_date.attrs["calendar"] = (
             "FALSE" if settings.is_in_calendar else "TRUE"
         )
@@ -386,7 +400,10 @@ class RelatedItem:
         self, relation_ids: list[str], relation_type: RelationType
     ) -> None:
         existing_relations = self._soup.find_all("relation", {"type": relation_type})
-        assert existing_relations, "No placeholder found"
+
+        assert (
+            existing_relations
+        ), 'No placeholder found for <relation type="{relation_type}" />'
 
         if not relation_ids:
             placeholder = self._create_placeholder_relation(relation_type)
@@ -436,7 +453,10 @@ class RelatedItem:
             element
         ), f"Unsafe element text update: the element <{element.name}> has nested tags."
 
-        BeautifulSoupUtils.set_inner_text(text, element)
+        if text.strip():
+            BeautifulSoupUtils.set_inner_text(text, element)
+        else:
+            element.clear()
 
 
 class Item:
@@ -543,6 +563,41 @@ class BibllistBio:
 
             related_item = target_related_items_by_document_id[document_id]
             related_item.update(new_metadata, fields_to_update)
+
+        for related_item in tqdm(
+            target_related_items_by_document_id.values(),
+            "Post-validating bibllist-bio",
+            len(target_related_items_by_document_id),
+        ):
+            related_item_soup = related_item.get_soup()
+
+            assert BeautifulSoupUtils.find_if_single_or_fail(
+                related_item_soup, "ref", {"xml:id": True}
+            )
+
+            assert BeautifulSoupUtils.find_if_single_or_fail(
+                related_item_soup, "title", {"type": "biodata"}
+            )
+
+            assert BeautifulSoupUtils.find_if_single_or_fail(
+                related_item_soup, "title", {"type": "bibl"}
+            )
+
+            assert related_item_soup.find(
+                "date", {"calendar": True, "from": True, "to": True}
+            )
+
+            assert BeautifulSoupUtils.find_if_single_or_fail(
+                related_item_soup, "date", {"type": "editor"}
+            )
+
+            assert related_item_soup.find("catRef", {"ana": True, "target": True})
+            
+            assert related_item_soup.find("relation", {"ref": True, "type": True})
+
+            assert BeautifulSoupUtils.find_if_single_or_fail(
+                related_item_soup, "opener"
+            )
 
     def _get_item_by_id(self, id_: str) -> Item:
         element = self._soup.find("ref", {"xml:id": id_}).parent
