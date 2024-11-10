@@ -120,3 +120,58 @@ class BeautifulSoupUtils:
     def has_only_navigable_string(tag: bs4.Tag) -> bool:
         children = list(tag.children)
         return len(children) == 1 and children[0] is tag.string
+
+    @classmethod
+    def get_first_navigable_string(
+        cls, node: bs4.Tag | bs4.NavigableString | None
+    ) -> bs4.NavigableString | None:
+        if node is None:
+            return None
+
+        if isinstance(node, bs4.NavigableString):
+            return node
+
+        children = list(node.children)
+
+        if not children:
+            return None
+
+        first_child = children[0]
+
+        if isinstance(first_child, bs4.NavigableString):
+            return first_child
+
+        if isinstance(first_child, bs4.Tag):
+            return cls.get_first_navigable_string(first_child)
+
+        raise ValueError(f"Unexpected child type encountered: {type(first_child)}")
+
+    @classmethod
+    def get_last_navigable_string(
+        cls, node: bs4.Tag | bs4.NavigableString | None
+    ) -> bs4.NavigableString | None:
+        if node is None:
+            return None
+        
+        if isinstance(node, bs4.NavigableString):
+            return node
+
+        children = list(node.children)
+
+        if not children:
+            return None
+
+        last_child = children[-1]
+
+        if isinstance(last_child, bs4.NavigableString):
+            return last_child
+
+        if isinstance(last_child, bs4.Tag):
+            return cls.get_last_navigable_string(last_child)
+
+        raise ValueError(f"Unexpected child type encountered: {type(last_child)}")
+
+    @staticmethod
+    def prettify_and_save(soup: bs4.BeautifulSoup, path: str) -> None:
+        content = soup.prettify()
+        IoUtils.save_textual_data(content, path)
