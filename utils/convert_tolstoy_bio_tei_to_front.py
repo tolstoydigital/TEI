@@ -781,6 +781,8 @@ def remove_invalid_xml_ids(content: str) -> tuple[str, int]:
     fix_count = 0
 
     def processor(match: re.Match):
+        nonlocal fix_count
+
         value = match.group(1)
 
         if nc_name_pattern.match(value):
