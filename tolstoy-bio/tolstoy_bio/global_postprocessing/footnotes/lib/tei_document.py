@@ -22,7 +22,7 @@ class TeiDocument:
         filename = os.path.basename(self._path)
         return filename.replace(".xml", "")
 
-    def get_footnotes(self) -> list[TeiNote]:
+    def get_notes(self) -> list[TeiNote]:
         footnotes: list[TeiNote] = []
 
         refs = self._soup.find_all("ref")
