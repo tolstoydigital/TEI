@@ -6,7 +6,7 @@ class TeiNote:
         self._link = link
         self._note = note
 
-    def _get_link_text(self) -> str:
+    def get_link_text(self) -> str:
         return self._link.text.strip()
 
     def get_link_soup(self) -> bs4.Tag:
@@ -36,8 +36,11 @@ class TeiNote:
         return parent
 
     def has_numeric_link(self) -> bool:
-        link_text = self._get_link_text()
+        link_text = self.get_link_text()
         return link_text.isdigit()
+    
+    def get_id(self) -> str:
+        return self._note.attrs["xml:id"]
 
     def set_id(self, new_id: str) -> None:
         self._link.attrs["target"] = f"#{new_id}"

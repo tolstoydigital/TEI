@@ -353,13 +353,20 @@ def change_tags(root: etree._Element) -> None:
         note_id = note_tag.attrib.get('{http://www.w3.org/XML/1998/namespace}id') or note_tag.attrib.get('id') \
                   or note_tag.attrib.get('n') or note_tag.attrib.get('{http://www.w3.org/2001/XInclude}id')
         
+        is_footnote = note_tag.attrib.get("type") == "footnote"
+
+        note_tag.tag = 'span'
+        
         for attr in note_tag.attrib:
             note_tag.attrib.pop(attr)
-            note_tag.tag = 'span'
-            note_tag.set('class', 'note')
+        
+        note_tag.set('class', 'note')
 
-            if note_id:
-                note_tag.set('id', note_id)
+        if note_id:
+            note_tag.set('id', note_id)
+
+        if is_footnote:
+            note_tag.set('type', 'footnote')
 
     # ref around notes to a
     ref_tags = [t for t in root.xpath('//ns:ref', namespaces={'ns': XMLNS})
@@ -875,8 +882,8 @@ def main():
             if not filename.endswith('.xml'):
                 continue
 
-            if not "tolstaya_letters" in path:
-                continue
+            # if not "tolstaya_diaries/data/xml/by_entry" in path:
+            #     continue
 
             if "gusev" in path:
                 text = handle_gusev_record(os.path.join(path, filename))
