@@ -1,123 +1,153 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v73_204_NikolayuII">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо Николаю II от 16 января 1902 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо Николаю II, 16 января 1902 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 73. М.: Гос. изд. «Художественная литература», 1954. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="ac6ad6a3-e9e3-448d-9003-bf6bae65b6a7">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 73</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1954"/>
-                        </imprint>
-                        <biblScope unit="vol">73</biblScope>
-                        <biblScope unit="page">184-198</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl/>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Гаспра</placeName>
-                    <date when="1902-01-16"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="9800">Николай II Александрович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">204</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="NikolayuII._204">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v73_204_NikolayuII">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо Николаю II от 16 января 1902 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо Николаю II, 16 января 1902 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 73. М.: Гос. изд. «Художественная литература», 1954. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="ac6ad6a3-e9e3-448d-9003-bf6bae65b6a7">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 73
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1954"/>
+      </imprint>
+      <biblScope unit="vol">
+       73
+      </biblScope>
+      <biblScope unit="page">
+       184-198
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl/>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Гаспра
+     </placeName>
+     <date when="1902-01-16"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="9800">
+      Николай II Александрович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   204
+  </number>
+ </xenoData>
+ <text xml:id="NikolayuII._204" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <pb n="184"/>
@@ -157,7 +187,10 @@
       1
      </ref>
      <note index="false" resp="volume_editor" xml:id="note1">
-      [после нас хоть потоп]. Выражение, приписываемое мадам де Помпадур; стало девизом жизни и царствования французского короля Людовика XV; впервые употреблено в сочинении аббата Мабли (1709—1785). Вошло в поговорку.
+      <hi rend="italic">
+       после нас хоть потоп
+      </hi>
+      . Выражение, приписываемое мадам де Помпадур; стало девизом жизни и царствования французского короля Людовика XV; впервые употреблено в сочинении аббата Мабли (1709—1785). Вошло в поговорку.
      </note>
      могут и должны уверять Вас в этом; но удивительно, как Вы, свободный, ни в чем не нуждающийся человек, и человек разумный и добрый, можете верить им и, следуя их ужасным советам, делать или допускать делать столько зла ради такого неисполнимого намерения, как остановка вечного движения человечества от зла к добру, от мрака к свету.
     </p>
@@ -188,7 +221,9 @@
       3
      </ref>
      <note index="false" resp="volume_editor" xml:id="note3">
-      [счастливая случайность,]
+      <hi rend="italic">
+       счастливая случайность,
+      </hi>
      </note>
      а что цари могут быть и бывали и изверги и безумцы, как
      <name placement="text" ref="5787" type="person">
@@ -199,7 +234,10 @@
       4
      </ref>
      <note index="false" resp="volume_editor" xml:id="note4">
-      [«будь ничтожен и подобострастен, и всего достигнешь»]. П. Бомарше, «Женитьба Фигаро», III акт, 3-я сцена. Точный текст: «médiocre et rampant, l’on arrive à tout».
+      <hi rend="italic">
+       «будь ничтожен и подобострастен, и всего достигнешь»
+      </hi>
+      . П. Бомарше, «Женитьба Фигаро», III акт, 3-я сцена. Точный текст: «médiocre et rampant, l’on arrive à tout».
      </note>
     </p>
     <p id="835e0dc0-4126-4ed6-b1fd-615a2dda75cb" rend="emptyline">
@@ -865,7 +903,9 @@
       14
      </ref>
      <note index="false" resp="volume_editor" xml:id="note14">
-      [Прогресс и бедность]
+      <hi rend="italic">
+       Прогресс и бедность
+      </hi>
      </note>
      (вы, вероятно, знаете их, а если не знаете, то прочтите, или пусть сделают вам конспект из них). Мысль его в том, что земля не может быть предметом собственности и что для упорядочения владения землей нужно перевести все подати на землю, обложив ее по степени ее ценности. Проект Г.
      <choice original_editorial_correction="Дж[орджа]">

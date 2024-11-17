@@ -1,124 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v59_032_T_A_Ergolskoj">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо Т. А. Ергольской от 9 декабря 1850 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо Т. А. Ергольской, 9 декабря 1850 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="79a44637-c64d-4969-b4bb-110c3eb26fe4">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 59</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1935"/>
-                        </imprint>
-                        <biblScope unit="vol">59</biblScope>
-                        <biblScope unit="page">69-73</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date when="1850-12-09"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="4947">Ергольская Татьяна Александровна</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">32</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="T.A.Ergolskoj_32">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v59_032_T_A_Ergolskoj">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо Т. А. Ергольской от 9 декабря 1850 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо Т. А. Ергольской, 9 декабря 1850 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 59. М.: Гос. изд. «Художественная литература», 1935. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="79a44637-c64d-4969-b4bb-110c3eb26fe4">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 59
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1935"/>
+      </imprint>
+      <biblScope unit="vol">
+       59
+      </biblScope>
+      <biblScope unit="page">
+       69-73
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date when="1850-12-09"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="4947">
+      Ергольская Татьяна Александровна
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   32
+  </number>
+ </xenoData>
+ <text xml:id="T.A.Ergolskoj_32" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <pb n="69"/>
@@ -268,7 +300,27 @@
       <name placement="note" ref="4764" type="person">
        Александр Дюма
       </name>
-      (1802—1870), известный французский романист. Роман его «Le Vicomte de Bragelonne ou Dix ans plus tard» [«Виконт де Бражелон» или «Десять лет спустя»] представляет собою продолжение многотомных романов А. Дюма: «Les trois Mousquetaires» [«Три мушкатера»] и «Vingt ans après» [«Двадцать лет спустя»]. «Виконт де Бражелон» написан А. Дюма в сотрудничестве с М. Огюст Макэ. Толстой вероятно имел в руках первое французское издание этого романа: Paris. Michel Lévy frères 1848—1850, 26 tt. in 8°. Исторический труд А. Дюма «Louis XIV et son siècle» [«Людовик XIV и его век»] выдержал во Франции к 1850 г. два издания, одно из них вероятно читал Толстой: 1) Paris. Dufour, Moulat et Boulanger 1844—1845. 2 tt. in 8°, 2) Paris, Passard 1845—1846. 9 tt. in 8°. «Les Mille et un Fantômes» [«Тысяча и одно привидение»] роман А. Дюма вышел во Франции первым изданием в 1849 г. в двух томах.
+      (1802—1870), известный французский романист. Роман его «Le Vicomte de Bragelonne ou Dix ans plus tard»
+      <hi rend="italic">
+       «Виконт де Бражелон» или «Десять лет спустя»
+      </hi>
+      представляет собою продолжение многотомных романов А. Дюма: «Les trois Mousquetaires»
+      <hi rend="italic">
+       «Три мушкатера»
+      </hi>
+      и «Vingt ans après»
+      <hi rend="italic">
+       «Двадцать лет спустя»
+      </hi>
+      . «Виконт де Бражелон» написан А. Дюма в сотрудничестве с М. Огюст Макэ. Толстой вероятно имел в руках первое французское издание этого романа: Paris. Michel Lévy frères 1848—1850, 26 tt. in 8°. Исторический труд А. Дюма «Louis XIV et son siècle»
+      <hi rend="italic">
+       «Людовик XIV и его век»
+      </hi>
+      выдержал во Франции к 1850 г. два издания, одно из них вероятно читал Толстой: 1) Paris. Dufour, Moulat et Boulanger 1844—1845. 2 tt. in 8°, 2) Paris, Passard 1845—1846. 9 tt. in 8°. «Les Mille et un Fantômes»
+      <hi rend="italic">
+       «Тысяча и одно привидение»
+      </hi>
+      роман А. Дюма вышел во Франции первым изданием в 1849 г. в двух томах.
      </note>
      —
      <choice>
@@ -430,7 +482,11 @@
       <hi>
        сей равно.
       </hi>
-      Аникеев был у меня, купил кобылу в 200 р. ассигнациями, дал мне в 100 р. асс. билиард, а остальные 100 асс. не отдал, говоря, что у него покуда денег нет. Из этого ты можешь заключить, что у него и для тебя оных нет. Однако, я, чтобы исполнить твое поручение, у него об оном деле спрашивал; он мне отвечал то же, что и тебе, что теперь он вовсе без денег, а есть ли будут, то он тебе об оном сейчас даст знать, что я тебе и передаю. Говорил еще он мне, что он сам поедет в Москву и там тебя увидит, но всё же это me paraît louche [мне кажется подозрительным]».
+      Аникеев был у меня, купил кобылу в 200 р. ассигнациями, дал мне в 100 р. асс. билиард, а остальные 100 асс. не отдал, говоря, что у него покуда денег нет. Из этого ты можешь заключить, что у него и для тебя оных нет. Однако, я, чтобы исполнить твое поручение, у него об оном деле спрашивал; он мне отвечал то же, что и тебе, что теперь он вовсе без денег, а есть ли будут, то он тебе об оном сейчас даст знать, что я тебе и передаю. Говорил еще он мне, что он сам поедет в Москву и там тебя увидит, но всё же это me paraît louche
+      <hi rend="italic">
+       мне кажется подозрительным
+      </hi>
+      ».
      </note>
      <choice>
       <reg>
@@ -721,7 +777,11 @@
       <hi>
        сей равно.
       </hi>
-      Аникеев был у меня, купил кобылу в 200 р. ассигнациями, дал мне в 100 р. асс. билиард, а остальные 100 асс. не отдал, говоря, что у него покуда денег нет. Из этого ты можешь заключить, что у него и для тебя оных нет. Однако, я, чтобы исполнить твое поручение, у него об оном деле спрашивал; он мне отвечал то же, что и тебе, что теперь он вовсе без денег, а есть ли будут, то он тебе об оном сейчас даст знать, что я тебе и передаю. Говорил еще он мне, что он сам поедет в Москву и там тебя увидит, но всё же это me paraît louche [мне кажется подозрительным]».
+      Аникеев был у меня, купил кобылу в 200 р. ассигнациями, дал мне в 100 р. асс. билиард, а остальные 100 асс. не отдал, говоря, что у него покуда денег нет. Из этого ты можешь заключить, что у него и для тебя оных нет. Однако, я, чтобы исполнить твое поручение, у него об оном деле спрашивал; он мне отвечал то же, что и тебе, что теперь он вовсе без денег, а есть ли будут, то он тебе об оном сейчас даст знать, что я тебе и передаю. Говорил еще он мне, что он сам поедет в Москву и там тебя увидит, но всё же это me paraît louche
+      <hi rend="italic">
+       мне кажется подозрительным
+      </hi>
+      ».
      </note>
      *
      <choice>

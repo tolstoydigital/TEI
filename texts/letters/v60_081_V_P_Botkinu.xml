@@ -1,124 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v60_081_V_P_Botkinu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо В. П. Боткину от 26 июня 1857 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо В. П. Боткину, 26 июня 1857 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="f04bb0a4-ad32-4814-b6cf-7de917ff3a6e">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 60</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1949"/>
-                        </imprint>
-                        <biblScope unit="vol">60</biblScope>
-                        <biblScope unit="page">199-214</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Люцерн</placeName>
-                    <date when="1857-06-26"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="1790">Боткин Василий Петрович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#not_sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">81</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="V.P.Botkinu_81">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v60_081_V_P_Botkinu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо В. П. Боткину от 26 июня 1857 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо В. П. Боткину, 26 июня 1857 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 60. М.: Гос. изд. «Художественная литература», 1949. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="f04bb0a4-ad32-4814-b6cf-7de917ff3a6e">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 60
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1949"/>
+      </imprint>
+      <biblScope unit="vol">
+       60
+      </biblScope>
+      <biblScope unit="page">
+       199-214
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Люцерн
+     </placeName>
+     <date when="1857-06-26"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="1790">
+      Боткин Василий Петрович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#not_sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   81
+  </number>
+ </xenoData>
+ <text xml:id="V.P.Botkinu_81" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <pb n="199"/>
@@ -343,7 +375,9 @@
       8
      </ref>
      <note index="false" resp="volume_editor" xml:id="note8">
-      [Милостивые государи и государыни,]
+      <hi rend="italic">
+       Милостивые государи и государыни,
+      </hi>
      </note>
      вдруг заговорил маленький человечек полуитальянским, полунемецким акцентом, с теми интонациями, с которыми говорят фокусники к публике, si vous croyez que je gagne quelque chose, vous vous tromperez fort, pour un pauvre homme, Messieurs et Mesdames, je vous chanterais l’air du Rigi.
      <ref target="#note9">
@@ -386,7 +420,9 @@
       12
      </ref>
      <note index="false" resp="volume_editor" xml:id="note12">
-      [благодарю, милостивые государи и государыни.]
+      <hi rend="italic">
+       благодарю, милостивые государи и государыни.
+      </hi>
      </note>
      Хохот увеличился. Тиролец прокашлялся, сказал
      <ref target="#note13">
@@ -551,7 +587,9 @@
       24
      </ref>
      <note index="false" resp="volume_editor" xml:id="note24">
-      [Да, сахар хорош, он приятен для детей.]
+      <hi rend="italic">
+       Да, сахар хорош, он приятен для детей.
+      </hi>
      </note>
      Я ничего не понял; но в лакейской группе засмеялись. Ничего нет, а то бы
      <del>
@@ -599,7 +637,9 @@
       27
      </ref>
      <note index="false" resp="volume_editor" xml:id="note27">
-      [наречие]
+      <hi rend="italic">
+       наречие
+      </hi>
      </note>
      Вот ее перевод:
      <ref target="#note28">
@@ -609,7 +649,18 @@
       <hi>
        Между строк этих последних фраз Толстым вписано:
       </hi>
-      Здесь он est serré par la police [стеснен полицией], вот что. Ежели раз заметили да поймали, то в тюрьму, захотят позволят, не захотят нет. А в Италии позволяют. А здесь по новым законам республики не позволяют. Он одушевился. Надо чтобы un bon diable [хороший малый] жил, а то что же это такое, богатые живут, а нам нет. Что же это за законы республики, коли так, то мы не хотим этих законов, мы хотим... и он замялся, — des Lois naturelles [естественные законы]
+      Здесь он est serré par la police
+      <hi rend="italic">
+       стеснен полицией
+      </hi>
+      , вот что. Ежели раз заметили да поймали, то в тюрьму, захотят позволят, не захотят нет. А в Италии позволяют. А здесь по новым законам республики не позволяют. Он одушевился. Надо чтобы un bon diable
+      <hi rend="italic">
+       хороший малый
+      </hi>
+      жил, а то что же это такое, богатые живут, а нам нет. Что же это за законы республики, коли так, то мы не хотим этих законов, мы хотим... и он замялся, — des Lois naturelles
+      <hi rend="italic">
+       естественные законы
+      </hi>
      </note>
     </p>
     <p id="0a283f27-4252-407e-b216-1f8e952fc044">
@@ -676,7 +727,9 @@
       30
      </ref>
      <note index="false" resp="volume_editor" xml:id="note30">
-      [я только это скажу]
+      <hi rend="italic">
+       я только это скажу
+      </hi>
      </note>
      я догадался, что он это сказал неловко хитросплетенную [фразу], долженствовавшую означать, что вино очень хорошо и что он давно не пил такого. Мы продолжали беседовать, лакей, кажется, подтрунивал над нами, я подливал моему гостю. Он всё отказывался из приличия, но пил. Я знаю, что вы хотите, сказал он, прищурив глаз и грозя пальцем, вы хотите меня напоить, но нет, не удастся. Je ne dis que ça. Я протестовал. Ему жалко верно стало, что
      <hi style="opdelimiter">
@@ -721,7 +774,9 @@
       32
      </ref>
      <note index="false" resp="volume_editor" xml:id="note32">
-      [господин прав]
+      <hi rend="italic">
+       господин прав
+      </hi>
      </note>
     </p>
     <p id="e61868ba-70aa-4ec2-89f1-0625848e4df8">
@@ -1084,7 +1139,9 @@
       39
      </ref>
      <note index="false" resp="volume_editor" xml:id="note39">
-      [непосредственное]
+      <hi rend="italic">
+       непосредственное
+      </hi>
      </note>
      чувство человека. — Его нет, и оно исчезает по мере распространения цивилизации, т. е. корыстной, разумной, себялюбивой асосиации людей,
      <choice original_editorial_correction="к[оторую]">

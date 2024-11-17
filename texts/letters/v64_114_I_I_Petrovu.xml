@@ -1,123 +1,155 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v64_114_I_I_Petrovu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо И. И. Петрову с 1 июля 1887 г. по 31 июля 1887 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо И. И. Петрову, 1 июля 1887 г. — 31 июля 1887 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 64. М.: Гос. изд. «Художественная литература», 1953. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="d9b923c7-ee39-42de-bcfb-d5e17dd8e367">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 64</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1953"/>
-                        </imprint>
-                        <biblScope unit="vol">64</biblScope>
-                        <biblScope unit="page">63-64</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Ясная Поляна</placeName>
-                    <date notBefore="1887-07-01" notAfter="1887-07-31"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="10730">Петров Иван Иванович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="ru"/>
-            </langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">114</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="I__I__Petrovu_114">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v64_114_I_I_Petrovu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо И. И. Петрову с 1 июля 1887 г. по 31 июля 1887 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо И. И. Петрову, 1 июля 1887 г. — 31 июля 1887 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 64. М.: Гос. изд. «Художественная литература», 1953. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="d9b923c7-ee39-42de-bcfb-d5e17dd8e367">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 64
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1953"/>
+      </imprint>
+      <biblScope unit="vol">
+       64
+      </biblScope>
+      <biblScope unit="page">
+       63-64
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Ясная Поляна
+     </placeName>
+     <date notAfter="1887-07-31" notBefore="1887-07-01"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="10730">
+      Петров Иван Иванович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   114
+  </number>
+ </xenoData>
+ <text xml:id="I__I__Petrovu_114" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <pb n="63"/>
@@ -455,7 +487,10 @@
       12
      </ref>
      <note index="false" resp="volume_editor" xml:id="note12">
-      [Л. Е. Оболенский,] «Странник», М. 1886.
+      <hi rend="italic">
+       Л. Е. Оболенский,
+      </hi>
+      «Странник», М. 1886.
      </note>
     </p>
     <p id="7d47d543-887d-4ed0-8204-7a237f84918e" rend="center">
@@ -596,7 +631,10 @@
       18
      </ref>
      <note index="false" resp="volume_editor" xml:id="note18">
-      [П. П. Беликов,] «Житие святого Петра, бывшего прежде мытарем, и преподобного Моисея Мурина», М. 1886.
+      <hi rend="italic">
+       П. П. Беликов,
+      </hi>
+      «Житие святого Петра, бывшего прежде мытарем, и преподобного Моисея Мурина», М. 1886.
      </note>
     </p>
     <p id="7de6d2a6-527b-4e97-997f-d2a5aea831e7" rend="center">
@@ -633,7 +671,10 @@
       19
      </ref>
      <note index="false" resp="volume_editor" xml:id="note19">
-      [П. П. Беликов,] «Житие святого Павлина Ноланского и страдание святого мученика Федора и Никифора. Составлено по Четии-минеи святого Дмитрия Ростовского», М. 1887.
+      <hi rend="italic">
+       П. П. Беликов,
+      </hi>
+      «Житие святого Павлина Ноланского и страдание святого мученика Федора и Никифора. Составлено по Четии-минеи святого Дмитрия Ростовского», М. 1887.
      </note>
     </p>
     <p id="1dc85a0e-ffce-4652-a965-266a33b71d2a" rend="center">
@@ -876,7 +917,10 @@
       33
      </ref>
      <note index="false" resp="volume_editor" xml:id="note33">
-      [Т. А. Кузминская,] “Бабья доля (рассказ крестьянки)”, М. 1887.
+      <hi rend="italic">
+       Т. А. Кузминская,
+      </hi>
+      “Бабья доля (рассказ крестьянки)”, М. 1887.
      </note>
     </p>
     <p id="96e3e9d8-80ba-439a-8d50-f2ad5a1e89b0" rend="center">
@@ -968,7 +1012,10 @@
       38
      </ref>
      <note index="false" resp="volume_editor" xml:id="note38">
-      [О. Н. Спенглер,] «Свет жизни», М. 1887.
+      <hi rend="italic">
+       О. Н. Спенглер,
+      </hi>
+      «Свет жизни», М. 1887.
      </note>
     </p>
     <p id="db4086da-bd75-420a-851d-4389d8f4e7d8" rend="center">
@@ -1007,7 +1054,10 @@
       41
      </ref>
      <note index="false" resp="volume_editor" xml:id="note41">
-      [И. Г. Журавов,] «Раздел», М. 1887.
+      <hi rend="italic">
+       И. Г. Журавов,
+      </hi>
+      «Раздел», М. 1887.
      </note>
     </p>
     <p id="d7ce3933-46c2-4d49-9a69-9109a29c6a4e" rend="center">

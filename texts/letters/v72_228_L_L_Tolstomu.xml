@@ -1,124 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v72_228_L_L_Tolstomu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо Л. Л. Толстому от 19 декабря 1899 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо Л. Л. Толстому, 19 декабря 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="f0ef39b2-2e48-46b5-8698-74fe7fb92faa">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 72</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1933"/>
-                        </imprint>
-                        <biblScope unit="vol">72</biblScope>
-                        <biblScope unit="page">279-279</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Москва</placeName>
-                    <date when="1899-12-19"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="13881">Толстой Лев Львович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">228</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="L.L.Tolstomu_228">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v72_228_L_L_Tolstomu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо Л. Л. Толстому от 19 декабря 1899 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо Л. Л. Толстому, 19 декабря 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="f0ef39b2-2e48-46b5-8698-74fe7fb92faa">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 72
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1933"/>
+      </imprint>
+      <biblScope unit="vol">
+       72
+      </biblScope>
+      <biblScope unit="page">
+       279-279
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Москва
+     </placeName>
+     <date when="1899-12-19"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="13881">
+      Толстой Лев Львович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   228
+  </number>
+ </xenoData>
+ <text xml:id="L.L.Tolstomu_228" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <pb n="279"/>
@@ -642,7 +674,11 @@
       5
      </ref>
      <note index="false" resp="volume_editor" xml:id="note5">
-      В ответном письме от 5 января н. ст. 1900 г. Л. Л. Толстой писал: «Милый папа, хотя ты и просишь не отвечать тебе, я не могу этого сделать. Ты прав, я недобро к тебе относился, и, конечно, это причина нашей отчужденности. Постараюсь совсем и искренно уничтожить в себе дурные чувства к тебе, и ты, конечно, тогда это сам почувствуешь. Думаю, что они уже исчезли теперь, потому что мне дико и больно думать и представить себе, чтобы они жили во мне. Не огорчайся тем, что я пишу это письмо, и не сердись. Объяснения нашей недружбы простые, и, напротив, их полезно знать. Во-первых, я иначе взглянул на некоторые вещи чем ты, и это разъединило нас; во-вторых, не я один, а ты тоже недобро относился ко мне, и мне одинаково трудно было, как и тебе, просто и открыто относиться к тебе. Но теперь конец всему этому. Прости меня, пожалуйста, до конца и будь со мной, как прежде. Я делаю и сделаю всё для того, чтобы быть снова дружным с тобой. То благо в душе, о котором ты пишешь, я знаю его и стремлюсь к нему, и, бог даст, оно будет расти во мне. Я уже стал лучше потому, что полюбил многих людей, которых раньше не любил. Целую тебя и люблю [...] Не думай, что я не люблю тебя и пишу это страшное слово так себе. Я иначе не могу назвать мое чувство к тебе».
+      В ответном письме от 5 января н. ст. 1900 г. Л. Л. Толстой писал: «Милый папа, хотя ты и просишь не отвечать тебе, я не могу этого сделать. Ты прав, я недобро к тебе относился, и, конечно, это причина нашей отчужденности. Постараюсь совсем и искренно уничтожить в себе дурные чувства к тебе, и ты, конечно, тогда это сам почувствуешь. Думаю, что они уже исчезли теперь, потому что мне дико и больно думать и представить себе, чтобы они жили во мне. Не огорчайся тем, что я пишу это письмо, и не сердись. Объяснения нашей недружбы простые, и, напротив, их полезно знать. Во-первых, я иначе взглянул на некоторые вещи чем ты, и это разъединило нас; во-вторых, не я один, а ты тоже недобро относился ко мне, и мне одинаково трудно было, как и тебе, просто и открыто относиться к тебе. Но теперь конец всему этому. Прости меня, пожалуйста, до конца и будь со мной, как прежде. Я делаю и сделаю всё для того, чтобы быть снова дружным с тобой. То благо в душе, о котором ты пишешь, я знаю его и стремлюсь к нему, и, бог даст, оно будет расти во мне. Я уже стал лучше потому, что полюбил многих людей, которых раньше не любил. Целую тебя и люблю
+      <hi rend="italic">
+       ...
+      </hi>
+      Не думай, что я не люблю тебя и пишу это страшное слово так себе. Я иначе не могу назвать мое чувство к тебе».
      </note>
     </p>
     <p id="6e401b5e-d81c-475e-8daf-b9eb3bf0ee94" rend="right">

@@ -153,7 +153,12 @@ def add_uuids_to_existing_p_and_l(root: etree._Element, uuids: set[str]) -> None
 
 
 def delete_old_orthography(root: etree._Element) -> None:
-    """Заменить тег choice на текст тега reg. Проблемы с переносом строк"""
+    """
+    Заменить тег choice на текст тега reg. Проблемы с переносом строк
+
+    TODO: эта версия скрипта путает порядок слов, применять только со строгой ручной пост-проверкой.
+    Ниже приведена закомментированная старая версия этой функции, которая порядок слов не путает.
+    """
     for reg_tag in root.xpath('//ns:reg', namespaces={'ns': XMLNS}):
         choice_tag = reg_tag.getparent()
         parent = choice_tag.getparent()
@@ -174,6 +179,23 @@ def delete_old_orthography(root: etree._Element) -> None:
                 for sub_tag in reg_tag:
                     parent.insert(parent.index(choice_tag), deepcopy(sub_tag))
             remove_tag_save_text(choice_tag)
+
+# Функция ниже – это старая версия функции выше. Она не путает слова в отличие от той, что выше.
+# def delete_old_orthography(root: etree._Element) -> None:
+#     """Заменить тег choice на текст тега reg. Проблемы с переносом строк"""
+#     for reg_tag in root.xpath('//ns:reg', namespaces={'ns': f'{XMLNS}'}):
+#         choice_tag = reg_tag.getparent()
+#         reg_text = reg_tag.text.strip(" \n") if reg_tag.text is not None else ''
+#         text = f'{reg_text}{choice_tag.tail if choice_tag.tail is not None else ""}'.strip(' \n') + ' '
+#         parent = choice_tag.getparent()
+#         if parent is not None:
+#             previous_tag = choice_tag.getprevious()
+#             if previous_tag is not None:
+#                 previous_tag.tail = (previous_tag.tail or '').rstrip(' \n') + ' ' + text
+#             else:
+#                 parent_text = (parent.text or '').rstrip(' \n') + ' ' + text
+#                 parent.text = parent_text.rstrip('\n')
+#             parent.remove(choice_tag)
 
 
 def get_title_id_from_root(root: etree._Element) -> str:

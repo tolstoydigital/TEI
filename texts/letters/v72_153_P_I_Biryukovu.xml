@@ -1,124 +1,156 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title xml:id="v72_153_P_I_Biryukovu">
-                    Письма и документы. Tolstoy Digital
-                </title>
-                <title type="main">Письмо П. И. Бирюкову от 1 августа 1899 г.</title>
-                <title type="bibl">Толстой Л. Н. Письмо П. И. Бирюкову, 1 августа 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С. </title>
-                <respStmt>
-                    <resp>Идея, постановка задач, руководство:</resp>
-                    <name>
-                        Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка TEI/XML:
-                    </resp>
-                    <name>
-                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Подготовка метаданных:
-                    </resp>
-                    <name>
-                        Мария Картышева, Вероника Файнберг
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Разметка имен собственных:
-                    </resp>
-                    <name>
-                        Никита Северин, Елена Северина
-                    </name>
-                </respStmt>
-                <respStmt>
-                    <resp>
-                        Исправление древнегреческого текста:
-                    </resp>
-                    <name>
-                        Ольга Алиева
-                    </name>
-                </respStmt>
-                <funder>
-                    Проект «Слово Толстого»
-                </funder>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>
-                    <orgName>
-                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
-                    </orgName>
-                </publisher>
-                <availability>
-                    <p id="9c1707a4-a314-4e2f-8a95-f409211c7d5c">
-                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
-                    </p>
-                </availability>
-                <date from="2015" to="2022"/>
-            </publicationStmt>
-             <notesStmt>
-                <note>
-                    Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
-                </note>
-            </notesStmt> 
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <author>Толстой Лев Николаевич</author>
-                    </analytic>
-                    <monogr>
-                        <title level="m">Полное собрание сочинений. Том 72</title>
-                        <imprint>
-                            <pubPlace>Москва</pubPlace>
-                            <publisher>Государственное издательство «Художественная литература»</publisher>
-                            <date when="1933"/>
-                        </imprint>
-                        <biblScope unit="vol">72</biblScope>
-                        <biblScope unit="page">163-167</biblScope>
-                    </monogr>
-                    <series>
-                        <title level="s">Л. Н. Толстой. Полное собрание сочинений: в 90 тт.</title>
-                    </series>
-                </biblStruct>
-                <bibl>Публикуется впервые</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <xi:include href="../../reference/taxonomy.xml"/>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sending">
-                    <persName ref="13883">Л. Н. Толстой</persName>
-                    <placeName>Ясная Поляна</placeName>
-                    <date when="1899-08-01"/>
-                </correspAction>
-                <correspAction type="receiving">
-                    <persName ref="1444">Бирюков Павел Иванович</persName>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-  <language ident="ru"/>
-  <language ident="ru-petr1708"/>
-</langUsage>
-            <textClass>
-                <catRef ana="#tolstoy_heritage" target="library"/>
-                <catRef ana="#letters" target="type"/>
-                <catRef ana="#sent" target="sent"/>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <xenoData><number type="in a volume">153</number></xenoData>
-    <text xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="P.I.Biryukovu_153">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:id="v72_153_P_I_Biryukovu">
+     Письма и документы. Tolstoy Digital
+    </title>
+    <title type="main">
+     Письмо П. И. Бирюкову от 1 августа 1899 г.
+    </title>
+    <title type="bibl">
+     Толстой Л. Н. Письмо П. И. Бирюкову, 1 августа 1899 г. // Толстой Л. Н. Полное собрание сочинений: в 90 тт. Т. 72. М.: Гос. изд. «Художественная литература», 1933. С.
+    </title>
+    <respStmt>
+     <resp>
+      Идея, постановка задач, руководство:
+     </resp>
+     <name>
+      Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка TEI/XML:
+     </resp>
+     <name>
+      Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Подготовка метаданных:
+     </resp>
+     <name>
+      Мария Картышева, Вероника Файнберг
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Разметка имен собственных:
+     </resp>
+     <name>
+      Никита Северин, Елена Северина
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Исправление древнегреческого текста:
+     </resp>
+     <name>
+      Ольга Алиева
+     </name>
+    </respStmt>
+    <funder>
+     Проект «Слово Толстого»
+    </funder>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <orgName>
+      Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово» проект «Слово Толстого»
+     </orgName>
+    </publisher>
+    <availability>
+     <p id="9c1707a4-a314-4e2f-8a95-f409211c7d5c">
+      Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+     </p>
+    </availability>
+    <date from="2015" to="2022"/>
+   </publicationStmt>
+   <notesStmt>
+    <note>
+     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии.
+    </note>
+   </notesStmt>
+   <sourceDesc>
+    <biblStruct>
+     <analytic>
+      <author>
+       Толстой Лев Николаевич
+      </author>
+     </analytic>
+     <monogr>
+      <title level="m">
+       Полное собрание сочинений. Том 72
+      </title>
+      <imprint>
+       <pubPlace>
+        Москва
+       </pubPlace>
+       <publisher>
+        Государственное издательство «Художественная литература»
+       </publisher>
+       <date when="1933"/>
+      </imprint>
+      <biblScope unit="vol">
+       72
+      </biblScope>
+      <biblScope unit="page">
+       163-167
+      </biblScope>
+     </monogr>
+     <series>
+      <title level="s">
+       Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+      </title>
+     </series>
+    </biblStruct>
+    <bibl>
+     Публикуется впервые
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <classDecl>
+    <xi:include href="../../reference/taxonomy.xml"/>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <correspDesc>
+    <correspAction type="sending">
+     <persName ref="13883">
+      Л. Н. Толстой
+     </persName>
+     <placeName>
+      Ясная Поляна
+     </placeName>
+     <date when="1899-08-01"/>
+    </correspAction>
+    <correspAction type="receiving">
+     <persName ref="1444">
+      Бирюков Павел Иванович
+     </persName>
+    </correspAction>
+   </correspDesc>
+   <langUsage>
+    <language ident="ru"/>
+    <language ident="ru-petr1708"/>
+   </langUsage>
+   <textClass>
+    <catRef ana="#tolstoy_heritage" target="library"/>
+    <catRef ana="#letters" target="type"/>
+    <catRef ana="#sent" target="sent"/>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <xenoData>
+  <number type="in a volume">
+   153
+  </number>
+ </xenoData>
+ <text xml:id="P.I.Biryukovu_153" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <body>
    <div>
     <pb n="163"/>
@@ -303,7 +335,11 @@
       1
      </ref>
      <note index="false" resp="volume_editor" xml:id="note1">
-      Первый номер издававшегося П. И. Бирюковым русского ежемесячного журнала «Свободная мысль» («Pensée libre»), «издание швейцарского отдела редакции “Свободного слова”, под редакцией П. Бирюкова». Всего вышел двадцать один номер: в 1899 г. пять номеров, в 1900 г. двенадцать номеров и в 1901 г. четыре номера. Содержание номера первого, август, 1899: 1) От Швейцарского отдела редакции «Свободного слова» [издательства, учрежденного в Англии В. Г. Чертковым]. 2) Мысль и свобода. 3) Из международной жизни: Конференция в Гааге, Обмен мнений шведского общества и
+      Первый номер издававшегося П. И. Бирюковым русского ежемесячного журнала «Свободная мысль» («Pensée libre»), «издание швейцарского отдела редакции “Свободного слова”, под редакцией П. Бирюкова». Всего вышел двадцать один номер: в 1899 г. пять номеров, в 1900 г. двенадцать номеров и в 1901 г. четыре номера. Содержание номера первого, август, 1899: 1) От Швейцарского отдела редакции «Свободного слова»
+      <hi rend="italic">
+       издательства, учрежденного в Англии В. Г. Чертковым
+      </hi>
+      . 2) Мысль и свобода. 3) Из международной жизни: Конференция в Гааге, Обмен мнений шведского общества и
       <name placement="note" ref="13883" type="person">
        Л. Н. Толстого
       </name>
@@ -311,7 +347,11 @@
       <name placement="note" ref="13883" type="person">
        Лев Николаевич
       </name>
-      , послал вам № 1 “Свободной мысли”. Жду от вас критики, помощи и дружеской нравственной поддержки. Я начал это дело с уверенностью, что это нужно начать, advienne ce que pourra [а будет, что будет], на первое время конечно хватит средств и материальных и нравственных, но нужно подливать масло, чтоб не иссяк огонек; а вы меня что-то совсем забросили. Знаю, как вы заняты, и дорожу вашим покоем и результатом его, но по слабости человеческой всё хочется осязать чувственно».
+      , послал вам № 1 “Свободной мысли”. Жду от вас критики, помощи и дружеской нравственной поддержки. Я начал это дело с уверенностью, что это нужно начать, advienne ce que pourra
+      <hi rend="italic">
+       а будет, что будет
+      </hi>
+      , на первое время конечно хватит средств и материальных и нравственных, но нужно подливать масло, чтоб не иссяк огонек; а вы меня что-то совсем забросили. Знаю, как вы заняты, и дорожу вашим покоем и результатом его, но по слабости человеческой всё хочется осязать чувственно».
      </note>
      Очень хорошо.
      <choice>
@@ -1155,7 +1195,11 @@
       21
      </ref>
      <note index="false" resp="volume_editor" xml:id="note21">
-      Письмо немецко-мадьярского писателя, редактора журнала «Ohne Staat» [«Без государства»], Евгения Шмита, о венгерской секте «Назарены».
+      Письмо немецко-мадьярского писателя, редактора журнала «Ohne Staat»
+      <hi rend="italic">
+       «Без государства»
+      </hi>
+      , Евгения Шмита, о венгерской секте «Назарены».
      </note>
      но боюсь, что
      <choice>
