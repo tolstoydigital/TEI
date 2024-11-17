@@ -875,6 +875,9 @@ def main():
             if not filename.endswith('.xml'):
                 continue
 
+            if not "tolstaya_letters" in path:
+                continue
+
             if "gusev" in path:
                 text = handle_gusev_record(os.path.join(path, filename))
             else:
