@@ -48,8 +48,8 @@ class TeiNote:
         self._link.string = new_text
 
     def add_footnote_type(self) -> None:
-        self._link.attrs["type"] = "footnote"
+        self._note.attrs["type"] = "footnote"
 
     def remove_footnote_type(self) -> None:
-        if "type" in self._link.attrs and self._link.attrs["type"] == "footnote":
-            del self._link.attrs["type"]
+        if "type" in self._note.attrs and self._note.attrs["type"] == "footnote":
+            del self._note.attrs["type"]
