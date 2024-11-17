@@ -185,17 +185,31 @@ def delete_old_orthography(root: etree._Element) -> None:
 #     """Заменить тег choice на текст тега reg. Проблемы с переносом строк"""
 #     for reg_tag in root.xpath('//ns:reg', namespaces={'ns': f'{XMLNS}'}):
 #         choice_tag = reg_tag.getparent()
-#         reg_text = reg_tag.text.strip(" \n") if reg_tag.text is not None else ''
-#         text = f'{reg_text}{choice_tag.tail if choice_tag.tail is not None else ""}'.strip(' \n') + ' '
 #         parent = choice_tag.getparent()
-#         if parent is not None:
-#             previous_tag = choice_tag.getprevious()
-#             if previous_tag is not None:
-#                 previous_tag.tail = (previous_tag.tail or '').rstrip(' \n') + ' ' + text
+
+#         if len(reg_tag) == 0:
+#             reg_text = reg_tag.text.strip(" \n") if reg_tag.text is not None else ''
+#             text = f'{reg_text}{choice_tag.tail if choice_tag.tail is not None else ""}'.strip(' \n') + ' '
+#             if parent is not None:
+#                 previous_tag = choice_tag.getprevious()
+#                 if previous_tag is not None:
+#                     previous_tag.tail = (previous_tag.tail or '').rstrip(' \n') + ' ' + text
+#                 else:
+#                     parent_text = (parent.text or '').rstrip(' \n') + ' ' + text
+#                     parent.text = parent_text.rstrip('\n')
+#                 parent.remove(choice_tag)
+#         else:
+#             prev = choice_tag.getprevious()
+#             reg_tag_text = reg_tag.text if reg_tag.text is not None and reg_tag.text.strip(' \n') else ''
+#             if prev is not None:
+#                 prev.tail = f'{prev.tail}{reg_tag_text}'
+#                 for sub_tag in reg_tag:
+#                     parent.insert(parent.index(choice_tag), deepcopy(sub_tag))
 #             else:
-#                 parent_text = (parent.text or '').rstrip(' \n') + ' ' + text
-#                 parent.text = parent_text.rstrip('\n')
-#             parent.remove(choice_tag)
+#                 parent.text = f'{parent.text}{reg_tag_text}'
+#                 for sub_tag in reg_tag:
+#                     parent.insert(parent.index(choice_tag), deepcopy(sub_tag))
+#             remove_tag_save_text(choice_tag)
 
 
 def get_title_id_from_root(root: etree._Element) -> str:
