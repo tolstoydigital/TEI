@@ -13,7 +13,7 @@ TOLSTOY_LETTER_REPOSITORY_PATH = os.path.join(ROOT_DIR, "../../../../texts/lette
 
 
 def process_tolstoy_letter(document: TeiDocument) -> None:
-    footnotes = document.get_footnotes()
+    footnotes = document.get_notes()
 
     for footnote in footnotes:
         replace_square_brackets_with_cursive(footnote)

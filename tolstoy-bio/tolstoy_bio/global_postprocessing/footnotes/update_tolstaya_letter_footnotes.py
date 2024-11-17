@@ -42,7 +42,7 @@ def transform_note_with_wordy_link_to_footnote(note: TeiNote, index: int) -> Non
 
 
 def process_tolstaya_letter(document: TeiDocument, *, verbose: bool = False) -> None:
-    footnotes = document.get_footnotes()
+    footnotes = document.get_notes()
 
     numeric_footnote_count = 1
     sentence_footnote_count = 1
