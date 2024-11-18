@@ -370,7 +370,7 @@ def change_tags(root: etree._Element) -> None:
 
     # ref around notes to a
     ref_tags = [t for t in root.xpath('//ns:ref', namespaces={'ns': XMLNS})
-                if 'target' in t.attrib and 'note' in t.attrib['target']]
+                if 'target' in t.attrib and ('note' in t.attrib['target'] or re.fullmatch(r"#a\d+", t.attrib['target']))]
     for tag in ref_tags:
         ref_id = tag.attrib['target'].strip('#')
         tag.tag = 'a'
