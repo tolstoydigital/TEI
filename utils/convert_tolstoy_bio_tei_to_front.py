@@ -191,10 +191,17 @@ def get_title_id_from_root(root: etree._Element) -> str:
 
 def change_tags(root: etree._Element) -> None:
     # various tags into spans
-    for tag_name in ['opener', 'dateline', 'unclear', 'del', 'gap', 'add']:
-        for tag in root.xpath(f'//ns:{tag_name}', namespaces={'ns': XMLNS}):
-            tag.tag = 'span'
-            tag.set('class', tag_name)
+    for tag_name in ["opener", "dateline", "unclear", "del", "gap", "add"]:
+        for tag in root.xpath(f"//ns:{tag_name}", namespaces={"ns": XMLNS}):
+            tag.tag = "span"
+            tag.set("class", tag_name)
+
+    # transform <respons> tags to <span>
+    for tag in root.xpath("//ns:respons", namespaces={"ns": XMLNS}):
+        tag.tag = "span"
+
+        for attr in tag.attrib.keys():
+            del tag.attrib[attr]
 
     # heads with levels into spans
     for tag in root.xpath(f'//ns:head[@n]', namespaces={'ns': XMLNS}):
