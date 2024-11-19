@@ -17,6 +17,14 @@ TOLSTAYA_LETTER_ENTRY_XML_DOCUMENTS_FOLDER_PATH = os.path.join(
     ROOT_DIR, "../../tolstaya_letters/data/xml"
 )
 
+TOLSTAYA_DIARY_VOLUME_REPOSITORY_PATH = os.path.join(
+    ROOT_DIR, "../../tolstaya_diaries/data/xml/by_volume"
+)
+
+TOLSTAYA_DIARY_ENTRY_REPOSITORY_PATH = os.path.join(
+    ROOT_DIR, "../../tolstaya_diaries/data/xml/by_entry"
+)
+
 
 class TeiDocument:
     def __init__(self, path: str) -> None:
@@ -36,7 +44,7 @@ class TeiDocument:
         BeautifulSoupUtils.prettify_and_save(self._soup, self._path)
 
 
-def main():
+def process_letters():
     document_paths = [
         TOLSTAYA_LETTER_VOLUME_XML_DOCUMENT_PATH,
         *IoUtils.get_folder_contents_paths(
@@ -44,10 +52,27 @@ def main():
         ),
     ]
 
-    for path in tqdm(document_paths, "Processing"):
+    for path in tqdm(document_paths, "Processing letters"):
         document = TeiDocument(path)
         document.update_opener_add_tags()
         document.save()
+
+
+def process_diaries():
+    document_paths = [
+        *IoUtils.get_folder_contents_paths(TOLSTAYA_DIARY_VOLUME_REPOSITORY_PATH),
+        *IoUtils.get_folder_contents_paths(TOLSTAYA_DIARY_ENTRY_REPOSITORY_PATH),
+    ]
+
+    for path in tqdm(document_paths, "Processing diaries"):
+        document = TeiDocument(path)
+        document.update_opener_add_tags()
+        document.save()
+
+
+def main() -> None:
+    process_letters()
+    process_diaries()
 
 
 if __name__ == "__main__":
