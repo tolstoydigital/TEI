@@ -847,17 +847,45 @@ def handle_gusev_record(path: str) -> str:
     for body_p in body.find_all("p"):
         body_p.attrs["id"] = uuid4()
 
+    # Convert soup to string
+
+    content = soup.prettify()
+
     # Remove <bibl> milestones
 
-    milestones = soup.find_all("milestone")
-    for milestone in milestones:
-        milestone.decompose()
+    # SYMBOLS_WITHOUT_FOLLOWING_WHITESPACE = set(["(", "[", "«", ">"])
+    # SYMBOLS_WITHOUT_PRECEDING_WHITESPACE = set([")", ",", ".", ":", ";", "]", "<"])
 
-    soup.smooth()
+    # def remove_milestone_tag(match: re.Match) -> str:
+    #     start_symbol, space_after_start_symbol, _, space_before_end_symbol, end_symbol = match.groups()
+
+    #     output = ""
+
+    #     if start_symbol == ">":
+    #         output = start_symbol + space_after_start_symbol + output
+    #     elif start_symbol in SYMBOLS_WITHOUT_FOLLOWING_WHITESPACE:
+    #         output = start_symbol + output
+    #     else:
+    #         output = start_symbol + " " + output
+
+    #     if end_symbol == "<":
+    #         output = output + space_before_end_symbol + end_symbol
+    #     elif start_symbol in SYMBOLS_WITHOUT_PRECEDING_WHITESPACE:
+    #         output = output + end_symbol
+    #     else:
+    #         output = output + " " + end_symbol
+
+    #     return output
+
+    content = re.sub(
+        r'\s*<milestone type="bibl-tag-(start|end)"/>\s*',
+        " ",
+        content
+    )
 
     # Transform XML-like self-closing tags syntax to HTML-like
 
-    content = soup.prettify().replace('<span class="note"/>', '<span class="note"></span>')
+    content = content.replace('<span class="note"/>', '<span class="note"></span>') 
 
     # Assertions
 
@@ -884,6 +912,9 @@ def main():
                 continue
 
             if "gusev/data/source" in path:
+                continue
+
+            if "tolstoy_bio/bibllist_bio" in path:
                 continue
             
             if not filename.endswith('.xml'):
@@ -933,13 +964,18 @@ def main():
             total_xml_id_fix_count += xml_id_fix_count
 
             # check that xml is valid
-            etree.fromstring(text.encode())
+            try:
+                etree.fromstring(text.encode())
+            except Exception as e:
+                print(f"{path}/{filename}")
+                raise e
 
             saving_path = RESULT_PATH / Path(*Path(path).parts[2:], filename)
             saving_path.parent.mkdir(parents=True, exist_ok=True)
             saving_path.write_text(text)
     
     validate()
+
     print(f'Number of invalid xml:id removals: {total_xml_id_fix_count}')
 
 
