@@ -950,8 +950,7 @@ def main():
 
                 if filename == 'tolstaya-s-a-letters.xml':
                     file_content = make_page_per_letter(file_content)
-
-                if is_tolstaya_letter_path(path):
+                elif is_tolstaya_letter_path(path):
                     file_content = remove_heads_and_their_p_parents(file_content)
                 
                 parser = etree.XMLParser(recover=True)
