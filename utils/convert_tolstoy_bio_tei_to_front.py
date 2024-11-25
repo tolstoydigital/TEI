@@ -895,6 +895,25 @@ def handle_gusev_record(path: str) -> str:
     return content
 
 
+def is_tolstaya_letter_path(path: str) -> bool:
+    return "tolstaya_letters/data" in path
+
+
+def remove_heads_and_their_p_parents(xml: str) -> str:
+    soup = bs4.BeautifulSoup(xml, "xml")
+    head_elements: list[bs4.Tag] = soup.find_all("head")
+
+    for head_element in head_elements:
+        parent_paragraph_element = head_element.parent
+        assert parent_paragraph_element, "<head> does not have a <p> parent."
+        parent_paragraph_element.decompose()
+    
+    assert len(list(soup.find_all("head"))) == 0, "XML still has <head> elements"
+    assert all(p.text.strip() != "" for p in soup.find_all("p")), "XML has empty paragraphs."
+
+    return soup.prettify()
+
+
 def main():
     uuids = get_all_uuids(REPO_TEXTS_PATH)
     rare_words_ids = get_ids_from_catalogue(DICTIONARY_PATH, r'<word xml:id="(.*?)">')
@@ -926,16 +945,17 @@ def main():
             if "gusev" in path:
                 text = handle_gusev_record(os.path.join(path, filename))
             else:
-                parser = etree.XMLParser(recover=True)
+                with open(Path(path, filename), 'r') as file:
+                    file_content = file.read()
 
                 if filename == 'tolstaya-s-a-letters.xml':
-                    with open(Path(path, filename), 'r') as file:
-                        file_content = file.read()
-                        file_content = make_page_per_letter(file_content)
-                        root = etree.fromstring(file_content.encode(), parser)
-                else:
-                    with open(Path(path, filename), 'rb') as file:
-                        root = etree.fromstring(file.read(), parser)
+                    file_content = make_page_per_letter(file_content)
+
+                if is_tolstaya_letter_path(path):
+                    file_content = remove_heads_and_their_p_parents(file_content)
+                
+                parser = etree.XMLParser(recover=True)
+                root = etree.fromstring(file_content.encode(), parser)
 
                 try:
                     add_uuids_to_existing_p_and_l(root, uuids)
