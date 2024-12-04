@@ -35,7 +35,7 @@ class GusevDocumentMetadata:
             end_month,
             end_day,
             *_,
-        ) = filename.split("_")
+        ) = filename.replace(".xml", "").split("_")
 
         return cls(
             start_date=Date(start_year, start_month, start_day),
@@ -78,9 +78,9 @@ class GusevTeiDocument:
         iso_set = set()
 
         technical_dates = self._get_soup().find_all("date", {"from": True, "to": True})
-        
+
         for date in technical_dates:
             iso_set.add(date.attrs["from"])
             iso_set.add(date.attrs["to"])
-        
+
         return iso_set
