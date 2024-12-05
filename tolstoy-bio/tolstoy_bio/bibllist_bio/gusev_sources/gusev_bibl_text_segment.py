@@ -13,7 +13,7 @@ class GusevBiblTextSegment:
     def get_source_types(self) -> list[GusevSourceType]:
         detected_types: list[GusevSourceType] = []
 
-        if self.text.startswith(f"Д "):
+        if self.text.startswith(f"Д ") or self.text == "Д":
             detected_types.append(GusevSourceType.TOLSTOY_DIARY)
 
         if "ДСТ" in self.text:
