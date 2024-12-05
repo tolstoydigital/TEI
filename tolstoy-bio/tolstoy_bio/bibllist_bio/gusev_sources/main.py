@@ -10,6 +10,9 @@ from tolstoy_bio.utilities.io import IoUtils
 from .gusev_tei_repository import GusevTeiRepository
 from .gusev_tei_document import GusevTeiDocument
 from .makovitski_mapper import MakovitskiMapper
+from .tolstaya_journals_mapper import TolstayaJournalsMapper
+from .tolstaya_diaries_mapper import TolstayaDiariesMapper
+from .tolstoy_diaries_mapper import TolstoyDiariesMapper
 
 
 class GusevTeiDocumentsAnalyzer:
@@ -33,8 +36,11 @@ class GusevTeiDocumentsAnalyzer:
 
 def main():
     gusev_repository = GusevTeiRepository()
-    makovitski_mapper = MakovitskiMapper(gusev_repository)
-    makovitski_mapper.map()
+    # makovitski_mapper = MakovitskiMapper(gusev_repository)
+    # makovitski_mapper.map()
+
+    mapper = TolstoyDiariesMapper(gusev_repository)
+    mapper.map()
 
 
 def generate_json() -> None:
@@ -60,11 +66,11 @@ def generate_json() -> None:
     output = ""
 
     for type, segments in segments_by_type.items():
-        output += f"{type}\n\n"
+        output += f"{type} ({len(segments)})\n\n"
         output += "\n".join(segments)
         output += "\n\n"
     
-    IoUtils.save_textual_data(output, os.path.join(os.path.dirname(__file__), "segments-by-type.txt"))
+    IoUtils.save_textual_data(output, os.path.join(os.path.dirname(__file__), "segments-by-type-with-counts-2.txt"))
 
 
 if __name__ == "__main__":
