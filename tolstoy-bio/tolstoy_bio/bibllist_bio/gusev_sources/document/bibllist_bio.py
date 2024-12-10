@@ -80,11 +80,16 @@ class RelatedItem:
     def _create_relation(
         self, id_: str | int, type_: RelationType, source: str | None = None
     ) -> bs4.Tag:
-        return BeautifulSoupUtils.create_tag(
+        tag = BeautifulSoupUtils.create_tag(
             "xml",
             "relation",
-            attrs={"ref": id_, "type": type_, "source": source or False},
+            attrs={"ref": id_, "type": type_},
         )
+
+        if source:
+            tag["source"] = source
+
+        return tag
 
 
 class Item:
