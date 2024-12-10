@@ -17,23 +17,23 @@ from .mappers.goldenweiser_mapper import GoldenweiserMapper
 from .mappers.tolstoy_letters_mapper import TolstoyLettersMapper
 
 
-class GusevTeiDocumentsAnalyzer:
-    _documents: list[GusevTeiDocument]
+# class GusevTeiDocumentsAnalyzer:
+#     _documents: list[GusevTeiDocument]
 
-    def __init__(self, documents: list[GusevTeiDocument]) -> None:
-        self._documents = documents
+#     def __init__(self, documents: list[GusevTeiDocument]) -> None:
+#         self._documents = documents
 
-    def _iterate_documents(
-        self, message: str
-    ) -> Generator[GusevTeiDocument, None, None]:
-        for document in tqdm(self._documents, message):
-            yield document
+#     def _iterate_documents(
+#         self, message: str
+#     ) -> Generator[GusevTeiDocument, None, None]:
+#         for document in tqdm(self._documents, message):
+#             yield document
 
-    def assert_no_bibl_elements_in_bodies(self) -> None:
-        for document in self._iterate_documents(
-            "Asserting no <bibl> elements in Gusev's bodies"
-        ):
-            document.assert_no_bibl_elements_in_body()
+#     def assert_no_bibl_elements_in_bodies(self) -> None:
+#         for document in self._iterate_documents(
+#             "Asserting no <bibl> elements in Gusev's bodies"
+#         ):
+#             document.assert_no_bibl_elements_in_body()
 
 
 def main():
@@ -41,37 +41,39 @@ def main():
 
 
 def map_and_update_bibllist_bio():
-    # gusev_repository = GusevTeiRepository()
+    gusev_repository = GusevTeiRepository()
 
-    # mappers = [
-    #     MakovitskiMapper,
-    #     TolstayaJournalsMapper,
-    #     TolstayaDiariesMapper,
-    #     TolstoyDiariesMapper,
-    #     GoldenweiserMapper,
-    #     TolstoyLettersMapper,
-    # ]
+    mappers = [
+        MakovitskiMapper,
+        TolstayaJournalsMapper,
+        TolstayaDiariesMapper,
+        TolstoyDiariesMapper,
+        GoldenweiserMapper,
+        TolstoyLettersMapper,
+    ]
 
     maps: list[dict[str, list[str]]] = []
 
-    # for Mapper in mappers:
-    #     mapper_instance = Mapper(gusev_repository)
-    #     maps.append(mapper_instance.map_to_source_ids())
+    for Mapper in mappers:
+        mapper_instance = Mapper(gusev_repository)
+        maps.append(mapper_instance.map_to_source_ids())
 
-    for name in tqdm([
-        "gusev-to-goldenweiser",
-        "gusev-to-makovitski",
-        "gusev-to-tolstaya-diaries",
-        "gusev-to-tolstaya-journals",
-        "gusev-to-tolstoy-diaries",
-        "gusev-to-tolstoy-letters",
-    ], "Loading"):
-        path = os.path.join(
-            os.path.dirname(__file__),
-            f"data/linking_results/{name}.json",
-        )
+    # for name in tqdm([
+    #     "gusev-to-goldenweiser",
+    #     "gusev-to-makovitski",
+    #     "gusev-to-tolstaya-diaries",
+    #     "gusev-to-tolstaya-journals",
+    #     "gusev-to-tolstoy-diaries",
+    #     "gusev-to-tolstoy-letters",
+    # ], "Loading"):
+    #     path = os.path.join(
+    #         os.path.dirname(__file__),
+    #         f"data/linking_results/{name}.json",
+    #     )
 
-        maps.append(IoUtils.read_json(path))
+    #     # sources = IoUtils.read_json(path)
+
+    #     maps.append(IoUtils.read_json(path))
 
     bibllist_bio_path: str = os.path.join(
         os.path.dirname(__file__),
