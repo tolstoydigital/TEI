@@ -32,3 +32,10 @@ class GusevBiblTextSegment:
             detected_types.append(GusevSourceType.TOLSTOY_LETTER)
 
         return detected_types
+    
+    def has_uncertain_type(self) -> bool:
+        if self.text in ["Д", "ДСТ", "ЕСТ", "ЯЗ", "Гольд", "Юб.", "Юб"]:
+            return True
+        
+        types: list = self.get_source_types()
+        return len(types) == 0

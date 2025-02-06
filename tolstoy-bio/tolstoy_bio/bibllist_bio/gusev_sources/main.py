@@ -1,7 +1,9 @@
 from collections import defaultdict
+from dataclasses import dataclass
 import os
 from typing import Generator
 
+import pandas as pd
 from tqdm import tqdm
 
 from tolstoy_bio.utilities.io import IoUtils
@@ -139,5 +141,54 @@ def generate_json_with_counted_segments_by_item_type() -> None:
     )
 
 
+def get_non_tolstoy_bio_bibl_segments():
+    gusev_repository = GusevTeiRepository()
+    gusev_documents = gusev_repository.get_documents()
+
+    @dataclass
+    class Segment:
+        document_id: str
+        text: str
+
+        def __hash__(self):
+            return hash(self.text)
+
+        def __eq__(self, other) -> bool:
+            return self.text == other.text
+
+    segments: set[Segment] = set()
+
+    for document in tqdm(gusev_documents, "Getting non-tolstoy-bio <bibl> segments"):
+        bibl_elements = document.get_bibl_elements()
+
+        for bibl_element in bibl_elements:
+            bibl_text = bibl_element.get_text()
+            bibl_text_segments = bibl_text.get_segments()
+
+            for segment in bibl_text_segments:
+                if segment.has_uncertain_type():
+                    segments.add(
+                        Segment(
+                            document_id=document.get_id(),
+                            text=segment.get_text(),
+                        )
+                    )
+
+    sorted_segments = sorted(segments, key=lambda segment: segment.text)
+
+    print(sorted_segments)
+
+    df = pd.DataFrame(sorted_segments, columns=["document_id", "text"])
+
+    print(df)
+
+    df.to_excel(
+        os.path.join(
+            os.path.dirname(__file__), "data/non_tolstoy_bio_bibl_segments.xlsx"
+        ),
+        index=False,
+    )
+
+
 if __name__ == "__main__":
-    main()
+    get_non_tolstoy_bio_bibl_segments()
