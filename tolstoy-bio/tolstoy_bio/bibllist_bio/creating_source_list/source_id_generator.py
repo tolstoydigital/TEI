@@ -99,7 +99,7 @@ class SourceIdGenerator:
         )
 
     def _make_id_unique(self, base_id: str, count_to_be: int):
-        postfix_letter_index = count_to_be - 1
+        postfix_letter_index = count_to_be - 2
 
         assert postfix_letter_index < len(latin_alphabet_letters), (
             f"Invalid count to be: {count_to_be}, "
