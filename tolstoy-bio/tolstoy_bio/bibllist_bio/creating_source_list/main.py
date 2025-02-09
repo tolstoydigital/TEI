@@ -43,6 +43,10 @@ def main():
 
     # print("\n".join([source.id for source in sources]))
 
+    assert len(sources) == len(
+        set(source.id for source in sources)
+    ), "Duplicate source IDs found."
+
     assert all(source.id[0].isalpha() for source in sources), [
         source.id for source in sources if not source.id[0].isalpha()
     ]
