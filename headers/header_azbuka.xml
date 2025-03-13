@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+             <titleStmt>                
+            <title xml:id="{id}">Азбука. Tolstoy Digital</title>
+            <title type="main">{title_K}</title>
+            <title type="sub">{subtitle_M}</title>
+            <title type="bibl">{bibliography}</title>
+            <author>Толстой Лев Николаевич</author>
+            <respStmt>
+                <resp>Идея, постановка задач, руководство:</resp>
+                <name>
+                    Анастасия Бонч-Осмоловская, Фёкла Толстая, Борис Орехов, Тимофей Лукашевский
+                </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка TEI/XML:
+                    </resp>
+                    <name>
+                        Евгений Можаев, Даниил Скоринкин, Ирина Павлова, Матвей Колбасов, Елена Сидорова, Кирилл Милинцевич, Лев Буланов, Макар Федоров, Константин Петров
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Подготовка метаданных:
+                    </resp>
+                    <name>
+                        Мария Картышева, Вероника Файнберг
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Разметка имен собственных:
+                    </resp>
+                    <name>
+                        Никита Северин, Елена Северина
+                    </name>
+            </respStmt>
+            <respStmt>
+                    <resp>
+                        Исправление древнегреческого текста:
+                    </resp>
+                    <name>
+                        Ольга Алиева
+                    </name>
+            </respStmt>
+                <funder>
+                    Проект «Слово Толстого»
+                </funder>
+            </titleStmt>     
+            <publicationStmt>               
+                <publisher>
+                    <orgName>
+                        Tolstoy Digital, DH CLOUD, Научно-образовательный союз «Родное Слово», проект «Слово Толстого»
+                    </orgName>
+                </publisher>
+                <availability>
+                    <p>
+                        Тексты и метатекстовая разметка доступны для свободного использования и распространения по лицензии Creative Commons Attribution Share-Alike (cc by-sa)
+                    </p>
+                </availability>
+                <date from="2015" to="2022"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    Публикуемые документы были получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
+                </note>
+            </notesStmt> 
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            Толстой Лев Николаевич
+                         </author>
+                        <title level="a">
+                           {title_as_in_90_B}
+                        </title>
+                        <title level="s">
+                            {title_level_s_F}
+                        </title>
+                    </analytic>
+                    <monogr>
+                        <title level="m">
+                          Полное собрание сочинений: в 90 тт.
+                        </title>
+                        <imprint>
+                            <pubPlace>
+                                Москва
+                            </pubPlace>
+                            <publisher>
+                                Государственное издательство «Художественная литература»
+                            </publisher>
+                            <date when="1957"/>
+                        </imprint>
+                        <biblScope unit="volume">{volume}</biblScope>
+                        <biblScope unit="page">{start_page_D}-{end_page_E}</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">
+                            Л. Н. Толстой. Полное собрание сочинений: в 90 тт.
+                        </title>
+                    </series>
+                </biblStruct>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../../reference/taxonomy.xml"/>
+            </classDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <creation>
+                <date>
+                    {date_N}
+                </date>
+            </creation>
+            <textClass> 
+                <catRef ana="#works" target="type" />
+                <catRef ana="#{sphere_R}" target="sphere"/>
+                <catRef ana="#{genre_Q}" target="genre"/>
+                <catRef ana="#{finished_S}" target="finished"/>
+                <catRef ana="#{published_U}" target="published"/>
+                <catRef ana="#{included_H}" target="included"/>
+                <catRef ana="#{topic_V}" target="topic"/>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    {text}
+</TEI>
+   
+    
