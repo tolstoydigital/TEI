@@ -224,7 +224,7 @@ class DocumentMetadata:
     bibliographic_description: str
     related_persons_ids: list[str | int]
     related_works_ids: list[str | int]
-    related_sources_ids: list[str | int]
+    related_texts_ids: list[str | int]
     related_locations_ids: list[str | int]
     calendar_settings: CalendarSettings
 
@@ -271,8 +271,8 @@ class DocumentMetadataUtils:
         def validate_related_works_ids():
             return ValidationUtils.validate_list(entry.related_works_ids, [str, int])
 
-        def validate_related_sources_ids():
-            return ValidationUtils.validate_list(entry.related_sources_ids, [str, int])
+        def validate_related_texts_ids():
+            return ValidationUtils.validate_list(entry.related_texts_ids, [str, int])
 
         def validate_related_locations_ids():
             return ValidationUtils.validate_list(
@@ -295,7 +295,7 @@ class DocumentMetadataUtils:
             "bibliographic_description": validate_bibliographic_description,
             "related_persons_ids": validate_related_persons_ids,
             "related_works_ids": validate_related_works_ids,
-            "related_sources_ids": validate_related_sources_ids,
+            "related_texts_ids": validate_related_texts_ids,
             "related_locations_ids": validate_related_locations_ids,
             "calendar_settings": validate_calendar_settings,
         }
@@ -316,6 +316,7 @@ class RelationType(StrEnum):
     WORK = "works"
     LOCATION = "location"
     SOURCE = "source"
+    TEXTS = "texts"
 
 
 class RelatedItem:
@@ -365,8 +366,8 @@ class RelatedItem:
         if fields_to_update is None or "related_locations_ids" in fields_to_update:
             self._set_relations(metadata.related_locations_ids, RelationType.LOCATION)
 
-        if fields_to_update is None or "related_sources_ids" in fields_to_update:
-            self._set_relations(metadata.related_sources_ids, RelationType.SOURCE)
+        if fields_to_update is None or "related_texts_ids" in fields_to_update:
+            self._set_relations(metadata.related_texts_ids, RelationType.TEXTS)
 
     def _set_opener_text(self, text: str) -> None:
         opener = self._soup.find("opener")
@@ -501,6 +502,7 @@ class BibllistBio:
             [
                 entry.group_id
                 for entry in tqdm(new_metadata, "Identifying target <item> element ids")
+                if entry.group_id
             ]
         )
 
@@ -600,9 +602,13 @@ class BibllistBio:
             )
 
     def _get_item_by_id(self, id_: str) -> Item:
-        element = self._soup.find("ref", {"xml:id": id_}).parent
-        assert element.name == "item"
-        return Item(element)
+        ref_element = self._soup.find("ref", {"xml:id": id_})
+        assert ref_element, f"Failed to find <ref> for {id_}"
+
+        item_element = ref_element.parent
+        assert item_element.name == "item"
+
+        return Item(item_element)
 
     def save(self) -> None:
         content = self._soup.prettify()
@@ -630,7 +636,7 @@ class DatabaseDumpCsvParser:
                 bibliographic_description=row["bibtext"],
                 related_persons_ids=self._parse_python_literal(row["persons"], []),
                 related_works_ids=self._parse_python_literal(row["works"], []),
-                related_sources_ids=self._parse_python_literal(row["texts"], []),
+                related_texts_ids=self._parse_python_literal(row["texts"], []),
                 related_locations_ids=self._parse_python_literal(row["places"], []),
                 calendar_settings=CalendarSettings(
                     is_in_calendar=self._parse_python_literal(row["incal"]),
