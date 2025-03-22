@@ -421,9 +421,9 @@ class RelatedItem:
         BeautifulSoupUtils.replace_sequence_of_tags(existing_relations, new_relations)
 
     def _set_technical_dates(self, dates: list[TechnicalDate]) -> None:
-        old_date_elements = self._soup.find_all("date", {"calendar": True})
+        old_date_elements = self._soup.find_all("date", {"from": True, "to": True})
 
-        new_date_elements: bs4.Tag = [
+        new_date_elements: list[bs4.Tag] = [
             BeautifulSoupUtils.create_tag(
                 "xml",
                 "date",
