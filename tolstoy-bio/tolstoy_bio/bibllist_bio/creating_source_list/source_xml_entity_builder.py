@@ -85,6 +85,14 @@ def build_source_xml_entity(source: Source) -> bs4.Tag:
             "date", {}, source.publication_date
         )
 
+    item_element.append_element_if_has_inner_text("author_front", {}, source.author_front)
+
+    item_element.append_element_if_has_inner_text("title_front", {}, source.title_front)
+
+    item_element.append_element_if_has_inner_text("url", {}, source.external_url)
+
+    item_element.append_element_if_has_inner_text("source_comment", {}, source.external_url_comment)
+
     return item_element.to_soup()
 
 

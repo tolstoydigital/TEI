@@ -21,12 +21,16 @@ class SourceProvider:
                 author=entry["автор"],
                 editor=entry["редактор"],
                 work=entry["заголовок работы"],
-                anthology=entry["опубликова в"],
+                anthology=entry["опубликовано в"],
                 publisher=entry["издатнльство "],
                 volume=entry["том, книга, выпуск"],
                 publication_place=entry["место издания"],
                 publication_date=entry["дата издания"],
                 storage=entry["место хранения"],
+                author_front=entry["author_front"],
+                title_front=entry["title_front"],
+                external_url=entry["url external"],
+                external_url_comment=entry["комментарий к ссылке"]
             )
             for _, entry in tqdm(
                 table.iterrows(), "Parsing sources from XLSX table", len(table)
