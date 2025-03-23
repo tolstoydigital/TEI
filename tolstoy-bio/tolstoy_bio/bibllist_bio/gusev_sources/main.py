@@ -191,4 +191,4 @@ def get_non_tolstoy_bio_bibl_segments():
 
 
 if __name__ == "__main__":
-    get_non_tolstoy_bio_bibl_segments()
+    main()
