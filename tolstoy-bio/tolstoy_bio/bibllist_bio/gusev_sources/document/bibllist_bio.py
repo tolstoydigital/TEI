@@ -22,6 +22,7 @@ class RelationType(StrEnum):
     WORK = "works"
     LOCATION = "location"
     SOURCE = "source"
+    TEXTS = "texts"
 
 
 class SourceRelationType(StrEnum):
@@ -55,12 +56,27 @@ class RelatedItem:
     ) -> None:
         existing_relations = self._soup.find_all("relation", {"type": relation_type})
 
-        assert (
-            existing_relations
-        ), 'No placeholder found for <relation type="{relation_type}" />'
+        if (
+            relation_type == RelationType.SOURCE
+            and source == SourceRelationType.FROM_TOLSTOY_BIO
+            and not existing_relations
+        ):
+            placeholder = self._create_placeholder_relation(relation_type, source)
+
+            text_type_relations = self._soup.find_all(
+                "relation", {"type": RelationType.TEXTS}
+            )
+
+            text_type_relations[-1].insert_after(placeholder)
+
+            existing_relations = [placeholder]
+        else:
+            assert (
+                existing_relations
+            ), f'No placeholder found for <relation type="{relation_type}" />'
 
         if not relation_ids:
-            placeholder = self._create_placeholder_relation(relation_type)
+            placeholder = self._create_placeholder_relation(relation_type, source)
 
             BeautifulSoupUtils.replace_sequence_of_tags(
                 existing_relations, [placeholder]
@@ -74,8 +90,10 @@ class RelatedItem:
 
         BeautifulSoupUtils.replace_sequence_of_tags(existing_relations, new_relations)
 
-    def _create_placeholder_relation(self, type_: RelationType) -> bs4.Tag:
-        return self._create_relation("EMPTY", type_)
+    def _create_placeholder_relation(
+        self, type_: RelationType, source: str | None = None
+    ) -> bs4.Tag:
+        return self._create_relation("EMPTY", type_, source)
 
     def _create_relation(
         self, id_: str | int, type_: RelationType, source: str | None = None
