@@ -1,4 +1,4 @@
-from typing import Callable
+from typing import Callable, Self
 
 import bs4
 
@@ -176,3 +176,61 @@ class BeautifulSoupUtils:
     def prettify_and_save(soup: bs4.BeautifulSoup, path: str) -> None:
         content = soup.prettify()
         IoUtils.save_textual_data(content, path)
+
+    # @staticmethod
+    # def get_soup_from_file(
+    #     file_path: str, parser: str, encoding: str = TextUtils.UTC_ENCODING
+    # ) -> bs4.BeautifulSoup:
+    #     file_contents = IoUtils.read_as_text(file_path, encoding)
+    #     return bs4.BeautifulSoup(file_contents, parser)
+
+    @staticmethod
+    def get_empty_soup(parser: str = None) -> bs4.BeautifulSoup:
+        return bs4.BeautifulSoup(features=parser)
+
+    @classmethod
+    def create_tag(cls: Self, parser: str = None, *args, **kwargs) -> bs4.Tag:
+        return cls.get_empty_soup(parser).new_tag(*args, **kwargs)
+
+    # @classmethod
+    # def create_string(cls: Self, text: str) -> bs4.Tag:
+    #     return cls.get_empty_soup().new_string(text)
+
+    @classmethod
+    def replace_sequence_of_tags(
+        cls: Self,
+        old_sequence: list[bs4.Tag],
+        new_sequence: list[bs4.Tag],
+        starting_point: bs4.Tag | None = None,
+    ) -> None:
+        if not old_sequence and not starting_point:
+            raise RuntimeError(
+                "Unable to replace a sequence of tags "
+                "because of an undefined or missing starting point"
+            )
+
+        if old_sequence:
+            old_sequence[-1].insert_after(*new_sequence)
+            BeautifulSoupUtils.decompose(*old_sequence)
+        else:
+            starting_point.insert_after(*new_sequence)
+
+    # @staticmethod
+    # def has_no_nested_tags(element: bs4.Tag) -> bool:
+    #     return all(type(child) is not bs4.Tag for child in element.children)
+
+    # @classmethod
+    # def set_inner_text(cls, text: str, element: bs4.Tag) -> None:
+    #     element.clear()
+    #     element.append(cls.create_string(text))
+
+    # @staticmethod
+    # def find_if_single_or_fail(soup: bs4.BeautifulSoup, *args, **kwargs) -> bs4.Tag:
+    #     elements = list(soup.find_all(*args, **kwargs))
+
+    #     if len(elements) != 1:
+    #         raise ValueError(
+    #             f"Expected exactly one element matching {args}, {kwargs}, found {len(elements)}"
+    #         )
+
+    #     return elements[0]

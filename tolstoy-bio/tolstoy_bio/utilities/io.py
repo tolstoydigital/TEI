@@ -33,6 +33,11 @@ class IoUtils:
         with codecs.open(path, 'w', encoding=target_encoding) as file:
             file.write(content)
 
+    @classmethod
+    def read_json(cls, path: str):
+        content = cls.read_as_text(path)
+        return json.loads(content)
+
     @staticmethod
     def save_as_json(data, path: str, *, indent: int | None = None) -> None:
         directory = os.path.dirname(path)
