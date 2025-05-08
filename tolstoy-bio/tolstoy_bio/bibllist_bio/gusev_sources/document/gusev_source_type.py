@@ -3,6 +3,7 @@ from enum import Enum, auto
 
 class GusevSourceType(Enum):
     TOLSTOY_DIARY = auto()
+    TOLSTOY_DIARY_WITH_PARENTHESIS_PREFIX = auto()
     TOLSTAYA_DIARY = auto()
     TOLSTAYA_JOURNAL = auto()
     MAKOVITSKY = auto()

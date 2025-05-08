@@ -15,6 +15,9 @@ from .mappers.makovitski_mapper import MakovitskiMapper
 from .mappers.tolstaya_journals_mapper import TolstayaJournalsMapper
 from .mappers.tolstaya_diaries_mapper import TolstayaDiariesMapper
 from .mappers.tolstoy_diaries_mapper import TolstoyDiariesMapper
+from .mappers.tolstoy_diaries_mapper_for_parenthesis_prefix import (
+    TolstoyDiariesMapperForParenthesisPrefix,
+)
 from .mappers.goldenweiser_mapper import GoldenweiserMapper
 from .mappers.tolstoy_letters_mapper import TolstoyLettersMapper
 
@@ -52,6 +55,7 @@ def map_and_update_bibllist_bio():
         TolstoyDiariesMapper,
         GoldenweiserMapper,
         TolstoyLettersMapper,
+        TolstoyDiariesMapperForParenthesisPrefix,
     ]
 
     maps: list[dict[str, list[str]]] = []
@@ -59,23 +63,6 @@ def map_and_update_bibllist_bio():
     for Mapper in mappers:
         mapper_instance = Mapper(gusev_repository)
         maps.append(mapper_instance.map_to_source_ids())
-
-    # for name in tqdm([
-    #     "gusev-to-goldenweiser",
-    #     "gusev-to-makovitski",
-    #     "gusev-to-tolstaya-diaries",
-    #     "gusev-to-tolstaya-journals",
-    #     "gusev-to-tolstoy-diaries",
-    #     "gusev-to-tolstoy-letters",
-    # ], "Loading"):
-    #     path = os.path.join(
-    #         os.path.dirname(__file__),
-    #         f"data/linking_results/{name}.json",
-    #     )
-
-    #     # sources = IoUtils.read_json(path)
-
-    #     maps.append(IoUtils.read_json(path))
 
     bibllist_bio_path: str = os.path.join(
         os.path.dirname(__file__),
