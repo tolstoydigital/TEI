@@ -16,6 +16,9 @@ class GusevBiblTextSegment:
         if self.text.startswith(f"Д ") or self.text == "Д":
             detected_types.append(GusevSourceType.TOLSTOY_DIARY)
 
+        if self.text.startswith("(Д"):
+            detected_types.append(GusevSourceType.TOLSTOY_DIARY_WITH_PARENTHESIS_PREFIX)
+
         if "ДСТ" in self.text:
             detected_types.append(GusevSourceType.TOLSTAYA_DIARY)
 
