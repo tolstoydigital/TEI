@@ -18,3 +18,18 @@ xmlstarlet sel \
   -t -m "//t:relatedItem[t:ref[@x:id='v51_031_031_1890_03_27']]/t:title[@type='bibl']" \
   -c . -n bibllist_bio.xml
 ```
+
+Bulk tag scan:
+```shell
+find . -type f -name "*.xml" -exec xmlstarlet sel \
+    -N t="http://www.tei-c.org/ns/1.0" \
+    -t -m "//t:title[@type='bibl']" \
+    -c . -n {} \;
+```
+
+```shell
+find . -type f -name "*.xml" -exec xmlstarlet sel \
+    -N t="http://www.tei-c.org/ns/1.0" \
+    -t -m "//t:biblScope[@unit='page']" \
+    -c . -n {} \;
+```
