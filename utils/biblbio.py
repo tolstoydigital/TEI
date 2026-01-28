@@ -18,6 +18,10 @@ def set_biblist_title(
     dry_run: bool = True,
 ) -> Optional[Dict[str, str]]:
 
+    if xml_id is None:
+        logger.info(f"#### no new xml_id for {filename} skipping ####")
+        return
+
     if logger is None:
         logger = logging.getLogger(__name__)
 
