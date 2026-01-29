@@ -35,7 +35,7 @@ def set_biblist_title(
         "tei": "http://www.tei-c.org/ns/1.0",
         "xml": "http://www.w3.org/XML/1998/namespace",
     }
-    xpath_top = f".//tei:relatedItem[tei:ref[@xml:id=\"{xml_id}\"]]"
+    xpath_top = f'.//tei:relatedItem[tei:ref[@xml:id="{xml_id}"]]'
     xpath_inner = f".//tei:title[@type='bibl']"
     related_items = root.xpath(xpath_top, namespaces=ns)
 
@@ -77,18 +77,12 @@ def set_tei_title_and_page(
     page: str,
     logger: Optional[logging.Logger] = None,
     dry_run: bool = True,
-) -> Optional[Dict[str, str]]:
+) -> None:
 
     if logger is None:
         logger = logging.getLogger(__name__)
 
-    if filename is None:
-        logger.info(f"#### no filename ####")
-        return
-
     target_fl = (TOP_DIR / filename).resolve()
-    # print(f"target_fl: {target_fl}")
-
     tree = etree.parse(target_fl)
     root = tree.getroot()
 
@@ -96,35 +90,55 @@ def set_tei_title_and_page(
         "tei": "http://www.tei-c.org/ns/1.0",
         "xml": "http://www.w3.org/XML/1998/namespace",
     }
-    xpath = f".//tei:title[@type='bibl']"
-    xpath2 = ".//tei:biblScope[@unit='page']"
-    titles = root.xpath(xpath, namespaces=ns)
+    TEI_NS = ns["tei"]
+
     changed = False
+
+    # --- TITLE ---
+    titles = root.xpath(".//tei:title[@type='bibl']", namespaces=ns)
     if not titles:
         logger.error(f"#### NO TITLE in {filename} ####")
 
     for t in titles:
-        logger.info(f"---")
-        if t.text == title:
-            logger.info(f"TITLE was not changed, skipping")
-        else:
+        if t.text != title:
             logger.info(f"TITLE <<< {t.text}")
             logger.info(f"TITLE >>> {title}")
             t.text = title
             changed = True
 
-    pages = root.xpath(xpath2, namespaces=ns)
+    # --- PAGE ---
+    pages = root.xpath(".//tei:biblScope[@unit='page']", namespaces=ns)
+
     if not pages:
-        logger.error(f"#### NO PAGE in {filename} ####")
-    for p in pages:
-        logger.info(f"---")
-        if p.text == page:
-            logger.info(f"PAGE was not changed, skipping")
-        else:
-            logger.info(f"PAGE <<< {p.text}")
-            logger.info(f"PAGE >>> {page}")
-            p.text = page
+        analitics = root.xpath(".//tei:biblStruct/tei:analytic", namespaces=ns)
+        if not analitics:
+            logger.error(f"#### NO analitics tag in {filename} ####")
+
+        for a in analitics:
+            if a.xpath("tei:biblScope[@unit='page']", namespaces=ns):
+                continue
+
+            bibl_scope = etree.SubElement(
+                a,
+                "biblScope",
+                attrib={"unit": "page"},
+            )
+            bibl_scope.text = page
+            bibl_scope.tail = "\n"
+            logger.info(f'PAGE >>> {etree.tostring(bibl_scope, pretty_print=True, encoding="unicode")}')
             changed = True
+    else:
+        for p in pages:
+            if p.text != page:
+                logger.info(f"PAGE <<< {p.text}")
+                logger.info(f"PAGE >>> {page}")
+                p.text = page
+                changed = True
 
     if changed and not dry_run:
-        tree.write(target_fl, encoding="UTF-8", xml_declaration=True, pretty_print=True)
+        tree.write(
+            target_fl,
+            encoding="UTF-8",
+            xml_declaration=True,
+            pretty_print=True,
+        )
