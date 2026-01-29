@@ -82,6 +82,10 @@ def set_tei_title_and_page(
     if logger is None:
         logger = logging.getLogger(__name__)
 
+    if filename is None:
+        logger.info(f"#### no filename ####")
+        return
+
     target_fl = (TOP_DIR / filename).resolve()
     # print(f"target_fl: {target_fl}")
 
