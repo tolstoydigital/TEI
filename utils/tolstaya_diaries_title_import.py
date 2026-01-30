@@ -90,7 +90,7 @@ def main():
         logger.info(f"============== {'DRY RUN' if DRY_RUN else ''} biblist_bio {biblist_id} ==============")
         set_biblist_title(
             filename=bibllist_bio_path,
-            title=front_title_type_bibl_text,
+            title=biblist_title,
             xml_id=biblist_id,
             logger=logger,
             dry_run=DRY_RUN,
